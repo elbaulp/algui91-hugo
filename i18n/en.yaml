@@ -53,4 +53,4 @@
 - id: also_available
   translation: "Also available in"
 - id: single_reading_time
-  translation: "ReadingTime {{ .ReadingTime }} m."
+  translation: "Reading Time {{ .ReadingTime }} m."
