@@ -16,7 +16,7 @@ tags:
 title: How to Change Portage Folders to Other Location in Gentoo
 ---
 
-Recently I had a problem with `portage` and its `tmp` directory in `/var/tmp/portage` in [Gentoo](/tags/#gentoo). I had no space left in the disk, the error message was:
+Recently I had a problem with `portage` and its `tmp` directory in `/var/tmp/portage` in [Gentoo](/tags/gentoo). I had no space left in the disk, the error message was:
 
 ```bash
 There is NOT at least 10 GiB disk space at "/var/tmp/portage

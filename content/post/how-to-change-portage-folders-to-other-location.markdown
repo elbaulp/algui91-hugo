@@ -17,7 +17,7 @@ tags:
 title: "C\xF3mo Cambiar El Directorio De Portage a Otro Directorio en Gentoo"
 ---
 
-Hace poco tuve problemas con [portage](/como-instalar-actualizar-elminar-paquetes-gentoo/ "Cómo Instalar/actualizar/eliminar Paquetes en Gentoo") y su directorio de trabajo temporal en `/var/tmp/portage` en [Gentoo](/tags/#gentoo) porque me quedé sin las 10GB mínimas que necesita:
+Hace poco tuve problemas con [portage](/como-instalar-actualizar-elminar-paquetes-gentoo/ "Cómo Instalar/actualizar/eliminar Paquetes en Gentoo") y su directorio de trabajo temporal en `/var/tmp/portage` en [Gentoo](/tags/gentoo) porque me quedé sin las 10GB mínimas que necesita:
 
 ```bash
 There is NOT at least 10 GiB disk space at "/var/tmp/portage

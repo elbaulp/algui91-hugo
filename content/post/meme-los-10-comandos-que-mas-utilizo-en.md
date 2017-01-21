@@ -25,7 +25,7 @@ Invito a participar en el meme a:
 <a target="_blank" href="http://usemoslinux.blogspot.com/">Usemos Linux</a>
 <a target="_blank" href="http://www.nosolounix.com/">No solo Unix</a>
 
-Aqui mi salida en mi máquina [Gentoo](/tags/#gentoo "Artículos sobre Gentoo"):
+Aqui mi salida en mi máquina [Gentoo](/tags/gentoo "Artículos sobre Gentoo"):
 
 ```bash
 hkr@alex ~ $ history | awk '{print $2}' | sort | uniq -c | sort -rn | head -10

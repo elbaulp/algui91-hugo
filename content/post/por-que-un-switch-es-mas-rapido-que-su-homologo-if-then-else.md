@@ -333,5 +333,5 @@ Tras analizar y entender cómo se implementa el switch, la razón por la que es 
 
 *Computer Systems: A Programmer's Perspective* »» <a href="http://www.amazon.es/gp/product/013034074X/ref=as_li_ss_tl?ie=UTF8&camp=3626&creative=24822&creativeASIN=013034074X&linkCode=as2&tag=elbaudelpro-21" target="_blank">Ver libro en Amazon</a>
 
- [2]: https://elbauldelprogramador.com/tags/#asm
+ [2]: https://elbauldelprogramador.com/tags/asm
  [3]: https://elbauldelprogramador.com/compilacion-de-programas-makefile-y-g/

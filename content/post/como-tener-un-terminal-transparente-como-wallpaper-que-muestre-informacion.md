@@ -126,9 +126,9 @@ Basta con cambiar el comando que sigue a la opción -e por el desado. Naturalmen
 - *Terminal as a Transparent Wallpaper* »» <a href="https://wiki.archlinux.org/index.php/Terminal_as_a_Transparent_Wallpaper" target="_blank">wiki.archlinux.org</a>
 - *How to have a transparent terminal as wallpaper that displays information* »» <a href="http://linuxaria.com/pills/how-to-have-a-transparent-terminal-as-wallpaper-that-displays-information" target="_blank">linuxaria.com</a>
 
- [1]: https://elbauldelprogramador.com/tags/#htop "htop"
+ [1]: https://elbauldelprogramador.com/tags/htop "htop"
  [2]: https://elbauldelprogramador.com/img/2013/03/xroot-example.jpg
  [3]: https://elbauldelprogramador.com/comandos-ss-iproute2-linux/ "Algunos comandos útiles con iproute2"
- [4]: https://elbauldelprogramador.com/tags/#script
- [5]: https://elbauldelprogramador.com/tags/#xmonad
- [6]: https://elbauldelprogramador.com/tags/#openbox
+ [4]: https://elbauldelprogramador.com/tags/script
+ [5]: https://elbauldelprogramador.com/tags/xmonad
+ [6]: https://elbauldelprogramador.com/tags/openbox

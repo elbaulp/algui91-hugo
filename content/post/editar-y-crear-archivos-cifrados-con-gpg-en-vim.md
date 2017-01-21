@@ -27,7 +27,7 @@ title: Editar y crear archivos cifrados con GPG en Vim
     <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/GnuPG-Logo.png" alt="Editar y crear archivos cifrados con GPG en Vim" title="Editar y crear archivos cifrados con GPG en Vim" width="400px" height="175px"></amp-img>
 </figure>
 
-Hoy quiero hablaros de un plugin bastante útil que encontré para el potente editor de textos Vim, que permite crear y modificar archivos de texto bajo **[gpg](/tags/#gpg)** (*GNU Privacy Guard*).
+Hoy quiero hablaros de un plugin bastante útil que encontré para el potente editor de textos Vim, que permite crear y modificar archivos de texto bajo **[gpg](/tags/gpg)** (*GNU Privacy Guard*).
 
 
 

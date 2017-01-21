@@ -18,7 +18,7 @@ tags:
 title: "Pasar par\xE1metros variables en C/C++"
 ---
 
-En ocasiones, es necesario tener una función a la que podamos pasar un número de parámetros variables. En el artículo de hoy veremos cómo hacerlo en [C/C++](/tags/#cpp).
+En ocasiones, es necesario tener una función a la que podamos pasar un número de parámetros variables. En el artículo de hoy veremos cómo hacerlo en [C/C++](/tags/cpp).
 
 
 

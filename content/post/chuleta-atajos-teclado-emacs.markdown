@@ -16,7 +16,7 @@ tags:
 title: "Chuleta De Comandos/Atajos De Teclado/Paquetes m\xE1s \xFAtiles para Emacs"
 ---
 
-No es la primera vez que se publica en el blog una [chuleta](/tags/#chuleta "Artículos sobre chuletas") de algo:
+No es la primera vez que se publica en el blog una [chuleta](/tags/chuleta "Artículos sobre chuletas") de algo:
 
 - [Chuleta de comandos para dig](/dig-chuleta-basica-de-comandos/ "Chuleta básica de comandos Dig")
 - [Git: Chuleta de comandos](/mini-tutorial-y-chuleta-de-comandos-git/ "Chuleta de comandos para Git")
@@ -27,7 +27,7 @@ No es la primera vez que se publica en el blog una [chuleta](/tags/#chuleta "Art
 
 La de hoy va sobre _Emacs_. La idea es que esta chuleta la creemos entre todos. Que cada uno aporte su granito de arena para crear la __chuleta de atajos de teclado/comandos/paquetes para emacs definitiva__.
 
-A lo largo del poco tiempo que llevo usando [emacs](/tags/#emacs "Artículos sobre emacs"), ya he ido descubriendo los atajos que me resultan más útiles para mi día a día, empecemos:
+A lo largo del poco tiempo que llevo usando [emacs](/tags/emacs "Artículos sobre emacs"), ya he ido descubriendo los atajos que me resultan más útiles para mi día a día, empecemos:
 
 
 
@@ -73,7 +73,7 @@ Este otro _snippet_ lo uso para insertar código en _Markdown_, al escribir `cod
 
 __Problema:__
 
-Queremos buscar por una [expresión regular](/tags/#regex "Artículos sobre expresiones regulares") o un texto simple en varios ficheros a la vez, o un directorio completo, y reemplazar el texto encontrado por otro.
+Queremos buscar por una [expresión regular](/tags/regex "Artículos sobre expresiones regulares") o un texto simple en varios ficheros a la vez, o un directorio completo, y reemplazar el texto encontrado por otro.
 
 __Solución:__
 

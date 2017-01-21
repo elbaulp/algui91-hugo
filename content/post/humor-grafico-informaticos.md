@@ -49,4 +49,4 @@ Siguiendo con la costumbre de publicar de vez en cuando [imágenes de humor][1] 
 	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="630" height="754" src="https://2.bp.blogspot.com/-iQBbiuGARuw/TvsByUJrOjI/AAAAAAAAB_s/k6W79smCKUo/s1600/welcometomyhouse.jpg"></amp-img>
 </figure>
 
- [1]: https://elbauldelprogramador.com/tags/#humor
+ [1]: https://elbauldelprogramador.com/tags/humor

@@ -100,6 +100,6 @@ done
 
 
  [1]: https://elbauldelprogramador.com/bases-de-datos/ "Bases de Datos"
- [2]: https://elbauldelprogramador.com/tags/#bash "Categoría script"
- [3]: https://elbauldelprogramador.com/tags/#regex "Artículos sobre expresiones regulares"
+ [2]: https://elbauldelprogramador.com/tags/bash "Categoría script"
+ [3]: https://elbauldelprogramador.com/tags/regex "Artículos sobre expresiones regulares"
  [4]: https://elbauldelprogramador.com/cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir/ "¿Cual es la diferencia entre los distintos formatos de audio, y cual debería elegir?"

@@ -137,7 +137,7 @@ try{
 
 ### Siguiente Tema: [Proveedores de Contenido - Introducción][5]
 
- [1]: https://elbauldelprogramador.com/tags/#android
+ [1]: https://elbauldelprogramador.com/tags/android
  [2]: https://elbauldelprogramador.com/fundamentos-programacion-android_17/
  [3]: https://elbauldelprogramador.com/programacion-android-interfaz-grafica_11/
  [4]: https://elbauldelprogramador.com/fundamentos-programacion-android_16/

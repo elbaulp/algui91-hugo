@@ -105,7 +105,7 @@ set :wp_sitename, "El Baúl del Programador" # El título del sitio WordPress
 set :wp_localurl, "http://localhost" # La dirección URL local de desarrollo
 ```
 
-Luego definimos los parámetros para el repositorio [git](/tags/#git), en el mismo archivo:
+Luego definimos los parámetros para el repositorio [git](/tags/git), en el mismo archivo:
 
 ```ruby
 set :application, "nombreDelRepo"

@@ -200,4 +200,4 @@ Como nota final, y aunque este no es un artículo patrocinado, considero que deb
 - *Lista posibles estados TCP* »» <a href="http://www.tcpipguide.com/free/t_TCPOperationalOverviewandtheTCPFiniteStateMachineF-2.htm" target="_blank">tcpipguide.com</a>
 
 
- [1]: https://elbauldelprogramador.com/tags/#nginx
+ [1]: https://elbauldelprogramador.com/tags/nginx

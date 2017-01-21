@@ -36,7 +36,7 @@ Inicialmente Nadieh tenía pensado visualizar cada una de las 56 disciplinas com
 
 ## Qué herramientas usó
 
-Para desarrollar el proyecto usó __Excel__, __R__ (Puedes consultar [artículos sobre R en este enlace](https://elbauldelprogramador.com/tags/#r "Artículos sobre R")) , __Sketch__ y __D3.js__.
+Para desarrollar el proyecto usó __Excel__, __R__ (Puedes consultar [artículos sobre R en este enlace](https://elbauldelprogramador.com/tags/r "Artículos sobre R")) , __Sketch__ y __D3.js__.
 
 ## La historia de las Olimpiadas
 

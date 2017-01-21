@@ -25,5 +25,5 @@ No todo el mundo usa Linux como servidor, aunque para aquellos que aún siguen s
 
 Fuente original [En inglés]: <a target="_blank" href="http://www.articlesbase.com/software-articles/why-linux-isnt-only-for-geeks-5387056.html">articlesbase.com</a>
 
- [1]: https://elbauldelprogramador.com/tags/#linux
- [2]: https://elbauldelprogramador.com/tags/#opensource
+ [1]: https://elbauldelprogramador.com/tags/linux
+ [2]: https://elbauldelprogramador.com/tags/opensource

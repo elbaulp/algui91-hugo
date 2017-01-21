@@ -75,5 +75,5 @@ Vía <a target="_blank" href="http://www.muylinux.com/2011/11/22/ocho-anos-despu
 
 Fuente <a target="_blank" href="http://htop.sourceforge.net/index.php?page=main">htop.sourceforge.net</a>
 
- [1]: https://elbauldelprogramador.com/tags/#linux
+ [1]: https://elbauldelprogramador.com/tags/linux
  [2]: http://htop.sourceforge.net/index.php?page=downloads#binaries

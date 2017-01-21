@@ -111,7 +111,7 @@ def imprime(self):
 
 Una vez tuve mi script "hoja de cálculo" hecho, pasé a pensar cómo podría automatizar la creación de los gráficos que yo quería. Justo por esa época, @JJ dio una [charla](http://jj.github.io/data-vis/#/) sobre _Visualización de datos con R_ en la que describía el paquete `ggplot2`. El funcionamiento de `ggplot2` es muy sencillo, y permite obtener gráficos muy bonitos e ilustrativos a partir de un _Data frame_.
 
-Antes de describir el script en [R](https://elbauldelprogramador.com/tags/#r "Artículos sobre R") que hice, quiero enseñaros los gráficos que obtuve para que los comparéis con los que obtuve con _Calc_.
+Antes de describir el script en [R](https://elbauldelprogramador.com/tags/r "Artículos sobre R") que hice, quiero enseñaros los gráficos que obtuve para que los comparéis con los que obtuve con _Calc_.
 
 <figure>
     <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/chrp1.png" alt="Gráfico que muestra el rendimiento en un caso pequeño" title="Gráfico que muestra el rendimiento en un caso pequeño" width="800" height="800"></amp-img>
@@ -309,4 +309,4 @@ Puedes consultar los siguientes atrículos sobre R y python:
 - [Generar listas de reproducción de una determinada duración con Python](https://elbauldelprogramador.com/generar-listas-de-reproduccion-determinada-duracion-python/ "Generar listas de reproducción de una determinada duración con Python")
 - [Crear Una Lista De Listas De Forma Eficiente en Python](https://elbauldelprogramador.com/python-lista-de-listas-eficiente/ "Crear Una Lista De Listas De Forma Eficiente en Python")
 - [Cómo Añadir Automáticamente El Tamaño De Una Imagen en HTML Con Python](https://elbauldelprogramador.com/como-anadir-automaticamente-el-tamao-de-una-imagen-en-html-con-python/ "Cómo Añadir Automáticamente El Tamaño De Una Imagen en HTML Con Python")
-- Los artículos etiquetados con estos temas se encuentran en [/tags/#r](/tags/#r ) y [/tags/#python](/tags/#python )
+- Los artículos etiquetados con estos temas se encuentran en [/tags/r](/tags/r ) y [/tags/python](/tags/python )

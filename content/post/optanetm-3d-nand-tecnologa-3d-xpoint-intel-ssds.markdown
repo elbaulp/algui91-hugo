@@ -43,7 +43,7 @@ Con esta tecnología, que Intel pretende sacar al mercado __en 2016__, se acaba 
 
 El problema con los SSDs (Que son memoria NAND), es que se van varando electrones en una pequeña isla que está flotando con el aislante debajo. La forma de escribir en un SSD es crear un campo electroestático lo suficientemente potenten como para superar al aislante y que los electrones fluyan a través de él.
 
-Este proceso crea una fatiga en las propiedades físicas del aislante. Esta es la razón por la que escribir en dispositivos de memoria flash es costoso y causa daños a la larga. Algo que los discos duros convencionales no sufren. Esta nueva tecnología de [Intel](/tags/#intel), __3D XPoint__ no sufre de este problema. Además es __10 veces más denso__ que la __DRAM__.
+Este proceso crea una fatiga en las propiedades físicas del aislante. Esta es la razón por la que escribir en dispositivos de memoria flash es costoso y causa daños a la larga. Algo que los discos duros convencionales no sufren. Esta nueva tecnología de [Intel](/tags/intel), __3D XPoint__ no sufre de este problema. Además es __10 veces más denso__ que la __DRAM__.
 
 ## Static RAM (SRAM) o RAM estática
 

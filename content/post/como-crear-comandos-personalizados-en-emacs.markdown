@@ -22,7 +22,7 @@ Hace unos meses que comencé a usar _emacs_ como editor predeterminado, y la ver
 
 ## La función (query-replace-regexp)
 
-Una función que uso mucho en _emacs_ es `(query-replace-regexp)`, la cual permite buscar y reemplazar un texto en base a una [expresión regular](/tags/#regex "Posts etiquetados con regex").
+Una función que uso mucho en _emacs_ es `(query-replace-regexp)`, la cual permite buscar y reemplazar un texto en base a una [expresión regular](/tags/regex "Posts etiquetados con regex").
 
 <!--more--><!--ad-->
 
