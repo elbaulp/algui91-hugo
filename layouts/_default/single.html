@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ if eq .Type "post" }}{{ partial "structure/postheader" . }}{{ end }}
+
+<section class="post">
+  <article role="article" id="post" class="post-content">
+    {{ if eq .Type "page"}}<h1>{{.Title}}</h1>{{ end }}
+    {{ if not .Params.notoc }}
+        {{ with .TableOfContents }}
+           <div id="toc">
+             <h1>{{ T "single_index" }}</h1>
+             {{ . }}
+           </div>
+        {{ end }}
+    {{ end }}
+    {{ $ad := partial "structure/ad" }}
+    {{ replace .Content "<!--ad-->" $ad | safeHTML }}
+  </article>
+  {{ partial "structure/share" . }}
+  {{ if eq .Type "post" }}
+     {{ partial "structure/popular.posts" }}
+     {{ partial "structure/author" . }}
+     {{ partial "structure/comments" . }}
+  {{ end }}
+</section>
+{{ with .Params.math }}
+<script type="text/javascript"
+        src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+{{ end }}
+{{ end }}

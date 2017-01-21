@@ -1,0 +1,37 @@
+<section class="share">
+  <section id="sharing">
+    <h3>{{ T "share_title" }}</h3>
+    <a aria-label="{{ T "share_tw" }}" href="https://twitter.com/intent/tweet?text={{ .Title }}+{{ .Permalink }}+ Vía @elbaulp" title="{{ T "share_tw" }}">
+      <svg class="icon icon-twitter">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use>
+      </svg>
+    </a>
+    <a aria-label="{{ T "share_fb" }}" href="https://www.facebook.com/dialog/feed?app_id=145634995501895&display=popup&{{ (querify "caption" .Title "link" .Permalink) | safeURL }}" target="_blank" title="{{ T "share_fb" }}">
+      <svg class="icon icon-facebook">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-facebook"></use>
+      </svg>
+    </a>
+    <a aria-label="{{ T "share_gp" }}" href="https://plus.google.com/share?url={{ .Permalink }}" title="{{ T "share_gp" }}">
+      <svg class="icon icon-google-plus">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-google-plus"></use>
+      </svg>
+    </a>
+  </section>
+  <section>
+    <h3>{{ T "share_subscribe" }}</h3>
+    <a aria-label="{{ T "share_newsletter" }}" href="http://eepurl.com/IZ5sX" title="{{ T "share_newsletter" }}">
+      <svg class="icon icon-mail">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-mail"></use>
+      </svg>
+    </a>
+    <a aria-label="{{ T "share_rss" }}" href="{{ "/rssfeed" | absLangURL }}" title="{{ T "share_rss" }}">
+      <svg class="icon icon-rss">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-rss"></use>
+      </svg>
+    </a>
+    <a aria-label="{{ T "share_follow_tw" }}" title="{{ T "share_follow_tw" }}" href="http://twitter.com/elbaulp" target="_blank"><svg class="social icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
+    <a aria-label="{{ T "share_follow_fb" }}" title="{{ T "share_follow_fb" }}" href="http://facebook.com/elbauldelprogramador"  target="_blank"><svg class="social icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a>
+    <a aria-label="{{ T "share_follow_gp" }}" title="{{ T "share_follow_gp" }}" href="http://plus.google.com/+ElBaulDelProgramador"  target="_blank"><svg class="social icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg></a>
+    <a aria-label="{{ T "share_follow_tl" }}" href="https://telegram.me/elbauldelprogramador"  target="_blank"><svg class="social icon-telegram"><use xlink:href="#icon-telegram"></use></svg></a>
+  </section>
+</section>

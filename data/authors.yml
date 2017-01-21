@@ -1,0 +1,58 @@
+# Authors
+alex:
+  name: Alejandro Alcalde
+  slug: alejandro-alcalde
+  avatar: alejandro.jpg
+  bio: "Graduado en Ingeniería Informática en la ETSIIT, Granada."
+  email: contacto@elbauldelprogramador.com
+  twitter: elbaulp
+  facebook: elbauldelprogramador
+  google:
+    plus: elbauldelprogramador
+  github: algui91
+  stackoverflow: 1612432/algui91
+  stackcareers: algui91
+  linkedin: algui91
+
+marta:
+  name: Marta Gómez
+  slug: marta
+  email: mgmacias95@gmail.com
+  bio: "20. Estudiante de ingeniería informática en la #ETSIIT. Aficionada a la fotografía. Adicta al chocolate y los dulces. Usuaria de Arch Linux."
+  avatar: author_marta.jpg
+  twitter: Mrs_DarkDonado
+
+cristina:
+  name: Cristina Heredia
+  slug: cristina
+  email: mrcrstnherediagmez@gmail.com
+  bio: "Outlier y graduada en Ing. Informática en la ugr. Computer science."
+  avatar: cristina.jpg
+  github: cristinaHG
+  twitter: _musicalnote
+
+luzila:
+  name: Lucila Armentano
+  slug: lucila
+  bio: "Analista y desarrolladora de Sistemas. Rosario, Santa Fe, Argentina."
+  avatar: author_lu.jpg
+  email: armentanolucila@gmail.com
+  twitter: Luzcila
+  google:
+    plus: LucilaArmentano
+  linkedin: armentanolucila
+
+jordi:
+  name: Jordi Bassagañas
+  slug: jordi
+  bio: "Experto Web que viene desarrollando apps desde el año 2008. También es blogger, y tiene un título en Ingeniería Informática"
+  twitter: programarivm
+  google:
+    plus: Programarivm
+  avatar: author_jordi.jpg
+
+colaboraciones:
+  name: Colaboraciones
+  slug: colaboraciones
+  avatar: bio-photo-2.jpg
+  bio: "Artículos escritos por los lectores."

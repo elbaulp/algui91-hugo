@@ -1,0 +1,86 @@
+{{ $au := or .Params.author "alex" }}
+{{ $author := index .Site.Data.authors $au }}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "{{ $author.name }}"
+  },
+  "headline": {{ .Title }},
+  "description": {{ .Params.description }},
+  "wordCount": {{ .Content | plainify | countwords }},
+  "datePublished" : "{{ .PublishDate.Format "2006-01-02T15:04:05" }}",
+  "dateModified" : "{{ .Lastmod.Format "2006-01-02T15:04:05"  }}",
+  "articleBody": {{.Content}},
+  "image" : {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "author": "",
+      "url": "",
+      "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05" }}",
+      "name": "",
+      "height" : "",
+      "width" : "",
+      "license" : "",
+      "isBasedOn" : ""
+    },
+  "mainEntityOfPage" : "{{ .Permalink }}",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "{{ $.Site.Params.publisherName }}",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "{{ $.Site.Params.publisherLogo }}",
+        "height" : {{ $.Site.Params.publisherLogoHeight }},
+        "width" : {{ $.Site.Params.publisherLogoWidth }}
+    }
+  }
+}
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleBody": {{ .Content }},
+        "wordCount": "{{ .Content | plainify | countwords }}",
+        "mainEntityOfPage": "{{ .Permalink }}",
+        "headline": {{ .Title }},
+        "datePublished" : "{{ .PublishDate.Format "2006-01-02T15:04:05" }}",
+        "dateModified" : "{{ .Lastmod.Format "2006-01-02T15:04:05"  }}",
+        "description": {{ .Params.description }},
+        "url": "{{ .Permalink }}",
+        "image": {
+            "@type": "ImageObject",
+            "url": "{{ .Site.BaseURL }}{{ if .Params.image }}/img/{{ .Params.image }}{{ else }}/img/default-thumb.png{{ end }}",
+            "width": 640,
+            "height": 435
+        },
+        "author": {
+            "@type": "Person",
+            "name": "{{ $author.name }}",
+            "url" : "{{ .Site.BaseURL }}",
+            "sameAs" : [
+                {{with $author.facebook}}"https://www.facebook.com/{{ $author.facebook }}",{{end}}
+                {{with $author.twitter}}"https://www.twitter.com/{{ $author.twitter }}",{{end}}
+                {{with $author.linkedin}}"https://www.linkedin.com/in/{{ $author.linkedin }}",{{end}}
+                {{with $author.google.plus}}"https://plus.google.com/+{{ $author.google.plus }}",{{end}}
+                {{with $author.stackoverflow}}"http://stackoverflow.com/users/{{ $author.stackoverflow }}"{{end}}
+            ]
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": {{ .Site.Title }},
+            "url": "{{ .Site.BaseURL }}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ .Site.BaseURL }}/img/bio-photo.png",
+                "width": 150
+            }
+            {{ with .Site.Params.socialProfiles }}, "sameAs": {{ . }}{{ end }}
+        }
+    }
+}
+</script>

@@ -1,0 +1,33 @@
+<header class="bar-header">
+  <h1 class="logo">
+    <a href="{{ "/" | absLangURL }}"></a>
+  </h1>
+</header>
+
+{{ partial "svgicons" }}
+
+<div id="fade" class="overlay"></div>
+  <amp-sidebar id="sidebar" layout="nodisplay" side="right">
+    <a on="tap:sidebar.close" class="amp-close-image" role="button" tabindex="0">
+      <svg id="open" class="icon-menu"><use xlink:href="#icon-close"></use></svg>
+    </a>
+    <nav id="navigation">
+      <h2>{{ T "header_menu" }}</h2>
+      <ul>
+        {{ $currPage := . }}
+        {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL | absLangURL }}">
+            <amp-fit-text width="220" height="20" max-font-size="20" layout="responsive">{{ .Name }}</amp-fit-text>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </amp-sidebar>
+  {{ partial "structure/subscribe" }}
+  <a id="search" class="dosearch" href="/buscar"><svg class="icon-search"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use></svg> </a>
+  <a on="tap:sidebar.toggle" id="slide" class="slideButton fade">
+    <svg id="close" class="icon-menu"><use xlink:href="#icon-close"></use></svg>
+    <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+  </a>

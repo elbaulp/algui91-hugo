@@ -1,0 +1,20 @@
+<header class="header-post" role="banner">
+  <div class="content">
+    <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}" class="date">{{ .Lastmod.Format ( .Site.Params.dateformat | default "Jan 2, 2006") }}</time>
+    <h1 class="post-title">{{ .Title }}</h1>
+    <p class="subtitle">{{ .Params.description }}</p>
+    {{ if .IsTranslated }}
+    <p>
+      {{ T "also_available" }}:
+      {{ range .Translations }}
+      <a href="{{ .Permalink }}">
+        <svg class="icon flag-{{.Lang}}">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#flag-{{.Lang}}"></use>
+        </svg>
+      </a>
+      {{ end}}
+    </p>
+    <p>{{ T "single_reading_time" . }}</p>
+    {{ end }}
+  </div>
+</header>

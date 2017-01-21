@@ -1,0 +1,21 @@
+<article class="box-item post-{{ .Params.mainclass }} shown">
+  <span class="ribbon">
+    <a href="{{ "categories/" | absLangURL}}{{ .Params.mainclass }}/"><span>{{ .Params.mainclass }}</span></a>
+  </span>
+  <div class="box-body">
+    <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}" class="date">{{ .Lastmod.Format ( .Site.Params.dateformat | default "Jan 2, 2006") }}</time>
+    <a class="post-link" href="{{ .Permalink }}">
+      <h2 class="post-title">{{ .Title }}</h2>
+    </a>
+    <a class="post-link" href="{{ .Title }}">
+      <p class="description">{{ if .Params.description }}{{.Params.description}}{{else}}{{.Summary}}{{end}}</p>
+    </a>
+    <div class="tags">
+      {{ with .Params.tags }}
+         {{ range first 3 (sort .) }}
+            <a href="{{ "/tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a>
+         {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</article>

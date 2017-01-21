@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<section id="post" class="post-content" role="main">
+  <h1>{{ .Title }}</h1>
+  <ul class="post-list">
+    {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms.ByCount }}
+    <li>
+      <span class="tag-title"><a href="{{ $.Site.LanguagePrefix }}/{{ $data.Plural }}/{{ $value.Name | urlize }}">{{ humanize $value.Name }} ({{ $value.Count }})</a></span>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+
+{{ end }}

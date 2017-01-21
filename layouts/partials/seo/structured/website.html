@@ -1,0 +1,47 @@
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": {{ .Site.Title }},
+        {{ with .Site.Params.alternatePageName }}"alternateName": "{{ . }}",{{ end }}
+        "url": "{{ .Site.BaseURL }}"
+    }
+</script>
+
+{{ $author := index .Site.Data.authors "alex" }}
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "name": {{.Site.Title }},
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "Developers, informáticos, programadores"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "{{ $author.name }}",
+            "url" : "{{ .Site.BaseURL }}",
+            "sameAs" : [
+                "https://www.facebook.com/{{ $author.facebook }}",
+                "https://www.twitter.com/{{ $author.twitter }}",
+                "https://www.linkedin.com/in/{{ $author.linkedin }}",
+                "https://plus.google.com/+{{ $author.google.plus }}",
+                "http://stackoverflow.com/users/{{ $author.stackoverflow }}"
+            ]
+        },
+        "creator": {
+            "@type": "Person",
+            "name": "{{ $author.name }}",
+            "url" : "{{ .Site.BaseURL }}",
+            "sameAs" : [
+                "https://www.facebook.com/{{ $author.facebook }}",
+                "https://www.twitter.com/{{ $author.twitter }}",
+                "https://www.linkedin.com/in/{{ $author.linkedin }}",
+                "https://plus.google.com/+{{ $author.google.plus }}",
+                "http://stackoverflow.com/users/{{ $author.stackoverflow }}"
+            ]
+        }
+    }
+</script>

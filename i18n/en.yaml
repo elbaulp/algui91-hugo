@@ -1,0 +1,56 @@
+- id: home
+  translation: "Home"
+- id: ads_title
+  translation: "Help us keep writing"
+- id: ads_adblock
+  translation: "“Whitlist” us in your ad blocker"
+- id: ads_amz
+  translation: "Use our amazon link"
+- id: ads_guide
+  translation: "Download one of our free EBooks"
+- id: ads_patreon
+  translation: "Become a Patreon!"
+- id: author
+  translation: "Author"
+- id: author_title
+  translation: "See all post by {{ .Count }}"
+- id: comments_title
+  translation: "What do you think? Comment below!"
+- id: header_menu
+  translation: "Menu"
+- id: pagination_next
+  translation: "Next page"
+- id: pagination_prev
+  translation: "Previous page"
+- id: popular_title
+  translation: "Most popular"
+- id: share_title
+  translation: "Share"
+- id: share_tw
+  translation: "On Twitter"
+- id: share_fb
+  translation: "On Facebook"
+- id: share_gp
+  translation: "On G+"
+- id: share_subscribe
+  translation: "Subscribe"
+- id: share_newsletter
+  translation: "Newsletter"
+- id: share_rss
+  translation: "Rss Feed"
+- id: share_follow_tw
+  translation: "Follow us on Twitter"
+- id: share_follow_fb
+  translation: "Follow us on Facebook"
+- id: share_follow_gp
+  translation: "Follow us on G+"
+- id: share_follow_tl
+  translation: "Follow us on Telegram"
+- id: list_post_by
+  translation: "Posts by"
+- id: single_index
+  translation: "Table Of Contents"
+- id: also_available
+  translation: "Also available in"
+- id: single_reading_time
+  translation: "ReadingTime {{ .ReadingTime }} m."

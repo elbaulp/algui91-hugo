@@ -1,0 +1,39 @@
+{{ $author := index .Site.Data.authors .Params.author }}
+<section class="author">
+  <div class="details">
+    <div id="author-photo">
+      <amp-img layout="responsive" width="150px" height="150px" class="img-rounded" src="/img/{{ $author.avatar }}"></amp-img>
+    </div>
+    <div>
+    <p class="def">{{ T "author" }}</p>
+    <h3 class="name">
+      <a title="{{ T "author_title" $author.name }}" id="author-name" href="{{ "/author/" | absLangURL}}{{.Params.author}}/">{{ $author.name }}</a>
+    </h3>
+    <p class="desc">{{$author.bio}}</p>
+    <div class="share">
+      {{ if $author.email }}
+      <a href="mailto:{{ $author.email }}" ><svg class="social icon-mail"><use xlink:href="#icon-inbox"></use></svg></a>
+      {{ end }}
+      {{ if $author.twitter }}
+      <a href="http://twitter.com/{{ $author.twitter }}" target="_blank"><svg class="social icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
+      {{ end }}
+      {{ if $author.facebook }}
+      <a href="http://facebook.com/{{ $author.facebook }}"  target="_blank"><svg class="social icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a>
+      {{ end }}
+      {{ if $author.google.plus }}
+      <a href="http://plus.google.com/+{{ $author.google.plus }}"  target="_blank"><svg class="social icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg></a>
+      {{ end }}
+      {{ if $author.github }}
+      <a href="http://github.com/{{ $author.github }}"  target="_blank"><svg class="social icon-github"><use xlink:href="#icon-github"></use></svg></a>
+      {{ end }}
+      {{ if $author.stackoverflow }}
+      <a href="http://stackoverflow.com/users/{{ $author.stackoverflow }}"  target="_blank"><svg class="socia icon-stack-overflow"><use xlink:href="#icon-stack"></use></svg></a>
+      {{ end }}
+      {{ if $author.linkedin }}
+      <a href="https://www.linkedin.com/in/{{ $author.linkedin }}"  target="_blank"><svg class="social icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg></a>
+      {{ end }}
+      <a href="https://telegram.me/elbauldelprogramador"  target="_blank"><svg class="social icon-telegram"><use xlink:href="#icon-telegram"></use></svg></a>
+    </div>
+    </div>
+  </div>
+</section>

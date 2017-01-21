@@ -1,0 +1,19 @@
+<section id="guides-container">
+  <amp-list
+    width="800"
+    height="800"
+    layout="responsive"
+    src="/guides.json">
+    <template type="amp-mustache">
+      <article class="box-item shown">
+        <a {{printf "href=%q" "{{url}}" | safeHTMLAttr}}>
+          <figure>
+            <amp-img {{ printf "src=%q" "{{thumbnail}}" | safeHTMLAttr}} {{ printf "alt=%q" "{{title}}" | safeHTMLAttr }} {{ printf "width=%q" "{{width}}" | safeHTMLAttr }} {{ printf "height=%q" "{{height}}" | safeHTMLAttr }}>
+            </amp-img>
+          </figure>
+        </a>
+      </article>
+    </template>
+  </amp-list>
+</section>
+</div>

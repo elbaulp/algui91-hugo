@@ -1,0 +1,108 @@
+## Languages
+
+baseURL = "https://elbauldelprogramador.com"
+languageCode = "es-ES"
+
+paginate = 12
+
+#PygmentsCodeFencesGuessSyntax = true
+PygmentsCodeFences = true
+pygmentsUseClasses = true
+
+defaultContentLanguage="es"
+
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = false
+EnableMissingTranslationPlaceholders = true
+
+[[menu.main]]
+   name =  "Categorías"
+   url  = "/categories/"
+[[menu.main]]    
+   name =  "Tags"
+   url  =  "/tags/"
+[[menu.main]]
+   name =  "Cursos"
+   url  =  "/cursos/"
+[[menu.main]]
+   name =  "Manuales"
+   url  =  "/manuales-gratuitos/"
+[[menu.main]]
+   name =  "Security Now!"
+   url  =  "/categories/security-now/"
+[[menu.main]]
+   name =  "Apoyanos"
+   url  =  "/apoyanos/"
+[[menu.main]]
+   name =  "Colabora"
+   url  =  "/colabora/"
+[[menu.main]]
+   name =  "Contacto"
+   url  =  "/contacto/"
+
+[Languages]
+[Languages.en]
+title = "The Programmer's Chest"
+
+[[Languages.en.menu.main]]
+   name =  "Categories"
+   url  = "/categories/"
+[[Languages.en.menu.main]]    
+   name =  "Tags"
+   url  =  "/tags/"
+[[Languages.en.menu.main]]
+   name =  "Tutorials"
+   url  =  "/manuales-gratuitos/"
+[[Languages.en.menu.main]]
+   name =  "Support us"
+   url  =  "/apoyanos/"
+[[Languages.en.menu.main]]
+   name =  "Guests Posts"
+   url  =  "/colabora/"
+[[Languages.en.menu.main]]
+   name =  "Contact"
+   url  =  "/contacto/"
+
+[Languages.es]
+title = "El Baúl del programador"
+
+[permalinks]
+post = "/:filename/"
+page = "/:filename/"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+author = "author"
+
+[params]
+    verify = "FBg0GK1_H_PyCw6AD2iaBOclPbEC3LOV8hHXje5276w"
+    gplususer = "ElBauldelProgramador"
+    amp = true # enables amp features
+
+    # define which amp-elements you are using globally, these elements will be included in every page
+    ampElements = ["amp-fit-text","amp-ad","amp-analytics","amp-image","amp-sidebar","amp-mustache"]
+
+    themeColor = "#002f4c" # define a theme color (this will colorize the android address-bar)
+
+    adsensePublisher = "ca-pub-9043332344373532" # required if you want to include google adsense
+    adSlot = "2633319248"
+    googleAnalytics = "UA-19017085-2" # required if you want to use google analytics
+
+    alternatePageName = "El Baúl" # alternative name for website structured data
+    organisationLogo = "http://elbauldelprogramador.com/img/logo.png" # set organisation logo for structured data
+    organizationName = "El Baúl del Programador" # set organisation name
+    organisationAddress = "Some Street 123, 12345 City" # set organisation address
+
+    socialProfiles = ["http://www.facebook.com/elbauldelprogramador",
+                      "http://plus.google.com/+elbauldelprogramador",
+                      "https://twitter.com/elbaulp",
+                      "https://telegram.me/elbauldelprogramador"]  # for sameAs in organisation's structured data
+
+    publisherName = "Alejandro Alcalde" # publisher used in article schema
+    publisherLogo = "http://elbauldelprogramador.com/img/logo.png" # https://developers.google.com/search/docs/data-types/articles#logo-guidelines
+    publisherLogoWidth = 600 # logo width
+    publisherLogoHeight = 60 # logo height
+
+    stylesheetRegular = ["/base-styling.css"] # these styles are used when amp is disabled for a specific page
+    javascriptRegular = ["/script.js"] # these scripts are used when amp is disabled for a specific page

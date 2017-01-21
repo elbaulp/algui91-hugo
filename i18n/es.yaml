@@ -1,0 +1,56 @@
+- id: home
+  translation: "Pŕincipal"
+- id: ads_title
+  translation: "Ayúdanos a seguir escribiendo"
+- id: ads_adblock
+  translation: "Añádenos a la “Lista blanca” de tu <strong>bloqueador</strong> de anuncios"
+- id: ads_amz
+  translation: "Usa nuestro enlace de Ámazon"
+- id: ads_guide
+  translation: "Descarga una guía gratuita que te interese (Nos donarás $1.5 si la rellenas con datos reales ej: en que sector trabajas etc)"
+- id: ads_patreon
+  translation: "¡Hazte un Patreon!"
+- id: author
+  translation: "Autor"
+- id: author_title
+  translation: "Ver todos los artículos de {{ .Count }}"
+- id: comments_title
+  translation: "Queremos saber to opinión"
+- id: header_menu
+  translation: "Menú"
+- id: pagination_next
+  translation: "Siguiente página"
+- id: pagination_prev
+  translation: "Página anterior"
+- id: popular_title
+  translation: "Los más populares"
+- id: share_title
+  translation: "Compártelo"
+- id: share_tw
+  translation: "En Twitter"
+- id: share_fb
+  translation: "En Facebook"
+- id: share_gp
+  translation: "En G+"
+- id: share_subscribe
+  translation: "Suscríbete"
+- id: share_newsletter
+  translation: "Suscribir al boletín de noticias"
+- id: share_rss
+  translation: "Suscribir al RSS"
+- id: share_follow_tw
+  translation: "Síguenos en Twitter"
+- id: share_follow_fb
+  translation: "Síguenos en Facebook"
+- id: share_follow_gp
+  translation: "Síguenos en G+"
+- id: share_follow_tl
+  translation: "Síguenos en Telegram"
+- id: list_post_by
+  translation: "Artículos escritos por"
+- id: single_index
+  translation: "Índice"
+- id: also_available
+  translation: "También disponible en"
+- id: single_reading_time
+  translation: "Tiempo aprox ~ {{ .ReadingTime }} m."

@@ -1,0 +1,22 @@
+{
+    "items": [
+        {
+            "title": "18 libros sobre Data Science",
+            "thumbnail": "/img/thumbs/Learning From-Data-by-Yaser.jpg",
+            "id": "pop2",
+            "url": "https://elbauldelprogramador.com/9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer/"
+        },
+        {
+            "title": "21 Libros para Geeks",
+            "thumbnail":"/img/thumbs/Y-Google-como-lo-haria.jpg",
+            "id": "pop4",
+            "url": "https://elbauldelprogramador.com/5-libros-de-no-ficcion-que-todo-geek-deberia-leer/"
+        },
+        {
+            "title": "Manuales gratuitos",
+            "thumbnail": "/img/thumbs/Getting-Analytics-Right-pop.jpg",
+            "id": "pop5",
+            "url": "/manuales-gratuitos/"
+        }
+    ]
+}

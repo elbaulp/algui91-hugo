@@ -1,0 +1,7 @@
+{{ $tax := index $.Site.Taxonomies.tags (.Get 0) }}
+
+<div id="grid" class="row flex-grid">
+  {{ range $tax.Pages }}
+     {{ .Render "li" }}
+  {{ end }}
+</div>

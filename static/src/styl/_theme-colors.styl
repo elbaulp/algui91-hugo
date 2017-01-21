@@ -1,0 +1,94 @@
+themes = {
+    post-dev: #E64A19,
+    post-misc: #61B38D,
+    post-security-now: #00BCD4,
+    post-latex: #B31917,
+    post-git: #f05033,
+    post-articulos: #F57C00,
+    post-java: #D32F2F,
+    post-servidores: #0097A7,
+    post-linux: #2196F3,
+    post-android: #689F38,
+    post-geek: #262626,
+    post-BaseDeDatos: #009688
+}
+
+.box-body
+   .tags a
+      color main
+      border 1px solid main
+
+for theme, category-color in themes
+    .{theme}
+        // .share section#sharing
+        //     border-right rem(2px) solid category-color
+        // .title-category
+        //     color category-color
+        // .post-content
+        //     h1,h2,h3,h4,h5,h6
+        //         color category-color
+        //     a
+        //         color category-color
+        //         border-bottom 2px dashed category-color
+        //         &:hover
+        //             background-color category-color
+        //             color #fff
+        //     strong
+        //         color category-color
+        //     p,
+        //     li
+        //         code
+        //             color category-color
+        //     blockquote
+        //         border-left .313rem solid category-color
+
+        // .header-post,
+        // .header-site
+        //     background-color category-color
+        //     h1
+        //         text-shadow 3px 3px darken(category-color, 20%)
+        // .bar-header
+        //     .logo a
+        //         color category-color
+        // .author .email
+        //     color category-color
+
+        // .share a
+        //     &:hover svg
+        //         fill category-color
+
+        // .near-posts
+        //     a
+        //         color category-color
+        //         &:hover
+        //             background-color category-color
+        //             color #fff
+
+        // body
+        //     &.search-overlay
+        //         &:after
+        //             +below(cut)
+        //                 background-color category-color
+        // .icon-menu, .icon-search
+        //     fill category-color
+
+        // .box-body
+        //     // h2
+        //     //     color category-color
+        //     .tags a
+        //         color category-color
+        //         border 1px solid category-color
+        // aside
+        //     background-color category-color
+        //     nav li a:hover
+        //        color category-color
+        .ribbon span
+            background-color category-color
+            &:before
+                border-left 3px solid darken(category-color, 30%)
+                border-top 3px solid darken(category-color, 30%)
+            &:after
+                border-right 3px solid darken(category-color, 30%)
+                border-top 3px solid darken(category-color, 30%)
+        // footer
+        //     background-color category-color

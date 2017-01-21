@@ -1,0 +1,18 @@
+<h4 id="popular-posts-header">{{ T "popular_title" }}</h4>
+<amp-list
+   id="popular-posts"
+   width=300
+   height=225
+   layout=responsive
+   src="/popular.json">
+  <template type="amp-mustache">
+    <a class="card related"
+       id={{"{{id}}"}}
+       {{ printf "href=%q" "{{url}}" | safeHTMLAttr }}>
+      <amp-img width="101"
+               height="75"
+               {{ printf "src=%q" "{{thumbnail}}" | safeHTMLAttr }}></amp-img>
+      <span>{{"{{title}}"}}</span>
+    </a>
+  </template>
+</amp-list>
