@@ -12,7 +12,7 @@
            </div>
         {{ end }}
     {{ end }}
-    {{ $ad := partial "structure/ad" }}
+    {{ $ad := partial "structure/ad" . }}
     {{ replace .Content "<!--ad-->" $ad | safeHTML }}
   </article>
   {{ partial "structure/share" . }}
