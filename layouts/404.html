@@ -1,8 +1,18 @@
 {{ define "main" }}
-<section id="main">
-  <div>
-    <h1 id="title">{{ .Title }}</h1>
-    No se ha encontrado lo que buscas.
-  </div>
+<section class="post">
+  <article role="article" id="post" class="post-content">
+
+{{ range .Data.Pages.ByLastmod }}
+<li>
+<a href="{{ .Permalink }}">{{ .Title }}</a>
+<div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+</li>
+{{ end }}
+
+    <div>
+      <h1 id="title">{{ .Title }}</h1>
+      No se ha encontrado lo que buscas.
+    </div>
+  </article>
 </section>
 {{ end }}
