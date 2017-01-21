@@ -1,5 +1,7 @@
 ---
 title: Guest Posts
+type: page
+date: 2017-01-21
 ---
 
 If you want to write a guest post, here are our guidelines:

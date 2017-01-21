@@ -2,6 +2,7 @@
 title: Tutorial Programación ABAP
 type: page
 notoc: true
+date: 2017-01-21
 ---
 ## Curso de Programación ABAP
 
