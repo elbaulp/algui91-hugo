@@ -4,7 +4,7 @@ tags: [tutorials, courses]
 description: "Download any kind of technology tutorials/ebooks informática"
 image: Python-Web-Frameworks-full.jpg
 type: page
-date: 2017-01-21
+date: 2016-01-21
 aliases:
   - /nueva-guia-aspnet-20-anthology-101/
   - /nueva-guia-javascript-anthology-101/

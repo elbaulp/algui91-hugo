@@ -3,7 +3,7 @@ title: Manuales gratuítos
 tags: [manuales, cursos, descargar manuales, manuales programacion, guias, manuales gratuitos, manual del programador]
 description: "Sección en la que encontrarás todo tipo de manuales relacionados con la tecnología e informática"
 image: Python-Web-Frameworks-full.jpg
-date: 2017-01-21
+date: 2016-01-21
 aliases:
   - /nueva-guia-aspnet-20-anthology-101/
   - /nueva-guia-javascript-anthology-101/

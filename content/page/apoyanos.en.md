@@ -1,7 +1,7 @@
 +++
 type = "page"
 title = "Support us"
-date: 2017-01-21
+date = "2016-01-21"
 +++
 
 Write and maintain a blog is time consuming. If you want to support our work you can bought us a coffee in any of this ways:

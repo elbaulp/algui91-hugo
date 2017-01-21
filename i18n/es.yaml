@@ -54,3 +54,7 @@
   translation: "También disponible en"
 - id: single_reading_time
   translation: "Tiempo aprox ~ {{ .ReadingTime }} m."
+- id: not_found_title
+  translation: "No se ha encontrado lo que buscas, Puedes probar a buscar algo:"
+- id: not_found_latest
+  translation: "Últimos Artículos"

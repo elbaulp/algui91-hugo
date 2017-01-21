@@ -2,17 +2,34 @@
 <section class="post">
   <article role="article" id="post" class="post-content">
 
-{{ range .Data.Pages.ByLastmod }}
-<li>
-<a href="{{ .Permalink }}">{{ .Title }}</a>
-<div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-</li>
-{{ end }}
 
-    <div>
-      <h1 id="title">{{ .Title }}</h1>
-      No se ha encontrado lo que buscas.
+    <h1 id="title">{{ .Title }}</h1>
+    <p>{{ T "not_found_title" }}</p>
+
+
+    <div class="post-content">
+      <script>
+        (function() {
+        var cx = '017944990515954375932:j4xhnxcoyio';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+        })();
+      </script>
+      <p><gcse:search></gcse:search></p>
     </div>
+
+    <h1>{{ T "not_found_latest" }}</h1>
+
+    <ul>
+    {{ range first 10 (where $.Site.AllPages "Type" "post") }}
+       <li><a href="{{ .Permalink}}">{{ .Title }}</a></li>
+    {{ end }}
+    </ul>
   </article>
 </section>
 {{ end }}

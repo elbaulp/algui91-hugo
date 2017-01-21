@@ -1,6 +1,6 @@
 ---
 title: Android
-date: 2017-01-21
+date: 2016-01-21
 lastmod: 2016-09-25
 aliases:
    - /video-tutorial-programacion-android/

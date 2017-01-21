@@ -2,7 +2,7 @@
 title: Cursos
 description: "Colección de cursos escritos en el blog"
 tags: [cursos de programador, cursos de programación]
-date: 2017-01-21
+date: 2016-01-21
 ---
 
 # [Curso de Android Nuevo][Android2] (En proceso)

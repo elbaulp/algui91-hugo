@@ -1,7 +1,7 @@
 ---
 title: RSS/Feed
 type: page
-date: 2017-01-21
+date: 2016-01-21
 ---
 
 Puede que solo te interesen algunas publicaciones del blog y no desees recibir todos y cada uno de los artículos que se escriben.

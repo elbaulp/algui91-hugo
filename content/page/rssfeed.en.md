@@ -1,7 +1,7 @@
 ---
 title: RSS/Feed
 type: page
-date: 2017-01-21
+date: 2016-01-21
 ---
 
 It is possible that you do not want to receive all published content in the blog.
