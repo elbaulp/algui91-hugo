@@ -25,7 +25,7 @@ gulp.task('stylus', function(){
       use:[koutoSwiss(), prefixer(), jeet(), rupture()],
       compress: true
     }))
-    .pipe(purify(['_site/**/*.js', '_site/**/*.html'], options = {info:true, rejected:true, minify:true}))
+    //.pipe(purify(['_site/**/*.js', '_site/**/*.html'], options = {info:true, rejected:true, minify:true}))
     .pipe(rename('stylesheet.html'))
     .pipe(gulp.dest('layouts/partials/'));
 });
