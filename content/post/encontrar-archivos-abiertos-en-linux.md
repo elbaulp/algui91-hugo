@@ -5,6 +5,7 @@ categories:
 - opensource
 - so
 color: '#2196F3'
+date: '2016-12-12'
 lastmod: 2016-10-26
 layout: post.amp
 mainclass: linux

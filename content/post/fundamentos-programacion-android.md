@@ -4,6 +4,7 @@ categories:
 - android
 - opensource
 color: '#689F38'
+date: '2016-12-12'
 lastmod: 2016-09-16
 layout: post.amp
 mainclass: android

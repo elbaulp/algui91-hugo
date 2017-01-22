@@ -3,6 +3,7 @@ author: alex
 categories:
 - articulos
 color: '#F57C00'
+date: '2016-12-12'
 layout: post.amp
 mainclass: articulos
 permalink: /investigadores-mas-cerca-de-usar-luz-en-lugar-de-cables-en-ordenadores/

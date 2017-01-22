@@ -3,6 +3,7 @@ author: alex
 categories:
 - seguridad
 color: '#F57C00'
+date: '2016-12-12'
 description: "En estos tiempos en los que est\xE1 claro que estamos sometidos a vigilancia
   de los gobiernos, es posible que queramos un poco de privacidad cuando nos comunicamos
   por la red. Hoy voy a explicar c\xF3mo configurar un plugin para Firefox y Chrome

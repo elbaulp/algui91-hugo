@@ -4,6 +4,7 @@ categories:
 - noticias
 - "tecnolog\xEDa"
 color: '#F57C00'
+date: '2016-12-12'
 layout: post.amp
 mainclass: articulos
 permalink: /moborobo-herramienta-de-administracion-integrada-para-android-en-el-pc/

@@ -3,6 +3,7 @@ author: alex
 categories:
 - articulos
 color: '#F57C00'
+date: '2016-12-12'
 description: "Hay tantos formatos de sonido que podemos hacernos un l\xEDo a la hora
   de decidir cual usar, cual aporta mayor calidad al sonido... echemos una vista r\xE1pida
   a los distintos formatos existentes:"

@@ -3,6 +3,7 @@ author: alex
 categories:
 - android
 color: '#689F38'
+date: '2016-12-12'
 description: "El concurso universitario de software libre sigue en marcha, como dije
   participo en SWADROID. La \xFAltima implementaci\xF3n que se hizo era a\xF1adir
   una opci\xF3n para cerrar sesi\xF3n. Pero nos dimos cuenta que si el usuario cerraba

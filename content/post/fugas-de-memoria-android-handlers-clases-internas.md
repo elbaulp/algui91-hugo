@@ -3,6 +3,7 @@ author: alex
 categories:
 - android
 color: '#689F38'
+date: '2016-12-12'
 description: "\xC9ste art\xEDculo es una traducci\xF3n del blog de Alex Lockwood.
   Gracias por el permiso."
 lastmod: 2015-12-22

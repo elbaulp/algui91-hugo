@@ -3,6 +3,7 @@ author: alex
 categories:
 - cursos
 color: '#61B38D'
+date: '2016-12-12'
 image: Mac-OS-X-LionThe-Ultimate-Guide.jpg
 lastmod: 2016-09-29
 layout: post.amp

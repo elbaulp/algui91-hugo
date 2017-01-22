@@ -4,6 +4,7 @@ categories:
 - aplicaciones
 - articulos
 color: '#F57C00'
+date: '2016-12-12'
 description: "As\xED como la tecnolog\xEDa evoluciona, tambi\xE9n lo hacen los dilemas
   que enfrentan los desarrolladores. Cada elecci\xF3n, desde la plataforma hasta el
   almacenamiento de datos, incluyendo a cu\xE1nto control darle a los usuarios, est\xE1

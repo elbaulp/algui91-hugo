@@ -4,6 +4,7 @@ categories:
 - algoritmos
 - c
 color: '#E64A19'
+date: '2016-12-12'
 layout: post.amp
 mainclass: dev
 permalink: /peso-hamming-y-optimizacion/

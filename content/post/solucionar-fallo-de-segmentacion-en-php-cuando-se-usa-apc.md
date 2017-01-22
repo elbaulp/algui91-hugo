@@ -4,6 +4,7 @@ categories:
 - administracion de servidores
 - linux
 color: '#0097A7'
+date: '2016-12-12'
 layout: post.amp
 mainclass: servidores
 permalink: /solucionar-fallo-de-segmentacion-en-php-cuando-se-usa-apc/

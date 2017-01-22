@@ -4,6 +4,7 @@ categories:
 - articulos
 - opensource
 color: '#F57C00'
+date: '2016-12-12'
 description: "A la hora de crear proyectos, suele ser una tarea dif\xEDcil elegir
   bajo qu\xE9 licencia liberar el c\xF3digo, al menos para mi. Con este art\xEDculo
   que traduzco de outercurve.org espero facilitar la tarea de selecci\xF3n de una

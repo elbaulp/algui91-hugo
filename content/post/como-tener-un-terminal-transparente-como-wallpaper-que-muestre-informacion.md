@@ -4,6 +4,7 @@ categories:
 - how to
 - linux
 color: '#2196F3'
+date: '2016-12-12'
 image: 2013/03/xroot-example.jpg
 lastmod: 2016-08-09
 layout: post.amp

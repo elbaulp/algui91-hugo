@@ -3,6 +3,7 @@ author: alex
 categories:
 - java
 color: '#D32F2F'
+date: '2016-12-12'
 description: "Log4j2 es un Logger para Java que descubr\xED hace poco y me gust\xF3
   bastante. En \xE9ste art\xEDculo veremos c\xF3mo instalar y configurar Log4j2 en
   Netbeans. Aunque el proceso es similar para cualquier IDE."

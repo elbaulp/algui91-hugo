@@ -3,6 +3,7 @@ author: alex
 categories:
 - android
 color: '#689F38'
+date: '2016-12-12'
 layout: post.amp
 mainclass: android
 permalink: /restlib-libreria-para-realizar-peticiones-a-web-services-en-android/

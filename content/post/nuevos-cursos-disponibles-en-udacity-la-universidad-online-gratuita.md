@@ -5,6 +5,7 @@ categories:
 - internet
 - noticias
 color: '#61B38D'
+date: '2016-12-12'
 format: status
 lastmod: 2016-08-05
 layout: post.amp

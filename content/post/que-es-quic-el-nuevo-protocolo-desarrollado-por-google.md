@@ -3,6 +3,7 @@ author: alex
 categories:
 - security now
 color: '#00BCD4'
+date: '2016-12-12'
 image: 2013/07/Que-es-QUIC-el-nuevo-protocolo-desarrollado-por-Google.png
 introduction: "Introducci\xF3n al nuevo protocolo de Google"
 lastmod: 2016-08-06

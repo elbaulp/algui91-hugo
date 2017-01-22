@@ -3,6 +3,7 @@ author: alex
 categories:
 - c
 color: '#E64A19'
+date: '2016-12-12'
 description: "Vamos a estudiar c\xF3mo se pasa una variable a una funci\xF3n en uno
   de sus argumentos."
 lastmod: 2016-09-08

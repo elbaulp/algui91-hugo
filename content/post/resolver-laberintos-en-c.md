@@ -3,6 +3,7 @@ author: alex
 categories:
 - c
 color: '#E64A19'
+date: '2016-12-12'
 description: "Cuando estaba en el primer curso de la facultad, hicimos una pr\xE1ctica
   en la asignatura Fundamentos de la Programaci\xF3n que consist\xEDa en resolver
   un laberinto almacenado en un fichero. Me gust\xF3 bastante hacer ese programa y

@@ -5,6 +5,7 @@ categories:
 - articulos
 - internet
 color: '#0097A7'
+date: '2016-12-12'
 image: 2013/04/dns.jpg
 layout: post.amp
 mainclass: servidores

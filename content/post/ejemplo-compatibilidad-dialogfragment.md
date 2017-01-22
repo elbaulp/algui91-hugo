@@ -3,6 +3,7 @@ author: alex
 categories:
 - android
 color: '#689F38'
+date: '2016-12-12'
 description: "C\xF3mo crear dialogos de selecci\xF3n de fecha y hora en versiones
   inferiores a Android 3.0 con la librer\xEDa de soporte."
 lastmod: 2016-08-14

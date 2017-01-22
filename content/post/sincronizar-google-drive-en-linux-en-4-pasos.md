@@ -3,6 +3,7 @@ author: alex
 categories:
 - linux
 color: '#2196F3'
+date: '2016-12-12'
 description: "Llevaba tiempo buscando la manera de sincronizar los archivos de Google
   Drive en Linux con carpetas locales del mismo modo que Dropbox. Pens\xE9 en usar
   el programa inotify, pero no sab\xEDa muy bien por donde empezar. Hace unos d\xEDas

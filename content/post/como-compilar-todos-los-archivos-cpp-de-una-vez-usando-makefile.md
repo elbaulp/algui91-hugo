@@ -4,6 +4,7 @@ categories:
 - c
 - how to
 color: '#E64A19'
+date: '2016-12-12'
 layout: post.amp
 mainclass: dev
 permalink: /como-compilar-todos-los-archivos-cpp-de-una-vez-usando-makefile/

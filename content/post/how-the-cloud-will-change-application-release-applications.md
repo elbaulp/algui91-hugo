@@ -3,6 +3,7 @@ author: alex
 categories:
 - cursos
 color: '#61B38D'
+date: '2016-12-12'
 layout: post.amp
 mainclass: misc
 permalink: /how-the-cloud-will-change-application-release-applications/

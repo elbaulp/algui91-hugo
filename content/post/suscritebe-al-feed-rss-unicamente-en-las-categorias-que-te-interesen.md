@@ -3,6 +3,7 @@ author: alex
 categories:
 - noticias
 color: '#F57C00'
+date: '2016-12-12'
 layout: post.amp
 mainclass: articulos
 permalink: /suscritebe-al-feed-rss-unicamente-en-las-categorias-que-te-interesen/

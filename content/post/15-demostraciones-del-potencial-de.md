@@ -5,6 +5,7 @@ categories:
 - internet
 - noticias
 color: '#E64A19'
+date: '2016-12-12'
 description: "En tech Drive-In he visto esta entrada que enlaza con 15 demos en HTML5
   que pretenden hacernos ver la potencia que tiene esta nueva versi\xF3n que se est\xE1
   preparando de HTML"

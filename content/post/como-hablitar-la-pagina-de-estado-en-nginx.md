@@ -3,6 +3,7 @@ author: alex
 categories:
 - administracion de servidores
 color: '#0097A7'
+date: '2016-12-12'
 layout: post.amp
 mainclass: servidores
 permalink: /como-hablitar-la-pagina-de-estado-en-nginx/

@@ -4,6 +4,7 @@ categories:
 - android
 - how to
 color: '#689F38'
+date: '2016-12-12'
 layout: post.amp
 mainclass: android
 permalink: /como-instalar-el-ide-android-studio-en-linux-y-pequena-guia-de-uso/

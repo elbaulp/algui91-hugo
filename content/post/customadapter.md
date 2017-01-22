@@ -4,6 +4,7 @@ categories:
 - android
 - how to
 color: '#689F38'
+date: '2016-12-12'
 description: "Hace tiempo que habl\xE9 de c\xF3mo crear un adapter simple, y otro
   un poco m\xE1s personalizado en Android. En esta entrada se ver\xE1 c\xF3mo crear
   un adapter desde cero, con algunas funcionalidades m\xE1s."

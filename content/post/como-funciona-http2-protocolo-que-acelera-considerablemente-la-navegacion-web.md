@@ -3,6 +3,7 @@ author: alex
 categories:
 - security now
 color: '#00BCD4'
+date: '2016-12-12'
 layout: post.amp
 mainclass: security-now
 permalink: /como-funciona-http2-protocolo-que-acelera-considerablemente-la-navegacion-web/

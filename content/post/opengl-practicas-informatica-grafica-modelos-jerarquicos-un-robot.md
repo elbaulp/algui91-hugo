@@ -3,6 +3,7 @@ author: alex
 categories:
 - c
 color: '#E64A19'
+date: '2016-12-12'
 description: "El curso pasado hice unas pr\xE1cticas Inform\xE1tica Gr\xE1fica (IG)
   en la que hab\xEDa que implementar alg\xFAn objeto con modelos jer\xE1rquicos. La
   pr\xE1ctica se basa en una plantilla que encontr\xE9 de la universidad http://www.csc.villanova.edu."

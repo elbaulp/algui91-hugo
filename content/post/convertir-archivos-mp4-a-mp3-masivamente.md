@@ -3,6 +3,7 @@ author: alex
 categories:
 - script
 color: '#2196F3'
+date: '2016-12-12'
 format: aside
 if_slider_image:
 - null

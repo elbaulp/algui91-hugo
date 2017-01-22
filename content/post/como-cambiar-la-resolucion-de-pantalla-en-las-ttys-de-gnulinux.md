@@ -3,6 +3,7 @@ author: alex
 categories:
 - how to
 color: '#2196F3'
+date: '2016-12-12'
 description: "M\xE9todos para personalizar la resoluci\xF3n de pantalla de las terminales
   tty en linux"
 image: img/2012/08/sh1.png

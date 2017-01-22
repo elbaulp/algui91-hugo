@@ -3,6 +3,7 @@ author: alex
 categories:
 - offtopic
 color: '#F57C00'
+date: '2016-12-12'
 layout: post.amp
 mainclass: articulos
 permalink: /vota-por-el-logo-que-mas-te-guste-para-el-baul-del-programador/

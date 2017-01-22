@@ -4,6 +4,7 @@ categories:
 - c
 - python
 color: '#E64A19'
+date: '2016-12-12'
 description: "Hace alg\xFAn tiempo estaba desarrollando un m\xF3dulo para python,
   con el cual aprend\xED bastante y sirvi\xF3 para crear una serie de art\xEDculos
   sobre el tema (Crear un m\xF3dulo para python con la Python C API). Uno de los problemas

@@ -3,6 +3,7 @@ author: alex
 categories:
 - humor
 color: '#262626'
+date: '2016-12-12'
 description: "Recopilaci\xF3n de chistes inform\xE1ticos"
 lastmod: 2016-08-13
 layout: post.amp

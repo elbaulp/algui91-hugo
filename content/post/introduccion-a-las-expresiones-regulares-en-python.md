@@ -3,6 +3,7 @@ author: alex
 categories:
 - python
 color: '#E64A19'
+date: '2016-12-12'
 if_seo_keywords:
 - re python, regexp python, expresiones regulares python
 - re python, regexp python, expresiones regulares python

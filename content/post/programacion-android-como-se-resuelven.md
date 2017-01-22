@@ -5,6 +5,7 @@ categories:
 - how to
 - opensource
 color: '#689F38'
+date: '2016-12-12'
 layout: post.amp
 mainclass: android
 permalink: /programacion-android-como-se-resuelven/

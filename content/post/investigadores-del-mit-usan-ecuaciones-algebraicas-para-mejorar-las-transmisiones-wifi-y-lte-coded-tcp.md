@@ -5,6 +5,7 @@ categories:
 - noticias
 - "tecnolog\xEDa"
 color: '#F57C00'
+date: '2016-12-12'
 description: "Un equipo de investigadores del MIT, Caltech, Harvard, y otras universidades
   Europeas, han ideado una forma de potenciar el rendimiento en redes inal\xE1mbricas
   &#8212; sin aumentar la potencia de transmisi\xF3n o a\xF1\xE1dir m\xE1s estaciones

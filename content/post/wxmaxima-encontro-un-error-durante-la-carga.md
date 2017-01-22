@@ -4,6 +4,7 @@ categories:
 - how to
 - linux
 color: '#E64A19'
+date: '2016-12-12'
 layout: post.amp
 mainclass: dev
 permalink: /wxmaxima-encontro-un-error-durante-la-carga/

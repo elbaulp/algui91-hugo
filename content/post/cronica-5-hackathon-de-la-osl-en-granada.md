@@ -4,6 +4,7 @@ categories:
 - articulos
 - opensource
 color: '#F57C00'
+date: '2016-12-12'
 layout: post.amp
 mainclass: articulos
 permalink: /cronica-5-hackathon-de-la-osl-en-granada/

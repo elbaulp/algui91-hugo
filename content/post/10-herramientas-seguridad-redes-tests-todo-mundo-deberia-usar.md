@@ -4,6 +4,7 @@ categories:
 - cursos
 - seguridad
 color: '#61B38D'
+date: '2016-12-12'
 layout: post.amp
 mainclass: misc
 permalink: /10-herramientas-seguridad-redes-tests-todo-mundo-deberia-usar/

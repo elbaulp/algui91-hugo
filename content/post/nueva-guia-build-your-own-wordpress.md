@@ -6,6 +6,7 @@ categories:
 - noticias
 - opensource
 color: '#61B38D'
+date: '2016-12-12'
 lastmod: 2016-09-12
 layout: post.amp
 mainclass: misc

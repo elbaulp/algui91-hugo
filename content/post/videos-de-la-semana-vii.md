@@ -3,6 +3,7 @@ author: alex
 categories:
 - video de la semana
 color: '#262626'
+date: '2016-12-12'
 layout: post.amp
 mainclass: geek
 permalink: /videos-de-la-semana-vii/

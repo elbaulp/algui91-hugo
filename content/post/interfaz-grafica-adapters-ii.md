@@ -4,6 +4,7 @@ categories:
 - android
 - opensource
 color: '#689F38'
+date: '2016-12-12'
 image: https://3.bp.blogspot.com/-A6gb57w_xX4/Tg4D4i8sSVI/AAAAAAAAAqw/hvsbzYlBpPQ/s800/adaptadores2.png
 lastmod: 2016-08-14
 layout: post.amp

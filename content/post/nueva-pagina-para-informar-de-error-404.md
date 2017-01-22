@@ -3,6 +3,7 @@ author: alex
 categories:
 - sin categoria
 color: '#F57C00'
+date: '2016-12-12'
 layout: post.amp
 mainclass: articulos
 permalink: /nueva-pagina-para-informar-de-error-404/

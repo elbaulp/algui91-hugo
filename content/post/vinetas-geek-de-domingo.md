@@ -3,6 +3,7 @@ author: alex
 categories:
 - geek
 color: '#262626'
+date: '2016-12-12'
 format: gallery
 layout: post.amp
 mainclass: geek

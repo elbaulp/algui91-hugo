@@ -4,6 +4,7 @@ categories:
 - enlaces de la semana
 - noticias
 color: '#F57C00'
+date: '2016-12-12'
 format: link
 layout: post.amp
 mainclass: articulos

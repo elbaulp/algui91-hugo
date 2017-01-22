@@ -3,6 +3,7 @@ author: alex
 categories:
 - internet
 color: '#F57C00'
+date: '2016-12-12'
 description: "Escuchando el programa de radio security now! he descubierto una herramienta
   incre\xEDble. Se trata de **BitTorrrent Sync** y permite tener archivos sincronizados
   en todos los dispositivos que desees, sin necesidad de almacenarlos en la nube,

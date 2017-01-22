@@ -3,6 +3,7 @@ author: alex
 categories:
 - php
 color: '#E64A19'
+date: '2016-12-12'
 description: "La semana pasada, en el Curso de Programaci\xF3n PHP guay, desarrollamos
   una agenda PHP basada en archivos CSV. El ejercicio era tan sencillo que no utilizamos
   ning\xFAn framework de desarrollo de aplicaciones como por ejemplo Symfony, Laravel

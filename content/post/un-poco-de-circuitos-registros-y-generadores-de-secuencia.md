@@ -3,6 +3,7 @@ author: alex
 categories:
 - informatica
 color: '#F57C00'
+date: '2016-12-12'
 format: video
 if_slider_image:
 - null

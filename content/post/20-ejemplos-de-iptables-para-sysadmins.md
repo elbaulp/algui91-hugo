@@ -6,6 +6,7 @@ categories:
 - linux
 - seguridad
 color: '#0097A7'
+date: '2016-12-12'
 description: "netfiltes es un conjunto de hooks (Ganchos) dentro del kernel de linux
   que permiten a los m\xF3dulos del kernel registrar funciones callbacks con la pila
   de red. Una funci\xF3n callback registrada se llama entonces para cada paquete que

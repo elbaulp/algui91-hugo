@@ -4,6 +4,7 @@ categories:
 - aplicaciones
 - opensource
 color: '#F57C00'
+date: '2016-12-12'
 description: Tutorial de gource y ejemplo de uso
 image: 2013/05/gourceGit-1024x804.png
 lastmod: 2015-12-13

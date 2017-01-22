@@ -3,6 +3,7 @@ author: alex
 categories:
 - django
 color: '#E64A19'
+date: '2016-12-12'
 image: 2013/10/django.png
 lastmod: 2016-10-12
 layout: post.amp

@@ -3,6 +3,7 @@ author: alex
 categories:
 - enlaces de la semana
 color: '#F57C00'
+date: '2016-12-12'
 layout: post.amp
 mainclass: articulos
 permalink: /enlaces-de-la-semana-i/

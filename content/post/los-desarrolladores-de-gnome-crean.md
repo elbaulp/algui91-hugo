@@ -5,6 +5,7 @@ categories:
 - noticias
 - opensource
 color: '#2196F3'
+date: '2016-12-12'
 lastmod: 2016-10-04
 layout: post.amp
 mainclass: linux

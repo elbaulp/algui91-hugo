@@ -6,6 +6,7 @@ categories:
 - how to
 - internet
 color: '#2196F3'
+date: '2016-12-12'
 lastmod: 2016-09-06
 layout: post.amp
 mainclass: linux

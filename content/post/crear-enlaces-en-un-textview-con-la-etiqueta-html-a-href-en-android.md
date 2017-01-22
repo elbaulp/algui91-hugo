@@ -3,6 +3,7 @@ author: alex
 categories:
 - android
 color: '#689F38'
+date: '2016-12-12'
 description: "Para una aplicaci\xF3n que estoy haciendo, me hac\xEDa falta ser capaz
   de mostrar un enlace al usuario de forma similar al que se crean en las p\xE1ginas
   webs con la etiqueta &lt;a href=\u201D\u201D&gt;&lt;/a&gt;."

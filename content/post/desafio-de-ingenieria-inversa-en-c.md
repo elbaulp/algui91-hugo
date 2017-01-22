@@ -4,6 +4,7 @@ categories:
 - c
 - hacking
 color: '#E64A19'
+date: '2016-12-12'
 layout: post.amp
 mainclass: dev
 permalink: /desafio-de-ingenieria-inversa-en-c/

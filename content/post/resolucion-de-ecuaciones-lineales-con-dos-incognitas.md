@@ -4,6 +4,7 @@ categories:
 - algoritmos
 - python
 color: '#E64A19'
+date: '2016-12-12'
 description: "Una ecuaci\xF3n no es m\xE1s que una igualdad en la que hay cantidades
   desconocidas llamadas inc\xF3gnitas. Las soluciones son los valores que tienen las
   inc\xF3gnitas cuando satisfacen la igualdad. Un sistema de ecuaciones es la reuni\xF3n

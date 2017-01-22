@@ -5,6 +5,7 @@ categories:
 - informatica
 - noticias
 color: '#F57C00'
+date: '2016-12-12'
 layout: post.amp
 mainclass: articulos
 permalink: /saltarse-la-autentificacion-de-dos-factores-de-google/

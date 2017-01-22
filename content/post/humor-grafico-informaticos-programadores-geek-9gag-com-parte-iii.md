@@ -4,6 +4,7 @@ categories:
 - humor
 - offtopic
 color: '#262626'
+date: '2016-12-12'
 format: gallery
 if_slider_image:
 - null

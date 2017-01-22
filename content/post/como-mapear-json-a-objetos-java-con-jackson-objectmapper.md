@@ -3,6 +3,7 @@ author: alex
 categories:
 - java
 color: '#D32F2F'
+date: '2016-12-12'
 lastmod: 2015-03-30
 layout: post.amp
 mainclass: java

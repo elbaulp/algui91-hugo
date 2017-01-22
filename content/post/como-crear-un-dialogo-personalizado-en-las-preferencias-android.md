@@ -3,6 +3,7 @@ author: alex
 categories:
 - android
 color: '#689F38'
+date: '2016-12-12'
 description: "Este a\xF1o estoy participando en el concurso universitario de software
   libre, concretamente en el proyecto SWADroid. Mi intenci\xF3n es explicar todo lo
   que vaya aprendiendo mientras participo en el desarrollo del proyecto. Este primer

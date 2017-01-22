@@ -3,6 +3,7 @@ author: alex
 categories:
 - administracion de servidores
 color: '#0097A7'
+date: '2016-12-12'
 description: "En sistemas operativos como Debian, muchos de los programas y demonios
   env\xEDan mensajes al usuario root para informar del estado del sistema. Los mensajes
   se almacenan en el archivo /var/mail/root. El problema es que se almacena el correo

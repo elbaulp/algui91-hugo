@@ -3,6 +3,7 @@ author: alex
 categories:
 - script
 color: '#2196F3'
+date: '2016-12-12'
 description: "Hace poco me encontr\xE9 queriendo ordenar una carpeta de fondos de
   pantalla por resoluci\xF3n, en lugar de otros m\xE9todos de ordenaci\xF3n m\xE1s
   t\xEDpicos como por nombre o tama\xF1o. As\xED que buscando un poco encontr\xE9

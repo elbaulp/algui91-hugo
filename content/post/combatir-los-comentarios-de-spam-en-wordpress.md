@@ -3,6 +3,7 @@ author: alex
 categories:
 - administracion de servidores
 color: '#0097A7'
+date: '2016-12-12'
 description: "Los comentarios de spam son algo frecuente en internet, y WordPress
   no es una excepci\xF3n. Hace poco vimos c\xF3mo bloquear ataques de fuerza bruta
   en Nginx y WordPress con Fail2Ban. Hoy veremos c\xF3mo evitar que se nos inunde

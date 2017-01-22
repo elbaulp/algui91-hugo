@@ -6,6 +6,7 @@ categories:
 - security now
 - seguridad
 color: '#00BCD4'
+date: '2016-12-12'
 layout: post.amp
 mainclass: security-now
 permalink: /lo-ultimo-en-criptografia-fully-homomorphic-encryption/
