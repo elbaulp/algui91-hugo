@@ -14,6 +14,14 @@
     {{ end }}
     {{ $ad := partial "structure/ad" . }}
     {{ replace .Content "<!--ad-->" $ad | safeHTML }}
+    {{ with .Params.tags }}
+       <div class="tags">
+         <strong>{{ T "post_tags" }}</strong>
+            {{ range first 3 (sort .) }}
+               <a href="{{ "/tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+       </div>
+    {{ end }}
   </article>
   {{ partial "structure/share" . }}
   {{ if eq .Type "post" }}

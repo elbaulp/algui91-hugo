@@ -58,3 +58,5 @@
   translation: "No se ha encontrado lo que buscas, Puedes probar a buscar algo:"
 - id: not_found_latest
   translation: "Últimos Artículos"
+- id: post_tags
+  translation: "Etiquetas:"

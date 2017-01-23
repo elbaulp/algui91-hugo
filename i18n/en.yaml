@@ -58,3 +58,5 @@
   translation: "There is nothing to see here :-(, you can search below:"
 - id: not_found_latest
   translation: "Latest Posts"
+- id: post_tags
+  translation: "Tags:"
