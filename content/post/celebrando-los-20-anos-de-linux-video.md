@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-05
 layout: post.amp
 mainclass: linux
-permalink: /celebrando-los-20-anos-de-linux-video/
+url: /celebrando-los-20-anos-de-linux-video/
 title: "Celebrando los 20 a\xF1os de Linux [Video]"
 ---
 

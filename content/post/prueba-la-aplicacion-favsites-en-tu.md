@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-27
 layout: post.amp
 mainclass: android
-permalink: /prueba-la-aplicacion-favsites-en-tu/
+url: /prueba-la-aplicacion-favsites-en-tu/
 tags:
 - curso android pdf
 title: "Prueba la aplicaci\xF3n FavSites en tu Android"

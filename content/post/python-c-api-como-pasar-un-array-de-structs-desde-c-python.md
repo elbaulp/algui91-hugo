@@ -15,7 +15,7 @@ image: "2013/03/Crear-un-m\xF3dulo-para-python-con-la-Python-C-API-Parte-I.png"
 lastmod: 2015-12-22
 layout: post.amp
 mainclass: dev
-permalink: /python-c-api-como-pasar-un-array-de-structs-desde-c-python/
+url: /python-c-api-como-pasar-un-array-de-structs-desde-c-python/
 tags:
 - modulos python
 - python C API

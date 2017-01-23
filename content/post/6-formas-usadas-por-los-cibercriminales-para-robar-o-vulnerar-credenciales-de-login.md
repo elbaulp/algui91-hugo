@@ -15,7 +15,7 @@ image: 2013/06/blog_sevenways.png
 lastmod: 2015-12-18
 layout: post.amp
 mainclass: articulos
-permalink: /6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login/
+url: /6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login/
 tags:
 - articulos sobre cibercrimen
 - "autentificaci\xF3n de dos factores"

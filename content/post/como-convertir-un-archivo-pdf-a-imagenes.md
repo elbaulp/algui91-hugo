@@ -14,7 +14,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: linux
-permalink: /como-convertir-un-archivo-pdf-a-imagenes/
+url: /como-convertir-un-archivo-pdf-a-imagenes/
 tags:
 - como convertir pdf en imagen
 - convertir pdf a jpg

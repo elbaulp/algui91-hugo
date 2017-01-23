@@ -15,7 +15,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: articulos
-permalink: /basta-con-las-tablas-arcoiris-lo-que-necesitas-saber-sobre-esquemas-de-contrasenas-seguras/
+url: /basta-con-las-tablas-arcoiris-lo-que-necesitas-saber-sobre-esquemas-de-contrasenas-seguras/
 tags:
 - cracking password
 - rainbow tables

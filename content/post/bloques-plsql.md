@@ -9,7 +9,7 @@ description: "Los bloques PL/SQL presentan una estructura espec\xEDfica compuest
 lastmod: 2016-08-24
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /bloques-plsql/
+url: /bloques-plsql/
 title: Bloques PL/SQL
 ---
 

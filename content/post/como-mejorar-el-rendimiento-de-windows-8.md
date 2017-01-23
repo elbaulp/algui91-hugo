@@ -8,7 +8,7 @@ image: 2013/02/Windows8problem.jpg
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: articulos
-permalink: /como-mejorar-el-rendimiento-de-windows-8/
+url: /como-mejorar-el-rendimiento-de-windows-8/
 tags:
 - acelerar computadora windows 8
 - acelerar win 8

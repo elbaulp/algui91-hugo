@@ -10,7 +10,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-php-mysql-novice-to-ninja-5th-edition-free-57-page-preview/
+url: /nueva-guia-php-mysql-novice-to-ninja-5th-edition-free-57-page-preview/
 tags:
 - mysql
 - php

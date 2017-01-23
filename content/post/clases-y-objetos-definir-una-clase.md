@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-09-03
 layout: post.amp
 mainclass: dev
-permalink: /clases-y-objetos-definir-una-clase/
+url: /clases-y-objetos-definir-una-clase/
 title: Clases y Objetos. Definir una Clase
 ---
 

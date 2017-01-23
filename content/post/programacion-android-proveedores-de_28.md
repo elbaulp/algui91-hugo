@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-08
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-proveedores-de_28/
+url: /programacion-android-proveedores-de_28/
 tags:
 - content provider
 - curso android pdf

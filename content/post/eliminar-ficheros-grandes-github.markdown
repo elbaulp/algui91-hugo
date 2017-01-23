@@ -10,7 +10,7 @@ image: 2013/03/git-logo.png
 introduction: "C\xF3mo eliminar por completo un fichero demasiado grande para GitHub"
 layout: post.amp
 mainclass: git
-permalink: /eliminar-ficheros-grandes-github/
+url: /eliminar-ficheros-grandes-github/
 tags:
 - git
 - github

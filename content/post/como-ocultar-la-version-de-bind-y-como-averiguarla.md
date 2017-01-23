@@ -9,7 +9,7 @@ image: 2013/04/dns-300x240.jpg
 lastmod: 2016-08-05
 layout: post.amp
 mainclass: servidores
-permalink: /como-ocultar-la-version-de-bind-y-como-averiguarla/
+url: /como-ocultar-la-version-de-bind-y-como-averiguarla/
 tags:
 - extract bind version
 - fingerprinting bind version

@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-10-01
 layout: post.amp
 mainclass: articulos
-permalink: /por-que-nuestro-pc-necesita-un-firewall/
+url: /por-que-nuestro-pc-necesita-un-firewall/
 tags:
 - cortafuegos
 - ejemplos de firewall

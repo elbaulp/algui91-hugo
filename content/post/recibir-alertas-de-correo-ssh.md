@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: servidores
-permalink: /recibir-alertas-de-correo-ssh/
+url: /recibir-alertas-de-correo-ssh/
 tags:
 - alertar ssh
 - correo ssh

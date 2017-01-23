@@ -6,7 +6,7 @@ color: '#009688'
 date: '2016-01-01'
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /resultados-examen-plsql-base-de-datos/
+url: /resultados-examen-plsql-base-de-datos/
 tags:
 - examenes resueltos bases de datos
 - examenes resueltos bases de datos pl/sql

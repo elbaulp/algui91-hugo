@@ -9,7 +9,7 @@ description: "Vamos a estudiar c\xF3mo se pasa una variable a una funci\xF3n en 
 lastmod: 2016-09-08
 layout: post.amp
 mainclass: dev
-permalink: /clases-y-objetos-pasar-un-objeto-una/
+url: /clases-y-objetos-pasar-un-objeto-una/
 title: "Clases y Objetos - Pasar un objeto a una funci\xF3n"
 ---
 

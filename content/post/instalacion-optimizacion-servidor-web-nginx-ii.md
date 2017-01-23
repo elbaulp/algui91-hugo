@@ -13,7 +13,7 @@ image: "Instalaci\xF3n-y-optimizaci\xF3n-de-un-servidor-web-con-Nginx1.png"
 lastmod: 2015-12-28
 layout: post.amp
 mainclass: servidores
-permalink: /instalacion-optimizacion-servidor-web-nginx-ii/
+url: /instalacion-optimizacion-servidor-web-nginx-ii/
 tags:
 - "configuraci\xF3n php"
 - instalar php-fpm

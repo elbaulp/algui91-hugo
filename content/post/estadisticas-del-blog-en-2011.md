@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-10-26
 layout: post.amp
 mainclass: articulos
-permalink: /estadisticas-del-blog-en-2011/
+url: /estadisticas-del-blog-en-2011/
 title: "Estad\xEDsticas del blog en 2011"
 ---
 

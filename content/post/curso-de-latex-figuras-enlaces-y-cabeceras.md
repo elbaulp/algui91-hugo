@@ -11,7 +11,7 @@ image: 2013/05/latex_logo.png
 lastmod: 2015-12-22
 layout: post.amp
 mainclass: latex
-permalink: /curso-de-latex-figuras-enlaces-y-cabeceras/
+url: /curso-de-latex-figuras-enlaces-y-cabeceras/
 tags:
 - codigo latex
 - curso latex

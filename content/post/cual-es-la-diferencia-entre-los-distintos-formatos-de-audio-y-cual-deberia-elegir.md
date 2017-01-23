@@ -11,7 +11,7 @@ image: 2012/07/original1.jpg
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: articulos
-permalink: /cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir/
+url: /cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir/
 tags:
 - codec
 - cual es el mejor formato de audio

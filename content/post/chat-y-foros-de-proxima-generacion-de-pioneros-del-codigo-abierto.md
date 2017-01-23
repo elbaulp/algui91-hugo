@@ -13,7 +13,7 @@ description: "Insatisfecho con la experiencia en los actuales paquetes de softwa
 image: 2013/02/discourse-bcc00733a70b7ad2.png
 layout: post.amp
 mainclass: articulos
-permalink: /chat-y-foros-de-proxima-generacion-de-pioneros-del-codigo-abierto/
+url: /chat-y-foros-de-proxima-generacion-de-pioneros-del-codigo-abierto/
 tags:
 - chat
 - Discourse

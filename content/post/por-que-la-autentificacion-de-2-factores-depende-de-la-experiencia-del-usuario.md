@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: articulos
-permalink: /por-que-la-autentificacion-de-2-factores-depende-de-la-experiencia-del-usuario/
+url: /por-que-la-autentificacion-de-2-factores-depende-de-la-experiencia-del-usuario/
 tags:
 - "problemas autentificaci\xF3n de 2 factores"
 - "que es autentificaci\xF3n de 2 factores"

@@ -8,7 +8,7 @@ date: '2016-01-01'
 description: "Si se escribiesen ensayos con lenguajes de programaci\xF3n [HUMOR]"
 layout: post.amp
 mainclass: geek
-permalink: /si-se-escribiesen-ensayos-con-lenguajes-de-programacion-humor/
+url: /si-se-escribiesen-ensayos-con-lenguajes-de-programacion-humor/
 tags:
 - comics
 - ensayo lenguaje de programacion

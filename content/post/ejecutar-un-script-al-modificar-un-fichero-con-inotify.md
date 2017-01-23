@@ -10,7 +10,7 @@ image: 2013/07/Screenshot-from-2013-07-02-164301.png
 lastmod: 2016-08-09
 layout: post.amp
 mainclass: linux
-permalink: /ejecutar-un-script-al-modificar-un-fichero-con-inotify/
+url: /ejecutar-un-script-al-modificar-un-fichero-con-inotify/
 tags:
 - Ejecutar un script al modificar un fichero
 - ejemplo inotify

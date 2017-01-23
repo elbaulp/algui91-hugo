@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-31
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /plsql-excepciones/
+url: /plsql-excepciones/
 tags:
 - ejecutar excepciones en sql
 title: PL/SQL. Excepciones

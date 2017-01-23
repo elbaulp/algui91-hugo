@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2015-12-25
 layout: post.amp
 mainclass: articulos
-permalink: /como-programar-app-moviles-para-pymes-sin-salir-de-casa/
+url: /como-programar-app-moviles-para-pymes-sin-salir-de-casa/
 title: "C\xF3mo programar apps m\xF3viles para pymes sin salir de casa"
 ---
 

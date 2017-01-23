@@ -6,7 +6,7 @@ color: '#61B38D'
 date: '2016-01-01'
 layout: post.amp
 mainclass: misc
-permalink: /6-steps-to-securing-your-domains/
+url: /6-steps-to-securing-your-domains/
 tags:
 - dominios
 - internet

@@ -10,7 +10,7 @@ image: el-mapa-mundial-de-gnulinux-2.jpg
 lastmod: 2016-09-08
 layout: post.amp
 mainclass: linux
-permalink: /el-mapa-mundial-de-gnulinux-img/
+url: /el-mapa-mundial-de-gnulinux-img/
 title: El gran Mapa mundial de GNU/Linux
 ---
 

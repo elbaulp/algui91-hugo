@@ -9,7 +9,7 @@ image: https://3.bp.blogspot.com/-A6gb57w_xX4/Tg4D4i8sSVI/AAAAAAAAAqw/hvsbzYlBpP
 lastmod: 2016-08-14
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-interfaz-grafica-2/
+url: /programacion-android-interfaz-grafica-2/
 tags:
 - adapter android
 - adapter getview android

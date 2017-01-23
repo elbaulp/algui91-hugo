@@ -6,7 +6,7 @@ color: '#61B38D'
 date: '2016-01-01'
 layout: post.amp
 mainclass: misc
-permalink: /history-of-cryptography/
+url: /history-of-cryptography/
 tags:
 - "criptograf\xEDa"
 - descargas

@@ -8,7 +8,7 @@ image: 2013/10/django.png
 lastmod: 2016-10-11
 layout: post.amp
 mainclass: dev
-permalink: /como-depurar-una-aplicacion-en-django/
+url: /como-depurar-una-aplicacion-en-django/
 tags:
 - depuracion
 - depurar aplicacion django

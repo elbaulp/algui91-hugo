@@ -12,7 +12,7 @@ description: "A d\xEDa de hoy, el famoso plugin para wordpress jetpack no soport
 image: 2013/06/jetpack-300x222.png
 layout: post.amp
 mainclass: dev
-permalink: /colocar-los-botones-sociales-de-jetpack-al-principio-del-articulo-en-wordpress/
+url: /colocar-los-botones-sociales-de-jetpack-al-principio-del-articulo-en-wordpress/
 tags:
 - botones sociales al principio
 - botones sociales jetpack

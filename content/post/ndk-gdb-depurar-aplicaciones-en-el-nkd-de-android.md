@@ -7,7 +7,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /ndk-gdb-depurar-aplicaciones-en-el-nkd-de-android/
+url: /ndk-gdb-depurar-aplicaciones-en-el-nkd-de-android/
 tags:
 - como depurar jni android
 - depurar aplicaciones con ndk-gdb

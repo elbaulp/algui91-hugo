@@ -7,7 +7,7 @@ color: '#00BCD4'
 date: '2016-01-01'
 layout: post.amp
 mainclass: security-now
-permalink: /grave-problema-en-upnp-que-afecta-a-81-millones-de-routers/
+url: /grave-problema-en-upnp-que-afecta-a-81-millones-de-routers/
 tags:
 - "qu\xE9 es upnp"
 - upnp que es

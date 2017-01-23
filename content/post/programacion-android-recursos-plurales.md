@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-26
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-recursos-plurales/
+url: /programacion-android-recursos-plurales/
 tags:
 - curso android pdf
 title: "Programaci\xF3n Android: Recursos - Plurales"

@@ -12,7 +12,7 @@ image: "2013/11/Introducci\xF3n-a-HTML51.png"
 lastmod: 2015-12-30
 layout: post.amp
 mainclass: dev
-permalink: /introduccion-html5/
+url: /introduccion-html5/
 tags:
 - curso html5
 - etiquetas html5

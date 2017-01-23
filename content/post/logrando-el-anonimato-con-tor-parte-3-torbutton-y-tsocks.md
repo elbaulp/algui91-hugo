@@ -11,7 +11,7 @@ image: 2013/04/081712_1515_AchievingAn1-300x114.png
 lastmod: 2016-08-08
 layout: post.amp
 mainclass: articulos
-permalink: /logrando-el-anonimato-con-tor-parte-3-torbutton-y-tsocks/
+url: /logrando-el-anonimato-con-tor-parte-3-torbutton-y-tsocks/
 tags:
 - configurar tor
 - instalar tor

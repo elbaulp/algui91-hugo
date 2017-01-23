@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /tablet-vs-e-reader-cual-ganara/
+url: /tablet-vs-e-reader-cual-ganara/
 tags:
 - tablet vs ereader
 title: "Tablet Vs e-Reader: \xBFcu\xE1l ganar\xE1?"

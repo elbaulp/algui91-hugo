@@ -10,7 +10,7 @@ introduction: "Breve introducci\xF3n al paquete PgfGantt de LaTeX, para crear di
   de Gantt"
 layout: post.amp
 mainclass: latex
-permalink: /crear-diagrama-de-gantt-en-latex/
+url: /crear-diagrama-de-gantt-en-latex/
 tags:
 - latex
 - gantt

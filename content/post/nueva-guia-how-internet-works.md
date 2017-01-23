@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-10-28
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-how-internet-works/
+url: /nueva-guia-how-internet-works/
 title: "Nueva gu\xEDa: How the internet works"
 ---
 

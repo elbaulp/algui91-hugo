@@ -9,7 +9,7 @@ description: "C\xF3mo crear dialogos de selecci\xF3n de fecha y hora en versione
 lastmod: 2016-08-14
 layout: post.amp
 mainclass: android
-permalink: /crear-dialogfragment-compatibles-con-versiones-inferiores-a-android-3-0/
+url: /crear-dialogfragment-compatibles-con-versiones-inferiores-a-android-3-0/
 tags:
 - "android librer\xEDa de compatibilidad"
 - android timepickerdialog dialogfragment example

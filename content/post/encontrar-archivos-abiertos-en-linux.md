@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-10-26
 layout: post.amp
 mainclass: linux
-permalink: /encontrar-archivos-abiertos-en-linux/
+url: /encontrar-archivos-abiertos-en-linux/
 title: Encontrar archivos abiertos en Linux
 ---
 

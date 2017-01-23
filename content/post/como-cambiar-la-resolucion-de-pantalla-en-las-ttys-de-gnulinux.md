@@ -9,7 +9,7 @@ description: "M\xE9todos para personalizar la resoluci\xF3n de pantalla de las t
 image: img/2012/08/sh1.png
 layout: post.amp
 mainclass: linux
-permalink: /como-cambiar-la-resolucion-de-pantalla-en-las-ttys-de-gnulinux/
+url: /como-cambiar-la-resolucion-de-pantalla-en-las-ttys-de-gnulinux/
 tags:
 - editar 10_linux
 - grub para linux

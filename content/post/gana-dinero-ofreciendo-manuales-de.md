@@ -7,7 +7,7 @@ color: '#61B38D'
 date: '2016-01-01'
 layout: post.amp
 mainclass: misc
-permalink: /gana-dinero-ofreciendo-manuales-de/
+url: /gana-dinero-ofreciendo-manuales-de/
 title: "Gana dinero ofreciendo manuales de todas las \xE1reas de conocimiento a tus
   lectores con RevResponse"
 ---

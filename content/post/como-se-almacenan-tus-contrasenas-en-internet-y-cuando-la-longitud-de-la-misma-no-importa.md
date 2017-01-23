@@ -16,7 +16,7 @@ image: 2012/07/original2.jpg
 lastmod: 2015-07-14
 layout: post.amp
 mainclass: articulos
-permalink: /como-se-almacenan-tus-contrasenas-en-internet-y-cuando-la-longitud-de-la-misma-no-importa/
+url: /como-se-almacenan-tus-contrasenas-en-internet-y-cuando-la-longitud-de-la-misma-no-importa/
 tags:
 - algoritmos de cifrado
 - metodos de cifrado

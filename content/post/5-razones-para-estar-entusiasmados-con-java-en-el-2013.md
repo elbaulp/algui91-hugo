@@ -9,7 +9,7 @@ description: "Un tema obvio para comenzar para la mayor\xEDa de los desarrollado
   que Java 8 llegue en Septiembre, trayendo consigo muchas funciones lambda esperadas."
 layout: post.amp
 mainclass: articulos
-permalink: /5-razones-para-estar-entusiasmados-con-java-en-el-2013/
+url: /5-razones-para-estar-entusiasmados-con-java-en-el-2013/
 tags:
 - java 8
 - java en 2013

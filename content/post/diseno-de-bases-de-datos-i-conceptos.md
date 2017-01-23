@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-08
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /diseno-de-bases-de-datos-i-conceptos/
+url: /diseno-de-bases-de-datos-i-conceptos/
 title: "Dise\xF1o de Bases de Datos ( I ) - Conceptos del Modelo Relacional"
 ---
 

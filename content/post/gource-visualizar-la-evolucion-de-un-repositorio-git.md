@@ -10,7 +10,7 @@ image: 2013/05/gourceGit-1024x804.png
 lastmod: 2015-12-13
 layout: post.amp
 mainclass: articulos
-permalink: /gource-visualizar-la-evolucion-de-un-repositorio-git/
+url: /gource-visualizar-la-evolucion-de-un-repositorio-git/
 tags:
 - como instalar gource
 - gource git

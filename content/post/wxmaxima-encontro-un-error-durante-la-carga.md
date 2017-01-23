@@ -7,7 +7,7 @@ color: '#E64A19'
 date: '2016-01-01'
 layout: post.amp
 mainclass: dev
-permalink: /wxmaxima-encontro-un-error-durante-la-carga/
+url: /wxmaxima-encontro-un-error-durante-la-carga/
 tags:
 - convertir a utf8 maxima
 - wxmaxima error

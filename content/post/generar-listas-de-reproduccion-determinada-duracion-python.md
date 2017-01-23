@@ -11,7 +11,7 @@ image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
 lastmod: 2016-06-12
 layout: post.amp
 mainclass: dev
-permalink: /generar-listas-de-reproduccion-determinada-duracion-python/
+url: /generar-listas-de-reproduccion-determinada-duracion-python/
 tags:
 - "listas de reproducci\xF3n de duraci\xF3n fija"
 - "m\xFAsica"

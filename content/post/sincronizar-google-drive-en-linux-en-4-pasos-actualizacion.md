@@ -15,7 +15,7 @@ image: 2013/11/google-drive-linux3.jpg
 lastmod: 2016-08-09
 layout: post.amp
 mainclass: linux
-permalink: /sincronizar-google-drive-en-linux-en-4-pasos-actualizacion/
+url: /sincronizar-google-drive-en-linux-en-4-pasos-actualizacion/
 tags:
 - cliente google drive linux
 - grive

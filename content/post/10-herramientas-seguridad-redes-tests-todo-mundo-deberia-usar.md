@@ -7,7 +7,7 @@ color: '#61B38D'
 date: '2016-01-01'
 layout: post.amp
 mainclass: misc
-permalink: /10-herramientas-seguridad-redes-tests-todo-mundo-deberia-usar/
+url: /10-herramientas-seguridad-redes-tests-todo-mundo-deberia-usar/
 tags:
 - descargas
 - herramientas de red

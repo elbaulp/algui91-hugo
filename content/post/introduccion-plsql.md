@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-19
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /introduccion-plsql/
+url: /introduccion-plsql/
 title: "Introducci\xF3n a PL/SQL"
 ---
 

@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-29
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /plsql-estructuras-basicas-de-control/
+url: /plsql-estructuras-basicas-de-control/
 tags:
 - comandos basicos sql
 - sentencias sql while

@@ -7,7 +7,7 @@ color: '#262626'
 date: '2016-01-01'
 layout: post.amp
 mainclass: geek
-permalink: /la-recursividad-explicada-por-homer/
+url: /la-recursividad-explicada-por-homer/
 title: La recursividad, explicada por Homer Simpson
 ---
 

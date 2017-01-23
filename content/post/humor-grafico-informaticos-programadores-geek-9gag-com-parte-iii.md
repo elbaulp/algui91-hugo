@@ -11,7 +11,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: geek
-permalink: /humor-grafico-informaticos-programadores-geek-9gag-com-parte-iii/
+url: /humor-grafico-informaticos-programadores-geek-9gag-com-parte-iii/
 title: "Humor gr\xE1fico - Inform\xE1ticos, Programadores, geek&#8230; - 9GAG.COM
   Parte (III)"
 ---

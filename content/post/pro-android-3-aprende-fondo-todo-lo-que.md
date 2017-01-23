@@ -10,7 +10,7 @@ date: '2016-01-01'
 lastmod: 2016-09-12
 layout: post.amp
 mainclass: android
-permalink: /pro-android-3-aprende-fondo-todo-lo-que/
+url: /pro-android-3-aprende-fondo-todo-lo-que/
 tags:
 - curso android pdf
 title: 'Pro Android 3: Aprende a fondo todo lo que ofrece el SDK Android 4.0'

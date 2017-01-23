@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /enlaces-de-la-semana-i/
+url: /enlaces-de-la-semana-i/
 title: Enlaces de la semana ( I )
 ---
 

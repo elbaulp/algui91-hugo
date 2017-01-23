@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: linux
-permalink: /gestion-basica-de-usuarios-en-linux/
+url: /gestion-basica-de-usuarios-en-linux/
 tags:
 - script gestion de usuarios linux
 title: "Gesti\xF3n b\xE1sica de usuarios en linux"

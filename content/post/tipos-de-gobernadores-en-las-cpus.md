@@ -14,7 +14,7 @@ image: Tipos-de-gobernadores-en-las-CPUs.jpg
 lastmod: 2016-08-11
 layout: post.amp
 mainclass: linux
-permalink: /tipos-de-gobernadores-en-las-cpus/
+url: /tipos-de-gobernadores-en-las-cpus/
 tags:
 - curso android pdf
 - que es cpu conservative

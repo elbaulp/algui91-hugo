@@ -7,7 +7,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /el-uso-de-contrasenas-en-una-evolucion-tecnologica/
+url: /el-uso-de-contrasenas-en-una-evolucion-tecnologica/
 tags:
 - deloitte
 - "la evolucion de las contrase\xF1as tecnologicas"

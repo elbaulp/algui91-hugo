@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-19
 layout: post.amp
 mainclass: articulos
-permalink: /dominio-software-libre-no-oficial-42/
+url: /dominio-software-libre-no-oficial-42/
 title: "Dominio software libre -no oficial- \u201C.42\u2033 disponible"
 ---
 

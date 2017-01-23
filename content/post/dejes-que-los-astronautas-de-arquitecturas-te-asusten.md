@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /dejes-que-los-astronautas-de-arquitecturas-te-asusten/
+url: /dejes-que-los-astronautas-de-arquitecturas-te-asusten/
 title: No dejes que los Astronautas de Arquitecturas te asusten
 ---
 

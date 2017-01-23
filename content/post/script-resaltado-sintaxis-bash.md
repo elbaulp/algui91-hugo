@@ -7,7 +7,7 @@ color: '#2196F3'
 date: '2016-01-01'
 layout: post.amp
 mainclass: linux
-permalink: /script-resaltado-sintaxis-bash/
+url: /script-resaltado-sintaxis-bash/
 title: Script resaltado sintaxis bash
 ---
 

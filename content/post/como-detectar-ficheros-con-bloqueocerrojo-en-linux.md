@@ -13,7 +13,7 @@ image: como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg
 lastmod: 2015-12-23
 layout: post.amp
 mainclass: linux
-permalink: /como-detectar-ficheros-con-bloqueocerrojo-en-linux/
+url: /como-detectar-ficheros-con-bloqueocerrojo-en-linux/
 tags:
 - bloqueos ficheros
 - cerrojos

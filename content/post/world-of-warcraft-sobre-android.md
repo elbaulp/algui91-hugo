@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: articulos
-permalink: /world-of-warcraft-sobre-android/
+url: /world-of-warcraft-sobre-android/
 title: World of Warcraft sobre Android
 ---
 

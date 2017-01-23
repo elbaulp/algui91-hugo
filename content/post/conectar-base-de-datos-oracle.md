@@ -10,7 +10,7 @@ date: '2016-01-01'
 lastmod: 2016-11-03
 layout: post.amp
 mainclass: android
-permalink: /conectar-base-de-datos-oracle/
+url: /conectar-base-de-datos-oracle/
 tags:
 - aplicacion consultar base de datos oracle en java
 - conectar java con oracle

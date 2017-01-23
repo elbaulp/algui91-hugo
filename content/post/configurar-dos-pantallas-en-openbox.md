@@ -9,7 +9,7 @@ color: '#2196F3'
 date: '2016-01-01'
 layout: post.amp
 mainclass: linux
-permalink: /configurar-dos-pantallas-en-openbox/
+url: /configurar-dos-pantallas-en-openbox/
 tags:
 - configuracion openbox
 - crunchbang cambiar wallpaper

@@ -12,7 +12,7 @@ description: "Escribir commandos en una terminal puede parecer tedioso, pero con
   de Usuario)."
 layout: post.amp
 mainclass: articulos
-permalink: /top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos/
+url: /top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos/
 tags:
 - comandos
 - herramientas

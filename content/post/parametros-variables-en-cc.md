@@ -11,7 +11,7 @@ image: 2013/11/cpp.png
 lastmod: 2016-08-19
 layout: post.amp
 mainclass: dev
-permalink: /parametros-variables-en-cc/
+url: /parametros-variables-en-cc/
 tags:
 - parametros indefinidos
 - "par\xE1metros variables en C/c++"

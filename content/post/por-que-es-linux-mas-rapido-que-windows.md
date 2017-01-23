@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2015-12-28
 layout: post.amp
 mainclass: articulos
-permalink: /por-que-es-linux-mas-rapido-que-windows/
+url: /por-que-es-linux-mas-rapido-que-windows/
 tags:
 - linux mas rapido que windows
 - windows vs linux

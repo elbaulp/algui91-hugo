@@ -13,7 +13,7 @@ image: 2013/08/ku-bigpic.jpg
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: articulos
-permalink: /10-razones-para-rootear-tu-telefono-android/
+url: /10-razones-para-rootear-tu-telefono-android/
 tags:
 - como rootear android
 - problemas rootear android

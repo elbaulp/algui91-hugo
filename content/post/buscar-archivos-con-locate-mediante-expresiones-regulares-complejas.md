@@ -11,7 +11,7 @@ image: 2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complej
 lastmod: 2016-08-26
 layout: post.amp
 mainclass: linux
-permalink: /buscar-archivos-con-locate-mediante-expresiones-regulares-complejas/
+url: /buscar-archivos-con-locate-mediante-expresiones-regulares-complejas/
 tags:
 - "crear lista de reproducci\xF3n"
 - ejemplos locate

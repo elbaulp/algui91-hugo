@@ -7,7 +7,7 @@ color: '#2196F3'
 date: '2016-01-01'
 layout: post.amp
 mainclass: linux
-permalink: /entendiendo-los-runlevel-en-debian-y-ubuntu/
+url: /entendiendo-los-runlevel-en-debian-y-ubuntu/
 tags:
 - autoejecutar servicios linux
 - iniciar servicio linux

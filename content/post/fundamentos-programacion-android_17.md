@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-17
 layout: post.amp
 mainclass: android
-permalink: /fundamentos-programacion-android_17/
+url: /fundamentos-programacion-android_17/
 tags:
 - Actividades
 - android

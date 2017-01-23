@@ -12,7 +12,7 @@ image: 2012/12/linux-apps-on-android1.jpg
 lastmod: 2016-08-13
 layout: post.amp
 mainclass: articulos
-permalink: /botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/
+url: /botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/
 redirect_from: /programacion/android/botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/
 tags:
 - botbrew basil

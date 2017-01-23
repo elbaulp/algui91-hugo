@@ -8,7 +8,7 @@ image: 2013/10/django.png
 lastmod: 2016-10-12
 layout: post.amp
 mainclass: dev
-permalink: /introduccion-django-instalacion-y-primer-proyecto/
+url: /introduccion-django-instalacion-y-primer-proyecto/
 tags:
 - ejemplos django
 - instalar django

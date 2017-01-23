@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-16
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /lenguaje-manipulacion-de-datos-dml/
+url: /lenguaje-manipulacion-de-datos-dml/
 redirect_from: /programacion/basededatos/lenguaje-manipulacion-de-datos-dml/
 tags:
 - que es un ddl

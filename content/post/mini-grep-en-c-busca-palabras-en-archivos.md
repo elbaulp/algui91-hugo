@@ -8,7 +8,7 @@ color: '#E64A19'
 date: '2016-01-01'
 layout: post.amp
 mainclass: dev
-permalink: /mini-grep-en-c-busca-palabras-en-archivos/
+url: /mini-grep-en-c-busca-palabras-en-archivos/
 tags:
 - buscar palabra fichero c
 - comandos

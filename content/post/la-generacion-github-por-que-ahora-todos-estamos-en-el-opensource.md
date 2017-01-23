@@ -8,7 +8,7 @@ image: "2013/08/La-generaci\xF3n-GitHub-Por-qu\xE9-ahora-todos-estamos-en-el-ope
 lastmod: 2016-08-07
 layout: post.amp
 mainclass: articulos
-permalink: /la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/
+url: /la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/
 tags:
 - cambios github
 - generacion github

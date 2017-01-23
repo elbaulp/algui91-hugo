@@ -11,7 +11,7 @@ image: 2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png
 lastmod: 2015-12-24
 layout: post.amp
 mainclass: dev
-permalink: /statuscolor-dwm-6-1/
+url: /statuscolor-dwm-6-1/
 tags:
 - simplestatuscolor dwm 6.1
 - statuscolor dwm 6.1

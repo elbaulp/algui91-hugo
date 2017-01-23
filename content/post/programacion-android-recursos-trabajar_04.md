@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-29
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-recursos-trabajar_04/
+url: /programacion-android-recursos-trabajar_04/
 tags:
 - curso android pdf
 title: "Programaci\xF3n Android: Recursos - Trabajar con recursos Assets"

@@ -7,7 +7,7 @@ color: '#E64A19'
 date: '2016-01-01'
 layout: post.amp
 mainclass: dev
-permalink: /python4kids-aprende-programar-en-python/
+url: /python4kids-aprende-programar-en-python/
 title: "Python4Kids. Aprende a programar en python f\xE1cilmente"
 ---
 

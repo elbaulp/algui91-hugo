@@ -12,7 +12,7 @@ image: 2013/07/iconoAndroid.png
 lastmod: 2016-08-13
 layout: post.amp
 mainclass: android
-permalink: /codigos-secretos-y-ocultos-para-android/
+url: /codigos-secretos-y-ocultos-para-android/
 redirect_from: /programacion/android/codigos-secretos-y-ocultos-para-android/
 tags:
 - codigos de android

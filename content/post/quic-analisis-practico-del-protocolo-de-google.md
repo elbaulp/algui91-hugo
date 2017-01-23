@@ -16,7 +16,7 @@ lastmod: 2015-12-23
 layout: post.amp
 mainclass: articulos
 math: true
-permalink: /quic-analisis-practico-del-protocolo-de-google/
+url: /quic-analisis-practico-del-protocolo-de-google/
 tags:
 - analisis de protocolos
 - especificaciones quic

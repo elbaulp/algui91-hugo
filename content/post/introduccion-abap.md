@@ -15,7 +15,7 @@ image: 2014/03/SAP-Apariencia.png
 lastmod: 2015-12-25
 layout: post.amp
 mainclass: dev
-permalink: /introduccion-abap/
+url: /introduccion-abap/
 tags:
 - curso ABAP
 - "programaci\xF3n ABAP"

@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-27
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /plsql-declaracion-de-variables/
+url: /plsql-declaracion-de-variables/
 tags:
 - declare en pl sql
 title: "PL/SQL. Declaraci\xF3n de variables"

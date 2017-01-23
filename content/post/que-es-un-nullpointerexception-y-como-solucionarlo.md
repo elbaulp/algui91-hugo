@@ -11,7 +11,7 @@ image: "2014/05/Qu\xE9-es-un-NullPointerException-y-c\xF3mo-solucionarlo.png"
 lastmod: 2016-04-06
 layout: post.amp
 mainclass: java
-permalink: /que-es-un-nullpointerexception-y-como-solucionarlo/
+url: /que-es-un-nullpointerexception-y-como-solucionarlo/
 tags:
 - excepciones java
 - null

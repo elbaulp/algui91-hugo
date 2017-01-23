@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-19
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /consulta-de-datos-tablas-resumen/
+url: /consulta-de-datos-tablas-resumen/
 title: Consulta de Datos - Tablas Resumen operadores y Funciones Oracle
 ---
 

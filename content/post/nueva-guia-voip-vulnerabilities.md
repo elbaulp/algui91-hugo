@@ -7,7 +7,7 @@ color: '#61B38D'
 date: '2016-01-01'
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-voip-vulnerabilities/
+url: /nueva-guia-voip-vulnerabilities/
 tags:
 - VoIP Vulnerabilities
 title: "Nueva Gu\xEDa: VoIP Vulnerabilities"

@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /vota-por-el-logo-que-mas-te-guste-para-el-baul-del-programador/
+url: /vota-por-el-logo-que-mas-te-guste-para-el-baul-del-programador/
 title: "Vota por el logo que m\xE1s te guste para El Ba\xFAl del Programador"
 ---
 

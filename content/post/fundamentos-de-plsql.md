@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-24
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /fundamentos-de-plsql/
+url: /fundamentos-de-plsql/
 title: Fundamentos de PL/SQL
 ---
 

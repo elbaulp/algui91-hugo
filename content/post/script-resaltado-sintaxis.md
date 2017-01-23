@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-07-29
 layout: post.amp
 mainclass: linux
-permalink: /script-resaltado-sintaxis/
+url: /script-resaltado-sintaxis/
 tags:
 - sintaxis c
 title: Script resaltado sintaxis c++

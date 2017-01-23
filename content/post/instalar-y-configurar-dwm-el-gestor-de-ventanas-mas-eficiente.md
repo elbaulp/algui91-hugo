@@ -18,7 +18,7 @@ image: "2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-m\xE1s-eficiente
 lastmod: 2015-12-24
 layout: post.amp
 mainclass: dev
-permalink: /instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente/
+url: /instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente/
 tags:
 - dwm
 - dynamic window manager

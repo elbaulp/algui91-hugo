@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-09
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-recursos-trabajar-2/
+url: /programacion-android-recursos-trabajar-2/
 tags:
 - curso android pdf
 title: "Programaci\xF3n Android: Recursos - Trabajar con recursos RAW"

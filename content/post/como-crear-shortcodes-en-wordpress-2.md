@@ -11,7 +11,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: dev
-permalink: /como-crear-shortcodes-en-wordpress-2/
+url: /como-crear-shortcodes-en-wordpress-2/
 tags:
 - atajos wordpress
 - php

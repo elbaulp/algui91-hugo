@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-16
 layout: post.amp
 mainclass: articulos
-permalink: /como-empezar-programar-how-start/
+url: /como-empezar-programar-how-start/
 title: "C\xF3mo empezar a programar"
 ---
 

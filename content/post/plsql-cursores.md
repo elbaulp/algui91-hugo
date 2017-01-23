@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-09-02
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /plsql-cursores/
+url: /plsql-cursores/
 tags:
 - cursores en sql
 - cursores explicitos en sql server

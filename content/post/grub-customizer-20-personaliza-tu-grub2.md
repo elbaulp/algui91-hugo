@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: linux
-permalink: /grub-customizer-20-personaliza-tu-grub2/
+url: /grub-customizer-20-personaliza-tu-grub2/
 title: Grub Customizer 2.0, personaliza tu GRUB2
 ---
 

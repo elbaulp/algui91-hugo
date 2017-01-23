@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-16
 layout: post.amp
 mainclass: linux
-permalink: /que-son-los-ppa-what-ppa-is/
+url: /que-son-los-ppa-what-ppa-is/
 title: "\xBFQu\xE9 son los PPA?"
 ---
 

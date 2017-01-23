@@ -10,7 +10,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-your-guide-to-google-analytics/
+url: /nueva-guia-your-guide-to-google-analytics/
 tags:
 - google analytics
 - guias

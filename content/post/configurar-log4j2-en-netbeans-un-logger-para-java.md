@@ -11,7 +11,7 @@ image: 2015/03/Configurar-el-logger-Log4j2-en-Netbeans1.png
 lastmod: 2016-08-01
 layout: post.amp
 mainclass: java
-permalink: /configurar-log4j2-en-netbeans-un-logger-para-java/
+url: /configurar-log4j2-en-netbeans-un-logger-para-java/
 tags:
 - configurar log4j2
 - instalar log4j2

@@ -6,7 +6,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /restlib-libreria-para-realizar-peticiones-a-web-services-en-android/
+url: /restlib-libreria-para-realizar-peticiones-a-web-services-en-android/
 tags:
 - curso android pdf
 - json

@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-14
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-interfaz-grafica_28/
+url: /programacion-android-interfaz-grafica_28/
 tags:
 - adapter android
 - "android dise\xF1ar gui"

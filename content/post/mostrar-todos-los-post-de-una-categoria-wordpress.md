@@ -6,7 +6,7 @@ color: '#E64A19'
 date: '2016-01-01'
 layout: post.amp
 mainclass: dev
-permalink: /mostrar-todos-los-post-de-una-categoria-wordpress/
+url: /mostrar-todos-los-post-de-una-categoria-wordpress/
 tags:
 - "Mostrar todos los art\xEDculos de una categor\xEDa en Wordpress"
 title: "Mostrar todos los post de una categor\xEDa en WordPress"

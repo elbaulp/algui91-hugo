@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: articulos
-permalink: /rockmelt-una-navegador-social-basado-en/
+url: /rockmelt-una-navegador-social-basado-en/
 title: Rockmelt, una navegador social basado en Chromium
 ---
 

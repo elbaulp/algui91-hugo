@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-13
 layout: post.amp
 mainclass: dev
-permalink: /ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
+url: /ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
 redirect_from: /programacion/ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
 tags:
 - "estenograf\xEDa"

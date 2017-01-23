@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /que-significa-unknown-en-las-estadisticas-de-whos-amung/
+url: /que-significa-unknown-en-las-estadisticas-de-whos-amung/
 tags:
 - estadisticas
 - whos amung

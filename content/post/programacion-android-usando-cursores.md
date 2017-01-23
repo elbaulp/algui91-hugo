@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-10-08
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-usando-cursores/
+url: /programacion-android-usando-cursores/
 tags:
 - curso android pdf
 - Cursores Android

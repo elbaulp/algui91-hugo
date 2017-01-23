@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-10-01
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-proveedores-de/
+url: /programacion-android-proveedores-de/
 tags:
 - curso android pdf
 title: "Programaci\xF3n Android: Proveedores de Contenido - Introducci\xF3n"

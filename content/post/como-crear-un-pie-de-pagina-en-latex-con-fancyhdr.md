@@ -9,7 +9,7 @@ image: 2013/05/latex_logo.png
 lastmod: 2016-08-13
 layout: post.amp
 mainclass: latex
-permalink: /como-crear-un-pie-de-pagina-en-latex-con-fancyhdr/
+url: /como-crear-un-pie-de-pagina-en-latex-con-fancyhdr/
 tags:
 - "crear un pie de p\xE1gina en LaTeX"
 - fancyhdr

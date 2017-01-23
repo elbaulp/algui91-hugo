@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-09
 layout: post.amp
 mainclass: articulos
-permalink: /paperli-crea-tu-periodico-digital/
+url: /paperli-crea-tu-periodico-digital/
 title: "Paper.li: Crea tu peri\xF3dico digital autom\xE1ticamente con lo m\xE1s relevante
   de Twitter y Facebook"
 ---

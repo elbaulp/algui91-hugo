@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-11-03
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-intents-conceptos/
+url: /programacion-android-intents-conceptos/
 tags:
 - android ejemplo intent filter
 - curso android pdf

@@ -8,7 +8,7 @@ date: '2016-01-01'
 format: gallery
 layout: post.amp
 mainclass: geek
-permalink: /vinetas-geek-de-domingo-vi/
+url: /vinetas-geek-de-domingo-vi/
 tags:
 - chiste grafico de informatica
 - geek

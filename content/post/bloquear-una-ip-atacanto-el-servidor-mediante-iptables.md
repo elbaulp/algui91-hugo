@@ -11,7 +11,7 @@ description: "Ayer ojeando el archivo de log detect\xE9 que hab\xEDa una ip mand
   investigar un poco."
 layout: post.amp
 mainclass: servidores
-permalink: /bloquear-una-ip-atacanto-el-servidor-mediante-iptables/
+url: /bloquear-una-ip-atacanto-el-servidor-mediante-iptables/
 tags:
 - agregar regla de iptables
 - bloquear ip

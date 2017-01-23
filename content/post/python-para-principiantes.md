@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-31
 layout: post.amp
 mainclass: dev
-permalink: /python-para-principiantes/
+url: /python-para-principiantes/
 title: Python para principiantes
 ---
 

@@ -7,7 +7,7 @@ color: '#0097A7'
 date: '2016-01-01'
 layout: post.amp
 mainclass: servidores
-permalink: /solucionar-fallo-de-segmentacion-en-php-cuando-se-usa-apc/
+url: /solucionar-fallo-de-segmentacion-en-php-cuando-se-usa-apc/
 tags:
 - "configuraci\xF3n apc"
 - "fallo segmentaci\xF3n php"

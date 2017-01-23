@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-09
 layout: post.amp
 mainclass: articulos
-permalink: /masterbranch-crea-tu-perfil-como/
+url: /masterbranch-crea-tu-perfil-como/
 title: MasterBranch - Crea tu perfil como Programador y muestra todos tus proyectos
 ---
 

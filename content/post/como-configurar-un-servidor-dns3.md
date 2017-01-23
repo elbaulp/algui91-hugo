@@ -9,7 +9,7 @@ date: '2016-01-01'
 image: 2013/04/dns.jpg
 layout: post.amp
 mainclass: servidores
-permalink: /como-configurar-un-servidor-dns3/
+url: /como-configurar-un-servidor-dns3/
 tags:
 - A records
 - bind

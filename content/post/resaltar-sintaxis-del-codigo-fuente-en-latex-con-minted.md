@@ -9,7 +9,7 @@ lastmod: 2016-08-13
 layout: post.amp
 mainclass: latex
 math: true
-permalink: /resaltar-sintaxis-del-codigo-fuente-en-latex-con-minted/
+url: /resaltar-sintaxis-del-codigo-fuente-en-latex-con-minted/
 tags:
 - ejemplos minted
 - instalar minted

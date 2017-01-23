@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-09-04
 layout: post.amp
 mainclass: dev
-permalink: /clases-y-objetos-control-del-acceso-los/
+url: /clases-y-objetos-control-del-acceso-los/
 title: Clases y Objetos. Control del acceso a los miembros de la clase
 ---
 

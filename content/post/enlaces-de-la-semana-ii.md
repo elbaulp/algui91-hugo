@@ -9,7 +9,7 @@ description: "<!--:es-->Recopilaci\xF3n semanal de enlaces sobre noticias de la 
   inform\xE1tica y software libre<!--:-->"
 layout: post.amp
 mainclass: articulos
-permalink: /enlaces-de-la-semana-ii/
+url: /enlaces-de-la-semana-ii/
 title: Enlaces de la semana ( II )
 ---
 

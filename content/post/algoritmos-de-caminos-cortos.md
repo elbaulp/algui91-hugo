@@ -10,7 +10,7 @@ description: "Para hablar de este tipo de algoritmos, tengo que hacer una breve 
   a lo que es un grafo y c\xF3mo se representa en un ordenador."
 layout: post.amp
 mainclass: dev
-permalink: /algoritmos-de-caminos-cortos/
+url: /algoritmos-de-caminos-cortos/
 tags:
 - algoritmo de dijkstra en c
 - Algoritmo Dijkstra

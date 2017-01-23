@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: articulos
-permalink: /juegos-linux-clockwork-man-1-y-2/
+url: /juegos-linux-clockwork-man-1-y-2/
 title: Juegos Linux, The Clockwork Man 1 y 2
 ---
 

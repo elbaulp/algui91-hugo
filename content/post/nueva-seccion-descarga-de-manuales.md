@@ -11,7 +11,7 @@ date: '2016-01-01'
 lastmod: 2016-09-12
 layout: post.amp
 mainclass: articulos
-permalink: /nueva-seccion-descarga-de-manuales/
+url: /nueva-seccion-descarga-de-manuales/
 title: "Nueva secci\xF3n: Descarga de Manuales gratuitos"
 ---
 

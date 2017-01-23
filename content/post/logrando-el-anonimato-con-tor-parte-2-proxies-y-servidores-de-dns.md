@@ -11,7 +11,7 @@ image: 2012/12/081012_1604_AchievingAn11-300x128.png
 lastmod: 2016-08-08
 layout: post.amp
 mainclass: articulos
-permalink: /logrando-el-anonimato-con-tor-parte-2-proxies-y-servidores-de-dns/
+url: /logrando-el-anonimato-con-tor-parte-2-proxies-y-servidores-de-dns/
 tags:
 - navegacion anonima
 - Tor

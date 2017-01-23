@@ -14,7 +14,7 @@ image: 2013/07/wordpress.png
 lastmod: 2015-12-24
 layout: post.amp
 mainclass: dev
-permalink: /incluir-imagenes-en-una-entrada-de-wordpress-usando-php/
+url: /incluir-imagenes-en-una-entrada-de-wordpress-usando-php/
 tags:
 - "a\xF1adir imagenes php"
 - "a\xF1adir imagenes wordpress"

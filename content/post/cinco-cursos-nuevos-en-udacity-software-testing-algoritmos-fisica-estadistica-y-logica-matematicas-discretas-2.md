@@ -11,7 +11,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: misc
-permalink: /cinco-cursos-nuevos-en-udacity-software-testing-algoritmos-fisica-estadistica-y-logica-matematicas-discretas-2/
+url: /cinco-cursos-nuevos-en-udacity-software-testing-algoritmos-fisica-estadistica-y-logica-matematicas-discretas-2/
 tags:
 - algoritmos
 - cursos online

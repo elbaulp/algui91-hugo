@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /diseno-de-bases-de-datos-ii/
+url: /diseno-de-bases-de-datos-ii/
 tags:
 - default
 - sintaxis de restricciones check

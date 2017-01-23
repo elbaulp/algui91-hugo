@@ -6,7 +6,7 @@ color: '#00BCD4'
 date: '2016-01-01'
 layout: post.amp
 mainclass: security-now
-permalink: /sqrl-y-la-idea-de-eliminar-el-uso-de-usuario-y-contrasena-en-internet/
+url: /sqrl-y-la-idea-de-eliminar-el-uso-de-usuario-y-contrasena-en-internet/
 tags:
 - "metodos de autenticaci\xF3n"
 - metodos de autentificacion

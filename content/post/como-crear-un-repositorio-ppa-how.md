@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-08-16
 layout: post.amp
 mainclass: articulos
-permalink: /como-crear-un-repositorio-ppa-how/
+url: /como-crear-un-repositorio-ppa-how/
 title: Como crear un PPA (Personal Package Archive)
 ---
 

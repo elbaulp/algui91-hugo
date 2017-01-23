@@ -9,7 +9,7 @@ description: "C\xF3digo php para mostrar en wordpress nuestro n\xFAmero de segui
 format: aside
 layout: post.amp
 mainclass: dev
-permalink: /mostrar-el-numero-de-seguidores-en-twitter-en-wordpress/
+url: /mostrar-el-numero-de-seguidores-en-twitter-en-wordpress/
 tags:
 - contador seguidores
 - followers count

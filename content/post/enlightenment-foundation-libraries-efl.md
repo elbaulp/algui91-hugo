@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-01
 layout: post.amp
 mainclass: linux
-permalink: /enlightenment-foundation-libraries-efl/
+url: /enlightenment-foundation-libraries-efl/
 title: Enlightenment Foundation Libraries (EFL)
 ---
 

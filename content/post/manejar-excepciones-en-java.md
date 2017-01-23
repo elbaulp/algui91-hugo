@@ -12,7 +12,7 @@ description: "En este art\xEDculo veremos un poco sobre el manejo de excepciones
 lastmod: 2015-12-24
 layout: post.amp
 mainclass: java
-permalink: /manejar-excepciones-en-java/
+url: /manejar-excepciones-en-java/
 tags:
 - errores java
 - excepciones java

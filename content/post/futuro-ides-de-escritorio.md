@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-09
 layout: post.amp
 mainclass: articulos
-permalink: /futuro-ides-de-escritorio/
+url: /futuro-ides-de-escritorio/
 tags:
 - futuro de los ides de escritorio
 - IDES en la nube

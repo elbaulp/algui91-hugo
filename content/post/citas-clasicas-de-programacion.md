@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-31
 layout: post.amp
 mainclass: articulos
-permalink: /citas-clasicas-de-programacion/
+url: /citas-clasicas-de-programacion/
 title: "22 Citas cl\xE1sicas de programaci\xF3n"
 ---
 

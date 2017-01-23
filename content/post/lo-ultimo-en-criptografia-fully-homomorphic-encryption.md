@@ -9,7 +9,7 @@ color: '#00BCD4'
 date: '2016-01-01'
 layout: post.amp
 mainclass: security-now
-permalink: /lo-ultimo-en-criptografia-fully-homomorphic-encryption/
+url: /lo-ultimo-en-criptografia-fully-homomorphic-encryption/
 tags:
 - cifrado determinista
 - "cifrado homom\xF3rfico"

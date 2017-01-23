@@ -6,7 +6,7 @@ color: '#0097A7'
 date: '2016-01-01'
 layout: post.amp
 mainclass: servidores
-permalink: /como-desarrollar-aplicaciones-en-un-servidor-cloud-2/
+url: /como-desarrollar-aplicaciones-en-un-servidor-cloud-2/
 tags:
 - aplicaciones cliente servidor
 - desarrollo backend

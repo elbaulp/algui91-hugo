@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-12
 layout: post.amp
 mainclass: articulos
-permalink: /video-tutoriales-ataque-man-in-middle/
+url: /video-tutoriales-ataque-man-in-middle/
 tags:
 - "ettercap en espa\xF1ol"
 title: "[V\xEDdeo tutoriales] Ataque Man in the middle"

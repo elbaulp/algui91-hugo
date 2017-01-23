@@ -10,7 +10,7 @@ date: '2016-01-01'
 lastmod: 2016-09-08
 layout: post.amp
 mainclass: geek
-permalink: /humor-como-arreglar-una-computadora/
+url: /humor-como-arreglar-una-computadora/
 title: '[Humor]: Como arreglar una computadora (Windows, Linux o Mac OSX)'
 ---
 

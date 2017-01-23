@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-16
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /lenguaje-definicion-de-datos-ddl-alter/
+url: /lenguaje-definicion-de-datos-ddl-alter/
 tags:
 - concepto de ddl
 - que es un ddl

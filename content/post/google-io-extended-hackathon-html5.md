@@ -12,7 +12,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: articulos
-permalink: /google-io-extended-hackathon-html5/
+url: /google-io-extended-hackathon-html5/
 tags:
 - google developers group
 - Google I/O

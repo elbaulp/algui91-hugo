@@ -9,7 +9,7 @@ image: 2012/12/logicbomb.png
 lastmod: 2016-08-05
 layout: post.amp
 mainclass: dev
-permalink: /desafio-de-ingenieria-inversa-en-c-soluciones/
+url: /desafio-de-ingenieria-inversa-en-c-soluciones/
 tags:
 - asm
 - bomba logica

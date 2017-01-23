@@ -10,7 +10,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: articulos
-permalink: /suplantacion-de-identidad-en-facebook/
+url: /suplantacion-de-identidad-en-facebook/
 tags:
 - email spoofing
 - seguridad

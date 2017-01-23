@@ -13,7 +13,7 @@ description: "En sistemas operativos como Debian, muchos de los programas y demo
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: servidores
-permalink: /como-enviar-los-emails-de-varmailroot-una-cuenta-de-correo/
+url: /como-enviar-los-emails-de-varmailroot-una-cuenta-de-correo/
 tags:
 - /var/mail/root a gmail
 - enviar mensajes del sistema a correo

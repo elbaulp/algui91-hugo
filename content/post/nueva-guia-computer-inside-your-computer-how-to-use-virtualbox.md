@@ -9,7 +9,7 @@ description: Learn to use VirtualBox. Get virtual computers up and running insid
   your computer, without having to buy any new hardware.
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-computer-inside-your-computer-how-to-use-virtualbox/
+url: /nueva-guia-computer-inside-your-computer-how-to-use-virtualbox/
 tags:
 - virtualbox
 title: "Nueva Gu\xEDa: Computer Inside Your Computer: How To Use VirtualBox"

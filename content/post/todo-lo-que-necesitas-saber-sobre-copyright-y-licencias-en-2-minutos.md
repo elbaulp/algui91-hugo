@@ -13,7 +13,7 @@ image: 2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minu
 lastmod: 2016-03-20
 layout: post.amp
 mainclass: articulos
-permalink: /todo-lo-que-necesitas-saber-sobre-copyright-y-licencias-en-2-minutos/
+url: /todo-lo-que-necesitas-saber-sobre-copyright-y-licencias-en-2-minutos/
 tags:
 - gpl
 - licencia apache

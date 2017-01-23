@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-10-08
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-usando-la-clausula/
+url: /programacion-android-usando-la-clausula/
 tags:
 - "Cl\xE1usula where android"
 - curso android pdf

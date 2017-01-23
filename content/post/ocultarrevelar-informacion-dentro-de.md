@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-13
 layout: post.amp
 mainclass: dev
-permalink: /ocultarrevelar-informacion-dentro-de/
+url: /ocultarrevelar-informacion-dentro-de/
 redirect_from: /programacion/ocultarrevelar-informacion-dentro-de/
 tags:
 - esconder informacion en imagen

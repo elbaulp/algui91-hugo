@@ -10,7 +10,7 @@ description: The multitude of devices, users, and generated traffic all combine 
   and variety.
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-big-security-for-big-data/
+url: /nueva-guia-big-security-for-big-data/
 tags:
 - descargar Big Security for Big Data
 - download Big Security for Big Data

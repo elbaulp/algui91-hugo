@@ -8,7 +8,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /cuarto-hackathon-de-proyectos-de/
+url: /cuarto-hackathon-de-proyectos-de/
 title: Cuarto Hackathon de proyectos de software libre de la UGR
 ---
 

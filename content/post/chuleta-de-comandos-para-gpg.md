@@ -12,7 +12,7 @@ image: 2014/04/Chuleta-de-comandos-GPG.png
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: articulos
-permalink: /chuleta-de-comandos-para-gpg/
+url: /chuleta-de-comandos-para-gpg/
 tags:
 - chuleta
 - chuleta de comandos gpg

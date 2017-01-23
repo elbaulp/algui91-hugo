@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-14
 layout: post.amp
 mainclass: articulos
-permalink: /los-10-mejores-frameworks-gratis-de-aplicaciones-web/
+url: /los-10-mejores-frameworks-gratis-de-aplicaciones-web/
 tags:
 - aplicaciones web
 - cakephp

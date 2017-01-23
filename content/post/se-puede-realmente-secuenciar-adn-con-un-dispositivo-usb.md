@@ -10,7 +10,7 @@ description: "\xBFQu\xE9 pasar\xEDa si pudieras poner algunas c\xE9lulas bacteri
   de ADN en cuesti\xF3n de minutos?"
 layout: post.amp
 mainclass: articulos
-permalink: /se-puede-realmente-secuenciar-adn-con-un-dispositivo-usb/
+url: /se-puede-realmente-secuenciar-adn-con-un-dispositivo-usb/
 tags:
 - ADN
 - DNA

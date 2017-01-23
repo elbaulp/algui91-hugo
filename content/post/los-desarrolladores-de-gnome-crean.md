@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-10-04
 layout: post.amp
 mainclass: linux
-permalink: /los-desarrolladores-de-gnome-crean/
+url: /los-desarrolladores-de-gnome-crean/
 title: "Los desarrolladores de GNOME crean \u201CBoxes\u201D para la virtualizaci\xF3n"
 ---
 

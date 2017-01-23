@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-18
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /consulta-de-datos-clausula-select/
+url: /consulta-de-datos-clausula-select/
 title: "Consulta de Datos - Cl\xE1usula Select"
 ---
 

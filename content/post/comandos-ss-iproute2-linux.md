@@ -11,7 +11,7 @@ description: "El prop\xF3sito de iproute2 es reemplazar el conjunto de herramien
 image: 2012/07/sh1.png
 layout: post.amp
 mainclass: linux
-permalink: /comandos-ss-iproute2-linux/
+url: /comandos-ss-iproute2-linux/
 tags:
 - comando ip route linux
 - comando ss

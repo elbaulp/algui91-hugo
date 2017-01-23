@@ -10,7 +10,7 @@ image: visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia.png
 lastmod: 2016-08-06
 layout: post.amp
 mainclass: servidores
-permalink: /visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia/
+url: /visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia/
 tags:
 - grabar video logstalgia
 - instalar logstalgia

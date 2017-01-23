@@ -7,7 +7,7 @@ color: '#61B38D'
 date: '2016-01-01'
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-the-top-10-reports-for-managing-vulnerabilities/
+url: /nueva-guia-the-top-10-reports-for-managing-vulnerabilities/
 tags:
 - anti spam
 - anti spyware

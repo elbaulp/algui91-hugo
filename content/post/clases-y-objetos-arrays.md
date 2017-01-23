@@ -11,7 +11,7 @@ description: Un array sirve para guardar un conjunto de entidades pertenecientes
 lastmod: 2016-09-04
 layout: post.amp
 mainclass: dev
-permalink: /clases-y-objetos-arrays/
+url: /clases-y-objetos-arrays/
 title: Clases y Objetos. Arrays
 ---
 

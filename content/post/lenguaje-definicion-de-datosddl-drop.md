@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-16
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /lenguaje-definicion-de-datosddl-drop/
+url: /lenguaje-definicion-de-datosddl-drop/
 tags:
 - clausulas del ddl
 - concepto de ddl

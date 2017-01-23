@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-23
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /introduccion-plsql-transacciones/
+url: /introduccion-plsql-transacciones/
 tags:
 - transacciones sql
 title: "Introducci\xF3n a PL/SQL. Transacciones"

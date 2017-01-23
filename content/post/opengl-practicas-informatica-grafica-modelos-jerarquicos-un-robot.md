@@ -10,7 +10,7 @@ description: "El curso pasado hice unas pr\xE1cticas Inform\xE1tica Gr\xE1fica (
 lastmod: 2015-12-22
 layout: post.amp
 mainclass: dev
-permalink: /opengl-practicas-informatica-grafica-modelos-jerarquicos-un-robot/
+url: /opengl-practicas-informatica-grafica-modelos-jerarquicos-un-robot/
 tags:
 - practicas IG etsiit
 - practicas IG ugr

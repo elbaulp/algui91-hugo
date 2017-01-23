@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-09
 layout: post.amp
 mainclass: articulos
-permalink: /crea-scripts-para-las-aplicaciones-de-google-con-apps-script/
+url: /crea-scripts-para-las-aplicaciones-de-google-con-apps-script/
 tags:
 - Gmail Inbox Statistics Report
 - "Informe estad\xEDstico mensual de GMail"

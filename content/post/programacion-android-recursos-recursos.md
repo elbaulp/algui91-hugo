@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-29
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-recursos-recursos/
+url: /programacion-android-recursos-recursos/
 tags:
 - curso android pdf
 title: "Programaci\xF3n Android: Recursos - Recursos y cambios de configuraci\xF3n"

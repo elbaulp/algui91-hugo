@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-09-20
 layout: post.amp
 mainclass: geek
-permalink: /cosas-que-me-gustan-y-odio-de-tener-un/
+url: /cosas-que-me-gustan-y-odio-de-tener-un/
 title: Cosas que me gustan y odio de tener un smartphone [HUMOR]
 ---
 

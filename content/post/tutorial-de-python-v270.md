@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-04
 layout: post.amp
 mainclass: articulos
-permalink: /tutorial-de-python-v270/
+url: /tutorial-de-python-v270/
 tags:
 - curso python para principiantes
 - tutorial de python

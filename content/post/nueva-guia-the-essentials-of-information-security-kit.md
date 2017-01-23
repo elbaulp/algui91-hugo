@@ -7,7 +7,7 @@ color: '#61B38D'
 date: '2016-01-01'
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-the-essentials-of-information-security-kit/
+url: /nueva-guia-the-essentials-of-information-security-kit/
 tags:
 - libros seguridad
 - manuales seguridad

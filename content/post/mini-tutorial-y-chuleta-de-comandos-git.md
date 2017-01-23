@@ -9,7 +9,7 @@ image: 2013/03/git-logo.png
 lastmod: 2016-08-06
 layout: post.amp
 mainclass: git
-permalink: /mini-tutorial-y-chuleta-de-comandos-git/
+url: /mini-tutorial-y-chuleta-de-comandos-git/
 redirect_from: /articulos/mini-tutorial-y-chuleta-de-comandos-git/
 tags:
 - chuleta

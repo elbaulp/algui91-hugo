@@ -6,7 +6,7 @@ color: '#262626'
 date: '2016-01-01'
 layout: post.amp
 mainclass: geek
-permalink: /vinetas-geek-de-domingo-xii/
+url: /vinetas-geek-de-domingo-xii/
 title: "Vi\xF1etas Geek de Domingo (XII)"
 ---
 

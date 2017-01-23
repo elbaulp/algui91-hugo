@@ -9,7 +9,7 @@ description: "\xC9ste art\xEDculo es una traducci\xF3n del blog de Alex Lockwood
 lastmod: 2015-12-22
 layout: post.amp
 mainclass: android
-permalink: /fugas-de-memoria-android-handlers-clases-internas/
+url: /fugas-de-memoria-android-handlers-clases-internas/
 tags:
 - fugas de memoria en Android
 - fugas de memoria handlers

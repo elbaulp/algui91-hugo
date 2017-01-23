@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-09-04
 layout: post.amp
 mainclass: dev
-permalink: /clases-y-objetos-funciones-inline/
+url: /clases-y-objetos-funciones-inline/
 title: Clases y Objetos - Funciones inline
 ---
 

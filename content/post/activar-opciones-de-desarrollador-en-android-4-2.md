@@ -11,7 +11,7 @@ description: "Hace poco actualic\xE9 mi Samsung Galaxy S II (GT-I9100) a Cyanoge
   ha escondido por defecto esta opci\xF3n."
 layout: post.amp
 mainclass: articulos
-permalink: /activar-opciones-de-desarrollador-en-android-4-2/
+url: /activar-opciones-de-desarrollador-en-android-4-2/
 tags:
 - android
 - android 4.2

@@ -17,7 +17,7 @@ image: 2014/12/Grid-Spacing-en-Android-take_2_1.png
 lastmod: 2015-12-22
 layout: post.amp
 mainclass: android
-permalink: /grid-spacing-en-android/
+url: /grid-spacing-en-android/
 tags:
 - android
 - divider android

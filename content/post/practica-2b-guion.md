@@ -7,7 +7,7 @@ color: '#E64A19'
 date: '2016-01-01'
 layout: post.amp
 mainclass: dev
-permalink: /peso-hamming-y-optimizacion/
+url: /peso-hamming-y-optimizacion/
 tags:
 - optimizacion
 - paridad

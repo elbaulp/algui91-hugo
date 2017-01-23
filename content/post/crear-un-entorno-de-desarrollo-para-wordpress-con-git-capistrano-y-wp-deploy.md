@@ -14,7 +14,7 @@ image: hotlink-ok/CREAR-UN-ENTORNO-DE-DESARROLLO-PARA-WORDPRESS-CON-GIT-CAPISTRA
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: git
-permalink: /crear-un-entorno-de-desarrollo-para-wordpress-con-git-capistrano-y-wp-deploy/
+url: /crear-un-entorno-de-desarrollo-para-wordpress-con-git-capistrano-y-wp-deploy/
 tags:
 - git
 - Configurar capistrano

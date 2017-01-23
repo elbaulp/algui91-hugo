@@ -11,7 +11,7 @@ image: 2013/05/setMovementMethod-example.png
 lastmod: 2016-08-05
 layout: post.amp
 mainclass: android
-permalink: /crear-enlaces-en-un-textview-con-la-etiqueta-html-a-href-en-android/
+url: /crear-enlaces-en-un-textview-con-la-etiqueta-html-a-href-en-android/
 tags:
 - a href android xml
 - crear enlaces cadenas de texto android

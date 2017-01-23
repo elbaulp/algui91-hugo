@@ -6,7 +6,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /optimizando-la-interfaz-android-compound-drawables/
+url: /optimizando-la-interfaz-android-compound-drawables/
 tags:
 - android listview con imagenes
 - android listview example

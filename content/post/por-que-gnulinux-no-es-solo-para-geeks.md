@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-10-01
 layout: post.amp
 mainclass: linux
-permalink: /por-que-gnulinux-no-es-solo-para-geeks/
+url: /por-que-gnulinux-no-es-solo-para-geeks/
 title: "Por qu\xE9 GNU/Linux no es solo para Geeks"
 ---
 

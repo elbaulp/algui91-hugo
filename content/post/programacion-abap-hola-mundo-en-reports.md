@@ -12,7 +12,7 @@ image: 2014/04/hola-mundo-salida.png
 lastmod: 2015-12-25
 layout: post.amp
 mainclass: dev
-permalink: /programacion-abap-hola-mundo-en-reports/
+url: /programacion-abap-hola-mundo-en-reports/
 tags:
 - curso ABAP
 - hola mundo abap

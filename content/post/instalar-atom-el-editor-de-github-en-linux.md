@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /instalar-atom-el-editor-de-github-en-linux/
+url: /instalar-atom-el-editor-de-github-en-linux/
 tags:
 - atom
 - editor atom github

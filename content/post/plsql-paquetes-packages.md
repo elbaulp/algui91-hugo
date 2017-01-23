@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-09-02
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /plsql-paquetes-packages/
+url: /plsql-paquetes-packages/
 tags:
 - crear paquetes en oracle
 - usuarios package en pl/sql

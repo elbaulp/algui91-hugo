@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-06
 layout: post.amp
 mainclass: android
-permalink: /desarrollo-android-que-es-android/
+url: /desarrollo-android-que-es-android/
 tags:
 - curso android pdf
 title: "Desarrollo android. \xBFQu\xE9 es Android?. Traducci\xF3n de developer.android.com"

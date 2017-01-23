@@ -8,7 +8,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /saltarse-la-autentificacion-de-dos-factores-de-google/
+url: /saltarse-la-autentificacion-de-dos-factores-de-google/
 tags:
 - android
 - autenficacion de dos pasos

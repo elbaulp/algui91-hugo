@@ -14,7 +14,7 @@ introduction: "Hace tiempo que hablamos aqu\xED sobre lo que es un Buffer Overfl
 layout: post.amp
 mainclass: security-now
 modified: null
-permalink: /intel-buffer-overflow-control-flow-enforcement-technology-cet/
+url: /intel-buffer-overflow-control-flow-enforcement-technology-cet/
 tags:
 - security now
 - Intel

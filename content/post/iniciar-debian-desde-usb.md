@@ -6,7 +6,7 @@ color: '#2196F3'
 date: '2016-01-01'
 layout: post.amp
 mainclass: linux
-permalink: /iniciar-debian-desde-usb/
+url: /iniciar-debian-desde-usb/
 tags:
 - debian testing
 - iniciar debian desde pendrive

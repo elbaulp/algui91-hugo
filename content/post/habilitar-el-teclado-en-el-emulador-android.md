@@ -12,7 +12,7 @@ image: "2014/08/C\xF3mo-habilitar-el-teclado-en-el-emulador-Android.png"
 lastmod: 2015-12-24
 layout: post.amp
 mainclass: android
-permalink: /habilitar-el-teclado-en-el-emulador-android/
+url: /habilitar-el-teclado-en-el-emulador-android/
 tags:
 - habilitar el teclado en el emulador Android
 - hw.dPad=yes

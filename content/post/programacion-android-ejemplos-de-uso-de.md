@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-13
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-ejemplos-de-uso-de/
+url: /programacion-android-ejemplos-de-uso-de/
 redirect_from: /opensource/programacion-android-ejemplos-de-uso-de/
 tags:
 - action_pick activity ejemplo

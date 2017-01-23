@@ -7,7 +7,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-interfaz-grafica_25/
+url: /programacion-android-interfaz-grafica_25/
 tags:
 - adapter android
 - "android dise\xF1ar gui"

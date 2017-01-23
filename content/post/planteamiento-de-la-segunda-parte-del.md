@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-25
 layout: post.amp
 mainclass: android
-permalink: /planteamiento-de-la-segunda-parte-del/
+url: /planteamiento-de-la-segunda-parte-del/
 tags:
 - curso android pdf
 title: Planteamiento de la segunda parte del curso de Android

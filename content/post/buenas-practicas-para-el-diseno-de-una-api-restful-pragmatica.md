@@ -11,7 +11,7 @@ image: 2014/01/201305-xml-vs-json-api.png
 lastmod: 2016-08-01
 layout: post.amp
 mainclass: articulos
-permalink: /buenas-practicas-para-el-diseno-de-una-api-restful-pragmatica/
+url: /buenas-practicas-para-el-diseno-de-una-api-restful-pragmatica/
 tags:
 - api restfull
 - apis

@@ -10,7 +10,7 @@ format: status
 lastmod: 2016-08-05
 layout: post.amp
 mainclass: misc
-permalink: /nuevos-cursos-disponibles-en-udacity-la-universidad-online-gratuita/
+url: /nuevos-cursos-disponibles-en-udacity-la-universidad-online-gratuita/
 tags:
 - "criptograf\xEDa"
 - cursos online

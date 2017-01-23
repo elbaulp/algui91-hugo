@@ -13,7 +13,7 @@ description: "Hace unos d\xEDas, visitando la web makeuseof me apareci\xF3 un me
 lastmod: 2016-02-07
 layout: post.amp
 mainclass: articulos
-permalink: /como-saber-si-tus-visitantes-usan-ad-block/
+url: /como-saber-si-tus-visitantes-usan-ad-block/
 tags:
 - adblock
 - anuncios

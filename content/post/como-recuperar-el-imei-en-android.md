@@ -12,7 +12,7 @@ description: "\xC9ste art\xEDculo pretende ser una gu\xEDa para todo aquel que h
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: articulos
-permalink: /como-recuperar-el-imei-en-android/
+url: /como-recuperar-el-imei-en-android/
 tags:
 - imei android
 - imei perdido

@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-07-31
 layout: post.amp
 mainclass: dev
-permalink: /crear-imagenes-en-miniaturas/
+url: /crear-imagenes-en-miniaturas/
 title: "Crear miniaturas de im\xE1genes"
 ---
 

@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-11
 layout: post.amp
 mainclass: linux
-permalink: /netstat-analizando-la-red-y-detectando-problemas/
+url: /netstat-analizando-la-red-y-detectando-problemas/
 redirect_from: /articulos/netstat-analizando-la-red-y-detectando-problemas/
 tags:
 - comando netstat

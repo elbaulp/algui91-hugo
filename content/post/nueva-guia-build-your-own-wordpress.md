@@ -10,7 +10,7 @@ date: '2016-01-01'
 lastmod: 2016-09-12
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-build-your-own-wordpress/
+url: /nueva-guia-build-your-own-wordpress/
 title: "Nueva Gu\xEDa: Build Your Own WordPress Site Guide"
 ---
 

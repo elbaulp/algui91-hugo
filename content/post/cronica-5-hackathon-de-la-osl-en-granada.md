@@ -7,7 +7,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /cronica-5-hackathon-de-la-osl-en-granada/
+url: /cronica-5-hackathon-de-la-osl-en-granada/
 tags:
 - hackathon granada
 - oficina software libre

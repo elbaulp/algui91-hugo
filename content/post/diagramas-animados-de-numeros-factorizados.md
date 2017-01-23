@@ -8,7 +8,7 @@ image: 2013/01/2013-01-13-105334_1256x830_scrot2.png
 lastmod: 2016-08-09
 layout: post.amp
 mainclass: dev
-permalink: /diagramas-animados-de-numeros-factorizados/
+url: /diagramas-animados-de-numeros-factorizados/
 tags:
 - animated diagrams
 - "factorizaci\xF3n"

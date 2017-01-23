@@ -11,7 +11,7 @@ image: 2012/11/081012_1601_AchievingAn21-300x86.png
 lastmod: 2016-08-08
 layout: post.amp
 mainclass: articulos
-permalink: /logrando-el-anonimato-con-tor-parte-1/
+url: /logrando-el-anonimato-con-tor-parte-1/
 redirect_from:
 - /articulos/logrando-el-anonimato-con-tor-parte-1
 - /opensource/logrando-el-anonimato-con-tor-parte-1

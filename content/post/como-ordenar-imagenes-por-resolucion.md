@@ -13,7 +13,7 @@ image: 2012/07/sh.png
 lastmod: 2015-12-24
 layout: post.amp
 mainclass: linux
-permalink: /como-ordenar-imagenes-por-resolucion/
+url: /como-ordenar-imagenes-por-resolucion/
 tags:
 - identify
 - imagenes por resolucion

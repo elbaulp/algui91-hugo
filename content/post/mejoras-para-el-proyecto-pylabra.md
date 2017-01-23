@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-04
 layout: post.amp
 mainclass: dev
-permalink: /mejoras-para-el-proyecto-pylabra/
+url: /mejoras-para-el-proyecto-pylabra/
 title: Mejoras para el proyecto PyLabra
 ---
 

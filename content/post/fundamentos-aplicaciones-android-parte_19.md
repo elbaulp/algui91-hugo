@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-06
 layout: post.amp
 mainclass: android
-permalink: /fundamentos-aplicaciones-android-parte_19/
+url: /fundamentos-aplicaciones-android-parte_19/
 tags:
 - curso android pdf
 title: Fundamentos aplicaciones Android. (Parte III) -Activando Componentes

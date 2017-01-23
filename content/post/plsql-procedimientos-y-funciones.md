@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-09-02
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /plsql-procedimientos-y-funciones/
+url: /plsql-procedimientos-y-funciones/
 tags:
 - ejemplos create procedure sql
 - funcion parametros sql

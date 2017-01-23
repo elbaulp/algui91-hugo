@@ -6,7 +6,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /introduccion-al-ndk-de-android/
+url: /introduccion-al-ndk-de-android/
 tags:
 - ejemplos ndk android
 - hola mundo ndk android

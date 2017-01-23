@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-05
 layout: post.amp
 mainclass: dev
-permalink: /generar-codigo-css-3-facilmente/
+url: /generar-codigo-css-3-facilmente/
 title: "Generar c\xF3digo CSS 3 f\xE1cilmente"
 ---
 

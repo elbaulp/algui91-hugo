@@ -10,7 +10,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: articulos
-permalink: /java-open-source-se-mueve-a-linux-aix-en-powerpc/
+url: /java-open-source-se-mueve-a-linux-aix-en-powerpc/
 tags:
 - AIX
 - Java Open Source

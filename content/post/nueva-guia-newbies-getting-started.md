@@ -8,7 +8,7 @@ image: A-Newbies-Getting-Started-Guide-to-Linux.png
 lastmod: 2016-09-21
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-newbies-getting-started/
+url: /nueva-guia-newbies-getting-started/
 title: "Nueva gu\xEDa: A Newbies Getting Started Guide to Linux"
 ---
 

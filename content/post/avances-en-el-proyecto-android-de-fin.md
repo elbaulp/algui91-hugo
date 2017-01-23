@@ -12,7 +12,7 @@ description: "Como ya sab\xE9is tengo que realizar un proyecto de fin de curso, 
 lastmod: 2016-09-07
 layout: post.amp
 mainclass: android
-permalink: /avances-en-el-proyecto-android-de-fin/
+url: /avances-en-el-proyecto-android-de-fin/
 tags:
 - curso android pdf
 title: Avances en el proyecto Android de fin de curso [WifiBar]

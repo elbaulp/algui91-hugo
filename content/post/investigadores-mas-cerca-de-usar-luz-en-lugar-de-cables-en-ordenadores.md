@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /investigadores-mas-cerca-de-usar-luz-en-lugar-de-cables-en-ordenadores/
+url: /investigadores-mas-cerca-de-usar-luz-en-lugar-de-cables-en-ordenadores/
 tags:
 - "f\xEDsica"
 - luz por cables

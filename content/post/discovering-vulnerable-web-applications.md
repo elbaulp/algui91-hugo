@@ -7,7 +7,7 @@ color: '#61B38D'
 date: '2016-01-01'
 layout: post.amp
 mainclass: misc
-permalink: /discovering-vulnerable-web-applications/
+url: /discovering-vulnerable-web-applications/
 tags:
 - security
 - vulnerability

@@ -9,7 +9,7 @@ date: '2016-01-01'
 format: gallery
 layout: post.amp
 mainclass: articulos
-permalink: /cartel-del-google-io-extended-granada-organizado-por-el-gdg-granada/
+url: /cartel-del-google-io-extended-granada-organizado-por-el-gdg-granada/
 tags:
 - gdg granada
 - google I/O extended

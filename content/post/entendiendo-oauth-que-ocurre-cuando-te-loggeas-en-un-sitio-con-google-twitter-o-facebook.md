@@ -13,7 +13,7 @@ description: "Loggearte en otro sitio con tu cuenta de Google, Twitter o Faceboo
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: articulos
-permalink: /entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/
+url: /entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/
 redirect_from: /opensource/seguridad/entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/
 tags:
 - aplicaciones web

@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-20
 layout: post.amp
 mainclass: android
-permalink: /planteamiento-del-curso-de-android/
+url: /planteamiento-del-curso-de-android/
 tags:
 - curso android pdf
 title: Planteamiento del Curso de Android

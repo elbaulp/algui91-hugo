@@ -6,7 +6,7 @@ color: '#0097A7'
 date: '2016-01-01'
 layout: post.amp
 mainclass: servidores
-permalink: /como-configurar-entornos-de-desarrollo-para-aplicaciones-moviles-en-un-servidor-cloud/
+url: /como-configurar-entornos-de-desarrollo-para-aplicaciones-moviles-en-un-servidor-cloud/
 tags:
 - api restfull nodejs
 - crear api con nodejs

@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-12
 layout: post.amp
 mainclass: android
-permalink: /video-demostracion-del-proyecto-wifibar/
+url: /video-demostracion-del-proyecto-wifibar/
 tags:
 - curso android pdf
 title: "[V\xEDdeo] Demostraci\xF3n del proyecto WifiBar funcionando"

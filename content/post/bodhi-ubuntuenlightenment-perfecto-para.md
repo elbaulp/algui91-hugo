@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: articulos
-permalink: /bodhi-ubuntuenlightenment-perfecto-para/
+url: /bodhi-ubuntuenlightenment-perfecto-para/
 title: 'Bodhi: Ubuntu+Enlightenment, perfecto para minimalistas'
 ---
 

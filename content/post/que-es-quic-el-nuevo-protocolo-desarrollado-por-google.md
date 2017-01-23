@@ -10,7 +10,7 @@ lastmod: 2016-08-06
 layout: post.amp
 mainclass: security-now
 math: true
-permalink: /que-es-quic-el-nuevo-protocolo-desarrollado-por-google/
+url: /que-es-quic-el-nuevo-protocolo-desarrollado-por-google/
 tags:
 - protocolo QUIC
 - que es QUIC

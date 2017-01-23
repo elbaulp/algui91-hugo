@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /sorteo-wordpress/
+url: /sorteo-wordpress/
 title: "Sorteamos 10 matr\xEDculas gratuitas para cursos de desarrollo WordPress y
   cupones de descuento"
 ---

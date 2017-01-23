@@ -6,7 +6,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /solucionar-android-calling-startactivity-from-outside-of-an-activity-context-requires-the-flag_activity_new_task-flag/
+url: /solucionar-android-calling-startactivity-from-outside-of-an-activity-context-requires-the-flag_activity_new_task-flag/
 tags:
 - error Calling startActivity from outside of an Activity context requires the FLAG_ACTIVITY_NEW_TASK
   flag android

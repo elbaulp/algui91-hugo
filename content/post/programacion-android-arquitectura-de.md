@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-10-01
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-arquitectura-de/
+url: /programacion-android-arquitectura-de/
 tags:
 - content provider
 - curso android pdf

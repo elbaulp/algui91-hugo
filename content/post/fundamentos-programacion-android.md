@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-16
 layout: post.amp
 mainclass: android
-permalink: /fundamentos-programacion-android/
+url: /fundamentos-programacion-android/
 tags:
 - "conceptos b\xE1sicos y componentes Android"
 - curso android pdf

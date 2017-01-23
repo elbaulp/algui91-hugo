@@ -12,7 +12,7 @@ description: "Trabajando en el proyecto SWADroid \t(Fuente en Github), y tras pa
 lastmod: 2015-12-24
 layout: post.amp
 mainclass: android
-permalink: /eliminar-recursos-sin-usar-en-android/
+url: /eliminar-recursos-sin-usar-en-android/
 tags:
 - Android Resource Remover
 - ejemplo Android Resource Remover

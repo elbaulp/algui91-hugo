@@ -6,7 +6,7 @@ color: '#E64A19'
 date: '2016-01-01'
 layout: post.amp
 mainclass: dev
-permalink: /jugando-con-la-seccion-dtors-de-la-tabla-de-secciones-en-c/
+url: /jugando-con-la-seccion-dtors-de-la-tabla-de-secciones-en-c/
 tags:
 - .ctors y .dtors
 - .init_array .fini_array

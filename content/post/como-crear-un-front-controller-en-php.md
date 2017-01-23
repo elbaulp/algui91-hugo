@@ -13,7 +13,7 @@ image: https://img.youtube.com/vi/eYoDqz29qSA/0.jpg
 lastmod: 2015-12-24
 layout: post.amp
 mainclass: dev
-permalink: /como-crear-un-front-controller-en-php/
+url: /como-crear-un-front-controller-en-php/
 tags:
 - apache
 - front controller

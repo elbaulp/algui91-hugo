@@ -8,7 +8,7 @@ date: '2016-01-01'
 format: link
 layout: post.amp
 mainclass: articulos
-permalink: /enlaces-de-la-semana-i-2/
+url: /enlaces-de-la-semana-i-2/
 tags:
 - api twitter
 - blogger

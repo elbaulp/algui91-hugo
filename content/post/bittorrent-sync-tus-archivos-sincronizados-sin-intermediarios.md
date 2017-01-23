@@ -11,7 +11,7 @@ description: "Escuchando el programa de radio security now! he descubierto una h
   usarlo."
 layout: post.amp
 mainclass: articulos
-permalink: /bittorrent-sync-tus-archivos-sincronizados-sin-intermediarios/
+url: /bittorrent-sync-tus-archivos-sincronizados-sin-intermediarios/
 tags:
 - BitTorrent Sync en linux
 - instalar BitTorrent Sync

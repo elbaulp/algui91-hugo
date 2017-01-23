@@ -11,7 +11,7 @@ image: Thing-Explainer-Complicated-Stuff-in-Simple-Words.jpg
 lastmod: 2016-06-15
 layout: post.amp
 mainclass: articulos
-permalink: /5-libros-de-no-ficcion-que-todo-geek-deberia-leer/
+url: /5-libros-de-no-ficcion-que-todo-geek-deberia-leer/
 tags:
 - mejores libros no ficcion
 - libros de tecnologia

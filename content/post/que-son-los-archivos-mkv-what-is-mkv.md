@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: articulos
-permalink: /que-son-los-archivos-mkv-what-is-mkv/
+url: /que-son-los-archivos-mkv-what-is-mkv/
 title: "\xBFQue son los archivos mkv?"
 ---
 

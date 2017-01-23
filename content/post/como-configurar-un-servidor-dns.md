@@ -14,7 +14,7 @@ image: 2013/04/dns.jpg
 lastmod: 2016-08-01
 layout: post.amp
 mainclass: servidores
-permalink: /como-configurar-un-servidor-dns/
+url: /como-configurar-un-servidor-dns/
 tags:
 - A records
 - bind

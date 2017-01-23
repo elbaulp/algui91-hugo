@@ -15,7 +15,7 @@ description: "Un equipo de investigadores del MIT, Caltech, Harvard, y otras uni
   latencia o re-env\xEDen datos, ya que son la causa de que la red se congestione."
 layout: post.amp
 mainclass: articulos
-permalink: /investigadores-del-mit-usan-ecuaciones-algebraicas-para-mejorar-las-transmisiones-wifi-y-lte-coded-tcp/
+url: /investigadores-del-mit-usan-ecuaciones-algebraicas-para-mejorar-las-transmisiones-wifi-y-lte-coded-tcp/
 tags:
 - algebra
 - ancho de banda

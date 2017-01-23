@@ -6,7 +6,7 @@ color: '#262626'
 date: '2016-01-01'
 layout: post.amp
 mainclass: geek
-permalink: /vinetas-geek-de-domingo-viii/
+url: /vinetas-geek-de-domingo-viii/
 tags:
 - chiste grafico de informatica
 - geek

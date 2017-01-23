@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-07-31
 layout: post.amp
 mainclass: linux
-permalink: /crear-miniaturas-de-imagenes-mejorado/
+url: /crear-miniaturas-de-imagenes-mejorado/
 tags:
 - crear miniaturas de imagenes
 title: "Crear miniaturas de im\xE1genes [Mejorado]"

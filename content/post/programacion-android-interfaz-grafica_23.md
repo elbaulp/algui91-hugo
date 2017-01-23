@@ -7,7 +7,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-interfaz-grafica_23/
+url: /programacion-android-interfaz-grafica_23/
 tags:
 - "android dise\xF1ar gui"
 - como hacer interfaces graficas en android

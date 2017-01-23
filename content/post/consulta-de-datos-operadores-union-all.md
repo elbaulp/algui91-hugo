@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-19
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /consulta-de-datos-operadores-union-all/
+url: /consulta-de-datos-operadores-union-all/
 tags:
 - MINUS pl sql
 title: Consulta de Datos - Operadores UNION [ALL], INTERSECT, MINUS.

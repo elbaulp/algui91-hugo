@@ -14,7 +14,7 @@ description: "\xDAltimamente recibo muchos correos haciendome preguntas sobre cu
 lastmod: 2016-10-26
 layout: post.amp
 mainclass: android
-permalink: /los-10-errores-de-novato-que-todo/
+url: /los-10-errores-de-novato-que-todo/
 tags:
 - curso android pdf
 title: "10 errores de novato que todo desarrollador Android deber\xEDa evitar"

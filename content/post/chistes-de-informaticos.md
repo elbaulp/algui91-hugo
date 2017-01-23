@@ -8,7 +8,7 @@ description: "Recopilaci\xF3n de chistes inform\xE1ticos"
 lastmod: 2016-08-13
 layout: post.amp
 mainclass: geek
-permalink: /chistes-de-informaticos/
+url: /chistes-de-informaticos/
 title: Chistes de informaticos - www.desmotivaciones.es
 ---
 

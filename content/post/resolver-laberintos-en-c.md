@@ -12,7 +12,7 @@ image: 2013/11/cpp.png
 lastmod: 2015-12-29
 layout: post.amp
 mainclass: dev
-permalink: /resolver-laberintos-en-c/
+url: /resolver-laberintos-en-c/
 tags:
 - practica laberintos fp
 - resolver laberinto fp

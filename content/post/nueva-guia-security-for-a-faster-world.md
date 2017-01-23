@@ -7,7 +7,7 @@ color: '#61B38D'
 date: '2016-01-01'
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-security-for-a-faster-world/
+url: /nueva-guia-security-for-a-faster-world/
 tags:
 - security ebook
 - Security for a Faster World

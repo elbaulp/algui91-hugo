@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-26
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-recursos-trabajar/
+url: /programacion-android-recursos-trabajar/
 tags:
 - curso android pdf
 - recursos xml

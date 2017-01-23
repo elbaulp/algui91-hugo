@@ -15,7 +15,7 @@ image: WhatsApp-Entendiendo-Su-Cifrado-Extremo-a-Extremo.png
 layout: post.amp
 mainclass: security-now
 modified: null
-permalink: /whatsapp-mensajes-cifrados-extremo-a-extremo/
+url: /whatsapp-mensajes-cifrados-extremo-a-extremo/
 tags:
 - seguridad en whatsapp
 - cifrado punto a punto whatsapp

@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-11-03
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-implementando-un_29/
+url: /programacion-android-implementando-un_29/
 tags:
 - Content Provider Android
 - curso android pdf

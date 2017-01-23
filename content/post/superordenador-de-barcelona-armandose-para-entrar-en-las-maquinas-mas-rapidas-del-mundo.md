@@ -8,7 +8,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /superordenador-de-barcelona-armandose-para-entrar-en-las-maquinas-mas-rapidas-del-mundo/
+url: /superordenador-de-barcelona-armandose-para-entrar-en-las-maquinas-mas-rapidas-del-mundo/
 tags:
 - green500
 - supercomputadores

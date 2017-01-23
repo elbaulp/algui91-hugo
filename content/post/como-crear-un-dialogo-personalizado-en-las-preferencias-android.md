@@ -12,7 +12,7 @@ image: 2014/01/CrearDialogoAndroid.png
 lastmod: 2015-12-28
 layout: post.amp
 mainclass: android
-permalink: /como-crear-un-dialogo-personalizado-en-las-preferencias-android/
+url: /como-crear-un-dialogo-personalizado-en-las-preferencias-android/
 tags:
 - dialogo personalizado android
 - dialogpreference

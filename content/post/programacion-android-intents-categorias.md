@@ -7,7 +7,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-intents-categorias/
+url: /programacion-android-intents-categorias/
 tags:
 - android ejemplo intent filter
 - curso android pdf

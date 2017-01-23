@@ -13,7 +13,7 @@ image: 2014/10/draft.jpg
 lastmod: 2015-12-24
 layout: post.amp
 mainclass: articulos
-permalink: /como-eliminar-tu-identidad-online-la-guia-fundamental-para-el-anonimato-y-la-seguridad-en-internet/
+url: /como-eliminar-tu-identidad-online-la-guia-fundamental-para-el-anonimato-y-la-seguridad-en-internet/
 tags:
 - anonimato en la red
 - anonimato internet

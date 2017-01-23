@@ -16,7 +16,7 @@ description: "El concurso universitario de software libre sigue en marcha, como 
 lastmod: 2015-12-25
 layout: post.amp
 mainclass: android
-permalink: /eliminar-la-pila-de-actividades-back-stack-en-android/
+url: /eliminar-la-pila-de-actividades-back-stack-en-android/
 tags:
 - CUSL
 - eliminar actividades de la pila Android

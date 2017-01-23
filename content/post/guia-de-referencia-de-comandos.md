@@ -9,7 +9,7 @@ image: chuletacomandoslinux.png
 lastmod: 2016-10-11
 layout: post.amp
 mainclass: linux
-permalink: /guia-de-referencia-de-comandos/
+url: /guia-de-referencia-de-comandos/
 title: "Gu\xEDa de Referencia de comandos Unix/Linux [IMG]"
 ---
 

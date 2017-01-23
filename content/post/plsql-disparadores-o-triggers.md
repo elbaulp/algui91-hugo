@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-09-03
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /plsql-disparadores-o-triggers/
+url: /plsql-disparadores-o-triggers/
 tags:
 - algoritmos trigger
 - como hacer un trigger

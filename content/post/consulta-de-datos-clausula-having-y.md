@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-19
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /consulta-de-datos-clausula-having-y/
+url: /consulta-de-datos-clausula-having-y/
 tags:
 - base de datos having
 title: "Consulta de Datos - Cl\xE1usula HAVING y ORDER BY"

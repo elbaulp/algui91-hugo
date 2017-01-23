@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-14
 layout: post.amp
 mainclass: android
-permalink: /video-proyecto-wifibar-en-la-ultima/
+url: /video-proyecto-wifibar-en-la-ultima/
 tags:
 - curso android pdf
 title: "[V\xEDdeo] Proyecto WifiBar, en la \xFAltima fase de desarrollo"

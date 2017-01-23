@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-06
 layout: post.amp
 mainclass: articulos
-permalink: /programando-videojuegos-en-python/
+url: /programando-videojuegos-en-python/
 title: Programando Videojuegos en Python
 ---
 

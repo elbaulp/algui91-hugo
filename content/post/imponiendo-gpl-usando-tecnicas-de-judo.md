@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-13
 layout: post.amp
 mainclass: articulos
-permalink: /imponiendo-gpl-usando-tecnicas-de-judo/
+url: /imponiendo-gpl-usando-tecnicas-de-judo/
 redirect_from: /opensource/imponiendo-gpl-usando-tecnicas-de-judo/
 tags:
 - gpl

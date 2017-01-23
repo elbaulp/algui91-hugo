@@ -12,7 +12,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: linux
-permalink: /convertir-archivos-mp4-a-mp3-masivamente/
+url: /convertir-archivos-mp4-a-mp3-masivamente/
 tags:
 - bash
 - ffmpeg

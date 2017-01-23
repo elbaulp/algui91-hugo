@@ -7,7 +7,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-trabajar-con/
+url: /programacion-android-trabajar-con/
 tags:
 - android usar boton para ir a otra actividad
 - android view setonclicklistener example

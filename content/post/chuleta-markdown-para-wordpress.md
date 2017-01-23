@@ -11,7 +11,7 @@ description: "En su \xFAltima actualizaci\xF3n, el plugin JetPack introdujo la n
 lastmod: 2015-12-24
 layout: post.amp
 mainclass: articulos
-permalink: /chuleta-markdown-para-wordpress/
+url: /chuleta-markdown-para-wordpress/
 tags:
 - chuleta
 - "gu\xEDa markdown"

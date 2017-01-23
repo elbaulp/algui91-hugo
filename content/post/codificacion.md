@@ -11,7 +11,7 @@ description: "Esta es la primera parte del temario que vamos a ver en Sistemas O
 lastmod: 2016-09-02
 layout: post.amp
 mainclass: articulos
-permalink: /codificacion/
+url: /codificacion/
 title: "Codificaci\xF3n"
 ---
 

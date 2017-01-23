@@ -7,7 +7,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /como-instalar-el-ide-android-studio-en-linux-y-pequena-guia-de-uso/
+url: /como-instalar-el-ide-android-studio-en-linux-y-pequena-guia-de-uso/
 tags:
 - caracteristicas android Studio
 - guia android studio

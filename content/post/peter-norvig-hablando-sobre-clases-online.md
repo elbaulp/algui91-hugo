@@ -11,7 +11,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: articulos
-permalink: /peter-norvig-hablando-sobre-clases-online/
+url: /peter-norvig-hablando-sobre-clases-online/
 tags:
 - peter norvig
 - Sebastian Thrun

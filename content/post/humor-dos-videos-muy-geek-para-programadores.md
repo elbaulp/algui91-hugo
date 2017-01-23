@@ -8,7 +8,7 @@ date: '2016-01-01'
 format: video
 layout: post.amp
 mainclass: geek
-permalink: /humor-dos-videos-muy-geek-para-programadores/
+url: /humor-dos-videos-muy-geek-para-programadores/
 tags:
 - what is your programming language
 - write in c

@@ -8,7 +8,7 @@ image: nunca-lo-hagas-sudo-rm-rf.jpg
 lastmod: 2016-09-05
 layout: post.amp
 mainclass: geek
-permalink: /nunca-lo-hagas-humor/
+url: /nunca-lo-hagas-humor/
 title: "\xA1Nunca lo hagas! [Humor]"
 ---
 

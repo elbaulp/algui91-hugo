@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-08-11
 layout: post.amp
 mainclass: linux
-permalink: /renombrar-archivos-masivamente-en/
+url: /renombrar-archivos-masivamente-en/
 tags:
 - renombrar archivos linux masivo
 - renombrar linux

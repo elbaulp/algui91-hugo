@@ -19,7 +19,7 @@ image: "2014/03/LOS-OR\xCDGENES-DE-LOS-S\xCDMBOLOS-TECNOL\xD3GICOS-M\xC1S-FAMOSO
 lastmod: 2015-12-25
 layout: post.amp
 mainclass: articulos
-permalink: /los-origenes-de-los-simbolos-tecnologicos-mas-famosos-y-frecuentes/
+url: /los-origenes-de-los-simbolos-tecnologicos-mas-famosos-y-frecuentes/
 tags:
 - origen simbolo @
 - origen simbolo usb

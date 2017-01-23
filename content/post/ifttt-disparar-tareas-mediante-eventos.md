@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-08-29
 layout: post.amp
 mainclass: articulos
-permalink: /ifttt-disparar-tareas-mediante-eventos/
+url: /ifttt-disparar-tareas-mediante-eventos/
 title: 'Ifttt: Disparar tareas mediante eventos producidos en redes sociales'
 ---
 

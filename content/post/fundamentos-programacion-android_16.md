@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-15
 layout: post.amp
 mainclass: android
-permalink: /fundamentos-programacion-android_16/
+url: /fundamentos-programacion-android_16/
 tags:
 - androidmanifest android
 - curso android pdf

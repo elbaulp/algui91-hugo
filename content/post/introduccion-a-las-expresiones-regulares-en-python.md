@@ -12,7 +12,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: dev
-permalink: /introduccion-a-las-expresiones-regulares-en-python/
+url: /introduccion-a-las-expresiones-regulares-en-python/
 sif_eo_description:
 - Tutorial sobre expresiones regulares en python
 - Tutorial sobre expresiones regulares en python

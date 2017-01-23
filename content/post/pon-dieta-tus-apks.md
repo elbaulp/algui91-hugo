@@ -14,7 +14,7 @@ image: hotlink-ok/Pon-a-dieta-a-tus-APKs.png
 lastmod: 2015-12-11
 layout: post.amp
 mainclass: android
-permalink: /pon-dieta-tus-apks/
+url: /pon-dieta-tus-apks/
 tags:
 - android
 - optimizar APK

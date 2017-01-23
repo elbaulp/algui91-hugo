@@ -8,7 +8,7 @@ description: El error 404 debe tratarse adecuadamente en las webs para no asusta
   al usuario y provocar que salga de nuestro sitio.
 layout: post.amp
 mainclass: servidores
-permalink: /personalizar-el-error-404-en-wordpress/
+url: /personalizar-el-error-404-en-wordpress/
 tags:
 - error 404
 - personalizar 404 wordpress

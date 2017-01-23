@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-27
 layout: post.amp
 mainclass: articulos
-permalink: /rootear-samsung-galaxy-s-gt-i9003/
+url: /rootear-samsung-galaxy-s-gt-i9003/
 tags:
 - curso android pdf
 - samsung galaxy scl gti9003

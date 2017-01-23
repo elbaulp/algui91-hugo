@@ -7,7 +7,7 @@ color: '#E64A19'
 date: '2016-01-01'
 layout: post.amp
 mainclass: dev
-permalink: /como-anadir-contenido-por-defecto-a-los-articulos-en-wordpress/
+url: /como-anadir-contenido-por-defecto-a-los-articulos-en-wordpress/
 tags:
 - Articulos wordpress
 - contenido por defecto

@@ -7,7 +7,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /moborobo-herramienta-de-administracion-integrada-para-android-en-el-pc/
+url: /moborobo-herramienta-de-administracion-integrada-para-android-en-el-pc/
 tags:
 - aplicaciones android
 - moborobo

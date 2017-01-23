@@ -15,7 +15,7 @@ image: 2014/01/Sustituir-los-enlaces-de-blogger-por-los-de-Wordpress-al-migrar-d
 lastmod: 2015-12-28
 layout: post.amp
 mainclass: articulos
-permalink: /sustituir-los-enlaces-de-blogger-por-los-de-wordpress-al-migrar-de-plataforma/
+url: /sustituir-los-enlaces-de-blogger-por-los-de-wordpress-al-migrar-de-plataforma/
 tags:
 - cambiar enlaces de blogger a wordpress
 - migrar blogger wordpress

@@ -9,7 +9,7 @@ date: '2016-01-01'
 image: 2012/12/qrbaulinnercorners2.png
 layout: post.amp
 mainclass: security-now
-permalink: /estructura-y-seguridad-de-los-qr-codes/
+url: /estructura-y-seguridad-de-los-qr-codes/
 tags:
 - como funciona qr
 - "C\xF3mo funcionan los c\xF3digod QR"

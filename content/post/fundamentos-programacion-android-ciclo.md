@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-17
 layout: post.amp
 mainclass: android
-permalink: /fundamentos-programacion-android-ciclo/
+url: /fundamentos-programacion-android-ciclo/
 tags:
 - ciclo de vida
 - componentes android

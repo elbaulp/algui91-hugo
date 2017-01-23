@@ -14,7 +14,7 @@ description: "netfiltes es un conjunto de hooks (Ganchos) dentro del kernel de l
 image: 20-ejemplos-de-iptables-para-sysadmins.png
 layout: post.amp
 mainclass: servidores
-permalink: /20-ejemplos-de-iptables-para-sysadmins/
+url: /20-ejemplos-de-iptables-para-sysadmins/
 redirect_from:
 - /internet/20-ejemplos-de-iptables-para-sysadmins/
 - /2011/12/20-ejemplos-de-iptables-para-sysadmins.html

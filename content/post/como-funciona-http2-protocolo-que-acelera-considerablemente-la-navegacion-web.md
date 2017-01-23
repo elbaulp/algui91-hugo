@@ -6,7 +6,7 @@ color: '#00BCD4'
 date: '2016-01-01'
 layout: post.amp
 mainclass: security-now
-permalink: /como-funciona-http2-protocolo-que-acelera-considerablemente-la-navegacion-web/
+url: /como-funciona-http2-protocolo-que-acelera-considerablemente-la-navegacion-web/
 tags:
 - como funciona http2
 - detalles tecnicos http2

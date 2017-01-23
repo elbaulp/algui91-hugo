@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: articulos
-permalink: /el-riesgo-de-las-urls-cortas-risk-of/
+url: /el-riesgo-de-las-urls-cortas-risk-of/
 title: El riesgo de las URLs cortas
 ---
 

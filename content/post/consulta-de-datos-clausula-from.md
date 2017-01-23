@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-16
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /consulta-de-datos-clausula-from/
+url: /consulta-de-datos-clausula-from/
 title: "Consulta de Datos - Cl\xE1usula FROM"
 ---
 

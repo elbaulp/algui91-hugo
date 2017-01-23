@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-10-01
 layout: post.amp
 mainclass: linux
-permalink: /liberada-la-version-10-de-htop/
+url: /liberada-la-version-10-de-htop/
 tags:
 - htop
 title: "Liberada la versi\xF3n 1.0 de htop"

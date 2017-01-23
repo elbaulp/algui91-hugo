@@ -15,7 +15,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: articulos
-permalink: /algoritmos-de-ordenacion/
+url: /algoritmos-de-ordenacion/
 tags:
 - algoritmo de ordenacion
 - algoritmos de ordenamiento quicksort

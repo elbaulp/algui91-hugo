@@ -11,7 +11,7 @@ description: "El destructor es una funci\xF3n especial, que tiene el mismo nombr
 lastmod: 2016-09-04
 layout: post.amp
 mainclass: dev
-permalink: /clases-y-objetos-el-destructor/
+url: /clases-y-objetos-el-destructor/
 title: Clases y Objetos. El Destructor
 ---
 

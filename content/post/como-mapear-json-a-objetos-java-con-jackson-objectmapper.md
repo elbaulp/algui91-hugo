@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2015-03-30
 layout: post.amp
 mainclass: java
-permalink: /como-mapear-json-a-objetos-java-con-jackson-objectmapper/
+url: /como-mapear-json-a-objetos-java-con-jackson-objectmapper/
 tags:
 - desserializar objetos json java
 - ejemplo jackson json java

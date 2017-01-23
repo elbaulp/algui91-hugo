@@ -14,7 +14,7 @@ description: "As\xED como la tecnolog\xEDa evoluciona, tambi\xE9n lo hacen los d
 lastmod: 2016-06-13
 layout: post.amp
 mainclass: articulos
-permalink: /el-top-7-de-dilemas-que-enfrentan-los-desarrolladores-de-hoy/
+url: /el-top-7-de-dilemas-que-enfrentan-los-desarrolladores-de-hoy/
 tags:
 - cloud computing
 - desarrollo de aplicaciones

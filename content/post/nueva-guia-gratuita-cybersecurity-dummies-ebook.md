@@ -11,7 +11,7 @@ description: APTs (Advanced Persistent Threats) have changed the world of enterp
   before.
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-gratuita-cybersecurity-dummies-ebook/
+url: /nueva-guia-gratuita-cybersecurity-dummies-ebook/
 tags:
 - Cybersecurity
 title: "Nueva gu\xEDa gratuita: Cybersecurity for Dummies eBook"

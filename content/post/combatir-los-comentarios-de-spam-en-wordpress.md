@@ -13,7 +13,7 @@ image: 2013/11/Bloquear-ataques-de-fuerza-bruta-en-Nginx-y-Wordpress-con-Fail2Ba
 lastmod: 2015-12-29
 layout: post.amp
 mainclass: servidores
-permalink: /combatir-los-comentarios-de-spam-en-wordpress/
+url: /combatir-los-comentarios-de-spam-en-wordpress/
 tags:
 - bloquear spam wodpress
 - eliminar spam wordpress

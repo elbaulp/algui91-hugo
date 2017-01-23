@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-09-03
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /tunning-basico-de-sql/
+url: /tunning-basico-de-sql/
 tags:
 - que es tuning sql
 title: "Tunning b\xE1sico de SQL"

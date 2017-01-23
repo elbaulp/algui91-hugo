@@ -9,7 +9,7 @@ description: "Hace poco puse a vuestra disposici\xF3n unos tutoriales b\xE1sicos
 lastmod: 2016-09-02
 layout: post.amp
 mainclass: dev
-permalink: /clases-y-objetos-introduccion/
+url: /clases-y-objetos-introduccion/
 title: "Programaci\xF3n en C++. Clases y objetos - Introducci\xF3n"
 ---
 

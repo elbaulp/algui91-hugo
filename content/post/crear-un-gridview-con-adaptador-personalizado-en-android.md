@@ -11,7 +11,7 @@ image: 2014/11/gridview-scrolling-horizontal.png
 lastmod: 2015-12-23
 layout: post.amp
 mainclass: android
-permalink: /crear-un-gridview-con-adaptador-personalizado-en-android/
+url: /crear-un-gridview-con-adaptador-personalizado-en-android/
 tags:
 - adaptador gridview
 - crear gridview

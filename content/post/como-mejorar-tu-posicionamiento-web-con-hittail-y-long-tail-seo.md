@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /como-mejorar-tu-posicionamiento-web-con-hittail-y-long-tail-seo/
+url: /como-mejorar-tu-posicionamiento-web-con-hittail-y-long-tail-seo/
 tags:
 - definicion long tail seo
 - que es long tail seo

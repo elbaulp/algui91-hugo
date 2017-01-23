@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-09-27
 layout: post.amp
 mainclass: articulos
-permalink: /se-busca-colaborador/
+url: /se-busca-colaborador/
 title: Se busca colaborador
 ---
 

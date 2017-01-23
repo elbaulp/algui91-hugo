@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-21
 layout: post.amp
 mainclass: android
-permalink: /estoy-trabajando-en-una-aplicacion/
+url: /estoy-trabajando-en-una-aplicacion/
 tags:
 - curso android pdf
 title: 'Nuevo Proyecto Android: Fav Sites'

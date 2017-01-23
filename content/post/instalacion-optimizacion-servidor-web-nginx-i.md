@@ -13,7 +13,7 @@ image: "Instalaci\xF3n-y-optimizaci\xF3n-de-un-servidor-web-con-Nginx1.png"
 lastmod: 2015-12-25
 layout: post.amp
 mainclass: servidores
-permalink: /instalacion-optimizacion-servidor-web-nginx-i/
+url: /instalacion-optimizacion-servidor-web-nginx-i/
 tags:
 - configuracion nginx
 - instalar nginx linux

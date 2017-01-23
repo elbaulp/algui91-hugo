@@ -13,7 +13,7 @@ image: "2013/03/Crear-un-m\xF3dulo-para-python-con-la-Python-C-API-Parte-I.png"
 lastmod: 2015-12-22
 layout: post.amp
 mainclass: dev
-permalink: /crear-modulo-python-con-python-c-api-5-python3/
+url: /crear-modulo-python-con-python-c-api-5-python3/
 tags:
 - embebiendo python en c++
 - reference count python

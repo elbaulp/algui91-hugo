@@ -9,7 +9,7 @@ lang: en
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: linux
-permalink: /c-syntax-highlighted-script/
+url: /c-syntax-highlighted-script/
 title: C++ syntax highlighted script
 ---
 

@@ -12,7 +12,7 @@ image: 2014/02/Cambiar-el-color-del-summary-en-una-Preferencia-Android.png
 lastmod: 2015-12-28
 layout: post.amp
 mainclass: android
-permalink: /cambiar-el-color-del-summary-en-una-preferencia-android/
+url: /cambiar-el-color-del-summary-en-una-preferencia-android/
 tags:
 - color summary android preferencias
 - CUSL

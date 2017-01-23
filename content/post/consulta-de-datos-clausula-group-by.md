@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-19
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /consulta-de-datos-clausula-group-by/
+url: /consulta-de-datos-clausula-group-by/
 tags:
 - group by
 - orden group by sql

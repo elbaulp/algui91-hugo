@@ -8,7 +8,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /mi-experiencia-en-el-3-hackathon-de-la/
+url: /mi-experiencia-en-el-3-hackathon-de-la/
 title: "Mi experiencia en el 3\xBA Hackathon de la Universidad de Granada"
 ---
 

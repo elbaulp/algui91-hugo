@@ -10,7 +10,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: articulos
-permalink: /un-poco-de-circuitos-registros-y-generadores-de-secuencia/
+url: /un-poco-de-circuitos-registros-y-generadores-de-secuencia/
 tags:
 - biestables
 - "circuitos l\xF3gicos"

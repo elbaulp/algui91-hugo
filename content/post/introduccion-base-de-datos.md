@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-13
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /introduccion-base-de-datos/
+url: /introduccion-base-de-datos/
 tags:
 - abstraccion de datos pl/sql
 - apuntes bases de datos

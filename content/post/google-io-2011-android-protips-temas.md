@@ -6,7 +6,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /google-io-2011-android-protips-temas/
+url: /google-io-2011-android-protips-temas/
 tags:
 - curso android pdf
 title: 'Google I/O 2011: Android Protips - Temas avanzados para desarrolladores expertos'

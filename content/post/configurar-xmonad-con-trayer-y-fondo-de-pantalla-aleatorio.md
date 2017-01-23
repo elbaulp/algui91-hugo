@@ -7,7 +7,7 @@ color: '#2196F3'
 date: '2016-01-01'
 layout: post.amp
 mainclass: linux
-permalink: /configurar-xmonad-con-trayer-y-fondo-de-pantalla-aleatorio/
+url: /configurar-xmonad-con-trayer-y-fondo-de-pantalla-aleatorio/
 tags:
 - feh
 - trayer

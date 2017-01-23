@@ -8,7 +8,7 @@ image: optimizando-el-tiempo-de-carga-del-blog.png
 lastmod: 2016-09-13
 layout: post.amp
 mainclass: articulos
-permalink: /optimizando-el-tiempo-de-carga-del-blog/
+url: /optimizando-el-tiempo-de-carga-del-blog/
 title: Optimizando el tiempo de carga del blog
 ---
 

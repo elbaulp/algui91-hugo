@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-10-04
 layout: post.amp
 mainclass: articulos
-permalink: /chema-alonso-hablando-de-la-inseguridad/
+url: /chema-alonso-hablando-de-la-inseguridad/
 title: "Chema Alonso hablando de la inseguridad de las v\xEDas telem\xE1ticas"
 ---
 

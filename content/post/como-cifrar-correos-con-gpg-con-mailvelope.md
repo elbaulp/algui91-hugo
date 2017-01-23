@@ -13,7 +13,7 @@ introduction: "C\xF3mo cifrar correos electr\xF3nicos con gpg y mailvelope"
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: articulos
-permalink: /como-cifrar-correos-con-gpg-con-mailvelope/
+url: /como-cifrar-correos-con-gpg-con-mailvelope/
 tags:
 - correos gpg
 - enviar correos cifrados

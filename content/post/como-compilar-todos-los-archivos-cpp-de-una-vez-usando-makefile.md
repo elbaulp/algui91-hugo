@@ -7,7 +7,7 @@ color: '#E64A19'
 date: '2016-01-01'
 layout: post.amp
 mainclass: dev
-permalink: /como-compilar-todos-los-archivos-cpp-de-una-vez-usando-makefile/
+url: /como-compilar-todos-los-archivos-cpp-de-una-vez-usando-makefile/
 tags:
 - compilar ficheros cpp makefile
 - crear makefile

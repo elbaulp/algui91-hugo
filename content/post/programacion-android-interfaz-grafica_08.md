@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-20
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-interfaz-grafica_08/
+url: /programacion-android-interfaz-grafica_08/
 tags:
 - "android dise\xF1ar gui"
 - como hacer interfaces graficas en android

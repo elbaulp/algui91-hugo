@@ -12,7 +12,7 @@ image: 2013/05/latex_logo.png
 lastmod: 2015-12-22
 layout: post.amp
 mainclass: latex
-permalink: /mini-curso-de-latex-introduccion/
+url: /mini-curso-de-latex-introduccion/
 tags:
 - codigo latex
 - curso latex

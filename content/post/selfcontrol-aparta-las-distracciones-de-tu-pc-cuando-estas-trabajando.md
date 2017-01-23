@@ -10,7 +10,7 @@ if_slider_image:
 - null
 layout: post.amp
 mainclass: articulos
-permalink: /selfcontrol-aparta-las-distracciones-de-tu-pc-cuando-estas-trabajando/
+url: /selfcontrol-aparta-las-distracciones-de-tu-pc-cuando-estas-trabajando/
 tags:
 - agregar regla de iptables
 - bloquear facebook con iptables

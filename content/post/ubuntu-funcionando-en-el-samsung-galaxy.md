@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: articulos
-permalink: /ubuntu-funcionando-en-el-samsung-galaxy/
+url: /ubuntu-funcionando-en-el-samsung-galaxy/
 tags:
 - xda
 title: Ubuntu funcionando en el Samsung Galaxy Tab

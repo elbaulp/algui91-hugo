@@ -14,7 +14,7 @@ description: "Despues del \xE9xito de los cursos impartidos por Stanford sobre i
 lastmod: 2016-10-03
 layout: post.amp
 mainclass: articulos
-permalink: /aprende-construir-un-motor-de-busqueda/
+url: /aprende-construir-un-motor-de-busqueda/
 tags:
 - programar motor de busqueda
 title: "Aprende a construir un motor de b\xFAsqueda y un coche aut\xF3nomo con Udacity"

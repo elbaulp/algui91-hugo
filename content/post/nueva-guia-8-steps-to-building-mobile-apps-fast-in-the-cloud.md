@@ -7,7 +7,7 @@ color: '#61B38D'
 date: '2016-01-01'
 layout: post.amp
 mainclass: misc
-permalink: /nueva-guia-8-steps-to-building-mobile-apps-fast-in-the-cloud/
+url: /nueva-guia-8-steps-to-building-mobile-apps-fast-in-the-cloud/
 tags:
 - application
 - apps

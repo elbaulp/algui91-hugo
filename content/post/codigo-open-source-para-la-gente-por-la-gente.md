@@ -13,7 +13,7 @@ description: "Muchas organizaciones eligen Open Source por razones como flexibil
 lastmod: 2015-12-23
 layout: post.amp
 mainclass: articulos
-permalink: /codigo-open-source-para-la-gente-por-la-gente/
+url: /codigo-open-source-para-la-gente-por-la-gente/
 title: "C\xF3digo Open Source: Para la gente, por la gente"
 ---
 

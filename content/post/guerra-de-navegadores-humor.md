@@ -10,7 +10,7 @@ image: guerra-de-navegadores-humor.jpg
 lastmod: 2016-10-08
 layout: post.amp
 mainclass: geek
-permalink: /guerra-de-navegadores-humor/
+url: /guerra-de-navegadores-humor/
 title: Guerra de navegadores [Humor]
 ---
 

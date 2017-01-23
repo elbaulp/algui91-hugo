@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-04
 layout: post.amp
 mainclass: android
-permalink: /programa-que-envia-mensajes-desde/
+url: /programa-que-envia-mensajes-desde/
 tags:
 - curso android pdf
 title: "Programa que env\xEDa mensajes desde Android a PC"

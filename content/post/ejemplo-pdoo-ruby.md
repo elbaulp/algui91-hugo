@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: dev
-permalink: /introduccion-a-ruby/
+url: /introduccion-a-ruby/
 tags:
 - ejemplos
 - ruby

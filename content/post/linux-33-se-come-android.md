@@ -8,7 +8,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /linux-33-se-come-android/
+url: /linux-33-se-come-android/
 tags:
 - curso android pdf
 title: Linux 3.3 se come a Android

@@ -14,7 +14,7 @@ image: 2012/11/Apps-preferences-desktop-cryptography-icon1.png
 lastmod: 2016-07-31
 layout: post.amp
 mainclass: servidores
-permalink: /como-cifrar-archivos-con-openssl/
+url: /como-cifrar-archivos-con-openssl/
 tags:
 - cifrar copias de seguridad con openssl
 - cifrar tar con openssl

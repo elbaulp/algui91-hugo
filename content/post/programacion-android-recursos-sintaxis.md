@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-21
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-recursos-sintaxis/
+url: /programacion-android-recursos-sintaxis/
 tags:
 - curso android pdf
 title: "Programaci\xF3n Android: Recursos - Sintaxis de los Recursos"

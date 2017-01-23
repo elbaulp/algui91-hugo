@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-09-03
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /plsql-registros-y-tablas/
+url: /plsql-registros-y-tablas/
 title: PL/SQL. Registros y Tablas
 ---
 

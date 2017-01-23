@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-10-26
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-actualizar-y/
+url: /programacion-android-actualizar-y/
 tags:
 - Actualizar y borrar registros
 - curso android pdf

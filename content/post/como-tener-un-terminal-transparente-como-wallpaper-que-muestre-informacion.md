@@ -9,7 +9,7 @@ image: 2013/03/xroot-example.jpg
 lastmod: 2016-08-09
 layout: post.amp
 mainclass: linux
-permalink: /como-tener-un-terminal-transparente-como-wallpaper-que-muestre-informacion/
+url: /como-tener-un-terminal-transparente-como-wallpaper-que-muestre-informacion/
 tags:
 - comando xrootconsole
 - eterm

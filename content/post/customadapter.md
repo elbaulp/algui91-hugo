@@ -12,7 +12,7 @@ image: 2012/09/principal1.png
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: android
-permalink: /adapter-personalizado-en-android/
+url: /adapter-personalizado-en-android/
 redirect_from: /how-to/adapter-personalizado-en-android/
 tags:
 - adapter android

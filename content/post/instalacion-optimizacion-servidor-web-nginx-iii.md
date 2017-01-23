@@ -14,7 +14,7 @@ lastmod: 2015-12-28
 layout: post.amp
 mainclass: servidores
 math: true
-permalink: /instalacion-optimizacion-servidor-web-nginx-iii/
+url: /instalacion-optimizacion-servidor-web-nginx-iii/
 tags:
 - instalar apc
 - instalar pagespeed nginx

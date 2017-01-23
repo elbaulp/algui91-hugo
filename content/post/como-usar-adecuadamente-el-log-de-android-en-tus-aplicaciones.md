@@ -6,7 +6,7 @@ color: '#689F38'
 date: '2016-01-01'
 layout: post.amp
 mainclass: android
-permalink: /como-usar-adecuadamente-el-log-de-android-en-tus-aplicaciones/
+url: /como-usar-adecuadamente-el-log-de-android-en-tus-aplicaciones/
 tags:
 - como usar log android
 - log android

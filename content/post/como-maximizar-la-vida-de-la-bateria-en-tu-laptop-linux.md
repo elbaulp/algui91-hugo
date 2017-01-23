@@ -10,7 +10,7 @@ description: "Ahorro de energ\xEDa es el tema hot para los usuarios de laptop qu
   Linux para ahorrar la energ\xEDa de tu bater\xEDa."
 layout: post.amp
 mainclass: articulos
-permalink: /como-maximizar-la-vida-de-la-bateria-en-tu-laptop-linux/
+url: /como-maximizar-la-vida-de-la-bateria-en-tu-laptop-linux/
 tags:
 - ahorro energia
 - baterias notebook linux

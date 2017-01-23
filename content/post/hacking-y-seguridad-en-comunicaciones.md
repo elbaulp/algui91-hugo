@@ -9,7 +9,7 @@ image: hacking-y-seguridad-en-comunicaciones.jpg
 lastmod: 2016-10-08
 layout: post.amp
 mainclass: misc
-permalink: /hacking-y-seguridad-en-comunicaciones/
+url: /hacking-y-seguridad-en-comunicaciones/
 tags:
 - comunicaciones moviles lte
 title: "Hacking y Seguridad en Comunicaciones M\xF3viles GSM / GPRS / UMTS / LTE"

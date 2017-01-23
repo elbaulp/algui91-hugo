@@ -10,7 +10,7 @@ description: "Los operadores new y delete ofrecen la posibilidad de reservar y l
 lastmod: 2016-09-04
 layout: post.amp
 mainclass: dev
-permalink: /clases-y-objetos-punteros-objetos/
+url: /clases-y-objetos-punteros-objetos/
 title: Clases y Objetos. Punteros a objetos
 ---
 

@@ -10,7 +10,7 @@ image: 2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg
 lastmod: 2015-12-29
 layout: post.amp
 mainclass: linux
-permalink: /cambiar-fondo-en-la-pantalla-de-login-en-debian-y-ubuntu/
+url: /cambiar-fondo-en-la-pantalla-de-login-en-debian-y-ubuntu/
 tags:
 - cambiar fondo gdm3
 - cambiar fondo login debian

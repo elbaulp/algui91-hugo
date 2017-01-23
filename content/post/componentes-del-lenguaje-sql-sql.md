@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /componentes-del-lenguaje-sql-sql/
+url: /componentes-del-lenguaje-sql-sql/
 title: Componentes del lenguaje SQL
 ---
 

@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-16
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /lenguaje-definicion-de-datos-ddl_27/
+url: /lenguaje-definicion-de-datos-ddl_27/
 tags:
 - clausulas del ddl
 - concepto de ddl

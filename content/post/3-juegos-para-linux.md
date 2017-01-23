@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: articulos
-permalink: /3-juegos-para-linux/
+url: /3-juegos-para-linux/
 tags:
 - osmos para linux
 title: 3 Juegos para Linux

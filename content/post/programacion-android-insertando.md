@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-10-20
 layout: post.amp
 mainclass: android
-permalink: /programacion-android-insertando/
+url: /programacion-android-insertando/
 tags:
 - curso android pdf
 - Insertando registros

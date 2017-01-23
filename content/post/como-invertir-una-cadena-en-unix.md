@@ -8,7 +8,7 @@ description: "Existe un comando que realiza esta operaci\xF3n, `rev`. De acuerdo
   la descripci\xF3n que proporciona la documentaci\xF3n funciona de la siguiente manera"
 layout: post.amp
 mainclass: linux
-permalink: /como-invertir-una-cadena-en-unix/
+url: /como-invertir-una-cadena-en-unix/
 tags:
 - invertir cadena
 title: "C\xF3mo invertir una cadena en Unix"

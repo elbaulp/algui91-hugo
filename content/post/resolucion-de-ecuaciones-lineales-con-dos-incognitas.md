@@ -13,7 +13,7 @@ lastmod: 2015-12-28
 layout: post.amp
 mainclass: dev
 math: true
-permalink: /como-resolver-sistemas-de-ecuaciones-lineales-con-dos-incognitas/
+url: /como-resolver-sistemas-de-ecuaciones-lineales-con-dos-incognitas/
 tags:
 - ecuaciones lineales
 - resolver ecuaciones python

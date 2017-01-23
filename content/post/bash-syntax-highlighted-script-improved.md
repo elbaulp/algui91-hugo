@@ -9,7 +9,7 @@ lang: en
 lastmod: 2016-08-15
 layout: post.amp
 mainclass: linux
-permalink: /bash-syntax-highlighted-script-improved/
+url: /bash-syntax-highlighted-script-improved/
 title: Bash syntax highlighted script [Improved]
 ---
 

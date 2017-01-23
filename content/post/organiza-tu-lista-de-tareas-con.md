@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-05
 layout: post.amp
 mainclass: articulos
-permalink: /organiza-tu-lista-de-tareas-con/
+url: /organiza-tu-lista-de-tareas-con/
 title: Organiza tu lista de Tareas con Remember the Milk
 ---
 

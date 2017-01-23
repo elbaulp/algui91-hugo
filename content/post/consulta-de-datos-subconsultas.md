@@ -7,7 +7,7 @@ date: '2016-01-01'
 lastmod: 2016-08-19
 layout: post.amp
 mainclass: BaseDeDatos
-permalink: /consulta-de-datos-subconsultas/
+url: /consulta-de-datos-subconsultas/
 title: Consulta de Datos. Subconsultas
 ---
 

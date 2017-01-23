@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-11
 layout: post.amp
 mainclass: articulos
-permalink: /esnifando-la-red-pruebas-de-seguridad/
+url: /esnifando-la-red-pruebas-de-seguridad/
 tags:
 - "ettercap en espa\xF1ol"
 - tutorial ettercap comandos

@@ -11,7 +11,7 @@ description: "Hoy vamos a hablar de c\xF3mo configurar un Balanceador de carga p
   qu\xE9 est\xE1 pasando realmente por debajo."
 layout: post.amp
 mainclass: servidores
-permalink: /como-configurar-un-balanceador-de-carga-en-entornos-cloud/
+url: /como-configurar-un-balanceador-de-carga-en-entornos-cloud/
 tags:
 - balanceador de carga
 - configurar load balancer nginx

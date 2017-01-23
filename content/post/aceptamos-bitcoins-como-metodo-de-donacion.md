@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
-permalink: /aceptamos-bitcoins-como-metodo-de-donacion/
+url: /aceptamos-bitcoins-como-metodo-de-donacion/
 tags:
 - donaciones
 title: "Aceptamos BitCoins como m\xE9todo de donaci\xF3n"

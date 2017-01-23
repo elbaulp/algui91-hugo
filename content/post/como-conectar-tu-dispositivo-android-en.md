@@ -11,7 +11,7 @@ description: 'Ya me ha sucedido en varias ocasiones que he intentado conectar mi
   como solucionar el siguiete problema:'
 layout: post.amp
 mainclass: android
-permalink: /como-conectar-tu-dispositivo-android-en/
+url: /como-conectar-tu-dispositivo-android-en/
 tags:
 - curso android pdf
 title: "C\xF3mo conectar tu dispositivo Android en Linux al adb para depurar y desarrollar

@@ -12,7 +12,7 @@ image: 2013/04/GnuPG-Logo.png
 lastmod: 2016-08-10
 layout: post.amp
 mainclass: linux
-permalink: /editar-y-crear-archivos-cifrados-con-gpg-en-vim/
+url: /editar-y-crear-archivos-cifrados-con-gpg-en-vim/
 redirect_from: /opensource/seguridad/editar-y-crear-archivos-cifrados-con-gpg-en-vim/
 tags:
 - cifrar archivos gpg

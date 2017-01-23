@@ -8,7 +8,7 @@ date: '2016-01-01'
 lastmod: 2016-09-25
 layout: post.amp
 mainclass: android
-permalink: /terminada-la-primera-parte-del-manual/
+url: /terminada-la-primera-parte-del-manual/
 tags:
 - curso android pdf
 title: Terminada la primera parte del manual Android

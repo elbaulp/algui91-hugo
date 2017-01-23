@@ -9,7 +9,7 @@ image: HumanstxtCreatorsomospersonasnomaquinas.png
 lastmod: 2016-09-07
 layout: post.amp
 mainclass: articulos
-permalink: /humanstxt-creator-somos-personas-no/
+url: /humanstxt-creator-somos-personas-no/
 title: "Humanstxt Creator. Somos personas, no m\xE1quinas"
 ---
 

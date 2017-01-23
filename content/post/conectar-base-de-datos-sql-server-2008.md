@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2016-09-06
 layout: post.amp
 mainclass: android
-permalink: /conectar-base-de-datos-sql-server-2008/
+url: /conectar-base-de-datos-sql-server-2008/
 tags:
 - android jdbc sqlserver 2008
 - android sqlserver

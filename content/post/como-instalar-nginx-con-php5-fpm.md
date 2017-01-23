@@ -9,7 +9,7 @@ image: 2013/02/nginx-logo.png
 lastmod: 2016-08-05
 layout: post.amp
 mainclass: servidores
-permalink: /como-instalar-nginx-con-php5-fpm/
+url: /como-instalar-nginx-con-php5-fpm/
 tags:
 - configurar nginx
 - configurar servidor nginx debian

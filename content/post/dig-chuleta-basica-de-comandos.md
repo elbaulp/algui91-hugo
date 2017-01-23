@@ -8,7 +8,7 @@ color: '#0097A7'
 date: '2016-01-01'
 layout: post.amp
 mainclass: servidores
-permalink: /dig-chuleta-basica-de-comandos/
+url: /dig-chuleta-basica-de-comandos/
 tags:
 - chuleta
 - administracion DNS
