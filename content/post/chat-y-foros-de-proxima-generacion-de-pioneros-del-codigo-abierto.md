@@ -6,7 +6,7 @@ categories:
 - noticias
 - opensource
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Insatisfecho con la experiencia en los actuales paquetes de software
   para foros, el co-fundador de Stack Exchange, Jeff Atwood, fund\xF3 el Civilized
   Discourse Construction kit"

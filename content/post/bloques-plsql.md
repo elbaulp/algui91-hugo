@@ -3,7 +3,7 @@ author: alex
 categories:
 - basededatos
 color: '#009688'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Los bloques PL/SQL presentan una estructura espec\xEDfica compuesta
   de tres partes bien diferenciadas"
 lastmod: 2016-08-24

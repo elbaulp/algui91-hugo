@@ -3,7 +3,7 @@ author: alex
 categories:
 - how to
 color: '#689F38'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "En ocasiones, al crear un emulador Android, a\xFAn habiendo habilitado
   el soporte para teclado \xE9ste no funciona. Hoy veremos c\xF3mo habilitar el teclado
   en el emulador Android y, adem\xE1s, c\xF3mo habilitar la navegaci\xF3n mediante

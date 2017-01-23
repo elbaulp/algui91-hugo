@@ -4,7 +4,7 @@ categories:
 - c
 - python
 color: '#E64A19'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Lleg\xF3 el momento de crear un m\xF3dulo con la Python C API algo m\xE1s
   complejo, como dijimos en la primera parte, crearemos un m\xF3dulo llamado **herramientasRed**
   que permita obtener la direcci\xF3n IP de un dominio, algo parecido a lo que hicimos

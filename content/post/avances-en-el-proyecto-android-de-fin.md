@@ -5,7 +5,7 @@ categories:
 - aplicaciones
 - opensource
 color: '#689F38'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Como ya sab\xE9is tengo que realizar un proyecto de fin de curso, el
   cual ya expliqu\xE9 en [qu\xE9 consist\xEDa][1], y escribo esta entrada para mostraros
   un poco los avances que voy haciendo."

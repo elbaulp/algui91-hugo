@@ -5,7 +5,7 @@ categories:
 - humor
 - meme
 color: '#262626'
-date: '2016-09-25'
+date: '2016-01-01'
 image: geek-eye-doctor.jpg
 lastmod: 2016-10-08
 layout: post.amp

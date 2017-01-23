@@ -3,7 +3,7 @@ author: luzila
 categories:
 - articulos
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Cont\xEDnuamente exploramos el mundo de los or\xEDgenes pero es muy
   raro que discutamos sobre d\xF3nde provienen los s\xEDmbolos m\xE1s comunes de tecnolog\xEDa.
   Lo que es sorprendente considerando la frecuencia con la que vemos y usamos estos

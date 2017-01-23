@@ -3,7 +3,7 @@ author: marta
 categories:
 - latex
 color: '#B31917'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Continuando por donde lo dejamos en el \xFAltimo art\xEDculo, hoy veremos
   c\xF3mo incluir c\xF3digo fuente en el documento."
 image: 2013/05/latex_logo.png

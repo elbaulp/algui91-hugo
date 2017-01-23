@@ -3,7 +3,7 @@ author: alex
 categories:
 - dev
 color: '#E64A19'
-date: '2016-09-25'
+date: '2016-01-01'
 layout: minimal.amp
 mainclass: dev
 title: C++ y Java

@@ -4,7 +4,7 @@ categories:
 - linux
 - seguridad
 color: '#2196F3'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Hoy quiero hablaros de un plugin bastante \xFAtil que encontr\xE9 para
   el potente editor de textos Vim, que permite crear y modificar archivos de texto
   bajo gpg (GNU Privacy Guard)."

@@ -5,7 +5,7 @@ categories:
 - security now
 - seguridad
 color: '#00BCD4'
-date: '2016-09-25'
+date: '2016-01-01'
 image: 2012/12/qrbaulinnercorners2.png
 layout: post.amp
 mainclass: security-now

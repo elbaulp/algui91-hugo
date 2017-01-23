@@ -4,7 +4,7 @@ categories:
 - administracion de servidores
 - how to
 color: '#0097A7'
-date: '2016-09-25'
+date: '2016-01-01'
 image: 2013/02/nginx-logo.png
 lastmod: 2016-08-05
 layout: post.amp

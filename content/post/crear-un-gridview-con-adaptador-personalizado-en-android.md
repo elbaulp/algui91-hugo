@@ -3,7 +3,7 @@ author: alex
 categories:
 - android
 color: '#689F38'
-date: '2016-09-25'
+date: '2016-01-01'
 description: Un GridView es una AdapterView capaz de organizar datos en forma de cuadricula
   para mejorar la accesibilidad del usuario. A diferencia de un ListView, este contenedor
   permite scrolling horizontal y vertical en sus interacciones.

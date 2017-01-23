@@ -4,7 +4,7 @@ categories:
 - c
 - python
 color: '#E64A19'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Como dijimos en la entrada anterior, vamos a hablar de *DistUtils*,
   una herramienta con la que seremos capaces de automatizar el proceso de compilaci\xF3n
   e instalaci\xF3n de nuestro m\xF3dulo creado con la Python C API."

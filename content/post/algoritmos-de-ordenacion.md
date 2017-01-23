@@ -3,7 +3,7 @@ author: alex
 categories:
 - algoritmos
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Bueno, como dice el t\xEDtulo de la entrada, voy a hablar sobre los
   algoritmos de ordenaci\xF3n, vamos a distinguir entre lentos y r\xE1pidos. La diferencia
   mas grande es la eficiencia, es decir, como se comportan al ordenar una gran entrada

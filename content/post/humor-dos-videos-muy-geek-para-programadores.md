@@ -4,7 +4,7 @@ categories:
 - humor
 - offtopic
 color: '#262626'
-date: '2016-09-25'
+date: '2016-01-01'
 format: video
 layout: post.amp
 mainclass: geek

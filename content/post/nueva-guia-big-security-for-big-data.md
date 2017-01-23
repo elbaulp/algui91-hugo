@@ -4,7 +4,7 @@ categories:
 - cursos
 - noticias
 color: '#61B38D'
-date: '2016-09-25'
+date: '2016-01-01'
 description: The multitude of devices, users, and generated traffic all combine to
   create a proliferation of data that is being created with incredible volume, velocity,
   and variety.

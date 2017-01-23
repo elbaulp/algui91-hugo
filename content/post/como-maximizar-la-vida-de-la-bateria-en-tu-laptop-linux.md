@@ -3,7 +3,7 @@ author: alex
 categories:
 - articulos
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Ahorro de energ\xEDa es el tema hot para los usuarios de laptop que
   necesitan tener las cosas hechas cuando est\xE1n en movimiento y corriendo con el
   l\xEDmite de energ\xEDa de la bater\xEDa. Aqu\xED hay una lista de ingeniosos trucos

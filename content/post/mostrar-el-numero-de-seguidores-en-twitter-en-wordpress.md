@@ -3,7 +3,7 @@ author: alex
 categories:
 - internet
 color: '#E64A19'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "C\xF3digo php para mostrar en wordpress nuestro n\xFAmero de seguidores
   en twitter"
 format: aside

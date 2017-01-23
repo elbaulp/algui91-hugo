@@ -3,7 +3,7 @@ author: alex
 categories:
 - sin categoria
 color: '#61B38D'
-date: '2016-09-25'
+date: '2016-01-01'
 image: A-Newbies-Getting-Started-Guide-to-Linux.png
 lastmod: 2016-09-21
 layout: post.amp

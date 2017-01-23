@@ -3,7 +3,7 @@ author: alex
 categories:
 - android
 color: '#689F38'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "En un art\xEDculo anterior vimos c\xF3mo crear un di\xE1logo personalizado
   en las preferencias para android. Continuaremos con esa aplicaci\xF3n trivial a
   modo de ejemplo para ver c\xF3mo personalizar el summary que aparece debajo del

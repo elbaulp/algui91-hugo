@@ -3,7 +3,7 @@ author: alex
 categories:
 - articulos
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "\xC9ste art\xEDculo pretende ser una gu\xEDa para todo aquel que ha
   perdido el imei de su tel\xE9fono y no puede acceder a la red telef\xF3nica. Y como
   referencia para m\xED, que he perdido el imei dos veces. Veremos c\xF3mo recuperar

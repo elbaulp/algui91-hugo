@@ -4,7 +4,7 @@ categories:
 - internet
 - noticias
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 lastmod: 2016-09-09
 layout: post.amp
 mainclass: articulos

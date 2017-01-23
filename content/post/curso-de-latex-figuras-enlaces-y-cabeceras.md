@@ -3,7 +3,7 @@ author: marta
 categories:
 - latex
 color: '#B31917'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Tras haber terminado nuestra secci\xF3n del an\xE1lisis de la eficiencia,
   ahora nos piden que pongamos un pantallazo con la salida del programa en terminal.
   Para ello, vamos a usar dos herramientas..."

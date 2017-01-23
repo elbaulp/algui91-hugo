@@ -3,7 +3,7 @@ author: alex
 categories:
 - seguridad
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
 permalink: /el-modelo-de-seguridad-de-ios-charla-del-nesg-en-la-ugr/

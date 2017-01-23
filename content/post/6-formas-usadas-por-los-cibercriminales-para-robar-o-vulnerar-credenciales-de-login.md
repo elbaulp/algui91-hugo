@@ -4,7 +4,7 @@ categories:
 - articulos
 - seguridad
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "El mundo digital es un vecindario muy peligroso lleno de atacantes listos
   para robar los datos m\xE1s personales e importantes para los negocios. A estas
   alturas deber\xEDamos saber que la \u201Dseguridad\u201D significa algo m\xE1s que

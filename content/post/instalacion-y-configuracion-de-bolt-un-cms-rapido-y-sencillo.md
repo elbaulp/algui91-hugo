@@ -4,7 +4,7 @@ categories:
 - how to
 - opensource
 color: '#0097A7'
-date: '2016-09-25'
+date: '2016-01-01'
 layout: post.amp
 mainclass: servidores
 permalink: /instalacion-y-configuracion-de-bolt-un-cms-rapido-y-sencillo/

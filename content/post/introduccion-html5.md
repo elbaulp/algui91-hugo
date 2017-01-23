@@ -3,7 +3,7 @@ author: alex
 categories:
 - html5
 color: '#E64A19'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Con este primer art\xEDculo de introducci\xF3n a HTML5, presentamos
   una serie de art\xEDculos a modo de curso cuyo autor, al que agradezco su inter\xE9s
   por colaborar en el blog, es Roberto. Si ya sabes algo puedes echar un vistazo al

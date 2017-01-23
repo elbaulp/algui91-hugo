@@ -3,7 +3,7 @@ author: alex
 categories:
 - how to
 color: '#2196F3'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Existe un comando que realiza esta operaci\xF3n, `rev`. De acuerdo a
   la descripci\xF3n que proporciona la documentaci\xF3n funciona de la siguiente manera"
 layout: post.amp

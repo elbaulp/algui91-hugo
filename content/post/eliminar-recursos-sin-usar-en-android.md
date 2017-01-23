@@ -3,7 +3,7 @@ author: alex
 categories:
 - android
 color: '#689F38'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Trabajando en el proyecto SWADroid \t(Fuente en Github), y tras pasar
   la herramienta Lint, me encontr\xE9 con cientos de recursos sin usar, que deb\xEDa
   eliminar a mano. Pens\xE9 que deb\xEDa existir alguna herramienta que permitiera

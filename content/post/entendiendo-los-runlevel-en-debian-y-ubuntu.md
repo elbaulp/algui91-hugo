@@ -4,7 +4,7 @@ categories:
 - linux
 - so
 color: '#2196F3'
-date: '2016-09-25'
+date: '2016-01-01'
 layout: post.amp
 mainclass: linux
 permalink: /entendiendo-los-runlevel-en-debian-y-ubuntu/

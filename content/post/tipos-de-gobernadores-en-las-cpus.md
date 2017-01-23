@@ -4,7 +4,7 @@ categories:
 - android
 - aplicaciones
 color: '#2196F3'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Para los que teng\xE1is vuestro terminal rooteado voy a hablar en estos
   d\xEDas de dos aplicaciones que pueden ayudarnos a extender el tiempo de vida de
   la bater\xEDa. Pero antes de escribir estos peque\xF1os manuales de configuraci\xF3n

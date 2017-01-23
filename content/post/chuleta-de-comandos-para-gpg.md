@@ -4,7 +4,7 @@ categories:
 - articulos
 - how to
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Si encontraste esta p\xE1gina, por suerte es lo que estabas buscando,
   una peque\xF1a chuleta de comandos para GPG. Si encuentras alg\xFAn error, no dudes
   en comentarlo."

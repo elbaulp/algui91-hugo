@@ -4,7 +4,7 @@ categories:
 - android
 - articulos
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Leyendo noticias en mi lector RSS he encontrado un art\xEDculo interesante
   que comparto con vosotros. Se trata de un programa que permitir\xE1 tener un sistema
   debian b\xE1sico en el dispostivo."

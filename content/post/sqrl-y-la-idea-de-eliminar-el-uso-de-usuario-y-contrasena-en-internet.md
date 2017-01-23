@@ -3,7 +3,7 @@ author: alex
 categories:
 - security now
 color: '#00BCD4'
-date: '2016-09-25'
+date: '2016-01-01'
 layout: post.amp
 mainclass: security-now
 permalink: /sqrl-y-la-idea-de-eliminar-el-uso-de-usuario-y-contrasena-en-internet/

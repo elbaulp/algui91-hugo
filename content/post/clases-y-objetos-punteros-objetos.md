@@ -3,7 +3,7 @@ author: alex
 categories:
 - c
 color: '#E64A19'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Los operadores new y delete ofrecen la posibilidad de reservar y liberar
   de forma din\xE1mica la porci\xF3n de memoria que ocupa un objeto, de un modo similar
   a la de las funciones malloc y free."

@@ -5,7 +5,7 @@ categories:
 - c
 - linux
 color: '#E64A19'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Hace tiempo que habl\xE9 de Xmonad, y hasta hace poco ha sido mi gestor
   de ventanas, durante varios a\xF1os. Pero semanas atr\xE1s descubr\xED el proyecto
   original en el que se basaba xmonad, DWM. Xmonad es un clon de DWM escrito en Haskell,

@@ -4,7 +4,7 @@ categories:
 - c
 - python
 color: '#E64A19'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Continuando con nuestro art\xEDculo sobre la Python C API, esta vez
   vamos a ver un ejemplo sencillo en el que crearemos un m\xF3dulo que imprima por
   pantalla un mensaje, como *Hola **nombre,** desde la python C API!*. El m\xF3dulo

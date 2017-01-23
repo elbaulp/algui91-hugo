@@ -4,7 +4,7 @@ categories:
 - android
 - aplicaciones
 color: '#689F38'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "\xDAltimamente recibo muchos correos haciendome preguntas sobre cuestiones
   sobre Android, eso me alegra, ya que significa que la gente lee el blog y se interesa
   por el contenido, pero sinceramente, no dispongo del tiempo (ni tampoco del conocimiento)

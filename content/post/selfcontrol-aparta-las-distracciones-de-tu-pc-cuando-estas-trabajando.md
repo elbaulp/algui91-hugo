@@ -4,7 +4,7 @@ categories:
 - aplicaciones
 - opensource
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 if_slider_image:
 - null
 - null

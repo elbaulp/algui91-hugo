@@ -3,7 +3,7 @@ author: alex
 categories:
 - articulos
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
 permalink: /tablet-vs-e-reader-cual-ganara/

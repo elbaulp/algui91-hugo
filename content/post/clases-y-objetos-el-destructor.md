@@ -3,7 +3,7 @@ author: alex
 categories:
 - c
 color: '#E64A19'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "El destructor es una funci\xF3n especial, que tiene el mismo nombre
   que la clase pero que va precedido del s\xEDmbolo ~ (ASCII 126). El destructor es
   \xFAnico y no tiene argumentos: se puede definir dentro de la clase o fuera de la

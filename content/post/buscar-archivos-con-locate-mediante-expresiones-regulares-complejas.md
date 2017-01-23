@@ -3,7 +3,7 @@ author: alex
 categories:
 - script
 color: '#2196F3'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "En linux, existe un comando llamado locate que busca archivos en nuestro
   sistema de ficheros haciendo consultas a una base de datos, la descripci\xF3n seg\xFAn
   su man es:"

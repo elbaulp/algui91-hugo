@@ -4,7 +4,7 @@ categories:
 - opensource
 - php
 color: '#E64A19'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "A d\xEDa de hoy, el famoso plugin para wordpress jetpack no soporta
   colocar de una forma f\xE1cil los botones sociales al principio del art\xEDculo.
   As\xED que buscando un poco por la red encontr\xE9 una forma de hacerlo en el foro

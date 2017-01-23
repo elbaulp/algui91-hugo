@@ -3,7 +3,7 @@ author: alex
 categories:
 - so
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Esta es la primera parte del temario que vamos a ver en Sistemas Operativos,
   vamos a verla toda en una sola entrada para que no se haga muy pesada, pero es importante
   comprenderla, ya que es el lenguaje de los ordenadores, y nos servir\xE1 tambien

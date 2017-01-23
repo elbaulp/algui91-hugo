@@ -3,7 +3,7 @@ author: alex
 categories:
 - basededatos
 color: '#009688'
-date: '2016-09-25'
+date: '2016-01-01'
 layout: post.amp
 mainclass: BaseDeDatos
 permalink: /resultados-examen-plsql-base-de-datos/

@@ -4,7 +4,7 @@ categories:
 - administracion de servidores
 - linux
 color: '#0097A7'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "A lo largo de esta gu\xEDa se pretende mostrar c\xF3mo instalar desde
   cero un servidor web con Nginx, realizando las operaciones necesarias para lograr
   el mayor rendimiento y seguridad posibles con programas tales como php-fpm, APC,

@@ -5,7 +5,7 @@ categories:
 - how to
 - internet
 color: '#2196F3'
-date: '2016-09-25'
+date: '2016-01-01'
 layout: post.amp
 mainclass: linux
 permalink: /como-descargar-archivos-de-una-web-por-extension-con-wget/

@@ -4,7 +4,7 @@ categories:
 - linux
 - opensource
 color: '#2196F3'
-date: '2016-09-25'
+date: '2016-01-01'
 image: chuletacomandoslinux.png
 lastmod: 2016-10-11
 layout: post.amp

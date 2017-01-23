@@ -5,7 +5,7 @@ categories:
 - noticias
 - opensource
 color: '#F57C00'
-date: '2016-09-25'
+date: '2016-01-01'
 layout: post.amp
 mainclass: articulos
 permalink: /mi-experiencia-en-el-3-hackathon-de-la/

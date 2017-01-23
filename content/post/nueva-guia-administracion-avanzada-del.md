@@ -4,7 +4,7 @@ categories:
 - cursos
 - internet
 color: '#61B38D'
-date: '2016-09-25'
+date: '2016-01-01'
 image: AdministracionAvanzadadelSistemaOperativoGNULinux.jpg
 lastmod: 2016-09-13
 layout: post.amp

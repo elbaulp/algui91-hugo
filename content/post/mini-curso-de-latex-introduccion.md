@@ -3,7 +3,7 @@ author: marta
 categories:
 - latex
 color: '#B31917'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "En este tutorial, curso o como quer\xE1is llamarlo os voy a ense\xF1ar
   lo b\xE1sico que deb\xE9is saber para hacer vuestros documentos en <strong>LaTeX</strong>!
   Como estamos en un blog sobre inform\xE1tica vamos a orientarlo un poco hacia la

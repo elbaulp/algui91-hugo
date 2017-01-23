@@ -4,7 +4,7 @@ categories:
 - cursos
 - noticias
 color: '#61B38D'
-date: '2016-09-25'
+date: '2016-01-01'
 format: status
 if_slider_image:
 - null

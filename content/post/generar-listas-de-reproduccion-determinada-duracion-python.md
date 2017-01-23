@@ -3,7 +3,7 @@ author: alex
 categories:
 - python
 color: '#E64A19'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Seguro que t\xFA tamb\xE9n escucas m\xFAsica mientras programas, a mi
   me gusta descansar cada 30 min siguiendo la t\xE9cnica pomodoro. Pero mejor hacerlo
   escuchando m\xFAsica. Este script en python te ayudar\xE1."

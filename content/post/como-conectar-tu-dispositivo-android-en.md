@@ -5,7 +5,7 @@ categories:
 - aplicaciones
 - how to
 color: '#689F38'
-date: '2016-09-25'
+date: '2016-01-01'
 description: 'Ya me ha sucedido en varias ocasiones que he intentado conectar mi Samsung
   Galaxy S al adb del SDK de Android y he tenido que buscar durante un rato en internet
   como solucionar el siguiete problema:'

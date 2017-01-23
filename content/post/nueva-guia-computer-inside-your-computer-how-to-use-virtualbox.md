@@ -4,7 +4,7 @@ categories:
 - cursos
 - noticias
 color: '#61B38D'
-date: '2016-09-25'
+date: '2016-01-01'
 description: Learn to use VirtualBox. Get virtual computers up and running inside
   your computer, without having to buy any new hardware.
 layout: post.amp

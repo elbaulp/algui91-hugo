@@ -4,7 +4,7 @@ categories:
 - administracion de servidores
 - seguridad
 color: '#0097A7'
-date: '2016-09-25'
+date: '2016-01-01'
 description: "Las copias de seguridad son algo que debemos tener a buen resguardo
   por si alg\xFAn dia le ocurre algo a nuestros datos. Si bien lo anterior es cierto,
   de igual modo hemos de tener bien protegidas \xE9stas copias de seguridad para que
