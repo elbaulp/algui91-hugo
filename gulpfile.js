@@ -2,14 +2,11 @@ var env         = require('minimist')(process.argv.slice(2)),
     gulp        = require('gulp'),
     plumber     = require('gulp-plumber'),
     stylus      = require('gulp-stylus'),
-    uglify      = require('gulp-uglify'),
-    concat      = require('gulp-concat'),
     jeet        = require('jeet'),
     rupture     = require('rupture'),
     koutoSwiss  = require('kouto-swiss'),
     prefixer    = require('autoprefixer-stylus'),
     imagemin    = require('gulp-imagemin'),
-    cp          = require('child_process'),
     newer       = require('gulp-newer'),
     rename      = require('gulp-rename'),
     htmlmin     = require('gulp-htmlmin')
@@ -19,7 +16,7 @@ var env         = require('minimist')(process.argv.slice(2)),
  * Stylus task
  */
 gulp.task('stylus', function(){
-    gulp.src('static/src/styl/main.styl')
+    gulp.src('src/styl/main.styl')
     .pipe(plumber())
     .pipe(stylus({
       use:[koutoSwiss(), prefixer(), jeet(), rupture()],
@@ -54,7 +51,7 @@ gulp.task('imagemin', function() {
     .pipe(newer('img/'))
     .pipe(plumber())
     .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
-    .pipe(gulp.dest('img/'));
+    .pipe(gulp.dest('static/img/'));
 });
 
 /**
