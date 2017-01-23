@@ -3,7 +3,7 @@ author: alex
 categories:
 - curiosidades
 color: '#262626'
-date: '2016-12-12'
+date: '2016-09-25'
 image: nunca-lo-hagas-sudo-rm-rf.jpg
 lastmod: 2016-09-05
 layout: post.amp

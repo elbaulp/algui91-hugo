@@ -4,7 +4,7 @@ categories:
 - how to
 - internet
 color: '#E64A19'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "En esta entrada  se ver\xE1 c\xF3mo migrar desde la plataforma de blogeo
   de blogger a una en wordpress bajo un hosting propio as\xED como la configuraci\xF3n
   necesaria para no perder a los  lectores habituales, los suscriptores al feed ni

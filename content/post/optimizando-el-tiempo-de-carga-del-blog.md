@@ -3,7 +3,7 @@ author: alex
 categories:
 - internet
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 image: optimizando-el-tiempo-de-carga-del-blog.png
 lastmod: 2016-09-13
 layout: post.amp

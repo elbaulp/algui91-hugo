@@ -5,7 +5,7 @@ categories:
 - linux
 - script
 color: '#2196F3'
-date: '2016-12-12'
+date: '2016-09-25'
 image: 2013/07/Screenshot-from-2013-07-02-164301.png
 lastmod: 2016-08-09
 layout: post.amp

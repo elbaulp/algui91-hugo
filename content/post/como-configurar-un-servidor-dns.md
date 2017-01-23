@@ -5,7 +5,7 @@ categories:
 - articulos
 - internet
 color: '#0097A7'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "En esta serie de art\xEDculos, intentar\xE9 explicar lo mejor posible
   el funcionamiento de los servidores DNS, y c\xF3mo configurar el tuyo propio. Habr\xE1
   una parte m\xE1s te\xF3rica sobre el funcionamiento del sistema, que es una traducci\xF3n

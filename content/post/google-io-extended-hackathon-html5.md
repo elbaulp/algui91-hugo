@@ -5,7 +5,7 @@ categories:
 - noticias
 - "tecnolog\xEDa"
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 format: status
 if_slider_image:
 - null

@@ -4,7 +4,7 @@ categories:
 - aplicaciones
 - linux
 color: '#2196F3'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "El prop\xF3sito de iproute2 es reemplazar el conjunto de herramientas
   que componen las net-tools y pasar a ser \xE9l quien se encargue de configurar las
   interfaces de red, la tabla de rutas y gestionar la tabla ARP."

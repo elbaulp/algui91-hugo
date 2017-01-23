@@ -8,8 +8,8 @@ path = "*.md"
 for fname in glob.glob(path):
     with io.open(fname, 'r') as f:
         post = frontmatter.load(f)
-        if post.get('date') == None:
-            post['date'] = "2016-12-12"
+        if post.get('date') == '2016-12-12':
+            post['date'] = "2016-09-25"
             newfile = io.open(fname, 'w', encoding='utf8')
             frontmatter.dump(post, newfile)
             newfile.close()

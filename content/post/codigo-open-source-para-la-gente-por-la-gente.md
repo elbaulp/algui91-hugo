@@ -3,7 +3,7 @@ author: alex
 categories:
 - articulos
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Muchas organizaciones eligen Open Source por razones como flexibilidad
   y agilidad. Todos necesitamos hacer m\xE1s con menos. Pero en el gobierno, Open
   Source maneja simult\xE1neamente el compromiso c\xEDvico junto con la participaci\xF3n

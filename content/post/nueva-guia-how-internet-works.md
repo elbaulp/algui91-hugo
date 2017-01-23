@@ -4,7 +4,7 @@ categories:
 - cursos
 - internet
 color: '#61B38D'
-date: '2016-12-12'
+date: '2016-09-25'
 lastmod: 2016-10-28
 layout: post.amp
 mainclass: misc

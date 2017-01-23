@@ -3,7 +3,7 @@ author: alex
 categories:
 - linux
 color: '#2196F3'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Hace poco vimos en un art\xEDculo c\xF3mo Sincronizar Google Drive en
   Linux en 4 pasos. Llevo usando ese m\xE9todo unas semanas y hasta ahora todo funcionaba
   correctamente. Sin embargo me he dado cuenta que cuando se usa con archivos muy

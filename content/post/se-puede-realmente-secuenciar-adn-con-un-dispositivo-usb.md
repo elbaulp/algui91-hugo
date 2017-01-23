@@ -4,7 +4,7 @@ categories:
 - articulos
 - "tecnolog\xEDa"
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "\xBFQu\xE9 pasar\xEDa si pudieras poner algunas c\xE9lulas bacterianas
   en un dispositivo USB, conectarlo a su laptop, y obtener una secuencia completa
   de ADN en cuesti\xF3n de minutos?"

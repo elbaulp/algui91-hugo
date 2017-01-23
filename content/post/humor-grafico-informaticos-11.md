@@ -5,7 +5,7 @@ categories:
 - humor
 - internet
 color: '#262626'
-date: '2016-12-12'
+date: '2016-09-25'
 lastmod: 2016-09-27
 layout: post.amp
 mainclass: geek

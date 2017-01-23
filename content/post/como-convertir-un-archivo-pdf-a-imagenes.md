@@ -5,7 +5,7 @@ categories:
 - how to
 - linux
 color: '#2196F3'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "El otro d\xEDa me hac\xEDa falta convertir cada una de las p\xE1ginas
   de un documento pdf a im\xE1genes individuales, con un poco de b\xFAsqueda en google
   lo solucion\xE9 y hoy lo comparto con vosotros."

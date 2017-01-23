@@ -3,7 +3,7 @@ author: alex
 categories:
 - basededatos
 color: '#009688'
-date: '2016-12-12'
+date: '2016-09-25'
 lastmod: 2016-08-29
 layout: post.amp
 mainclass: BaseDeDatos

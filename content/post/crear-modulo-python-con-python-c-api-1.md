@@ -4,7 +4,7 @@ categories:
 - c
 - python
 color: '#E64A19'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "En esta serie de 5 art\xEDculos, veremos c\xF3mo crear desde cero un
   m\xF3dulo que podamos importar en nuestra aplicaci\xF3n *python*. Al finalizar,
   tendremos creado un m\xF3dulo llamado **herramientasRed** con el que podremos obtener

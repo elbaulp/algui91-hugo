@@ -5,7 +5,7 @@ categories:
 - articulos
 - c
 color: '#E64A19'
-date: '2016-12-12'
+date: '2016-09-25'
 layout: post.amp
 mainclass: dev
 permalink: /optimizar-sumas-en-paralelo/

@@ -3,7 +3,7 @@ author: alex
 categories:
 - geek
 color: '#262626'
-date: '2016-12-12'
+date: '2016-09-25'
 layout: post.amp
 mainclass: geek
 permalink: /vinetas-geek-de-domingo-x/

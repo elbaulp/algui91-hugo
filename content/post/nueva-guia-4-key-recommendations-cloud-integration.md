@@ -4,7 +4,7 @@ categories:
 - cursos
 - noticias
 color: '#61B38D'
-date: '2016-12-12'
+date: '2016-09-25'
 layout: post.amp
 mainclass: misc
 permalink: /nueva-guia-4-key-recommendations-cloud-integration/

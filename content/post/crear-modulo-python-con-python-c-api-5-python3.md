@@ -4,7 +4,7 @@ categories:
 - c
 - python
 color: '#E64A19'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Este es el \xFAltimo art\xEDculo de esta serie de 5 sobre c\xF3mo crear
   un m\xF3dulo con la Python C API. Para terminar, veremos la forma de hacer compatible
   un m\xF3dulo con **Python 3**. Nos basaremos en el m\xF3dulo **herramientasRed**

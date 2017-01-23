@@ -3,7 +3,7 @@ author: alex
 categories:
 - security now
 color: '#00BCD4'
-date: '2016-12-12'
+date: '2016-09-25'
 layout: post.amp
 mainclass: security-now
 permalink: /como-funciona-el-bitcoin-la-cripto-moneda/

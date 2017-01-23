@@ -4,7 +4,7 @@ categories:
 - enlaces de la semana
 - offtopic
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "<!--:es-->Recopilaci\xF3n semanal de enlaces sobre noticias de la tecnolog\xEDa,
   inform\xE1tica y software libre<!--:-->"
 layout: post.amp

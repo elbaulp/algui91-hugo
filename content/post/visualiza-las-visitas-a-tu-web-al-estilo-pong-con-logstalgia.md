@@ -5,7 +5,7 @@ categories:
 - aplicaciones
 - opensource
 color: '#0097A7'
-date: '2016-12-12'
+date: '2016-09-25'
 image: visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia.png
 lastmod: 2016-08-06
 layout: post.amp

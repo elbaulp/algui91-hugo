@@ -5,7 +5,7 @@ categories:
 - curiosidades
 - internet
 color: '#262626'
-date: '2016-12-12'
+date: '2016-09-25'
 image: guerra-de-navegadores-humor.jpg
 lastmod: 2016-10-08
 layout: post.amp

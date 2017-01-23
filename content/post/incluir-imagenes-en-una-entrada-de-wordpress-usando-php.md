@@ -3,7 +3,7 @@ author: alex
 categories:
 - php
 color: '#E64A19'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Esto es lo que tenemos que hacer. Tenemos una imagen sin adjuntar en
   nuestra biblioteca multimedia de WordPress. Tambi\xE9n hay una p\xE1gina \u201C2014
   Galery\u201D, que muestra las im\xE1genes adjuntas de la p\xE1gina dentro de la

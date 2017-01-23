@@ -3,7 +3,7 @@ author: luzila
 categories:
 - articulos
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Esta es una traducci\xF3n lo m\xE1s literal posible del art\xEDculo
   original, ya que quer\xEDa preservar la opini\xF3n personal del autor as\xED como
   tambi\xE9n el destacable trabajo de investigaci\xF3n y an\xE1lisis que realiz\xF3."

@@ -3,7 +3,7 @@ author: alex
 categories:
 - articulos
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Android es uno de los sistemas operativos m\xE1s abiertos, vers\xE1til
   y personalizable del mercado. Quiz\xE1 pienses que no es necesario rootearlo, pero
   te sorprender\xEDas de la cantidad de cosas que se pueden hacer con un tel\xE9fono

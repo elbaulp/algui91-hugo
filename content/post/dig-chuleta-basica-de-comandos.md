@@ -5,7 +5,7 @@ categories:
 - aplicaciones
 - opensource
 color: '#0097A7'
-date: '2016-12-12'
+date: '2016-09-25'
 layout: post.amp
 mainclass: servidores
 permalink: /dig-chuleta-basica-de-comandos/

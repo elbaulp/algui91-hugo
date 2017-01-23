@@ -3,7 +3,7 @@ author: alex
 categories:
 - abap
 color: '#E64A19'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "El lenguaje de programaci\xF3n ABAP (antiguamente ABAP/4) es un lenguaje
   propio del ERP SAP y su uso s\xF3lo se puede entender a trav\xE9s de este software
   empresarial. En un principio, SAP era sin\xF3nimo de ERP. Sin embargo, en la actualidad

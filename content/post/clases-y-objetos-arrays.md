@@ -3,7 +3,7 @@ author: alex
 categories:
 - c
 color: '#E64A19'
-date: '2016-12-12'
+date: '2016-09-25'
 description: Un array sirve para guardar un conjunto de entidades pertenecientes a
   la misma clase. Para reservar espacio en memoria para un array, y para liberar la
   memoria, se ha de llamar a las funciones operator new[]() y operator delete[](),

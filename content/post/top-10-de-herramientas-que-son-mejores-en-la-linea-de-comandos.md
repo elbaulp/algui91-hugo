@@ -4,7 +4,7 @@ categories:
 - articulos
 - linux
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Escribir commandos en una terminal puede parecer tedioso, pero con las
   herramientas correctas, la l\xEDnea de comandos puede ser incre\xEDblemente poderosa.
   Aqu\xED est\xE1n nuestras herramientas de l\xEDnea de comandos favoritas que hacen

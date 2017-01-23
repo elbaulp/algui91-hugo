@@ -5,7 +5,7 @@ categories:
 - aplicaciones
 - basededatos
 color: '#689F38'
-date: '2016-12-12'
+date: '2016-09-25'
 lastmod: 2016-09-06
 layout: post.amp
 mainclass: android

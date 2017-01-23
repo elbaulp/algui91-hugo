@@ -3,7 +3,7 @@ author: alex
 categories:
 - javascript
 color: '#0097A7'
-date: '2016-12-12'
+date: '2016-09-25'
 layout: post.amp
 mainclass: servidores
 permalink: /como-configurar-entornos-de-desarrollo-para-aplicaciones-moviles-en-un-servidor-cloud/

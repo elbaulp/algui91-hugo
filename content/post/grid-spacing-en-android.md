@@ -4,7 +4,7 @@ categories:
 - android
 - articulos
 color: '#689F38'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "La mayor\xEDa de interfaces de usuario (en m\xF3viles o web) se basan
   en el concepto de [rejillas][3] (**Grids** a partir de ahora). Los **Grids** consisten
   b\xE1sicamente en separar la interfaz de usuario en una serie de cuadrados alineados

@@ -4,7 +4,7 @@ categories:
 - humor
 - offtopic
 color: '#262626'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Si se escribiesen ensayos con lenguajes de programaci\xF3n [HUMOR]"
 layout: post.amp
 mainclass: geek

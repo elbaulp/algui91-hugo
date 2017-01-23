@@ -6,7 +6,7 @@ categories:
 - opensource
 - seguridad
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 image: 2012/11/081012_1601_AchievingAn21-300x86.png
 lastmod: 2016-08-08
 layout: post.amp

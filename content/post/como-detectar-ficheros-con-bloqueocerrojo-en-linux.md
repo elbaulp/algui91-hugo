@@ -3,7 +3,7 @@ author: alex
 categories:
 - linux
 color: '#2196F3'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Este art\xEDculo tiene su origen en una pregunta a la que respond\xED
   en *serverfault*, el usuario preguntaba *How to detect exceptionally long file locks
   in linux?*. Aunque mi respuesta no solucion\xF3 su problema, creo que la explicaci\xF3n

@@ -3,7 +3,7 @@ author: alex
 categories:
 - android
 color: '#689F38'
-date: '2016-12-12'
+date: '2016-09-25'
 layout: post.amp
 mainclass: android
 permalink: /introduccion-al-ndk-de-android/

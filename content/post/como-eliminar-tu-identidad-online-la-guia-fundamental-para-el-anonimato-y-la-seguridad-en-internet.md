@@ -3,7 +3,7 @@ author: luzila
 categories:
 - articulos
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "El anonimato es algo que no existe hoy en d\xEDa. Todo lo que haces
   es trackeado, desde las compras que haces para navegar en internet, hasta las fotos
   que tomas con tu iPhone. Todo lo que alguna vez dijiste e hiciste en internet todav\xEDa

@@ -4,7 +4,7 @@ categories:
 - linux
 - script
 color: '#2196F3'
-date: '2016-12-12'
+date: '2016-09-25'
 lastmod: 2016-07-29
 layout: post.amp
 mainclass: linux

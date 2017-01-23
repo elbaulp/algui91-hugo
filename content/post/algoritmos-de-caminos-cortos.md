@@ -5,7 +5,7 @@ categories:
 - c
 - inteligencia artificial
 color: '#E64A19'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Para hablar de este tipo de algoritmos, tengo que hacer una breve introducci\xF3n
   a lo que es un grafo y c\xF3mo se representa en un ordenador."
 layout: post.amp

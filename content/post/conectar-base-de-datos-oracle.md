@@ -6,7 +6,7 @@ categories:
 - basededatos
 - opensource
 color: '#689F38'
-date: '2016-12-12'
+date: '2016-09-25'
 lastmod: 2016-11-03
 layout: post.amp
 mainclass: android

@@ -5,7 +5,7 @@ categories:
 - hacking
 - seguridad
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 layout: post.amp
 mainclass: articulos
 permalink: /unhide-forensic-tool-encuentra-puertos-y-procesos-ocultos/

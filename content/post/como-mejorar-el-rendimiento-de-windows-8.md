@@ -3,7 +3,7 @@ author: alex
 categories:
 - how to
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 image: 2013/02/Windows8problem.jpg
 lastmod: 2016-08-10
 layout: post.amp

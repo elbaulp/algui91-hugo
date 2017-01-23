@@ -5,7 +5,7 @@ categories:
 - noticias
 - opensource
 color: '#F57C00'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Despues del \xE9xito de los cursos impartidos por Stanford sobre inteligencia
   artificial, machine learning y bases de datos, se han propuesto seguir ense\xF1ando
   gratuitamente a trav\xE9s de la red, \xE9sta vez ser\xE1n David Evans, profesor

@@ -3,7 +3,7 @@ author: alex
 categories:
 - administracion de servidores
 color: '#0097A7'
-date: '2016-12-12'
+date: '2016-09-25'
 description: "Hoy vamos a hablar de c\xF3mo configurar un Balanceador de carga para
   un servidor. Veremos dos alternativas, configurarlo todo a mano, o desde un entorno
   cloud virtualizado, desde el panel de control de Arsys. Est\xE1 claro que, la segunda
