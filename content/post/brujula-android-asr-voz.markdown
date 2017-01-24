@@ -1,5 +1,7 @@
 ---
 author: alex
+amp:
+  elements: [amp-youtube]
 categories:
 - java
 color: '#D32F2F'

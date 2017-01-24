@@ -1,5 +1,7 @@
 ---
 author: alex
+amp:
+  elements: [amp-youtube]
 categories: android
 color: '#689F38'
 date: 2016-06-14 07:45:21

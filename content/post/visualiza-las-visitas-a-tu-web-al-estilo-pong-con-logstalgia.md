@@ -1,5 +1,7 @@
 ---
 author: alex
+amp:
+  elements: [amp-youtube]
 categories:
 - administracion de servidores
 - aplicaciones
