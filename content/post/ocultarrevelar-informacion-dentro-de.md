@@ -9,7 +9,7 @@ lastmod: 2016-08-13
 layout: post.amp
 mainclass: dev
 url: /ocultarrevelar-informacion-dentro-de/
-redirect_from: /programacion/ocultarrevelar-informacion-dentro-de/
+aliases: /programacion/ocultarrevelar-informacion-dentro-de/
 tags:
 - esconder informacion en imagen
 - ocultar texto en imagen

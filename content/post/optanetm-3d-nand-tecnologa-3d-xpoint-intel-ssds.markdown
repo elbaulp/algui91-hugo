@@ -14,7 +14,7 @@ introduction: "Los Nuevos Discos OptaneTM y 3D NAND Con Tecnolog\xEDa 3D XPoint 
 layout: post.amp
 mainclass: security-now
 url: /optanetm-3d-nand-tecnologa-3d-xpoint-intel-ssds/
-redirect_from: /security now/optanetm-3d-nand-tecnologa-3d-xpoint-intel-ssds/
+aliases: /security now/optanetm-3d-nand-tecnologa-3d-xpoint-intel-ssds/
 tags:
 - Intel
 - optane

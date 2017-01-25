@@ -16,7 +16,7 @@ lastmod: 2015-12-30
 layout: post.amp
 mainclass: servidores
 url: /bloquear-ataques-de-fuerza-bruta-en-nginx-y-wordpress-con-fail2ban/
-redirect_from: /administracion-de-servidores/bloquear-ataques-de-fuerza-bruta-en-nginx-y-wordpress-con-fail2ban/
+aliases: /administracion-de-servidores/bloquear-ataques-de-fuerza-bruta-en-nginx-y-wordpress-con-fail2ban/
 tags:
 - fail2ban fuerza bruta
 - fail2ban nginx

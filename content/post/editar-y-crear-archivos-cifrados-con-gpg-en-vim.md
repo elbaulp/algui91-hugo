@@ -13,7 +13,7 @@ lastmod: 2016-08-10
 layout: post.amp
 mainclass: linux
 url: /editar-y-crear-archivos-cifrados-con-gpg-en-vim/
-redirect_from: /opensource/seguridad/editar-y-crear-archivos-cifrados-con-gpg-en-vim/
+aliases: /opensource/seguridad/editar-y-crear-archivos-cifrados-con-gpg-en-vim/
 tags:
 - cifrar archivos gpg
 - descifrar archivos gpg

@@ -9,7 +9,7 @@ lastmod: 2016-08-13
 layout: post.amp
 mainclass: articulos
 url: /imponiendo-gpl-usando-tecnicas-de-judo/
-redirect_from: /opensource/imponiendo-gpl-usando-tecnicas-de-judo/
+aliases: /opensource/imponiendo-gpl-usando-tecnicas-de-judo/
 tags:
 - gpl
 - licencias GPL

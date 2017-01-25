@@ -13,7 +13,7 @@ lastmod: 2016-08-13
 layout: post.amp
 mainclass: android
 url: /codigos-secretos-y-ocultos-para-android/
-redirect_from: /programacion/android/codigos-secretos-y-ocultos-para-android/
+aliases: /programacion/android/codigos-secretos-y-ocultos-para-android/
 tags:
 - codigos de android
 - curso android pdf

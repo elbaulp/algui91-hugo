@@ -13,7 +13,7 @@ lastmod: 2016-08-13
 layout: post.amp
 mainclass: articulos
 url: /botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/
-redirect_from: /programacion/android/botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/
+aliases: /programacion/android/botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/
 tags:
 - botbrew basil
 - como instalar aplicaciones de linux a android

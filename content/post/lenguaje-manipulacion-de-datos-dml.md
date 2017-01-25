@@ -8,7 +8,7 @@ lastmod: 2016-08-16
 layout: post.amp
 mainclass: BaseDeDatos
 url: /lenguaje-manipulacion-de-datos-dml/
-redirect_from: /programacion/basededatos/lenguaje-manipulacion-de-datos-dml/
+aliases: /programacion/basededatos/lenguaje-manipulacion-de-datos-dml/
 tags:
 - que es un ddl
 - sentencias dml y ddl

@@ -9,7 +9,7 @@ lastmod: 2016-08-13
 layout: post.amp
 mainclass: android
 url: /programacion-android-ejemplos-de-uso-de/
-redirect_from: /opensource/programacion-android-ejemplos-de-uso-de/
+aliases: /opensource/programacion-android-ejemplos-de-uso-de/
 tags:
 - action_pick activity ejemplo
 - action_pick activity example

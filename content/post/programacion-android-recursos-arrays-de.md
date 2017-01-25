@@ -9,7 +9,7 @@ lastmod: 2016-08-09
 layout: post.amp
 mainclass: android
 url: /programacion-android-recursos-arrays-de/
-redirect_from: /opensource/programacion-android-recursos-arrays-de/
+aliases: /opensource/programacion-android-recursos-arrays-de/
 tags:
 - curso android pdf
 title: "Programaci\xF3n Android: Recursos - Arrays de strings"

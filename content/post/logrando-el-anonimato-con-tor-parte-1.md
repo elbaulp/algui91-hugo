@@ -12,7 +12,7 @@ lastmod: 2016-08-08
 layout: post.amp
 mainclass: articulos
 url: /logrando-el-anonimato-con-tor-parte-1/
-redirect_from:
+aliases:
 - /articulos/logrando-el-anonimato-con-tor-parte-1
 - /opensource/logrando-el-anonimato-con-tor-parte-1
 tags:

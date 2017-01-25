@@ -13,7 +13,7 @@ lastmod: 2016-08-10
 layout: post.amp
 mainclass: android
 url: /adapter-personalizado-en-android/
-redirect_from: /how-to/adapter-personalizado-en-android/
+aliases: /how-to/adapter-personalizado-en-android/
 tags:
 - adapter android
 - adapter getview android

@@ -15,7 +15,7 @@ image: 20-ejemplos-de-iptables-para-sysadmins.png
 layout: post.amp
 mainclass: servidores
 url: /20-ejemplos-de-iptables-para-sysadmins/
-redirect_from:
+aliases:
 - /internet/20-ejemplos-de-iptables-para-sysadmins/
 - /2011/12/20-ejemplos-de-iptables-para-sysadmins.html
 - /internet/20-ejemplos-de-iptables-para-sysadmins

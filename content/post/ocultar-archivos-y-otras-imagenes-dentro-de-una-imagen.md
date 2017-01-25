@@ -8,7 +8,7 @@ lastmod: 2016-08-13
 layout: post.amp
 mainclass: dev
 url: /ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
-redirect_from: /programacion/ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
+aliases: /programacion/ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
 tags:
 - "estenograf\xEDa"
 - ocultar archivos

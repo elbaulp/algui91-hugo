@@ -13,7 +13,7 @@ lastmod: 2016-09-03
 layout: post.amp
 mainclass: dev
 url: /15-demostraciones-del-potencial-de/
-redirect_from: /ejemplos-en-html5-almacenamiento-web/
+aliases: /ejemplos-en-html5-almacenamiento-web/
 title: 15 Demostraciones del potencial de HTML5
 ---
 

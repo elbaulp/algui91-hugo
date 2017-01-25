@@ -14,7 +14,7 @@ lastmod: 2016-08-10
 layout: post.amp
 mainclass: articulos
 url: /entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/
-redirect_from: /opensource/seguridad/entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/
+aliases: /opensource/seguridad/entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/
 tags:
 - aplicaciones web
 - OAuth

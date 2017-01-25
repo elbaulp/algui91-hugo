@@ -11,7 +11,7 @@ lastmod: 2016-08-06
 layout: post.amp
 mainclass: git
 url: /mini-tutorial-y-chuleta-de-comandos-git/
-redirect_from: /articulos/mini-tutorial-y-chuleta-de-comandos-git/
+aliases: /articulos/mini-tutorial-y-chuleta-de-comandos-git/
 tags:
 - chuleta
 - git
