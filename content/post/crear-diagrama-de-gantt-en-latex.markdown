@@ -21,7 +21,7 @@ title: "C\xF3mo Crear Diagramas De Gantt en LaTeX"
   <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crear-diagrama-de-gantt-en-latex.png" alt="{{ title }}" title="{{ title }}" width="800" height="335"></amp-img>
 </figure>
 
-> Consulta el resto de [artículos sobre LaTeX escritos en el blog](/category/latex "Artículos sobre LaTeX")
+> Consulta el resto de [artículos sobre LaTeX escritos en el blog](/categories/latex "Artículos sobre LaTeX")
 
 
 

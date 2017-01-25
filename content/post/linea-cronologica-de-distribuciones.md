@@ -20,7 +20,7 @@ title: "Evoluci\xF3n de las distribuciones GNU/Linux, de 1992 a 2016"
     <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/linea-cronologica-de-distribuciones.png" alt="{{ title }}" title="{{ title }}" width="800" height="400"></amp-img>
 </figure>
 
-Hoy os traigo la línea cronológica de las [distribuciones GNU/Linux](/category/linux/ "Artículos sobre linux") desde el año 1992 al 2016, es increíble la cantidad de distribuciones que hay.
+Hoy os traigo la línea cronológica de las [distribuciones GNU/Linux](/categories/linux/ "Artículos sobre linux") desde el año 1992 al 2016, es increíble la cantidad de distribuciones que hay.
 
 De <a target="_blank" href="http://futurist.se/gldt/">futurist.se</a> he sacado esta imagen que representa la evolución de las distribuciones GNU/Linux, partiendo de las 3 principales, debian, slackware y Red Hat, aunque hay algunas independientes de las anteriores.
 

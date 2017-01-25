@@ -20,6 +20,6 @@ date: 2016-01-21
 [Android]: /curso-programacion-android/
 [Android2]: /android/
 [git]: /git/
-[latex1]: /category/latex/
+[latex1]: /categories/latex/
 [dig]: /dig-chuleta-basica-de-comandos/
 [bd]: /bases-de-datos/

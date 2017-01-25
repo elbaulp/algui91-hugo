@@ -71,7 +71,7 @@ Para evaluar la calidad del software, los investigadores imprimieron una serie d
 
 # Referencias
 
-A continuación dejo un vídeo explicativo del software, junto con el enlace a la investigación y artículos relacionados. Puedes consultar más [artículos escritos en el blog](/category/articulos/ "Artículos del blog").
+A continuación dejo un vídeo explicativo del software, junto con el enlace a la investigación y artículos relacionados. Puedes consultar más [artículos escritos en el blog](/categories/articulos/ "Artículos del blog").
 
 <amp-youtube
     data-videoid="3mAKZaOPbBo"
