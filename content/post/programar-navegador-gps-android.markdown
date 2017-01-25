@@ -10,7 +10,7 @@ description: "Enunciado: se facilitar\xE1n las coordenadas de una serie de punto
   en un mapa al finalizar el mismo. En el anexo I ten\xE9is ejemplos de los c\xF3digos
   QR que se deben detectar, en la defensa ser\xE1n distintos."
 image: npi/gqsqr_read.png
-layout: post.amp
+
 mainclass: java
 modified: null
 tags:

@@ -10,7 +10,7 @@ description: "Para iniciarnos en la programaci\xF3n ABAP nada mejor que el cl\xE
   de este lenguaje."
 image: 2014/04/hola-mundo-salida.png
 lastmod: 2015-12-25
-layout: post.amp
+
 mainclass: dev
 url: /programacion-abap-hola-mundo-en-reports/
 tags:

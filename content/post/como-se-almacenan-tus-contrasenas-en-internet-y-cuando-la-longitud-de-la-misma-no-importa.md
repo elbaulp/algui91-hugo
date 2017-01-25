@@ -16,7 +16,7 @@ description: "Cuando alg\xFAn sitio web que usamos frecuentemente es hackeado, c
   en internet, y c\xF3mo te afecta cuando la web que usas se ve comprometida."
 image: 2012/07/original2.jpg
 lastmod: 2015-07-14
-layout: post.amp
+
 mainclass: articulos
 url: /como-se-almacenan-tus-contrasenas-en-internet-y-cuando-la-longitud-de-la-misma-no-importa/
 tags:

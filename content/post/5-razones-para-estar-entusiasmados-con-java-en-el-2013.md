@@ -7,7 +7,7 @@ date: '2016-01-01'
 description: "Un tema obvio para comenzar para la mayor\xEDa de los desarrolladores
   Java, es la *release* del 2013. Asumiendo que no habr\xE1 demoras, podemos esperar
   que Java 8 llegue en Septiembre, trayendo consigo muchas funciones lambda esperadas."
-layout: post.amp
+
 mainclass: articulos
 url: /5-razones-para-estar-entusiasmados-con-java-en-el-2013/
 tags:

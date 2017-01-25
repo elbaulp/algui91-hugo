@@ -10,7 +10,7 @@ if_seo_keywords:
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: dev
 url: /introduccion-a-las-expresiones-regulares-en-python/
 sif_eo_description:

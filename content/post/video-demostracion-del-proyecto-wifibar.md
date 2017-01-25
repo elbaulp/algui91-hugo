@@ -7,7 +7,7 @@ categories:
 color: '#689F38'
 date: '2016-01-01'
 lastmod: 2016-09-12
-layout: post.amp
+
 mainclass: android
 url: /video-demostracion-del-proyecto-wifibar/
 tags:

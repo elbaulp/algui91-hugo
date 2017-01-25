@@ -8,7 +8,7 @@ description: "Ahorro de energ\xEDa es el tema hot para los usuarios de laptop qu
   necesitan tener las cosas hechas cuando est\xE1n en movimiento y corriendo con el
   l\xEDmite de energ\xEDa de la bater\xEDa. Aqu\xED hay una lista de ingeniosos trucos
   Linux para ahorrar la energ\xEDa de tu bater\xEDa."
-layout: post.amp
+
 mainclass: articulos
 url: /como-maximizar-la-vida-de-la-bateria-en-tu-laptop-linux/
 tags:

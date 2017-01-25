@@ -4,7 +4,7 @@ categories:
 - android
 color: '#689F38'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: android
 url: /introduccion-al-ndk-de-android/
 tags:

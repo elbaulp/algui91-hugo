@@ -7,7 +7,7 @@ date: 2016-07-30 16:27:54
 description: "C\xF3mo implementar correctamente amp-mustache y evitar errores en Jekyll"
 image: error-al-implementar-amp-mustache.png
 introduction: null
-layout: post.amp
+
 mainclass: dev
 modified: null
 tags:

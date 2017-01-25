@@ -9,7 +9,7 @@ description: "En este art\xEDculo se comparan WhatsApp, Signal y Allo en t\xE9rm
 image: aplicacion-mensajeria-movil-segura-whatsapp-signal-allo.png
 introduction: "Entre Whatsapp, Signal y Allo \xBFQu\xE9 app de mensajer\xEDa es m\xE1s
   segura y cuida m\xE1s tu privacidad?"
-layout: post.amp
+
 mainclass: articulos
 tags:
 - whatsapp

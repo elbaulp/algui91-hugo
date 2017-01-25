@@ -5,7 +5,7 @@ categories:
 color: '#2196F3'
 date: '2016-01-01'
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: linux
 url: /grub-customizer-20-personaliza-tu-grub2/
 title: Grub Customizer 2.0, personaliza tu GRUB2

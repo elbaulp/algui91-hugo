@@ -11,7 +11,7 @@ description: "A lo largo de esta gu\xEDa se pretende mostrar c\xF3mo instalar de
   y el m\xF3dulo pagespeed de Google para optimizar los recursos web."
 image: "Instalaci\xF3n-y-optimizaci\xF3n-de-un-servidor-web-con-Nginx1.png"
 lastmod: 2015-12-28
-layout: post.amp
+
 mainclass: servidores
 math: true
 url: /instalacion-optimizacion-servidor-web-nginx-iii/

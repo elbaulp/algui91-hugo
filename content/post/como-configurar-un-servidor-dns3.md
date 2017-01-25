@@ -7,7 +7,7 @@ categories:
 color: '#0097A7'
 date: '2016-01-01'
 image: 2013/04/dns.jpg
-layout: post.amp
+
 mainclass: servidores
 url: /como-configurar-un-servidor-dns3/
 tags:

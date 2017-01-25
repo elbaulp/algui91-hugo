@@ -13,7 +13,7 @@ description: "El lenguaje de programaci\xF3n ABAP (antiguamente ABAP/4) es un le
   y SRM (Supplier Relationship Management) entre otros."
 image: 2014/03/SAP-Apariencia.png
 lastmod: 2015-12-25
-layout: post.amp
+
 mainclass: dev
 url: /introduccion-abap/
 tags:

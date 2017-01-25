@@ -5,7 +5,7 @@ categories:
 color: '#009688'
 date: '2016-01-01'
 lastmod: 2016-08-19
-layout: post.amp
+
 mainclass: BaseDeDatos
 url: /introduccion-plsql/
 title: "Introducci\xF3n a PL/SQL"

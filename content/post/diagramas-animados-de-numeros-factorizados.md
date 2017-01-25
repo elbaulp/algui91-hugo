@@ -6,7 +6,7 @@ color: '#E64A19'
 date: '2016-01-01'
 image: 2013/01/2013-01-13-105334_1256x830_scrot2.png
 lastmod: 2016-08-09
-layout: post.amp
+
 mainclass: dev
 url: /diagramas-animados-de-numeros-factorizados/
 tags:

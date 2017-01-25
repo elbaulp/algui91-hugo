@@ -11,7 +11,7 @@ description: "A la hora de crear proyectos, suele ser una tarea dif\xEDcil elegi
   licencia."
 image: 2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minutos.png
 lastmod: 2016-03-20
-layout: post.amp
+
 mainclass: articulos
 url: /todo-lo-que-necesitas-saber-sobre-copyright-y-licencias-en-2-minutos/
 tags:

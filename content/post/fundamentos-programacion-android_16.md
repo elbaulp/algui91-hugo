@@ -6,7 +6,7 @@ categories:
 color: '#689F38'
 date: '2016-01-01'
 lastmod: 2016-09-15
-layout: post.amp
+
 mainclass: android
 url: /fundamentos-programacion-android_16/
 tags:

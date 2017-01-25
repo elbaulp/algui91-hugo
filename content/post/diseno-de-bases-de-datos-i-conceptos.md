@@ -5,7 +5,7 @@ categories:
 color: '#009688'
 date: '2016-01-01'
 lastmod: 2016-08-08
-layout: post.amp
+
 mainclass: BaseDeDatos
 url: /diseno-de-bases-de-datos-i-conceptos/
 title: "Dise\xF1o de Bases de Datos ( I ) - Conceptos del Modelo Relacional"

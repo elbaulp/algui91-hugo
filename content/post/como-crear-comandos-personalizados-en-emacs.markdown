@@ -9,7 +9,7 @@ description: "En este art\xEDculo veremos c\xF3mo crear comandos que usemos habi
 image: como-crear-comandos-personalizados-en-emacs.png
 introduction: "Si usas mucho un comando en emacs, descubre como asociarlo a una funci\xF3n
   para usarlo m\xE1s r\xE1pido"
-layout: post.amp
+
 mainclass: dev
 tags:
 - emacs

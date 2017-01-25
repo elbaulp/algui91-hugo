@@ -6,7 +6,7 @@ categories:
 color: '#689F38'
 date: '2016-01-01'
 lastmod: 2016-10-28
-layout: post.amp
+
 mainclass: android
 url: /programacion-android-implementando-un_08/
 tags:

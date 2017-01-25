@@ -4,7 +4,7 @@ categories:
 - cursos
 color: '#61B38D'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: misc
 url: /how-the-cloud-will-change-application-release-applications/
 tags:

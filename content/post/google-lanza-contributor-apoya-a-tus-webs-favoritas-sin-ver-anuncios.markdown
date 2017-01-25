@@ -7,7 +7,7 @@ date: 2015-11-06 15:38:37
 description: null
 image: contributorad.png
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: articulos
 modified: null
 tags: []

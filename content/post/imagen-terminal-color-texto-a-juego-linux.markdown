@@ -8,7 +8,7 @@ description: null
 image: imagen-terminal-color-texto-a-juego-linux.png
 introduction: "Con este peque\xF1o script podr\xE1s cambiar el fondo y color de texto
   de tu terminal, a juego"
-layout: post.amp
+
 mainclass: linux
 tags:
 - Terminal

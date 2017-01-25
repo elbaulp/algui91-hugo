@@ -5,7 +5,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: articulos
 url: /firefox-40-para-linux-ya-dispone-de/
 title: "Firefox 4.0 para Linux ya dispone de men\xFA unificado"

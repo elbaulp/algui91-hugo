@@ -4,7 +4,7 @@ categories:
 - noticias
 color: '#F57C00'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: articulos
 url: /aceptamos-bitcoins-como-metodo-de-donacion/
 tags:

@@ -8,7 +8,7 @@ date: '2016-01-01'
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: articulos
 url: /java-open-source-se-mueve-a-linux-aix-en-powerpc/
 tags:

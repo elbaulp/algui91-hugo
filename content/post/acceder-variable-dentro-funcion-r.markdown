@@ -10,7 +10,7 @@ description: "Haciendo una pr\xE1ctica de Aprendizaje Autom\xE1tico, en concreto
   en R significa evitar el uso de for a toda costa) me encontr\xE9 con la siguiente
   situaci\xF3n:"
 image: Como-Acceder-a-Una-Variable-Desde-Dentro-De-Una-Funcion-en-R.png
-layout: post.amp
+
 mainclass: dev
 modified: null
 tags:

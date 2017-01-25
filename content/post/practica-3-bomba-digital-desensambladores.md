@@ -7,7 +7,7 @@ color: '#E64A19'
 date: '2016-01-01'
 image: 2012/12/logicbomb.png
 lastmod: 2016-08-05
-layout: post.amp
+
 mainclass: dev
 url: /desafio-de-ingenieria-inversa-en-c-soluciones/
 tags:

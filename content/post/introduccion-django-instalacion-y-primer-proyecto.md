@@ -6,7 +6,7 @@ color: '#E64A19'
 date: '2016-01-01'
 image: 2013/10/django.png
 lastmod: 2016-10-12
-layout: post.amp
+
 mainclass: dev
 url: /introduccion-django-instalacion-y-primer-proyecto/
 tags:

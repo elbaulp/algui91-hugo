@@ -8,7 +8,7 @@ color: '#262626'
 date: '2016-01-01'
 image: guerra-de-navegadores-humor.jpg
 lastmod: 2016-10-08
-layout: post.amp
+
 mainclass: geek
 url: /guerra-de-navegadores-humor/
 title: Guerra de navegadores [Humor]

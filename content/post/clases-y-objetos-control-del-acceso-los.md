@@ -5,7 +5,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-09-04
-layout: post.amp
+
 mainclass: dev
 url: /clases-y-objetos-control-del-acceso-los/
 title: Clases y Objetos. Control del acceso a los miembros de la clase

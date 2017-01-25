@@ -13,7 +13,7 @@ description: "El mundo digital es un vecindario muy peligroso lleno de atacantes
   comunes que usan los atacantes para robar datos ajenos en la red."
 image: 2013/06/blog_sevenways.png
 lastmod: 2015-12-18
-layout: post.amp
+
 mainclass: articulos
 url: /6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login/
 tags:

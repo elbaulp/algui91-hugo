@@ -6,7 +6,7 @@ categories:
 color: '#262626'
 date: '2016-01-01'
 lastmod: 2016-10-22
-layout: post.amp
+
 mainclass: geek
 url: /humor-grafico-informaticos/
 title: "Humor gr\xE1fico - Inform\xE1ticos, Programadores, geeks - 9GAG.COM Parte

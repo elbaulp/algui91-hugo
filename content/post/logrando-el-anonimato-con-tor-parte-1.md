@@ -9,7 +9,7 @@ color: '#F57C00'
 date: '2016-01-01'
 image: 2012/11/081012_1601_AchievingAn21-300x86.png
 lastmod: 2016-08-08
-layout: post.amp
+
 mainclass: articulos
 url: /logrando-el-anonimato-con-tor-parte-1/
 aliases:

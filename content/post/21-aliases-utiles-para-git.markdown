@@ -10,7 +10,7 @@ description: "Todo aquel que use git sabr\xE1 que en ocasiones es un poco tedios
   unos cuantos alias \xFAtiles para el d\xEDa a d\xEDa. Os animo a que coment\xE9is
   vuestros preferidos para ir aumentando la lista!. Comencemos."
 image: 2013/03/git-logo.png
-layout: post.amp
+
 mainclass: git
 modified: null
 tags:

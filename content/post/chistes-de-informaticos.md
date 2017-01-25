@@ -6,7 +6,7 @@ color: '#262626'
 date: '2016-01-01'
 description: "Recopilaci\xF3n de chistes inform\xE1ticos"
 lastmod: 2016-08-13
-layout: post.amp
+
 mainclass: geek
 url: /chistes-de-informaticos/
 title: Chistes de informaticos - www.desmotivaciones.es

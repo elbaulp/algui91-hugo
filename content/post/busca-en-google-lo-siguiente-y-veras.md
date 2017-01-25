@@ -5,7 +5,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-10-20
-layout: post.amp
+
 mainclass: articulos
 url: /busca-en-google-lo-siguiente-y-veras/
 title: "Busca en google lo siguiente y ver\xE1s que pasa"

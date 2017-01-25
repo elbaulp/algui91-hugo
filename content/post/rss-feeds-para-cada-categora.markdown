@@ -6,7 +6,7 @@ color: '#61B38D'
 date: 2016-06-24 06:06:58
 description: "Listado de los feeds por categor\xEDas disponibles para los lectores"
 introduction: "Listado de los feeds por categor\xEDas disponibles para los lectores"
-layout: post.amp
+
 mainclass: misc
 title: "Rss Feeds Para Cada Categor\xEDa"
 ---

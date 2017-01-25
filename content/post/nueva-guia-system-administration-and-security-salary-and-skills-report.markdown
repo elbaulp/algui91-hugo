@@ -11,7 +11,7 @@ description: This kit will tell you what you need to know to earn more in system
   overwhelming top pick in the world of configuration management?
 image: "Nueva-Gu\xEDa:-System-Administration-&-Security-Salary-&-Skills-Report.jpg"
 lastmod: 2015-11-27
-layout: post.amp
+
 mainclass: misc
 tags:
 - guia gratuita

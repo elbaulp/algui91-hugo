@@ -6,7 +6,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-09-09
-layout: post.amp
+
 mainclass: articulos
 url: /paperli-crea-tu-periodico-digital/
 title: "Paper.li: Crea tu peri\xF3dico digital autom\xE1ticamente con lo m\xE1s relevante

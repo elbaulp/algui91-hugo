@@ -11,7 +11,7 @@ image: guides/informe-sobre-defensa-frente-a-ciberamenazas-2015-por-cyberedge-gr
 introduction: "Descubra c\xF3mo impactan las aplicaciones web y los dispositivos m\xF3viles
   sobre la capacidad de TI para defenderse con \xE9xito contra las amenazas cibern\xE9ticas,
   y averig\xFCe por qu\xE9 SDN puede ser la soluci\xF3n."
-layout: post.amp
+
 mainclass: misc
 modified: null
 tags:

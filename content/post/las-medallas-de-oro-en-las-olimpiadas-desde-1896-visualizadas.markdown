@@ -9,7 +9,7 @@ description: "Olympic Feathers es una visualizaci\xF3n de datos interactiva que 
 image: Olympic-Feathers-Detail-7.png
 introduction: "Olympic Feathers es una visualizaci\xF3n de datos interactiva que muestra
   la historia de las medallas ol\xEDmpicas desde 1896 hasta hoy"
-layout: post.amp
+
 mainclass: articulos
 tags:
 - visualizacion datos

@@ -8,7 +8,7 @@ description: "Los operadores new y delete ofrecen la posibilidad de reservar y l
   de forma din\xE1mica la porci\xF3n de memoria que ocupa un objeto, de un modo similar
   a la de las funciones malloc y free."
 lastmod: 2016-09-04
-layout: post.amp
+
 mainclass: dev
 url: /clases-y-objetos-punteros-objetos/
 title: Clases y Objetos. Punteros a objetos

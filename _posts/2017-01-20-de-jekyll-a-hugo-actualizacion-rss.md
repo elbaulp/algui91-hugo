@@ -1,5 +1,5 @@
 ---
-layout: post.amp
+
 title: "En breve pasaré de Jekyll al Hugo, los RSS cambiarán"
 ---
 

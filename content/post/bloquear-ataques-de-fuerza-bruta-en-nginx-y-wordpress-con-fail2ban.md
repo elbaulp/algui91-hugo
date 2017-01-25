@@ -13,7 +13,7 @@ description: "Cuando se administra un servidor, te das cuenta de la cantidad de 
   web Nginx"
 image: 2013/11/Bloquear-ataques-de-fuerza-bruta-en-Nginx-y-Wordpress-con-Fail2Ban2.png
 lastmod: 2015-12-30
-layout: post.amp
+
 mainclass: servidores
 url: /bloquear-ataques-de-fuerza-bruta-en-nginx-y-wordpress-con-fail2ban/
 aliases: /administracion-de-servidores/bloquear-ataques-de-fuerza-bruta-en-nginx-y-wordpress-con-fail2ban/

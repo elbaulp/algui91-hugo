@@ -13,7 +13,7 @@ description: "QUIC es un protocolo que est\xE1 desarrollando Google y que preten
   es QUIC, el nuevo protocolo desarrollado por Google."
 image: 2013/07/Que-es-QUIC-el-nuevo-protocolo-desarrollado-por-Google.png
 lastmod: 2015-12-23
-layout: post.amp
+
 mainclass: articulos
 math: true
 url: /quic-analisis-practico-del-protocolo-de-google/

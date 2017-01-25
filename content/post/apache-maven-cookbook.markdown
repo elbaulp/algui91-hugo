@@ -9,7 +9,7 @@ description: Delve into the world of Apache Maven with this compact cookbook tha
 image: guides/Apache-Maven-Cookbook-full.jpg
 introduction: Delve into the world of Apache Maven with this compact cookbook that
   introduces common recipes for the Maven tool!
-layout: post.amp
+
 mainclass: misc
 tags:
 - manuales

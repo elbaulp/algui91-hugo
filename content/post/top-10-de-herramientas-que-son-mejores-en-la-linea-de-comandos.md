@@ -10,7 +10,7 @@ description: "Escribir commandos en una terminal puede parecer tedioso, pero con
   Aqu\xED est\xE1n nuestras herramientas de l\xEDnea de comandos favoritas que hacen
   impresionantes cosas que simplemente no puedes encontrar en una GUI (Interfaz Gr\xE1fica
   de Usuario)."
-layout: post.amp
+
 mainclass: articulos
 url: /top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos/
 tags:

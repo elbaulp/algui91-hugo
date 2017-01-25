@@ -7,7 +7,7 @@ date: '2016-01-01'
 description: "M\xE9todos para personalizar la resoluci\xF3n de pantalla de las terminales
   tty en linux"
 image: img/2012/08/sh1.png
-layout: post.amp
+
 mainclass: linux
 url: /como-cambiar-la-resolucion-de-pantalla-en-las-ttys-de-gnulinux/
 tags:

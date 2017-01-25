@@ -5,7 +5,7 @@ categories:
 color: '#D32F2F'
 date: '2016-01-01'
 lastmod: 2015-03-30
-layout: post.amp
+
 mainclass: java
 url: /como-mapear-json-a-objetos-java-con-jackson-objectmapper/
 tags:

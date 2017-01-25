@@ -10,7 +10,7 @@ description: "Cuando estaba en el primer curso de la facultad, hicimos una pr\xE
   lo comparto en el blog para los curiosos que quieran ver c\xF3mo funciona."
 image: 2013/11/cpp.png
 lastmod: 2015-12-29
-layout: post.amp
+
 mainclass: dev
 url: /resolver-laberintos-en-c/
 tags:

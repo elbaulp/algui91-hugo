@@ -11,7 +11,7 @@ description: "Los comentarios de spam son algo frecuente en internet, y WordPres
   diarios."
 image: 2013/11/Bloquear-ataques-de-fuerza-bruta-en-Nginx-y-Wordpress-con-Fail2Ban2.png
 lastmod: 2015-12-29
-layout: post.amp
+
 mainclass: servidores
 url: /combatir-los-comentarios-de-spam-en-wordpress/
 tags:

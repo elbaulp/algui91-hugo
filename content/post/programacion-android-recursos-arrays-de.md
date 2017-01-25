@@ -6,7 +6,7 @@ categories:
 color: '#689F38'
 date: '2016-01-01'
 lastmod: 2016-08-09
-layout: post.amp
+
 mainclass: android
 url: /programacion-android-recursos-arrays-de/
 aliases: /opensource/programacion-android-recursos-arrays-de/

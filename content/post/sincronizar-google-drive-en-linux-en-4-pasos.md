@@ -13,7 +13,7 @@ description: "Llevaba tiempo buscando la manera de sincronizar los archivos de G
   queramos."
 image: 2013/11/google-drive-linux3.jpg
 lastmod: 2016-08-09
-layout: post.amp
+
 mainclass: linux
 url: /sincronizar-google-drive-en-linux-en-4-pasos/
 tags:

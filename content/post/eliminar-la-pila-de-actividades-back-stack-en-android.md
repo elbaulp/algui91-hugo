@@ -14,7 +14,7 @@ description: "El concurso universitario de software libre sigue en marcha, como 
   el usuario. Hoy veremos c\xF3mo eliminar la pila de actividades de una aplicaci\xF3n
   Android para obtener este comportamiento."
 lastmod: 2015-12-25
-layout: post.amp
+
 mainclass: android
 url: /eliminar-la-pila-de-actividades-back-stack-en-android/
 tags:

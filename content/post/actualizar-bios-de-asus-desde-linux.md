@@ -5,7 +5,7 @@ categories:
 - so
 color: '#2196F3'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: linux
 url: /actualizar-bios-de-asus-desde-linux/
 tags:

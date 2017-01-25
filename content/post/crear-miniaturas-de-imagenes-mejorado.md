@@ -6,7 +6,7 @@ categories:
 color: '#2196F3'
 date: '2016-01-01'
 lastmod: 2016-07-31
-layout: post.amp
+
 mainclass: linux
 url: /crear-miniaturas-de-imagenes-mejorado/
 tags:

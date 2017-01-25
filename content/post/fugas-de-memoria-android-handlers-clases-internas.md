@@ -7,7 +7,7 @@ date: '2016-01-01'
 description: "\xC9ste art\xEDculo es una traducci\xF3n del blog de Alex Lockwood.
   Gracias por el permiso."
 lastmod: 2015-12-22
-layout: post.amp
+
 mainclass: android
 url: /fugas-de-memoria-android-handlers-clases-internas/
 tags:

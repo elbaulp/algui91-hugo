@@ -11,7 +11,7 @@ image: guides/The-Power-of-Predictive-Analytics-centered.jpg
 introduction: Predictive analytics provide companies the ability to systematically
   leverage data from across the value chain to peer into the future and identify the
   most likely outcomes.
-layout: post.amp
+
 mainclass: misc
 tags:
 - manuales

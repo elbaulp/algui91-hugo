@@ -4,7 +4,7 @@ categories:
 - articulos
 color: '#F57C00'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: articulos
 url: /lo-que-se-viene-en-programacion-funcional-de-java/
 tags:

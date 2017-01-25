@@ -13,7 +13,7 @@ description: "Hace alg\xFAn tiempo estaba desarrollando un m\xF3dulo para python
   respondi\xE9ndome a m\xED mismo, pero aprend\xED bastante, veamos c\xF3mo hacerlo."
 image: "2013/03/Crear-un-m\xF3dulo-para-python-con-la-Python-C-API-Parte-I.png"
 lastmod: 2015-12-22
-layout: post.amp
+
 mainclass: dev
 url: /python-c-api-como-pasar-un-array-de-structs-desde-c-python/
 tags:

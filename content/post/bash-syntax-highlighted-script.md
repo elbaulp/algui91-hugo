@@ -7,7 +7,7 @@ color: '#2196F3'
 date: '2016-01-01'
 lang: en
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: linux
 url: /bash-syntax-highlighted-script/
 title: Bash syntax highlighted script

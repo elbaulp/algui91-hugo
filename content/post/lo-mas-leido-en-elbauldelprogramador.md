@@ -5,7 +5,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-10-08
-layout: post.amp
+
 mainclass: articulos
 url: /lo-mas-leido-en-elbauldelprogramador/
 title: "Lo m\xE1s leido en ElbaulDelProgramador (Noviembre 2011)"

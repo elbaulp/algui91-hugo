@@ -5,7 +5,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: articulos
 url: /informacion-del-boicot-wikileaks/
 title: "Recopilaci\xF3n de Informaci\xF3n del Boicot a WikiLeaks"

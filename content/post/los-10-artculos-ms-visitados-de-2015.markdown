@@ -7,7 +7,7 @@ date: 2015-12-15 07:17:53
 description: "Se nos va otro a\xF1o, estos son los 10 art\xEDculos que m\xE1s os han
   gustado"
 image: los10articulosmasvisitados2015.png
-layout: post.amp
+
 mainclass: articulos
 modified: null
 title: "Los 10 Art\xEDculos M\xE1s Visitados De 2015"

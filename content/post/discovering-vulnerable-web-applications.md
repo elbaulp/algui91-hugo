@@ -5,7 +5,7 @@ categories:
 - noticias
 color: '#61B38D'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: misc
 url: /discovering-vulnerable-web-applications/
 tags:

@@ -7,7 +7,7 @@ date: 2015-05-30 11:53:41
 description: JavaScriptMVC is a client-side, JavaScript framework that builds maintainable,
   error-free, lightweight applications as quickly as possible.
 image: nueva-gua-gratuita-learning-javascriptmvc-free-14-page-excerpt.jpg
-layout: post.amp
+
 mainclass: misc
 tags:
 - cursos

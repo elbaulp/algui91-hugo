@@ -8,7 +8,7 @@ format: aside
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: articulos
 url: /suplantacion-de-identidad-en-facebook/
 tags:

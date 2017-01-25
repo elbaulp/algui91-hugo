@@ -5,7 +5,6 @@ categories:
 - linux
 color: '#E64A19'
 date: '2016-01-01'
-layout: post.amp
 mainclass: dev
 url: /wxmaxima-encontro-un-error-durante-la-carga/
 tags:

@@ -7,7 +7,7 @@ date: '2016-01-01'
 description: "C\xF3digo php para mostrar en wordpress nuestro n\xFAmero de seguidores
   en twitter"
 format: aside
-layout: post.amp
+
 mainclass: dev
 url: /mostrar-el-numero-de-seguidores-en-twitter-en-wordpress/
 tags:

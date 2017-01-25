@@ -9,7 +9,7 @@ format: status
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: misc
 url: /cinco-cursos-nuevos-en-udacity-software-testing-algoritmos-fisica-estadistica-y-logica-matematicas-discretas-2/
 tags:

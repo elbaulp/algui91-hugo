@@ -7,7 +7,7 @@ date: 2015-05-21 14:50:42
 description: "C\xF3mo crear filtros en git, smudge y clean"
 image: 2013/03/git-logo.png
 lastmod: 2015-05-22
-layout: post.amp
+
 mainclass: git
 tags:
 - git

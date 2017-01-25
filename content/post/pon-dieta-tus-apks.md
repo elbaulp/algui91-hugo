@@ -12,7 +12,7 @@ description: "En el anterior art\xEDculo hablamos de c\xF3mo reducir el tama\xF1
   las partes importantes."
 image: hotlink-ok/Pon-a-dieta-a-tus-APKs.png
 lastmod: 2015-12-11
-layout: post.amp
+
 mainclass: android
 url: /pon-dieta-tus-apks/
 tags:

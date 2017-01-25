@@ -5,7 +5,7 @@ categories:
 color: '#0097A7'
 date: '2016-01-01'
 lastmod: 2016-08-10
-layout: post.amp
+
 mainclass: servidores
 url: /recibir-alertas-de-correo-ssh/
 tags:

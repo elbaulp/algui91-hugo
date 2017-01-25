@@ -8,7 +8,7 @@ color: '#2196F3'
 date: '2016-01-01'
 image: 2013/07/Screenshot-from-2013-07-02-164301.png
 lastmod: 2016-08-09
-layout: post.amp
+
 mainclass: linux
 url: /ejecutar-un-script-al-modificar-un-fichero-con-inotify/
 tags:

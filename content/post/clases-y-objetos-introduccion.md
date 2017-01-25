@@ -7,7 +7,7 @@ date: '2016-01-01'
 description: "Hace poco puse a vuestra disposici\xF3n unos tutoriales b\xE1sicos de
   C++, y ahora voy a comenzar a explicar las clases y los objetos en C++."
 lastmod: 2016-09-02
-layout: post.amp
+
 mainclass: dev
 url: /clases-y-objetos-introduccion/
 title: "Programaci\xF3n en C++. Clases y objetos - Introducci\xF3n"

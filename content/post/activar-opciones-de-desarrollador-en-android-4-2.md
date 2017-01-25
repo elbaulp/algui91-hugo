@@ -9,7 +9,7 @@ description: "Hace poco actualic\xE9 mi Samsung Galaxy S II (GT-I9100) a Cyanoge
   estaban donde siempre, en la configuraci\xF3n del tel\xE9fono. As\xED que buscando
   un poco encontr\xE9 la respuesta. A fin de mejorar la experiencia del usuario, Google
   ha escondido por defecto esta opci\xF3n."
-layout: post.amp
+
 mainclass: articulos
 url: /activar-opciones-de-desarrollador-en-android-4-2/
 tags:

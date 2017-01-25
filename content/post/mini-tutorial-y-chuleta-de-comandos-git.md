@@ -8,7 +8,7 @@ date: 2015-12-13 18:10:12
 description: Un mini tutorial y lista extensa de comandos git
 image: 2013/03/git-logo.png
 lastmod: 2016-08-06
-layout: post.amp
+
 mainclass: git
 url: /mini-tutorial-y-chuleta-de-comandos-git/
 aliases: /articulos/mini-tutorial-y-chuleta-de-comandos-git/

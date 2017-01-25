@@ -10,7 +10,7 @@ description: "En ocasiones, al crear un emulador Android, a\xFAn habiendo habili
   los cursores del teclado."
 image: "2014/08/C\xF3mo-habilitar-el-teclado-en-el-emulador-Android.png"
 lastmod: 2015-12-24
-layout: post.amp
+
 mainclass: android
 url: /habilitar-el-teclado-en-el-emulador-android/
 tags:

@@ -9,7 +9,7 @@ description: Chuleta de comandos para administrar gentoo, instalar, actualizar y
 image: como-instalar-actualizar-elminar-paquetes-gentoo.png
 introduction: Chuleta de comandos para administrar gentoo, instalar, actualizar y
   borrar paquetes
-layout: post.amp
+
 mainclass: linux
 tags:
 - gentoo

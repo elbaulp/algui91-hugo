@@ -9,7 +9,7 @@ description: "En su \xFAltima actualizaci\xF3n, el plugin JetPack introdujo la n
   servir de referencia tanto a los lectores como a mi, aprovechando as\xED la ocasi\xF3n
   para practicar y memorizar el formato."
 lastmod: 2015-12-24
-layout: post.amp
+
 mainclass: articulos
 url: /chuleta-markdown-para-wordpress/
 tags:

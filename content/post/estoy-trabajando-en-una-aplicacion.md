@@ -6,7 +6,7 @@ categories:
 color: '#689F38'
 date: '2016-01-01'
 lastmod: 2016-09-21
-layout: post.amp
+
 mainclass: android
 url: /estoy-trabajando-en-una-aplicacion/
 tags:

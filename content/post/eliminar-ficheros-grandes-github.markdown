@@ -8,7 +8,7 @@ date: 2016-11-12 08:12:16
 description: "C\xF3mo eliminar por completo un fichero demasiado grande para GitHub"
 image: 2013/03/git-logo.png
 introduction: "C\xF3mo eliminar por completo un fichero demasiado grande para GitHub"
-layout: post.amp
+
 mainclass: git
 url: /eliminar-ficheros-grandes-github/
 tags:

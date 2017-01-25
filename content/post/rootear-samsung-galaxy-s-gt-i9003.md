@@ -6,7 +6,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-09-27
-layout: post.amp
+
 mainclass: articulos
 url: /rootear-samsung-galaxy-s-gt-i9003/
 tags:

@@ -11,7 +11,7 @@ description: "Lleg\xF3 el momento de crear un m\xF3dulo con la Python C API algo
   en NDK-gdb \u2013 Depurar aplicaciones en el NKD de Android."
 image: "2013/03/Crear-un-m\xF3dulo-para-python-con-la-Python-C-API-Parte-I.png"
 lastmod: 2015-12-22
-layout: post.amp
+
 mainclass: dev
 url: /crear-modulo-python-con-python-c-api-4/
 tags:

@@ -10,7 +10,7 @@ description: "Este art\xEDculo es parte de una pr\xE1ctica de una asignatura de 
   facultad Nuevos Paradigmas de la Interacci\xF3n. El trabajo consiste en programar
   por primera vez una aplicaci\xF3n haciendo uso de una Kinect."
 image: Primeros-Pasos-Programando-Con-Kinect.png
-layout: post.amp
+
 mainclass: dev
 math: true
 tags:

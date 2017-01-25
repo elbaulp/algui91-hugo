@@ -7,7 +7,7 @@ date: 2015-12-12 12:48:51
 description: Learn how to determine potential online criminal activity, legally gather
   evidence, search and investigate wireless attacks.
 image: hotlink-ok/Computer-and-Hacking-Forensics---FREE-Video-Training-Course.jpg
-layout: post.amp
+
 mainclass: misc
 modified: null
 tags: []

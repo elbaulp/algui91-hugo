@@ -7,7 +7,7 @@ date: 2016-11-27 10:18:24
 description: Bring your Atom-powered device back to life with a lightweight distribution!
 image: guides/5-Lightweight-Linux-Distros-Ideal-for-an-Intel-Atom-Processor-PC-centered.jpg
 introduction: Bring your Atom-powered device back to life with a lightweight distribution!
-layout: post.amp
+
 mainclass: misc
 tags:
 - manuales

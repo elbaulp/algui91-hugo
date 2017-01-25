@@ -6,7 +6,7 @@ categories:
 color: '#2196F3'
 date: '2016-01-01'
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: linux
 url: /gestion-basica-de-usuarios-en-linux/
 tags:

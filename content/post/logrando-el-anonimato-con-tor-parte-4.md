@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 image: 2013/06/081712_1525_AchievingAn4.png
 lastmod: 2016-08-08
-layout: post.amp
+
 mainclass: articulos
 url: /logrando-el-anonimato-con-tor-parte-4/
 tags:

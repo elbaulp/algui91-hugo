@@ -8,7 +8,7 @@ description: "Reccientemente hemos cerrado un acuerdo con Oja.la, plataforma de 
   digital, con mentores personales y m\xE1s de 320 cursos sobre desarrollo en Android,
   para ofrecerte, por ser lector de El Ba\xFAl del Programador, un descuento del 50%
   durante los pr\xF3ximos 5 d\xEDas para cualquier curso elegido."
-layout: post.amp
+
 mainclass: articulos
 modified: null
 tags: []

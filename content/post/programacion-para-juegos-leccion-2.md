@@ -5,7 +5,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-08-19
-layout: post.amp
+
 mainclass: dev
 url: /programacion-para-juegos-leccion-2/
 title: "Programaci\xF3n para Juegos - Lecci\xF3n 2 - Im\xE1genes Optimizadas"

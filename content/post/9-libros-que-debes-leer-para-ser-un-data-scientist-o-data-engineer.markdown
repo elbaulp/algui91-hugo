@@ -9,7 +9,7 @@ description: "Tras mucho buscar, al fin he conseguido recopilar una lista de lib
   personal."
 image: ml/Machine-Learning-for-Hackers.jpg
 lastmod: 2016-06-15
-layout: post.amp
+
 mainclass: articulos
 tags:
 - libros

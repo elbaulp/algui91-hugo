@@ -6,7 +6,7 @@ color: '#61B38D'
 date: 2016-03-16 10:02:52
 description: How IoT is set to revolutionize the commercial real estate industry.
 image: The-Impact-of-Internet-of-Things-IoT-on-Facilities-Management.jpg
-layout: post.amp
+
 mainclass: misc
 tags:
 - guia Impact of Internet of Things

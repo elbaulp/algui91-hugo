@@ -15,7 +15,7 @@ description: "La mayor\xEDa de interfaces de usuario (en m\xF3viles o web) se ba
   potentes."
 image: 2014/12/Grid-Spacing-en-Android-take_2_1.png
 lastmod: 2015-12-22
-layout: post.amp
+
 mainclass: android
 url: /grid-spacing-en-android/
 tags:

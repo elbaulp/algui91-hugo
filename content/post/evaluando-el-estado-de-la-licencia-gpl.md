@@ -6,7 +6,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-10-26
-layout: post.amp
+
 mainclass: articulos
 url: /evaluando-el-estado-de-la-licencia-gpl/
 title: Evaluando el estado de la licencia GPL

@@ -8,7 +8,7 @@ description: "Explicaci\xF3n de por qu\xE9 muchos usuarios de internet est\xE1n 
   un error nullpointerexception, en facebook entre otras aplicaciones"
 image: nullpointerexception-facebook-line-numbers.jpg
 lastmod: 2016-04-05
-layout: post.amp
+
 mainclass: java
 modified: null
 tags:

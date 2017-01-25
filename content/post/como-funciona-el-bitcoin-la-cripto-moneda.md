@@ -4,7 +4,7 @@ categories:
 - security now
 color: '#00BCD4'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: security-now
 url: /como-funciona-el-bitcoin-la-cripto-moneda/
 tags:

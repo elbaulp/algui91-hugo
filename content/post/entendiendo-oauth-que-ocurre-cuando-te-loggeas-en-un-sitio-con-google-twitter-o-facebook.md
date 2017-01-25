@@ -11,7 +11,7 @@ description: "Loggearte en otro sitio con tu cuenta de Google, Twitter o Faceboo
   terceros. Aqu\xED es donde OAuth entra en acci\xF3n. Veamos c\xF3mo funciona y c\xF3mo
   mantiene nuestras contrase\xF1as seguras en sitios de terceros."
 lastmod: 2016-08-10
-layout: post.amp
+
 mainclass: articulos
 url: /entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/
 aliases: /opensource/seguridad/entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/

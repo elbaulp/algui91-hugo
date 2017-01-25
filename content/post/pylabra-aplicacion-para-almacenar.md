@@ -7,7 +7,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-08-27
-layout: post.amp
+
 mainclass: dev
 url: /pylabra-aplicacion-para-almacenar/
 title: "Pylabra. Aplicaci\xF3n para almacenar vocabulario"

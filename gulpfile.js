@@ -32,6 +32,7 @@ gulp.task('stylus', function(){
  */
 gulp.task('minify-html', () => {
     return gulp.src('public/**/*.html')
+        .pipe(newer('./public'))
         .pipe(htmlmin({
             collapseWhitespace: true,
             minifyCSS: true,

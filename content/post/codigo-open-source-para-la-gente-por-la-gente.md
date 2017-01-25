@@ -11,7 +11,7 @@ description: "Muchas organizaciones eligen Open Source por razones como flexibil
   mucho m\xE1s peque\xF1o y m\xE1s conectado. Y Open Source le da a la gente la oportunidad
   de unirse a la causa, sin importar d\xF3nde viven."
 lastmod: 2015-12-23
-layout: post.amp
+
 mainclass: articulos
 url: /codigo-open-source-para-la-gente-por-la-gente/
 title: "C\xF3digo Open Source: Para la gente, por la gente"

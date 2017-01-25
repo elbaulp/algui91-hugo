@@ -9,7 +9,7 @@ description: "Los USBs suelen llevarse siempre a mano, en los bolsillos, mochila
   cualquiera. Por ello es buena idea llevarlo encriptado, ya sea por si se pierde
   o nos lo roban. Hoy veremos c\xF3mo podemos cifrar/encriptar nuestro usb con Veracrypt"
 image: Veracryptlogo.png
-layout: post.amp
+
 mainclass: articulos
 tags:
 - "criptograf\xEDa"

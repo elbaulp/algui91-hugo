@@ -6,7 +6,7 @@ color: '#61B38D'
 date: '2016-01-01'
 image: Mac-OS-X-LionThe-Ultimate-Guide.jpg
 lastmod: 2016-09-29
-layout: post.amp
+
 mainclass: misc
 url: /nueva-guia-mac-os-x-lion-ultimate-guide/
 title: "Nueva gu\xEDa: Mac OS X Lion: The Ultimate Guide"

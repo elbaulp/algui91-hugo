@@ -10,7 +10,7 @@ date: '2016-01-01'
 description: Tutorial de gource y ejemplo de uso
 image: 2013/05/gourceGit-1024x804.png
 lastmod: 2015-12-13
-layout: post.amp
+
 mainclass: articulos
 url: /gource-visualizar-la-evolucion-de-un-repositorio-git/
 tags:

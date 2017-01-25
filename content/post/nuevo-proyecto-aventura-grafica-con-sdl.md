@@ -5,7 +5,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-08-16
-layout: post.amp
+
 mainclass: dev
 url: /nuevo-proyecto-aventura-grafica-con-sdl/
 title: "Nuevo Proyecto: Aventura gr\xE1fica con SDL y C++"

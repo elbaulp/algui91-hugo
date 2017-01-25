@@ -8,7 +8,7 @@ date: '2016-01-01'
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: misc
 url: /nueva-guia-php-mysql-novice-to-ninja-5th-edition-free-57-page-preview/
 tags:

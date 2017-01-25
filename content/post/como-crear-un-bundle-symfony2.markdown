@@ -10,7 +10,7 @@ description: "En este articulo vamos a ver los pasos que he seguido para crear u
   y poder enviar sms masivos. Es un bundle simple, pero tiene varias cosas interesantes
   (requiere otra librer\xEDa, utiliza par\xE1metros de configuraci\xF3n, etc.), y
   puede ser una buena introducci\xF3n."
-layout: post.amp
+
 mainclass: dev
 tags:
 - bundle

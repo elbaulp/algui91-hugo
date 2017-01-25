@@ -5,7 +5,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: articulos
 url: /el-estado-de-wayland-aspirante/
 title: El estado de Wayland, aspirante a reemplazar X.org

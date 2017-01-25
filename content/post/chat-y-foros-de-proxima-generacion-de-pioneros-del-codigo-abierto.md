@@ -11,7 +11,7 @@ description: "Insatisfecho con la experiencia en los actuales paquetes de softwa
   para foros, el co-fundador de Stack Exchange, Jeff Atwood, fund\xF3 el Civilized
   Discourse Construction kit"
 image: 2013/02/discourse-bcc00733a70b7ad2.png
-layout: post.amp
+
 mainclass: articulos
 url: /chat-y-foros-de-proxima-generacion-de-pioneros-del-codigo-abierto/
 tags:

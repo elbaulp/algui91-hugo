@@ -10,7 +10,7 @@ description: "Todos sabemos que cuando borramos algo de nuestro disco duro, en r
   otro archivo en ese espacio, el fichero borrado es susceptible de ser recuperado.
   Hoy veremos c\xF3mo es posible recuperar datos borrados de un disco duro."
 image: hotlink-ok/Como-Recuperar-Datos-Borrados-De-Un-Disco.png
-layout: post.amp
+
 mainclass: misc
 modified: null
 tags:

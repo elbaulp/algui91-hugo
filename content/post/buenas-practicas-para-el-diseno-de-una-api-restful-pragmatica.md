@@ -9,7 +9,7 @@ description: "Esta es una traducci\xF3n lo m\xE1s literal posible del art\xEDcul
   tambi\xE9n el destacable trabajo de investigaci\xF3n y an\xE1lisis que realiz\xF3."
 image: 2014/01/201305-xml-vs-json-api.png
 lastmod: 2016-08-01
-layout: post.amp
+
 mainclass: articulos
 url: /buenas-practicas-para-el-diseno-de-una-api-restful-pragmatica/
 tags:

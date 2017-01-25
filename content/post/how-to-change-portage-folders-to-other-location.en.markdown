@@ -8,7 +8,7 @@ description: How to change portage folders and temp folder to other directory
 image: como-instalar-actualizar-elminar-paquetes-gentoo.png
 introduction: How to change portage folders and temp folder to other directory
 lang: en
-layout: post.amp
+
 mainclass: linux
 tags:
 - gentoo

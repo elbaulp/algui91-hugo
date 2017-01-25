@@ -6,7 +6,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 format: link
-layout: post.amp
+
 mainclass: articulos
 url: /enlaces-de-la-semana-i-2/
 tags:

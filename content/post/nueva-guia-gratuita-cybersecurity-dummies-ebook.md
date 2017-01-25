@@ -9,7 +9,7 @@ description: APTs (Advanced Persistent Threats) have changed the world of enterp
   cyber-criminals behind them, are experts at remaining hidden from traditional security
   while exhibiting an intelligence, resiliency, and patience that has never been seen
   before.
-layout: post.amp
+
 mainclass: misc
 url: /nueva-guia-gratuita-cybersecurity-dummies-ebook/
 tags:

@@ -8,7 +8,7 @@ categories:
 color: '#61B38D'
 date: '2016-01-01'
 lastmod: 2016-09-12
-layout: post.amp
+
 mainclass: misc
 url: /nueva-guia-build-your-own-wordpress/
 title: "Nueva Gu\xEDa: Build Your Own WordPress Site Guide"

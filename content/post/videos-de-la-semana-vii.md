@@ -4,7 +4,7 @@ categories:
 - video de la semana
 color: '#262626'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: geek
 url: /videos-de-la-semana-vii/
 title: "V\xEDdeos de la semana (VII)"

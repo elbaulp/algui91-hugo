@@ -8,7 +8,7 @@ description: "Continuando por donde lo dejamos en el \xFAltimo art\xEDculo, hoy 
   c\xF3mo incluir c\xF3digo fuente en el documento."
 image: 2013/05/latex_logo.png
 lastmod: 2015-12-22
-layout: post.amp
+
 mainclass: latex
 url: /curso-de-latex-incluir-codigo-fuente-y-simbolos-matematicos/
 tags:

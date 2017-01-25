@@ -10,7 +10,7 @@ description: "Si te gusta jugar con tu Android, estos C\xF3digos secretos y ocul
   Android."
 image: 2013/07/iconoAndroid.png
 lastmod: 2016-08-13
-layout: post.amp
+
 mainclass: android
 url: /codigos-secretos-y-ocultos-para-android/
 aliases: /programacion/android/codigos-secretos-y-ocultos-para-android/

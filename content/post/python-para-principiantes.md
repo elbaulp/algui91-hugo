@@ -5,7 +5,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-08-31
-layout: post.amp
+
 mainclass: dev
 url: /python-para-principiantes/
 title: Python para principiantes

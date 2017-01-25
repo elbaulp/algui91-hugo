@@ -5,7 +5,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-10-26
-layout: post.amp
+
 mainclass: articulos
 url: /estadisticas-del-blog-en-2011/
 title: "Estad\xEDsticas del blog en 2011"

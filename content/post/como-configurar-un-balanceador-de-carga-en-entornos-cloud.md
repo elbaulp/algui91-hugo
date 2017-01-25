@@ -9,7 +9,7 @@ description: "Hoy vamos a hablar de c\xF3mo configurar un Balanceador de carga p
   cloud virtualizado, desde el panel de control de Arsys. Est\xE1 claro que, la segunda
   opci\xF3n, ser\xE1 mucho m\xE1s sencilla. A\xFAn as\xED, con la primera se aprender\xE1
   qu\xE9 est\xE1 pasando realmente por debajo."
-layout: post.amp
+
 mainclass: servidores
 url: /como-configurar-un-balanceador-de-carga-en-entornos-cloud/
 tags:

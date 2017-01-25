@@ -8,7 +8,7 @@ format: video
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: articulos
 url: /un-poco-de-circuitos-registros-y-generadores-de-secuencia/
 tags:

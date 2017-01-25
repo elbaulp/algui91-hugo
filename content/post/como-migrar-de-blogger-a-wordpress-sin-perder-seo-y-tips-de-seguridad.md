@@ -11,7 +11,7 @@ description: "En esta entrada  se ver\xE1 c\xF3mo migrar desde la plataforma de 
   el posicionamiento en los buscadores. Por \xFAltimo se mencionar\xE1n algunos consejos
   de seguridad."
 lastmod: 2016-08-13
-layout: post.amp
+
 mainclass: dev
 url: /como-migrar-de-blogger-a-wordpress-sin-perder-seo-y-tips-de-seguridad/
 tags:

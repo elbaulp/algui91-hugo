@@ -11,7 +11,7 @@ description: "A medida que han ido siendo m\xE1s habituales todo tipo de transac
   que se comete a trav\xE9s d la suplantaci\xF3n de identidad con f\xF3rmulas como
   el sistema de pag [Vini](https://be.ceca.es/2000/vini/index.html), con tarjetas
   virtuale y diversos m\xE9todos"
-layout: post.amp
+
 mainclass: articulos
 modified: null
 tags: []

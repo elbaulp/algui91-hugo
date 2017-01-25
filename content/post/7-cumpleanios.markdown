@@ -6,7 +6,7 @@ date: 2016-05-07 09:55:51
 description: "Hoy el blog cumple a\xF1os, 7 para ser ex\xE1ctos, echamos la vista
   atr\xE1s y repasamos su historia"
 image: 7-cumpleanios0.png
-layout: post.amp
+
 mainclass: misc
 title: "El Ba\xFAl Del Programador Cumple 7 A\xF1os"
 ---

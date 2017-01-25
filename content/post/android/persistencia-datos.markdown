@@ -9,7 +9,7 @@ description: "En este art\xEDculo se ver\xE1 c\xF3mo almacenar datos del usuario
   una base de datos SQLite o SharedPreferences"
 image: hotlink-ok/ProgramacionAndroid-Persistencia-de-Datoscard.png
 introduction: "Ejemplo de c\xF3mo guardar datos de usuario en Android"
-layout: post.amp
+
 mainclass: android
 modified: null
 tags:

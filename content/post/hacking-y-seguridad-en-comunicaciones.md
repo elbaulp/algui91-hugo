@@ -7,7 +7,7 @@ color: '#61B38D'
 date: '2016-01-01'
 image: hacking-y-seguridad-en-comunicaciones.jpg
 lastmod: 2016-10-08
-layout: post.amp
+
 mainclass: misc
 url: /hacking-y-seguridad-en-comunicaciones/
 tags:

@@ -5,7 +5,7 @@ categories:
 color: '#009688'
 date: '2016-01-01'
 lastmod: 2016-08-16
-layout: post.amp
+
 mainclass: BaseDeDatos
 url: /lenguaje-manipulacion-de-datos-dml/
 aliases: /programacion/basededatos/lenguaje-manipulacion-de-datos-dml/

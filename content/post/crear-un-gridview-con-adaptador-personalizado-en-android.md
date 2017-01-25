@@ -9,7 +9,7 @@ description: Un GridView es una AdapterView capaz de organizar datos en forma de
   permite scrolling horizontal y vertical en sus interacciones.
 image: 2014/11/gridview-scrolling-horizontal.png
 lastmod: 2015-12-23
-layout: post.amp
+
 mainclass: android
 url: /crear-un-gridview-con-adaptador-personalizado-en-android/
 tags:

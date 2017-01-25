@@ -9,7 +9,7 @@ color: '#61B38D'
 date: 2015-05-20 14:07:56
 description: Delve into the world of Java concurrency with this compact guide that
   discusses everything around concurrency and synchronization!
-layout: post.amp
+
 mainclass: misc
 tags:
 - java

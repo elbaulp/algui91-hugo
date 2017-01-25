@@ -12,7 +12,7 @@ description: Nunca es buena idea realizar cambios a un sitio web sin haberlos pr
   web.
 image: hotlink-ok/CREAR-UN-ENTORNO-DE-DESARROLLO-PARA-WORDPRESS-CON-GIT-CAPISTRANO-Y-WP-DEPLOY.png
 lastmod: 2016-08-10
-layout: post.amp
+
 mainclass: git
 url: /crear-un-entorno-de-desarrollo-para-wordpress-con-git-capistrano-y-wp-deploy/
 tags:

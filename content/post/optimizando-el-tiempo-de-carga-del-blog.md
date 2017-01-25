@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 image: optimizando-el-tiempo-de-carga-del-blog.png
 lastmod: 2016-09-13
-layout: post.amp
+
 mainclass: articulos
 url: /optimizando-el-tiempo-de-carga-del-blog/
 title: Optimizando el tiempo de carga del blog

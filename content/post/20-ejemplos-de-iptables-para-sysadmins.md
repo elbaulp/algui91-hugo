@@ -12,7 +12,7 @@ description: "netfiltes es un conjunto de hooks (Ganchos) dentro del kernel de l
   de red. Una funci\xF3n callback registrada se llama entonces para cada paquete que
   atraviesa el hook correspondiente dentro de la pila de red."
 image: 20-ejemplos-de-iptables-para-sysadmins.png
-layout: post.amp
+
 mainclass: servidores
 url: /20-ejemplos-de-iptables-para-sysadmins/
 aliases:

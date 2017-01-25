@@ -10,7 +10,7 @@ description: "Si encontraste esta p\xE1gina, por suerte es lo que estabas buscan
   en comentarlo."
 image: 2014/04/Chuleta-de-comandos-GPG.png
 lastmod: 2016-08-10
-layout: post.amp
+
 mainclass: articulos
 url: /chuleta-de-comandos-para-gpg/
 tags:

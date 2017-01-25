@@ -13,7 +13,7 @@ description: "Un equipo de investigadores del MIT, Caltech, Harvard, y otras uni
   paquetes simples, crea una ecuaci\xF3n que describe una serie de paquetes. Es una
   forma nueva de transmitir datos de modo que los paquetes perdidios no aumenten la
   latencia o re-env\xEDen datos, ya que son la causa de que la red se congestione."
-layout: post.amp
+
 mainclass: articulos
 url: /investigadores-del-mit-usan-ecuaciones-algebraicas-para-mejorar-las-transmisiones-wifi-y-lte-coded-tcp/
 tags:

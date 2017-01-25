@@ -4,7 +4,7 @@ categories:
 - administracion de servidores
 color: '#0097A7'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: servidores
 url: /como-hablitar-la-pagina-de-estado-en-nginx/
 tags:

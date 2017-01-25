@@ -7,7 +7,7 @@ date: 2016-03-15 07:39:18
 description: Delve into the world of Spring Data Programming with this compact cookbook
   that introduces common recipes for the Spring Data framework!
 image: Spring-Data-Programming-Cookbook.jpg
-layout: post.amp
+
 mainclass: misc
 modified: null
 tags:

@@ -8,7 +8,7 @@ description: "Una appMovimientoSonido que reconozca un patr\xF3n de movimientos 
   vuestra elecci\xF3n usando el giroscopio y/o el aceler\xF3metro, una vez detectado
   el patr\xF3n, se reproducir\xE1 un sonido"
 image: npi/movementSound.png
-layout: post.amp
+
 mainclass: java
 modified: null
 tags:

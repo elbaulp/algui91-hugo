@@ -5,7 +5,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-08-13
-layout: post.amp
+
 mainclass: dev
 url: /ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
 aliases: /programacion/ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/

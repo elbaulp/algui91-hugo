@@ -7,7 +7,7 @@ date: 2016-04-06 19:24:34
 description: "Declaraci\xF3n De Variables Entre El Nombre De La Funci\xF3n Y La Primera
   Llave en C"
 lastmod: 2016-08-09
-layout: post.amp
+
 mainclass: dev
 modified: null
 tags:

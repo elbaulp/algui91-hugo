@@ -6,7 +6,7 @@ color: '#262626'
 date: '2016-01-01'
 image: nunca-lo-hagas-sudo-rm-rf.jpg
 lastmod: 2016-09-05
-layout: post.amp
+
 mainclass: geek
 url: /nunca-lo-hagas-humor/
 title: "\xA1Nunca lo hagas! [Humor]"

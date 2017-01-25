@@ -5,7 +5,7 @@ categories:
 - noticias
 color: '#61B38D'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: misc
 url: /nueva-guia-4-key-recommendations-cloud-integration/
 title: "Nueva gu\xEDa: 4 Key Recommendations for Cloud Integration"

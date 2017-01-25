@@ -7,7 +7,7 @@ date: 2016-06-13 16:35:07
 description: Boosting your Web Development Career!
 image: Boosting-your-Web-Development-Career2.jpg
 introduction: Boosting your Web Development Career!
-layout: post.amp
+
 mainclass: misc
 tags:
 - aprender desarrollo web

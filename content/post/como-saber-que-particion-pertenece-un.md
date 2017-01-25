@@ -6,7 +6,7 @@ categories:
 color: '#2196F3'
 date: '2016-01-01'
 lastmod: 2016-10-22
-layout: post.amp
+
 mainclass: linux
 url: /como-saber-que-particion-pertenece-un/
 title: "C\xF3mo saber a qu\xE9 partici\xF3n pertenece un archivo en GNU/Linux"

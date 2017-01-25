@@ -10,7 +10,7 @@ description: "nftables  es un  nuevo  framework  que  sustituye  al antiguo  ipt
   el kernel  3.13, las personas  a\xFAn  no est\xE1n acostumbradas a su uso y por
   tanto  siguen usando  iptables  o en su defecto la nomenclatura  de sus reglas."
 image: ejemplos-nftables.png
-layout: post.amp
+
 mainclass: articulos
 tags:
 - ejemplos nftables

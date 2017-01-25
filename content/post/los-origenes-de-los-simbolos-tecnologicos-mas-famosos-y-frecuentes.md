@@ -17,7 +17,7 @@ description: "Cont\xEDnuamente exploramos el mundo de los or\xEDgenes pero es mu
   nunca has o\xEDdo o visto."
 image: "2014/03/LOS-OR\xCDGENES-DE-LOS-S\xCDMBOLOS-TECNOL\xD3GICOS-M\xC1S-FAMOSOS-Y-FRECUENTES.png"
 lastmod: 2015-12-25
-layout: post.amp
+
 mainclass: articulos
 url: /los-origenes-de-los-simbolos-tecnologicos-mas-famosos-y-frecuentes/
 tags:

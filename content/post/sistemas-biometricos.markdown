@@ -8,7 +8,7 @@ description: "\xDAltimo art\xEDculo de la serie \u201CBiometr\xEDa Aplicada a La
   en el que se presentan distintas vulnerabilidades en los sistemas biom\xE9tricos,
   as\xED como distintos tipos de ataques y contramedidas."
 image: hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png
-layout: post.amp
+
 mainclass: articulos
 modified: null
 tags:

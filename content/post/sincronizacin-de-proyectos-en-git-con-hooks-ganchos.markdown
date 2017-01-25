@@ -8,7 +8,7 @@ description: "C\xF3mo sincronizar dos repositorios en git de forma que uno sea e
   espejo del otro, y c\xF3mo mantener sincronizada \xFAnicamente una rama."
 image: 2013/03/git-logo.png
 lastmod: 2016-08-05
-layout: post.amp
+
 mainclass: git
 tags:
 - git

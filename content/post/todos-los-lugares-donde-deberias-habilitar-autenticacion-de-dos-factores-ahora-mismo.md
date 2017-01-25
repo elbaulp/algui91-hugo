@@ -5,7 +5,7 @@ categories:
 - seguridad
 color: '#F57C00'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: articulos
 url: /todos-los-lugares-donde-deberias-habilitar-autenticacion-de-dos-factores-ahora-mismo/
 tags:

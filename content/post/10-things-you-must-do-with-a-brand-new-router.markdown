@@ -11,7 +11,7 @@ image: guides/10-Things-You-Must-Do-With-a-Brand-New-Router-full-thumb.jpg
 introduction: "There are many good reasons to upgrade your router (or buy one if you
   don\u2019t have one). You can get faster speeds, improved range, and new features.
   It\u2019ll also ensure maximum compatibility with your latest gadgets."
-layout: post.amp
+
 mainclass: misc
 tags:
 - manuales

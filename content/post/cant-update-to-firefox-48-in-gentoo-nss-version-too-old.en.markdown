@@ -9,7 +9,7 @@ description: 'Solve configure: error you don''t have NSS installed or your versi
 image: null
 introduction: null
 lang: en
-layout: post.amp
+
 mainclass: linux
 modified: null
 tags:

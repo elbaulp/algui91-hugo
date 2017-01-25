@@ -8,7 +8,7 @@ description: "Breve introducci\xF3n al paquete PgfGantt de LaTeX, para crear dia
 image: crear-diagrama-de-gantt-en-latex.png
 introduction: "Breve introducci\xF3n al paquete PgfGantt de LaTeX, para crear diagramas
   de Gantt"
-layout: post.amp
+
 mainclass: latex
 url: /crear-diagrama-de-gantt-en-latex/
 tags:

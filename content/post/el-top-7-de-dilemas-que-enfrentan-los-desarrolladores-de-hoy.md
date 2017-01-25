@@ -12,7 +12,7 @@ description: "As\xED como la tecnolog\xEDa evoluciona, tambi\xE9n lo hacen los d
   y la acelerada vanguardia, pareciera como si el mundo de la programaci\xF3n enfrentara
   una nueva elecci\xF3n - y dilema - a un ritmo creciente."
 lastmod: 2016-06-13
-layout: post.amp
+
 mainclass: articulos
 url: /el-top-7-de-dilemas-que-enfrentan-los-desarrolladores-de-hoy/
 tags:

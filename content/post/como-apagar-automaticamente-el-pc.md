@@ -8,7 +8,7 @@ categories:
 color: '#2196F3'
 date: '2016-01-01'
 lastmod: 2016-09-06
-layout: post.amp
+
 mainclass: linux
 url: /como-apagar-automaticamente-el-pc/
 title: "C\xF3mo apagar autom\xE1ticamente el PC cuando las descargas finalicen"

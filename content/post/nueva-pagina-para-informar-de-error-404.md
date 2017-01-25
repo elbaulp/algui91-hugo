@@ -4,7 +4,7 @@ categories:
 - sin categoria
 color: '#F57C00'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: articulos
 url: /nueva-pagina-para-informar-de-error-404/
 title: "Nueva p\xE1gina para informar de error 404 en el blog"

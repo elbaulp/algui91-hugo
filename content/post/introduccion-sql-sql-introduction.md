@@ -5,7 +5,7 @@ categories:
 color: '#009688'
 date: '2016-01-01'
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: BaseDeDatos
 url: /introduccion-sql-sql-introduction/
 title: "Introducci\xF3n SQL"

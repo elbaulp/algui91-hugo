@@ -8,7 +8,7 @@ description: "En este art\xEDculo se ver\xE1 una introducci\xF3n a lo que es la 
   y c\xF3mo se puede aplicar a los sistemas inform\xE1ticos para proporcionar seguridad.
   Tambi\xE9n se har\xE1 un repaso a los distintos tipos de biometr\xEDa."
 image: hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png
-layout: post.amp
+
 mainclass: articulos
 modified: null
 tags:

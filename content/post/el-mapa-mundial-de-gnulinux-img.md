@@ -8,7 +8,7 @@ color: '#2196F3'
 date: 2016-09-08
 image: el-mapa-mundial-de-gnulinux-2.jpg
 lastmod: 2016-09-08
-layout: post.amp
+
 mainclass: linux
 url: /el-mapa-mundial-de-gnulinux-img/
 title: El gran Mapa mundial de GNU/Linux

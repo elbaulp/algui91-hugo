@@ -7,7 +7,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-09-12
-layout: post.amp
+
 mainclass: articulos
 url: /video-tutoriales-ataque-man-in-middle/
 tags:

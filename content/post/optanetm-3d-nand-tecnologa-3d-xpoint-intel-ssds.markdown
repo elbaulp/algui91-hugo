@@ -11,7 +11,7 @@ description: "Los Nuevos Discos OptaneTM y 3D NAND Con Tecnolog\xEDa 3D XPoint D
 image: IntelAnunciaSusNuevosDiscosDuros1000VecesMasRapidosQueLosSSDs.png
 introduction: "Los Nuevos Discos OptaneTM y 3D NAND Con Tecnolog\xEDa 3D XPoint De
   Intel Reemplazar\xE1n a Los SSDs"
-layout: post.amp
+
 mainclass: security-now
 url: /optanetm-3d-nand-tecnologa-3d-xpoint-intel-ssds/
 aliases: /security now/optanetm-3d-nand-tecnologa-3d-xpoint-intel-ssds/

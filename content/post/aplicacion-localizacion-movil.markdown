@@ -8,7 +8,7 @@ description: "El robo de smartphones se ha disparado recientemente. Aumenta un 3
   cada a\xF1o, y aparentemente incluso el gobierno ha comenzado a notarlo porque quieren
   que las compa\xF1\xEDas de tel\xE9fonos dise\xF1en dispositivos con una seguridad
   mejorada que ayuden a localizar el m\xF3vil en caso de p\xE9rdida."
-layout: post.amp
+
 mainclass: java
 modified: null
 tags:

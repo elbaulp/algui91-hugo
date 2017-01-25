@@ -12,7 +12,7 @@ description: "Despues del \xE9xito de los cursos impartidos por Stanford sobre i
   de la ciencia de la computaci\xF3n en la universidad de Virginia y Sebastian Thrun,
   de la universidad de Stanford."
 lastmod: 2016-10-03
-layout: post.amp
+
 mainclass: articulos
 url: /aprende-construir-un-motor-de-busqueda/
 tags:

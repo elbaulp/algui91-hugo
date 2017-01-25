@@ -5,7 +5,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-08-29
-layout: post.amp
+
 mainclass: dev
 url: /programacion-para-juegos-articulo-3-que/
 title: "Programaci\xF3n para Juegos. Art\xEDculo 3. \xBFQu\xE9 es un pixel?"

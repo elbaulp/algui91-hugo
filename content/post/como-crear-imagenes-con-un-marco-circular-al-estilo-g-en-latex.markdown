@@ -7,7 +7,7 @@ date: 2015-05-27 10:28:05
 description: "C\xF3mo crear una imagen desde latex, usando el paquete tikz, para insertar
   una foto en un marco circular, al estilo de la red social de Google, G+."
 image: 2013/05/latex_logo.png
-layout: post.amp
+
 mainclass: latex
 math: true
 modified: null

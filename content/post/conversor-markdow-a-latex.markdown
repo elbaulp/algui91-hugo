@@ -8,7 +8,7 @@ description: "Hace tiempo, para la asignatura \u201CModelos de Computaci\xF3n\u2
   desarroll\xE9 un conversor de MarkDown a LaTeX usando flex. B\xE1sicamente con flex
   se van reconociendo partes del documento MarkDown mediante expresiones regulares
   y se traduce a su comando hom\xF3logo en LaTeX."
-layout: post.amp
+
 mainclass: dev
 modified: null
 tags:

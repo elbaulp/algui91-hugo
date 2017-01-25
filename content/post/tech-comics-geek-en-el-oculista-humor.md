@@ -8,7 +8,7 @@ color: '#262626'
 date: '2016-01-01'
 image: geek-eye-doctor.jpg
 lastmod: 2016-10-08
-layout: post.amp
+
 mainclass: geek
 url: /tech-comics-geek-en-el-oculista-humor/
 title: "Tech Comics: \u201CGeek en el oculista\u201D [HUMOR]"

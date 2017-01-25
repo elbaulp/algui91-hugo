@@ -5,7 +5,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: articulos
 url: /por-que-la-autentificacion-de-2-factores-depende-de-la-experiencia-del-usuario/
 tags:

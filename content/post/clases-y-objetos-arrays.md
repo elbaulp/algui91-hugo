@@ -9,7 +9,7 @@ description: Un array sirve para guardar un conjunto de entidades pertenecientes
   memoria, se ha de llamar a las funciones operator new[]() y operator delete[](),
   respectivamente
 lastmod: 2016-09-04
-layout: post.amp
+
 mainclass: dev
 url: /clases-y-objetos-arrays/
 title: Clases y Objetos. Arrays

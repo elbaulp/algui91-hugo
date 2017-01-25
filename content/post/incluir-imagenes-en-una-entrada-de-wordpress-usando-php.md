@@ -12,7 +12,7 @@ description: "Esto es lo que tenemos que hacer. Tenemos una imagen sin adjuntar 
   la imagen a nuestra p\xE1gina."
 image: 2013/07/wordpress.png
 lastmod: 2015-12-24
-layout: post.amp
+
 mainclass: dev
 url: /incluir-imagenes-en-una-entrada-de-wordpress-usando-php/
 tags:

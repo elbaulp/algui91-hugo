@@ -11,7 +11,7 @@ description: "Android es uno de los sistemas operativos m\xE1s abiertos, vers\xE
   (Traducidas de LifeHacker)."
 image: 2013/08/ku-bigpic.jpg
 lastmod: 2016-08-10
-layout: post.amp
+
 mainclass: articulos
 url: /10-razones-para-rootear-tu-telefono-android/
 tags:

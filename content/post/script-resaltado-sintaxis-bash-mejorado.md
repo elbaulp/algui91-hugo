@@ -5,7 +5,7 @@ categories:
 - script
 color: '#2196F3'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: linux
 url: /script-resaltado-sintaxis-bash-mejorado/
 title: Script resaltado sintaxis bash (Mejorado)

@@ -6,7 +6,7 @@ color: null
 date: 2016-08-06 16:15:22
 description: Descarga un manual de git completo de forma gratuita
 image: git-tutorial-centered.jpg
-layout: post.amp
+
 mainclass: misc
 tags:
 - git

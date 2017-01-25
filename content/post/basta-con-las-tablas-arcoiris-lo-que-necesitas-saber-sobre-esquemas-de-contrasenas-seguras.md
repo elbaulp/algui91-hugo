@@ -13,7 +13,7 @@ description: "En la esfera social de bookmark (\u201Csocialbookmarkosphere\u201D
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: articulos
 url: /basta-con-las-tablas-arcoiris-lo-que-necesitas-saber-sobre-esquemas-de-contrasenas-seguras/
 tags:

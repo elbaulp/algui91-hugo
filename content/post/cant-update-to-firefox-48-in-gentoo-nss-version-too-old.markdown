@@ -8,7 +8,7 @@ description: 'Resolver configure: error you don''t have NSS installed or your ve
   is too old al actualizar Firefox 48'
 image: null
 introduction: null
-layout: post.amp
+
 mainclass: linux
 tags:
 - gentoo

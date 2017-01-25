@@ -6,7 +6,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-08-13
-layout: post.amp
+
 mainclass: articulos
 url: /imponiendo-gpl-usando-tecnicas-de-judo/
 aliases: /opensource/imponiendo-gpl-usando-tecnicas-de-judo/

@@ -10,7 +10,7 @@ description: "Visualizaci\xF3n de la evoluci\xF3n de las distribuciones GNU/Linu
 image: linea-cronologica-de-distribuciones.png
 introduction: "Visualizaci\xF3n de la evoluci\xF3n de las distribuciones GNU/Linux"
 lastmod: 2016-09-01
-layout: post.amp
+
 mainclass: linux
 url: /linea-cronologica-de-distribuciones/
 title: "Evoluci\xF3n de las distribuciones GNU/Linux, de 1992 a 2016"

@@ -8,7 +8,7 @@ description: 'Solving amp-mustache error: Missing URL for Attribute'
 image: how-to-solve-missing-url-for-attribute-src-in-tag-a-error-in-amp-mustache.png
 introduction: 'Solving amp-mustache error: Missing URL for Attribute'
 lang: en
-layout: post.amp
+
 mainclass: dev
 tags:
 - amp-mustache

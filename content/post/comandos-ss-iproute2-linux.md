@@ -9,7 +9,7 @@ description: "El prop\xF3sito de iproute2 es reemplazar el conjunto de herramien
   que componen las net-tools y pasar a ser \xE9l quien se encargue de configurar las
   interfaces de red, la tabla de rutas y gestionar la tabla ARP."
 image: 2012/07/sh1.png
-layout: post.amp
+
 mainclass: linux
 url: /comandos-ss-iproute2-linux/
 tags:

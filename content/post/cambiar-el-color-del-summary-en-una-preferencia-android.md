@@ -10,7 +10,7 @@ description: "En un art\xEDculo anterior vimos c\xF3mo crear un di\xE1logo perso
   t\xEDtulo de una preferencia."
 image: 2014/02/Cambiar-el-color-del-summary-en-una-Preferencia-Android.png
 lastmod: 2015-12-28
-layout: post.amp
+
 mainclass: android
 url: /cambiar-el-color-del-summary-en-una-preferencia-android/
 tags:

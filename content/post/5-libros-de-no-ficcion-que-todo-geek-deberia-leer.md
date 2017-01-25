@@ -9,7 +9,7 @@ description: "Esta lista de libros geeks se mantiene en constante actualizaci\xF
   si deseas que se a\xF1ada alguno, no dudes en dejarnos un comentario!"
 image: Thing-Explainer-Complicated-Stuff-in-Simple-Words.jpg
 lastmod: 2016-06-15
-layout: post.amp
+
 mainclass: articulos
 url: /5-libros-de-no-ficcion-que-todo-geek-deberia-leer/
 tags:

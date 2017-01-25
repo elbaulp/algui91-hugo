@@ -12,7 +12,7 @@ description: "Para los que teng\xE1is vuestro terminal rooteado voy a hablar en 
   de los microprocesadores llamado gobernadores (governors):"
 image: Tipos-de-gobernadores-en-las-CPUs.jpg
 lastmod: 2016-08-11
-layout: post.amp
+
 mainclass: linux
 url: /tipos-de-gobernadores-en-las-cpus/
 tags:

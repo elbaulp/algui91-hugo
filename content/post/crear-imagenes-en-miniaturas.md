@@ -5,7 +5,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-07-31
-layout: post.amp
+
 mainclass: dev
 url: /crear-imagenes-en-miniaturas/
 title: "Crear miniaturas de im\xE1genes"

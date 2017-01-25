@@ -12,7 +12,7 @@ description: "\xDAltimamente recibo muchos correos haciendome preguntas sobre cu
   art\xEDculo en ingl\xE9s que nombraba los 10 errores comunes de los nuevos programadores
   en esta plataforma. Aqu\xED los dejo traducidos, ya que son de lectura recomendable:"
 lastmod: 2016-10-26
-layout: post.amp
+
 mainclass: android
 url: /los-10-errores-de-novato-que-todo/
 tags:

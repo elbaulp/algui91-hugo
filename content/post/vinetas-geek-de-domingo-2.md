@@ -6,7 +6,7 @@ categories:
 color: '#262626'
 date: '2016-01-01'
 format: gallery
-layout: post.amp
+
 mainclass: geek
 url: /vinetas-geek-de-domingo-2/
 tags:

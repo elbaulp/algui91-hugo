@@ -6,7 +6,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-08-13
-layout: post.amp
+
 mainclass: dev
 url: /ocultarrevelar-informacion-dentro-de/
 aliases: /programacion/ocultarrevelar-informacion-dentro-de/

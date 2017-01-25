@@ -5,7 +5,7 @@ categories:
 color: '#009688'
 date: '2016-01-01'
 lastmod: 2016-08-18
-layout: post.amp
+
 mainclass: BaseDeDatos
 url: /consulta-de-datos-clausula-where/
 title: "Consulta de Datos - Cl\xE1usula WHERE"

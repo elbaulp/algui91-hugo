@@ -9,7 +9,7 @@ format: gallery
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: geek
 url: /humor-grafico-informaticos-programadores-geek-9gag-com-parte-iii/
 title: "Humor gr\xE1fico - Inform\xE1ticos, Programadores, geek&#8230; - 9GAG.COM

@@ -14,7 +14,7 @@ description: "Seguro que muchos \xFAltimamente os pregunt\xE1is qu\xE9 significa
   seguras. He pensado que puede ser de inter\xE9s para los lectores del blog, as\xED
   que lo he traducido. Comencemos"
 image: WhatsApp-Entendiendo-Su-Cifrado-Extremo-a-Extremo.png
-layout: post.amp
+
 mainclass: security-now
 modified: null
 url: /whatsapp-mensajes-cifrados-extremo-a-extremo/

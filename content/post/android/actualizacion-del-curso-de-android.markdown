@@ -10,7 +10,7 @@ description: "Hac\xEDa mucho tiempo que ten\xEDa pendiente escribir este art\xED
   no est\xE9 publicando en el blog estos meses, s\xED que estoy escribiendo bastante
   (El curso de criptogrf\xEDa por ejemplo)."
 image: 2014/01/iconoAndroid.png
-layout: post.amp
+
 mainclass: android
 modified: null
 tags:

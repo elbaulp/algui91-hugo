@@ -6,7 +6,7 @@ categories:
 color: '#689F38'
 date: '2016-01-01'
 lastmod: 2016-09-27
-layout: post.amp
+
 mainclass: android
 url: /prueba-la-aplicacion-favsites-en-tu/
 tags:

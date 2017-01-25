@@ -9,7 +9,7 @@ description: "Cuando NetworkManager se connecta a una red, cambia el nombre de h
 image: cant-open-display-0-0-wifi-net.png
 introduction: "Cuando NetworkManager se connecta a una red, cambia el nombre de host
   (Hostname), y las aplicaciones gr\xE1ficas dejan de funcionar"
-layout: post.amp
+
 mainclass: linux
 tags:
 - linux

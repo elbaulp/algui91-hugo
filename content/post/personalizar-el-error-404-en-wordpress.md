@@ -6,7 +6,7 @@ color: '#0097A7'
 date: '2016-01-01'
 description: El error 404 debe tratarse adecuadamente en las webs para no asustar
   al usuario y provocar que salga de nuestro sitio.
-layout: post.amp
+
 mainclass: servidores
 url: /personalizar-el-error-404-en-wordpress/
 tags:

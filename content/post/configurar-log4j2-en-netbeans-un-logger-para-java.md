@@ -9,7 +9,7 @@ description: "Log4j2 es un Logger para Java que descubr\xED hace poco y me gust\
   Netbeans. Aunque el proceso es similar para cualquier IDE."
 image: 2015/03/Configurar-el-logger-Log4j2-en-Netbeans1.png
 lastmod: 2016-08-01
-layout: post.amp
+
 mainclass: java
 url: /configurar-log4j2-en-netbeans-un-logger-para-java/
 tags:

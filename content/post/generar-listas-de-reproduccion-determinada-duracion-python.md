@@ -9,7 +9,7 @@ description: "Seguro que t\xFA tamb\xE9n escucas m\xFAsica mientras programas, a
   escuchando m\xFAsica. Este script en python te ayudar\xE1."
 image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
 lastmod: 2016-06-12
-layout: post.amp
+
 mainclass: dev
 url: /generar-listas-de-reproduccion-determinada-duracion-python/
 tags:

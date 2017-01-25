@@ -11,7 +11,7 @@ description: "Hace poco me encontr\xE9 queriendo ordenar una carpeta de fondos d
   por resoluci\xF3n. La respuesta es la siguiente:"
 image: 2012/07/sh.png
 lastmod: 2015-12-24
-layout: post.amp
+
 mainclass: linux
 url: /como-ordenar-imagenes-por-resolucion/
 tags:

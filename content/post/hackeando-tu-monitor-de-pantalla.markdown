@@ -10,7 +10,7 @@ image: Hackeando-Tu-Monitor-De-Pantalla.jpg
 introduction: "Un grupo de investigadores ha conseguido acceder y moficar los p\xEDxeles
   de una pantalla"
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: articulos
 tags:
 - seguridad

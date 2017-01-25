@@ -7,7 +7,7 @@ date: 2016-08-01 09:42:49
 description: Answering business questions with more data in less time.
 image: Getting-Analytics-Right-centered.jpg
 introduction: Answering business questions with more data in less time.
-layout: post.amp
+
 mainclass: misc
 modified: null
 tags: []

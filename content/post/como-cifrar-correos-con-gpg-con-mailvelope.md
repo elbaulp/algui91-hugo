@@ -11,7 +11,7 @@ description: "En estos tiempos en los que est\xE1 claro que estamos sometidos a 
 image: 2013/04/GnuPG-Logo.png
 introduction: "C\xF3mo cifrar correos electr\xF3nicos con gpg y mailvelope"
 lastmod: 2016-08-10
-layout: post.amp
+
 mainclass: articulos
 url: /como-cifrar-correos-con-gpg-con-mailvelope/
 tags:

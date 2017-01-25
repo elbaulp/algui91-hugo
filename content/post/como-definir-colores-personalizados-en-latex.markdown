@@ -7,7 +7,7 @@ description: "En este art\xEDculo veremos c\xF3mo podemos definir colores person
   en LateX usando el paquete xcolor."
 image: latexxcolorbrillantes.png
 lastmod: 2015-12-30
-layout: post.amp
+
 mainclass: latex
 math: true
 tags:

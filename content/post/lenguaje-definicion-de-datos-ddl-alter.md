@@ -5,7 +5,7 @@ categories:
 color: '#009688'
 date: '2016-01-01'
 lastmod: 2016-08-16
-layout: post.amp
+
 mainclass: BaseDeDatos
 url: /lenguaje-definicion-de-datos-ddl-alter/
 tags:

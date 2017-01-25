@@ -9,7 +9,7 @@ description: "Peque\xF1o script en python para a\xF1adir el tama\xF1o a una etiq
 image: ComoAnadirAutomaticamenteElTamanoDeUnaImagenenHTMLConPython.png
 introduction: "Peque\xF1o script en python para a\xF1adir el tama\xF1o a una etiqueta
   img"
-layout: post.amp
+
 mainclass: dev
 tags:
 - python

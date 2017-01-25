@@ -8,7 +8,7 @@ categories:
 color: '#2196F3'
 date: '2016-01-01'
 lastmod: 2016-09-09
-layout: post.amp
+
 mainclass: linux
 url: /como-conocer-el-software-no-libre/
 title: "C\xF3mo conocer el software \u201Cno libre\u201D instalado en nuestro equipo"

@@ -10,7 +10,7 @@ description: "Es posible que a vosotros tambi\xE9n os haya ocurrido. Al realizar
   lento. Buscando un poco encontr\xE9 una posible soluci\xF3n al problema. Ve\xE1mosla:"
 image: hotlink-ok/Por-Que-Se-Cuelga-Linux-Al-Copiar-Ficheros-a-un-Usb.png
 lastmod: 2016-08-06
-layout: post.amp
+
 mainclass: articulos
 tags:
 - usb

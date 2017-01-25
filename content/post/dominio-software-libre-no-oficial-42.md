@@ -6,7 +6,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-08-19
-layout: post.amp
+
 mainclass: articulos
 url: /dominio-software-libre-no-oficial-42/
 title: "Dominio software libre -no oficial- \u201C.42\u2033 disponible"

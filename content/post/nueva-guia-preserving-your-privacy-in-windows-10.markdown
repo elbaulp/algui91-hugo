@@ -9,7 +9,7 @@ description: Learn how to stop Windows 10 from exporting your personal data. Win
   created. Fast and responsive, this software is being continually being refined via
   your user feedback and telemetry.
 image: hotlink-ok/Preserving-Your-Privacy-in-Windows-10.jpg
-layout: post.amp
+
 mainclass: misc
 modified: null
 tags: []

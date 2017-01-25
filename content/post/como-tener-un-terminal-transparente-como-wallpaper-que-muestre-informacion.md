@@ -7,7 +7,7 @@ color: '#2196F3'
 date: '2016-01-01'
 image: 2013/03/xroot-example.jpg
 lastmod: 2016-08-09
-layout: post.amp
+
 mainclass: linux
 url: /como-tener-un-terminal-transparente-como-wallpaper-que-muestre-informacion/
 tags:

@@ -5,7 +5,7 @@ categories:
 - how to
 color: '#689F38'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: android
 url: /ndk-gdb-depurar-aplicaciones-en-el-nkd-de-android/
 tags:

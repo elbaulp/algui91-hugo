@@ -4,7 +4,7 @@ categories:
 - javascript
 color: '#0097A7'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: servidores
 url: /como-configurar-entornos-de-desarrollo-para-aplicaciones-moviles-en-un-servidor-cloud/
 tags:

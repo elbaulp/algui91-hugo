@@ -12,7 +12,7 @@ description: "Las copias de seguridad son algo que debemos tener a buen resguard
   cifrar archivos con openssl."
 image: 2012/11/Apps-preferences-desktop-cryptography-icon1.png
 lastmod: 2016-07-31
-layout: post.amp
+
 mainclass: servidores
 url: /como-cifrar-archivos-con-openssl/
 tags:

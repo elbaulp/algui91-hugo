@@ -11,7 +11,7 @@ description: "Si trabajas habitualmente con LaTeX, est\xE1s acostumbrado a ver m
   de trabaja limpio."
 image: 2013/05/latex_logo.png
 lastmod: 2016-11-06
-layout: post.amp
+
 mainclass: latex
 tags:
 - latex

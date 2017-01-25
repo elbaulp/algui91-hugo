@@ -9,7 +9,7 @@ description: Delve into the world of Linux BASH Programming with this compact co
 image: guides/Linux-BASH-Programming-Cookbook-full.jpg
 introduction: Delve into the world of Linux BASH Programming with this compact cookbook
   that introduces common recipes for the BASH command line!
-layout: post.amp
+
 mainclass: misc
 tags:
 - manuales

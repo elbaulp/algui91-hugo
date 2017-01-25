@@ -11,7 +11,7 @@ description: "La semana pasada, en el Curso de Programaci\xF3n PHP guay, desarro
   desarrollo con garant\xEDas de \xE9xito."
 image: https://img.youtube.com/vi/eYoDqz29qSA/0.jpg
 lastmod: 2015-12-24
-layout: post.amp
+
 mainclass: dev
 url: /como-crear-un-front-controller-en-php/
 tags:

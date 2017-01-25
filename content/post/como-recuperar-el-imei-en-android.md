@@ -10,7 +10,7 @@ description: "\xC9ste art\xEDculo pretende ser una gu\xEDa para todo aquel que h
   el IMEI del tel\xE9fono mediante dos m\xE9todos. Antes de realizar alguno de ellos,
   HAZLO BAJO TU RESPONSABILIDAD."
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: articulos
 url: /como-recuperar-el-imei-en-android/
 tags:

@@ -7,7 +7,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-10-01
-layout: post.amp
+
 mainclass: articulos
 url: /por-que-nuestro-pc-necesita-un-firewall/
 tags:

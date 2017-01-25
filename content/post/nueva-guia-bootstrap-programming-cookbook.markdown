@@ -6,7 +6,7 @@ color: '#61B38D'
 date: 2016-01-04 17:20:11
 description: Kick-start your Bootstrap projects with these hot recipes!
 image: hotlink-ok/Bootstrap-Programming-Cookbook1.jpg
-layout: post.amp
+
 mainclass: misc
 modified: null
 tags: []

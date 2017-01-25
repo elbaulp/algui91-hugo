@@ -7,7 +7,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-09-11
-layout: post.amp
+
 mainclass: articulos
 url: /esnifando-la-red-pruebas-de-seguridad/
 tags:

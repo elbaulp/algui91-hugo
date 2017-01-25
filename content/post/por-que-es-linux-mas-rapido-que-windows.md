@@ -5,7 +5,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2015-12-28
-layout: post.amp
+
 mainclass: articulos
 url: /por-que-es-linux-mas-rapido-que-windows/
 tags:

@@ -4,7 +4,7 @@ categories:
 - video de la semana
 color: '#F57C00'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: articulos
 url: /videos-de-la-semana-time-lapses-y/
 title: "V\xEDdeos de la semana - Time-Lapses y cortos de animaci\xF3n"

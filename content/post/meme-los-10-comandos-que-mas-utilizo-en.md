@@ -5,7 +5,7 @@ categories:
 color: '#2196F3'
 date: '2016-01-01'
 lastmod: 2016-08-30
-layout: post.amp
+
 mainclass: linux
 url: /meme-los-10-comandos-que-mas-utilizo-en/
 title: "Descubre cuales son los 10 comandos que m\xE1s usas en Linux con esta l\xEDnea"

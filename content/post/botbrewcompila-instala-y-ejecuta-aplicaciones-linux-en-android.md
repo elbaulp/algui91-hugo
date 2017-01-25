@@ -10,7 +10,7 @@ description: "Leyendo noticias en mi lector RSS he encontrado un art\xEDculo int
   debian b\xE1sico en el dispostivo."
 image: 2012/12/linux-apps-on-android1.jpg
 lastmod: 2016-08-13
-layout: post.amp
+
 mainclass: articulos
 url: /botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/
 aliases: /programacion/android/botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/

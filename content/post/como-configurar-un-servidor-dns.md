@@ -12,7 +12,7 @@ description: "En esta serie de art\xEDculos, intentar\xE9 explicar lo mejor posi
   de un art\xEDculo en howtoforge."
 image: 2013/04/dns.jpg
 lastmod: 2016-08-01
-layout: post.amp
+
 mainclass: servidores
 url: /como-configurar-un-servidor-dns/
 tags:

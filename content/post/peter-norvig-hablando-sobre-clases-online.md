@@ -9,7 +9,7 @@ format: aside
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: articulos
 url: /peter-norvig-hablando-sobre-clases-online/
 tags:

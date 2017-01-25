@@ -6,7 +6,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-08-14
-layout: post.amp
+
 mainclass: articulos
 url: /los-10-mejores-frameworks-gratis-de-aplicaciones-web/
 tags:

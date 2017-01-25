@@ -6,7 +6,7 @@ categories:
 - seguridad
 color: '#F57C00'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: articulos
 url: /unhide-forensic-tool-encuentra-puertos-y-procesos-ocultos/
 tags:

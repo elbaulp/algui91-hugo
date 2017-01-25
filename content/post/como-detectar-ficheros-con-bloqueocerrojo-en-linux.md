@@ -11,7 +11,7 @@ description: "Este art\xEDculo tiene su origen en una pregunta a la que respond\
   mi respuesta al usuario"
 image: como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg
 lastmod: 2015-12-23
-layout: post.amp
+
 mainclass: linux
 url: /como-detectar-ficheros-con-bloqueocerrojo-en-linux/
 tags:

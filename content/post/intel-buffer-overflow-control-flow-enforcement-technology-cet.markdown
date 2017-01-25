@@ -11,7 +11,7 @@ image: ComoIntelVaaAcabarConLosBuffersOverflowsConControl-FlowEnforcementTechnol
 introduction: "Hace tiempo que hablamos aqu\xED sobre lo que es un Buffer Overflow
   y c\xF3mo aprovecharnos de ellos para tomar control del sistema. Pues bien, Intel
   se propone acabar con este tipo tan com\xFAn de vulnerabilidad en sus nuevos procesadores"
-layout: post.amp
+
 mainclass: security-now
 modified: null
 url: /intel-buffer-overflow-control-flow-enforcement-technology-cet/

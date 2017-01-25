@@ -9,7 +9,7 @@ description: "El destructor es una funci\xF3n especial, que tiene el mismo nombr
   \xFAnico y no tiene argumentos: se puede definir dentro de la clase o fuera de la
   misma."
 lastmod: 2016-09-04
-layout: post.amp
+
 mainclass: dev
 url: /clases-y-objetos-el-destructor/
 title: Clases y Objetos. El Destructor

@@ -8,7 +8,7 @@ description: Essentials of Information Security brings together the latest in in
   coverage of important developments, and expert commentary to help with your Information
   Security related decisions.
 image: /hotlink-ok/The-Essentials-of-Information-Security-Kit.jpg
-layout: post.amp
+
 mainclass: misc
 modified: null
 tags:

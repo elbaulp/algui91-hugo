@@ -5,7 +5,7 @@ categories:
 - opensource
 color: '#689F38'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: android
 url: /programacion-android-interfaz-grafica_18/
 tags:

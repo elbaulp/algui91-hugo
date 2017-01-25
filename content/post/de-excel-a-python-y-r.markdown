@@ -9,7 +9,7 @@ description: "Todo empez\xF3 cuando me mandaron hacer una pr\xE1ctica para la un
 image: chrp1.png
 introduction: "Todo empez\xF3 cuando me mandaron hacer una pr\xE1ctica para la universidad
   en la que ten\xEDa que..."
-layout: post.amp
+
 mainclass: dev
 tags:
 - R

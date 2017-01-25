@@ -10,7 +10,7 @@ color: '#0097A7'
 date: '2016-01-01'
 image: visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia.png
 lastmod: 2016-08-06
-layout: post.amp
+
 mainclass: servidores
 url: /visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia/
 tags:

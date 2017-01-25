@@ -4,7 +4,7 @@ categories:
 - c
 color: '#E64A19'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: dev
 url: /jugando-con-la-seccion-dtors-de-la-tabla-de-secciones-en-c/
 tags:

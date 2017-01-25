@@ -13,7 +13,7 @@ description: "Bueno, como dice el t\xEDtulo de la entrada, voy a hablar sobre lo
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: articulos
 url: /algoritmos-de-ordenacion/
 tags:

@@ -9,7 +9,7 @@ description: "C\xF3mo cambiar el directorio de portage y directorio temporal a o
 image: como-instalar-actualizar-elminar-paquetes-gentoo.png
 introduction: "C\xF3mo cambiar el directorio de portage y directorio temporal a otro
   directorio"
-layout: post.amp
+
 mainclass: linux
 tags:
 - gentoo

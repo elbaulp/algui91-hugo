@@ -5,7 +5,7 @@ categories:
 color: '#009688'
 date: '2016-01-01'
 lastmod: 2016-08-23
-layout: post.amp
+
 mainclass: BaseDeDatos
 url: /introduccion-plsql-transacciones/
 tags:

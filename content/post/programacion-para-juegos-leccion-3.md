@@ -5,7 +5,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-08-19
-layout: post.amp
+
 mainclass: dev
 url: /programacion-para-juegos-leccion-3/
 title: "Programaci\xF3n para Juegos - Lecci\xF3n 3 - Librer\xEDas de SDL"

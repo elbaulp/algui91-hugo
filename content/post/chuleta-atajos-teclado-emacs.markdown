@@ -8,7 +8,7 @@ description: "Emacs: Recopilaci\xF3n de comandos y acciones \xFAtiles"
 image: chuleta-atajos-teclado-emacs.png
 introduction: "Emacs: Recopilaci\xF3n de comandos y acciones \xFAtiles"
 lastmod: 2016-12-06
-layout: post.amp
+
 mainclass: misc
 tags:
 - emacs

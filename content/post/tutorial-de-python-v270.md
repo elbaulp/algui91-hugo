@@ -6,7 +6,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-09-04
-layout: post.amp
+
 mainclass: articulos
 url: /tutorial-de-python-v270/
 tags:

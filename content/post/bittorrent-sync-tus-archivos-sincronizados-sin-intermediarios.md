@@ -9,7 +9,7 @@ description: "Escuchando el programa de radio security now! he descubierto una h
   en todos los dispositivos que desees, sin necesidad de almacenarlos en la nube,
   como es el caso de dropbox por ejemplo. En este art\xEDculo voy a explicar c\xF3mo
   usarlo."
-layout: post.amp
+
 mainclass: articulos
 url: /bittorrent-sync-tus-archivos-sincronizados-sin-intermediarios/
 tags:

@@ -9,7 +9,7 @@ format: aside
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: dev
 url: /como-crear-shortcodes-en-wordpress-2/
 tags:

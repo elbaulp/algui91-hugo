@@ -7,7 +7,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-09-12
-layout: post.amp
+
 mainclass: articulos
 url: /openlibra-la-biblioteca-libre-online/
 title: 'OpenLibra: La Biblioteca Libre Online tal como la esperabas'

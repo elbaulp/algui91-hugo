@@ -7,7 +7,7 @@ date: 2015-10-12 15:18:41
 description: "En este art\xEDculo veremos c\xF3mo descargar, compilar e instalar el
   kernel 4.2 de linux"
 image: Compilar-e-Instalar-El-Kernel-4.2.png
-layout: post.amp
+
 mainclass: dev
 modified: null
 tags:

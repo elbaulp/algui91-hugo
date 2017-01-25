@@ -9,7 +9,7 @@ description: "Este art\xEDculo se basa en las pr\xE1cticas que he hecho para una
   de la Mochila usando las t\xE9cnicas algor\xEDtmicas que ve\xEDamos en la asignatura."
 image: "Comparaci\xF3n de t\xE9cnicas algor\xEDtmicas b\xE1sicas con el problema de
   la Mochila.png"
-layout: post.amp
+
 mainclass: dev
 math: true
 modified: null

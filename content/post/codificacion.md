@@ -9,7 +9,7 @@ description: "Esta es la primera parte del temario que vamos a ver en Sistemas O
   comprenderla, ya que es el lenguaje de los ordenadores, y nos servir\xE1 tambien
   para el tema de redes."
 lastmod: 2016-09-02
-layout: post.amp
+
 mainclass: articulos
 url: /codificacion/
 title: "Codificaci\xF3n"

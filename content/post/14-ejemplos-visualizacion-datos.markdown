@@ -9,7 +9,7 @@ description: "La visualizaci\xF3n de datos no solo tiene como prop\xF3sito el an
   14 ejemplos de las mejores visualizaciones de datos encontrados en internet."
 image: 20-ejemplos-visualizacion-datos-genoma-enfermedades.png
 lastmod: 2016-09-23
-layout: post.amp
+
 mainclass: articulos
 tags:
 - visualizacion datos

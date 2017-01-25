@@ -13,7 +13,7 @@ description: "Hace poco vimos en un art\xEDculo c\xF3mo Sincronizar Google Drive
   cambios parece que soluciona los problemas."
 image: 2013/11/google-drive-linux3.jpg
 lastmod: 2016-08-09
-layout: post.amp
+
 mainclass: linux
 url: /sincronizar-google-drive-en-linux-en-4-pasos-actualizacion/
 tags:

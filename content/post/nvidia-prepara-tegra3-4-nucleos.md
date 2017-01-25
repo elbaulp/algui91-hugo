@@ -5,7 +5,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-08-24
-layout: post.amp
+
 mainclass: articulos
 url: /nvidia-prepara-tegra3-4-nucleos/
 title: "NVIDIA prepara Tegra3, 4 n\xFAcleos"

@@ -16,7 +16,7 @@ description: "Hace tiempo que habl\xE9 de Xmonad, y hasta hace poco ha sido mi g
   y r\xE1pido. En este art\xEDculo veremos c\xF3mo instalar y configurar DWM."
 image: "2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-m\xE1s-eficiente1.png"
 lastmod: 2015-12-24
-layout: post.amp
+
 mainclass: dev
 url: /instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente/
 tags:

@@ -6,7 +6,7 @@ categories:
 color: '#2196F3'
 date: '2016-01-01'
 lastmod: 2016-08-11
-layout: post.amp
+
 mainclass: linux
 url: /netstat-analizando-la-red-y-detectando-problemas/
 aliases: /articulos/netstat-analizando-la-red-y-detectando-problemas/

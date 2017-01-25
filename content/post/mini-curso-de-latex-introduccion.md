@@ -10,7 +10,7 @@ description: "En este tutorial, curso o como quer\xE1is llamarlo os voy a ense\x
   inform\xE1tica."
 image: 2013/05/latex_logo.png
 lastmod: 2015-12-22
-layout: post.amp
+
 mainclass: latex
 url: /mini-curso-de-latex-introduccion/
 tags:

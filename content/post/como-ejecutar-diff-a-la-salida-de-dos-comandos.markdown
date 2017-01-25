@@ -9,7 +9,7 @@ description: "Recientemente necesit\xE9 ejecutar el comando `diff` sobre la sali
   los que se quiere mostrar las diferencias, pero yo buscaba hacer un `diff` a la
   salida de dos comandos, no dos ficheros."
 image: Como-Ejecutar-Diff-a-La-Salida-De-Dos-Comandos.png
-layout: post.amp
+
 mainclass: dev
 tags:
 - comando diff

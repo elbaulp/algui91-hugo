@@ -12,7 +12,7 @@ description: "Reconozca un patr\xF3n de gestos sobre pantalla de vuestra elecci\
   son similares a los que se realizan con la pantalla de bloqueo Android, cuanto m\xE1s
   complejo sea el que se detecta mejor puntuaci\xF3n tendr\xE1."
 image: npi/drawingPatter.png
-layout: post.amp
+
 mainclass: java
 modified: null
 tags:

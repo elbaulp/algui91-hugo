@@ -6,7 +6,7 @@ date: 2015-12-14 07:53:53
 description: "En este primer art\xEDculo veremos los conceptos fundamentales que componen
   una aplicaci\xF3n Android."
 image: hotlink-ok/activityLifecycle.png
-layout: post.amp
+
 mainclass: android
 modified: null
 tags:

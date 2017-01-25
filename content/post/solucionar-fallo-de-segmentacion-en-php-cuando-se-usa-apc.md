@@ -5,7 +5,7 @@ categories:
 - linux
 color: '#0097A7'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: servidores
 url: /solucionar-fallo-de-segmentacion-en-php-cuando-se-usa-apc/
 tags:

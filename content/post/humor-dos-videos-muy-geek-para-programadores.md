@@ -6,7 +6,7 @@ categories:
 color: '#262626'
 date: '2016-01-01'
 format: video
-layout: post.amp
+
 mainclass: geek
 url: /humor-dos-videos-muy-geek-para-programadores/
 tags:

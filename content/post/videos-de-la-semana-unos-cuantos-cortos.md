@@ -4,7 +4,7 @@ categories:
 - video de la semana
 color: '#F57C00'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: articulos
 url: /videos-de-la-semana-unos-cuantos-cortos/
 title: "V\xEDdeos de la semana: Unos cuantos cortos y un time-lapse"

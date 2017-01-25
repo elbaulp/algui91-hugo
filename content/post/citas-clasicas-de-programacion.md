@@ -5,7 +5,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-08-31
-layout: post.amp
+
 mainclass: articulos
 url: /citas-clasicas-de-programacion/
 title: "22 Citas cl\xE1sicas de programaci\xF3n"

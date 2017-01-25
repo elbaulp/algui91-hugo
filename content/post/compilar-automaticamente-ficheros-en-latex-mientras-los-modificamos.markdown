@@ -9,7 +9,7 @@ description: "Para los que est\xE9is acostumbrados a escribir vuestros documento
   tedioso compilar cada vez que queremos ver el resultado. Hace poco, descubr\xED
   un comando, latexmk, que nos facilitar\xE1 bastante la vida."
 image: 2013/05/latex_logo.png
-layout: post.amp
+
 mainclass: latex
 math: true
 modified: null

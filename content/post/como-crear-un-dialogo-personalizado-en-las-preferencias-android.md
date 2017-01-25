@@ -10,7 +10,7 @@ description: "Este a\xF1o estoy participando en el concurso universitario de sof
   art\xEDculo comienza un historial que llevar\xE1 cuenta de todos los avances logrados."
 image: 2014/01/CrearDialogoAndroid.png
 lastmod: 2015-12-28
-layout: post.amp
+
 mainclass: android
 url: /como-crear-un-dialogo-personalizado-en-las-preferencias-android/
 tags:

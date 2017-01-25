@@ -9,7 +9,7 @@ description: "En ocasiones, es necesario tener una funci\xF3n a la que podamos p
   hacerlo en C/C++."
 image: 2013/11/cpp.png
 lastmod: 2016-08-19
-layout: post.amp
+
 mainclass: dev
 url: /parametros-variables-en-cc/
 tags:

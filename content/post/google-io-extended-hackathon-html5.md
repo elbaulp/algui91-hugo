@@ -10,7 +10,7 @@ format: status
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: articulos
 url: /google-io-extended-hackathon-html5/
 tags:

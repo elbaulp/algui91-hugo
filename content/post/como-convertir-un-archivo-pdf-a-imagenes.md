@@ -12,7 +12,7 @@ description: "El otro d\xEDa me hac\xEDa falta convertir cada una de las p\xE1gi
 if_slider_image:
 - null
 - null
-layout: post.amp
+
 mainclass: linux
 url: /como-convertir-un-archivo-pdf-a-imagenes/
 tags:

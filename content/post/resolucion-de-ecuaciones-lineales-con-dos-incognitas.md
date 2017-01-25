@@ -10,7 +10,7 @@ description: "Una ecuaci\xF3n no es m\xE1s que una igualdad en la que hay cantid
   inc\xF3gnitas cuando satisfacen la igualdad. Un sistema de ecuaciones es la reuni\xF3n
   de 2 o mas ecuaciones con 2 o m\xE1s inc\xF3gnitas. As\xED:"
 lastmod: 2015-12-28
-layout: post.amp
+
 mainclass: dev
 math: true
 url: /como-resolver-sistemas-de-ecuaciones-lineales-con-dos-incognitas/

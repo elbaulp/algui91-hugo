@@ -11,7 +11,7 @@ description: "El 25 de Junio de 2013, publiqu\xE9 un art\xEDculo para anunciando
   al fin est\xE1 aqu\xED, a mi parecer el m\xE1s apropiado para el blog. Y no por
   el logo en s\xED, si no por la historia que esconde tr\xE1s de \xE9l."
 image: logo.png
-layout: post.amp
+
 mainclass: misc
 modified: null
 tags: []

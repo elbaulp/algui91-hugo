@@ -7,7 +7,7 @@ date: 2016-05-27 10:08:44
 description: Delve into the world of Spring Data Programming with this compact cookbook
   that introduces common recipes for the Spring Data framework!
 image: Apache-Hadoop-Cookbook2.jpg
-layout: post.amp
+
 mainclass: misc
 tags:
 - guias gratuitas de hadoop

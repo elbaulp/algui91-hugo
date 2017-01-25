@@ -10,7 +10,7 @@ description: "Trabajando en el proyecto SWADroid \t(Fuente en Github), y tras pa
   automatizar el proceso, y de hecho, ex\xEDste, Android Resource Remover. Hoy veremos
   c\xF3mo usar \xE9sta herramienta para eliminar recursos sin usar en Android."
 lastmod: 2015-12-24
-layout: post.amp
+
 mainclass: android
 url: /eliminar-recursos-sin-usar-en-android/
 tags:

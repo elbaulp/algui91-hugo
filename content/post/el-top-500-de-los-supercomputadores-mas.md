@@ -5,7 +5,7 @@ categories:
 - internet
 color: '#F57C00'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: articulos
 url: /el-top-500-de-los-supercomputadores-mas/
 tags:

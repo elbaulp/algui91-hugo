@@ -6,7 +6,7 @@ color: '#689F38'
 date: 2015-06-30 16:48:42
 description: "C\xF3mo solucionar un ListView no capturando el foco cuando est\xE1
   dentro de un ScrollView"
-layout: post.amp
+
 mainclass: android
 tags:
 - android

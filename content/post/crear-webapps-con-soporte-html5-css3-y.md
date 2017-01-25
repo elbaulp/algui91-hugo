@@ -6,7 +6,7 @@ categories:
 - internet
 color: '#E64A19'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: dev
 url: /crear-webapps-con-soporte-html5-css3-y/
 title: Crear WebApps con soporte HTML5, CSS3 y JavaScript con el LungoJs framework

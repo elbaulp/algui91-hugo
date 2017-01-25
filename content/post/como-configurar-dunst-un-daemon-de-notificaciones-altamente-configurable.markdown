@@ -7,7 +7,7 @@ date: 2015-06-29 16:43:06
 description: "Hoy quiero hablaros de dunst, un demonio de notificaciones que me instal\xE9
   hace poco, y que se integra muy bien con DWM."
 image: Como-Configurar-Dunst,-un-daemon-de-notificaciones-altamente-configurable.png
-layout: post.amp
+
 mainclass: articulos
 modified: null
 tags:

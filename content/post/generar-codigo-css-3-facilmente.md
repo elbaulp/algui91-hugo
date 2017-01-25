@@ -6,7 +6,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-09-05
-layout: post.amp
+
 mainclass: dev
 url: /generar-codigo-css-3-facilmente/
 title: "Generar c\xF3digo CSS 3 f\xE1cilmente"

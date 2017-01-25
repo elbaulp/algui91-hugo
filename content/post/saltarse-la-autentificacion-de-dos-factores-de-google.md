@@ -6,7 +6,7 @@ categories:
 - noticias
 color: '#F57C00'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: articulos
 url: /saltarse-la-autentificacion-de-dos-factores-de-google/
 tags:

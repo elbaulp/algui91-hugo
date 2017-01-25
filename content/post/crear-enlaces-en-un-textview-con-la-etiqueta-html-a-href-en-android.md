@@ -9,7 +9,7 @@ description: "Para una aplicaci\xF3n que estoy haciendo, me hac\xEDa falta ser c
   webs con la etiqueta &lt;a href=\u201D\u201D&gt;&lt;/a&gt;."
 image: 2013/05/setMovementMethod-example.png
 lastmod: 2016-08-05
-layout: post.amp
+
 mainclass: android
 url: /crear-enlaces-en-un-textview-con-la-etiqueta-html-a-href-en-android/
 tags:

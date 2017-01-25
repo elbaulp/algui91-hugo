@@ -7,7 +7,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 format: gallery
-layout: post.amp
+
 mainclass: articulos
 url: /cartel-del-google-io-extended-granada-organizado-por-el-gdg-granada/
 tags:

@@ -13,7 +13,7 @@ description: "Hace tiempo, cuando migramos de blogger a WordPress escribimos un 
   cambio."
 image: 2014/01/Sustituir-los-enlaces-de-blogger-por-los-de-Wordpress-al-migrar-de-plataforma1.png
 lastmod: 2015-12-28
-layout: post.amp
+
 mainclass: articulos
 url: /sustituir-los-enlaces-de-blogger-por-los-de-wordpress-al-migrar-de-plataforma/
 tags:

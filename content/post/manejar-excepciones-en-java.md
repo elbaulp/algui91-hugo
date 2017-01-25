@@ -10,7 +10,7 @@ description: "En este art\xEDculo veremos un poco sobre el manejo de excepciones
   cual podremos controlarlas y capturarlas para poder tratar con ellas e indicar lo
   que se tiene que hacer."
 lastmod: 2015-12-24
-layout: post.amp
+
 mainclass: java
 url: /manejar-excepciones-en-java/
 tags:

@@ -12,7 +12,7 @@ description: "Enunciado: se debe identificar mediante interfaz vocal un punto ca
   el patr\xF3n vocal se debe mostrar una br\xFAjula para que el usuario se oriente
   en la direcci\xF3n indicada, cuando lo realice se le debe indicar que ya se ha conseguido."
 image: hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png
-layout: post.amp
+
 mainclass: java
 modified: null
 tags:

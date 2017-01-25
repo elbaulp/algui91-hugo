@@ -9,7 +9,7 @@ date: 2015-12-16 14:51:46
 description: "Video de C\xF3mo visualizar la evoluci\xF3n de un repositorio git con
   el comando gource."
 image: Gource-Evolucion-del-blog-desde-el-punto-de-vista-de-Git.png
-layout: post.amp
+
 mainclass: articulos
 modified: null
 tags:

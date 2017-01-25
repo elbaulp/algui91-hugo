@@ -6,7 +6,7 @@ categories:
 color: '#61B38D'
 date: '2016-01-01'
 lastmod: 2016-10-28
-layout: post.amp
+
 mainclass: misc
 url: /nueva-guia-how-internet-works/
 title: "Nueva gu\xEDa: How the internet works"

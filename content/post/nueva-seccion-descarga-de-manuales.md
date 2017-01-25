@@ -9,7 +9,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-09-12
-layout: post.amp
+
 mainclass: articulos
 url: /nueva-seccion-descarga-de-manuales/
 title: "Nueva secci\xF3n: Descarga de Manuales gratuitos"

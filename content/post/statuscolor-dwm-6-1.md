@@ -9,7 +9,7 @@ description: "D\xEDas atr\xE1s hablamos sobre DWM y qued\xF3 pendiente explicar 
   parche Simple StatusColor en DWM 6.1, que escrib\xED hace poco."
 image: 2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png
 lastmod: 2015-12-24
-layout: post.amp
+
 mainclass: dev
 url: /statuscolor-dwm-6-1/
 tags:

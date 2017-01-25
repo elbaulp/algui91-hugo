@@ -10,7 +10,7 @@ description: "Hace tiempo me encontr\xE9 con el problema de tener que construir 
   era el siguiente"
 image: python-lista-de-listas-eficiente.png
 lastmod: 2016-08-09
-layout: post.amp
+
 mainclass: dev
 modified: null
 tags:

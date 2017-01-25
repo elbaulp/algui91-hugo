@@ -13,7 +13,7 @@ description: "Hoy quiero hablar de algo que llevo usando desde hace ya mucho tie
   instalando el primero, \u201CRainbow bash\u201D"
 image: Mostrar-Informacion-De-Un-Repositorio-Git-en-El-Prompt-De-Bash.jpg
 lastmod: 2016-05-24
-layout: post.amp
+
 mainclass: dev
 tags:
 - modificar el Prompt de bash

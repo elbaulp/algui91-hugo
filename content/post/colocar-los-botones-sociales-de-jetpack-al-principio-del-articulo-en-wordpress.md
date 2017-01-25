@@ -10,7 +10,7 @@ description: "A d\xEDa de hoy, el famoso plugin para wordpress jetpack no soport
   As\xED que buscando un poco por la red encontr\xE9 una forma de hacerlo en el foro
   de WordPress que menciono en las referencias y que veremos a continuaci\xF3n."
 image: 2013/06/jetpack-300x222.png
-layout: post.amp
+
 mainclass: dev
 url: /colocar-los-botones-sociales-de-jetpack-al-principio-del-articulo-en-wordpress/
 tags:

@@ -9,7 +9,7 @@ description: Delve into the world of Android Programming with this compact cookb
 image: guides/Android-Programming-Cookbook-centered.jpg
 introduction: Delve into the world of Android Programming with this compact cookbook
   that introduces common recipes for the Android platform!
-layout: post.amp
+
 mainclass: misc
 tags:
 - manuales

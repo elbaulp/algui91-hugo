@@ -6,7 +6,7 @@ color: '#689F38'
 date: 2016-10-22 06:03:57
 description: "El curso de Android del blog, ahora para descargar de forma gratu\xEDta"
 introduction: "El curso de Android del blog, ahora para descargar de forma gratu\xEDta"
-layout: post.amp
+
 mainclass: android
 title: Liberado El Curso De Android
 ---

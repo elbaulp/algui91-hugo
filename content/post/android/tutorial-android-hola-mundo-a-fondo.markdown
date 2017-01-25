@@ -10,7 +10,7 @@ description: "En el art\xEDculo anterior se dieron unas nociones b\xE1sicas de A
   muy simple. Se componone de dos pantallas, en una de ellas se pide al usuario que
   introduzca un texto, dicho texto se enviar\xE1 a otra pantalla."
 image: android/layouthelloworldandroid.png
-layout: post.amp
+
 mainclass: android
 modified: null
 tags:

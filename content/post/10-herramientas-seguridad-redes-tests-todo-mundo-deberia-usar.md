@@ -5,7 +5,7 @@ categories:
 - seguridad
 color: '#61B38D'
 date: '2016-01-01'
-layout: post.amp
+
 mainclass: misc
 url: /10-herramientas-seguridad-redes-tests-todo-mundo-deberia-usar/
 tags:

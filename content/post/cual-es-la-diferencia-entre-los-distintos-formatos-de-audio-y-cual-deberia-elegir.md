@@ -9,7 +9,7 @@ description: "Hay tantos formatos de sonido que podemos hacernos un l\xEDo a la 
   a los distintos formatos existentes:"
 image: 2012/07/original1.jpg
 lastmod: 2016-08-10
-layout: post.amp
+
 mainclass: articulos
 url: /cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir/
 tags:

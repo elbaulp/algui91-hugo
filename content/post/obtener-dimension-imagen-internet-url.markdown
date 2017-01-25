@@ -9,7 +9,7 @@ description: "C\xF3mo obtener el ancho y alto de una imagen que est\xE1 en inter
 image: obtener-dimension-imagen-internet-url.png
 introduction: "C\xF3mo obtener el ancho y alto de una imagen que est\xE1 en internet
   desde l\xEDnea de comandos"
-layout: post.amp
+
 mainclass: linux
 tags:
 - imagenes

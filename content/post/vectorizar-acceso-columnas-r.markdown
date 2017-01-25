@@ -8,7 +8,7 @@ description: "En unas pr\xE1cticas de Aprendizaje autom\xE1tico para la facultad
   las que usamos R. Me surgi\xF3 un problema intentando vectorizar el acceso a un
   Data set por columnas, as\xED que pregunt\xE9 en StackOVerflow."
 image: vectorizar-acceso-columnas-r.png
-layout: post.amp
+
 mainclass: dev
 modified: null
 tags:

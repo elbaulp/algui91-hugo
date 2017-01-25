@@ -5,7 +5,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 lastmod: 2016-08-17
-layout: post.amp
+
 mainclass: dev
 url: /por-que-un-switch-es-mas-rapido-que-su-homologo-if-then-else/
 tags:

@@ -8,7 +8,7 @@ color: '#61B38D'
 date: '2016-01-01'
 format: status
 lastmod: 2016-08-05
-layout: post.amp
+
 mainclass: misc
 url: /nuevos-cursos-disponibles-en-udacity-la-universidad-online-gratuita/
 tags:

@@ -6,7 +6,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-08-06
-layout: post.amp
+
 mainclass: articulos
 url: /programando-videojuegos-en-python/
 title: Programando Videojuegos en Python

@@ -9,7 +9,7 @@ description: "El siguiente art\xEDculo es una traducci\xF3n de una pregunta en s
   se puede solucionar?. La respuesta es del usuario vincent-ramdhanie"
 image: "2014/05/Qu\xE9-es-un-NullPointerException-y-c\xF3mo-solucionarlo.png"
 lastmod: 2016-04-06
-layout: post.amp
+
 mainclass: java
 url: /que-es-un-nullpointerexception-y-como-solucionarlo/
 tags:

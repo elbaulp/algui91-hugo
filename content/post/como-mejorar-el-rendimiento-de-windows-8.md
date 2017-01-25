@@ -6,7 +6,7 @@ color: '#F57C00'
 date: '2016-01-01'
 image: 2013/02/Windows8problem.jpg
 lastmod: 2016-08-10
-layout: post.amp
+
 mainclass: articulos
 url: /como-mejorar-el-rendimiento-de-windows-8/
 tags:

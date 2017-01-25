@@ -10,7 +10,7 @@ description: "Hace tiempo que habl\xE9 de c\xF3mo crear un adapter simple, y otr
   un adapter desde cero, con algunas funcionalidades m\xE1s."
 image: 2012/09/principal1.png
 lastmod: 2016-08-10
-layout: post.amp
+
 mainclass: android
 url: /adapter-personalizado-en-android/
 aliases: /how-to/adapter-personalizado-en-android/

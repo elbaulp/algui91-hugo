@@ -8,7 +8,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-10-04
-layout: post.amp
+
 mainclass: articulos
 url: /chema-alonso-hablando-de-la-inseguridad/
 title: "Chema Alonso hablando de la inseguridad de las v\xEDas telem\xE1ticas"

@@ -9,7 +9,7 @@ description: "Tras haber terminado nuestra secci\xF3n del an\xE1lisis de la efic
   Para ello, vamos a usar dos herramientas..."
 image: 2013/05/latex_logo.png
 lastmod: 2015-12-22
-layout: post.amp
+
 mainclass: latex
 url: /curso-de-latex-figuras-enlaces-y-cabeceras/
 tags:

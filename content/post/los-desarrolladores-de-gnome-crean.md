@@ -7,7 +7,7 @@ categories:
 color: '#2196F3'
 date: '2016-01-01'
 lastmod: 2016-10-04
-layout: post.amp
+
 mainclass: linux
 url: /los-desarrolladores-de-gnome-crean/
 title: "Los desarrolladores de GNOME crean \u201CBoxes\u201D para la virtualizaci\xF3n"

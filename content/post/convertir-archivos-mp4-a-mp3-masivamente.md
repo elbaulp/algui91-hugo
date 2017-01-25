@@ -10,7 +10,7 @@ if_slider_image:
 - null
 - null
 - null
-layout: post.amp
+
 mainclass: linux
 url: /convertir-archivos-mp4-a-mp3-masivamente/
 tags:

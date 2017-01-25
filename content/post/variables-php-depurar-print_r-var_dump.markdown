@@ -9,7 +9,7 @@ description: "Desarrollando una p\xE1gina en PHP para una asignatura de la facul
   En concreto quer\xEDa mostrar todas las variables definidas, pero podr\xEDamos mostrar
   cualquier variable. El comando en cuesti\xF3n es"
 image: como-mostrar-variables-php-depurar-print_r-var_dump.png
-layout: post.amp
+
 mainclass: dev
 tags:
 - depurar en php

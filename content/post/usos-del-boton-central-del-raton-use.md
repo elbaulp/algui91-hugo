@@ -5,7 +5,7 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 lastmod: 2016-08-15
-layout: post.amp
+
 mainclass: articulos
 url: /usos-del-boton-central-del-raton-use/
 title: "Usos del bot\xF3n central del rat\xF3n"

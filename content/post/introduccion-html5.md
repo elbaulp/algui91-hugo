@@ -10,7 +10,7 @@ description: "Con este primer art\xEDculo de introducci\xF3n a HTML5, presentamo
   art\xEDculo Ejemplos en HTML5: Almacenamiento Web, SQL y WebSocket."
 image: "2013/11/Introducci\xF3n-a-HTML51.png"
 lastmod: 2015-12-30
-layout: post.amp
+
 mainclass: dev
 url: /introduccion-html5/
 tags:

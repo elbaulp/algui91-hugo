@@ -11,7 +11,7 @@ description: "Hace unos d\xEDas, visitando la web makeuseof me apareci\xF3 un me
   quien no lo sepa). Y de una manera muy educada suger\xEDan que se desabilitara para
   apoyar la web y as\xED poder seguir ofreciendo contenido libre de costo."
 lastmod: 2016-02-07
-layout: post.amp
+
 mainclass: articulos
 url: /como-saber-si-tus-visitantes-usan-ad-block/
 tags:

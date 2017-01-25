@@ -9,7 +9,7 @@ description: "En linux, existe un comando llamado locate que busca archivos en n
   su man es:"
 image: 2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.png
 lastmod: 2016-08-26
-layout: post.amp
+
 mainclass: linux
 url: /buscar-archivos-con-locate-mediante-expresiones-regulares-complejas/
 tags:

@@ -11,7 +11,7 @@ description: "En sistemas operativos como Debian, muchos de los programas y demo
   Pueden usarse programas como mutt para administrar los mensajes. Sin embargo, considero
   m\xE1s organizado redireccionar todos los mensajes a una cuenta de correo t\xEDpica."
 lastmod: 2016-08-10
-layout: post.amp
+
 mainclass: servidores
 url: /como-enviar-los-emails-de-varmailroot-una-cuenta-de-correo/
 tags:
