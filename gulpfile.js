@@ -8,6 +8,7 @@ var env         = require('minimist')(process.argv.slice(2)),
     prefixer    = require('autoprefixer-stylus'),
     imagemin    = require('gulp-imagemin'),
     newer       = require('gulp-newer'),
+    changed     = require('gulp-changed'),
     rename      = require('gulp-rename'),
     htmlmin     = require('gulp-htmlmin')
     purify      = require('gulp-purifycss');
@@ -32,7 +33,7 @@ gulp.task('stylus', function(){
  */
 gulp.task('minify-html', () => {
     return gulp.src('public/**/*.html')
-        .pipe(newer('./public'))
+        .pipe(changed('./public', {hasChanged: changed.compareSha1Digest}))
         .pipe(htmlmin({
             collapseWhitespace: true,
             minifyCSS: true,
