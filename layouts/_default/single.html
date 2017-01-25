@@ -17,7 +17,7 @@
     {{ with .Params.tags }}
        <div class="tags">
          <strong>{{ T "post_tags" }}</strong>
-            {{ range first 3 (sort .) }}
+            {{ range . }}
                <a href="{{ "/tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a>
             {{ end }}
        </div>
