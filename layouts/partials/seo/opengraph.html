@@ -41,5 +41,6 @@
 <link rel="shortcut icon" href="{{.Site.BaseURL}}/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="{{.Site.BaseURL}}/favicon.png" type="image/x-icon" />
 
-<link href="{{ .RSSLink | relLangURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} | {{ .Params.categories }}" />
+{{ if .RSSLink }}
 <link href="{{ .RSSLink | relLangURL }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
