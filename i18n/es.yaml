@@ -6,6 +6,8 @@
   translation: "Añádenos a la “Lista blanca” de tu bloqueador de anuncios"
 - id: ads_amz
   translation: "Usa nuestro enlace de Ámazon"
+- id: ads_amz_link
+  translation: "https://www.amazon.es/?&tag=bmab-21&camp=4586&creative=670922&linkCode=ur1&adid=01FEFB5JJ9GNJJX2T2CR&"
 - id: ads_guide
   translation: "Descarga una guía gratuita que te interese (Nos donarás $1.5 si la rellenas con datos reales ej: en que sector trabajas etc)"
 - id: ads_patreon

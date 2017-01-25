@@ -6,6 +6,8 @@
   translation: "“Whitlist” us in your ad blocker"
 - id: ads_amz
   translation: "Use our amazon link"
+- id: ads_amz_link
+  translation: "https://www.amazon.com/?&_encoding=UTF8&tag=elbauldelpro-20&linkCode=ur2&linkId=e6433bf2e98871a88a484ff872e3dbe9&camp=1789&creative=9325"
 - id: ads_guide
   translation: "Download one of our free EBooks"
 - id: ads_patreon
