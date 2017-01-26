@@ -4,6 +4,7 @@ categories:
 - articulos
 color: '#F57C00'
 date: 2016-12-03 10:40:33
+lastmod: 2017-01-26
 description: "Tras escuchar a varios lectores, ahora es posible leer los art\xEDculos
   completos desde los lectores RSS"
 introduction: "Tras escuchar a varios lectores, ahora es posible leer los art\xEDculos
@@ -16,16 +17,10 @@ title: Los RSS Del Blog Ahora Muestran El Contenido Completo
 
 Si aún no lo sabías, es posible suscribirse a cada una de las categorías de blog independientemente, o al feed completo. Aquí dejo la lista:
 
-- El feed principal, con el que recibirás todas las publicaciones es **<a href="/feed" target="_blank">/feed</a>**.
-- En **<a href="/feed-articulos" target="_blank">/feed-articulos</a>** se publican artículos en general, traducciones de notícias etc.
-- En __<a href="/feed-security-now" target="_blank" title="Feed security now">/security-now</a>__ se publican algunas traducciones del programa de radio <a href="http://twit.tv/sn">Security Now!</a>.
-- En __<a href="/feed-android" target="_blank" title="Feed Android">/feed-android</a>__ artículos y cursos relacionados con Android.
-- En __<a href="/feed-dev" target="_blank" title="Feed dev">/feed-dev</a>__ todo lo que tenga que ver con desarrollo de aplicaciones, lenguajes de programación etc.
-- En __<a href="/feed-geek" target="_blank" title="Feed Geek">/feed-geek</a>__ cosas para geeks.
-- En __<a href="/feed-java" target="_blank" title="Feed Java">/feed-java</a>__ tutoriales y artículos sobre Java.
-- En __<a href="/feed-latex" target="_blank" title="Feed LaTeX">/feed-latex</a>__ artículos y tutoriales sobre LaTeX.
-- En __<a href="/feed-linux" target="_blank" title="Feed Linux">/feed-linux</a>__ artículos y tutoriales sobre Linux.
-- En __<a href="/feed-misc" target="_blank" title="Feed Misc">/feed-misc</a>__ se publican todas las [guías gratuítas](/manuales-gratuitos/).
+El blog tiene tantos feeds como _categorías/etiquetas_ además del feed principal. Esto quiere decir:
 
+- El feed principal, con el que recibirás todas las publicaciones es **<a type="application/rss+xml" href="/index.xml" target="_blank">/index.xml</a>**.
+- Para cada _categoría/etiqueta_ se crea un feed, por ejemplo, en __[/categories/security-now/](/categories/security-now/)__ existe el feed __[/categories/security-now/index.xml](/categories/security-now/index.xml)__, en el cual se publicarán únicamente los artículos de la categoría _Security Now!_.
+- De igual manera ocurre con las etiquetas, para suscribirse al RSS de una etiqueta, por ejemplo __[/tags/gentoo/](/tags/gentoo/)__ el feed correspondiente es __[/tags/gentoo/index.xml](/tags/gentoo/index.xml)__.
 
 <!--more--><!--ad-->
