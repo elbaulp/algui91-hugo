@@ -7,7 +7,6 @@ mainclass = "dev"
 author = "alex"
 date = "2017-01-26"
 title = "How to parse frontmatter with python"
-draft = true
 +++
 
 Recently I've updated my blog from _jekyll_ to _Hugo_. The process was easy enough, but I did have to change some things in the _frontmatter_ of the content.

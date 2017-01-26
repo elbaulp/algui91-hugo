@@ -7,7 +7,6 @@ mainclass = "dev"
 author = "alex"
 date = "2017-01-26"
 title = "Cómo parsear el frontmatter con Python"
-draft = true
 +++
 
 Hace poco he migrado el blog de _Jekyll_ a _Hugo_. El proceso ha sido fácil, pero he tenido que cambiar varias cosas en el _frontmatter_ de los artículos.
