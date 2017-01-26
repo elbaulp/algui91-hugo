@@ -1,7 +1,7 @@
 +++
 description = "Cómo parsear y modificar el contenido del frontmatter con python-frontmatter"
 tags = ["python", "frontmatter"]
-categories = ["dev", "python"]
+categories = ["dev", "python", "parser"]
 image = "Learn-how-to-parse-and-modify-frontmatter-content-with-Python-Frontmatter.png"
 mainclass = "dev"
 author = "alex"
