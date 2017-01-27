@@ -2,7 +2,7 @@
   <div class="content">
     <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}" class="date">{{ .Lastmod.Format ( .Site.Params.dateformat | default "Jan 2, 2006") }}</time>
     <h1 class="post-title">{{ .Title }}</h1>
-    <p class="subtitle">{{ .Params.description | markdownify }}</p>
+    <p class="subtitle">{{ with .Params.description }} {{ . |  markdownify }}{{ end }}</p>
     {{ if .IsTranslated }}
     <p>
       {{ T "also_available" }}:
