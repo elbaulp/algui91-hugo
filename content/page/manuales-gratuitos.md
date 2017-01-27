@@ -24,6 +24,7 @@ aliases:
   - /nueva-guia-50-buenos-usos-para-los-live/
   - /nueva-guia-think-different-how-to-build/
   - /nueva-guia-ubuntu-absolute-beginners/
+  - /10-herramientas-seguridad-redes-tests-todo-mundo-deberia-usar/
 ---
 
 <div class="post-content">

@@ -2,7 +2,6 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
 description: "Android es uno de los sistemas operativos m\xE1s abiertos, vers\xE1til
   y personalizable del mercado. Quiz\xE1 pienses que no es necesario rootearlo, pero
@@ -11,7 +10,6 @@ description: "Android es uno de los sistemas operativos m\xE1s abiertos, vers\xE
   (Traducidas de LifeHacker)."
 image: 2013/08/ku-bigpic.jpg
 lastmod: 2016-08-10
-
 mainclass: articulos
 url: /10-razones-para-rootear-tu-telefono-android/
 tags:
@@ -27,8 +25,6 @@ title: "10 razones para rootear tu tel\xE9fono Android"
 </figure>
 
 [Android][1] es uno de los sistemas operativos más abiertos, versátil y personalizable del mercado. Quizá pienses que no es necesario [rootearlo][2], pero te sorprenderías de la cantidad de cosas que se pueden hacer con un teléfono Android rooteado. A continuación se listan 10 razones por las que merece la pena (Traducidas de *LifeHacker*):
-
-
 
 # 10. Desbloquear características ocultas e instalar aplicaciones “incompatibles”
 
@@ -76,7 +72,9 @@ Cuando obtenemos un nuevo dispositivo Android &#8212; o lo restauramos a como vi
 
 <figure>
    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Eliminar aplicaciones preinstaladas" src="/img/2013/08/ku-xlarge4.jpg" width="640px" height="360px"></amp-img>
-</figure>**Titanum Backup** sirve para más cosas además de realizar copias de seguridad. También puede des-instalar todas esas aplicaciones que vienen instaladas por defecto en el teléfono y que no solemos usar. Antes de des-instalar nada, es recomendable congelar la aplicación y ver si todo sigue funcionando, de ser así, es seguro des-instalarla. *Personalmente llevo usando bastante tiempo una aplicación llamada <a title="Gemini App Manager" href="https://play.google.com/store/apps/details?id=com.seasmind.android.gmappmgr" target="_blank">Gemini App Manager</a>, la cual dispone de esta funcionalidad, entre otras muchas.*
+</figure>
+
+**Titanum Backup** sirve para más cosas además de realizar copias de seguridad. También puede des-instalar todas esas aplicaciones que vienen instaladas por defecto en el teléfono y que no solemos usar. Antes de des-instalar nada, es recomendable congelar la aplicación y ver si todo sigue funcionando, de ser así, es seguro des-instalarla. *Personalmente llevo usando bastante tiempo una aplicación llamada <a title="Gemini App Manager" href="https://play.google.com/store/apps/details?id=com.seasmind.android.gmappmgr" target="_blank">Gemini App Manager</a>, la cual dispone de esta funcionalidad, entre otras muchas.*
 
 # 4. Personalizar Android por completo
 

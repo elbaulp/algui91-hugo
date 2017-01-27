@@ -2,7 +2,6 @@
 author: alex
 categories:
 - misc
-color: null
 date: 2016-10-04 06:57:02
 description: "There are many good reasons to upgrade your router (or buy one if you
   don\u2019t have one). You can get faster speeds, improved range, and new features.
@@ -11,8 +10,8 @@ image: guides/10-Things-You-Must-Do-With-a-Brand-New-Router-full-thumb.jpg
 introduction: "There are many good reasons to upgrade your router (or buy one if you
   don\u2019t have one). You can get faster speeds, improved range, and new features.
   It\u2019ll also ensure maximum compatibility with your latest gadgets."
-
 mainclass: misc
+lastmod: 2017-01-27
 tags:
 - manuales
 - libros
