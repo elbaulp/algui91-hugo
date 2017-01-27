@@ -15,6 +15,9 @@ defaultContentLanguage="es"
 defaultContentLanguageInSubdir = false
 EnableMissingTranslationPlaceholders = true
 
+[blackfriday]
+  hrefTargetBlank = true
+  
 [[menu.main]]
    name =  "Categorías"
    url  = "/categories/"

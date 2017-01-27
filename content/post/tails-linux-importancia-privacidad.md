@@ -16,7 +16,7 @@ description = "Decir que no te importa el derecho a la privacidad porque no tien
 Con el incipiente avance tecnológico, en nuestra sociedad cada vez se valora más la privacidad del usuario. Todo lo que hacemos, quiénes somos, qué nos gusta, es información que nos puede parecer irrelevante según para qué contextos. Sin embargo para las empresas, gobiernos y asociaciones, esa información es muy valiosa y puede incluso llegar a _limitarnos_.
 
 > "_Decir que no te importa el derecho a la privacidad porque no tienes nada que esconder no se diferencia de decir que no te importa la libertad de expresión porque no tienes nada que decir._"
-> **Edward Snowden**
+> --- **Edward Snowden**
 
 <!--ad--><!--more-->
 
