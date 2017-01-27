@@ -4,7 +4,7 @@ date = "2017-01-27"
 title = "TAILS LINUX y la importancia de la privacidad"
 mainclass = "articulos"
 image = "tchou-improved.png"
-categories = ["articulos"]
+categories = ["articulos", "linux"]
 tags = ["privacidad", "openpgp", "tor"]
 description = "Decir que no te importa el derecho a la privacidad porque no tienes nada que esconder no se diferencia de decir que no te importa la libertad de expresión porque no tienes nada que decir. -- Edward Snowden"
 +++
