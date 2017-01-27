@@ -5,14 +5,13 @@ categories:
 - internet
 - linux
 - seguridad
-color: '#0097A7'
 date: '2016-01-01'
+lastmod: 2017-01-27
 description: "netfiltes es un conjunto de hooks (Ganchos) dentro del kernel de linux
   que permiten a los m\xF3dulos del kernel registrar funciones callbacks con la pila
   de red. Una funci\xF3n callback registrada se llama entonces para cada paquete que
   atraviesa el hook correspondiente dentro de la pila de red."
 image: 20-ejemplos-de-iptables-para-sysadmins.png
-
 mainclass: servidores
 url: /20-ejemplos-de-iptables-para-sysadmins/
 aliases:
@@ -54,12 +53,11 @@ Linux por defecto trae un cortafuegos llamado NetFilter. Según el sitio oficil 
 
 Este firewall lo controla un programa llamado iptables que gestiona el filtrado para IPv4, y ip6tables para IPv6.
 
-## Ejemplos de reglas IPTABLES
+# Ejemplos de reglas IPTABLES
 
   * Muchas de las acciones que se listan abajo requieren ejecutarse como usuario root.
   * Los siguientes comandos deberían funcionar en cualquier distro linux moderna.
   * Esto NO es un tutorial de como configurar iptables. Puedes ver un tutorial <a target="_blank" href="http://www.cyberciti.biz/faq/rhel-fedorta-linux-iptables-firewall-configuration-tutorial/">aquí</a>. Es más bien una referencia rápida de los comandos más comunes de iptables.
-
 
 <!--more--><!--ad-->
 
@@ -70,6 +68,7 @@ Teclea el siguiente comando como root:
 ```bash
 iptables -L -n -v
 ```
+
 Ejemplos de salidas:
 
 ```bash
@@ -113,7 +112,7 @@ Donde,
   * **-v** : Muestra información detallada.
   * **-n** : Muestra la dirección ip y puerto en formato numérico. No usa DNS para resolver nombres. Esto acelera la lista.
 
-#### #1.1:Para Inspeccionar el firewall con número de lineas:
+## #1.1:Para Inspeccionar el firewall con número de lineas:
 
 ```bash
 iptables -n -L -v --line-numbers
@@ -147,7 +146,7 @@ num  target     prot opt source               destination
 
 Podemos usar los números de línea para borrar o añadir nuevas reglas al firewall.
 
-#### #1.2: Mostrar las reglas de cadena de entrada y salida:
+## #1.2: Mostrar las reglas de cadena de entrada y salida:
 
 ```bash
 iptables -L INPUT -n -v
@@ -301,7 +300,7 @@ ping cyberciti.biz
 wget http://www.kernel.org/pub/linux/kernel/v3.0/testing/linux-3.2-rc5.tar.bz2
 ```
 
-#### #7.1: Solo tráfico entrante bloqueado
+## #7.1: Solo tráfico entrante bloqueado
 
 Para borrar todos los paquetes entrantes / enviados pero permitir el tráfico saliente:
 
@@ -377,7 +376,7 @@ iptables -A OUTPUT -d 192.168.1.0/24 -j DROP
 iptables -A OUTPUT -o eth1 -d 192.168.1.0/24 -j DROP
 ```
 
-#### #11.1: Ejemplo - Bloquear el dominio facebook.com
+## #11.1: Ejemplo - Bloquear el dominio facebook.com
 
 Primero, encontrar la dirección ip de facebook.com
 
@@ -576,7 +575,7 @@ iptables -h
 iptables -j DROP -h
 ```
 
-#### #21.1: Probando nuestro firewall
+## #21.1: Probando nuestro firewall
 
 Conocer si hay puertos abiertos o no:
 
@@ -586,7 +585,7 @@ netstat -tulpn
 
 Es recomendable instalarse un [sniffer][1] como tcpdupm y ngrep para probar la configuración de nuestro firewall.
 
-## Conclusión
+# Conclusión
 
 
 > Esta entrada solo lista las reglas básicas para los usuarios nuevos en linux. Se pueden crear reglas más complejas. Requiere una buena comprensión de TCP/IP, tunning del kernel linux via sysctl.conf y un buen conocimiento de nuestra configuración.
@@ -594,7 +593,7 @@ Es recomendable instalarse un [sniffer][1] como tcpdupm y ngrep para probar la c
 Fuente original: <a target="_blank" href="http://www.cyberciti.biz/tips/linux-iptables-examples.html">cyberciti</a>
 
 
-### Más reglas cortesía de Jker
+# Más reglas cortesía de Jker
 
 - Reestablece las reglas por defecto.
 
@@ -608,7 +607,7 @@ iptables -X
 
 IPtables -nL para ver que estan vacias
 
-#### Configura la máquina para que sólo se pueda acceder desde ella a las webs http://www.google.es y http://www.iesgoya.com y a ninguna otra.
+## Configura la máquina para que sólo se pueda acceder desde ella a las webs http://www.google.es y http://www.iesgoya.com y a ninguna otra.
 
 ```bash
 iptables -A OUTPUT -d http://www.google.es -j ACCEPT
@@ -616,26 +615,26 @@ iptables -A OUTPUT -d http://www.iesgoya.com -j ACCEPT
 iptables -A OUTPUT -p tcp –dport 80 -j DROP # Mas exigente –> iptables -A OUTPUT -p all -j DROP
 ```
 
-#### Como google tiene muchas IPs puede que tengamos un problema para ello realizamos lo siguiente antes de la regla EXIGENTE:
+## Como google tiene muchas IPs puede que tengamos un problema para ello realizamos lo siguiente antes de la regla EXIGENTE:
 
 ```bash
 iptables -I OUTPUT 1 -d 212.106.221.0/24 -j ACCEPT
 iptables -I OUTPUT 1 -d 173.194.0.0/16 -j ACCEPT
 ```
 
-#### Mostrar las reglas que llevamos hasta el momento:
+## Mostrar las reglas que llevamos hasta el momento:
 
 ```bash
 iptables -nL –line-numbers
 ```
 
-#### Si queremos borrar reglas:
+## Si queremos borrar reglas:
 
 ```bash
 iptables -D OUTPUT 5
 ```
 
-#### Cierra todos los puertos bien conocidos menos los necesarios para acceder a estas dos webs.
+## Cierra todos los puertos bien conocidos menos los necesarios para acceder a estas dos webs.
 
 ```bash
 iptables -A OUTPUT -p TCP –dport 53 -j ACCEPT
@@ -644,7 +643,7 @@ iptables -A OUTPUT -p TCP –dport 1:1024 -j DROP
 iptables -A OUTPUT -p UDP –dport 1:1024 -j DROP
 ```
 
-#### Investiga de qué forma podrías hacer que las peticiones entrantes a tu máquina virtual al puerto 81 por http vayan mediante NAT al puerto 80 de la máquina local (arranca WAMP para comprobar que funciona).
+## Investiga de qué forma podrías hacer que las peticiones entrantes a tu máquina virtual al puerto 81 por http vayan mediante NAT al puerto 80 de la máquina local (arranca WAMP para comprobar que funciona).
 
 Arrancamos wamp en la maquina fisica y comprobamos que accedemos a wamp desde localhost.Comprobamos que podemos acceder desde la maquina virtual y se encuentra cortado
 
@@ -664,13 +663,13 @@ iptables -t nat -A PREROUTING -p tcp –dport 81 -j DNAT –to- destination 192.
 iptables -t nat -A POSTROUTING -s 192.168.203.0/24 -j MASQUERADE
 ```
 
-#### Para ver las reglas introducidas:
+## Para ver las reglas introducidas:
 
 ```bash
 iptables -t nat -nL –line-numbers
 ```
 
-#### Permite sólo los mensajes entrantes desde la IP del compañero de tu máquina física (prueba desde otro sitio para ver si funciona).
+## Permite sólo los mensajes entrantes desde la IP del compañero de tu máquina física (prueba desde otro sitio para ver si funciona).
 
 ```bash
 iptables -A INPUT -s 192.168.203.200 -j ACCEPT
@@ -680,7 +679,7 @@ iptables -A FORWARD -s 192.168.203.200 -j ACCEPT
 iptables -A FORWARD -s -j DROP
 ```
 
-#### Activa el log sobre todas las reglas y verifica que se anotan los mensajes.
+## Activa el log sobre todas las reglas y verifica que se anotan los mensajes.
 
 Insertamos en IPTABLEs las reglas para activar el log:
 
