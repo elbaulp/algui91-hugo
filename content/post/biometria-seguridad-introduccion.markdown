@@ -160,7 +160,10 @@ del mismo. Estas son:
         al usuario (introducción del número de ID o uso de tarjetas,
         tiempo de posicionamiento, etc).
 
-![EER](/img/Biometricserror.jpg)
+<figure>
+    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Biometricserror.jpg" alt="Biometric Error" title="Biometric Error" ></amp-img>
+    <figcaption>EER</figcaption>
+</figure>
 
 Métodos de biometría estática
 -----------------------------
@@ -189,13 +192,19 @@ nos encontramos dos técnicas diferentes:
     reside en la complejidad de extraer de forma precisa las minucias
     cuando la calidad de la muestra es deficiente.
 
-![Minucias](/img/huellas3.png)
+<figure>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/huellas3.png" alt="Minucias" title="Minucias" ></amp-img>
+<figcaption>Minucias</figcaption>
+</figure>
 
 -   *Basada en correlación*: nos basamos en el patrón global seguido por
     la huella, es decir, un esquema general de la misma, sin atender a
     las minucias.
 
-![Correlación](/img/crestas.png)
+<figure>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crestas.png" alt="Correlación" title="Correlación" ></amp-img>
+<figcaption>Correlación</figcaption>
+</figure>
 
 ### Geometría de la mano
 
@@ -210,9 +219,15 @@ relativa a curvas de los dedos, grosor y longitud, altura y anchura del
 dorso de la mano, etc. No obstante, no se tienen en cuenta rasgos
 superficiales.
 
-![Escaner morfología](/img/bio2.png)
+<figure>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bio2.png" alt="Escaner Morfología" title="Escaner Morfología" ></amp-img>
+<figcaption>Escaner Morfología</figcaption>
+</figure>
 
-![Modelo mano](/img/extraccionmano.png)
+<figure>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/extraccionmano.png" alt="Modelo Mano" title="Modelo Mano" ></amp-img>
+<figcaption>Modelo Mano</figcaption>
+</figure>
 
 ### Modelo de la retina
 
@@ -227,14 +242,20 @@ de seguridad, la falta de aceptación por parte de los usuarios, unido al
 alto coste de los dispositivos, hacen que su utilización se limite a
 instalaciones militares, nucleares o laboratorios.
 
-![Modelo retina](/img/RetinaViewer.png)
+<figure>
+    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/RetinaViewer.png)" alt="Modelo Retina" title="Modelo Retina" ></amp-img>
+    <figcaption>Modelo Retina</figcaption>
+</figure>
 
 ### Modelo del iris
 
 Es un método muy similar al anterior en cuanto a FAR y FRR, aunque aquí
 utiliza un escáner externo del iris del ojo, en lugar de la retina.
 
-![Escáner Iris](/img/Iris_Scanner.jpg)
+<figure>
+    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Iris_Scanner.jpg" alt="Escaner Iris" title="Escaner Iris" ></amp-img>
+    <figcaption>Escaner Iris</figcaption>
+</figure>
 
 ### Reconocimiento facial
 
@@ -251,7 +272,10 @@ Aun así, es una técnica satisfactoria para todas las personas y puede
 utilizarse para tareas de vigilancia sin necesidad de adquirir equipo
 específico.
 
-![Análisis facial](/img/keylemon-2.png)
+<figure>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/keylemon-2.png" alt="Análisis Facial" title="Análisis Facial" ></amp-img>
+<figcaption>Análisis Facial</figcaption>
+</figure>
 
 Métodos de biometría dinámica
 -----------------------------
