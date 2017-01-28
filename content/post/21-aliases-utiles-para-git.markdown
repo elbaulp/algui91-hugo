@@ -2,7 +2,6 @@
 author: alex
 categories:
 - git
-color: '#f05033'
 date: 2015-12-01 10:56:26
 description: "Todo aquel que use git sabr\xE1 que en ocasiones es un poco tedioso
   escribir los comandos a ejecutar. Para ello existen los alias, que nos permiten
@@ -10,7 +9,6 @@ description: "Todo aquel que use git sabr\xE1 que en ocasiones es un poco tedios
   unos cuantos alias \xFAtiles para el d\xEDa a d\xEDa. Os animo a que coment\xE9is
   vuestros preferidos para ir aumentando la lista!. Comencemos."
 image: 2013/03/git-logo.png
-
 mainclass: git
 modified: null
 tags:
@@ -22,17 +20,11 @@ tags:
 title: "21 alias \xFAtiles para git"
 ---
 
-<figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/git-logo.png" title="{{ page.title }}" alt="{{ page.title }}" width="910px" height="380px" />
-</figure>
-
-
-
 Todo aquel que use [git](/mini-tutorial-y-chuleta-de-comandos-git/ "Tutorial de Git") sabrá que en ocasiones es un poco tedioso escribir los comandos a ejecutar. Para ello existen los _alias_, que nos permiten crearnos atajos a la hora de ejecutar un comando. En este artículo se recopilarán unos cuantos _alias_ útiles para el día a día. Os animo a que comentéis vuestros preferidos para ir aumentando la lista!. Comencemos.
 
 <!--more--><!--ad-->
 
-## git ec
+# git ec
 
 Como no, el primer alias tenía que ser uno que nos permita editar la configuración de git rápidamente:
 
@@ -46,7 +38,7 @@ A partir de ahora, podremos abrir la configuración de git con nuestro editor po
 
 El resto del artículo asumirá que se tiene la configuración abierta con un editor, los aliases se escribirán directamente en la sección `[alias]` de dicho fichero.
 
-## git co, br, cm, st
+# git co, br, cm, st
 
 Estos _aliases_ pretenden más que facilitar la escritura de `checkout`, `branch`, `commit -am` y `status`. Básicamente los comandos que más uso.
 
@@ -61,7 +53,7 @@ st = status
 
 Veamos ahora una serie de aliases que he extraido de <a href="http://haacked.com/archive/2014/07/28/github-flow-aliases/" target="_blank" title="github Flow">haacked</a>:
 
-## Actualizar el directorio de trabajo
+# Actualizar el directorio de trabajo
 
 Para simplificar estos dos comandos
 
@@ -82,7 +74,7 @@ up = !git pull --rebase --prune $@ && git submodule update --init --recursive
 
 Este _alias_ es algo distinto, la exclamación indica que se va a ejecutar un comando en la _shell_, es decir, podemos ejecutar cualquier comando, no solo de git. En este caso, se están ejecutando dos comandos git.
 
-## git save, git wip, git undo, git amend
+# git save, git wip, git undo, git amend
 
 Estos dos _alias_ están destinados a cuando simplemente queremos guardar nuestros cambios, ya sea porque tenemos que irnos a hacer otras cosas, o simplemente no hemos acabado el trabajo y aún no tenemos un nombre para el commit adecuado. Con ellos, se guardan los cambios con un mensaje de commit `SAVEPOINT` o `WIP`, en función del alias que os guste más:
 
@@ -109,7 +101,7 @@ amend = commit -a --amend
 
 ```
 
-## Resetear el directorio de trabajo adecuadamente, git wipe
+# Resetear el directorio de trabajo adecuadamente, git wipe
 
 Cuantas veces hemos comenzado a trabajar o intentar añadir algo al código y al final lo único que hicimos fue ensuciar todo el directorio, montones de líneas de código sin ordenar etc. Lo mejor en estos casos es descartar todo y volver a empezar. Para ello es posible usar `git reset HEAD --hard`, pero esto borrará todo, sin que quede constancia de lo que hicimos. Para descartar el código, pero que quede constancia de lo que hicimios, por si alguna vez nos hace falta, crearemos el _alias_ _wipe_:
 
@@ -125,7 +117,7 @@ Hace un commit de todo lo que hay en el directorio de trabajo para luego hacer u
 
 Veamos ahora una serie de _alias_ para mostrar los logs de los commits de distintos modos.
 
-## Mostrar commits de forma compacta y colores, git ls
+# Mostrar commits de forma compacta y colores, git ls
 
 <figure>
 <a href="/img/gitls.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/gitls.png" title="{{ page.title }}" alt="{{ page.title }}" width="666px" height="504px" /></a>
@@ -139,7 +131,7 @@ ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decor
 
 ```
 
-## Listar commits y ficheros modificados, git ll
+# Listar commits y ficheros modificados, git ll
 
 <figure>
 <a href="/img/gitll.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/gitll.png" title="{{ page.title }}" alt="{{ page.title }}" width="603px" height="498px" /></a>
@@ -153,7 +145,7 @@ ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decor
 
 ```
 
-## Mostar commits de forma compacta y con fechas, git lds
+# Mostar commits de forma compacta y con fechas, git lds
 
 <figure>
 <a href="/img/gitlds.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/gitlds.png" title="{{ page.title }}" alt="{{ page.title }}" width="766px" height="502px" /></a>
@@ -177,7 +169,7 @@ ld = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" -
 
 ```
 
-## Buscar ficheros y contenido dentro de ficheros (grep)
+# Buscar ficheros y contenido dentro de ficheros (grep)
 
 Para buscar ficheros con conteniendo el nombre indicado:
 
@@ -233,7 +225,7 @@ gra = "!f() { A=$(pwd) && TOPLEVEL=$(git rev-parse --show-toplevel) && cd $TOPLE
 
 ```
 
-## Listar todos los aliases, git la
+# Listar todos los aliases, git la
 
 Ahora que ya llevamos unos cuantos _aliases_, quizá sean dificil de recordar hasta que nos acostumbremos, por ello, podemos crear un _alias_ que liste todos los nuestros _aliases_ :-):
 
@@ -243,7 +235,7 @@ la = "!git config -l | grep alias | cut -c 7-"
 
 ```
 
-## Listar la última etiqueta, git lt
+# Listar la última etiqueta, git lt
 
 ```bash
 
@@ -252,7 +244,7 @@ lt = describe --tags --abbrev=0
 
 ```
 
-## Alias para hacer merges, git ours, git theirs
+# Alias para hacer merges, git ours, git theirs
 
 ```bash
 
@@ -263,7 +255,7 @@ theirs = "!f() { git co --theirs $@ && git add $@; }; f"
 
 Eso es todo, comentad vuestras _alias_ para completar este artículo!
 
-## Recopilación
+# Recopilación
 
 Aquí se muestran todos los _alias_ vistos:
 
@@ -297,7 +289,7 @@ Aquí se muestran todos los _alias_ vistos:
 
 ```
 
-### Referencias
+# Referencias
 
-Github Flow Aliases | [haacked.com](http://haacked.com/archive/2014/07/28/github-flow-aliases/ "Github Flow Aliases")
-Must Have Git Aliases | [durdn.com](http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/ "Must Have Git Aliases: Advanced Examples")
+- Github Flow Aliases | [haacked.com](http://haacked.com/archive/2014/07/28/github-flow-aliases/ "Github Flow Aliases")
+- Must Have Git Aliases | [durdn.com](http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/ "Must Have Git Aliases: Advanced Examples")

@@ -2,12 +2,10 @@
 author: alex
 categories:
 - misc
-color: null
 date: 2016-11-27 10:18:24
 description: Bring your Atom-powered device back to life with a lightweight distribution!
 image: guides/5-Lightweight-Linux-Distros-Ideal-for-an-Intel-Atom-Processor-PC-centered.jpg
 introduction: Bring your Atom-powered device back to life with a lightweight distribution!
-
 mainclass: misc
 tags:
 - manuales
@@ -15,10 +13,11 @@ tags:
 - linux
 title: "Gu\xEDa Gratuita: 5 Lightweight Linux Distros Ideal for an Intel Atom Processor
   PC"
+lastmod: 2017-01-28
 ---
 
 <figure>
-   <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/guides/5-Lightweight-Linux-Distros-Ideal-for-an-Intel-Atom-Processor-PC-centered.jpg" alt="{{ title }}" title="{{ title }}" width="800" height="420">
+   <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/guides/5-Lightweight-Linux-Distros-Ideal-for-an-Intel-Atom-Processor-PC-centered.jpg" alt="Guía Gratuita: 5 Lightweight Linux Distros Ideal for an Intel Atom Processor PC" title="Guía Gratuita: 5 Lightweight Linux Distros Ideal for an Intel Atom Processor PC" width="800" height="420">
    </amp-img>
 </figure>
 

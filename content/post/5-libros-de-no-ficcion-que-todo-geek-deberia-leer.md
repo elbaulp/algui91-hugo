@@ -2,14 +2,11 @@
 author: alex
 categories:
 - articulos
-- "tecnolog\xEDa"
-color: '#F57C00'
+- tecnología
 date: 2015-06-30 16:48:42
 description: "Esta lista de libros geeks se mantiene en constante actualizaci\xF3n,
   si deseas que se a\xF1ada alguno, no dudes en dejarnos un comentario!"
 image: Thing-Explainer-Complicated-Stuff-in-Simple-Words.jpg
-lastmod: 2016-06-15
-
 mainclass: articulos
 url: /5-libros-de-no-ficcion-que-todo-geek-deberia-leer/
 tags:
@@ -24,9 +21,9 @@ tags:
 - libros de no ficcion recomendados
 - didier newman wikipedia
 title: "21 Libros de No-Ficci\xF3n que todo Geek deber\xEDa leer"
+lastmod: 2017-01-28
 ---
 
-<!--more--><!--ad-->
 <div class="row flex-grid">
 <article class="box-item animate">
 <h2>Thing Explainer: Complicated Stuff in Simple Words</h2>
@@ -169,6 +166,8 @@ title: "21 Libros de No-Ficci\xF3n que todo Geek deber\xEDa leer"
 </div>
 
 ## Aportaciones de los lectores
+
+<!--more--><!--ad-->
 
 A continuación una lista de libros que han recomendado los lectores del blog en los comentarios. Gracias a todos!
 
