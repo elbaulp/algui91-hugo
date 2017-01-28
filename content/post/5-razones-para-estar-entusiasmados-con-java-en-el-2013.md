@@ -15,7 +15,9 @@ tags:
 - novedades java
 title: 5 Razones para estar entusiasmados con Java en el 2013
 image: 2012/12/java1-300x227.jpg
+lastmod: 2017-01-28
 ---
+
 Habiendo terminado el 2012, es tiempo de mirar hacia los próximos 12 meses en el mundo del desarrollo. Luego de leer <a href="http://jaxenter.com/what-will-2013-bring-developers-place-their-bets-45933.html" target="_blank">este interesante artículo</a> sobre las predicciones de algunos respetados desarrolladores, presentamos cinco sencillas razones por las cuales debes entusiasmarte con lo que traerá el 2013&#8230;
 
 # 1. Java 8
