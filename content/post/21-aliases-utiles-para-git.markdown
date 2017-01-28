@@ -3,6 +3,7 @@ author: alex
 categories:
 - git
 date: 2015-12-01 10:56:26
+lastmod: 2017-01-28
 description: "Todo aquel que use git sabr\xE1 que en ocasiones es un poco tedioso
   escribir los comandos a ejecutar. Para ello existen los alias, que nos permiten
   crearnos atajos a la hora de ejecutar un comando. En este art\xEDculo se recopilar\xE1n
@@ -10,7 +11,6 @@ description: "Todo aquel que use git sabr\xE1 que en ocasiones es un poco tedios
   vuestros preferidos para ir aumentando la lista!. Comencemos."
 image: 2013/03/git-logo.png
 mainclass: git
-modified: null
 tags:
 - git
 - github
