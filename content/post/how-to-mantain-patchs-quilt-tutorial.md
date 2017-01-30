@@ -9,7 +9,7 @@ image = ""
 mainclass = "dev"
 +++
 
-Llevo unos cuantos años usando [DWM](https://elbauldelprogramador.com//tags/dwm/ "DWM"), incluso creé un parche que permitía [colorear su barra de estado](https://elbauldelprogramador.com/statuscolor-dwm-6-1/ "Colorear la barra de estado con Simple StatusColor en DWM 6.1"). Hacía bastante tiempo que DWM se había actualizado, pero no me veía capaz de parchear mi versión modificada de DWM con la original, hasta que encontré el repositorio <a href="https://github.com/jceb/dwm-patches" target="_blank" title="DWM-Patches">DWM-Patches</a> y aprendí a usar la herramienta _quilt_.
+Llevo unos cuantos años usando [DWM](https://elbauldelprogramador.com/tags/dwm/ "DWM"), incluso creé un parche que permitía [colorear su barra de estado](https://elbauldelprogramador.com/statuscolor-dwm-6-1/ "Colorear la barra de estado con Simple StatusColor en DWM 6.1"). Hacía bastante tiempo que DWM se había actualizado, pero no me veía capaz de parchear mi versión modificada de DWM con la original, hasta que encontré el repositorio <a href="https://github.com/jceb/dwm-patches" target="_blank" title="DWM-Patches">DWM-Patches</a> y aprendí a usar la herramienta _quilt_.
 
 # ¿Qué es Quilt?
 
