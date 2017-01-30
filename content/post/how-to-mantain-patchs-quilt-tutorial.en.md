@@ -9,7 +9,7 @@ image = ""
 mainclass = "dev"
 +++
 
-I am using [DWM](https://elbauldelprogramador.com/tags/dwm/ "DWM") since a couple of years, even wrote a patch to allow the user color its status bar (https://elbauldelprogramador.com/statuscolor-dwm-6-1/ "Colorear la barra de estado con Simple StatusColor en DWM 6.1"). Since then, I never check out the new code in DWM that was being released because I did not think I would be able to merge the new code with my personalized DWM. That was until I discovered <a href="https://github.com/jceb/dwm-patches" target="_blank" title="DWM-Patches">DWM-Patches</a> and learned to use _quilt_.
+I am using [DWM](https://elbauldelprogramador.com/tags/dwm/ "DWM") since a couple of years, even wrote a patch to allow the user color its [status bar](https://elbauldelprogramador.com/statuscolor-dwm-6-1/ "Colorear la barra de estado con Simple StatusColor en DWM 6.1"). Since then, I never check out the new code in DWM that was being released because I did not think I would be able to merge the new code with my personalized DWM. That was until I discovered <a href="https://github.com/jceb/dwm-patches" target="_blank" title="DWM-Patches">DWM-Patches</a> and learned to use _quilt_.
 
 # What is Quilt?
 
