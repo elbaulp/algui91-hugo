@@ -28,6 +28,8 @@
   translation: "Most popular"
 - id: share_title
   translation: "Share"
+- id: share_signup
+  translation: "http://eepurl.com/czWuE5"
 - id: share_tw
   translation: "On Twitter"
 - id: share_fb
