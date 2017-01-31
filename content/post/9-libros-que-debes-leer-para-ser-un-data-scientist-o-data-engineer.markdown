@@ -2,14 +2,12 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: 2015-11-01 20:30:17
 description: "Tras mucho buscar, al fin he conseguido recopilar una lista de libros
   que todo Cient\xEDfico de Datos o Ingeniero de Datos deber\xEDa tener en su biblioteca
   personal."
 image: ml/Machine-Learning-for-Hackers.jpg
-lastmod: 2016-06-15
-
+lastmod: 2017-01-31
 mainclass: articulos
 tags:
 - libros
@@ -231,4 +229,4 @@ Si te interesan los libros _geek_, visita nuestra recopilación [16 Libros de No
 
 # Referencias
 
-[Analyticsvidhya.com](http://www.analyticsvidhya.com)
+- [Analyticsvidhya.com](http://www.analyticsvidhya.com)

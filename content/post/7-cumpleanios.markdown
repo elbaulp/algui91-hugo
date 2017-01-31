@@ -6,9 +6,9 @@ date: 2016-05-07 09:55:51
 description: "Hoy el blog cumple a\xF1os, 7 para ser ex\xE1ctos, echamos la vista
   atr\xE1s y repasamos su historia"
 image: 7-cumpleanios0.png
-
 mainclass: misc
 title: "El Ba\xFAl Del Programador Cumple 7 A\xF1os"
+lastmod: 2017-01-31
 ---
 
 <figure>
@@ -19,7 +19,7 @@ Hoy este humilde blog cumple nada más y nada menos que 7 años. Todo empezó co
 
 <!--more--><!--ad-->
 
-## Un poquito de Historia
+# Un poquito de Historia
 
 No siempre se llamó “El Baúl del Programador”, en sus orígenes se llamaba “BashyC Programación”, ya que mi primera intención era hablar sobre _Bash_ y _C_, que eran los únicos lenguajes que sabía y de lo que solía escribir, algunos ejemplos:
 
@@ -29,7 +29,7 @@ No siempre se llamó “El Baúl del Programador”, en sus orígenes se llamaba
 
 Pero pronto empecé a hablar sobre más cosas, así que surgió la necesidad de cambiarle el nombre, y así llegó “El Baúl del Programador”.
 
-## Plataformas usadas
+# Plataformas usadas
 
 Al principio, el blog se alojaba en __Blogger__, conforme necesité hacer cosas más complejas, lo migré a __Wordpress__ en un servidor dedicado, de este arduo proceso surgieron los siguiente artículos:
 
@@ -49,11 +49,11 @@ Estuve unos cuantos años con __Wordpress__ y un servidor dedicado, hasta versio
 
 Cuando descubrí __Jekyll__ y la facilidad que ofrece para centrarse en el contenido y olvidarse de la administración del servidor, migré el blog a __GitHub__ y es lo que uso actualmente.
 
-## Máquina del tiempo
+# Máquina del tiempo
 
 Por este séptimo aniversario quisiera echar la vista atrás y mostrar cómo ha evolucionado el blog a lo largo de los años, todo esto es posible gracias a <a href="https://web.archive.org" target="_blank" title="WayBack Machine">WayBack Machine</a>.
 
-### Blogger
+## Blogger
 
 <figure>
 <a href="/img/7-cumpleanios1.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios1.png" title="{{ page.title }}" alt="{{ page.title }}" width="1882px" height="987px" /></a>
@@ -62,7 +62,7 @@ Por este séptimo aniversario quisiera echar la vista atrás y mostrar cómo ha 
 <a href="/img/7-cumpleanios2.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios2.png" title="{{ page.title }}" alt="{{ page.title }}" width="1879px" height="987px" /></a>
 </figure>
 
-### WordPress
+## WordPress
 
 <figure>
 <a href="/img/7-cumpleanios3.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios3.png" title="{{ page.title }}" alt="{{ page.title }}" width="1880px" height="984px" /></a>
@@ -74,14 +74,14 @@ Por este séptimo aniversario quisiera echar la vista atrás y mostrar cómo ha 
 <a href="/img/7-cumpleanios5.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios5.png" title="{{ page.title }}" alt="{{ page.title }}" width="1882px" height="985px" /></a>
 </figure>
 
-### Jekyll
+## Jekyll
 
 <figure>
 <a href="/img/7-cumpleanios6.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios6.png" title="{{ page.title }}" alt="{{ page.title }}" width="1134px" height="1046px" /></a>
 </figure>
 
 
-## Terminando
+# Terminando
 
 Por último, solo espero continuar manteniendo el blog por muchos años más, intentando escribir artículos interesantes, y que vosotros los leáis :-).
 

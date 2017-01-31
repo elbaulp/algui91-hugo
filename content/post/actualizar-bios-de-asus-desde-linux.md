@@ -3,19 +3,14 @@ author: alex
 categories:
 - seguridad
 - so
-color: '#2196F3'
 date: '2016-01-01'
-
+lastmod: 2017-01-31
 mainclass: linux
 url: /actualizar-bios-de-asus-desde-linux/
 tags:
 - como actualizar bios asus p5b
 title: Actualizar BIOS de ASUS desde Linux
 ---
-
-<div class="separator" >
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="128" width="128" src="https://3.bp.blogspot.com/-wblX_BLWbE0/T0gHYglK1UI/AAAAAAAACI4/qtp0VmYrmqA/s400/b5018_firmwareupdateiconx_36031_640.png" />
-</div>
 
 Toda esta historia viene al comprar una memória de 2Gb de Ram a mi pc, para aumentar la capacidad total a 4Gb, no parece que sea algo muy complicado, ya que supuestamente mi placa base soporta hasta 8Gb y uso un Sistema Operatívo de 64-bits (CrunchBang 64-bit Stable + backports).
 

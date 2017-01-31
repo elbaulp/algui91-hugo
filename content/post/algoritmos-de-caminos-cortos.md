@@ -4,11 +4,10 @@ categories:
 - algoritmos
 - c
 - inteligencia artificial
-color: '#E64A19'
 date: '2016-01-01'
+lastmod: 2017-01-31
 description: "Para hablar de este tipo de algoritmos, tengo que hacer una breve introducci\xF3n
   a lo que es un grafo y c\xF3mo se representa en un ordenador."
-
 mainclass: dev
 url: /algoritmos-de-caminos-cortos/
 tags:
@@ -26,12 +25,11 @@ Informalmente se define como G = (V, E), siendo los elementos de V los vértices
 Existen diferentes implementaciones del tipo grafo: con una matriz de adyacencias (forma acotada) y con listas y multilistas de adyacencia (no acotadas).
 Matriz de adyacencias: se asocia cada fila y cada columna a cada nodo del grafo, siendo los elementos de la matriz la relación entre los mismos, tomando los valores de 1 si existe la arista y 0 en caso contrario.
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/10/Matriz_de_adyacencia1.jpg" alt="" title="Matriz_de_adyacencia" width="546px" height="232px" />][1]
+<figure>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/10/Matriz_de_adyacencia1.jpg" alt="" title="Matriz_de_adyacencia" width="546px" height="232px"></amp-img>
+</figure>
 
 <!--more--><!--ad-->
-
-
-&nbsp;
 
 Una vez dicho esto, existen algoritmos que se dedican a buscar el camino mas corto en un espacio, entre dos puntos dado, el coger un camino u otro conlleva un valor de mas o menos alto, es decir no es lo mismo ir del nodo 1 al nodo 3 con un valor de 5 unidades(metros), que ir del nodo 1 pasando por el 2 y llegando al 3 teniendo 4 unidades(metros), es preferible coger el que tenga menos coste, para que sea el valor mas corto. Es decir que el problema consiste en encontrar un camino entre dos vértices (o nodos) de tal manera que la suma de los pesos de las aristas que lo constituyen es mínima. Un ejemplo es encontrar el camino más rápido para ir de una ciudad a otra en un mapa. En este caso, los vértices representan las ciudades, y las aristas las carreteras que las unen, cuya ponderación viene dada por el tiempo que se emplea en atravesarlas.
 
@@ -43,9 +41,11 @@ Para solucionar este problema, los tres algoritmos mas conocidos son:
 
 El **algoritmo de Dijkstra** consiste en ir explorando todos los caminos más cortos que parten del vértice origen y que llevan a todos los demás vértices; cuando se obtiene el camino más corto desde el vértice origen, al resto de vértices que componen el grafo, el algoritmo se detiene.
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/10/Caminosmascortos1.jpg" alt="" title="Caminosmascortos" width="744px" height="500px" />][2]
+<figure>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/10/Caminosmascortos1.jpg" alt="" title="Caminosmascortos" width="744px" height="500px"></amp-img>
+</figure>
 
-#### Algoritmo de Dijkstra
+# Algoritmo de Dijkstra
 
 ```cpp
 #include <string.h>
@@ -152,7 +152,7 @@ int main(int argc,char** argv){
   Para probar este algoritmo necesita una entrada de datos un archivo para probarlo.
 </p>
 
-El ** algoritmo de Prim ** encuentra un subconjunto de aristas que forman un árbol con todos los vértices, donde el peso total de todas las aristas en el árbol es el mínimo posible. Si el grafo no es conexo, entonces el algoritmo encontrará el árbol recubridor mínimo para uno de los componentes conexos que forman dicho grafo no conexo.
+El **algoritmo de Prim** encuentra un subconjunto de aristas que forman un árbol con todos los vértices, donde el peso total de todas las aristas en el árbol es el mínimo posible. Si el grafo no es conexo, entonces el algoritmo encontrará el árbol recubridor mínimo para uno de los componentes conexos que forman dicho grafo no conexo.
 
 Por último el **algoritmo A***evalúa los nodos combinando g(n), el coste para alcanzar el nodo, y h(n), el costo de ir al nodo objetivo:
 
@@ -168,11 +168,3 @@ Por último el **algoritmo A***evalúa los nodos combinando g(n), el coste para 
 <p >
   Así, si tratamos de encontrar la solución mas barata, es razonable intentar primero el nodo con el valor más bajo de g(n) + h(n). Resulta que esta estrategia es más que razonable: con tal de que la función heurística h(n) satisfaga ciertas condiciones, la búsqueda A* es tanto completa como óptima.
 </p>
-
-
-
- [1]: https://elbauldelprogramador.com/img/2012/10/Matriz_de_adyacencia1.jpg
- [2]: https://elbauldelprogramador.com/img/2012/10/Caminosmascortos1.jpg
-
-
-</distancia></vertice></fstream></string.h>

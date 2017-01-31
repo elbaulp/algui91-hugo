@@ -2,7 +2,6 @@
 author: alex
 categories:
 - dev
-color: '#E64A19'
 date: 2016-04-22 06:40:33
 description: "Haciendo una pr\xE1ctica de Aprendizaje Autom\xE1tico, en concreto implementando
   Gradiente Descendente Estoc\xE1stico (Stochastic Gradient Descent) o SGD para Regresi\xF3n
@@ -10,9 +9,8 @@ description: "Haciendo una pr\xE1ctica de Aprendizaje Autom\xE1tico, en concreto
   en R significa evitar el uso de for a toda costa) me encontr\xE9 con la siguiente
   situaci\xF3n:"
 image: Como-Acceder-a-Una-Variable-Desde-Dentro-De-Una-Funcion-en-R.png
-
 mainclass: dev
-modified: null
+lastmod: 2017-01-31
 tags:
 - R
 - tutorial R
@@ -83,6 +81,6 @@ Con este sencillo cambio, dentro de `update` se está accediendo y modificando l
 
 Espero que os sea útil.
 
-### Referencias
+# Referencias
 
-Entornos Avanzados en R \| <a href="http://adv-r.had.co.nz/Environments.html" target="_blank" title="Entornos avanzados en R">adv-r.had.co.nz</a>
+- Entornos Avanzados en R \| <a href="http://adv-r.had.co.nz/Environments.html" target="_blank" title="Entornos avanzados en R">adv-r.had.co.nz</a>

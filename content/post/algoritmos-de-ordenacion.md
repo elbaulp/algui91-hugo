@@ -2,18 +2,14 @@
 author: alex
 categories:
 - algoritmos
-color: '#F57C00'
 date: '2016-01-01'
+lastmod: 2017-01-31
 description: "Bueno, como dice el t\xEDtulo de la entrada, voy a hablar sobre los
   algoritmos de ordenaci\xF3n, vamos a distinguir entre lentos y r\xE1pidos. La diferencia
   mas grande es la eficiencia, es decir, como se comportan al ordenar una gran entrada
   de datos, los lentos se comportan en un orden cuadr\xE1tico, es decir, O(n\xB2),
   mientras que los algoritmos r\xE1pidos se comportan, en un caso promedio en un orden
   logar\xEDtmico, osea, O (n log n)."
-if_slider_image:
-- null
-- null
-
 mainclass: articulos
 url: /algoritmos-de-ordenacion/
 tags:
@@ -36,6 +32,7 @@ Siempre que nos enseñan a ordenar un vector, o una lista, nos enseñan los algo
   3. Ordenamiento por inserción.
 
 El ordenamiento por **burbuja** es el algoritmo más sencillo probablemente. Ideal para empezar. Consiste en ciclar repetidamente a través de la lista, comparando elementos adyacentes de dos en dos. Si un elemento es mayor que el que está en la siguiente posición se intercambian. Es un algoritmo estable. El inconveniente es que es muy lento.
+
 <!--more--><!--ad-->
 
 ```cpp
