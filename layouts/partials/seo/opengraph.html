@@ -42,6 +42,6 @@
 <link rel="shortcut icon" href="{{.Site.BaseURL}}/favicon.png" type="image/x-icon" />
 
 {{ if .RSSLink }}
-<link href="{{ .RSSLink | relLangURL }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+<link href="{{.Site.BaseURL}}{{ .RSSLink | relLangURL }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
 {{ end }}
-<link href="{{ .Site.RSSLink | relLangURL }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+<link href="{{.Site.BaseURL}}{{ .Site.RSSLink | relLangURL }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
