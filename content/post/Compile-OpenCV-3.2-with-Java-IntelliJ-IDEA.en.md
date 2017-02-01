@@ -50,7 +50,7 @@ cris@cris ~/opencv-3.2.0/build $ cmake -DBUILD_SHARED_LIBS=OFF ..
 
 Notice that when generating the makefile, the output in the Java field looks like this:
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" title="" alt="" width="201px" height="190px"></amp-img>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" width="983px" height="164px"></amp-img>
 <figcaption>building makefiles</figcaption>
 </figure>
 
@@ -84,12 +84,12 @@ Now that it is build, the next step would be create an example in Java to check 
  and choose **Dependencies** tab. Here, we click to add and select the **opencv-320.jar** and  the library, that is in **opencv3.2.0/build/lib** :
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-Opencv-jar-to-IntelliJ-project.png" title="" alt="" width="201px" height="190px"></amp-img>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-Opencv-jar-to-IntelliJ-project.png" title="" alt="" width="1022" height="341"></amp-img>
 <figcaption>adding .jar file</figcaption>
 </figure>
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-libpath-to-intelliJ-project.png" title="" alt="" width="201px" height="190px"></amp-img>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-libpath-to-intelliJ-project.png" title="" alt="" width="734" height="291"></amp-img>
 <figcaption>adding .so file</figcaption>
 </figure>
 
@@ -154,6 +154,6 @@ finally, we take the face detection example from [opencv documentation](http://d
 Finally we run **HelloOpenCV** example and see it works! printing lenna's face detection to **faceDetection.png** image.
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/example-face-detection-with-opencv.png" title="" alt="" width="201px" height="190px"></amp-img>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/example-face-detection-with-opencv.png" title="" alt="" width="531" height="528"></amp-img>
 <figcaption>example face detection</figcaption>
 </figure>
