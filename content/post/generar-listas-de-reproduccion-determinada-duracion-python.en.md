@@ -2,46 +2,43 @@
 author: alex
 categories:
 - python
-date: '2016-01-01'
-description: "Seguro que t\xFA tamb\xE9n escucas m\xFAsica mientras programas, a mi
-  me gusta descansar cada 30 min siguiendo la t\xE9cnica pomodoro. Pero mejor hacerlo
-  escuchando m\xFAsica. Este script en python te ayudar\xE1."
+description: "Sure you too listen to music when programming, I like to take a rest every 30 minutes following the Pomodoro Technique. But personaly I like listen to music while programming, so I wrote a Python script to generate playlist 30 minutes lenght."
 image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
-lastmod: 2017-02-03
+date: 2017-02-03
 mainclass: dev
 url: /generar-listas-de-reproduccion-determinada-duracion-python/
 tags:
-- "listas de reproducci\xF3n de duraci\xF3n fija"
-- "m\xFAsica"
+- generate playlist of fixed size
+- music
 - python
 - script python
 - python m3u parser
+- parser
 - playlist m3u
 - python m3u
-- listas 20 minutos
 - from sys import argv
 - python import mp4
 - python mp4 to mp3
 - python mp4 parser
-- "listas de reproducci\xF3n personalizadas"
-title: "Generar listas de reproducci\xF3n de una determinada duraci\xF3n con Python"
+- custom music playlists
+title: "Create music playlists with a given lenght"
 ---
 
-A muchos de nosotros nos gusta escuchar música mientras programamos. Hoy se me ocurrió que estaría bien generar listas de reproducción de una duración determinada. La razón tiene sus orígenes en la <a href="http://es.wikipedia.org/wiki/T%C3%A9cnica_Pomodoro" title="Técnica pomodoro" target="_blank">técnica Pomodoro</a>, que consiste concentrarse en realizar una tarea durante 25 min, sin distraerse, y descansar 5 min. Se repite cuatro veces y al cuarto descanso en lugar de 5 se descansan 15 min. Ésta técnica pretende mejorar la productividad.
+Many of us like listen to music while programming. Today I thought that it would be nice if I could create a playlist with a fixed length I can choose.
 
-Para ello he creado un pequeño script en python que genera automáticamente las listas de reproducción dado un directorio con ficheros mp3 o mp4 y una duración en minutos.
+After a little thinking I decided to write a little [python](https://elbauldelprogramador.com/en/tags/python "posts about python") script that do the work for me. It accepts as params a directory where the music is, and the duration for the playlist.
 
 <!--more--><!--ad-->
 
-# Requisitos
+# Requirements
 
-Para leer la duración de cada fichero he usado un módulo llamado <a href="https://code.google.com/p/mutagen/" title="Mutagen Homepage" target="_blank">Mutagen</a>. Para instalarlo:
+In order to read the length of each file I've used <a href="https://code.google.com/p/mutagen/" title="Mutagen Homepage" target="_blank">Mutagen</a>. It is easy to install:
 
 ```bash
 $ pip install mutagen
 ```
 
-Una vez instalado, podremos ejecutar el programa, el código es el siguiente:
+Once installed, we can execute the script, here is the code:
 
 ```python
 #!/usr/bin/env python
@@ -143,9 +140,9 @@ if __name__ == '__main__':
     main()
 ```
 
-# Generar listas de reproducción
+# Creating playlists
 
-El uso del programa es sencillo:
+Its use is simple:
 
 ```bash
 $ ./genPlayListByLength.py -h
@@ -195,8 +192,12 @@ Playlist generated, name:  ./playlists/genPlayListByLength.py20_31.m3u  length  
 Playlist generated, name:  ./playlists/genPlayListByLength.py20_32.m3u  length  22.5926288738 min
 ```
 
-# Qué queda por mejorar
+The script will create as many playlists of the given length as it can, 32 above.
 
-Ya que el script lo he hecho en media hora, se puede mejorar bastante. Ahora mismo no busca los ficheros de música recursivamente, en el futuro lo añadiré. <del datetime="2014-04-05T15:37:18+00:00">Tiene un fallo, cuando se está generando la lista, si la duración total es menor que la indicada por parámetro, y el fichero de música procesándose en ese momento es muy grande (por ejemplo 40 min), la lista de reproducción no será del tamaño correcto.</del> (Solucionado)
+# Improvements
 
-Para aquellos que estén interesados, el código está en <a href="https://github.com/algui91/genPlaylistByName" title="Repositorio" target="_blank">GitHub</a>
+It took me half an hour to write the script, so it can be improved. Right now it only looks music files in the current directory, not recursively.
+
+# Contribute
+
+If you want to improve it yourself, it hosted at <a href="https://github.com/algui91/genPlaylistByName" title="Repositorio" target="_blank">GitHub</a>.
