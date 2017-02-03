@@ -26,8 +26,6 @@ Hace unos meses publicamos [15 Ejemplos De Las Mejores Visualizaciones De Datos]
 
 __Olympic Feathers__, es una _visualización de datos_ interactiva que muestra la historia de las medallas olímpicas desde 1896 hasta hoy. Los gráficos muestran cómo se distribuyen las medallas por disciplina, país, género y geografía. También proporciona una visión de cómo han evolucionado las distintas disciplinas a lo largo del tiempo.
 
-
-
 ## Cómo surgió la idea
 
 Inicialmente Nadieh tenía pensado visualizar cada una de las 56 disciplinas como una “pluma” y usar el interior de la pluma para colocar todas las medallas en función de la edición de los juegos y género del ganador. Al final la idea del diseño usando forma de pluma no cuajó, pero lo mantuvo en el nombre del proyecto (_“Olympic feathers”_ o Plumas Olímpicas).

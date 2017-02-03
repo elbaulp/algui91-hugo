@@ -224,6 +224,15 @@
                     "eventCategory": "androidCourse",
                     "eventAction": "ZipDownload"
                 }
+            },
+            "translate" : {
+                "on": "click",
+                "selector": "#translate",
+                "request": "event",
+                "vars": {
+                    "eventCategory": "translateClick",
+                    "eventAction": "translateClick"
+                }
             }
         }
     }

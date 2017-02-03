@@ -64,3 +64,7 @@
   translation: "Últimos Artículos"
 - id: post_tags
   translation: "Etiquetas:"
+- id: translate
+  translation: "Ayúdanos a traducir al inglés"
+- id: translate_pr
+  translation: "Háznos un Pull Request"
