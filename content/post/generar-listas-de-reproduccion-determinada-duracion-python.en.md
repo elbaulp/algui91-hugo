@@ -7,7 +7,6 @@ description: "Sure you too listen to music when programming, I like to take a re
 image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
 date: 2017-02-03
 mainclass: dev
-url: /generar-listas-de-reproduccion-determinada-duracion-python/
 tags:
 - generate playlist of fixed size
 - music
@@ -22,7 +21,7 @@ tags:
 - python mp4 to mp3
 - python mp4 parser
 - custom music playlists
-title: "Create music playlists with a given lenght"
+title: "Create music playlists with a given length"
 ---
 
 Many of us like to listen to music while programming. Today I thought that it would be nice if I could create a playlist with a fixed length I can choose.
