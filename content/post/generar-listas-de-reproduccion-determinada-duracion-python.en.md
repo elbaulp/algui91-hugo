@@ -1,8 +1,9 @@
 ---
 author: alex
 categories:
+- dev
 - python
-description: "Sure you too listen to music when programming, I like to take a rest every 30 minutes following the Pomodoro Technique. But personaly I like listen to music while programming, so I wrote a Python script to generate playlist 30 minutes lenght."
+description: "Sure you too listen to music when programming, I like to take a rest every 30 minutes following the Pomodoro Technique. But personaly I like to listen to music while programming, so I wrote a Python script to generate playlist 30 minutes lenght."
 image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
 date: 2017-02-03
 mainclass: dev
@@ -24,7 +25,7 @@ tags:
 title: "Create music playlists with a given lenght"
 ---
 
-Many of us like listen to music while programming. Today I thought that it would be nice if I could create a playlist with a fixed length I can choose.
+Many of us like to listen to music while programming. Today I thought that it would be nice if I could create a playlist with a fixed length I can choose.
 
 After a little thinking I decided to write a little [python](https://elbauldelprogramador.com/en/tags/python "posts about python") script that do the work for me. It accepts as params a directory where the music is, and the duration for the playlist.
 
@@ -196,7 +197,7 @@ The script will create as many playlists of the given length as it can, 32 above
 
 # Improvements
 
-It took me half an hour to write the script, so it can be improved. Right now it only looks music files in the current directory, not recursively.
+It took me half an hour to write the script, so it can greatly be improved. Right now it only looks music files in the current directory, not recursively.
 
 # Contribute
 

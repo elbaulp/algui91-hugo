@@ -1,6 +1,7 @@
 ---
 author: alex
 categories:
+- dev
 - python
 date: '2016-01-01'
 description: "Seguro que t\xFA tamb\xE9n escucas m\xFAsica mientras programas, a mi
