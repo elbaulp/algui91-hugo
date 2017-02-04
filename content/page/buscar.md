@@ -1,4 +1,12 @@
-<div class="post-content">
+---
+type: page
+title: Buscar
+date: 2017-02-04
+---
+
+Introduce tu búsqueda abajo.
+
+<div>
     <script>
       (function() {
       var cx = '017944990515954375932:j4xhnxcoyio';
