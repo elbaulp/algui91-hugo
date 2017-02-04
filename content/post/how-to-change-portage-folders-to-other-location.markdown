@@ -2,7 +2,7 @@
 author: alex
 categories:
 - linux
-color: '#2196F3'
+- gentoo
 date: 2016-08-17 08:30:50
 description: "C\xF3mo cambiar el directorio de portage y directorio temporal a otro
   directorio"

@@ -1,7 +1,7 @@
 ---
 type: page
 title: Buscar
-date: 2017-02-04
+date: 2009-02-04
 ---
 
 Introduce tu búsqueda abajo.
