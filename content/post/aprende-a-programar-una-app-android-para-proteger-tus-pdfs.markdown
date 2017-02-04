@@ -2,21 +2,19 @@
 author: jordi
 categories:
 - java
-color: '#D32F2F'
 date: 2015-07-07 15:38:30
 description: "Hoy vamos a guiarte en el desarrollo de una aplicaci\xF3n Android que
   sirve para proteger tus documentos PDF de los ojos no autorizados, por medio de
   una contrase\xF1a."
 image: Aprende-a-Programar-Una-App-Android-Para-Proteger-Tus-PDFs.jpg
-
 mainclass: java
-modified: null
 tags:
 - android
 - pdf
 - plugpdf
 - lector pdf android
 title: Aprende a Programar Una App Android Para Proteger Tus PDFs
+lastmod: 2017-02-04
 ---
 
 Hoy vamos a guiarte en el desarrollo de una aplicación Android que sirve para proteger tus documentos PDF de los ojos no autorizados, por medio de una contraseña.
@@ -35,7 +33,7 @@ En algún momento dado, por algún fallo de alguna app instalada, o por algo ine
 
 Dicho todo lo anterior, vamos a utilizar la librería PlugPDF. Este SDK ya viene de fábrica con una clase Java que se encarga de la protección de los documentos.
 
-## PDF Protector ##
+# PDF Protector #
 
 Este es el nombre que le vamos a poner a nuestra app de seguridad, disponible en la documentación oficial de PlugPDF: PDF Protector.
 
@@ -54,19 +52,20 @@ Lo que hace PDF Protector es preguntarte qué partes de tu PDF quieres asegurar.
 
 <figure>
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Protege tus documentos PDF nativos.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="960px" height="560px" />
+<figcaption>Figura 1. Protegiendo tus documentos PDF nativos</figure>
 </figure>
-Figura 1. Protegiendo tus documentos PDF nativos
 
 Como decimos, el user password es para proteger por contraseña la apertura del documento, y el master password para proteger las operaciones que desees. Así que cuando proteges tus PDF con un user password entonces te sale este diálogo al abrirlo.
 
 <figure>
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Documento protegido por user password.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="960px" height="560px" />
+<figcaption>Figura 2. Documento protegido por user password</figcaption>
 </figure>
-Figura 2. Documento protegido por user password
+
 
 Del mismo modo, las aplicaciones que intenten, por ejemplo, imprimir o modificar el contenido de tus documentos protegidos, también obtendrán el aviso correspondiente, indicando que dicha operación no es posible.
 
-## El código, línea a línea ##
+# El código, línea a línea #
 
 Entonces amigos y amigas, una vez presentado el problema que queremos resolver, [**clicad aquí**](https://plugpdf.com/protect-your-android-pdfs-with-a-password/ "Proteger con contraseña tus PDF") para acceder al artículo original de la documentación oficial de PlugPDF que explica, línea a línea, cómo podéis implementar esta app de seguridad en la práctica. Allí encontraréis todo el contexto necesario para hacer correr esta herramienta.
 

@@ -2,19 +2,18 @@
 author: alex
 categories:
 - misc
-color: null
 date: 2016-09-07 13:10:02
 description: Delve into the world of Apache Maven with this compact cookbook that
   introduces common recipes for the Maven tool!
 image: guides/Apache-Maven-Cookbook-full.jpg
 introduction: Delve into the world of Apache Maven with this compact cookbook that
   introduces common recipes for the Maven tool!
-
 mainclass: misc
 tags:
 - manuales
 - libros
 title: 'Libro Gratuito: Apache Maven Cookbook'
+lastmod: 2017-02-04
 ---
 
 <figure>

@@ -4,20 +4,18 @@ categories:
 - cursos
 - noticias
 - opensource
-color: '#F57C00'
 date: '2016-01-01'
 description: "Despues del \xE9xito de los cursos impartidos por Stanford sobre inteligencia
   artificial, machine learning y bases de datos, se han propuesto seguir ense\xF1ando
   gratuitamente a trav\xE9s de la red, \xE9sta vez ser\xE1n David Evans, profesor
   de la ciencia de la computaci\xF3n en la universidad de Virginia y Sebastian Thrun,
   de la universidad de Stanford."
-lastmod: 2016-10-03
-
 mainclass: articulos
 url: /aprende-construir-un-motor-de-busqueda/
 tags:
 - programar motor de busqueda
 title: "Aprende a construir un motor de b\xFAsqueda y un coche aut\xF3nomo con Udacity"
+lastmod: 2017-02-04
 ---
 
 <figure>
@@ -30,7 +28,7 @@ Las clases comenzarán el día 20 de febrero y aquí os dejo los detalles de est
 
 <!--more--><!--ad-->
 
-#### Building a Search Engine
+# Building a Search Engine
 
 Con esta clase tendrás una introducción a la programación. En siete semanas, construirás tu propio motor de búsqueda con un crawler y una sitemas de rankigs de las páginas. Comprenderás algunos de los conceptos claves en la ciencia de la computación, y aprenderás a construir tus propios programas. No son necesarios conocimientos previos de programación.
 
@@ -49,7 +47,7 @@ Con esta clase tendrás una introducción a la programación. En siete semanas, 
   * **Semana 7: A donde ir desde aquí**
     Examen para evaluar lo aprendido.
 
-#### Programming a Robotic Car
+# Programming a Robotic Car
 
 Esta clase, impartida por uno de los más expertos en AI (Inteligencia Artificial), te enseñará los métodos básicos en inteligencia Artificial, incluyendo inferencias probabilística, visión por ordenador, aprendizaje de automático y planificación, todo ello con un enfoque hacia la robótica. Tendrás la oportunidad de visitar, mediante un vídeo, los principales laboratorios de investigación de este campo y conocer a los científicos e ingenieros que construyen los coches que se conducen solos en Stanford y Google.
 
