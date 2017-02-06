@@ -3,6 +3,7 @@ tags = ["spark", "scala"]
 categories = ["dev"]
 image = "sparklogo.png"
 date = "2017-02-06T17:04:46+01:00"
+lastmod = "2017-02-06"
 title = "Cómo convertir una columna a VectorUDT/DenseVector en Spark"
 mainclass = "dev"
 author = "alex"
@@ -139,6 +140,25 @@ object SimpleApp {
   }
 }
 ```
+
+# Otro método
+
+Acabo de descubrir otra forma de conseguir el mismo objetivo:
+
+```scala
+val df = spark.read.format("csv").
+  option("header", "true").
+  option("inferSchema", "true").
+  load(getClass.getResource("/generated_data.csv").getPath)
+val df1 = df.select("dependent_var", "ind_var_d")
+val formula = new RFormula().
+  setFormula("dependent_var ~ ind_var_d").
+  setFeaturesCol("features").
+  setLabelCol("label")
+val train = formula.fit(df1).transform(df1)
+```
+
+Ahora `train` tendrá dos columnas adicionales, `features` y `label`, siendo `features` de tipo `Vector`.
 
 # Conclusión
 
