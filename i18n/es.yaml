@@ -55,7 +55,7 @@
 - id: single_index
   translation: "Índice"
 - id: also_available
-  translation: "También disponible en"
+  translation: "Also available in"
 - id: single_reading_time
   translation: "Tiempo aprox ~ {{ .ReadingTime }} m."
 - id: not_found_title

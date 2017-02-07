@@ -55,7 +55,7 @@
 - id: single_index
   translation: "Table Of Contents"
 - id: also_available
-  translation: "Also available in"
+  translation: "También disponible en"
 - id: single_reading_time
   translation: "Reading Time {{ .ReadingTime }} m."
 - id: not_found_title
