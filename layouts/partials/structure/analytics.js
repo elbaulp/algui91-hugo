@@ -1,4 +1,4 @@
-<amp-analytics type="googleanalytics" id="analytics-ga">
+<amp-analytics type="googleanalytics" id="pageviews">
     <script type="application/json">
     {
         "vars": {
@@ -8,7 +8,19 @@
             "trackPageview": {
                 "on": "visible",
                 "request": "pageview"
-            },
+            }
+        }
+    }
+</script>
+</amp-analytics>
+
+<amp-analytics type="googleanalytics" id="events">
+    <script type="application/json">
+    {
+        "vars": {
+            "account": "{{ $.Site.Params.googleanalytics }}"
+        },
+        "triggers": {
             "tw" : {
                 "on": "click",
                 "selector": ".icon-twitter",
