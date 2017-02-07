@@ -1,6 +1,6 @@
 {{ if or .Next .Prev }}
 <div class="near-posts">
-  {{ with .Next }}<a id="link-next" rel="next" href="{{ .Permalink }}" class="post-item">«« {{ .Title }}</a>{{ end }}
-  {{ with .Prev }}<a id="link-prev" rel="prev" href="{{ .Permalink }}" class="post-item">{{ .Title }} »»</a>{{ end }}
+  {{ with .Next }}<a id="link-next" href="{{ .Permalink }}" class="post-item">«« {{ .Title }}</a>{{ end }}
+  {{ with .Prev }}<a id="link-prev" href="{{ .Permalink }}" class="post-item">{{ .Title }} »»</a>{{ end }}
 </div>
 {{ end }}
