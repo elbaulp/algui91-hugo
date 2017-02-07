@@ -21,33 +21,6 @@
             "account": "{{ $.Site.Params.googleanalytics }}"
         },
         "triggers": {
-            "tw" : {
-                "on": "click",
-                "selector": ".icon-twitter",
-                "request": "event",
-                "vars": {
-                    "eventCategory": "amp-share",
-                    "eventAction": "twitter"
-                }
-            },
-            "fb" : {
-                "on": "click",
-                "selector": ".icon-facebook",
-                "request": "event",
-                "vars": {
-                    "eventCategory": "amp-share",
-                    "eventAction": "facebook"
-                }
-            },
-            "gp" : {
-                "on": "click",
-                "selector": ".icon-google-plus",
-                "request": "event",
-                "vars": {
-                    "eventCategory": "amp-share",
-                    "eventAction": "google-plus"
-                }
-            },
             "feed" : {
                 "on": "click",
                 "selector": ".icon-rss",
@@ -102,15 +75,6 @@
                     "eventAction": "revresponseReferallink"
                 }
             },
-            "pop1" : {
-                "on": "click",
-                "selector": "#pop1",
-                "request": "event",
-                "vars": {
-                    "eventCategory": "popular-posts",
-                    "eventAction": "pop1"
-                }
-            },
             "pop2" : {
                 "on": "click",
                 "selector": "#pop2",
@@ -118,15 +82,6 @@
                 "vars": {
                     "eventCategory": "popular-posts",
                     "eventAction": "pop2"
-                }
-            },
-            "pop3" : {
-                "on": "click",
-                "selector": "#pop3",
-                "request": "event",
-                "vars": {
-                    "eventCategory": "popular-posts",
-                    "eventAction": "pop3"
                 }
             },
             "pop4" : {
@@ -162,15 +117,6 @@
                 "request": "event",
                 "vars": {
                     "eventCategory": "link-prev",
-                    "eventAction": "click"
-                }
-            },
-            "link-random" : {
-                "on": "click",
-                "selector": "#link-random",
-                "request": "event",
-                "vars": {
-                    "eventCategory": "link-random",
                     "eventAction": "click"
                 }
             },
