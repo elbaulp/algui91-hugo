@@ -7,7 +7,6 @@ date: '2016-01-01'
 lang: en
 lastmod: 2017-02-08
 mainclass: linux
-url: /bash-syntax-highlighted-script/
 title: Bash syntax highlighted script
 ---
 

@@ -6,7 +6,6 @@ categories:
 date: '2016-01-01'
 lastmod: 2016-08-15
 mainclass: linux
-url: /bash-syntax-highlighted-script-improved/
 title: Bash syntax highlighted script [Improved]
 ---
 
