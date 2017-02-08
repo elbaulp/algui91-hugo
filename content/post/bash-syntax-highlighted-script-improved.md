@@ -3,20 +3,18 @@ author: alex
 categories:
 - linux
 - script
-color: '#2196F3'
 date: '2016-01-01'
-lang: en
-lastmod: 2016-08-15
-
+lastmod: 2017-02-08
 mainclass: linux
 url: /bash-syntax-highlighted-script-improved/
-title: Bash syntax highlighted script [Improved]
+title: Script resaltado sintaxis bash (Mejorado)
+aliases: /script-resaltado-sintaxis-bash-mejorado/
 ---
 
-Thanks to DavidRSM, I have improved the highlighted syntax script for bash, and now it allows many more key words. Simply it is necessary to add to the variable keywords the commands names that they find in /bin/, and /sbin/, You can add more key words concatenating them to the variable, this way:
+Gracias a DavidRSM, he mejorado el script de resaltado de sintaxis para bash, y ahora permite muchas más palabras clave. Simplemente hay que añadir a la variable keywords los nombres de los comandos que se encuentran en /bin/, y /sbin/, Podéis agregar más palabras clave concatenándolas a la variable, de esta manera:
 
 ```bash
-keywords=$keywords`ls 'Commands directory'`
+keywords=$keywords`ls '<em>Directorio de comandos</em>'`
 ```
 
 ```bash
@@ -32,18 +30,20 @@ case $? in
  keywords=$keywords`ls /sbin/`
 
  # Para lo comentarios, el & hace que se escriba lo que coincidio con el patron
-sed 's/#.*/&/' < "$rutaCodigo" > temp
+ sed 's/#.*/&/' < "$rutaCodigo" > temp
  cp temp "$rutaCodigo"
 
   for word in $keywords
   do
-#Busco en el texto, cada palabra clave contenida en keyWords, y le añado la etiqueta span
-sed "s/b$wordb/$word/" < "$rutaCodigo" > temp
+    #Busco en el texto, cada palabra clave contenida en keyWords, y le añado la etiqueta span
+    sed "s/b$wordb/$word/" < "$rutaCodigo" > temp
     cp temp "$rutaCodigo"
   done
-rm temp
+
+  rm temp
   ;;
 *)
   echo "No se seleciciono nada.";;
 esac
+
 ```

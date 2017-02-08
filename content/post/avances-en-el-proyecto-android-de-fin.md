@@ -4,13 +4,11 @@ categories:
 - android
 - aplicaciones
 - opensource
-color: '#689F38'
 date: '2016-01-01'
 description: "Como ya sab\xE9is tengo que realizar un proyecto de fin de curso, el
   cual ya expliqu\xE9 en [qu\xE9 consist\xEDa][1], y escribo esta entrada para mostraros
   un poco los avances que voy haciendo."
 lastmod: 2016-09-07
-
 mainclass: android
 url: /avances-en-el-proyecto-android-de-fin/
 tags:
