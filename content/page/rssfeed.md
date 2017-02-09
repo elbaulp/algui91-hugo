@@ -2,6 +2,7 @@
 title: RSS/Feed
 type: page
 date: 2016-01-21
+aliases: /de-jekyll-a-hugo-actualizacion-rss/
 ---
 
 Puede que solo te interesen algunas publicaciones del blog y no desees recibir todos y cada uno de los artículos que se escriben.
