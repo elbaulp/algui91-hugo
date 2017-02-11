@@ -4,12 +4,11 @@ categories:
 - internet
 - linux
 - seguridad
-color: '#0097A7'
+- servidores
 date: '2016-01-01'
 description: "Ayer ojeando el archivo de log detect\xE9 que hab\xEDa una ip mandando
   peticiones POST indiscriminadamente a la p\xE1gina de login del blog y decid\xED
   investigar un poco."
-
 mainclass: servidores
 url: /bloquear-una-ip-atacanto-el-servidor-mediante-iptables/
 tags:
@@ -22,6 +21,7 @@ tags:
 - iptables con servidor debian
 - politicas con iptables firewall
 title: Bloquear una IP atacando el servidor mediante iptables
+lastmod: 2017-02-11
 ---
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/Applic-Firewall-icon.png" alt="Applic-Firewall-icon" width="256px" height="256px" />
@@ -55,18 +55,15 @@ Decidí investigar desde cuando se estaba produciendo el ataque, y, para mi sorp
 
 ```bash
 cat /ruta/log/acceso.log | grep xx.xx.xx.xx | wc -l
-
 ```
 
 Donde **xx.xx.xx.xx** debe ser la ip del atacante. El comando wc con el parámetro -l es el encargado de contar las líneas.
 
 En las referencias puedes encontrar más información sobre iptables. También puedes leer los **[20 ejemplos de iptables para SysAdmins novatos][2]** o [Bloquear ataques de fuerza bruta en Nginx y WordPress con Fail2Ban][3]
 
-#### Referencias
+# Referencias
 
-*Iptables Drop IP Address* »» <a href="http://www.cyberciti.biz/faq/linux-iptables-drop/" target="_blank">Visitar sitio</a>
-
-
+- *Iptables Drop IP Address* »» <a href="http://www.cyberciti.biz/faq/linux-iptables-drop/" target="_blank">Visitar sitio</a>
 
  [1]: https://elbauldelprogramador.com/?s=iptables
  [2]: https://elbauldelprogramador.com/20-ejemplos-de-iptables-para-sysadmins/

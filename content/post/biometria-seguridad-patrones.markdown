@@ -2,14 +2,11 @@
 author: cristina
 categories:
 - articulos
-color: '#F57C00'
 date: 2016-01-26 10:51:21
 description: "En este art\xEDculo se dar\xE1 un repaso por las distintas t\xE9nicas
   existentes de reconocimiento de patrones y c\xF3mo pueden usarse sobre datos biom\xE9tricos."
 image: hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png
-
 mainclass: articulos
-modified: null
 tags:
 - "seguridad biom\xE9trica"
 - "biometr\xEDa aplicada a la seguridad"
@@ -17,6 +14,7 @@ tags:
 - "sistemas biom\xE9tricos"
 - "biometr\xEDa de la mano"
 title: "Biometr\xEDa Aplicada a La Seguridad - Reconocimiento De Patrones"
+lastmod: 2017-02-11
 ---
 
 <figure>
@@ -24,10 +22,7 @@ title: "Biometr\xEDa Aplicada a La Seguridad - Reconocimiento De Patrones"
 <span class="image-credit">Crédito de la imagen: pixabay<a href="https://pixabay.com/en/biometrics-eye-security-154660/"></a></span><br />
 </figure>
 
-
-
 El siguiente artículo forma parte de un trabajo en grupo realizado para la asignatura _Seguridad en Sistemas Operativos_ de la facultad de Ingeniería Informática de Granada (ETSIIT). Los componentes del grupo fueron [@MPV_Prod](http://twitter.com/MPV_Prod) , [@_musicalnote](http://twitter.com/_musicalnote) y [@ElBaulP](http://twitter.com/elbaulp). Este artículo es autoría de @_musicalnote.
-{: .notice-info }
 
 # Índice
 
@@ -155,7 +150,7 @@ reconocimiento mediante ADN.
 - Biometría aplicada a la seguiridad - Reconocimiento de patrones
 - [Biometría aplicada a la seguiridad - Sistemas biométricos](/sistemas-biometricos "Biometría aplicada a la seguiridad - Sistemas biométricos")
 
-#### Referencias
+# Referencias
 
 - [M. Tapiador Mateos and J. A. Sigüenza Pizarro, Tecnologías biométricas aplicadas a la
 seguridad](http://www.amazon.es/gp/product/8478976361/ref=as_li_ss_tl?ie=UTF8&camp;=3626&creative;=24822&creativeASIN;=8478976361&linkCode;=as2&tag;=bmacoc-21 "M. Tapiador Mateos and J. A. Sigüenza Pizarro, Tecnologías biométricas aplicadas a la

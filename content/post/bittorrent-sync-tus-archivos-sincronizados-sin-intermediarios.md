@@ -2,14 +2,12 @@
 author: alex
 categories:
 - internet
-color: '#F57C00'
 date: '2016-01-01'
 description: "Escuchando el programa de radio security now! he descubierto una herramienta
   incre\xEDble. Se trata de **BitTorrrent Sync** y permite tener archivos sincronizados
   en todos los dispositivos que desees, sin necesidad de almacenarlos en la nube,
   como es el caso de dropbox por ejemplo. En este art\xEDculo voy a explicar c\xF3mo
   usarlo."
-
 mainclass: articulos
 url: /bittorrent-sync-tus-archivos-sincronizados-sin-intermediarios/
 tags:
@@ -17,6 +15,7 @@ tags:
 - instalar BitTorrent Sync
 - que es BitTorrent Sync
 title: 'BitTorrent Sync: Tus archivos sincronizados sin intermediarios'
+lastmod: 2017-02-11
 ---
 
 <figure>
@@ -30,7 +29,7 @@ Escuchando el programa de radio **[security now!][2]** he descubierto una herram
 
 BitTorrent Sync sincroniza los archivos usando el protocolo P2P. Cuando se configuran dos dispositivos para que estén sincronizados se conectan directamente entre ellos usando UDP, NAT y [UPnP][3], con lo cual no se depende de ningún tercero que tenga que almacenar los ficheros en la nube. Si ambos dispositivos se encuentran bajo la misma red local, BitTorrent Sync usará dicha red para realizar la sincronización más rápido.
 
-## Instalar BitTorrent Sync y guía de uso
+# Instalar BitTorrent Sync y guía de uso
 
 Está <a href="http://labs.bittorrent.com/experiments/sync/technology.html" target="_blank">disponible</a> tanto para Windows, Mac y Linux. Los dos primeros son programas de escritorio, en linux se usa una interfaz web. Descargamos el correspondiente:
 
@@ -65,15 +64,13 @@ Hecho lo anterior, en el otro dispositivo, elegimos una carpeta en la que queram
 
 Para copiar el secreto de cualquier carpeta basta con hacer click en el botón **Get Secret** en linux o pulsar el botón derecho del ratón sobre la carpeta en Windows y Mac.
 
-## Secret, Read-Only Secret y One-Time Secret
+# Secret, Read-Only Secret y One-Time Secret
 
 A la hora de compartir una carpeta, se pueden seleccionar varios tipos de secretos. El **generado al crear la carpeta** permite a todos los dispositivos con dicho secreto modificar el contenido. El **Read-Only Secret** sólo permite acceder a los archivos, pero no modificarlos. Un tercer tipo es el **One-time Secret**, que solo será válido durante 24 horas y puede ser de solo lectura o lectura/escritura.
 
 Para terminar dejo el podcast del episodio de security now!
 
-
-
-#### Referencias
+# Referencias
 
 *BitTorrent Sync* »» <a href="http://labs.bittorrent.com/experiments/sync.html" target="_blank">Visitar sitio</a>
 

@@ -2,15 +2,12 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: 2016-01-25 11:05:30
 description: "En este art\xEDculo se ver\xE1 una introducci\xF3n a lo que es la biometr\xEDa,
   y c\xF3mo se puede aplicar a los sistemas inform\xE1ticos para proporcionar seguridad.
   Tambi\xE9n se har\xE1 un repaso a los distintos tipos de biometr\xEDa."
 image: hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png
-
 mainclass: articulos
-modified: null
 tags:
 - "seguridad biom\xE9trica"
 - "biometr\xEDa aplicada a la seguridad"
@@ -18,17 +15,16 @@ tags:
 - "sistemas biom\xE9tricos"
 - "biometr\xEDa de la mano"
 title: "Biometr\xEDa Aplicada a La Seguridad - Introducci\xF3n"
+lastmod: 2017-02-11
 ---
 
 <figure>
-<a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="{{ page.title }}" alt="{{ page.title }}" width="640px" height="405px" /></a>
+<a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="Biometr\xEDa Aplicada a La Seguridad - Introducci\xF3n" alt="Biometr\xEDa Aplicada a La Seguridad - Introducci\xF3n" width="640px" height="405px" /></a>
 <span class="image-credit">Crédito de la imagen: pixabay<a href="https://pixabay.com/en/biometrics-eye-security-154660/"></a></span><br />
 </figure>
 
 
-
 El siguiente artículo forma parte de un trabajo en grupo realizado para la asignatura _Seguridad en Sistemas Operativos_ de la facultad de Ingeniería Informática de Granada (ETSIIT). Los componentes del grupo fueron [@MPV_Prod](http://twitter.com/MPV_Prod) , [@_musicalnote](http://twitter.com/_musicalnote) y [@ElBaulP](http://twitter.com/elbaulp). Este primer artículo es autoría de @MPV_Prod.
-{: .notice-info }
 
 # Índice
 
@@ -161,7 +157,7 @@ del mismo. Estas son:
         tiempo de posicionamiento, etc).
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Biometricserror.jpg" alt="Biometric Error" title="Biometric Error" ></amp-img>
+    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Biometricserror.jpg" alt="Biometric Error" title="Biometric Error" width="239" height="210"></amp-img>
     <figcaption>EER</figcaption>
 </figure>
 
@@ -193,7 +189,7 @@ nos encontramos dos técnicas diferentes:
     cuando la calidad de la muestra es deficiente.
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/huellas3.png" alt="Minucias" title="Minucias" ></amp-img>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/huellas3.png" width="515" height="392" alt="Minucias" title="Minucias" ></amp-img>
 <figcaption>Minucias</figcaption>
 </figure>
 
@@ -202,7 +198,7 @@ nos encontramos dos técnicas diferentes:
     las minucias.
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crestas.png" alt="Correlación" title="Correlación" ></amp-img>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crestas.png" width="609" height="210" alt="Correlación" title="Correlación" ></amp-img>
 <figcaption>Correlación</figcaption>
 </figure>
 
@@ -220,12 +216,12 @@ dorso de la mano, etc. No obstante, no se tienen en cuenta rasgos
 superficiales.
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bio2.png" alt="Escaner Morfología" title="Escaner Morfología" ></amp-img>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bio2.png" width="206" height="245" alt="Escaner Morfología" title="Escaner Morfología" ></amp-img>
 <figcaption>Escaner Morfología</figcaption>
 </figure>
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/extraccionmano.png" alt="Modelo Mano" title="Modelo Mano" ></amp-img>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/extraccionmano.png" width="350" height="192" alt="Modelo Mano" title="Modelo Mano" ></amp-img>
 <figcaption>Modelo Mano</figcaption>
 </figure>
 
@@ -243,7 +239,7 @@ alto coste de los dispositivos, hacen que su utilización se limite a
 instalaciones militares, nucleares o laboratorios.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/RetinaViewer.png)" alt="Modelo Retina" title="Modelo Retina" ></amp-img>
+    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/RetinaViewer.png" width="1278" height="768" alt="Modelo Retina" title="Modelo Retina" ></amp-img>
     <figcaption>Modelo Retina</figcaption>
 </figure>
 
@@ -253,7 +249,7 @@ Es un método muy similar al anterior en cuanto a FAR y FRR, aunque aquí
 utiliza un escáner externo del iris del ojo, en lugar de la retina.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Iris_Scanner.jpg" alt="Escaner Iris" title="Escaner Iris" ></amp-img>
+    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Iris_Scanner.jpg" width="315" height="462" alt="Escaner Iris" title="Escaner Iris" ></amp-img>
     <figcaption>Escaner Iris</figcaption>
 </figure>
 
@@ -273,7 +269,7 @@ utilizarse para tareas de vigilancia sin necesidad de adquirir equipo
 específico.
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/keylemon-2.png" alt="Análisis Facial" title="Análisis Facial" ></amp-img>
+<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/keylemon-2.png" width="538" height="535" alt="Análisis Facial" title="Análisis Facial" ></amp-img>
 <figcaption>Análisis Facial</figcaption>
 </figure>
 
@@ -323,11 +319,10 @@ teclado (evolución del patrón).
 - [Biometría aplicada a la seguiridad - Reconocimiento de patrones](/biometria-seguridad-patrones "Biometría aplicada a la seguiridad - Reconocimiento de patrones")
 - [Biometría aplicada a la seguiridad - Sistemas biométricos](/sistemas-biometricos "Biometría aplicada a la seguiridad - Sistemas biométricos")
 
-#### Referencias
+# Referencias
 
 - [M. Tapiador Mateos and J. A. Sigüenza Pizarro, Tecnologías biométricas aplicadas a la
-seguridad](http://www.amazon.es/gp/product/8478976361/ref=as_li_ss_tl?ie=UTF8&camp;=3626&creative;=24822&creativeASIN;=8478976361&linkCode;=as2&tag;=bmacoc-21 "M. Tapiador Mateos and J. A. Sigüenza Pizarro, Tecnologías biométricas aplicadas a la
-seguridad")
+seguridad](http://www.amazon.es/gp/product/8478976361/ref=as_li_ss_tl?ie=UTF8&camp;=3626&creative;=24822&creativeASIN;=8478976361&linkCode;=as2&tag;=bmacoc-21 "M. Tapiador Mateos and J. A. Sigüenza Pizarro, Tecnologías biométricas aplicadas a la seguridad")
 - [C. H. Chen and C. H. Chen, Handbook of Pattern Recognition and Computer Vision 4th edition](http://www.amazon.es/gp/product/9814656526/ref=as_li_ss_tl?ie=UTF8&camp;=3626&creative;=24822&creativeASIN;=9814656526&linkCode;=as2&tag;=bmab-21 "C. H. Chen and C. H. Chen, Handbook of Pattern Recognition and Computer Vision 4th edition")
 - [Wikipedia, “Biometría, según wikipedia.”](https://es.wikipedia.org/wiki/
 Biometr%C3%ADa "Wikipedia, “Biometría, según wikipedia.”")

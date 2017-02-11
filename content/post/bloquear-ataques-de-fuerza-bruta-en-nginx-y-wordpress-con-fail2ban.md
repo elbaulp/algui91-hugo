@@ -2,7 +2,7 @@
 author: alex
 categories:
 - administracion de servidores
-color: '#0097A7'
+- servidores
 date: '2016-01-01'
 description: "Cuando se administra un servidor, te das cuenta de la cantidad de m\xE1quinas
   automatizadas que existen realizando ataques de fuerza bruta hacia tu servidor.
@@ -12,8 +12,6 @@ description: "Cuando se administra un servidor, te das cuenta de la cantidad de 
   nuestra m\xE1quina a robots atacando por fuerza bruta a WordPress y al servidor
   web Nginx"
 image: 2013/11/Bloquear-ataques-de-fuerza-bruta-en-Nginx-y-Wordpress-con-Fail2Ban2.png
-lastmod: 2015-12-30
-
 mainclass: servidores
 url: /bloquear-ataques-de-fuerza-bruta-en-nginx-y-wordpress-con-fail2ban/
 aliases: /administracion-de-servidores/bloquear-ataques-de-fuerza-bruta-en-nginx-y-wordpress-con-fail2ban/
@@ -22,6 +20,7 @@ tags:
 - fail2ban nginx
 - fail2ban wordpress
 title: Bloquear ataques de fuerza bruta en Nginx y WordPress con Fail2Ban
+lastmod: 2017-02-11
 ---
 
 <figure>
@@ -32,7 +31,7 @@ Cuando se administra un servidor, te das cuenta de la cantidad de máquinas auto
 
 <!--more--><!--ad-->
 
-### Instalar Fail2Ban
+# Instalar Fail2Ban
 
 Si no se encuentra instalado en nuestro sistema:
 
@@ -41,7 +40,7 @@ $ sudo apt-get install fail2ban
 
 ```
 
-### Antes de empezar
+# Antes de empezar
 
 Antes de modificar el archivo */etc/fail2ban/jail.conf*, es recomendable -y de hecho lo menciona el propio archivo en su cabecera &#8212; realizar una copia y trabajar sobre ella:
 
@@ -50,7 +49,7 @@ cd /etc/fail2ban && cp jail.conf jail.local
 
 ```
 
-### Bloquear ataques de fuerza bruta a WordPress
+# Bloquear ataques de fuerza bruta a WordPress
 
 La siguiente configuración bloqueará durante 20 minutos cualquier intento de loggearse en WordPress de forma incorrecta más de 3 veces. Hay que escribirla en el *jail.local*:
 
@@ -77,7 +76,7 @@ ignoreregex =
 
 ```
 
-### Inconvenientes a tener en cuenta
+# Inconvenientes a tener en cuenta
 
 Con esta configuración, hay que considerar que:
 
@@ -150,7 +149,7 @@ Y sus correspondientes filtros en */etc/fail2ban/filter.d/* (Cada uno en un fich
 # 192.168.1.1 - - "GET http://www.something.com/
 #
 [Definition]
-failregex = ^</host><host> -.*GET http.*
+failregex = ^<host> -.*GET http.*
 ignoreregex =
 
 # Noscript filter /etc/fail2ban/filter.d/nginx-noscript.conf:
@@ -161,7 +160,7 @@ ignoreregex =
 # 192.168.1.1 - - "GET /something.php
 #
 [Definition]
-failregex = ^</host><host> -.*GET.*(\.php|\.asp|\.exe|\.pl|\.cgi|\scgi)
+failregex = ^<host> -.*GET.*(\.php|\.asp|\.exe|\.pl|\.cgi|\scgi)
 ignoreregex =
 
 #
@@ -171,9 +170,9 @@ ignoreregex =
 #
 [Definition]
 
-failregex = no user/password was provided for basic authentication.*client: </host><host>
-            user .* was not found in.*client: </host><host>
-            user .* password mismatch.*client: </host><host>
+failregex = no user/password was provided for basic authentication.*client: <host>
+            user .* was not found in.*client: <host>
+            user .* password mismatch.*client: <host>
 
 ignoreregex =
 
@@ -184,12 +183,12 @@ ignoreregex =
 #
 # Scan access log for HTTP 200 + POST /sessions => failed log in
 [Definition]
-failregex = ^</host><host> -.*POST /sessions HTTP/1\.." 200
+failregex = ^<host> -.*POST /sessions HTTP/1\.." 200
 ignoreregex =
 
 ```
 
-### Enviar por correo los bloqueos
+# Enviar por correo los bloqueos
 
 Para terminar, si queremos recibir un correo por cada bloqueo que se produzca, basta con añadir estas dos líneas al fichero *jail.local*:
 
@@ -201,15 +200,10 @@ mta = sendmail
 
 ¿Administras un servidor? ¿Qué técnicas usas?, deja un comentario.
 
-#### Referencias
+# Referencias
 
-*Fail2Ban para wordpress* »» <a href="http://codepoets.co.uk/2013/fail2ban-filter-for-wordpress/" target="_blank">codepoets.co.uk</a>
-*Fail2Ban para Nginx* »» <a href="http://snippets.aktagon.com/snippets/554-how-to-secure-an-nginx-server-with-fail2ban" target="_blank">snippets.aktagon.com</a>
-
-
+- *Fail2Ban para wordpress* »» <a href="http://codepoets.co.uk/2013/fail2ban-filter-for-wordpress/" target="_blank">codepoets.co.uk</a>
+- *Fail2Ban para Nginx* »» <a href="http://snippets.aktagon.com/snippets/554-how-to-secure-an-nginx-server-with-fail2ban" target="_blank">snippets.aktagon.com</a>
 
  [1]: https://elbauldelprogramador.com/bloquear-una-ip-atacanto-el-servidor-mediante-iptables/ "Bloquear una IP atacando el servidor mediante iptables"
  [2]: https://elbauldelprogramador.com/como-instalar-nginx-con-php5-fpm/ "Cómo instalar y configurar Nginx con php5-fpm"
-
-
-</host>
