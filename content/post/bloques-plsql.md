@@ -2,12 +2,10 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
+lastmod: 2017-02-12
 description: "Los bloques PL/SQL presentan una estructura espec\xEDfica compuesta
   de tres partes bien diferenciadas"
-lastmod: 2016-08-24
-
 mainclass: BaseDeDatos
 url: /bloques-plsql/
 title: Bloques PL/SQL
@@ -20,9 +18,7 @@ Los bloques PL/SQL son de varios tipos:
 * **Subprogramas.** Procedimientos, paquetes o funciones almacenados en la BD. No suelen cambiar después de su construcción y se ejecutan múltiples veces mediante una llamada call.
 * Disparadores(Triggers). Son bloques con nombre que también se almacenan en la BD. Tampoco suelen cambiar después de su construcción y se ejecutan varias veces. Se ejecutan de forma automática ante algún suceso de disparo, que será una orden del lenguaje de manipulación de datos (`INSERT`, `UPDATE` o `DELETE`) que se ejecuta sobre una tabla de la BD.
 
-
 <!--more--><!--ad-->
-
 
 Los bloques PL/SQL presentan una estructura específica compuesta de tres partes bien diferenciadas:
 
@@ -70,6 +66,6 @@ Para mostrar el contenido de una expresión se debe utilizar la sentencia:
 DBMS_OUTPUT.PUT_LINE (cadena_caracteres);
 ```
 
-## Siguiente Tema: [PL/SQL - Declaración de variables][1]
+# Siguiente Tema: [PL/SQL - Declaración de variables][1]
 
- [1]: https://elbauldelprogramador.com/plsql-declaracion-de-variables/
+[1]: https://elbauldelprogramador.com/plsql-declaracion-de-variables/

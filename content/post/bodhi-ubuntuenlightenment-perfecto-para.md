@@ -2,10 +2,8 @@
 author: alex
 categories:
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-15
-
+lastmod: 2017-02-12
 mainclass: articulos
 url: /bodhi-ubuntuenlightenment-perfecto-para/
 title: 'Bodhi: Ubuntu+Enlightenment, perfecto para minimalistas'
@@ -31,7 +29,7 @@ Hay cosas interesantes en Bodhi, como el hecho de que por defecto dos de los rep
 
 Y la otra gran característica es la que habla de sus requisitos hardware: **basta con un procesador i386 a 300 MHz, 128 Mbytes de RAM,** y un disco duro con 1,5 Gbytes de espacio para instalarla. Habrá que echarle un vistazo, ¿no creéis? Podéis descargarla Bodhi 0.1.0 (32 bits) desde [este enlace en SourceForge][4].
 
-## Fuente: <a href="http://www.muylinux.com/2010/11/20/bodhi-ubuntuenlightenment-perfecto-para-minimalistas" target="_blank">MuyLinux.com</a>
+# Fuente: <a href="http://www.muylinux.com/2010/11/20/bodhi-ubuntuenlightenment-perfecto-para-minimalistas" target="_blank">MuyLinux.com</a>
 
  [1]: http://bodhilinux.com
  [2]: http://jeffhoogland.blogspot.com/2010/11/announcing-bodhi-linux.html

@@ -3,14 +3,11 @@ author: alex
 categories:
 - android
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
 description: "Leyendo noticias en mi lector RSS he encontrado un art\xEDculo interesante
   que comparto con vosotros. Se trata de un programa que permitir\xE1 tener un sistema
   debian b\xE1sico en el dispostivo."
 image: 2012/12/linux-apps-on-android1.jpg
-lastmod: 2016-08-13
-
 mainclass: articulos
 url: /botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/
 aliases: /programacion/android/botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/
@@ -22,6 +19,7 @@ tags:
 - samsung galaxy scl gti9003
 - xda
 title: BotBrew basil, Compila, instala y ejecuta aplicaciones Linux en Android
+lastmod: 2017-02-12
 ---
 
 Leyendo noticias en mi lector RSS he encontrado un artículo interesante que comparto con vosotros.
@@ -96,9 +94,9 @@ De nuevo, com prueba, una captura de pantalla:
 
 A continuación un vídeo explicando el proceso de instalación de busybox sin permisos de root:
 
-### Referencias
+# Referencias
 
 - *Geeknizer* »» <a href="http://geeknizer.com/install-run-linux-applications-on-android/" target="_blank">Visitar sitio</a>
 - *XDA-Developers* »» <a href="http://forum.xda-developers.com/showpost.php?p=26261600&postcount=119" target="_blank">Visitar sitio</a>
 
- [1]: https://elbauldelprogramador.com/rootear-samsung-galaxy-s-gt-i9003/ "Rootear Samsung Galaxy S GT-I9003"
+[1]: https://elbauldelprogramador.com/rootear-samsung-galaxy-s-gt-i9003/ "Rootear Samsung Galaxy S GT-I9003"

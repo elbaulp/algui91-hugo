@@ -4,7 +4,6 @@ amp:
   elements: [amp-youtube]
 categories:
 - java
-color: '#D32F2F'
 date: 2016-02-15 19:36:34
 description: "Enunciado: se debe identificar mediante interfaz vocal un punto cardinal
   (Norte, Sur, Este y Oeste) y el porcentaje de error (cantidad entera) en la detecci\xF3n
@@ -12,9 +11,7 @@ description: "Enunciado: se debe identificar mediante interfaz vocal un punto ca
   el patr\xF3n vocal se debe mostrar una br\xFAjula para que el usuario se oriente
   en la direcci\xF3n indicada, cuando lo realice se le debe indicar que ya se ha conseguido."
 image: hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png
-
 mainclass: java
-modified: null
 tags:
 - brujula android
 - crear brujula android
@@ -22,13 +19,12 @@ tags:
 - reconocimiento de voz android
 - tutorial ASR android
 title: "Crear Una Br\xFAjula Con Reconocimiento De Voz en Android"
+lastmod: 2017-02-12
 ---
 
 <figure>
 <a href="/img/hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png" title="{{ page.title }}" alt="{{ page.title }}" width="336px" height="285px" /></a>
 </figure>
-
-
 
 >La siguiente aplicación es parte de una práctica de la asignatura “Nuevos Paradigmas de la Interacción” de la facultad de Ingeniería Informática de Granada (ETSIIT) Otras aplicaciones de la práctica son:
 
@@ -39,7 +35,7 @@ title: "Crear Una Br\xFAjula Con Reconocimiento De Voz en Android"
 Si te interesa android, puedes echar un vistazo a los cursos disponibles en el blog, [Android1](/curso-programacion-android/ "Curso de Android"), [Android2](/android/ "Curso nuevo de Android")
 {: .notice-info }
 
-## Brujula Compass
+# Brujula Compass
 
 _Enunciado: se debe identificar mediante interfaz vocal un punto cardinal (Norte, Sur, Este y Oeste) y el porcentaje de error (cantidad entera) en la detección del punto, solo el número, por ejemplo “Norte diez”. Una vez reconocido el patrón vocal se debe mostrar una brújula para que el usuario se oriente en la dirección indicada, cuando lo realice se le debe indicar que ya se ha conseguido._
 
@@ -54,7 +50,7 @@ Para realizar esta aplicación se ha tomado como base la brújula de la _ROM_ MI
 
 <!--more--><!--ad-->
 
-## Inicio de la aplicación
+# Inicio de la aplicación
 
 <figure>
 <a href="/img/npi/inicioBrujula.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/inicioBrujula.png" title="Primera pantalla de la aplicación brújula" alt="Primera pantalla de la aplicación brújula" width="338px" height="600px" /></a>
@@ -82,11 +78,11 @@ Para dar nuevas instrucciones de voz basta con tocar la brújula.
 
 En la parte inferior de la pantalla, aparece el comando de voz reconocido.
 
-## Implementación
+# Implementación
 
 Se han necesitado de tres clases, La principal que implementa la actividad (`CompassActivity`), donde reside prácticamente toda la lógica de la aplicación. En ella se hace uso de los sensores magnético y el acelerómetro. La otra clase ha es una extensión de la clase `ImageVew` para crear nuestra propia vista, en este caso el compás y el indicador de la dirección indicada por el usuario.
 
-## Clase CompassActivity.java
+# Clase CompassActivity.java
 
 Esta clase es la principal y en la que se realiza toda la lógica, en ella se declarar y registran los sensores a usar (El magnético y el acelerómetro). Ambos se obtienen en el método `onCreate` del siguiente modo:
 
@@ -305,7 +301,7 @@ Como vemos, el `Runnable` se llama a sí mismo para mantenerse en ejecución `mH
 
 Los métodos `updateDirection` son métodos definidos en las clases que veremos ahora, que representan la brujula y el indicador.
 
-## Clase CompassView.java
+# Clase CompassView.java
 
 Los dos métodos más importantes de esta clase son:
 
@@ -331,17 +327,16 @@ public void updateDirection(float direction) {
 
 que se encargan de rotar la brújula cada vez que se llama al método `updateDirection` desde el `Runnable`  visto anteriormente.
 
-## Permisos requeridos para el AndroidManifest
+# Permisos requeridos para el AndroidManifest
 
 ```xml
-<uses-permission android:name="android.permission.VIBRATE">
-</uses-permission><uses-permission android:name="android.permission.INTERNET">
-</uses-permission><uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+<uses-permission android:name="android.permission.VIBRATE"/>
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 ```
 
-## Referencias
+# Referencias
 
 - Comass de MIUI \| [github.com/MiCode](https://github.com/MiCode/Compass "Código en github")
 - Pro Android 5 \| [amazon.es](http://www.amazon.es/gp/product/1430246804/ref=as_li_ss_tl?ie=UTF8&camp;=3626&creative;=24822&creativeASIN;=1430246804&linkCode;=as2&tag;=bmab-21 "Ver libro en Amazon")
 - Código de la aplicación \| [github.com/algui91/BrujulaCompass](https://github.com/algui91/grado_informatica_npi/tree/master/Android/BrujulaCompass "Código en Github para BrujulaCompass")
-</uses-permission></string>
