@@ -64,6 +64,8 @@
   translation: "Latest Posts"
 - id: post_tags
   translation: "Tags:"
+- id: post_cats
+  translation: "Categories:"
 - id: translate
   translation: "Help us translating to Spanish"
 - id: translate_pr

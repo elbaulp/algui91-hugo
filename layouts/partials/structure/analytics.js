@@ -191,6 +191,24 @@
                     "eventCategory": "translateClick",
                     "eventAction": "translateClick"
                 }
+            },
+            "tags" : {
+                "on": "click",
+                "selector": "#tags",
+                "request": "event",
+                "vars": {
+                    "eventCategory": "tagslinks",
+                    "eventAction": "tagClick"
+                }
+            },
+            "cats" : {
+                "on": "click",
+                "selector": "#cats",
+                "request": "event",
+                "vars": {
+                    "eventCategory": "catslinks",
+                    "eventAction": "catClick"
+                }
             }
         }
     }

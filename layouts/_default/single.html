@@ -14,14 +14,7 @@
     {{ end }}
     {{ $ad := partial "structure/ad" . }}
     {{ replace .Content "<!--ad-->" $ad | safeHTML }}
-    {{ with .Params.tags }}
-       <div class="tags">
-         <strong>{{ T "post_tags" }}</strong>
-            {{ range . }}
-               <a href="{{ "/tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a>
-            {{ end }}
-       </div>
-    {{ end }}
+    {{ partial "structure/cattags" . }}
     {{ partial "structure/nextprev" . }}
   </article>
   {{ partial "structure/share" . }}

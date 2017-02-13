@@ -64,6 +64,8 @@
   translation: "Últimos Artículos"
 - id: post_tags
   translation: "Etiquetas:"
+- id: post_cats
+  translation: "Categorías:"
 - id: translate
   translation: "Ayúdanos a traducir al inglés"
 - id: translate_pr
