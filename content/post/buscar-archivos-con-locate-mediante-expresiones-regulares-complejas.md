@@ -2,14 +2,12 @@
 author: alex
 categories:
 - script
-color: '#2196F3'
 date: '2016-01-01'
+lastmod: 2017-02-15
 description: "En linux, existe un comando llamado locate que busca archivos en nuestro
   sistema de ficheros haciendo consultas a una base de datos, la descripci\xF3n seg\xFAn
   su man es:"
 image: 2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.png
-lastmod: 2016-08-26
-
 mainclass: linux
 url: /buscar-archivos-con-locate-mediante-expresiones-regulares-complejas/
 tags:
@@ -27,9 +25,7 @@ En linux, existe un comando llamado **locate** que busca archivos en nuestro sis
 
 El motivo de este artículo viene dado por un problema que me planteé hace unos días. Resulta que tengo en un archivo los nombres de algunas de mis <a href="http://www.youtube.com/playlist?list=PLINUjqv9_oyrI4SXWqf-sBhoUnxHe2bRh" title="Lista de reproducción EPIC3" target="_blank">canciones preferidas</a>. Este archivo lo voy actualizando regularmente y quería generar una lista de reproducción en base a dicho fichero. Así que he creado un [script][2] que recorre todos los elementos del archivo y busca dónde se encuentra el fichero en mi disco duro.
 
-
-
-### Expresiones regulares en Locate
+# Expresiones regulares en Locate
 
 <!--more--><!--ad-->
 
@@ -37,7 +33,9 @@ El motivo de este artículo viene dado por un problema que me planteé hace unos
 
 El problema básicamente es el siguiente. A partir de un texto con los nombres *parciales* de un fichero obtener la ruta completa a dicho archivo. Lo de parciales quiere decir que si el nombre es **Autor - Nombre Canción**, en el texto solo se guarda **Nombre Canción**.
 
-### Crear la expresión regular
+> __Actualización__: Hace un tiempo creé este script en python para [generar listas de reproducción de una determinada duración](https://elbauldelprogramador.com/generar-listas-de-reproduccion-determinada-duracion-python/ "generar listas de reproducción de una determinada duración")
+
+# Crear la expresión regular
 
 Empezaré mostrando la expresión regular y luego la explicaré:
 
@@ -54,7 +52,7 @@ Siempre que necesito crear una expresión regular uso una herramienta llamada **
     <figcaption>Créditos: <a href="https://www.iconfinder.com/icons/33644/terminal_icon" target="_blank">inconfinder</a></figcaption>
 </figure>
 
-### Script completo
+# Script completo
 
 Con la expresión regular construida, solo resta crear un script que procese el texto con el nombre de las canciones y cree la lista de reproducción:
 
@@ -95,7 +93,7 @@ done
 ```
 
 
-### Referencias
+# Referencias
 
 - *RegEx Tester* »» <a href="http://regexpal.com/" target="_blank">regexpal.com</a>
 
