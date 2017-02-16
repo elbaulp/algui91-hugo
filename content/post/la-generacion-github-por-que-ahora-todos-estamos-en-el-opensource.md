@@ -6,7 +6,6 @@ color: '#F57C00'
 date: '2016-01-01'
 image: "2013/08/La-generaci\xF3n-GitHub-Por-qu\xE9-ahora-todos-estamos-en-el-opensource.jpg"
 lastmod: 2016-08-07
-
 mainclass: articulos
 url: /la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/
 tags:
@@ -15,6 +14,7 @@ tags:
 - que es github
 - ventajas de github
 title: "La generaci\xF3n GitHub: Por qu\xE9 ahora todos estamos en el opensource"
+aliases: /articulos/la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/
 ---
 
 <figure>
