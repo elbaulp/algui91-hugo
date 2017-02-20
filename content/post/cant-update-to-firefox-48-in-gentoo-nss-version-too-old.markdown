@@ -3,13 +3,9 @@ author: alex
 categories:
 - linux
 - gentoo
-color: '#2196F3'
 date: 2016-08-04 08:55:12
-description: 'Resolver configure: error you don''t have NSS installed or your version
-  is too old al actualizar Firefox 48'
-image: null
-introduction: null
-
+lastmod: 2017-02-20
+description: 'Resolver configure: error you don''t have NSS installed or your version is too old al actualizar Firefox 48'
 mainclass: linux
 tags:
 - gentoo

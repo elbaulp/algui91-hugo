@@ -3,16 +3,13 @@ author: alex
 categories:
 - linux
 - gentoo
-color: '#2196F3'
 date: 2016-08-04 09:05:17
+lastmod: 2017-02-20
 description: 'Solve configure: error you don''t have NSS installed or your version
   is too old'
 image: null
 introduction: null
-lang: en
-
 mainclass: linux
-modified: null
 tags:
 - gentoo
 - emerge

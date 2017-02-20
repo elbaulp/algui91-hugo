@@ -3,9 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-
+lastmod: 2017-02-20
 mainclass: android
 url: /programacion-android-trabajar-con/
 tags:
@@ -13,8 +12,7 @@ tags:
 - android view setonclicklistener example
 - curso android pdf
 - startactivityforresult android example
-title: "Programaci\xF3n Android: Trabajar con actividades y pasar par\xE1metros entre
-  ellas"
+title: "Programaci\xF3n Android: Trabajar con actividades y pasar par\xE1metros entre ellas"
 ---
 
 En el primer capítulo, vimos como crear nuestro primer proyecto en Android, el conocido [Hola Mundo][1], en esta entrada, vamos a ver como crear varias [actividades][2] y cómo hacer que se pasen parámetros las unas a las otras.
@@ -28,37 +26,64 @@ Voy a explicar un poco por encima que hace cada fichero del proyecto:
 
 <!--more--><!--ad-->
 
-### ./res/layout/main.xml
+# ./res/layout/main.xml
 
 ```xml
-< ?xml version="1.0" encoding="utf-8"?>
-<linearlayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-<textview android:id="@+id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hello">
-<button android:id="@+id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cadena1">
-</button><button android:id="@+id/button2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cadena2">
-</button></textview></linearlayout>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
+ <TextView android:id="@+id/textView1"
+           android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hello" />
 
+ <Button android:id="@+id/button1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/cadena1" />
+
+ <Button android:id="@+id/button2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/cadena2" />
+</LinearLayout>
 ```
 
 En este layout principal vamos a añadir dos botones que nos servirán para lanzar las nuevas actividades que creemos después.
 
-### ./res/layout/segunda_actividad.xml
+# ./res/layout/segunda_actividad.xml
 
 ```xml
-< ?xml version="1.0" encoding="utf-8"?>
-<linearlayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-<textview android:id="@+id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cadena1">
-</textview><textview android:id="@+id/params" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hello">
-<button android:id="@+id/boton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cadena1">
-</button></textview></linearlayout>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent">
 
+ <TextView android:id="@+id/textView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/cadena1" />
 
+ <TextView android:id="@+id/params"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hello" />
+
+ <Button android:id="@+id/boton"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/cadena1" />
+
+</LinearLayout>
 ```
 
 Este layout vamos a usarlo para mostrar los parámetros que pasemos de una actividad a otra
 
-### ./src/mainActivity.java
+# ./src/mainActivity.java
 
 ```java
 package com.elbauldelprogramador.actividades;
@@ -138,7 +163,7 @@ En esta clase vamos a modificar el comportamiento de los botones, añadiendoles 
 
 Por último, vamos a crear otras dos actividades, la primera (./src/activity1.java), no va a hacer nada, solo mostrarse. La segunda (./src/ParametrosActivity.java), va a recibir un parámetro y devolver otro.
 
-### ./src/activity1.java
+# ./src/activity1.java
 
 ```java
 package com.elbauldelprogramador.actividades;
@@ -180,7 +205,7 @@ public class Activity1 extends Activity {
 
 ```
 
-### ./src/ParametrosActivity.java
+# ./src/ParametrosActivity.java
 
 ```java
 package com.elbauldelprogramador.actividades;
@@ -230,13 +255,9 @@ public class ParametrosActivity extends Activity {
       finish();
    }
 }
-
-
 ```
 
-* * *
-
-#### Siguiente Tema: [Programación Android: Interfaz gráfica - Conceptos básicos][3]
+# Siguiente Tema: [Programación Android: Interfaz gráfica - Conceptos básicos][3]
 
 
 

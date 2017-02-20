@@ -2,24 +2,22 @@
 author: alex
 categories:
 - linux
-color: '#2196F3'
 date: 2016-10-03 14:15:35
+lastmod: 2017-02-20
 description: "Cuando NetworkManager se connecta a una red, cambia el nombre de host
   (Hostname), y las aplicaciones gr\xE1ficas dejan de funcionar"
 image: cant-open-display-0-0-wifi-net.png
 introduction: "Cuando NetworkManager se connecta a una red, cambia el nombre de host
   (Hostname), y las aplicaciones gr\xE1ficas dejan de funcionar"
-
 mainclass: linux
 tags:
 - linux
 - NetworkManager
 - error
-title: "C\xF3mo Resolver El Error \u201CCan't Open Display: :0.0\u201D Al Conectarse
-  a Una Red Wi-Fi"
+title: "C\xF3mo Resolver El Error \u201CCan't Open Display: :0.0\u201D Al Conectarse a Una Red Wi-Fi"
 ---
 
-## Problema: Can't Open Display: :0.0
+# Problema: Can't Open Display: :0.0
 
 _NetworkManager_ tiene la costumbre de cambiar el nombre del host (_hostname_) al conectarse a una red, y esto a veces provoca que las aplicaciones con interfaz gráfica no puedan lanzarse. El típico error que se obtiene cuando esto ocurre es:
 
@@ -29,7 +27,7 @@ Can't Open Display: :0.0
 
 <!--more--><!--ad-->
 
-## Solución: Establecer de forma permanente un hostname
+# Solución: Establecer de forma permanente un hostname
 
 Tras mucho investigar, descubrí que el problema estaba en _NetworkManager_, y para solucionarlo basta con hacer permanente el _hostname_. Para ello en el fichero `/etc/hosts` debemos añadir un alias a `localhost` con el nombre que queramos:
 
@@ -49,7 +47,7 @@ hostname=NombreDeseado
 
 Con esto bastará.
 
-### Cuando la solución no funciona
+# Cuando la solución no funciona
 
 Recientemente se actualizó _NetworkManager_ y la solución de arriba dejó de funcionar. Esto se debe a que _NetworkManager_ ya no mira el nombre del host en el fichero de configuración, como mencionan en el _man_ de `NetworkManager.conf`:
 
@@ -62,7 +60,7 @@ $ cat /etc/hostname
 NombreDeseado
 ```
 
-## Referencias
+# Referencias
 
 - [Arch Linux forums](https://bbs.archlinux.org/viewtopic.php?id=59575 "Can't open display: :0.0")
 - [System Settings gnome](https://wiki.gnome.org/Projects/NetworkManager/SystemSettings "System settings gnome")

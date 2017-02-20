@@ -2,13 +2,11 @@
 author: alex
 categories:
 - linux
-color: '#2196F3'
 date: '2016-01-01'
+lastmod: 2017-02-20
 description: Si quieres personalizar la pantalla de bienvenida en Debian o Ubuntu,
   es posible cambiar el fondo de pantalla en unos cuantos pasos.
 image: 2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg
-lastmod: 2015-12-29
-
 mainclass: linux
 url: /cambiar-fondo-en-la-pantalla-de-login-en-debian-y-ubuntu/
 tags:
@@ -20,16 +18,16 @@ title: Cambiar fondo en la pantalla de login en Debian y Ubuntu
 ---
 
 <figure>
-<a href="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="3264px" height="2448px" /></a>
+<a href="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg" title="Cambiar fondo en la pantalla de login en Debian y Ubuntu" alt="Cambiar fondo en la pantalla de login en Debian y Ubuntu" width="3264px" height="2448px" /></a>
 </figure>
 
 Si quieres personalizar la pantalla de bienvenida en Debian o Ubuntu, es posible cambiar el fondo de pantalla en unos cuantos pasos.
 
 <!--more--><!--ad-->
 
-### En Debian
+# En Debian
 
-#### Editando el archivo /etc/gdm3/greeter.gsettings
+## Editando el archivo /etc/gdm3/greeter.gsettings
 
 Añadiendo o modificando las siguientes líneas:
 
@@ -50,7 +48,7 @@ dpkg-reconfigure gdm3
 
 para aplicar los cambios.
 
-### En Ubuntu
+# En Ubuntu
 
 Hay que asegurarse que el fondo tenga permisos de lectura tanto para el usuario, el grupo y otros, esto se puede lograr con
 
@@ -96,25 +94,21 @@ gsettings set com.canonical.unity-greeter background '/foo/wallpaper.png'
 
 Hay que tener en cuenta que, si nuestro */home/* está [cifrado][1], no podemos especificar un fondo que esté dentro de ese directorio, puesto que la partición */home* aún no estará descifrada en la pantalla de login.
 
-### En Xubuntu
+# En Xubuntu
 
 La imagen se encuentra en `/usr/share/xfce4/backdrops/xubuntu-wallpaper.png` como un enlace simbólico, basta con ver a dónde apunta ese enlace y reemplazarlo con la imagen deseada. En mi caso dicha imagen era `xubuntu-trusty.png`, situada en el mismo directorio. Lo más fácil sería hacer:
 
 ```bash
 sudo cp ruta/imagen/deseada /usr/share/xfce4/backdrops/xubuntu-trusty.png
-
 ```
 
 <figure>
-<a href="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="3264px" height="2448px" /></a>
+<a href="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg" title="Cambiar fondo en la pantalla de login en Debian y Ubuntu" alt="Cambiar fondo en la pantalla de login en Debian y Ubuntu" width="3264px" height="2448px" /></a>
 </figure>
 
-#### Referencias
+# Referencias
 
-*Debian* »» <a href="http://lists.debian.org/debian-desktop/2012/03/msg00054.html" target="_blank">lists.debian.org</a>
-*Ubuntu* »» <a href="http://askubuntu.com/questions/64001/how-do-i-change-the-wallpaper-in-lightdm" target="_blank">askubuntu.com</a>
+- *Debian* »» <a href="http://lists.debian.org/debian-desktop/2012/03/msg00054.html" target="_blank">lists.debian.org</a>
+- *Ubuntu* »» <a href="http://askubuntu.com/questions/64001/how-do-i-change-the-wallpaper-in-lightdm" target="_blank">askubuntu.com</a>
 
 [1]: https://elbauldelprogramador.com/como-cifrar-archivos-con-openssl/ "Cómo cifrar archivos con openssl"
-
-
-</nombre_fondo>
