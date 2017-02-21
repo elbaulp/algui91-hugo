@@ -12,6 +12,8 @@
   translation: "Download one of our free EBooks"
 - id: ads_patreon
   translation: "Become a Patreon!"
+- id: ads_support
+  translation: "More ways to support us"
 - id: author
   translation: "Author"
 - id: author_title
