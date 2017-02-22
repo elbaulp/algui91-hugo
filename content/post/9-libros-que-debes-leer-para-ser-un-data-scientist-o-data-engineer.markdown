@@ -3,11 +3,9 @@ author: alex
 categories:
 - articulos
 date: 2015-11-01 20:30:17
-description: "Tras mucho buscar, al fin he conseguido recopilar una lista de libros
-  que todo Cient\xEDfico de Datos o Ingeniero de Datos deber\xEDa tener en su biblioteca
-  personal."
+lastmod: 2017-02-22 09:25:06
+description: "Tras mucho buscar, al fin he conseguido recopilar una lista de libros que todo Cient\xEDfico de Datos o Ingeniero de Datos deber\xEDa tener en su biblioteca personal."
 image: ml/Machine-Learning-for-Hackers.jpg
-lastmod: 2017-01-31
 mainclass: articulos
 tags:
 - libros
@@ -27,7 +25,6 @@ Tras mucho buscar, al fin he conseguido recopilar una lista de libros que todo _
 biblioteca personal. Sin más dilaciones, he aquí la lista (La descrición de los libros ha sido cogida de Amazon)
 
 <!--more--><!--ad-->
-
 
 # Para Data Scientist
 

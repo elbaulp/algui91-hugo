@@ -2,13 +2,11 @@
 author: alex
 categories:
 - misc
-color: '#61B38D'
 date: 2016-08-30 14:10:30
+lastmod: 2017-02-22 09:40:58
 description: "Emacs: Recopilaci\xF3n de comandos y acciones \xFAtiles"
 image: chuleta-atajos-teclado-emacs.png
 introduction: "Emacs: Recopilaci\xF3n de comandos y acciones \xFAtiles"
-lastmod: 2016-12-06
-
 mainclass: misc
 tags:
 - emacs
@@ -31,9 +29,9 @@ A lo largo del poco tiempo que llevo usando [emacs](/tags/emacs "Artículos sobr
 
 
 
-## Paquetes útiles
+# Paquetes útiles
 
-### Yasnippet
+## Yasnippet
 
 [YaSnippet](https://www.emacswiki.org/emacs/Yasnippet "Página oficial de YaSnippet" ) es un sistema de plantillas para __emacs__, es uno de los paquetes que recomiendo instalar, ya que te facilita mucho la vida. Por defecto ya trae configurados muchos _snippets_ para todos los lenguajes, pero podemos configurar más a nuestro gusto. Por ejemplo:
 
@@ -67,9 +65,9 @@ $2
 
 Este otro _snippet_ lo uso para insertar código en _Markdown_, al escribir `code` y pulsar el tabulador, me inserta en el texto las tres tildes ``` con el cursor situado en _$1_ para que escriba el lenguaje en el que resaltará la sintáxis, y al volver a pulsar el tabulador el cursor se posiciona dentro del bloque de código para que comience a escribir.
 
-## Miscelánica / Taréas habituales
+# Miscelánica / Taréas habituales
 
-### Buscar y reemplazar en varios ficheros
+## Buscar y reemplazar en varios ficheros
 
 __Problema:__
 
@@ -84,7 +82,7 @@ __Solución:__
 
 __Fuente__: [Using Emacs to recursively find and replace in text files not already open](http://stackoverflow.com/a/271136/1612432 "Using Emacs to recursively find and replace in text files not already open")
 
-### Selección rectangular
+## Selección rectangular
 
 __Problema:__
 
@@ -123,7 +121,7 @@ Para ello seleccionamos la región, y pulsamos `C-x r t`, nos preguntará qué t
 
 __Fuente__: [GNU Emacs Manual](http://www.delorie.com/gnu/docs/emacs/emacs_68.html "GNU Emacs Manual")
 
-### Reemplazar un carácter con un salto de línea
+## Reemplazar un carácter con un salto de línea
 
 __Problema:__
 
@@ -150,15 +148,15 @@ Lorem ipsum dolor sit amet
 
 __Fuente:__ [How to replace a character with a newline in Emacs?](http://stackoverflow.com/a/613029/1612432 "How to replace a character with a newline in Emacs?")
 
-### Eliminiar los espacios en blanco sobrantes al final de una línea
+## Eliminiar los espacios en blanco sobrantes al final de una línea
 
 Basta ejecutar `M-x delete-trailing-whitespace`.
 
-### Guardar comandos que usamos usualmente
+## Guardar comandos que usamos usualmente
 
 Este tema se trató en más profundidad en el artículo [_Cómo crear comandos personalizados en Emacs_](/como-crear-comandos-personalizados-en-emacs "Cómo crear comandos personalizados en Emacs").
 
-### Administar las copias de seguridad de emacs
+## Administar las copias de seguridad de emacs
 
 __Problema:__
 
@@ -181,7 +179,7 @@ Donde podemos sustituir `~/.saves` por el directorio deseado.
 
 __Fuente:__ [How do I control how Emacs makes backup files?](http://stackoverflow.com/a/151946/1612432 "How do I control how Emacs makes backup files?")
 
-### Ejecutar una acción para todos los buffers abiertos
+## Ejecutar una acción para todos los buffers abiertos
 
 __Problema:__
 
@@ -203,11 +201,11 @@ A partir de ahora, cada vez que visitemos la pestaña del _buffer_, se abrirá _
 
 __Fuente:__ [Execute a particular command on multiple emacs buffers](http://stackoverflow.com/a/14293998/1612432 "Execute a particular command on multiple emacs buffers")
 
-### Alinear verticalmente código en base al signo =
+## Alinear verticalmente código en base al signo =
 
 - `M-x align-regex =`
 
-### Convertir texto a mayúscula/minúscula
+## Convertir texto a mayúscula/minúscula
 
 - `C-x C-u`: Convertir la región seleccionada a mayúsculas.
 - `C-x C-l`: Convertir la región seleccionada a minúsculas.
@@ -215,7 +213,7 @@ __Fuente:__ [Execute a particular command on multiple emacs buffers](http://stac
 - `M-u`: Convertir la siguiente palabra a mayúscula.
 - `M-c`: Convertir a mayúscula la primera letra de la palabra -- Capitalizar --.
 
-### Reemplazar tabulador por espacios y viceversa
+## Reemplazar tabulador por espacios y viceversa
 
 - `M-x tabify`: Sustituye en la región seleccionada espacios por tabuladores.
 - `M-x untabify`: Proceso contrario, reemplaza en la región selecionada tabuladores por espacios.

@@ -4,8 +4,8 @@ categories:
 - articulos
 - tecnología
 date: 2015-06-30 16:48:42
-description: "Esta lista de libros geeks se mantiene en constante actualizaci\xF3n,
-  si deseas que se a\xF1ada alguno, no dudes en dejarnos un comentario!"
+lastmod: 2017-02-22 09:25:52
+description: "Esta lista de libros geeks se mantiene en constante actualizaci\xF3n, si deseas que se a\xF1ada alguno, no dudes en dejarnos un comentario!"
 image: Thing-Explainer-Complicated-Stuff-in-Simple-Words.jpg
 mainclass: articulos
 url: /5-libros-de-no-ficcion-que-todo-geek-deberia-leer/
@@ -21,7 +21,6 @@ tags:
 - libros de no ficcion recomendados
 - didier newman wikipedia
 title: "21 Libros de No-Ficci\xF3n que todo Geek deber\xEDa leer"
-lastmod: 2017-01-28
 ---
 
 <div class="row flex-grid">
@@ -165,7 +164,7 @@ lastmod: 2017-01-28
 
 </div>
 
-## Aportaciones de los lectores
+# Aportaciones de los lectores
 
 <!--more--><!--ad-->
 
@@ -242,7 +241,7 @@ A continuación una lista de libros que han recomendado los lectores del blog en
 
 </div>
 
-## Conclusión
+# Conclusión
 
 Estos libros son algunos de los mejores que puedes leer si estás interesado en aprender más sobre tecnología de consumo. Muchos de ellos se focalizan en ángulos o tópicos específicos, pero no es fácil ver cómo las lecciones que se encuentran en ellos aplican a otras áreas de interés de geeks.
 
@@ -250,6 +249,6 @@ Estos libros son algunos de los mejores que puedes leer si estás interesado en 
 
 Fuente: <a href="http://www.makeuseof.com/tag/5-non-fiction-books-every-technology-geek-must-read/" target="_blank">makeuseof</a>
 
-### Más libros
+# Más libros
 
 Echa un vistazo a nuestra lista de [libros que todo Data Scientist y Data Engineer debería leer](https://elbauldelprogramador.com/9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer/).
