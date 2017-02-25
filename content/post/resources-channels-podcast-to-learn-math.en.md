@@ -3,6 +3,7 @@ image = "resources-channels-podcast-to-learn-math.png"
 mainclass = "articulos"
 author = "alex"
 date = "2017-02-24T21:42:53+01:00"
+lastmod = "2017-02-25T08:17:26+01:00"
 title = "11 Resources/Channels/Podcasts about Mathematics"
 description = "A curated list of blogs, podcasts and Youtube Channels about Mathematics"
 tags = ["mathematics", "podcasts", "blogs", "Youtube Channels"]
@@ -14,7 +15,7 @@ url = "/en/resources-channels-podcast-to-learn-math/"
 
 Below is a curated list of Podcast, Youtube Channels and Blogs I follow about Mathematics.
 
-If you follow some resource about Mathematics not listed below feel free to post a comment and I will add it, or better, send me a <a href="https://github.com/algui91/algui91-hugo/edit/master/content/post/resources-channels-podcast-to-learn-math.en.md" target="_blank" title="Pull Request!">Pull Request!</a>Pull Request!
+If you follow some resource about Mathematics not listed below feel free to post a comment and I will add it, or better, send me a <a href="https://github.com/algui91/algui91-hugo/edit/master/content/post/resources-channels-podcast-to-learn-math.en.md" target="_blank" title="Pull Request!">Pull Request!</a>
 
 > Thanks to <a href="https://twitter.com/sinclair_88" target="_blank" title="@sinclair_88">@sinclair_88</a> for proposing the idea of this curated list.
 
