@@ -7,9 +7,7 @@
     <a class="post-link" href="{{ .Permalink }}">
       <h2 class="post-title">{{ .Title }}</h2>
     </a>
-    <a class="post-link" href="{{ .Title }}">
-      <p class="description">{{ if .Params.description }}{{.Params.description}}{{else}}{{.Summary}}{{end}}</p>
-    </a>
+    <p class="description">{{ if .Params.description }}{{.Params.description}}{{else}}{{.Summary}}{{end}}</p>
     <div class="tags">
       {{ with .Params.tags }}
          {{ range first 3 (sort .) }}
