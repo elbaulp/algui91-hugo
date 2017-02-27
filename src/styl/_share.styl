@@ -38,8 +38,15 @@
     svg
        margin 0 rem(8px)
        size(32,32)
-    +below(cut)
-       display none
+    +below(rem(768px))
+       flex-basis 100%
+       text-align center
+       margin-bottom rem(16px)
+       margin-top rem(-16px)
+       position relative
+       right 0
+       min-height 0
+       top 0
         
 .icon-twitter
    fill #1da1f2

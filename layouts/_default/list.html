@@ -6,6 +6,8 @@
      </h1>
   {{ end }}
   <div id="grid" class="row flex-grid">
+    {{ partial "structure/subscribe" }}
+
     {{ range .Paginator.Pages }}
       {{ .Render "li" }}
     {{ end }}
