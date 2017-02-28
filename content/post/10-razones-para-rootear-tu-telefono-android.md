@@ -9,7 +9,7 @@ description: "Android es uno de los sistemas operativos m\xE1s abiertos, vers\xE
   Android rooteado. A continuaci\xF3n se listan 10 razones por las que merece la pena
   (Traducidas de LifeHacker)."
 image: 2013/08/ku-bigpic.jpg
-lastmod: 2017-01-27
+lastmod: 2017-02-28T12:36:39+01:00
 mainclass: articulos
 url: /10-razones-para-rootear-tu-telefono-android/
 tags:
@@ -17,6 +17,7 @@ tags:
 - problemas rootear android
 - razones para rootear android
 - rootear android
+- listas
 title: "10 razones para rootear tu tel\xE9fono Android"
 ---
 

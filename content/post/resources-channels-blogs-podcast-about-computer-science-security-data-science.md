@@ -1,12 +1,12 @@
 +++
-tags = ["informática", "podcasts", "blogs", "Canales Youtube", "seguridad", "data science"]
+tags = ["informática", "podcasts", "blogs", "Canales Youtube", "seguridad", "data science", "listas"]
 categories = ["articulos"]
-image = ""
 date = "2017-02-27T17:41:33+01:00"
 title = "52 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad"
 mainclass = "articulos"
 author = "alex"
 description = "Una lista de blogs, podcasts y canales de Youtube que enseñan o hablan de informática, Data Science o Seguridad."
+url = "/blogs-canales-podcast-aprender-informatica/"
 +++
 
 # ¿Qué es esta lista?
@@ -19,7 +19,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 
 # Otras listas
 
-- [11 recursos/canales/podcasts sobre matemáticas](https://elbauldelprogramador.com//recursos-canales-podcast-sobre-matematicas/ "11 recursos/canales/podcasts sobre matemáticas")
+- [11 recursos/canales/podcasts sobre matemáticas](https://elbauldelprogramador.com/recursos-canales-podcast-sobre-matematicas/ "11 recursos/canales/podcasts sobre matemáticas")
 
 # Computer Science (Programming, Data Science & Security)
 

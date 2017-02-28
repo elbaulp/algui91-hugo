@@ -20,6 +20,7 @@ tags:
 - libros para geeks
 - libros de no ficcion recomendados
 - didier newman wikipedia
+- listas
 title: "21 Libros de No-Ficci\xF3n que todo Geek deber\xEDa leer"
 ---
 

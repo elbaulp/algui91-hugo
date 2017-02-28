@@ -11,7 +11,7 @@ description: "El mundo digital es un vecindario muy peligroso lleno de atacantes
   datos y cuentas, en duosecurity han hecho una recopilaci\xF3n de las formas m\xE1s
   comunes que usan los atacantes para robar datos ajenos en la red."
 image: 2013/06/blog_sevenways.png
-lastmod: 2017-01-31
+lastmod: 2017-02-28T12:38:01+01:00
 mainclass: articulos
 url: /6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login/
 tags:
@@ -24,6 +24,7 @@ tags:
 - robo de credenciales
 - saltar autentificacion de dos factores
 - Vulnerabilidades en las aplicaciones
+- listas
 title: 6 formas usadas por los cibercriminales para robar o vulnerar credenciales
   de login
 ---

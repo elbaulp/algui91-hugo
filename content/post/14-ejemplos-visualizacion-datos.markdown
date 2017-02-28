@@ -7,13 +7,14 @@ description: "La visualizaci\xF3n de datos no solo tiene como prop\xF3sito el an
   de dichos datos, a menudo combina elementos est\xE9ticos. A continuaci\xF3n se muestran
   14 ejemplos de las mejores visualizaciones de datos encontrados en internet."
 image: 20-ejemplos-visualizacion-datos-genoma-enfermedades.png
-lastmod: 2016-09-23
+lastmod: 2017-02-28T12:36:51+01:00
 mainclass: articulos
 tags:
 - visualizacion datos
 - d3js
 - datos
 - "imagenes de visualizaci\xF3n"
+- listas
 title: 15 Ejemplos De Las Mejores Visualizaciones De Datos
 ---
 
