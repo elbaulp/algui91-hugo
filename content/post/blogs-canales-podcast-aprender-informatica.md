@@ -3,7 +3,7 @@ tags = ["informática", "podcasts", "blogs", "Canales Youtube", "seguridad", "da
 categories = ["articulos"]
 image = ""
 date = "2017-02-27T17:41:33+01:00"
-title = "55 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad"
+title = "52 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad"
 mainclass = "articulos"
 author = "alex"
 description = "Una lista de blogs, podcasts y canales de Youtube que enseñan o hablan de informática, Data Science o Seguridad."
@@ -469,11 +469,36 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 
   <article class="box-item animate">
     <h3>DataScience Blog</h3>
-    <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+    <figure id="medium">
+
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="100" height="100">
+        <path  d="M11.53,7.42L9.17,6.06,1.47,10.5l2.36,1.36Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M19.2,0.26L10.93,5,13.29,6.4l8.28-4.78Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M23.19,9.39L20.88,8.05,9.06,14.88l2.31,1.34Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M26.79,4.64L22.65,7,25,8.36,29.1,6Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M19.93,15.7l-2.32-1.34-4.73,2.73,2.32,1.34Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M30.62,6.85L19.39,13.34l2.32,1.34L32.94,8.19Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M11.16,12L8.85,10.69l-3.52,2,2.32,1.34Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M23.06,2.49L10.63,9.67,12.95,11,25.38,3.82Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M29.31,12.22l2.32,1.34,5.3-3.06L34.62,9.16Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M19.2,20.73l10.64-6.15-2.32-1.34L16.89,19.4Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M28.07,31.89L19.2,37l-8.87-5.12v2.73l8.87,5.12,8.87-5.12V31.89Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M36.94,26.77l-7.09,4.1V33.6l7.09-4.1V26.77Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M1.47,26.77v2.75L8.56,33.6V30.87Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M24.53,29.19L19.2,32.25l-5.32-3.05v2.73L19.21,35l5.32-3.07V29.19Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M36.94,22L26.3,28.17V30.9l10.64-6.14V22h0Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M1.47,22v2.75L12.11,30.9V28.17Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M28.07,22.38L19.2,27.5l-8.87-5.12v2.73l8.87,5.12,8.87-5.12V22.38Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M36.94,17.26l-7.09,4.1v2.73L36.94,20V17.26Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M1.47,17.26V20l7.09,4.09V21.36Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M29.85,16.61L19.21,22.76,8,16.26V19l11.25,6.5,10.64-6.15V16.61Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M36.94,12.52l-5.32,3.07v2.73l5.32-3.07V12.52Z" transform="translate(-1.47 -0.26)"></path>
+        <path  d="M6.2,15.25L1.47,12.52v2.73L6.2,18V15.25Z" transform="translate(-1.47 -0.26)"></path>
+
+      </svg>
     </figure>
 
-    <p></p>
+    <p>DataScience pairs data expertise with powerful tools to help businesses unlock the value in their data.</p>
 
     <div class="tags">
       <a title="DataScience Blog" target="_blank" href="https://www.datascience.com/blog">Website</a>
@@ -487,10 +512,10 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>You've Been Haacked</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/youhavebeenhacked.png" width="100" height="100"></amp-img>
     </figure>
 
-    <p></p>
+    <p>I work at GitHub doing whatever I can to make it even more awesome.</p>
 
     <div class="tags">
       <a title="You've Been Haacked" target="_blank" href="http://haacked.com/">Website</a>
@@ -500,10 +525,15 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Genbeta Dev</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+<svg width="300" height="100" viewBox="0 0 2012 187" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none meet">
+        <path d="M174 181.838c23.6-53.014 35.403-79.643 35.403-79.892 0-1.112-.866-1.668-2.595-1.668h-66.545c-2.224 0-3.707.805-4.45 2.41l-26.506 59.687h-20.76c-8.526 0-12.79-3.583-12.79-10.75 0-4.94 2.41-12.727 7.23-23.356l8.896-20.206c4.324-9.76 8.402-16.558 12.234-20.39 5.56-5.808 12.727-8.712 21.502-8.712h77.666c2.224 0 3.707-.742 4.45-2.224l7.6-17.24c.12-.246.185-.49.185-.74 0-1.113-.865-1.67-2.594-1.67H94.293c-18.415 0-35.775 6.428-52.087 19.28-14.83 11.74-26.322 26.505-34.477 44.3C2.91 131.174.5 141.06.5 150.33c0 11 3.458 19.526 10.38 25.58 6.55 5.56 15.446 8.34 26.692 8.34H169.55c2.225 0 3.708-.802 4.45-2.41zM398.658 123.634c5.312-11.738 7.97-17.67 7.97-17.794 0-1.234-.804-1.854-2.41-1.854H296.69c-10.046 0-20.46 22.058-6.89 22.058h104.597c2.224 0 3.644-.802 4.263-2.41z" id="Shape" />
+        <path d="M372.893 181.838l7.6-17.053c0-.247.06-.493.185-.742 0-1.112-.866-1.668-2.595-1.668h-84.34c-8.526 0-12.79-3.583-12.79-10.75 0-4.94 2.41-12.727 7.23-23.356l8.896-20.206c4.323-9.76 8.4-16.558 12.233-20.39 5.56-5.808 12.726-8.712 21.502-8.712h84.34c2.346 0 3.83-.742 4.45-2.224l7.6-17.24c.12-.246.184-.49.184-.74 0-1.113-.806-1.67-2.41-1.67H299.49c-18.416 0-35.776 6.428-52.088 19.28-14.954 11.74-26.446 26.505-34.478 44.3-4.82 10.505-7.23 20.39-7.23 29.66 0 11 3.46 19.526 10.38 25.58 6.55 5.56 15.447 8.34 26.693 8.34h125.49c2.348 0 3.894-.802 4.636-2.41zM613.307 181.838l54.497-122.34c.122-.246.186-.49.186-.74 0-1.113-.805-1.67-2.41-1.67H640c-2.35 0-3.832.807-4.45 2.41l-23.355 52.273L482.812 59.5c-3.957-1.605-7.108-2.41-9.454-2.41h-28.545c-2.225 0-3.708.805-4.45 2.41l-54.496 122.338c-.124.25-.185.495-.185.74 0 1.113.863 1.67 2.595 1.67h25.58c2.224 0 3.707-.803 4.448-2.41l22.8-51.347 126.973 50.976c4.57 1.854 8.278 2.78 11.122 2.78h29.658c2.346.002 3.83-.8 4.45-2.408zM821.8 173.126c11.243-7.415 19.278-16.497 24.097-27.248 2.224-4.82 3.336-9.39 3.336-13.717 0-6.672-2.41-12.108-7.23-16.31 8.28-3.83 15.262-8.713 20.947-14.645 6.795-7.29 10.195-14.83 10.195-22.614 0-7.414-3.15-13.035-9.454-16.867-5.313-3.087-11.925-4.634-19.832-4.634H684.632c-2.35 0-3.832.805-4.448 2.41-36.456 81.808-54.682 122.833-54.682 123.08 0 1.112.802 1.668 2.41 1.668h159.41c11.74 0 23.232-3.707 34.478-11.122zm-36.146-72.29c-4.45 2.102-9.083 3.15-13.902 3.15h-38.04l-9.715 22.058h37.93c7.416 0 11.123 3.337 11.123 10.01 0 6.55-2.905 12.576-8.712 18.073-5.81 5.5-11.988 8.25-18.537 8.25h-37.998l37.073-83.414h38c9.268 0 13.9 2.78 13.9 8.34 0 1.237-.31 2.595-.926 4.078-1.855 3.958-5.255 7.108-10.196 9.455zM1051.132 123.634c5.312-11.738 7.97-17.67 7.97-17.794 0-1.234-.804-1.854-2.41-1.854H946.23c-10.045 0-25.154 22.058-11.584 22.058h112.225c2.223 0 3.642-.802 4.262-2.41z" id="Shape" />
+        <path d="M1027.367 181.838l7.6-17.053c0-.247.06-.493.186-.742 0-1.112-.866-1.668-2.595-1.668h-84.34c-8.527 0-12.79-3.583-12.79-10.75 0-4.94 2.41-12.727 7.228-23.356l8.897-20.206c4.324-9.76 8.402-16.558 12.234-20.39 5.56-5.808 12.726-8.712 21.502-8.712h84.34c2.345 0 3.828-.742 4.447-2.224l7.6-17.24c.122-.246.186-.49.186-.74 0-1.113-.805-1.67-2.41-1.67h-125.49c-18.415 0-35.775 6.428-52.087 19.28-14.953 11.74-26.446 26.505-34.478 44.3-4.82 10.505-7.23 20.39-7.23 29.66 0 11 3.46 19.526 10.382 25.58 6.548 5.56 15.446 8.34 26.692 8.34h125.49c2.347 0 3.893-.802 4.635-2.41zM1265.556 78.962c2.225 0 3.707-.742 4.45-2.224 5.19-11.74 7.784-17.73 7.784-17.98 0-1.112-.805-1.668-2.41-1.668h-178.875c-2.224 0-3.707.806-4.448 2.41-5.19 11.742-7.786 17.673-7.786 17.795 0 1.112.864 1.668 2.596 1.668h51.716c-30.648 68.833-45.97 103.372-45.97 103.618 0 1.113.742 1.67 2.225 1.67h67.1c2.1 0 3.523-.803 4.264-2.41l45.786-102.877h53.57zM1391.417 58.016c-.495-.617-1.297-.927-2.41-.927h-19.648c-1.238 0-2.29.31-3.152.926l-187.216 122.34c-1.36.865-2.04 1.667-2.04 2.41 0 .99.99 1.482 2.967 1.482h198.15l-14.014-21.874h-130.382l91.57-60.613 52.827 82.488c.372.62 85.268 0 85.268 0 2.965 0 4.448-.927 4.448-2.78 0-.37-25.458-41.52-76.37-123.452zM1546.2 181.423c3.59-3.59 5.385-7.888 5.385-12.9 0-5.008-1.795-9.31-5.384-12.898-3.588-3.59-7.89-5.384-12.898-5.384-5.01 0-9.31 1.796-12.9 5.385-3.588 3.59-5.383 7.89-5.383 12.9 0 5.01 1.794 9.31 5.383 12.898 3.59 3.59 7.89 5.384 12.9 5.384 5.008 0 9.31-1.794 12.898-5.384zM1548.2 83.95c3.59-3.588 5.385-7.887 5.385-12.898 0-5.01-1.795-9.31-5.384-12.9-3.588-3.588-7.89-5.383-12.898-5.383-5.01 0-9.31 1.794-12.9 5.383-3.588 3.59-5.383 7.89-5.383 12.9 0 5.01 1.794 9.31 5.383 12.898 3.59 3.59 7.89 5.385 12.9 5.385 5.008 0 9.31-1.794 12.898-5.384zM1691.2 181.536h20.976V.5H1691.2v55.746c-2.617-.298-4.412-.485-5.383-.56-7.778-.823-13.76-1.235-17.946-1.235-13.684 0-25.163 3.293-34.435 9.872-20.34 14.582-30.51 36.566-30.51 65.954 0 14.357 3.103 26.583 9.31 36.678 7.404 12.04 17.872 18.06 31.407 18.06 9.198 0 18.357-3.293 27.48-9.872 8.077-5.833 14.768-13.085 20.08-21.76v28.154zm-17.497-29.612c-8.9 8.75-17.273 13.124-25.125 13.124-8.076 0-14.17-4.523-18.283-13.572-3.14-6.954-4.71-14.955-4.71-24.003 0-15.104 3.625-27.817 10.88-38.136 8.224-11.59 19.59-17.386 34.097-17.386 6.355 0 13.236.974 20.64 2.917v53.728c-5.012 8.972-10.845 16.75-17.5 23.33zM1855.21 154.167c-16.303 8.974-31.183 13.46-44.643 13.46-7.554 0-14.284-1.794-20.19-5.384-6.432-3.887-11.404-9.683-14.918-17.386-3.217-6.955-4.824-14.47-4.824-22.545h86.368v-4.487c0-18.693-3.477-33.61-10.432-44.754-8.45-13.533-21.424-20.3-38.92-20.3-11.217 0-21.407 2.954-30.566 8.86-9.16 5.908-16.32 14.245-21.48 25.013-4.935 10.246-7.403 21.087-7.403 32.528 0 11.89 2.692 23.034 8.076 33.426 11.065 21.687 28.265 32.528 51.595 32.528 14.88 0 30.658-3.962 47.334-11.89v-19.067zm-48.456-83.9c9.047 0 16.04 3.43 20.975 10.288 4.41 6.04 6.617 13.754 6.617 23.146v3.02h-62.477c5.01-24.3 16.638-36.453 34.884-36.453z" id="Shape" />
+        <path d="M1956.628 181.536l54.85-125.29h-20.937l-43.8 99.21-42.956-99.21h-22.864l54.4 125.29h21.308z" />
+</svg>
     </figure>
 
-    <p></p>
+    <p>Blog sobre programación.</p>
 
     <div class="tags">
       <a title="Genbeta Dev" target="_blank" href="http://www.genbetadev.com/">Website</a>
@@ -513,10 +543,10 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>The Geek Stuff</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/thegeekstuff.gif" width="100" height="100"></amp-img>
     </figure>
 
-    <p></p>
+    <p>I will be posting instruction guides, How-Tos, troubleshooting tips and tricks Linux and open source technologies. My focus is to write articles that will either teach you or help you resolve a problem.</p>
 
     <div class="tags">
       <a title="The Geek Stuff" target="_blank" href="http://www.thegeekstuff.com/">Website</a>
@@ -524,12 +554,9 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   </article>
 
   <article class="box-item animate">
-    <h3>texblog</h3>
-    <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
-    </figure>
+    <h3>Texblog - <em>because LaTeX matters</em></h3>
 
-    <p></p>
+    <p>My intention is to provide valuable tips and tricks for your daily LaTeX editing. In addition, I’ll try to give answers to questions which are not easily found on the web.</p>
 
     <div class="tags">
       <a title="texblog" target="_blank" href="http://texblog.org/">Website</a>
@@ -537,25 +564,12 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   </article>
 
   <article class="box-item animate">
-    <h3>blog</h3>
-    <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
-    </figure>
-
-    <p></p>
-
-    <div class="tags">
-      <a title="blog" target="_blank" href="http://keithp.com/blog/">Website</a>
-    </div>
-  </article>
-
-  <article class="box-item animate">
     <h3>Asyncified!</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/asyncified.jpg" width="100" height="100"></amp-img>
     </figure>
 
-    <p></p>
+    <p>Hi, my name is Yuval Itzchakov, I'm 27 years old from Israel. I've been programming for about the last 4 years, started out in the .NET stack and slowly broadening horizions to Python and some C++. I love learning internals of systems and exploring what happens under the covers.</p>
 
     <div class="tags">
       <a title="Asyncified!" target="_blank" href="http://yuvalitzchakov.github.io/">Website</a>
@@ -565,10 +579,10 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Yegor Bugayenko</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/yegor.png" width="100" height="100"></amp-img>
     </figure>
 
-    <p></p>
+    <p>I'm Yegor Bugayenko (Russian: Его́р Бугае́нко), a programmer, a founder, an investor, and a philanthropist.</p>
 
     <div class="tags">
       <a title="Yegor Bugayenko" target="_blank" href="http://www.yegor256.com/">Website</a>
@@ -582,10 +596,10 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>JerryGamblin.com</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/jerrygamblin.jpg" width="100" height="100"></amp-img>
     </figure>
 
-    <p></p>
+    <p>Security Advocate. Problem Solver. Hacker. Ebullient Communicator.</p>
 
     <div class="tags">
       <a title="JerryGamblin.com" target="_blank" href="http://jerrygamblin.com/">Website</a>
@@ -594,11 +608,8 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 
   <article class="box-item animate">
     <h3>Open Whisper Systems Blog</h3>
-    <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
-    </figure>
 
-    <p></p>
+    <p>Open Whisper Systems is both a large community of volunteer Open Source contributors, as well as a small team of dedicated grant-funded developers. Together, we're working to advance the state of the art for secure communication, while simultaneously making it easy for everyone to use.</p>
 
     <div class="tags">
       <a title="Open Whisper Systems Blog" target="_blank" href="http://www.whispersystems.org/blog/">Website</a>
@@ -608,10 +619,10 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Schneier on Security</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bruce.jpg" width="100" height="129"></amp-img>
     </figure>
 
-    <p></p>
+    <p>Bruce Schneier is an internationally renowned security technologist, called a "security guru" by The Economist. He is the author of 13 books--including Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World-- as well as hundreds of articles, essays, and academic papers.</p>
 
     <div class="tags">
       <a title="Schneier on Security" target="_blank" href="https://www.schneier.com/blog/">Website</a>
@@ -621,10 +632,10 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Krebs on Security</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/krebs.png" width="100" height="120"></amp-img>
     </figure>
 
-    <p></p>
+    <p>Brian Krebs worked as a reporter for The Washington Post from 1995 to 2009, authoring more than 1,300 blog posts for the Security Fix blog, as well as hundreds of stories for washingtonpost.com and The Washington Post newspaper, including eight front-page stories in the dead-tree edition and a Post Magazine cover piece on botnet operators. In 2014, he was profiled in The New York Times, Business Week and by Poynter.org. More recently, he was invited to an “Ask Me Anything” discussion on Reddit about investigative reporting.</p>
 
     <div class="tags">
       <a title="Krebs on Security" target="_blank" href="http://krebsonsecurity.com/">Website</a>
@@ -632,25 +643,9 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   </article>
 
   <article class="box-item animate">
-    <h3>xnyhps’ blog</h3>
-    <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
-    </figure>
-
-    <p></p>
-
-    <div class="tags">
-      <a title="xnyhps’ blog" target="_blank" href="https://blog.thijsalkema.de/">Website</a>
-    </div>
-  </article>
-
-  <article class="box-item animate">
     <h3>ImperialViolet</h3>
-    <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
-    </figure>
 
-    <p></p>
+    <p>Adam Langley's Weblog</p>
 
     <div class="tags">
       <a title="ImperialViolet" target="_blank" href="http://www.imperialviolet.org/">Website</a>
@@ -660,10 +655,10 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Trend Micro Simply Security</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/trendmicro.png" width="100" height="100"></amp-img>
     </figure>
 
-    <p></p>
+    <p>For nearly 30 years, Trend Micro’s unwavering vision has been to make the world safe for exchanging digital information. Security is our entire focus, and it shows. This single-minded passion has inspired our innovations that keep up with the bad guys despite a changing IT landscape, riskier user behavior, and constantly evolving threats.</p>
 
     <div class="tags">
       <a title="Trend Micro Simply Security" target="_blank" href="http://blog.trendmicro.com/">Website</a>
@@ -671,25 +666,12 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   </article>
 
   <article class="box-item animate">
-    <h3>TrendLabs Security Intelligence Blog</h3>
-    <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
-    </figure>
-
-    <p></p>
-
-    <div class="tags">
-      <a title="TrendLabs Security Intelligence Blog" target="_blank" href="http://blog.trendmicro.com/trendlabs-security-intelligence">Website</a>
-    </div>
-  </article>
-
-  <article class="box-item animate">
     <h3>Pentester.es</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/pentester.png" width="100" height="100"></amp-img>
     </figure>
 
-    <p></p>
+    <p>Jose is one of the individuals who have earned the GIAC Security Expert (GSE) designation. He is a SANS Institute community instructor for penetration testing courses and a regular speaker at security conferences.</p>
 
     <div class="tags">
       <a title="Pentester.es" target="_blank" href="http://www.pentester.es/">Website</a>
