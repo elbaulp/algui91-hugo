@@ -167,6 +167,8 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 
 ## Blogs
 
+<!--more--><!--ad-->
+
 ### ML
 
 <div class="row-post flex-grid">
@@ -681,10 +683,10 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Un informático en el lado del mal</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/chema.jpg" width="100" height="100"></amp-img>
     </figure>
 
-    <p></p>
+    <p>Seguridad informática, hacking, pentesting, ldap injection, blind ldap injection, sql injection, blind sql injection, heavy queries, connection string parameter pollution, foca, evil foca, latch, dust rss, metashield protector, faast, metadatos, libros de seguridad informática, informática 64, recover messages, 0xword, cálico electrónico, eleven paths, telefónica y chema alonso. las opiniones son de los autores de los artículos y las mías son mías personales.</p>
 
     <div class="tags">
       <a title="Un informático en el lado del mal" target="_blank" href="http://www.elladodelmal.com/">Website</a>
@@ -694,10 +696,10 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>MuySeguridad</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/muyseguridad.jpg" width="100" height="17"></amp-img>
     </figure>
 
-    <p></p>
+    <p>Noticias sobre seguridad, virus, antivirus, hacking, phising, spam, ataques, timos, estafas, malware y otras amenazas de seguridad informática.</p>
 
     <div class="tags">
       <a title="MuySeguridad" target="_blank" href="http://muyseguridad.net/">Website</a>
@@ -707,10 +709,10 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Security By Default</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/securitybydefault.png" width="100" height="37"></amp-img>
     </figure>
 
-    <p></p>
+    <p>Después de mucho tiempo hablando sobre la posibilidad de crear un blog íntegramente sobre seguridad informática, nos hemos decidido a ponernos en marcha y crear un espacio donde poder compartir experiencias y hablar de los aspectos técnicos relacionados con la seguridad informática. </p>
 
     <div class="tags">
       <a title="Security By Default" target="_blank" href="http://www.securitybydefault.com/">Website</a>
@@ -718,25 +720,12 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   </article>
 
   <article class="box-item animate">
-    <h3>xnyhps’ blog</h3>
-    <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
-    </figure>
-
-    <p></p>
-
-    <div class="tags">
-      <a title="xnyhps’ blog" target="_blank" href="https://blog.thijsalkema.de/">Website</a>
-    </div>
-  </article>
-
-  <article class="box-item animate">
     <h3>Lifehacker</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/lifehacker.png" width="100" height="100"></amp-img>
     </figure>
 
-    <p></p>
+    <p>Tips, tricks, and downloads for getting things done.</p>
 
     <div class="tags">
       <a title="Lifehacker" target="_blank" href="http://lifehacker.com/tag/security">Website</a>
@@ -745,11 +734,8 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 
   <article class="box-item animate">
     <h3>Hispasec @unaaldia</h3>
-    <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
-    </figure>
 
-    <p></p>
+    <p>Servicio gratuito de noticias y análisis sobre seguridad en español.</p>
 
     <div class="tags">
       <a title="Hispasec @unaaldia" target="_blank" href="http://unaaldia.hispasec.com/">Website</a>
@@ -758,11 +744,19 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 
   <article class="box-item animate">
     <h3>Ars Technica » Risk Assessment</h3>
-    <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/" width="100" height="100"></amp-img>
+    <figure id="medium">
+    <svg data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="6.1in" height="2in" viewBox="0 0 436.8 144.3">
+    <circle cx="72.2" cy="72.2" r="72.2" fill="#ff4e00" />
+    <g fill="#fff">
+        <path d="M46.6 94.2l-.9-5.9a20.8 20.8 0 0 1-15.6 6.8c-8 0-13-4.8-13-12.3 0-11 9.4-15.4 27.9-17.3v-1.9c0-5.6-3.3-7.5-8.4-7.5s-10.5 1.7-15.3 3.8l-1.1-7.1c5.3-2.1 10.3-3.7 17.1-3.7 10.7 0 15.9 4.3 15.9 14.2v30.9h-6.7zM45 71.8c-16.3 1.6-19.7 6-19.7 10.6s2.4 5.9 6.6 5.9 9.4-2.4 13.1-6.2V71.8zM72.4 68.1v26.1h-8.2V50.1h6.6l1.4 9c3.1-5 8.2-9.5 15.5-9.9l1.3 7.9c-7.4.3-13.6 5.2-16.6 11zM109.7 95.1a36.2 36.2 0 0 1-16.1-4.2l1.2-7.8a27.6 27.6 0 0 0 15.6 5.1c5.6 0 9-2.1 9-5.8s-2.5-5.6-10.5-7.5c-10.4-2.6-14.5-5.7-14.5-13.6s5.9-12.2 15.6-12.2a35.7 35.7 0 0 1 14.5 3l-1.3 7.8a28.2 28.2 0 0 0-13.4-3.8c-5 0-7.6 1.9-7.6 5.1s2.2 4.6 9.2 6.4c10.9 2.8 15.8 5.9 15.8 14.3s-6.1 13.2-17.5 13.2z" />
+    </g>
+    <g fill="#fff">
+        <path d="M219.3 83.9c-4.4 3.7-8.4 5-12.8 5-7.7 0-12.7-5.3-13.5-14h24.9l.9-5.5H193c.8-8.7 5.7-14.1 12.9-14.1 4.9 0 8.8 1.7 12.9 5.1l1-5.9a23 23 0 0 0-13.7-4.3c-10.7 0-19.2 7.8-19.2 21.9S195.2 94 205.8 94a22.1 22.1 0 0 0 14.3-4.8zM170.5 56.3v37h-5.8v-37h-13.4V51h32.2l.9 5.3h-13.9zM245.2 94c-11.9 0-19.5-8.8-19.5-21.8s7.8-22 19.6-22a20.3 20.3 0 0 1 12 3.5l-.9 5.9a18.1 18.1 0 0 0-11.2-4.1c-8.6 0-13.6 6.5-13.6 16.6s5.1 16.6 13.6 16.6a20.1 20.1 0 0 0 11.9-4.2l.9 5.4a22.3 22.3 0 0 1-12.8 4.1zM292.7 93.2V73.7h-21.4v19.5h-5.8V51h5.8v17.5h21.4V51h5.8v42.2h-5.8zM335.7 93.2l-23.2-32.9v32.9h-5.3V51h5.1l22.4 31.6V51h5.3v42.2h-4.3zM349.1 93.2V51h5.8v42.2h-5.8zM381.8 94c-11.9 0-19.5-8.8-19.5-21.8s7.8-22 19.6-22a20.3 20.3 0 0 1 12 3.5l-.9 5.9a18.1 18.1 0 0 0-11.2-4.1c-8.6 0-13.6 6.5-13.6 16.6s5.1 16.6 13.6 16.6a20.1 20.1 0 0 0 11.9-4.2l.9 5.4a22.3 22.3 0 0 1-12.8 4.1zM414.8 50.8h5.8l16.3 41.6-5.6 1.2-5-13.1h-17.4l-4.8 12.7h-5.8zm-4 24.7h13.5l-6.8-17.9z" />
+    </g>
+</svg>
     </figure>
 
-    <p></p>
+    <p>Serving the Technologist for more than a decade. IT news, reviews, and analysis.</p>
 
     <div class="tags">
       <a title="Ars Technica » Risk Assessment" target="_blank" href="http://arstechnica.com/security">Website</a>
