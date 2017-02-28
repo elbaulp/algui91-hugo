@@ -57,6 +57,8 @@ If you follow some resource not listed below feel free to post a comment and I w
 
 ## Podcasts
 
+### Data Science
+
 <div class="row-post flex-grid">
 
   <article class="box-item animate">
@@ -123,7 +125,11 @@ If you follow some resource not listed below feel free to post a comment and I w
       <a href="http://www.thetalkingmachines.com/blog/?format=RSS" target="_blank" title="Talking Machines">Talking Machines</a> | <a href="http://www.thetalkingmachines.com/blog/" target="_blank" title="Website">Website</a>
     </div>
   </article>
+</div>
 
+### Computer Science
+
+<div class="row-post flex-grid">
   <article class="box-item animate">
     <h3>Chips with everything</h3>
     <figure>
@@ -136,7 +142,11 @@ If you follow some resource not listed below feel free to post a comment and I w
       <a href="https://www.theguardian.com/technology/series/chips-with-everything/podcast.xml" target="_blank" title="Chips with everything">Chips with everything</a> | <a href="https://www.theguardian.com/technology/series/chips-with-everything" target="_blank" title="Website">Website</a>
     </div>
   </article>
+</div>
 
+### Security
+
+<div class="row-post flex-grid">
   <article class="box-item animate">
     <h3>Security Now!</h3>
     <figure>
@@ -149,7 +159,11 @@ If you follow some resource not listed below feel free to post a comment and I w
       <a href="http://leo.am/podcasts/sn" target="_blank" title="Security Now">Security Now</a> | <a href="https://twit.tv/shows/security-now" target="_blank" title="Website">Website</a>
     </div>
   </article>
+</div>
 
+### Programming
+
+<div class="row-post flex-grid">
   <article class="box-item animate">
     <h3>Talk Python To Me</h3>
     <figure>
@@ -169,7 +183,7 @@ If you follow some resource not listed below feel free to post a comment and I w
 
 <!--more--><!--ad-->
 
-### ML
+### Data Science
 
 <div class="row-post flex-grid">
 

@@ -57,6 +57,8 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 
 ## Podcasts
 
+### Data Science
+
 <div class="row-post flex-grid">
 
   <article class="box-item animate">
@@ -123,7 +125,11 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
       <a href="http://www.thetalkingmachines.com/blog/?format=RSS" target="_blank" title="Talking Machines">Talking Machines</a> | <a href="http://www.thetalkingmachines.com/blog/" target="_blank" title="Website">Website</a>
     </div>
   </article>
+</div>
 
+### Computer Science
+
+<div class="row-post flex-grid">
   <article class="box-item animate">
     <h3>Chips with everything</h3>
     <figure>
@@ -137,6 +143,12 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
     </div>
   </article>
 
+</div>
+
+### Security
+
+<div class="row-post flex-grid">
+
   <article class="box-item animate">
     <h3>Security Now!</h3>
     <figure>
@@ -149,7 +161,11 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
       <a href="http://leo.am/podcasts/sn" target="_blank" title="Security Now">Security Now</a> | <a href="https://twit.tv/shows/security-now" target="_blank" title="Website">Website</a>
     </div>
   </article>
+</div>
 
+### Programming
+
+<div class="row-post flex-grid">
   <article class="box-item animate">
     <h3>Talk Python To Me</h3>
     <figure>
@@ -169,7 +185,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 
 <!--more--><!--ad-->
 
-### ML
+### Data Science
 
 <div class="row-post flex-grid">
 
