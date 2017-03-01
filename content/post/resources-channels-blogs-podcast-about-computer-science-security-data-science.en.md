@@ -1,4 +1,5 @@
 +++
+image = "resources-channels-blogs-podcast-about-computer-science-security-data-science.png"
 tags = ["computer Science", "podcasts", "blogs", "Youtube Channels", "security", "data science", "lists"]
 categories = ["articulos"]
 date = "2017-03-01T09:34:39+01:00"
