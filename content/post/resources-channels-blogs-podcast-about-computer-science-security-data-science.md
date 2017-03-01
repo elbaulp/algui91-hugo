@@ -1,7 +1,7 @@
 +++
 tags = ["informática", "podcasts", "blogs", "Canales Youtube", "seguridad", "data science", "listas"]
 categories = ["articulos"]
-date = "2017-02-27T17:41:33+01:00"
+date = "2017-03-01T09:34:28+01:00"
 title = "52 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad"
 mainclass = "articulos"
 author = "alex"
@@ -62,7 +62,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 <div class="row-post flex-grid">
 
   <article class="box-item animate">
-    <h3></h3>
+    <h3>Becoming a Data Scientist</h3>
     <figure>
       <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/becomingads.jpg" width="100" height="100"></amp-img>
     </figure>

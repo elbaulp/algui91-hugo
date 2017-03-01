@@ -1,7 +1,7 @@
 +++
 tags = ["computer Science", "podcasts", "blogs", "Youtube Channels", "security", "data science", "lists"]
 categories = ["articulos"]
-date = "2017-02-28T12:41:29+01:00"
+date = "2017-03-01T09:34:39+01:00"
 title = "52 Blogs / Channels / Podcast about Computer Science, Security & Data Science"
 mainclass = "articulos"
 author = "alex"
@@ -62,7 +62,7 @@ If you follow some resource not listed below feel free to post a comment and I w
 <div class="row-post flex-grid">
 
   <article class="box-item animate">
-    <h3></h3>
+    <h3>Becoming a Data Scientist</h3>
     <figure>
       <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/becomingads.jpg" width="100" height="100"></amp-img>
     </figure>
