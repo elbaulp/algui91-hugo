@@ -18,6 +18,7 @@ tags:
 - hadoop for dummies
 - libros sobre machine learning
 - "libros sobre Aprendizaje autom\xE1tico"
+- listas
 title: 18 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer
 ---
 
