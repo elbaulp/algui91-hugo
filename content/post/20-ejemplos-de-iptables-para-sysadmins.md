@@ -6,7 +6,7 @@ categories:
 - linux
 - seguridad
 date: '2016-01-01'
-lastmod: 2017-01-27
+lastmod: 2017-02-28T12:37:07+01:00
 description: "netfiltes es un conjunto de hooks (Ganchos) dentro del kernel de linux
   que permiten a los m\xF3dulos del kernel registrar funciones callbacks con la pila
   de red. Una funci\xF3n callback registrada se llama entonces para cada paquete que
@@ -43,6 +43,7 @@ tags:
 - comandos iptables
 - iptables bloquear ping
 - iptables listar reglas
+- listas
 title: 20 ejemplos de iptables para SysAdmins novatos
 ---
 

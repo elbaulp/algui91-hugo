@@ -11,11 +11,12 @@ introduction: "There are many good reasons to upgrade your router (or buy one if
   don\u2019t have one). You can get faster speeds, improved range, and new features.
   It\u2019ll also ensure maximum compatibility with your latest gadgets."
 mainclass: misc
-lastmod: 2017-01-27
+lastmod: 2017-02-28T12:36:32+01:00
 tags:
 - manuales
 - libros
 - router
+- listas
 title: 'Ebook Gratuito: 10 Things You Must Do With a Brand New Router'
 ---
 

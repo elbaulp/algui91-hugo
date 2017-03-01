@@ -3,7 +3,7 @@ author: alex
 categories:
 - git
 date: 2015-12-01 10:56:26
-lastmod: 2017-01-28
+lastmod: 2017-02-28T12:37:22+01:00
 description: "Todo aquel que use git sabr\xE1 que en ocasiones es un poco tedioso
   escribir los comandos a ejecutar. Para ello existen los alias, que nos permiten
   crearnos atajos a la hora de ejecutar un comando. En este art\xEDculo se recopilar\xE1n
@@ -17,6 +17,7 @@ tags:
 - alias git
 - configurar git
 - configuraciones git
+- listas
 title: "21 alias \xFAtiles para git"
 ---
 
