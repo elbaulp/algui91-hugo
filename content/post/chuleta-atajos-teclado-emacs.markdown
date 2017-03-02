@@ -3,7 +3,7 @@ author: alex
 categories:
 - misc
 date: 2016-08-30 14:10:30
-lastmod: 2017-02-22 09:40:58
+lastmod: 2017-03-02T18:00:05+01:00
 description: "Emacs: Recopilaci\xF3n de comandos y acciones \xFAtiles"
 image: chuleta-atajos-teclado-emacs.png
 introduction: "Emacs: Recopilaci\xF3n de comandos y acciones \xFAtiles"
@@ -11,7 +11,8 @@ mainclass: misc
 tags:
 - emacs
 - chuleta
-title: "Chuleta De Comandos/Atajos De Teclado/Paquetes m\xE1s \xFAtiles para Emacs"
+- prelude
+title: "Chuleta De Comandos / Atajos De Teclado / Paquetes más útiles para Emacs"
 ---
 
 No es la primera vez que se publica en el blog una [chuleta](/tags/chuleta "Artículos sobre chuletas") de algo:
@@ -26,7 +27,6 @@ No es la primera vez que se publica en el blog una [chuleta](/tags/chuleta "Art�
 La de hoy va sobre _Emacs_. La idea es que esta chuleta la creemos entre todos. Que cada uno aporte su granito de arena para crear la __chuleta de atajos de teclado/comandos/paquetes para emacs definitiva__.
 
 A lo largo del poco tiempo que llevo usando [emacs](/tags/emacs "Artículos sobre emacs"), ya he ido descubriendo los atajos que me resultan más útiles para mi día a día, empecemos:
-
 
 
 # Paquetes útiles
@@ -220,8 +220,22 @@ __Fuente:__ [Execute a particular command on multiple emacs buffers](http://stac
 
 Fuente: [mdk.fr](https://mdk.fr/blog/emacs-replace-tabs-with-spaces.html "Emacs: replace tabs with spaces")
 
+# Prelude
+
+Tal y como dice la descripción de su repositorio en [Github](https://elbauldelprogramador.com/tags/github/ "Github"):
+
+> _Prelude_ is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.
+
+es decir:
+
+> _Prelude_ es una distribución mejorada de Emacs 24 que debería hacer tu experiencia con emacs más agradable y potente.
+
+Aunque la descripción menciona la versión 24, personalmente yo estoy usando la versión 25 en [Gentoo](https://elbauldelprogramador.com/tags/gentoo "Gentoo") y funciona perfectamente.
+
+La instalación de _Prelude_ es muy sencilla, toda la documentación necesaria se encuentra en su <a href="https://github.com/bbatsov/prelude" target="_blank" title="repositorio de Github">repositorio de Github</a>.
+
 # Tu Turno
 
-El propósito de este artículo es que crezca con las contribuciones de todos nosotros, para ello he subido el código de este artículo a github. Para aportar vuestro granito de arena, mandad _Pull Requests_ al siguiente _gist_: [Chuleta De Comandos/Atajos De Teclado/Paquetes/ más útiles para Emacs.md](https://gist.github.com/algui91/9be4d82ba09f18562d1cfda2eb325eed "Chuleta De Comandos/Atajos De Teclado/Paquetes/ más útiles para Emacs.md")
+El propósito de este artículo es que crezca con las contribuciones de todos nosotros, para ello he subido el código de este artículo a github. Para aportar vuestro granito de arena, mandad <a href="https://github.com/algui91/algui91-hugo/edit/master/content/post/chuleta-atajos-teclado-emacs.markdown" target="_blank" title="Pull Request">Pull Request</a>.
 
 Esperamos vuestras colaboraciones!
