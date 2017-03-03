@@ -10,14 +10,11 @@
     <meta charset="utf-8">
 
     {{ partial "amp/header" . }}
-    {{ if eq .Kind "page" }}
-    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
-    {{ end }}
     {{ if eq .Type "post"}}
-    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
     <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
     {{ end }}
     {{ if findRE "/manuales-gratuitos/" .URL 1 }}
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
     <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
     {{ end }}
 
