@@ -9,7 +9,7 @@
 - id: ads_amz_link
   translation: "https://www.amazon.es/?&tag=bmab-21&camp=4586&creative=670922&linkCode=ur1&adid=01FEFB5JJ9GNJJX2T2CR&"
 - id: ads_guide
-  translation: "Descarga una guía gratuita que te interese (Nos donarás $1.5 si la rellenas con datos reales ej: en que sector trabajas etc)"
+  translation: "Descarga una de nuestras guías gratuitas"
 - id: ads_patreon
   translation: "¡Hazte un Patreon!"
 - id: ads_support
@@ -72,3 +72,5 @@
   translation: "Ayúdanos a traducir al inglés"
 - id: translate_pr
   translation: "Háznos un Pull Request"
+- id: more_posts
+  translation: "Más artículos de {{ .name }}"

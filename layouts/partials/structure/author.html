@@ -10,6 +10,7 @@
       <a title="{{ T "author_title" $author.name }}" id="author-name" href="{{ "/author/" | absLangURL}}{{.Params.author}}/">{{ $author.name }}</a>
     </h3>
     <p class="desc">{{$author.bio}}</p>
+    <p class="desc"><a href="{{ "/author/" | absLangURL}}{{.Params.author}}/">{{ T "more_posts" $author }}</a></p>
     <div class="share">
       {{ if $author.email }}
       <a href="mailto:{{ $author.email }}" ><svg class="social icon-mail"><use xlink:href="#icon-inbox"></use></svg></a>
