@@ -84,6 +84,24 @@
                     "eventAction": "pop2"
                 }
             },
+            "es" : {
+                "on": "click",
+                "selector": ".flag-es",
+                "request": "event",
+                "vars": {
+                    "eventCategory": "flag",
+                    "eventAction": "es"
+                }
+            },
+            "en" : {
+                "on": "click",
+                "selector": ".flag-en",
+                "request": "event",
+                "vars": {
+                    "eventCategory": "flag",
+                    "eventAction": "en"
+                }
+            },
             "pop4" : {
                 "on": "click",
                 "selector": "#pop4",

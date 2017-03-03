@@ -1,7 +1,17 @@
 <header class="bar-header">
   <h1 class="logo">
     {{ partial "structure/logo.html" }}
-    <a href="{{ "/" | absLangURL }}"></a>
+    <a id="logo" href="{{ "/" | absLangURL }}"></a>
+    <a href="/">
+      <svg class="icon flag-es">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#flag-es"></use>
+      </svg>
+    </a>
+    <a href="/en/">
+      <svg class="icon flag-en">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#flag-en"></use>
+      </svg>
+    </a>
   </h1>
 </header>
 

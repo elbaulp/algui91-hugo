@@ -14,12 +14,11 @@
     {{ end }}
     {{ $ad := partial "structure/ad" . }}
     {{ replace .Content "<!--ad-->" $ad | safeHTML }}
+    {{ partial "structure/share" . }}
     {{ partial "structure/cattags" . }}
     {{ partial "structure/nextprev" . }}
   </article>
-  {{ partial "structure/share" . }}
   {{ if eq .Type "post" }}
-     {{ partial "structure/popular.posts" }}
      {{ partial "structure/author" . }}
      {{ partial "structure/comments" . }}
   {{ end }}
