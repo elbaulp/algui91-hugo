@@ -31,7 +31,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
     <h3>3Blue1Brow-postn</h3>
 
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/3b1b.jpg" width="100" height="100" alt="" title="" ></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/3b1b.jpg" width="100" height="100" alt="" title="" ></amp-img>
     </figure>
 
     <p>3Blue1Brow-postn is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.</p>
@@ -44,7 +44,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
   <article class="box-item animate">
     <h3>MathoLoger</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/mathologer.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/mathologer.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Enter the world of the Mathologer in which beautiful math(s) rules.</p>
@@ -57,7 +57,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
   <article class="box-item animate">
     <h3>MinutePhysics</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/minutephysics.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/minutephysics.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Simply put: cool physics and other sweet science.</p>
@@ -70,7 +70,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
   <article class="box-item animate">
     <h3>MinutoDeFísica</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/MinutoDeFisica.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/MinutoDeFisica.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>En pocas palabras: física genial y ciencia interesante</p>
@@ -83,7 +83,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
   <article class="box-item animate">
     <h3>NumberPhile</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/numberphile.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/numberphile.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Videos about numbers - it's that simple.</p>
@@ -96,7 +96,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
   <article class="box-item animate">
     <h3>NumberPhile2</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/numberphile2.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/numberphile2.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>This is Numberphile's "second channel" for extra footage or stuff that didn't quite fit on the main channel</p>
@@ -109,7 +109,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
   <article class="box-item animate">
     <h3>PBS Infinite Series</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/pbsinfiniteseries.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/pbsinfiniteseries.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Mathematician Kelsey Houston-Edwards offers ambitious content for viewers that are eager to attain a greater understanding of the world around them. Math is pervasive - a robust yet precise language - and with each episode you’ll begin to see the math that underpins everything in this puzzling, yet fascinating, universe.</p>
@@ -122,7 +122,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
   <article class="box-item animate">
     <h3>StandUpMaths</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/standupmaths.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/standupmaths.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>I do mathematics and stand-up. Sometimes simultaneously. Occasionally while being filmed. (It's quite the Venn diagram.)</p>
@@ -143,7 +143,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
   <article class="box-item animate">
     <h3>Physics.org Mathematics section</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physics_math.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physics_math.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Mathematics section on Physics.org</p>
@@ -156,7 +156,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
   <article class="box-item animate">
     <h3>Physics.org Quantum Physics section</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physics_math.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physics_math.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Physics.org Quantum Physics section</p>
@@ -169,7 +169,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
   <article class="box-item animate">
     <h3></h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Quanta.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Quanta.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Quanta Magazine is an editorially independent online publication launched by the Simons Foundation to enhance public understanding of science. Why Quanta? Albert Einstein called photons “quanta of light.” Our goal is to “illuminate science.”</p>

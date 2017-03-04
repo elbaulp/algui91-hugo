@@ -49,7 +49,7 @@ El código es el siguiente:
 El resultado:
 
 <figure>
-<a href="/img/dependency-tree.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree.png" alt="Dependenty tree in tikz" title="Dependenty tree in tikz" width="799" height="194"></amp-img></a>
+<a href="/img/dependency-tree.png"><amp-img  sizes="(min-width: 799px) 799px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree.png" alt="Dependenty tree in tikz" title="Dependenty tree in tikz" width="799" height="194"></amp-img></a>
 <figcaption>Dependenty tree in tikz</figcaption>
 </figure>
 

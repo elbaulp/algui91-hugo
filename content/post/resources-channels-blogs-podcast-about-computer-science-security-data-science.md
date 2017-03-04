@@ -31,7 +31,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>ComputerPhile</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/computerPhile.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/computerPhile.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Videos all about computers and computer stuff. Sister channel of Numberphile.</p>
@@ -44,7 +44,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Security Now!</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/securitynow.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/securitynow.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Steve Gibson, the man who coined the term spyware and created the first anti-spyware program, creator of Spinrite and ShieldsUP, discusses the hot topics in security today with Leo Laporte.</p>
@@ -65,7 +65,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Becoming a Data Scientist</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/becomingads.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/becomingads.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Documenting my path from "SQL Data Analyst pursuing an Engineering Master's Degree" to "Data Scientist" </p>
@@ -78,7 +78,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Data Skeptic</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dataskeptic.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dataskeptic.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Data Skeptic is your source for a perseptive of scientific skepticism on topics in statistics, machine learning, big data, artificial intelligence, and data science. Our weekly podcast and blog bring you stories and tutorials to help understand our data-driven world.</p>
@@ -91,7 +91,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Data Stories</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/datastories.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/datastories.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>A podcast on data visualization with Enrico Bertini and Moritz Stefaner</p>
@@ -104,7 +104,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Partially Derivative</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/partiallyd.png" width="100" height="72"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/partiallyd.png" width="100" height="72"></amp-img>
     </figure>
 
     <p>Partially Derivative is a podcast about data science in the world around us. Episodes are a mix of explorations into the techniques used in data science and discussions with the field's leading experts. The podcast is a personal project hosted by Jonathon, Vidya, and Chris -- three experts in data science.</p>
@@ -117,7 +117,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Talking Machines</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/talkingmachines.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/talkingmachines.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>Talking Machines is your window into the world of machine learning. Your hosts, Katherine Gorman and Ryan Adams, bring you clear conversations with experts in the field, insightful discussions of industry news, and useful answers to your questions.</p>
@@ -134,7 +134,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Chips with everything</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/chips-with-everything.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/chips-with-everything.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>Why are teens shoplifting makeup and posting their hauls to Tumblr? How can a blind man run a marathon through the desert with just an iPhone? And what happens to your social media profiles after you die? Week on week, Leigh Alexander answers questions just like these on our digital culture podcast, Chips with Everything.</p>
@@ -153,7 +153,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Security Now!</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/securitynow.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/securitynow.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Steve Gibson, the man who coined the term spyware and created the first anti-spyware program, creator of Spinrite and ShieldsUP, discusses the hot topics in security today with Leo Laporte.</p>
@@ -170,7 +170,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Talk Python To Me</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/talkpython.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/talkpython.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>Talk Python to Me is a weekly podcast hosted by Michael Kennedy. The show covers a wide array of Python topics as well as many related topics (e.g. MongoDB, AngularJS, DevOps).</p>
@@ -391,7 +391,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>sebastianraschka.com</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sebastian.jpg" width="100" height="106"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sebastian.jpg" width="100" height="106"></amp-img>
     </figure>
 
     <p>Sebastian Raschka is the author of the bestselling book “Python Machine Learning.” As a Ph.D. candidate at Michigan State University, he is developing new computational methods in the field of computational biology.</p>
@@ -404,7 +404,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Data Elixir</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dataelixir.png" width="285" height="53"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dataelixir.png" width="285" height="53"></amp-img>
     </figure>
 
     <p>Data Elixir is a weekly newsletter of curated data science news and resources from around the web.</p>
@@ -418,7 +418,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Becoming A Data Scientist</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/becomingads.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/becomingads.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Documenting my path from "SQL Data Analyst pursuing an Engineering Master's Degree" to "Data Scientist" </p>
@@ -431,7 +431,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>FlowingData</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/flowingdata.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/flowingdata.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>FlowingData explores how statisticians, designers, data scientists, and others use analysis, visualization, and exploration to understand data and ourselves.</p>
@@ -454,7 +454,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Natural Language Processing Blog</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/nlpblog.jpg" width="100" height="116"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/nlpblog.jpg" width="100" height="116"></amp-img>
     </figure>
 
     <p>My biased thoughts on the fields of natural language processing (NLP), computational linguistics (CL) and related topics (machine learning, math, funding, etc.)</p>
@@ -476,7 +476,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Machine Learning at Berkeley Blog - Articles</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/mlberkeley.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/mlberkeley.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>Machine Learning at Berkeley (ML@B) is student-run organization based at the University of California, Berkeley, and is dedicated to building and fostering a vibrant machine learning community on the University of California, Berkeley campus as well as contributing to the greater machine learning community beyond the campus.</p>
@@ -531,7 +531,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>You've Been Haacked</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/youhavebeenhacked.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/youhavebeenhacked.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>I work at GitHub doing whatever I can to make it even more awesome.</p>
@@ -562,7 +562,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>The Geek Stuff</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/thegeekstuff.gif" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/thegeekstuff.gif" width="100" height="100"></amp-img>
     </figure>
 
     <p>I will be posting instruction guides, How-Tos, troubleshooting tips and tricks Linux and open source technologies. My focus is to write articles that will either teach you or help you resolve a problem.</p>
@@ -585,7 +585,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Asyncified!</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/asyncified.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/asyncified.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Hi, my name is Yuval Itzchakov, I'm 27 years old from Israel. I've been programming for about the last 4 years, started out in the .NET stack and slowly broadening horizions to Python and some C++. I love learning internals of systems and exploring what happens under the covers.</p>
@@ -598,7 +598,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Yegor Bugayenko</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/yegor.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/yegor.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>I'm Yegor Bugayenko (Russian: Его́р Бугае́нко), a programmer, a founder, an investor, and a philanthropist.</p>
@@ -615,7 +615,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>JerryGamblin.com</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/jerrygamblin.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/jerrygamblin.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Security Advocate. Problem Solver. Hacker. Ebullient Communicator.</p>
@@ -638,7 +638,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Schneier on Security</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bruce.jpg" width="100" height="129"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bruce.jpg" width="100" height="129"></amp-img>
     </figure>
 
     <p>Bruce Schneier is an internationally renowned security technologist, called a "security guru" by The Economist. He is the author of 13 books--including Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World-- as well as hundreds of articles, essays, and academic papers.</p>
@@ -651,7 +651,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Krebs on Security</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/krebs.png" width="100" height="120"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/krebs.png" width="100" height="120"></amp-img>
     </figure>
 
     <p>Brian Krebs worked as a reporter for The Washington Post from 1995 to 2009, authoring more than 1,300 blog posts for the Security Fix blog, as well as hundreds of stories for washingtonpost.com and The Washington Post newspaper, including eight front-page stories in the dead-tree edition and a Post Magazine cover piece on botnet operators. In 2014, he was profiled in The New York Times, Business Week and by Poynter.org. More recently, he was invited to an “Ask Me Anything” discussion on Reddit about investigative reporting.</p>
@@ -674,7 +674,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Trend Micro Simply Security</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/trendmicro.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/trendmicro.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>For nearly 30 years, Trend Micro’s unwavering vision has been to make the world safe for exchanging digital information. Security is our entire focus, and it shows. This single-minded passion has inspired our innovations that keep up with the bad guys despite a changing IT landscape, riskier user behavior, and constantly evolving threats.</p>
@@ -687,7 +687,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Pentester.es</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/pentester.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/pentester.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>Jose is one of the individuals who have earned the GIAC Security Expert (GSE) designation. He is a SANS Institute community instructor for penetration testing courses and a regular speaker at security conferences.</p>
@@ -700,7 +700,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Un informático en el lado del mal</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/chema.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/chema.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Seguridad informática, hacking, pentesting, ldap injection, blind ldap injection, sql injection, blind sql injection, heavy queries, connection string parameter pollution, foca, evil foca, latch, dust rss, metashield protector, faast, metadatos, libros de seguridad informática, informática 64, recover messages, 0xword, cálico electrónico, eleven paths, telefónica y chema alonso. las opiniones son de los autores de los artículos y las mías son mías personales.</p>
@@ -713,7 +713,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>MuySeguridad</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/muyseguridad.jpg" width="100" height="17"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/muyseguridad.jpg" width="100" height="17"></amp-img>
     </figure>
 
     <p>Noticias sobre seguridad, virus, antivirus, hacking, phising, spam, ataques, timos, estafas, malware y otras amenazas de seguridad informática.</p>
@@ -726,7 +726,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Security By Default</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/securitybydefault.png" width="100" height="37"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/securitybydefault.png" width="100" height="37"></amp-img>
     </figure>
 
     <p>Después de mucho tiempo hablando sobre la posibilidad de crear un blog íntegramente sobre seguridad informática, nos hemos decidido a ponernos en marcha y crear un espacio donde poder compartir experiencias y hablar de los aspectos técnicos relacionados con la seguridad informática. </p>
@@ -739,7 +739,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
   <article class="box-item animate">
     <h3>Lifehacker</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/lifehacker.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/lifehacker.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>Tips, tricks, and downloads for getting things done.</p>

@@ -111,7 +111,7 @@ if (newValue.toString().length() <= 8) {
 Como se vio en el anterior artículo, `mDialogoPersonalizado` es de tipo `Preference`. Cuando se introduzca una contraseña inferior a 8 caracteres, se mostrará el mensaje como aparece en la imagen:
 
 <figure>
-<a href="/img/2014/02/Cambiar-el-color-del-summary-en-una-Preferencia-Android.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/02/Cambiar-el-color-del-summary-en-una-Preferencia-Android.png" title="{{ page.title }}" alt="{{ page.title }}" width="419px" height="97px" /></a>
+<a href="/img/2014/02/Cambiar-el-color-del-summary-en-una-Preferencia-Android.png"><amp-img sizes="(min-width: 419px) 419px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/02/Cambiar-el-color-del-summary-en-una-Preferencia-Android.png" title="{{ page.title }}" alt="{{ page.title }}" width="419px" height="97px" /></a>
 </figure>
 
 
