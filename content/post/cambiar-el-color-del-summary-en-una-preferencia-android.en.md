@@ -106,7 +106,7 @@ if (newValue.toString().length() <= 8) {
 As seen in the previous post, `mDialogoPersonalizado`'s type is `Preference`. When a password of length inferior to 8 characters is introduced by the user, the following message is shown:
 
 <figure>
-    <a href="/img/2014/02/Cambiar-el-color-del-summary-en-una-Preferencia-Android.png"><amp-img <amp-img sizes="(min-width: 419px) 419px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/02/Cambiar-el-color-del-summary-en-una-Preferencia-Android.png" title="{{ page.title }}" alt="{{ page.title }}" width="419px" height="97px" /></a>
+    <a href="/img/2014/02/Cambiar-el-color-del-summary-en-una-Preferencia-Android.png"><amp-img sizes="(min-width: 419px) 419px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/02/Cambiar-el-color-del-summary-en-una-Preferencia-Android.png" title="{{ page.title }}" alt="{{ page.title }}" width="419px" height="97px" /></a>
 </figure>
 
  [1]: https://elbauldelprogramador.com/como-crear-un-dialogo-personalizado-en-las-preferencias-android/ "Cómo crear un diálogo personalizado en las preferencias Android"
