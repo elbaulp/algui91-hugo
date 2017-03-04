@@ -2,14 +2,12 @@
 author: alex
 categories:
 - how to
-color: '#F57C00'
 date: '2016-01-01'
+lastmod: 2017-03-04T07:57:21+01:00
 description: "En su \xFAltima actualizaci\xF3n, el plugin JetPack introdujo la notaci\xF3n
   Markdown para formatear art\xEDculos y comentarios. La siguiente chuleta pretende
   servir de referencia tanto a los lectores como a mi, aprovechando as\xED la ocasi\xF3n
   para practicar y memorizar el formato."
-lastmod: 2015-12-24
-
 mainclass: articulos
 url: /chuleta-markdown-para-wordpress/
 tags:
@@ -26,46 +24,46 @@ En su última actualización, el plugin [JetPack][1] introdujo la notación Mark
 
 <!--more--><!--ad-->
 
-## Guía de Markdown para wordpress
+# Guía de Markdown para wordpress
 
-#### **Negrita** o *cursiva* :
+## **Negrita** o *cursiva* :
 
 **negrita**, **negrita**, *cursiva*,*cursiva*
 
     __negrita__, **negrita**, *cursiva*,_cursiva_
 
 
-#### Enlaces en [línea][2]:
+## Enlaces en [línea][2]:
 
     Un [enlace](/ "Texto alternativo")
 
 
-#### Enlaces [referenciados][1]:
+## Enlaces [referenciados][1]:
 
     [referenciados][1], en cualquier parte del texto debe haber [1]: http://enlace. "titulo"
 
 
-#### Imágenes en línea: ![Alt][3]:
+## Imágenes en línea: ![Alt][3]:
 
     ![Alt](/img/2013/12/favicon.ico "Título")
 
 
-#### Imágenes referenciadas: ![Alt][3]
+## Imágenes referenciadas: ![Alt][3]
 
     ![Alt][2] Al igual que en los enlaces referenciados, en algún lugar del texto debe aparecer [2]: Ruta/a/la/imagen "Titulo".
 
 
-#### Imágenes enlazadas: [![Texto Alternativo][4]][5]
+## Imágenes enlazadas: [![Texto Alternativo][4]][5]
 
     [![Texto Alternativo](/img/2013/12/favicon.ico)](/ "Imágenes enlazadas")
 
 
-#### Notas al pie<sup id="fnref-2416-1"><a href="#fn-2416-1" rel="footnote">1</a></sup>:
+## Notas al pie<sup id="fnref-2416-1"><a href="#fn-2416-1" rel="footnote">1</a></sup>:
 
     [^1] y donde esté la nota al pie: [^1]: Notal al pie.
 
 
-#### Listas sin numerar:
+## Listas sin numerar:
 
   * Elemento 1
   * Elemento 2
@@ -78,7 +76,7 @@ En su última actualización, el plugin [JetPack][1] introdujo la notación Mark
         - Elemento 4
 
 
-#### Listas numeradas:
+## Listas numeradas:
 
   1. Elemento 1
   2. Elemento 2
@@ -87,7 +85,7 @@ En su última actualización, el plugin [JetPack][1] introdujo la notación Mark
         2. Elemento 2
 
 
-#### Citas
+## Citas
 
 > Texto citado
 >
@@ -97,18 +95,18 @@ En su última actualización, el plugin [JetPack][1] introdujo la notación Mark
     >> Cita anidada
 
 
-#### Preformato
+## Preformato
 
 Si se empieza cada línea con dos o más espacios el texto no se formateará.
 
-#### Código en línea
+## Código en línea
 
 `cout << "Hola" << endl;`
 
     `cout << "Hola" << endl;`
 
 
-#### Bloques de código
+## Bloques de código
 
     cout << "Hola" << endl;
 
@@ -125,7 +123,7 @@ Si se empieza cada línea con dos o más espacios el texto no se formateará.
     ~~~
 
 
-#### Cabeceras
+## Cabeceras
 
 # Header 1
 
@@ -147,22 +145,13 @@ Si se empieza cada línea con dos o más espacios el texto no se formateará.
     ###### Header 6
 
 
-#### Listas de definiciones
-
-El Baúl del programador
-:   Blog de programación (c++, python, sql, pl/sql, script bash, android etc)
-
-    El Baúl del programador
-    : Blog de programación (c++, python, sql, pl/sql, script bash, android etc)
-
-
-#### Abreviaturas
+## Abreviaturas
 
 El *markdown* convierte texto a HTML.
 
-#### Referencias
+# Referencias
 
-*Artículo de Jetpack sobre el Markdown* »» <a href="http://jetpack.me/support/markdown/" target="_blank">jetpack.me</a>
+- *Artículo de Jetpack sobre el Markdown* »» <a href="http://jetpack.me/support/markdown/" target="_blank">jetpack.me</a>
 
 [1]: http://jetpack.me/support/markdown/ "Artículo de Jetpack sobre el Markdown"
 [2]: https://elbauldelprogramador.com/ "Texto alternativo"
