@@ -3,14 +3,12 @@ author: alex
 categories:
 - articulos
 - how to
-color: '#F57C00'
 date: '2016-01-01'
+lastmod: 2017-03-04T07:51:42+01:00
 description: "Si encontraste esta p\xE1gina, por suerte es lo que estabas buscando,
   una peque\xF1a chuleta de comandos para GPG. Si encuentras alg\xFAn error, no dudes
   en comentarlo."
 image: 2014/04/Chuleta-de-comandos-GPG.png
-lastmod: 2016-08-10
-
 mainclass: articulos
 url: /chuleta-de-comandos-para-gpg/
 tags:
@@ -23,12 +21,10 @@ title: Chuleta de comandos para GPG
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/04/Chuleta-de-comandos-GPG.png" title="{{ page.title }}" alt="{{ page.title }}" width="400px" height="175px"></amp-img>
+    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/04/Chuleta-de-comandos-GPG.png" title="Chuleta de comandos para GPG" alt="Chuleta de comandos para GPG" width="400px" height="175px"></amp-img>
 </figure>
 
 Si encontraste esta página, por suerte es lo que estabas buscando, una pequeña chuleta de comandos para [GPG][1]. Si encuentras algún error, no dudes en comentarlo.
-
-
 
 He usado el “**Nombre de Usuario**” como el nombre asociado a la clave. Perdón si no es muy imaginativo. Creo que GPG es bastante amplio en sus asignaciones de usuario, por ejemplo el nombre para mi clave privada es *Charles Lockhart*, pero puedo referenciarlo simplemente poniendo Lockhart.
 
@@ -160,7 +156,7 @@ Si tienes múltiples claves secretas, el comando elegirá la correcta, o mostrar
 gpg --o archivodesalida -d archivoencriptado.gpg
 ```
 
-, o utilizar *mydata.tar.gpg* como por ejemplo,
+o utilizar *mydata.tar.gpg* como por ejemplo,
 
 ```bash
 gpg -o mydata.tar -d mydata.tar.gpg
