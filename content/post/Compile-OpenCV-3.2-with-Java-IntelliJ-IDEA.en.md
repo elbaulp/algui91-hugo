@@ -154,6 +154,6 @@ finally, we take the face detection example from [opencv documentation](http://d
 Finally we run **HelloOpenCV** example and see it works! printing lenna's face detection to **faceDetection.png** image.
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/example-face-detection-with-opencv.png" title="" alt="" width="531" height="528"></amp-img>
+    <amp-img sizes="(min-width: 531px) 531px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/example-face-detection-with-opencv.png" title="" alt="" width="531" height="528"></amp-img>
 <figcaption>example face detection</figcaption>
 </figure>

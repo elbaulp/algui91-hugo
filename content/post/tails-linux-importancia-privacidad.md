@@ -25,7 +25,7 @@ El ex-empleado de la NSA **_Edward Snowden_**, conocido por su implicación en w
 # ¿Qué es Tails?
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/tchou-improved.png" alt="{{ .Title }}" title="{{ .Title}}" width="500" height="257"></amp-img>
+    <amp-img  sizes="(min-width: 500px) 500px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/tchou-improved.png" alt="{{ .Title }}" title="{{ .Title}}" width="500" height="257"></amp-img>
 </figure>
 
 
@@ -40,7 +40,7 @@ Además de [TOR](/tags/tor), TAILS permite utilizar I2P, y en la web oficial vie
 Configurar un pen drive para instalar TAILS es bastante sencillo, especialmente porque [viene indicado paso a paso](https://tails.boum.org/install/os/index.en.html) en la página oficial. Además incluye especificaciones de instalación desde cualquier sistema operativo (Linux, Windows, MAC y otro TAILS). El proceso es básicamente bajarse la imagen desde TOR, preparar un pen drive de 4 o más gigas, e instalar la imagen en éste.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/pasted-from-clipboard.png" alt="{{ .Title }}" title="{{ .Title }}" width="946" height="316"></amp-img>
+    <amp-img  sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/pasted-from-clipboard.png" alt="{{ .Title }}" title="{{ .Title }}" width="946" height="316"></amp-img>
 </figure>
 
 Para usar este sistema operativo, simplemente insertamos el pen drive en uno de los puertos de un ordenador apagado y lo encendemos. El ordenador tardará varios segundos en terminar de cargar la imagen, pero cuando lo haga tendremos acceso a nuestro escritorio desde el cual podremos navegar con tranquilidad. Una vez que apagamos el ordenador y retiramos el pen drive, **no queda rastro** de lo que hayamos hecho en el ordenador, ya que se sobrescribe la memoria.
