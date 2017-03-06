@@ -2,14 +2,9 @@
 author: alex
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-description: "El destructor es una funci\xF3n especial, que tiene el mismo nombre
-  que la clase pero que va precedido del s\xEDmbolo ~ (ASCII 126). El destructor es
-  \xFAnico y no tiene argumentos: se puede definir dentro de la clase o fuera de la
-  misma."
-lastmod: 2016-09-04
-
+lastmod: 2017-03-06T18:24:28+01:00
+description: "El destructor es una funci\xF3n especial, que tiene el mismo nombre  que la clase pero que va precedido del s\xEDmbolo ~ (ASCII 126). El destructor es  \xFAnico y no tiene argumentos: se puede definir dentro de la clase o fuera de la  misma."
 mainclass: dev
 url: /clases-y-objetos-el-destructor/
 title: Clases y Objetos. El Destructor
@@ -20,7 +15,6 @@ Ya hemos visto como [definir una clase][1], y como crear un [constructor][2] par
 <!--more--><!--ad-->
 
 El destructor es una función especial, que tiene el mismo nombre que la clase pero que va precedido del símbolo ~ (ASCII 126). El destructor es único y no tiene argumentos: se puede definir dentro de la clase o fuera de la misma. Si no se ha definido explícitamente un destructor dentro de la clase, C++ proporciona uno. Cuando una variable sale del ámbito en la que se ha declarado, se libera la memoria que ocupa: un objeto llama para este propósito al destructor. Por ejemplo, en el [capitulo anterior][2] creamos pt1 y def, son objetos definidos en el bloque de **main**. Cuando el programa alcanza el final del bloque, dichos objetos salen de ámbito llamando al destructor de la clase, e imprimiendo en la pantalla dos mensajes idénticos (objeto de la clase Punto destruido).
-
 
 ```cpp
 int (main){
@@ -41,7 +35,7 @@ class Punto{
 };
 ```
 
-## Siguiente tema: [Clases y Objetos - Control del acceso a los miembros de la clase][3]
+# Siguiente tema: [Clases y Objetos - Control del acceso a los miembros de la clase][3]
 
  [1]: https://elbauldelprogramador.com/clases-y-objetos-definir-una-clase/
  [2]: https://elbauldelprogramador.com/clases-y-objetos-el-constructor/
