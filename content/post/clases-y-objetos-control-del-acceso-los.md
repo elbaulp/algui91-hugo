@@ -2,10 +2,8 @@
 author: alex
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-09-04
-
+lastmod: 2017-03-06T18:22:14+01:00
 mainclass: dev
 url: /clases-y-objetos-control-del-acceso-los/
 title: Clases y Objetos. Control del acceso a los miembros de la clase
@@ -81,7 +79,7 @@ cout << "nabscisa del punto= " << ptl.getx();
 cout << "nordenada del punto= "<< ptl.gety ();
 ```
 
-## Siguiente tema: [Clases y Objetos - Funciones Inline][2]
+# Siguiente tema: [Clases y Objetos - Funciones Inline][2]
 
  [1]: https://elbauldelprogramador.com/clases-y-objetos-definir-una-clase/
  [2]: https://elbauldelprogramador.com/clases-y-objetos-funciones-inline/

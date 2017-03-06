@@ -2,16 +2,14 @@
 author: alex
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-09-04
-
+lastmod: 2017-03-06T18:23:49+01:00
 mainclass: dev
 url: /clases-y-objetos-el-constructor/
 title: Clases y Objetos. El Constructor
 ---
 
-## Constructores
+# Constructores
 
 Una vez que [se ha definido una clase][1], para usarla se ha de definir un objeto. Se define una variable de la clase Punto, exactamente igual que se define una variable de un tipo predefinido (int, float, etc.), o definido por el usuario. Las variables de una clase se denominan objetos. Los objetos usan la misma notación que cualquier tipo de variable, y su alcance se extiende desde la línea donde se ha declarado hasta el final del bloque.
 
@@ -138,7 +136,7 @@ def.ocultar();
 ```
 
 
-## Siguiente tema: [Clases y Objetos - El Destructor][2]
+# Siguiente tema: [Clases y Objetos - El Destructor][2]
 
  [1]: https://elbauldelprogramador.com/clases-y-objetos-definir-una-clase/
  [2]: https://elbauldelprogramador.com/clases-y-objetos-el-destructor/

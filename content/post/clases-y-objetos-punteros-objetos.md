@@ -2,13 +2,9 @@
 author: alex
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-description: "Los operadores new y delete ofrecen la posibilidad de reservar y liberar
-  de forma din\xE1mica la porci\xF3n de memoria que ocupa un objeto, de un modo similar
-  a la de las funciones malloc y free."
-lastmod: 2016-09-04
-
+lastmod: 2017-03-06T18:26:54+01:00
+description: "Los operadores new y delete ofrecen la posibilidad de reservar y liberar  de forma din\xE1mica la porci\xF3n de memoria que ocupa un objeto, de un modo similar  a la de las funciones malloc y free."
 mainclass: dev
 url: /clases-y-objetos-punteros-objetos/
 title: Clases y Objetos. Punteros a objetos
@@ -75,6 +71,6 @@ puntero_a_objeto->miembro_público;
 delete ptro_pt;   //llama al destructor
 ```
 
-## Siguiente tema: [Clases y Objetos - Arrays][1]
+# Siguiente tema: [Clases y Objetos - Arrays][1]
 
  [1]: https://elbauldelprogramador.com/clases-y-objetos-arrays/

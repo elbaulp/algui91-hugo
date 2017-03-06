@@ -2,10 +2,8 @@
 author: alex
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-09-04
-
+lastmod: 2017-03-06T18:24:54+01:00
 mainclass: dev
 url: /clases-y-objetos-funciones-inline/
 title: Clases y Objetos - Funciones inline
@@ -27,6 +25,6 @@ public:
 Para que una función definida fuera de la clase sea inline es necesario especificarlo con esta palabra reservada. Las funciones inline hacen una sustitución del código, igual que las macros #define en C, pero con la ventaja de la depuración y la comprobación de los tipos de datos. Corno regla general, se definirá una función dentro de la clase, si consta de un pequeño número de sentencias.
 
 
-## Siguiente tema: [Clases y Objetos - Punteros a objetos][1]
+# Siguiente tema: [Clases y Objetos - Punteros a objetos][1]
 
  [1]: https://elbauldelprogramador.com/clases-y-objetos-punteros-objetos/
