@@ -2,18 +2,15 @@
 author: alex
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-description: "Vamos a estudiar c\xF3mo se pasa una variable a una funci\xF3n en uno
-  de sus argumentos."
-lastmod: 2016-09-08
-
+lastmod: 2017-03-06T18:26:08+01:00
+description: "Vamos a estudiar c\xF3mo se pasa una variable a una funci\xF3n en uno  de sus argumentos."
 mainclass: dev
 url: /clases-y-objetos-pasar-un-objeto-una/
 title: "Clases y Objetos - Pasar un objeto a una funci\xF3n"
 ---
 
-### Introducción
+# Introducción
 
 Para usar una función son necesarios tres pasos:
 
@@ -25,7 +22,7 @@ Para usar una función son necesarios tres pasos:
 
 Vamos a estudiar cómo se pasa una variable a una función en uno de sus argumentos.
 
-### Paso por valor
+# Paso por valor
 
 ```cpp
 int funcion (int parm); // declaración
@@ -40,7 +37,7 @@ int funcion (int parm)  // definición
 
 Así, cuando la variable arg se pasa por valor a una función, la función recibe una copia de `arg`. Cualquier cambio en la copia `parm` dentro del cuerpo de la función no afecta para nada al valor de `arg`. La función no puede, por tanto, alterar directamente el parámetro pasado por valor. Así pues, durante el curso de la llamada a la función existen la variable `arg` y su copia `parm`. Cuando se sale de la función, la variable `parm` está fuera de ámbito y se libera la memoria que ocupaba. En este caso, se asigna el valor 88 a `parm`, no a `arg`.
 
-### Paso por dirección
+# Paso por dirección
 
 ```cpp
 int funcion(int* parml); // declaración
@@ -63,7 +60,7 @@ Declaración de una referencia: `ínt& ir=i;`
 
 Cualquier cambio que experimente `ir`, lo experimenta `i`, y viceversa. La potencialidad de las referencias está en el paso de una variable a una función, y en segundo lugar -- aunque no lo veremos -- en la posibilidad de, que las funciones devuelvan referencias.
 
-### Paso por referencia
+# Paso por referencia
 
 ```cpp
 int funcion (int& parm);  // declaración

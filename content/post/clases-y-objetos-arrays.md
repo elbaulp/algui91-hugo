@@ -2,20 +2,15 @@
 author: alex
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-description: Un array sirve para guardar un conjunto de entidades pertenecientes a
-  la misma clase. Para reservar espacio en memoria para un array, y para liberar la
-  memoria, se ha de llamar a las funciones operator new[]() y operator delete[](),
-  respectivamente
-lastmod: 2016-09-04
-
+lastmod: 2017-03-06T18:21:25+01:00
+description: Un array sirve para guardar un conjunto de entidades pertenecientes a la misma clase. Para reservar espacio en memoria para un array, y para liberar la  memoria, se ha de llamar a las funciones operator new[]() y operator delete[](),  respectivamente
 mainclass: dev
 url: /clases-y-objetos-arrays/
 title: Clases y Objetos. Arrays
 ---
 
-## Introducción
+# Introducción
 
 Un array sirve para guardar un conjunto de entidades pertenecientes a la misma clase. Para reservar espacio en memoria para un array, y para liberar la memoria, se ha de llamar a las funciones `operator new[]()` y `operator delete[]()`, respectivamente. En este caso, **new** no acepta inicializadores. Por ejemplo, en la siguiente porción de código se reserva espacio en memoria para un array de 3 enteros. Se inicializan, se usan, y por último, se libera dicho espacio en memoria reservado cuando ya no se precisa más el array.
 
@@ -42,7 +37,7 @@ strcpy(cp, “esto es una cadena”);
 delete[] cp;
 ```
 
-## Array de objetos
+# Array de objetos
 
 Primero reservamos espacio para un array de tres objetos de la clase Punto.  Luego inicializamos dichos objetos, llamando al constructor. Hacemos uso de los objetos, y por último, liberamos el espacio de memoria reservada.
 
@@ -60,7 +55,7 @@ delete[] objs;
 //llama tres veces al destructor
 ```
 
-## Array de punteros a objetos
+# Array de punteros a objetos
 
 Primero reservamos espacio para un array de tres punteros a objetos de la clase Punto. Luego asignamos las direcciones de los objetos creados a los elementos del array, hacernos uso de los punteros a objetos, y por último, liberamos el espacio de memoria reservada, destruyendo cada elemento del array, y el array mismo.
 
@@ -79,7 +74,7 @@ for (int i=0; i<3; i++)
 delete[] pObjs;
 ```
 
-## Moverse por el array
+# Moverse por el array
 
 Punteros y arrays están íntimamente relacionados por las reglas de la aritmética de punteros. El compilador interpreta el nombre de array corno un puntero a su primer elemento. Es decir, si objs es el nombre del array, `objs` es equivalente a `&objs[0]`. Por las reglas de la aritmética de punteros, si se añade un entero `i` al nombre de un array, el resultado es un puntero al elemento `i` del array: esto es, `objs+i` es equivalente a `&objs[i]`. Esta equivalencia la podemos expresar mediante la regla:
 
@@ -96,6 +91,6 @@ objs++;          //avanza a objs[2]
 objs--;          //retrocede a objs[1]
 ```
 
-## [Clases y Objetos. Pasar un objeto a una función][1]
+# [Clases y Objetos. Pasar un objeto a una función][1]
 
  [1]: https://elbauldelprogramador.com/clases-y-objetos-pasar-un-objeto-una/
