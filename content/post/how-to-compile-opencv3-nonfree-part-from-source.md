@@ -2,17 +2,18 @@
 title = "Compilar la parte no gratuita de OpenCV 3.0+ desde fuente"
 tags = ["privativa", "opencv", "intellij", "java"]
 categories = ["dev"]
-image = ""
+image = "how-to-compile-opencv3-nonfree-part-from-source.jpg"
 mainclass = "dev"
 author = "cristina"
 description = "Por defecto, la parte de código privativo no se compila cuando compilas OpenCV o realizas una instalación por defecto, learn how to install nonfree code, aprende a instalar la parte no gratuita de OpenCV"
-date = "2017-03-01T18:14:18+01:00"
-draft = true
+lastmod = "2017-03-07T20:31:36+01:00"
+date = "2017-03-07T20:31:38+01:00"
+url = "/compilar-la-parte-no-gratuita-de-opencv-3.0-desde-fuente/"
 +++
 
 En mi último post [Compilar OpenCV 3.2 para Java y usarlo en IntelliJ IDEA](https://elbauldelprogramador.com/compile-opencv-3.2-with-java-intellij-idea/ "Compilar OpenCV 3.2 para Java y usarlo en IntelliJ IDEA") Expliqué cómo compilar OpenCV desde el código fuente con soporte para JAVA, sin embargo, La parte no gratuita de OpenCV no se incluye por defecto. Si quieres usar parte de la parte privativa de OpenCV, como los descriptores SIFT o SURF, deberás hacer lo siguiente:
 
-# [1]. Descarga OpenCV 3.2, descomprime y crea un directorio donde construirlo 
+# [1]. Descarga OpenCV 3.2, descomprime y crea un directorio donde construirlo
 
 Siguiendo los pasos de [mi último post](https://elbauldelprogramador.com/compile-opencv-3.2-with-java-intellij-idea/ "Compilar OpenCV 3.2 para Java y usarlo en IntelliJ IDEA").
 

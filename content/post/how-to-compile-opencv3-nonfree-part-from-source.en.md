@@ -2,12 +2,13 @@
 title = "How to Compile  OpenCV 3.0+ nonfree part from source"
 tags = ["howto", "opencv", "intellij", "java"]
 categories = ["dev"]
-image = ""
+image = "how-to-compile-opencv3-nonfree-part-from-source.jpg"
 mainclass = "dev"
 author = "cristina"
 description = "By default, nofree code does not ship with the default OpenCv installation, learn how to install nonfree code"
-date = "2017-03-01T18:14:18+01:00"
-draft = true
+lastmod = "2017-03-07T20:31:53+01:00"
+date = "2017-03-07T20:31:54+01:00"
+url = "/en/how-to-compile-opencv3-nonfree-part-from-source/"
 +++
 
 In my last post [Compile OpenCV from source with JAVA support](https://elbauldelprogramador.com/en/compile-opencv-3.2-with-java-intellij-idea/ "Compile OpenCV 3.2 with Java and use it in IntelliJ IDEA") I explained how to Compile OpenCV from source with JAVA support, however, the OpenCV nonfree part was not included. If you are planning to use private features from OpenCV like SIFT or SURF descriptors, you should go as follows:
@@ -23,7 +24,9 @@ following the steps of [my last post](https://elbauldelprogramador.com/en/compil
 nonfree part has been separated in OpenCV3+, so you need to download it separately from [github opencv repo](https://github.com/opencv/opencv_contrib "github opencv repository")  or clone the repository. Then extract **opencv_contrib** and move it inside your opencv folder :
 
 ```bash
+
 cris@cris ~ $ cp Downloads/opencv-contrib opencv-3.2.0/
+
 ```
 
 # [3]. generate makefiles
@@ -31,7 +34,10 @@ cris@cris ~ $ cp Downloads/opencv-contrib opencv-3.2.0/
 we move to the build folder inside opencv folder and type:
 
 ```bash
-cris@cris~$ cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=../dist -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules ..
+
+cris@cris~$ cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_BUILD_TYPE=Release\\
+-DCMAKE_INSTALL_PREFIX=../dist -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules ..
+
 ```
 
 With `DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules` we are specifying where to found the nonfree part.
@@ -39,14 +45,16 @@ With `DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules` we are specifying wh
 If makefiles generation went ok, you can now build. If using openCV in JAVA, you must make sure `$JAVA_HOME` variable is set to JDK's path and visible to child processes. For that when doing: `echo $JAVA_HOME` the JDK path must be displayed. If not, in terminal, set de variable value to JDK path and export it, for example:
 
 ```bash
+
 cris@cris ~$ export JAVA_HOME=/home/jdk1.8.0_111/
+
 ```
 
 Notice that when generating the makefile, the output in the Java field looks like this:
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" title="Building makefiles for JAVA openCV" alt="Building makefiles for JAVA openCV output" width="983" height="164"></amp-img>
-<figcaption>building makefiles</figcaption>
+    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" title="Building makefiles for JAVA openCV" alt="Building makefiles for JAVA openCV output" width="983" height="164"></amp-img>
+    <figcaption>building makefiles</figcaption>
 </figure>
 
 That is, there is a specified ant and JNI path, and Java wrappers is set to YES.
