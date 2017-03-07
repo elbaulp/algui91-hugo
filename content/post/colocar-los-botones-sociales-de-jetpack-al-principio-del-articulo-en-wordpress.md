@@ -3,14 +3,10 @@ author: alex
 categories:
 - opensource
 - php
-color: '#E64A19'
 date: '2016-01-01'
-description: "A d\xEDa de hoy, el famoso plugin para wordpress jetpack no soporta
-  colocar de una forma f\xE1cil los botones sociales al principio del art\xEDculo.
-  As\xED que buscando un poco por la red encontr\xE9 una forma de hacerlo en el foro
-  de WordPress que menciono en las referencias y que veremos a continuaci\xF3n."
+lastmod: 2017-03-07T17:49:23+01:00
+description: "A d\xEDa de hoy, el famoso plugin para wordpress jetpack no soporta  colocar de una forma f\xE1cil los botones sociales al principio del art\xEDculo.  As\xED que buscando un poco por la red encontr\xE9 una forma de hacerlo en el foro  de WordPress que menciono en las referencias y que veremos a continuaci\xF3n."
 image: 2013/06/jetpack-300x222.png
-
 mainclass: dev
 url: /colocar-los-botones-sociales-de-jetpack-al-principio-del-articulo-en-wordpress/
 tags:
@@ -25,7 +21,7 @@ A día de hoy, el famoso plugin para wordpress ***jetpack*** no soporta colocar 
 
 <!--more--><!--ad-->
 
-### Colocar los botones sociales al principio de los artículos
+# Colocar los botones sociales al principio de los artículos
 
 El primer paso es editar el archivo ***modules/sharedaddy/sharing-service.php*** del plugin y eliminar o comentar las últimas líneas, que deberían ser:
 
@@ -53,7 +49,7 @@ En el caso de quererlos al principio del artículo, hay que buscar el fichero qu
 
 Hay que jugar con el contenido del archivo para colocarlo en el lugar deseado.
 
-### Mostrar los botones sociales al final del artículo en la página principal
+# Mostrar los botones sociales al final del artículo en la página principal
 
 En esta ocasión debemos buscar el archivo que se encarge de iterar sobre todos los artículos, ya que es aquí donde se genera la página principal. Como antes, por lo general suele existir un archivo llamado ***loop.php***, pero este no era mi caso. Sea cual sea el nombre del archivo, en el interior hemos de encontrar el código encargado de generar el contenido del artículo para la página principal (Que suele estar resumido). Yo he decidido colocar los botones sociales debajo del enlace **Seguir leyendo**:
 
@@ -65,6 +61,6 @@ echo sharing_display();
 
 Si fuera necesario usamos estilos CSS para colocar los botones donde deseemos y listo.
 
-#### Referencias
+# Referencias
 
-*Foro WordPress* »» <a href="http://wordpress.org/support/topic/plugin-sharedaddy-adding-this-manually?replies=26#post-2293386" target="_blank">Visitar sitio</a>
+- *Foro WordPress* »» <a href="http://wordpress.org/support/topic/plugin-sharedaddy-adding-this-manually?replies=26#post-2293386" target="_blank">Visitar sitio</a>

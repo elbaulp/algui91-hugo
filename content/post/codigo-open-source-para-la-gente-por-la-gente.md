@@ -2,16 +2,9 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
-description: "Muchas organizaciones eligen Open Source por razones como flexibilidad
-  y agilidad. Todos necesitamos hacer m\xE1s con menos. Pero en el gobierno, Open
-  Source maneja simult\xE1neamente el compromiso c\xEDvico junto con la participaci\xF3n
-  del gobierno, como nunca antes. Gracias a la digitalizaci\xF3n, el mundo se siente
-  mucho m\xE1s peque\xF1o y m\xE1s conectado. Y Open Source le da a la gente la oportunidad
-  de unirse a la causa, sin importar d\xF3nde viven."
-lastmod: 2015-12-23
-
+description: "Muchas organizaciones eligen Open Source por razones como flexibilidad  y agilidad. Todos necesitamos hacer m\xE1s con menos. Pero en el gobierno, Open  Source maneja simult\xE1neamente el compromiso c\xEDvico junto con la participaci\xF3n  del gobierno, como nunca antes. Gracias a la digitalizaci\xF3n, el mundo se siente  mucho m\xE1s peque\xF1o y m\xE1s conectado. Y Open Source le da a la gente la oportunidad  de unirse a la causa, sin importar d\xF3nde viven."
+lastmod = "2017-03-07T17:46:52+01:00"
 mainclass: articulos
 url: /codigo-open-source-para-la-gente-por-la-gente/
 title: "C\xF3digo Open Source: Para la gente, por la gente"
@@ -35,9 +28,9 @@ Otros eventos, como el Día Nacional del Hacking Cívico ([National Day for Civi
 
 Los ideales del Open Source ya se han difundido en los gobiernos por todo el mundo, con una buena razón. Una red global de programadores está motivada a ayudar. Es uno de los mejores ejemplos de compromiso cívico. Como ciudadanos digitales, ahora todos tenemos el poder de contribuir. El tiempo y talento de una persona pueden hacer una gran diferencia. Es un movimiento del cual estoy orgulloso de ser parte.
 
-### Referencias
+# Referencias
 
-*Open-source code: by the people, for the people* »» <a href="http://venturebeat.com/2013/08/29/open-source-code-by-the-people-for-the-people/" target="_blank">Visitar sitio</a>
+- *Open-source code: by the people, for the people* »» <a href="http://venturebeat.com/2013/08/29/open-source-code-by-the-people-for-the-people/" target="_blank">Visitar sitio</a>
 
  [1]: https://petitions.whitehouse.gov/%20
  [2]: https://github.com/WhiteHouse/petitions
