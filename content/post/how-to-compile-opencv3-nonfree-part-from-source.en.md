@@ -36,27 +36,10 @@ cris@cris~$ cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_INS
 
 With `DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules` we are specifying where to found the nonfree part.
 
-# [3]. build
-
-If makefiles generation went ok, you can now build. If using openCV in JAVA, just make sure your `$JAVA_HOME` variable is set to your JDK 's path and type:
-
-```bash
-cris@cris ~$ make -j8
-```
-
--j8 is because JDK8. You should put here your JAVA version.
-
-
-You must make sure `$JAVA_HOME` variable is set to JDK's path and visible to child processes.  For that when doing: `echo $JAVA_HOME` the JDK path must be displayed. If not, in terminal, set de variable value to JDK path and export it, for example:
+If makefiles generation went ok, you can now build. If using openCV in JAVA, you must make sure `$JAVA_HOME` variable is set to JDK's path and visible to child processes. For that when doing: `echo $JAVA_HOME` the JDK path must be displayed. If not, in terminal, set de variable value to JDK path and export it, for example:
 
 ```bash
 cris@cris ~$ export JAVA_HOME=/home/jdk1.8.0_111/
-```
-
-then move to **build** directory and generate makefile:
-
-```bash
-cris@cris ~/opencv-3.2.0/build $ cmake -DBUILD_SHARED_LIBS=OFF ..
 ```
 
 Notice that when generating the makefile, the output in the Java field looks like this:
@@ -70,11 +53,13 @@ That is, there is a specified ant and JNI path, and Java wrappers is set to YES.
 
 # [4]. Build
 
-run make to build openCV with Java and create a jar:
+run _make_ to build openCV with Java and create a jar:
 
 ```bash
 cris@cris ~/opencv-3.2.0/build $ make -j8
 ```
+
+-j8 is because JDK8. You should put here your JAVA version.
 
 Make sure the files **opencv-320.jar** and **libopencv_java320.so** (.so or .dll) are created inside /build.
 
