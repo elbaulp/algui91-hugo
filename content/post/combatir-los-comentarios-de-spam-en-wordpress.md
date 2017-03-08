@@ -29,7 +29,7 @@ title: Combatir los comentarios de spam en WordPress
             title="Combatir los comentarios de spam en Wordpress"
             sizes="(min-width: 600px) 600px, 100vw"
             width="600"
-            heigh="600">
+            height="600">
           </amp-img>
         </a>
         <figcaption>Combatir los comentarios de spam en Wordpress</figcaption>
