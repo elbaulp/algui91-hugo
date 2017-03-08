@@ -3,13 +3,10 @@ author: alex
 categories:
 - aplicaciones
 - linux
-color: '#2196F3'
 date: '2016-01-01'
-description: "El prop\xF3sito de iproute2 es reemplazar el conjunto de herramientas
-  que componen las net-tools y pasar a ser \xE9l quien se encargue de configurar las
-  interfaces de red, la tabla de rutas y gestionar la tabla ARP."
+lastmod: 2017-03-08T10:40:30+01:00
+description: "El prop\xF3sito de iproute2 es reemplazar el conjunto de herramientas  que componen las net-tools y pasar a ser \xE9l quien se encargue de configurar las  interfaces de red, la tabla de rutas y gestionar la tabla ARP."
 image: 2012/07/sh1.png
-
 mainclass: linux
 url: /comandos-ss-iproute2-linux/
 tags:
@@ -41,11 +38,11 @@ Para situarnos en contexto, **netstat** forma parte de las comúnmente llamadas 
 
 A día de hoy la mayoría de distribuciones traen **iproute** instalado por defecto.
 
-Veamos algunos de los comandos más útiles que nos ofrece este relativamente “*nuevo*” conjunto de comandos:
+Veamos algunos de los comandos más útiles que nos ofrece este relativamente “nuevo” conjunto de comandos:
 
 <!--more--><!--ad-->
 
-### Obtener información sobre TCP/UDP y Sockets
+# Obtener información sobre TCP/UDP y Sockets
 
 Aquí entra en acción el comando **ss**, sustituto de **netstat**. Este comando está incluido en el paquete **iproute2**.
 
@@ -91,7 +88,7 @@ Para ver la lista completa de opciones escribe `ss --help`.
 
 Algunos ejemplos prácticos:
 
-### Mostrar todos los sockects a la escucha
+# Mostrar todos los sockects a la escucha
 
 ```bash
 $ ss -l
@@ -108,7 +105,7 @@ LISTEN     0      128                                                           
 
 Para entender el significado de las columnas, puedes dirigirte al artículo de [netstat][1].
 
-### Mostrar conexiones ssh establecidas
+# Mostrar conexiones ssh establecidas
 
 ```bash
 # ss -o state stablished '( dport = :ssh or sport = :ssh)'
@@ -119,14 +116,14 @@ Recv-Q Send-Q                                                 Local Address:Port
 
 El parámetro **-o** permite establecer qué opciones mostrar, varios ejemplos son:
 
-### Mostrar conexiones SMTP establecidas
+# Mostrar conexiones SMTP establecidas
 
 ```bash
 # ss -o state established '( dport = :smtp or sport = :smtp )'
 
 ```
 
-### Mostrar conexiones HTTP establecidas
+# Mostrar conexiones HTTP establecidas
 
 ```bash
 # ss -o state established '( dport = :http or sport = :http )'
@@ -146,8 +143,8 @@ Donde **-4** indica paquetes TCP IPv4 y NOMBRE-DEL-FILTRO puede tomar los siguie
   2. **syn-sent**
   3. **syn-recv**
   4. **fin-wait-1**
-  5. **fin-wait-2 **
-  6. **time-wait **
+  5. **fin-wait-2**
+  6. **time-wait**
   7. **closed**
   8. **close-wait**
   9. **last-ack**
@@ -166,14 +163,14 @@ Por ejemplo:
 
 ```
 
-### Encontrar procesos locales conectados al servidor X (Servidor Gráfico)
+# Encontrar procesos locales conectados al servidor X (Servidor Gráfico)
 
 ```bash
 # ss -x src /tmp/.X11-unix/*
 
 ```
 
-### Hacer coincidir direcciones remotas y puertos
+# Hacer coincidir direcciones remotas y puertos
 
 ```bash
 ss dst ADDRESS_PATTERN
@@ -202,11 +199,11 @@ Es posible mostrar todas las conexiones realizadas por cualquier máquina, por e
 
 ```
 
-### Hacer coincidir direcciones locales y puertos
+# Hacer coincidir direcciones locales y puertos
 
 ```bash
 ss src ADDRESS_PATTERN
-### Encontrar todas las ips conectadas a elbauldelprogramador.com (5.39.89.44) ###
+# Encontrar todas las ips conectadas a elbauldelprogramador.com (5.39.89.44) ###
 ## Mostrar todos los puertos conectados a la dirección local 5.39.89.44 ##
 ss src 5.39.89.44
 
@@ -220,28 +217,28 @@ ss src 5.39.89.44:25
 
 ```
 
-### Mostrar el número y el tipo de conexiones activas
+# Mostrar el número y el tipo de conexiones activas
 
 ```bash
 ss -ant | awk '{print $NF}' | grep -v '[a-z]' | sort | uniq -c
 
 ```
 
-### Mostrar un resumen del estado de los sockets
+# Mostrar un resumen del estado de los sockets
 
 ```bash
 # ss -s
 
 ```
 
-### Listar todos los puertos a la escucha junto con el PID del programa
+# Listar todos los puertos a la escucha junto con el PID del programa
 
 ```bash
 ss -tlnp
 
 ```
 
-### Configuración de la interfaz de red
+# Configuración de la interfaz de red
 
 Antiguamente se usaba el comando ifconfig:
 
@@ -253,7 +250,7 @@ Antiguamente se usaba el comando ifconfig:
 
 En **iproute2** la configuración de interfaces de red se lleva a cabo con el subcomando **link**:
 
-### Activar interfaz
+# Activar interfaz
 
 ```bash
 # ip link set eth0 up
@@ -262,7 +259,7 @@ En **iproute2** la configuración de interfaces de red se lleva a cabo con el su
 
 Donde eth0 debe ser la interfaz de red a activar.
 
-### Establecer dirección ip a la interfaz
+# Establecer dirección ip a la interfaz
 
 ```bash
 # ip addr add 192.168.1.33/24 dev eth0
@@ -278,7 +275,7 @@ Para comprobar la correcta configuración de la interfaz, muestra la informació
 
 ```
 
-### Enrutamiento
+# Enrutamiento
 
 La versión moderna del comando `route -n` o `netstat -r` es:
 
@@ -295,7 +292,7 @@ Para añádir o eliminar reglas de enrutamiento se usa `ip ro add|del destino vi
 
 ```
 
-### Encontrar la ruta hacia una dirección IP
+# Encontrar la ruta hacia una dirección IP
 
 Para averiguar qué interfaz está usando tu pc, puedes usar el comando *ip route get IP*. Así:
 
@@ -307,17 +304,16 @@ Para averiguar qué interfaz está usando tu pc, puedes usar el comando *ip rout
 
 está usando la interfaz eth1, gateway 10.61.29.89 y la interfaz tiene la ip privada 192.168.1.36
 
-### Conclusión
+# Conclusión
 
 Aunque este artículo ha sido una remezcla de comandos, espero que haya quedado claro para qué sirve cada uno, y a partir de ahora podrás sacarle partido.
 
-#### Referencias
+# Referencias
 
-*Socket Statistics on Linux* »» <a href="http://linuxaria.com/pills/ss-iproute2-linux" target="_blank">linuxaria</a>
-*Some useful command with iproute2* »» <a href="http://linuxaria.com/howto/useful-command-of-iproute2" target="_blank">linuxaria</a>
-*ss: Display Linux TCP / UDP Network and Socket Information* »» <a href="http://www.cyberciti.biz/tips/linux-investigate-sockets-network-connections.html" target="_blank">cyberciti.biz</a>
-*SS Utility: Quick Intro* »» <a href="http://www.cyberciti.biz/files/ss.html" target="_blank">cyberciti.biz</a>
-
+- *Socket Statistics on Linux* »» <a href="http://linuxaria.com/pills/ss-iproute2-linux" target="_blank">linuxaria</a>
+- *Some useful command with iproute2* »» <a href="http://linuxaria.com/howto/useful-command-of-iproute2" target="_blank">linuxaria</a>
+- *ss: Display Linux TCP / UDP Network and Socket Information* »» <a href="http://www.cyberciti.biz/tips/linux-investigate-sockets-network-connections.html" target="_blank">cyberciti.biz</a>
+- *SS Utility: Quick Intro* »» <a href="http://www.cyberciti.biz/files/ss.html" target="_blank">cyberciti.biz</a>
 
 
  [1]: https://elbauldelprogramador.com/netstat-analizando-la-red-y-detectando-problemas/ "Netstat: Analizando la red y detectando problemas"

@@ -1,15 +1,15 @@
 <div class="tags">
   {{ with .Params.categories }}
-  <div>
   <strong>{{ T "post_cats" }}</strong>
+  <div id="taxo">
   {{ range . }}
   <a id="cats" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}">{{ . }}</a>
   {{ end }}
   </div>
 {{ end }}
 {{ with .Params.tags }}
-  <div>
   <strong>{{ T "post_tags" }}</strong>
+  <div id="taxo">
   {{ range . }}
   <a id="tags" href="{{ "/tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a>
   {{ end }}
