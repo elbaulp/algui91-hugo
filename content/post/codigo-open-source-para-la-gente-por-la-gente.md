@@ -4,7 +4,7 @@ categories:
 - articulos
 date: '2016-01-01'
 description: "Muchas organizaciones eligen Open Source por razones como flexibilidad  y agilidad. Todos necesitamos hacer m\xE1s con menos. Pero en el gobierno, Open  Source maneja simult\xE1neamente el compromiso c\xEDvico junto con la participaci\xF3n  del gobierno, como nunca antes. Gracias a la digitalizaci\xF3n, el mundo se siente  mucho m\xE1s peque\xF1o y m\xE1s conectado. Y Open Source le da a la gente la oportunidad  de unirse a la causa, sin importar d\xF3nde viven."
-lastmod = "2017-03-07T17:46:52+01:00"
+lastmod: "2017-03-07T17:46:52+01:00"
 mainclass: articulos
 url: /codigo-open-source-para-la-gente-por-la-gente/
 title: "C\xF3digo Open Source: Para la gente, por la gente"
