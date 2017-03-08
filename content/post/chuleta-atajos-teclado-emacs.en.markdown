@@ -38,7 +38,6 @@ I've been using [emacs](https://elbauldelprogramador.com/en/tags/emacs "emacs") 
 
 Every blog post in this blog has a [Frontmatter](https://elbauldelprogramador.com/en/tags/frontmatter/ "Frontmatter"), one of its variables holds the last time the post was modified, in order to quickly write the current date, I've created the following _YaSnippet_:
 
-
 ```bash
 # -*- mode: snippet -*-
 # name: Modified
@@ -91,63 +90,63 @@ __Solution:__
 
 __Source__: [Using Emacs to recursively find and replace in text files not already open](http://stackoverflow.com/a/271136/1612432 "Using Emacs to recursively find and replace in text files not already open")
 
-## Selección rectangular
+## Rectangular selection
 
-__Problema:__
+__Problem:__
 
-A veces queremos seleccionar una región de texto y realizar una acción sobre ella, por ejemplo eliminar espacios en blanco, añadir algún texto delante de cada frase etc.
+When wanting to select a region of text and perform an action in it, for example remove white spaces, add some text right before each sentence and so on.
 
-__Solución:__
+__Solution:__
 
-Supongamos que tenemos el siguiente texto:
-
-```bash
-línea 1
-línea 2
-línea 3
-línea 4
-```
-
-Y queremos transformarla a:
+Suppose the following text:
 
 ```bash
-- línea 1
-- línea 2
-- línea 3
-- línea 4
+line 1
+line 2
+line 3
+line 4
 ```
 
-Para ello seleccionamos la región, y pulsamos `C-x r t`, nos preguntará qué texto queremos introducir, le damos a enter y listo. Otras combinaciones para operar en selecciones rectangulares:
+The desired text is:
 
-- `C-x r k`: _Kill_ el texto de la región seleccionada.
-- `C-x r d`: _Borra_ el texto de la región seleccionada.
-- `C-x r y`: Pega (_Yank_) la última región borrada (Con _kill_)
-- `C-x r o`: Inserta espacios en blanco para rellenar el espacio de la región seleccionada.
-- `M-x clear-rectangle`: Reemplaza la selección con espacios.
-- `M-x delete-white-spaces-rectangle`: Elimina los espacios en blanco a la izquierda.
-- `C-x r t string RET`: Reemplaza el contenido del rectángulo con _string_ en cada línea. (El ejemplo visto)
-- `M-x string-insert-rectangle RET string RET`: Inserta _string_ en cada línea del rectángulo.
+```bash
+- line 1
+- line 2
+- line 3
+- line 4
+```
 
-__Fuente__: [GNU Emacs Manual](http://www.delorie.com/gnu/docs/emacs/emacs_68.html "GNU Emacs Manual")
+In order to accomplish this, select the region and press `C-x r t`, emacs will ask the text to introduce, then press enter and that's it. There are more operations for rectangular selection:
 
-## Reemplazar un carácter con un salto de línea
+- `C-x r k`: _Kill_ the text of the region-rectangle, saving its contents as the "last killed rectangle" (kill-rectangle).
+- `C-x r d`: _Delete_ the text of the region-rectangle (delete-rectangle).
+- `C-x r y`: _Yank_ the last killed rectangle with its upper left corner at point (yank-rectangle).
+- `C-x r o`: _Insert_ blank space to fill the space of the region-rectangle (open-rectangle). This pushes the previous contents of the region-rectangle rightward.
+- `M-x clear-rectangle`: _Clear_ the region-rectangle by replacing its contents with spaces.
+- `M-x delete-whitespace-rectangle`: _Delete_ whitespace in each of the lines on the specified rectangle, starting from the left edge column of the rectangle.
+- `C-x r t string RET`: _Replace_ rectangle contents with string on each line. (string-rectangle).
+- `M-x string-insert-rectangle RET string RET`: _Insert_ string on each line of the rectangle.
 
-__Problema:__
+__Source__: [GNU Emacs Manual](http://www.delorie.com/gnu/docs/emacs/emacs_68.html "GNU Emacs Manual")
 
-Supongamos que tenemos un texto mal formateado, y queremos reemplazar un caracter en concreto por un salto de línea. Esto suele pasar por ejemplo al leer ficheros con codificaciones distintas. En los que el salto de línea se interpreta de otro modo. A modo de ejemplo, supongamos que vamos a reemplazar el caracter `^N` por un salto de línea. Tenemos este texto:
+## Replace a character with a new line
+
+__Problem:__
+
+Imagine a bad formatted text, and in need to replace a character by a new line. This usually happens when reading files with different codifications in which the new line is interpreted differently (Windows and Linux). For example, in the below text we want to replace `^N` with a new line:
 
 ```bash
 Lorem ipsum dolor sit amet^N, consectetur adipiscing elit.^N Fusce vestibulum.
 ```
 
-__Solución:__
+__Solution:__
 
-1. Pulsar `M-x replace-string`.
-2. Introducimos el texto que queremos reemplazar, en este caso `^N`.
-3. Insertamos el salto de línea, para ello, pulsar:
-   1. `C-q`: Para decirle a emacs que vamos a insertar un caracter en crudo (_raw_).
-   2. `C-j`: Esta combinación se corresponde con el salto de línea
-4. Pulsamos `Enter` y deberíamos tener el siguiente texto:
+1. Press `M-x replace-string`.
+2. Write the text to replace, in this case `^N`.
+3. Insert the new line character, for this:
+   1. `C-q`: In order to tell emacs we want to insert a raw character.
+   2. `C-j`: This key combination represents a new line.
+4. Hit `Enter` and the resulting text is:
 
 ```bash
 Lorem ipsum dolor sit amet
@@ -155,25 +154,26 @@ Lorem ipsum dolor sit amet
  Fusce vestibulum.
 ```
 
-__Fuente:__ [How to replace a character with a newline in Emacs?](http://stackoverflow.com/a/613029/1612432 "How to replace a character with a newline in Emacs?")
+__Source:__ [How to replace a character with a newline in Emacs?](http://stackoverflow.com/a/613029/1612432 "How to replace a character with a newline in Emacs?")
 
-## Eliminiar los espacios en blanco sobrantes al final de una línea
 
-Basta ejecutar `M-x delete-trailing-whitespace`.
+## Delete trailing white spaces at the end of a line
 
-## Guardar comandos que usamos usualmente
+Simply execute `M-x delete-trailing-whitespace`.
 
-Este tema se trató en más profundidad en el artículo [_Cómo crear comandos personalizados en Emacs_](/como-crear-comandos-personalizados-en-emacs "Cómo crear comandos personalizados en Emacs").
+## Save frequently used commands.
 
-## Administar las copias de seguridad de emacs
+In a previous post this problem was explained in detail: [_Cómo crear comandos personalizados en Emacs_](/como-crear-comandos-personalizados-en-emacs "Cómo crear comandos personalizados en Emacs").
 
-__Problema:__
+## Manage emacs backups
 
-_Emacs_ por defecto guarda una copia de seguridad del fichero en un fichero del mismo nombre pero acabado en `~`, aunque es bastánte útil, a veces molesta tener ficheros desperdigados a lo largo de las carpetas acabando en `~`. Es posible almacenarlos todos en una carpeta. Veamos.
+__Problem:__
 
-__Solución:__
+By default _emacs_ saves a backup copy of the file being edited in the same directory, but ending in `~` , I find this very annoying. There is a way of telling _emacs_ to save its backups in another directory.
 
-En el fichero de configuración (`~/.emacs/init.el`) añadimos
+__Solution:__
+
+Edit your `~/.emacs/init.el`:
 
 ```elisp
 ;; Set a directory for backup files
@@ -184,17 +184,17 @@ En el fichero de configuración (`~/.emacs/init.el`) añadimos
     version-control t)
 ```
 
-Donde podemos sustituir `~/.saves` por el directorio deseado.
+__Source:__ [How do I control how Emacs makes backup files?](http://stackoverflow.com/a/151946/1612432 "How do I control how Emacs makes backup files?")
 
-__Fuente:__ [How do I control how Emacs makes backup files?](http://stackoverflow.com/a/151946/1612432 "How do I control how Emacs makes backup files?")
+## Execute an action for all opened buffers
 
-## Ejecutar una acción para todos los buffers abiertos
+__Problem:__
 
-__Problema:__
+
 
 Algunos comandos que hemos visto aquí, como buscar y reemplazar texto en varios ficheros a la vez, realizan la acción pero no guardan los cambios en el fichero. Para guardarlos tenemos que seleccionarlos uno a uno en el _buffer_ y ejecutar la acción de guardar. Para hacernos la vida más fácil, podemos usar `ibuffer`
 
-__Solución:__
+__Solution:__
 
 Para sustituir el modo _buffer_, por _ibuffer_ debemos añadir a nuestra configuración:
 
@@ -208,7 +208,7 @@ A partir de ahora, cada vez que visitemos la pestaña del _buffer_, se abrirá _
 1. Pulsar `t`, para seleccionar todos los ficheros.
 2. Pulsar `S`, para guardar los ficheros seleccionados
 
-__Fuente:__ [Execute a particular command on multiple emacs buffers](http://stackoverflow.com/a/14293998/1612432 "Execute a particular command on multiple emacs buffers")
+__Source:__ [Execute a particular command on multiple emacs buffers](http://stackoverflow.com/a/14293998/1612432 "Execute a particular command on multiple emacs buffers")
 
 ## Alinear verticalmente código en base al signo =
 
@@ -227,7 +227,7 @@ __Fuente:__ [Execute a particular command on multiple emacs buffers](http://stac
 - `M-x tabify`: Sustituye en la región seleccionada espacios por tabuladores.
 - `M-x untabify`: Proceso contrario, reemplaza en la región selecionada tabuladores por espacios.
 
-Fuente: [mdk.fr](https://mdk.fr/blog/emacs-replace-tabs-with-spaces.html "Emacs: replace tabs with spaces")
+- Source: [mdk.fr](https://mdk.fr/blog/emacs-replace-tabs-with-spaces.html "Emacs: replace tabs with spaces")
 
 # Prelude
 
