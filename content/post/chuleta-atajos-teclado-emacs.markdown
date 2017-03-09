@@ -17,17 +17,14 @@ title: "Chuleta De Comandos / Atajos De Teclado / Paquetes más útiles para Ema
 
 No es la primera vez que se publica en el blog una [chuleta](/tags/chuleta "Artículos sobre chuletas") de algo:
 
-- [Chuleta de comandos para dig](/dig-chuleta-basica-de-comandos/ "Chuleta básica de comandos Dig")
-- [Git: Chuleta de comandos](/mini-tutorial-y-chuleta-de-comandos-git/ "Chuleta de comandos para Git")
-- [Chuleta de comandos GPG](/chuleta-de-comandos-para-gpg/ "Chuleta de comandos para GPG")
-- [Chuleta de comandos MarkDown](/chuleta-markdown-para-wordpress/ "Chuleta de comandos de Markdown")
-
-<!--more--><!--ad-->
+>- [Chuleta de comandos para dig](/dig-chuleta-basica-de-comandos/ "Chuleta básica de comandos Dig")
+>- [Git: Chuleta de comandos](/mini-tutorial-y-chuleta-de-comandos-git/ "Chuleta de comandos para Git")
+>- [Chuleta de comandos GPG](/chuleta-de-comandos-para-gpg/ "Chuleta de comandos para GPG")
+>- [Chuleta de comandos MarkDown](/chuleta-markdown-para-wordpress/ "Chuleta de comandos de Markdown")
 
 La de hoy va sobre _Emacs_. La idea es que esta chuleta la creemos entre todos. Que cada uno aporte su granito de arena para crear la __chuleta de atajos de teclado/comandos/paquetes para emacs definitiva__.
 
 A lo largo del poco tiempo que llevo usando [emacs](/tags/emacs "Artículos sobre emacs"), ya he ido descubriendo los atajos que me resultan más útiles para mi día a día, empecemos:
-
 
 # Paquetes útiles
 
@@ -35,23 +32,26 @@ A lo largo del poco tiempo que llevo usando [emacs](/tags/emacs "Artículos sobr
 
 [YaSnippet](https://www.emacswiki.org/emacs/Yasnippet "Página oficial de YaSnippet" ) es un sistema de plantillas para __emacs__, es uno de los paquetes que recomiendo instalar, ya que te facilita mucho la vida. Por defecto ya trae configurados muchos _snippets_ para todos los lenguajes, pero podemos configurar más a nuestro gusto. Por ejemplo:
 
+<!--more--><!--ad-->
+
 Una de las plantillas que tengo para escribir en el blog es:
 
 ```bash
 # -*- mode: snippet -*-
 # name: Modified
 # key: mod
+# # modified: 2016-$1-$2T$3:$4$0
 # --
-lastmod: 2016-$1-$2
+lastmod = "`(format-time-string "%Y-%m-%dT%H:%M:%S+01:00")`"$0
 ```
 
 En los comentarios se especifica el nombre del _snippet_, la palabra que lo lanzará (_mod_) en este caso. Así, al escribir `mod` y pulsar el tabulador se insertará en el editor:
 
 ```bash
-lastmod: 2016-$1-$2
+lastmod = "2017-03-08T16:58:45+01:00"
 ```
 
-Y con el tabulador me podré ir moviendo a los distintos _$n_ que ahí se ven. Otro ejemplo:
+Otro ejemplo:
 
 ```bash
 # -*- mode: snippet -*-

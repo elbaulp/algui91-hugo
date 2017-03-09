@@ -2,7 +2,7 @@
 author: alex
 categories:
 - misc
-date: 2017-03-08T16:44:15+01:00
+date: 2017-03-28T12:50:20+01:00
 description: "Emacs: A useful recopilation of commands and actions"
 image: chuleta-atajos-teclado-emacs.png
 introduction: "Emacs: A useful recopilation of commands and actions"
@@ -18,23 +18,22 @@ draft: true
 
 There is a bunch of post about [cheatsheets](https://elbauldelprogramador.com/en/tags/cheatsheet "cheatsheets")  in this blog:
 
-- [Dig CheatSheet](/dig-chuleta-basica-de-comandos/ "Chuleta básica de comandos Dig")
-- [Git CheatSheet](/mini-tutorial-y-chuleta-de-comandos-git/ "Chuleta de comandos para Git")
-- [GPG CheatSheet](/chuleta-de-comandos-para-gpg/ "Chuleta de comandos para GPG")
-- [MarkDown CheatSheet](/chuleta-markdown-para-wordpress/ "Chuleta de comandos de Markdown")
-
-<!--more--><!--ad-->
+>- [Dig CheatSheet](/dig-chuleta-basica-de-comandos/ "Chuleta básica de comandos Dig")
+>- [Git CheatSheet](/mini-tutorial-y-chuleta-de-comandos-git/ "Chuleta de comandos para Git")
+>- [GPG CheatSheet](/chuleta-de-comandos-para-gpg/ "Chuleta de comandos para GPG")
+>- [MarkDown CheatSheet](/chuleta-markdown-para-wordpress/ "Chuleta de comandos de Markdown")
 
 Today CheatSheet is going to be about _Emacs_. But I want this cheatsheet to be different, my idea is that all of you using emacs help this cheatsheet grow with your own tips and favorite commands & packages.
 
 I've been using [emacs](https://elbauldelprogramador.com/en/tags/emacs "emacs") for a few months now and I'm pretty happy about it. It is very powerful. Now, lets start with the collaborative Emacs CheatSheet:
-
 
 # Useful packages
 
 ## Yasnippet
 
 [YaSnippet](https://www.emacswiki.org/emacs/Yasnippet "Official yasnippet site") is a template system for emacs, it is a _must have_ package for every emacs user. By default _YaSnippet_ has a set of pre-defined snippets for practically every language, but it is possible to configure our own ones. For example:
+
+<!--more--><!--ad-->
 
 Every blog post in this blog has a [Frontmatter](https://elbauldelprogramador.com/en/tags/frontmatter/ "Frontmatter"), one of its variables holds the last time the post was modified, in order to quickly write the current date, I've created the following _YaSnippet_:
 
@@ -67,11 +66,11 @@ $2
 
 This _snippet_ expand to a Markdown code block, `$1` is the first position where the cursor is placed to start writing, `$2` the second and so on. Here is the result:
 
-```markdown
-```<Cursor is placed here first>
-<After writing the first time and pressing TAB, cursor is placed here>
-```
-```
+
+    ```<Cursor is placed here first>
+    <After writing the first time and pressing TAB, cursor is placed here>
+    ```
+
 
 # Miscellaneous / Common tasks
 
@@ -190,61 +189,53 @@ __Source:__ [How do I control how Emacs makes backup files?](http://stackoverflo
 
 __Problem:__
 
-
-
-Algunos comandos que hemos visto aquí, como buscar y reemplazar texto en varios ficheros a la vez, realizan la acción pero no guardan los cambios en el fichero. Para guardarlos tenemos que seleccionarlos uno a uno en el _buffer_ y ejecutar la acción de guardar. Para hacernos la vida más fácil, podemos usar `ibuffer`
+Some actions above, like searching & replacing in multiple files at once perform the action, but not save the changes in the files. In order to save the buffers to the files, _ibuffer_ comes in handy.
 
 __Solution:__
 
-Para sustituir el modo _buffer_, por _ibuffer_ debemos añadir a nuestra configuración:
+To replace the default _bufer_ by _ibuffer_ add the following to emacs config:
 
 ```elisp
 ;; make ibuffer the default
 (global-set-key "\C-x\C-b" 'ibuffer)
 ```
 
-A partir de ahora, cada vez que visitemos la pestaña del _buffer_, se abrirá _ibuffer_. Para seleccionar todos los ficheros abiertos y guardarlos:
+For now on, every time the _buffer_ window is opened, emacs will open _ibuffer_ by default. To select all file buffers opened and save them:
 
-1. Pulsar `t`, para seleccionar todos los ficheros.
-2. Pulsar `S`, para guardar los ficheros seleccionados
+1. Press `t` to select all files.
+2. Press `S` to save all the marked buffers.
 
 __Source:__ [Execute a particular command on multiple emacs buffers](http://stackoverflow.com/a/14293998/1612432 "Execute a particular command on multiple emacs buffers")
 
-## Alinear verticalmente código en base al signo =
+## Vertical align with the given character
 
 - `M-x align-regex =`
 
-## Convertir texto a mayúscula/minúscula
+## Convert to uppercase/lowercase
 
-- `C-x C-u`: Convertir la región seleccionada a mayúsculas.
-- `C-x C-l`: Convertir la región seleccionada a minúsculas.
-- `M-l`: Convertir la siguiente palabra a minúscula.
-- `M-u`: Convertir la siguiente palabra a mayúscula.
-- `M-c`: Convertir a mayúscula la primera letra de la palabra -- Capitalizar --.
+- `C-x C-u`: Convert the selected region to uppercase.
+- `C-x C-l`: Convert the selected region to lowercase.
+- `M-l`: Convert the next word to lowercase.
+- `M-u`: Convert the next word to uppercase.
+- `M-c`: Capitalize the next word.
 
-## Reemplazar tabulador por espacios y viceversa
+## Replace tabs by spaces and vice versa
 
-- `M-x tabify`: Sustituye en la región seleccionada espacios por tabuladores.
-- `M-x untabify`: Proceso contrario, reemplaza en la región selecionada tabuladores por espacios.
+- `M-x tabify`: Replace spaces by tabs in the selected region.
+- `M-x untabify`: Above inverse, replace all tabs by spaces.
 
 - Source: [mdk.fr](https://mdk.fr/blog/emacs-replace-tabs-with-spaces.html "Emacs: replace tabs with spaces")
 
 # Prelude
 
-Tal y como dice la descripción de su repositorio en [Github](https://elbauldelprogramador.com/tags/github/ "Github"):
+Github's prelude description:
 
 > _Prelude_ is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.
 
-es decir:
+It works as well on emacs 25 though, I am using this version in [Gentoo](https://elbauldelprogramador.com/en/tags/gentoo "Gentoo") and works well.
 
-> _Prelude_ es una distribución mejorada de Emacs 24 que debería hacer tu experiencia con emacs más agradable y potente.
+Prelude installation is very easy, all steps are described in its <a href="https://github.com/bbatsov/prelude" target="_blank" title="repositorio de Github">GitHub repo</a>.
 
-Aunque la descripción menciona la versión 24, personalmente yo estoy usando la versión 25 en [Gentoo](https://elbauldelprogramador.com/tags/gentoo "Gentoo") y funciona perfectamente.
+# Contribute to this cheatsheet
 
-La instalación de _Prelude_ es muy sencilla, toda la documentación necesaria se encuentra en su <a href="https://github.com/bbatsov/prelude" target="_blank" title="repositorio de Github">repositorio de Github</a>.
-
-# Tu Turno
-
-El propósito de este artículo es que crezca con las contribuciones de todos nosotros, para ello he subido el código de este artículo a github. Para aportar vuestro granito de arena, mandad <a href="https://github.com/algui91/algui91-hugo/edit/master/content/post/chuleta-atajos-teclado-emacs.markdown" target="_blank" title="Pull Request">Pull Request</a>.
-
-Esperamos vuestras colaboraciones!
+If you want to contribute to this Emacs cheatsheet, you can add your useful packages and shortcuts via <a href="https://github.com/algui91/algui91-hugo/edit/master/content/post/chuleta-atajos-teclado-emacs.en.markdown" target="_blank" title="Pull Request">Pull Request</a>.
