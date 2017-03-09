@@ -3,14 +3,10 @@ author: alex
 categories:
 - linux
 - seguridad
-color: '#2196F3'
 date: '2016-01-01'
-description: "Hoy quiero hablaros de un plugin bastante \xFAtil que encontr\xE9 para
-  el potente editor de textos Vim, que permite crear y modificar archivos de texto
-  bajo gpg (GNU Privacy Guard)."
+description: "Hoy quiero hablaros de un plugin bastante \xFAtil que encontr\xE9 para  el potente editor de textos Vim, que permite crear y modificar archivos de texto  bajo gpg (GNU Privacy Guard)."
 image: 2013/04/GnuPG-Logo.png
-lastmod: 2016-08-10
-
+lastmod: 2017-03-09T17:25:13+01:00
 mainclass: linux
 url: /editar-y-crear-archivos-cifrados-con-gpg-en-vim/
 aliases: /opensource/seguridad/editar-y-crear-archivos-cifrados-con-gpg-en-vim/
@@ -21,6 +17,7 @@ tags:
 - gpg vim plugin
 - vim plugin
 - gpg
+- cifrar
 title: Editar y crear archivos cifrados con GPG en Vim
 ---
 

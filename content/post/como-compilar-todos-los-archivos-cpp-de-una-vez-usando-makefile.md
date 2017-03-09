@@ -3,15 +3,15 @@ author: alex
 categories:
 - c
 - how to
-color: '#E64A19'
 date: '2016-01-01'
-
+lastmod: 2017-03-09T17:34:48+01:00
 mainclass: dev
 url: /como-compilar-todos-los-archivos-cpp-de-una-vez-usando-makefile/
 tags:
 - compilar ficheros cpp makefile
 - crear makefile
 - tutorial makefile
+- makefile
 title: "C\xF3mo compilar todos los archivos CPP de una vez usando MakeFile"
 ---
 
@@ -98,7 +98,7 @@ clean :
 
 La parte de limpieza simplemente elimina los ficheros generados automáticamente en el proceso de compilación.
 
-#### Referencias
+# Referencias
 
-*Compile all CPP files using makefile under MinGW* »» <a href="http://stackoverflow.com/a/13109884/1612432" target="_blank">stackoverflow.com</a>
-*Manual GNU Make* »» <a href="https://www.gnu.org/software/make/manual/html_node/File-Name-Functions.html" target="_blank">gnu.org</a>
+- *Compile all CPP files using makefile under MinGW* »» <a href="http://stackoverflow.com/a/13109884/1612432" target="_blank">stackoverflow.com</a>
+- *Manual GNU Make* »» <a href="https://www.gnu.org/software/make/manual/html_node/File-Name-Functions.html" target="_blank">gnu.org</a>
