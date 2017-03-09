@@ -2,12 +2,10 @@
 author: alex
 categories:
 - how to
-color: '#2196F3'
 date: '2016-01-01'
-description: "M\xE9todos para personalizar la resoluci\xF3n de pantalla de las terminales
-  tty en linux"
+lastmod: 2017-03-09T12:07:47+01:00
+description: "M\xE9todos para personalizar la resoluci\xF3n de pantalla de las terminales  tty en linux"
 image: img/2012/08/sh1.png
-
 mainclass: linux
 url: /como-cambiar-la-resolucion-de-pantalla-en-las-ttys-de-gnulinux/
 tags:
@@ -23,11 +21,11 @@ Hace poco reinstalé debian en mi PC de sobremesa y he tenido que volver a confi
 
 <!--more--><!--ad-->
 
-### Cambiar resolución de pantalla del GRUB
+# Cambiar resolución de pantalla del GRUB
 
 La forma más fácil es editar el fichero ***/etc/defaults/grub*** y cambiar la resolución de la variable *GRUB\_GFXMODEGRUB\_GFXMODE* por la resolución deseada, en mi caso 1280&#215;1024.
 
-### Cambiar la resolución de pantalla de la tty
+# Cambiar la resolución de pantalla de la tty
 
 Voy a explicar dos formas, la primera que apliqué y una segunda que es el método más recomendado y fácil, pero que descubrí posteriormente ojeando los archivos de configuración. La configuración del GRUB se encuentra dividida en ficheros en el directorio ***/etc/grub.d/***. El fichero **10_linux** se encarga de generar las entradas del GRUB para sistemas operativos linux, aquí se establecen los parámetros para iniciar el sistema, y nosotros le pasaremos un parámetro adicional, **vga**, que establecerá el tipo de resolución deseada. Dicho tipo hay que elegirlo de entre los valores de la siguiente tabla:
 
@@ -53,15 +51,13 @@ message="$(gettext_printf "Loading Linux %s ..." ${version})"
 EOF
   if test -n "${initrd}" ; then
     message="$(gettext_printf "Loading initial ramdisk ...")"
-
-
 ```
 
 Este trozo del script es el encargado de pasar los parámetros a la secuencia de inicio.
 
 La segunda forma es mucho más cómoda, al igual que en el apartado anterior con la variable **GRUB_GFXMODE**, hay otra llamada **GRUB\_CMDLINE\_LINUX**. Es a esta variable a la que le asignamos el parámetro anterior, quedando **GRUB\_CMDLINE\_LINUX="vga=0x31B"**.
 
-### Aplicar los cambios
+# Aplicar los cambios
 
 Para aplicar los cambios es necesario regenerar el archivo **/boot/grub/grub.cfg** con el siguiente comando:
 
