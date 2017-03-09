@@ -2,7 +2,7 @@
 author: alex
 categories:
 - misc
-date: 2017-03-28T12:50:20+01:00
+date: 2017-03-09T18:01:44+01:00
 description: "Emacs: A useful recopilation of commands and actions"
 image: chuleta-atajos-teclado-emacs.png
 introduction: "Emacs: A useful recopilation of commands and actions"
@@ -13,7 +13,6 @@ tags:
 - prelude
 - ensime
 title: "Emacs cheatsheet, Shortcuts and useful packages for beginners"
-draft: true
 ---
 
 There is a bunch of post about [cheatsheets](https://elbauldelprogramador.com/en/tags/cheatsheet "cheatsheets")  in this blog:

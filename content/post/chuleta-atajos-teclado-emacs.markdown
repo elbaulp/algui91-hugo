@@ -3,7 +3,7 @@ author: alex
 categories:
 - misc
 date: 2016-08-30 14:10:30
-lastmod: 2017-03-02T18:00:05+01:00
+lastmod: 2017-03-09T18:01:54+01:00
 description: "Emacs: Recopilaci\xF3n de comandos y acciones \xFAtiles"
 image: chuleta-atajos-teclado-emacs.png
 introduction: "Emacs: Recopilaci\xF3n de comandos y acciones \xFAtiles"
