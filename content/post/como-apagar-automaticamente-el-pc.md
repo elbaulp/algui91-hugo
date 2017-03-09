@@ -5,10 +5,8 @@ categories:
 - curiosidades
 - how to
 - internet
-color: '#2196F3'
 date: '2016-01-01'
-lastmod: 2016-09-06
-
+lastmod: 2017-03-09T12:01:23+01:00
 mainclass: linux
 url: /como-apagar-automaticamente-el-pc/
 title: "C\xF3mo apagar autom\xE1ticamente el PC cuando las descargas finalicen"
@@ -20,12 +18,23 @@ A veces queremos descargar algo y no queremos esperar a que finalice, pero sí q
 sudo apt-get install sentinella
 ```
 
-Sentinella aparecerá en el menu “Sistema” del escritorio. Si lo lanzamos veremos algo parecido a esto:
+`Sentinella` aparecerá en el menu “Sistema” del escritorio. Si lo lanzamos veremos algo parecido a esto:
 
 <!--more--><!--ad-->
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="457" width="655" src="https://1.bp.blogspot.com/-Ti5_cz6URsM/TbqiIheW6YI/AAAAAAAAAcw/mDH3EbaI50E/s800/R1vvF.png"></amp-img>
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="https://1.bp.blogspot.com/-Ti5_cz6URsM/TbqiIheW6YI/AAAAAAAAAcw/mDH3EbaI50E/s800/R1vvF.png"
+            alt="Apagar el pc automáticamente cuando las descargas finalicen"
+            title="Apagar el pc automáticamente cuando las descargas finalicen"
+            sizes="(min-width: 457px) 457px, 100vw"
+            width="457"
+            height="655">
+          </amp-img>
 </figure>
 
 Configura tu Sentinella con las mismas opciones de la imagen, pero asegurate que eliges tu interfaz de red correcta. Pulsa Start y listo!.
