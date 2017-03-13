@@ -236,6 +236,6 @@ La instalación de _Prelude_ es muy sencilla, toda la documentación necesaria s
 
 # Tu Turno
 
-El propósito de este artículo es que crezca con las contribuciones de todos nosotros, para ello he subido el código de este artículo a github. Para aportar vuestro granito de arena, mandad <a href="https://github.com/algui91/algui91-hugo/edit/master/content/post/chuleta-atajos-teclado-emacs.markdown" target="_blank" title="Pull Request">Pull Request</a>.
+El propósito de este artículo es que crezca con las contribuciones de todos nosotros, para ello he subido el código de este artículo a github. Para aportar vuestro granito de arena, mandad <a href="https://github.com/elbaulp/algui91-hugo/edit/master/content/post/chuleta-atajos-teclado-emacs.markdown" target="_blank" title="Pull Request">Pull Request</a>.
 
 Esperamos vuestras colaboraciones!

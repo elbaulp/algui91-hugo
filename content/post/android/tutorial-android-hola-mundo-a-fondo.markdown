@@ -277,5 +277,5 @@ Esto es todo, solo resta ver el *AndroidManifest*, el fichero que recoge todas l
 
 En este fichero se definen las pantallas que la aplicación va a usar, así como los permisos que necesita (En este caso ninguno).
 
-El código de este artículo podéis encontrarlo en el repositorio de [Github Curso de Android](https://github.com/algui91/CursoAndroid/tree/master/Ejemplos/MainApp/helloworld "Curso de  Android repositorio")
+El código de este artículo podéis encontrarlo en el repositorio de [Github Curso de Android](https://github.com/elbaulp/CursoAndroid/tree/master/Ejemplos/MainApp/helloworld "Curso de  Android repositorio")
 {: .notice-info }

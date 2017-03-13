@@ -222,7 +222,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
 
 ### Referencias
 
-- Código de la aplicación \| [github.com/algui91/photoGesture](https://github.com/algui91/grado_informatica_npi/tree/master/Android/PhotoGesture)
+- Código de la aplicación \| [github.com/elbaulp/photoGesture](https://github.com/elbaulp/grado_informatica_npi/tree/master/Android/PhotoGesture)
 - Página oficial de Android \| [developer.android.com/guide/topics/media/camera](http://developer.android.com/guide/topics/media/camera.html)
 - Librería PatternLock \| [github.com/DreaminginCodeZH/PatternLock](https://github.com/DreaminginCodeZH/PatternLock)
 </uses-permission></patternview.cell>

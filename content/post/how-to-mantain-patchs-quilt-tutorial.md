@@ -217,7 +217,7 @@ drwxr-xr-x 2 hkr hkr 4.0K Jan 30 18:29 patches/
 drwxr-xr-x 4 hkr hkr 4.0K Jan 30 18:32 .pc/
 ```
 
-Para ver un ejemplo real, y más complejo, puedes visitar mi repositorio <a href="https://github.com/algui91/myDWM" target="_blank" title="DWM">DWM</a>.
+Para ver un ejemplo real, y más complejo, puedes visitar mi repositorio <a href="https://github.com/elbaulp/myDWM" target="_blank" title="DWM">DWM</a>.
 
 # Bibliografía
 

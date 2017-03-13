@@ -153,6 +153,6 @@ private void detectRotation(SensorEvent event) {
 
 ### Referencias
 
-- Código de la aplicación \| [github.com/algui91/movementSound](https://github.com/algui91/grado_informatica_npi/tree/master/Android/MovementSound)
+- Código de la aplicación \| [github.com/elbaulp/movementSound](https://github.com/elbaulp/grado_informatica_npi/tree/master/Android/MovementSound)
 - AndroidWearMotionSensors \| [github.com/drejkim](https://github.com/drejkim/AndroidWearMotionSensors)
 </uses-permission>

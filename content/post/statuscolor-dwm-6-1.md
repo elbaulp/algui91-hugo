@@ -230,8 +230,8 @@ Por último, solo queda usar los métodos creados, deben ir en el método `drawb
 
 Todo el trabajo está en mi cuenta de Github, Tanto mi configuración actual de DWM como mi DWMstatus. En los siguientes enlaces.
 
-*myDWMstatus* »» <a href="https://github.com/algui91/myDWMstatus" target="_blank">github.com/algui91/myDWMstatus</a>
-*myDWM* »» <a href="https://github.com/algui91/myDWM" target="_blank">github.com/algui91/myDWM</a>
+*myDWMstatus* »» <a href="https://github.com/elbaulp/myDWMstatus" target="_blank">github.com/elbaulp/myDWMstatus</a>
+*myDWM* »» <a href="https://github.com/elbaulp/myDWM" target="_blank">github.com/elbaulp/myDWM</a>
 
 [1]: https://elbauldelprogramador.com/instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente/ "Instalar y configurar DWM, el gestor de ventanas más eficiente"
 [3]: https://elbauldelprogramador.com/clases-y-objetos-arrays/ "Clases y Objetos – Arrays"

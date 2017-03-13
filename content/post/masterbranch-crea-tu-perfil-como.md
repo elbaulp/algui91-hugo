@@ -36,5 +36,5 @@ Os dejo mi [Perfil][1], aunque aún falta por agregar el proyecto que ando desar
 Sitio Web: [masterbranch.com][3]
 
  [1]: https://www.masterbranch.com/developer/alejandro.alcalde
- [2]: https://github.com/algui91/WifiBar
+ [2]: https://github.com/elbaulp/WifiBar
  [3]: http://www.masterbranch.com

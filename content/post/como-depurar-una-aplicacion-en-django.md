@@ -22,7 +22,7 @@ Hace poco vimos una [introducción a django][1]. Pero a medida que las aplicacio
 
 <!--more--><!--ad-->
 
-Vamos a trabajar con la aplicación de ejemplo de la <a href="https://docs.djangoproject.com/en/1.5/intro/tutorial01/" title="Ejemplo aplicación Django" target="_blank">documentación de <strong>Django</strong></a>. La aplicación consiste un sistema de encuestas en las que se puede votar, se puede descargar desde <a href="https://github.com/algui91/djangoTutorialv1.5/" title="Ejemplo Polls Django" target="_blank">este repositorio</a>.
+Vamos a trabajar con la aplicación de ejemplo de la <a href="https://docs.djangoproject.com/en/1.5/intro/tutorial01/" title="Ejemplo aplicación Django" target="_blank">documentación de <strong>Django</strong></a>. La aplicación consiste un sistema de encuestas en las que se puede votar, se puede descargar desde <a href="https://github.com/elbaulp/djangoTutorialv1.5/" title="Ejemplo Polls Django" target="_blank">este repositorio</a>.
 
 ### Añadir un punto de ruptura
 

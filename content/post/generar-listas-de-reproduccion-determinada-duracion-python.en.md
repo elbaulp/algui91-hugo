@@ -200,4 +200,4 @@ It took me half an hour to write the script, so it can greatly be improved. Righ
 
 # Contribute
 
-If you want to improve it yourself, it hosted at <a href="https://github.com/algui91/genPlaylistByName" title="Repositorio" target="_blank">GitHub</a>.
+If you want to improve it yourself, it hosted at <a href="https://github.com/elbaulp/genPlaylistByName" title="Repositorio" target="_blank">GitHub</a>.
