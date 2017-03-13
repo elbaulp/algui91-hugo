@@ -21,7 +21,7 @@ En el artículo [Introducción al NDK de Android][1] se explicaron las nociones 
 
 <!--more--><!--ad-->
 
-El proyecto está disponible para descargar en <a href="https://github.com/algui91/androidSimpleServerNDKExample" target="_blank">GitHub</a>. He de decir que el código [C][3] usado en el ejemplo es una adaptación de un trozo de código del libro *<a href="http://www.amazon.es/gp/product/1593271441/ref=as_li_ss_tl?ie=UTF8&tag=elbaudelpro-21&linkCode=as2&camp=3626&creative=24822&creativeASIN=1593271441" target="_blank">Hacking: The Art of Exploitation</a>*, concretamente el ejemplo *simple_server.c* de la sección *0x425 A simple Server Example*.
+El proyecto está disponible para descargar en <a href="https://github.com/elbaulp/androidSimpleServerNDKExample" target="_blank">GitHub</a>. He de decir que el código [C][3] usado en el ejemplo es una adaptación de un trozo de código del libro *<a href="http://www.amazon.es/gp/product/1593271441/ref=as_li_ss_tl?ie=UTF8&tag=elbaudelpro-21&linkCode=as2&camp=3626&creative=24822&creativeASIN=1593271441" target="_blank">Hacking: The Art of Exploitation</a>*, concretamente el ejemplo *simple_server.c* de la sección *0x425 A simple Server Example*.
 
 Dicho esto, empezaremos creando un proyecto en eclipse, y a la actividad principal le añadiremos el siguiente código:
 
@@ -446,7 +446,7 @@ Con esto concluye el artículo, espero que haya sido de utilidad.
 
 #### Referencias
 
-*Repositorio en GitHub del ejemplo* »» <a href="https://github.com/algui91/androidSimpleServerNDKExample" target="_blank">Visitar sitio</a>
+*Repositorio en GitHub del ejemplo* »» <a href="https://github.com/elbaulp/androidSimpleServerNDKExample" target="_blank">Visitar sitio</a>
 
 
 

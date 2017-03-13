@@ -392,5 +392,5 @@ Este programa no tiene un uso útil, meramente acadámico, el proyecto es accesi
 
 ##### Referencias:
 
-- <a href="https://github.com/algui91/Hide-file-in-Photo" target="_blank">Repositorio en GitHub</a>
+- <a href="https://github.com/elbaulp/Hide-file-in-Photo" target="_blank">Repositorio en GitHub</a>
 - <a href="http://stackoverflow.com/questions/12042950/substitute-an-instruction-depending-on-a-condition" target="_blank">Pregunta en StackOverflow</a>

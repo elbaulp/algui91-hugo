@@ -339,4 +339,4 @@ que se encargan de rotar la brújula cada vez que se llama al método `updateDir
 
 - Comass de MIUI \| [github.com/MiCode](https://github.com/MiCode/Compass "Código en github")
 - Pro Android 5 \| [amazon.es](http://www.amazon.es/gp/product/1430246804/ref=as_li_ss_tl?ie=UTF8&camp;=3626&creative;=24822&creativeASIN;=1430246804&linkCode;=as2&tag;=bmab-21 "Ver libro en Amazon")
-- Código de la aplicación \| [github.com/algui91/BrujulaCompass](https://github.com/algui91/grado_informatica_npi/tree/master/Android/BrujulaCompass "Código en Github para BrujulaCompass")
+- Código de la aplicación \| [github.com/elbaulp/BrujulaCompass](https://github.com/elbaulp/grado_informatica_npi/tree/master/Android/BrujulaCompass "Código en Github para BrujulaCompass")

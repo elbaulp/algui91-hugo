@@ -237,4 +237,4 @@ Prelude installation is very easy, all steps are described in its <a href="https
 
 # Contribute to this cheatsheet
 
-If you want to contribute to this Emacs cheatsheet, you can add your useful packages and shortcuts via <a href="https://github.com/algui91/algui91-hugo/edit/master/content/post/chuleta-atajos-teclado-emacs.en.markdown" target="_blank" title="Pull Request">Pull Request</a>.
+If you want to contribute to this Emacs cheatsheet, you can add your useful packages and shortcuts via <a href="https://github.com/elbaulp/algui91-hugo/edit/master/content/post/chuleta-atajos-teclado-emacs.en.markdown" target="_blank" title="Pull Request">Pull Request</a>.

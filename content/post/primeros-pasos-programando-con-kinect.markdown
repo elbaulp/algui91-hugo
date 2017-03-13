@@ -36,7 +36,7 @@ Esta vez vamos a hacer las cosas al revés, en el vídeo se muestra el resultado
     layout="responsive"
     width="480" height="270"></amp-youtube>
 
-El código está en [github](https://github.com/algui91/grado_informatica_npi), y la práctica la hemos realizado Cristina H.G y Alejandro Alcalde.
+El código está en [github](https://github.com/elbaulp/grado_informatica_npi), y la práctica la hemos realizado Cristina H.G y Alejandro Alcalde.
 {: .notice-info }
 
 Como se puede ver, inicialmente no se nos hace caso, luego activamos el procesamiento y comenzamos a avanzar y retroceder transpacencias. Cada vez que se ejecuta un comando, se ilumina el brazo que ejecutó la acción.

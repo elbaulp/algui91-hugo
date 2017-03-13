@@ -71,7 +71,7 @@ for fname in glob.glob(path):
         file.write(str(soup))
 ```
 
-Espero que os resulte útil, he subido el script a [github](https://gist.github.com/algui91/188a7f9d24e586cb16d9ed9188aa5823 "Gist en github").
+Espero que os resulte útil, he subido el script a [github](https://gist.github.com/elbaulp/188a7f9d24e586cb16d9ed9188aa5823 "Gist en github").
 
 # Referencias
 

@@ -312,7 +312,7 @@ Tras modificar estos ficheros, veremos el mensaje **Hello, world. You&#8217;re a
 
 #### Ejemplo completo
 
-Para no alargar mucho este artículo, he intentado dar unas nociones básicas de cómo instalar y empezar a usar django. El ejemplo completo de la documentación oficial citada en las referencias lo podéis encontrar en <a href="https://github.com/algui91/djangoTutorialv1.5" title="Ejemplo en Github" target="_blank">github</a>.
+Para no alargar mucho este artículo, he intentado dar unas nociones básicas de cómo instalar y empezar a usar django. El ejemplo completo de la documentación oficial citada en las referencias lo podéis encontrar en <a href="https://github.com/elbaulp/djangoTutorialv1.5" title="Ejemplo en Github" target="_blank">github</a>.
 
 #### Referencias
 

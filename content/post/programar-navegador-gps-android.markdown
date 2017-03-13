@@ -272,7 +272,7 @@ GoogleDirection.withServerKey(getString(R.string.google_maps_server_key))
 
 ### Referencias y agradecimientos
 
-- [github.com/algui91/GPSQR](https://github.com/algui91/grado_informatica_npi/tree/master/Android/GPSQR "Código en Github")
+- [github.com/elbaulp/GPSQR](https://github.com/elbaulp/grado_informatica_npi/tree/master/Android/GPSQR "Código en Github")
 - [stackoverflow.com](http://stackoverflow.com/a/14695943/1612432 "Android update activity UI from service")
 - [github.com/googlesamples/android-play-location](https://github.com/googlesamples/android-play-location/tree/master/LocationUpdates "Ejemplos de Google")
 - [github.com/akexorcist/Android-GoogleDirectionLibrary](https://github.com/akexorcist/Android-GoogleDirectionLibrary "Android-GoogleDirectionLibrary")

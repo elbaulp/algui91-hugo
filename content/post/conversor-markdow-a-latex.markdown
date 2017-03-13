@@ -45,8 +45,8 @@ y para ejecutarlo basta con
 
 El código está bastante bien comentado, podéis ir leyendo y comprendiendo el funcionamiento.
 
-<script src="https://gist.github.com/algui91/c285d73fc0fb113d3ea83dae29fd45a3.js"></script>
+<script src="https://gist.github.com/elbaulp/c285d73fc0fb113d3ea83dae29fd45a3.js"></script>
 
 #### Referencias
 
-Repositorio en GitHub \| [Markdown2LatexConversor](https://github.com/algui91/Markdown2LatexConversor "Markdown2LatexConversor")
+Repositorio en GitHub \| [Markdown2LatexConversor](https://github.com/elbaulp/Markdown2LatexConversor "Markdown2LatexConversor")

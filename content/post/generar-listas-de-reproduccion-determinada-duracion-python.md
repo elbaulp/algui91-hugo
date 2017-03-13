@@ -200,4 +200,4 @@ Playlist generated, name:  ./playlists/genPlayListByLength.py20_32.m3u  length  
 
 Ya que el script lo he hecho en media hora, se puede mejorar bastante. Ahora mismo no busca los ficheros de música recursivamente, en el futuro lo añadiré. <del datetime="2014-04-05T15:37:18+00:00">Tiene un fallo, cuando se está generando la lista, si la duración total es menor que la indicada por parámetro, y el fichero de música procesándose en ese momento es muy grande (por ejemplo 40 min), la lista de reproducción no será del tamaño correcto.</del> (Solucionado)
 
-Para aquellos que estén interesados, el código está en <a href="https://github.com/algui91/genPlaylistByName" title="Repositorio" target="_blank">GitHub</a>
+Para aquellos que estén interesados, el código está en <a href="https://github.com/elbaulp/genPlaylistByName" title="Repositorio" target="_blank">GitHub</a>

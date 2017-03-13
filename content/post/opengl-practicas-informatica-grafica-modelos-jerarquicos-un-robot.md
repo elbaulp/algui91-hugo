@@ -619,7 +619,7 @@ int main(int argc, char **argv) {
 
 
  [1]: http://www.csc.villanova.edu/~mdamian/Past/graphicsF10/code/robotSkeleton.cpp
- [2]: https://github.com/algui91/grado_informatica_ig_practicas/tree/master/P3
+ [2]: https://github.com/elbaulp/grado_informatica_ig_practicas/tree/master/P3
 
 
 </windows.h>

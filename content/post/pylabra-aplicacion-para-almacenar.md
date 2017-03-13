@@ -29,7 +29,7 @@ Una vez instaladas podemos ejecutar el programa haciendo clic en el archivo llam
 ./main.py
 ```
 
-Podéis descargar Pylabra desde <a target="_blank" href="https://github.com/algui91/PyLabra">Github</a>
+Podéis descargar Pylabra desde <a target="_blank" href="https://github.com/elbaulp/PyLabra">Github</a>
 
 Una vez lo ejecutéis, vereis la pantalla principal:
 
