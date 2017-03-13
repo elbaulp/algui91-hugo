@@ -54,8 +54,8 @@ title: "C\xF3mo configurar un servidor DNS - Parte 3 (Zona Inversa y DNS secunda
             tabindex="0"
             layout="responsive"
             src="/img/2013/04/dns.jpg"
-            alt=""C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
-            title=""C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
+            alt="C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
+            title="C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
             sizes="(min-width: 450px) 450px, 100vw"
             width="450"
             height="361">
@@ -114,7 +114,7 @@ Eso es todo, en este punto usaremos el comando **dig** para comprobar la configu
 ```bash
 $ dig elbauldelprogramador.com
 
-; <<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" />> DiG 9.8.4-P1 <<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" />> elbauldelprogramador.com
+; <<>> DiG 9.8.4-P1 <<>> elbauldelprogramador.com
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10156
@@ -130,7 +130,6 @@ elbauldelprogramador.com. 532    IN  A   5.39.89.44
 ;; SERVER: 80.58.61.250#53(80.58.61.250)
 ;; WHEN: Mon Feb 11 21:09:28 2013
 ;; MSG SIZE  rcvd: 58
-
 ```
 
 Así, estamos buscando la ip del dominio. Como se aprecia, devuelve el valor correcto en la sección **ANSWER SECTION**.
@@ -138,7 +137,7 @@ Así, estamos buscando la ip del dominio. Como se aprecia, devuelve el valor cor
 ```bash
 $ dig -x 5.39.89.44
 
-; <<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" />> DiG 9.8.4-P1 <<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" />> -x 5.39.89.44
+; <<>> DiG 9.8.4-P1 <<>> -x 5.39.89.44
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50347
@@ -154,7 +153,6 @@ $ dig -x 5.39.89.44
 ;; SERVER: 80.58.61.250#53(80.58.61.250)
 ;; WHEN: Mon Feb 11 21:10:09 2013
 ;; MSG SIZE  rcvd: 76
-
 ```
 
 Esta vez, se está realizando la petición inversa, preguntamos por el dominio.
@@ -194,8 +192,6 @@ Para finalizar, reiterar que todos los artículos están basados en un How to de
 # Referencias
 
 - *Traditional DNS Howto* »» <a href="http://www.howtoforge.com/traditional_dns_howto" target="_blank">Visitar sitio</a>
-
-
 
  [1]: https://elbauldelprogramador.com/como-configurar-un-servidor-dns/ "Cómo configurar un servidor DNS – Parte 1 (Introducción)"
  [2]: https://elbauldelprogramador.com/como-configurar-un-servidor-dns2/ "Cómo configurar un servidor DNS – Parte 2 (La Zona Primaria)"
