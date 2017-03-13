@@ -4,10 +4,9 @@ categories:
 - administracion de servidores
 - articulos
 - internet
-color: '#0097A7'
 date: '2016-01-01'
+lastmod: 2017-03-13T16:10:38+01:00
 image: 2013/04/dns.jpg
-
 mainclass: servidores
 url: /como-configurar-un-servidor-dns3/
 tags:
@@ -42,11 +41,26 @@ tags:
 - servidores dns
 - soa correo
 - zona dns inversa
+- servidor
+- DNS
 title: "C\xF3mo configurar un servidor DNS - Parte 3 (Zona Inversa y DNS secundario)"
 ---
 
 <figure>
-<a href="/img/2013/04/dns.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/dns.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="450px" height="361px" /></a>
+        <a href="/img/2013/04/dns.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2013/04/dns.jpg"
+            alt=""C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
+            title=""C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
+            sizes="(min-width: 450px) 450px, 100vw"
+            width="450"
+            height="361">
+          </amp-img>
+        </a>
 </figure>
 
 * [Cómo configurar un servidor DNS - Parte 1 (Introducción)][1]
@@ -145,7 +159,7 @@ $ dig -x 5.39.89.44
 
 Esta vez, se está realizando la petición inversa, preguntamos por el dominio.
 
-### El servidor DNS secundario
+# El servidor DNS secundario
 
 En caso de disponer de otro servidor DSN propio, para configurarlo de modo que haga las veces de servidor DNS secundario es necesario añadir otra zona al archivo **named.conf.local** en el servidor **secundario**
 
@@ -177,9 +191,9 @@ Con éste último artículo doy por terminada este conjunto de artículos que pr
 
 Para finalizar, reiterar que todos los artículos están basados en un How to de la web que se menciona en las referencias.
 
-#### Referencias
+# Referencias
 
-*Traditional DNS Howto* »» <a href="http://www.howtoforge.com/traditional_dns_howto" target="_blank">Visitar sitio</a>
+- *Traditional DNS Howto* »» <a href="http://www.howtoforge.com/traditional_dns_howto" target="_blank">Visitar sitio</a>
 
 
 
