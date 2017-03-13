@@ -97,10 +97,10 @@ author = "author"
     organizationName = "El Baúl del Programador" # set organisation name
     organisationAddress = "Some Street 123, 12345 City" # set organisation address
 
-    socialProfiles = ["http://www.facebook.com/elbauldelprogramador",
+    socialProfiles = ["http://www.facebook.com/elbaulp",
                       "http://plus.google.com/+elbauldelprogramador",
                       "https://twitter.com/elbaulp",
-                      "https://telegram.me/elbauldelprogramador"]  # for sameAs in organisation's structured data
+                      "https://telegram.me/elbaulp"]  # for sameAs in organisation's structured data
 
     publisherName = "Alejandro Alcalde" # publisher used in article schema
     publisherLogo = "http://elbauldelprogramador.com/img/logo.png" # https://developers.google.com/search/docs/data-types/articles#logo-guidelines
