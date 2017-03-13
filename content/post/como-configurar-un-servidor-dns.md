@@ -4,15 +4,10 @@ categories:
 - administracion de servidores
 - articulos
 - internet
-color: '#0097A7'
 date: '2016-01-01'
-description: "En esta serie de art\xEDculos, intentar\xE9 explicar lo mejor posible
-  el funcionamiento de los servidores DNS, y c\xF3mo configurar el tuyo propio. Habr\xE1
-  una parte m\xE1s te\xF3rica sobre el funcionamiento del sistema, que es una traducci\xF3n
-  de un art\xEDculo en howtoforge."
+lastmod: 2017-03-13T16:13:17+01:00
+description: "En esta serie de art\xEDculos, intentar\xE9 explicar lo mejor posible  el funcionamiento de los servidores DNS, y c\xF3mo configurar el tuyo propio. Habr\xE1  una parte m\xE1s te\xF3rica sobre el funcionamiento del sistema, que es una traducci\xF3n  de un art\xEDculo en howtoforge."
 image: 2013/04/dns.jpg
-lastmod: 2016-08-01
-
 mainclass: servidores
 url: /como-configurar-un-servidor-dns/
 tags:
@@ -44,18 +39,31 @@ tags:
 - servidores dns
 - soa correo
 - configurar zona reversa en dns linux
+- servidor
+- DNS
 title: "C\xF3mo configurar un servidor DNS - Parte 1 (Introducci\xF3n)"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/dns.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="450px" height="361px" />
+        <a href="/img/2013/04/dns.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2013/04/dns.jpg"
+            alt=""C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
+            title=""C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
+            sizes="(min-width: 450px) 450px, 100vw"
+            width="450"
+            height="361">
+          </amp-img>
+        </a>
 </figure>
 
 * Cómo configurar un servidor DNS - Parte 1 (Introducción)
 * [Cómo configurar un servidor DNS - Parte 2 (La Zona Primaria)][1]
 * [Cómo configurar un servidor DNS - Parte 3 (Zona Inversa y DNS secundario)][2]
-
-
 
 > En esta serie de artículos, intentaré explicar lo mejor posible el funcionamiento de los servidores DNS, y cómo configurar el tuyo propio. Habrá una parte más teórica sobre el funcionamiento del sistema, que es una traducción de un artículo en howtoforge.
 
@@ -81,13 +89,13 @@ El tercer y último componente de **BIND** proporciona herramientas para probar 
 
 <!--more--><!--ad-->
 
-### ¿Cual es tu responsabilidad como parte del sistema DNS?
+# ¿Cual es tu responsabilidad como parte del sistema DNS?
 
 DNS es una [base de datos][3] distribuida. Cuando pagas por un dominio, debes configurar dos servidores de nombres, y éstos deben ser registrados en el sistema DNS.
 
 La base de datos del sistema DNS tiene tres niveles. Al primer grupo de servidores se les llama “**servidores root**”. Al segundo, “**Top Level Domains (TLDs)**” o dominios de primer nivel. Cuando se necesita conocer la dirección de una web, el segundo componente de **BIND** (resolver library) realiza una petición, (De aquí en adelante lo llamaremos *resolver*).
 
-Por ejemplo, supongamos que quieres encontrar a **google.com**. Tu resolver pide a los servidores root que identifique la IP de google.com. El servidor root responde, “*No lo sé, pero sí sé donde puedes encontrar la respuesta, comienza con los servidores TLD para COM*”.
+Por ejemplo, supongamos que quieres encontrar a **google.com**. Tu resolver pide a los servidores root que identifique la IP de google.com. El servidor root responde, “ _No lo sé, pero sí sé donde puedes encontrar la respuesta, comienza con los servidores TLD para COM_ ”.
 
 Así, el servidor root envia la petición a un servidor COM. Éste último servidor dice: “*No tengo esa información, pero sé de un servidor de nombres que sí, tiene dirección 173.194.34.6 y nombre ns1.google.com. Dirígete a esa dirección y te dirá la dirección del sitio web google.com.”*
 
@@ -99,7 +107,7 @@ En la figura de arriba, la parte superior izquierda representa los servidores ro
 
 Los servidores root son los principales de la base de datos distribuida. Poseen información sobre los **Top Level Domains (TLDs)** o dominios de primer nivel. En los TLDs se incluyen *com, net, org, mil, gov, edu etc*. Al contratar un nombre de dominio, es necesario elegir qué TLD se desea, este blog se encuentra en el espacio de nombres COM y se llama *elbauldelprogramador.com*.
 
-### ¿Cómo responde el servidor DNS a las peticiones?
+# ¿Cómo responde el servidor DNS a las peticiones?
 
 En este punto es donde **BIND** entra en acción. El primer componente que mencionamos, **named**; está presente en todos los servidores de nombres y es el encargado de responder a las peticiones de los resolvers. Lee sus datos del archivo de configuración *named.conf*. Éste fichero obtiene su información de unos ficheros a los que se les suele llamar *zone files* ó *ficheros de zona*. Existen multidud de ellos, pero un archivo de zona en particular mantiene una base de datos de registros que proporciona named con la mayoría de sus respuestas.
 
@@ -110,7 +118,7 @@ En la figura 2, *named* ha recibido una petición. Busca en su fichero de config
 <figcaption>Figura 2 - Respondiendo a una petición</figcaption>
 </figure>
 
-### Usando Named.conf
+# Usando Named.conf
 
 El proceso *named* escucha en el puerto 53 en los sitemas Linux. Al recibir una petición para una dirección, busca en el primer archivo de configuración que conoce, *named.conf*. Tal y como se aprecia en la figura 2.
 
@@ -179,9 +187,9 @@ El resto de las zonas son archivos de zonas inversas. Es una copia invertida de 
 
 En el siguiente artículo ser verá en detalle la estructura del archivo **named.conf.local**, en el que se definen nuevas zonas que corresponden a dominios que resolverá el servidor DNS. Así como a los archivos *pri.nombredominio.com* asociados a cada zona.
 
-#### Referencias
+# Referencias
 
-*Traditional DNS Howto* »» <a href="http://www.howtoforge.com/traditional_dns_howto" target="_blank">Visitar sitio</a>
+- *Traditional DNS Howto* »» <a href="http://www.howtoforge.com/traditional_dns_howto" target="_blank">Visitar sitio</a>
 
 [1]: https://elbauldelprogramador.com/como-configurar-un-servidor-dns2/ "Cómo configurar un servidor DNS – Parte 2 (La Zona Primaria)"
 [2]: https://elbauldelprogramador.com/como-configurar-un-servidor-dns3/ "Cómo configurar un servidor DNS – Parte 3 (Zona Inversa y DNS secundario)"

@@ -2,14 +2,11 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: 2015-06-29 16:43:06
-description: "Hoy quiero hablaros de dunst, un demonio de notificaciones que me instal\xE9
-  hace poco, y que se integra muy bien con DWM."
+lastmod: 2017-03-13T16:00:50+01:00
+description: "Hoy quiero hablaros de dunst, un demonio de notificaciones que me instal\xE9 hace poco, y que se integra muy bien con DWM."
 image: Como-Configurar-Dunst,-un-daemon-de-notificaciones-altamente-configurable.png
-
 mainclass: articulos
-modified: null
 tags:
 - dunst
 - notify-send
@@ -19,7 +16,20 @@ title: "C\xF3mo Configurar Dunst, Un Daemon De Notificaciones Altamente Configur
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Como-Configurar-Dunst,-un-daemon-de-notificaciones-altamente-configurable.png" title="{{ page.title }}" alt="{{ page.title }}" width="329px" height="212px" />
+        <a href="/img/Como-Configurar-Dunst,-un-daemon-de-notificaciones-altamente-configurable.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/Como-Configurar-Dunst,-un-daemon-de-notificaciones-altamente-configurable.png"
+            alt="Cómo configurar Dunst. Daemon de notificaciones"
+            title="Cómo configurar Dunst. Daemon de notificaciones"
+            sizes="(min-width: 329px) 329px, 100vw"
+            width="329"
+            height="212">
+          </amp-img>
+        </a>
 </figure>
 
 Si eres lector habitual del blog, sabrás que me gustan los entornos minimalistas y configurables, como puede comprobarse en los artículos [instalar y configurar dwm](/instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente/ "Instalar y configurar DWM"), y el patch para colorear la [barra de estado](/statuscolor-dwm-6-1/).
@@ -28,7 +38,7 @@ Hoy quiero hablaros de _dunst_, un demonio de notificaciones que me instalé hac
 
 <!--more--><!--ad-->
 
-## Instalar dunst
+# Instalar dunst
 
 Tan simple como ejecutar:
 
@@ -38,7 +48,7 @@ $ sudo apt-get install dunst
 
 ```
 
-## Configurar dunst
+# Configurar dunst
 
 _Dunst_ es áltamente configurable, mediante su fichero de configuración, situado en `~/.config/dunst/dunstrc`, podemos cambiar su aspecto por completo. Aquí dejo un ejemplo de mi configuración actual:
 
@@ -114,7 +124,7 @@ _Dunst_ es áltamente configurable, mediante su fichero de configuración, situa
 
 ```
 
-## Probar la configuración
+# Probar la configuración
 
 Para probar cómo queda nuestra configuración, podemos usar el comando `notify-send`:
 

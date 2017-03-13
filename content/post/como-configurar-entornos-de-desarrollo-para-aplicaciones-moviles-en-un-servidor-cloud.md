@@ -2,9 +2,8 @@
 author: alex
 categories:
 - javascript
-color: '#0097A7'
 date: '2016-01-01'
-
+lastmod: 2017-03-13T16:03:12+01:00
 mainclass: servidores
 url: /como-configurar-entornos-de-desarrollo-para-aplicaciones-moviles-en-un-servidor-cloud/
 tags:
@@ -12,8 +11,7 @@ tags:
 - crear api con nodejs
 - crear base de datos mongodb
 - tutorial express
-title: "C\xF3mo configurar entornos de desarrollo para aplicaciones m\xF3viles en
-  un servidor cloud"
+title: "C\xF3mo configurar entornos de desarrollo para aplicaciones m\xF3viles en  un servidor cloud"
 ---
 
 En un [artículo anterior][1] se vió cómo crear una aplicación cliente/servidor que consistía en el desarrollo de un juego básico donde adivinar el número pensado por el oponente. Hoy veremos cómo crear una API RESTFul, la cual podrá ser consumida por una aplicación móvil, por ejemplo.
@@ -26,31 +24,31 @@ Otra ventaja viene dada a la hora de hacer pruebas, ya que se puede crear un ent
 
 <!--more--><!--ad-->
 
-## Crear el servidor
+# Crear el servidor
 
-### Crear el tipo de servidor
+## Crear el tipo de servidor
 
 En éste caso, elegiremos un servidor con Debian 6, y una instalación base.
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/1.-Creación-de-un-servidor-Cloud.png" alt="1. Creación de un servidor Cloud" width="817px" height="448px" />
 
-### Configurar la capacidad del servidor
+## Configurar la capacidad del servidor
 
 Para el ejemplo concreto, no necestiamos grandes recursos, así que fijaremos todo al mínimo.
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/2.-Configuración-capacidad-servidor-Cloud.png" alt="2. Configuración capacidad servidor Cloud" width="817px" height="575px" />
 
-### Establecer la contraseña de usuario
+## Establecer la contraseña de usuario
 
 Por último, solo resta proporcionar una contraseña al usuario **root**.
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/3.-Finalización-de-la-puesta-en-marcha-del-servidor-cloud.png" alt="3. Finalización de la puesta en marcha del servidor cloud" width="815px" height="581px" />
 
-## Instalar Node.js
+# Instalar Node.js
 
 Descargamos el binario de su [página web][3], descomprimimos el fichero y listo. En linux estaría bien añadir la carpeta `bin` al `PATH` para que sea accesible desde cualquier lugar en la terminal.
 
-## Descripción de la API
+# Descripción de la API
 
 Para éste ejemplo, la API que vamos a crear será muy sencilla, consistirá en:
 
@@ -59,7 +57,7 @@ Para éste ejemplo, la API que vamos a crear será muy sencilla, consistirá en:
   * Se usarán los nombres convencionales HTTP (`GET` `POST`, `PUT` y `DELETE`).
   * Los datos se devolverán en formato JSON.
 
-## Estructura del directorio de trabajo
+# Estructura del directorio de trabajo
 
 Debido a la simplicidad de la API, gran parte del código, incluídas las rutas estarán en el fichero `server.js`. A medida que incrementa el tamaño del código, lo ideal es crear un fichero propio para las rutas. La estructura será la siguiente:
 
@@ -73,7 +71,7 @@ Debido a la simplicidad de la API, gran parte del código, incluídas las rutas 
 
 ```
 
-## Definir los paquetes necesarios
+# Definir los paquetes necesarios
 
 En Node.js es necesario especificar los paquetes necesarios en el fichero `package.json`, los necesarios en éste caso son:
 
@@ -94,7 +92,7 @@ En Node.js es necesario especificar los paquetes necesarios en el fichero `packa
   * `mongoose` el ORM que usaremos para comunicarnos con la base de datos MongoDB.
   * `body-parser` permitirá extraer el contenido de las peticiones HTTP POST para poder hacer cosas como crear nuevos artículos.
 
-## Instalar los paquetes Node
+# Instalar los paquetes Node
 
 Tan simple como
 
@@ -105,7 +103,7 @@ $ npm install
 
 en el directorio donde está `package.json`.
 
-## Configurar el servidor
+# Configurar el servidor
 
 Para ello editaremos el fichero `server.js` con lo siguiente:
 
@@ -146,7 +144,7 @@ router.get('/', function(req, res) {
 
 ```
 
-## Iniciar el servidor
+# Iniciar el servidor
 
 Basta con ejecutar:
 
@@ -157,7 +155,7 @@ $ node server.js
 
 Deberá aparecer: `La magia ocurre en el puerto 8080`.
 
-### Probar la API
+## Probar la API
 
 Para comprobar que la API está funcionando correctamente, podemos usar `curl` y realizar una petición al servidor:
 
@@ -183,7 +181,7 @@ j = { name : "Lampara", price: 10 }
 
 Tras esto, tenemos la base de datos creada con un elemento. Pasemos a crear la conexión entre la base de datos y Node.
 
-## Conectar MongoDB con Node.js
+# Conectar MongoDB con Node.js
 
 Al tener creada la base de datos, podemos conectarnos a ella mediante una URI, con el siguiente formato
 
@@ -201,7 +199,7 @@ mongoose.connect('mongodb://127.0.0.1:27017//articulosDB');
 
 ```
 
-## Crear el modelo para la base de datos
+# Crear el modelo para la base de datos
 
 Consiste en representar los datos almacenados en la base de datos, para nuestro caso, será:
 
@@ -228,7 +226,7 @@ var Article = requiere('./app/models/article')
 
 A partir de ahora, la aplicación está lista para interactuar con la base de datos. Pasemos a escribir el resto de rutas para la API.
 
-## Router Express y rutas
+# Router Express y rutas
 
 Una breve descripción de lo que se usará:
 
@@ -240,7 +238,7 @@ Una breve descripción de lo que se usará:
 | /api/articles/:article_id |   `PUT`    | Modificar artículo con ID especificado |
 | /api/articles/:article_id |  `DELETE`  | Eliminar artículo con ID especificado  |
 
-## Middleware para las rutas
+# Middleware para las rutas
 
 Para registrar todo lo que pasa en la API, estableceremos un *Middleware* por el que pasarán todas las peticiones antes de ser procesadas.
 
@@ -256,7 +254,7 @@ router.use(function(req, res, next) {
 
 Empezaremos creando las rutas que para devolver todos los artículos de la base de datos y para crear un artículo nuevo. Ambas se realizarán sobre la ruta `/api/articles`. Empezaremos con crear artículos.
 
-### Crear un artículo
+## Crear un artículo
 
 Para ello, necesitamos poder gestionar peticiones `POST`:
 
@@ -291,7 +289,7 @@ $ curl -H "Content-Type: application/json" -d '{"name":"Articulo1",  "cost":100}
 
 ```
 
-### Obtener todos los artículos
+## Obtener todos los artículos
 
 En la misma ruta que antes, pero ahora usando el método `GET`, devolveremos al cliente todos los artículos existentes en la base de datos.
 
@@ -333,7 +331,7 @@ curl -X GET http://ip.servidor:8080/api/articles/ | python -mjson.tool
 
 ```
 
-## Crear rutas para elementos individuales
+# Crear rutas para elementos individuales
 
 Hasta ahora, se han manejado el grupo de rutas acabado en `/articles`. A continuación crearemos las rutas para manejar peticiones que contengan parámetros, como el identificador de artículo. Serán de la forma `/articles/:article_id` y harán cosas como:
 
@@ -341,7 +339,7 @@ Hasta ahora, se han manejado el grupo de rutas acabado en `/articles`. A continu
   * Actualizar los datos de un artículo.
   * Eliminar un artículo.
 
-### Obtener un único artículo
+## Obtener un único artículo
 
 Se añadirá otra ruta que maneje las peticiones con el parámetro `:article_id`:
 
@@ -370,7 +368,7 @@ curl -X GET http://ip.servidor:8080/api/articles/54aa901312bf8f4207000001 | pyth
 
 ```
 
-### Actualizar datos de un artículo
+## Actualizar datos de un artículo
 
 Para ello, necesitamos añadir el método `PUT`:
 
@@ -411,7 +409,7 @@ curl -H "Content-Type: application/json" -d '{"name":"Articulo Modificado",  "co
 
 ```
 
-### Eliminar un artículo
+## Eliminar un artículo
 
 Por último, falta crear el método `DELETE` para eliminar artículos de la base de datos:
 
@@ -442,7 +440,7 @@ curl -X DELETE http://ip.servidor:8080/api/articles/54aa901312bf8f4207000001 | p
 
 ```
 
-## Conclusión
+# Conclusión
 
 Queda bastante claro lo sencillo que es crear una API RESTful con *Node.js* y espero que el lector haya disfrutado del artículo. A continuación dejo el código completo del fichero `server.js`:
 
@@ -585,9 +583,9 @@ console.log('Magic happens on port ' + port);
 
 ```
 
-#### Referencias
+# Referencias
 
-*scotch.io* »» <a href="https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4" target="_blank">Build a RESTful API Using Node and Express 4</a>
+- *scotch.io* »» <a href="https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4" target="_blank">Build a RESTful API Using Node and Express 4</a>
 
 
 
