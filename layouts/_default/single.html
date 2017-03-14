@@ -2,7 +2,7 @@
 {{ if eq .Type "post" }}{{ partial "structure/postheader" . }}{{ end }}
 
 <section class="post">
-  <article role="article" id="post" class="post-content page">
+  <article role="article" id="post" class="post-content {{ if eq .Type  "page"}} page {{ end }}">
     {{ if eq .Type "page"}}<h1>{{.Title}}</h1>{{ end }}
     {{ partial "structure/author" . }}
     {{ if not .Params.notoc }}
