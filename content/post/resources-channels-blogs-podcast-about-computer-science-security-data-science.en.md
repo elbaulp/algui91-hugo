@@ -2,6 +2,7 @@
 tags = ["computer Science", "podcasts", "blogs", "Youtube Channels", "security", "data science", "lists"]
 categories = ["articulos"]
 date = "2017-03-01T09:34:39+01:00"
+lastmod = "2017-03-14T20:33:50+01:00"
 title = "52 Blogs / Channels / Podcast about Computer Science, Security & Data Science"
 mainclass = "articulos"
 author = "alex"
@@ -19,7 +20,8 @@ If you follow some resource not listed below feel free to post a comment and I w
 
 # More lists
 
-- [11 Resources / Channels / Podcasts about Mathematics](https://elbauldelprogramador.com//en/resources-channels-podcast-to-learn-math/ "11 Resources / Channels / Podcasts about Mathematics")
+- [11 Resources / Channels / Podcasts about Mathematics](https://elbauldelprogramador.com/en/resources-channels-podcast-to-learn-math/ "11 Resources / Channels / Podcasts about Mathematics").
+- [20 Podcasts / Youtube Channels / Blogs about Science](https://elbauldelprogramador.com/en/resources-blogs-podcast-youtube-channels-about-science/ "20 Podcasts / Youtube Channels / Blogs about Science").
 
 # Computer Science (Programming, Data Science & Security)
 
