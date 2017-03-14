@@ -37,9 +37,6 @@ EnableMissingTranslationPlaceholders = true
    name =  "Apoyanos"
    url  =  "/apoyanos/"
 [[menu.main]]
-   name =  "Colabora"
-   url  =  "/colabora/"
-[[menu.main]]
    name =  "Contacto"
    url  =  "/contacto/"
 
@@ -59,9 +56,6 @@ title = "The Programmer's Chest"
 [[Languages.en.menu.main]]
    name =  "Support us"
    url  =  "/apoyanos/"
-[[Languages.en.menu.main]]
-   name =  "Guests Posts"
-   url  =  "/colabora/"
 [[Languages.en.menu.main]]
    name =  "Contact"
    url  =  "/contacto/"
