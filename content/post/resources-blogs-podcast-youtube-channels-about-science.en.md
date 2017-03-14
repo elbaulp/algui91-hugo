@@ -14,7 +14,7 @@ url = "/en/resources-blogs-podcast-youtube-channels-about-science/"
 
 I am going to finish this [series of posts](/en/tags/lists/) about resources I follow about [Computer Science](https://elbauldelprogramador.com/en/resources-channels-blogs-podcast-about-computer-science-security-data-science/ "Computer Science") and [Mathematics](https://elbauldelprogramador.com/en/resources-channels-podcast-to-learn-math/ "Mathematics") with a list of resources about _science_.
 
-If you follow some resource not listed below feel free to post a comment and I will add it, or better, send me a <a href="https://github.com/algui91/elbaulp-hugo/edit/master/content/post/resources-blogs-podcast-youtube-channels-about-science.en.md" target="_blank" title="Pull Request!">Pull Request!</a>.
+If you follow some resource not listed below feel free to post a comment and I will add it, or better, send me a <a href="https://github.com/elbaulp/algui91-hugo/edit/master/content/post/resources-blogs-podcast-youtube-channels-about-science.en.md" target="_blank" title="Pull Request!">Pull Request!</a>.
 
 > Thanks to <a href="https://twitter.com/sinclair_88" target="_blank" title="@sinclair_88">@sinclair_88</a> for proposing the idea of this curated list.
 

@@ -14,7 +14,7 @@ url = "blogs-podcasts-canales-youtube-sobre-ciencia"
 
 Para terminar esta serie de [artículos que he ido publicando](/tags/listas) sobre recursos que suelo seguir sobre [Informática](https://elbauldelprogramador.com/blogs-canales-podcast-aprender-informatica/ "Informática") y [matemáticas](https://elbauldelprogramador.com/recursos-canales-podcast-sobre-matematicas/ "matemáticas"), voy a publicar la última lista, sobre _Ciencia_.
 
-Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hacer un <a href="https://github.com/algui91/elbaulp-hugo/edit/master/content/post/resources-blogs-podcast-youtube-channels-about-science.md" target="_blank" title="Pull Request!">Pull Request!</a>
+Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hacer un <a href="https://github.com/elbaulp/algui91-hugo/edit/master/content/post/resources-blogs-podcast-youtube-channels-about-science.md" target="_blank" title="Pull Request!">Pull Request!</a>
 
 > Gracias a <a href="https://twitter.com/sinclair_88" target="_blank" title="@sinclair_88">@sinclair_88</a> por proponer la idea de crear estas listas.
 
