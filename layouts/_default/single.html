@@ -4,6 +4,7 @@
 <section class="post">
   <article role="article" id="post" class="post-content">
     {{ if eq .Type "page"}}<h1>{{.Title}}</h1>{{ end }}
+    {{ partial "structure/author" . }}
     {{ if not .Params.notoc }}
         {{ with .TableOfContents }}
            <div id="toc">
@@ -19,7 +20,7 @@
     {{ partial "structure/nextprev" . }}
   </article>
   {{ if eq .Type "post" }}
-     {{ partial "structure/author" . }}
+
      {{ partial "structure/comments" . }}
   {{ end }}
 </section>
