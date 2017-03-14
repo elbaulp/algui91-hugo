@@ -3,7 +3,7 @@ image = "resources-channels-podcast-to-learn-math.png"
 mainclass = "articulos"
 author = "alex"
 date = "2017-02-24T21:42:53+01:00"
-lastmod = "2017-03-01T09:35:01+01:00"
+lastmod = "2017-03-14T20:34:23+01:00"
 title = "11 recursos / canales / podcasts sobre matemáticas"
 description = "Una lista de blogs, podcasts y canales de Youtube que enseñan o hablan de Matemáticas"
 tags = ["matemáticas", "podcasts", "blogs", "Canales Youtube", "listas"]
@@ -22,6 +22,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
 # Otras listas
 
 - [52 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad](https://elbauldelprogramador.com/blogs-canales-podcast-aprender-informatica/ "52 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad")
+- [20 Podcasts / Canales de Youtube / Blogs sobre Ciencia](https://elbauldelprogramador.com/blogs-podcasts-canales-youtube-sobre-ciencia/ "20 Podcasts / Canales de Youtube / Blogs sobre Ciencia").
 
 # Youtube
 

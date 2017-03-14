@@ -3,7 +3,7 @@ image = "resources-channels-podcast-to-learn-math.png"
 mainclass = "articulos"
 author = "alex"
 date = "2017-02-24T21:42:53+01:00"
-lastmod = "2017-03-01T09:34:54+01:00"
+lastmod = "2017-03-14T20:33:41+01:00"
 title = "11 Resources / Channels / Podcasts about Mathematics"
 description = "A curated list of blogs, podcasts and Youtube Channels about Mathematics"
 tags = ["mathematics", "podcasts", "blogs", "Youtube Channels", "lists"]
@@ -22,6 +22,7 @@ If you follow some resource about Mathematics not listed below feel free to post
 # Other Lists
 
 - [52 Blogs / Channels / Podcast about Computer Science, Security & Data Science](https://elbauldelprogramador.com/en/resources-channels-blogs-podcast-about-computer-science-security-data-science/ "52 Blogs / Channels / Podcast about Computer Science, Security & Data Science")
+- [20 Podcasts / Youtube Channels / Blogs about Science](https://elbauldelprogramador.com/en/resources-blogs-podcast-youtube-channels-about-science/ "20 Podcasts / Youtube Channels / Blogs about Science").
 
 # Youtube
 
