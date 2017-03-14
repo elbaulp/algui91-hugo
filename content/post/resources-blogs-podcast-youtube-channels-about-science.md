@@ -30,7 +30,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>Sixty Simbols</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sixtysimbols.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sixtysimbols.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Cool videos about physics and astronomy.</p>
@@ -44,7 +44,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>Veritasium</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/veritasium.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/veritasium.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>An element of truth - videos about science, education, and anything else I find interesting.</p>
@@ -58,7 +58,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>Sciencium</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sciencium.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sciencium.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Exciting discoveries in science, recent and historical.</p>
@@ -72,7 +72,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>ASAP Science</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/asapscience.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/asapscience.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Your weekly dose of fun and interesting science.</p>
@@ -86,7 +86,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>Physics Girl</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physicsgirl.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physicsgirl.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Physics videos for every atom and eve.</p>
@@ -100,7 +100,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>Science Magazine</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sciencemag.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sciencemag.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>The latest videos from Science magazine, the world's leading outlet for scientific news, commentary, and cutting-edge research.</p>
@@ -114,7 +114,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>SmarterEveryDay</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/smartereveryday.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/smartereveryday.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>I explore the world using science. That's pretty much all there is to it. Watch 2 videos. If you learn something AWESOME, subscribe.</p>
@@ -128,7 +128,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>VSauce</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/vsauce.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/vsauce.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Our World is Amazing. </p>
@@ -147,7 +147,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>60 seconds Science</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/60secscience.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/60secscience.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>Tune in every weekday for quick reports and commentaries on the world of science—it'll just take a minute</p>
@@ -161,7 +161,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>Discovery</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/discovery.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/discovery.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Explorations in the world of science.</p>
@@ -175,7 +175,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>Physics World Science</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physicsworld.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physicsworld.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Physics World is the world's leading physics magazine. Every month it brings you features from the world's leading physicists and science writers, comprehensive news and analysis, incisive opinion pieces, sound careers advice, reviews of the best new books and multimedia, and the ever-popular Lateral Thoughts page.</p>
@@ -189,7 +189,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>Science in Action</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/scienceinaction.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/scienceinaction.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>The latest science research and news stories from all over the world.</p>
@@ -203,7 +203,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>Science Magazine Podcast</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sciencemag.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sciencemag.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <div class="tags">
@@ -215,7 +215,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>Science Talk</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sciencetalk.png" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/sciencetalk.png" width="100" height="100"></amp-img>
     </figure>
 
     <p>Join host Steve Mirsky each week as he explores the latest developments in science and technology through interviews with leading scientists and journalists</p>
@@ -229,7 +229,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>The Guardian's Science Weekly</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/theguardian.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/theguardian.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>The best place to learn about the big discoveries and debates in biology, chemisty, physics and sometimes even maths</p>
@@ -243,7 +243,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>The Infinite Monkey Cage</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/infinitemonkey.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/infinitemonkey.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Witty, irreverent look at the world through scientists' eyes. With Brian Cox and Robin Ince</p>
@@ -257,7 +257,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>The Titanium Physicists Podcast</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/titanium.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/titanium.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Every episode, I bring together two of my physicists with some of the most fun and interesting people I have ever met, and we have a conversation about a wizard-level physics topic.  It’s fun, and fascinating, and entirely unique.</p>
@@ -270,7 +270,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>ScienceVS</h3>
     <figure>
-        <amp-img
+        <amp-img sizes="(min-width: 100px) 100px, 100vw"
           on="tap:lightbox1"
           role="button"
           tabindex="0"
@@ -302,7 +302,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>CGP Grey</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/cgpgrey.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/cgpgrey.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <div class="tags">
@@ -314,7 +314,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>Kurzgesagt – In a Nutshell</h3>
     <figure>
-      <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/inanutshell.jpg" width="100" height="100"></amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/inanutshell.jpg" width="100" height="100"></amp-img>
     </figure>
 
     <p>Videos explaining things with optimistic nihilism. We are a small team who want to make science look beautiful. Because it is beautiful. </p>
