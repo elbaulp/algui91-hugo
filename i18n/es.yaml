@@ -60,6 +60,8 @@
   translation: "Also available in"
 - id: single_reading_time
   translation: "Tiempo aprox ~ {{ .ReadingTime }} m."
+- id: words
+  translation: "{{ .WordCount }} palabras."
 - id: not_found_title
   translation: "No se ha encontrado lo que buscas, Puedes probar a buscar algo:"
 - id: not_found_latest

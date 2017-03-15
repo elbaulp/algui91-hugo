@@ -60,6 +60,8 @@
   translation: "También disponible en"
 - id: single_reading_time
   translation: "Reading Time {{ .ReadingTime }} m."
+- id: words
+  translation: "{{ .WordCount }} words."
 - id: not_found_title
   translation: "There is nothing to see here :-(, you can search below:"
 - id: not_found_latest
