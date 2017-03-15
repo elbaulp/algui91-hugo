@@ -2,15 +2,11 @@
 author: alex
 categories:
 - latex
-color: '#B31917'
 date: 2015-05-27 10:28:05
-description: "C\xF3mo crear una imagen desde latex, usando el paquete tikz, para insertar
-  una foto en un marco circular, al estilo de la red social de Google, G+."
+lastmod: 2017-03-15T18:30:06+01:00
+description: "C\xF3mo crear una imagen desde latex, usando el paquete tikz, para insertar  una foto en un marco circular, al estilo de la red social de Google, G+."
 image: 2013/05/latex_logo.png
-
 mainclass: latex
-math: true
-modified: null
 tags:
 - latex
 - tikz
@@ -19,11 +15,11 @@ tags:
 title: "C\xF3mo Crear Imagenes Con Un Marco Circular Al Estilo G+ en LaTeX"
 ---
 
-En éste artículo vamos a ver algo curioso que aprendí hace poco. Con el paquete `tikz` de $$\LaTeX$$.
+En éste artículo vamos a ver algo curioso que aprendí hace poco. Con el paquete `tikz` de LaTeX.
 
 Los que uséis G+ sabréis que las fotos de perfil aparecen encuadradas en un círculo, en lugar de un cuadrado. Rellenando mi Currículum se me ocurrió que podría insertar mi foto con ese mismo estilo.
 
-Por supuesto, podría haber creado la imagen directamente con forma circular, pero ya que estoy usando una plantilla $$\LaTeX$$ para el Curriculum, me propuse buscar la manera de implementarlo.
+Por supuesto, podría haber creado la imagen directamente con forma circular, pero ya que estoy usando una plantilla LaTeX para el Curriculum, me propuse buscar la manera de implementarlo.
 
 <!--more--><!--ad-->
 
@@ -55,9 +51,9 @@ Donde:
 Tras compilar el código, el resultado es el siguiente:
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Cómo-Crear-Imagenes-Con-Un-Marco-Circular-Al-Estilo-G+-en-LaTeX.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="558px" height="559px" />
+    <amp-img sizes="(min-width: 558px) 558px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Cómo-Crear-Imagenes-Con-Un-Marco-Circular-Al-Estilo-G+-en-LaTeX.jpg" title="C\xF3mo Crear Imagenes Con Un Marco Circular Al Estilo G+ en LaTeX" alt="C\xF3mo Crear Imagenes Con Un Marco Circular Al Estilo G+ en LaTeX" width="558px" height="559px" />
 </figure>
 
-### Referencias
+# Referencias
 
-[Crop jpeg into circular tikz node](http://tex.stackexchange.com/questions/193555/crop-jpeg-into-circular-tikz-node "Crop jpeg into circular tikz node")
+- [Crop jpeg into circular tikz node](http://tex.stackexchange.com/questions/193555/crop-jpeg-into-circular-tikz-node "Crop jpeg into circular tikz node")
