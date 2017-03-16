@@ -3,8 +3,8 @@ image = "resources-channels-podcast-to-learn-math.png"
 mainclass = "articulos"
 author = "alex"
 date = "2017-02-24T21:42:53+01:00"
-lastmod = "2017-03-14T20:34:23+01:00"
-title = "11 recursos / canales / podcasts sobre matemáticas"
+lastmod = "2017-03-16T11:40:06+01:00"
+title = "13 recursos / canales / podcasts sobre matemáticas"
 description = "Una lista de blogs, podcasts y canales de Youtube que enseñan o hablan de Matemáticas"
 tags = ["matemáticas", "podcasts", "blogs", "Canales Youtube", "listas"]
 categories = ["articulos"]
@@ -24,12 +24,39 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
 - [52 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad](https://elbauldelprogramador.com/blogs-canales-podcast-aprender-informatica/ "52 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad")
 - [20 Podcasts / Canales de Youtube / Blogs sobre Ciencia](https://elbauldelprogramador.com/blogs-podcasts-canales-youtube-sobre-ciencia/ "20 Podcasts / Canales de Youtube / Blogs sobre Ciencia").
 
+# Podcasts
+
+<div class="row-post flex-grid">
+   <article class="box-item animate">
+       <h3>Math Mutation</h3>
+       <figure>
+         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/mathmutation.jpg" width="100" height="100" alt="" title="" ></amp-img>
+       </figure>
+       <p>Welcome to Math Mutation, a short podcast for people of all ages, where we explore fun, interesting, or just plain weird corners of mathematics that you probably didn't hear in school.</p>
+       <div class="tags">
+         <a href="http://mathmutation.blogspot.com.es/" target="_blank" title="Math Mutation">MathMutation</a>
+       </div>
+   </article>
+
+   <article class="box-item animate">
+       <h3>Rel Prime</h3>
+       <figure>
+         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/relprime.png" width="100" height="100" alt="" title="" ></amp-img>
+       </figure>
+       <p>Relatively Prime is a mathematics podcast all about the stories behind the Queen of the Sciences that Samuel Hansen dreamt up in an extreme bout of egotism and delusions of grandeur where he spent too long listening to Radiolab, This American Life, and Snap Judgment and began to think, “Hey, I could do that.”</p>
+       <div class="tags">
+         <a href="http://relprime.com/" target="_blank" title="Math Mutation">Rel Prime</a>
+       </div>
+   </article>
+</div>
+
+
 # Youtube
 
 <div class="row-post flex-grid">
 
   <article class="box-item animate">
-    <h3>3Blue1Brow-postn</h3>
+    <h3>3Blue1Brow</h3>
 
     <figure>
       <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/3b1b.jpg" width="100" height="100" alt="" title="" ></amp-img>
@@ -38,7 +65,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
     <p>3Blue1Brow-postn is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.</p>
 
     <div class="tags">
-      <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank" title="3Blue1Brow-postn">3Blue1Brow-postn</a>
+      <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank" title="3Blue1Brow-postn">3Blue1Brow</a>
     </div>
   </article>
 
@@ -180,3 +207,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
     </div>
   </article>
 </div>
+
+# Referencias
+
+- List of interesting math podcasts? | <a href="http://math.stackexchange.com/q/3/144541" target="_blank" title="List of interesting math podcasts?">math.stackexchange.com</a>
