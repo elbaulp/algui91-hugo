@@ -51,6 +51,16 @@ jordi:
     plus: Programarivm
   avatar: author_jordi.jpg
 
+juan:
+  name: Juan Antonio
+  slug: juan
+  bio: "Graduado en Ing. Informática."
+  avatar: author_juan.jpg
+  twitter: sinclair_88
+  linkedin: juanafernandez
+  github: juanAFernandez
+
+
 colaboraciones:
   name: Colaboraciones
   slug: colaboraciones
