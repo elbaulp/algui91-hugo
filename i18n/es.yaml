@@ -76,3 +76,5 @@
   translation: "Háznos un Pull Request"
 - id: more_posts
   translation: "Más artículos de {{ .name }}"
+- id: lastMod
+  translation: "Modificado el"
