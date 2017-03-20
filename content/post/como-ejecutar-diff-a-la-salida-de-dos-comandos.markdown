@@ -2,14 +2,10 @@
 author: alex
 categories:
 - dev
-color: '#E64A19'
 date: 2016-01-07 11:54:12
-description: "Recientemente necesit\xE9 ejecutar el comando `diff` sobre la salida
-  de otros dos comandos. Es decir, `diff` recibe como par\xE1metros los ficheros sobre
-  los que se quiere mostrar las diferencias, pero yo buscaba hacer un `diff` a la
-  salida de dos comandos, no dos ficheros."
+lastmod: 2017-03-20T10:06:55+01:00
+description: "Recientemente necesit\xE9 ejecutar el comando `diff` sobre la salida  de otros dos comandos. Es decir, `diff` recibe como par\xE1metros los ficheros sobre  los que se quiere mostrar las diferencias, pero yo buscaba hacer un `diff` a la  salida de dos comandos, no dos ficheros."
 image: Como-Ejecutar-Diff-a-La-Salida-De-Dos-Comandos.png
-
 mainclass: dev
 tags:
 - comando diff
@@ -19,6 +15,7 @@ tags:
 - diff salida dos comandos
 - "diff tuber\xEDas"
 - diff pipes
+- diff
 title: "C\xF3mo Ejecutar Diff a La Salida De Dos Comandos"
 ---
 
@@ -58,6 +55,6 @@ $ diff <(readelf --all ./helloc) <(readelf --all ./hellocpp)
 
 Listo, no es necesario nada más que reemplazar `$` por `<`, esto realiza una <a href="http://www.gnu.org/software/bash/manual/bash.html#Process-Substitution" target="_blank" title="Manual gnu">sustitución de procesos</a> en lugar de sustitución de comandos. El resultado es que ahora `diff` tendrá como parámetros descriptores de ficheros (`diff /dev/fd/5 /dev/fd/6`) correspondientes a dos `pipes` creadas por bash. Cuando `diff` abre dichos ficheros, se conecta al lado de lectura de cada _pipe_ o tubería, mientras que el lado de escritura de cada tubería está conectado al comando `readelf`.
 
-### Referencias
+# Referencias
 
-Cómo ejecutar diff a la salida de dos comandos | [askubuntu.com](http://askubuntu.com/questions/229447/how-do-i-diff-the-output-of-two-commands "How do I diff the output of two commands")
+- Cómo ejecutar diff a la salida de dos comandos | [askubuntu.com](http://askubuntu.com/questions/229447/how-do-i-diff-the-output-of-two-commands "How do I diff the output of two commands")
