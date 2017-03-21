@@ -2,11 +2,9 @@
 author: alex
 categories:
 - android
-color: '#689F38'
 date: 2015-06-30 16:48:42
-description: "C\xF3mo solucionar un ListView no capturando el foco cuando est\xE1
-  dentro de un ScrollView"
-
+lastmod: 2017-03-21T16:36:53+01:00
+description: "C\xF3mo solucionar un ListView no capturando el foco cuando est\xE1  dentro de un ScrollView"
 mainclass: android
 tags:
 - android
@@ -14,8 +12,7 @@ tags:
 - ScrollView
 - ListView
 - setOnTouchListener
-title: "C\xF3mo Hacer Scroll en Un ListView Que Est\xE1 Dentro De Un ScrollView en
-  Android"
+title: "C\xF3mo Hacer Scroll en Un ListView Que Est\xE1 Dentro De Un ScrollView en  Android"
 ---
 
 En [Android](/curso-programacion-android), cuando se tiene un [`ListView`](/programacion-android-interfaz-grafica_28/), dentro de un `ScrollView`, es posible que el último capture todos los eventos `onTouch`, y no sea posible utilizar el `ListView`.
