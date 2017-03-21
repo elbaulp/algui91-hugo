@@ -16,7 +16,8 @@ tags:
 - sistema bitcoin
 - webs aceptan bitcoin
 title: "C\xF3mo funciona el Bitcoin, la cripto-moneda"
-elements: [amp-youtube]
+amp:
+  elements: [amp-youtube]
 ---
 
 Hace mucho tiempo que se empezó a hablar sobre el bitcoin y su futuro como moneda digital. Si como yo te has preguntado cómo funciona y quieres saber más acerca de todo el sistema que rodea al bitcoin, en este artículo traduciré el episodio *287 - BitCoin CryptoCurrency* del programa [Security Now!][1]
