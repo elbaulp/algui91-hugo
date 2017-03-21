@@ -4,25 +4,23 @@ amp:
   elements: [amp-youtube]
 categories:
 - security now
-color: '#00BCD4'
 date: '2016-01-01'
-
+lastmod: 2017-03-21T16:13:21+01:00
 mainclass: security-now
 url: /como-funciona-http2-protocolo-que-acelera-considerablemente-la-navegacion-web/
 tags:
 - como funciona http2
 - detalles tecnicos http2
-- http2 y spdy
+- http2
+- spdy
 - "implementaci\xF3n http2"
-- novedades http2
 - protocolo http2
-title: "C\xF3mo funciona HTTP/2, protocolo que aceler\xE1 considerablemente la navegaci\xF3n
-  Web"
+title: "C\xF3mo funciona HTTP/2, protocolo que aceler\xE1 considerablemente la navegaci\xF3n  Web"
 ---
 
 Hacía mucho tiempo que no traducía episodios del podcast [Security Now!][1]. Hoy os traigo la traducción del episodio [#495][2], donde *Steve* describió al detalle el nuevo protocolo HTTP2, el cual lo ha desarrollado *Google*. Primero echaremos un vistazo a lo que tenemos en la actualidad, qué problemas presenta y qué soluciones ofrece HTTP2.
 
-## ¿Qué hay mal en el protocolo actual?
+# ¿Qué hay mal en el protocolo actual?
 
   * Páginas web inmensas
   * Un modelo textual basado en petición/respuesta muy simple. Es el cliente quien solicita recursos, no el servidor quien las envía por sí mismo.
@@ -31,7 +29,7 @@ Hacía mucho tiempo que no traducía episodios del podcast [Security Now!][1]. H
   * La negociación inicial de TLS también es muy costosa.
   * Se realizan múltiples conexiones.
 
-## HTTP2 corrige todos éstos problemas
+# HTTP2 corrige todos éstos problemas
 
 HTTP2 se compone principalmente de (A lo largo del artículo se profundizará en éstos puntos):
 
@@ -54,7 +52,7 @@ Empecemos a profundizar en cada uno de éstos puntos:
 
 <!--more--><!--ad-->
 
-## Situación actual
+# Situación actual
 
 Durante los últimos 15 años hemos convivido con HTTP/1, ¿Qué tiene de malo?, hoy en día todo el mundo lo usa. El problema es que en éstos últimos 15 años las webs se han vuelto locas. Han pasado de ser una simple página de texto con algunas fotos a webs con cantidades de recursos pesados, scripts, gráficos, css, librerías etc.
 
@@ -78,17 +76,17 @@ HTTP2 rompe completamente con lo que teníamos hasta ahora, no hay compatibilida
 
 La razón por la que solo hay una conexión, radica en que no queremos varias conexiones comprobando cómo de rápido pueden transmitir datos. En su lugar, tendremos una conexión yendo a la máxima velocidad posible. Así tendremos una única negociación TLS y una única conexión TCP.
 
-## Speculative push
+# Speculative push
 
 A partir de ahora, los servidores tendrán algo llamado *speculative push*, algo equivalente a la especulación el los procesadores. En las CPUs modernas, el procesador va por delante de la ejecución actual ejecutando sentencias futuras, cuando se llega a una bifurcación, se ejecutan las sentencias de ambas ramas, una vez se ejecuta la condición necesaria para saber qué bifurcación había que coger, se descartan las intrucciones de la rama incorrecta. El *speculative push* es algo parecido, el servidor puede enviar algunas cosas que sabe que el navegador necesitará antes de que el éste las solicite.
 
-## Frames
+# Frames
 
 La única conexión existente se dividirá en en *frames*. Son una abstracción de HTTP2. Permiten soportar múltiples flujos simultáneamente. Hay que tener en cuenta que los *frames* no son paquetes. TCP, el protocolo que hay debajo, dividirá los *frames* en paquetes. Será TCP quién garantice que los paquetes perdidos llegarán al destino, y en el orden correcto. HTTP2 confía en que su comunicación se ve como un único flujo.
 
 El flujo TCP se divide en *frames* de longitud aleatoria. Los *frames* están por encima de TCP en la capa de abstracción. Cada *frame* tiene una cabecera de 9 bytes
 
-### Frame Header (La cabecera de los Frames)
+## Frame Header (La cabecera de los Frames)
 
 ```bash
 +-----------------------------------------------+
@@ -109,7 +107,7 @@ Después de la longitud, los 8 bits siguientes (1 byte), especificarán el tipo 
 
 En resumen, los *frames* pueden variar en tamaño desde muy pequeños hasta 16K, a no ser que ambas partes negocien un tamañó mayor. Luego un tipo de *frame* y sus *flags*. El *Stream ID* permite un flujo de hasta 4GB, así se reduce la posibilidad de agotar los posibles IDs para una conexión. Los múltiples flujos simultáneos permiten una conversación multiplexada entre los dos puntos. Es decir, que el navegador cree nuevos flujos.
 
-## Conexión entre el cliente y el servidor
+# Conexión entre el cliente y el servidor
 
 Recordemos que tenemos una única conexión entre el cliente y el servidor, es posible tener otras conexiones HTTP2, una por cada servidor que contribuye al contenido de la página solicitada. Pero la clave está en que se tiene una única conexión por servidor.
 
@@ -117,17 +115,17 @@ El cliente emite consultas para obtener recursos, numerando sucesivamente cada p
 
 > Por debajo de HTTP2, sigue existiendo HTTP/1.1, simplemente se encapsula en frames.
 
-## Stream Priority (Prioridad de flujo)
+# Stream Priority (Prioridad de flujo)
 
 Otra cosa que el cliente puede hacer con los flujos es asignarles prioridad. Por ejemplo, la página HTML principal, la cual es necesaria inmediatamente para obtener el resto de URLs necesarias para completar la carga de la web. Es posible asignar una prioridad a dicho recurso para que el servidor lo proporcione de inmediato. De esta forma, se puede establecer dependencias entre recursos.
 
-## Los beneficios de una única conexión
+# Los beneficios de una única conexión
 
 Hagamos un breve repaso de lo visto hasta ahora. Tenemos una única conexión optimizada para ser veloz. Una vez establecida se comienza a enviar peticiones, empaquetándolas en *frames* y asignándoles un identificador único (*Stream ID*). En el lado del servidor, éste mira las dependencias y prioridades, enviándolas en el orden solicitado por el cliente.
 
 El servidor va acumulando una gran cantidad de cosas a enviar y las lanza por la conexión todo lo rápido que puede, teniendo en cuenta las restricciones que el cliente haya establecido. Se mantiene así la única conexión tan ocupada como sea posible, sin existir pausas entre peticiones de recursos. Ésta es la gran diferencia con el protocolo anterior. Ya que, aunque hubiera 6 o más conexiones, había un periodo de espera entre solicitar y recibir cada uno de los recursos necesarios. El servidor básicamente esperaba a que el cliente se diera cuenta de qué recursos le hacían falta, ésto ya no pasa en HTTP2.
 
-## Header Compression (Compresión de cabeceras)
+# Header Compression (Compresión de cabeceras)
 
 Actualmente hay mucha redundancia en las cabeceras HTTP, ya que todas y cada una de ellas se envían en todas las peticiones, aunque sean iguales para cada petición (Ej, el user-agent, cookies, hora etc). Como se mencionó arriba, el protocolo HTTP típico, el textual sigue usandose sin modificar.
 
@@ -153,7 +151,7 @@ El cacheo de recursos en el cliente lo previene de tener que preguntar por más 
 
 > Todo el mérito de éste protocolo es para Google
 
-#### Referencias
+# Referencias
 
 
 <amp-youtube
@@ -161,8 +159,8 @@ El cacheo de recursos en el cliente lo previene de tener que preguntar por más 
     layout="responsive"
     width="480" height="270"></amp-youtube>
 
-*Borrador HTTP2* »» <a href="http://tools.ietf.org/pdf/draft-ietf-httpbis-http2-17.pdf" target="_blank">tools.ietf.org</a>
-*Crédito de la imagen* »» <a href="https://httpwg.github.io/" target="_blank">https://httpwg.github.io/</a>
+- *Borrador HTTP2* »» <a href="http://tools.ietf.org/pdf/draft-ietf-httpbis-http2-17.pdf" target="_blank">tools.ietf.org</a>
+- *Crédito de la imagen* »» <a href="https://httpwg.github.io/" target="_blank">https://httpwg.github.io/</a>
 
 
 

@@ -2,9 +2,8 @@
 author: alex
 categories:
 - security now
-color: '#00BCD4'
 date: '2016-01-01'
-
+lastmod: 2017-03-21T16:08:55+01:00
 mainclass: security-now
 url: /como-funciona-el-bitcoin-la-cripto-moneda/
 tags:
@@ -17,6 +16,7 @@ tags:
 - sistema bitcoin
 - webs aceptan bitcoin
 title: "C\xF3mo funciona el Bitcoin, la cripto-moneda"
+elements: [amp-youtube]
 ---
 
 Hace mucho tiempo que se empezó a hablar sobre el bitcoin y su futuro como moneda digital. Si como yo te has preguntado cómo funciona y quieres saber más acerca de todo el sistema que rodea al bitcoin, en este artículo traduciré el episodio *287 - BitCoin CryptoCurrency* del programa [Security Now!][1]
@@ -27,7 +27,6 @@ La idea del bitcoin es ofrecer una moneda basada en internet, con fuerza industr
 , *¿Qué crea la moneda?*, *¿Cuanta cantidad fluye a través del sistema?*, *¿Cómo la monitorizas y la regulas?*, *¿Cómo se previene que se produzca inflación?*, *¿Cómo previenes que la gente cree la moneda de forma fraudulenta?*, *¿Cómo evitas que alguien, en caso de disponer de monedas, reutilice la misma moneda?*. Todas estas preguntas se han resuelto en el sistema de una manera muy inteligente e innovadora.
 
 <!--more--><!--ad-->
-
 
 Pero, *¿Cómo se inventa una moneda?*. En realidad, una moneda no es más que un acuerdo entre partes que establecen que esa *‘cosa’* sintética tiene valor. Cuando el dólar se regía a los estándares del oro, la idea era que debía haber oro salvaguardando los dólares. De manera que cuando recibías los llamados *‘pagarés’*, eran equivalentes a una cantidad X de oro. El problema fue que se necesitaba más dinero del que oro se disponía, así que se dejó de salvaguardar el dólar con el oro.
 
@@ -87,17 +86,20 @@ Para que te hagas una idea de la capacidad total de procesamiento de la red. Pue
 
 Así que, el sistema está diseñado para escalar correctamente y crear una moneda segura y estable, con valor real. En el PDF que enlacé al principio, el autor habla del único ataque que podría realizarse contra el sistema, que consistiría en spoofear la cadena de bloques, ya que es ésta la que proporciona la integridad del sistema. Sin embargo, conforme la cadena se vuelve más grande y más nodos haya, se hace practicamente imposible que alguien con capacidad computacional masiva pueda atacar la cadena.
 
-### Conclusión
+# Conclusión
 
 Si has conseguido llegar hasta aquí leyendo, espero que te haya quedado más claro cómo funciona el bitcoin. Personalmente a mi me llamó mucho la atención cómo se ha estructurado este sistema de forma que no esté sujeto al estado de ningún país, es seguro desde el punto de vista criptográfico y además, una moneda real totalmente anónima. No dudes en dirigirte a bitcoin.org para obtener más información. A continuación dejo el podcast del episodio original de [Security Now!][1]. Si estás interesado en las traducciones que hago de este programa, puedes suscribirte al feed RSS específico para Security now en la página [Feed/Rss][5].
 
-<span class="embed-youtube" ></span>
+<amp-youtube
+    data-videoid="XQPSwA2Itbs"
+    layout="responsive"
+    width="800" height="600">
+</amp-youtube>
 
-#### Referencias
 
-** »» <a href="http://www.grc.com/securitynow.htm" target="_blank">grc.com</a>
+# Referencias
 
-
+- GRC&nbsp;|&nbsp;Security Now! »» <a href="http://www.grc.com/securitynow.htm" target="_blank">grc.com</a>
 
  [1]: https://elbauldelprogramador.com/security-now//
  [2]: https://elbauldelprogramador.com/opensource/

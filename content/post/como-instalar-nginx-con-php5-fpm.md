@@ -3,11 +3,9 @@ author: alex
 categories:
 - administracion de servidores
 - how to
-color: '#0097A7'
 date: '2016-01-01'
+lastmod: 2017-03-21T16:44:32+01:00
 image: 2013/02/nginx-logo.png
-lastmod: 2016-08-05
-
 mainclass: servidores
 url: /como-instalar-nginx-con-php5-fpm/
 tags:
@@ -21,16 +19,28 @@ title: "C\xF3mo instalar y configurar Nginx con php5-fpm"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/nginx-logo.png" alt="instalar y configurar nginx" width="350px" height="90px" />
+        <a href="/img/2013/02/nginx-logo.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2013/02/nginx-logo.png"
+            alt="instalar y configurar nginx"
+            title="instalar y configurar nginx"
+            sizes="(min-width: 350px) 350px, 100vw"
+            width="350"
+            height="90">
+          </amp-img>
+        </a>
 </figure>
 
 Nginx (Pronunciado engine-x) es un servidor [HTTP](/como-funciona-http2-protocolo-que-acelera-considerablemente-la-navegacion-web/) de alto rendimiento, gratuito, software libre y <a href="https://es.wikipedia.org/wiki/Proxy#Reverse_Proxy_.2F_Proxy_inverso" target="_blank">proxy inverso</a>, así como un servidor proxy <a href="https://es.wikipedia.org/wiki/Internet_Message_Access_Protocol" target="_blank">IMAP</a>/<a href="https://es.wikipedia.org/wiki/Post_Office_Protocol" target="_blank">POP3</a>. Desarrollado por Igor Sysoev. Acualmente el <a href="http://news.netcraft.com/archives/2012/01/03/january-2012-web-server-survey.html" target="_blank">12.18%</a> de las webs usan nginx como servidor HTTP. Sus aspectos más destacables son el rendimiento, estabilidad, simplicidad de configuración y un bajo consumo de recursos. En este artículo explicaré como instalar nginx desde el código fuente.
 
 
-
 <!--more--><!--ad-->
 
-### Instalando dependencias
+# Instalando dependencias
 
 Antes de poder compilar nginx, es necesario instalar unos cuantos paquetes:
 
@@ -40,7 +50,7 @@ Antes de poder compilar nginx, es necesario instalar unos cuantos paquetes:
 
 El paquete `build-essential` contiene las herramientas básicas para compilar programas desde código fuente, las otras dos librerías son necesarias para nginx durante el proceso de compilación.
 
-### Descargar y compilar Nginx
+# Descargar y compilar Nginx
 
 ```bash
 $ wget http://nginx.org/download/nginx-1.2.6.tar.gz
@@ -114,7 +124,7 @@ Usando firebug se puede comprobar que efectivamente se está corriendo un servid
     <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/instalar-nginx-en-debian2.png" alt="instalar nginx en debian2" width="641px" height="150px"></amp-img>
 </figure>
 
-### Modificando la configuración por defecto
+# Modificando la configuración por defecto
 
 Sustituimos la configuración por defecto por esta:
 
@@ -182,7 +192,7 @@ $ sudo chown -R www-data:www-data html/
 $ sudo service nginx destroy && sudo service nginx start
 ```
 
-### Instalar php5-fpm
+# Instalar php5-fpm
 
 En lugar de instalar php5, instalaremos php5-fpm (*FastCGI Process Manager*), una implementación alternativa con algunas características adicionales.
 
@@ -308,7 +318,7 @@ Para aplicar los cambios, reiniciamos nginx:
 
 Con esto, deberíamos tener instalado un servidor corriendo con nginx y ejecutando archivos php.
 
-#### Referencias
+# Referencias
 
 - *Learn how to setup a web server pt2: Installing Nginx and PHP* »» <a href="http://blog.bryanbibat.net/2011/12/19/learn-how-to-setup-a-web-server-pt2-installing-nginx-and-php/" target="_blank">blog.bryanbibat.net</a>.
 - *HOWTO install php5-fpm on Debian Squeeze* »» <a href="http://fak3r.com/2011/09/27/howto-install-php5-fpm-on-debian-squeeze/" target="_blank">fak3r.com</a>.

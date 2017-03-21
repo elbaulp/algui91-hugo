@@ -3,14 +3,11 @@ author: alex
 categories:
 - linux
 - gentoo
-color: '#2196F3'
 date: 2016-07-29 10:20:01
-description: Chuleta de comandos para administrar gentoo, instalar, actualizar y borrar
-  paquetes
+lastmod: 2017-03-21T16:38:56+01:00
+description: Chuleta de comandos para administrar gentoo, instalar, actualizar y borrar  paquetes
 image: como-instalar-actualizar-elminar-paquetes-gentoo.png
-introduction: Chuleta de comandos para administrar gentoo, instalar, actualizar y
-  borrar paquetes
-
+introduction: Chuleta de comandos para administrar gentoo, instalar, actualizar y  borrar paquetes
 mainclass: linux
 tags:
 - gentoo
@@ -22,14 +19,22 @@ title: "C\xF3mo Instalar/actualizar/eliminar Paquetes en Gentoo"
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/como-instalar-actualizar-elminar-paquetes-gentoo.png" alt="{{ title }}" title="{{ title }}" width="526px" height="256px">
-</amp-img>
-<figcaption>Imagen tomada con <em>screenfetch</em></figcaption>
+        <a href="/img/como-instalar-actualizar-elminar-paquetes-gentoo.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/como-instalar-actualizar-elminar-paquetes-gentoo.png"
+            alt="C\xF3mo Instalar/actualizar/eliminar Paquetes en Gentoo"
+            title="C\xF3mo Instalar/actualizar/eliminar Paquetes en Gentoo"
+            sizes="(min-width: 526px) 526px, 100vw"
+            width="526"
+            height="256">
+          </amp-img>
+        </a>
+        <figcaption>Imagen tomada con <em>ScreenFetch</em></figcaption>
 </figure>
-
-
-
-
 
 Hace unos meses me decidí a instalar _Gentoo_ en mi portátil por probar cómo iba, y la verdad es que me está gustando bastante. La capacidad de personalización que tiene es tremenda.
 
