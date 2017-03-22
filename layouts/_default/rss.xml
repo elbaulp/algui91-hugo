@@ -11,7 +11,10 @@
         <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
         <image>
             <url>https://elbauldelprogramador.com/img/bio-photo.png</url>
-            <link>{{ .Site.BaseURL }}</link>
+            <link>{{ .Permalink }}</link>
+            <title>Blog Logo</title>
+            <width>150</width>
+            <height>150</height>
         </image>
         <atom:link href="{{.Permalink}}" rel="self" type="application/rss+xml" />
         {{ range .Data.Pages }}
