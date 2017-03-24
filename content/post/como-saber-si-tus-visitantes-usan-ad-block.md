@@ -3,15 +3,9 @@ author: alex
 categories:
 - how to
 - internet
-color: '#F57C00'
 date: '2016-01-01'
-description: "Hace unos d\xEDas, visitando la web makeuseof me apareci\xF3 un mensaje
-  en la parte superior de la p\xE1gina en la que indicaba que se hab\xEDa detectado
-  que estaba usando el plugin Ad-Block (Que bloquea la publicidad de las web, para
-  quien no lo sepa). Y de una manera muy educada suger\xEDan que se desabilitara para
-  apoyar la web y as\xED poder seguir ofreciendo contenido libre de costo."
-lastmod: 2016-02-07
-
+lastmod: 2017-03-24T14:32:45+01:00
+description: "Hace unos d\xEDas, visitando la web makeuseof me apareci\xF3 un mensaje  en la parte superior de la p\xE1gina en la que indicaba que se hab\xEDa detectado  que estaba usando el plugin Ad-Block (Que bloquea la publicidad de las web, para  quien no lo sepa). Y de una manera muy educada suger\xEDan que se desabilitara para  apoyar la web y as\xED poder seguir ofreciendo contenido libre de costo."
 mainclass: articulos
 url: /como-saber-si-tus-visitantes-usan-ad-block/
 tags:
@@ -21,7 +15,10 @@ tags:
 title: "C\xF3mo saber si tus visitantes usan Ad-Block"
 ---
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="adblock-plus-logo" src="/img/2012/07/adblock-plus-logo11.png" alt="" width="128px" height="128px" />][1]
+<figure>
+    <amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="adblock-plus-logo" src="/img/2012/07/adblock-plus-logo11.png" alt="" width="128px" height="128px" />
+</figure>
+
 Hace unos días, visitando la web <a href="http://www.makeuseof.com/" target="_blank">makeuseof</a> me apareció un mensaje en la parte superior de la página en la que indicaba que se había detectado que estaba usando el plugin Ad-Block (Que bloquea la publicidad de las web, para quien no lo sepa). Y de una manera muy educada sugerían que se desabilitara para apoyar la web y así poder seguir ofreciendo contenido libre de costo.
 
 Últimamente existe una obsesión muy grande por la privacidad en internet, cosa que apoyo, aunque creo que no hay que ser extremista.
@@ -76,7 +73,3 @@ Y a vosotros, ¿qué os parece que se os sugieran este tipo de cosas?, ¿Lo desa
 &nbsp;
 
 Vía | <a href="http://adblockdetector.com/" target="_blank">Adblockdetector</a>
-
-
-
- [1]: https://elbauldelprogramador.com/img/2012/07/adblock-plus-logo11.png

@@ -2,15 +2,9 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
-description: "\xC9ste art\xEDculo pretende ser una gu\xEDa para todo aquel que ha
-  perdido el imei de su tel\xE9fono y no puede acceder a la red telef\xF3nica. Y como
-  referencia para m\xED, que he perdido el imei dos veces. Veremos c\xF3mo recuperar
-  el IMEI del tel\xE9fono mediante dos m\xE9todos. Antes de realizar alguno de ellos,
-  HAZLO BAJO TU RESPONSABILIDAD."
-lastmod: 2016-08-15
-
+lastmod: 2017-03-24T14:28:35+01:00
+description: "\xC9ste art\xEDculo pretende ser una gu\xEDa para todo aquel que ha  perdido el imei de su tel\xE9fono y no puede acceder a la red telef\xF3nica. Y como  referencia para m\xED, que he perdido el imei dos veces. Veremos c\xF3mo recuperar  el IMEI del tel\xE9fono mediante dos m\xE9todos. Antes de realizar alguno de ellos,  HAZLO BAJO TU RESPONSABILIDAD."
 mainclass: articulos
 url: /como-recuperar-el-imei-en-android/
 tags:
@@ -35,13 +29,11 @@ title: "C\xF3mo recuperar el IMEI en Android"
 
 <!--more--><!--ad-->
 
-
-
-## Posibles causas
+# Posibles causas
 
 Desde mi experiencia, la pérdida del **imei** ocurre al instalar una ROM no compatible, kernel o recovery, que corrompe la carpeta **/efs** del sistema. Se explicarán dos posibles soluciones a éste problema. Las dos las he probado yo mismo y me han servido para conseguir hacer funcionar de nuevo el teléfono. En mi caso, un **Samsung Galaxy S2 (I9100)**.
 
-## Requisitos
+# Requisitos
 
 * Teléfono [rooteado][1]
 * Un explorador Root
@@ -49,7 +41,7 @@ Desde mi experiencia, la pérdida del **imei** ocurre al instalar una ROM no com
 
 # Recuperar el IMEI en Android
 
-## Método 1
+# Método 1
 
 Éste método me sirvió la primera vez que perdí el **imei**. Seguí los pasos de éste hilo en el foro de [xda-developers][3].
 
@@ -85,7 +77,7 @@ $ chown 1001:radio /efs/nv_data.bin
 
 *Nota*: Éste método me sirvió para recuperar el **imei** la primera vez que lo perdí. La segunda vez, no fue posible, es por ello que muestro el proceso de recuperación del **imei** con el siguiente método, que me ayudó ésta segunda vez.
 
-## Método 2
+# Método 2
 
 Éste método lo encontré en el [foro de Cyanogenmod][4]
 
