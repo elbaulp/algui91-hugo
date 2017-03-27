@@ -2,17 +2,12 @@
 author: marta
 categories:
 - dev
-color: '#E64A19'
 date: 2015-07-08 11:40:40
-description: "Este art\xEDculo se basa en las pr\xE1cticas que he hecho para una asignatura
-  llamada *Algor\xEDtmica*. Dichas pr\xE1cticas consist\xEDan en realizar el problema
-  de la Mochila usando las t\xE9cnicas algor\xEDtmicas que ve\xEDamos en la asignatura."
-image: "Comparaci\xF3n de t\xE9cnicas algor\xEDtmicas b\xE1sicas con el problema de
-  la Mochila.png"
-
+lastmod: 2017-03-27T16:57:12+01:00
+description: "Este art\xEDculo se basa en las pr\xE1cticas que he hecho para una asignatura  llamada *Algor\xEDtmica*. Dichas pr\xE1cticas consist\xEDan en realizar el problema  de la Mochila usando las t\xE9cnicas algor\xEDtmicas que ve\xEDamos en la asignatura."
+image: "Comparaci\xF3n de t\xE9cnicas algor\xEDtmicas b\xE1sicas con el problema de  la Mochila.png"
 mainclass: dev
 math: true
-modified: null
 tags:
 - mochila
 - "algor\xEDtmica"
@@ -22,14 +17,13 @@ tags:
 - voraces
 - Branch and bound
 - "programaci\xF3n din\xE1mica"
-title: "Comparaci\xF3n de t\xE9cnicas algor\xEDtmicas b\xE1sicas con el problema de
-  la Mochila"
+title: "Comparaci\xF3n de t\xE9cnicas algor\xEDtmicas b\xE1sicas con el problema de  la Mochila"
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Comparación de técnicas algorítmicas básicas con el problema de la Mochila.png" title="{{ page.title }}" alt="{{ page.title }}" width="600px" height="520px" />
+    <amp-img sizes="(min-width: 600px) 600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Comparación de técnicas algorítmicas básicas con el problema de la Mochila.png" title="Comparaci\xF3n de t\xE9cnicas algor\xEDtmicas b\xE1sicas con el problema de  la Mochila" alt="Comparaci\xF3n de t\xE9cnicas algor\xEDtmicas b\xE1sicas con el problema de  la Mochila" width="600px" height="520px" />
+    <figcaption>Créditos de la imagen Wikipedia</figcaption>
 </figure>
-_Créditos de la imagen [Wikipedia](https://en.wikipedia.org/wiki/File:Knapsack.svg)_.
 
 Este artículo se basa en las prácticas que he hecho para una asignatura llamada *Algorítmica*. Dichas prácticas consistían en realizar el problema de la Mochila usando las técnicas algorítmicas que veíamos en la asignatura.
 
@@ -39,7 +33,7 @@ Este artículo se basa en las prácticas que he hecho para una asignatura llamad
 
 Las distintas técnicas algorítmicas que hemos usado para implementar este problema han sido:
 
-### Algoritmos voraces
+# Algoritmos voraces
 
 Los algoritmos voraces son la idea más intuitiva y fácil de implementar: tenemos una colección de objetos candidatos a solución, unas determinadas condiciones que debe cumplir la solución y un conjunto de objetos solución, que es un subconjunto de la primera colección de objetos. El ejemplo que me dieron en clase fue el siguiente: vamos al súper a comprar 2kg de patatas. Vamos cogiendo patatas que nos gusten y las vamos echando a la bolsa hasta llegar a los 2 kg. Con este tipo de algoritmos no examinamos toda la colección de objetos candidatos, por eso son bastante rápidos. El inconveniente que tienen es que tampoco nos dan la solución óptima, aunque dan aproximaciones bastante buenas.
 
@@ -50,10 +44,10 @@ En el caso del problema de la mochila, se implementaría de la siguiente forma:
 3. Ahora tenemos dos opciones: si el siguiente objeto ya no cabe completo en la mochila podemos quedarnos con una fracción de él (obteniendo un beneficio igual a $$(pesototal - pesoactual)/pesoobjeto$$) o no meter ningún objeto más en la mochila. La primera opción se la conoce como _mochila fraccional_ y la segunda, como _mochila 0/1_.
 
 ```cpp
-list<float> Mochila (int lim_peso, list<objeto> & objetos) {
-    list</objeto></float><float> sol;
+list<float> Mochila (int lim_peso, list<Objeto> & objetos) {
+    list<float> sol;
     int peso_actual = 0;
-    list<objeto>::iterator it;
+    list<Objeto>::iterator it;
 
     for (it=objetos.begin(); it!=objetos.end() && lim_peso > peso_actual; ++it) {
         if ((peso_actual + (*it).peso) <= lim_peso) {
@@ -74,12 +68,11 @@ list<float> Mochila (int lim_peso, list<objeto> & objetos) {
 
     return sol;
 }
-
 ```
 
 Así obtenemos una lista donde especificamos qué fracción de cada objeto de nuestra lista inicial hemos tomado para la solución.
 
-### Programación dinámica
+# Programación dinámica
 
 La programación dinámica es, por decirlo de una forma intuitiva, una manera iterativa de implementar algoritmos recursivos. Además tiene una ventaja sobre la recursividad: no repetimos operaciones ya hechas, sino que todos los cálculos que hacemos, los vamos guardando en una tabla y así nos ahorramos un montón de operaciones (piensa en el árbol recursivo que sale al implementar Fibonacci de manera recursiva).
 
@@ -99,10 +92,9 @@ Es decir, el caso base sería o bien no tener ningún objeto ($$k = 0$$) o que e
 Con esta función rellenamos la tabla de beneficios, pero no sabemos qué objetos cogemos y cuáles no.
 
 ```cpp
-
-vector<vector><unsigned> > Mochila(vector<elemento> & elems, unsigned m) {
+vector<vector<unsigned> > Mochila(vector<Elemento> & elems, unsigned m) {
     unsigned i = 0, j = 0;
-    vector</elemento></unsigned></vector><vector><unsigned> > V(elems.size()+1);
+    vector<vector<unsigned> > V(elems.size()+1);
     // inicializamos los casos base
     for (i=0; i<=elems.size(); i++) {
         V.at(i).resize(m+1);
@@ -128,15 +120,13 @@ vector<vector><unsigned> > Mochila(vector<elemento> & elems, unsigned m) {
 
     return V;
 }
-
 ```
 
 Para saber qué objetos cogemos y cuáles no, usamos la siguiente función:
 
 ```cpp
-
-vector</unsigned><unsigned> Solucion (vector</unsigned></vector><vector><unsigned> > & mochila, vector<elemento> & elems) {
-    vector</elemento></unsigned><unsigned> sol(elems.size());
+vector<unsigned> Solucion (vector<vector<unsigned> > & mochila, vector<Elemento> & elems) {
+    vector<unsigned> sol(elems.size());
 
     int j = mochila.at(0).size()-1;
     for (int i=mochila.size()-1; i>0; i--) {
@@ -150,10 +140,9 @@ vector</unsigned><unsigned> Solucion (vector</unsigned></vector><vector><unsigne
 
     return sol;
 }
-
 ```
 
-### Branch & Bound
+# Branch & Bound
 
 Los algoritmos Branch & Bound, a partir de un árbol de soluciones, funcionan de la siguiente manera: a partir de una cota inferior (que determina lo mínimo que podemos encontrar si vamos por esa rama del árbol) y una cota superior (que determina lo máximo que podemos encontrar en esa rama) van podando (según estemos maximizando o minimizando) ramas de manera que, cuanta más precisión tengamos estimando cotas, menos nodos del árbol exploraremos.
 
@@ -165,14 +154,13 @@ En el problema de la mochila, para estimar las cotas podemos hacer lo siguiente:
 Así, la función para explorar el árbol sería la siguiente:
 
 ```cpp
-
-vector<bool> Mochila(list<elemento> & elementos, unsigned m) {
+vector<bool> Mochila(list<Elemento> & elementos, unsigned m) {
     Nodo inic = NodoInicial(elementos, m);
     int C = inic.CI;
-    priority_queue<nodo> LNV;
+    priority_queue<Nodo> LNV;
     LNV.push(inic);
     int s = numeric_limits<int>::min();
-    vector</int></nodo></elemento></bool><bool> resultado;
+    vector<bool> resultado;
 
     while (!LNV.empty()) {
         Nodo x = LNV.top();
@@ -197,21 +185,22 @@ vector<bool> Mochila(list<elemento> & elementos, unsigned m) {
 
     return resultado;
 }
-
 ```
 
 Como véis, no generamos todo el árbol, sino que vamos generando nodos sobre la marcha según vamos explorando. La función para generar un nodo es:
 
 ```cpp
-
-Nodo Generar (Nodo & nodo_actual, bool eleccion, list<elemento> & objs, double m) {
+Nodo Generar (Nodo & nodo_actual, bool eleccion, list<Elemento> & objs, double m) {
     Nodo res = Nodo(0, 0, nodo_actual.nivel+1, 0, 0, nodo_actual.tupla);
 
     // cogemos el objeto que estamos considerando
-    list</elemento><elemento>::iterator obj_it = objs.begin();
-    for (int k=0; k<res.nivel></res.nivel></elemento><elemento> aux; list</elemento><elemento>::iterator ax = obj_it;
+    list<Elemento>::iterator obj_it = objs.begin();
+    for (int k=0; k<res.nivel; k++) ++obj_it;
+
+    // generamos una lista con los objetos restantes que procesara el greedy
+    list<Elemento> aux; list<Elemento>::iterator ax = obj_it;
     ++ax;
-    for (list</elemento><elemento>::iterator a = ax; a != objs.end(); ++a) {
+    for (list<Elemento>::iterator a = ax; a != objs.end(); ++a) {
         aux.push_back(*a);
     }
 
@@ -233,13 +222,12 @@ Nodo Generar (Nodo & nodo_actual, bool eleccion, list<elemento> & objs, double m
 
     if (res.peso_actual > m) {
         res.CI = numeric_limits<int>::min();
-        res.CS = numeric_limits</int><int>::min();
-        res.valor_actual = numeric_limits</int><int>::min();
+        res.CS = numeric_limits<int>::min();
+        res.valor_actual = numeric_limits<int>::min();
     }
 
     return res;
 }
-
 ```
 
 La solución de nuestro programa sería la tupla del último nodo que exploremos.
@@ -255,12 +243,11 @@ El ejemplo a usar será el siguiente: Tenemos una mochila con una capacidad de 1
 * Un objeto con peso 3 y beneficio 7
 * Un objeto con peso 2 y beneficio 4
 
-#### Solución con Algoritmos Voraces
+## Solución con Algoritmos Voraces
 
 La salida que obtenemos en terminal es la siguiente:
 
 ```bash
-
 [marta@marta-PC BaulP]$ ./mochila_voraz 7 3 4 2 2 4 3 6 11
 La proporcion de cada uno que cogemos es:
 Peso: 3 Beneficio: 7(2.33333) -> 1
@@ -269,12 +256,11 @@ Peso: 4 Beneficio: 2(0.5) -> 1
 Peso: 6 Beneficio: 3(0.5) -> 0.333333
 El beneficio total es, por tanto 14
 Tiempo: 8e-06
-
 ```
 
 Este resultado tiene un pequeño problema, tenemos dos objetos con la misma proporción $$\frac{beneficio}{peso}$$ por lo tanto se queda con el primero que entramos por terminal (el objeto con beneficio 2 y peso 4), pero sin embargo, obtendríamos mayor beneficio si usásemos el objeto con beneficio 3 y peso 6.
 
-### Solución con Programación dinámica.
+# Solución con Programación dinámica.
 
 La salida obtenida en terminal es la siguiente:
 
@@ -294,7 +280,6 @@ Usamos el objeto Peso: 2        Beneficio: 4
 NO usamos el objeto Peso: 4     Beneficio: 2
 Usamos el objeto Peso: 6        Beneficio: 3
 Tiempo: 3e-06
-
 ```
 
 La tabla obtenida debemos interpretarla de la siguiente forma:
@@ -308,7 +293,7 @@ Como vemos en la tabla obtenemos "el mismo" beneficio que con algoritmos voraces
 
 Por tanto, con programación dinámica hemos afinado bastante la solución obtenida con algoritmos voraces, hasta el punto de llegar a tener la solución óptima.
 
-### Solución con Branch & Bound
+# Solución con Branch & Bound
 
 La salida obtenida por terminal es la siguiente:
 
@@ -328,10 +313,9 @@ De nuevo hemos obtenido la solución óptima al problema. En esta versión, el t
 
 Los tiempos de ejecución obtenidos no son comparables del todo, pues hemos usado un ejemplo con muy pocos objetos y además, sólo hemos hecho una ejecución, por lo que alguno de los tiempos podría haberse visto afectado por una interrupción del sistema operativo.
 
-## Conclusión
+# Conclusión
 
 Estas técnicas algorítmicas clásicas nos sirven para encontrar la solución al problema de la mochila en un tiempo razonable. Aunque en el caso del algoritmo voraz, en este problema (dependiendo de los objetos de entrada) nos da una solución aproximada u óptima. Branch & Bound y Programación Dinámica nos aseguran la solución óptima pero tienen sus pros y sus contras:
 
 * La programación dinámica, al usar una matriz para guardar los valores que va calculando, está limitada por el tamaño de la memoria de nuestro ordenador
 * En Branch & Bound, si no definimos una buena estrategia de cotas y de poda, exploraremos muchísimos nodos y el tiempo de ejecución se nos subirá por las nubes.
-</int></elemento></bool></unsigned></vector></objeto></float>

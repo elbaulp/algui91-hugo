@@ -3,11 +3,9 @@ author: alex
 categories:
 - how to
 - linux
-color: '#2196F3'
 date: '2016-01-01'
+lastmod: 2017-03-27T16:48:52+01:00
 image: 2013/03/xroot-example.jpg
-lastmod: 2016-08-09
-
 mainclass: linux
 url: /como-tener-un-terminal-transparente-como-wallpaper-que-muestre-informacion/
 tags:
@@ -32,8 +30,6 @@ Hoy traigo tres programas que me han resultado muy interesantes. Se trata de *xr
 
 <!--more--><!--ad-->
 
-
-
 # xrootconsole
 
 `xrootconsole` muestra en una ventana transparente el fichero que se le proporcione como entrada (o la entrada estándar stdin). Su objetivo es ser lo más simple posible y consumir pocos recursos. Este programa no es interactivo, por lo que solo servirá para mostrar información y nada más. Un ejemplo de uso:
@@ -57,7 +53,7 @@ Donde:
 Puedes obtener más información consultando la ayuda del programa o su manual.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/xroot-example.jpg" alt="xroot example" width="1024px" height="817px"></amp-img>
+    <amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/xroot-example.jpg" alt="xroot example" width="1024px" height="817px"></amp-img>
 </figure>
 
 En este caso estoy mostrando salidas del comando [ss][3] usando un [script][4] que he creado:
@@ -119,7 +115,7 @@ Una breve explicación de los argumentos:
 Basta con cambiar el comando que sigue a la opción -e por el desado. Naturalmente, es posible tener tantas terminales como se quiera.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/5809765.png" alt="Eterm" width="640px" height="375px"></amp-img>
+<amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/5809765.png" alt="Eterm" width="640px" height="375px"></amp-img>
 </figure>
 
 # Referencias
