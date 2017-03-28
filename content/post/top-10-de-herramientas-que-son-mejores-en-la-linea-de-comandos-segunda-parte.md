@@ -1,5 +1,5 @@
 ---
-date: 2017-03-21T17:54:56+01:00
+date: 2017-03-28T20:25:48+01:00
 author: juan
 categories:
 - articulos
@@ -7,12 +7,12 @@ categories:
 description: "Escribir commandos en una terminal puede parecer tedioso, pero con las  herramientas correctas, la l\xEDnea de comandos puede ser incre\xEDblemente poderosa.  Aqu\xED est\xE1n nuestras herramientas de l\xEDnea de comandos favoritas que hacen  impresionantes cosas que simplemente no puedes encontrar en una GUI (Interfaz Gr\xE1fica  de Usuario)."
 mainclass: articulos
 url: /top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos-ii/
+image: 2012/08/original1.jpg
 tags:
 - comandos
 - herramientas
 - htop
 title: "10 de las Mejores Herramientas en la L\xEDnea de Comandos II"
-draft: true
 ---
 
 <figure>
