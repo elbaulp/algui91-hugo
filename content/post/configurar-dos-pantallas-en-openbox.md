@@ -100,13 +100,13 @@ nitrogen --restore &
 Os dejo una captura, el código está disponible en <a href="https://github.com/elbaulp/wall_aleatorio" target="_blank" title="GitHub">GitHub</a>:
 
 <figure>
-        <a href="/img/https://1.bp.blogspot.com/-Babpz4m6FG4/T0T5AMLSbsI/AAAAAAAACHA/P7YObMPNGM4/s1600/Screenshot%2B-%2B02222012%2B-%2B02%253A43%253A23%2BPM.png">
+        <a href="https://1.bp.blogspot.com/-Babpz4m6FG4/T0T5AMLSbsI/AAAAAAAACHA/P7YObMPNGM4/s1600/Screenshot%2B-%2B02222012%2B-%2B02%253A43%253A23%2BPM.png">
           <amp-img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
             layout="responsive"
-            src="/img/https://1.bp.blogspot.com/-Babpz4m6FG4/T0T5AMLSbsI/AAAAAAAACHA/P7YObMPNGM4/s900/Screenshot%2B-%2B02222012%2B-%2B02%253A43%253A23%2BPM.png"
+            src="https://1.bp.blogspot.com/-Babpz4m6FG4/T0T5AMLSbsI/AAAAAAAACHA/P7YObMPNGM4/s900/Screenshot%2B-%2B02222012%2B-%2B02%253A43%253A23%2BPM.png"
             alt="Captura de pantalla"
             title="Captura de pantalla"
             sizes="(min-width: 900px) 900px, 100vw"
