@@ -5,10 +5,8 @@ categories:
 - aplicaciones
 - basededatos
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-11-03
-
+lastmod: 2017-03-29T16:11:39+01:00
 mainclass: android
 url: /conectar-base-de-datos-oracle/
 tags:

@@ -2,14 +2,10 @@
 author: alex
 categories:
 - dev
-color: '#E64A19'
 date: 2015-10-12 15:18:41
-description: "En este art\xEDculo veremos c\xF3mo descargar, compilar e instalar el
-  kernel 4.2 de linux"
+lastmod: 2017-03-29T14:19:08+01:00
+description: "En este art\xEDculo veremos c\xF3mo descargar, compilar e instalar el  kernel 4.2 de linux"
 image: Compilar-e-Instalar-El-Kernel-4.2.png
-
-mainclass: dev
-modified: null
 tags:
 - kernel
 - linux kernel
@@ -18,15 +14,14 @@ title: Compilar e Instalar El Kernel 4.2
 ---
 
 <figure>
-<a href="/img/Compilar-e-Instalar-El-Kernel-4.2.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Compilar-e-Instalar-El-Kernel-4.2.png" title="{{ page.title }}" alt="{{ page.title }}" width="640px" height="320px" /></a>
-<span class="image-credit">Crédito de la imagen: <a href="https://pixabay.com/en/linux-logo-penguin-tux-text-151619/" target="_blank" title="">pixabay</a></span><br />
+    <a href="/img/Compilar-e-Instalar-El-Kernel-4.2.png"><amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Compilar-e-Instalar-El-Kernel-4.2.png" title="{{ page.title }}" alt="{{ page.title }}" width="640px" height="320px" /></a>
+    <span class="image-credit">Crédito de la imagen: <a href="https://pixabay.com/en/linux-logo-penguin-tux-text-151619/" target="_blank" title="">pixabay</a></span><br />
 </figure>
-
 
 
 Vamos a explicar hoy cómo compilar e instalar la versión 4.2 del __kernel__.
 
-## Paquetes necesarios
+# Paquetes necesarios
 
 Para compilar el __kernel__ hara falta instalar los siguientes paquetes en el sistema:
 
@@ -44,7 +39,7 @@ $ sudo apt-get install kernel-package
 
 ```
 
-## Descargar el código fuente del kernel
+# Descargar el código fuente del kernel
 
 Para ello
 
@@ -60,7 +55,7 @@ $ tar xvf linux-4.2.tar.xz
 
 ```
 
-## Configurar el kernel
+# Configurar el kernel
 
 Copiamos la configuración existente del kernel instalado
 
@@ -79,7 +74,7 @@ $ make menuconfig
 
 Si no estamos seguros de qué podemos quitar y añadir de la configuración, es mejor dejarlo tal y como está, ya que al haber copiado la configuración del kernel actual, estamos seguros de que funcionará.
 
-## Compilar el kernel
+# Compilar el kernel
 
 Primero debemos hacer una limpieza:
 
@@ -98,7 +93,7 @@ $ fakeroot make-kpkg --initrd --revision=1.0.NAS kernel_image kernel_headers
 
 es importante reemplazar la __X__ de `CONCURRENCY_LEVEL=X` por el número de procesadores de tu máquina, para una compilación más rápida.
 
-## Instalar el kernel
+# Instalar el kernel
 
 Una vez compilado, basta con ejecutar:
 
@@ -119,6 +114,6 @@ $ dmesg | egrep -i --color 'error|critical|failed'
 
 ```
 
-### Referencias
+# Referencias
 
-_How to Compile and Install Linux Kernel v4.2 Source On a Debian / Ubuntu Linux_ | [cyberciti.biz](http://www.cyberciti.biz/faq/debian-ubuntu-building-installing-a-custom-linux-kernel/ "How to Compile and Install Linux Kernel v4.2 Source On a Debian / Ubuntu Linux")
+- _How to Compile and Install Linux Kernel v4.2 Source On a Debian / Ubuntu Linux_ | [cyberciti.biz](http://www.cyberciti.biz/faq/debian-ubuntu-building-installing-a-custom-linux-kernel/ "How to Compile and Install Linux Kernel v4.2 Source On a Debian / Ubuntu Linux")

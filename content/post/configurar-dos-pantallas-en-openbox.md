@@ -5,9 +5,8 @@ categories:
 - curiosidades
 - opensource
 - script
-color: '#2196F3'
 date: '2016-01-01'
-
+lastmod: 2017-03-29T16:13:13+01:00
 mainclass: linux
 url: /configurar-dos-pantallas-en-openbox/
 tags:
@@ -19,9 +18,7 @@ tags:
 title: Configurar dos pantallas en OpenBox bajo CruchBang y wallpaper aleatorio
 ---
 
-<div class="separator" >
-<a href="https://1.bp.blogspot.com/-iiunZ-gX5Y8/T0TbVE86pHI/AAAAAAAACGw/wmYeZWkIe-s/s1600/1329912632_stock_connect.png"  ><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="128" width="128" src="https://1.bp.blogspot.com/-iiunZ-gX5Y8/T0TbVE86pHI/AAAAAAAACGw/wmYeZWkIe-s/s400/1329912632_stock_connect.png" /></a>
-</div>
+<amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="128" width="128" src="https://1.bp.blogspot.com/-iiunZ-gX5Y8/T0TbVE86pHI/AAAAAAAACGw/wmYeZWkIe-s/s400/1329912632_stock_connect.png" />
 
 Llevaba tiempo queriendo instalar en mi equipo la distribución <a target="_blank" href="http://crunchbanglinux.org/">CrunchBang</a>, que es una distro muy ligera basada en debian que viene con <a target="_blank" href="http://openbox.org/">openbox</a>, este fin de semana finalmente me decidí a instalarla para probarla y la he dejado ya que me ha gustado bastante por si simpleza y capacidad de configuración.
 
@@ -48,7 +45,7 @@ xrandr --output DVI-I-1 --mode 1280x1024 --right-of DVI-I-2 &
 
 De esta forma lo tenemos todo solucionado.
 
-#### Fondos de pantalla aleatorios
+# Fondos de pantalla aleatorios
 
 Para lograr esto usé un script que encontré en la red hace tiempo y lo modifiqué para adaptarlo a openbox, con la particularidad de que aplico un fondo de pantalla distinto y seleccionado aleatoriamente para cada una de las pantallas. El script en cuestión es el siguiente:
 
@@ -100,8 +97,21 @@ Para conseguir que esto funcione debemos volver a modificar el archivo *autostar
 nitrogen --restore &
 ```
 
-Os dejo una captura:
+Os dejo una captura, el código está disponible en <a href="https://github.com/elbaulp/wall_aleatorio" target="_blank" title="GitHub">GitHub</a>:
 
-<div class="separator" >
-<a href="https://1.bp.blogspot.com/-Babpz4m6FG4/T0T5AMLSbsI/AAAAAAAACHA/P7YObMPNGM4/s1600/Screenshot%2B-%2B02222012%2B-%2B02%253A43%253A23%2BPM.png"  ><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="160" width="400" src="https://1.bp.blogspot.com/-Babpz4m6FG4/T0T5AMLSbsI/AAAAAAAACHA/P7YObMPNGM4/s400/Screenshot%2B-%2B02222012%2B-%2B02%253A43%253A23%2BPM.png" /></a>
-</div>
+<figure>
+        <a href="/img/https://1.bp.blogspot.com/-Babpz4m6FG4/T0T5AMLSbsI/AAAAAAAACHA/P7YObMPNGM4/s1600/Screenshot%2B-%2B02222012%2B-%2B02%253A43%253A23%2BPM.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/https://1.bp.blogspot.com/-Babpz4m6FG4/T0T5AMLSbsI/AAAAAAAACHA/P7YObMPNGM4/s900/Screenshot%2B-%2B02222012%2B-%2B02%253A43%253A23%2BPM.png"
+            alt="Captura de pantalla"
+            title="Captura de pantalla"
+            sizes="(min-width: 900px) 900px, 100vw"
+            width="900"
+            height="360">
+          </amp-img>
+        </a>
+</figure>

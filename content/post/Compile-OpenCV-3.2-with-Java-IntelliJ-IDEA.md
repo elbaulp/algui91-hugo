@@ -2,6 +2,7 @@
 tags = ["opencv", "intelliJ", "java"]
 categories = ["dev"]
 date = "2017-01-25"
+lastmod: 2017-03-29T14:22:44+01:00
 title = "Compilar OpenCV 3.2 para Java y usarlo en IntelliJ IDEA"
 image = "example-face-detection-with-opencv.png"
 mainclass = "dev"
@@ -50,8 +51,8 @@ cris@cris ~/opencv-3.2.0/build $ cmake -DBUILD_SHARED_LIBS=OFF ..
 
 Comprueba que cuando estás generando el _makefile_ la salida en el campo de Java es la siguiente:
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" title="" alt="" width="201px" height="190px"></amp-img>
-<figcaption>construcción _makefile_</figcaption>
+    <amp-img sizes="(min-width: 983px) 983px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" title="" alt="" width="983px" height="164px"></amp-img>
+    <figcaption>construcción _makefile_</figcaption>
 </figure>
 
 Es decir, debe estar especificado Apache Ant, así como el _path_ JNI, y _Java wrappers_ debe estar a _YES_.
@@ -84,12 +85,12 @@ Ahora que lo tenemos compilado, el siguiente paso será crear un ejemplo en Java
  y selecciona la pestaña **Dependencies**. Aquí, hacemos click en _+_ y añadimos **opencv-320.jar** y la librería, que se encuentra en **opencv3.2.0/build/lib** :
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-Opencv-jar-to-IntelliJ-project.png" title="" alt="" width="201px" height="190px"></amp-img>
-<figcaption>añadiendo .jar file</figcaption>
+    <amp-img sizes="(min-width: 1022px) 1022px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-Opencv-jar-to-IntelliJ-project.png" title="" alt="" width="1022px" height="341px"></amp-img>
+    <figcaption>añadiendo .jar file</figcaption>
 </figure>
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-libpath-to-intelliJ-project.png" title="" alt="" width="201px" height="190px"></amp-img>
+    <amp-img sizes="(min-width: 734px) 734px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-libpath-to-intelliJ-project.png" title="" alt="" width="734px" height="291px"></amp-img>
 <figcaption>añadiendo .so file</figcaption>
 </figure>
 
@@ -154,6 +155,6 @@ Finalmente, tomamos el ejemplo de detección de caras de [opencv documentation](
 Por último ejecutamos el ejemplo **HelloOpenCV** y comprobamos que funciona, escribiendo la detección de la cara de lenna en la imágen **faceDetection.png**.
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/example-face-detection-with-opencv.png" title="" alt="" width="201px" height="190px"></amp-img>
-<figcaption>ejemplo detección de caras</figcaption>
+    <amp-img sizes="(min-width: 531px) 531px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/example-face-detection-with-opencv.png" title="" alt="" width="531px" height="528px"></amp-img>
+    <figcaption>ejemplo detección de caras</figcaption>
 </figure>

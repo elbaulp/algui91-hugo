@@ -2,16 +2,14 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-15
-
+lastmod: 2017-03-29T16:10:56+01:00
 mainclass: BaseDeDatos
 url: /componentes-del-lenguaje-sql-sql/
 title: Componentes del lenguaje SQL
 ---
 
-### Tipos de Datos
+# Tipos de Datos
 
 SQL admite una variada gama de tipos de datos para la información almacenada en las tablas, los tipos de datos pueden ser numéricos, alfanuméricos, de fecha o booleanos. Segun el gestor de base de datos que usemos, los tipos de datos varían. En la actualidad casi todos los gestores soportan un nuevo tipo de dato. BLOB, usado para almacenar archivos, imagenes etc.
 
@@ -191,7 +189,7 @@ Más detalladamente tenemos:
 
 Nota: El tama&ntilde;o del campo varía en función de cada base de datos, 255 es el valor estándar. Realmente el tama&ntilde;o viene delimitado por el tama&ntilde;o de las páginas de datos, para SQL server el límite está en 8000 bytes (8000 carácteres), siempre que el tama&ntilde;o de página sea de 8Kb
 
-### Tipos de datos en ORACLE
+# Tipos de datos en ORACLE
 
 - <strong>NUMBER</strong>(Numérico): Almacena números enteros o de punto flotante, virtualmente de cualquier longitud, aunque se puede especificar la precisión y la escala.
 
@@ -311,7 +309,7 @@ END;
 
 ```
 
-### Funciones para el manejo de tablas PL/SQL
+# Funciones para el manejo de tablas PL/SQL
 
 Cuando trabajamos con tablas de PL/SQL podemos utilizar las siguientes funciones:
 
@@ -341,7 +339,7 @@ END LOOP;
 END;
 ```
 
-### ROWID
+# ROWID
 
 Representa una dirección de la base de datos, ocupada por una única fila. El ROWID de una fila es un identificador único para una fila dentro de una base de datos. No hay dos filas con el mismo ROWID. Este tipo de dato sirve para guardar punteros a filas concretas.
 
@@ -492,11 +490,11 @@ Los operadores se pueden definir como combinaciones de caracteres que se utiliza
 </table>
 
 
-### Operadores en ORACLE
+# Operadores en ORACLE
 
 Los más comunes son:
 
-#### Palabras clave
+## Palabras clave
 
 SQL dispone de muy pocas órdenes, pero de múltiples palabras clave, lo que le convierten en un lenguaje sencillo pero tremendamente potente para llevar a cabo su función.
 
@@ -517,7 +515,7 @@ SQL dispone de muy pocas órdenes, pero de múltiples palabras clave, lo que le 
 | VALUES | VIEW    | WHERE    | WITH     |
 
 
-### Funciones Agregadas
+# Funciones Agregadas
 
 Proporcionan a SQL utilidades de cálculo sobre los datos de las tablas. Estas funciones se incorporan en las consultas SELECT y retornan un único valor al operar sobre un grupo de registros.
 
@@ -529,7 +527,7 @@ Proporcionan a SQL utilidades de cálculo sobre los datos de las tablas. Estas f
 | COUNT() 	| Devuelve el número de filas que cumplen la condición  	|
 | AVG()   	| Devuelve el promedio de los valores del campo         	|
 
-### Predicados
+# Predicados
 
 Condiciones que se indican en clausula WHERE de una consulta SQL. La siguiente tabla ilustra los predicados de SQL.
 
@@ -543,6 +541,6 @@ Condiciones que se indican en clausula WHERE de una consulta SQL. La siguiente t
 | IN          | Comprueba si un campo se encuentra dentro de un determinado rango. El rango puede ser una sentencia SELECT. |
 
 
-### Bibliografia: www.devjoker.com
+# Bibliografia: www.devjoker.com
 
 Siguiente tema: <a href="https://elbauldelprogramador.com/lenguaje-definicion-de-datosddl-create/">Lenguaje Definición de Datos(DDL) - CREATE.</a>

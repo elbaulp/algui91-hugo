@@ -4,10 +4,8 @@ categories:
 - android
 - aplicaciones
 - basededatos
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-06
-
+lastmod: 2017-03-29T16:12:39+01:00
 mainclass: android
 url: /conectar-base-de-datos-sql-server-2008/
 tags:
