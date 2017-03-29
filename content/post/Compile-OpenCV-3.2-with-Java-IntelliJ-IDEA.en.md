@@ -2,7 +2,7 @@
 tags = ["opencv", "intelliJ", "java"]
 categories = ["dev"]
 date = "2017-01-25"
-lastmod: 2017-03-29T14:22:39+01:00
+lastmod = "2017-03-29T16:20:12+01:00"
 title = "Compile OpenCV 3.2 with Java and use it in IntelliJ IDEA"
 image = "example-face-detection-with-opencv.png"
 mainclass = "dev"
