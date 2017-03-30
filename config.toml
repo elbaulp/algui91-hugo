@@ -70,6 +70,7 @@ category = "categories"
 author = "author"
 
 [params]
+    description = "A blog where I post everything I learn. I’m interested in Cryptography, Security, Machine Learning, Data Science and Software Development."
     verify = "FBg0GK1_H_PyCw6AD2iaBOclPbEC3LOV8hHXje5276w"
     gplususer = "ElBauldelProgramador"
     amp = true # enables amp features
