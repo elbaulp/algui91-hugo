@@ -2,6 +2,12 @@
 {{ $author := index .Site.Data.authors $au }}
 {{ $title := or .Title .Site.Title }}
 
+{{ if isset .Params "description" }}
+<meta name="description" content="{{ .Params.description }}" />
+{{ else }}
+<meta name="description" content="{{ $.Site.Params.description }}" />
+{{ end }}
+
 <!-- Site verification -->
 {{ with .Site.Params.verify }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
 
