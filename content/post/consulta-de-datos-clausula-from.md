@@ -2,16 +2,14 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-16
-
+lastmod: 2017-03-30T17:13:44+01:00
 mainclass: BaseDeDatos
 url: /consulta-de-datos-clausula-from/
 title: "Consulta de Datos - Cl\xE1usula FROM"
 ---
 
-En esta clausula se indican la tabla o tablas a las que vamos a tener acceso. Las tablas deben existir y si no existiera alguna aparecería el error: ORA-00942: table or view does not exist.  Su sintaxis es :
+En esta clausula se indican la tabla o tablas a las que vamos a tener acceso. Las tablas deben existir y si no existiera alguna aparecería el error: `ORA-00942: table or view does not exist`.  Su sintaxis es :
 
 ```sql
 [ FROM {<table_source>} [,...n] ]
@@ -123,6 +121,6 @@ SELECT * FROM CLIENTES c
 FULL OUTER JOIN FACTURAS f ON c.cCodCli = f.cCodCli;
 ```
 
-## Siguiente Tema: [Consulta de Datos - Cláusula WHERE][1]
+# Siguiente Tema: [Consulta de Datos - Cláusula WHERE][1]
 
  [1]: https://elbauldelprogramador.com/consulta-de-datos-clausula-where/

@@ -3,9 +3,8 @@ author: alex
 categories:
 - how to
 - linux
-color: '#2196F3'
 date: '2016-01-01'
-
+lastmod: 2017-03-30T17:09:13+01:00
 mainclass: linux
 url: /configurar-xmonad-con-trayer-y-fondo-de-pantalla-aleatorio/
 tags:
@@ -19,10 +18,11 @@ A lo largo de los años he probado varios gestores de ventanas, como fluxbox, [o
 
 La <a href="http://www.haskell.org/haskellwiki/Xmonad/Config_archive/John_Goerzen%27s_Configuration" target="_blank">instalación</a> es muy sencilla. En este artículo voy a profundizar más en los dos aspectos que más problemas me han causado, configurar apropiadamente trayer y establecer fondos de pantalla aleatoriamente.
 
-
 <!--more--><!--ad-->
 
-#### Configurar trayer
+> __NOTA__: Hace tiempo que dejé de usar _xmonad_ ahora uso [DWM](https://elbauldelprogramador.com/instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente/ "Instalar y configurar DWM, el gestor de ventanas más eficiente")
+
+# Configurar trayer
 
 La documentación oficial de xmonad configura **trayer** de forma se ejecute al iniciar sesión modificando el archivo **~/.xsession** tal que así:
 
@@ -187,7 +187,7 @@ Concretamente la tecla con el iconito de la calculadora:
 
 ```
 
-#### Configurar fondos de pantalla aleatorios
+# Configurar fondos de pantalla aleatorios
 
 Antes de continuar, es necesario instalar **feh** para establecer fondos de pantalla:
 
@@ -227,13 +227,28 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 Así luce mi escritorio con xmonad:
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/Screenshot-from-2013-01-02-1852312-1024x409.png" alt="xmonad Desktop" width="1024px" height="409px" />][2]
+<figure>
+        <a href="/img/2013/01/Screenshot-from-2013-01-02-1852312-1024x409.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2013/01/Screenshot-from-2013-01-02-1852312-1024x409.png"
+            alt="xmonad Desktop"
+            title="xmonad Desktop"
+            sizes="(min-width: 1024px) 1024px, 100vw"
+            width="1024"
+            height="409">
+          </amp-img>
+        </a>
+        <figcaption>Mi escritorio en Xmonad</figcaption>
+</figure>
 
-#### Referencias
 
-*Askubuntu* »» <a href="http://askubuntu.com/questions/117978/script-doesnt-run-via-crontab-but-works-fine-standalone" target="_blank">Visitar sitio</a>
+# Referencias
 
+- *Askubuntu* »» <a href="http://askubuntu.com/questions/117978/script-doesnt-run-via-crontab-but-works-fine-standalone" target="_blank">Visitar sitio</a>
 
 
  [1]: https://elbauldelprogramador.com/configurar-dos-pantallas-en-openbox/
- [2]: https://elbauldelprogramador.com/img/2013/01/Screenshot-from-2013-01-02-1852312.png

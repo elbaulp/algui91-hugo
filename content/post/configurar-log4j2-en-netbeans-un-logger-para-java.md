@@ -2,34 +2,28 @@
 author: alex
 categories:
 - java
-color: '#D32F2F'
 date: '2016-01-01'
-description: "Log4j2 es un Logger para Java que descubr\xED hace poco y me gust\xF3
-  bastante. En \xE9ste art\xEDculo veremos c\xF3mo instalar y configurar Log4j2 en
-  Netbeans. Aunque el proceso es similar para cualquier IDE."
+lastmod: 2017-03-30T17:06:21+01:00
+description: "Log4j2 es un Logger para Java que descubr\xED hace poco y me gust\xF3  bastante. En \xE9ste art\xEDculo veremos c\xF3mo instalar y configurar Log4j2 en  Netbeans. Aunque el proceso es similar para cualquier IDE."
 image: 2015/03/Configurar-el-logger-Log4j2-en-Netbeans1.png
-lastmod: 2016-08-01
-
 mainclass: java
 url: /configurar-log4j2-en-netbeans-un-logger-para-java/
 tags:
 - configurar log4j2
 - instalar log4j2
 - logger para java
-- loggers
+- log
 - loggers en aplicaciones
 title: Configurar Log4j2 en Netbeans, un logger para Java
 ---
 
 *Log4j2* es un *Logger* para Java que descubrí hace poco y me gustó bastante. En éste artículo veremos cómo instalar y configurar Log4j2 en Netbeans. Aunque el proceso es similar para cualquier IDE.
 
-
-
-## Requisitos
+# Requisitos
 
 Asumiremos que el lector ya tiene Netbeans y Maven instalados y configurados en su máquina. Hay más instrucciones de instalación en la web de [Log4j2][1].
 
-## Instalar Log4j2
+# Instalar Log4j2
 
 En Netbeans, crearemos un nuevo proyecto Java con soporte para Maven (Nuevo Proyecto » Maven » Aplicación Java). Una vez hecho ésto, añadimos las siguientes dependencias en el fichero `pom.xml`:
 
@@ -52,7 +46,7 @@ En Netbeans, crearemos un nuevo proyecto Java con soporte para Maven (Nuevo Proy
 
 Hecho esto, en la carpeta *dependencias*, hacemos click derecho y damos a que descargue las dependencias declaradas.
 
-## Anadir un fichero de configuración personalizado
+# Anadir un fichero de configuración personalizado
 
 Por defecto *Log4j2* ofrece un fichero de configuración, pero podemos modificarlo a nuestro gusto, para colorear la salida de los distintos niveles de log, y formatear la línea a nuestro gusto. En éste caso usaré el siguiente fichero `log4j2.json`:
 
@@ -108,7 +102,7 @@ Debido a que el fichero de configuración está en `json`, hay que añadir las s
 </dependency>
 ```
 
-## Ejemplo de uso
+# Ejemplo de uso
 
 Crearemos una clase básica a modo de ejemplo:
 
@@ -138,10 +132,10 @@ public class EjemploLog4j2 {
 Al compilar y ejecutar, deberían aparecer en la consola los mensajes de log coloreados, como se muestra en la imagen:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Configurar-el-logger-Log4j2-en-Netbeans1.png" alt="Configurar Log4j2 en Netbeans1" width="364px" height="89px" />
+    <amp-img sizes="(min-width: 364px) 364px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Configurar-el-logger-Log4j2-en-Netbeans1.png" alt="Configurar Log4j2 en Netbeans1" width="364px" height="89px" />
 </figure>
 
-## Establecer un nivel de log por defecto en toda la aplicación
+# Establecer un nivel de log por defecto en toda la aplicación
 
 Cuando depuremos, será útil que aparezcan todos los niveles de log en la consola, desde *fatal* hasta *trace*. Pero en producción sería conveniente loggear únicamente eventos a un nivel determinado, por ejemplo, a partir de `warn`. Para ello podemos crear ésta función que encontré en [SO][3]:
 
@@ -203,7 +197,7 @@ public class EjemploLog4j2 {
 ```
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Configurar-el-logger-Log4j2-en-Netbeans2.png" alt="Configurar Log4j2 en Netbeans2" width="434px" height="49px" />
+    <amp-img sizes="(min-width: 434px) 434px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Configurar-el-logger-Log4j2-en-Netbeans2.png" alt="Configurar Log4j2 en Netbeans2" width="434px" height="49px" />
 </figure>
 
  [1]: https://logging.apache.org/log4j/2.x/maven-artifacts.html

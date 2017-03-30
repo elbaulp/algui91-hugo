@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-19
-
+lastmod: 2017-03-30T17:19:02+01:00
 mainclass: BaseDeDatos
 url: /consulta-de-datos-tablas-resumen/
 title: Consulta de Datos - Tablas Resumen operadores y Funciones Oracle
@@ -19,7 +17,7 @@ Dejo un Pdf con un resumen y algunos ejemplos de funciones en ORACLE que podéis
   <a href="/pdfs/SOLOTABLAS.pdf" target="_blank">Descargar Resumen de Tablas SQL</a>
 </div>
 
-## Siguiente Tema: [Introducción a PL/SQL][2]
+# Siguiente Tema: [Introducción a PL/SQL][2]
 
 
  [1]: https://elbauldelprogramador.com/bases-de-datos/
