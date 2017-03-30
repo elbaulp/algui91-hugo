@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-19
-
+lastmod: 2017-03-30T17:18:00+01:00
 mainclass: BaseDeDatos
 url: /consulta-de-datos-operadores-union-all/
 tags:
@@ -51,7 +49,7 @@ MINUS
 SELECT product_id FROM order_items;
 ```
 
-#### Indicaciones
+# Indicaciones
 
 * El orden de las cláusulas en las sentencia `SELECT` es significativo. Se puede omitir cualquiera de las cláusulas opcionales, pero cuando se usan, deben aparecer en el orden apropiado.
 * Cuando se ejecuta la sentencia `SELECT` con las cláusula `WHERE`, `GROUP BY`, y `HAVING` el orden de ejecución es el siguiente:

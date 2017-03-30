@@ -2,18 +2,14 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-18
-
+lastmod: 2017-03-30T17:17:00+01:00
 mainclass: BaseDeDatos
 url: /consulta-de-datos-clausula-select/
 title: "Consulta de Datos - Cl\xE1usula Select"
 ---
 
 A lo largo de varios post(enlazados entre ellos), vamos a ir viendo las distintas partes de las que se compone la sentencia SELECT, el motivo de hacer esto es que no salgan post demasiado largos para leer.
-
-
 
 # Consulta de Datos - Cláusula Select
 

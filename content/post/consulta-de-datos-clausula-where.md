@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-18
-
+lastmod: 2017-03-30T17:17:30+01:00
 mainclass: BaseDeDatos
 url: /consulta-de-datos-clausula-where/
 title: "Consulta de Datos - Cl\xE1usula WHERE"
@@ -34,7 +32,7 @@ Los operadores más utilizados en las condiciones de selección son:
 | IS NULL, IS NOT NULL 	| Comprueba que un campo o expresión sea nula o no            	|
 
 
-## Operador BETWEEN:
+# Operador BETWEEN:
 
 Para indicar que deseamos recuperar los registros según el intervalo de valores de un campo emplearemos el operador BETWEEN cuya sintaxis es:
 
@@ -44,7 +42,7 @@ Columna o Expresión [Not] Between valor1 And valor2
 
 en este caso la consulta devolvería los registros que contengan en columna o expresión un valor incluido en el intervalo valor1, valor2 (ambos inclusive). Si anteponemos el operador NOT devolverá aquellos valores no incluidos en el intervalo.
 
-## Operador LIKE:
+# Operador LIKE:
 
 Este operador se utiliza para realizar comprobaciones de columnas o expresiones con patrones de caracteres. Su sintaxis es:
 
@@ -58,7 +56,7 @@ Los símbolos utilizados en el patrón son:
 |---------------|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | _ (subrayado) | Cualquier carácter individual              | WHERE au_fname LIKE ‘_ean’ busca todos los nombres de cuatro letras que finalicen con ean (Dean, Sean, etc.).                      |
 
-## Operador IN:
+# Operador IN:
 
 Se utiliza para comprobar si un valor pertenece a una lista de valores. Su sintaxis es:
 
@@ -69,10 +67,10 @@ expresion [ NOT ] IN ( subconsulta | expresion o valor [ ,...n ])
 
 La lista de valores se puede obtener a partir de una setencia select o bien indicando el<br /> conjunto de valores separados por comas
 
-## Operador IS NULL:
+# Operador IS NULL:
 
 En SQL el valor nulo tiene un valor diferente a 0 y a cadena vacía. Por tanto, para preguntar<br /> si un atributo contiene, o no, un valor nulo, hay que utilizar el predicado IS [NOT] NULL.
 
-## Siguiente tema
+# Siguiente tema
 
 Siguiente Tema: <a href="https://elbauldelprogramador.com/consulta-de-datos-clausula-group-by/">Consulta de Datos. Cláusula GROUP BY</a>
