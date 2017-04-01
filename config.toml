@@ -39,8 +39,8 @@ EnableMissingTranslationPlaceholders = true
 
 [Languages]
 [Languages.en]
-title = "The Programmer's Chest"
-
+   title = "The Programmer's Chest"
+   description = "A blog where I post everything I learn. I’m interested in Cryptography, Security, Machine Learning, Data Science and Software Development."
 [[Languages.en.menu.main]]
    name =  "Categories"
    url  = "/categories/"
@@ -56,9 +56,8 @@ title = "The Programmer's Chest"
 [[Languages.en.menu.main]]
    name =  "Contact"
    url  =  "/contacto/"
-
 [Languages.es]
-title = "El Baúl del programador"
+   title = "El Baúl del programador"
 
 [permalinks]
 post = "/:filename/"
@@ -70,7 +69,7 @@ category = "categories"
 author = "author"
 
 [params]
-    description = "A blog where I post everything I learn. I’m interested in Cryptography, Security, Machine Learning, Data Science and Software Development."
+    description = "Blog en el que publico todo lo que aprendo. Principalmente interesado en seguridad, Machine Learning, criptografía, ciencia de datos y desarrollo software."
     verify = "FBg0GK1_H_PyCw6AD2iaBOclPbEC3LOV8hHXje5276w"
     gplususer = "ElBauldelProgramador"
     amp = true # enables amp features
