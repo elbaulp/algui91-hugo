@@ -2,15 +2,8 @@
 author: alex
 categories:
 - script
-color: '#2196F3'
 date: '2016-01-01'
-format: aside
-if_slider_image:
-- null
-- null
-- null
-- null
-
+lastmod: 2017-04-02T19:20:01+01:00
 mainclass: linux
 url: /convertir-archivos-mp4-a-mp3-masivamente/
 tags:

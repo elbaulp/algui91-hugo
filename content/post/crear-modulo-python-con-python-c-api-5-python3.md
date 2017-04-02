@@ -19,6 +19,8 @@ tags:
 - reference count python
 - tutorial crear modulos python
 - tutorial python c api
+- python
+- python C API
 title: "Crear un m\xF3dulo para python con la Python C API (V) \u2013 Python 3"
 ---
 

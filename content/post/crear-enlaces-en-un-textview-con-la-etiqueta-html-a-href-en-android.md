@@ -2,14 +2,10 @@
 author: alex
 categories:
 - android
-color: '#689F38'
 date: '2016-01-01'
-description: "Para una aplicaci\xF3n que estoy haciendo, me hac\xEDa falta ser capaz
-  de mostrar un enlace al usuario de forma similar al que se crean en las p\xE1ginas
-  webs con la etiqueta &lt;a href=\u201D\u201D&gt;&lt;/a&gt;."
+lastmod: 2017-04-02T19:26:04+01:00
+description: "Para una aplicaci\xF3n que estoy haciendo, me hac\xEDa falta ser capaz  de mostrar un enlace al usuario de forma similar al que se crean en las p\xE1ginas  webs con la etiqueta &lt;a href=\u201D\u201D&gt;&lt;/a&gt;."
 image: 2013/05/setMovementMethod-example.png
-lastmod: 2016-08-05
-
 mainclass: android
 url: /crear-enlaces-en-un-textview-con-la-etiqueta-html-a-href-en-android/
 tags:
@@ -27,7 +23,7 @@ Para una aplicación que estoy haciendo, me hacía falta ser capaz de mostrar un
 
 La cadena de texto con el enlace en cuestión reside en el archivo de recursos **[string.xml](/programacion-android-recursos-strings/)**. En un principio pensé que me bastaría usar la propiedad `android:autoLink="web"` en el [layout.xml](/programacion-android-recursos-layout/) de la siguiente forma:
 
-### **_layout_**:
+# **_layout_**:
 
 ```xml
 <TextView
@@ -36,7 +32,7 @@ La cadena de texto con el enlace en cuestión reside en el archivo de recursos *
     <!-- .... --> />
 ```
 
-### **_string_**:
+# **_string_**:
 
 ```xml
 <string name="aboutAuthor">Developed by <a href="http://elbauldelprogramador.com">Alejandro Alcalde.</a></string>
@@ -58,7 +54,7 @@ author.setMovementMethod(LinkMovementMethod.getInstance());
 Con el código anterior se consigue el comportamiento deseado:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/setMovementMethod-example.png" alt="enlaces en un textview android" width="480" height="800"></amp-img>
+    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/setMovementMethod-example.png" alt="enlaces en un textview android" width="480" height="800"></amp-img>
 </figure>
 
 Los dos primeros enlaces están creados con el método `setMovementMethod()`, los otros dos con `android:autoLink="web"`.
