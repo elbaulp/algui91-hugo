@@ -3,10 +3,8 @@ author: alex
 categories:
 - linux
 - script
-color: '#2196F3'
 date: '2016-01-01'
-lastmod: 2016-07-31
-
+lastmod: 2017-04-02T19:29:28+01:00
 mainclass: linux
 url: /crear-miniaturas-de-imagenes-mejorado/
 tags:

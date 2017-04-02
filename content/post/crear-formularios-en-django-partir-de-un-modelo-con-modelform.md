@@ -2,11 +2,9 @@
 author: alex
 categories:
 - django
-color: '#E64A19'
 date: '2016-01-01'
 image: 2013/10/django.png
-lastmod: 2016-10-11
-
+lastmod: 2017-04-02T19:27:09+01:00
 mainclass: dev
 url: /crear-formularios-en-django-partir-de-un-modelo-con-modelform/
 tags:
@@ -22,7 +20,7 @@ Hoy quiero hablar sobre cómo podemos crear formularios de una forma muy sencill
 
 <!--more--><!--ad-->
 
-## Crear la aplicación
+# Crear la aplicación
 
 Vamos a crear una aplicación trivial a modo de ejemplo, la llamaremos **pruebaformularios**. Para crearla ejecutamos:
 
@@ -32,7 +30,7 @@ $ python manage.py startapp pruebaformularios
 
 La aplicación hemos de crearla dentro de un proyecto existente.
 
-## Crear los modelos
+# Crear los modelos
 
 El ejemplo que vamos a ver va a disponer de un solo modelo *Persona* que estará compuesto de varios campos:
 
@@ -53,7 +51,7 @@ class Persona(models.Model):
         return self.dni
 ```
 
-## Crear la Vista
+# Crear la Vista
 
 El siguiente paso es crear la vista para este modelo. En este ejemplo se mostrará una lista de Personas y se dará la posibilidad de añadir nuevas personas mediante un formulario. Dado que crear una lista de objetos es algo muy común Django proporciona una clase llamada *ListView* de la que podemos heredar para facilitar la tarea. A esto se le llama **vistas genéricas** En las referencias (2) se dispone de más información sobre este tema.
 
@@ -72,7 +70,7 @@ class PersonaList(ListView):
 
 Como vemos, de una forma tan sencilla como esta estamos creando una vista que permitirá mostrar una lista de objetos persona.
 
-## Crear la plantilla
+# Crear la plantilla
 
 Para ser capaces de mostrar al usuario una lista de *personas* es necesario crear una plantilla. Nos basaremos en una plantilla base llamada *base.html* que se puede encontrar en *django/contrib/databrowse/templates/databrowse/base.html*
 
@@ -93,7 +91,7 @@ Para ser capaces de mostrar al usuario una lista de *personas* es necesario crea
 
 De esta forma nuestra plantilla hereda todo el contenido de *base.html* y le añadimos contenido en el bloque *content*. Es importante que guardemos ambas plantillas dentro de nuestra aplicación *pruebaformularios* en el directorio *./templates/pruebaformularios/*.
 
-## Configurar el proyecto para que encuentre las plantillas
+# Configurar el proyecto para que encuentre las plantillas
 
 Con la plantilla creada, el siguiente paso es configurar el proyecto para que sea capaz de encontrar la plantilla. Abrimos el *settings.py* de nuestro proyecto y en *TEMPLATE_DIRS* escribimos:
 
@@ -111,7 +109,7 @@ PROJECT_PATH = os.path.split(os.path.abspath(os.path.dirname(__file__)))[0]
 
 De esta manera django encontrará nuestras plantillas y podremos usarlas.
 
-## Configurar el urls.py
+# Configurar el urls.py
 
 Falta configurar el mapeo URL para la vista que acabamos de crear (*PersonaList*). Para ello creamos un archivo llamado **urls.py** en el directorio de nuestra aplicación con el siguiente contenido:
 
@@ -160,10 +158,10 @@ El primer comando se encarga de actualizar la base de datos con los modelos crea
 Si todo ha ido bien, deberíamos ver la siguiente página en <a href="http://127.0.0.1:8000/personas/list" title="localhost" target="_blank">http://127.0.0.1:8000/personas/list</a>
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/Crear-formularios-en-Django-a-partir-de-un-Modelo-con-ModelForm.png" alt="Crear formularios en Django a partir de un Modelo con ModelForm" width="161px" height="153px" />
+    <amp-img sizes="(min-width: 161px) 161px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/Crear-formularios-en-Django-a-partir-de-un-Modelo-con-ModelForm.png" alt="Crear formularios en Django a partir de un Modelo con ModelForm" width="161px" height="153px" />
 </figure>
 
-## Crear un formulario a partir de un Modelo con ModelForm
+# Crear un formulario a partir de un Modelo con ModelForm
 
 Ahora que tenemos todo listo para mostrar al usuario una lista de personas, vamos a ofrecerle la posibilidad de añadir gente a la lista. Para ello crearemos una clase que extienda de *ModelForm* (3) en *models.py*
 
@@ -180,7 +178,7 @@ class PersonaForm(ModelForm):
 
 Con esto crearemos un formulario basándonos en los campos del modelo *Persona*, lo cual transformará cada campo del modelo en su correspondiente widget en HTML.
 
-## Definir la función que añadirá Personas
+# Definir la función que añadirá Personas
 
 Para ser capaces de registrar una nueva Persona en la base de datos, debemos declarar una función que se encargue de dicha tarea y mapear ésta función con una URL, en nuestro ejemplo la dirección que usaremos para añadir una nueva persona será */personas/add*. La función la creamos en el fichero *views.py*
 
@@ -216,7 +214,7 @@ La siguiente tabla pretende resumir los flujos posibles:
 | Enviados                         | Datos válidos   | Se procesan los datos y se guardan, se redirige a la lista de Personas.            |
 
 
-## Asociar la función con una url
+# Asociar la función con una url
 
 Lo siguiente que hacemos es mapear la función anterior con una URL, de modo que al acceder a */personas/add* se nos presente el formulario:
 
@@ -229,7 +227,7 @@ urlpatterns = patterns('',
 
 El nombre será usado después en la plantilla.
 
-## Crear la plantilla con el formulario
+# Crear la plantilla con el formulario
 
 Por último, la plantilla que contiene el formulario quedaría así:
 
@@ -251,7 +249,7 @@ Por último, la plantilla que contiene el formulario quedaría así:
 
 De nuevo usamos el *namespace* creado anteriormente en el *urls.py* global y el nombre que acabamos de darle a la función para agregar personas.
 
-## Probando el ejemplo
+# Probando el ejemplo
 
 Eso es todo, accediendo a <a href="http://127.0.0.1:8000/personas/add" target="_blank">http://127.0.0.1:8000/personas/add</a> veremos el formulario y podremos añadir nuevas personas, que irán apareciendo en la lista.
 
@@ -267,7 +265,7 @@ Haga click <a href="{% url 'upersonas:padd'  %}">aquí</a> para añadir una pers
 
 Ya sabemos que *upersonas* es */personas/* y *padd* es *add*, luego este enlace nos llevará a la dirección */personas/add*, mostrando el formulario.
 
-## Código completo
+# Código completo
 
 ```python
 # models.py
@@ -393,11 +391,11 @@ urlpatterns = patterns('',
 
 Espero que os haya servido de ayuda.
 
-#### Referencias
+# Referencias
 
-*(1) Documentación ModelForm* »» <a href="https://docs.djangoproject.com/en/1.5/topics/forms/modelforms/#modelform" target="_blank">docs.django.org</a>
-*(2) Vistas genéricas* »» <a href="https://docs.djangoproject.com/en/1.5/topics/class-based-views/generic-display/" target="_blank">docs.django.org</a>
-*(3) ModelForm* »» <a href="https://docs.djangoproject.com/en/1.5/topics/forms/modelforms/" target="_blank">docs.django.org</a>
+- *(1) Documentación ModelForm* »» <a href="https://docs.djangoproject.com/en/1.5/topics/forms/modelforms/#modelform" target="_blank">docs.django.org</a>
+- *(2) Vistas genéricas* »» <a href="https://docs.djangoproject.com/en/1.5/topics/class-based-views/generic-display/" target="_blank">docs.django.org</a>
+- *(3) ModelForm* »» <a href="https://docs.djangoproject.com/en/1.5/topics/forms/modelforms/" target="_blank">docs.django.org</a>
 
  [1]: https://elbauldelprogramador.com/introduccion-django-instalacion-y-primer-proyecto/ "Introducción a Django – Instalación y primer proyecto"
  [2]: https://elbauldelprogramador.com/los-10-mejores-frameworks-gratis-de-aplicaciones-web/ "Los 10 Mejores Frameworks gratuitos para Aplicaciones Web"
