@@ -1,7 +1,7 @@
 ---
 author: alex
 amp:
-elements: [amp-youtube]
+    elements: [amp-youtube]
 categories:
 - articulos
 date: 2016-08-13 05:07:34
