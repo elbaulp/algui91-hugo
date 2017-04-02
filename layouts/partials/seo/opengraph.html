@@ -8,6 +8,10 @@
 <meta name="description" content="{{ $.Site.Params.description }}" />
 {{ end }}
 
+{{ with .Params.tags }}
+  <meta name="keywords" content="{{ range . }} {{ . }}, {{ end }}" />
+{{ end }}
+
 <!-- Site verification -->
 {{ with .Site.Params.verify }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
 
