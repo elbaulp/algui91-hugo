@@ -136,7 +136,7 @@ Si estás buscando más libros que leer, puede que te interesen las siguientes d
     </figure>
     <p>Este es uno de los libros principales que hemos usado en mi facultad en la asignatura “Aprendizaje Automático”, está bastante bien, muy teórico pero bien explicado y con ejemplos sencillos de entender.</p>
     <div class="tags">
-      <a href="http://amzn.to/2mIVWZ8/" target="_blank">Ver en Amazon</a>
+      <a href="http://amzn.to/2mIVWZ8" target="_blank">Ver en Amazon</a>
     </div>
   </article>
 
