@@ -3,14 +3,10 @@ author: alex
 categories:
 - c
 - python
-color: '#E64A19'
 date: '2016-01-01'
-description: "Como dijimos en la entrada anterior, vamos a hablar de *DistUtils*,
-  una herramienta con la que seremos capaces de automatizar el proceso de compilaci\xF3n
-  e instalaci\xF3n de nuestro m\xF3dulo creado con la Python C API."
+lastmod: 2017-04-04T10:00:47+01:00
+description: "Como dijimos en la entrada anterior, vamos a hablar de *DistUtils*, una herramienta con la que seremos capaces de automatizar el proceso de compilaci\xF3n e instalaci\xF3n de nuestro m\xF3dulo creado con la Python C API."
 image: "2013/03/Crear-un-m\xF3dulo-para-python-con-la-Python-C-API-Parte-I.png"
-lastmod: 2015-12-22
-
 mainclass: dev
 url: /crear-modulo-python-con-python-c-api-3-distutils/
 tags:
@@ -30,14 +26,14 @@ title: "Crear un m\xF3dulo para python con la Python C API (III) - DistUtils"
 * [Crear un módulo para python con la Python C API (V) – Python 3][4]
 
 <figure>
-<a href="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png" title="{{ page.title }}" alt="{{ page.title }}" width="201px" height="190px" /></a>
+    <a href="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"><amp-img sizes="(min-width: 201px) 201px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png" title="Crear un módulo para python con la Python C API (III) – DistUtils" alt="Crear un módulo para python con la Python C API (III) – DistUtils" width="201px" height="190px" /></a>
 </figure>
 
 Como dijimos en la entrada[ anterior][5], vamos a hablar de *DistUtils*, una herramienta con la que seremos capaces de automatizar el proceso de compilación e instalación de nuestro módulo creado con la Python C API.
 
 <!--more--><!--ad-->
 
-### Compilar el módulo
+# Compilar el módulo
 
 El esquema básico de un paquete **distutils** contiene un fichero *setup.py*, su versión más simple es:
 
@@ -95,7 +91,7 @@ This is really just a demo package.
        ext_modules = [module1])
 ```
 
-### Instalar el módulo
+# Instalar el módulo
 
 Sin embargo, con *python setup.py build* no se está instalando el módulo en el lugar adecuado para que python sea capaz de utilizarlo, para ello es necesario usar *install* de a siguiente forma:
 
@@ -128,9 +124,9 @@ Out[2]: 'Hola Alejandro desde la Python C API!'
 
 En la siguiente parte, crearemos un módulo que sea capaz de devolver la ip de un dominio web.
 
-#### Referencias
+# Referencias
 
-*Documentación de Distutils* »» <a href="http://docs.python.org/3/extending/building.html#building" target="_blank">docs.python</a>
+- *Documentación de Distutils* »» <a href="http://docs.python.org/3/extending/building.html#building" target="_blank">docs.python</a>
 
 
 

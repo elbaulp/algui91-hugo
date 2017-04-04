@@ -3,16 +3,10 @@ author: alex
 categories:
 - c
 - python
-color: '#E64A19'
 date: '2016-01-01'
-description: "Continuando con nuestro art\xEDculo sobre la Python C API, esta vez
-  vamos a ver un ejemplo sencillo en el que crearemos un m\xF3dulo que imprima por
-  pantalla un mensaje, como *Hola **nombre,** desde la python C API!*. El m\xF3dulo
-  consistir\xE1 en una funci\xF3n llamada *saluda()* que recibir\xE1 una cadena de
-  texto usada como nombre para saludar. Una vez terminado podr\xE1 usarse as\xED:"
+lastmod: 2017-04-04T09:56:54+01:00
+description: "Continuando con nuestro art\xEDculo sobre la Python C API, esta vez  vamos a ver un ejemplo sencillo en el que crearemos un m\xF3dulo que imprima por  pantalla un mensaje, como *Hola **nombre,** desde la python C API!*. El m\xF3dulo  consistir\xE1 en una funci\xF3n llamada *saluda()* que recibir\xE1 una cadena de  texto usada como nombre para saludar. Una vez terminado podr\xE1 usarse as\xED:"
 image: "2013/03/Crear-un-m\xF3dulo-para-python-con-la-Python-C-API-Parte-I.png"
-lastmod: 2015-12-22
-
 mainclass: dev
 url: /crear-modulo-python-con-python-c-api-2/
 tags:
@@ -32,10 +26,10 @@ title: "Crear un m\xF3dulo para python con la Python C API (II) - Primer ejemplo
 * [Crear un módulo para python con la Python C API (V) – Python 3][4]
 
 <figure>
-<a href="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png" title="{{ page.title }}" alt="{{ page.title }}" width="201px" height="190px" /></a>
+    <a href="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"><amp-img sizes="(min-width: 201px) 201px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png" title="Crear un módulo para python con la Python C API (II) – Primer ejemplo" alt="Crear un módulo para python con la Python C API (II) – Primer ejemplo" width="201px" height="190px" /></a>
 </figure>
 
-Continuando con nuestro artículo sobre la Python C API, esta vez vamos a ver un ejemplo sencillo en el que crearemos un módulo que imprima por pantalla un mensaje, como *Hola **nombre,** desde la python C API!*.
+Continuando con nuestro artículo sobre la Python C API, esta vez vamos a ver un ejemplo sencillo en el que crearemos un módulo que imprima por pantalla un mensaje, como _Hola **nombre**, desde la python C API!_.
 
 El módulo consistirá en una función llamada *saluda()* que recibirá una cadena de texto usada como nombre para saludar. Una vez terminado podrá usarse así:
 
@@ -89,7 +83,7 @@ initejemplo(void)
 
 Empezaremos desglosando la función *ejemplo_saluda*, la cual será llamada al ejecutar la línea *ejemplo.saluda('Alejandro')* en Python.
 
-### Función ejemplo_saluda()
+# Función ejemplo_saluda()
 
 El parámetro **args** será un puntero a una tupla conteniendo los argumentos, en este caso *Alejandro*. Cada elemento de la tupla representa un argumento de la función en python. Los argumentos son objetos Python, para poder usarlos en la función C, es necesario convertirlos a valores C. Para ello hay que usar la función <a href="http://docs.python.org/2/c-api/arg.html#PyArg_ParseTuple" target="_blank">PyArg_ParseTuple()</a>. Ésta función usa una plantilla para determinar el tipo de variables de los argumentos y las variables C en las que se almacenarán. La función devuelve verdadero si todos los argumentos tienen el tipo esperado y sus componentes han sido almacenados en las variables C.
 
@@ -127,9 +121,9 @@ Py_BuildValue("{"
 
 ```
 
-### Tabla de métodos del módulo
+# Tabla de métodos del módulo
 
-### Función de inicialización
+# Función de inicialización
 
 ```c
 static
@@ -146,7 +140,7 @@ El *array* **ejemplo_methods[]** se llama la *Tabla de métodos del módulo* y g
 
 Cuando importamos el módulo por primera vez desde python, se llama al método **initejemplo**, seguidamente se llama a **Py_InitModule()**, el cual crea un “Objeto del módulo” e inserta los objetos de las funciones en el módulo creado basandose en la tabla de métodos que le hemos pasado como segundo parámetro. **Py_InitModule()** devuelve un puntero al [objeto][5] del módulo que acaba de crear, si no se pudo crear, devolverá *NULL*.
 
-### Compilación y uso
+# Compilación y uso
 
 De momento vamos a compilar el módulo a mano, en la siguiente parte veremos cómo usar *DistUtils* para automatizar el proceso:
 
@@ -185,10 +179,10 @@ FUNCTIONS
 
 Eso es todo para la segunda parte, en la tercera veremos cómo automatizar el proceso de compilación.
 
-#### Referencias
+# Referencias
 
-*Extending Python with C or C++* »» <a href="http://docs.python.org/2/extending/extending.html" target="_blank">docs.python.org</a>
-*Bindings python* »» <a href="http://www.menudoproblema.es/blog/entries/2012/03/26/bindings-python-para-bibliotecas-c-parte-2/" target="_blank">menudoproblema.es</a>
+- *Extending Python with C or C++* »» <a href="http://docs.python.org/2/extending/extending.html" target="_blank">docs.python.org</a>
+- *Bindings python* »» <a href="http://www.menudoproblema.es/blog/entries/2012/03/26/bindings-python-para-bibliotecas-c-parte-2/" target="_blank">menudoproblema.es</a>
 
 
 
