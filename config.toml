@@ -36,6 +36,9 @@ EnableMissingTranslationPlaceholders = true
 [[menu.main]]
    name =  "Contacto"
    url  =  "/contacto/"
+[[menu.main]]
+   name =  "Libros"
+   url  = "/libros-recomendados/"
 
 [Languages]
 [Languages.en]
@@ -56,6 +59,9 @@ EnableMissingTranslationPlaceholders = true
 [[Languages.en.menu.main]]
    name =  "Contact"
    url  =  "/contacto/"
+[[Languages.en.menu.main]]
+   name = "Books"
+   url  = "/recommended-books/"
 [Languages.es]
    title = "El Baúl del programador"
 
