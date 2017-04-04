@@ -22,7 +22,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
 # Otras listas
 
 - [54 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad](https://elbauldelprogramador.com/blogs-canales-podcast-aprender-informatica/ "54 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad")
-- [20 Podcasts / Canales de Youtube / Blogs sobre Ciencia](https://elbauldelprogramador.com/blogs-podcasts-canales-youtube-sobre-ciencia/ "20 Podcasts / Canales de Youtube / Blogs sobre Ciencia").
+- [21 Podcasts / Canales de Youtube / Blogs sobre Ciencia](https://elbauldelprogramador.com/blogs-podcasts-canales-youtube-sobre-ciencia/ "21 Podcasts / Canales de Youtube / Blogs sobre Ciencia").
 
 # Podcasts
 

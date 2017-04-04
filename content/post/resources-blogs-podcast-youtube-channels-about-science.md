@@ -1,7 +1,7 @@
 +++
 image = "resources-blogs-podcast-youtube-channels-about-science.png"
 date = "2017-03-14T20:13:47+01:00"
-title = "20 Podcasts / Canales de Youtube / Blogs sobre Ciencia"
+title = "21 Podcasts / Canales de Youtube / Blogs sobre Ciencia"
 author = "alex"
 description = "Una lista de podcasts, blogs y canales de youtube sobre ciencia"
 tags = ["ciencia", "podcasts", "blogs", "Canales Youtube", "listas"]
@@ -270,24 +270,50 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
   <article class="box-item animate">
     <h3>ScienceVS</h3>
     <figure>
-        <amp-img sizes="(min-width: 100px) 100px, 100vw"
-          on="tap:lightbox1"
-          role="button"
-          tabindex="0"
-          layout="responsive"
-          src="/img/sciencevs.png"
-          alt="Science Vs Podcast"
-          title="Science Vs Podcast"
-          sizes="(min-width: 100px) 100px, 100vw"
-          width="100"
-          height="100">
-        </amp-img>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw"
+               on="tap:lightbox1"
+               role="button"
+               tabindex="0"
+               layout="responsive"
+               src="/img/sciencevs.png"
+               alt="Science Vs Podcast"
+               title="Science Vs Podcast"
+               sizes="(min-width: 100px) 100px, 100vw"
+               width="100"
+               height="100">
+      </amp-img>
     </figure>
 
     <p>There are a lot of fads, blogs and strong opinions, but then there’s SCIENCE. Science Vs is the show from Gimlet Media that finds out what’s fact, what’s not, and what’s somewhere in between. We do the hard work of sifting through all the science so you don't have to. This season we tackle immigration, climate change, true love and artificial sweeteners.</p>
 
     <div class="tags">
-        <a href="https://gimletmedia.com/science-vs/" target="_blank" title="Science Vs Podcast">Science Vs Podcast</a>
+      <a href="https://gimletmedia.com/science-vs/" target="_blank" title="Science Vs Podcast">Science Vs Podcast</a>
+    </div>
+  </article>
+
+  <article class="box-item animate">
+    <h3>Radio Skylab</h3>
+    <figure>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw"
+               on="tap:lightbox1"
+               role="button"
+               tabindex="0"
+               layout="responsive"
+               src="/img/radopsky.jpg"
+               alt="Radio Skylab"
+               title="Radio Skylab"
+               sizes="(min-width: 100px) 100px, 100vw"
+               width="100"
+               height="100">
+      </amp-img>
+    </figure>
+
+    <p>Radio Skylab is a casual podcast about space, science and other curiosities. Made with enthusiasm from the Canary Islands by four scientific disseminators:</p>
+
+    <p>Víctor Manchado (@vmanchado) is the editor of Pirulo Cosmico, a blog where astronomy is explained in a simple way. Daniel Marín (@eurekablog) is responsible for the popular blog of astronomy and astronautics Eureka. Premio Bitácoras 2012, Prize 20Blogs 2015 to the best blog in the category of science, and Naukas Award 2013 to the best blog of scientific popularization. Kavy Pazos (@molasaber) is the creator of Mola Saber, the blog that through infographics and articles fuses art and science. Víctor R. Ruiz (@vrruiz) is the creator of Infoastro, a site about astronomical news; And Blogalia, the first blog service in Spanish.</p>
+
+    <div class="tags">
+      <a href="http://radioskylab.es/" target="_blank" title="Radio Skylab">Radio Skylab</a>
     </div>
   </article>
 
