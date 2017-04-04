@@ -38,11 +38,11 @@ El proceso de compatibilidad se realiza mediante varios *#define* y macros en C 
 # Código fuente compatible con Python 3
 
 ```c
-#include <python.h>
+#include <Python.h>
 #include <string.h>
-#include <sys>socket.h>
-#include <netinet</sys>in.h>
-#include <arpa>inet.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 
 #include <netdb.h>
 
@@ -94,7 +94,7 @@ herramientasRed_imprimeIP(PyObject *self, PyObject *args)
 static
 PyMethodDef herramientasRed_methods[] = {
     {"imprimeIP", herramientasRed_imprimeIP, METH_VARARGS, "Documentación del módulo ejemplo"},
-    {NULL, NULL, 0, NULL}, </arpa>* Sentinel */
+    {NULL, NULL, 0, NULL}, /* Sentinel */
 };
 
 #if PY_MAJOR_VERSION >= 3
@@ -134,7 +134,7 @@ initherramientasRed(void)
 #endif
 {
 #if PY_MAJOR_VERSION >= 3
-    PyObject *module = PyModule_Create(&moduledef;);
+    PyObject *module = PyModule_Create(&moduledef);
 #else
     PyObject *module = Py_InitModule("herramientasRed", herramientasRed_methods);
 #endif
