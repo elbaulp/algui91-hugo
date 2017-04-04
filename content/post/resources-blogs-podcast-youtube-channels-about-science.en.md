@@ -291,6 +291,34 @@ If you follow some resource not listed below feel free to post a comment and I w
     </div>
   </article>
 
+  <article class="box-item animate">
+    <h3>Radio Skylab</h3>
+    <figure>
+        <amp-img sizes="(min-width: 100px) 100px, 100vw"
+          on="tap:lightbox1"
+          role="button"
+          tabindex="0"
+          layout="responsive"
+          src="https://static-2.ivooxcdn.com/audios/7/3/1/0/9901490710137_MD.jpg"
+          alt="Radio Skylab"
+          title="Radio Skylab"
+          sizes="(min-width: 100px) 100px, 100vw"
+          width="100"
+          height="100">
+        </amp-img>
+    </figure>
+
+
+    <p>Radio Skylab is a casual podcast about space, science and other curiosities. Made with enthusiasm from the Canary Islands by four scientific disseminators:
+
+Víctor Manchado (@vmanchado) is the editor of Pirulo Cosmico, a blog where astronomy is explained in a simple way. Daniel Marín (@eurekablog) is responsible for the popular blog of astronomy and astronautics Eureka. Premio Bitácoras 2012, Prize 20Blogs 2015 to the best blog in the category of science, and Naukas Award 2013 to the best blog of scientific popularization. Kavy Pazos (@molasaber) is the creator of Mola Saber, the blog that through infographics and articles fuses art and science. Víctor R. Ruiz (@vrruiz) is the creator of Infoastro, a site about astronomical news; And Blogalia, the first blog service in Spanish.</p>
+
+    <div class="tags">
+        <a href="http://radioskylab.es/" target="_blank" title="Radio Skylab">Radio Skylab</a>
+    </div>
+  </article>
+
+
 </div>
 
 <!--more--><!--ad-->
