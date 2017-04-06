@@ -2,14 +2,10 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
-description: "Hay tantos formatos de sonido que podemos hacernos un l\xEDo a la hora
-  de decidir cual usar, cual aporta mayor calidad al sonido... echemos una vista r\xE1pida
-  a los distintos formatos existentes:"
+lastmod: 2017-04-06T19:41:30+01:00
+description: "Hay tantos formatos de sonido que podemos hacernos un l\xEDo a la hora  de decidir cual usar, cual aporta mayor calidad al sonido... echemos una vista r\xE1pida  a los distintos formatos existentes:"
 image: 2012/07/original1.jpg
-lastmod: 2016-08-10
-
 mainclass: articulos
 url: /cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir/
 tags:
@@ -36,19 +32,17 @@ tags:
 - calidad lossless
 - calidades de audio
 - formatos alac
-title: "\xBFCual es la diferencia entre los distintos formatos de audio, y cual deber\xEDa
-  elegir?"
+- audio
+title: "\xBFCual es la diferencia entre los distintos formatos de audio, y cual deber\xEDa  elegir?"
 ---
 
 <figure>
-  <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/07/original1.jpg" width="640px" height="360px"></amp-img>
+    <amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/07/original1.jpg" width="640px" height="360px"></amp-img>
 </figure>
 
 Hay tantos formatos de sonido que podemos hacernos un lío a la hora de decidir cual usar, cual aporta mayor calidad al sonido&#8230; echemos una vista rápida a los distintos formatos existentes:
 
-
-
-## Formatos sin pérdidas: WAV, AIFF, FLAC, Apple Lossless y otros
+# Formatos sin pérdidas: WAV, AIFF, FLAC, Apple Lossless y otros
 
 Para conocer la diferencia entre formatos con y sin pérdida visita *<a href="http://lifehacker.com/5810575/does-bitrate-really-make-a-difference-in-my-music" target="_blank">Does Bitrate Really Make a Difference In My Music?</a>*. En resumen, hay dos tipos de calidad de sonido: sin pérdida y con pérdida. La música si pérdida conserva la calidad de sonido de la fuente original &#8212; en la mayoría de los casos, CD &#8212; intacta, por otra parte, la música con pérdidas comprime el archivo para ahorrar espacio (a cambio de disminuir la calidad). En los formatos sin pérdidas se incluyen los siguientes formatos:
 
@@ -59,10 +53,10 @@ Para conocer la diferencia entre formatos con y sin pérdida visita *<a href="ht
 * **Apple sin pérdidas (Apple Lossless)**: También conocido como ALAC, es similar a FLAC. Usa compresión, aunque está hecho por Apple. Su compresión no es tan eficiente como la de FLAC, por lo que los archivos serán un poco más grandes, pero es compatible con iTunes y iOS (FLAC no). Por lo tanto, si usas iTunes o iOS como software principal para escuchar música, deberías elegir este formato.
 * **APE**: Es un archivo de muy alta compresión sin pérdidas, lo que significa que ahorrarás más espacio. La calidad es la misma que FLAC, ALAC y otros archivos sin pérdidas, pero no es compatible con la mayoría de reproductores. Por contrapartida hace que el procesador trabaje más para descodificar al estar tan comprimido. Por lo general, no recomendaría usar este formato a menos que te preocupe mucho el espacio y tengas un reproductor compatible.
 
-## Formatos con pérdidas: MP3, AAC, OGG y más
+# Formatos con pérdidas: MP3, AAC, OGG y más
 
 <figure>
-  <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/07/original-11-300x195.jpg" width="300px" height="195px"></amp-img>
+    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/07/original-11-300x195.jpg" width="300px" height="195px"></amp-img>
 </figure>
 
 Para el día a día, es más probable que usemos formatos con pérdidas. Ahorran bastante más espacio, y si tienen una <a href="http://lifehacker.com/5810575/does-bitrate-really-make-a-difference-in-my-music" target="_blank">tasa de bits suficientemente alta (bitrate)</a>, será muy dificil de distinguir la calidad de la fuente original. A continuación se muestran los formatos que más se usan:
@@ -72,7 +66,7 @@ Para el día a día, es más probable que usemos formatos con pérdidas. Ahorran
 * **Ogg Vorbis**: El formato <a href="http://en.wikipedia.org/wiki/Ogg_vorbis" target="_blank">Vorbis</a>, a menudo conocido como Ogg Vorbis debido al uso del contenedor Ogg, es la versión software libre a MP3 y AAC. Su principal atractivo es que no está restringido por patentes, pero eso no te afecta como usuario &#8212; de hecho, a pesar de ser abierto es de calidad similar, y mucho menos popular que MP3 y AAC, por lo que no todos los reproductores lo soportan. No lo recomiendo a no ser que te interese por el hecho de ser código abierto.
 * **WMA**: <a href="http://en.wikipedia.org/wiki/Windows_Media_Audio" target="_blank">Windows Media Audio</a>. El formato propietario de Microsoft, parecido a MP3 o AAC. Realmente no ofrece ninguna ventaja sobre los demás formatos, y no está muy bien soportado.
 
-## Entonces, ¿Cual deberías usar?
+# Entonces, ¿Cual deberías usar?
 
 Ahora que hemos visto las diferencias existentes entre cada formato, ¿Cual deberíamos usar para nuestra música? En general, recomendamos usar MP3 o AAC. Son compatibles con la mayoría de reproductores, y la calidad de ambos es muy parecida a la de la fuente original si se codifica con un ratio de bits alto (bitrate). A no ser que tengas necesidades específicas, MP3 y AAc son las opciones más recomendables.
 
@@ -80,7 +74,7 @@ Sin embargo, hay algo que decir para almacenar música en formátos sin pérdida
 
 Como conclusión final, podemos decir que no hay que obsesionarse con el tema. Simplemente hemos de estar seguros de escoger algo ampliamente compatible, no convertir entre dos formatos con pérdidas, y disfrutar de la música.
 
-## Referencias
+# Referencias
 
 - Vía \| LifeHacker - <a href="http://lifehacker.com/5927052/whats-the-difference-between-all-these-audio-formats-and-which-one-should-i-use" target="_blank">What’s the Difference Between All These Audio Formats, and Which One Should I Use?</a>
 - Imagen \| <a href="http://www.flickr.com/photos/mac_users_guide/3680451148/" target="_blank">Carl Berkeley</a>

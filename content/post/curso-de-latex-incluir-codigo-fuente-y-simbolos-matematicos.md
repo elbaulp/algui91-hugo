@@ -2,13 +2,10 @@
 author: marta
 categories:
 - latex
-color: '#B31917'
 date: '2016-01-01'
-description: "Continuando por donde lo dejamos en el \xFAltimo art\xEDculo, hoy veremos
-  c\xF3mo incluir c\xF3digo fuente en el documento."
+lastmod: 2017-04-06T19:48:54+01:00
+description: "Continuando por donde lo dejamos en el \xFAltimo art\xEDculo, hoy veremos  c\xF3mo incluir c\xF3digo fuente en el documento."
 image: 2013/05/latex_logo.png
-lastmod: 2015-12-22
-
 mainclass: latex
 url: /curso-de-latex-incluir-codigo-fuente-y-simbolos-matematicos/
 tags:
@@ -26,14 +23,14 @@ title: "Mini Curso de LaTeX - Incluir c\xF3digo fuente y s\xEDmbolos matem\xE1ti
 ---
 
 <figure>
-<a href="/img/2013/05/latex_logo.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="{{ page.title }}" alt="{{ page.title }}" width="300px" height="114px" /></a>
+    <a href="/img/2013/05/latex_logo.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Mini Curso de LaTeX - Incluir c\xF3digo fuente y s\xEDmbolos matem\xE1ticos" alt="Mini Curso de LaTeX - Incluir c\xF3digo fuente y s\xEDmbolos matem\xE1ticos" width="300px" height="114px" /></a>
 </figure>
 
 * [Mini Curso de LaTeX - Introducción][1]
 * Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos
 * [Mini Curso de LaTeX - Figuras, Enlaces y cabeceras][2]
 
-## Mini curso de Latex
+# Mini curso de Latex
 
 Continuando por donde lo dejamos en el último artículo, hoy veremos cómo incluir código fuente en el documento.
 
@@ -47,7 +44,7 @@ Ahora, tras haber descrito brevemente lo que hace nuestro programa, vamos a proc
 
 <!--more--><!--ad-->
 
-### Paquetes necesarios
+## Paquetes necesarios
 
 Incluimos el paquete `minted` en nuestra cabecera:
 
@@ -57,7 +54,7 @@ Incluimos el paquete `minted` en nuestra cabecera:
 
 Y ahora:
 
-  1. Si no tenemos nuestro código en un fichero aparte o si vamos a escribir muy poco código, podemos usar directamente el paquete con la siguiente sintaxis:
+1. Si no tenemos nuestro código en un fichero aparte o si vamos a escribir muy poco código, podemos usar directamente el paquete con la siguiente sintaxis:
 
 ```latex
 cout << "Hola mundo" << endl;
@@ -65,9 +62,9 @@ return 0;
 
 ```
 
-## Añadir ficheros
+# Añadir ficheros
 
-  1. Si, como en nuestro caso, tenemos el fichero en un fichero a parte podemos exportarlo directamente a nuestro documento, Copiando lo siguiente en nuestra cabecera:
+1. Si, como en nuestro caso, tenemos el fichero en un fichero a parte podemos exportarlo directamente a nuestro documento, Copiando lo siguiente en nuestra cabecera:
 
 ```latex
 \newmintedfile[micodigofuente]{milenguajedeprogramacion}{
@@ -115,7 +112,7 @@ Tras esto, empezamos una nueva sección, en la que usaremos los paquetes y entor
 
 Empezamos nueva sección, para ello:
 
-### Símbolos matemáticos
+## Símbolos matemáticos
 
 ```latex
 \newpage
@@ -219,8 +216,6 @@ Podemos concluir diciendo que la eficiencia de nuestra función es $O(n)$.
 Esto ha sido un pequeño ejemplo del uso de las matemáticas en LaTeX, los demás símbolos matemáticos que hay se usan exactamente igual a como hemos visto aquí.
 
 En el proximo artículo veremos cómo añadir figuras, enlaces y tablas al documento.
-
-
 
  [1]: https://elbauldelprogramador.com/mini-curso-de-latex-introduccion/ "Mini Curso de LaTeX - Introducción"
  [2]: https://elbauldelprogramador.com/curso-de-latex-figuras-enlaces-y-cabeceras/
