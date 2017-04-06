@@ -2,10 +2,8 @@
 author: alex
 categories:
 - internet
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-09
-
+lastmod: 2017-04-06T15:38:40+01:00
 mainclass: articulos
 url: /crea-scripts-para-las-aplicaciones-de-google-con-apps-script/
 tags:
@@ -16,9 +14,7 @@ title: Crea scripts para las aplicaciones de Google con Apps Script
 
 Hace bastante tiempo que Google lanzó Apps Scripts, pero hasta ahora no lo había probado. Hoy esbozaré en qué consiste esta característica que google pone a nuestra disposición.
 
-
-
-### Qué es Google Apps Script
+# Qué es Google Apps Script
 
 Es un lenguaje de programación JavaScript en la nube que nos permite extender la funcionalidad de las aplicacoines de Google, así como crear las nuestras propias. Se desarrolla en un [editor desde el navegador web][1] y el código se guarda y ejecuta en los servidores de Google.
 
@@ -33,14 +29,14 @@ Varios ejemplos de uso son:
 
 Todo lo necesario para comenzar a escribir código es una cuenta de google, un navegador y dirigirse a <a href="http://script.google.com" target="_blank">http://script.google.com</a>
 
-### Un ejemplo práctico. Informe estadístico mensual de GMail
+# Un ejemplo práctico. Informe estadístico mensual de GMail
 
 Uno de los scripts que estoy usando actualmente recopila información de mi cuenta de gmail, para mandarme un correo al final de més con estadísticas y gráficos sobre quién me manda más correos electónicos, a quién respondo más etc. El informe que elabora este script es así:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/gmailStats.png" alt="gmailStats" width="495px" height="244px"></amp-img>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/chart1.png" alt="chart1" width="650px" height="400px"></amp-img>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/chart2.png" alt="chart2" width="650px" height="400px"></amp-img>
+    <amp-img sizes="(min-width: 495px) 495px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/gmailStats.png" alt="gmailStats" width="495px" height="244px"></amp-img>
+    <amp-img sizes="(min-width: 650px) 650px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/chart1.png" alt="chart1" width="650px" height="400px"></amp-img>
+    <amp-img sizes="(min-width: 650px) 650px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/chart2.png" alt="chart2" width="650px" height="400px"></amp-img>
 </figure>
 
 Los pasos para configurar y dejar funcionando el script se pueden encontrar en este tutorial de Google » <a href="https://developers.google.com/apps-script/articles/gmail-stats" target="_blank">Tutorial: Creating Gmail Inbox Statistics Report</a>.
@@ -407,8 +403,8 @@ function init_() {
 
 ```
 
-#### Referencias
+# Referencias
 
-*Google Apps Script* »» <a href="http://www.google.com/script/start/" target="_blank">Visitar sitio</a>
+- *Google Apps Script* »» <a href="http://www.google.com/script/start/" target="_blank">Visitar sitio</a>
 
  [1]: https://elbauldelprogramador.com/futuro-ides-de-escritorio/ "5 Razones por las cuales en 5 años los IDEs de escritorio estarán muertos"

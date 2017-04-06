@@ -3,20 +3,15 @@ author: alex
 categories:
 - how to
 - opensource
-color: '#f05033'
 date: 2015-11-27 16:17:00
-description: Nunca es buena idea realizar cambios a un sitio web sin haberlos probado
-  de antemano, hasta asegurarnos que funcionan correctamente. Para ello, lo habitual
-  es tener una copia local de la web, probarlos y luego aplicar los cambios en el
-  sitio real. Sin embargo, muchas veces hay cosas que funcionan el local y no en la
-  web.
+lastmod: 2017-04-06T15:22:10+01:00
+description: Nunca es buena idea realizar cambios a un sitio web sin haberlos probado  de antemano, hasta asegurarnos que funcionan correctamente. Para ello, lo habitual  es tener una copia local de la web, probarlos y luego aplicar los cambios en el  sitio real. Sin embargo, muchas veces hay cosas que funcionan el local y no en la  web.
 image: hotlink-ok/CREAR-UN-ENTORNO-DE-DESARROLLO-PARA-WORDPRESS-CON-GIT-CAPISTRANO-Y-WP-DEPLOY.png
-lastmod: 2016-08-10
-
 mainclass: git
 url: /crear-un-entorno-de-desarrollo-para-wordpress-con-git-capistrano-y-wp-deploy/
 tags:
 - git
+- wordpress
 - Configurar capistrano
 - configurar WP-Deploy
 - ejemplo capistrano
@@ -31,7 +26,7 @@ title: Crear un entorno de desarrollo para WordPress con Git, Capistrano y Wp-De
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/CREAR-UN-ENTORNO-DE-DESARROLLO-PARA-WORDPRESS-CON-GIT-CAPISTRANO-Y-WP-DEPLOY.png" title="{{ page.title }}" alt="{{ page.title }}" width="400px" height="400px"></amp-img>
+  <amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/CREAR-UN-ENTORNO-DE-DESARROLLO-PARA-WORDPRESS-CON-GIT-CAPISTRANO-Y-WP-DEPLOY.png" title="Crear un entorno de desarrollo para WordPress con Git, Capistrano y Wp-Deploy" alt="Crear un entorno de desarrollo para WordPress con Git, Capistrano y Wp-Deploy" width="400px" height="400px"></amp-img>
 </figure>
 
 Nunca es buena idea realizar cambios a un sitio web sin haberlos probado de antemano, hasta asegurarnos que funcionan correctamente. Para ello, lo habitual es tener una copia local de la web, probarlos y luego aplicar los cambios en el sitio real. Sin embargo, muchas veces hay cosas que funcionan el local y no en la web.
@@ -39,8 +34,6 @@ Nunca es buena idea realizar cambios a un sitio web sin haberlos probado de ante
 Existen varias estrategias de flujos de trabajo (Workflows) en el desarrollo de aplicaciones web. Haciendo uso de [git][1], capistrano y Wp-Deploy es posible llevar un control absoluto del desarrollo y evolución de una web, en este caso para WordPress.
 
 Éste articulo tratará de explicar cómo configurar un entorno de trabajo con tres entornos. Un entorno **local**, para realizar modificaciones, otro de **desarrollo**, alojado en un servidor real, para comprobar que, efectivamente, los cambios locales funcionan en un servidor real y por último, el entorno de **producción**, donde se aplicarán los cambios realizados una vez sepamos que funcionan correctamente. Todo ésto haciendo uso de Git, Capistrano y un framework para Capistrano y WordPress llamado **Wp-Deploy**.
-
-
 
 # Configurar el entorno local
 
@@ -244,13 +237,13 @@ De igual modo, si se prefiere hacer pruebas antes de subirlo a producción, se c
 
 Si el lector ha llegado hasta este punto, estaba interesado en conseguir un ciclo de desarrollo adecuado para su sitio y, seguramente esto cumpla con sus necesidades. Una de las principales ventajas de éste modelo de desarrollo es el control absoluto del estado del sitio web, y un mayor control sobre los posibles errores, ya que se pueden probar en dos fases de desarrollo antes de liberarlos al público.
 
-#### Referencias
+# Referencias
 
 - *Wp-Deploy* »» <a href="https://github.com/Mixd/wp-deploy" target="_blank">github.com</a>
 - *Capistrano* »» <a href="http://capistranorb.com/" target="_blank">capistranorb.com</a>
 
- [1]: https://elbauldelprogramador.com/mini-tutorial-y-chuleta-de-comandos-git/ "Git: Mini Tutorial y chuleta de comandos"
- [2]: https://elbauldelprogramador.com/como-instalar-nginx-con-php5-fpm/ "Cómo instalar y configurar Nginx con php5-fpm"
- [3]: https://elbauldelprogramador.com/introduccion-a-ruby/ "Introducción rápida a Ruby"
- [4]: https://elbauldelprogramador.com/recibir-alertas-de-correo-ssh/ "Recibir alertas de correo al acceder al  sistema mediante SSH"
- [5]: http://wp-cli.org/#install
+[1]: https://elbauldelprogramador.com/mini-tutorial-y-chuleta-de-comandos-git/ "Git: Mini Tutorial y chuleta de comandos"
+[2]: https://elbauldelprogramador.com/como-instalar-nginx-con-php5-fpm/ "Cómo instalar y configurar Nginx con php5-fpm"
+[3]: https://elbauldelprogramador.com/introduccion-a-ruby/ "Introducción rápida a Ruby"
+[4]: https://elbauldelprogramador.com/recibir-alertas-de-correo-ssh/ "Recibir alertas de correo al acceder al  sistema mediante SSH"
+[5]: http://wp-cli.org/#install
