@@ -3,9 +3,8 @@ author: alex
 categories:
 - articulos
 - opensource
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-04-06T15:45:28+01:00
 mainclass: articulos
 url: /cronica-5-hackathon-de-la-osl-en-granada/
 tags:
@@ -26,14 +25,14 @@ El año pasado hablé del [3°][1] y [4°][2] Hackathón que organizó la Oficin
   * [Code-Reimagined][7]
   * [Particle Quest][8]
 
-#### Truco
+# Truco
 
 > **Trazador de RUtas de la COmpra**.
 > Truco es un proyecto de Software Libre inscrito en el Concurso Universitario de Software Libre del año 2011-2012, y retomado para el concurso 2012-2013. Está siendo desarrollado por Antonio Castillo Lora (@kamuisaeba) y Alejandro Martín Medina(@alexvisio).
 >
 > <a href="https://github.com/alexvisio/Truco" target="_blank">Código fuente</a> | <a href="http://trucocusl.wordpress.com/" target="_blank">Web</a>
 
-#### OSGiLiath
+# OSGiLiath
 
 > OSGiLiath (OSGi Laboratory for Implementation and Testing of metaHeuristics) is an open source framework for Service Oriented Evolutionary Algorithms.
 >
@@ -52,7 +51,7 @@ El año pasado hablé del [3°][1] y [4°][2] Hackathón que organizó la Oficin
 >   <strong> <a href="http://www.slideshare.net/fergunet/hackathon1" title="OSGiLiath + Processing" target="_blank">OSGiLiath + Processing</a> </strong> from <strong><a href="http://www.slideshare.net/fergunet" target="_blank">Pablo García</a></strong>
 > </div>
 >
-> #### Daf-Collage
+> # Daf-Collage
 >
 > > Daf-collage consiste en unos módulos para Moodle que ayudan en el aprendizaje del idioma alemán. Facilitando la organización de contenidos, como el vocabulario o los principales aspectos gramaticales, y la creación de ejercicios para afianzar los conocimientos.
 > >
@@ -60,13 +59,13 @@ El año pasado hablé del [3°][1] y [4°][2] Hackathón que organizó la Oficin
 > >
 > > <a href="https://github.com/seiya64/dafcollage" target="_blank">Código fuente</a> | <a href="http://dafcollage.wordpress.com/" target="_blank">Web</a>
 >
-> #### ZomBlind
+> # ZomBlind
 >
 > > Zomblind es un juego zombie-apocalíptico para Android. Seguro que ya has “vivido” esta situación, pero ahora no puedes ver a tus enemigos, solo oírlos… Pesnado para jugadores con discapacidad visual.
 > >
 > > <a href="https://github.com/deantares/zomblind" target="_blank">Código fuente</a> | <a href="http://web.deantares.es/zomblind/dejanos-tu-comentario/" target="_blank">Web</a>
 >
-> #### Code-Reimagined
+> # Code-Reimagined
 >
 > > The idea is simple: turn your java code into a super Mario game stage. Then you can follow Mario while debugging your code and quickly access any place on it. Many features are expected to be developed in the future, so stay connected if you like this. The code of the project is in a very early stage so don’t expect too much, the important thing is the idea behind
 > >
@@ -82,7 +81,7 @@ El año pasado hablé del [3°][1] y [4°][2] Hackathón que organizó la Oficin
 >
 > Puedes visitar la galería de fotos en *‘<a href="http://osl.ugr.es/galeria/index.php/Quinto-Hackathon-CUSL" target="_blank">Quinto-Hackathon-CUSL</a>’*
 >
-> #### Referencias
+> # Referencias
 >
 > *Más información* »» <a href="http://osl.ugr.es/2013/02/14/v-hackathon-de-proyectos-del-concurso-universitario-de-software-libre/" target="_blank">osl.ugr.es</a>
 >
