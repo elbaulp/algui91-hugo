@@ -1,20 +1,24 @@
 ---
-author: alex
+author: luzila
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-04-11T16:22:28+01:00
 mainclass: articulos
 url: /dejes-que-los-astronautas-de-arquitecturas-te-asusten/
 title: No dejes que los Astronautas de Arquitecturas te asusten
 ---
 
 > Encontrar las confusas líneas divisorias entre lo **ideal**, lo **viable** y lo **inaceptable** es un dilema siempre vigente en el diseño y desarrollo de sistemas.
->
+
+</br>
+
 > Este texto me hizo reflexionar mucho sobre el tema, más que nada porque en general yo disiento con el autor, por lo tanto me replanteé y revalué mis razones y argumentos. Considero de todas formas que son **necesarios** los distintos puntos de vista a la hora de tomar decisiones, y que en el momento de poner en marcha un proyecto es bueno tener premeditadas estas cuestiones ya que influirán en las diferentes etapas del desarrollo.
->
+
+</br>
+
 > Por último, creo que siempre la mejor decisión es la que se ajusta a la situación particular. Las generalizaciones sólo sirven para orientarnos en el análisis. *Luzcila*
+
 
 Cuando grandes pensadores piensan en problemas, empiezan a ver patrones. Miran el problema de la gente enviándose entre ellos archivos de procesador de texto, luego miran el problema de la gente enviándose hojas de cálculo, y descubren que hay un patrón general: *envío de archivos*. Ese ya es un nivel de abstracción. Entonces suben un nivel más: la gente envía archivos, pero los navegadores web también “envían” peticiones para las páginas web. Y cuando piensas en ésto, llamar a un método sobre un objeto ¡es como enviar un mensaje a un objeto! ¡Es lo mismo otra vez! Esas cosas son todas operaciones de envío, por lo tanto nuestros inteligentes pensadores inventan una nueva, más alta y más amplia abstracción llamada mensajería, pero ahora está volviéndose vaga y ya nadie sabe realmente de qué están hablando. Blah.
 
@@ -28,7 +32,7 @@ Un ejemplo ilustra esto: Tu típico Astronauta de arquitectura tomará un hecho 
 
 Todo lo que dicen es peer-to-peer esto, lo otro, y el resto. De repente tienes conferencias sobre P2P, fundaciones fondos del capital de riesgo para P2P, e incluso enfrentamientos sobre P2P con imbéciles reporteros empresariales que están más que satisfechos mientras se copian sus historias: “Punto-a-punto: ¡Muerte!
 
-Los Astronautas de Arquitectura dirán cosas como “*¿Podrías imaginar un programa como Napster donde puedas descargar cualquier cosa, no solo canciones?*”. Entonces construirán aplicaciones como Groove, que piensan que son más general que Napster, pero las cuales parecen haber descuidado (o incluso olvidado) aquella pequeña característica que te permite tipear el nombre de una canción y luego escucharla &#8212; la característica que queríamos en primer lugar. Hablando de perder el punto… Si Napster no fuera P2P pero SI te permitiese tipear el nombre de una canción y luego escucharla, hubiese sido igual de popular.
+Los Astronautas de Arquitectura dirán cosas como “__¿Podrías imaginar un programa como Napster donde puedas descargar cualquier cosa, no solo canciones?__”. Entonces construirán aplicaciones como Groove, que piensan que son más general que Napster, pero las cuales parecen haber descuidado (o incluso olvidado) aquella pequeña característica que te permite tipear el nombre de una canción y luego escucharla &#8212; la característica que queríamos en primer lugar. Hablando de perder el punto… Si Napster no fuera P2P pero SI te permitiese tipear el nombre de una canción y luego escucharla, hubiese sido igual de popular.
 
 Otra cosa que les suele gustar hacer a los Astronautas de arquitectura es inventar una nueva arquitectura y decir que soluciona algo. Java, XML, Soap, XmlRpc, Hailstorm, .NET, Jini… oh dios, no lo puedo soportar. ¡Y eso sólo en los últimos 12 meses!
 No estoy diciendo nada malo de esas arquitecturas… Son definitivamente buenas arquitecturas. Lo que me molesta es la estupenda cantidad de espectativas milenarias que las rodean. ¿Recuerdas el white paper de Microsoft Dot Net?
@@ -56,9 +60,9 @@ Recuerda que los arquitectos resuelven problemas que ellos piensan que pueden re
 
 Es bueno que podamos utilizar XML ahora para los formatos por cable. Estupendo. Pero esto es tan interesante para mí como aprender que el supermercado utiliza camiones para obtener cosas del depósito. Aburrido. Mangos, eso es interesante. Dime algo nuevo que pueda hacer que no podía antes, o Astronautas, esperen en el espacio y no gasten mi tiempo nunca más.
 
-### Referencias
+# Referencias
 
-*Joel on Software* »» <a href="http://www.joelonsoftware.com/articles/fog0000000018.html" target="_blank">Visitar sitio</a>
+- *Joel on Software* »» <a href="http://www.joelonsoftware.com/articles/fog0000000018.html" target="_blank">Visitar sitio</a>
 
 
 
