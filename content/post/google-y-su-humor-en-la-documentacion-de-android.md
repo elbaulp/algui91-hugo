@@ -16,7 +16,7 @@ tags:
 - LIKE_TRANSACTION android
 - Log.wtf android
 - TWEET_TRANSACTION android
-title: "Google y su humor en la documentaci\xF3n de Android"
+title: "Google y su humor en la documentación de Android"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/monkey-phone-300x269.jpg" alt="isUserAMonkey Android" width="300px" height="269px" />][1]

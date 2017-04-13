@@ -5,14 +5,14 @@ categories:
 date: 2015-07-06 19:00:00
 lastmod: 2017-03-23T14:05:11+01:00
 description: "\xBFConoces el SDK PlugPDF? Esta API te permite trabajar con documentos  PDF de forma nativa, tanto en Android como en iOS."
-image: "Lector PDF Android con barra de navegaci\xF3n.jpg"
+image: "Lector PDF Android con barra de navegación.jpg"
 mainclass: java
 tags:
 - android
 - pdf
 - plugpdf
 - lector pdf android
-title: "C\xF3mo Programar Un Completo Lector PDF en Android"
+title: "Cómo Programar Un Completo Lector PDF en Android"
 ---
 
 ¿Conoces el SDK PlugPDF? Esta API te permite trabajar con documentos PDF de forma nativa, tanto en [Android](/curso-programacion-android "Curso android") como en iOS.
@@ -28,43 +28,43 @@ En este tutorial te vamos a enseñar cómo poner en tus apps Android un completo
 <!--more--><!--ad-->
 
 <figure>
-<amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Lector PDF Android con barra de navegación.jpg" title="C\xF3mo Programar Un Completo Lector PDF en Android" alt="C\xF3mo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+<amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Lector PDF Android con barra de navegación.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 1. Lector PDF Android que incluye una barra de navegación con varios controles</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Bloquear la rotación.jpg" title="C\xF3mo Programar Un Completo Lector PDF en Android" alt="C\xF3mo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Bloquear la rotación.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 2. Bloquear la rotación</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Modo de visualización de la página.jpg" title="C\xF3mo Programar Un Completo Lector PDF en Android" alt="C\xF3mo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Modo de visualización de la página.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 3. Modo de visualización</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Brillo.jpg" title="C\xF3mo Programar Un Completo Lector PDF en Android" alt="C\xF3mo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Brillo.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 4. Brillo</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/outline.jpg" title="C\xF3mo Programar Un Completo Lector PDF en Android" alt="C\xF3mo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/outline.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 5. Outline</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Búsqueda de texto.jpg" title="C\xF3mo Programar Un Completo Lector PDF en Android" alt="C\xF3mo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Búsqueda de texto.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 6. Búsqueda de texto</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Insertar anotaciones.jpg" title="C\xF3mo Programar Un Completo Lector PDF en Android" alt="C\xF3mo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Insertar anotaciones.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 7. Insertar anotaciones: subrayar texto, tachado, dibujo a mano alzada, etc.</figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ En aplicaciones Android más complejas que cuentan con varias clases, es recomen
 Ahora vamos a crear un proyecto Android nuevo que llamaremos `SimpleDocumentReader`, y justo a continuación, importaremos PlugPDF como un módulo nuevo. La estructura de la aplicación tiene que quedar como sigue.
 
 <figure>
-  <amp-img sizes="(min-width: 429px) 429px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Estructura de la aplicación.jpg" title="C\xF3mo Programar Un Completo Lector PDF en Android" alt="C\xF3mo Programar Un Completo Lector PDF en Android" width="429px" height="562px" />
+  <amp-img sizes="(min-width: 429px) 429px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Estructura de la aplicación.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="429px" height="562px" />
   <figcaption>Figura 8. Estructura de la aplicación</figcaption>
 </figure>
 

@@ -14,7 +14,7 @@ tags:
 - gpl
 - licencias GPL
 - software libre
-title: "Imponiendo GPL usando t\xE9cnicas de Judo"
+title: "Imponiendo GPL usando técnicas de Judo"
 ---
 
 *&#8220;En judo, el objetivo es aprovechar el impulso del atacante para defenderse, y eso es exactamente lo que hace el copyleft&#8221;*

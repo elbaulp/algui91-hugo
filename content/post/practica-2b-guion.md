@@ -13,7 +13,7 @@ tags:
 - paridad
 - peso hamming
 - popcount
-title: "Optimizando c\xF3digo y evaluando el rendimiento"
+title: "Optimizando código y evaluando el rendimiento"
 ---
 
 Hace un més aproximadamente terminó el plazo de entrega de la práctica que voy a hablar hoy, lo que me permite hablaros de la misma.

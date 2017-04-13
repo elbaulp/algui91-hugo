@@ -4,9 +4,9 @@ categories:
 - dev
 color: '#E64A19'
 date: 2016-04-19 08:48:34
-description: "Hace tiempo me encontr\xE9 con el problema de tener que construir una
-  lista de la forma m\xE1s eficiente posible, sin usar bucles for, ya que era el c\xF3digo
-  de una MetaHeur\xEDstica y deb\xEDa evaluarse miles de veces. el c\xF3digo original
+description: "Hace tiempo me encontré con el problema de tener que construir una
+  lista de la forma más eficiente posible, sin usar bucles for, ya que era el código
+  de una MetaHeurística y debía evaluarse miles de veces. el código original
   era el siguiente"
 image: python-lista-de-listas-eficiente.png
 lastmod: 2016-08-09
@@ -15,7 +15,7 @@ mainclass: dev
 modified: null
 tags:
 - python
-- "optimizaci\xF3n de c\xF3digo"
+- "optimización de código"
 - list comprehensions python
 - crear lista de listas
 - codigo eficiente python

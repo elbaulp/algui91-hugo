@@ -4,7 +4,7 @@ categories:
 - android
 - curiosidades
 date: 2012-01-01
-description: "Si te gusta jugar con tu Android, estos C\xF3digos secretos y ocultos  para Android son para t\xED. Con ellos tendr\xE1s mejor control de tu dispositivo  Android."
+description: "Si te gusta jugar con tu Android, estos Códigos secretos y ocultos  para Android son para tí. Con ellos tendrás mejor control de tu dispositivo  Android."
 image: 2013/07/iconoAndroid.png
 lastmod: 2017-03-07T17:47:43+01:00
 mainclass: android
@@ -15,7 +15,7 @@ tags:
 - curso android pdf
 - menu oculto android
 - menu oculto tablet android
-title: "C\xF3digos secretos y ocultos para Android"
+title: "Códigos secretos y ocultos para Android"
 ---
 
 Si te gusta jugar con tu <a href="/curso-programacion-android/" title="Curso Android" target="_blank">Android</a>, estos Códigos secretos y ocultos para Android son para tí. Con ellos tendrás mejor control de tu dispositivo Android.

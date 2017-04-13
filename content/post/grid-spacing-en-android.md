@@ -5,12 +5,12 @@ categories:
 - articulos
 color: '#689F38'
 date: '2016-01-01'
-description: "La mayor\xEDa de interfaces de usuario (en m\xF3viles o web) se basan
+description: "La mayoría de interfaces de usuario (en móviles o web) se basan
   en el concepto de [rejillas][3] (**Grids** a partir de ahora). Los **Grids** consisten
-  b\xE1sicamente en separar la interfaz de usuario en una serie de cuadrados alineados
+  básicamente en separar la interfaz de usuario en una serie de cuadrados alineados
   que pueden ser fusionados para crear bloques. Usando el principio Grid en el desarrollo
   de la UI (Interfaz de usuario) ayuda a alinear elementos, trae consistencia, genera
-  un c\xF3digo limpio, asegura que el usuario pueda analizar f\xE1cilmente el contenido
+  un código limpio, asegura que el usuario pueda analizar fácilmente el contenido
   de la interfaz etc. En resumen, los **Grids** son una herramienta de dise\xF1o extremadamante
   potentes."
 image: 2014/12/Grid-Spacing-en-Android-take_2_1.png

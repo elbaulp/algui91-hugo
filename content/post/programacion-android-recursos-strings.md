@@ -13,7 +13,7 @@ tags:
 - curso android pdf
 - recursos android
 - strings android
-title: "Programaci\xF3n Android: Recursos - Strings"
+title: "Programación Android: Recursos - Strings"
 ---
 
 ## Introducción

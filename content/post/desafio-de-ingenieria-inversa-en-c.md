@@ -11,7 +11,7 @@ url: /desafio-de-ingenieria-inversa-en-c/
 tags:
 - asm
 - Ingenieria inversa
-title: "Desaf\xEDo de ingenier\xEDa inversa en C"
+title: "Desafío de ingeniería inversa en C"
 ---
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/logicbomb1.png" alt="" title="Bomba" width="532px" height="449px" />

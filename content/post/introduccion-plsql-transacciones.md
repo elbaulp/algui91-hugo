@@ -10,7 +10,7 @@ mainclass: BaseDeDatos
 url: /introduccion-plsql-transacciones/
 tags:
 - transacciones sql
-title: "Introducci\xF3n a PL/SQL. Transacciones"
+title: "Introducción a PL/SQL. Transacciones"
 ---
 
 ### Transacciones

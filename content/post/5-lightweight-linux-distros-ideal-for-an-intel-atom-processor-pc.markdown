@@ -11,7 +11,7 @@ tags:
 - manuales
 - libros
 - linux
-title: "Gu\xEDa Gratuita: 5 Lightweight Linux Distros Ideal for an Intel Atom Processor
+title: "Guía Gratuita: 5 Lightweight Linux Distros Ideal for an Intel Atom Processor
   PC"
 lastmod: 2017-01-28
 ---

@@ -5,13 +5,13 @@ categories:
 date: '2016-01-01'
 lastmod: 2017-02-15
 description: "En linux, existe un comando llamado locate que busca archivos en nuestro
-  sistema de ficheros haciendo consultas a una base de datos, la descripci\xF3n seg\xFAn
+  sistema de ficheros haciendo consultas a una base de datos, la descripción según
   su man es:"
 image: 2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.png
 mainclass: linux
 url: /buscar-archivos-con-locate-mediante-expresiones-regulares-complejas/
 tags:
-- "crear lista de reproducci\xF3n"
+- "crear lista de reproducción"
 - ejemplos locate
 - expresiones regulares linux
 - locate

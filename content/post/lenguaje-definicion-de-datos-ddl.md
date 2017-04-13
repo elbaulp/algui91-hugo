@@ -13,7 +13,7 @@ tags:
 - concepto de ddl
 - que es un ddl
 - sentencias dml y ddl
-title: "Lenguaje Definici\xF3n de Datos (DDL) - \xCDndices y secuencias"
+title: "Lenguaje Definición de Datos (DDL) - \xCDndices y secuencias"
 ---
 
 ## Creación de un índice

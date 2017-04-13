@@ -5,8 +5,8 @@ categories:
 - python
 date: '2016-01-01'
 lastmod: 2017-04-02T19:30:06+01:00
-description: "En esta serie de 5 art\xEDculos, veremos c\xF3mo crear desde cero un  m\xF3dulo que podamos importar en nuestra aplicaci\xF3n *python*. Al finalizar,  tendremos creado un m\xF3dulo llamado **herramientasRed** con el que podremos obtener  la direcci\xF3n ip de un dominio, al igual que hicimos en el art\xEDculo NDK-gdb  \u2013 Depurar aplicaciones en el NKD de Android, para ello ser\xE1 necesario usar  la Python C API."
-image: "2013/03/Crear-un-m\xF3dulo-para-python-con-la-Python-C-API-Parte-I.png"
+description: "En esta serie de 5 artículos, veremos cómo crear desde cero un  módulo que podamos importar en nuestra aplicación *python*. Al finalizar,  tendremos creado un módulo llamado **herramientasRed** con el que podremos obtener  la dirección ip de un dominio, al igual que hicimos en el artículo NDK-gdb  \u2013 Depurar aplicaciones en el NKD de Android, para ello será necesario usar  la Python C API."
+image: "2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"
 mainclass: dev
 url: /crear-modulo-python-con-python-c-api-1/
 tags:
@@ -16,7 +16,7 @@ tags:
 - tutorial python c api
 - python
 - python C API
-title: "Crear un m\xF3dulo para python con la Python C API (I) - Introducci\xF3n"
+title: "Crear un módulo para python con la Python C API (I) - Introducción"
 ---
 
 * Crear un módulo para python con la Python C API (I) – Introducción
@@ -26,7 +26,7 @@ title: "Crear un m\xF3dulo para python con la Python C API (I) - Introducci\xF3n
 * [Crear un módulo para python con la Python C API (V) – Python 3][4]
 
 <figure>
-  <a href="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"><amp-img sizes="(min-width: 201px) 201px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png" title="Crear un m\xF3dulo para python con la Python C API (I) - Introducci\xF3n" alt="Crear un m\xF3dulo para python con la Python C API (I) - Introducci\xF3n" width="201px" height="190px" /></a>
+  <a href="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"><amp-img sizes="(min-width: 201px) 201px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png" title="Crear un módulo para python con la Python C API (I) - Introducción" alt="Crear un módulo para python con la Python C API (I) - Introducción" width="201px" height="190px" /></a>
 </figure>
 
 En esta serie de 5 artículos, veremos cómo crear desde cero un módulo que podamos importar en nuestra aplicación *python*. Al finalizar, tendremos creado un módulo llamado **herramientasRed** con el que podremos obtener la dirección ip de un dominio, al igual que hicimos en el artículo [NDK-gdb – Depurar aplicaciones en el NKD de Android][5], para ello será necesario usar la Python C API.

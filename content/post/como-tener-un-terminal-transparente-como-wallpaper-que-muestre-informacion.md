@@ -23,7 +23,7 @@ tags:
 - tilda
 - wallpaper
 - xrootconsole
-title: "C\xF3mo tener un terminal transparente como wallpaper que muestre informaci\xF3n"
+title: "Cómo tener un terminal transparente como wallpaper que muestre información"
 ---
 
 Hoy traigo tres programas que me han resultado muy interesantes. Se trata de *xrootconsole*, *tilda* y *eterm*. Programas que permiten tener un terminal transparente de fondo de pantalla que muestre información para casi cualquier cosa que queramos. Por ejemplo logs del sistema, [htop][1] dmesg etc. Empecemos con xrootconsole:

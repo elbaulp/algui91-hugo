@@ -4,7 +4,7 @@ categories:
 - articulos
 date: '2016-01-01'
 lastmod: 2017-04-06T19:41:30+01:00
-description: "Hay tantos formatos de sonido que podemos hacernos un l\xEDo a la hora  de decidir cual usar, cual aporta mayor calidad al sonido... echemos una vista r\xE1pida  a los distintos formatos existentes:"
+description: "Hay tantos formatos de sonido que podemos hacernos un lío a la hora  de decidir cual usar, cual aporta mayor calidad al sonido... echemos una vista rápida  a los distintos formatos existentes:"
 image: 2012/07/original1.jpg
 mainclass: articulos
 url: /cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir/
@@ -33,7 +33,7 @@ tags:
 - calidades de audio
 - formatos alac
 - audio
-title: "\xBFCual es la diferencia entre los distintos formatos de audio, y cual deber\xEDa  elegir?"
+title: "\xBFCual es la diferencia entre los distintos formatos de audio, y cual debería  elegir?"
 ---
 
 <figure>

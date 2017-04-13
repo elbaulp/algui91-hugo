@@ -4,12 +4,12 @@ categories:
 - how to
 color: '#F57C00'
 date: '2016-01-01'
-description: "Hace tiempo, cuando migramos de blogger a WordPress escribimos un art\xEDculo
-  sobre c\xF3mo realizar la migraci\xF3n sin perder el posicionamiento web. Una parte
+description: "Hace tiempo, cuando migramos de blogger a WordPress escribimos un artículo
+  sobre cómo realizar la migración sin perder el posicionamiento web. Una parte
   fundamental para mantener ese posicionamiento es conseguir que los enlaces sigan
   funcionando. Para ello existe un plugin que he estado usando hasta ahora. Sin embargo
   he decicido dejar de usarlo y sustituir todos los enlaces antiguos por los nuevos
-  usando expresiones regulares. En \xE9ste art\xEDculo veremos c\xF3mo aplicar este
+  usando expresiones regulares. En éste artículo veremos cómo aplicar este
   cambio."
 image: 2014/01/Sustituir-los-enlaces-de-blogger-por-los-de-Wordpress-al-migrar-de-plataforma1.png
 lastmod: 2015-12-28

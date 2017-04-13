@@ -4,7 +4,7 @@ categories:
 - dev
 color: '#E64A19'
 date: 2016-07-30 16:27:54
-description: "C\xF3mo implementar correctamente amp-mustache y evitar errores en Jekyll"
+description: "Cómo implementar correctamente amp-mustache y evitar errores en Jekyll"
 image: error-al-implementar-amp-mustache.png
 introduction: null
 
@@ -14,7 +14,7 @@ tags:
 - amp-mustache
 - amp-pages
 - error amp-mustache
-title: "C\xF3mo solucionar errores Al Implementar Amp-mustache"
+title: "Cómo solucionar errores Al Implementar Amp-mustache"
 ---
 
 # Amp-mustache da error al sustituir las etiquetas #

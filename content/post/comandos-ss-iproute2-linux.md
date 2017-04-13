@@ -5,7 +5,7 @@ categories:
 - linux
 date: '2016-01-01'
 lastmod: 2017-03-08T10:40:30+01:00
-description: "El prop\xF3sito de iproute2 es reemplazar el conjunto de herramientas  que componen las net-tools y pasar a ser \xE9l quien se encargue de configurar las  interfaces de red, la tabla de rutas y gestionar la tabla ARP."
+description: "El propósito de iproute2 es reemplazar el conjunto de herramientas  que componen las net-tools y pasar a ser él quien se encargue de configurar las  interfaces de red, la tabla de rutas y gestionar la tabla ARP."
 image: 2012/07/sh1.png
 mainclass: linux
 url: /comandos-ss-iproute2-linux/
@@ -27,7 +27,7 @@ tags:
 - ss
 - tc iproute2 debian
 - UDP
-title: "Algunos comandos \xFAtiles con iproute2"
+title: "Algunos comandos útiles con iproute2"
 ---
 
 El propósito de **iproute2** es reemplazar el conjunto de herramientas que componen las *net-tools* y pasar a ser él quien se encargue de configurar las interfaces de red, la [tabla de rutas][1] y gestionar la tabla ARP.

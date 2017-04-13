@@ -7,8 +7,8 @@ categories:
 date: '2016-01-01'
 lastmod: 2017-02-08
 description: "En la esfera social de bookmark (\u201Csocialbookmarkosphere\u201D)
-  se habla insistentemente de las \u201CTablas Arcoiris\u201C, cu\xE1l es el significado
-  real de password security, y por qu\xE9 demuestran que Microsoft hizo un trabajo
+  se habla insistentemente de las \u201CTablas Arcoiris\u201C, cuál es el significado
+  real de password security, y por qué demuestran que Microsoft hizo un trabajo
   de mala calidad en la seguridad de Windows for Workgroups *hace 15 a\xF1os.*"
 mainclass: articulos
 url: /basta-con-las-tablas-arcoiris-lo-que-necesitas-saber-sobre-esquemas-de-contrasenas-seguras/

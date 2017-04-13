@@ -12,7 +12,7 @@ lastmod: 2016-09-12
 
 mainclass: articulos
 url: /nueva-seccion-descarga-de-manuales/
-title: "Nueva secci\xF3n: Descarga de Manuales gratuitos"
+title: "Nueva sección: Descarga de Manuales gratuitos"
 ---
 
 He añadido una nueva entrada al menu superior, [Manuales Gratuitos][1], al que podéis acceder pulsando en el botón del menú.

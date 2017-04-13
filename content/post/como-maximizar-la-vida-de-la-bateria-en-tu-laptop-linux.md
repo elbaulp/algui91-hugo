@@ -4,7 +4,7 @@ categories:
 - articulos
 date: '2016-01-01'
 lastmod: 2017-03-22T10:17:38+01:00
-description: "Ahorro de energ\xEDa es el tema hot para los usuarios de laptop que  necesitan tener las cosas hechas cuando est\xE1n en movimiento y corriendo con el  l\xEDmite de energ\xEDa de la bater\xEDa. Aqu\xED hay una lista de ingeniosos trucos  Linux para ahorrar la energ\xEDa de tu bater\xEDa."
+description: "Ahorro de energía es el tema hot para los usuarios de laptop que  necesitan tener las cosas hechas cuando están en movimiento y corriendo con el  límite de energía de la batería. Aquí hay una lista de ingeniosos trucos  Linux para ahorrar la energía de tu batería."
 mainclass: articulos
 url: /como-maximizar-la-vida-de-la-bateria-en-tu-laptop-linux/
 tags:
@@ -14,7 +14,7 @@ tags:
 - kernel
 - laptop
 - optimizar energia en ubuntu
-title: "C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
+title: "Cómo maximizar la Vida de la Batería en tu Laptop Linux"
 ---
 
 <figure>
@@ -25,8 +25,8 @@ title: "C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
             tabindex="0"
             layout="responsive"
             src="/img/2012/07/sshot4cb822438c27c1.jpg"
-            alt="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
-            title="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
+            alt="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
+            title="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
             sizes="(min-width: 650px) 650px, 100vw"
             width="650"
             height="306">
@@ -60,8 +60,8 @@ Te mostraremos algunos consejos básicos de ahorro de energía de la batería y 
             tabindex="0"
             layout="responsive"
             src="/img/2012/07/linux_wallpaper1.jpg"
-            alt="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
-            title="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
+            alt="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
+            title="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
             sizes="(min-width: 500px) 500px, 100vw"
             width="500"
             height="37">
@@ -80,8 +80,8 @@ Ubuntu viene con un módulo de manejo de energía que nos da un control básico 
             tabindex="0"
             layout="responsive"
             src="/img/2012/07/battery_power1.png"
-            alt="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
-            title="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
+            alt="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
+            title="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
             sizes="(min-width: 620px) 620px, 100vw"
             width="620"
             height="457">
@@ -108,8 +108,8 @@ Podemos extender la vida de la batería seleccionando estas opciones de la panta
             tabindex="0"
             layout="responsive"
             src="/img/2012/07/wifi1.jpg"
-            alt="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
-            title="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
+            alt="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
+            title="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
             sizes="(min-width: 500px) 500px, 100vw"
             width="500"
             height="375">
@@ -142,8 +142,8 @@ sudo iwconfig wlan0 txpower on
             tabindex="0"
             layout="responsive"
             src="/img/2012/07/4503427549_5ee84b6ea51.jpg"
-            alt="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
-            title="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
+            alt="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
+            title="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
             sizes="(min-width: 500px) 500px, 100vw"
             width="500"
             height="337">
@@ -168,8 +168,8 @@ echo 1 &gt; /sys/devices/system/cpu/sched_mc_power_savings
             tabindex="0"
             layout="responsive"
             src="/img/2012/07/harddisk1.jpg"
-            alt="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
-            title="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
+            alt="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
+            title="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
             sizes="(min-width: 500px) 500px, 100vw"
             width="500"
             height="334">
@@ -260,8 +260,8 @@ A continuación vemos un ejemplo de análisis de PowerTOP en el consumo de energ
             tabindex="0"
             layout="responsive"
             src="/img/2012/07/powertop1.png"
-            alt="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
-            title="C\xF3mo maximizar la Vida de la Bater\xEDa en tu Laptop Linux"
+            alt="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
+            title="Cómo maximizar la Vida de la Batería en tu Laptop Linux"
             sizes="(min-width: 534px) 534px, 100vw"
             width="534"
             height="514">

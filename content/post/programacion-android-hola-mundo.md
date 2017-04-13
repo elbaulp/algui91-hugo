@@ -12,7 +12,7 @@ url: /programacion-android-hola-mundo/
 tags:
 - curso android pdf
 - hola mundo android
-title: "Programaci\xF3n Android: Hola Mundo"
+title: "Programación Android: Hola Mundo"
 ---
 
 > Hay una versión más actualizada, visita [Tutorial Android - Hola Mundo a Fondo](https://elbauldelprogramador.com/android/tutorial-android-hola-mundo-a-fondo/ "Tutorial Android - Hola Mundo a Fondo").

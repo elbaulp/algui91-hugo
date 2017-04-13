@@ -4,11 +4,11 @@ categories:
 - misc
 color: '#61B38D'
 date: 2016-06-24 06:06:58
-description: "Listado de los feeds por categor\xEDas disponibles para los lectores"
-introduction: "Listado de los feeds por categor\xEDas disponibles para los lectores"
+description: "Listado de los feeds por categorías disponibles para los lectores"
+introduction: "Listado de los feeds por categorías disponibles para los lectores"
 
 mainclass: misc
-title: "Rss Feeds Para Cada Categor\xEDa"
+title: "Rss Feeds Para Cada Categoría"
 ---
 
 Puede que solo te interesen algunas publicaciones del blog y no desees recibir todos y cada uno de los artículos que se escriben.

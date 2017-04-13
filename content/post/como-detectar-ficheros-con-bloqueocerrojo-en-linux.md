@@ -3,7 +3,7 @@ author: alex
 categories:
 - linux
 date: '2016-01-01'
-description: "Este art\xEDculo tiene su origen en una pregunta a la que respond\xED  en *serverfault*, el usuario preguntaba *How to detect exceptionally long file locks  in linux?*. Aunque mi respuesta no solucion\xF3 su problema, creo que la explicaci\xF3n  puede ser de utilidad para alguien. A continuaci\xF3n escribo la traducci\xF3n de  mi respuesta al usuario"
+description: "Este artículo tiene su origen en una pregunta a la que respondí  en *serverfault*, el usuario preguntaba *How to detect exceptionally long file locks  in linux?*. Aunque mi respuesta no solucionó su problema, creo que la explicación  puede ser de utilidad para alguien. A continuación escribo la traducción de  mi respuesta al usuario"
 image: como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg
 lastmod: 2017-03-20T10:05:15+01:00
 mainclass: linux
@@ -15,11 +15,11 @@ tags:
 - file locks
 - flock
 - locks
-title: "\xBFC\xF3mo detectar ficheros con bloqueo/cerrojo en Linux?"
+title: "\xBFCómo detectar ficheros con bloqueo/cerrojo en Linux?"
 ---
 
 <figure>
-<a href="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg" title="\xBFC\xF3mo detectar ficheros con bloqueo/cerrojo en Linux?" alt="\xBFC\xF3mo detectar ficheros con bloqueo/cerrojo en Linux?" width="640px" height="640px" /></a>
+<a href="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg" title="\xBFCómo detectar ficheros con bloqueo/cerrojo en Linux?" alt="\xBFCómo detectar ficheros con bloqueo/cerrojo en Linux?" width="640px" height="640px" /></a>
 <span class="image-credit">Crédito de la imagen: pixabay.com</span>
 </figure>
 

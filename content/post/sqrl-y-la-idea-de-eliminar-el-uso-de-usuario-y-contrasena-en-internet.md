@@ -8,7 +8,7 @@ date: '2016-01-01'
 mainclass: security-now
 url: /sqrl-y-la-idea-de-eliminar-el-uso-de-usuario-y-contrasena-en-internet/
 tags:
-- "metodos de autenticaci\xF3n"
+- "metodos de autenticación"
 - metodos de autentificacion
 - security now SQRL
 - SQRL

@@ -14,7 +14,7 @@ tags:
 - curso android pdf
 - intents android
 - startactivityforresult android example
-title: "Fundamentos programaci\xF3n Android: Intents y AndroidManifest"
+title: "Fundamentos programación Android: Intents y AndroidManifest"
 ---
 
 ## Intents

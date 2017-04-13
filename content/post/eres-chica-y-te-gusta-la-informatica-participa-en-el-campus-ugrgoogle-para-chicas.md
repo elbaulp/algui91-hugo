@@ -10,9 +10,9 @@ url: /eres-chica-y-te-gusta-la-informatica-participa-en-el-campus-ugrgoogle-para
 tags:
 - campus ugr google
 - etsiit
-- "ingenier\xEDa para chicas"
+- "ingeniería para chicas"
 - ugr
-title: "\xBFEres chica y te gusta la inform\xE1tica?, participa en el campus UGR/Google
+title: "\xBFEres chica y te gusta la informática?, participa en el campus UGR/Google
   para chicas"
 ---
 

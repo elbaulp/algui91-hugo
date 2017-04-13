@@ -4,7 +4,7 @@ categories:
 - dev
 color: '#E64A19'
 date: 2016-04-06 19:24:34
-description: "Declaraci\xF3n De Variables Entre El Nombre De La Funci\xF3n Y La Primera
+description: "Declaración De Variables Entre El Nombre De La Función Y La Primera
   Llave en C"
 lastmod: 2016-08-09
 
@@ -14,7 +14,7 @@ tags:
 - pre ansi C stilo
 - declarar variables antes de funcion C
 - "sintaxis extra\xF1a C"
-title: "Declaraci\xF3n De Variables Entre El Nombre De La Funci\xF3n Y La Primera
+title: "Declaración De Variables Entre El Nombre De La Función Y La Primera
   Llave en C"
 ---
 

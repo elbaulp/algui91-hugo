@@ -12,7 +12,7 @@ url: /programacion-android-recursos-usando/
 tags:
 - curso android pdf
 - recursos android
-title: "Programaci\xF3n Android: Recursos - Usando recursos"
+title: "Programación Android: Recursos - Usando recursos"
 ---
 
 A todos los recursos que colocamos en las subcarpetas de ./res/ se puede acceder a través de la clase R de nuestro proyecto.

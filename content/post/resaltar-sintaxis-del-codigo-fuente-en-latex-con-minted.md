@@ -17,7 +17,7 @@ tags:
 - resaltar sintaxis codigo latex
 - latex
 - colorear codigo fuente en latex
-title: "Resaltar sintaxis del c\xF3digo fuente en LaTeX con minted"
+title: "Resaltar sintaxis del código fuente en LaTeX con minted"
 ---
 
 Hace unas semanas que aprendí a usar $$\LaTeX$$, y cada vez me gusta más, proporciona una calidad a los documentos impecable. De hecho, estoy entregando las prácticas de la facultad en que he reescrito el [Curso de programación Android][1] por completo.

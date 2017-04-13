@@ -7,7 +7,7 @@ categories:
 color: '#2196F3'
 date: '2016-01-01'
 lastmod: 2017-03-15T18:26:24+01:00
-description: "El otro d\xEDa me hac\xEDa falta convertir cada una de las p\xE1ginas  de un documento pdf a im\xE1genes individuales, con un poco de b\xFAsqueda en google  lo solucion\xE9 y hoy lo comparto con vosotros."
+description: "El otro día me hacía falta convertir cada una de las páginas  de un documento pdf a imágenes individuales, con un poco de búsqueda en google  lo solucioné y hoy lo comparto con vosotros."
 mainclass: linux
 url: /como-convertir-un-archivo-pdf-a-imagenes/
 tags:
@@ -17,7 +17,7 @@ tags:
 - imagemagick
 - pdf a imagenes
 - pdf to imagen
-title: "C\xF3mo convertir un archivo pdf a im\xE1genes"
+title: "Cómo convertir un archivo pdf a imágenes"
 ---
 
 <figure>

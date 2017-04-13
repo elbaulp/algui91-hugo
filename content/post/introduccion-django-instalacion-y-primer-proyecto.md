@@ -12,7 +12,7 @@ url: /introduccion-django-instalacion-y-primer-proyecto/
 tags:
 - ejemplos django
 - instalar django
-title: "Introducci\xF3n a Django - Instalaci\xF3n y primer proyecto"
+title: "Introducción a Django - Instalación y primer proyecto"
 ---
 
 > Gracias a [@Jneight](https://github.com/jneight "Perfil en Github de @jneight") por actualizar este artículo!

@@ -15,7 +15,7 @@ tags:
 - ejemplos de firewall
 - seguridad en la red
 - seguridad firewall
-title: "Por qu\xE9 nuestro PC necesita un firewall activado"
+title: "Por qué nuestro PC necesita un firewall activado"
 ---
 
 Hace poco os hablé de [por qué Linux no era solo para geeks][1], sacando el tema de la seguridad, en este post se habla sobre la seguridad en la red

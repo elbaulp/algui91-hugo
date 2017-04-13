@@ -12,12 +12,12 @@ mainclass: security-now
 url: /lo-ultimo-en-criptografia-fully-homomorphic-encryption/
 tags:
 - cifrado determinista
-- "cifrado homom\xF3rfico"
+- "cifrado homomórfico"
 - cifrado probabilistico
-- "criptograf\xEDa"
+- "criptografía"
 - criptografia homomorfica
 - Fully Homomorphic Encryption
-title: "Lo \xFAltimo en criptograf\xEDa: Fully Homomorphic Encryption"
+title: "Lo último en criptografía: Fully Homomorphic Encryption"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Homomorphic Encryption" src="/img/2012/11/Apps-preferences-desktop-cryptography-icon1.png" alt="" width="256px" height="256px" />][1]

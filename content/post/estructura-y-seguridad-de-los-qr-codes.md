@@ -12,7 +12,7 @@ mainclass: security-now
 url: /estructura-y-seguridad-de-los-qr-codes/
 tags:
 - como funciona qr
-- "C\xF3mo funcionan los c\xF3digod QR"
+- "Cómo funcionan los códigod QR"
 - qr code
 - security now
 title: Estructura y seguridad de los QR Codes

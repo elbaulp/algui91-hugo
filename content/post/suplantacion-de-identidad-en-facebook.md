@@ -16,7 +16,7 @@ tags:
 - seguridad
 - smtp
 - spoofing facebook
-title: "Suplantaci\xF3n de identidad en Facebook"
+title: "Suplantación de identidad en Facebook"
 ---
 
 Leyendo el blog de <a href="http://www.elladodelmal.com/" target="_blank">Chema Alonso</a> me he encontrado con una entrada interesante que, aunque no he logrado realizarla al 100% quiero compartirla con vosotros para que lo intente quien quiera.

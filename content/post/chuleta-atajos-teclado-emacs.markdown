@@ -4,9 +4,9 @@ categories:
 - misc
 date: 2016-08-30 14:10:30
 lastmod: 2017-03-09T18:01:54+01:00
-description: "Emacs: Recopilaci\xF3n de comandos y acciones \xFAtiles"
+description: "Emacs: Recopilación de comandos y acciones útiles"
 image: chuleta-atajos-teclado-emacs.png
-introduction: "Emacs: Recopilaci\xF3n de comandos y acciones \xFAtiles"
+introduction: "Emacs: Recopilación de comandos y acciones útiles"
 mainclass: misc
 tags:
 - emacs

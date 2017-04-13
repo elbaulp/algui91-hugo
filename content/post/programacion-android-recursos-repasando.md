@@ -11,7 +11,7 @@ mainclass: android
 url: /programacion-android-recursos-repasando/
 tags:
 - curso android pdf
-title: "Programaci\xF3n Android: Recursos - Repasando la estructura del directorio
+title: "Programación Android: Recursos - Repasando la estructura del directorio
   de recursos"
 ---
 

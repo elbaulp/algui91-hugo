@@ -6,7 +6,7 @@ categories:
 - internet
 date: '2016-01-01'
 lastmod: 2017-03-13T16:13:17+01:00
-description: "En esta serie de art\xEDculos, intentar\xE9 explicar lo mejor posible  el funcionamiento de los servidores DNS, y c\xF3mo configurar el tuyo propio. Habr\xE1  una parte m\xE1s te\xF3rica sobre el funcionamiento del sistema, que es una traducci\xF3n  de un art\xEDculo en howtoforge."
+description: "En esta serie de artículos, intentaré explicar lo mejor posible  el funcionamiento de los servidores DNS, y cómo configurar el tuyo propio. Habrá  una parte más teórica sobre el funcionamiento del sistema, que es una traducción  de un artículo en howtoforge."
 image: 2013/04/dns.jpg
 mainclass: servidores
 url: /como-configurar-un-servidor-dns/
@@ -22,7 +22,7 @@ tags:
 - como crear una zona primaria en dns
 - configura un servidor dns
 - configuracion de namedconf
-- "configuraci\xF3n de servidores"
+- "configuración de servidores"
 - configuracion dns servidor dedicado
 - configuracion refresco zona dns
 - configuracion servidor dns
@@ -41,7 +41,7 @@ tags:
 - configurar zona reversa en dns linux
 - servidor
 - DNS
-title: "C\xF3mo configurar un servidor DNS - Parte 1 (Introducci\xF3n)"
+title: "Cómo configurar un servidor DNS - Parte 1 (Introducción)"
 ---
 
 <figure>
@@ -52,8 +52,8 @@ title: "C\xF3mo configurar un servidor DNS - Parte 1 (Introducci\xF3n)"
             tabindex="0"
             layout="responsive"
             src="/img/2013/04/dns.jpg"
-            alt="C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
-            title="C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
+            alt="Cómo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
+            title="Cómo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
             sizes="(min-width: 450px) 450px, 100vw"
             width="450"
             height="361">

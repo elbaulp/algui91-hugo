@@ -13,7 +13,7 @@ tags:
 - android studio tutorial
 - descargar por extension wget
 - wget
-title: "C\xF3mo descargar archivos de una web por extensi\xF3n con wget"
+title: "Cómo descargar archivos de una web por extensión con wget"
 ---
 
 Seguramente alguna vez hayas encontrado alguna web con montones de ficheros que te interesa descargarte, pero resulta un tanto arduo descargar los ficheros uno a uno. Si eres usuario Linux seguramente conozcas el comando *wget*. Este comando permite descargar todo el contenido de una web por extensión, de modo que si queremos descargar todos los ficheros con extensión *tar.gz* basta con ejecutar el siguiente comando:

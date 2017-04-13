@@ -8,7 +8,7 @@ mainclass: articulos
 url: /crea-scripts-para-las-aplicaciones-de-google-con-apps-script/
 tags:
 - Gmail Inbox Statistics Report
-- "Informe estad\xEDstico mensual de GMail"
+- "Informe estadístico mensual de GMail"
 title: Crea scripts para las aplicaciones de Google con Apps Script
 ---
 

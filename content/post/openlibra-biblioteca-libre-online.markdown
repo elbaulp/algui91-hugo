@@ -14,7 +14,7 @@ tags:
 - openlibra
 - biblioteca online
 - descargar libros gratis
-title: "OpenLibra Cumple 5 A\xF1os Y Estrena Versi\xF3n 2.0"
+title: "OpenLibra Cumple 5 A\xF1os Y Estrena Versión 2.0"
 ---
 
 <figure>

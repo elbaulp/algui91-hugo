@@ -16,7 +16,7 @@ tags:
 - cursos
 - pdfs
 - ebooks gratuitos
-title: "Nueva Gu\xEDa: The Essentials of Information Security Kit"
+title: "Nueva Guía: The Essentials of Information Security Kit"
 ---
 
 <figure>

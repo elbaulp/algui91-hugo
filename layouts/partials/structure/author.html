@@ -1,4 +1,39 @@
 {{ $author := index .Site.Data.authors .Params.author }}
+{{ $postUrl := .Permalink | relURL }}
+
+{{ range .Site.Data.related }}
+{{ if in . (string $postUrl) }}
+{{ first 1 (shuffle .) }}
+{{ end }}
+{{ end }}
+</br>
+
+{{ $url := "static/labels.csv" }}
+{{ $sep := "," }}
+{{ $file := string .File.LogicalName }}
+
+{{ range $i, $r := getCSV $sep $url }}
+
+{{ if in $r (string $file) }}
+{{ $.Scratch.Add "cluster" (index . 1) }}
+{{ end }}
+
+{{ $cluster := $.Scratch.Get "cluster" }}
+
+{{ if in $r (string $cluster) }}
+{{ $.Scratch.Add "related" (slice (index . 2)) }}
+{{ $.Scratch.Add "title" (slice (.)) }}
+{{ end }}
+{{ end }}
+
+{{ $related := $.Scratch.Get "related" }}
+{{ $title := $.Scratch.Get "title" }}
+{{ $title := first 5 (shuffle $title) }}
+
+{{ range $title }}
+<p><a href={{$.Ref (index . 2)}} title={{ index . 3}}>{{ index . 3 }}</a></p>
+{{ end }}
+
 <section class="author">
   <div class="details">
     <div id="author-photo">

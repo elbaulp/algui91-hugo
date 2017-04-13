@@ -4,16 +4,16 @@ categories:
 - linux
 color: '#2196F3'
 date: 2016-06-10 13:59:28
-description: "C\xF3mo aplicar una expresi\xF3n regular multil\xEDnea a ficheros"
+description: "Cómo aplicar una expresión regular multilínea a ficheros"
 image: Expresiones-Regulares-Multilinea.png
-introduction: "C\xF3mo aplicar una expresi\xF3n regular multil\xEDnea a ficheros"
+introduction: "Cómo aplicar una expresión regular multilínea a ficheros"
 
 mainclass: linux
 tags:
 - perl
 - regex
-- "expresiones multil\xEDnea"
-title: "Expresiones Regulares Multil\xEDnea"
+- "expresiones multilínea"
+title: "Expresiones Regulares Multilínea"
 ---
 
 Actualizando el diseño del blog he tenido que usar muchas [expresiones regulares](/introduccion-a-las-expresiones-regulares-en-python/ "Introducción a las expresiones regulares en python") para ajustar los artículos existentes al _Front Matter_ del nuevo tema. Mientras necesité remplazar únicamente cosas en una única línea pude usar [Atom](/instalar-atom-el-editor-de-github-en-linux/ "Instalar Atom, el editor de GitHub en Linux"). La cosa se complicó cuando quería solucionar el siguiente problema. Imaginemos esta configuración `yalm`:

@@ -4,13 +4,13 @@ categories:
 - misc
 color: null
 date: 2016-08-12 11:24:05
-description: "Descubra c\xF3mo impactan las aplicaciones web y los dispositivos m\xF3viles
-  sobre la capacidad de TI para defenderse con \xE9xito contra las amenazas cibern\xE9ticas,
-  y averig\xFCe por qu\xE9 SDN puede ser la soluci\xF3n."
+description: "Descubra cómo impactan las aplicaciones web y los dispositivos móviles
+  sobre la capacidad de TI para defenderse con éxito contra las amenazas cibernéticas,
+  y averig\xFCe por qué SDN puede ser la solución."
 image: guides/informe-sobre-defensa-frente-a-ciberamenazas-2015-por-cyberedge-group-full.jpg
-introduction: "Descubra c\xF3mo impactan las aplicaciones web y los dispositivos m\xF3viles
-  sobre la capacidad de TI para defenderse con \xE9xito contra las amenazas cibern\xE9ticas,
-  y averig\xFCe por qu\xE9 SDN puede ser la soluci\xF3n."
+introduction: "Descubra cómo impactan las aplicaciones web y los dispositivos móviles
+  sobre la capacidad de TI para defenderse con éxito contra las amenazas cibernéticas,
+  y averig\xFCe por qué SDN puede ser la solución."
 
 mainclass: misc
 modified: null

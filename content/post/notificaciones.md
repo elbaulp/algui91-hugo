@@ -18,7 +18,7 @@ tags:
 - menu android
 - notificaciones
 - android
-title: "Programaci\xF3n Android: Interfaz gr\xE1fica - Di\xE1logos y notificaciones"
+title: "Programación Android: Interfaz gráfica - Diálogos y notificaciones"
 ---
 
 En ocasiones hay que mostrar mensajes al usuario para informarle del estado de la aplicación, o del estado de las operaciones que se estén llevando a cabo.

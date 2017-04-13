@@ -5,10 +5,10 @@ categories:
 color: '#689F38'
 date: '2016-01-01'
 description: "Trabajando en el proyecto SWADroid \t(Fuente en Github), y tras pasar
-  la herramienta Lint, me encontr\xE9 con cientos de recursos sin usar, que deb\xEDa
-  eliminar a mano. Pens\xE9 que deb\xEDa existir alguna herramienta que permitiera
-  automatizar el proceso, y de hecho, ex\xEDste, Android Resource Remover. Hoy veremos
-  c\xF3mo usar \xE9sta herramienta para eliminar recursos sin usar en Android."
+  la herramienta Lint, me encontré con cientos de recursos sin usar, que debía
+  eliminar a mano. Pensé que debía existir alguna herramienta que permitiera
+  automatizar el proceso, y de hecho, exíste, Android Resource Remover. Hoy veremos
+  cómo usar ésta herramienta para eliminar recursos sin usar en Android."
 lastmod: 2015-12-24
 
 mainclass: android

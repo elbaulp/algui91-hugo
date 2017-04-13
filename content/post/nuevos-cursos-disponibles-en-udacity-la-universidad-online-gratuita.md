@@ -12,9 +12,9 @@ lastmod: 2016-08-05
 mainclass: misc
 url: /nuevos-cursos-disponibles-en-udacity-la-universidad-online-gratuita/
 tags:
-- "criptograf\xEDa"
+- "criptografía"
 - cursos online
-- "programaci\xF3n"
+- "programación"
 - reddit
 - udacity
 title: Nuevos Cursos disponibles en Udacity, la universidad online gratuita

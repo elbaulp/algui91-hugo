@@ -3,7 +3,7 @@ author: luzila
 categories:
 - articulos
 date: '2016-01-01'
-description: "El anonimato es algo que no existe hoy en d\xEDa. Todo lo que haces  es trackeado, desde las compras que haces para navegar en internet, hasta las fotos  que tomas con tu iPhone. Todo lo que alguna vez dijiste e hiciste en internet todav\xEDa  est\xE1 all\xED, en alg\xFAn lado. Esto es llamado *caching*. Por ejemplo, cuando  un sitio est\xE1 caido, puedes ver su p\xE1gina cacheada en Google."
+description: "El anonimato es algo que no existe hoy en día. Todo lo que haces  es trackeado, desde las compras que haces para navegar en internet, hasta las fotos  que tomas con tu iPhone. Todo lo que alguna vez dijiste e hiciste en internet todavía  está allí, en algún lado. Esto es llamado *caching*. Por ejemplo, cuando  un sitio está caido, puedes ver su página cacheada en Google."
 image: 2014/10/draft.jpg
 lastmod: 2017-03-20T11:17:03+01:00
 mainclass: articulos
@@ -14,7 +14,7 @@ tags:
 - redes sociales
 - seguridad
 - tracking
-title: "C\xF3mo eliminar tu identidad online: Gu\xEDa Fundamental para el Anonimato  y Seguridad en Internet"
+title: "Cómo eliminar tu identidad online: Guía Fundamental para el Anonimato  y Seguridad en Internet"
 ---
 
 > Esta es la traducción de un artículo que me pareció muy interesante para tener en cuenta si queremos ir implementando al menos algunas costumbres y buenas prácticas para navegar anónimamente en internet. Hay algunos tips que propone que no pueden aplicarse en todos los países, pero sin embargo vale la pena conocer las formas para que cada uno pueda pensar de qué forma puede lograrlo. *Luzcila*
@@ -23,7 +23,7 @@ El anonimato es algo que no existe hoy en día. Todo lo que haces es trackeado, 
 Por ejemplo, cuando un sitio está caido, puedes ver su página cacheada en Google.
 
 <figure>
-<a href="/img/2014/10/draft.jpg"><amp-img sizes="(min-width: 592px) 592px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/draft.jpg" title="C\xF3mo eliminar tu identidad online: Gu\xEDa Fundamental para el Anonimato  y Seguridad en Internet" alt="C\xF3mo eliminar tu identidad online: Gu\xEDa Fundamental para el Anonimato  y Seguridad en Internet" width="592px" height="312px" /></a>
+<a href="/img/2014/10/draft.jpg"><amp-img sizes="(min-width: 592px) 592px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/draft.jpg" title="Cómo eliminar tu identidad online: Guía Fundamental para el Anonimato  y Seguridad en Internet" alt="Cómo eliminar tu identidad online: Guía Fundamental para el Anonimato  y Seguridad en Internet" width="592px" height="312px" /></a>
 </figure>
 
 <!--more--><!--ad-->
@@ -185,7 +185,7 @@ Puedes:
 No te preocupes, puedes conservarlo. Necesitas asegurarte que las opciones de ubicación estén desactivadas. Por defecto, sé que el iTouch guarda tu ubicación GPS en cada foto que tomas. Si ésta aparece en algún momento en internet, ya se puede examinar en hexadecimal para determinar las coordenadas.
 
 <figure>
-<a href="/img/2014/10/remove-your-online-identity-ultimate-guide-anonymity-and-security-internet.w654.jpg"><amp-img sizes="(min-width: 381px) 381px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/remove-your-online-identity-ultimate-guide-anonymity-and-security-internet.w654.jpg" title="C\xF3mo eliminar tu identidad online: Gu\xEDa Fundamental para el Anonimato  y Seguridad en Internet" alt="C\xF3mo eliminar tu identidad online: Gu\xEDa Fundamental para el Anonimato  y Seguridad en Internet" width="381px" height="515px" /></a>
+<a href="/img/2014/10/remove-your-online-identity-ultimate-guide-anonymity-and-security-internet.w654.jpg"><amp-img sizes="(min-width: 381px) 381px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/remove-your-online-identity-ultimate-guide-anonymity-and-security-internet.w654.jpg" title="Cómo eliminar tu identidad online: Guía Fundamental para el Anonimato  y Seguridad en Internet" alt="Cómo eliminar tu identidad online: Guía Fundamental para el Anonimato  y Seguridad en Internet" width="381px" height="515px" /></a>
 </figure>
 
 El Explorador de Archivos de Windows (Windows File Explorer) además provee lectura de ubicación de GPS en su vista de propiedades

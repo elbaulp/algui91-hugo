@@ -12,7 +12,7 @@ lastmod: 2017-04-02T19:23:10+01:00
 mainclass: articulos
 tags:
 - algoritmos
-- "investigaci\xF3n"
+- "investigación"
 title: Crean Un Algoritmo Que Replica Tu Letra
 ---
 

@@ -18,7 +18,7 @@ tags:
 - objectmapper
 - serializar objetos json java
 - json
-title: "C\xF3mo mapear json a objetos Java con Jackson ObjectMapper"
+title: "Cómo mapear json a objetos Java con Jackson ObjectMapper"
 ---
 
 Hoy vamos a hablar de cómo usar la librería *Jackson* para mapear fácilmente un *Json* a objetos Java.

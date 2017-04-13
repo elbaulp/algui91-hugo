@@ -12,7 +12,7 @@ url: /programacion-android-insertando/
 tags:
 - curso android pdf
 - Insertando registros
-title: "Programaci\xF3n Android: Insertando registros"
+title: "Programación Android: Insertando registros"
 ---
 
 En la entrada anterior hablamos de cómo [obtener regístros][1] de los proveedores de contenidos (CV) usando [URIs][2]. Ahora vamos a ver como insertar registros.

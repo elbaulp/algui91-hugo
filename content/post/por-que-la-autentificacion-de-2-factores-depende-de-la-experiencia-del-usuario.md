@@ -9,10 +9,10 @@ lastmod: 2016-08-15
 mainclass: articulos
 url: /por-que-la-autentificacion-de-2-factores-depende-de-la-experiencia-del-usuario/
 tags:
-- "problemas autentificaci\xF3n de 2 factores"
-- "que es autentificaci\xF3n de 2 factores"
-- "usuarios autentificaci\xF3n de 2 factores"
-title: "Por qu\xE9 la autentificaci\xF3n de 2 factores depende de la experiencia del
+- "problemas autentificación de 2 factores"
+- "que es autentificación de 2 factores"
+- "usuarios autentificación de 2 factores"
+title: "Por qué la autentificación de 2 factores depende de la experiencia del
   usuario"
 ---
 

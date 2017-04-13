@@ -5,10 +5,10 @@ categories:
 - seguridad
 date: '2016-01-01'
 description: "El mundo digital es un vecindario muy peligroso lleno de atacantes listos
-  para robar los datos m\xE1s personales e importantes para los negocios. A estas
-  alturas deber\xEDamos saber que la \u201Dseguridad\u201D significa algo m\xE1s que
-  disponer de una contrase\xF1a \xFAnica y larga. Para entender c\xF3mo proteger nuestros
-  datos y cuentas, en duosecurity han hecho una recopilaci\xF3n de las formas m\xE1s
+  para robar los datos más personales e importantes para los negocios. A estas
+  alturas deberíamos saber que la \u201Dseguridad\u201D significa algo más que
+  disponer de una contrase\xF1a única y larga. Para entender cómo proteger nuestros
+  datos y cuentas, en duosecurity han hecho una recopilación de las formas más
   comunes que usan los atacantes para robar datos ajenos en la red."
 image: 2013/06/blog_sevenways.png
 lastmod: 2017-02-28T12:38:01+01:00
@@ -16,7 +16,7 @@ mainclass: articulos
 url: /6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login/
 tags:
 - articulos sobre cibercrimen
-- "autentificaci\xF3n de dos factores"
+- "autentificación de dos factores"
 - Brechas en sitios Webs
 - Configuraciones de software incorrectas
 - Estafas de Phishing

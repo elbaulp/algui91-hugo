@@ -15,7 +15,7 @@ tags:
 - bomba logica
 - "contrase\xF1as asm"
 - Ingenieria inversa
-title: "Desaf\xEDo de ingenier\xEDa inversa en C. Soluciones"
+title: "Desafío de ingeniería inversa en C. Soluciones"
 ---
 
 <figure>

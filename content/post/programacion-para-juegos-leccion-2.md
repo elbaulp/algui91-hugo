@@ -8,7 +8,7 @@ lastmod: 2016-08-19
 
 mainclass: dev
 url: /programacion-para-juegos-leccion-2/
-title: "Programaci\xF3n para Juegos - Lecci\xF3n 2 - Im\xE1genes Optimizadas"
+title: "Programación para Juegos - Lección 2 - Imágenes Optimizadas"
 ---
 
 [Pueden descargar el código fuente de esta lección.][1]

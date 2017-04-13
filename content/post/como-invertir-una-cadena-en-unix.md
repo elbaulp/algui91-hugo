@@ -4,13 +4,13 @@ categories:
 - how to
 date: '2016-01-01'
 lastmod: 2017-03-21T16:46:40+01:00
-description: "Existe un comando que realiza esta operaci\xF3n, `rev`. De acuerdo a  la descripci\xF3n que proporciona la documentaci\xF3n funciona de la siguiente manera"
+description: "Existe un comando que realiza esta operación, `rev`. De acuerdo a  la descripción que proporciona la documentación funciona de la siguiente manera"
 mainclass: linux
 url: /como-invertir-una-cadena-en-unix/
 tags:
 - invertir cadena
 - bash
-title: "C\xF3mo invertir una cadena en Unix"
+title: "Cómo invertir una cadena en Unix"
 ---
 
 Existe un comando que realiza esta operación, `rev`. De acuerdo a la descripción que proporciona la documentación funciona de la siguiente manera:

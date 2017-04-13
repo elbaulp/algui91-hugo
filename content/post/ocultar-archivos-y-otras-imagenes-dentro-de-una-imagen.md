@@ -10,7 +10,7 @@ mainclass: dev
 url: /ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
 aliases: /programacion/ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
 tags:
-- "estenograf\xEDa"
+- "estenografía"
 - ocultar archivos
 - ocultar archivos en imagenes
 - ocultar fichero foto

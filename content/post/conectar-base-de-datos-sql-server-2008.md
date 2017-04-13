@@ -14,7 +14,7 @@ tags:
 - conectar java con oracle
 - curso android pdf
 - programar base datoss java
-title: "Conectar base de datos sql Server 2008 a aplicaci\xF3n Java remotamente"
+title: "Conectar base de datos sql Server 2008 a aplicación Java remotamente"
 ---
 
 En anteriores entradas expliqué como he ido desarrollando una aplicación para [Android](/curso-programacion-android/ "Curso de programación en Android") que enviaba mensajes al pc para un proyecto de fin de curso.

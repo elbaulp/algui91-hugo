@@ -8,12 +8,12 @@ description: Headlines featuring large-scale cyber breaches at Target, Home Depo
   Sony Pictures, and others have taught us one thing--no one is safe. But who are
   the hackers who are able to pull off such huge attacks against sophisticated targets,
   including the U.S. Government? And how do they do it?
-image: "Nueva-Gu\xEDa-Behind-the-Mask-the-Changing-Face-of-Hacking.jpg"
+image: "Nueva-Guía-Behind-the-Mask-the-Changing-Face-of-Hacking.jpg"
 
 mainclass: misc
 modified: null
 tags: []
-title: "Nueva Gu\xEDa: Behind the Mask, the Changing Face of Hacking"
+title: "Nueva Guía: Behind the Mask, the Changing Face of Hacking"
 ---
 
 <figure>

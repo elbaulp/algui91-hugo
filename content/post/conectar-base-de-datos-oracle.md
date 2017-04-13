@@ -14,7 +14,7 @@ tags:
 - conectar java con oracle
 - curso android pdf
 - integrar oracle en android
-title: "Conectar base de datos ORACLE a aplicaci\xF3n Java remotamente"
+title: "Conectar base de datos ORACLE a aplicación Java remotamente"
 ---
 
 Hace bastante tiempo, publiqué una entrada sobre cómo [Conectar base de datos sql Server 2008 a aplicación Java remotamente][1], aunque tiene mucho tiempo, sigue siendo la entrada más visitada y más comentada del blog. Debido a ello, hace poco un lector contactó conmigo comunicándome que disponía de una implementación del código de conexión, pero en lugar de ser sobre sql server 2008, era para ORACLE. Desde ya darle las gracias a Edwin por colaborar (Al que podéis seguir en <a href="https://plus.google.com/u/0/b/108003822606696308728/110549682438236698342/posts" target="_blank">G+</a> y [twitter][2]) y a continuación os dejo la implementación junto con la explicación de cómo hacerlo:

@@ -4,20 +4,20 @@ categories:
 - script
 date: '2016-01-01'
 lastmod: 2017-03-23T13:59:00+01:00
-description: "Hace poco me encontr\xE9 queriendo ordenar una carpeta de fondos de  pantalla por resoluci\xF3n, en lugar de otros m\xE9todos de ordenaci\xF3n m\xE1s  t\xEDpicos como por nombre o tama\xF1o. As\xED que buscando un poco encontr\xE9  la respuesta en *superuser*. El usuario flammable preguntaba c\xF3mo ordenar im\xE1genes  por resoluci\xF3n. La respuesta es la siguiente:"
+description: "Hace poco me encontré queriendo ordenar una carpeta de fondos de  pantalla por resolución, en lugar de otros métodos de ordenación más  típicos como por nombre o tama\xF1o. Así que buscando un poco encontré  la respuesta en *superuser*. El usuario flammable preguntaba cómo ordenar imágenes  por resolución. La respuesta es la siguiente:"
 image: 2012/07/sh.png
 mainclass: linux
 url: /como-ordenar-imagenes-por-resolucion/
 tags:
 - identify
 - imagenes por resolucion
-- "ordenar por resoluci\xF3n"
+- "ordenar por resolución"
 - imagenes
-title: "C\xF3mo ordenar im\xE1genes por resoluci\xF3n"
+title: "Cómo ordenar imágenes por resolución"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/07/sh.png" title="C\xF3mo ordenar im\xE1genes por resoluci\xF3n" alt="C\xF3mo ordenar im\xE1genes por resoluci\xF3n" width="128px" height="128px" />
+    <amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/07/sh.png" title="Cómo ordenar imágenes por resolución" alt="Cómo ordenar imágenes por resolución" width="128px" height="128px" />
 </figure>
 
 Hace poco me encontré queriendo ordenar una carpeta de fondos de pantalla por resolución, en lugar de otros métodos de ordenación más típicos como por nombre o tamaño. Así que buscando un poco encontré la respuesta en *superuser*. El usuario *[flammable][1]* preguntaba cómo ordenar imágenes por resolución. La respuesta es la siguiente:

@@ -4,13 +4,13 @@ categories:
 - security now
 color: '#00BCD4'
 date: 2016-07-05 20:09:47
-description: "Hace tiempo que hablamos aqu\xED sobre lo que es un Buffer Overflow
-  y c\xF3mo aprovecharnos de ellos para tomar control del sistema. Pues bien, Intel
-  se propone acabar con este tipo tan com\xFAn de vulnerabilidad en sus nuevos procesadores"
+description: "Hace tiempo que hablamos aquí sobre lo que es un Buffer Overflow
+  y cómo aprovecharnos de ellos para tomar control del sistema. Pues bien, Intel
+  se propone acabar con este tipo tan común de vulnerabilidad en sus nuevos procesadores"
 image: ComoIntelVaaAcabarConLosBuffersOverflowsConControl-FlowEnforcementTechnologyCET.png
-introduction: "Hace tiempo que hablamos aqu\xED sobre lo que es un Buffer Overflow
-  y c\xF3mo aprovecharnos de ellos para tomar control del sistema. Pues bien, Intel
-  se propone acabar con este tipo tan com\xFAn de vulnerabilidad en sus nuevos procesadores"
+introduction: "Hace tiempo que hablamos aquí sobre lo que es un Buffer Overflow
+  y cómo aprovecharnos de ellos para tomar control del sistema. Pues bien, Intel
+  se propone acabar con este tipo tan común de vulnerabilidad en sus nuevos procesadores"
 
 mainclass: security-now
 modified: null
@@ -25,7 +25,7 @@ tags:
 - endbranch intel
 - instruccion ENDBRANCH
 - que es un buffer overflow
-title: "C\xF3mo Intel Va a Acabar Con Los Buffers Overflows Con Control-Flow Enforcement
+title: "Cómo Intel Va a Acabar Con Los Buffers Overflows Con Control-Flow Enforcement
   Technology (CET)"
 ---
 

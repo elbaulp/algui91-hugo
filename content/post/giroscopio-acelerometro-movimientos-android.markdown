@@ -4,9 +4,9 @@ categories:
 - java
 color: '#D32F2F'
 date: 2016-02-18 08:32:53
-description: "Una appMovimientoSonido que reconozca un patr\xF3n de movimientos de
-  vuestra elecci\xF3n usando el giroscopio y/o el aceler\xF3metro, una vez detectado
-  el patr\xF3n, se reproducir\xE1 un sonido"
+description: "Una appMovimientoSonido que reconozca un patrón de movimientos de
+  vuestra elección usando el giroscopio y/o el acelerómetro, una vez detectado
+  el patrón, se reproducirá un sonido"
 image: npi/movementSound.png
 
 mainclass: java
@@ -14,9 +14,9 @@ modified: null
 tags:
 - tutorial acelerometro android
 - tutorial giroscopio android
-- "detectar rotaci\xF3n giroscopio android"
+- "detectar rotación giroscopio android"
 - detectar golpe acelerometro android
-title: "Utilizando El Aceler\xF3metro Y Giroscopio en Android Para Detectar Movimientos"
+title: "Utilizando El Acelerómetro Y Giroscopio en Android Para Detectar Movimientos"
 ---
 
 >La siguiente aplicación es parte de una práctica de la asignatura “Nuevos Paradigmas de la Interacción” de la facultad de Ingeniería Informática de Granada (ETSIIT) Otras aplicaciones de la práctica son:

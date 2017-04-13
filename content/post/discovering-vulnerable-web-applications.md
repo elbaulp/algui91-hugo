@@ -13,7 +13,7 @@ tags:
 - vulnerability
 - Vulnerable
 - web application
-title: "Nueva gu\xEDa: Discovering Vulnerable Web Applications"
+title: "Nueva guía: Discovering Vulnerable Web Applications"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class="size-medium wp-image-1108 alignleft" title="discovering vulnerable web applications" alt="discovering-vulnerable-web-applications" src="/img/2013/01/discovering-vulnerable-web-applications2-197x300.png" width="197px" height="300px" />][1]

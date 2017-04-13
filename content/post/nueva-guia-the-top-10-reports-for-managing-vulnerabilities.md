@@ -18,7 +18,7 @@ tags:
 - virus
 - vulnerabilities
 - Vulnerabilities Security Management
-title: "Nueva Gu\xEDa: The Top 10 Reports for Managing Vulnerabilities"
+title: "Nueva Guía: The Top 10 Reports for Managing Vulnerabilities"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="The Top 10 Reports for Managing Vulnerabilities" src="/img/2013/07/The-Top-10-Reports-for-Managing-Vulnerabilities.jpg" width="250px" height="301px" />][1]

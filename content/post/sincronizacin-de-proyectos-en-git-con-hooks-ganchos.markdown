@@ -4,8 +4,8 @@ categories:
 - git
 color: '#f05033'
 date: 2015-04-15 14:22:19
-description: "C\xF3mo sincronizar dos repositorios en git de forma que uno sea el
-  espejo del otro, y c\xF3mo mantener sincronizada \xFAnicamente una rama."
+description: "Cómo sincronizar dos repositorios en git de forma que uno sea el
+  espejo del otro, y cómo mantener sincronizada únicamente una rama."
 image: 2013/03/git-logo.png
 lastmod: 2016-08-05
 
@@ -23,7 +23,7 @@ tags:
 - sincronizar repositorios en git
 - repositorios espejo git
 - mirror repos
-title: "Sincronizaci\xF3n de proyectos en git con hooks (ganchos)"
+title: "Sincronización de proyectos en git con hooks (ganchos)"
 ---
 
 <figure>

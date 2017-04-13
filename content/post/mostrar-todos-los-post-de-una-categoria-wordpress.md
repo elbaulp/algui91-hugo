@@ -8,8 +8,8 @@ date: '2016-01-01'
 mainclass: dev
 url: /mostrar-todos-los-post-de-una-categoria-wordpress/
 tags:
-- "Mostrar todos los art\xEDculos de una categor\xEDa en Wordpress"
-title: "Mostrar todos los post de una categor\xEDa en WordPress"
+- "Mostrar todos los artículos de una categoría en Wordpress"
+title: "Mostrar todos los post de una categoría en WordPress"
 ---
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/wordpress.png" alt="mostrar todos los post de una categoría wordpress" width="231px" height="228px" />

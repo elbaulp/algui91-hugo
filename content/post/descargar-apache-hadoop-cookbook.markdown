@@ -18,7 +18,7 @@ tags:
 - descargar apache hadoop cookbook
 - libros sobre apache hadoop
 - descargar tutoriales apache hadoop
-title: "Nueva Gu\xEDa: Apache Hadoop Cookbook"
+title: "Nueva Guía: Apache Hadoop Cookbook"
 ---
 
 <figure>

@@ -10,8 +10,7 @@ url: /wxmaxima-encontro-un-error-durante-la-carga/
 tags:
 - convertir a utf8 maxima
 - wxmaxima error
-title: "C\xF3mo resolver el error &#8216;wxMaxima encontr\xF3 un error durante la
-  carga&#8217;"
+title: "Cómo resolver el error &#8216;wxMaxima encontró un error durante la carga&#8217;"
 ---
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/Maxima.png" alt="wxMaxima encontró un error durante la carga" width="271px" height="256px" />

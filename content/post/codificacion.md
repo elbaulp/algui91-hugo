@@ -4,10 +4,10 @@ categories:
 - so
 date: '2016-01-01'
 lastmod: 2017-03-07T17:39:41+01:00
-description: "Esta es la primera parte del temario que vamos a ver en Sistemas Operativos,  vamos a verla toda en una sola entrada para que no se haga muy pesada, pero es importante  comprenderla, ya que es el lenguaje de los ordenadores, y nos servir\xE1 tambien  para el tema de redes."
+description: "Esta es la primera parte del temario que vamos a ver en Sistemas Operativos,  vamos a verla toda en una sola entrada para que no se haga muy pesada, pero es importante  comprenderla, ya que es el lenguaje de los ordenadores, y nos servirá tambien  para el tema de redes."
 mainclass: articulos
 url: /codificacion/
-title: "Codificaci\xF3n"
+title: "Codificación"
 ---
 
 Esta es la primera parte del temario que vamos a ver en Sistemas Operativos, vamos a verla toda en una sola entrada para que no se haga muy pesada, pero es importante comprenderla, ya que es el lenguaje de los ordenadores, y nos servirá tambien para el tema de redes.

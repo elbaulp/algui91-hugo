@@ -3,11 +3,11 @@ author: alex
 categories:
 - misc
 date: 2016-05-07 09:55:51
-description: "Hoy el blog cumple a\xF1os, 7 para ser ex\xE1ctos, echamos la vista
-  atr\xE1s y repasamos su historia"
+description: "Hoy el blog cumple a\xF1os, 7 para ser exáctos, echamos la vista
+  atrás y repasamos su historia"
 image: 7-cumpleanios0.png
 mainclass: misc
-title: "El Ba\xFAl Del Programador Cumple 7 A\xF1os"
+title: "El Baúl Del Programador Cumple 7 A\xF1os"
 lastmod: 2017-01-31
 ---
 

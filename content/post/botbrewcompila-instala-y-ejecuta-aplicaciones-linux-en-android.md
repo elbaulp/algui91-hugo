@@ -4,9 +4,9 @@ categories:
 - android
 - articulos
 date: '2016-01-01'
-description: "Leyendo noticias en mi lector RSS he encontrado un art\xEDculo interesante
-  que comparto con vosotros. Se trata de un programa que permitir\xE1 tener un sistema
-  debian b\xE1sico en el dispostivo."
+description: "Leyendo noticias en mi lector RSS he encontrado un artículo interesante
+  que comparto con vosotros. Se trata de un programa que permitirá tener un sistema
+  debian básico en el dispostivo."
 image: 2012/12/linux-apps-on-android1.jpg
 mainclass: articulos
 url: /botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/

@@ -13,9 +13,9 @@ tags:
 - detalles tecnicos http2
 - http2
 - spdy
-- "implementaci\xF3n http2"
+- "implementación http2"
 - protocolo http2
-title: "C\xF3mo funciona HTTP/2, protocolo que aceler\xE1 considerablemente la navegaci\xF3n  Web"
+title: "Cómo funciona HTTP/2, protocolo que acelerá considerablemente la navegación  Web"
 ---
 
 Hacía mucho tiempo que no traducía episodios del podcast [Security Now!][1]. Hoy os traigo la traducción del episodio [#495][2], donde *Steve* describió al detalle el nuevo protocolo HTTP2, el cual lo ha desarrollado *Google*. Primero echaremos un vistazo a lo que tenemos en la actualidad, qué problemas presenta y qué soluciones ofrece HTTP2.

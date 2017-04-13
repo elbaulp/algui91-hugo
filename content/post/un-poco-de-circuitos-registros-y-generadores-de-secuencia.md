@@ -13,10 +13,10 @@ mainclass: articulos
 url: /un-poco-de-circuitos-registros-y-generadores-de-secuencia/
 tags:
 - biestables
-- "circuitos l\xF3gicos"
+- "circuitos lógicos"
 - logic works
 - registros
-title: "Un poco de circuitos, reg\xEDstros y generadores de secuencia"
+title: "Un poco de circuitos, regístros y generadores de secuencia"
 ---
 
 Repasando hoy para un examen que tengo próximamente de TOC (Tecnología y Organización de Computadores) se me ha ocurrido grabar algunos de los ejercícios que estaba haciendo por si le son de interés a alguien.

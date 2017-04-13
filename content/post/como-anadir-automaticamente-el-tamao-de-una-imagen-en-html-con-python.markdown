@@ -16,7 +16,7 @@ tags:
 - leer imagen python
 - "leer tama\xF1o imagen python"
 - "obtener tama\xF1o imagen python"
-title: "C\xF3mo A\xF1adir Autom\xE1ticamente El Tama\xF1o De Una Imagen en HTML Con  Python"
+title: "Cómo A\xF1adir Automáticamente El Tama\xF1o De Una Imagen en HTML Con  Python"
 ---
 
 Hace poco me encontré con el problema de añadir a todas las etiquetas de imágenes del blog los atributos de tamaño (Altura y anchura). Hacerlo a mano era inviable debido a la cantidad de artículos. Así que pensé que una buena forma sería hacerlo con [python](/tags/python/). El razonamiento es el siguiente:

@@ -7,7 +7,7 @@ date: '2016-01-01'
 
 mainclass: articulos
 url: /sorteo-wordpress/
-title: "Sorteamos 10 matr\xEDculas gratuitas para cursos de desarrollo WordPress y
+title: "Sorteamos 10 matrículas gratuitas para cursos de desarrollo WordPress y
   cupones de descuento"
 ---
 

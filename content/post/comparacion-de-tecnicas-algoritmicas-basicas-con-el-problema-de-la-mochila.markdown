@@ -4,24 +4,24 @@ categories:
 - dev
 date: 2015-07-08 11:40:40
 lastmod: 2017-03-27T16:57:12+01:00
-description: "Este art\xEDculo se basa en las pr\xE1cticas que he hecho para una asignatura  llamada *Algor\xEDtmica*. Dichas pr\xE1cticas consist\xEDan en realizar el problema  de la Mochila usando las t\xE9cnicas algor\xEDtmicas que ve\xEDamos en la asignatura."
-image: "Comparaci\xF3n de t\xE9cnicas algor\xEDtmicas b\xE1sicas con el problema de  la Mochila.png"
+description: "Este artículo se basa en las prácticas que he hecho para una asignatura  llamada *Algorítmica*. Dichas prácticas consistían en realizar el problema  de la Mochila usando las técnicas algorítmicas que veíamos en la asignatura."
+image: "Comparación de técnicas algorítmicas básicas con el problema de  la Mochila.png"
 mainclass: dev
 math: true
 tags:
 - mochila
-- "algor\xEDtmica"
-- "t\xE9cnicas algor\xEDtmicas"
+- "algorítmica"
+- "técnicas algorítmicas"
 - problema de la mochila
 - greedy
 - voraces
 - Branch and bound
-- "programaci\xF3n din\xE1mica"
-title: "Comparaci\xF3n de t\xE9cnicas algor\xEDtmicas b\xE1sicas con el problema de  la Mochila"
+- "programación dinámica"
+title: "Comparación de técnicas algorítmicas básicas con el problema de  la Mochila"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 600px) 600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Comparación de técnicas algorítmicas básicas con el problema de la Mochila.png" title="Comparaci\xF3n de t\xE9cnicas algor\xEDtmicas b\xE1sicas con el problema de  la Mochila" alt="Comparaci\xF3n de t\xE9cnicas algor\xEDtmicas b\xE1sicas con el problema de  la Mochila" width="600px" height="520px" />
+    <amp-img sizes="(min-width: 600px) 600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Comparación de técnicas algorítmicas básicas con el problema de la Mochila.png" title="Comparación de técnicas algorítmicas básicas con el problema de  la Mochila" alt="Comparación de técnicas algorítmicas básicas con el problema de  la Mochila" width="600px" height="520px" />
     <figcaption>Créditos de la imagen Wikipedia</figcaption>
 </figure>
 

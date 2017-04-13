@@ -8,8 +8,8 @@ categories:
 date: '2016-01-01'
 lastmod: 2017-02-28T12:37:07+01:00
 description: "netfiltes es un conjunto de hooks (Ganchos) dentro del kernel de linux
-  que permiten a los m\xF3dulos del kernel registrar funciones callbacks con la pila
-  de red. Una funci\xF3n callback registrada se llama entonces para cada paquete que
+  que permiten a los módulos del kernel registrar funciones callbacks con la pila
+  de red. Una función callback registrada se llama entonces para cada paquete que
   atraviesa el hook correspondiente dentro de la pila de red."
 image: 20-ejemplos-de-iptables-para-sysadmins.png
 mainclass: servidores

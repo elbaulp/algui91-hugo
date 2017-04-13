@@ -9,7 +9,7 @@ tags:
 - dominios
 - internet
 - seguridad dominio
-title: "Nueva gu\xEDa: 6 Steps to Securing Your Domains"
+title: "Nueva guía: 6 Steps to Securing Your Domains"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/six-steps-to-securing-your-domains-2.png" alt="6 Steps to Securing Your Domains" width="199px" height="258px" />][1]

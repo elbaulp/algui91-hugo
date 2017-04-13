@@ -10,7 +10,7 @@ if_slider_image:
 
 mainclass: misc
 url: /nueva-guia-session-hijacking-how-to-protect-your-customers-and-your-corporate-data/
-title: "Nueva gu\xEDa: Session Hijacking: How to Protect your Customers and your Corporate
+title: "Nueva guía: Session Hijacking: How to Protect your Customers and your Corporate
   Data"
 ---
 

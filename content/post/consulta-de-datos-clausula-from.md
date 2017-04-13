@@ -6,7 +6,7 @@ date: '2016-01-01'
 lastmod: 2017-03-30T17:13:44+01:00
 mainclass: BaseDeDatos
 url: /consulta-de-datos-clausula-from/
-title: "Consulta de Datos - Cl\xE1usula FROM"
+title: "Consulta de Datos - Cláusula FROM"
 ---
 
 En esta clausula se indican la tabla o tablas a las que vamos a tener acceso. Las tablas deben existir y si no existiera alguna aparecería el error: `ORA-00942: table or view does not exist`.  Su sintaxis es :

@@ -15,7 +15,7 @@ tags:
 - google analytics
 - guias
 - Your Guide to Google Analytics
-title: "Nueva Gu\xEDa: Your Guide to Google Analytics"
+title: "Nueva Guía: Your Guide to Google Analytics"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/08/googleanalytics-5001-246x300.jpg" alt="Your Guide To Google Analytics" title="Your Guide To Google Analytics" width="199px" height="243px" />][1]

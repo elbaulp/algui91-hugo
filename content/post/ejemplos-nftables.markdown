@@ -5,9 +5,9 @@ categories:
 color: '#F57C00'
 date: 2016-03-29 06:02:46
 description: "nftables  es un  nuevo  framework  que  sustituye  al antiguo  iptables.
-  Este  nuevo  software a\xFAn  no est\xE1  desarrollado  al 100% de sus funciones,
-  tenemos  la problem\xE1tica de la implantaci\xF3n,   que aunque  se incluye desde
-  el kernel  3.13, las personas  a\xFAn  no est\xE1n acostumbradas a su uso y por
+  Este  nuevo  software aún  no está  desarrollado  al 100% de sus funciones,
+  tenemos  la problemática de la implantación,   que aunque  se incluye desde
+  el kernel  3.13, las personas  aún  no están acostumbradas a su uso y por
   tanto  siguen usando  iptables  o en su defecto la nomenclatura  de sus reglas."
 image: ejemplos-nftables.png
 
@@ -19,7 +19,7 @@ tags:
 - ejemplos nftables iptables
 - comparacion nftables iptables
 - diferencias nftables iptables
-title: "Introducci\xF3n Y Ejemplos De NfTables"
+title: "Introducción Y Ejemplos De NfTables"
 ---
 
 > El siguiente artículo forma parte de un trabajo en grupo realizado para la asignatura _Seguridad en Sistemas Operativos_ de la facultad de Ingeniería Informática de Granada (ETSIIT), puedes leer el otro trabajo publicado en el blog, [Biometría Aplicada a La Seguridad](/biometria-seguridad-introduccion/ "Biometría Aplicada a La Seguridad"). Este trabajo es autoría de Jose Maria Caballero Alba <caballeroalba> y Edlin Lastenia Morel Mateo

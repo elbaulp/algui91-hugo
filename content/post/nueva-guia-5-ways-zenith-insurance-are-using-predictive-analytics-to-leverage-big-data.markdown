@@ -11,7 +11,7 @@ image: hotlink-ok/5-Ways-Zenith-Insurance-Are-Using-Predictive-Analytics-to-Leve
 mainclass: misc
 modified: null
 tags: []
-title: "Nueva Gu\xEDa: 5 Ways Zenith Insurance Are Using Predictive Analytics to Leverage
+title: "Nueva Guía: 5 Ways Zenith Insurance Are Using Predictive Analytics to Leverage
   Big Data"
 ---
 

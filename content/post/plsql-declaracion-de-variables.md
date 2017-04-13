@@ -10,7 +10,7 @@ mainclass: BaseDeDatos
 url: /plsql-declaracion-de-variables/
 tags:
 - declare en pl sql
-title: "PL/SQL. Declaraci\xF3n de variables"
+title: "PL/SQL. Declaración de variables"
 ---
 
 Las variables deben declararse dentro de la sección `DECLARE` y deben seguir la siguiente sintaxis:

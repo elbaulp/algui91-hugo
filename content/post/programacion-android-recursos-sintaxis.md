@@ -11,7 +11,7 @@ mainclass: android
 url: /programacion-android-recursos-sintaxis/
 tags:
 - curso android pdf
-title: "Programaci\xF3n Android: Recursos - Sintaxis de los Recursos"
+title: "Programación Android: Recursos - Sintaxis de los Recursos"
 ---
 
 Independientemente del tipo de recurso (de string y layout son los dos que hemos visto hasta ahora), Todos los recursos Android están identificados (o referenciados) por sus ids en código fuente Java.

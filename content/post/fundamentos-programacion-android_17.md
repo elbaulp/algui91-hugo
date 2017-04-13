@@ -13,11 +13,11 @@ tags:
 - Actividades
 - android
 - curso android pdf
-- "Fundamentos programaci\xF3n Android"
+- "Fundamentos programación Android"
 - Hilos
 - Procesos
 - Tareas
-title: "Fundamentos programaci\xF3n Android: Actividades, Tareas, Procesos e Hilos"
+title: "Fundamentos programación Android: Actividades, Tareas, Procesos e Hilos"
 ---
 
 ## Actividades y tareas

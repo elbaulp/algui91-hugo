@@ -13,7 +13,7 @@ tags:
 - concepto de ddl
 - que es un ddl
 - sentencias dml y ddl
-title: "Lenguaje Definici\xF3n de Datos (DDL) - DROP"
+title: "Lenguaje Definición de Datos (DDL) - DROP"
 ---
 
 En el anterior post vimos la orden [CREATE.][1]

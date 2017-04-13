@@ -10,7 +10,7 @@ lastmod: 2016-10-04
 
 mainclass: linux
 url: /los-desarrolladores-de-gnome-crean/
-title: "Los desarrolladores de GNOME crean \u201CBoxes\u201D para la virtualizaci\xF3n"
+title: "Los desarrolladores de GNOME crean \u201CBoxes\u201D para la virtualización"
 ---
 
 <figure>

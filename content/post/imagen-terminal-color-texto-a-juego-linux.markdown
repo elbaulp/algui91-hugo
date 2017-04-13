@@ -6,16 +6,16 @@ color: '#2196F3'
 date: 2016-07-18 16:08:56
 description: null
 image: imagen-terminal-color-texto-a-juego-linux.png
-introduction: "Con este peque\xF1o script podr\xE1s cambiar el fondo y color de texto
+introduction: "Con este peque\xF1o script podrás cambiar el fondo y color de texto
   de tu terminal, a juego"
 
 mainclass: linux
 tags:
 - Terminal
 - Gnome
-- "Im\xE1genes"
-title: "Cambia La Im\xE1gen De Fondo Del Terminal Gnome Y Pon Un Color De Texto a
-  Juego, Autom\xE1ticamente"
+- "Imágenes"
+title: "Cambia La Imágen De Fondo Del Terminal Gnome Y Pon Un Color De Texto a
+  Juego, Automáticamente"
 ---
 
 Seguramente seas una de esas personas que pasan mucho tiempo delante del ordenador con una o varias shells abiertas. De hecho, seguramente tengas más que visto el fondo negro con letras blancas, o el estilo de terminal que pusiste hace tiempo,  porque cambiarlo todos los días no es el hobbie de nadie. Pero ¿y si se cambiara sólo?¿ y si pudieras poner tus imágenes favoritas de fondo del terminal, con un color de texto que no desentone con tu imágen  y tú no tuvieras que hacer nada?

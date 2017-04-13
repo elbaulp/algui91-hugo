@@ -3,11 +3,11 @@ author: alex
 categories:
 - articulos
 date: 2016-06-23 17:16:56
-description: "En este art\xEDculo se comparan WhatsApp, Signal y Allo en t\xE9rminos
+description: "En este artículo se comparan WhatsApp, Signal y Allo en términos
   de seguridad y privacidad"
 image: aplicacion-mensajeria-movil-segura-whatsapp-signal-allo.png
-introduction: "Entre Whatsapp, Signal y Allo \xBFQu\xE9 app de mensajer\xEDa es m\xE1s
-  segura y cuida m\xE1s tu privacidad?"
+introduction: "Entre Whatsapp, Signal y Allo \xBFQué app de mensajería es más
+  segura y cuida más tu privacidad?"
 mainclass: articulos
 tags:
 - whatsapp
@@ -17,8 +17,8 @@ tags:
 - whatsapp privacidad
 - whatsapp seguridad
 - aplicaciones mensajes seguras
-- "cuales son las aplicaciones de mensajeria m\xE1s seguras"
-title: "\xBFQu\xE9 Aplicaci\xF3n De Mensajer\xEDa M\xF3vil Es M\xE1s Segura?"
+- "cuales son las aplicaciones de mensajeria más seguras"
+title: "\xBFQué Aplicación De Mensajería Móvil Es Más Segura?"
 lastmod: 2017-02-04
 ---
 

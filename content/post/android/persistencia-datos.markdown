@@ -5,10 +5,10 @@ amp:
 categories: android
 color: '#689F38'
 date: 2016-06-14 07:45:21
-description: "En este art\xEDculo se ver\xE1 c\xF3mo almacenar datos del usuario en
+description: "En este artículo se verá cómo almacenar datos del usuario en
   una base de datos SQLite o SharedPreferences"
 image: hotlink-ok/ProgramacionAndroid-Persistencia-de-Datoscard.png
-introduction: "Ejemplo de c\xF3mo guardar datos de usuario en Android"
+introduction: "Ejemplo de cómo guardar datos de usuario en Android"
 
 mainclass: android
 modified: null
@@ -16,10 +16,10 @@ tags:
 - Bases de Datos Android
 - Persistencia de datos Android
 - Curso de Android
-- "programaci\xF3n Android"
+- "programación Android"
 - tutoriales Android
 - fragments Android
-title: "Programaci\xF3n Android: Persistencia De Datos"
+title: "Programación Android: Persistencia De Datos"
 ---
 
 En el anterior artículo dimos un repaso a [fondo del típico Hola Mundo](/android/tutorial-android-hola-mundo-a-fondo/ "Programación Android: Hola Mundo a Fondo"), hoy vamos a ver cómo trabajar con persistencia de datos en Android.

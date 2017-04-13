@@ -8,7 +8,7 @@ date: '2016-01-01'
 
 mainclass: dev
 url: /python4kids-aprende-programar-en-python/
-title: "Python4Kids. Aprende a programar en python f\xE1cilmente"
+title: "Python4Kids. Aprende a programar en python fácilmente"
 ---
 
 <div class="separator" >

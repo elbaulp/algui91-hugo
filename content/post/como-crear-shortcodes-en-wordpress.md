@@ -11,7 +11,7 @@ tags:
 - shortcodes
 - wordpress shortcodes
 - wordpress
-title: "C\xF3mo crear shortcodes en WordPress que soporten par\xE1metros"
+title: "Cómo crear shortcodes en WordPress que soporten parámetros"
 ---
 
 Ya se vió cómo añadir <a href="/como-crear-shortcodes-en-wordpress-2/" target="_blank">shortcodes simples</a>, esta vez se explicará con un poco más de profundidad.

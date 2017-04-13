@@ -5,10 +5,10 @@ categories:
 - articulos
 color: '#689F38'
 date: 2015-12-11 10:47:00
-description: "En el anterior art\xEDculo hablamos de c\xF3mo reducir el tama\xF1o
-  de una aplicaci\xF3n Android eliminando recursos sin usar. En el blog de Cyril Mottier
-  encontr\xE9 un art\xEDculo muy interesante con varios consejos para reducir el tama\xF1o
-  del APK y optimizar el c\xF3digo en producci\xF3n. A continuaci\xF3n pasamos a traducir
+description: "En el anterior artículo hablamos de cómo reducir el tama\xF1o
+  de una aplicación Android eliminando recursos sin usar. En el blog de Cyril Mottier
+  encontré un artículo muy interesante con varios consejos para reducir el tama\xF1o
+  del APK y optimizar el código en producción. A continuación pasamos a traducir
   las partes importantes."
 image: hotlink-ok/Pon-a-dieta-a-tus-APKs.png
 lastmod: 2015-12-11

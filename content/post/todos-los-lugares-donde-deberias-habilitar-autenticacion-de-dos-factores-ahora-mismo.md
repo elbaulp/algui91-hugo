@@ -9,10 +9,10 @@ date: '2016-01-01'
 mainclass: articulos
 url: /todos-los-lugares-donde-deberias-habilitar-autenticacion-de-dos-factores-ahora-mismo/
 tags:
-- "autentificaci\xF3n de dos factores"
+- "autentificación de dos factores"
 - "contrase\xF1as"
 - google autenticator
-title: "Todos los lugares donde deber\xEDas habilitar la Autenticaci\xF3n de Dos Factores
+title: "Todos los lugares donde deberías habilitar la Autenticación de Dos Factores
   ahora mismo"
 ---
 

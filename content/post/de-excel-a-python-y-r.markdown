@@ -4,18 +4,18 @@ categories:
 - dev
 color: '#E64A19'
 date: 2016-11-04 15:23:40
-description: "Todo empez\xF3 cuando me mandaron hacer una pr\xE1ctica para la universidad
-  en la que ten\xEDa que..."
+description: "Todo empezó cuando me mandaron hacer una práctica para la universidad
+  en la que tenía que..."
 image: chrp1.png
-introduction: "Todo empez\xF3 cuando me mandaron hacer una pr\xE1ctica para la universidad
-  en la que ten\xEDa que..."
+introduction: "Todo empezó cuando me mandaron hacer una práctica para la universidad
+  en la que tenía que..."
 
 mainclass: dev
 tags:
 - R
 - python
-- "an\xE1lisis de datos"
-title: "C\xF3mo Pas\xE9 De Usar Excel a Usar R Y Python"
+- "análisis de datos"
+title: "Cómo Pasé De Usar Excel a Usar R Y Python"
 ---
 
 Cómo pasé de analizar resultados con Excel a analizarlos con R+Python

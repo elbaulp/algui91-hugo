@@ -12,7 +12,7 @@ mainclass: articulos
 url: /video-tutoriales-ataque-man-in-middle/
 tags:
 - "ettercap en espa\xF1ol"
-title: "[V\xEDdeo tutoriales] Ataque Man in the middle"
+title: "[Vídeo tutoriales] Ataque Man in the middle"
 ---
 
 En la [anterior entrada][1] expliqué como hacer un ataque mitm para capturar el tráfico de red de un equipo.

@@ -14,8 +14,8 @@ url: /nueva-guia-php-mysql-novice-to-ninja-5th-edition-free-57-page-preview/
 tags:
 - mysql
 - php
-- "programaci\xF3n"
-title: "Nueva gu\xEDa: PHP & MySQL: Novice to Ninja, 5th Edition-Free 57 Page Preview"
+- "programación"
+title: "Nueva guía: PHP & MySQL: Novice to Ninja, 5th Edition-Free 57 Page Preview"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/08/w_sitb33c1.gif" alt="PHP & MySQL: Novice to Ninja, 5th Edition--Free 57 Page Preview" title="PHP & MySQL: Novice to Ninja, 5th Edition--Free 57 Page Preview" width="197px" height="259px" />][1]

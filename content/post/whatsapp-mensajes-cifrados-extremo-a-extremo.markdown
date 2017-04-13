@@ -6,12 +6,12 @@ categories:
 - security now
 color: '#00BCD4'
 date: 2016-04-23 22:05:58
-description: "Seguro que muchos \xFAltimamente os pregunt\xE1is qu\xE9 significa ese
+description: "Seguro que muchos últimamente os preguntáis qué significa ese
   mensaje que aparece en vuestras conversaciones de WhatsApp: \u201CLas llamadas y
-  mensajes enviados a este chat ahora est\xE1n seguros con cifrado extremo a extremo\u201D.
-  Para los curiosos, en el podcast Security Now!, episodio 555 Steve explic\xF3 el
+  mensajes enviados a este chat ahora están seguros con cifrado extremo a extremo\u201D.
+  Para los curiosos, en el podcast Security Now!, episodio 555 Steve explicó el
   protocolo que han implementado para mantener las conversaciones y llamadas de __WhatsApp__
-  seguras. He pensado que puede ser de inter\xE9s para los lectores del blog, as\xED
+  seguras. He pensado que puede ser de interés para los lectores del blog, así
   que lo he traducido. Comencemos"
 image: WhatsApp-Entendiendo-Su-Cifrado-Extremo-a-Extremo.png
 

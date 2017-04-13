@@ -9,7 +9,7 @@ lastmod: 2016-09-09
 
 mainclass: articulos
 url: /paperli-crea-tu-periodico-digital/
-title: "Paper.li: Crea tu peri\xF3dico digital autom\xE1ticamente con lo m\xE1s relevante
+title: "Paper.li: Crea tu periódico digital automáticamente con lo más relevante
   de Twitter y Facebook"
 ---
 

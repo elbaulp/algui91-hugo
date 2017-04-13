@@ -4,7 +4,7 @@ categories:
 - c
 date: '2016-01-01'
 lastmod: 2017-03-06T18:24:28+01:00
-description: "El destructor es una funci\xF3n especial, que tiene el mismo nombre  que la clase pero que va precedido del s\xEDmbolo ~ (ASCII 126). El destructor es  \xFAnico y no tiene argumentos: se puede definir dentro de la clase o fuera de la  misma."
+description: "El destructor es una función especial, que tiene el mismo nombre  que la clase pero que va precedido del símbolo ~ (ASCII 126). El destructor es  único y no tiene argumentos: se puede definir dentro de la clase o fuera de la  misma."
 mainclass: dev
 url: /clases-y-objetos-el-destructor/
 title: Clases y Objetos. El Destructor

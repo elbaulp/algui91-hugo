@@ -13,7 +13,7 @@ image: hotlink-ok/Preserving-Your-Privacy-in-Windows-10.jpg
 mainclass: misc
 modified: null
 tags: []
-title: "Nueva Gu\xEDa: Preserving Your Privacy in Windows 10"
+title: "Nueva Guía: Preserving Your Privacy in Windows 10"
 ---
 
 <figure>

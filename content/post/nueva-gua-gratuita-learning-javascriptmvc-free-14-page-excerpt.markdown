@@ -14,7 +14,7 @@ tags:
 - internet
 - noticias
 - JavaScript
-title: "Nueva Gu\xEDa Gratuita: Learning JavaScriptMVC -- Free 14 Page Excerpt"
+title: "Nueva Guía Gratuita: Learning JavaScriptMVC -- Free 14 Page Excerpt"
 ---
 
 <figure>

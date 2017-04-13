@@ -3,7 +3,7 @@ author: alex
 categories:
 - android
 date: '2016-01-01'
-description: "Este a\xF1o estoy participando en el concurso universitario de software  libre, concretamente en el proyecto SWADroid. Mi intenci\xF3n es explicar todo lo  que vaya aprendiendo mientras participo en el desarrollo del proyecto. Este primer  art\xEDculo comienza un historial que llevar\xE1 cuenta de todos los avances logrados."
+description: "Este a\xF1o estoy participando en el concurso universitario de software  libre, concretamente en el proyecto SWADroid. Mi intención es explicar todo lo  que vaya aprendiendo mientras participo en el desarrollo del proyecto. Este primer  artículo comienza un historial que llevará cuenta de todos los avances logrados."
 image: 2014/01/CrearDialogoAndroid.png
 lastmod: 2017-03-17T18:30:42+01:00
 mainclass: android
@@ -14,7 +14,7 @@ tags:
 - preferencias android
 - settings android
 - swadroid
-title: "C\xF3mo crear un di\xE1logo personalizado en las preferencias Android"
+title: "Cómo crear un diálogo personalizado en las preferencias Android"
 ---
 
 Este año estoy participando en el <a href="http://www.concursosoftwarelibre.org/1314/" title="CUSL" target="_blank">concurso universitario de software libre</a>, concretamente en el proyecto <a href="http://swadroid.wordpress.com/" title="Blog SWADroid" target="_blank">SWADroid</a>. Mi intención es explicar todo lo que vaya aprendiendo mientras participo en el desarrollo del proyecto. Este primer artículo comienza un historial que llevará cuenta de todos los avances logrados.

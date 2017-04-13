@@ -11,7 +11,7 @@ mainclass: android
 url: /programacion-android-recursos-plurales/
 tags:
 - curso android pdf
-title: "Programaci\xF3n Android: Recursos - Plurales"
+title: "Programación Android: Recursos - Plurales"
 ---
 
 ### Introducción

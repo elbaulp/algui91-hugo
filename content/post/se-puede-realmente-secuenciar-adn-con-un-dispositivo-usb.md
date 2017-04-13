@@ -2,12 +2,12 @@
 author: alex
 categories:
 - articulos
-- "tecnolog\xEDa"
+- "tecnología"
 color: '#F57C00'
 date: '2016-01-01'
-description: "\xBFQu\xE9 pasar\xEDa si pudieras poner algunas c\xE9lulas bacterianas
+description: "\xBFQué pasaría si pudieras poner algunas células bacterianas
   en un dispositivo USB, conectarlo a su laptop, y obtener una secuencia completa
-  de ADN en cuesti\xF3n de minutos?"
+  de ADN en cuestión de minutos?"
 
 mainclass: articulos
 url: /se-puede-realmente-secuenciar-adn-con-un-dispositivo-usb/
