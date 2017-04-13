@@ -9,7 +9,7 @@ lastmod: 2017-03-20T10:03:58+01:00
 mainclass: linux
 url: /como-descargar-archivos-de-una-web-por-extension-con-wget/
 tags:
-- "android studio espa\xF1ol guia"
+- "android studio español guia"
 - android studio tutorial
 - descargar por extension wget
 - wget

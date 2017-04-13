@@ -6,7 +6,7 @@ categories:
 - opensource
 date: '2016-01-01'
 description: "Despues del éxito de los cursos impartidos por Stanford sobre inteligencia
-  artificial, machine learning y bases de datos, se han propuesto seguir ense\xF1ando
+  artificial, machine learning y bases de datos, se han propuesto seguir enseñando
   gratuitamente a través de la red, ésta vez serán David Evans, profesor
   de la ciencia de la computación en la universidad de Virginia y Sebastian Thrun,
   de la universidad de Stanford."

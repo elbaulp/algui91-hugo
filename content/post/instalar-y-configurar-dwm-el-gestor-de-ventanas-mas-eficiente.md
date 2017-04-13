@@ -7,7 +7,7 @@ categories:
 color: '#E64A19'
 date: '2016-01-01'
 description: "Hace tiempo que hablé de Xmonad, y hasta hace poco ha sido mi gestor
-  de ventanas, durante varios a\xF1os. Pero semanas atrás descubrí el proyecto
+  de ventanas, durante varios años. Pero semanas atrás descubrí el proyecto
   original en el que se basaba xmonad, DWM. Xmonad es un clon de DWM escrito en Haskell,
   lo cual lo hace un poco más pesado y lento debido a las dependencias que tiene
   y la necesidad de instalar su compilador. Tras probar DWM, no puedo estar más

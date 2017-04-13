@@ -5,7 +5,7 @@ categories:
 - "tecnología"
 color: '#F57C00'
 date: '2016-01-01'
-description: "\xBFQué pasaría si pudieras poner algunas células bacterianas
+description: "¿Qué pasaría si pudieras poner algunas células bacterianas
   en un dispositivo USB, conectarlo a su laptop, y obtener una secuencia completa
   de ADN en cuestión de minutos?"
 
@@ -18,7 +18,7 @@ tags:
 - pendrive
 - secuenciar ADN
 - usb
-title: "\xBFSe puede realmente secuenciar ADN con un dispositivo USB?"
+title: "¿Se puede realmente secuenciar ADN con un dispositivo USB?"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/05/Oxford-Nanopore-MinION1.jpeg" alt="" title="Oxford-Nanopore-MinION" width="660px" height="440px" />][1]

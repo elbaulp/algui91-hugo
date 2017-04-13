@@ -9,7 +9,7 @@ categories:
 - seguridad
 date: 2015-07-14 21:00:00
 lastmod: 2017-03-24T14:32:56+01:00
-description: "Cuando algún sitio web que usamos frecuentemente es hackeado, comprometiendo  las contrase\xF1as de los usuarios, probablemente pensemos en la seguridad online.  \ pero, \xBFQué quiere decir realmente cuando un sitio es hackeado?, \xBFy cómo  podemos protegernos? A continuación se explica cómo se almacenan las contrase\xF1as  en internet, y cómo te afecta cuando la web que usas se ve comprometida."
+description: "Cuando algún sitio web que usamos frecuentemente es hackeado, comprometiendo  las contraseñas de los usuarios, probablemente pensemos en la seguridad online.  \ pero, ¿Qué quiere decir realmente cuando un sitio es hackeado?, ¿y cómo  podemos protegernos? A continuación se explica cómo se almacenan las contraseñas  en internet, y cómo te afecta cuando la web que usas se ve comprometida."
 image: 2012/07/original2.jpg
 mainclass: articulos
 url: /como-se-almacenan-tus-contrasenas-en-internet-y-cuando-la-longitud-de-la-misma-no-importa/
@@ -20,7 +20,7 @@ tags:
 - "cómo funciona un salt"
 - contraseñas
 - cifrar
-title: "Cómo se almacenan tus contrase\xF1as en internet (y cuando la longitud  de la misma no importa)"
+title: "Cómo se almacenan tus contraseñas en internet (y cuando la longitud  de la misma no importa)"
 ---
 
 <figure>

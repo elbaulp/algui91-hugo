@@ -13,8 +13,8 @@ tags:
 - security now SQRL
 - SQRL
 - SQRL steve gibson
-- "uso de usuario y contrase\xF1a"
-title: "SQRL y la idea de eliminar el uso de usuario y contrase\xF1a en internet"
+- "uso de usuario y contraseña"
+title: "SQRL y la idea de eliminar el uso de usuario y contraseña en internet"
 ---
 
 **Nota:** Puedes echar un ojo al artículo más actualizado [SQRL -Secure Quick Reliable Login a Fondo](/sqrl-secure-quick-reliable-login-a-fondo/)

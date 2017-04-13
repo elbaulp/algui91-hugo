@@ -4,7 +4,7 @@ categories:
 - latex
 color: '#B31917'
 date: '2016-01-01'
-description: "En este tutorial, curso o como queráis llamarlo os voy a ense\xF1ar
+description: "En este tutorial, curso o como queráis llamarlo os voy a enseñar
   lo básico que debéis saber para hacer vuestros documentos en <strong>LaTeX</strong>!
   Como estamos en un blog sobre informática vamos a orientarlo un poco hacia la
   informática."
@@ -16,7 +16,7 @@ url: /mini-curso-de-latex-introduccion/
 tags:
 - codigo latex
 - curso latex
-- "curso latex espa\xF1ol"
+- "curso latex español"
 - enlaces latex
 - figuras latex
 - imagenes latex

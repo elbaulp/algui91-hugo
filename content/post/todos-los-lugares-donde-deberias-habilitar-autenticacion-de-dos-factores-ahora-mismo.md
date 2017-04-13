@@ -10,7 +10,7 @@ mainclass: articulos
 url: /todos-los-lugares-donde-deberias-habilitar-autenticacion-de-dos-factores-ahora-mismo/
 tags:
 - "autentificación de dos factores"
-- "contrase\xF1as"
+- "contraseñas"
 - google autenticator
 title: "Todos los lugares donde deberías habilitar la Autenticación de Dos Factores
   ahora mismo"

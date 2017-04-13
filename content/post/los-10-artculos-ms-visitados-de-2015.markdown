@@ -4,7 +4,7 @@ categories:
 - articulos
 color: '#F57C00'
 date: 2015-12-15 07:17:53
-description: "Se nos va otro a\xF1o, estos son los 10 artículos que más os han
+description: "Se nos va otro año, estos son los 10 artículos que más os han
   gustado"
 image: los10articulosmasvisitados2015.png
 

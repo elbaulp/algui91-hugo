@@ -11,7 +11,7 @@ url: /vinetas-geek-de-domingo/
 tags:
 - chiste grafico de informatica
 - humor geek grafico
-title: "Vi\xF1etas geek de Domingo"
+title: "Viñetas geek de Domingo"
 ---
 
 Con el objetivo de hacer las los Domingos más amenos a los lectores, el último día de la semana que pueda publicaré viñetas que vea por la red y me parezcan graciosas. Estarán todas bajo la categoría **De Domingo**. Por supuesto estarán relacionadas con el mundo de la informática. No hace falta decir que no soy el autor, siempre habrá un enlace a la web de la viñeta original.

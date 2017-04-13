@@ -5,7 +5,7 @@ categories:
 - tecnología
 date: 2015-06-30 16:48:42
 lastmod: 2017-02-22 09:25:52
-description: "Esta lista de libros geeks se mantiene en constante actualización, si deseas que se a\xF1ada alguno, no dudes en dejarnos un comentario!"
+description: "Esta lista de libros geeks se mantiene en constante actualización, si deseas que se añada alguno, no dudes en dejarnos un comentario!"
 image: Thing-Explainer-Complicated-Stuff-in-Simple-Words.jpg
 mainclass: articulos
 url: /5-libros-de-no-ficcion-que-todo-geek-deberia-leer/

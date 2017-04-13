@@ -20,7 +20,7 @@ tags:
 - curso android pdf
 - custom adapter
 - list adapter
-- "listview setlistadapter espa\xF1ol"
+- "listview setlistadapter español"
 - manual android parcelable
 - simple adapter android ejemplo
 title: "Cómo crear un adapter personalizado en Android"

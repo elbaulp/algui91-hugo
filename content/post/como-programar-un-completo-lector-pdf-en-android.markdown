@@ -4,7 +4,7 @@ categories:
 - java
 date: 2015-07-06 19:00:00
 lastmod: 2017-03-23T14:05:11+01:00
-description: "\xBFConoces el SDK PlugPDF? Esta API te permite trabajar con documentos  PDF de forma nativa, tanto en Android como en iOS."
+description: "¿Conoces el SDK PlugPDF? Esta API te permite trabajar con documentos  PDF de forma nativa, tanto en Android como en iOS."
 image: "Lector PDF Android con barra de navegación.jpg"
 mainclass: java
 tags:

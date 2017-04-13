@@ -11,7 +11,7 @@ url: /curso-de-latex-incluir-codigo-fuente-y-simbolos-matematicos/
 tags:
 - codigo latex
 - curso latex
-- "curso latex espa\xF1ol"
+- "curso latex español"
 - enlaces latex
 - figuras latex
 - imagenes latex

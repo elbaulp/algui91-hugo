@@ -13,7 +13,7 @@ modified: null
 tags:
 - pre ansi C stilo
 - declarar variables antes de funcion C
-- "sintaxis extra\xF1a C"
+- "sintaxis extraña C"
 title: "Declaración De Variables Entre El Nombre De La Función Y La Primera
   Llave en C"
 ---

@@ -5,7 +5,7 @@ categories:
 color: '#689F38'
 date: '2016-01-01'
 description: "El concurso universitario de software libre sigue en marcha, como dije
-  participo en SWADROID. La última implementación que se hizo era a\xF1adir
+  participo en SWADROID. La última implementación que se hizo era añadir
   una opción para cerrar sesión. Pero nos dimos cuenta que si el usuario cerraba
   sesión desde alguna activity distinta de la princial, no se mostraba la pantalla
   de login, si no la activity en la que estuviera en el momento de cerrar sesión.

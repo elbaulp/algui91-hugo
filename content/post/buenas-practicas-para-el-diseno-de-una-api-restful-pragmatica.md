@@ -17,7 +17,7 @@ tags:
 - como hacer una api rest
 - api rest ejemplo
 - que es una api rest
-title: "Buenas prácticas para el Dise\xF1o de una API RESTful Pragmática"
+title: "Buenas prácticas para el Diseño de una API RESTful Pragmática"
 ---
 
 > Esta es una traducción lo más literal posible del artículo original, ya que quería preservar la opinión personal del autor así como también el destacable trabajo de investigación y análisis que realizó.

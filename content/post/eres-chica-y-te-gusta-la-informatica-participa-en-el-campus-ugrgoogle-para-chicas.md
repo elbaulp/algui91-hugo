@@ -12,7 +12,7 @@ tags:
 - etsiit
 - "ingeniería para chicas"
 - ugr
-title: "\xBFEres chica y te gusta la informática?, participa en el campus UGR/Google
+title: "¿Eres chica y te gusta la informática?, participa en el campus UGR/Google
   para chicas"
 ---
 

@@ -12,7 +12,7 @@ tags:
 - futuro de los ides de escritorio
 - IDES en la nube
 - IDES para internet
-title: "5 Razones por las cuales en 5 a\xF1os los IDEs de escritorio estarán muertos"
+title: "5 Razones por las cuales en 5 años los IDEs de escritorio estarán muertos"
 ---
 
 Sí, no es broma. En 5 años, todos los desarrolladores codificarán en la nube. No sólo codificarán allí sino que también compilarán*, ___testearán, correrán, depurarán y desplegarán___ las aplicaciones en la nube. Es inevitable, aunque no sea muy obvio todavía. De hecho, los proyectos IDE basados en la nube están saliendo al mercado como los jugadores más importantes con serias intenciones y visiones claras y estratégicas. Sí, es imposible hacer una predicción del 100% sobre cómo se comportará el mercado en 1-2 años. Las nuevas tendencias en la industria del desarrollo de software hablan de la necesidad de una forma más productiva de codificar. Hay un largo incremento en el número de aplicaciones desarrolladas en todo el mundo, mientras que el número de desarrolladores se mantiene bastante igual. ¿Qué significa esto? Significa que los desarrolladores tienen que volverse más productivos. Al margen de los limites que existen en la resistencia y productividad del ser humano, es posible ganar algo de tiempo optimizando los procesos de codificación, compilación, testeo, ejecución y despliegue. Aquí es exactamente cuando un IDE ubicado en la nube entra en juego como un serio rival para las herramientas offline. Algunas de las ventajas más obvias de los IDEs online incluyen:

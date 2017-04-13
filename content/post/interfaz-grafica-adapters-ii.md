@@ -13,7 +13,7 @@ url: /programacion-android-interfaz-grafica-2/
 tags:
 - adapter android
 - adapter getview android
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - como hacer interfaces graficas en android
 - curso android pdf
 - interfaces de usuario android

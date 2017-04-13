@@ -5,9 +5,9 @@ categories:
 - articulos
 color: '#689F38'
 date: 2015-12-11 10:47:00
-description: "En el anterior artículo hablamos de cómo reducir el tama\xF1o
+description: "En el anterior artículo hablamos de cómo reducir el tamaño
   de una aplicación Android eliminando recursos sin usar. En el blog de Cyril Mottier
-  encontré un artículo muy interesante con varios consejos para reducir el tama\xF1o
+  encontré un artículo muy interesante con varios consejos para reducir el tamaño
   del APK y optimizar el código en producción. A continuación pasamos a traducir
   las partes importantes."
 image: hotlink-ok/Pon-a-dieta-a-tus-APKs.png
@@ -19,7 +19,7 @@ tags:
 - android
 - optimizar APK
 - reducir peso APK
-- "tama\xF1o del APK"
+- "tamaño del APK"
 title: Pon a dieta a tus APKs
 ---
 

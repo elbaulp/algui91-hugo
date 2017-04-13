@@ -24,11 +24,11 @@ tags:
 - ramas con git
 - tutorial git
 - tutoriales sobre git
-- "tutorial git espa\xF1ol"
+- "tutorial git español"
 - git bash tutorial
 - comandos bitbucket
-- "git tutorial espa\xF1ol"
-- "git manual espa\xF1ol pdf"
+- "git tutorial español"
+- "git manual español pdf"
 - git clone
 - git init
 title: 'Git: Mini Tutorial y chuleta de comandos'

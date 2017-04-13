@@ -10,7 +10,7 @@ lastmod: 2016-09-17
 mainclass: android
 url: /programacion-android-interfaz-grafica/
 tags:
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - como hacer interfaces graficas en android
 - curso android pdf
 - interfaces de usuario android

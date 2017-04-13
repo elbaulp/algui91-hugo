@@ -5,9 +5,9 @@ categories:
 color: '#61B38D'
 date: 2015-07-21 18:36:47
 description: "El 25 de Junio de 2013, publiqué un artículo para anunciando el
-  nuevo logo del blog, dise\xF1ado por mi. Ha pasado bastante tiempo, y en el fondo,
+  nuevo logo del blog, diseñado por mi. Ha pasado bastante tiempo, y en el fondo,
   nunca quedé contento con el logo actual. Principalmente porque si la web se llama
-  El Baúl del Programador, \xBFDónde está el baúl? Tras mucho retrasarlo,
+  El Baúl del Programador, ¿Dónde está el baúl? Tras mucho retrasarlo,
   al fin está aquí, a mi parecer el más apropiado para el blog. Y no por
   el logo en sí, si no por la historia que esconde trás de él."
 image: logo.png

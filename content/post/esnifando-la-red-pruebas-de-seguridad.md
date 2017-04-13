@@ -11,7 +11,7 @@ lastmod: 2016-09-11
 mainclass: articulos
 url: /esnifando-la-red-pruebas-de-seguridad/
 tags:
-- "ettercap en espa\xF1ol"
+- "ettercap en español"
 - tutorial ettercap comandos
 title: 'Esnifando la red (Pruebas de seguridad): Ettercap y Wireshark (Man in the
   middle)'

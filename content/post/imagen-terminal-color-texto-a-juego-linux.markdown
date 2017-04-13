@@ -6,7 +6,7 @@ color: '#2196F3'
 date: 2016-07-18 16:08:56
 description: null
 image: imagen-terminal-color-texto-a-juego-linux.png
-introduction: "Con este peque\xF1o script podrás cambiar el fondo y color de texto
+introduction: "Con este pequeño script podrás cambiar el fondo y color de texto
   de tu terminal, a juego"
 
 mainclass: linux

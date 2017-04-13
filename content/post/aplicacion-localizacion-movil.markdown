@@ -4,8 +4,8 @@ categories:
 - java
 date: 2016-02-04 08:33:22
 description: "El robo de smartphones se ha disparado recientemente. Aumenta un 30%
-  cada a\xF1o, y aparentemente incluso el gobierno ha comenzado a notarlo porque quieren
-  que las compa\xF1ías de teléfonos dise\xF1en dispositivos con una seguridad
+  cada año, y aparentemente incluso el gobierno ha comenzado a notarlo porque quieren
+  que las compañías de teléfonos diseñen dispositivos con una seguridad
   mejorada que ayuden a localizar el móvil en caso de pérdida."
 mainclass: java
 tags:

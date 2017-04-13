@@ -9,7 +9,7 @@ date: '2016-01-01'
 mainclass: android
 url: /programacion-android-interfaz-grafica_23/
 tags:
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - como hacer interfaces graficas en android
 - curso android layouts
 - curso android pdf

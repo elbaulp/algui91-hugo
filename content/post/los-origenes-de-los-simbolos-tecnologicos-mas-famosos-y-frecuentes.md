@@ -11,7 +11,7 @@ description: "Contínuamente exploramos el mundo de los orígenes pero es muy
   casi todo lo que necesitas saber, desde dónde se originó el símbolo de
   Blouetooth hasta porqué \u2018@\u2019 es tan comunmente usado. Cada símbolo
   viene con su propia historia de origen, la mayoría de las cuales son mucho más
-  interesantes de lo que piensas. Por ejemplo, \xBFsabías que la tecla de comando
+  interesantes de lo que piensas. Por ejemplo, ¿sabías que la tecla de comando
   Apple está inspirada en un símbolo sueco que indica una atracción destacable
   en un camping? Debe haber algunos símbolos incluidos en este gráfico que posiblemente
   nunca has oído o visto."

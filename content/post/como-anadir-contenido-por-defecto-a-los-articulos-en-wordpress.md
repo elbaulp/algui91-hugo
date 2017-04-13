@@ -12,7 +12,7 @@ tags:
 - contenido por defecto
 - contenido por defecto en post wordpress
 - wordpress
-title: "Cómo a\xF1adir contenido por defecto a los artículos en WordPress"
+title: "Cómo añadir contenido por defecto a los artículos en WordPress"
 ---
 
 <figure>

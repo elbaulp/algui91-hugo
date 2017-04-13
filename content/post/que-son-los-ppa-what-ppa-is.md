@@ -8,7 +8,7 @@ lastmod: 2016-08-16
 
 mainclass: linux
 url: /que-son-los-ppa-what-ppa-is/
-title: "\xBFQué son los PPA?"
+title: "¿Qué son los PPA?"
 ---
 
 Si quereis crear un PPA, encontrareis una explicación de como hacerlo [aquí][1].

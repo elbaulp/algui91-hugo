@@ -16,7 +16,7 @@ tags:
 - curso android desarrollo pdf
 - curso android pdf
 - manual desarrollo aplicaciones android
-- "programacion android pdf espa\xF1ol"
+- "programacion android pdf español"
 - programacion aplicaciones android pdf
 - programacion en android
 - programar en android pdf

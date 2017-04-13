@@ -33,7 +33,7 @@ tags:
 - calidades de audio
 - formatos alac
 - audio
-title: "\xBFCual es la diferencia entre los distintos formatos de audio, y cual debería  elegir?"
+title: "¿Cual es la diferencia entre los distintos formatos de audio, y cual debería  elegir?"
 ---
 
 <figure>

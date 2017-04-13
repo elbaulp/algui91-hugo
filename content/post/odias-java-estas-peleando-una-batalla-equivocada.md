@@ -11,7 +11,7 @@ tags:
 - cobol
 - java
 - mainframes
-title: "\xBFOdias Java? Estás peleando una batalla equivocada"
+title: "¿Odias Java? Estás peleando una batalla equivocada"
 ---
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/java1.jpg" alt="" title="java" width="460px" height="349px" />

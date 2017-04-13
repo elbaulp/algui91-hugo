@@ -6,7 +6,7 @@ categories:
 date: '2016-01-01'
 lastmod: 2017-03-04T07:51:42+01:00
 description: "Si encontraste esta página, por suerte es lo que estabas buscando,
-  una peque\xF1a chuleta de comandos para GPG. Si encuentras algún error, no dudes
+  una pequeña chuleta de comandos para GPG. Si encuentras algún error, no dudes
   en comentarlo."
 image: 2014/04/Chuleta-de-comandos-GPG.png
 mainclass: articulos

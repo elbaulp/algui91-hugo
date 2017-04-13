@@ -5,7 +5,7 @@ categories:
 color: '#D32F2F'
 date: 2016-04-06 19:24:34
 description: "El siguiente artículo es una traducción de una pregunta en stackOverflow
-  del usuario ziggy, que preguntaba \xBFQué es un NullPointerException y cómo
+  del usuario ziggy, que preguntaba ¿Qué es un NullPointerException y cómo
   se puede solucionar?. La respuesta es del usuario vincent-ramdhanie"
 image: "2014/05/Qué-es-un-NullPointerException-y-cómo-solucionarlo.png"
 lastmod: 2016-04-06

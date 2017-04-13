@@ -17,7 +17,7 @@ tags:
 - linux
 - usb se cuelga
 - usb lento
-title: "\xBFPor Qué Se Cuelga Linux Al Copiar Ficheros a Un Usb?"
+title: "¿Por Qué Se Cuelga Linux Al Copiar Ficheros a Un Usb?"
 ---
 
 <figure>

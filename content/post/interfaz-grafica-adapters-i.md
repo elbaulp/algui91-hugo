@@ -11,7 +11,7 @@ mainclass: android
 url: /programacion-android-interfaz-grafica_28/
 tags:
 - adapter android
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - android listview con imagenes
 - android listview example
 - como hacer interfaces graficas en android

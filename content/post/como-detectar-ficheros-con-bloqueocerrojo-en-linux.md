@@ -15,11 +15,11 @@ tags:
 - file locks
 - flock
 - locks
-title: "\xBFCómo detectar ficheros con bloqueo/cerrojo en Linux?"
+title: "¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?"
 ---
 
 <figure>
-<a href="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg" title="\xBFCómo detectar ficheros con bloqueo/cerrojo en Linux?" alt="\xBFCómo detectar ficheros con bloqueo/cerrojo en Linux?" width="640px" height="640px" /></a>
+<a href="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg" title="¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?" alt="¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?" width="640px" height="640px" /></a>
 <span class="image-credit">Crédito de la imagen: pixabay.com</span>
 </figure>
 

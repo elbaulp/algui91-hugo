@@ -10,7 +10,7 @@ mainclass: android
 url: /programacion-android-interfaz-grafica_25/
 tags:
 - adapter android
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - como hacer interfaces graficas en android
 - curso android pdf
 - definicion del metodo setonitemclicklistener

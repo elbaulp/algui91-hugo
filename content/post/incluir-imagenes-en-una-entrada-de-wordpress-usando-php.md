@@ -8,7 +8,7 @@ description: "Esto es lo que tenemos que hacer. Tenemos una imagen sin adjuntar 
   nuestra biblioteca multimedia de WordPress. También hay una página \u201C2014
   Galery\u201D, que muestra las imágenes adjuntas de la página dentro de la
   galería de WordPress. Tenemos que encontrar la fecha de carga de la imagen sin
-  adjuntar. Si el a\xF1o que se subió la imagen fué 2014, tenemos que adjuntar
+  adjuntar. Si el año que se subió la imagen fué 2014, tenemos que adjuntar
   la imagen a nuestra página."
 image: 2013/07/wordpress.png
 lastmod: 2015-12-24
@@ -16,8 +16,8 @@ lastmod: 2015-12-24
 mainclass: dev
 url: /incluir-imagenes-en-una-entrada-de-wordpress-usando-php/
 tags:
-- "a\xF1adir imagenes php"
-- "a\xF1adir imagenes wordpress"
+- "añadir imagenes php"
+- "añadir imagenes wordpress"
 - imagenes en entradas wordpress
 title: "Incluir imágenes en una entrada de WordPress usando PHP"
 ---

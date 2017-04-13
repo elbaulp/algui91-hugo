@@ -12,7 +12,7 @@ tags:
 - apache
 - front controller
 - nginx
-- "patrones de dise\xF1o"
+- "patrones de diseño"
 title: "Cómo crear un Front Controller en PHP"
 ---
 

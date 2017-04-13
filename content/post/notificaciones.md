@@ -8,7 +8,7 @@ lastmod: 2017-03-15T16:17:45+01:00
 mainclass: android
 url: /programacion-android-interfaz-grafica_11/
 tags:
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - android programar ProgressDialog
 - como hacer interfaces graficas en android
 - curso android pdf

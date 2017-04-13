@@ -11,7 +11,7 @@ lastmod: 2016-09-12
 mainclass: articulos
 url: /video-tutoriales-ataque-man-in-middle/
 tags:
-- "ettercap en espa\xF1ol"
+- "ettercap en español"
 title: "[Vídeo tutoriales] Ataque Man in the middle"
 ---
 

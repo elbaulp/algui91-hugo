@@ -13,7 +13,7 @@ tags:
 - instalar android studio
 - manuales android studio
 - tutorial android studio
-title: "Cómo instalar el IDE Android Studio en Linux y peque\xF1a guía de uso"
+title: "Cómo instalar el IDE Android Studio en Linux y pequeña guía de uso"
 ---
 
 <figure>
@@ -24,8 +24,8 @@ title: "Cómo instalar el IDE Android Studio en Linux y peque\xF1a guía de uso"
             tabindex="0"
             layout="responsive"
             src="/img/2013/05/AndroidStudio.png"
-            alt="Cómo instalar el IDE Android Studio en Linux y peque\xF1a guía de uso"
-            title="Cómo instalar el IDE Android Studio en Linux y peque\xF1a guía de uso"
+            alt="Cómo instalar el IDE Android Studio en Linux y pequeña guía de uso"
+            title="Cómo instalar el IDE Android Studio en Linux y pequeña guía de uso"
             sizes="(min-width: 402px) 402px, 100vw"
             width="402"
             height="302">

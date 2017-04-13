@@ -13,7 +13,7 @@ tags:
 - sintaxis de restricciones check
 - sintaxis de restricciones check unique default
 - unique
-title: "Dise\xF1o de Bases de Datos ( II ) - Restricciones"
+title: "Diseño de Bases de Datos ( II ) - Restricciones"
 ---
 
 > __Nota:__ Basado en los apuntes de clase

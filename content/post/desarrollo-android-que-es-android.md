@@ -12,7 +12,7 @@ mainclass: android
 url: /desarrollo-android-que-es-android/
 tags:
 - curso android pdf
-title: "Desarrollo android. \xBFQué es Android?. Traducción de developer.android.com"
+title: "Desarrollo android. ¿Qué es Android?. Traducción de developer.android.com"
 ---
 
 # ¿Qué es Android?
