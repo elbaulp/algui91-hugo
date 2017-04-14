@@ -26,8 +26,7 @@ tags:
 - error nullpointerexception null facebook
 - que es nullpointerexception null
 - error al entrar en facebook nullpointerexception
-title: "Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo
-  solucionarlo"
+title: "Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo"
 ---
 
 <figure>

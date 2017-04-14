@@ -11,8 +11,7 @@ if_slider_image:
 
 mainclass: misc
 url: /nueva-guia-developer-report-top-social-media-and-html5-considerations-for-mobile-app-success/
-title: "Nueva guía: Developer Report: Top Social Media and HTML5 Considerations
-  for Mobile App Success"
+title: "Nueva guía: Developer Report: Top Social Media and HTML5 Considerations for Mobile App Success"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/08/w_appc01c1.gif" alt="Developer Report: Top Social Media and HTML5 Considerations for Mobile App Success" title="Developer Report: Top Social Media and HTML5 Considerations for Mobile App Success" width="114px" height="150px" />][1]

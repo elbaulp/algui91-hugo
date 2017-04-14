@@ -158,8 +158,7 @@ criptosistema la seguridad.
 
 
 <figure>
-<a href="/img/two-steps-framework.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/two-steps-framework.png" title="Enfoque híbrido de un sistema
-  biométrico" alt="Enfoque híbrido de un sistema
+<a href="/img/two-steps-framework.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/two-steps-framework.png" title="Enfoque híbrido de un sistema biométrico" alt="Enfoque híbrido de un sistema
   biométrico" width="989px" height="392px" /></a>
 </figure>
 [fig:frame]

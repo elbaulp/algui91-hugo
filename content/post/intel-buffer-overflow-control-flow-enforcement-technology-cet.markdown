@@ -25,8 +25,7 @@ tags:
 - endbranch intel
 - instruccion ENDBRANCH
 - que es un buffer overflow
-title: "Cómo Intel Va a Acabar Con Los Buffers Overflows Con Control-Flow Enforcement
-  Technology (CET)"
+title: "Cómo Intel Va a Acabar Con Los Buffers Overflows Con Control-Flow Enforcement Technology (CET)"
 ---
 
 Hace tiempo que hablamos aquí sobre lo que es un [Buffer Overflow](/explotacion-buffers-overflows-y-exploits-parte-i/ "Explotación – Buffers OverFlows y exploits") y cómo aprovecharnos de ellos para tomar control del sistema. Pues bien, Intel se propone acabar con este tipo tan común de vulnerabilidad en sus nuevos procesadores.

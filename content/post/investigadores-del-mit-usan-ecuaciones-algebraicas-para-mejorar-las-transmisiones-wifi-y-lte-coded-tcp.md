@@ -23,8 +23,7 @@ tags:
 - packets
 - paquetes
 - WiFi
-title: "Investigadores del MIT usan ecuaciones algebráicas para mejorar las transmisiones
-  WIFI y LTE con coded TCP"
+title: "Investigadores del MIT usan ecuaciones algebráicas para mejorar las transmisiones WIFI y LTE con coded TCP"
 ---
 
 <figure>

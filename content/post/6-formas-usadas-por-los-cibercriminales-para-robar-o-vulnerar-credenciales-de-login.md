@@ -25,8 +25,7 @@ tags:
 - saltar autentificacion de dos factores
 - Vulnerabilidades en las aplicaciones
 - listas
-title: 6 formas usadas por los cibercriminales para robar o vulnerar credenciales
-  de login
+title: 6 formas usadas por los cibercriminales para robar o vulnerar credenciales de login
 ---
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/blog_sevenways.png" alt="7 formas usadas por cibercriminales para robar o vulnerar credenciales de login" width="700px" height="350px" />

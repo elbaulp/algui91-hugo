@@ -11,8 +11,7 @@ mainclass: android
 url: /programacion-android-recursos-repasando/
 tags:
 - curso android pdf
-title: "Programación Android: Recursos - Repasando la estructura del directorio
-  de recursos"
+title: "Programación Android: Recursos - Repasando la estructura del directorio de recursos"
 ---
 
 En resumen, en el siguiente listado muestra la estructura global del directorio de recursos:

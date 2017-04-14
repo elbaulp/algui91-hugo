@@ -7,8 +7,7 @@ date: '2016-01-01'
 
 mainclass: articulos
 url: /sorteo-wordpress/
-title: "Sorteamos 10 matrículas gratuitas para cursos de desarrollo WordPress y
-  cupones de descuento"
+title: "Sorteamos 10 matrículas gratuitas para cursos de desarrollo WordPress y cupones de descuento"
 ---
 
 Me alegra comunicaros que me han ofrecido realizar este sorteo en el que los lectores podrán participar en el sorteo de **5 matriculaciones gratuitas para un curso sobre WordPress, 5 matriculaciones gratuitas para un curso de desarrollo de plugins para WordPress y 10 cupones de descuento para los dos cursos**. Participa!.

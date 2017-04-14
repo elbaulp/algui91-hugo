@@ -12,8 +12,7 @@ tags:
 - "problemas autentificación de 2 factores"
 - "que es autentificación de 2 factores"
 - "usuarios autentificación de 2 factores"
-title: "Por qué la autentificación de 2 factores depende de la experiencia del
-  usuario"
+title: "Por qué la autentificación de 2 factores depende de la experiencia del usuario"
 ---
 
 <figure>

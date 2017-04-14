@@ -14,8 +14,7 @@ tags:
 - pre ansi C stilo
 - declarar variables antes de funcion C
 - "sintaxis extraña C"
-title: "Declaración De Variables Entre El Nombre De La Función Y La Primera
-  Llave en C"
+title: "Declaración De Variables Entre El Nombre De La Función Y La Primera Llave en C"
 ---
 
 > El siguiente artículo es una traducción de una pregunta en **StackOverflow** del usuario <a href="http://stackoverflow.com/users/1612432/algui91" target="_blank" title="algui91 perfil">algui91</a> , que preguntaba <a href="http://stackoverflow.com/questions/13789450/variable-declaration-between-function-name-and-first-curly-brace" target="_blank" title="Variable declaration between function name and first curly brace">_Variable declaration between function name and first curly brace_</a>. La respuesta es del usuario <a href="http://stackoverflow.com/users/270060/omkant" target="_blank" title="Omkant Perfil">omkant</a>.

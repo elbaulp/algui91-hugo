@@ -11,8 +11,7 @@ mainclass: java
 tags:
 - "aplicaiones localización movil"
 - localizar movil
-title: "3 Intervenciones Para Poner a Salvo Tu Teléfono Con Una Aplicación Para
-  Localizar El Móvil"
+title: "3 Intervenciones Para Poner a Salvo Tu Teléfono Con Una Aplicación Para Localizar El Móvil"
 lastmod: 2017-02-04
 ---
 

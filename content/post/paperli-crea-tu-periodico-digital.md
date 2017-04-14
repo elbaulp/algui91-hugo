@@ -9,8 +9,7 @@ lastmod: 2016-09-09
 
 mainclass: articulos
 url: /paperli-crea-tu-periodico-digital/
-title: "Paper.li: Crea tu periódico digital automáticamente con lo más relevante
-  de Twitter y Facebook"
+title: "Paper.li: Crea tu periódico digital automáticamente con lo más relevante de Twitter y Facebook"
 ---
 
 Gracias a un usuario de Twitter (@joanballester), he descubierto esta web que permite generar un periódico a tu gusto.

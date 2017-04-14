@@ -17,8 +17,7 @@ url: /como-resolver-sistemas-de-ecuaciones-lineales-con-dos-incognitas/
 tags:
 - ecuaciones lineales
 - resolver ecuaciones python
-title: "Cómo resolver sistemas de ecuaciones lineales con dos incógnitas en
-  Python"
+title: "Cómo resolver sistemas de ecuaciones lineales con dos incógnitas en Python"
 ---
 
 > El siguiente artículo es una colaboración de <a href="http://dealgebra.blogspot.mx/" title="Visitar blog" target="_blank">Rogelio González</a>, al que agradezco su interés por colaborar en este blog.

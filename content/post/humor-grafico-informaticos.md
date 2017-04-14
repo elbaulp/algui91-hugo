@@ -9,8 +9,7 @@ lastmod: 2016-10-22
 
 mainclass: geek
 url: /humor-grafico-informaticos/
-title: "Humor gráfico - Informáticos, Programadores, geeks - 9GAG.COM Parte
-  (II)"
+title: "Humor gráfico - Informáticos, Programadores, geeks - 9GAG.COM Parte (II)"
 ---
 
 Siguiendo con la costumbre de publicar de vez en cuando [imágenes de humor][1] relacionadas con la tecnología y la informática os traigo una nueva recopilación extraida de 9gag.com:

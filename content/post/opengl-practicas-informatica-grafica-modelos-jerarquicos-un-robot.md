@@ -18,8 +18,7 @@ tags:
 - practicas IG ugr
 - "practicas informática Gráfica"
 - practicas opengl
-title: "OpenGL - Prácticas Informática Gráfica: Modelos jerárquicos  -
-  Un Robot"
+title: "OpenGL - Prácticas Informática Gráfica: Modelos jerárquicos  - Un Robot"
 ---
 
 El curso pasado hice unas prácticas Informática Gráfica (IG) en la que había que implementar algún objeto con modelos jerárquicos. La práctica se basa en una plantilla que encontré de la universidad [http://www.csc.villanova.edu][1].

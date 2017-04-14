@@ -12,8 +12,7 @@ if_slider_image:
 
 mainclass: geek
 url: /humor-grafico-informaticos-programadores-geek-9gag-com-parte-iii/
-title: "Humor gráfico - Informáticos, Programadores, geek&#8230; - 9GAG.COM
-  Parte (III)"
+title: "Humor gráfico - Informáticos, Programadores, geek&#8230; - 9GAG.COM Parte (III)"
 ---
 
 Otra recopilación de humor gráfico, para cerrar este domingo de verano.

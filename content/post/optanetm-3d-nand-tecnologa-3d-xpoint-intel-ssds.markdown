@@ -20,8 +20,7 @@ tags:
 - optane
 - 3D XPoint
 - ssd
-title: "Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los
-  SSDs"
+title: "Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los SSDs"
 ---
 
 > En un artículo anterior hablamos de [Cómo Intel Va a Acabar Con Los Buffers Overflows Con Control-Flow Enforcement](/intel-buffer-overflow-control-flow-enforcement-technology-cet/ "Cómo Intel Va a Acabar Con Los Buffers Overflows Con Control-Flow Enforcement"). Hoy Intel vuelve a ser noticia, hace unos días en el episodio #573 de [Security now!](/categories/security-now/ "Todos los artículos de Security Now!") Steve habló de una nueva tecnología que ha creado Intel junto con Micron. Se llama __3D XPoint__ y con ella han creado dos tipos de discos duros 1000 veces más rápidos que los SSDs.

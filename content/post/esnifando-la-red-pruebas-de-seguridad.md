@@ -13,8 +13,7 @@ url: /esnifando-la-red-pruebas-de-seguridad/
 tags:
 - "ettercap en español"
 - tutorial ettercap comandos
-title: 'Esnifando la red (Pruebas de seguridad): Ettercap y Wireshark (Man in the
-  middle)'
+title: 'Esnifando la red (Pruebas de seguridad): Ettercap y Wireshark (Man in the middle)'
 ---
 
 ## Introducción

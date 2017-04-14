@@ -8,8 +8,7 @@ date: '2016-01-01'
 
 mainclass: misc
 url: /gana-dinero-ofreciendo-manuales-de/
-title: "Gana dinero ofreciendo manuales de todas las áreas de conocimiento a tus
-  lectores con RevResponse"
+title: "Gana dinero ofreciendo manuales de todas las áreas de conocimiento a tus lectores con RevResponse"
 ---
 
 <div class="separator" >
