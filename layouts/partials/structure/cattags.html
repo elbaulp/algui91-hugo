@@ -16,3 +16,34 @@
   </div>
 {{ end }}
 </div>
+
+<h1>{{T "related" }}</h1>
+
+{{ $url := "static/labels.csv" }}
+{{ $sep := "," }}
+{{ $file := string .File.LogicalName }}
+
+{{/* First iterate thought csv to get post cluster */}}
+{{ range $i, $r := getCSV $sep $url }}
+   {{ if in $r (string $file) }}
+       {{ $.Scratch.Set "cluster" (index . 1) }}
+   {{ end }}
+{{ end }}
+
+{{ $cluster := $.Scratch.Get "cluster" }}
+
+{{/* loop csv again to store post in the same cluster */}}
+{{ range $i, $r := getCSV $sep $url }}
+    {{ if in $r (string $cluster) }}
+        {{ $.Scratch.Add "posts" (slice $r) }}
+    {{ end }}
+{{ end }}
+
+{{ $post := $.Scratch.Get "posts" }}
+
+{{/* Finally, show 5 randomly related posts */}}
+<ul>
+{{ range first 5 (shuffle $post) }}
+    <li><a id="related-post" href="{{$.Ref (index . 2)}}" title="{{ index . 3}}">{{ index . 3 }}</a></li>
+{{ end }}
+</ul>

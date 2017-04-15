@@ -78,3 +78,5 @@
   translation: "Más artículos de {{ .name }}"
 - id: lastMod
   translation: "Modificado el"
+- id: related
+  translation: "Quizá también te interese leer..."
