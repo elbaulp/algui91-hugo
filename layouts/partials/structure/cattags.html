@@ -44,6 +44,6 @@
 {{/* Finally, show 5 randomly related posts */}}
 <ul>
 {{ range first 5 (shuffle $post) }}
-    <li><a id="related-post" href="{{$.Ref (index . 2)}}" title="{{ index . 3}}">{{ index . 3 }}</a></li>
+    <li><a id="related-post"  {{ printf "href=%q" ($.Ref (index . 2)) | safeHTMLAttr }} {{ printf "title=%q" (index . 3) | safeHTMLAttr }}>{{ index . 3 }}</a></li>
 {{ end }}
 </ul>
