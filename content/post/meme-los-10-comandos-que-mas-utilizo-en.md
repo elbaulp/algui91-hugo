@@ -8,7 +8,7 @@ lastmod: 2016-08-30
 
 mainclass: linux
 url: /meme-los-10-comandos-que-mas-utilizo-en/
-title: "Descubre cuales son los 10 comandos que m\xE1s usas en Linux con esta l\xEDnea"
+title: "Descubre cuales son los 10 comandos que más usas en Linux con esta línea"
 ---
 
 En <a target="_blank" href="http://www.ubuntizandoelplaneta.com/2011/01/meme-los-10-comandos-que-mas-utilizo.html">ubuntizando el planeta</a> he leido este meme que voy a publicar, que consiste en ejecutar la orden

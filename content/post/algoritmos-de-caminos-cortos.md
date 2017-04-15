@@ -6,8 +6,8 @@ categories:
 - inteligencia artificial
 date: '2016-01-01'
 lastmod: 2017-01-31
-description: "Para hablar de este tipo de algoritmos, tengo que hacer una breve introducci\xF3n
-  a lo que es un grafo y c\xF3mo se representa en un ordenador."
+description: "Para hablar de este tipo de algoritmos, tengo que hacer una breve introducción
+  a lo que es un grafo y cómo se representa en un ordenador."
 mainclass: dev
 url: /algoritmos-de-caminos-cortos/
 tags:

@@ -11,9 +11,9 @@ mainclass: dev
 url: /diagramas-animados-de-numeros-factorizados/
 tags:
 - animated diagrams
-- "factorizaci\xF3n"
+- "factorización"
 - html5
-title: "Diagramas animados de n\xFAmeros factorizados en HTML5"
+title: "Diagramas animados de números factorizados en HTML5"
 ---
 
 <figure>

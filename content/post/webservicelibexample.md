@@ -14,7 +14,7 @@ tags:
 - restlib
 - web services android
 - web services programacion
-title: "Restlib - Librer\xEDa para realizar peticiones a Web Services en Android"
+title: "Restlib - Librería para realizar peticiones a Web Services en Android"
 ---
 
 Trabajando con un compañero en una aplicación que hacía uso de web services, nos planteamos la posibilidad de crear un librería que nos facilitara el desarrollo en aplicaciones similares. Aunque hay muchas disponibles en la red decidimos crear la nuestra propia. Gran parte de la librería está desarrollada por mi compañero <a href="http://menudoproblema.es/" target="_blank">Vicente</a>, yo crontibuí poco.

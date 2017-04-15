@@ -5,20 +5,20 @@ categories:
 - linux
 color: '#0097A7'
 date: '2016-01-01'
-description: "A lo largo de esta gu\xEDa se pretende mostrar c\xF3mo instalar desde
+description: "A lo largo de esta guía se pretende mostrar cómo instalar desde
   cero un servidor web con Nginx, realizando las operaciones necesarias para lograr
   el mayor rendimiento y seguridad posibles con programas tales como php-fpm, APC,
-  y el m\xF3dulo pagespeed de Google para optimizar los recursos web."
-image: "Instalaci\xF3n-y-optimizaci\xF3n-de-un-servidor-web-con-Nginx1.png"
+  y el módulo pagespeed de Google para optimizar los recursos web."
+image: "Instalación-y-optimización-de-un-servidor-web-con-Nginx1.png"
 lastmod: 2015-12-28
 
 mainclass: servidores
 url: /instalacion-optimizacion-servidor-web-nginx-ii/
 tags:
-- "configuraci\xF3n php"
+- "configuración php"
 - instalar php-fpm
 - nginx y php
-title: "Instalaci\xF3n y optimizaci\xF3n de un servidor web con Nginx (II)"
+title: "Instalación y optimización de un servidor web con Nginx (II)"
 ---
 
 # Tabla de contenidos

@@ -9,13 +9,13 @@ url: /como-funciona-el-bitcoin-la-cripto-moneda/
 tags:
 - bitcoin es
 - como funciona bitcoin
-- "c\xF3mo funciona el bitcoin"
-- "explicaci\xF3n bitcoin"
-- "qu\xE9 es el bitcoin"
+- "cómo funciona el bitcoin"
+- "explicación bitcoin"
+- "qué es el bitcoin"
 - red bitcoin
 - sistema bitcoin
 - webs aceptan bitcoin
-title: "C\xF3mo funciona el Bitcoin, la cripto-moneda"
+title: "Cómo funciona el Bitcoin, la cripto-moneda"
 amp:
   elements: [amp-youtube]
 ---

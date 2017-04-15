@@ -10,14 +10,14 @@ lastmod: 2016-09-17
 mainclass: android
 url: /programacion-android-interfaz-grafica/
 tags:
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - como hacer interfaces graficas en android
 - curso android pdf
 - interfaces de usuario android
 - interfaz grafica en android
 - layout android
 - menu android
-title: "Programaci\xF3n Android: Interfaz gr\xE1fica. Conceptos b\xE1sicos"
+title: "Programación Android: Interfaz gráfica. Conceptos básicos"
 ---
 
 Todos los componenetes de la interfaz de usuario de Android descienden de la clase ***View.*** Dichos objetos están organizados en forma de árbol y pueden contener nuevos objetos View, permitiendo crear interfaces muy completas.

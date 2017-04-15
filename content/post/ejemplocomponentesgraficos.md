@@ -10,7 +10,7 @@ mainclass: android
 url: /programacion-android-interfaz-grafica_25/
 tags:
 - adapter android
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - como hacer interfaces graficas en android
 - curso android pdf
 - definicion del metodo setonitemclicklistener
@@ -18,7 +18,7 @@ tags:
 - interfaz grafica en android
 - layout android
 - menu android
-title: "Programaci\xF3n Android: Interfaz gr\xE1fica - Componentes gr\xE1ficos y Eventos"
+title: "Programación Android: Interfaz gráfica - Componentes gráficos y Eventos"
 ---
 
 [Ya hemos visto][1] que todos los componentes visuales descienden del objeto View, que proporciona una interfaz para que podemos interactuar con ellos.

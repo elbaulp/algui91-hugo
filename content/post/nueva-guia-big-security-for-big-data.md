@@ -14,7 +14,7 @@ url: /nueva-guia-big-security-for-big-data/
 tags:
 - descargar Big Security for Big Data
 - download Big Security for Big Data
-title: "Nueva Gu\xEDa: Big Security for Big Data"
+title: "Nueva Guía: Big Security for Big Data"
 ---
 
 <figure>

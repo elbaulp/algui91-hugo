@@ -3,19 +3,19 @@ author: alex
 categories: LaTeX
 date: 2016-09-16 13:48:53
 lastmod: 2017-04-02T19:24:37+01:00
-description: "Breve introducci\xF3n al paquete PgfGantt de LaTeX, para crear diagramas  de Gantt"
+description: "Breve introducción al paquete PgfGantt de LaTeX, para crear diagramas  de Gantt"
 image: crear-diagrama-de-gantt-en-latex.png
-introduction: "Breve introducci\xF3n al paquete PgfGantt de LaTeX, para crear diagramas  de Gantt"
+introduction: "Breve introducción al paquete PgfGantt de LaTeX, para crear diagramas  de Gantt"
 mainclass: latex
 url: /crear-diagrama-de-gantt-en-latex/
 tags:
 - latex
 - gantt
-title: "C\xF3mo Crear Diagramas De Gantt en LaTeX"
+title: "Cómo Crear Diagramas De Gantt en LaTeX"
 ---
 
 <figure>
-  <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crear-diagrama-de-gantt-en-latex.png" alt="C\xF3mo Crear Diagramas De Gantt en LaTeX" title="C\xF3mo Crear Diagramas De Gantt en LaTeX" width="800" height="335"></amp-img>
+  <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crear-diagrama-de-gantt-en-latex.png" alt="Cómo Crear Diagramas De Gantt en LaTeX" title="Cómo Crear Diagramas De Gantt en LaTeX" width="800" height="335"></amp-img>
 </figure>
 
 > Consulta el resto de [artículos sobre LaTeX escritos en el blog](/categories/latex "Artículos sobre LaTeX")

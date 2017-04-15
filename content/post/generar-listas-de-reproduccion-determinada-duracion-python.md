@@ -4,16 +4,16 @@ categories:
 - dev
 - python
 date: '2016-01-01'
-description: "Seguro que t\xFA tamb\xE9n escucas m\xFAsica mientras programas, a mi
-  me gusta descansar cada 30 min siguiendo la t\xE9cnica pomodoro. Pero mejor hacerlo
-  escuchando m\xFAsica. Este script en python te ayudar\xE1."
+description: "Seguro que tú tambén escucas música mientras programas, a mi
+  me gusta descansar cada 30 min siguiendo la técnica pomodoro. Pero mejor hacerlo
+  escuchando música. Este script en python te ayudará."
 image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
 lastmod: 2017-02-03
 mainclass: dev
 url: /generar-listas-de-reproduccion-determinada-duracion-python/
 tags:
-- "listas de reproducci\xF3n de duraci\xF3n fija"
-- "m\xFAsica"
+- "listas de reproducción de duración fija"
+- "música"
 - python
 - script python
 - python m3u parser
@@ -24,8 +24,8 @@ tags:
 - python import mp4
 - python mp4 to mp3
 - python mp4 parser
-- "listas de reproducci\xF3n personalizadas"
-title: "Generar listas de reproducci\xF3n de una determinada duraci\xF3n con Python"
+- "listas de reproducción personalizadas"
+title: "Generar listas de reproducción de una determinada duración con Python"
 ---
 
 A muchos de nosotros nos gusta escuchar música mientras programamos. Hoy se me ocurrió que estaría bien generar listas de reproducción de una duración determinada. La razón tiene sus orígenes en la <a href="http://es.wikipedia.org/wiki/T%C3%A9cnica_Pomodoro" title="Técnica pomodoro" target="_blank">técnica Pomodoro</a>, que consiste concentrarse en realizar una tarea durante 25 min, sin distraerse, y descansar 5 min. Se repite cuatro veces y al cuarto descanso en lugar de 5 se descansan 15 min. Ésta técnica pretende mejorar la productividad.

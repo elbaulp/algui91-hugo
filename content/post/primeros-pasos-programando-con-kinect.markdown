@@ -6,16 +6,16 @@ categories:
 - dev
 color: '#E64A19'
 date: 2015-11-05 18:30:26
-description: "Este art\xEDculo es parte de una pr\xE1ctica de una asignatura de mi
-  facultad Nuevos Paradigmas de la Interacci\xF3n. El trabajo consiste en programar
-  por primera vez una aplicaci\xF3n haciendo uso de una Kinect."
+description: "Este artículo es parte de una práctica de una asignatura de mi
+  facultad Nuevos Paradigmas de la Interacción. El trabajo consiste en programar
+  por primera vez una aplicación haciendo uso de una Kinect."
 image: Primeros-Pasos-Programando-Con-Kinect.png
 
 mainclass: dev
 math: true
 tags:
 - programar kinect
-- "programaci\xF3n kinect"
+- "programación kinect"
 - tutorial kinect
 - aplicaciones kinect
 title: Primeros Pasos Programando Con Kinect

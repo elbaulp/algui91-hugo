@@ -10,8 +10,8 @@ url: /introduccion-al-ndk-de-android/
 tags:
 - ejemplos ndk android
 - hola mundo ndk android
-- "introducci\xF3n ndk android"
-title: "Introducci\xF3n al NDK de Android"
+- "introducción ndk android"
+title: "Introducción al NDK de Android"
 ---
 
 El NDK de Android es un conjunto de herramientas que permiten embeber código máquina nativo compilado en lenguajes C y/o C++, hoy veremos cómo crear un ejemplo en el NDK de Android.

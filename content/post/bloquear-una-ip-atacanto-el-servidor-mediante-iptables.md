@@ -6,8 +6,8 @@ categories:
 - seguridad
 - servidores
 date: '2016-01-01'
-description: "Ayer ojeando el archivo de log detect\xE9 que hab\xEDa una ip mandando
-  peticiones POST indiscriminadamente a la p\xE1gina de login del blog y decid\xED
+description: "Ayer ojeando el archivo de log detecté que había una ip mandando
+  peticiones POST indiscriminadamente a la página de login del blog y decidí
   investigar un poco."
 mainclass: servidores
 url: /bloquear-una-ip-atacanto-el-servidor-mediante-iptables/

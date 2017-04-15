@@ -5,7 +5,7 @@ categories:
 - seguridad
 date: '2016-01-01'
 lastmod: 2017-03-09T17:22:15+01:00
-description: "Las copias de seguridad son algo que debemos tener a buen resguardo  por si alg\xFAn dia le ocurre algo a nuestros datos. Si bien lo anterior es cierto,  de igual modo hemos de tener bien protegidas \xE9stas copias de seguridad para que  no puedan ser usadas por terceros de caer en manos maliciosas. Hoy veremos c\xF3mo  cifrar archivos con openssl."
+description: "Las copias de seguridad son algo que debemos tener a buen resguardo  por si algún dia le ocurre algo a nuestros datos. Si bien lo anterior es cierto,  de igual modo hemos de tener bien protegidas éstas copias de seguridad para que  no puedan ser usadas por terceros de caer en manos maliciosas. Hoy veremos cómo  cifrar archivos con openssl."
 image: 2012/11/Apps-preferences-desktop-cryptography-icon1.png
 mainclass: servidores
 url: /como-cifrar-archivos-con-openssl/
@@ -15,7 +15,7 @@ tags:
 - comandos openssl
 - openssl
 - cifrar
-title: "C\xF3mo cifrar archivos con openssl"
+title: "Cómo cifrar archivos con openssl"
 ---
 
 <figure>
@@ -25,8 +25,8 @@ title: "C\xF3mo cifrar archivos con openssl"
             tabindex="0"
             layout="responsive"
             src="/img/2012/11/Apps-preferences-desktop-cryptography-icon1.png"
-            alt="C\xF3mo cifrar archivos con openssl"
-            title="C\xF3mo cifrar archivos con openssl"
+            alt="Cómo cifrar archivos con openssl"
+            title="Cómo cifrar archivos con openssl"
             sizes="(min-width: 256px) 256px, 100vw"
             width="256"
             height="256">

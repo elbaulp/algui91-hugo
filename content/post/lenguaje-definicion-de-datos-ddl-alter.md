@@ -12,7 +12,7 @@ tags:
 - concepto de ddl
 - que es un ddl
 - sentencias dml y ddl
-title: "Lenguaje Definici\xF3n de Datos (DDL) - ALTER TABLE"
+title: "Lenguaje Definición de Datos (DDL) - ALTER TABLE"
 ---
 
 ## Modificar la estrutura de una tabla

@@ -3,18 +3,18 @@ author: alex
 categories: android
 color: '#689F38'
 date: 2015-12-14 07:53:53
-description: "En este primer art\xEDculo veremos los conceptos fundamentales que componen
-  una aplicaci\xF3n Android."
+description: "En este primer artículo veremos los conceptos fundamentales que componen
+  una aplicación Android."
 image: hotlink-ok/activityLifecycle.png
 
 mainclass: android
 modified: null
 tags:
 - Curso de Android
-- "programaci\xF3n Android"
+- "programación Android"
 - tutoriales Android
 - NPI
-title: "Programaci\xF3n Android - Conceptos b\xE1sicos"
+title: "Programación Android - Conceptos básicos"
 ---
 
 Conceptos básicos Android

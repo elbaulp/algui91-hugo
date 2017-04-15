@@ -9,7 +9,7 @@ lastmod: 2016-10-01
 
 mainclass: linux
 url: /por-que-gnulinux-no-es-solo-para-geeks/
-title: "Por qu\xE9 GNU/Linux no es solo para Geeks"
+title: "Por qué GNU/Linux no es solo para Geeks"
 ---
 
 Si alguna vez has tenido un ordernador con Windows posiblemente en algún momento ha estado infectado con algún virus. La solución a este problema no es comprar un antivirus. La solución es abandonar windows como Sistema operativo principal, sin embargo para algunos parece que es algo imposible de hacer.Los ordenadores de Apple son bastante caros y si bien puede ejecutar Windows como sistema operativo secundario, la mayoría de la gente preferiría ser capaz de ejecutar aplicaciones de Windows en su sistema operativo principal, sin una perdida de eficiencia notable.

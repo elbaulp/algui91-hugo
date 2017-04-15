@@ -13,9 +13,9 @@ url: /desafio-de-ingenieria-inversa-en-c-soluciones/
 tags:
 - asm
 - bomba logica
-- "contrase\xF1as asm"
+- "contraseñas asm"
 - Ingenieria inversa
-title: "Desaf\xEDo de ingenier\xEDa inversa en C. Soluciones"
+title: "Desafío de ingeniería inversa en C. Soluciones"
 ---
 
 <figure>

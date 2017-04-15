@@ -4,7 +4,7 @@ categories:
 - latex
 date: 2015-06-25 16:50:48
 lastmod: 2017-03-27T17:03:02+01:00
-description: "Para los que est\xE9is acostumbrados a escribir vuestros documentos  en LaTeX, sin ning\xFAn editor espec\xEDfico, sabr\xE9is que llega a ser un poco  tedioso compilar cada vez que queremos ver el resultado. Hace poco, descubr\xED  un comando, latexmk, que nos facilitar\xE1 bastante la vida."
+description: "Para los que estéis acostumbrados a escribir vuestros documentos  en LaTeX, sin ningún editor específico, sabréis que llega a ser un poco  tedioso compilar cada vez que queremos ver el resultado. Hace poco, descubrí  un comando, latexmk, que nos facilitará bastante la vida."
 image: 2013/05/latex_logo.png
 mainclass: latex
 tags:
@@ -14,7 +14,7 @@ tags:
 - xelatex
 - compilar latex
 - minted
-title: "Compilar Autom\xE1ticamente Ficheros en LaTeX Mientras Los Modificamos"
+title: "Compilar Automáticamente Ficheros en LaTeX Mientras Los Modificamos"
 ---
 
 Para los que estéis acostumbrados a escribir vuestros documentos en LaTeX, sin ningún editor específico, sabréis que llega a ser un poco tedioso compilar cada vez que queremos ver el resultado. Hace poco, descubrí un comando, `latexmk`, que nos facilitará bastante la vida.

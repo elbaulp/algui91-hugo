@@ -5,14 +5,14 @@ categories:
 - internet
 date: '2016-01-01'
 lastmod: 2017-03-24T14:32:45+01:00
-description: "Hace unos d\xEDas, visitando la web makeuseof me apareci\xF3 un mensaje  en la parte superior de la p\xE1gina en la que indicaba que se hab\xEDa detectado  que estaba usando el plugin Ad-Block (Que bloquea la publicidad de las web, para  quien no lo sepa). Y de una manera muy educada suger\xEDan que se desabilitara para  apoyar la web y as\xED poder seguir ofreciendo contenido libre de costo."
+description: "Hace unos días, visitando la web makeuseof me apareció un mensaje  en la parte superior de la página en la que indicaba que se había detectado  que estaba usando el plugin Ad-Block (Que bloquea la publicidad de las web, para  quien no lo sepa). Y de una manera muy educada sugerían que se desabilitara para  apoyar la web y así poder seguir ofreciendo contenido libre de costo."
 mainclass: articulos
 url: /como-saber-si-tus-visitantes-usan-ad-block/
 tags:
 - adblock
 - anuncios
 - javascript
-title: "C\xF3mo saber si tus visitantes usan Ad-Block"
+title: "Cómo saber si tus visitantes usan Ad-Block"
 ---
 
 <figure>

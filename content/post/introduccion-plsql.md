@@ -8,7 +8,7 @@ lastmod: 2016-08-19
 
 mainclass: BaseDeDatos
 url: /introduccion-plsql/
-title: "Introducci\xF3n a PL/SQL"
+title: "Introducción a PL/SQL"
 ---
 
 Ahora que el [temario de SQL][1] está terminado, voy a empezar a escribir sobre [PL/SQL][2]. Empezaré con una introducción.

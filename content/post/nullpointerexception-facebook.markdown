@@ -4,7 +4,7 @@ categories:
 - java
 color: '#D32F2F'
 date: 2016-03-30 06:29:58
-description: "Explicaci\xF3n de por qu\xE9 muchos usuarios de internet est\xE1n obteniendo
+description: "Explicación de por qué muchos usuarios de internet están obteniendo
   un error nullpointerexception, en facebook entre otras aplicaciones"
 image: nullpointerexception-facebook-line-numbers.jpg
 lastmod: 2016-04-05
@@ -26,8 +26,7 @@ tags:
 - error nullpointerexception null facebook
 - que es nullpointerexception null
 - error al entrar en facebook nullpointerexception
-title: "Qu\xE9 Esta Causando Un NullPointerException en Facebook E Internet y c\xF3mo
-  solucionarlo"
+title: "Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo"
 ---
 
 <figure>

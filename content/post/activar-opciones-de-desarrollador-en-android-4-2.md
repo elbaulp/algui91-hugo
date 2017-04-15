@@ -3,11 +3,11 @@ author: alex
 categories:
 - how to
 date: '2016-01-01'
-description: "Hace poco actualic\xE9 mi Samsung Galaxy S II (GT-I9100) a CyanogenMod
-  10.1 y me d\xED cuenta que las opciones de desarrollador en [Android][1] 4.2 no
-  estaban donde siempre, en la configuraci\xF3n del tel\xE9fono. As\xED que buscando
-  un poco encontr\xE9 la respuesta. A fin de mejorar la experiencia del usuario, Google
-  ha escondido por defecto esta opci\xF3n."
+description: "Hace poco actualicé mi Samsung Galaxy S II (GT-I9100) a CyanogenMod
+  10.1 y me dí cuenta que las opciones de desarrollador en [Android][1] 4.2 no
+  estaban donde siempre, en la configuración del teléfono. Así que buscando
+  un poco encontré la respuesta. A fin de mejorar la experiencia del usuario, Google
+  ha escondido por defecto esta opción."
 mainclass: articulos
 lastmod: 2017-01-31
 url: /activar-opciones-de-desarrollador-en-android-4-2/
@@ -21,7 +21,7 @@ tags:
 - problema Simulate secondary displays
 - Simulate secondary displays
 - xda
-title: "C\xF3mo activar opciones de desarrollador en Android 4.2"
+title: "Cómo activar opciones de desarrollador en Android 4.2"
 ---
 
 Hace poco actualicé mi Samsung Galaxy S II (GT-I9100) a CyanogenMod 10.1 y me dí cuenta que las opciones de desarrollador en [Android][1] 4.2 no estaban donde siempre, en la configuración del teléfono. Así que buscando un poco encontré la respuesta. A fin de mejorar la experiencia del usuario, Google ha escondido por defecto esta opción.

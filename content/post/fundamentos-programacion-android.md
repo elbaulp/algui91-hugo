@@ -10,10 +10,10 @@ lastmod: 2016-09-16
 mainclass: android
 url: /fundamentos-programacion-android/
 tags:
-- "conceptos b\xE1sicos y componentes Android"
+- "conceptos básicos y componentes Android"
 - curso android pdf
-- "Fundamentos programaci\xF3n Android"
-title: "Fundamentos programaci\xF3n Android: Conceptos b\xE1sicos y componentes"
+- "Fundamentos programación Android"
+title: "Fundamentos programación Android: Conceptos básicos y componentes"
 ---
 
 ## Conceptos básicos

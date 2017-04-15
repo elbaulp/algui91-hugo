@@ -14,7 +14,7 @@ tags:
 - instalar tor
 - navegar anonimamente
 - Tor
-title: "Logrando el anonimato con Tor (Parte 4) - Tor para rel\xE9s"
+title: "Logrando el anonimato con Tor (Parte 4) - Tor para relés"
 ---
 
 * [Logrando el anonimato con Tor (Parte 1)][1]

@@ -9,7 +9,7 @@ url: /consulta-de-datos-clausula-group-by/
 tags:
 - group by
 - orden group by sql
-title: "Consulta de Datos - Cl\xE1usula GROUP BY"
+title: "Consulta de Datos - Cláusula GROUP BY"
 ---
 
 # Consultas agrupadas

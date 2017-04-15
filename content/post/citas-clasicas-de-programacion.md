@@ -6,7 +6,7 @@ date: '2016-01-01'
 lastmod: 2017-03-04T08:09:36+01:00
 mainclass: articulos
 url: /citas-clasicas-de-programacion/
-title: "22 Citas cl\xE1sicas de programaci\xF3n"
+title: "22 Citas clásicas de programación"
 ---
 
 En <a target="_blank" href="http://www.storm-consultancy.com/">storm-consultancy</a> he visto esta colección de citas clásicas relaciondas con la programación que quiero compartir con vosotros:

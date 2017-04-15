@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2017-02-20
 mainclass: articulos
 url: /chema-alonso-hablando-de-la-inseguridad/
-title: "Chema Alonso hablando de la inseguridad de las v\xEDas telem\xE1ticas"
+title: "Chema Alonso hablando de la inseguridad de las vías telemáticas"
 ---
 
 OS dejo dos vídeos muy interesantes que recomiendo que veáis, ya que hablan de la seguridad en la red:

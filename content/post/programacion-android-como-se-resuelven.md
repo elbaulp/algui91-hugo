@@ -14,7 +14,7 @@ tags:
 - curso android pdf
 - ejemplo intentfilter implicito
 - resolver uri en android
-title: "Programaci\xF3n Android: C\xF3mo se resuelven los Intents"
+title: "Programación Android: Cómo se resuelven los Intents"
 ---
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  src="/img/2013/07/iconoAndroid.png"  id="logo"  class="icono" width="128px" height="128px" />

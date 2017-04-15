@@ -13,8 +13,8 @@ tags:
 - humor
 - humor geek grafico
 - humor informatico
-- "vi\xF1etas humor"
-title: "Vi\xF1etas Geek de Domingo (VIII)"
+- "viñetas humor"
+title: "Viñetas Geek de Domingo (VIII)"
 ---
 
 Como ya es habitual los fines de semana, os traigo otra recopilación de viñetas Geek, Buen domingo!

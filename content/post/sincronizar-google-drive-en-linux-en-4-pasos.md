@@ -5,10 +5,10 @@ categories:
 color: '#2196F3'
 date: '2016-01-01'
 description: "Llevaba tiempo buscando la manera de sincronizar los archivos de Google
-  Drive en Linux con carpetas locales del mismo modo que Dropbox. Pens\xE9 en usar
-  el programa inotify, pero no sab\xEDa muy bien por donde empezar. Hace unos d\xEDas
-  encontr\xE9 la respuesta en openlinuxforums y al parecer no iba mal encaminado,
-  es una soluci\xF3n bastante sencilla usando inotify y nos permitir\xE1 mantener
+  Drive en Linux con carpetas locales del mismo modo que Dropbox. Pensé en usar
+  el programa inotify, pero no sabía muy bien por donde empezar. Hace unos días
+  encontré la respuesta en openlinuxforums y al parecer no iba mal encaminado,
+  es una solución bastante sencilla usando inotify y nos permitirá mantener
   sincronizados los archivos y carpetas de Google Drive en todos los ordenadores que
   queramos."
 image: 2013/11/google-drive-linux3.jpg

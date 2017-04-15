@@ -15,7 +15,7 @@ tags:
 - cookbook spring
 - manuales gratuitos programacion
 - tutorial spring data
-title: "Gu\xEDa Gratuita - Spring Data Programming Cookbook"
+title: "Guía Gratuita - Spring Data Programming Cookbook"
 ---
 
 <figure>

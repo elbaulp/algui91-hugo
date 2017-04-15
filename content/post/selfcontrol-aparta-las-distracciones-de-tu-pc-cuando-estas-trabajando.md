@@ -23,7 +23,7 @@ tags:
 - iptables
 - iptables con servidor debian
 - selfcontrol
-title: "SelfControl, aparta las distracciones de tu pc cuando est\xE1s trabajando"
+title: "SelfControl, aparta las distracciones de tu pc cuando estás trabajando"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="selfcontrol" src="/img/2012/08/selfcontrol11.png" alt="" width="192px" height="192px" />][1]

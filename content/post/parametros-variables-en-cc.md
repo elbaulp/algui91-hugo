@@ -4,8 +4,8 @@ categories:
 - c
 color: '#E64A19'
 date: '2016-01-01'
-description: "En ocasiones, es necesario tener una funci\xF3n a la que podamos pasar
-  un n\xFAmero de par\xE1metros variables. En el art\xEDculo de hoy veremos c\xF3mo
+description: "En ocasiones, es necesario tener una función a la que podamos pasar
+  un número de parámetros variables. En el artículo de hoy veremos cómo
   hacerlo en C/C++."
 image: 2013/11/cpp.png
 lastmod: 2016-08-19
@@ -14,9 +14,9 @@ mainclass: dev
 url: /parametros-variables-en-cc/
 tags:
 - parametros indefinidos
-- "par\xE1metros variables en C/c++"
+- "parámetros variables en C/c++"
 - pasar paramestros
-title: "Pasar par\xE1metros variables en C/C++"
+title: "Pasar parámetros variables en C/C++"
 ---
 
 En ocasiones, es necesario tener una función a la que podamos pasar un número de parámetros variables. En el artículo de hoy veremos cómo hacerlo en [C/C++](/tags/cpp).

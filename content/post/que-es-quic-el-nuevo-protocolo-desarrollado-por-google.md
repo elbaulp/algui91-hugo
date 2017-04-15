@@ -5,7 +5,7 @@ categories:
 date: '2016-01-01'
 lastmod: 2017-03-15T16:13:04+01:00
 image: 2013/07/Que-es-QUIC-el-nuevo-protocolo-desarrollado-por-Google.png
-introduction: "Introducci\xF3n al nuevo protocolo de Google"
+introduction: "Introducción al nuevo protocolo de Google"
 mainclass: security-now
 math: true
 url: /que-es-quic-el-nuevo-protocolo-desarrollado-por-google/
@@ -14,7 +14,7 @@ tags:
 - que es QUIC
 - QUIC google
 - QUIC
-title: "Qu\xE9 es QUIC, el nuevo protocolo desarrollado por Google"
+title: "Qué es QUIC, el nuevo protocolo desarrollado por Google"
 ---
 
 <figure>

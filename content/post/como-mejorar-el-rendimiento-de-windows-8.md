@@ -26,7 +26,7 @@ tags:
 - windows 8 lento
 - windows 8 se bloquea
 - windows 8 se traba
-title: "C\xF3mo mejorar el rendimiento de Windows 8"
+title: "Cómo mejorar el rendimiento de Windows 8"
 ---
 
 <figure>

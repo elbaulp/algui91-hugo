@@ -12,7 +12,7 @@ url: /programacion-android-usando-cursores/
 tags:
 - curso android pdf
 - Cursores Android
-title: "Programaci\xF3n Android: Usando cursores"
+title: "Programación Android: Usando cursores"
 ---
 
 Cosas a saber sobre un cursor Android:

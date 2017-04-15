@@ -7,7 +7,7 @@ date: '2016-01-01'
 
 mainclass: articulos
 url: /suscritebe-al-feed-rss-unicamente-en-las-categorias-que-te-interesen/
-title: "Suscr\xEDbete al feed RSS \xFAnicamente en las categor\xEDas que te interesen"
+title: "Suscríbete al feed RSS únicamente en las categorías que te interesen"
 ---
 
 Puede que solo te interesen algunas publicaciones del blog y no desees recibir todos y cada uno de los artículos que se escriben.

@@ -10,8 +10,7 @@ if_slider_image:
 
 mainclass: misc
 url: /nueva-guia-session-hijacking-how-to-protect-your-customers-and-your-corporate-data/
-title: "Nueva gu\xEDa: Session Hijacking: How to Protect your Customers and your Corporate
-  Data"
+title: "Nueva guía: Session Hijacking: How to Protect your Customers and your Corporate Data"
 ---
 
 Firesheep is a Mozilla Firefox extension which was first released in Autumn 2010 in order to demonstrate the insecurity inherent in social media websites which encrypt their log-in pages with SSL, but revert to HTTP as soon as the user leaves the log-in page.

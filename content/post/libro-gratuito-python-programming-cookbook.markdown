@@ -15,7 +15,7 @@ tags:
 - manuales de python
 - curso de python
 - Cookbook python
-title: "Gu\xEDa Gratuita - Python Programming Cookbook"
+title: "Guía Gratuita - Python Programming Cookbook"
 ---
 
 <figure>

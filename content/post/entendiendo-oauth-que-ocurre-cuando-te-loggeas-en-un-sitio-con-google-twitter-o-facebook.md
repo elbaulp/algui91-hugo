@@ -6,10 +6,10 @@ categories:
 color: '#F57C00'
 date: '2016-01-01'
 description: "Loggearte en otro sitio con tu cuenta de Google, Twitter o Facebook
-  no s\xF3lo es conveniente sino que adem\xE1s es m\xE1s segura que crear una nueva
-  cuenta, o ingresar tu contrase\xF1a de Google, Twitter o Facebook en un sitio de
-  terceros. Aqu\xED es donde OAuth entra en acci\xF3n. Veamos c\xF3mo funciona y c\xF3mo
-  mantiene nuestras contrase\xF1as seguras en sitios de terceros."
+  no sólo es conveniente sino que además es más segura que crear una nueva
+  cuenta, o ingresar tu contraseña de Google, Twitter o Facebook en un sitio de
+  terceros. Aquí es donde OAuth entra en acción. Veamos cómo funciona y cómo
+  mantiene nuestras contraseñas seguras en sitios de terceros."
 lastmod: 2016-08-10
 
 mainclass: articulos
@@ -19,8 +19,7 @@ tags:
 - aplicaciones web
 - OAuth
 - seguridad
-title: "Entendiendo OAuth: Qu\xE9 ocurre cuando te loggeas en un sitio con Google,
-  Twitter o Facebook"
+title: "Entendiendo OAuth: Qué ocurre cuando te loggeas en un sitio con Google, Twitter o Facebook"
 ---
 
 Loggearte en otro sitio con tu cuenta de Google, Twitter o Facebook no sólo es conveniente sino que además es más segura que crear una nueva cuenta, o ingresar tu contraseña de Google, Twitter o Facebook en un sitio de terceros. Aquí es donde OAuth entra en acción. Veamos cómo funciona y cómo mantiene nuestras contraseñas seguras en sitios de terceros.

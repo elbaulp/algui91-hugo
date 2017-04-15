@@ -4,26 +4,26 @@ categories:
 - latex
 date: '2016-01-01'
 lastmod: 2017-04-06T19:48:54+01:00
-description: "Continuando por donde lo dejamos en el \xFAltimo art\xEDculo, hoy veremos  c\xF3mo incluir c\xF3digo fuente en el documento."
+description: "Continuando por donde lo dejamos en el último artículo, hoy veremos  cómo incluir código fuente en el documento."
 image: 2013/05/latex_logo.png
 mainclass: latex
 url: /curso-de-latex-incluir-codigo-fuente-y-simbolos-matematicos/
 tags:
 - codigo latex
 - curso latex
-- "curso latex espa\xF1ol"
+- "curso latex español"
 - enlaces latex
 - figuras latex
 - imagenes latex
 - incluir codigo latex
-- "programaci\xF3n Latex"
+- "programación Latex"
 - simbolos latex
 - latex
-title: "Mini Curso de LaTeX - Incluir c\xF3digo fuente y s\xEDmbolos matem\xE1ticos"
+title: "Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos"
 ---
 
 <figure>
-    <a href="/img/2013/05/latex_logo.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Mini Curso de LaTeX - Incluir c\xF3digo fuente y s\xEDmbolos matem\xE1ticos" alt="Mini Curso de LaTeX - Incluir c\xF3digo fuente y s\xEDmbolos matem\xE1ticos" width="300px" height="114px" /></a>
+    <a href="/img/2013/05/latex_logo.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos" alt="Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos" width="300px" height="114px" /></a>
 </figure>
 
 * [Mini Curso de LaTeX - Introducción][1]

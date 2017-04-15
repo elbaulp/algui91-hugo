@@ -14,7 +14,7 @@ tags:
 - seguridad en bind
 - usar fpdns
 - bind
-title: "C\xF3mo ocultar la versi\xF3n de BIND (Y c\xF3mo averiguarla)"
+title: "Cómo ocultar la versión de BIND (Y cómo averiguarla)"
 ---
 
 <figure>

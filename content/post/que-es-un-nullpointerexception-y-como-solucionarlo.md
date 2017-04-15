@@ -4,10 +4,10 @@ categories:
 - java
 color: '#D32F2F'
 date: 2016-04-06 19:24:34
-description: "El siguiente art\xEDculo es una traducci\xF3n de una pregunta en stackOverflow
-  del usuario ziggy, que preguntaba \xBFQu\xE9 es un NullPointerException y c\xF3mo
+description: "El siguiente artículo es una traducción de una pregunta en stackOverflow
+  del usuario ziggy, que preguntaba ¿Qué es un NullPointerException y cómo
   se puede solucionar?. La respuesta es del usuario vincent-ramdhanie"
-image: "2014/05/Qu\xE9-es-un-NullPointerException-y-c\xF3mo-solucionarlo.png"
+image: "2014/05/Qué-es-un-NullPointerException-y-cómo-solucionarlo.png"
 lastmod: 2016-04-06
 
 mainclass: java
@@ -25,7 +25,7 @@ tags:
 - error nullpointerexception null facebook
 - que es nullpointerexception null
 - error al entrar en facebook nullpointerexception
-title: "Qu\xE9 es un NullPointerException y c\xF3mo solucionarlo"
+title: "Qué es un NullPointerException y cómo solucionarlo"
 ---
 
 <figure>

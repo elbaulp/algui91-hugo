@@ -4,7 +4,7 @@ categories:
 - php
 date: '2016-01-01'
 lastmod: 2017-03-18T12:21:11+01:00
-description: "La semana pasada, en el Curso de Programaci\xF3n PHP guay, desarrollamos  una agenda PHP basada en archivos CSV. El ejercicio era tan sencillo que no utilizamos  ning\xFAn framework de desarrollo de aplicaciones como por ejemplo Symfony, Laravel  o Yii, pero s\xED que aplicamos algunas ideas de an\xE1lisis para afrontar nuestro  desarrollo con garant\xEDas de \xE9xito."
+description: "La semana pasada, en el Curso de Programación PHP guay, desarrollamos  una agenda PHP basada en archivos CSV. El ejercicio era tan sencillo que no utilizamos  ningún framework de desarrollo de aplicaciones como por ejemplo Symfony, Laravel  o Yii, pero sí que aplicamos algunas ideas de análisis para afrontar nuestro  desarrollo con garantías de éxito."
 image: https://img.youtube.com/vi/eYoDqz29qSA/0.jpg
 mainclass: dev
 url: /como-crear-un-front-controller-en-php/
@@ -12,8 +12,8 @@ tags:
 - apache
 - front controller
 - nginx
-- "patrones de dise\xF1o"
-title: "C\xF3mo crear un Front Controller en PHP"
+- "patrones de diseño"
+title: "Cómo crear un Front Controller en PHP"
 ---
 
 > Éste artículo es una colaboración de [Jordi Bassagañas][1]

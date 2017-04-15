@@ -2,7 +2,7 @@
 author: alex
 categories:
 - noticias
-- "tecnolog\xEDa"
+- "tecnología"
 color: '#F57C00'
 date: '2016-01-01'
 
@@ -11,7 +11,7 @@ url: /moborobo-herramienta-de-administracion-integrada-para-android-en-el-pc/
 tags:
 - aplicaciones android
 - moborobo
-title: "Moborobo, herramienta de Administraci\xF3n Integrada para Android en el PC"
+title: "Moborobo, herramienta de Administración Integrada para Android en el PC"
 ---
 
 <p dir="ltr">

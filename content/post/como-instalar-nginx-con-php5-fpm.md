@@ -15,7 +15,7 @@ tags:
 - nginx
 - php-fpm
 - servidor web
-title: "C\xF3mo instalar y configurar Nginx con php5-fpm"
+title: "Cómo instalar y configurar Nginx con php5-fpm"
 ---
 
 <figure>

@@ -6,7 +6,7 @@ date: '2016-01-01'
 lastmod: 2017-04-02T19:28:47+01:00
 mainclass: dev
 url: /crear-imagenes-en-miniaturas/
-title: "Crear miniaturas de im\xE1genes"
+title: "Crear miniaturas de imágenes"
 ---
 
 > Creé una Versión mejorada de este script [aquí][1]

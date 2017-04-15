@@ -12,7 +12,7 @@ tags:
 - security ebook
 - Security for a Faster World
 - seguridad
-title: "Nueva Gu\xEDa: Security for a Faster World"
+title: "Nueva Guía: Security for a Faster World"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Executive-eBook-Security-for-a-Faster-World.gif" alt="Executive eBook: Security for a Faster World" width="200px" height="259px" />][1]

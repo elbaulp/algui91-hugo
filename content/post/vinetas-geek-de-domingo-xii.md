@@ -7,7 +7,7 @@ date: '2016-01-01'
 
 mainclass: geek
 url: /vinetas-geek-de-domingo-xii/
-title: "Vi\xF1etas Geek de Domingo (XII)"
+title: "Viñetas Geek de Domingo (XII)"
 ---
 
 Otro Domingo, [otra recopilación][1] de viñetas Geek, Hasta el Lunes!

@@ -4,11 +4,11 @@ categories:
 - how to
 color: '#689F38'
 date: '2016-01-01'
-description: "En ocasiones, al crear un emulador Android, a\xFAn habiendo habilitado
-  el soporte para teclado \xE9ste no funciona. Hoy veremos c\xF3mo habilitar el teclado
-  en el emulador Android y, adem\xE1s, c\xF3mo habilitar la navegaci\xF3n mediante
+description: "En ocasiones, al crear un emulador Android, aún habiendo habilitado
+  el soporte para teclado éste no funciona. Hoy veremos cómo habilitar el teclado
+  en el emulador Android y, además, cómo habilitar la navegación mediante
   los cursores del teclado."
-image: "2014/08/C\xF3mo-habilitar-el-teclado-en-el-emulador-Android.png"
+image: "2014/08/Cómo-habilitar-el-teclado-en-el-emulador-Android.png"
 lastmod: 2015-12-24
 
 mainclass: android
@@ -17,7 +17,7 @@ tags:
 - habilitar el teclado en el emulador Android
 - hw.dPad=yes
 - hw.keyboard=yes
-title: "C\xF3mo habilitar el teclado en el emulador Android"
+title: "Cómo habilitar el teclado en el emulador Android"
 ---
 
 En ocasiones, al crear un emulador [Android][1], aún habiendo habilitado el soporte para teclado éste no funciona. Hoy veremos cómo habilitar el teclado en el emulador Android y, además, cómo habilitar la navegación mediante los cursores del teclado.

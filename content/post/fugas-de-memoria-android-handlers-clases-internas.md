@@ -4,7 +4,7 @@ categories:
 - android
 color: '#689F38'
 date: '2016-01-01'
-description: "\xC9ste art\xEDculo es una traducci\xF3n del blog de Alex Lockwood.
+description: "\xC9ste artículo es una traducción del blog de Alex Lockwood.
   Gracias por el permiso."
 lastmod: 2015-12-22
 

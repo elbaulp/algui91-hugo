@@ -10,7 +10,7 @@ lastmod: 2016-09-13
 
 mainclass: misc
 url: /nueva-guia-administracion-avanzada-del/
-title: "Gu\xEDa gratuita: Administraci\xF3n Avanzada del Sistema Operativo GNU/Linux"
+title: "Guía gratuita: Administración Avanzada del Sistema Operativo GNU/Linux"
 ---
 
 <figure>

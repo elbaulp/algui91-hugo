@@ -6,7 +6,7 @@ date: '2016-01-01'
 lastmod: 2017-03-20T10:14:34+01:00
 mainclass: articulos
 url: /como-empezar-programar-how-start/
-title: "C\xF3mo empezar a programar"
+title: "Cómo empezar a programar"
 ---
 
 A petición de un lector, voy a intentar resolver algunas dudas para la gente que quiere adentrarse en el mundo de la programación y no sabe por donde empezar.

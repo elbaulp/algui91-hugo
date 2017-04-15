@@ -10,14 +10,14 @@ lastmod: 2016-09-20
 mainclass: android
 url: /programacion-android-interfaz-grafica_08/
 tags:
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - como hacer interfaces graficas en android
 - curso android pdf
 - interfaces de usuario android
 - interfaz grafica en android
 - layout android
 - menu android
-title: "Programaci\xF3n Android: Interfaz gr\xE1fica - Men\xFAs"
+title: "Programación Android: Interfaz gráfica - Menús"
 ---
 
 Los menús en las aplicaciones son algo que encontramos frecuentemente, de hecho, casi todos los terminales Android tienen un botón específico para desplegarlos.

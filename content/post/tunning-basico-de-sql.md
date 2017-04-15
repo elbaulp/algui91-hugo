@@ -10,7 +10,7 @@ mainclass: BaseDeDatos
 url: /tunning-basico-de-sql/
 tags:
 - que es tuning sql
-title: "Tunning b\xE1sico de SQL"
+title: "Tunning básico de SQL"
 ---
 
 Hemos llegado al fin del temario de base de datos, todo lo que he ido escribiendo a lo largo de estos meses lo encontrarás en la página de [Base de Datos][1]. El último tema de este curso va a tratar de __Tunning básico de SQL__.

@@ -4,7 +4,7 @@ categories:
 - git
 date: 2015-05-21 14:50:42
 lastmod: 2017-03-27T16:54:54+01:00
-description: "C\xF3mo crear filtros en git, smudge y clean"
+description: "Cómo crear filtros en git, smudge y clean"
 image: 2013/03/git-logo.png
 mainclass: git
 tags:

@@ -5,8 +5,8 @@ categories:
 - python
 date: '2016-01-01'
 lastmod: 2017-04-04T09:56:54+01:00
-description: "Continuando con nuestro art\xEDculo sobre la Python C API, esta vez  vamos a ver un ejemplo sencillo en el que crearemos un m\xF3dulo que imprima por  pantalla un mensaje, como *Hola **nombre,** desde la python C API!*. El m\xF3dulo  consistir\xE1 en una funci\xF3n llamada *saluda()* que recibir\xE1 una cadena de  texto usada como nombre para saludar. Una vez terminado podr\xE1 usarse as\xED:"
-image: "2013/03/Crear-un-m\xF3dulo-para-python-con-la-Python-C-API-Parte-I.png"
+description: "Continuando con nuestro artículo sobre la Python C API, esta vez  vamos a ver un ejemplo sencillo en el que crearemos un módulo que imprima por  pantalla un mensaje, como *Hola **nombre,** desde la python C API!*. El módulo  consistirá en una función llamada *saluda()* que recibirá una cadena de  texto usada como nombre para saludar. Una vez terminado podrá usarse así:"
+image: "2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"
 mainclass: dev
 url: /crear-modulo-python-con-python-c-api-2/
 tags:
@@ -16,7 +16,7 @@ tags:
 - tutorial python c api
 - python
 - python C API
-title: "Crear un m\xF3dulo para python con la Python C API (II) - Primer ejemplo"
+title: "Crear un módulo para python con la Python C API (II) - Primer ejemplo"
 ---
 
 * [Crear un módulo para python con la Python C API (I) – Introducción][1]

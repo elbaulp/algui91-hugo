@@ -4,14 +4,14 @@ categories:
 - dev
 date: 2016-08-25 15:01:15
 lastmod: 2017-03-15T18:26:42+01:00
-description: "En este art\xEDculo veremos c\xF3mo crear comandos que usemos habitualmente  en emacs, asoci\xE1ndolos a una funci\xF3n para su posterior uso."
+description: "En este artículo veremos cómo crear comandos que usemos habitualmente  en emacs, asociándolos a una función para su posterior uso."
 image: como-crear-comandos-personalizados-en-emacs.png
-introduction: "Si usas mucho un comando en emacs, descubre como asociarlo a una funci\xF3n  para usarlo m\xE1s r\xE1pido"
+introduction: "Si usas mucho un comando en emacs, descubre como asociarlo a una función  para usarlo más rápido"
 mainclass: dev
 tags:
 - emacs
 - regex
-title: "C\xF3mo Crear Comandos Personalizados en Emacs"
+title: "Cómo Crear Comandos Personalizados en Emacs"
 ---
 
 Hace unos meses que comencé a usar _emacs_ como editor predeterminado, y la verdad es que una vez me acostumbré a él es bastante cómodo. Sin embargo, editando artículos del blog, me encontraba ejecutando una y otra vez el mismo comando, o comandos similares. Así que busqué la forma de asociarlos a una función para no tener que andar escribiendolos cada dos por trés. Veamos cómo crear estas funciones.

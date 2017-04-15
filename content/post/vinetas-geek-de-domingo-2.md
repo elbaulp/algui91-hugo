@@ -12,7 +12,7 @@ url: /vinetas-geek-de-domingo-2/
 tags:
 - chiste grafico de informatica
 - humor geek grafico
-title: "Vi\xF1etas Geek de Domingo"
+title: "Viñetas Geek de Domingo"
 ---
 
 <p class="jetpack-slideshow-noscript robots-nocontent">

@@ -4,9 +4,9 @@ categories:
 - java
 color: '#D32F2F'
 date: '2016-01-01'
-description: "En este art\xEDculo veremos un poco sobre el manejo de excepciones en
-  java, esto es esencial para toda programaci\xF3n b\xE1sica en java, una excepci\xF3n
-  es un indicador que tenemos de que algo ha ido mal en nuestro c\xF3digo. Con lo
+description: "En este artículo veremos un poco sobre el manejo de excepciones en
+  java, esto es esencial para toda programación básica en java, una excepción
+  es un indicador que tenemos de que algo ha ido mal en nuestro código. Con lo
   cual podremos controlarlas y capturarlas para poder tratar con ellas e indicar lo
   que se tiene que hacer."
 lastmod: 2015-12-24

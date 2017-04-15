@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2017-03-15T18:23:50+01:00
 mainclass: linux
 url: /como-conocer-el-software-no-libre/
-title: "C\xF3mo conocer el software \u201Cno libre\u201D instalado en nuestro equipo"
+title: "Cómo conocer el software \u201Cno libre\u201D instalado en nuestro equipo"
 ---
 
 Este programa lo ví en [ProyectosBeta][1].

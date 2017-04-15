@@ -12,7 +12,7 @@ url: /programacion-android-recursos/
 tags:
 - curso android pdf
 - recursos android
-title: "Programaci\xF3n Android: Recursos - Introducci\xF3n"
+title: "Programación Android: Recursos - Introducción"
 ---
 
 Ya hemos visto que Android separa los recursos (imágenes, sonidos etc) del código colocándolos organizados dentro del directorio ***./res***. Esto nos facilita su mantenimiento, además de permitirnos usar diferentes recursos dependiendo de la configuración del terminal.

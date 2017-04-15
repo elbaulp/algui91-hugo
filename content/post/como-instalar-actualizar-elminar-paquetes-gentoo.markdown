@@ -15,7 +15,7 @@ tags:
 - emerge
 - eclean
 - emaint
-title: "C\xF3mo Instalar/actualizar/eliminar Paquetes en Gentoo"
+title: "Cómo Instalar/actualizar/eliminar Paquetes en Gentoo"
 ---
 
 <figure>
@@ -26,8 +26,8 @@ title: "C\xF3mo Instalar/actualizar/eliminar Paquetes en Gentoo"
             tabindex="0"
             layout="responsive"
             src="/img/como-instalar-actualizar-elminar-paquetes-gentoo.png"
-            alt="C\xF3mo Instalar/actualizar/eliminar Paquetes en Gentoo"
-            title="C\xF3mo Instalar/actualizar/eliminar Paquetes en Gentoo"
+            alt="Cómo Instalar/actualizar/eliminar Paquetes en Gentoo"
+            title="Cómo Instalar/actualizar/eliminar Paquetes en Gentoo"
             sizes="(min-width: 526px) 526px, 100vw"
             width="526"
             height="256">
