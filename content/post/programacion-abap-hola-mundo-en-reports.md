@@ -4,9 +4,9 @@ categories:
 - abap
 color: '#E64A19'
 date: '2016-01-01'
-description: "Para iniciarnos en la programaci\xF3n ABAP nada mejor que el cl\xE1sico
+description: "Para iniciarnos en la programación ABAP nada mejor que el clásico
   \u201CHola mundo\u201D. Con este tutorial podremos crear nuestro primer programa
-  ABAP y, a su vez, ir viendo paso a paso algunos fundamentos b\xE1sicos de programaci\xF3n
+  ABAP y, a su vez, ir viendo paso a paso algunos fundamentos básicos de programación
   de este lenguaje."
 image: 2014/04/hola-mundo-salida.png
 lastmod: 2015-12-25
@@ -16,8 +16,8 @@ url: /programacion-abap-hola-mundo-en-reports/
 tags:
 - curso ABAP
 - hola mundo abap
-- "programaci\xF3n ABAP"
-title: "Programaci\xF3n ABAP: Hola Mundo en Reports"
+- "programación ABAP"
+title: "Programación ABAP: Hola Mundo en Reports"
 ---
 
 *Éste artículo es una colaboración de <a href="http://www.blogdesap.com/" title="Blog de SAP" target="_blank">Óscar Arranz</a>*

@@ -5,16 +5,16 @@ categories:
 date: 2016-10-03 14:15:35
 lastmod: 2017-02-20
 description: "Cuando NetworkManager se connecta a una red, cambia el nombre de host
-  (Hostname), y las aplicaciones gr\xE1ficas dejan de funcionar"
+  (Hostname), y las aplicaciones gráficas dejan de funcionar"
 image: cant-open-display-0-0-wifi-net.png
 introduction: "Cuando NetworkManager se connecta a una red, cambia el nombre de host
-  (Hostname), y las aplicaciones gr\xE1ficas dejan de funcionar"
+  (Hostname), y las aplicaciones gráficas dejan de funcionar"
 mainclass: linux
 tags:
 - linux
 - NetworkManager
 - error
-title: "C\xF3mo Resolver El Error \u201CCan't Open Display: :0.0\u201D Al Conectarse a Una Red Wi-Fi"
+title: "Cómo Resolver El Error \u201CCan't Open Display: :0.0\u201D Al Conectarse a Una Red Wi-Fi"
 ---
 
 # Problema: Can't Open Display: :0.0

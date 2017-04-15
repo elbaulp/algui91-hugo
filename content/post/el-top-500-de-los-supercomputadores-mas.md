@@ -10,7 +10,7 @@ mainclass: articulos
 url: /el-top-500-de-los-supercomputadores-mas/
 tags:
 - top 500 supercomputadoras mundo
-title: "El top 500 de los supercomputadores m\xE1s potentes del mundo"
+title: "El top 500 de los supercomputadores más potentes del mundo"
 ---
 
 <div >

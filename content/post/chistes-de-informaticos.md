@@ -3,7 +3,7 @@ author: alex
 categories:
 - humor
 date: '2016-01-01'
-description: "Recopilaci\xF3n de chistes inform\xE1ticos"
+description: "Recopilación de chistes informáticos"
 lastmod: 2017-02-22 09:40:04
 mainclass: geek
 url: /chistes-de-informaticos/

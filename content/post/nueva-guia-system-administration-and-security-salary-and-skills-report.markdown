@@ -9,7 +9,7 @@ description: This kit will tell you what you need to know to earn more in system
   is the backbone of the 21st century workplace. What are the essential skills of
   the modern sysadmin? Does it pay to specialize, or go polyglot? Which tech is the
   overwhelming top pick in the world of configuration management?
-image: "Nueva-Gu\xEDa:-System-Administration-&-Security-Salary-&-Skills-Report.jpg"
+image: "Nueva-Guía:-System-Administration-&-Security-Salary-&-Skills-Report.jpg"
 lastmod: 2015-11-27
 
 mainclass: misc
@@ -17,7 +17,7 @@ tags:
 - guia gratuita
 - ebook
 - libros gratuitos
-title: "Nueva Gu\xEDa: System Administration & Security - Salary & Skills Report"
+title: "Nueva Guía: System Administration & Security - Salary & Skills Report"
 ---
 
 <figure>

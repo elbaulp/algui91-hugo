@@ -6,7 +6,7 @@ categories:
 - articulos
 color: '#F57C00'
 date: 2015-12-16 14:51:46
-description: "Video de C\xF3mo visualizar la evoluci\xF3n de un repositorio git con
+description: "Video de Cómo visualizar la evolución de un repositorio git con
   el comando gource."
 image: Gource-Evolucion-del-blog-desde-el-punto-de-vista-de-Git.png
 
@@ -17,7 +17,7 @@ tags:
 - gource tutorial
 - gource git
 - gource github
-title: "V\xEDdeo - Evoluci\xF3n Del Blog Desde El Punto De Vista De Git"
+title: "Vídeo - Evolución Del Blog Desde El Punto De Vista De Git"
 ---
 
 <figure>

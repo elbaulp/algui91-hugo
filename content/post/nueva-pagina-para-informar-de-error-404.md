@@ -7,7 +7,7 @@ date: '2016-01-01'
 
 mainclass: articulos
 url: /nueva-pagina-para-informar-de-error-404/
-title: "Nueva p\xE1gina para informar de error 404 en el blog"
+title: "Nueva página para informar de error 404 en el blog"
 ---
 
 Ahora que blogger permite que creemos nuestra propia página para un error 404, he estado buscando y me decanté por este, que creo que es el más apropiado, sin embargo os dejo algunos que me gustaron. ¿Cual os gusta más?. Más de uno se llevaría un susto al ver algún de los 404 de esta lista:

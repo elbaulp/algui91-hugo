@@ -3,9 +3,9 @@ author: jordi
 categories:
 - java
 date: 2015-07-07 15:38:30
-description: "Hoy vamos a guiarte en el desarrollo de una aplicaci\xF3n Android que
+description: "Hoy vamos a guiarte en el desarrollo de una aplicación Android que
   sirve para proteger tus documentos PDF de los ojos no autorizados, por medio de
-  una contrase\xF1a."
+  una contraseña."
 image: Aprende-a-Programar-Una-App-Android-Para-Proteger-Tus-PDFs.jpg
 mainclass: java
 tags:

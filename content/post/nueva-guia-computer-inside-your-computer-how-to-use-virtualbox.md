@@ -12,7 +12,7 @@ mainclass: misc
 url: /nueva-guia-computer-inside-your-computer-how-to-use-virtualbox/
 tags:
 - virtualbox
-title: "Nueva Gu\xEDa: Computer Inside Your Computer: How To Use VirtualBox"
+title: "Nueva Guía: Computer Inside Your Computer: How To Use VirtualBox"
 ---
 
 <figure>

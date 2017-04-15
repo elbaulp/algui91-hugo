@@ -4,10 +4,10 @@ categories:
 - c
 date: '2016-01-01'
 lastmod: 2017-03-06T18:26:08+01:00
-description: "Vamos a estudiar c\xF3mo se pasa una variable a una funci\xF3n en uno  de sus argumentos."
+description: "Vamos a estudiar cómo se pasa una variable a una función en uno  de sus argumentos."
 mainclass: dev
 url: /clases-y-objetos-pasar-un-objeto-una/
-title: "Clases y Objetos - Pasar un objeto a una funci\xF3n"
+title: "Clases y Objetos - Pasar un objeto a una función"
 ---
 
 # Introducción

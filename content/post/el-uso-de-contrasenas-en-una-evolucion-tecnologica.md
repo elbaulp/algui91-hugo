@@ -10,9 +10,9 @@ mainclass: articulos
 url: /el-uso-de-contrasenas-en-una-evolucion-tecnologica/
 tags:
 - deloitte
-- "la evolucion de las contrase\xF1as tecnologicas"
+- "la evolucion de las contraseñas tecnologicas"
 - the hacker news
-title: "El uso de contrase\xF1as en una evoluci\xF3n tecnol\xF3gica"
+title: "El uso de contraseñas en una evolución tecnológica"
 ---
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/The-use-of-passwords-in-a-technological-evolution.png" alt="El uso de contraseñas en una evolución tecnológica" width="350px" height="274px" />

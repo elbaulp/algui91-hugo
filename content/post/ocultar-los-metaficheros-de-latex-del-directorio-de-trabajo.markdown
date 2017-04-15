@@ -4,9 +4,9 @@ categories:
 - latex
 color: '#B31917'
 date: 2015-11-19 09:20:00
-description: "Si trabajas habitualmente con LaTeX, est\xE1s acostumbrado a ver m\xFAltiples
-  ficheros generados autom\xE1ticamente al compilar el proyecto. Pueden llegar a molestar
-  bastante, ya que ensucian el directorio de trabajo. Hoy explicar\xE9 dos alternativas
+description: "Si trabajas habitualmente con LaTeX, estás acostumbrado a ver múltiples
+  ficheros generados automáticamente al compilar el proyecto. Pueden llegar a molestar
+  bastante, ya que ensucian el directorio de trabajo. Hoy explicaré dos alternativas
   para mover todos esos ficheros a un directorio separado para mantener un directorio
   de trabaja limpio."
 image: 2013/05/latex_logo.png

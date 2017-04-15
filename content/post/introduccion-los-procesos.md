@@ -9,7 +9,7 @@ lastmod: 2016-09-02
 
 mainclass: articulos
 url: /introduccion-los-procesos/
-title: "Introducci\xF3n a los Procesos"
+title: "Introducción a los Procesos"
 ---
 
 ## 1 . Concepto

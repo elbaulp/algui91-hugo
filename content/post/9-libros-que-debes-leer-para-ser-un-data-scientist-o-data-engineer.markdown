@@ -4,7 +4,7 @@ categories:
 - articulos
 date: 2015-11-01 20:30:17
 lastmod: 2017-02-22 09:25:06
-description: "Tras mucho buscar, al fin he conseguido recopilar una lista de libros que todo Cient\xEDfico de Datos o Ingeniero de Datos deber\xEDa tener en su biblioteca personal."
+description: "Tras mucho buscar, al fin he conseguido recopilar una lista de libros que todo Científico de Datos o Ingeniero de Datos debería tener en su biblioteca personal."
 image: ml/Machine-Learning-for-Hackers.jpg
 mainclass: articulos
 tags:
@@ -17,7 +17,7 @@ tags:
 - book hadoop
 - hadoop for dummies
 - libros sobre machine learning
-- "libros sobre Aprendizaje autom\xE1tico"
+- "libros sobre Aprendizaje automático"
 - listas
 title: 18 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer
 ---

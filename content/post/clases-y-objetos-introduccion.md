@@ -4,10 +4,10 @@ categories:
 - c
 date: '2016-01-01'
 lastmod: 2017-03-06T18:25:21+01:00
-description: "Hace poco puse a vuestra disposici\xF3n unos tutoriales b\xE1sicos de  C++, y ahora voy a comenzar a explicar las clases y los objetos en C++."
+description: "Hace poco puse a vuestra disposición unos tutoriales básicos de  C++, y ahora voy a comenzar a explicar las clases y los objetos en C++."
 mainclass: dev
 url: /clases-y-objetos-introduccion/
-title: "Programaci\xF3n en C++. Clases y objetos - Introducci\xF3n"
+title: "Programación en C++. Clases y objetos - Introducción"
 ---
 
 Hace poco puse a vuestra disposición unos [tutoriales básicos de C++][1], y ahora voy a comenzar a explicar las clases y los objetos en C++:

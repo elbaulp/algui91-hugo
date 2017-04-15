@@ -13,7 +13,7 @@ tags:
 - Content Provider Android
 - curso android pdf
 - fundamentos sqlite android
-title: "Programaci\xF3n Android: Implementando un Content Provider (Parte 2)"
+title: "Programación Android: Implementando un Content Provider (Parte 2)"
 ---
 
 En la anterior entrada de [programación Android][1], hablamos de cómo empezar a implementar un proveedor de contenido desde cero, empezando por el [planteamiento de la base de datos.][2] En esta entrada vamos a ver cómo extender de la clase ContentProvider.

@@ -8,7 +8,7 @@ lastmod: 2016-08-15
 
 mainclass: articulos
 url: /firefox-40-para-linux-ya-dispone-de/
-title: "Firefox 4.0 para Linux ya dispone de men\xFA unificado"
+title: "Firefox 4.0 para Linux ya dispone de menú unificado"
 ---
 
 Una de las novedades de la interfaz de Firefox 4.0 estaba disponible hasta ahora solo en la versión para Windows. **Se trataba del menú unificado**, que presentaba un menú desplegable en la aplicación del que salían todas las opciones del programa, en lugar de tener una barra de menú superior tradicional.

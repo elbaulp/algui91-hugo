@@ -22,7 +22,7 @@ tags:
 - probar expresiones regulares
 - python
 - regexp
-title: "Introducci\xF3n a las expresiones regulares en python"
+title: "Introducción a las expresiones regulares en python"
 ---
 
 En esta entrada voy a intentar introducir brevemente cómo crear expresiones regulares en python (dentro de la complejidad de las mismas).

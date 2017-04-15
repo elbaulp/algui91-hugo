@@ -12,7 +12,7 @@ url: /programacion-android-strictmode/
 tags:
 - curso android pdf
 - StrictMode Android
-title: "Programaci\xF3n Android: StrictMode"
+title: "Programación Android: StrictMode"
 ---
 
 [Android][1] 2.3 introdujo una funcionalidad de depuración llamada *StrictMode*. Según Google, usaron esta característica para hacer cientos de mejoras a sus aplicaciones Android. Lo que hace el *StrictMode* es informar de las violaciones de políticas relacionadas con los [hilos][2] y la máquina virtual. Si se detecta dicha violación, obtenemos una alerta que nos lo indica. Junto a la alerta tendremos también una traza de la pila de ejecución (Stack Trace), donde podremos comprobar el lugar en el que se produjo la violación. En ese momento, podemos forzar el cierre de la aplicación o simplemente escribirla en el log y dejar que la aplicación continue su ejecución.

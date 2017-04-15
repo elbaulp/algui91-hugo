@@ -5,8 +5,8 @@ categories:
 - offtopic
 color: '#F57C00'
 date: '2016-01-01'
-description: "<!--:es-->Recopilaci\xF3n semanal de enlaces sobre noticias de la tecnolog\xEDa,
-  inform\xE1tica y software libre<!--:-->"
+description: "<!--:es-->Recopilación semanal de enlaces sobre noticias de la tecnología,
+  informática y software libre<!--:-->"
 
 mainclass: articulos
 url: /enlaces-de-la-semana-ii/

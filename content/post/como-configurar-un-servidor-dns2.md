@@ -19,7 +19,7 @@ tags:
 - como montar servidor dns
 - como crear una zona primaria en dns
 - configura un servidor dns
-- "configuraci\xF3n de servidores"
+- "configuración de servidores"
 - configuracion dns servidor dedicado
 - configuracion refresco zona dns
 - configuracion servidor dns
@@ -36,7 +36,7 @@ tags:
 - soa correo
 - DNS
 - servidor
-title: "C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
+title: "Cómo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
 ---
 
 <figure>
@@ -47,8 +47,8 @@ title: "C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
             tabindex="0"
             layout="responsive"
             src="/img/2013/04/dns.jpg"
-            alt="C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
-            title="C\xF3mo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
+            alt="Cómo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
+            title="Cómo configurar un servidor DNS - Parte 2 (La Zona Primaria)"
             sizes="(min-width: 450px) 450px, 100vw"
             width="450"
             height="361">

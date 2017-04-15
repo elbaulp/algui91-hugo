@@ -10,7 +10,7 @@ lastmod: 2016-08-27
 
 mainclass: dev
 url: /pylabra-aplicacion-para-almacenar/
-title: "Pylabra. Aplicaci\xF3n para almacenar vocabulario"
+title: "Pylabra. Aplicación para almacenar vocabulario"
 ---
 
 Hace bastante tiempo que Haitike y yo dejamos de desarrollar [Pylabra][1], y nunca creé una entrada hablando de la aplicación en sí, asi que me he decidido a escribirla.

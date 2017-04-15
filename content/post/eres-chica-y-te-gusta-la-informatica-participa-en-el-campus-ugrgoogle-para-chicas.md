@@ -10,10 +10,9 @@ url: /eres-chica-y-te-gusta-la-informatica-participa-en-el-campus-ugrgoogle-para
 tags:
 - campus ugr google
 - etsiit
-- "ingenier\xEDa para chicas"
+- "ingeniería para chicas"
 - ugr
-title: "\xBFEres chica y te gusta la inform\xE1tica?, participa en el campus UGR/Google
-  para chicas"
+title: "¿Eres chica y te gusta la informática?, participa en el campus UGR/Google para chicas"
 ---
 
 La facultad de informática de Granada (ETSIIT), en la cual estudio, está llevando a cabo una campaña junto a Google para que más chicas se animen a cursar carreras tecnológicas como Informática o Telecomunicaciones.

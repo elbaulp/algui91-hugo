@@ -4,17 +4,17 @@ categories:
 - articulos
 date: 2015-11-30 18:15:43
 lastmod: 2017-03-06T18:27:32+01:00
-description: "Los USBs suelen llevarse siempre a mano, en los bolsillos, mochila etc,  y en ocasiones pueden contener informaci\xF3n sensible que no deber\xEDa poder leer  cualquiera. Por ello es buena idea llevarlo encriptado, ya sea por si se pierde  o nos lo roban. Hoy veremos c\xF3mo podemos cifrar/encriptar nuestro usb con Veracrypt"
+description: "Los USBs suelen llevarse siempre a mano, en los bolsillos, mochila etc,  y en ocasiones pueden contener información sensible que no debería poder leer  cualquiera. Por ello es buena idea llevarlo encriptado, ya sea por si se pierde  o nos lo roban. Hoy veremos cómo podemos cifrar/encriptar nuestro usb con Veracrypt"
 image: Veracryptlogo.png
 mainclass: articulos
 tags:
-- "criptograf\xEDa"
+- "criptografía"
 - usb
 - truecrypt
 - truecript
 - Veracrypt
 - cifrar usb
-title: "C\xF3mo Cifar Un USB Con Veracrypt"
+title: "Cómo Cifar Un USB Con Veracrypt"
 ---
 
 <figure>

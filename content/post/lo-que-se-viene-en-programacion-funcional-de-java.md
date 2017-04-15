@@ -12,7 +12,7 @@ tags:
 - haskell
 - java 8
 - programacion funcional java
-title: "Lo que se viene en programaci\xF3n funcional de Java&#8230;"
+title: "Lo que se viene en programación funcional de Java&#8230;"
 ---
 
 Elliott Rusty Harold <a href="http://cafe.elharo.com/programming/java-programming/why-functional-programming-in-java-is-dangerous/" target="_blank">está anunciando en su blog</a> que la programación funcional en Java es peligrosa. Está equivocado, y ya perdió su turno &#8212; Está viniendo con Java le guste o no.

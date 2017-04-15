@@ -6,7 +6,7 @@ date: '2016-01-01'
 lastmod: 2017-03-30T17:17:30+01:00
 mainclass: BaseDeDatos
 url: /consulta-de-datos-clausula-where/
-title: "Consulta de Datos - Cl\xE1usula WHERE"
+title: "Consulta de Datos - Cláusula WHERE"
 ---
 
 La cláusula WHERE se utiliza para seleccionar aquellos registros que cumplen una o más condiciones. Su sintaxis es:

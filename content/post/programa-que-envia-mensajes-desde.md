@@ -12,7 +12,7 @@ mainclass: android
 url: /programa-que-envia-mensajes-desde/
 tags:
 - curso android pdf
-title: "Programa que env\xEDa mensajes desde Android a PC"
+title: "Programa que envía mensajes desde Android a PC"
 ---
 
 Hace poco tiempo empecé a seguir los [videotutoriales de Android][1], en parte porque estoy interesado en aprender a programar para android, y por otra parte porque necesito hacer un proyecto de fin de curso en el que me es imprescindible que se establezca una comunicación PC-Dispositivo Android.

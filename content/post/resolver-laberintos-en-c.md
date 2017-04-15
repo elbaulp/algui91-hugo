@@ -4,10 +4,10 @@ categories:
 - c
 color: '#E64A19'
 date: '2016-01-01'
-description: "Cuando estaba en el primer curso de la facultad, hicimos una pr\xE1ctica
-  en la asignatura Fundamentos de la Programaci\xF3n que consist\xEDa en resolver
-  un laberinto almacenado en un fichero. Me gust\xF3 bastante hacer ese programa y
-  lo comparto en el blog para los curiosos que quieran ver c\xF3mo funciona."
+description: "Cuando estaba en el primer curso de la facultad, hicimos una práctica
+  en la asignatura Fundamentos de la Programación que consistía en resolver
+  un laberinto almacenado en un fichero. Me gustó bastante hacer ese programa y
+  lo comparto en el blog para los curiosos que quieran ver cómo funciona."
 image: 2013/11/cpp.png
 lastmod: 2015-12-29
 

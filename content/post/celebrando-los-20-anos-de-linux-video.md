@@ -11,7 +11,7 @@ date: '2016-01-01'
 lastmod: 2017-02-20
 mainclass: linux
 url: /celebrando-los-20-anos-de-linux-video/
-title: "Celebrando los 20 a\xF1os de Linux [Video]"
+title: "Celebrando los 20 años de Linux [Video]"
 ---
 
 Traducción parcial del artículo original en [techdrivein][1].

@@ -9,7 +9,7 @@ date: '2016-01-01'
 lastmod: 2017-03-09T12:01:23+01:00
 mainclass: linux
 url: /como-apagar-automaticamente-el-pc/
-title: "C\xF3mo apagar autom\xE1ticamente el PC cuando las descargas finalicen"
+title: "Cómo apagar automáticamente el PC cuando las descargas finalicen"
 ---
 
 A veces queremos descargar algo y no queremos esperar a que finalice, pero sí que queremos apagar el pc. Una buena opción para el problema es instalar Sentinella. Lo instalamos así:

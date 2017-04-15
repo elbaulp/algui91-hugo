@@ -10,7 +10,7 @@ lastmod: 2016-09-07
 
 mainclass: articulos
 url: /humanstxt-creator-somos-personas-no/
-title: "Humanstxt Creator. Somos personas, no m\xE1quinas"
+title: "Humanstxt Creator. Somos personas, no máquinas"
 ---
 
 <figure>

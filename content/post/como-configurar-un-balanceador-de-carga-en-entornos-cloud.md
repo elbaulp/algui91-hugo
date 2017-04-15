@@ -4,14 +4,14 @@ categories:
 - administracion de servidores
 date: '2016-01-01'
 lastmod: 2017-03-13T16:04:51+01:00
-description: "Hoy vamos a hablar de c\xF3mo configurar un Balanceador de carga para  un servidor. Veremos dos alternativas, configurarlo todo a mano, o desde un entorno  cloud virtualizado, desde el panel de control de Arsys. Est\xE1 claro que, la segunda  opci\xF3n, ser\xE1 mucho m\xE1s sencilla. A\xFAn as\xED, con la primera se aprender\xE1  qu\xE9 est\xE1 pasando realmente por debajo."
+description: "Hoy vamos a hablar de cómo configurar un Balanceador de carga para  un servidor. Veremos dos alternativas, configurarlo todo a mano, o desde un entorno  cloud virtualizado, desde el panel de control de Arsys. Está claro que, la segunda  opción, será mucho más sencilla. Aún así, con la primera se aprenderá  qué está pasando realmente por debajo."
 mainclass: servidores
 url: /como-configurar-un-balanceador-de-carga-en-entornos-cloud/
 tags:
 - balanceador de carga
 - configurar load balancer nginx
 - load balancers
-title: "C\xF3mo configurar un balanceador de carga en entornos cloud"
+title: "Cómo configurar un balanceador de carga en entornos cloud"
 ---
 
 Hoy vamos a hablar de cómo configurar un Balanceador de carga para un servidor. Veremos dos alternativas, configurarlo todo a mano, o desde un entorno cloud virtualizado, desde el panel de control de [Arsys][1]. Está claro que, la segunda opción, será mucho más sencilla. Aún así, con la primera se aprenderá qué está pasando realmente por debajo.

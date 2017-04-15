@@ -15,8 +15,8 @@ tags:
 - humor
 - humor geek grafico
 - humor informatico
-- "vi\xF1etas humor"
-title: "Vi\xF1etas Geek de Domingo (VI)"
+- "viñetas humor"
+title: "Viñetas Geek de Domingo (VI)"
 ---
 
 Disfrutad de lo que queda de fin de semana!

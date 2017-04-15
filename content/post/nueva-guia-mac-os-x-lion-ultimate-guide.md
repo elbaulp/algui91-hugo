@@ -9,7 +9,7 @@ lastmod: 2016-09-29
 
 mainclass: misc
 url: /nueva-guia-mac-os-x-lion-ultimate-guide/
-title: "Nueva gu\xEDa: Mac OS X Lion: The Ultimate Guide"
+title: "Nueva guía: Mac OS X Lion: The Ultimate Guide"
 ---
 
 <figure>

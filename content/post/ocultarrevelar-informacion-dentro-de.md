@@ -13,7 +13,7 @@ aliases: /programacion/ocultarrevelar-informacion-dentro-de/
 tags:
 - esconder informacion en imagen
 - ocultar texto en imagen
-title: "Ocultar/Revelar informaci\xF3n dentro de im\xE1genes con C++"
+title: "Ocultar/Revelar información dentro de imágenes con C++"
 ---
 
 <figure>

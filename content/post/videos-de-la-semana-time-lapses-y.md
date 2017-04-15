@@ -7,7 +7,7 @@ date: '2016-01-01'
 
 mainclass: articulos
 url: /videos-de-la-semana-time-lapses-y/
-title: "V\xEDdeos de la semana - Time-Lapses y cortos de animaci\xF3n"
+title: "Vídeos de la semana - Time-Lapses y cortos de animación"
 ---
 
 <div class="separator" >

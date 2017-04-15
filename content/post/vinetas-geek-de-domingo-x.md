@@ -13,8 +13,8 @@ tags:
 - humor
 - humor geek grafico
 - humor informatico
-- "vi\xF1etas humor"
-title: "Vi\xF1etas Geek de Domingo (X)"
+- "viñetas humor"
+title: "Viñetas Geek de Domingo (X)"
 ---
 
 Otro Domingo, [otra recopilación][1] de viñetas Geek, Hasta el Lunes!

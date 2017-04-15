@@ -8,7 +8,7 @@ lastmod: 2016-08-19
 
 mainclass: dev
 url: /programacion-para-juegos-leccion-4/
-title: "Programaci\xF3n para Juegos. Lecci\xF3n 4 . Programaci\xF3n orientada a eventos"
+title: "Programación para Juegos. Lección 4 . Programación orientada a eventos"
 ---
 
 [Pueden descargar el código fuente de esta lección.][1]

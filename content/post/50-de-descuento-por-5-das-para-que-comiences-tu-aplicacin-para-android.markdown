@@ -4,15 +4,15 @@ categories:
 - articulos
 color: '#F57C00'
 date: 2015-09-30 14:38:44
-description: "Reccientemente hemos cerrado un acuerdo con Oja.la, plataforma de educaci\xF3n
-  digital, con mentores personales y m\xE1s de 320 cursos sobre desarrollo en Android,
-  para ofrecerte, por ser lector de El Ba\xFAl del Programador, un descuento del 50%
-  durante los pr\xF3ximos 5 d\xEDas para cualquier curso elegido."
+description: "Reccientemente hemos cerrado un acuerdo con Oja.la, plataforma de educación
+  digital, con mentores personales y más de 320 cursos sobre desarrollo en Android,
+  para ofrecerte, por ser lector de El Baúl del Programador, un descuento del 50%
+  durante los próximos 5 días para cualquier curso elegido."
 
 mainclass: articulos
 modified: null
 tags: []
-title: "50% De Descuento Por 5 D\xEDas Para Que Comiences Tu Aplicaci\xF3n Para Android"
+title: "50% De Descuento Por 5 Días Para Que Comiences Tu Aplicación Para Android"
 ---
 
 Recientemente hemos cerrado un acuerdo con __Oja.la__, plataforma de educación digital, con mentores personales y más de __320 cursos__ sobre desarrollo en Android, para ofrecerte, por ser lector de El Baúl del Programador, un __descuento del 50%__ durante los próximos __5 días__ para cualquier curso elegido.

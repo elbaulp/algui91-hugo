@@ -10,7 +10,7 @@ image: hotlink-ok/Bootstrap-Programming-Cookbook1.jpg
 mainclass: misc
 modified: null
 tags: []
-title: "Gu\xEDa gratuita - Bootstrap Programming Cookbook"
+title: "Guía gratuita - Bootstrap Programming Cookbook"
 ---
 
 <figure>

@@ -11,7 +11,7 @@ url: /plsql-estructuras-basicas-de-control/
 tags:
 - comandos basicos sql
 - sentencias sql while
-title: "PL/SQL. Estructuras b\xE1sicas de control"
+title: "PL/SQL. Estructuras básicas de control"
 ---
 
 Como PL/SQL es un lenguaje 3GL, cuenta con las estructuras típicas de control de flujo: bifurcaciones condicionales y bucles:

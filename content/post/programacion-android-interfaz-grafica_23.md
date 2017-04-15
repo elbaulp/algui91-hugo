@@ -9,7 +9,7 @@ date: '2016-01-01'
 mainclass: android
 url: /programacion-android-interfaz-grafica_23/
 tags:
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - como hacer interfaces graficas en android
 - curso android layouts
 - curso android pdf
@@ -18,7 +18,7 @@ tags:
 - layout android
 - layouts android
 - menu android
-title: "Programaci\xF3n Android: Interfaz gr\xE1fica - Layouts"
+title: "Programación Android: Interfaz gráfica - Layouts"
 ---
 
 Los layout nos permiten posicionar cada objeto gráfico en el lugar que queramos de la pantalla, es decir, nos permite diseñar el aspecto gráfico que va a tener nuestra pantalla. Los layouts son de tipo ***ViewGroup***, una subclase de ***View***

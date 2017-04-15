@@ -4,7 +4,7 @@ categories:
 - articulos
 color: '#F57C00'
 date: 2016-03-03 20:30:24
-description: "Hace unos a\xF1os, concretamente 5, un compa\xF1ero bloggero lanzaba
+description: "Hace unos años, concretamente 5, un compañero bloggero lanzaba
   OpenLibra: La Biblioteca Libre Online tal como la esperabas"
 image: openlibra-biblioteca-libre-online.jpg
 
@@ -14,7 +14,7 @@ tags:
 - openlibra
 - biblioteca online
 - descargar libros gratis
-title: "OpenLibra Cumple 5 A\xF1os Y Estrena Versi\xF3n 2.0"
+title: "OpenLibra Cumple 5 Años Y Estrena Versión 2.0"
 ---
 
 <figure>

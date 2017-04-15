@@ -10,7 +10,7 @@ lastmod: 2016-09-27
 
 mainclass: geek
 url: /humor-grafico-informaticos-11/
-title: "Humor gr\xE1fico - Inform\xE1ticos, Programadores, geek - 9GAG.COM Parte (I)"
+title: "Humor gráfico - Informáticos, Programadores, geek - 9GAG.COM Parte (I)"
 ---
 
 Hace mucho tiempo publiqué una entrada con [chistes informáticos][1], ahora he recopilado unas cuantas imágenes más:

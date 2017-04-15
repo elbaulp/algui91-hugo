@@ -16,7 +16,7 @@ tags:
 - sentencia create
 - sentencias dml y ddl
 - unique para varias columnas
-title: "Lenguaje Definici\xF3n de Datos(DDL) - CREATE"
+title: "Lenguaje Definición de Datos(DDL) - CREATE"
 ---
 
 En esta entrada vamos a ver la orden CREATE

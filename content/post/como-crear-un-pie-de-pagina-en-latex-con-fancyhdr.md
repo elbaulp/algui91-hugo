@@ -9,14 +9,14 @@ image: 2013/05/latex_logo.png
 mainclass: latex
 url: /como-crear-un-pie-de-pagina-en-latex-con-fancyhdr/
 tags:
-- "crear un pie de p\xE1gina en LaTeX"
+- "crear un pie de página en LaTeX"
 - fancyhdr
-- "personalizar pie de p\xE1gina latex"
+- "personalizar pie de página latex"
 - pie de pagina latex
 - latex
 - fancy hdr
 - latex nota al pie
-title: "C\xF3mo crear un pie de p\xE1gina en LaTeX con fancyhdr"
+title: "Cómo crear un pie de página en LaTeX con fancyhdr"
 ---
 
 <figure>

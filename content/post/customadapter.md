@@ -5,7 +5,7 @@ categories:
 - how to
 date: '2016-01-01'
 lastmod: 2017-04-06T19:52:38+01:00
-description: "Hace tiempo que habl\xE9 de c\xF3mo crear un adapter simple, y otro  un poco m\xE1s personalizado en Android. En esta entrada se ver\xE1 c\xF3mo crear  un adapter desde cero, con algunas funcionalidades m\xE1s."
+description: "Hace tiempo que hablé de cómo crear un adapter simple, y otro  un poco más personalizado en Android. En esta entrada se verá cómo crear  un adapter desde cero, con algunas funcionalidades más."
 image: 2012/09/principal1.png
 mainclass: android
 url: /adapter-personalizado-en-android/
@@ -20,10 +20,10 @@ tags:
 - curso android pdf
 - custom adapter
 - list adapter
-- "listview setlistadapter espa\xF1ol"
+- "listview setlistadapter español"
 - manual android parcelable
 - simple adapter android ejemplo
-title: "C\xF3mo crear un adapter personalizado en Android"
+title: "Cómo crear un adapter personalizado en Android"
 ---
 
 Hace tiempo que hablé de cómo crear un [adapter simple][1], y [otro][2] un poco más personalizado en [Android][3].

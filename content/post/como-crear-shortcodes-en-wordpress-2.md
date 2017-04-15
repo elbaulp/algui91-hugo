@@ -13,7 +13,7 @@ tags:
 - shortcodes
 - wordpress shortcodes
 - wordpress
-title: "C\xF3mo crear  simples shortcodes en WordPress"
+title: "Cómo crear  simples shortcodes en WordPress"
 ---
 
 Es bastante simple:

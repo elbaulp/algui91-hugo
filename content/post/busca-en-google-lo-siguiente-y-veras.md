@@ -5,7 +5,7 @@ categories:
 date: '2016-01-01'
 mainclass: articulos
 url: /busca-en-google-lo-siguiente-y-veras/
-title: "Busca en google lo siguiente y ver\xE1s que pasa"
+title: "Busca en google lo siguiente y verás que pasa"
 lastmod: 2017-02-15
 ---
 

@@ -7,7 +7,7 @@ date: '2016-01-01'
 
 mainclass: articulos
 url: /vota-por-el-logo-que-mas-te-guste-para-el-baul-del-programador/
-title: "Vota por el logo que m\xE1s te guste para El Ba\xFAl del Programador"
+title: "Vota por el logo que más te guste para El Baúl del Programador"
 ---
 
 Estos días he estado liado aprendiendo a usar *inkscape* para rediseñar el logo de la web. Hoy lo he terminado y me gustaría contar con vuestra opinión para decidirme por un diseño. Para ello he creado esta encuesta en la que es posible seleccionar más de una respuesta en caso de que os gusten varios diseños.

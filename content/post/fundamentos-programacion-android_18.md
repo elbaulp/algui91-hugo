@@ -11,9 +11,9 @@ mainclass: android
 url: /fundamentos-programacion-android_18/
 tags:
 - curso android pdf
-- "Fundamentos programaci\xF3n Android"
+- "Fundamentos programación Android"
 - procesos android
-title: "Fundamentos programaci\xF3n Android: Limpieza de Procesos"
+title: "Fundamentos programación Android: Limpieza de Procesos"
 ---
 
 Android va destruyendo componentes inactivos para liberar memória, pero los elminia teniendo en cuenta cual es el de menor importancia:

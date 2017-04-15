@@ -4,12 +4,12 @@ categories:
 - articulos
 color: '#F57C00'
 date: '2016-01-01'
-description: "QUIC es un protocolo que est\xE1 desarrollando Google y que pretende
-  ser m\xE1s seguro y r\xE1pido. Investigando un poco para conocer m\xE1s acerca de
-  este nuevo protocolo, encontr\xE9 una peque\xF1a FAQ (Frequently Asked Questions)
-  en Google Drive, al parecer dicha FAQ es autor\xEDa del propio grupo de desarrollo
+description: "QUIC es un protocolo que está desarrollando Google y que pretende
+  ser más seguro y rápido. Investigando un poco para conocer más acerca de
+  este nuevo protocolo, encontré una pequeña FAQ (Frequently Asked Questions)
+  en Google Drive, al parecer dicha FAQ es autoría del propio grupo de desarrollo
   de QUIC, el nombre original del documento es QUIC Geek FAQ (for folks that know
-  about UDP, TCP, SPDY, and stuff like that). Puedes consultar el art\xEDculo en Qu\xE9
+  about UDP, TCP, SPDY, and stuff like that). Puedes consultar el artículo en Qué
   es QUIC, el nuevo protocolo desarrollado por Google."
 image: 2013/07/Que-es-QUIC-el-nuevo-protocolo-desarrollado-por-Google.png
 lastmod: 2015-12-23
@@ -24,7 +24,7 @@ tags:
 - paquetes quic
 - quic
 - wireshark
-title: "QUIC: An\xE1lisis pr\xE1ctico del protocolo de Google"
+title: "QUIC: Análisis práctico del protocolo de Google"
 ---
 
 <figure>

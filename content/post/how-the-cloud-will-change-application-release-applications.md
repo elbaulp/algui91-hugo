@@ -11,7 +11,7 @@ tags:
 - cloud
 - How the Cloud will Change Application Release Applications
 - internet
-title: "Nueva Gu\xEDa: How the Cloud will Change Application Release Applications"
+title: "Nueva Guía: How the Cloud will Change Application Release Applications"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/How-the-Cloud-will-Change-Application-Release-Applications.png" alt="How the Cloud will Change Application Release Applications" width="200px" height="259px" />][1]

@@ -8,7 +8,7 @@ lastmod: 2016-10-26
 
 mainclass: articulos
 url: /estadisticas-del-blog-en-2011/
-title: "Estad\xEDsticas del blog en 2011"
+title: "Estadísticas del blog en 2011"
 ---
 
 En esta entrada voy a dar a conocer los datos estadísticos del blog en este prácticamente acabado 2011. En líneas generales ha mejorado bastante con respecto al 2010.

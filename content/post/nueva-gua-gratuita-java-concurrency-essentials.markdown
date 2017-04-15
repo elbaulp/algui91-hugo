@@ -16,7 +16,7 @@ tags:
 - manuales
 - guias
 - descargas
-title: "Nueva Gu\xEDa Gratuita: Java Concurrency Essentials"
+title: "Nueva Guía Gratuita: Java Concurrency Essentials"
 ---
 
 <figure>

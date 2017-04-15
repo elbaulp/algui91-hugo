@@ -78,3 +78,5 @@
   translation: "More {{ .name }}'s posts"
 - id: lastMod
   translation: "Modified on"
+- id: related
+  translation: "Maybe this posts are also worth reading"

@@ -10,7 +10,7 @@ lastmod: 2016-10-11
 
 mainclass: linux
 url: /guia-de-referencia-de-comandos/
-title: "Gu\xEDa de Referencia de comandos Unix/Linux [IMG]"
+title: "Guía de Referencia de comandos Unix/Linux [IMG]"
 ---
 
 <figure>

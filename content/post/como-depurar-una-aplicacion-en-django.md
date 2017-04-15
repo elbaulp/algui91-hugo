@@ -13,7 +13,7 @@ tags:
 - depurar django
 - django
 - pdb
-title: "C\xF3mo depurar una aplicaci\xF3n en Django"
+title: "Cómo depurar una aplicación en Django"
 ---
 
 Hace poco vimos una [introducción a django][1]. Pero a medida que las aplicaciones vayan haciéndose más complejas, tendremos la necesidad de saber qué está pasando, qué contienen las variables etc, y para ello será necesario hacer uso del [depurador][2]. Hoy veremos cómo depurar una aplicación en Django.
