@@ -3,10 +3,8 @@ author: alex
 categories:
 - noticias
 - opensource
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-19
-
+lastmod: 2017-04-17T19:41:29+01:00
 mainclass: articulos
 url: /dominio-software-libre-no-oficial-42/
 title: "Dominio software libre -no oficial- \u201C.42\u2033 disponible"
@@ -20,6 +18,6 @@ Según la web de registros 42registry.org, como requisito es necesario que las w
 
 Los creadores de este proyecto pretenden crear un Internet abierto, orientado hacia el intercambio de conocimientos y el software libre y son conscientes de la inmensidad del desafío, con las enormes limitaciones que implica pero también son conscientes de los beneficios que ofrece esta opción. Curiosamente, su nombre, .42 responde el número que, en la cultura popular, es la respuesta a la última pregunta sobre la vida, el Universo y… todo. Aparece en la novela de ciencia ficción “Guía del autoestopista galáctico“, de Douglas Adams.
 
-## Fuente: [MuyLinux][2]
+# Fuente: [MuyLinux][2]
 
  [2]: http://www.muylinux.com/

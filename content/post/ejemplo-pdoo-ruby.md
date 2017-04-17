@@ -2,10 +2,8 @@
 author: alex
 categories:
 - articulos
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-08-10
-
+lastmod: 2017-04-17T19:55:07+01:00
 mainclass: dev
 url: /introduccion-a-ruby/
 tags:
