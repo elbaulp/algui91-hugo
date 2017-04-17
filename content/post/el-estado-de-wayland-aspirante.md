@@ -2,10 +2,8 @@
 author: alex
 categories:
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-15
-
+lastmod: 2017-04-17T19:57:59+01:00
 mainclass: articulos
 url: /el-estado-de-wayland-aspirante/
 title: El estado de Wayland, aspirante a reemplazar X.org
@@ -24,8 +22,6 @@ Afortunadamente, todos los toolkits modernos están diseñados para funcionar de
 Todo esto suena muy bien para Wayland, y hay que tener en cuenta que este servidor no es por si mismo una revolución, más bien es el punto final a todas las novedades de los últimos años en APIs de acceso a hardware (KMS) y las novedades y capacidades de los toolkits y el progreso en Mesa: Wayland es el broche final que une ambos mundos de manera correcta, prescindiendo del obsoleto X.org. Pero tampoco hay que darlo todo por hecho: Imaginen que a alguien se le ocurre añadir una extensión a X.org implementando algo similar. En un mundo tan atacado por el relativismo moral, no hay que descartar semejantes desvaríos.
 
 (PD: Ubuntu ha anunciado, precisamente justo después de publicar esta entrada, que [pretende usar Wayland en el futuro][9])
-
-
 
  [1]: http://diegocg.blogspot.com/2010/08/novedades-en-systemd.html
  [2]: http://www.phoronix.com/scan.php?page=news_item&px;=ODYwMQ

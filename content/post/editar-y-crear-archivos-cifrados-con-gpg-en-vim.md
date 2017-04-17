@@ -4,9 +4,9 @@ categories:
 - linux
 - seguridad
 date: '2016-01-01'
+lastmod: 2017-04-17T19:41:46+01:00
 description: "Hoy quiero hablaros de un plugin bastante útil que encontré para  el potente editor de textos Vim, que permite crear y modificar archivos de texto  bajo gpg (GNU Privacy Guard)."
 image: 2013/04/GnuPG-Logo.png
-lastmod: 2017-03-09T17:25:13+01:00
 mainclass: linux
 url: /editar-y-crear-archivos-cifrados-con-gpg-en-vim/
 aliases: /opensource/seguridad/editar-y-crear-archivos-cifrados-con-gpg-en-vim/
@@ -22,18 +22,16 @@ title: Editar y crear archivos cifrados con GPG en Vim
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/GnuPG-Logo.png" alt="Editar y crear archivos cifrados con GPG en Vim" title="Editar y crear archivos cifrados con GPG en Vim" width="400px" height="175px"></amp-img>
+    <amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/GnuPG-Logo.png" alt="Editar y crear archivos cifrados con GPG en Vim" title="Editar y crear archivos cifrados con GPG en Vim" width="400px" height="175px"></amp-img>
 </figure>
 
 Hoy quiero hablaros de un plugin bastante útil que encontré para el potente editor de textos Vim, que permite crear y modificar archivos de texto bajo **[gpg](/tags/gpg)** (*GNU Privacy Guard*).
-
-
 
 # ¿Qué es **gpg**?
 
 Me permito extraer el la definición de genbeta::Dev. Para una explicación más profunda del funcionamiento de **gpg**, puedes dirigirte al artículo en GenBeta::Dev que cito en las referencias.
 
-> *Antes de empezar con lo interesante tenemos que saber que es **gpg** (GNU Privacy Guard), que es un derivado libre de **PGP** y su utilidad es la de cifrar y firmar digitalmente, siendo además multiplataforma (<a href="http://www.gnupg.org/download/index.en.html" target="_blank">podéis descargarlo desde la página oficial</a>) aunque viene incorporado en algunos sistemas Linux, en Windows se encuentra solo con gestor gráfico).*
+> Antes de empezar con lo interesante tenemos que saber que es **gpg** (GNU Privacy Guard), que es un derivado libre de **PGP** y su utilidad es la de cifrar y firmar digitalmente, siendo además multiplataforma (<a href="http://www.gnupg.org/download/index.en.html" target="_blank">podéis descargarlo desde la página oficial</a>) aunque viene incorporado en algunos sistemas Linux, en Windows se encuentra solo con gestor gráfico).
 
 <!--more--><!--ad-->
 

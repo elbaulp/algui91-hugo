@@ -2,11 +2,9 @@
 author: alex
 categories:
 - curiosidades
-color: '#E64A19'
 date: '2016-01-01'
+lastmod: 2017-04-17T19:29:51+01:00
 image: 2013/01/2013-01-13-105334_1256x830_scrot2.png
-lastmod: 2016-08-09
-
 mainclass: dev
 url: /diagramas-animados-de-numeros-factorizados/
 tags:
@@ -17,7 +15,7 @@ title: "Diagramas animados de números factorizados en HTML5"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/2013-01-13-105334_1256x830_scrot2.png" alt="Factorización en html5" width="1024px" height="676px"></amp-img>
+    <amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/2013-01-13-105334_1256x830_scrot2.png" alt="Factorización en html5" width="1024px" height="676px"></amp-img>
 </figure>
 
 En este domingo os traigo algo curioso que escuché en el programa de radio [security now!][1].
@@ -29,7 +27,7 @@ Se trata de una animación escrita en HTML5 que muestra números desde el 1, con
 En el caso de ser un número primo, dado que no es posible realizar la factorización, se forma un círculo. Por ejemplo el 31:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/Animación-numeros-factorizados2.png" alt="Animación numeros factorizados" width="973px" height="761px"></amp-img>
+    <amp-img sizes="(min-width: 973px) 973px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/Animación-numeros-factorizados2.png" alt="Animación numeros factorizados" width="973px" height="761px"></amp-img>
 </figure>
 
 Sin más explicaciones, lo mejor es verlo en acción. A continuación proporciono los enlaces de referencia:

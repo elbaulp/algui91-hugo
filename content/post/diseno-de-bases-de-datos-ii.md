@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-15
-
+lastmod: 2017-04-17T19:40:38+01:00
 mainclass: BaseDeDatos
 url: /diseno-de-bases-de-datos-ii/
 tags:
@@ -18,9 +16,7 @@ title: "Diseño de Bases de Datos ( II ) - Restricciones"
 
 > __Nota:__ Basado en los apuntes de clase
 
-
-
-## 1. Restricciones Inherentes del Modelo Relacional.
+# 1. Restricciones Inherentes del Modelo Relacional.
 
 <!--more--><!--ad-->
 
@@ -31,7 +27,7 @@ title: "Diseño de Bases de Datos ( II ) - Restricciones"
 
 _Estas restricciones son las que marcan la diferencia entre una tabla y una relación, ya que una tabla presenta las filas y las columnas en un orden, del cual carecen las relaciones. Por otro lado, una tabla podría contener filas repetidas. De todos modos, es muy común utilizar el término tabla para referirse a una relación._
 
-### Las 12 reglas de Codd
+## Las 12 reglas de Codd
 
 Preocupado por los productos que decían ser sistemas gestores de bases de datos relacionales (RDBMS) sin serlo, Codd publica las 12 reglas que debe cumplir todo DBMS para ser considerado relacional. Estas reglas en la práctica las cumplen pocos sistemas relaciónales. Las reglas son:
 
@@ -48,7 +44,7 @@ Preocupado por los productos que decían ser sistemas gestores de bases de datos
 11. **Independencia de la distribución.** El sublenguaje de datos debe permitir que sus instrucciones funcionen igualmente en una base de datos distribuida que en una que no lo es.
 12. **No subversión.** Si el DBMS posee un lenguaje que permite el recorrido registro a registro, éste no puede utilizarse para incumplir las reglas relacionales.
 
-## 2. Restricciones Semánticas o de Usuario.
+# 2. Restricciones Semánticas o de Usuario.
 
 1.  **Restricción de Clave Primaria** _(PRIMARY KEY)_, permite declarar un atributo o conjunto de atributos como la clave primaria de una relación.
 2.  **Restricción de Unicidad** _(UNIQUE)_, permite que una clave alternativa o secundaria pueda tomar valores únicos para las tuplas de una relación (como si de una clave primaria se tratara). Se entiende que la clave primaria siempre tiene esta restricción.
@@ -68,6 +64,6 @@ Preocupado por los productos que decían ser sistemas gestores de bases de datos
 7.  **Aserciones** _(ASSERTION)_: Esta restricción generaliza a la anterior, lo forman las aserciones en las que la condición se establece sobre elementos de distintas relaciones (por ello debe tener un nombre que la identifique).
 8.  **Disparadores** _(TRIGGERS)_, a veces puede interesar espeficar una acción distinta del rechazo cuando no se cumple una determinada restricción semántica. En este caso, se recurre al uso de disparadores o triggers que nos permiten además de indicar una condición, especificar la acción que queremos que se lleve a cabo si la condición se hace verdadera. Los disparadores pueden interpretarse como reglas del tipo evento-condición-acción (ECA) que pueden interpretarse como reglas que especifican que cuando se produce un evento, si se cumple una condición, entonces se realiza una determinada acción.
 
-## Siguiente tema: [Introducción SQL][1]
+# Siguiente tema: [Introducción SQL][1]
 
   [1]: https://elbauldelprogramador.com/introduccion-sql-sql-introduction/
