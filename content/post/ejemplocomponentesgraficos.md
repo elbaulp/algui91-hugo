@@ -122,7 +122,7 @@ imageView1.setImageResource(R.drawable.icon);
 
 El icono es el que viene por defecto al crear un proyecto. Este es el resultado:
 
-    <a href="https://2.bp.blogspot.com/-Gjh19FWfN9s/TgYPUIHd8nI/AAAAAAAAAqQ/-tN7V-Fz_KU/s1600/ImageView.png"  ><amp-img sizes="(min-width: 299px) 299px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Ejemplo ImageView" title="Ejemplo ImageView"  height="400" width="299" src="https://2.bp.blogspot.com/-Gjh19FWfN9s/TgYPUIHd8nI/AAAAAAAAAqQ/-tN7V-Fz_KU/s400/ImageView.png" /></a>
+<a href="https://2.bp.blogspot.com/-Gjh19FWfN9s/TgYPUIHd8nI/AAAAAAAAAqQ/-tN7V-Fz_KU/s1600/ImageView.png"  ><amp-img sizes="(min-width: 299px) 299px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Ejemplo ImageView" title="Ejemplo ImageView"  height="400" width="299" src="https://2.bp.blogspot.com/-Gjh19FWfN9s/TgYPUIHd8nI/AAAAAAAAAqQ/-tN7V-Fz_KU/s400/ImageView.png" /></a>
 
 # CheckBox
 
