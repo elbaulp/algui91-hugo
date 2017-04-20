@@ -17,7 +17,7 @@
 {{ end }}
 </div>
 
-{{ $url := "static/labels.csv" }}
+{{ $url := string (delimit (slice "static/" "labels." .Lang ".csv" ) "") }}
 {{ $sep := "," }}
 {{ $file := string .File.LogicalName }}
 
