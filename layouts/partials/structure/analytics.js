@@ -234,7 +234,7 @@
                 "request": "event",
                 "vars": {
                     "eventCategory": "similar_post",
-                    "eventAction": "{{.Permalink}}"
+                    "eventAction": "{{.URL | relLangURL}}"
                 }
             }
         }
