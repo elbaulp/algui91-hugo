@@ -4,10 +4,8 @@ categories:
 - linux
 - opensource
 - so
-color: '#2196F3'
 date: '2016-01-01'
-lastmod: 2016-10-26
-
+lastmod: 2017-04-22T12:42:34+01:00
 mainclass: linux
 url: /encontrar-archivos-abiertos-en-linux/
 title: Encontrar archivos abiertos en Linux
@@ -21,7 +19,7 @@ El archivo <a target="_blank" href="http://www.cyberciti.biz/tips/linux-procfs-f
 
 <!--more--><!--ad-->
 
-## Encontrar cuantos archivos hay abiertos
+# Encontrar cuantos archivos hay abiertos
 
 Para ver el estado actual, introducimos:
 

@@ -2,9 +2,8 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-04-22T12:49:59+01:00
 mainclass: articulos
 url: /eres-chica-y-te-gusta-la-informatica-participa-en-el-campus-ugrgoogle-para-chicas/
 tags:
@@ -36,22 +35,20 @@ Las clases de este campus tendrán un enfoque práctico y estarán encaminadas a
 dispositivo de cualquier tipo basado en Arduino o Raspberry Pi. Al final del curso las alumnas habrán terminado un pequeño proyecto informático y, además, habrán aprendido a trabajar en grupo usando herramientas TIC y a presentar los resultados de las mismas. Las monitoras serán también estudiantes
 de Informática o Telecomunicaciones de los últimos cursos, y ayudarán a todos los grupos de trabajo a llevar a cabo los proyectos; estos se evaluarán y **recibirán una serie de premios**.
 
-## Cómo contactar con los organizadores
+# Cómo contactar con los organizadores
 
-Facebook : <a href="https://www.facebook.com/campusugrgoogle" target="_blank">Campus tecnológico UGR / Google</a>
-Twitter: <a href="http://twitter.com/campusugrgoogle" target="_blank">@campusugrgoogle</a>
-Blog <a href="http://sereingeniera.ugr.es/" target="_blank">http://sereingeniera.ugr.es/</a>
+- Facebook : <a href="https://www.facebook.com/campusugrgoogle" target="_blank">Campus tecnológico UGR / Google</a>
+- Twitter: <a href="http://twitter.com/campusugrgoogle" target="_blank">@campusugrgoogle</a>
+- Blog <a href="http://sereingeniera.ugr.es/" target="_blank">http://sereingeniera.ugr.es/</a>
 
-## Universidad de Granada
+# Universidad de Granada
 
 JJ Merelo, director de la Oficina de Software Libre.
 <a href="mailto:dirosl@ugr.es" target="_blank">dirosl@ugr.es</a>
 
-## Comunicación
+# Comunicación
 
 Sandra Cámara, Community Manager No Solo Una Idea:
 <a href="mailto:sandracamara@nosolounaidea.com" target="_blank">sandracamara@nosolounaidea.com</a>
-
-
 
  [1]: https://elbauldelprogramador.com/curso-programacion-android/ "Android"

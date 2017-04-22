@@ -2,9 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-
+lastmod: 2017-04-22T12:50:57+01:00
 mainclass: BaseDeDatos
 url: /resultados-examen-plsql-base-de-datos/
 tags:
@@ -14,16 +13,11 @@ tags:
 title: Resultados examen PL/SQL base de datos
 ---
 
-<div class="icosql">
-</div>
-
 Voy a dejar el examen que hice hace poco de base de datos, junto con el enunciado.
 
 El examen tiene un 9, por lo que hay algunas pequeñas cosas que no estan hechas bien del todo.
 
 <a class="aligncenter download-button" href="https://elbauldelprogramador.com/erp-cobros/" rel="nofollow"> Download &ldquo;ERP COBROS&rdquo; <small>ERP_COBROS.pdf &ndash; Downloaded 1411 times &ndash; </small> </a>
-
-
 
 ```sql
 --ejercicio 1
@@ -200,7 +194,5 @@ end;
 [Enlace al resultado.][1]
 
 Espero que os sea útil.
-
-
 
  [1]: http://pastebin.com/CUDjz0kc

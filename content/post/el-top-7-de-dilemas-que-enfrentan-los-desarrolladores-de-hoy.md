@@ -3,16 +3,9 @@ author: luzila
 categories:
 - aplicaciones
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
-description: "Así como la tecnología evoluciona, también lo hacen los dilemas
-  que enfrentan los desarrolladores. Cada elección, desde la plataforma hasta el
-  almacenamiento de datos, incluyendo a cuánto control darle a los usuarios, está
-  cargada de preguntas. Y gracias a la nube, el crecimiento de la tecnología móvil
-  y la acelerada vanguardia, pareciera como si el mundo de la programación enfrentara
-  una nueva elección - y dilema - a un ritmo creciente."
-lastmod: 2016-06-13
-
+lastmod: 2017-04-22T12:37:45+01:00
+description: "Así como la tecnología evoluciona, también lo hacen los dilemas  que enfrentan los desarrolladores. Cada elección, desde la plataforma hasta el  almacenamiento de datos, incluyendo a cuánto control darle a los usuarios, está  cargada de preguntas. Y gracias a la nube, el crecimiento de la tecnología móvil  y la acelerada vanguardia, pareciera como si el mundo de la programación enfrentara  una nueva elección - y dilema - a un ritmo creciente."
 mainclass: articulos
 url: /el-top-7-de-dilemas-que-enfrentan-los-desarrolladores-de-hoy/
 tags:
