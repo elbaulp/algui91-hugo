@@ -2,9 +2,8 @@
 author: alex
 categories:
 - seguridad
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-04-22T12:33:54+01:00
 mainclass: articulos
 url: /el-modelo-de-seguridad-de-ios-charla-del-nesg-en-la-ugr/
 tags:
@@ -19,7 +18,7 @@ Recientemente me comunicó que había puesto a disposición pública las transpa
 
 Personalmente me gustó mucho la charla, no conocía gran parte de los aspectos de seguridad en iOS. Espero poder seguir acudiendo a este tipo de charlas por mucho tiempo.
 
-#### Referencias
+# Referencias
 
-*Grupo investigación NESG* »» <a href="http://nesg.ugr.es/" target="_blank">Visitar sitio</a>
-*Javier Tallón* »» <a href="http://jtsec.es/" target="_blank">Visitar sitio</a>
+- *Grupo investigación NESG* »» <a href="http://nesg.ugr.es/" target="_blank">Visitar sitio</a>
+- *Javier Tallón* »» <a href="http://jtsec.es/" target="_blank">Visitar sitio</a>
