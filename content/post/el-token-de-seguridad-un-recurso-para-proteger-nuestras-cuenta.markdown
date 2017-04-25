@@ -18,8 +18,6 @@ Aunque la obsesión por la seguridad no es exclusiva de las entidade bancarias y
 
 Un ejemplo de esto podría ser la sala de póker online PokerStars dond sus usuarios pueden disponer de un servicio opcional de [token de seguridad](http://www.pokerstars.es/poker/room/features/security/token/) para proteger su cuenta personal. En este caso la misma sala proporciona el token de autenticación a través  de su Tienda VIP, algo que e habitual en estos dispositivos.
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="https://elbauldelprogramador.com/03/El-token-de-seguridad-un-recurso-para-proteger-nuestras-cuentas2.jpg" alt="El token de seguridad, un recurso para proteger nuestras cuentas2" />
-
 Este pequeño aparato electrónico puede presentar diferentes tipos, desde los token USB que almacenan claves criptográficas que pueden contene datos biométricos o firmas digitales, hasta un generador de contraseña dinámicas "OTP" (One Time Password) que generan una clave operativ durante un espacio limitado de tiempo para el ingreso a una cuent determinada. En el caso del mencionado token de seguridad de PokerStars cada vez que se pulsa el dispositivo, éste crea una clave que aparece e la pantalla durante solamente dos segundos y que permite el inicio d sesión en el software del usuario que tiene asignado el token
 
 La contraseña del token es adicional al password usual que utiliza e usuario y cada vez que se pulsa el dispositivo genera una nueva clave  caduca la anterior. Este método es conocido como autenticación en  pasos al requerir usar **Usuario \> Password \> Token**, por lo que s alguien pretende suplantar la identidad y tener acceso a la cuenta además de hacerse con el password del usuario debería robar físicament el token
