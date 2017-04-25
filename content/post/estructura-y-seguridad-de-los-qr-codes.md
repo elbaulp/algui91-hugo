@@ -4,10 +4,9 @@ categories:
 - articulos
 - security now
 - seguridad
-color: '#00BCD4'
 date: '2016-01-01'
+lastmod: 2017-04-25T16:54:43+01:00
 image: 2012/12/qrbaulinnercorners2.png
-
 mainclass: security-now
 url: /estructura-y-seguridad-de-los-qr-codes/
 tags:
@@ -23,7 +22,7 @@ title: Estructura y seguridad de los QR Codes
 > El anterior espisodio traducido fué [Lo último en criptografía: Fully Homomorphic Encryption][1]
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/linkentrada2-300x300.png" alt="QR Code" width="300px" height="300px" />
+    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/linkentrada2-300x300.png" alt="QR Code" width="300px" height="300px" />
 </figure>
 
 Seguro que estás familiarizado con la imagen de la izquierda, y habrás usado escánares para acceder a su contenido más de una vez, ya que últimamente están de moda y se encuentran en todas partes.
@@ -35,14 +34,15 @@ Todos son cuadrados y siempre tienen una zona llamada *zona tranquila* ó **quie
 La característica más prominente del QR Code son los tres cuadrados que aparecen en trés de las cuatro esquinas de la imagen. Son tres porque facilitan una orientación rotacional rápida y a la vez proporcionan un inmediato sentido del tamaño y orientación angular. En la esquina restante hay otro pequeño cuadrado. Normalmente los cuadrados de mayor tamaño se situan en la esquia superior derecha e izquierda e inferior izquierda, dejando al de menor tamaño en la esquina inferior derecha. El hecho de que exista un cuadrado grande en la esquina inferior derecha aporta una idea instantanea de orientación rotacional. Si te fijas, el cuadrado más pequeño está a 4 bits desde la base de la imagen y 4 bits desde la derecha:
 
 <!--more--><!--ad-->
+
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/qrbaultargetdownright2.png" alt="qrbaultargetdownright" width="280px" height="280px" />
+    <amp-img sizes="(min-width: 280px) 280px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/qrbaultargetdownright2.png" alt="qrbaultargetdownright" width="280px" height="280px" />
 </figure>
 
 Hay algo que se encuentra en todos y cada uno de los QR que existen, y es una marca de rastreo que une las esquinas interiores de los cuadrados grandes. Mirando entre los cuadrados superiores, se aprecia que siempre hay la siguiente sucesión (negro/blanco, negro/blanco). Es decir un <a href="http://es.wikipedia.org/wiki/Ciclo_de_trabajo" target="_blank">ciclo de trabajo del 50%</a>. Siempre aparece en los QR Codes. Lo mismo pasa entre el cuadrado superiore inferior izquierdo. Este diseño permite tener una referencia del tamaño y de nuevo orientación posicional adicional.
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/qrbaulinnercorners2.png" alt="qrbaulinnercorners" width="280px" height="280px" />
+    <amp-img sizes="(min-width: 280px) 280px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/qrbaulinnercorners2.png" alt="qrbaulinnercorners" width="280px" height="280px" />
 </figure>
 
 El código en sí tiene un número de formato y de versión almacenado en los bits circundantes a los tres cuadrados grandes. Dichos bits están siempre en una posición conocida dado que se sabe dónde están colocados los cuadrados grandes. La información almacenada ahí contiene el número de versión y el formato del QR Code.
@@ -58,7 +58,7 @@ Los diseñadores prestaron mucha atención a la corrección de errores, y desarr
 El nivel más alto de corrección de errores ocupa dos tercios de la superficie del QR Code, lo cual quiere decir que como mucho es posible que se pierda un tercio de la información codificada. De hecho, una con una simple búsqueda en internet se pueden encontrar QR Codes como el de wikipedia:
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Custom_QR_code_Wikipedia2.png" alt="Custom_QR_code_Wikipedia" width="564px" height="396px" />
+    <amp-img sizes="(min-width: 564px) 564px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Custom_QR_code_Wikipedia2.png" alt="Custom_QR_code_Wikipedia" width="564px" height="396px" />
 </figure>
 
 A pesar de haber escrito una palabra justo en mitad del código, sigue siendo decodificable por el lector. Aunque se haya borrado un trozo de información, la corrección de errores la reconstruye.
@@ -81,7 +81,7 @@ Lo que se hace es aplicar cada una de las ocho máscaras para obtener ocho posib
 
 Finalmente para decodificar el contenido, se empieza por la esquina inferior derecha, donde se encuentra el tipo de codificación (de 4 bits de tamaño), luego la longitud (8 bits) seguido de los datos almacenados. Despues de los datos puede haber otra codificación y otra longitud para seguir obteniendo datos. Por consiguiente, es posible disponer de múltiples formatos en un solo QR code. Incluso densidad y correncción de errores variable. Hay que tener una concepto claro, la corrección de errores significa redundancia, a más corrección de errores, mayor porcentaje del área no serán datos.
 
-**Pasemos a ver los aspectos de seguridad.**
+# **Pasemos a ver los aspectos de seguridad.**
 
 Debido a que estos códigos pueden usarse para representar cualquier cosa, hay gente con malas intenciones que sabe que se están haciendo fotos a los QR Codes. Incluso los anunciantes hacen uso de ellos. Aparecen en muchos carteles. Los códigos QR populares se están reemplazando con pegatinas con otro QR code con contenido malicioso.
 
@@ -91,14 +91,13 @@ Por ese motivo Symantec ha creado un intérprete llamado **<a href="https://play
 
 Otro buen intérprete es **<a href="https://play.google.com/store/apps/details?id=com.google.zxing.client.android&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5nb29nbGUuenhpbmcuY2xpZW50LmFuZHJvaWQiXQ.." target="_blank">Barcode Scanner</a>**, pregunta qué se quiere hacer con el contenido, en lugar de redirigir directamente a la url codificada.
 
-<p class="alert">
-<strong>NOTA:</strong>Este artículo ha sido escrito a partir del episodio 382 de Security Now!, no me atribuyo ninguna autoría, simplemente he escuchado el episodio y he plasmado lo que he aprendido. A continuación proporciono los enlaces correspondientes al episodio
-</p>
 
-### Referencias
+> <strong>NOTA:</strong>Este artículo ha sido escrito a partir del episodio 382 de Security Now!, no me atribuyo ninguna autoría, simplemente he escuchado el episodio y he plasmado lo que he aprendido. A continuación proporciono los enlaces correspondientes al episodio
 
-*Transcipciones a texto y audio del episodio* »» <a href="http://www.grc.com/securitynow.htm" target="_blank">Visitar sitio</a>
-*Episode 382: QR Codes* »» <a href="http://twit.tv/show/security-now/382" target="_blank">Visitar sitio</a>
+# Referencias
+
+- *Transcipciones a texto y audio del episodio* »» <a href="http://www.grc.com/securitynow.htm" target="_blank">Visitar sitio</a>
+- *Episode 382: QR Codes* »» <a href="http://twit.tv/show/security-now/382" target="_blank">Visitar sitio</a>
 
  [1]: https://elbauldelprogramador.com/lo-ultimo-en-criptografia-fully-homomorphic-encryption/
  [2]: https://elbauldelprogramador.com/lo-ultimo-en-criptografia-fully-homomorphic-encryption/ "Lo último en criptografía: Fully Homomorphic Encryption"

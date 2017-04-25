@@ -2,12 +2,11 @@
 author: alex
 categories:
 - linux
-color: '#2196F3'
 date: 2016-06-10 13:59:28
+lastmod: 2017-04-25T17:01:04+01:00
 description: "Cómo aplicar una expresión regular multilínea a ficheros"
 image: Expresiones-Regulares-Multilinea.png
 introduction: "Cómo aplicar una expresión regular multilínea a ficheros"
-
 mainclass: linux
 tags:
 - perl
@@ -107,6 +106,6 @@ color: "#F57C00"
 ---
 ```
 
-### Referencias
+# Referencias
 
-How do I replace multiple lines with single word in file(inplace replace)? \| [askubuntu.com](http://askubuntu.com/questions/533221/how-do-i-replace-multiple-lines-with-single-word-in-fileinplace-replace "How do I replace multiple lines with single word in file(inplace replace)?")
+- How do I replace multiple lines with single word in file(inplace replace)? \| [askubuntu.com](http://askubuntu.com/questions/533221/how-do-i-replace-multiple-lines-with-single-word-in-fileinplace-replace "How do I replace multiple lines with single word in file(inplace replace)?")

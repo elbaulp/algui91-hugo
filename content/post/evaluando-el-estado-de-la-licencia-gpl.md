@@ -3,17 +3,15 @@ author: alex
 categories:
 - noticias
 - opensource
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-10-26
-
+lastmod: 2017-04-25T16:57:41+01:00
 mainclass: articulos
 url: /evaluando-el-estado-de-la-licencia-gpl/
 title: Evaluando el estado de la licencia GPL
 ---
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="128" width="128" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/License_icon-gpl-2.svg/256px-License_icon-gpl-2.svg.png"></amp-img>
+    <amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="128" width="128" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/License_icon-gpl-2.svg/256px-License_icon-gpl-2.svg.png"></amp-img>
 </figure>
 
 Hace unas semanas, tenía lugar <a target="_blank" href="https://plus.google.com/u/0/110027483887022913393/posts/Arx9N665DZf">una conversación</a> sobre el estado de la licencia GPL, con lectores y colegas discutiendo sobre cual podría ser la causa del estado actual de esta licencia.
