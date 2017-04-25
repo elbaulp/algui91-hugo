@@ -166,7 +166,7 @@ activeFriends$fork<-as.integer(activeFriends$fork)
 activeFriends$has_downloads<-as.integer(activeFriends$has_downloads)
 ```
 
-Finally, in the `full_name` column we must just get the user name, because the repos names are already included in `name` column. it can be achieved by expliting each item by the slash, and getting the first:
+Finally, in the `full_name` column we must just get the user name, because the repos names are already included in `name` column. it can be achieved by spliting each item by the slash, and getting the first:
 
 ```r
 # Getting the username

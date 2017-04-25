@@ -154,6 +154,38 @@ activeFriends$updated_at<-date.format(activeFriends$updated_at)
 activeFriends$pushed_at<-date.format(activeFriends$pushed_at)
 ```
 
+Siéntete libre de explorar el conjunto de datos. Seguro que estás pensando que en él hay columnas que nos interesan para nuestro análisis, y otras que no tanto. Lo siguiente que haremos será seleccionar las que más nos interesan para nuestro análisis:
+
+```r
+# selecting just the interesting cols
+activeFriends<-activeFriends[,c("id","name","full_name","private","description","fork","created_at","updated_at","pushed_at","homepage","size","stargazers_count","watchers_count","language",                             "has_issues","has_downloads","forks_count","open_issues_count","forks","open_issues","watchers")]
+```
+ 
+Podemos binarizar las columnas que tienen solo valores True o False:
+
+```r
+activeFriends$private<-as.integer(activeFriends$private)
+activeFriends$has_issues<-as.integer(activeFriends$has_issues)
+activeFriends$fork<-as.integer(activeFriends$fork)
+activeFriends$has_downloads<-as.integer(activeFriends$has_downloads)
+```
+
+Por último, la columna `full_name` contiene el nombre de usuario junto con el nombre del repositorio. Extraemos de aquí sólo el nombrbe  de usuario, pues el nombre del repositorio ya se incluye en la columna `name`. Lo hacemos separando cada item por la barra qe separa los nombres, y tomando el primer elemento:
+
+```r
+# Getting the username
+activeFriends$full_name<-unlist(lapply(strsplit(as.character(activeFriends$full_name),split = '/',fixed = TRUE),function(x) (x[1])))
+``` 
+
+Guárdalo si quieres, para reutilizarlo más tarde.
+
+# 5. Analizando la popularidad de los lenguages de programación
+
+
+
+
+
+
 
 
 
