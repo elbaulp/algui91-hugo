@@ -87,7 +87,7 @@ for(i in 2:length(myFollowers$content)){
 }
 ```
 
-Then we make it a data frame, naming the columns as they were originally named in _myFollowers$content_ list and save it as a csv for later use:
+Then we make it a data frame, name the columns as they were originally named in _myFollowers$content_ list and save it as a csv for later use:
 
 ```r
 # create a data frame and save it for later use
@@ -134,12 +134,13 @@ In __clientID__ and __clientSecret__ you should put your ID and secret generated
 # 4. Lets do some data processing
 
 Lets read (if you have not read it) the dataset : `activeFriends<-read.csv("UsersWithRepoInfo.csv")` We are going to perform some transformations over it to make data more readable for the analysis in R. 
-First, as the data timezone is GMT we need to set the timezone parameter. Let's build a function to do that an apply it to every date column:
+
+First, as the data timezone is UTC+2 (also Madrid timezone) we need to set the timezone parameter. Let's build a function to do that an apply it to every date column:
 
 ```r
 # make date format supported by R
 date.format<-function(datestring){
-  date<-as.POSIXct(datestring,format="%Y-%m-%dT%H:%M:%SZ",tz="GMT")
+  date<-as.POSIXct(datestring,format="%Y-%m-%d %H:%M:%S",tz="Europe/Madrid", usetz=TRUE)
 }
 
 # update dates with new format
