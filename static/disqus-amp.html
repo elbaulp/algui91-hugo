@@ -37,6 +37,7 @@ html, body {
         var identifier = QueryString.identifier;
         var disqus_name = QueryString.disqus_name;
         var disqus_title = QueryString.disqus_title;
+        document.title = disqus_title;
 
         var disqus_config = function () {
             this.page.url = url;
