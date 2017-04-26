@@ -50,7 +50,7 @@ El nodo raiz de estos archívos debe ser ***<resources></resources>***.
 Para cada estilo que queramos definir, hay que añadir un elemento ***
 
 
- y un atributo ***name*** para ese estílo (es obligatorio), después, añadiremos un elemento ***<item></item>*** para cada propiedad del estilo, que debe tener obligatoriamente el atributo ***name*** que declara la propiedad del estilo y su valor. Los valores para ***<item></item>*** pueden ser una palabra clave, valor hexadecimal, una referencia a un recurso u otro valor dependiendo de la propiedad del estilo. Veamos un ejemplo:
+ y un atributo ***name*** para ese estílo (es obligatorio), después, añadiremos un elemento `<item>` para cada propiedad del estilo, que debe tener obligatoriamente el atributo ***name*** que declara la propiedad del estilo y su valor. Los valores para `<item>` pueden ser una palabra clave, valor hexadecimal, una referencia a un recurso u otro valor dependiendo de la propiedad del estilo. Veamos un ejemplo:
 
 ```xml
 <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
@@ -95,7 +95,7 @@ En este caso, no usamos el atributo parent, ya que estamos usando un estilo prop
 Hay dos formas de aplicar estilos a la UI:
 
 * A una View individual, añadiendo el atributo style a un elemento del layout.
-* A una aplicación o actividad completa, mediante el atributo ***android:theme*** del elemento ***<activity> o <application></application></activity>***en el Android manifest.
+* A una aplicación o actividad completa, mediante el atributo ***android:theme*** del elemento `<activity> o <application>` en el Android manifest.
 
 Como vimos al principio, para aplicar un estilo a una View concreta usamos ***style=&#8221;@style/NombreDelEstilo***
 
