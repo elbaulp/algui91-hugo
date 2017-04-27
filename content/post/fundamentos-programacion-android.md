@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-16
-
+lastmod: 2017-04-27T13:02:52+01:00
 mainclass: android
 url: /fundamentos-programacion-android/
 tags:
@@ -16,7 +14,7 @@ tags:
 title: "Fundamentos programación Android: Conceptos básicos y componentes"
 ---
 
-## Conceptos básicos
+# Conceptos básicos
 
 [Hemos visto][1] que un proyecto Android está formado por varias carpetas estructuradas, pero lo que se instala en los dispositivos es un fichero con extensión ***.apk (application package)***.
 
@@ -30,7 +28,7 @@ Las aplicaciones en Android tienen su propio entorno seguro de ejecución:
   * Cada proceso se ejecuta en su propia máquina virtual, de esta manera está aislada del resto. De esta forma ante cualquier fallo en la aplicación solo afecta a su máquina virtual, no al resto.
   * A cada aplicación se le asigna un identificador de usuario ***(uid)*** distinto. Los permisos de los archivos que refieren a la aplicación (caché, datos etc) son solo accesibles por dicho usuario. Es posible asignar un mismo ***uid*** a dos aplicaciones para que compartan una misma máquina virtual y recursos.
 
-## Componentes de las aplicaciones
+# Componentes de las aplicaciones
 
 La característica principal de Android es la reutilización de componentes de una aplicación por otra.
 
@@ -44,7 +42,7 @@ Con esto llegamos a la conclusión de que las aplicaciones Android no tienen un 
 
 Para realizar todas estas operaciones, Android proporciona cuatro tipos de ***componentes básicos***:
 
-### Actividades (Activity)
+## Actividades (Activity)
 
 Son las encargadas de mostrar la interfaz de usuario e interactuar con él. Responden a los eventos generados por el usuario (pulsar botones etc). Heredan de la clase ***Activity***
 
@@ -60,7 +58,7 @@ Una aplicación que lee el correo tendrá las siguientes actividades:
 
 Para esta aplicación definimos como punto de entrada ***recibidosActivity*** y ***CrearMensajeActivity***, para que otras aplicaciones puedan reutilizarlas.
 
-### Servicios
+## Servicios
 
 No tienen interfaz visual y se ejecutan en segundo plano, se encargan de realizar tareas que deben continuar ejecutandose cuando nuestra aplicación no está en primer plano. Todos los servicios extienden de la clase ***Service***
 
@@ -68,13 +66,13 @@ Continuando con el ejemplo anterior, la aplicación de correo tendrá un servici
 
 Los servicios disponen de un mecanismo para ejecutar tareas pesadas sin bloquear la aplicación ya que se ejecutan en un hilo distinto.
 
-### Receptores de mensajes de distribución (BroadcastReceiver)
+## Receptores de mensajes de distribución (BroadcastReceiver)
 
 Simplemente reciben un mensaje y reaccionan ante él, extienden de la clase ***BroadcastReceiver***, no tienen interfaz de usuario, pero pueden lanzar Actividades como respuesta a un evento o usar ***NotificationManager*** para informar al usuario.
 
 Android habitualmente lanza muchas notificaciones de sistema (llamadas entrantes, nuevos correos, nuevos sms etc). Si ponemos como ejemplo la aplicación del correo mencionada anteriormente, esta tendría un ***BroadcastReceiver*** escuchando el mensaje ***nuevo_correo***, que lanzaría el servicio cada vez que detectara uno. Cuando esto sucediera, se mandaría un aviso a la barra del sistema para alertar al usuario.
 
-### Proveedores de contenido (ContentProvider)
+## Proveedores de contenido (ContentProvider)
 
 Ponen un grupo de datos a disposición de distintas aplicaciones, extienden de la clase ***ContentProvider*** para implementar los métodos de la interfaz, pero para acceder a esta interfaz se ha de usar una clase llamada ***ContentResolver***
 
@@ -82,7 +80,7 @@ Con esta clase se permite acceder al sistema de ficheros, bases de datos SQLite 
 
 Un lector de correo podría disponer de un ContentProvider para acceder a la bandeja de entrada y los datos del mensaje.
 
-### Siguiente tema: [Fundamentos programación Android: Intents y AndroidManifest][2]
+# Siguiente tema: [Fundamentos programación Android: Intents y AndroidManifest][2]
 
 
  [1]: https://elbauldelprogramador.com/programacion-android-hola-mundo/

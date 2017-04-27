@@ -4,10 +4,8 @@ categories:
 - android
 - aplicaciones
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-06
-
+lastmod: 2017-04-27T12:54:57+01:00
 mainclass: android
 url: /fundamentos-aplicaciones-android-parte_19/
 tags:
@@ -17,9 +15,7 @@ title: Fundamentos aplicaciones Android. (Parte III) -Activando Componentes
 
 Continuando con el [tema de los componentes][1], en esta entrada vamos a ver:
 
-
-
-## Activando componentes {#ActivatingComponents}
+# Activando componentes {#ActivatingComponents}
 
 3 de los 4 tipos de componentes, actividades, servicios y emisor de notificaciones se activan mediante un mensaje asíncrono llamado *intent(intento)*. Los intents enlazan componentes individuales el uno al otro en tiempo de ejecución (se puede pensar que son los mensajeros que solicitan una acción de otro componente), si el componente pertenece a tu aplicación o a otra.
 
