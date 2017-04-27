@@ -12,7 +12,7 @@ mainclass: articulos
 url: /buenas-practicas-para-el-diseno-de-una-api-restful-pragmatica/
 tags:
 - api restfull
-- apis
+- API
 - buenas practicas apis
 - como hacer una api rest
 - api rest ejemplo

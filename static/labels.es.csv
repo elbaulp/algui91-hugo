@@ -1,564 +1,569 @@
 ,label,title,title2
-397,0,programacion-android-interfaz-grafica_23.md,Programación Android: Interfaz gráfica - Layouts
-60,0,cambiar-el-color-del-summary-en-una-preferencia-android.md,Cambiar el color del summary en una Preferencia Android
-62,0,las-medallas-de-oro-en-las-olimpiadas-desde-1896-visualizadas.markdown,"Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016"
-65,0,primeros-pasos-programando-con-kinect.markdown,Primeros Pasos Programando Con Kinect
-466,0,ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen.md,Ocultar archivos dentro de una imagen
-447,0,como-configurar-dunst-un-daemon-de-notificaciones-altamente-configurable.markdown,"Cómo Configurar Dunst, Un Daemon De Notificaciones Altamente Configurable"
-102,0,programacion-android-hola-mundo.md,Programación Android: Hola Mundo
-410,0,ocultarrevelar-informacion-dentro-de.md,Ocultar/Revelar información dentro de imágenes con C++
-392,0,compilar-automaticamente-ficheros-en-latex-mientras-los-modificamos.markdown,Compilar Automáticamente Ficheros en LaTeX Mientras Los Modificamos
-122,0,como-definir-colores-personalizados-en-latex.markdown,Cómo Definir Colores Personalizados en LaTeX
-384,0,obtener-dimension-imagen-internet-url.markdown,Cómo Obtener La Dimensión De Una Imagen en Internet
-173,0,pon-dieta-tus-apks.md,Pon a dieta a tus APKs
-298,0,grub-customizer-20-personaliza-tu-grub2.md,"Grub Customizer 2.0, personaliza tu GRUB2"
-293,0,3-juegos-para-linux.md,3 Juegos para Linux
-284,0,statuscolor-dwm-6-1.md,Colorear la barra de estado con Simple StatusColor en DWM 6.1
-269,0,programacion-para-juegos-articulo-3-que.md,Programación para Juegos. Artículo 3. ¿Qué es un pixel?
-505,0,programacion-android-recursos-strings.md,Programación Android: Recursos - Strings
-32,0,programacion-para-juegos-leccion-5.md,Programación para Juegos - Lección 5 - Colores Clave
-236,0,juegos-linux-clockwork-man-1-y-2.md,"Juegos Linux, The Clockwork Man 1 y 2"
-14,0,14-ejemplos-visualizacion-datos.markdown,15 Ejemplos De Las Mejores Visualizaciones De Datos
-10,0,curso-de-latex-figuras-enlaces-y-cabeceras.md,"Mini Curso de LaTeX - Figuras, Enlaces y cabeceras"
-391,1,futuro-ides-de-escritorio.md,5 Razones por las cuales en 5 años los IDEs de escritorio estarán muertos
-544,1,gana-dinero-ofreciendo-manuales-de.md,Gana dinero ofreciendo manuales de todas las áreas de conocimiento a tus lectores con RevResponse
-120,1,fundamentos-de-plsql.md,Fundamentos de PL/SQL
-400,1,consulta-de-datos-subconsultas.md,Consulta de Datos. Subconsultas
-111,1,introduccion-base-de-datos.md,Introduccion a base de datos
-9,1,diseno-de-bases-de-datos-ii.md,Diseño de Bases de Datos ( II ) - Restricciones
-99,1,recibir-alertas-de-correo-ssh.md,Recibir alertas de correo al acceder al  sistema mediante SSH
-96,1,consulta-de-datos-operadores-union-all.md,"Consulta de Datos - Operadores UNION [ALL], INTERSECT, MINUS."
-87,1,programacion-android-actualizar-y.md,Programación Android: Actualizar y borrar registros
-86,1,ubuntu-funcionando-en-el-samsung-galaxy.md,Ubuntu funcionando en el Samsung Galaxy Tab
-446,1,how-to-mantain-patchs-quilt-tutorial.md,Cómo mantener varios parches - Un tutorial sobre Quilt
-451,1,introduccion-plsql-transacciones.md,Introducción a PL/SQL. Transacciones
-76,1,clases-y-objetos-definir-una-clase.md,Clases y Objetos. Definir una Clase
-461,1,how-to-compile-opencv3-nonfree-part-from-source.md,Compilar la parte no gratuita de OpenCV 3.0+ desde fuente
-462,1,plsql-estructuras-basicas-de-control.md,PL/SQL. Estructuras básicas de control
-537,1,cronica-5-hackathon-de-la-osl-en-granada.md,Crónica del 5\xB0 hackathon de la OSL en Granada
-125,1,pylabra-aplicacion-para-almacenar.md,Pylabra. Aplicación para almacenar vocabulario
-389,1,bloques-plsql.md,Bloques PL/SQL
-126,1,como-mejorar-el-rendimiento-de-windows-8.md,Cómo mejorar el rendimiento de Windows 8
-378,1,lenguaje-definicion-de-datosddl-drop.md,Lenguaje Definición de Datos (DDL) - DROP
-250,1,manejar-excepciones-en-java.md,Manejar excepciones en Java
-222,1,lenguaje-definicion-de-datos-ddl_27.md,Lenguaje Definición de Datos (DDL) - Sinónimos y Pseudocolumnas
-215,1,plsql-excepciones.md,PL/SQL. Excepciones
-209,1,brujula-android-asr-voz.markdown,Crear Una Brújula Con Reconocimiento De Voz en Android
-559,1,codigos-secretos-y-ocultos-para-android.md,Códigos secretos y ocultos para Android
-286,1,investigadores-mas-cerca-de-usar-luz-en-lugar-de-cables-en-ordenadores.md,Investigadores más cerca de usar luz en lugar de cables en ordenadores
-553,1,introduccion-plsql.md,Introducción a PL/SQL
-187,1,clases-y-objetos-control-del-acceso-los.md,Clases y Objetos. Control del acceso a los miembros de la clase
-471,1,se-puede-realmente-secuenciar-adn-con-un-dispositivo-usb.md,¿Se puede realmente secuenciar ADN con un dispositivo USB?
-179,1,lenguaje-definicion-de-datos-ddl.md,Lenguaje Definición de Datos (DDL) - \xCDndices y secuencias
-551,1,ejemplos-nftables.markdown,Introducción Y Ejemplos De NfTables
-166,1,programacion-abap-hola-mundo-en-reports.md,Programación ABAP: Hola Mundo en Reports
-163,1,introduccion-abap.md,Introducción a ABAP
-160,1,clases-y-objetos-el-constructor.md,Clases y Objetos. El Constructor
-340,1,lenguaje-definicion-de-datos-ddl-vistas.md,Lenguaje Definición de Datos (DDL) - Vistas
-341,1,intel-buffer-overflow-control-flow-enforcement-technology-cet.markdown,Cómo Intel Va a Acabar Con Los Buffers Overflows Con Control-Flow Enforcement Technology (CET)
-357,1,plsql-paquetes-packages.md,PL/SQL. Paquetes (Packages)
-142,1,como-recuperar-datos-borrados-de-un-disco.markdown,Cómo Recuperar Datos Borrados De Un Disco
-174,1,lenguaje-manipulacion-de-datos-dml.md,Lenguaje Manipulación de Datos (DML)
-130,1,nullpointerexception-facebook.markdown,Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo
-281,1,componentes-del-lenguaje-sql-sql.md,Componentes del lenguaje SQL
+369,0,resaltar-sintaxis-del-codigo-fuente-en-latex-con-minted.md,Resaltar sintaxis del código fuente en LaTeX con minted
+131,0,libro-gratuito-python-programming-cookbook.markdown,Guía Gratuita - Python Programming Cookbook
+526,0,resolucion-de-ecuaciones-lineales-con-dos-incognitas.md,Cómo resolver sistemas de ecuaciones lineales con dos incógnitas en Python
+410,0,introduccion-a-las-expresiones-regulares-en-python.md,Introducción a las expresiones regulares en python
+92,0,programando-videojuegos-en-python.md,Programando Videojuegos en Python
+508,0,9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer.markdown,18 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer
+425,0,como-instalar-actualizar-elminar-paquetes-gentoo.markdown,Cómo Instalar/actualizar/eliminar Paquetes en Gentoo
+532,0,python-lista-de-listas-eficiente.markdown,Crear Una Lista De Listas De Forma Eficiente en Python
+332,0,como-crear-comandos-personalizados-en-emacs.markdown,Cómo Crear Comandos Personalizados en Emacs
+440,0,top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos-segunda-parte.md,10 de las Mejores Herramientas en la Línea de Comandos II
+443,0,como-empezar-programar-how-start.md,Cómo empezar a programar
+444,0,python4kids-aprende-programar-en-python.md,Python4Kids. Aprende a programar en python fácilmente
+323,0,crear-modulo-python-con-python-c-api-1.md,Crear un módulo para python con la Python C API (I) - Introducción
+170,0,nuevos-cursos-disponibles-en-udacity-la-universidad-online-gratuita.md,"Nuevos Cursos disponibles en Udacity, la universidad online gratuita"
+314,0,crear-modulo-python-con-python-c-api-4.md,Crear un módulo para python con la Python C API (IV) - HerramientasRed
+271,0,crear-modulo-python-con-python-c-api-5-python3.md,Crear un módulo para python con la Python C API (V) \u2013 Python 3
+242,0,suplantacion-de-identidad-en-facebook.md,Suplantación de identidad en Facebook
+305,0,python-para-principiantes.md,Python para principiantes
+16,0,botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android.md,"BotBrew basil, Compila, instala y ejecuta aplicaciones Linux en Android"
+106,0,introduccion-django-instalacion-y-primer-proyecto.md,Introducción a Django - Instalación y primer proyecto
+392,0,crear-modulo-python-con-python-c-api-2.md,Crear un módulo para python con la Python C API (II) - Primer ejemplo
+373,0,tutorial-de-python-v270.md,Tutorial de Python v2.7.0
+562,0,aprende-construir-un-motor-de-busqueda.md,Aprende a construir un motor de búsqueda y un coche autónomo con Udacity
+357,0,python-c-api-como-pasar-un-array-de-structs-desde-c-python.md,Python C API - Cómo pasar un array de structs desde C a Python
+4,0,como-invertir-una-cadena-en-unix.md,Cómo invertir una cadena en Unix
+560,0,crear-modulo-python-con-python-c-api-3-distutils.md,Crear un módulo para python con la Python C API (III) - DistUtils
+546,0,Compile-OpenCV-3.2-with-Java-IntelliJ-IDEA.md,Compilar OpenCV 3.2 para Java y usarlo en IntelliJ IDEA
+354,1,como-recuperar-el-imei-en-android.md,Cómo recuperar el IMEI en Android
+329,1,mostrar-el-numero-de-seguidores-en-twitter-en-wordpress.md,Mostrar el número de seguidores en Twitter en WordPress
+364,1,el-mapa-mundial-de-gnulinux-img.md,El gran Mapa mundial de GNU/Linux
+326,1,world-of-warcraft-sobre-android.md,World of Warcraft sobre Android
+365,1,compilar-e-instalar-el-kenerl-4-2.markdown,Compilar e Instalar El Kernel 4.2
+324,1,libro-gratuito-android-programming-cookbook.markdown,Libro Gratuito. Android Programming Cookbook
+319,1,nueva-pagina-para-informar-de-error-404.md,Nueva página para informar de error 404 en el blog
+330,1,vinetas-geek-de-domingo-viii.md,Viñetas Geek de Domingo (VIII)
+318,1,notificaciones.md,Programación Android: Interfaz gráfica - Diálogos y notificaciones
+317,1,guia-de-referencia-de-comandos.md,Guía de Referencia de comandos Unix/Linux [IMG]
+316,1,videos-de-la-semana-vii.md,Vídeos de la semana (VII)
+313,1,como-ocultar-la-version-de-bind-y-como-averiguarla.md,Cómo ocultar la versión de BIND (Y cómo averiguarla)
+309,1,programacion-android-recursos-trabajar_04.md,Programación Android: Recursos - Trabajar con recursos Assets
+308,1,chuleta-de-comandos-para-gpg.md,Chuleta de comandos para GPG
+320,1,vinetas-geek-de-domingo-2.md,Viñetas Geek de Domingo
+331,1,vinetas-geek-de-domingo-vii.md,Viñetas Geek de Domingo (VII)
+333,1,como-compilar-todos-los-archivos-cpp-de-una-vez-usando-makefile.md,Cómo compilar todos los archivos CPP de una vez usando MakeFile
+362,1,moborobo-herramienta-de-administracion-integrada-para-android-en-el-pc.md,"Moborobo, herramienta de Administración Integrada para Android en el PC"
+355,1,el-top-500-de-los-supercomputadores-mas.md,El top 500 de los supercomputadores más potentes del mundo
+353,1,cartel-del-google-io-extended-granada-organizado-por-el-gdg-granada.md,Cartel del Google I/O Extended Granada organizado por el GDG Granada
+352,1,como-crear-un-pie-de-pagina-en-latex-con-fancyhdr.md,Cómo crear un pie de página en LaTeX con fancyhdr
+351,1,como-cifrar-correos-con-gpg-con-mailvelope.md,Cómo cifrar correos electrónicos con GPG usando Mailvelope
+350,1,ifttt-disparar-tareas-mediante-eventos.md,'Ifttt: Disparar tareas mediante eventos producidos en redes sociales'
+349,1,codificacion.md,Codificación
+345,1,intel-buffer-overflow-control-flow-enforcement-technology-cet.markdown,Cómo Intel Va a Acabar Con Los Buffers Overflows Con Control-Flow Enforcement Technology (CET)
+343,1,declaracion-variable-entre-funcion-llave.markdown,Declaración De Variables Entre El Nombre De La Función Y La Primera Llave en C
+342,1,variables-php-depurar-print_r-var_dump.markdown,Cómo Mostrar Información De Variables PHP Depurando
+307,1,programacion-android-usando-la-clausula.md,Programación Android: Usando la cláusula Where
+338,1,programacion-android-arquitectura-de.md,Programación Android: Arquitectura de los Proveedores de contenidos
+337,1,configurar-log4j2-en-netbeans-un-logger-para-java.md,"Configurar Log4j2 en Netbeans, un logger para Java"
+359,1,dig-chuleta-basica-de-comandos.md,Dig - Chuleta básica de comandos
+336,1,como-funciona-el-bitcoin-la-cripto-moneda.md,"Cómo funciona el Bitcoin, la cripto-moneda"
+361,1,plsql-paquetes-packages.md,PL/SQL. Paquetes (Packages)
+335,1,15-demostraciones-del-potencial-de.md,15 Demostraciones del potencial de HTML5
+334,1,paperli-crea-tu-periodico-digital.md,Paper.li: Crea tu periódico digital automáticamente con lo más relevante de Twitter y Facebook
+363,1,lo-ultimo-en-criptografia-fully-homomorphic-encryption.md,Lo último en criptografía: Fully Homomorphic Encryption
+339,1,videos-de-la-semana-time-lapses-y.md,Vídeos de la semana - Time-Lapses y cortos de animación
+0,1,hacking-y-seguridad-en-comunicaciones.md,Hacking y Seguridad en Comunicaciones Móviles GSM / GPRS / UMTS / LTE
+299,1,interfaz-grafica-adapters-i.md,Programación Android: Interfaz gráfica - Adapters I
+259,1,programacion-android-proveedores-de.md,Programación Android: Proveedores de Contenido - Introducción
+257,1,fundamentos-aplicaciones-android-parte_18.md,Fundamentos aplicaciones Android - (Parte II) - Componentes
+254,1,manejar-excepciones-en-java.md,Manejar excepciones en Java
+253,1,meme-los-10-comandos-que-mas-utilizo-en.md,Descubre cuales son los 10 comandos que más usas en Linux con esta línea
+251,1,how-to-remove-slotted-packages-in-gentoo.md,Cómo eliminar un paquete slotted en Gentoo
+249,1,apache-maven-cookbook.markdown,'Libro Gratuito: Apache Maven Cookbook'
+248,1,programacion-android-recursos.md,Programación Android: Recursos - Introducción
+247,1,5-lightweight-linux-distros-ideal-for-an-intel-atom-processor-pc.markdown,Guía Gratuita: 5 Lightweight Linux Distros Ideal for an Intel Atom Processor PC
+246,1,nvidia-prepara-tegra3-4-nucleos.md,"NVIDIA prepara Tegra3, 4 núcleos"
+245,1,erp-cobros.md,Resultados examen PL/SQL base de datos
+244,1,por-que-se-cuelga-linux-al-copiar-ficheros-a-un-usb.markdown,¿Por Qué Se Cuelga Linux Al Copiar Ficheros a Un Usb?
+243,1,chistes-de-informaticos.md,Chistes de informaticos - www.desmotivaciones.es
+241,1,resources-blogs-podcast-youtube-channels-about-science.md,21 Podcasts / Canales de Youtube / Blogs sobre Ciencia
+238,1,plsql-registros-y-tablas.md,PL/SQL. Registros y Tablas
+237,1,mi-experiencia-en-el-3-hackathon-de-la.md,Mi experiencia en el 3\xBA Hackathon de la Universidad de Granada
+236,1,video-tutoriales-ataque-man-in-middle.md,[Vídeo tutoriales] Ataque Man in the middle
+234,1,como-anadir-contenido-por-defecto-a-los-articulos-en-wordpress.md,Cómo añadir contenido por defecto a los artículos en WordPress
+232,1,humor-como-arreglar-una-computadora.md,"'[Humor]: Como arreglar una computadora (Windows, Linux o Mac OSX)'"
+231,1,libro-gratuito-spring-data-programming-cookbook.markdown,Guía Gratuita - Spring Data Programming Cookbook
+230,1,humor-grafico-informaticos.md,"Humor gráfico - Informáticos, Programadores, geeks - 9GAG.COM Parte (II)"
+229,1,conectar-base-de-datos-sql-server-2008.md,Conectar base de datos sql Server 2008 a aplicación Java remotamente
+227,1,bittorrent-sync-tus-archivos-sincronizados-sin-intermediarios.md,'BitTorrent Sync: Tus archivos sincronizados sin intermediarios'
+224,1,comandos-ss-iproute2-linux.md,Algunos comandos útiles con iproute2
+260,1,descargar-apache-hadoop-cookbook.markdown,Nueva Guía: Apache Hadoop Cookbook
+306,1,how-to-parse-frontmatter-with-python.md,Cómo parsear el frontmatter con Python
+261,1,como-conectar-tu-dispositivo-android-en.md,Cómo conectar tu dispositivo Android en Linux al adb para depurar y desarrollar  aplicaciones
+263,1,ndk-gdb-depurar-aplicaciones-en-el-nkd-de-android.md,NDK-gdb - Depurar aplicaciones en el NKD de Android
+298,1,guerra-de-navegadores-humor.md,Guerra de navegadores [Humor]
+296,1,estructura-y-seguridad-de-los-qr-codes.md,Estructura y seguridad de los QR Codes
+295,1,clases-y-objetos-arrays.md,Clases y Objetos. Arrays
+367,1,nueva-guia-developer-report-top-social-media-and-html5-considerations-for-mobile-app-success.md,Nueva guía: Developer Report: Top Social Media and HTML5 Considerations for Mobile App Success
+293,1,consulta-de-datos-tablas-resumen.md,Consulta de Datos - Tablas Resumen operadores y Funciones Oracle
+291,1,como-evitar-que-se-aplique-ingenieria-inversa-a-un-ejecutable.md,Cómo evitar que se aplique ingeniería inversa a un ejecutable
+290,1,investigadores-mas-cerca-de-usar-luz-en-lugar-de-cables-en-ordenadores.md,Investigadores más cerca de usar luz en lugar de cables en ordenadores
+289,1,imponiendo-gpl-usando-tecnicas-de-judo.md,Imponiendo GPL usando técnicas de Judo
+287,1,nueva-gua-gratuita-java-concurrency-essentials.markdown,Nueva Guía Gratuita: Java Concurrency Essentials
+566,1,se-busca-colaborador.md,Se busca colaborador
+282,1,prueba-la-aplicacion-favsites-en-tu.md,Prueba la aplicación FavSites en tu Android
+281,1,fundamentos-programacion-android.md,Fundamentos programación Android: Conceptos básicos y componentes
+280,1,humor-grafico-informaticos-11.md,"Humor gráfico - Informáticos, Programadores, geek - 9GAG.COM Parte (I)"
+278,1,programacion-android-recursos-arrays-de.md,Programación Android: Recursos - Arrays de strings
+277,1,aplicacion-localizacion-movil.markdown,3 Intervenciones Para Poner a Salvo Tu Teléfono Con Una Aplicación Para Localizar El Móvil
+276,1,video-demostracion-del-proyecto-wifibar.md,[Vídeo] Demostración del proyecto WifiBar funcionando
+275,1,algoritmos-de-ordenacion.md,Algoritmos de ordenación.
+274,1,como-ejecutar-diff-a-la-salida-de-dos-comandos.markdown,Cómo Ejecutar Diff a La Salida De Dos Comandos
+270,1,capitulo2-intents-y-bundles.md,Programación Android: Trabajar con actividades y pasar parámetros entre ellas
+268,1,creating-trees-dependency-graphs-svms-in-tikz.md,Dibujar árboles de dependencias y Máquinas de soporte Vectoriales usando LaTeX y Tikz
+267,1,los-10-mejores-frameworks-gratis-de-aplicaciones-web.md,Los 15 Mejores Frameworks gratuitos para Aplicaciones Web/Móvil [Actualizado]
+266,1,cinco-cursos-nuevos-en-udacity-software-testing-algoritmos-fisica-estadistica-y-logica-matematicas-discretas-2.md,"Cinco cursos nuevos en Udacity: Software Testing, Algoritmos, Física, Estadística y Lógica & matemáticas discretas"
+265,1,webservicelibexample.md,Restlib - Librería para realizar peticiones a Web Services en Android
+262,1,como-convertir-un-archivo-pdf-a-imagenes.md,Cómo convertir un archivo pdf a imágenes
+294,1,investigadores-del-mit-usan-ecuaciones-algebraicas-para-mejorar-las-transmisiones-wifi-y-lte-coded-tcp.md,Investigadores del MIT usan ecuaciones algebráicas para mejorar las transmisiones WIFI y LTE con coded TCP
+386,1,estoy-trabajando-en-una-aplicacion.md,'Nuevo Proyecto Android: Fav Sites'
+370,1,6-steps-to-securing-your-domains.md,Nueva guía: 6 Steps to Securing Your Domains
+512,1,comparacion-de-tecnicas-algoritmicas-basicas-con-el-problema-de-la-mochila.markdown,Comparación de técnicas algorítmicas básicas con el problema de  la Mochila
+507,1,discovering-vulnerable-web-applications.md,Nueva guía: Discovering Vulnerable Web Applications
+504,1,como-instalar-el-ide-android-studio-en-linux-y-pequena-guia-de-uso.md,Cómo instalar el IDE Android Studio en Linux y pequeña guía de uso
+502,1,nueva-guia-newbies-getting-started.md,Nueva guía: A Newbies Getting Started Guide to Linux
+497,1,como-hacer-scroll-en-un-listview-que-est-dentro-de-un-scrollview-en-android.markdown,Cómo Hacer Scroll en Un ListView Que Está Dentro De Un ScrollView en  Android
+496,1,todo-lo-que-necesitas-saber-sobre-copyright-y-licencias-en-2-minutos.md,Todo lo que necesitas saber sobre Copyright y licencias en 2 minutos
+495,1,clases-y-objetos-punteros-objetos.md,Clases y Objetos. Punteros a objetos
+494,1,how-to-change-portage-folders-to-other-location.markdown,Cómo Cambiar El Directorio De Portage a Otro Directorio en Gentoo
+491,1,fugas-de-memoria-android-handlers-clases-internas.md,'Fugas de memoria en Android: Handlers & Clases Internas'
+489,1,10-things-you-must-do-with-a-brand-new-router.markdown,'Ebook Gratuito: 10 Things You Must Do With a Brand New Router'
+488,1,50-de-descuento-por-5-das-para-que-comiences-tu-aplicacin-para-android.markdown,50% De Descuento Por 5 Días Para Que Comiences Tu Aplicación Para Android
+487,1,bodhi-ubuntuenlightenment-perfecto-para.md,"'Bodhi: Ubuntu+Enlightenment, perfecto para minimalistas'"
+486,1,impact-internet-things.markdown,Guía Gratuita - The Impact of Internet of Things (IoT) on Facilities Management
+485,1,iniciar-debian-desde-usb.md,Cómo instalar debian desde un USB
+484,1,superordenador-de-barcelona-armandose-para-entrar-en-las-maquinas-mas-rapidas-del-mundo.md,Superordenador de Barcelona ARMándose para entrar en las máquinas más rápidas del mundo
+483,1,programacion-android-recursos-trabajar.md,Programación Android: Recursos - Trabajar con recursos XML arbitrarios
+482,1,introduccion-los-procesos.md,Introducción a los Procesos
+481,1,logrando-el-anonimato-con-tor-parte-3-torbutton-y-tsocks.md,'Logrando el anonimato con Tor (Parte 3) : Torbutton y Tsocks'
+480,1,como-usar-adecuadamente-el-log-de-android-en-tus-aplicaciones.md,Cómo usar adecuadamente el Log de Android en tus aplicaciones
+478,1,20-ejemplos-de-iptables-para-sysadmins.md,20 ejemplos de iptables para SysAdmins novatos
+477,1,introduccion-html5.md,Introducción a HTML5
+513,1,plsql-cursores.md,PL/SQL. Cursores
+514,1,programacion-android-recursos-repasando.md,Programación Android: Recursos - Repasando la estructura del directorio de recursos
+515,1,clases-y-objetos-funciones-inline.md,Clases y Objetos - Funciones inline
+519,1,selfcontrol-aparta-las-distracciones-de-tu-pc-cuando-estas-trabajando.md,"SelfControl, aparta las distracciones de tu pc cuando estás trabajando"
+565,1,nueva-guia-build-your-own-wordpress.md,Nueva Guía: Build Your Own WordPress Site Guide
+558,1,introduccion-plsql.md,Introducción a PL/SQL
+557,1,eliminar-recursos-sin-usar-en-android.md,Eliminar recursos sin usar en Android
+553,1,personalizar-el-error-404-en-wordpress.md,Personalizar el Error 404 en wordpress
+549,1,gana-dinero-ofreciendo-manuales-de.md,Gana dinero ofreciendo manuales de todas las áreas de conocimiento a tus lectores con RevResponse
+548,1,nueva-guia-5-ways-zenith-insurance-are-using-predictive-analytics-to-leverage-big-data.markdown,Nueva Guía: 5 Ways Zenith Insurance Are Using Predictive Analytics to Leverage Big Data
+547,1,los-desarrolladores-de-gnome-crean.md,Los desarrolladores de GNOME crean \u201CBoxes\u201D para la virtualización
+543,1,organiza-tu-lista-de-tareas-con.md,Organiza tu lista de Tareas con Remember the Milk
+542,1,cronica-5-hackathon-de-la-osl-en-granada.md,Crónica del 5\xB0 hackathon de la OSL en Granada
+540,1,customadapter.md,Cómo crear un adapter personalizado en Android
+473,1,dominio-software-libre-no-oficial-42.md,Dominio software libre -no oficial- \u201C.42\u2033 disponible
+539,1,como-migrar-de-blogger-a-wordpress-sin-perder-seo-y-tips-de-seguridad.md,Cómo migrar de Blogger a WordPress sin perder SEO y Tips de seguridad
+534,1,programacion-android-recursos-2.md,Programación Android: Recursos compilados y no compilados
+530,1,the-best-web-programming-languages-to-learn.markdown,Guia Gratuíta: The Best Web Programming Languages to Learn
+528,1,curso-de-latex-incluir-codigo-fuente-y-simbolos-matematicos.md,Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos
+527,1,como-configurar-un-servidor-dns.md,Cómo configurar un servidor DNS - Parte 1 (Introducción)
+525,1,sistemas-biometricos.markdown,Biometría Aplicada a La Seguridad - Sistemas Biometricos
+524,1,humor-grafico-informaticos-programadores-geek-9gag-com-parte-iii.md,"Humor gráfico - Informáticos, Programadores, geek&#8230; - 9GAG.COM Parte (III)"
+523,1,biometria-seguridad-introduccion.markdown,Biometría Aplicada a La Seguridad - Introducción
+522,1,how-the-cloud-will-change-application-release-applications.md,Nueva Guía: How the Cloud will Change Application Release Applications
+521,1,que-significa-unknown-en-las-estadisticas-de-whos-amung.md,¿Qué significa &#8216;Unknown&#8217; en las estadísticas de Whos amung?
+520,1,conceptos-basicos.markdown,Programación Android - Conceptos básicos
+537,1,vinetas-geek-de-domingo-ix.md,Viñetas Geek de Domingo (IX)
+368,1,firefox-40-para-linux-ya-dispone-de.md,Firefox 4.0 para Linux ya dispone de menú unificado
+472,1,expresiones-regulares-multilinea.markdown,Expresiones Regulares Multilínea
+469,1,nunca-lo-hagas-humor.md,\xA1Nunca lo hagas! [Humor]
+419,1,como-crear-shortcodes-en-wordpress-2.md,Cómo crear  simples shortcodes en WordPress
+417,1,programa-que-envia-mensajes-desde.md,Programa que envía mensajes desde Android a PC
+416,1,actualizar-bios-de-asus-desde-linux.md,Actualizar BIOS de ASUS desde Linux
+415,1,google-io-extended-hackathon-html5.md,Google I/O Extended + Hackathon HTML5
+412,1,nueva-guia-mac-os-x-lion-ultimate-guide.md,Nueva guía: Mac OS X Lion: The Ultimate Guide
+408,1,programacion-android-como-se-resuelven.md,Programación Android: Cómo se resuelven los Intents
+405,1,chema-alonso-hablando-de-la-inseguridad.md,Chema Alonso hablando de la inseguridad de las vías telemáticas
+404,1,consulta-de-datos-subconsultas.md,Consulta de Datos. Subconsultas
+403,1,habilitar-el-teclado-en-el-emulador-android.md,Cómo habilitar el teclado en el emulador Android
+399,1,vinetas-geek-de-domingo-x.md,Viñetas Geek de Domingo (X)
+397,1,celebrando-los-20-anos-de-linux-video.md,Celebrando los 20 años de Linux [Video]
+395,1,futuro-ides-de-escritorio.md,5 Razones por las cuales en 5 años los IDEs de escritorio estarán muertos
+394,1,linux-33-se-come-android.md,Linux 3.3 se come a Android
+393,1,bloques-plsql.md,Bloques PL/SQL
+389,1,aplicacion-mensajeria-movil-segura-whatsapp-signal-allo.markdown,¿Qué Aplicación De Mensajería Móvil Es Más Segura?
+221,1,fundamentos-programacion-android_16.md,Fundamentos programación Android: Intents y AndroidManifest
+383,1,dejes-que-los-astronautas-de-arquitecturas-te-asusten.md,No dejes que los Astronautas de Arquitecturas te asusten
+380,1,planteamiento-del-curso-de-android.md,Planteamiento del Curso de Android
+377,1,linux-bash-programming-cookbook.markdown,'Libro Gratuito: Linux BASH Programming Cookbook'
+375,1,mostrar-todos-los-post-de-una-categoria-wordpress.md,Mostrar todos los post de una categoría en WordPress
+374,1,como-enviar-los-emails-de-varmailroot-una-cuenta-de-correo.md,Cómo enviar los emails de /var/mail/root a una cuenta de correo
+421,1,humanstxt-creator-somos-personas-no.md,"Humanstxt Creator. Somos personas, no máquinas"
+428,1,como-programar-app-moviles-para-pymes-sin-salir-de-casa.md,Cómo programar apps móviles para pymes sin salir de casa
+429,1,plsql-procedimientos-y-funciones.md,PL/SQL. Procedimientos y Funciones
+430,1,cosas-que-me-gustan-y-odio-de-tener-un.md,Cosas que me gustan y odio de tener un smartphone [HUMOR]
+468,1,como-configurar-un-servidor-dns3.md,Cómo configurar un servidor DNS - Parte 3 (Zona Inversa y DNS secundario)
+467,1,openlibra-la-biblioteca-libre-online.md,'OpenLibra: La Biblioteca Libre Online tal como la esperabas'
+466,1,plsql-estructuras-basicas-de-control.md,PL/SQL. Estructuras básicas de control
+465,1,how-to-compile-opencv3-nonfree-part-from-source.md,Compilar la parte no gratuita de OpenCV 3.0+ desde fuente
+464,1,bloquear-una-ip-atacanto-el-servidor-mediante-iptables.md,Bloquear una IP atacando el servidor mediante iptables
+463,1,getting-analytics-right.markdown,'Libro Gratuito: Getting Analytics Right'
+462,1,estadisticas-del-blog-en-2011.md,Estadísticas del blog en 2011
+461,1,nueva-guia-php-mysql-novice-to-ninja-5th-edition-free-57-page-preview.md,"Nueva guía: PHP & MySQL: Novice to Ninja, 5th Edition-Free 57 Page Preview"
+458,1,linea-cronologica-de-distribuciones.md,"Evolución de las distribuciones GNU/Linux, de 1992 a 2016"
+457,1,nueva-gua-gratuita-learning-javascriptmvc-free-14-page-excerpt.markdown,Nueva Guía Gratuita: Learning JavaScriptMVC -- Free 14 Page Excerpt
+471,1,instalacion-y-configuracion-de-bolt-un-cms-rapido-y-sencillo.md,"Cómo instalar Bolt, un CMS rápido y sencillo"
+456,1,crear-enlaces-en-un-textview-con-la-etiqueta-html-a-href-en-android.md,Crear enlaces en un TextView con la etiqueta HTML
+453,1,como-cambiar-la-resolucion-de-pantalla-en-las-ttys-de-gnulinux.md,Cómo cambiar la resolución de pantalla de las ttys y del GRUB en Linux
+452,1,peter-norvig-hablando-sobre-clases-online.md,Peter Norvig hablando sobre clases online
+449,1,rootear-samsung-galaxy-s-gt-i9003.md,Rootear Samsung Galaxy S GT-I9003
+448,1,clases-y-objetos-el-destructor.md,Clases y Objetos. El Destructor
+446,1,que-son-los-ppa-what-ppa-is.md,¿Qué son los PPA?
+441,1,grave-problema-en-upnp-que-afecta-a-81-millones-de-routers.md,Grave vulnerabilidad en UPnP que afecta a 81 millones de routers
+436,1,introduccion-sql-sql-introduction.md,Introducción SQL
+434,1,como-funciona-http2-protocolo-que-acelera-considerablemente-la-navegacion-web.md,"Cómo funciona HTTP/2, protocolo que acelerá considerablemente la navegación  Web"
+432,1,el-riesgo-de-las-urls-cortas-risk-of.md,El riesgo de las URLs cortas
+431,1,si-se-escribiesen-ensayos-con-lenguajes-de-programacion-humor.md,Si se escribiesen ensayos con lenguajes de programación [HUMOR]
+455,1,introduccion-plsql-transacciones.md,Introducción a PL/SQL. Transacciones
+220,1,como-conocer-el-software-no-libre.md,Cómo conocer el software \u201Cno libre\u201D instalado en nuestro equipo
+283,1,editar-y-crear-archivos-cifrados-con-gpg-en-vim.md,Editar y crear archivos cifrados con GPG en Vim
+218,1,plsql-excepciones.md,PL/SQL. Excepciones
+113,1,introduccion-base-de-datos.md,Introduccion a base de datos
+112,1,vinetas-geek-de-domingo-vi.md,Viñetas Geek de Domingo (VI)
+111,1,citas-clasicas-de-programacion.md,22 Citas clásicas de programación
+109,1,instalacion-optimizacion-servidor-web-nginx-iii.md,Instalación y optimización de un servidor web con Nginx (III)
+108,1,ejemplo-pdoo-java.md,C++ y Java
+103,1,vinetas-geek-de-domingo.md,Viñetas geek de Domingo
+102,1,programacion-android-intents-categorias.md,Programación Android: Intents - Categorías
+101,1,recibir-alertas-de-correo-ssh.md,Recibir alertas de correo al acceder al  sistema mediante SSH
+100,1,video-proyecto-wifibar-en-la-ultima.md,"[Vídeo] Proyecto WifiBar, en la última fase de desarrollo"
+99,1,humor-dos-videos-muy-geek-para-programadores.md,[HUMOR] Dos Vídeos muy geek para Programadores
+98,1,consulta-de-datos-operadores-union-all.md,"Consulta de Datos - Operadores UNION [ALL], INTERSECT, MINUS."
+97,1,como-apagar-automaticamente-el-pc.md,Cómo apagar automáticamente el PC cuando las descargas finalicen
+94,1,chuleta-markdown-para-wordpress.md,Chuleta de Markdown para wordpress
+90,1,codigo-open-source-para-la-gente-por-la-gente.md,"Código Open Source: Para la gente, por la gente"
+88,1,ubuntu-funcionando-en-el-samsung-galaxy.md,Ubuntu funcionando en el Samsung Galaxy Tab
+87,1,el-estado-de-wayland-aspirante.md,"El estado de Wayland, aspirante a reemplazar X.org"
+85,1,encontrar-archivos-abiertos-en-linux.md,Encontrar archivos abiertos en Linux
+84,1,visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia.md,Visualiza las visitas a tu web al estilo Pong con Logstalgia
+82,1,programacion-android-ejemplos-de-uso-de.md,Programación Android - Ejemplo de uso de ACTION_PICK
+115,1,ejemplocomponentesgraficos.md,Programación Android: Interfaz gráfica - Componentes gráficos y Eventos
+117,1,mejoras-para-el-proyecto-pylabra.md,Mejoras para el proyecto PyLabra
+118,1,fundamentos-aplicaciones-android-parte.md,Fundamentos aplicaciones Android. (Parte I)
+119,1,nueva-guia-how-internet-works.md,Nueva guía: How the internet works
+152,1,optimizar-sumas-en-paralelo.md,Optimizar sumas en paralelo
+149,1,enlaces-de-la-semana-i.md,Enlaces de la semana ( I )
+148,1,programacion-android-implementando-un_29.md,Programación Android: Implementando un Content Provider (Parte 4)
+147,1,clases-y-objetos-introduccion.md,Programación en C++. Clases y objetos - Introducción
+146,1,lo-que-se-viene-en-programacion-funcional-de-java.md,Lo que se viene en programación funcional de Java&#8230;
+144,1,conectar-base-de-datos-oracle.md,Conectar base de datos ORACLE a aplicación Java remotamente
+143,1,colocar-los-botones-sociales-de-jetpack-al-principio-del-articulo-en-wordpress.md,Colocar los botones sociales de jetpack al principio del artículo en WordPress
+142,1,videos-de-la-semana-unos-cuantos-cortos.md,Vídeos de la semana: Unos cuantos cortos y un time-lapse
+141,1,como-saber-que-particion-pertenece-un.md,Cómo saber a qué partición pertenece un archivo en GNU/Linux
+79,1,giroscopio-acelerometro-movimientos-android.markdown,Utilizando El Acelerómetro Y Giroscopio en Android Para Detectar Movimientos
+140,1,nueva-guia-computer-inside-your-computer-how-to-use-virtualbox.md,Nueva Guía: Computer Inside Your Computer: How To Use VirtualBox
+137,1,resolver-laberintos-en-c.md,Resolver laberintos en C++
+136,1,opengl-practicas-informatica-grafica-modelos-jerarquicos-un-robot.md,OpenGL - Prácticas Informática Gráfica: Modelos jerárquicos  - Un Robot
+135,1,enlaces-de-la-semana-ii.md,Enlaces de la semana ( II )
+134,1,como-programar-un-completo-lector-pdf-en-android.markdown,Cómo Programar Un Completo Lector PDF en Android
+132,1,my-first-game-jam-unlimitosis.md,Mi experiencia en la GameJam 2017 
+130,1,nuevo-proyecto-aventura-grafica-con-sdl.md,Nuevo Proyecto: Aventura gráfica con SDL y C++
+126,1,nueva-guia-preserving-your-privacy-in-windows-10.markdown,Nueva Guía: Preserving Your Privacy in Windows 10
+123,1,fundamentos-de-plsql.md,Fundamentos de PL/SQL
+120,1,ejemplo-compatibilidad-dialogfragment.md,Crear DialogFragment compatibles con versiones inferiores a Android 3.0
+139,1,activar-opciones-de-desarrollador-en-android-4-2.md,Cómo activar opciones de desarrollador en Android 4.2
+76,1,crear-diagrama-de-gantt-en-latex.markdown,Cómo Crear Diagramas De Gantt en LaTeX
+75,1,resources-channels-podcast-to-learn-math.md,13 recursos / canales / podcasts sobre matemáticas
+74,1,instalacion-optimizacion-servidor-web-nginx-ii.md,Instalación y optimización de un servidor web con Nginx (II)
+28,1,cant-open-display-0-0-wifi-net.markdown,Cómo Resolver El Error \u201CCan't Open Display: :0.0\u201D Al Conectarse a Una Red Wi-Fi
+27,1,vinetas-geek-de-domingo-v.md,Viñetas Geek de Domingo (V)
+26,1,como-crear-imagenes-con-un-marco-circular-al-estilo-g-en-latex.markdown,Cómo Crear Imagenes Con Un Marco Circular Al Estilo G+ en LaTeX
+25,1,nueva-guia-faq-guide-windows-7.md,Nueva guía: FAQ Guide: Windows 7 Migrations Are the Time to Lockdown PCs
+24,1,planteamiento-de-la-segunda-parte-del.md,Planteamiento de la segunda parte del curso de Android
+22,1,como-configurar-un-servidor-dns2.md,Cómo configurar un servidor DNS - Parte 2 (La Zona Primaria)
+21,1,renombrar-archivos-masivamente-en.md,Renombrar archivos masivamente en GNU/Linux
+20,1,descargar-curso-android-gratuito.markdown,Liberado El Curso De Android
+19,1,unhide-forensic-tool-encuentra-puertos-y-procesos-ocultos.md,'Unhide Forensic Tool: Encuentra puertos y procesos ocultos'
+29,1,el-top-7-de-dilemas-que-enfrentan-los-desarrolladores-de-hoy.md,7 dilemas que enfrentan los desarrolladores de hoy
+18,1,nueva-guia-8-steps-to-building-mobile-apps-fast-in-the-cloud.md,Nueva guía: 8 Steps to Building Mobile Apps Fast in the Cloud
 15,1,hackeando-tu-monitor-de-pantalla.markdown,Hackeando Tu Monitor De Pantalla
+13,1,sustituir-los-enlaces-de-blogger-por-los-de-wordpress-al-migrar-de-plataforma.md,Sustituir los enlaces de blogger por los de WordPress al migrar de plataforma
+12,1,como-cifrar-archivos-con-openssl.md,Cómo cifrar archivos con openssl
+11,1,como-hablitar-la-pagina-de-estado-en-nginx.md,Cómo habilitar la página de estado en Nginx
+6,1,grid-spacing-en-android.md,Grid Spacing en Android
+5,1,avances-en-el-proyecto-android-de-fin.md,Avances en el proyecto Android de fin de curso [WifiBar]
+3,1,buenas-practicas-para-el-diseno-de-una-api-restful-pragmatica.md,Buenas prácticas para el Diseño de una API RESTful Pragmática
+2,1,que-es-un-nullpointerexception-y-como-solucionarlo.md,Qué es un NullPointerException y cómo solucionarlo
+1,1,como-descargar-archivos-de-una-web-por-extension-con-wget.md,Cómo descargar archivos de una web por extensión con wget
 17,1,crear-formularios-en-django-partir-de-un-modelo-con-modelform.md,Crear formularios en Django a partir de un Modelo con ModelForm
-511,1,clases-y-objetos-funciones-inline.md,Clases y Objetos - Funciones inline
-491,1,clases-y-objetos-punteros-objetos.md,Clases y Objetos. Punteros a objetos
-509,1,plsql-cursores.md,PL/SQL. Cursores
-57,1,tunning-basico-de-sql.md,Tunning básico de SQL
-50,1,nueva-guia-administracion-avanzada-del.md,Guía gratuita: Administración Avanzada del Sistema Operativo GNU/Linux
-520,1,sistemas-biometricos.markdown,Biometría Aplicada a La Seguridad - Sistemas Biometricos
+153,1,parametros-variables-en-cc.md,Pasar parámetros variables en C/C++
+30,1,nueva-seccion-descarga-de-manuales.md,Nueva sección: Descarga de Manuales gratuitos
 34,1,por-que-un-switch-es-mas-rapido-que-su-homologo-if-then-else.md,Por qué un switch es más rápido que su homólogo if-then-else
-494,1,plsql-disparadores-o-triggers.md,PL/SQL. Disparadores o Triggers
-473,1,introduccion-html5.md,Introducción a HTML5
-54,1,practica-2b-guion.md,Optimizando código y evaluando el rendimiento
-313,2,guia-de-referencia-de-comandos.md,Guía de Referencia de comandos Unix/Linux [IMG]
-314,2,notificaciones.md,Programación Android: Interfaz gráfica - Diálogos y notificaciones
-315,2,nueva-pagina-para-informar-de-error-404.md,Nueva página para informar de error 404 en el blog
-515,2,selfcontrol-aparta-las-distracciones-de-tu-pc-cuando-estas-trabajando.md,"SelfControl, aparta las distracciones de tu pc cuando estás trabajando"
-312,2,videos-de-la-semana-vii.md,Vídeos de la semana (VII)
-304,2,chuleta-de-comandos-para-gpg.md,Chuleta de comandos para GPG
-305,2,programacion-android-recursos-trabajar_04.md,Programación Android: Recursos - Trabajar con recursos Assets
-303,2,programacion-android-usando-la-clausula.md,Programación Android: Usando la cláusula Where
-302,2,how-to-parse-frontmatter-with-python.md,Cómo parsear el frontmatter con Python
-552,2,eliminar-recursos-sin-usar-en-android.md,Eliminar recursos sin usar en Android
-517,2,how-the-cloud-will-change-application-release-applications.md,Nueva Guía: How the Cloud will Change Application Release Applications
-295,2,interfaz-grafica-adapters-i.md,Programación Android: Interfaz gráfica - Adapters I
-309,2,como-ocultar-la-version-de-bind-y-como-averiguarla.md,Cómo ocultar la versión de BIND (Y cómo averiguarla)
-316,2,vinetas-geek-de-domingo-2.md,Viñetas Geek de Domingo
-322,2,world-of-warcraft-sobre-android.md,World of Warcraft sobre Android
-320,2,libro-gratuito-android-programming-cookbook.markdown,Libro Gratuito. Android Programming Cookbook
-346,2,ifttt-disparar-tareas-mediante-eventos.md,'Ifttt: Disparar tareas mediante eventos producidos en redes sociales'
-345,2,codificacion.md,Codificación
-508,2,comparacion-de-tecnicas-algoritmicas-basicas-con-el-problema-de-la-mochila.markdown,Comparación de técnicas algorítmicas básicas con el problema de  la Mochila
-339,2,declaracion-variable-entre-funcion-llave.markdown,Declaración De Variables Entre El Nombre De La Función Y La Primera Llave en C
-338,2,variables-php-depurar-print_r-var_dump.markdown,Cómo Mostrar Información De Variables PHP Depurando
-335,2,videos-de-la-semana-time-lapses-y.md,Vídeos de la semana - Time-Lapses y cortos de animación
-334,2,programacion-android-arquitectura-de.md,Programación Android: Arquitectura de los Proveedores de contenidos
-512,2,fundamentos-programacion-android_17.md,"Fundamentos programación Android: Actividades, Tareas, Procesos e Hilos"
-332,2,como-funciona-el-bitcoin-la-cripto-moneda.md,"Cómo funciona el Bitcoin, la cripto-moneda"
-330,2,paperli-crea-tu-periodico-digital.md,Paper.li: Crea tu periódico digital automáticamente con lo más relevante de Twitter y Facebook
-510,2,programacion-android-recursos-repasando.md,Programación Android: Recursos - Repasando la estructura del directorio de recursos
-329,2,como-compilar-todos-los-archivos-cpp-de-una-vez-usando-makefile.md,Cómo compilar todos los archivos CPP de una vez usando MakeFile
-327,2,vinetas-geek-de-domingo-vii.md,Viñetas Geek de Domingo (VII)
-326,2,vinetas-geek-de-domingo-viii.md,Viñetas Geek de Domingo (VIII)
-325,2,mostrar-el-numero-de-seguidores-en-twitter-en-wordpress.md,Mostrar el número de seguidores en Twitter en WordPress
-294,2,guerra-de-navegadores-humor.md,Guerra de navegadores [Humor]
-331,2,15-demostraciones-del-potencial-de.md,15 Demostraciones del potencial de HTML5
-518,2,biometria-seguridad-introduccion.markdown,Biometría Aplicada a La Seguridad - Introducción
-291,2,clases-y-objetos-arrays.md,Clases y Objetos. Arrays
-348,2,como-crear-un-pie-de-pagina-en-latex-con-fancyhdr.md,Cómo crear un pie de página en LaTeX con fancyhdr
-258,2,como-convertir-un-archivo-pdf-a-imagenes.md,Cómo convertir un archivo pdf a imágenes
-257,2,como-conectar-tu-dispositivo-android-en.md,Cómo conectar tu dispositivo Android en Linux al adb para depurar y desarrollar  aplicaciones
-256,2,descargar-apache-hadoop-cookbook.markdown,Nueva Guía: Apache Hadoop Cookbook
-255,2,programacion-android-proveedores-de.md,Programación Android: Proveedores de Contenido - Introducción
-253,2,fundamentos-aplicaciones-android-parte_18.md,Fundamentos aplicaciones Android - (Parte II) - Componentes
-252,2,como-configurar-entornos-de-desarrollo-para-aplicaciones-moviles-en-un-servidor-cloud.md,Cómo configurar entornos de desarrollo para aplicaciones móviles en  un servidor cloud
-525,2,the-best-web-programming-languages-to-learn.markdown,Guia Gratuíta: The Best Web Programming Languages to Learn
-529,2,programacion-android-recursos-2.md,Programación Android: Recursos compilados y no compilados
-249,2,meme-los-10-comandos-que-mas-utilizo-en.md,Descubre cuales son los 10 comandos que más usas en Linux con esta línea
-248,2,how-to-remove-slotted-packages-in-gentoo.md,Cómo eliminar un paquete slotted en Gentoo
-246,2,apache-maven-cookbook.markdown,'Libro Gratuito: Apache Maven Cookbook'
-245,2,programacion-android-recursos.md,Programación Android: Recursos - Introducción
-244,2,5-lightweight-linux-distros-ideal-for-an-intel-atom-processor-pc.markdown,Guía Gratuita: 5 Lightweight Linux Distros Ideal for an Intel Atom Processor PC
-243,2,nvidia-prepara-tegra3-4-nucleos.md,"NVIDIA prepara Tegra3, 4 núcleos"
-242,2,erp-cobros.md,Resultados examen PL/SQL base de datos
-241,2,por-que-se-cuelga-linux-al-copiar-ficheros-a-un-usb.markdown,¿Por Qué Se Cuelga Linux Al Copiar Ficheros a Un Usb?
-240,2,chistes-de-informaticos.md,Chistes de informaticos - www.desmotivaciones.es
-523,2,curso-de-latex-incluir-codigo-fuente-y-simbolos-matematicos.md,Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos
-261,2,webservicelibexample.md,Restlib - Librería para realizar peticiones a Web Services en Android
-262,2,cinco-cursos-nuevos-en-udacity-software-testing-algoritmos-fisica-estadistica-y-logica-matematicas-discretas-2.md,"Cinco cursos nuevos en Udacity: Software Testing, Algoritmos, Física, Estadística y Lógica & matemáticas discretas"
-263,2,los-10-mejores-frameworks-gratis-de-aplicaciones-web.md,Los 15 Mejores Frameworks gratuitos para Aplicaciones Web/Móvil [Actualizado]
-290,2,investigadores-del-mit-usan-ecuaciones-algebraicas-para-mejorar-las-transmisiones-wifi-y-lte-coded-tcp.md,Investigadores del MIT usan ecuaciones algebráicas para mejorar las transmisiones WIFI y LTE con coded TCP
-289,2,consulta-de-datos-tablas-resumen.md,Consulta de Datos - Tablas Resumen operadores y Funciones Oracle
-287,2,como-evitar-que-se-aplique-ingenieria-inversa-a-un-ejecutable.md,Cómo evitar que se aplique ingeniería inversa a un ejecutable
-519,2,humor-grafico-informaticos-programadores-geek-9gag-com-parte-iii.md,"Humor gráfico - Informáticos, Programadores, geek&#8230; - 9GAG.COM Parte (III)"
-285,2,imponiendo-gpl-usando-tecnicas-de-judo.md,Imponiendo GPL usando técnicas de Judo
-283,2,nueva-gua-gratuita-java-concurrency-essentials.markdown,Nueva Guía Gratuita: Java Concurrency Essentials
-561,2,se-busca-colaborador.md,Se busca colaborador
-278,2,prueba-la-aplicacion-favsites-en-tu.md,Prueba la aplicación FavSites en tu Android
-292,2,estructura-y-seguridad-de-los-qr-codes.md,Estructura y seguridad de los QR Codes
-277,2,fundamentos-programacion-android.md,Fundamentos programación Android: Conceptos básicos y componentes
-274,2,programacion-android-recursos-arrays-de.md,Programación Android: Recursos - Arrays de strings
-273,2,aplicacion-localizacion-movil.markdown,3 Intervenciones Para Poner a Salvo Tu Teléfono Con Una Aplicación Para Localizar El Móvil
-272,2,video-demostracion-del-proyecto-wifibar.md,[Vídeo] Demostración del proyecto WifiBar funcionando
-270,2,como-ejecutar-diff-a-la-salida-de-dos-comandos.markdown,Cómo Ejecutar Diff a La Salida De Dos Comandos
-560,2,nueva-guia-build-your-own-wordpress.md,Nueva Guía: Build Your Own WordPress Site Guide
-522,2,como-configurar-un-servidor-dns.md,Cómo configurar un servidor DNS - Parte 1 (Introducción)
-266,2,capitulo2-intents-y-bundles.md,Programación Android: Trabajar con actividades y pasar parámetros entre ellas
-264,2,creating-trees-dependency-graphs-svms-in-tikz.md,Dibujar árboles de dependencias y Máquinas de soporte Vectoriales usando LaTeX y Tikz
-276,2,humor-grafico-informaticos-11.md,"Humor gráfico - Informáticos, Programadores, geek - 9GAG.COM Parte (I)"
-349,2,cartel-del-google-io-extended-granada-organizado-por-el-gdg-granada.md,Cartel del Google I/O Extended Granada organizado por el GDG Granada
-352,2,programacion-android-recursos-sintaxis.md,Programación Android: Recursos - Sintaxis de los Recursos
-351,2,el-top-500-de-los-supercomputadores-mas.md,El top 500 de los supercomputadores más potentes del mundo
-482,2,impact-internet-things.markdown,Guía Gratuita - The Impact of Internet of Things (IoT) on Facilities Management
-483,2,bodhi-ubuntuenlightenment-perfecto-para.md,"'Bodhi: Ubuntu+Enlightenment, perfecto para minimalistas'"
-445,2,rootear-samsung-galaxy-s-gt-i9003.md,Rootear Samsung Galaxy S GT-I9003
-444,2,clases-y-objetos-el-destructor.md,Clases y Objetos. El Destructor
-442,2,que-son-los-ppa-what-ppa-is.md,¿Qué son los PPA?
-437,2,grave-problema-en-upnp-que-afecta-a-81-millones-de-routers.md,Grave vulnerabilidad en UPnP que afecta a 81 millones de routers
-435,2,los-10-errores-de-novato-que-todo.md,10 errores de novato que todo desarrollador Android debería evitar
-432,2,introduccion-sql-sql-introduction.md,Introducción SQL
-430,2,como-funciona-http2-protocolo-que-acelera-considerablemente-la-navegacion-web.md,"Cómo funciona HTTP/2, protocolo que acelerá considerablemente la navegación  Web"
-428,2,el-riesgo-de-las-urls-cortas-risk-of.md,El riesgo de las URLs cortas
-427,2,si-se-escribiesen-ensayos-con-lenguajes-de-programacion-humor.md,Si se escribiesen ensayos con lenguajes de programación [HUMOR]
-426,2,cosas-que-me-gustan-y-odio-de-tener-un.md,Cosas que me gustan y odio de tener un smartphone [HUMOR]
-484,2,50-de-descuento-por-5-das-para-que-comiences-tu-aplicacin-para-android.markdown,50% De Descuento Por 5 Días Para Que Comiences Tu Aplicación Para Android
-425,2,plsql-procedimientos-y-funciones.md,PL/SQL. Procedimientos y Funciones
-424,2,como-programar-app-moviles-para-pymes-sin-salir-de-casa.md,Cómo programar apps móviles para pymes sin salir de casa
-485,2,10-things-you-must-do-with-a-brand-new-router.markdown,'Ebook Gratuito: 10 Things You Must Do With a Brand New Router'
-422,2,programacion-android-strictmode.md,Programación Android: StrictMode
-481,2,iniciar-debian-desde-usb.md,Cómo instalar debian desde un USB
-419,2,sorteo-wordpress.md,Sorteamos 10 matrículas gratuitas para cursos de desarrollo WordPress y cupones de descuento
-542,2,los-desarrolladores-de-gnome-crean.md,Los desarrolladores de GNOME crean \u201CBoxes\u201D para la virtualización
-449,2,como-cambiar-la-resolucion-de-pantalla-en-las-ttys-de-gnulinux.md,Cómo cambiar la resolución de pantalla de las ttys y del GRUB en Linux
-474,2,20-ejemplos-de-iptables-para-sysadmins.md,20 ejemplos de iptables para SysAdmins novatos
-469,2,dominio-software-libre-no-oficial-42.md,Dominio software libre -no oficial- \u201C.42\u2033 disponible
-477,2,logrando-el-anonimato-con-tor-parte-3-torbutton-y-tsocks.md,'Logrando el anonimato con Tor (Parte 3) : Torbutton y Tsocks'
-468,2,expresiones-regulares-multilinea.markdown,Expresiones Regulares Multilínea
-538,2,organiza-tu-lista-de-tareas-con.md,Organiza tu lista de Tareas con Remember the Milk
-465,2,nunca-lo-hagas-humor.md,\xA1Nunca lo hagas! [Humor]
-464,2,como-configurar-un-servidor-dns3.md,Cómo configurar un servidor DNS - Parte 3 (Zona Inversa y DNS secundario)
-463,2,openlibra-la-biblioteca-libre-online.md,'OpenLibra: La Biblioteca Libre Online tal como la esperabas'
-478,2,introduccion-los-procesos.md,Introducción a los Procesos
-459,2,getting-analytics-right.markdown,'Libro Gratuito: Getting Analytics Right'
-458,2,estadisticas-del-blog-en-2011.md,Estadísticas del blog en 2011
-457,2,nueva-guia-php-mysql-novice-to-ninja-5th-edition-free-57-page-preview.md,"Nueva guía: PHP & MySQL: Novice to Ninja, 5th Edition-Free 57 Page Preview"
-480,2,superordenador-de-barcelona-armandose-para-entrar-en-las-maquinas-mas-rapidas-del-mundo.md,Superordenador de Barcelona ARMándose para entrar en las máquinas más rápidas del mundo
-456,2,estilosytemas.md,Programación Android: Interfaz gráfica - Estilos y Temas
-454,2,linea-cronologica-de-distribuciones.md,"Evolución de las distribuciones GNU/Linux, de 1992 a 2016"
-453,2,nueva-gua-gratuita-learning-javascriptmvc-free-14-page-excerpt.markdown,Nueva Guía Gratuita: Learning JavaScriptMVC -- Free 14 Page Excerpt
-452,2,crear-enlaces-en-un-textview-con-la-etiqueta-html-a-href-en-android.md,Crear enlaces en un TextView con la etiqueta HTML
-448,2,peter-norvig-hablando-sobre-clases-online.md,Peter Norvig hablando sobre clases online
-350,2,como-recuperar-el-imei-en-android.md,Cómo recuperar el IMEI en Android
-415,2,como-crear-shortcodes-en-wordpress-2.md,Cómo crear  simples shortcodes en WordPress
-413,2,programa-que-envia-mensajes-desde.md,Programa que envía mensajes desde Android a PC
-381,2,programacion-android-interfaz-grafica.md,Programación Android: Interfaz gráfica. Conceptos básicos
-379,2,dejes-que-los-astronautas-de-arquitecturas-te-asusten.md,No dejes que los Astronautas de Arquitecturas te asusten
-500,2,como-instalar-el-ide-android-studio-en-linux-y-pequena-guia-de-uso.md,Cómo instalar el IDE Android Studio en Linux y pequeña guía de uso
-376,2,planteamiento-del-curso-de-android.md,Planteamiento del Curso de Android
-373,2,linux-bash-programming-cookbook.markdown,'Libro Gratuito: Linux BASH Programming Cookbook'
-371,2,mostrar-todos-los-post-de-una-categoria-wordpress.md,Mostrar todos los post de una categoría en WordPress
-370,2,como-enviar-los-emails-de-varmailroot-una-cuenta-de-correo.md,Cómo enviar los emails de /var/mail/root a una cuenta de correo
-368,2,openlibra-biblioteca-libre-online.markdown,OpenLibra Cumple 5 Años Y Estrena Versión 2.0
-366,2,6-steps-to-securing-your-domains.md,Nueva guía: 6 Steps to Securing Your Domains
-364,2,firefox-40-para-linux-ya-dispone-de.md,Firefox 4.0 para Linux ya dispone de menú unificado
-363,2,nueva-guia-developer-report-top-social-media-and-html5-considerations-for-mobile-app-success.md,Nueva guía: Developer Report: Top Social Media and HTML5 Considerations for Mobile App Success
-503,2,discovering-vulnerable-web-applications.md,Nueva guía: Discovering Vulnerable Web Applications
-361,2,compilar-e-instalar-el-kenerl-4-2.markdown,Compilar e Instalar El Kernel 4.2
-360,2,el-mapa-mundial-de-gnulinux-img.md,El gran Mapa mundial de GNU/Linux
-358,2,moborobo-herramienta-de-administracion-integrada-para-android-en-el-pc.md,"Moborobo, herramienta de Administración Integrada para Android en el PC"
-535,2,customadapter.md,Cómo crear un adapter personalizado en Android
-355,2,dig-chuleta-basica-de-comandos.md,Dig - Chuleta básica de comandos
-499,2,ejemplo-pdoo-ruby.md,Introducción rápida a Ruby
-414,2,como-mapear-json-a-objetos-java-con-jackson-objectmapper.md,Cómo mapear json a objetos Java con Jackson ObjectMapper
-382,2,estoy-trabajando-en-una-aplicacion.md,'Nuevo Proyecto Android: Fav Sites'
-498,2,nueva-guia-newbies-getting-started.md,Nueva guía: A Newbies Getting Started Guide to Linux
-412,2,actualizar-bios-de-asus-desde-linux.md,Actualizar BIOS de ASUS desde Linux
-411,2,google-io-extended-hackathon-html5.md,Google I/O Extended + Hackathon HTML5
-487,2,fugas-de-memoria-android-handlers-clases-internas.md,'Fugas de memoria en Android: Handlers & Clases Internas'
-490,2,how-to-change-portage-folders-to-other-location.markdown,Cómo Cambiar El Directorio De Portage a Otro Directorio en Gentoo
-408,2,nueva-guia-mac-os-x-lion-ultimate-guide.md,Nueva guía: Mac OS X Lion: The Ultimate Guide
-404,2,programacion-android-como-se-resuelven.md,Programación Android: Cómo se resuelven los Intents
-401,2,chema-alonso-hablando-de-la-inseguridad.md,Chema Alonso hablando de la inseguridad de las vías telemáticas
-399,2,habilitar-el-teclado-en-el-emulador-android.md,Cómo habilitar el teclado en el emulador Android
-238,2,resources-blogs-podcast-youtube-channels-about-science.md,21 Podcasts / Canales de Youtube / Blogs sobre Ciencia
-395,2,vinetas-geek-de-domingo-x.md,Viñetas Geek de Domingo (X)
-393,2,celebrando-los-20-anos-de-linux-video.md,Celebrando los 20 años de Linux [Video]
-492,2,todo-lo-que-necesitas-saber-sobre-copyright-y-licencias-en-2-minutos.md,Todo lo que necesitas saber sobre Copyright y licencias en 2 minutos
-543,2,nueva-guia-5-ways-zenith-insurance-are-using-predictive-analytics-to-leverage-big-data.markdown,Nueva Guía: 5 Ways Zenith Insurance Are Using Predictive Analytics to Leverage Big Data
-493,2,como-hacer-scroll-en-un-listview-que-est-dentro-de-un-scrollview-en-android.markdown,Cómo Hacer Scroll en Un ListView Que Está Dentro De Un ScrollView en  Android
-390,2,linux-33-se-come-android.md,Linux 3.3 se come a Android
-495,2,programar-navegador-gps-android.markdown,Crear Un Navegador GPS Que Dibuje El Camino Seguido en Android
-534,2,como-migrar-de-blogger-a-wordpress-sin-perder-seo-y-tips-de-seguridad.md,Cómo migrar de Blogger a WordPress sin perder SEO y Tips de seguridad
-548,2,personalizar-el-error-404-en-wordpress.md,Personalizar el Error 404 en wordpress
-532,2,vinetas-geek-de-domingo-ix.md,Viñetas Geek de Domingo (IX)
-0,2,hacking-y-seguridad-en-comunicaciones.md,Hacking y Seguridad en Comunicaciones Móviles GSM / GPRS / UMTS / LTE
-234,2,mi-experiencia-en-el-3-hackathon-de-la.md,Mi experiencia en el 3\xBA Hackathon de la Universidad de Granada
-123,2,nueva-guia-preserving-your-privacy-in-windows-10.markdown,Nueva Guía: Preserving Your Privacy in Windows 10
-119,2,optimizando-la-interfaz-android-compound-drawables.md,Optimizando la interfaz Android - Compound Drawables
-118,2,ejemplo-compatibilidad-dialogfragment.md,Crear DialogFragment compatibles con versiones inferiores a Android 3.0
-117,2,nueva-guia-how-internet-works.md,Nueva guía: How the internet works
-235,2,plsql-registros-y-tablas.md,PL/SQL. Registros y Tablas
-115,2,mejoras-para-el-proyecto-pylabra.md,Mejoras para el proyecto PyLabra
-113,2,ejemplocomponentesgraficos.md,Programación Android: Interfaz gráfica - Componentes gráficos y Eventos
-110,2,vinetas-geek-de-domingo-vi.md,Viñetas Geek de Domingo (VI)
-127,2,nuevo-proyecto-aventura-grafica-con-sdl.md,Nuevo Proyecto: Aventura gráfica con SDL y C++
-109,2,citas-clasicas-de-programacion.md,22 Citas clásicas de programación
-107,2,instalacion-optimizacion-servidor-web-nginx-iii.md,Instalación y optimización de un servidor web con Nginx (III)
-106,2,ejemplo-pdoo-java.md,C++ y Java
-101,2,vinetas-geek-de-domingo.md,Viñetas geek de Domingo
-100,2,programacion-android-intents-categorias.md,Programación Android: Intents - Categorías
-98,2,video-proyecto-wifibar-en-la-ultima.md,"[Vídeo] Proyecto WifiBar, en la última fase de desarrollo"
-97,2,humor-dos-videos-muy-geek-para-programadores.md,[HUMOR] Dos Vídeos muy geek para Programadores
-95,2,como-apagar-automaticamente-el-pc.md,Cómo apagar automáticamente el PC cuando las descargas finalicen
-92,2,chuleta-markdown-para-wordpress.md,Chuleta de Markdown para wordpress
-108,2,5-razones-para-estar-entusiasmados-con-java-en-el-2013.md,5 Razones para estar entusiasmados con Java en el 2013
-129,2,my-first-game-jam-unlimitosis.md,Mi experiencia en la GameJam 2017 
-131,2,como-programar-un-completo-lector-pdf-en-android.markdown,Cómo Programar Un Completo Lector PDF en Android
-132,2,enlaces-de-la-semana-ii.md,Enlaces de la semana ( II )
-157,2,cant-update-to-firefox-48-in-gentoo-nss-version-too-old.markdown,Error NSS Al Actualizar Firefox 48 en Gentoo
-156,2,cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir.md,"¿Cual es la diferencia entre los distintos formatos de audio, y cual debería  elegir?"
-154,2,logrando-el-anonimato-con-tor-parte-4.md,Logrando el anonimato con Tor (Parte 4) - Tor para relés
-153,2,como-anadir-automaticamente-el-tamao-de-una-imagen-en-html-con-python.markdown,Cómo Añadir Automáticamente El Tamaño De Una Imagen en HTML Con  Python
-151,2,rockmelt-una-navegador-social-basado-en.md,"Rockmelt, una navegador social basado en Chromium"
-150,2,parametros-variables-en-cc.md,Pasar parámetros variables en C/C++
-149,2,optimizar-sumas-en-paralelo.md,Optimizar sumas en paralelo
-146,2,enlaces-de-la-semana-i.md,Enlaces de la semana ( I )
-145,2,programacion-android-implementando-un_29.md,Programación Android: Implementando un Content Provider (Parte 4)
-144,2,clases-y-objetos-introduccion.md,Programación en C++. Clases y objetos - Introducción
-143,2,lo-que-se-viene-en-programacion-funcional-de-java.md,Lo que se viene en programación funcional de Java&#8230;
-141,2,conectar-base-de-datos-oracle.md,Conectar base de datos ORACLE a aplicación Java remotamente
-140,2,colocar-los-botones-sociales-de-jetpack-al-principio-del-articulo-en-wordpress.md,Colocar los botones sociales de jetpack al principio del artículo en WordPress
-139,2,videos-de-la-semana-unos-cuantos-cortos.md,Vídeos de la semana: Unos cuantos cortos y un time-lapse
-138,2,como-saber-que-particion-pertenece-un.md,Cómo saber a qué partición pertenece un archivo en GNU/Linux
-137,2,nueva-guia-computer-inside-your-computer-how-to-use-virtualbox.md,Nueva Guía: Computer Inside Your Computer: How To Use VirtualBox
-136,2,activar-opciones-de-desarrollador-en-android-4-2.md,Cómo activar opciones de desarrollador en Android 4.2
-134,2,resolver-laberintos-en-c.md,Resolver laberintos en C++
-133,2,opengl-practicas-informatica-grafica-modelos-jerarquicos-un-robot.md,OpenGL - Prácticas Informática Gráfica: Modelos jerárquicos  - Un Robot
-88,2,codigo-open-source-para-la-gente-por-la-gente.md,"Código Open Source: Para la gente, por la gente"
-85,2,el-estado-de-wayland-aspirante.md,"El estado de Wayland, aspirante a reemplazar X.org"
-83,2,encontrar-archivos-abiertos-en-linux.md,Encontrar archivos abiertos en Linux
-80,2,programacion-android-ejemplos-de-uso-de.md,Programación Android - Ejemplo de uso de ACTION_PICK
-31,2,tech-comics-geek-en-el-oculista-humor.md,Tech Comics: \u201CGeek en el oculista\u201D [HUMOR]
-30,2,nueva-seccion-descarga-de-manuales.md,Nueva sección: Descarga de Manuales gratuitos
-29,2,el-top-7-de-dilemas-que-enfrentan-los-desarrolladores-de-hoy.md,7 dilemas que enfrentan los desarrolladores de hoy
-28,2,cant-open-display-0-0-wifi-net.markdown,Cómo Resolver El Error \u201CCan't Open Display: :0.0\u201D Al Conectarse a Una Red Wi-Fi
-27,2,vinetas-geek-de-domingo-v.md,Viñetas Geek de Domingo (V)
-26,2,como-crear-imagenes-con-un-marco-circular-al-estilo-g-en-latex.markdown,Cómo Crear Imagenes Con Un Marco Circular Al Estilo G+ en LaTeX
-25,2,nueva-guia-faq-guide-windows-7.md,Nueva guía: FAQ Guide: Windows 7 Migrations Are the Time to Lockdown PCs
-24,2,planteamiento-de-la-segunda-parte-del.md,Planteamiento de la segunda parte del curso de Android
-22,2,como-configurar-un-servidor-dns2.md,Cómo configurar un servidor DNS - Parte 2 (La Zona Primaria)
-21,2,renombrar-archivos-masivamente-en.md,Renombrar archivos masivamente en GNU/Linux
-20,2,descargar-curso-android-gratuito.markdown,Liberado El Curso De Android
-19,2,unhide-forensic-tool-encuentra-puertos-y-procesos-ocultos.md,'Unhide Forensic Tool: Encuentra puertos y procesos ocultos'
-18,2,nueva-guia-8-steps-to-building-mobile-apps-fast-in-the-cloud.md,Nueva guía: 8 Steps to Building Mobile Apps Fast in the Cloud
-13,2,sustituir-los-enlaces-de-blogger-por-los-de-wordpress-al-migrar-de-plataforma.md,Sustituir los enlaces de blogger por los de WordPress al migrar de plataforma
-11,2,como-hablitar-la-pagina-de-estado-en-nginx.md,Cómo habilitar la página de estado en Nginx
-5,2,avances-en-el-proyecto-android-de-fin.md,Avances en el proyecto Android de fin de curso [WifiBar]
-3,2,buenas-practicas-para-el-diseno-de-una-api-restful-pragmatica.md,Buenas prácticas para el Diseño de una API RESTful Pragmática
-2,2,que-es-un-nullpointerexception-y-como-solucionarlo.md,Qué es un NullPointerException y cómo solucionarlo
-1,2,como-descargar-archivos-de-una-web-por-extension-con-wget.md,Cómo descargar archivos de una web por extensión con wget
-37,2,eres-chica-y-te-gusta-la-informatica-participa-en-el-campus-ugrgoogle-para-chicas.md,"¿Eres chica y te gusta la informática?, participa en el campus UGR/Google para chicas"
-161,2,que-es-quic-el-nuevo-protocolo-desarrollado-por-google.md,"Qué es QUIC, el nuevo protocolo desarrollado por Google"
-39,2,eliminar-la-pila-de-actividades-back-stack-en-android.md,Eliminar la pila de actividades (Back Stack) en Android
-43,2,clases-y-objetos-pasar-un-objeto-una.md,Clases y Objetos - Pasar un objeto a una función
-77,2,giroscopio-acelerometro-movimientos-android.markdown,Utilizando El Acelerómetro Y Giroscopio en Android Para Detectar Movimientos
-74,2,crear-diagrama-de-gantt-en-latex.markdown,Cómo Crear Diagramas De Gantt en LaTeX
-73,2,resources-channels-podcast-to-learn-math.md,13 recursos / canales / podcasts sobre matemáticas
-72,2,instalacion-optimizacion-servidor-web-nginx-ii.md,Instalación y optimización de un servidor web con Nginx (II)
-70,2,conversor-markdow-a-latex.markdown,Un Conversor De Markdown a LaTeX Casero en Lex
-69,2,pro-android-3-aprende-fondo-todo-lo-que.md,'Pro Android 3: Aprende a fondo todo lo que ofrece el SDK Android 4.0'
-67,2,informe-sobre-defensa-frente-a-ciberamenazas-2015-por-cyberedge-group.markdown,Informe Sobre Defensa Frente a Ciberamenazas 2015. Por CyberEdge Group
-66,2,lo-mas-leido-en-elbauldelprogramador.md,Lo más leido en ElbaulDelProgramador (Noviembre 2011)
-64,2,error-al-implementar-amp-mustache.markdown,Cómo solucionar errores Al Implementar Amp-mustache
-61,2,la-recursividad-explicada-por-homer.md,"La recursividad, explicada por Homer Simpson"
-58,2,cuarto-hackathon-de-proyectos-de.md,Cuarto Hackathon de proyectos de software libre de la UGR
-56,2,java-open-source-se-mueve-a-linux-aix-en-powerpc.md,"Java Open Source se mueve a Linux, AIX en PowerPC"
-55,2,chat-y-foros-de-proxima-generacion-de-pioneros-del-codigo-abierto.md,"Chat y Foros de Próxima Generación, de pioneros del Código Abierto"
-52,2,por-que-gnulinux-no-es-solo-para-geeks.md,Por qué GNU/Linux no es solo para Geeks
-51,2,acceder-variable-dentro-funcion-r.markdown,Cómo modificar Una Variable Desde Dentro De Una Función en R
-49,2,usos-del-boton-central-del-raton-use.md,Usos del botón central del ratón
-47,2,programacion-android-intents-conceptos.md,Programación Android: Intents - Conceptos básicos
-46,2,desarrollo-android-que-es-android.md,Desarrollo android. ¿Qué es Android?. Traducción de developer.android.com
-44,2,crear-webapps-con-soporte-html5-css3-y.md,"Crear WebApps con soporte HTML5, CSS3 y JavaScript con el LungoJs framework"
-40,2,enlaces-de-la-semana-i-2.md,Enlaces de la semana (I)
-165,2,como-crear-un-repositorio-ppa-how.md,Como crear un PPA (Personal Package Archive)
-116,2,fundamentos-aplicaciones-android-parte.md,Fundamentos aplicaciones Android. (Parte I)
-562,2,como-depurar-una-aplicacion-en-django.md,Cómo depurar una aplicación en Django
-180,2,google-io-2011-android-protips-temas.md,'Google I/O 2011: Android Protips - Temas avanzados para desarrolladores expertos'
-220,2,programacion-android-interfaz-grafica_08.md,Programación Android: Interfaz gráfica - Menús
-181,2,como-hacer-que-google-deje-de-usar-tu.md,Cómo hacer que google deje de usar tu Wifi para obtener datos de geolocalización
-218,2,fundamentos-programacion-android_16.md,Fundamentos programación Android: Intents y AndroidManifest
-217,2,como-conocer-el-software-no-libre.md,Cómo conocer el software \u201Cno libre\u201D instalado en nuestro equipo
-182,2,fundamentos-aplicaciones-android-parte_19.md,Fundamentos aplicaciones Android. (Parte III) -Activando Componentes
-184,2,terminada-la-primera-parte-del-manual.md,Terminada la primera parte del manual Android
-185,2,solucionar-android-calling-startactivity-from-outside-of-an-activity-context-requires-the-flag_activity_new_task-flag.md,Solucionar el error en Android Calling startActivity from outside of an Activity  context requires the FLAG_ACTIVITY_NEW_TASK flag
-214,2,logrando-el-anonimato-con-tor-parte-2-proxies-y-servidores-de-dns.md,'Logrando el anonimato con Tor (Parte 2) : Proxies y servidores de DNS'
-213,2,programacion-android-recursos-plurales.md,Programación Android: Recursos - Plurales
-212,2,tablet-vs-e-reader-cual-ganara.md,Tablet Vs e-Reader: ¿cuál ganará?
-210,2,patron-desbloqueo-android.markdown,Crear Un Patrón De Desbloqueo Android
-208,2,evaluando-el-estado-de-la-licencia-gpl.md,Evaluando el estado de la licencia GPL
-207,2,mini-grep-en-c-busca-palabras-en-archivos.md,"Mini grep en C++, busca palabras en archivos"
-189,2,primer-capitulo-programacion-android.md,Disponible la primera parte del curso Android en PDF
-205,2,programacion-para-juegos-leccion-1.md,Programación para Juegos - Lección 1 - Instalando SDL
-204,2,the-power-of-predictive-analytics.markdown,Guía Gratuita: The Power of Predictive Analytics
-203,2,vinetas-geek-de-domingo-3.md,Viñetas Geek de Domingo
-191,2,google-lanza-contributor-apoya-a-tus-webs-favoritas-sin-ver-anuncios.markdown,"Google Lanza Contributor, Apoya a Tus Webs Favoritas Sin Ver Anuncios"
-192,2,jugando-con-la-seccion-dtors-de-la-tabla-de-secciones-en-c.md,Jugando con las secciones .dtors y .ctors de la tabla de secciones en C
-193,2,vinetas-geek-de-domingo-iv.md,Viñetas Geek de Domingo (IV)
-194,2,que-son-los-archivos-mkv-what-is-mkv.md,¿Que son los archivos mkv?
-202,2,programacion-android-recursos-recursos.md,Programación Android: Recursos - Recursos y cambios de configuración
-201,2,nueva-guia-4-key-recommendations-cloud-integration.md,Nueva guía: 4 Key Recommendations for Cloud Integration
-195,2,crean-un-algoritmo-que-replica-tu-letra.markdown,Crean Un Algoritmo Que Replica Tu Letra
-197,2,nueva-guia-bootstrap-programming-cookbook.markdown,Guía gratuita - Bootstrap Programming Cookbook
-198,2,nueva-guia-your-guide-to-google-analytics.md,Nueva Guía: Your Guide to Google Analytics
-221,2,comandos-ss-iproute2-linux.md,Algunos comandos útiles con iproute2
-176,2,algoritmos-de-caminos-cortos.md,Algoritmos de caminos cortos.
-183,2,quic-analisis-practico-del-protocolo-de-google.md,QUIC: Análisis práctico del protocolo de Google
-172,2,generar-codigo-css-3-facilmente.md,Generar código CSS 3 fácilmente
-229,2,humor-como-arreglar-una-computadora.md,"'[Humor]: Como arreglar una computadora (Windows, Linux o Mac OSX)'"
-233,2,video-tutoriales-ataque-man-in-middle.md,[Vídeo tutoriales] Ataque Man in the middle
-228,2,libro-gratuito-spring-data-programming-cookbook.markdown,Guía Gratuita - Spring Data Programming Cookbook
-226,2,conectar-base-de-datos-sql-server-2008.md,Conectar base de datos sql Server 2008 a aplicación Java remotamente
-170,2,programacion-android-recursos-usando.md,Programación Android: Recursos - Usando recursos
-231,2,como-anadir-contenido-por-defecto-a-los-articulos-en-wordpress.md,Cómo añadir contenido por defecto a los artículos en WordPress
-175,2,logrando-el-anonimato-con-tor-parte-1.md,Logrando el anonimato con Tor (Parte 1)
-171,2,programacion-android-recursos-trabajar-2.md,Programación Android: Recursos - Trabajar con recursos RAW
-227,2,humor-grafico-informaticos.md,"Humor gráfico - Informáticos, Programadores, geeks - 9GAG.COM Parte (II)"
-300,3,como-instalar-nginx-con-php5-fpm.md,Cómo instalar y configurar Nginx con php5-fpm
-59,3,por-que-nuestro-pc-necesita-un-firewall.md,Por qué nuestro PC necesita un firewall activado
-342,3,entendiendo-los-runlevel-en-debian-y-ubuntu.md,Entendiendo los runlevel en Debian
-323,3,combatir-los-comentarios-de-spam-en-wordpress.md,Combatir los comentarios de spam en WordPress
-394,3,como-tener-un-terminal-transparente-como-wallpaper-que-muestre-informacion.md,Cómo tener un terminal transparente como wallpaper que muestre información
-488,3,grub-customizer-20.md,Grub Customizer 2.0
-159,3,ocultar-los-metaficheros-de-latex-del-directorio-de-trabajo.markdown,Ocultar Los Metaficheros De LaTeX Del Directorio De Trabajo
-232,3,como-crear-un-front-controller-en-php.md,Cómo crear un Front Controller en PHP
-75,3,copiar-archivos-recursivamente.md,Copiar archivos recursivamente
-556,3,ejecutar-un-script-al-modificar-un-fichero-con-inotify.md,Ejecutar un script al modificar un fichero con inotify
-420,3,bash-syntax-highlighted-script-improved.md,Script resaltado sintaxis bash (Mejorado)
-423,3,gestion-basica-de-usuarios-en-linux.md,Gestión básica de usuarios en linux
-91,3,generar-listas-de-reproduccion-determinada-duracion-python.md,Generar listas de reproducción de una determinada duración con Python
-558,3,bash-syntax-highlighted-script.md,Script resaltado sintaxis bash
-429,3,configurar-dos-pantallas-en-openbox.md,Configurar dos pantallas en OpenBox bajo CruchBang y wallpaper aleatorio
-546,3,de-excel-a-python-y-r.markdown,Cómo Pasé De Usar Excel a Usar R Y Python
-547,3,vinetas-geek-de-domingo-xi.md,Viñetas Geek de Domingo (XI)
-431,3,crear-miniaturas-de-imagenes-mejorado.md,Crear miniaturas de imágenes [Mejorado]
-35,3,buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.md,Buscar archivos con locate mediante expresiones regulares
-374,3,imagen-terminal-color-texto-a-juego-linux.markdown,"Cambia La Imágen De Fondo Del Terminal Gnome Y Pon Un Color De Texto a Juego, Automáticamente"
-501,3,configurar-xmonad-con-trayer-y-fondo-de-pantalla-aleatorio.md,Configurar xmonad con trayer y fondo de pantalla aleatorio
-42,3,crea-scripts-para-las-aplicaciones-de-google-con-apps-script.md,Crea scripts para las aplicaciones de Google con Apps Script
-317,3,como-ordenar-imagenes-por-resolucion.md,Cómo ordenar imágenes por resolución
-311,3,como-saber-si-tus-visitantes-usan-ad-block.md,Cómo saber si tus visitantes usan Ad-Block
-531,3,instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente.md,"Instalar y configurar DWM, el gestor de ventanas más eficiente"
-147,3,convertir-archivos-mp4-a-mp3-masivamente.md,Convertir archivos mp4 a mp3 masívamente
-33,3,script-resaltado-sintaxis.md,Script resaltado sintaxis c++
-225,3,crear-imagenes-en-miniaturas.md,Crear miniaturas de imágenes
-528,3,instalacion-optimizacion-servidor-web-nginx-i.md,Instalación y optimización de un servidor web con Nginx (I)
-380,3,sincronizar-google-drive-en-linux-en-4-pasos-actualizacion.md,Sincronizar Google Drive en Linux en 4 pasos [Actualización]
-496,3,sincronizar-google-drive-en-linux-en-4-pasos.md,Sincronizar Google Drive en Linux en 4 pasos
-333,4,configurar-log4j2-en-netbeans-un-logger-para-java.md,"Configurar Log4j2 en Netbeans, un logger para Java"
-206,4,vota-por-el-logo-que-mas-te-guste-para-el-baul-del-programador.md,Vota por el logo que más te guste para El Baúl del Programador
-82,4,visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia.md,Visualiza las visitas a tu web al estilo Pong con Logstalgia
-6,4,grid-spacing-en-android.md,Grid Spacing en Android
-460,4,bloquear-una-ip-atacanto-el-servidor-mediante-iptables.md,Bloquear una IP atacando el servidor mediante iptables
-524,4,probando-rockmelt.md,Probando RockMelt
-417,4,humanstxt-creator-somos-personas-no.md,"Humanstxt Creator. Somos personas, no máquinas"
-188,4,los-origenes-de-los-simbolos-tecnologicos-mas-famosos-y-frecuentes.md,Los orígenes de los símbolos tecnológicos más famosos y frecuentes
-63,4,nuevo-logo-para-el-blog.markdown,Nuevo Logo Para El Blog
-259,4,ndk-gdb-depurar-aplicaciones-en-el-nkd-de-android.md,NDK-gdb - Depurar aplicaciones en el NKD de Android
-476,4,como-usar-adecuadamente-el-log-de-android-en-tus-aplicaciones.md,Cómo usar adecuadamente el Log de Android en tus aplicaciones
-479,4,programacion-android-recursos-trabajar.md,Programación Android: Recursos - Trabajar con recursos XML arbitrarios
-199,4,google-y-su-humor-en-la-documentacion-de-android.md,Google y su humor en la documentación de Android
-516,4,que-significa-unknown-en-las-estadisticas-de-whos-amung.md,¿Qué significa &#8216;Unknown&#8217; en las estadísticas de Whos amung?
-467,4,instalacion-y-configuracion-de-bolt-un-cms-rapido-y-sencillo.md,"Cómo instalar Bolt, un CMS rápido y sencillo"
-271,4,algoritmos-de-ordenacion.md,Algoritmos de ordenación.
-443,5,mini-curso-de-latex-introduccion.md,Mini Curso de LaTeX - Introducción
-526,5,netstat-analizando-la-red-y-detectando-problemas.md,'Netstat: Analizando la red y detectando problemas'
-282,5,consulta-de-datos-clausula-where.md,Consulta de Datos - Cláusula WHERE
-247,5,how-to-convert-column-to-vectorudt-densevector-spark.md,Cómo convertir una columna a VectorUDT/DenseVector en Spark
-260,5,programacion-android-implementando-un_08.md,Programación Android: Implementando un Content Provider (Parte 2)
-36,5,consulta-de-datos-clausula-group-by.md,Consulta de Datos - Cláusula GROUP BY
-550,5,vectorizar-acceso-columnas-r.markdown,Vectorizar El Acceso a Columnas en R
-45,5,lenguaje-definicion-de-datosddl-create.md,Lenguaje Definición de Datos(DDL) - CREATE
-38,5,crear-un-gridview-con-adaptador-personalizado-en-android.md,Crear un GridView con Adaptador personalizado en Android
-545,5,detectar-archivos-png-con-c.md,Detectar archivos PNG con C++
-53,5,consulta-de-datos-clausula-from.md,Consulta de Datos - Cláusula FROM
-265,5,consulta-de-datos-clausula-having-y.md,Consulta de Datos - Cláusula HAVING y ORDER BY
-540,5,consulta-de-datos-clausula-select.md,Consulta de Datos - Cláusula Select
-48,5,liberada-la-version-10-de-htop.md,Liberada la versión 1.0 de htop
-533,5,plsql-declaracion-de-variables.md,PL/SQL. Declaración de variables
-455,5,como-detectar-ficheros-con-bloqueocerrojo-en-linux.md,¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?
-275,5,5-libros-de-no-ficcion-que-todo-geek-deberia-leer.md,21 Libros de No-Ficción que todo Geek debería leer
-89,5,lenguaje-definicion-de-datos-ddl-alter.md,Lenguaje Definición de Datos (DDL) - ALTER TABLE
-372,5,programacion-android-implementando-un_14.md,Programación Android: Implementando un Content Provider (Parte 3)
-344,5,diseno-de-bases-de-datos-i-conceptos.md,Diseño de Bases de Datos ( I ) - Conceptos del Modelo Relacional
-296,5,programacion-android-insertando.md,Programación Android: Insertando registros
-365,5,resaltar-sintaxis-del-codigo-fuente-en-latex-con-minted.md,Resaltar sintaxis del código fuente en LaTeX con minted
-190,5,programacion-android-proveedores-de_28.md,Programación Android: Proveedores de Contenidos - Leer datos mediante URIs
-321,5,incluir-imagenes-en-una-entrada-de-wordpress-usando-php.md,Incluir imágenes en una entrada de WordPress usando PHP
-148,5,programacion-android-implementando-un.md,Programación Android: Implementando un Content Provider (Parte 1)
-307,5,programacion-android-usando-cursores.md,Programación Android: Usando cursores
-502,6,eliminar-ficheros-grandes-github.markdown,Cómo Eliminar Ficheros Demasiado Grandes Para GitHub
-403,6,chuleta-atajos-teclado-emacs.markdown,Chuleta De Comandos / Atajos De Teclado / Paquetes más útiles para Emacs
-343,6,sincronizacin-de-proyectos-en-git-con-hooks-ganchos.markdown,Sincronización de proyectos en git con hooks (ganchos)
-7,6,gource-visualizar-la-evolucion-de-un-repositorio-git.md,Gource: Visualizar la evolución de un repositorio Git
-105,6,los-10-artculos-ms-visitados-de-2015.markdown,Los 10 Artículos Más Visitados De 2015
-23,6,recommended-books.md,Libros recomendados
-268,6,masterbranch-crea-tu-perfil-como.md,MasterBranch - Crea tu perfil como Programador y muestra todos tus proyectos
-507,6,21-aliases-utiles-para-git.markdown,21 alias útiles para git
-71,6,7-cumpleanios.markdown,El Baúl Del Programador Cumple 7 Años
-230,6,crear-un-entorno-de-desarrollo-para-wordpress-con-git-capistrano-y-wp-deploy.md,"Crear un entorno de desarrollo para WordPress con Git, Capistrano y Wp-Deploy"
-280,6,instalar-atom-el-editor-de-github-en-linux.md,"Instalar Atom, el editor de GitHub en Linux"
-178,6,manual-de-git-gratuito.markdown,Manual De Git Gratuito
-211,6,la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource.md,La generación GitHub: Por qué ahora todos estamos en el opensource
-169,6,vinetas-geek-de-domingo-xiii.md,Viñetas Geek de Domingo (XIII)
-219,6,video-evolucion-del-blog-desde-el-punto-de-vista-de-git.markdown,Vídeo - Evolución Del Blog Desde El Punto De Vista De Git
-94,6,vinetas-geek-de-domingo-xii.md,Viñetas Geek de Domingo (XII)
-254,6,oh-my-git-personalizar-prompt-git.markdown,Cómo mostrar información de un repositorio Git en el prompt de tu terminal
-318,6,como-usar-los-filtros-smudge-y-clean-en-git.markdown,Como Usar Los Filtros Smudge Y Clean en Git
-549,6,mini-tutorial-y-chuleta-de-comandos-git.md,'Git: Mini Tutorial y chuleta de comandos'
-489,7,por-que-es-linux-mas-rapido-que-windows.md,¿Por qué es Linux más rápido que Windows?
-386,7,programacion-para-juegos-leccion-3.md,Programación para Juegos - Lección 3 - Librerías de SDL
-387,7,programacion-para-juegos-leccion-4.md,Programación para Juegos. Lección 4 . Programación orientada a eventos
-121,7,como-crear-un-bundle-symfony2.markdown,Cómo Crear Un Bundle Symfony2
-398,7,programacion-para-juegos-leccion-12.md,Programación para Juegos - Lección 1.2 - Hello World
-297,7,como-crear-shortcodes-en-wordpress.md,Cómo crear shortcodes en WordPress que soporten parámetros
-135,7,wxmaxima-encontro-un-error-durante-la-carga.md,Cómo resolver el error &#8216;wxMaxima encontró un error durante la carga&#8217;
-539,7,10-razones-para-rootear-tu-telefono-android.md,10 razones para rootear tu teléfono Android
-354,7,un-poco-de-circuitos-registros-y-generadores-de-secuencia.md,"Un poco de circuitos, regístros y generadores de secuencia"
-472,7,tipos-de-gobernadores-en-las-cpus.md,Tipos de gobernadores en las CPUs
-486,7,introduccion-al-ndk-de-android.md,Introducción al NDK de Android
-433,7,busca-en-google-lo-siguiente-y-veras.md,Busca en google lo siguiente y verás que pasa
-356,7,top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos.md,10 de las Mejores Herramientas en la Línea de Comandos
-514,7,interfaz-grafica-adapters-ii.md,Programación Android: Interfaz gráfica - Adapters II
-162,7,informacion-del-boicot-wikileaks.md,Recopilación de Información del Boicot a WikiLeaks
-441,7,programacion-android-recursos-layout.md,Programación Android: Recursos - Layout
-103,7,optimizando-el-tiempo-de-carga-del-blog.md,Optimizando el tiempo de carga del blog
-200,7,fundamentos-programacion-android_18.md,Fundamentos programación Android: Limpieza de Procesos
-84,7,enlightenment-foundation-libraries-efl.md,Enlightenment Foundation Libraries (EFL)
-68,7,fundamentos-programacion-android-ciclo.md,Fundamentos programación Android: Ciclo de vida de los componentes
-450,7,solucionar-fallo-de-segmentacion-en-php-cuando-se-usa-apc.md,Solucionar fallo de segmentación en PHP cuando se usa APC
-367,7,programacion-para-juegos-leccion-2.md,Programación para Juegos - Lección 2 - Imágenes Optimizadas
-506,7,regin-arquitectura-malware-de-primer-nivel-vigilancia-sigilosa.md,Regin - Arquitectura del Malware de primer nivel que permite una vigilancia sigilosa
-158,7,como-maximizar-la-vida-de-la-bateria-en-tu-laptop-linux.md,Cómo maximizar la Vida de la Batería en tu Laptop Linux
-112,7,como-configurar-un-balanceador-de-carga-en-entornos-cloud.md,Cómo configurar un balanceador de carga en entornos cloud
-383,7,odias-java-estas-peleando-una-batalla-equivocada.md,¿Odias Java? Estás peleando una batalla equivocada
-177,8,desafio-de-ingenieria-inversa-en-c.md,Desafío de ingeniería inversa en C
-359,8,lo-ultimo-en-criptografia-fully-homomorphic-encryption.md,Lo último en criptografía: Fully Homomorphic Encryption
-513,8,biometria-seguridad-patrones.markdown,Biometría Aplicada a La Seguridad - Reconocimiento De Patrones
-306,8,como-desarrollar-aplicaciones-en-un-servidor-cloud-2.md,Cómo desarrollar aplicaciones en un servidor Cloud
-362,8,todos-los-lugares-donde-deberias-habilitar-autenticacion-de-dos-factores-ahora-mismo.md,Todos los lugares donde deberías habilitar la Autenticación de Dos Factores ahora mismo
-93,8,cambiar-fondo-en-la-pantalla-de-login-en-debian-y-ubuntu.md,Cambiar fondo en la pantalla de login en Debian y Ubuntu
-475,8,basta-con-las-tablas-arcoiris-lo-que-necesitas-saber-sobre-esquemas-de-contrasenas-seguras.md,Basta con las Tablas Arcoiris: lo que necesitas saber sobre esquemas de contraseñas seguras
-337,8,aprende-a-programar-una-app-android-para-proteger-tus-pdfs.markdown,Aprende a Programar Una App Android Para Proteger Tus PDFs
-237,8,practica-3-bomba-digital-desensambladores.md,Desafío de ingeniería inversa en C. Soluciones
-196,8,tails-linux-importancia-privacidad.md,TAILS LINUX y la importancia de la privacidad
-438,8,cmo-cifar-un-usb-con-veracrypt.markdown,Cómo Cifar Un USB Con Veracrypt
-554,8,como-eliminar-tu-identidad-online-la-guia-fundamental-para-el-anonimato-y-la-seguridad-en-internet.md,Cómo eliminar tu identidad online: Guía Fundamental para el Anonimato  y Seguridad en Internet
-324,8,sqrl-y-la-idea-de-eliminar-el-uso-de-usuario-y-contrasena-en-internet.md,SQRL y la idea de eliminar el uso de usuario y contraseña en internet
-288,8,como-salir-mundo-google.md,Cómo salir del mundo de Google
-279,8,editar-y-crear-archivos-cifrados-con-gpg-en-vim.md,Editar y crear archivos cifrados con GPG en Vim
-79,8,el-token-de-seguridad-un-recurso-para-proteger-nuestras-cuenta.markdown,"El Token De Seguridad, Un Recurso Para Proteger Nuestras Cuenta"
-78,8,whatsapp-mensajes-cifrados-extremo-a-extremo.markdown,'WhatsApp: Entendiendo Su Cifrado Extremo a Extremo'
-152,8,el-uso-de-contrasenas-en-una-evolucion-tecnologica.md,El uso de contraseñas en una evolución tecnológica
-223,8,como-crear-un-dialogo-personalizado-en-las-preferencias-android.md,Cómo crear un diálogo personalizado en las preferencias Android
-8,8,entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook.md,"Entendiendo OAuth: Qué ocurre cuando te loggeas en un sitio con Google, Twitter o Facebook"
-402,8,como-se-almacenan-tus-contrasenas-en-internet-y-cuando-la-longitud-de-la-misma-no-importa.md,Cómo se almacenan tus contraseñas en internet (y cuando la longitud  de la misma no importa)
-114,8,explotacion-buffers-overflows-y-exploits-parte-i.md,Explotación - Buffers OverFlows y exploits (Parte I)
-470,8,6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login.md,6 formas usadas por los cibercriminales para robar o vulnerar credenciales de login
-251,8,sqrl-secure-quick-reliable-login-a-fondo.markdown,SQRL -Secure Quick Reliable Login a Fondo
-12,8,como-cifrar-archivos-con-openssl.md,Cómo cifrar archivos con openssl
-299,8,bloquear-ataques-de-fuerza-bruta-en-nginx-y-wordpress-con-fail2ban.md,Bloquear ataques de fuerza bruta en Nginx y WordPress con Fail2Ban
-347,8,como-cifrar-correos-con-gpg-con-mailvelope.md,Cómo cifrar correos electrónicos con GPG usando Mailvelope
-385,8,aplicacion-mensajeria-movil-segura-whatsapp-signal-allo.markdown,¿Qué Aplicación De Mensajería Móvil Es Más Segura?
-155,8,esnifando-la-red-pruebas-de-seguridad.md,'Esnifando la red (Pruebas de seguridad): Ettercap y Wireshark (Man in the middle)'
-336,9,nueva-guia-the-essentials-of-information-security-kit.md,Nueva Guía: The Essentials of Information Security Kit
-536,9,nueva-guia-gratuita-cybersecurity-dummies-ebook.md,Nueva guía gratuita: Cybersecurity for Dummies eBook
-164,9,el-modelo-de-seguridad-de-ios-charla-del-nesg-en-la-ugr.md,El modelo de seguridad de iOS (Charla del NESG en la UGR)
-530,9,nueva-guia-security-for-a-faster-world.md,Nueva Guía: Security for a Faster World
-497,9,optanetm-3d-nand-tecnologa-3d-xpoint-intel-ssds.markdown,"Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los SSDs"
-168,9,diagramas-animados-de-numeros-factorizados.md,Diagramas animados de números factorizados en HTML5
-416,9,saltarse-la-autentificacion-de-dos-factores-de-google.md,Saltarse la autentificación de dos factores de Google
-409,9,nueva-guia-voip-vulnerabilities.md,Nueva Guía: VoIP Vulnerabilities
-407,9,los-rss-del-blog-ahora-muestran-el-contenido-completo.markdown,Los RSS Del Blog Ahora Muestran El Contenido Completo
-224,9,bittorrent-sync-tus-archivos-sincronizados-sin-intermediarios.md,'BitTorrent Sync: Tus archivos sincronizados sin intermediarios'
-405,9,nueva-guia-behind-the-mask-the-changing-face-of-hacking.markdown,"Nueva Guía: Behind the Mask, the Changing Face of Hacking"
-396,9,nueva-gua-the-essentials-of-information-security-kit.markdown,Nueva Guía: The Essentials of Information Security Kit
-186,9,nueva-guia-system-administration-and-security-salary-and-skills-report.markdown,Nueva Guía: System Administration & Security - Salary & Skills Report
-124,9,resources-channels-blogs-podcast-about-computer-science-security-data-science.md,"54 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad"
-418,9,rss-feeds-para-cada-categora.markdown,Rss Feeds Para Cada Categoría
-81,9,nueva-guia-big-security-for-big-data.md,Nueva Guía: Big Security for Big Data
-434,9,nueva-guia-session-hijacking-how-to-protect-your-customers-and-your-corporate-data.md,Nueva guía: Session Hijacking: How to Protect your Customers and your Corporate Data
-41,9,history-of-cryptography.md,Nueva guía: History of cryptography
-375,9,nueva-guia-the-top-10-reports-for-managing-vulnerabilities.md,Nueva Guía: The Top 10 Reports for Managing Vulnerabilities
-308,9,por-que-la-autentificacion-de-2-factores-depende-de-la-experiencia-del-usuario.md,Por qué la autentificación de 2 factores depende de la experiencia del usuario
-377,9,suscritebe-al-feed-rss-unicamente-en-las-categorias-que-te-interesen.md,Suscríbete al feed RSS únicamente en las categorías que te interesen
-216,9,nueva-guia-computer-and-hacking-forensics-free-video-training-course.markdown,Nueva Guía: Computer and Hacking Forensics - FREE Video Training Course
-555,10,crear-modulo-python-con-python-c-api-3-distutils.md,Crear un módulo para python con la Python C API (III) - DistUtils
-328,10,como-crear-comandos-personalizados-en-emacs.markdown,Cómo Crear Comandos Personalizados en Emacs
-167,10,nuevos-cursos-disponibles-en-udacity-la-universidad-online-gratuita.md,"Nuevos Cursos disponibles en Udacity, la universidad online gratuita"
-421,10,como-instalar-actualizar-elminar-paquetes-gentoo.markdown,Cómo Instalar/actualizar/eliminar Paquetes en Gentoo
-557,10,aprende-construir-un-motor-de-busqueda.md,Aprende a construir un motor de búsqueda y un coche autónomo con Udacity
-436,10,top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos-segunda-parte.md,10 de las Mejores Herramientas en la Línea de Comandos II
-440,10,python4kids-aprende-programar-en-python.md,Python4Kids. Aprende a programar en python fácilmente
-4,10,como-invertir-una-cadena-en-unix.md,Cómo invertir una cadena en Unix
-439,10,como-empezar-programar-how-start.md,Cómo empezar a programar
-90,10,programando-videojuegos-en-python.md,Programando Videojuegos en Python
-239,10,suplantacion-de-identidad-en-facebook.md,Suplantación de identidad en Facebook
-310,10,crear-modulo-python-con-python-c-api-4.md,Crear un módulo para python con la Python C API (IV) - HerramientasRed
-406,10,introduccion-a-las-expresiones-regulares-en-python.md,Introducción a las expresiones regulares en python
-267,10,crear-modulo-python-con-python-c-api-5-python3.md,Crear un módulo para python con la Python C API (V) \u2013 Python 3
-16,10,botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android.md,"BotBrew basil, Compila, instala y ejecuta aplicaciones Linux en Android"
-301,10,python-para-principiantes.md,Python para principiantes
-388,10,crear-modulo-python-con-python-c-api-2.md,Crear un módulo para python con la Python C API (II) - Primer ejemplo
-128,10,libro-gratuito-python-programming-cookbook.markdown,Guía Gratuita - Python Programming Cookbook
-319,10,crear-modulo-python-con-python-c-api-1.md,Crear un módulo para python con la Python C API (I) - Introducción
-527,10,python-lista-de-listas-eficiente.markdown,Crear Una Lista De Listas De Forma Eficiente en Python
-353,10,python-c-api-como-pasar-un-array-de-structs-desde-c-python.md,Python C API - Cómo pasar un array de structs desde C a Python
-504,10,9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer.markdown,18 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer
-369,10,tutorial-de-python-v270.md,Tutorial de Python v2.7.0
-521,10,resolucion-de-ecuaciones-lineales-con-dos-incognitas.md,Cómo resolver sistemas de ecuaciones lineales con dos incógnitas en Python
-104,10,introduccion-django-instalacion-y-primer-proyecto.md,Introducción a Django - Instalación y primer proyecto
-541,10,Compile-OpenCV-3.2-with-Java-IntelliJ-IDEA.md,Compilar OpenCV 3.2 para Java y usarlo en IntelliJ IDEA
+71,1,conversor-markdow-a-latex.markdown,Un Conversor De Markdown a LaTeX Casero en Lex
+68,1,informe-sobre-defensa-frente-a-ciberamenazas-2015-por-cyberedge-group.markdown,Informe Sobre Defensa Frente a Ciberamenazas 2015. Por CyberEdge Group
+67,1,lo-mas-leido-en-elbauldelprogramador.md,Lo más leido en ElbaulDelProgramador (Noviembre 2011)
+65,1,error-al-implementar-amp-mustache.markdown,Cómo solucionar errores Al Implementar Amp-mustache
+64,1,nuevo-logo-para-el-blog.markdown,Nuevo Logo Para El Blog
+62,1,la-recursividad-explicada-por-homer.md,"La recursividad, explicada por Homer Simpson"
+59,1,cuarto-hackathon-de-proyectos-de.md,Cuarto Hackathon de proyectos de software libre de la UGR
+57,1,java-open-source-se-mueve-a-linux-aix-en-powerpc.md,"Java Open Source se mueve a Linux, AIX en PowerPC"
+56,1,chat-y-foros-de-proxima-generacion-de-pioneros-del-codigo-abierto.md,"Chat y Foros de Próxima Generación, de pioneros del Código Abierto"
+31,1,tech-comics-geek-en-el-oculista-humor.md,Tech Comics: \u201CGeek en el oculista\u201D [HUMOR]
+55,1,practica-2b-guion.md,Optimizando código y evaluando el rendimiento
+52,1,acceder-variable-dentro-funcion-r.markdown,Cómo modificar Una Variable Desde Dentro De Una Función en R
+51,1,nueva-guia-administracion-avanzada-del.md,Guía gratuita: Administración Avanzada del Sistema Operativo GNU/Linux
+50,1,usos-del-boton-central-del-raton-use.md,Usos del botón central del ratón
+48,1,programacion-android-intents-conceptos.md,Programación Android: Intents - Conceptos básicos
+47,1,actualizacion-del-curso-de-android.markdown,Actualización Del Curso De Android
+46,1,desarrollo-android-que-es-android.md,Desarrollo android. ¿Qué es Android?. Traducción de developer.android.com
+43,1,clases-y-objetos-pasar-un-objeto-una.md,Clases y Objetos - Pasar un objeto a una función
+39,1,eliminar-la-pila-de-actividades-back-stack-en-android.md,Eliminar la pila de actividades (Back Stack) en Android
+37,1,eres-chica-y-te-gusta-la-informatica-participa-en-el-campus-ugrgoogle-para-chicas.md,"¿Eres chica y te gusta la informática?, participa en el campus UGR/Google para chicas"
+53,1,por-que-gnulinux-no-es-solo-para-geeks.md,Por qué GNU/Linux no es solo para Geeks
+154,1,rockmelt-una-navegador-social-basado-en.md,"Rockmelt, una navegador social basado en Chromium"
+104,1,programacion-android-hola-mundo.md,Programación Android: Hola Mundo
+567,1,como-depurar-una-aplicacion-en-django.md,Cómo depurar una aplicación en Django
+198,1,crean-un-algoritmo-que-replica-tu-letra.markdown,Crean Un Algoritmo Que Replica Tu Letra
+217,1,logrando-el-anonimato-con-tor-parte-2-proxies-y-servidores-de-dns.md,'Logrando el anonimato con Tor (Parte 2) : Proxies y servidores de DNS'
+197,1,que-son-los-archivos-mkv-what-is-mkv.md,¿Que son los archivos mkv?
+196,1,vinetas-geek-de-domingo-iv.md,Viñetas Geek de Domingo (IV)
+211,1,evaluando-el-estado-de-la-licencia-gpl.md,Evaluando el estado de la licencia GPL
+195,1,jugando-con-la-seccion-dtors-de-la-tabla-de-secciones-en-c.md,Jugando con las secciones .dtors y .ctors de la tabla de secciones en C
+168,1,como-crear-un-repositorio-ppa-how.md,Como crear un PPA (Personal Package Archive)
+169,1,programacion-abap-hola-mundo-en-reports.md,Programación ABAP: Hola Mundo en Reports
+194,1,google-lanza-contributor-apoya-a-tus-webs-favoritas-sin-ver-anuncios.markdown,"Google Lanza Contributor, Apoya a Tus Webs Favoritas Sin Ver Anuncios"
+215,1,tablet-vs-e-reader-cual-ganara.md,Tablet Vs e-Reader: ¿cuál ganará?
+192,1,primer-capitulo-programacion-android.md,Disponible la primera parte del curso Android en PDF
+191,1,los-origenes-de-los-simbolos-tecnologicos-mas-famosos-y-frecuentes.md,Los orígenes de los símbolos tecnológicos más famosos y frecuentes
+174,1,programacion-android-recursos-trabajar-2.md,Programación Android: Recursos - Trabajar con recursos RAW
+190,1,clases-y-objetos-control-del-acceso-los.md,Clases y Objetos. Control del acceso a los miembros de la clase
+212,1,brujula-android-asr-voz.markdown,Crear Una Brújula Con Reconocimiento De Voz en Android
+213,1,patron-desbloqueo-android.markdown,Crear Un Patrón De Desbloqueo Android
+188,1,solucionar-android-calling-startactivity-from-outside-of-an-activity-context-requires-the-flag_activity_new_task-flag.md,Solucionar el error en Android Calling startActivity from outside of an Activity  context requires the FLAG_ACTIVITY_NEW_TASK flag
+187,1,terminada-la-primera-parte-del-manual.md,Terminada la primera parte del manual Android
+175,1,generar-codigo-css-3-facilmente.md,Generar código CSS 3 fácilmente
+186,1,quic-analisis-practico-del-protocolo-de-google.md,QUIC: Análisis práctico del protocolo de Google
+178,1,logrando-el-anonimato-con-tor-parte-1.md,Logrando el anonimato con Tor (Parte 1)
+179,1,algoritmos-de-caminos-cortos.md,Algoritmos de caminos cortos.
+204,1,nueva-guia-4-key-recommendations-cloud-integration.md,Nueva guía: 4 Key Recommendations for Cloud Integration
+185,1,fundamentos-aplicaciones-android-parte_19.md,Fundamentos aplicaciones Android. (Parte III) -Activando Componentes
+184,1,como-hacer-que-google-deje-de-usar-tu.md,Cómo hacer que google deje de usar tu Wifi para obtener datos de geolocalización
+164,1,que-es-quic-el-nuevo-protocolo-desarrollado-por-google.md,"Qué es QUIC, el nuevo protocolo desarrollado por Google"
+210,1,mini-grep-en-c-busca-palabras-en-archivos.md,"Mini grep en C++, busca palabras en archivos"
+183,1,google-io-2011-android-protips-temas.md,'Google I/O 2011: Android Protips - Temas avanzados para desarrolladores expertos'
+209,1,vota-por-el-logo-que-mas-te-guste-para-el-baul-del-programador.md,Vota por el logo que más te guste para El Baúl del Programador
+205,1,programacion-android-recursos-recursos.md,Programación Android: Recursos - Recursos y cambios de configuración
+202,1,google-y-su-humor-en-la-documentacion-de-android.md,Google y su humor en la documentación de Android
+200,1,nueva-guia-bootstrap-programming-cookbook.markdown,Guía gratuita - Bootstrap Programming Cookbook
+206,1,vinetas-geek-de-domingo-3.md,Viñetas Geek de Domingo
+157,1,logrando-el-anonimato-con-tor-parte-4.md,Logrando el anonimato con Tor (Parte 4) - Tor para relés
+207,1,the-power-of-predictive-analytics.markdown,Guía Gratuita: The Power of Predictive Analytics
+201,1,nueva-guia-your-guide-to-google-analytics.md,Nueva Guía: Your Guide to Google Analytics
+163,1,clases-y-objetos-el-constructor.md,Clases y Objetos. El Constructor
+159,1,cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir.md,"¿Cual es la diferencia entre los distintos formatos de audio, y cual debería  elegir?"
+208,1,programacion-para-juegos-leccion-1.md,Programación para Juegos - Lección 1 - Instalando SDL
+160,1,cant-update-to-firefox-48-in-gentoo-nss-version-too-old.markdown,Error NSS Al Actualizar Firefox 48 en Gentoo
+189,2,nueva-guia-system-administration-and-security-salary-and-skills-report.markdown,Nueva Guía: System Administration & Security - Salary & Skills Report
+171,2,diagramas-animados-de-numeros-factorizados.md,Diagramas animados de números factorizados en HTML5
+312,2,por-que-la-autentificacion-de-2-factores-depende-de-la-experiencia-del-usuario.md,Por qué la autentificación de 2 factores depende de la experiencia del usuario
+379,2,nueva-guia-the-top-10-reports-for-managing-vulnerabilities.md,Nueva Guía: The Top 10 Reports for Managing Vulnerabilities
+219,2,nueva-guia-computer-and-hacking-forensics-free-video-training-course.markdown,Nueva Guía: Computer and Hacking Forensics - FREE Video Training Course
+501,2,optanetm-3d-nand-tecnologa-3d-xpoint-intel-ssds.markdown,"Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los SSDs"
+381,2,suscritebe-al-feed-rss-unicamente-en-las-categorias-que-te-interesen.md,Suscríbete al feed RSS únicamente en las categorías que te interesen
+535,2,nueva-guia-security-for-a-faster-world.md,Nueva Guía: Security for a Faster World
+400,2,nueva-gua-the-essentials-of-information-security-kit.markdown,Nueva Guía: The Essentials of Information Security Kit
+60,2,por-que-nuestro-pc-necesita-un-firewall.md,Por qué nuestro PC necesita un firewall activado
+541,2,nueva-guia-gratuita-cybersecurity-dummies-ebook.md,Nueva guía gratuita: Cybersecurity for Dummies eBook
+409,2,nueva-guia-behind-the-mask-the-changing-face-of-hacking.markdown,"Nueva Guía: Behind the Mask, the Changing Face of Hacking"
+422,2,rss-feeds-para-cada-categora.markdown,Rss Feeds Para Cada Categoría
+411,2,los-rss-del-blog-ahora-muestran-el-contenido-completo.markdown,Los RSS Del Blog Ahora Muestran El Contenido Completo
+340,2,nueva-guia-the-essentials-of-information-security-kit.md,Nueva Guía: The Essentials of Information Security Kit
+438,2,nueva-guia-session-hijacking-how-to-protect-your-customers-and-your-corporate-data.md,Nueva guía: Session Hijacking: How to Protect your Customers and your Corporate Data
+413,2,nueva-guia-voip-vulnerabilities.md,Nueva Guía: VoIP Vulnerabilities
+167,2,el-modelo-de-seguridad-de-ios-charla-del-nesg-en-la-ugr.md,El modelo de seguridad de iOS (Charla del NESG en la UGR)
+41,2,history-of-cryptography.md,Nueva guía: History of cryptography
+83,2,nueva-guia-big-security-for-big-data.md,Nueva Guía: Big Security for Big Data
+127,2,resources-channels-blogs-podcast-about-computer-science-security-data-science.md,"54 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad"
+107,3,los-10-artculos-ms-visitados-de-2015.markdown,Los 10 Artículos Más Visitados De 2015
+272,3,masterbranch-crea-tu-perfil-como.md,MasterBranch - Crea tu perfil como Programador y muestra todos tus proyectos
+511,3,21-aliases-utiles-para-git.markdown,21 alias útiles para git
+214,3,la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource.md,La generación GitHub: Por qué ahora todos estamos en el opensource
+506,3,eliminar-ficheros-grandes-github.markdown,Cómo Eliminar Ficheros Demasiado Grandes Para GitHub
+222,3,video-evolucion-del-blog-desde-el-punto-de-vista-de-git.markdown,Vídeo - Evolución Del Blog Desde El Punto De Vista De Git
+322,3,como-usar-los-filtros-smudge-y-clean-en-git.markdown,Como Usar Los Filtros Smudge Y Clean en Git
+96,3,vinetas-geek-de-domingo-xii.md,Viñetas Geek de Domingo (XII)
+407,3,chuleta-atajos-teclado-emacs.markdown,Chuleta De Comandos / Atajos De Teclado / Paquetes más útiles para Emacs
+181,3,manual-de-git-gratuito.markdown,Manual De Git Gratuito
+284,3,instalar-atom-el-editor-de-github-en-linux.md,"Instalar Atom, el editor de GitHub en Linux"
+23,3,recommended-books.md,Libros recomendados
+172,3,vinetas-geek-de-domingo-xiii.md,Viñetas Geek de Domingo (XIII)
+258,3,oh-my-git-personalizar-prompt-git.markdown,Cómo mostrar información de un repositorio Git en el prompt de tu terminal
+233,3,crear-un-entorno-de-desarrollo-para-wordpress-con-git-capistrano-y-wp-deploy.md,"Crear un entorno de desarrollo para WordPress con Git, Capistrano y Wp-Deploy"
+7,3,gource-visualizar-la-evolucion-de-un-repositorio-git.md,Gource: Visualizar la evolución de un repositorio Git
+554,3,mini-tutorial-y-chuleta-de-comandos-git.md,'Git: Mini Tutorial y chuleta de comandos'
+347,3,sincronizacin-de-proyectos-en-git-con-hooks-ganchos.markdown,Sincronización de proyectos en git con hooks (ganchos)
+72,3,7-cumpleanios.markdown,El Baúl Del Programador Cumple 7 Años
+32,4,programacion-para-juegos-leccion-5.md,Programación para Juegos - Lección 5 - Colores Clave
+297,4,3-juegos-para-linux.md,3 Juegos para Linux
+239,4,juegos-linux-clockwork-man-1-y-2.md,"Juegos Linux, The Clockwork Man 1 y 2"
+302,4,grub-customizer-20-personaliza-tu-grub2.md,"Grub Customizer 2.0, personaliza tu GRUB2"
+414,4,ocultarrevelar-informacion-dentro-de.md,Ocultar/Revelar información dentro de imágenes con C++
+273,4,programacion-para-juegos-articulo-3-que.md,Programación para Juegos. Artículo 3. ¿Qué es un pixel?
+125,4,como-definir-colores-personalizados-en-latex.markdown,Cómo Definir Colores Personalizados en LaTeX
+470,4,ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen.md,Ocultar archivos dentro de una imagen
+529,4,probando-rockmelt.md,Probando RockMelt
+388,4,obtener-dimension-imagen-internet-url.markdown,Cómo Obtener La Dimensión De Una Imagen en Internet
+451,4,como-configurar-dunst-un-daemon-de-notificaciones-altamente-configurable.markdown,"Cómo Configurar Dunst, Un Daemon De Notificaciones Altamente Configurable"
+61,4,cambiar-el-color-del-summary-en-una-preferencia-android.md,Cambiar el color del summary en una Preferencia Android
+10,4,curso-de-latex-figuras-enlaces-y-cabeceras.md,"Mini Curso de LaTeX - Figuras, Enlaces y cabeceras"
+509,4,programacion-android-recursos-strings.md,Programación Android: Recursos - Strings
+66,4,primeros-pasos-programando-con-kinect.markdown,Primeros Pasos Programando Con Kinect
+401,4,programacion-android-interfaz-grafica_23.md,Programación Android: Interfaz gráfica - Layouts
+63,4,las-medallas-de-oro-en-las-olimpiadas-desde-1896-visualizadas.markdown,"Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016"
+288,4,statuscolor-dwm-6-1.md,Colorear la barra de estado con Simple StatusColor en DWM 6.1
+396,4,compilar-automaticamente-ficheros-en-latex-mientras-los-modificamos.markdown,Compilar Automáticamente Ficheros en LaTeX Mientras Los Modificamos
+176,4,pon-dieta-tus-apks.md,Pon a dieta a tus APKs
+14,4,14-ejemplos-visualizacion-datos.markdown,15 Ejemplos De Las Mejores Visualizaciones De Datos
+199,5,tails-linux-importancia-privacidad.md,TAILS LINUX y la importancia de la privacidad
+240,5,practica-3-bomba-digital-desensambladores.md,Desafío de ingeniería inversa en C. Soluciones
+80,5,whatsapp-mensajes-cifrados-extremo-a-extremo.markdown,'WhatsApp: Entendiendo Su Cifrado Extremo a Extremo'
+479,5,basta-con-las-tablas-arcoiris-lo-que-necesitas-saber-sobre-esquemas-de-contrasenas-seguras.md,Basta con las Tablas Arcoiris: lo que necesitas saber sobre esquemas de contraseñas seguras
+442,5,cmo-cifar-un-usb-con-veracrypt.markdown,Cómo Cifar Un USB Con Veracrypt
+474,5,6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login.md,6 formas usadas por los cibercriminales para robar o vulnerar credenciales de login
+81,5,el-token-de-seguridad-un-recurso-para-proteger-nuestras-cuenta.markdown,"El Token De Seguridad, Un Recurso Para Proteger Nuestras Cuenta"
+255,5,sqrl-secure-quick-reliable-login-a-fondo.markdown,SQRL -Secure Quick Reliable Login a Fondo
+517,5,biometria-seguridad-patrones.markdown,Biometría Aplicada a La Seguridad - Reconocimiento De Patrones
+180,5,desafio-de-ingenieria-inversa-en-c.md,Desafío de ingeniería inversa en C
+366,5,todos-los-lugares-donde-deberias-habilitar-autenticacion-de-dos-factores-ahora-mismo.md,Todos los lugares donde deberías habilitar la Autenticación de Dos Factores ahora mismo
+406,5,como-se-almacenan-tus-contrasenas-en-internet-y-cuando-la-longitud-de-la-misma-no-importa.md,Cómo se almacenan tus contraseñas en internet (y cuando la longitud  de la misma no importa)
+292,5,como-salir-mundo-google.md,Cómo salir del mundo de Google
+95,5,cambiar-fondo-en-la-pantalla-de-login-en-debian-y-ubuntu.md,Cambiar fondo en la pantalla de login en Debian y Ubuntu
+116,5,explotacion-buffers-overflows-y-exploits-parte-i.md,Explotación - Buffers OverFlows y exploits (Parte I)
+158,5,esnifando-la-red-pruebas-de-seguridad.md,'Esnifando la red (Pruebas de seguridad): Ettercap y Wireshark (Man in the middle)'
+226,5,como-crear-un-dialogo-personalizado-en-las-preferencias-android.md,Cómo crear un diálogo personalizado en las preferencias Android
+310,5,como-desarrollar-aplicaciones-en-un-servidor-cloud-2.md,Cómo desarrollar aplicaciones en un servidor Cloud
+328,5,sqrl-y-la-idea-de-eliminar-el-uso-de-usuario-y-contrasena-en-internet.md,SQRL y la idea de eliminar el uso de usuario y contraseña en internet
+8,5,entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook.md,"Entendiendo OAuth: Qué ocurre cuando te loggeas en un sitio con Google, Twitter o Facebook"
+420,5,saltarse-la-autentificacion-de-dos-factores-de-google.md,Saltarse la autentificación de dos factores de Google
+303,5,bloquear-ataques-de-fuerza-bruta-en-nginx-y-wordpress-con-fail2ban.md,Bloquear ataques de fuerza bruta en Nginx y WordPress con Fail2Ban
+341,5,aprende-a-programar-una-app-android-para-proteger-tus-pdfs.markdown,Aprende a Programar Una App Android Para Proteger Tus PDFs
+155,5,el-uso-de-contrasenas-en-una-evolucion-tecnologica.md,El uso de contraseñas en una evolución tecnológica
+559,5,como-eliminar-tu-identidad-online-la-guia-fundamental-para-el-anonimato-y-la-seguridad-en-internet.md,Cómo eliminar tu identidad online: Guía Fundamental para el Anonimato  y Seguridad en Internet
+556,6,ejemplos-nftables.markdown,Introducción Y Ejemplos De NfTables
+58,6,tunning-basico-de-sql.md,Tunning básico de SQL
+225,6,lenguaje-definicion-de-datos-ddl_27.md,Lenguaje Definición de Datos (DDL) - Sinónimos y Pseudocolumnas
+564,6,codigos-secretos-y-ocultos-para-android.md,Códigos secretos y ocultos para Android
+128,6,pylabra-aplicacion-para-almacenar.md,Pylabra. Aplicación para almacenar vocabulario
+129,6,como-mejorar-el-rendimiento-de-windows-8.md,Cómo mejorar el rendimiento de Windows 8
+133,6,nullpointerexception-facebook.markdown,Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo
+344,6,lenguaje-definicion-de-datos-ddl-vistas.md,Lenguaje Definición de Datos (DDL) - Vistas
+145,6,como-recuperar-datos-borrados-de-un-disco.markdown,Cómo Recuperar Datos Borrados De Un Disco
+285,6,componentes-del-lenguaje-sql-sql.md,Componentes del lenguaje SQL
+382,6,lenguaje-definicion-de-datosddl-drop.md,Lenguaje Definición de Datos (DDL) - DROP
+177,6,lenguaje-manipulacion-de-datos-dml.md,Lenguaje Manipulación de Datos (DML)
+89,6,programacion-android-actualizar-y.md,Programación Android: Actualizar y borrar registros
+450,6,how-to-mantain-patchs-quilt-tutorial.md,Cómo mantener varios parches - Un tutorial sobre Quilt
+182,6,lenguaje-definicion-de-datos-ddl.md,Lenguaje Definición de Datos (DDL) - \xCDndices y secuencias
+78,6,clases-y-objetos-definir-una-clase.md,Clases y Objetos. Definir una Clase
+454,7,solucionar-fallo-de-segmentacion-en-php-cuando-se-usa-apc.md,Solucionar fallo de segmentación en PHP cuando se usa APC
+475,7,se-puede-realmente-secuenciar-adn-con-un-dispositivo-usb.md,¿Se puede realmente secuenciar ADN con un dispositivo USB?
+476,7,tipos-de-gobernadores-en-las-cpus.md,Tipos de gobernadores en las CPUs
+358,7,un-poco-de-circuitos-registros-y-generadores-de-secuencia.md,"Un poco de circuitos, regístros y generadores de secuencia"
+518,7,interfaz-grafica-adapters-ii.md,Programación Android: Interfaz gráfica - Adapters II
+437,7,busca-en-google-lo-siguiente-y-veras.md,Busca en google lo siguiente y verás que pasa
+544,7,10-razones-para-rootear-tu-telefono-android.md,10 razones para rootear tu teléfono Android
+165,7,informacion-del-boicot-wikileaks.md,Recopilación de Información del Boicot a WikiLeaks
+161,7,como-maximizar-la-vida-de-la-bateria-en-tu-laptop-linux.md,Cómo maximizar la Vida de la Batería en tu Laptop Linux
+86,7,enlightenment-foundation-libraries-efl.md,Enlightenment Foundation Libraries (EFL)
+490,7,introduccion-al-ndk-de-android.md,Introducción al NDK de Android
+138,7,wxmaxima-encontro-un-error-durante-la-carga.md,Cómo resolver el error &#8216;wxMaxima encontró un error durante la carga&#8217;
+203,7,fundamentos-programacion-android_18.md,Fundamentos programación Android: Limpieza de Procesos
+360,7,top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos.md,10 de las Mejores Herramientas en la Línea de Comandos
+124,7,como-crear-un-bundle-symfony2.markdown,Cómo Crear Un Bundle Symfony2
+402,7,programacion-para-juegos-leccion-12.md,Programación para Juegos - Lección 1.2 - Hello World
+387,7,odias-java-estas-peleando-una-batalla-equivocada.md,¿Odias Java? Estás peleando una batalla equivocada
+69,7,fundamentos-programacion-android-ciclo.md,Fundamentos programación Android: Ciclo de vida de los componentes
+391,7,programacion-para-juegos-leccion-4.md,Programación para Juegos. Lección 4 . Programación orientada a eventos
+114,7,como-configurar-un-balanceador-de-carga-en-entornos-cloud.md,Cómo configurar un balanceador de carga en entornos cloud
+390,7,programacion-para-juegos-leccion-3.md,Programación para Juegos - Lección 3 - Librerías de SDL
+105,7,optimizando-el-tiempo-de-carga-del-blog.md,Optimizando el tiempo de carga del blog
+371,7,programacion-para-juegos-leccion-2.md,Programación para Juegos - Lección 2 - Imágenes Optimizadas
+493,7,por-que-es-linux-mas-rapido-que-windows.md,¿Por qué es Linux más rápido que Windows?
+500,8,sincronizar-google-drive-en-linux-en-4-pasos.md,Sincronizar Google Drive en Linux en 4 pasos
+33,8,script-resaltado-sintaxis.md,Script resaltado sintaxis c++
+150,8,convertir-archivos-mp4-a-mp3-masivamente.md,Convertir archivos mp4 a mp3 masívamente
+327,8,combatir-los-comentarios-de-spam-en-wordpress.md,Combatir los comentarios de spam en WordPress
+162,8,ocultar-los-metaficheros-de-latex-del-directorio-de-trabajo.markdown,Ocultar Los Metaficheros De LaTeX Del Directorio De Trabajo
+42,8,crea-scripts-para-las-aplicaciones-de-google-con-apps-script.md,Crea scripts para las aplicaciones de Google con Apps Script
+304,8,como-instalar-nginx-con-php5-fpm.md,Cómo instalar y configurar Nginx con php5-fpm
+563,8,bash-syntax-highlighted-script.md,Script resaltado sintaxis bash
+35,8,buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.md,Buscar archivos con locate mediante expresiones regulares
+505,8,configurar-xmonad-con-trayer-y-fondo-de-pantalla-aleatorio.md,Configurar xmonad con trayer y fondo de pantalla aleatorio
+321,8,como-ordenar-imagenes-por-resolucion.md,Cómo ordenar imágenes por resolución
+427,8,gestion-basica-de-usuarios-en-linux.md,Gestión básica de usuarios en linux
+384,8,sincronizar-google-drive-en-linux-en-4-pasos-actualizacion.md,Sincronizar Google Drive en Linux en 4 pasos [Actualización]
+228,8,crear-imagenes-en-miniaturas.md,Crear miniaturas de imágenes
+433,8,configurar-dos-pantallas-en-openbox.md,Configurar dos pantallas en OpenBox bajo CruchBang y wallpaper aleatorio
+435,8,crear-miniaturas-de-imagenes-mejorado.md,Crear miniaturas de imágenes [Mejorado]
+315,8,como-saber-si-tus-visitantes-usan-ad-block.md,Cómo saber si tus visitantes usan Ad-Block
+77,8,copiar-archivos-recursivamente.md,Copiar archivos recursivamente
+398,8,como-tener-un-terminal-transparente-como-wallpaper-que-muestre-informacion.md,Cómo tener un terminal transparente como wallpaper que muestre información
+492,8,grub-customizer-20.md,Grub Customizer 2.0
+536,8,instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente.md,"Instalar y configurar DWM, el gestor de ventanas más eficiente"
+93,8,generar-listas-de-reproduccion-determinada-duracion-python.md,Generar listas de reproducción de una determinada duración con Python
+378,8,imagen-terminal-color-texto-a-juego-linux.markdown,"Cambia La Imágen De Fondo Del Terminal Gnome Y Pon Un Color De Texto a Juego, Automáticamente"
+552,8,vinetas-geek-de-domingo-xi.md,Viñetas Geek de Domingo (XI)
+533,8,instalacion-optimizacion-servidor-web-nginx-i.md,Instalación y optimización de un servidor web con Nginx (I)
+424,8,bash-syntax-highlighted-script-improved.md,Script resaltado sintaxis bash (Mejorado)
+235,8,como-crear-un-front-controller-en-php.md,Cómo crear un Front Controller en PHP
+346,8,entendiendo-los-runlevel-en-debian-y-ubuntu.md,Entendiendo los runlevel en Debian
+561,8,ejecutar-un-script-al-modificar-un-fichero-con-inotify.md,Ejecutar un script al modificar un fichero con inotify
+551,8,de-excel-a-python-y-r.markdown,Cómo Pasé De Usar Excel a Usar R Y Python
+9,9,diseno-de-bases-de-datos-ii.md,Diseño de Bases de Datos ( II ) - Restricciones
+538,9,plsql-declaracion-de-variables.md,PL/SQL. Declaración de variables
+216,9,programacion-android-recursos-plurales.md,Programación Android: Recursos - Plurales
+223,9,programacion-android-interfaz-grafica_08.md,Programación Android: Interfaz gráfica - Menús
+156,9,como-anadir-automaticamente-el-tamao-de-una-imagen-en-html-con-python.markdown,Cómo Añadir Automáticamente El Tamaño De Una Imagen en HTML Con  Python
+510,9,regin-arquitectura-malware-de-primer-nivel-vigilancia-sigilosa.md,Regin - Arquitectura del Malware de primer nivel que permite una vigilancia sigilosa
+301,9,como-crear-shortcodes-en-wordpress.md,Cómo crear shortcodes en WordPress que soporten parámetros
+348,9,diseno-de-bases-de-datos-i-conceptos.md,Diseño de Bases de Datos ( I ) - Conceptos del Modelo Relacional
+166,9,introduccion-abap.md,Introducción a ABAP
+356,9,programacion-android-recursos-sintaxis.md,Programación Android: Recursos - Sintaxis de los Recursos
+121,9,optimizando-la-interfaz-android-compound-drawables.md,Optimizando la interfaz Android - Compound Drawables
+173,9,programacion-android-recursos-usando.md,Programación Android: Recursos - Usando recursos
+286,9,consulta-de-datos-clausula-where.md,Consulta de Datos - Cláusula WHERE
+385,9,programacion-android-interfaz-grafica.md,Programación Android: Interfaz gráfica. Conceptos básicos
+423,9,sorteo-wordpress.md,Sorteamos 10 matrículas gratuitas para cursos de desarrollo WordPress y cupones de descuento
+516,9,fundamentos-programacion-android_17.md,"Fundamentos programación Android: Actividades, Tareas, Procesos e Hilos"
+445,9,programacion-android-recursos-layout.md,Programación Android: Recursos - Layout
+460,9,estilosytemas.md,Programación Android: Interfaz gráfica - Estilos y Temas
+426,9,programacion-android-strictmode.md,Programación Android: StrictMode
+252,9,tutorial-android-hola-mundo-a-fondo.markdown,Tutorial Android - Hola Mundo a Fondo
+503,9,ejemplo-pdoo-ruby.md,Introducción rápida a Ruby
+376,10,programacion-android-implementando-un_14.md,Programación Android: Implementando un Content Provider (Parte 3)
+40,10,enlaces-de-la-semana-i-2.md,Enlaces de la semana (I)
+372,10,openlibra-biblioteca-libre-online.markdown,OpenLibra Cumple 5 Años Y Estrena Versión 2.0
+555,10,vectorizar-acceso-columnas-r.markdown,Vectorizar El Acceso a Columnas en R
+498,10,plsql-disparadores-o-triggers.md,PL/SQL. Disparadores o Triggers
+122,10,persistencia-datos.markdown,Programación Android: Persistencia De Datos
+499,10,programar-navegador-gps-android.markdown,Crear Un Navegador GPS Que Dibuje El Camino Seguido en Android
+256,10,como-configurar-entornos-de-desarrollo-para-aplicaciones-moviles-en-un-servidor-cloud.md,Cómo configurar entornos de desarrollo para aplicaciones móviles en  un servidor cloud
+38,10,crear-un-gridview-con-adaptador-personalizado-en-android.md,Crear un GridView con Adaptador personalizado en Android
+300,10,programacion-android-insertando.md,Programación Android: Insertando registros
+36,10,consulta-de-datos-clausula-group-by.md,Consulta de Datos - Cláusula GROUP BY
+311,10,programacion-android-usando-cursores.md,Programación Android: Usando cursores
+325,10,incluir-imagenes-en-una-entrada-de-wordpress-usando-php.md,Incluir imágenes en una entrada de WordPress usando PHP
+151,10,programacion-android-implementando-un.md,Programación Android: Implementando un Content Provider (Parte 1)
+44,10,crear-webapps-con-soporte-html5-css3-y.md,"Crear WebApps con soporte HTML5, CSS3 y JavaScript con el LungoJs framework"
+550,10,detectar-archivos-png-con-c.md,Detectar archivos PNG con C++
+110,10,5-razones-para-estar-entusiasmados-con-java-en-el-2013.md,5 Razones para estar entusiasmados con Java en el 2013
+45,10,lenguaje-definicion-de-datosddl-create.md,Lenguaje Definición de Datos(DDL) - CREATE
+193,10,programacion-android-proveedores-de_28.md,Programación Android: Proveedores de Contenidos - Leer datos mediante URIs
+54,10,consulta-de-datos-clausula-from.md,Consulta de Datos - Cláusula FROM
+459,10,como-detectar-ficheros-con-bloqueocerrojo-en-linux.md,¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?
+264,10,programacion-android-implementando-un_08.md,Programación Android: Implementando un Content Provider (Parte 2)
+70,10,pro-android-3-aprende-fondo-todo-lo-que.md,'Pro Android 3: Aprende a fondo todo lo que ofrece el SDK Android 4.0'
+73,10,githubMiningLanguages.md,Minería en tu comunidad de github con R - Analizando la popularidad de los lenguajes
+531,10,netstat-analizando-la-red-y-detectando-problemas.md,'Netstat: Analizando la red y detectando problemas'
+447,10,mini-curso-de-latex-introduccion.md,Mini Curso de LaTeX - Introducción
+49,10,liberada-la-version-10-de-htop.md,Liberada la versión 1.0 de htop
+250,10,how-to-convert-column-to-vectorudt-densevector-spark.md,Cómo convertir una columna a VectorUDT/DenseVector en Spark
+418,10,como-mapear-json-a-objetos-java-con-jackson-objectmapper.md,Cómo mapear json a objetos Java con Jackson ObjectMapper
+545,10,consulta-de-datos-clausula-select.md,Consulta de Datos - Cláusula Select
+91,10,lenguaje-definicion-de-datos-ddl-alter.md,Lenguaje Definición de Datos (DDL) - ALTER TABLE
+279,10,5-libros-de-no-ficcion-que-todo-geek-deberia-leer.md,21 Libros de No-Ficción que todo Geek debería leer
+439,10,los-10-errores-de-novato-que-todo.md,10 errores de novato que todo desarrollador Android debería evitar
+269,10,consulta-de-datos-clausula-having-y.md,Consulta de Datos - Cláusula HAVING y ORDER BY
