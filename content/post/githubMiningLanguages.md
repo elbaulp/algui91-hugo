@@ -26,6 +26,8 @@ Ahora que tienes registrada tu app, se generarán su __Client ID__ y __Client Se
 
 ¡Bien! pues ya eres miembro del programa de _developers_. Lo siguiente que haremos es instalar los paquetes de [R](https://elbauldelprogramador.com/tags/r/ "R") que vamos a usar para trabajar.
 
+<!--more--><!--ad-->
+
 ## 1.2 Instalación de paquetes
 
 Usaremos la versión 3 de la API de GitHub para obtener los datos [github v3 API](https://developer.github.com/v3/ "github v3 API"). Ya que la API devuelve los datos en formato [JSON](https://elbauldelprogramador.com/tags/json/ "JSON"), vamos a usar la función `fromJSON`, que nos permitirá usar la url de la API directamente y nos parsea los datos JSON devueltos en formato _dataframe_. Ésta función se encuentra en el paquete `jsonlite`, así que tenemos que instalar ese paquete si no lo tenemos ya instalado:
