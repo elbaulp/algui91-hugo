@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-17
-
+lastmod: 2017-04-27T13:00:37+01:00
 mainclass: android
 url: /fundamentos-programacion-android_18/
 tags:
@@ -28,6 +26,6 @@ Android va destruyendo componentes inactivos para liberar memória, pero los elm
 
 Es muy importante implementar bien los métodos de estado, para evitar perden información.
 
-## Siguiente Tema: [Programación Android: Trabajar con actividades y pasar parámetros entre ellas][1]
+# Siguiente Tema: [Programación Android: Trabajar con actividades y pasar parámetros entre ellas][1]
 
  [1]: https://elbauldelprogramador.com/programacion-android-trabajar-con/

@@ -4,10 +4,8 @@ categories:
 - android
 - aplicaciones
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-06
-
+lastmod: 2017-04-27T12:56:07+01:00
 mainclass: android
 url: /fundamentos-aplicaciones-android-parte/
 tags:
@@ -15,7 +13,7 @@ tags:
 title: Fundamentos aplicaciones Android. (Parte I)
 ---
 
-## Vista rápida
+# Vista rápida
 
 <!--more--><!--ad-->
 
@@ -24,7 +22,7 @@ title: Fundamentos aplicaciones Android. (Parte I)
 * El archivo manifiesto, debe declarar todos los componentes de la aplicación y debe declarar también todos los requisitos de la aplicación, como la versión mínima de Android requerida y cualquier configuración hardware requerida
 * Los recursos no-código de la aplicación (imágenes, archivos de diseño (layout) etc.) deben incluir alternativas para las distintas configuraciones de los dispositivos (tales como cadenas de texto distintas para cada idioma y diseños diferentes para los distintos tamaños de las pantallas.)
 
-## Fundamentos de las aplicaciones
+# Fundamentos de las aplicaciones
 
 Las aplicaciones Android están escritas en el lenguaje de programación Java. El SDK de android compila todo el código con todos los datos y archivos de recursos en un _paquete Android_, un archivo de extensión `.apk`. Todo el código dentro de un archivo `.apk` se considera una aplicación y es lo que usan los dispositívos para instalar dicha aplicación
 
@@ -42,4 +40,4 @@ Sin embargo, existen formas de que una aplicación comparta datos con otra y que
 * Es posible que dos aplicaciones compartan el mismo ID de usuario Linux, en tal caso podrán acceder a los archivos de la otra aplicación. Para conservar los recursos del sistema, las aplicaciones con el mismo ID pueden ejecutarse en el mismo proceso y compartir la misma MV (También deben estar firmadas con el mismo certificado).
 * Una aplicación puede solicitar permisos para acceder a datos del dispositivo como los contactos, SMS, la tarjeta SD, cámara, bluetooth y más. Los permisos de la aplicación se conceden en el instalación de la misma, y los otorga el usuario.
 
-## Siguiente: [Fundamentos aplicaciones Android – (Parte II) – Componentes](https://elbauldelprogramador.com/fundamentos-aplicaciones-android-parte_18/)
+# Siguiente: [Fundamentos aplicaciones Android – (Parte II) – Componentes](https://elbauldelprogramador.com/fundamentos-aplicaciones-android-parte_18/)

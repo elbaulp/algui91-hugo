@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-24
-
+lastmod: 2017-04-27T12:56:27+01:00
 mainclass: BaseDeDatos
 url: /fundamentos-de-plsql/
 title: Fundamentos de PL/SQL
@@ -18,7 +16,6 @@ PL/SQL (Procedural Language/Structured Query Language) apareció por primera vez
 Cuando se desea realizar una aplicación completa para el manejo de una base de datos relacional, resulta necesario utilizar alguna herramienta que soporte la capacidad de consulta del SQL y la versatilidad de los lenguajes de programación tradicionales. PL/SQL es el lenguaje de programación que proporciona Oracle para extender el SQL estándar con otro tipo de instrucciones.
 
 <!--more--><!--ad-->
-
 
 Para poder trabajar necesitaremos tener los siguientes elementos:
 
@@ -75,7 +72,7 @@ BEGIN
 END;
 ```
 
-#### Siguiente Tema: [Bloques PL/SQL][3]
+# Siguiente Tema: [Bloques PL/SQL][3]
 
  [1]: https://elbauldelprogramador.com/plsql-procedimientos-y-funciones/
  [2]: https://elbauldelprogramador.com/plsql-disparadores-o-triggers/

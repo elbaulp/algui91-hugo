@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-17
-
+lastmod: 2017-04-27T13:01:19+01:00
 mainclass: android
 url: /fundamentos-programacion-android-ciclo/
 tags:
@@ -19,7 +17,7 @@ title: "Fundamentos programación Android: Ciclo de vida de los componentes"
 
 Cada componente tiene un ciclo de vida distinto. Las superclases de estos componentes tienen métodos ***callback*** que les permiten reaccionar ante un cambio de estado. Cada método callback está obligado a llamar al mismo método de su padre.
 
-### Ciclo de vida de los Receiver
+# Ciclo de vida de los Receiver
 
 Tienen un ciclo de vida muy corto, ya que se activan al producirse un mensaje de difusión, que capturan con el método callback:
 
@@ -33,11 +31,11 @@ Si este método se está ejecutando, se considera el Receiver activo. Esto supon
 
 Se soluciona lanzando un servicio desde este método que se encarga de hacer las tareas pesadas, así, al tener el servicio su propio ciclo de vida, seguirá ejecutandose, aunque el receiver se considere inactivo.
 
-### Ciclo de vida de los ContentProvider
+# Ciclo de vida de los ContentProvider
 
 Su ciclo es muy corto, permanecen activos mientras sean referenciados por un ContentResolver.
 
-### Ciclo de vida de las Actividades
+# Ciclo de vida de las Actividades
 
 Tiene tres estados:
 
@@ -48,7 +46,7 @@ Tiene tres estados:
 La clase Activity dispone de métodos que se llaman cada vez que ésta cambia de estado, para permitirnos realiar tareas como guardar los datos antes de cambiar de estado, y cargar la actividad más rápido la proxima vez que se muestre. A continuación un diagrama con los distintos estados por los que pasa una actividad:
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="ciclo de vida actividades" alt="ciclo de vida actividades"  height="711" width="545" src="https://4.bp.blogspot.com/-rzvsPpVkc5s/TfsiicRNDwI/AAAAAAAAAng/UkVWUYQySbM/s1600/activity_lifecycle.png"></amp-img>
+    <amp-img sizes="(min-width: 545px) 545px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="ciclo de vida actividades" alt="ciclo de vida actividades"  height="711" width="545" src="https://4.bp.blogspot.com/-rzvsPpVkc5s/TfsiicRNDwI/AAAAAAAAAng/UkVWUYQySbM/s1600/activity_lifecycle.png"></amp-img>
 </figure>
 
   * ***onCreate(Bundle savedInstanceState):*** Este método se llama al crear la actividad. Siempre se sobreescribe para configurar la vista, crear adaptadores, rellenar los objetos con sus valores etc. Puede recibir como parámetro el estado anterior de la actividad para que podamos restaurarla.
@@ -60,7 +58,7 @@ Un ejemplo de uso de estos métodos puede ser cuando tenemos una aplicación que
 
 Para realizar esta operación usaríamos el método ***onSavedInstanceState()***, que crearía un ***Bundle*** con los datos necesarios que pasaríamos al método ***onCreate()*** la segunda vez que cargaramos la actividad, sin necesidad de volver a descargar los datos.
 
-### Ciclo de vida de Service
+# Ciclo de vida de Service
 
 Los servicios se pueden usar de dos formas, dependiendo de como lo lancemos, su ciclo será uno u otro.
 
@@ -70,10 +68,9 @@ Los servicios se pueden usar de dos formas, dependiendo de como lo lancemos, su 
 A continuación el diagrama con el ciclo de vida de los servicios:
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Ciclo de vida servicios" title="Ciclo de vida servicios"  height="521" width="432" src="https://2.bp.blogspot.com/-7eOY6RsbVQ0/TfsqCsNCg0I/AAAAAAAAAno/y-bkegRUNiw/s1600/service_lifecycle.png"></amp-img>
+    <amp-img sizes="(min-width: 432px) 432px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Ciclo de vida servicios" title="Ciclo de vida servicios"  height="521" width="432" src="https://2.bp.blogspot.com/-7eOY6RsbVQ0/TfsqCsNCg0I/AAAAAAAAAno/y-bkegRUNiw/s1600/service_lifecycle.png"></amp-img>
 </figure>
 
-
-### Siguiente Tema: [Fundamentos programación Android: Limpieza de Procesos][1]
+# Siguiente Tema: [Fundamentos programación Android: Limpieza de Procesos][1]
 
  [1]: https://elbauldelprogramador.com/fundamentos-programacion-android_18/

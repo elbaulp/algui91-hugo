@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-17
-
+lastmod: 2017-04-27T12:59:56+01:00
 mainclass: android
 url: /fundamentos-programacion-android_17/
 tags:
@@ -20,7 +18,7 @@ tags:
 title: "Fundamentos programación Android: Actividades, Tareas, Procesos e Hilos"
 ---
 
-## Actividades y tareas
+# Actividades y tareas
 
 Las actividades conforme se van ejecutando van apilandose en una pila. Cuando finalizamos una actividad, con el método ***finish()*** o con la tecla atrás del teléfono, la actividad se extrae de la pila, quedando encima de la pila la actividad que se abrió anteriormente.
 
@@ -39,13 +37,13 @@ Si una pila de tareas se abandona por el usuario durante un periodo de tiempo y 
 | `finishOnTaskLaunch`    	| Similar a la anterior, pero solo se aplica a la actividad con este atributo fijado a true.            	|
 
 
-## Procesos e Hilos
+# Procesos e Hilos
 
 Como cada aplicación se ejecuta en un proceso Linux distinto, todos los componentes y procesos de dicha aplicación corren en el mismo hilo. Esto se puede modificar con el atributo ***process*** de cada componente (activity, provider, receiver y service). En la etiqueta ***application*** del manifest podemos poner este atributo para que sea aplicado a todos sus elementos.
 
 Para gestionar tareas pesadas podemos usar hilos para ejecutar dichas tareas en un hilo aparte (ejecutarlas en segundo plano). Para llevar a cabo esta operación usaremos el objeto ***Thread*** de java, aunque Android proporciona otros objetos para facilitar el trabajo, como ***Handler, AsyncTask o Looper.*** (entre otros).
 
-## Siguiente Tema: [Fundamentos programación Android: Ciclo de vida de los componentes][2]
+# Siguiente Tema: [Fundamentos programación Android: Ciclo de vida de los componentes][2]
 
  [1]: http://developer.android.com/guide/topics/manifest/manifest-intro.html
  [2]: https://elbauldelprogramador.com/fundamentos-programacion-android-ciclo/

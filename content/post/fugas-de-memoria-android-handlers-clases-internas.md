@@ -2,12 +2,9 @@
 author: alex
 categories:
 - android
-color: '#689F38'
 date: '2016-01-01'
-description: "\xC9ste artículo es una traducción del blog de Alex Lockwood.
-  Gracias por el permiso."
-lastmod: 2015-12-22
-
+lastmod: 2017-04-27T12:48:33+01:00
+description: "Éste artículo es una traducción del blog de Alex Lockwood.  Gracias por el permiso."
 mainclass: android
 url: /fugas-de-memoria-android-handlers-clases-internas/
 tags:
@@ -31,9 +28,8 @@ public class SampleActivity extends Activity {
     public void handleMessage(Message msg) {
       // ...
     }
-  }
+  };
 }
-
 ```
 
 Aunque no es obvio de inmediato, éste código puede causar fugas de memoria (*memory leak*).
@@ -46,7 +42,7 @@ Aunque no es obvio de inmediato, éste código puede causar fugas de memoria (*m
 
 Es decir, las clases de tipo `Handler` deben ser estáticas, de lo contrario pueden ocurrir fugas de memoria (*memory leak*).
 
-## Algunos conceptos a entender
+# Algunos conceptos a entender
 
 Pero, ¿dónde ocurre ésta pérdida o filtración de memoria (*memory leak*) y cómo se produce? Determinemos el origen del problema fijándonos en lo que sabemos:
 
@@ -54,7 +50,7 @@ Pero, ¿dónde ocurre ésta pérdida o filtración de memoria (*memory leak*) y 
   * Al instanciar un [Handler][7] en el hilo principal, se asocia a la cola de mensajes del `Looper`. Los mensajes publicados en la cola de mensajes mantendrán una referencia al `Handler`, para que el framework pueda llamar a [Handler#handleMessage][8] cuando el `Looper` procese eventualmente el mensaje.
   * En Java, tanto las clases no-estáticas internas como anónimas mantienen una referencia implícita a su clase externa. Por contra, las clases estáticas internas, no.
 
-## ¿Dónde se produce la fuga de memoria? (*memory leak*)
+# ¿Dónde se produce la fuga de memoria? (*memory leak*)
 
 Entonces, ¿Dónte está exáctamente la pérdida de memoria (*memory leak*)?, es muy sutil, pero consideremos ahora el siguiente fragmento de código:
 
@@ -87,7 +83,7 @@ public class SampleActivity extends Activity {
 
 Cuando la actividad [finaliza][9] al llamar a `finish`, el mensaje que hemos retrasado seguirá pendiente de ejecución en la cola de mensajes del hilo principal durante 10 minutos antes de ser procesado. El mensaje mantiene una referencia al `Handler` del `Activity`, y el `Handler` mantiene una referencia implícita a su clase externa (`SampleActivity`, en éste caso). Dicha referencia persistirá hasta que el mensaje sea procesado, lo cual impide al contexto de la `Activity` ser recolectado por el recolector de basura (Garbage collector). Ésto causa la perdida de los recursos de la aplicación. Nótese que ocurre lo mismo con la clase anónima `Runnable` mostrada en el código. Instancias no estáticas de clases anónimas mantienen una referencia implícita a su clase externa, causando así pérdida o filtración del contexto (Clase `Context`), y por tanto, un (*memory leak*).
 
-## Posibles soluciones para evitar la fuga
+# Posibles soluciones para evitar la fuga
 
 Para corregir el problema, podemos crear una subclase de `Handler` en un nuevo fichero o crear una clase interna estática. Las clases estáticas internas no mantienen una referencia implícita a su clase externa, de modo que la `Activity` no tendrá fugas de memoria (*memory leak*). Si se necesita invocar métodos de la clase externa desde el `Handler`, basta con que el `Handler` mantenga una referencia débil (`WeakReference`) a la `Activity`, así no habrá fugas de memoria accidentales. Para corregir la otra fuga existente al instanciar la clase anónima `Runnable`, basta con crear una variable estática de la clase (Ya que, como hemos dicho, instancias estáticas de clases anónimas no mantienen una referencia implícita a su clase externa):
 
@@ -101,7 +97,7 @@ public class SampleActivity extends Activity {
     private final WeakReference<sampleactivity> mActivity;
 
     public MyHandler(SampleActivity activity) {
-      mActivity = new WeakReference</sampleactivity><sampleactivity>(activity);
+      mActivity = new WeakReference<sampleactivity>(activity);
     }
 
     @Override
@@ -137,17 +133,14 @@ public class SampleActivity extends Activity {
 
 ```
 
-## Conclusión
+# Conclusión
 
 La diferencia entre clases internas estáticas y no-estáticas es sutil, pero es una sutileza que todo desarrollador Android debería comprender. ¿Cual es la conclusión? Evitar a toda costa usar clases internas no estáticas en una `Activity` si las instancias de la clase interna pueden seguir ejecutándose aún cuando el ciclo de vida de la `Activity` acabe. En su lugar, usar clases internas estáticas que mantengan una referencia débil a la `Activity`.
 
-#### Referencias
+# Referencias
 
-*How to Leak a Context: Handlers & Inner Classes* »» <a href="http://www.androiddesignpatterns.com/2013/01/inner-class-handler-memory-leak.html" target="_blank">androiddesignpatterns.com</a>
-
-photo credit: [nyuhuhuu][10] via [photopin][11] [cc][12]
-
-
+- *How to Leak a Context: Handlers & Inner Classes* »» <a href="http://www.androiddesignpatterns.com/2013/01/inner-class-handler-memory-leak.html" target="_blank">androiddesignpatterns.com</a>
+- photo credit: [nyuhuhuu][10] via [photopin][11] [cc][12]
 
  [1]: http://www.androiddesignpatterns.com "Blog de Alex"
  [2]: https://elbauldelprogramador.com/eliminar-recursos-sin-usar-en-android/ "Eliminar recursos sin usar en Android"
@@ -161,6 +154,3 @@ photo credit: [nyuhuhuu][10] via [photopin][11] [cc][12]
  [10]: https://www.flickr.com/photos/nyuhuhuu/4653088356/
  [11]: http://photopin.com
  [12]: http://creativecommons.org/licenses/by/2.0/
-
-
-</sampleactivity>
