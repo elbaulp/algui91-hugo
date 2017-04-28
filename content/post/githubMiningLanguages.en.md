@@ -36,7 +36,7 @@ We will use the version 3 of GitHub API to access data [github v3 API](https://d
 install.packages('jsonlite')
 ```
 
-If you have not installed `stringr` package, install it as we just do with `jsonlite`. We are using it to make some common operations on strings. Install `ggplot2` if you have not, too. We must use it to make the graphics.
+If you have not installed `stringr` package, install it as we just do with `jsonlite`. We are using it to make some common operations on strings. Install `ggplot2` if you have not, too. We must use it to make the graphics, and install `httpuv`, a package to work with HTTP.
 
 For connecting to the GitHub app, we will need to install `rgithub` package. We do it directly from github source code. Note that it have a dependency on package `devtools`:
 
