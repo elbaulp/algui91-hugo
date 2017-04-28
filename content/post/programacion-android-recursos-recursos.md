@@ -11,7 +11,7 @@ mainclass: android
 url: /programacion-android-recursos-recursos/
 tags:
 - curso android pdf
-title: "Programaci\xF3n Android: Recursos - Recursos y cambios de configuraci\xF3n"
+title: "Programación Android: Recursos - Recursos y cambios de configuración"
 ---
 
 Los recursos ayudan a la localización. Por ejemplo, podemos tener valores para strings que cambien en función del idioma configurado en el terminal. Los recursos Android generalizan esta idea para cualquier configuración del dispositivo, el idioma es tan solo otra configuración más. Otro ejemplo de cambios de configuración se dá cuando el dispositivo cambia de posición (de vertical a horizontal o viceversa). El modo vertical se suela llamar portrait y el horizontal landscape.

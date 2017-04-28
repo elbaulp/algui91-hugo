@@ -9,7 +9,7 @@ lastmod: 2016-10-28
 
 mainclass: misc
 url: /nueva-guia-how-internet-works/
-title: "Nueva gu\xEDa: How the internet works"
+title: "Nueva guía: How the internet works"
 ---
 
 <figure>

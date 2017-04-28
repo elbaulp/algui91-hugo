@@ -4,10 +4,10 @@ categories:
 - articulos
 color: '#F57C00'
 date: 2016-08-12 07:06:02
-description: "Un grupo de investigadores ha conseguido acceder y moficar los p\xEDxeles
+description: "Un grupo de investigadores ha conseguido acceder y moficar los píxeles
   de una pantalla"
 image: Hackeando-Tu-Monitor-De-Pantalla.jpg
-introduction: "Un grupo de investigadores ha conseguido acceder y moficar los p\xEDxeles
+introduction: "Un grupo de investigadores ha conseguido acceder y moficar los píxeles
   de una pantalla"
 lastmod: 2016-08-15
 

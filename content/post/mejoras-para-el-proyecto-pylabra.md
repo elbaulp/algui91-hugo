@@ -18,4 +18,4 @@ Ahora que tengo algo de tiempo, mi compañero y yo hemos decidido continuar con 
 Para seguir el desarrollo de la aplicación puedes visitar la página en la que está alojado el proyecto, en [GitHub][2].
 
  [1]: https://elbauldelprogramador.com/pylabra-aplicacion-para-almacenar/
- [2]: https://github.com/algui91/PyLabra
+ [2]: https://github.com/elbaulp/PyLabra

@@ -4,10 +4,10 @@ categories:
 - latex
 color: '#B31917'
 date: '2016-01-01'
-description: "En este tutorial, curso o como quer\xE1is llamarlo os voy a ense\xF1ar
-  lo b\xE1sico que deb\xE9is saber para hacer vuestros documentos en <strong>LaTeX</strong>!
-  Como estamos en un blog sobre inform\xE1tica vamos a orientarlo un poco hacia la
-  inform\xE1tica."
+description: "En este tutorial, curso o como queráis llamarlo os voy a enseñar
+  lo básico que debéis saber para hacer vuestros documentos en <strong>LaTeX</strong>!
+  Como estamos en un blog sobre informática vamos a orientarlo un poco hacia la
+  informática."
 image: 2013/05/latex_logo.png
 lastmod: 2015-12-22
 
@@ -16,15 +16,15 @@ url: /mini-curso-de-latex-introduccion/
 tags:
 - codigo latex
 - curso latex
-- "curso latex espa\xF1ol"
+- "curso latex español"
 - enlaces latex
 - figuras latex
 - imagenes latex
 - incluir codigo latex
-- "programaci\xF3n Latex"
+- "programación Latex"
 - simbolos latex
 - latex
-title: "Mini Curso de LaTeX - Introducci\xF3n"
+title: "Mini Curso de LaTeX - Introducción"
 ---
 
 <figure>

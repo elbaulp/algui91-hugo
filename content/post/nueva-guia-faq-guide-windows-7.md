@@ -7,7 +7,7 @@ date: '2016-01-01'
 
 mainclass: misc
 url: /nueva-guia-faq-guide-windows-7/
-title: "Nueva gu\xEDa: FAQ Guide: Windows 7 Migrations Are the Time to Lockdown PCs"
+title: "Nueva guía: FAQ Guide: Windows 7 Migrations Are the Time to Lockdown PCs"
 ---
 
 <div >

@@ -15,9 +15,6 @@ defaultContentLanguage="es"
 defaultContentLanguageInSubdir = false
 EnableMissingTranslationPlaceholders = true
 
-[blackfriday]
-  hrefTargetBlank = true
-  
 [[menu.main]]
    name =  "Categorías"
    url  = "/categories/"
@@ -37,16 +34,16 @@ EnableMissingTranslationPlaceholders = true
    name =  "Apoyanos"
    url  =  "/apoyanos/"
 [[menu.main]]
-   name =  "Colabora"
-   url  =  "/colabora/"
-[[menu.main]]
    name =  "Contacto"
    url  =  "/contacto/"
+[[menu.main]]
+   name =  "Libros"
+   url  = "/libros-recomendados/"
 
 [Languages]
 [Languages.en]
-title = "The Programmer's Chest"
-
+   title = "The Programmer's Chest"
+   description = "A blog where I post everything I learn. I’m interested in Cryptography, Security, Machine Learning, Data Science and Software Development."
 [[Languages.en.menu.main]]
    name =  "Categories"
    url  = "/categories/"
@@ -60,14 +57,13 @@ title = "The Programmer's Chest"
    name =  "Support us"
    url  =  "/apoyanos/"
 [[Languages.en.menu.main]]
-   name =  "Guests Posts"
-   url  =  "/colabora/"
-[[Languages.en.menu.main]]
    name =  "Contact"
    url  =  "/contacto/"
-
+[[Languages.en.menu.main]]
+   name = "Books"
+   url  = "/recommended-books/"
 [Languages.es]
-title = "El Baúl del programador"
+   title = "El Baúl del programador"
 
 [permalinks]
 post = "/:filename/"
@@ -79,6 +75,7 @@ category = "categories"
 author = "author"
 
 [params]
+    description = "Blog en el que publico todo lo que aprendo. Principalmente interesado en seguridad, Machine Learning, criptografía, ciencia de datos y desarrollo software."
     verify = "FBg0GK1_H_PyCw6AD2iaBOclPbEC3LOV8hHXje5276w"
     gplususer = "ElBauldelProgramador"
     amp = true # enables amp features
@@ -97,10 +94,10 @@ author = "author"
     organizationName = "El Baúl del Programador" # set organisation name
     organisationAddress = "Some Street 123, 12345 City" # set organisation address
 
-    socialProfiles = ["http://www.facebook.com/elbauldelprogramador",
+    socialProfiles = ["http://www.facebook.com/elbaulp",
                       "http://plus.google.com/+elbauldelprogramador",
                       "https://twitter.com/elbaulp",
-                      "https://telegram.me/elbauldelprogramador"]  # for sameAs in organisation's structured data
+                      "https://telegram.me/elbaulp"]  # for sameAs in organisation's structured data
 
     publisherName = "Alejandro Alcalde" # publisher used in article schema
     publisherLogo = "http://elbauldelprogramador.com/img/logo.png" # https://developers.google.com/search/docs/data-types/articles#logo-guidelines

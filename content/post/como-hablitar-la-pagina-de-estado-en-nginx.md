@@ -2,23 +2,23 @@
 author: alex
 categories:
 - administracion de servidores
-color: '#0097A7'
 date: '2016-01-01'
-
+lastmod: 2017-03-21T16:34:11+01:00
 mainclass: servidores
 url: /como-hablitar-la-pagina-de-estado-en-nginx/
 tags:
 - estadisticas nginx
 - estado nginx
 - estado servidor web nginx
-title: "C\xF3mo habilitar la p\xE1gina de estado en Nginx"
+- nginx
+title: "Cómo habilitar la página de estado en Nginx"
 ---
 
 Nginx dispone de una página que muestra el estado del servidor, que mostrará información sobre las conexiones activas junto a otra información. Para habilitar la página en cuestión no hay más que seguir éstos sencillos pasos.
 
 <!--more--><!--ad-->
 
-### Habilitar el módulo HttpStubStatusModule
+# Habilitar el módulo HttpStubStatusModule
 
 Es necesario compilar nginx con éste módulo. Para comprobar si está compilado debe aparecer `--with-http_stub_status_module` al ejecutar el comando
 
@@ -29,7 +29,7 @@ nginx -V
 
 De no tenerlo, hay que volver a [compilar nginx][1] con éste módulo activo.
 
-### Habilitar la página de estado en nginx
+# Habilitar la página de estado en nginx
 
 Hay que editar el fichero *nginx.conf*, y añadir en el bloque ***server { /\*&#8230;\*/ }*** lo siguiente:
 
@@ -70,11 +70,9 @@ Reading: 6 Writing: 179 Waiting: 106
   * *writing* &#8212; Peticiones leidas, procesadas, o escritas en respuesta al cliente.
   * *waiting* &#8212; Conexiones *keep-alive*, activas en el momento (Lectura + Escritura)
 
-#### Referencias
+# Referencias
 
-*Enable and see current status page* »» <a href="http://www.cyberciti.biz/faq/nginx-enable-and-see-current-status-page" target="_blank">cyberciti</a>
-*HttpStubStatusModule* »» <a href="http://wiki.nginx.org/HttpStubStatusModule" target="_blank">wiki.nginx.org</a>
-
-
+- *Enable and see current status page* »» <a href="http://www.cyberciti.biz/faq/nginx-enable-and-see-current-status-page" target="_blank">cyberciti</a>
+- *HttpStubStatusModule* »» <a href="http://wiki.nginx.org/HttpStubStatusModule" target="_blank">wiki.nginx.org</a>
 
  [1]: https://elbauldelprogramador.com/como-instalar-nginx-con-php5-fpm/ "Cómo instalar y configurar Nginx con php5-fpm"

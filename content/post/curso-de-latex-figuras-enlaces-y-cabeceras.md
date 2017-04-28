@@ -2,50 +2,47 @@
 author: marta
 categories:
 - latex
-color: '#B31917'
 date: '2016-01-01'
-description: "Tras haber terminado nuestra secci\xF3n del an\xE1lisis de la eficiencia,
-  ahora nos piden que pongamos un pantallazo con la salida del programa en terminal.
-  Para ello, vamos a usar dos herramientas..."
+lastmod: 2017-04-06T19:44:15+01:00
+description: "Tras haber terminado nuestra sección del análisis de la eficiencia,  ahora nos piden que pongamos un pantallazo con la salida del programa en terminal.  Para ello, vamos a usar dos herramientas..."
 image: 2013/05/latex_logo.png
-lastmod: 2015-12-22
-
 mainclass: latex
 url: /curso-de-latex-figuras-enlaces-y-cabeceras/
 tags:
 - codigo latex
 - curso latex
-- "curso latex espa\xF1ol"
+- "curso latex español"
 - enlaces latex
 - figuras latex
 - imagenes latex
 - incluir codigo latex
-- "programaci\xF3n Latex"
+- "programación Latex"
 - simbolos latex
 - latex
 title: Mini Curso de LaTeX - Figuras, Enlaces y cabeceras
 ---
 
 <figure>
-<a href="/img/2013/05/latex_logo.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="{{ page.title }}" alt="{{ page.title }}" width="300px" height="114px" /></a>
+    <a href="/img/2013/05/latex_logo.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Mini Curso de LaTeX - Figuras, Enlaces y cabeceras" alt="Mini Curso de LaTeX - Figuras, Enlaces y cabeceras" width="300px" height="114px" /></a>
 </figure>
 
 * [Mini Curso de LaTeX - Introducción][1]
 * [Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos][2]
 * Mini Curso de LaTeX - Figuras, Enlaces y cabeceras
 
-## Mini curso de Latex
+# Mini curso de Latex
 
 Tras haber terminado nuestra sección del análisis de la eficiencia, ahora nos piden que pongamos un pantallazo con la salida del programa en terminal. Para ello, vamos a usar dos herramientas:
 
-  1. Los **enlaces**: con esta herramienta podemos referenciar cualquier parte de nuestro documento con un sólo click, es decir, como si fuera un enlace en una página web. Lo vamos a usar para referenciar a nuestro código.
-  2. La orden **figure**: para insertar nuestra imagen.
+1. Los **enlaces**: con esta herramienta podemos referenciar cualquier parte de nuestro documento con un sólo click, es decir, como si fuera un enlace en una página web. Lo vamos a usar para referenciar a nuestro código.
+2. La orden **figure**: para insertar nuestra imagen.
 
 Para colocar un enlace en nuestro documento, debemos hacer dos cosas:
+
 1. Poner una **etiqueta** en el lugar que queramos referenciar.
 2. Poner un **enlace** a esa etiqueta donde queramos referenciarla.
 
-## Enlaces
+# Enlaces
 
 Para ello, ponemos justo al inicio de la sección *Código del programa* lo siguiente:
 
@@ -73,7 +70,7 @@ La salida por terminal que obtener al ejecutar el \hyperref[codigo_programa]{pro
 
 Debemos compilar dos veces para que LaTeX establezca bien los enlaces, y tras compilar dos veces, si hacemos click sobre programa nos llevará al código de nuestro programa.
 
-## Incluir imágenes en el documento
+# Incluir imágenes en el documento
 
 Ahora vamos a ver como introducir una imagen en nuestro documento. Debemos tenerla en la misma carpeta que nuestro arhivo .tex, y para insertarla usamos la orden figure e includegraphics, cuya sintaxis es:
 
@@ -93,12 +90,14 @@ Para usar includegraphics debemos incluir el siguiente paquete en la cabecera:
 ```
 
 Respecto a las opciones de tamaño, son las siguientes:
+
 * **width** : para escalar las imágenes un determinado ancho
 * **height** : para escalar las imágenes un determinado alto
 * **angle** : para rotar las imagenes según las agujas del reloj
 * **scale** : para escalar imágenes
 
 Respecto a las opciones sobre donde insertar la imagen, pueedn ser las siguientes:
+
 * **h**: Insertar la imagen justo aquí (*here*)
 * **b**: Insertar la imagen al final de la página (*bottom*)
 * **t**: Insertar la imagen al principio de la página (*top*)
@@ -126,7 +125,7 @@ Después de este pequeño repaso de teoría, vamos a insertar nuestra imagen en 
 
 ```
 
-## Cabeceras de los documentos
+# Cabeceras de los documentos
 
 Y por último, vamos a personalizar un poco nuestro documento, aunque ya hay un [post][3] sobre esto en El baúl del programador, para poner una cabecera y un pie de página a nuestro gusto. Para ello, usamos el paquete **fancyhdr**:
 
@@ -169,6 +168,7 @@ En nuestro código, vamos a hacer lo siguiente:
 ```
 
 Un último detale: si os habéis dado cuenta, los links tal y como tenemos el documento actualmente quedan muy feos, ¿verdad?. Para cambiar eso, debemos modificar algunas opciones del paquete `hyperref` que incluímos antes, en concreto estas dos:
+
 1. **colorlinks=true**: con esta opción establecemos que queremos cambiar el color de los links, al activarla, por defecto nuestros links se quedan de color rojo.
 2. **linkcolor**: y con esta, establecemos el color. Podemos ponerle valores como red, blue, green&#8230;
 
@@ -178,7 +178,7 @@ Así, nuestro paquete `hyperref` quedaría de la siguiente forma:
 \usepackage[colorlinks=true,linkcolor=magenta]{hyperref} % para poder poner "enlaces" en nuestro codigo
 ```
 
-## Compilar el documento y generar el PDF
+# Compilar el documento y generar el PDF
 
 Ahora que ya tenemos nuestro fichero escrito, ¿cómo lo convertimos a PDF?. Si usas Linux, tienes que bajarte el paquete `texlive` y ejecutar en terminal el siguiente comando en el directorio donde tengas tu fichero .tex:
 
@@ -192,9 +192,10 @@ Y si usas el paquete `minted` deberás incluir también:
 pdflatex -shell-escape nombrefichero.tex
 ```
 
-## Editores de Texto
+# Editores de Texto
 
 También tienes la opción de configurar tu editor de texto favorito con un plugin para compilar LaTeX directamente desde ahí. Para hacerlo en Sublime Text tienes que seguir los siguientes pasos:
+
 1. Ve a Tools > build system > new build system
 2. Pega el siguiente código y guarda el archivo con el nombre que quieras:
 
@@ -203,10 +204,9 @@ También tienes la opción de configurar tu editor de texto favorito con un plug
     "cmd": ["pdflatex","-shell-escape","$file_name"],
     "selector": "text.tex.latex"
 }
-
 ```
 
-  1. Cada vez que quieras compilar, presiona control+b, teniendo elegido el build system de LaTeX que has creado.
+1. Cada vez que quieras compilar, presiona control+b, teniendo elegido el build system de LaTeX que has creado.
 
 En [Atom][4] hay un paquete para compilar LaTeX pulsando control+alt+b.
 
@@ -221,6 +221,7 @@ Espero que os haya gustado este curso y os haya servido como base para aprender 
 Quiero despedirme no sin antes dedicar todo esto a mi profesor, Francisco Miguel García, ya que sin su ayuda seguramente aún seguiría haciendo mis documentos con el Microsoft Word y a mi amigo, Alejandro Alcalde, por dejarme publicarlo en su blog y llegar así a más gente.
 
 ¡Nos vemos en próximas entradas!
+
 Marta.
 
 

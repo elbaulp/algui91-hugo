@@ -2,15 +2,10 @@
 author: alex
 categories:
 - android
-color: '#689F38'
 date: '2016-01-01'
-description: "Este a\xF1o estoy participando en el concurso universitario de software
-  libre, concretamente en el proyecto SWADroid. Mi intenci\xF3n es explicar todo lo
-  que vaya aprendiendo mientras participo en el desarrollo del proyecto. Este primer
-  art\xEDculo comienza un historial que llevar\xE1 cuenta de todos los avances logrados."
+description: "Este año estoy participando en el concurso universitario de software  libre, concretamente en el proyecto SWADroid. Mi intención es explicar todo lo  que vaya aprendiendo mientras participo en el desarrollo del proyecto. Este primer  artículo comienza un historial que llevará cuenta de todos los avances logrados."
 image: 2014/01/CrearDialogoAndroid.png
-lastmod: 2015-12-28
-
+lastmod: 2017-03-17T18:30:42+01:00
 mainclass: android
 url: /como-crear-un-dialogo-personalizado-en-las-preferencias-android/
 tags:
@@ -19,7 +14,7 @@ tags:
 - preferencias android
 - settings android
 - swadroid
-title: "C\xF3mo crear un di\xE1logo personalizado en las preferencias Android"
+title: "Cómo crear un diálogo personalizado en las preferencias Android"
 ---
 
 Este año estoy participando en el <a href="http://www.concursosoftwarelibre.org/1314/" title="CUSL" target="_blank">concurso universitario de software libre</a>, concretamente en el proyecto <a href="http://swadroid.wordpress.com/" title="Blog SWADroid" target="_blank">SWADroid</a>. Mi intención es explicar todo lo que vaya aprendiendo mientras participo en el desarrollo del proyecto. Este primer artículo comienza un historial que llevará cuenta de todos los avances logrados.
@@ -30,7 +25,7 @@ Para explicar cómo conseguir este comportamiento escribiremos una aplicación t
 
 <!--more--><!--ad-->
 
-### Actividad Principal
+# Actividad Principal
 
 El único propósito de esta [actividad][2] es abrir un menú que lanzará nuestras preferencias. Para simplificar el código se muestra sin las sentencias import y package:
 
@@ -68,7 +63,7 @@ public class MainActivity extends Activity {
 
 En el método `onOptionsItemSelected` comprobamos qué elemento del [menú][3] se pulsó y abrimos la correspondiente preferencia, mostraremos a continuación el código para dicha actividad.
 
-### Crear una Actividad para las Preferencias
+# Crear una Actividad para las Preferencias
 
 ```java
 public class MyPrefecenceActivity extends PreferenceActivity implements OnPreferenceChangeListener {
@@ -154,10 +149,12 @@ public class MyPrefecenceActivity extends PreferenceActivity implements OnPrefer
 
 ```
 
-Aunque esta no es la mejor forma de hacerlo, para ilustrar la diferencia entre ambas preferencias se almacenarán como dos objetos distintos. `mDialogoNormal` se comportará como una preferencia por defecto, en este caso es un `EditTtextPreference`, `mDialogoPersonalizado`, como su nombre indica, será la preferencia sobre la cual implementaremos nosotros el diálogo. En esta actividad que extiende de `PreferenceActivity` inicializamos todos los objetos necesarios en el `onCreate`. El método que realmente nos interesa es `onPreferenceChange`, que será llamado cuando se detecte algún cambio en los datos de las preferencias. En este caso se pretende mostrar cómo implementar una preferencia para almacenar una contraseña. Cuando el usuario introduce en el diálogo su contraseña, ésta será cifrada en el método `cifrar` y será éste el valor almacenado en el archivo de preferencias. Con el diálogo normal, si el usuario vuelve a lanzar el diálogo con una contraseña ya almacenada verá esto:
+Aunque esta no es la mejor forma de hacerlo, para ilustrar la diferencia entre ambas preferencias se almacenarán como dos objetos distintos. `mDialogoNormal` se comportará como una preferencia por defecto, en este caso es un `EditTtextPreference`, `mDialogoPersonalizado`, como su nombre indica, será la preferencia sobre la cual implementaremos nosotros el diálogo. En esta actividad que extiende de `PreferenceActivity` inicializamos todos los objetos necesarios en el `onCreate`. El método que realmente nos interesa es `onPreferenceChange`, que será llamado cuando se detecte algún cambio en los datos de las preferencias.
+
+En este caso se pretende mostrar cómo implementar una preferencia para almacenar una contraseña. Cuando el usuario introduce en el diálogo su contraseña, ésta será cifrada en el método `cifrar` y será éste el valor almacenado en el archivo de preferencias. Con el diálogo normal, si el usuario vuelve a lanzar el diálogo con una contraseña ya almacenada verá esto:
 
 <figure>
-<a href="/img/2014/01/CrearDialogoAndroid.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/CrearDialogoAndroid.png" title="{{ page.title }}" alt="{{ page.title }}" width="441px" height="329px" /></a>
+    <a href="/img/2014/01/CrearDialogoAndroid.png"><amp-img sizes="(min-width: 441px) 441px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/CrearDialogoAndroid.png" title="Cómo crear un diálogo personalizado en las preferencias Android" alt="Cómo crear un diálogo personalizado en las preferencias Android" width="441px" height="329px" /></a>
 </figure>
 
 Lo cual corresponde a la contraseña cifrada, lo ideal sería que el cuadro de texto apareciera vacío, para ello crearemos nosotros mismos el diálogo extendiendo de `DialogPreference`.
@@ -201,11 +198,24 @@ public class MyDialogPreference extends DialogPreference {
 En el constructor de esta clase es necesario establecer el layout que usará el diálogo, en este caso un simple `EditText`:
 
 ```xml
-<?xml version='1.0' encoding='utf-8'?>
-<linearlayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
-<edittext android:id="@+id/etpPassword" android:name="DialogoPersonalidazo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:defaultvalue="" android:hint="dialogoPersonalizado" android:key="diagPerso" android:password="true" android:title="Dialogo Personalizado">
-</edittext></linearlayout>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
 
+    <EditText
+        android:id="@+id/etpPassword"
+        android:name="DialogoPersonalidazo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:defaultValue=""
+        android:hint="dialogoPersonalizado"
+        android:key="diagPerso"
+        android:password="true"
+        android:title="Dialogo Personalizado" />
+
+</LinearLayout>
 ```
 
 El método `callChangeListener` llamará a `onPreferenceChange`, donde decidiremos qué hacer con el valor de la preferencia, si guardarlo o descartarlo.
@@ -213,24 +223,36 @@ El método `callChangeListener` llamará a `onPreferenceChange`, donde decidirem
 Con esto ya está todo listo, simplemente falta hacer referencia al diálogo que acabamos de crear en el archivo de preferencias de la siguiente forma:
 
 ```xml
-<?xml version='1.0' encoding='utf-8'?>
-<preferencescreen xmlns:android="http://schemas.android.com/apk/res/android">
-<preferencecategory android:title="TituloCategoría">
-<edittextpreference android:name="DialogoNormal" android:defaultvalue="" android:hint="dialogonormal" android:key="diagNormal" android:password="true" android:title="Dialogo Normal">
-<com.example.dialogpreferenceexample.mydialogpreference android:name="DialogoPersonalidazo" android:defaultvalue="" android:hint="dialogoPersonalizado" android:key="diagPerso" android:password="true" android:title="Dialogo Personalizado">
-</com.example.dialogpreferenceexample.mydialogpreference></edittextpreference></preferencecategory>
-</preferencescreen>
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
+    <PreferenceCategory android:title="TituloCategoría" >
+        <EditTextPreference
+            android:name="DialogoNormal"
+            android:defaultValue=""
+            android:hint="dialogonormal"
+            android:key="diagNormal"
+            android:password="true"
+            android:title="Dialogo Normal" />
+
+        <com.example.dialogpreferenceexample.MyDialogPreference
+            android:name="DialogoPersonalidazo"
+            android:defaultValue=""
+            android:hint="dialogoPersonalizado"
+            android:key="diagPerso"
+            android:password="true"
+            android:title="Dialogo Personalizado" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
 ```
 
 Donde `com.example.dialogpreferenceexample.MyDialogPreference` es el nombre de la clase del diálogo personalizado.
 
-#### Referencias
+# Referencias
 
-*Concise way of writing new DialogPreference classes?* »» <a href="http://stackoverflow.com/a/4805325/1612432" target="_blank">stackoverflow.com</a>
-*Custom EditTextPreference and setOnPreferenceChangeListener not called* »» <a href="http://stackoverflow.com/questions/13501099/custom-edittextpreference-and-setonpreferencechangelistener-not-called" target="_blank">stackoverflow.com</a>
-
-
+- *Concise way of writing new DialogPreference classes?* »» <a href="http://stackoverflow.com/a/4805325/1612432" target="_blank">stackoverflow.com</a>
+- *Custom EditTextPreference and setOnPreferenceChangeListener not called* »» <a href="http://stackoverflow.com/questions/13501099/custom-edittextpreference-and-setonpreferencechangelistener-not-called" target="_blank">stackoverflow.com</a>
 
  [1]: https://elbauldelprogramador.com/como-se-almacenan-tus-contrasenas-en-internet-y-cuando-la-longitud-de-la-misma-no-importa/ "Cómo se almacenan tus contraseñas en internet (y cuando la longitud de la misma no importa)"
  [2]: https://elbauldelprogramador.com/fundamentos-programacion-android/ "Fundamentos programación Android: Conceptos básicos y componentes"

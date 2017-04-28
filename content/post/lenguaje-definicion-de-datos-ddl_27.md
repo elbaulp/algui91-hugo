@@ -13,7 +13,7 @@ tags:
 - concepto de ddl
 - que es un ddl
 - sentencias dml y ddl
-title: "Lenguaje Definici\xF3n de Datos (DDL) - Sin\xF3nimos y Pseudocolumnas"
+title: "Lenguaje Definición de Datos (DDL) - Sinónimos y Pseudocolumnas"
 ---
 
 ## Sinónimos

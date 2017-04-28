@@ -3,20 +3,19 @@ author: alex
 categories:
 - c
 - hacking
-color: '#E64A19'
 date: '2016-01-01'
-
+lastmod: 2017-04-11T16:25:39+01:00
 mainclass: dev
 url: /desafio-de-ingenieria-inversa-en-c/
 tags:
 - asm
 - Ingenieria inversa
-title: "Desaf\xEDo de ingenier\xEDa inversa en C"
+title: "Desafío de ingeniería inversa en C"
 ---
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/logicbomb1.png" alt="" title="Bomba" width="532px" height="449px" />
+<amp-img sizes="(min-width: 432px) 432px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/logicbomb1.png" alt="" title="Bomba" width="532px" height="449px" />
 
-#### Puedes encontrar la solución a esta práctica en [Desafío de ingeniería inversa en C - Soluciones][1] {.alert}
+> Puedes encontrar la solución a esta práctica en [Desafío de ingeniería inversa en C - Soluciones][1]
 
 En la asignatura Estructura de Computadores de mi facultad, estamos haciendo una práctica que consiste en coger un ejecutable que haya compilado otro alumno, el cual pide una contraseña alfanumérica y otra numérica. Dicho ejecutable está compilado sin opción de depuración, es decir:
 
@@ -35,8 +34,6 @@ Hoy con esta entrada te animo a que intentes descubrir las contraseñas de mi pr
 Cuando finalice este plazo, publicaré el código fuente y todos los comentarios, junto con alguna explicación de los programas que haya conseguido descifrar.
 
 Todo aquel que quiera intentarlo, puede descargar el ejecutable de esta dirección: [https://dl.dropbox.com/u/54765219/Bomba\_El\_Baul\_del\_Programador][3]
-
-
 
  [1]: https://elbauldelprogramador.com/desafio-de-ingenieria-inversa-en-c-soluciones/
  [3]: https://dl.dropbox.com/u/54765219/Bomba_El_Baul_del_Programador

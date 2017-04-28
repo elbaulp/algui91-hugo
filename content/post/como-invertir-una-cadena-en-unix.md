@@ -2,21 +2,16 @@
 author: alex
 categories:
 - how to
-color: '#2196F3'
 date: '2016-01-01'
-description: "Existe un comando que realiza esta operaci\xF3n, `rev`. De acuerdo a
-  la descripci\xF3n que proporciona la documentaci\xF3n funciona de la siguiente manera"
-
+lastmod: 2017-03-21T16:46:40+01:00
+description: "Existe un comando que realiza esta operación, `rev`. De acuerdo a  la descripción que proporciona la documentación funciona de la siguiente manera"
 mainclass: linux
 url: /como-invertir-una-cadena-en-unix/
 tags:
 - invertir cadena
-title: "C\xF3mo invertir una cadena en Unix"
+- bash
+title: "Cómo invertir una cadena en Unix"
 ---
-
-<figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="invertir cadenas en bash" src="https://lh4.googleusercontent.com/-vUNPZhd87O8/TROpDAE42nI/AAAAAAAAAN8/Gfmk5XMAcsg/s128/sh.png" title="Shell Bash" class="alignleft" />
-</figure>
 
 Existe un comando que realiza esta operación, `rev`. De acuerdo a la descripción que proporciona la documentación funciona de la siguiente manera:
 
@@ -52,7 +47,7 @@ abeurp anu se aeníl atsE
 
 ```
 
-### Ejemplo en Perl
+# Ejemplo en Perl
 
 ```bash
 perl -ne 'chomp;print scalar reverse . "n";'<<<"elbauldelprogramador"
@@ -66,7 +61,7 @@ echo 'elbauldelprogramador' | perl -ne 'chomp;print scalar reverse . "n";'
 
 ```
 
-### Script bash para invertir cadenas
+# Script bash para invertir cadenas
 
 ```bash
 #!/bin/bash
@@ -110,9 +105,9 @@ php -r 'print strrev(trim(fgets(STDIN)));' <<< foo
 
 * * *
 
-#### Fuente original
+# Fuente original
 
-*NixCraft* »» <a href="http://www.cyberciti.biz/faq/how-to-reverse-string-in-unix-shell-script/" target="_blank">Visitar sitio</a>
+- *NixCraft* »» <a href="http://www.cyberciti.biz/faq/how-to-reverse-string-in-unix-shell-script/" target="_blank">Visitar sitio</a>
 
  [2]: https://elbauldelprogramador.com/python/
  [3]: https://elbauldelprogramador.com/php/

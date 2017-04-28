@@ -10,7 +10,7 @@ lastmod: 2016-08-27
 
 mainclass: dev
 url: /pylabra-aplicacion-para-almacenar/
-title: "Pylabra. Aplicaci\xF3n para almacenar vocabulario"
+title: "Pylabra. Aplicación para almacenar vocabulario"
 ---
 
 Hace bastante tiempo que Haitike y yo dejamos de desarrollar [Pylabra][1], y nunca creé una entrada hablando de la aplicación en sí, asi que me he decidido a escribirla.
@@ -29,7 +29,7 @@ Una vez instaladas podemos ejecutar el programa haciendo clic en el archivo llam
 ./main.py
 ```
 
-Podéis descargar Pylabra desde <a target="_blank" href="https://github.com/algui91/PyLabra">Github</a>
+Podéis descargar Pylabra desde <a target="_blank" href="https://github.com/elbaulp/PyLabra">Github</a>
 
 Una vez lo ejecutéis, vereis la pantalla principal:
 

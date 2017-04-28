@@ -2,11 +2,9 @@
 author: alex
 categories:
 - django
-color: '#E64A19'
 date: '2016-01-01'
+lastmod: 2017-03-20T10:01:02+01:00
 image: 2013/10/django.png
-lastmod: 2016-10-11
-
 mainclass: dev
 url: /como-depurar-una-aplicacion-en-django/
 tags:
@@ -15,16 +13,16 @@ tags:
 - depurar django
 - django
 - pdb
-title: "C\xF3mo depurar una aplicaci\xF3n en Django"
+title: "Cómo depurar una aplicación en Django"
 ---
 
 Hace poco vimos una [introducción a django][1]. Pero a medida que las aplicaciones vayan haciéndose más complejas, tendremos la necesidad de saber qué está pasando, qué contienen las variables etc, y para ello será necesario hacer uso del [depurador][2]. Hoy veremos cómo depurar una aplicación en Django.
 
 <!--more--><!--ad-->
 
-Vamos a trabajar con la aplicación de ejemplo de la <a href="https://docs.djangoproject.com/en/1.5/intro/tutorial01/" title="Ejemplo aplicación Django" target="_blank">documentación de <strong>Django</strong></a>. La aplicación consiste un sistema de encuestas en las que se puede votar, se puede descargar desde <a href="https://github.com/algui91/djangoTutorialv1.5/" title="Ejemplo Polls Django" target="_blank">este repositorio</a>.
+Vamos a trabajar con la aplicación de ejemplo de la <a href="https://docs.djangoproject.com/en/1.5/intro/tutorial01/" title="Ejemplo aplicación Django" target="_blank">documentación de <strong>Django</strong></a>. La aplicación consiste un sistema de encuestas en las que se puede votar, se puede descargar desde <a href="https://github.com/elbaulp/djangoTutorialv1.5/" title="Ejemplo Polls Django" target="_blank">este repositorio</a>.
 
-### Añadir un punto de ruptura
+# Añadir un punto de ruptura
 
 El primer paso para depurar, es establecer un punto de ruptura en la línea deseada. En este caso lo estableceremos en la vista principal (IndexView), en el fichero *polls/views.py*. Es necesario importar el módulo **pdb**.
 
@@ -108,9 +106,9 @@ Que devuelve una sola encuesta, ya que solo existe esta en la base de datos.
 
 ¿Hacéis uso de pdb en vuestras aplicaciones durante su desarrollo?, ¿añadiríais algo al artículo?, compártelo en los comentarios.
 
-#### Referencias
+# Referencias
 
-*How to debug in django* »» <a href="http://stackoverflow.com/questions/1118183/how-to-debug-in-django-the-good-way" target="_blank">stackoverflow</a>
+- *How to debug in django* »» <a href="http://stackoverflow.com/questions/1118183/how-to-debug-in-django-the-good-way" target="_blank">stackoverflow</a>
 
  [1]: https://elbauldelprogramador.com/introduccion-django-instalacion-y-primer-proyecto/ "Introducción a Django – Instalación y primer proyecto"
  [2]: https://elbauldelprogramador.com/?s=gdb&submit;= "Depuradores"

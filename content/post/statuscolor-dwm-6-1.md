@@ -3,9 +3,9 @@ author: alex
 categories:
 - c
 date: '2016-01-01'
-description: "D\xEDas atr\xE1s hablamos sobre DWM y qued\xF3 pendiente explicar c\xF3mo
-  colorear la barra de estado. En el art\xEDculo de hoy veremos c\xF3mo aplicar el
-  parche Simple StatusColor en DWM 6.1, que escrib\xED hace poco."
+description: "Días atrás hablamos sobre DWM y quedó pendiente explicar cómo
+  colorear la barra de estado. En el artículo de hoy veremos cómo aplicar el
+  parche Simple StatusColor en DWM 6.1, que escribí hace poco."
 image: 2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png
 lastmod: 2017-01-30
 mainclass: dev
@@ -230,8 +230,8 @@ Por último, solo queda usar los métodos creados, deben ir en el método `drawb
 
 Todo el trabajo está en mi cuenta de Github, Tanto mi configuración actual de DWM como mi DWMstatus. En los siguientes enlaces.
 
-*myDWMstatus* »» <a href="https://github.com/algui91/myDWMstatus" target="_blank">github.com/algui91/myDWMstatus</a>
-*myDWM* »» <a href="https://github.com/algui91/myDWM" target="_blank">github.com/algui91/myDWM</a>
+*myDWMstatus* »» <a href="https://github.com/elbaulp/myDWMstatus" target="_blank">github.com/elbaulp/myDWMstatus</a>
+*myDWM* »» <a href="https://github.com/elbaulp/myDWM" target="_blank">github.com/elbaulp/myDWM</a>
 
 [1]: https://elbauldelprogramador.com/instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente/ "Instalar y configurar DWM, el gestor de ventanas más eficiente"
 [3]: https://elbauldelprogramador.com/clases-y-objetos-arrays/ "Clases y Objetos – Arrays"

@@ -12,7 +12,7 @@ tags:
 - guia Impact of Internet of Things
 - guia para el internet de las cosas
 - IoT security
-title: "Gu\xEDa Gratuita - The Impact of Internet of Things (IoT) on Facilities Management"
+title: "Guía Gratuita - The Impact of Internet of Things (IoT) on Facilities Management"
 ---
 
 <figure>

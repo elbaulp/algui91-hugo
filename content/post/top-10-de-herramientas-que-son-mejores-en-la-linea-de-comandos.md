@@ -3,25 +3,19 @@ author: alex
 categories:
 - articulos
 - linux
-color: '#F57C00'
-date: '2016-01-01'
-description: "Escribir commandos en una terminal puede parecer tedioso, pero con las
-  herramientas correctas, la l\xEDnea de comandos puede ser incre\xEDblemente poderosa.
-  Aqu\xED est\xE1n nuestras herramientas de l\xEDnea de comandos favoritas que hacen
-  impresionantes cosas que simplemente no puedes encontrar en una GUI (Interfaz Gr\xE1fica
-  de Usuario)."
-
+lastmod: 2017-03-17T17:52:42+01:00
+description: "Escribir commandos en una terminal puede parecer tedioso, pero con las  herramientas correctas, la línea de comandos puede ser increíblemente poderosa.  Aquí están nuestras herramientas de línea de comandos favoritas que hacen  impresionantes cosas que simplemente no puedes encontrar en una GUI (Interfaz Gráfica  de Usuario)."
 mainclass: articulos
 url: /top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos/
 tags:
 - comandos
 - herramientas
 - htop
-title: "10 de las Mejores Herramientas en la L\xEDnea de Comandos"
+title: "10 de las Mejores Herramientas en la Línea de Comandos"
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class=" wp-image-938 alignleft" title="Top 10 de las Mejores Herramientas en la Línea de Comandos" src="/img/2012/08/original1.jpg" alt="Comandos" width="640px" height="360px" />
+    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class=" wp-image-938 alignleft" title="Top 10 de las Mejores Herramientas en la Línea de Comandos" src="/img/2012/08/original1.jpg" alt="Comandos" width="640px" height="360px" />
 </figure>
 
 Escribir commandos en una terminal puede parecer tedioso, pero con las herramientas correctas, la línea de comandos puede ser increíblemente poderosa. Aquí están nuestras herramientas de línea de comandos favoritas que hacen impresionantes cosas que simplemente no puedes encontrar en una GUI (Interfaz Gráfica de Usuario).
@@ -37,19 +31,13 @@ Cuando tu computadora comienza a congelarse, realentarse, o simplemente comporta
 
 ## 9. Ifconfig
 
-
-
 Si tienes más de una computadora en tu casa, es probable que necesites entrar en la configuración de tu red reiteradas veces. Conocer tu red puede ayudarte a <a href="http://lifehacker.com/5935151/the-remote-control-conundrum-how-to-choose-the-right-remote-for-your-home-theater-pc" target="_blank">controlar tu HTPC</a>, <a href="http://lifehacker.com/5867786/how-to-monitor-your-bittorrent-downloads-from-any-computer-or-mobile-device" target="_blank">monitorear tus descargas de BitTorrent</a>, o <a href="http://lifehacker.com/5822590/turn-an-old-computer-into-a-networked-backup-streaming-or-torrenting-machine-with-freenas" target="_blank">compartir archivos entre computadoras</a>. Cuando llegue el momento, ifconfig será tu mejor amigo. Muestra la dirección IP de tu computadora, la dirección MAC de tu tarjeta Ethernet y Wi-Fi, y mucho más. Revisa <a href="http://www.techrepublic.com/article/linux-101-use-ifconfig-in-linux-to-configure-your-network/6040932" target="_blank">esta introducción a ifconfig</a> para ver cómo se usa.
 
 ## 8. Chmod y Chown
 
-
-
 De vez en cuando, te encuentras con un error de &#8220;permiso denegado&#8221; al intentar acceder a un archivo, y eso puede ser exasperante. Correr `chmod `editará los permisos de cualquier archivo, permitiéndote leer, escribir y/o ejecutar un archivo dado, acorde a tus especificaciones. Puedes hacer esto desde la GUI, pero `chmod` es un poco más poderoso, especialmente si estás trabajando con múltiples archivos. Para ver cómo se usa, revisa <a href="http://www.ghacks.net/2011/02/18/linux-101-using-chmod-and-chown/" target="_blank">esta guía de chmod y su hermano chown</a>, que te ayudará a obtener total propiedad de un archivo.
 
 ## 7. SSH
-
-
 
 Para qué configurar un <a href="http://lifehacker.com/5902654/use-your-home-computer-from-anywhere-a-comprehensive-guide-to-remote-controlling-your-pc" target="_blank">sistema de pantalla completa compartida</a> cuando todo lo que necesitas es checkear una sencilla cosa? SSH te conecta a otra computadora y te permite usar su terminal como si estuvieras sentado justo en frente de ella. Puedes checkear procesos activos, cambiar permisos, y acceder a archivos en tu máquina remota justo desde la máquina que está frente a ti. Puede hacer mucho más también, desde controlar<a href="http://lifehacker.com/5919558/turn-an-old-computer-into-a-networked-backup-streaming-or-torrenting-machine-with-ubuntu" target="_blank"> un servidor sin monitor</a> hasta <a href="http://lifehacker.com/237227/geek-to-live--encrypt-your-web-browsing-session-with-an-ssh-socks-proxy" target="_blank">encriptar tu navegador web</a> en una conexión menos-que-segura. Incluso puede ayudarte a <a href="http://lifehacker.com/5760626/how-to-install-and-set-up-ssh-on-your-jailbroken-ios-device" target="_blank">controlar tu dispositivo iOS</a> .
 

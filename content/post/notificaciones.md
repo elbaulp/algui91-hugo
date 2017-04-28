@@ -3,13 +3,12 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-
+lastmod: 2017-03-15T16:17:45+01:00
 mainclass: android
 url: /programacion-android-interfaz-grafica_11/
 tags:
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - android programar ProgressDialog
 - como hacer interfaces graficas en android
 - curso android pdf
@@ -17,13 +16,14 @@ tags:
 - interfaz grafica en android
 - layout android
 - menu android
-title: "Programaci\xF3n Android: Interfaz gr\xE1fica - Di\xE1logos y notificaciones"
+- notificaciones
+- android
+title: "Programación Android: Interfaz gráfica - Diálogos y notificaciones"
 ---
 
 En ocasiones hay que mostrar mensajes al usuario para informarle del estado de la aplicación, o del estado de las operaciones que se estén llevando a cabo.
 
 Android dispone de tres tipos de notificaciones:
-
 
 <!--more--><!--ad-->
 
@@ -31,7 +31,7 @@ Android dispone de tres tipos de notificaciones:
   * Notificaciones en la barra de estado.
   * Ventanas de diálogo.
 
-### Notificaciones Toast
+# Notificaciones Toast
 
 Una notificación Toast es un mensaje que se muestra superpuesto en la pantalla. Solo ocupa el espacio necesario para mostrar la alerta, mientras tanto, la actividad que estaba visible puede seguir usándose. Este tipo de notificaciones se muestran durante un periodo de tiempo y desaparecen, no permiten interactuar con ellas. Debido a que un Toast se crea mediante un servicio en segundo plano, puede aparecer aunque la aplicación no esté visible.
 
@@ -49,12 +49,28 @@ Para fijar la duración del mensaje, usamos una de las dos constantes predefinid
 En este caso, vamos a crear un layout personalizado para mostrar el Toast:
 
 ```xml
-< ?xml version="1.0" encoding="utf-8"?>
-<linearlayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/toastLayout" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="10dp" android:background="#DAAA">
-<imageview android:layout_width="48px" android:layout_height="48px" android:src="@drawable/ok" android:padding="5dip" android:id="@+id/ok">
-<textview android:id="@+id/textview" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Toast con layout personalizado" android:textcolor="#fff" android:gravity="center_vertical|center_horizontal">
-</textview></imageview></linearlayout>
+<linearlayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/toastLayout"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="10dp"
+  android:background="#DAAA">
 
+  <imageview android:layout_width="48px"
+    android:layout_height="48px"
+    android:src="@drawable/ok"
+    android:padding="5dip"
+    android:id="@+id/ok"/>
+
+  <textview android:id="@+id/textview"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:text="Toast con layout personalizado"
+    android:textColor="#fff"
+    android:gravity="center_vertical|center_horizontal"/>
+
+</linearlayout>
 ```
 
 Hay que asignar un id al LinearLayout, que usaremos posteriormente. También hemos creado un ImageView para mostrar un icono, y un TextView para mostrar el mensaje.
@@ -81,9 +97,9 @@ Listo, al ejecutar la aplicación tendremos un Toast como este:
 <a href="https://2.bp.blogspot.com/-r66Zg6aP020/ThsyX24tuCI/AAAAAAAAArk/wWEypxjYmdo/s1600/toastPersonalizado.png"  ><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Toast notification Android " title="Toast notification Android"  height="400" width="240" src="https://2.bp.blogspot.com/-r66Zg6aP020/ThsyX24tuCI/AAAAAAAAArk/wWEypxjYmdo/s400/toastPersonalizado.png" /></a>
 </div>
 
-Para saber más acerca de los mensajes toast puede visitar: <http:>
+Para saber más acerca de los mensajes toast puede visitar: <a href="https://web.archive.org/web/20151121170738/http://developer.android.com/guide/topics/ui/notifiers/toasts.html" target="_blank" title="https://web.archive.org/web/20151121170738/http://developer.android.com/guide/topics/ui/notifiers/toasts.html">https://web.archive.org/web/20151121170738/http://developer.android.com/guide/topics/ui/notifiers/toasts.html</a>
 
-### Notificaciones en la barra de estado
+# Notificaciones en la barra de estado
 
 Este tipo de notificaciones muestran un icono en la barra de estado, cuando desplegamos esta barra, veremos el icono acompañado de un texto descriptivo indicando que ha pasado algo (Como que hemos recibido un nuevo mensaje, o un correo electrónico).
 
@@ -123,9 +139,9 @@ El resultado es el siguiente:
 <a href="https://3.bp.blogspot.com/-pCGwTzNQ89w/Ths04zdOqMI/AAAAAAAAArs/Y1tFR9TKe5I/s1600/notificationBar.png"  ><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="notification bar Android" alt="notification bar Android"  height="400" width="240" src="https://3.bp.blogspot.com/-pCGwTzNQ89w/Ths04zdOqMI/AAAAAAAAArs/Y1tFR9TKe5I/s400/notificationBar.png" /></a>
 </div>
 
-Al igual que los Toast, se puede crear un layout personalizado, para más información visite: </http:><http:>
+Al igual que los Toast, se puede crear un layout personalizado, para más información visite: <a href="https://web.archive.org/web/20151121170738/http://developer.android.com/guide/topics/ui/notifiers/notifications.html" target="_blank" title="https://web.archive.org/web/20151121170738/http://developer.android.com/guide/topics/ui/notifiers/notifications.html">https://web.archive.org/web/20151121170738/http://developer.android.com/guide/topics/ui/notifiers/notifications.html</a>
 
-### Diálogos
+# Diálogos
 
 Por último, vamos a ver los diálogos, que son ventanas que se muestran delante de las actividades, y pueden recibir acciones del usuario, hay varios tipos:
 
@@ -188,20 +204,16 @@ ProgressDialog.show(
 Los dos últimos parámetros son para que el diálogo sea indeterminado, y para que se pueda cerrar con la flecha de &#8220;atrás&#8221; del terminal.
 
 <div class="separator" >
-<a href="https://1.bp.blogspot.com/-uf-rVH41HfM/Ths-BUGmQ9I/AAAAAAAAAr8/7JsOXm7ScKs/s1600/progressDialog.png"  ><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="400" width="240" src="https://1.bp.blogspot.com/-uf-rVH41HfM/Ths-BUGmQ9I/AAAAAAAAAr8/7JsOXm7ScKs/s400/progressDialog.png" /></a>
+    <a href="https://1.bp.blogspot.com/-uf-rVH41HfM/Ths-BUGmQ9I/AAAAAAAAAr8/7JsOXm7ScKs/s1600/progressDialog.png"  ><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="400" width="240" src="https://1.bp.blogspot.com/-uf-rVH41HfM/Ths-BUGmQ9I/AAAAAAAAAr8/7JsOXm7ScKs/s400/progressDialog.png" /></a>
 </div>
 
 Se puede descargar el proyecto de esta entrada aquí:
 
 <a class="aligncenter download-button" href="https://elbauldelprogramador.com/" rel="nofollow"> Download &ldquo;Notificaciones&rdquo; <small>Notificaciones.zip &ndash; Downloaded 2066 times &ndash; </small> </a>
 
-* * *
+***
 
-#### Siguiente Tema: [Programación Android: Interfaz gráfica - Estilos y Temas][2]
+# Siguiente Tema: [Programación Android: Interfaz gráfica - Estilos y Temas][2]
 
  [1]: https://elbauldelprogramador.com/guia-de-desarrollo-android
  [2]: https://elbauldelprogramador.com/programacion-android-interfaz-grafica_18/
-
-
-
-</http:>

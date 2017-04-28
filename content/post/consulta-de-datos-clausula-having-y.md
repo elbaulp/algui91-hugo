@@ -2,15 +2,13 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-19
-
+lastmod: 2017-03-30T17:16:43+01:00
 mainclass: BaseDeDatos
 url: /consulta-de-datos-clausula-having-y/
 tags:
 - base de datos having
-title: "Consulta de Datos - Cl\xE1usula HAVING y ORDER BY"
+title: "Consulta de Datos - Cláusula HAVING y ORDER BY"
 ---
 
 Especifica una condición de selección para un grupo. `HAVING` se usa normalmente con el `GROUP BY`. Cuando no está con el `GROUP BY`, `HAVING` se comporta como la cláusula `WHERE`, aunque esto es erróneo utilizarlo, puesto que ralentiza el sistema. Su sintaxis es:
@@ -29,7 +27,7 @@ Group by cCmnMtr
 Having count(*) > =1;
 ```
 
-### Clausula ORDER BY
+# Clausula ORDER BY
 
 Nos devuelve las filas ordenadas por una serie de columnas. Su sintaxis es:
 
@@ -49,6 +47,6 @@ La cláusula `ORDER BY` puede incluir columnas que no aparecen en la select list
 
 Los valores nulos se consideran como los más pequeños posibles.
 
-## Siguiente Tema: [Consulta de Datos - Operadores UNION [ALL], INTERSECT, MINUS.][1]
+# Siguiente Tema: [Consulta de Datos - Operadores UNION [ALL], INTERSECT, MINUS.][1]
 
  [1]: https://elbauldelprogramador.com/consulta-de-datos-operadores-union-all/

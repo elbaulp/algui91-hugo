@@ -3,23 +3,23 @@ author: alex
 categories:
 - articulos
 date: 2016-01-25 11:05:30
-description: "En este art\xEDculo se ver\xE1 una introducci\xF3n a lo que es la biometr\xEDa,
-  y c\xF3mo se puede aplicar a los sistemas inform\xE1ticos para proporcionar seguridad.
-  Tambi\xE9n se har\xE1 un repaso a los distintos tipos de biometr\xEDa."
+description: "En este artículo se verá una introducción a lo que es la biometría,
+  y cómo se puede aplicar a los sistemas informáticos para proporcionar seguridad.
+  También se hará un repaso a los distintos tipos de biometría."
 image: hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png
 mainclass: articulos
 tags:
-- "seguridad biom\xE9trica"
-- "biometr\xEDa aplicada a la seguridad"
-- "reconocimiento de patrones biom\xE9tricos"
-- "sistemas biom\xE9tricos"
-- "biometr\xEDa de la mano"
-title: "Biometr\xEDa Aplicada a La Seguridad - Introducci\xF3n"
+- "seguridad biométrica"
+- "biometría aplicada a la seguridad"
+- "reconocimiento de patrones biométricos"
+- "sistemas biométricos"
+- "biometría de la mano"
+title: "Biometría Aplicada a La Seguridad - Introducción"
 lastmod: 2017-02-11
 ---
 
 <figure>
-<a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="Biometr\xEDa Aplicada a La Seguridad - Introducci\xF3n" alt="Biometr\xEDa Aplicada a La Seguridad - Introducci\xF3n" width="640px" height="405px" /></a>
+<a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="Biometría Aplicada a La Seguridad - Introducción" alt="Biometría Aplicada a La Seguridad - Introducción" width="640px" height="405px" /></a>
 <span class="image-credit">Crédito de la imagen: pixabay<a href="https://pixabay.com/en/biometrics-eye-security-154660/"></a></span><br />
 </figure>
 

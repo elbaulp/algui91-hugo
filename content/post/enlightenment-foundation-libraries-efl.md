@@ -2,10 +2,8 @@
 author: alex
 categories:
 - linux
-color: '#2196F3'
 date: '2016-01-01'
-lastmod: 2016-08-01
-
+lastmod: 2017-04-22T12:46:59+01:00
 mainclass: linux
 url: /enlightenment-foundation-libraries-efl/
 title: Enlightenment Foundation Libraries (EFL)
@@ -22,10 +20,6 @@ Hace unos años los desarrolladores decidieron reescribir desde cero el escritor
 ¿Que tiene de interesante estas librerías? En caso de que llegar a ser estables y maduras proveen unas librerías potentes y modernas para aquellos programadores que quieren programar sin presuponer que estes en gnome y kde. Durante años para estas tareas se usaba las X (de aspecto arcaico) o WX (que dibuja con el motor de gtk). Estas librerías son realmente una versión mejorada de las X clásicas con aceleración gráfica, widgets varios, mejor programada y con más efectos y funciones.
 
 Aún se usa en pocos programas (e17, amsn2, xmms2, etc.) debido a encontrarse en estado alfa. Pero hay quien ha sugerido en alguna lista de correo que en el futuro si se desarrollan bien podrían hacerse una versión de firefox usándolas lo que solucionaría el gran consumo de memoria de firefox en linux (usa gtk), navegador que sin duda es menos eficiente en linux que en windows actualmente.
-
-<figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="http://download.enlightenment.org/att/wiki/Elementary/elm-app-02.2.png" alt=""></amp-img>
-</figure>
 
 Las EFL constan de los siguientes módulos/librerías principales:
 

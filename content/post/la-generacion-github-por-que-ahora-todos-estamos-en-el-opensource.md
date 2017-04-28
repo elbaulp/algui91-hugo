@@ -4,7 +4,7 @@ categories:
 - articulos
 color: '#F57C00'
 date: '2016-01-01'
-image: "2013/08/La-generaci\xF3n-GitHub-Por-qu\xE9-ahora-todos-estamos-en-el-opensource.jpg"
+image: "2013/08/La-generación-GitHub-Por-qué-ahora-todos-estamos-en-el-opensource.jpg"
 lastmod: 2016-08-07
 mainclass: articulos
 url: /la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/
@@ -13,7 +13,7 @@ tags:
 - generacion github
 - que es github
 - ventajas de github
-title: "La generaci\xF3n GitHub: Por qu\xE9 ahora todos estamos en el opensource"
+title: "La generación GitHub: Por qué ahora todos estamos en el opensource"
 aliases: /articulos/la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/
 ---
 
@@ -42,7 +42,7 @@ Antes de ***GitHub***, el autor pasaba mucho tiempo pensando y hablando sobre c�
 
 ***GitHub*** soluciona este problema haciendo del software libre algo mucho más descentralizado. Se convierte en algo que trata menos sobre el proyecto en sí, y más sobre los individuos que participan en dicho proyecto.
 
-El flujo de trabajo usando ***GitHub*** es mucho más personal. Una persona (Yo soy <a href="https://github.com/algui91/" title="GitHub de Alejandro Alcalde" target="_blank">github.com/algui91</a> y el autor del artículo original es <a href="https://github.com/mikeal/" title="Github de mikeal" target="_blank">github.com/mikeal</a>) tiene una cuenta, y todo lo que publica se crear bajo su perfil. Si alguien quiere agregar algo a su código, ya sea para arreglar algo o mejorar alguna funcionalidad, simplemente hacen un **“fork”** y copian el proyecto en su directorio personal.
+El flujo de trabajo usando ***GitHub*** es mucho más personal. Una persona (Yo soy <a href="https://github.com/elbaulp/" title="GitHub de Alejandro Alcalde" target="_blank">github.com/elbaulp</a> y el autor del artículo original es <a href="https://github.com/mikeal/" title="Github de mikeal" target="_blank">github.com/mikeal</a>) tiene una cuenta, y todo lo que publica se crear bajo su perfil. Si alguien quiere agregar algo a su código, ya sea para arreglar algo o mejorar alguna funcionalidad, simplemente hacen un **“fork”** y copian el proyecto en su directorio personal.
 
 Con este sistema de trabajo se incentiva a la gente a colaborar: Fomenta a los desarrolladores a que arreglen cosas. También proporciona a todos los usuarios una identidad en la nueva cultura del software libre; ***GitHub*** es el número uno en esto. De hecho, muchas compañías contratan a gente a través de github, basandose en su perfil, y para algunas, es imprescindible saber trabajar con git.
 

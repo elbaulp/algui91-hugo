@@ -12,7 +12,7 @@ url: /programacion-android-recursos-layout/
 tags:
 - curso android pdf
 - layout android
-title: "Programaci\xF3n Android: Recursos - Layout"
+title: "Programación Android: Recursos - Layout"
 ---
 
 ## Introducción

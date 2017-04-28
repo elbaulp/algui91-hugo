@@ -3,8 +3,8 @@ image = "resources-channels-podcast-to-learn-math.png"
 mainclass = "articulos"
 author = "alex"
 date = "2017-02-24T21:42:53+01:00"
-lastmod = "2017-03-01T09:34:54+01:00"
-title = "11 Resources / Channels / Podcasts about Mathematics"
+lastmod = "2017-03-16T11:40:27+01:00"
+title = "13 Resources / Channels / Podcasts about Mathematics"
 description = "A curated list of blogs, podcasts and Youtube Channels about Mathematics"
 tags = ["mathematics", "podcasts", "blogs", "Youtube Channels", "lists"]
 categories = ["articulos"]
@@ -15,20 +15,47 @@ url = "/en/resources-channels-podcast-to-learn-math/"
 
 Below is a curated list of Podcast, Youtube Channels and Blogs I follow about Mathematics.
 
-If you follow some resource about Mathematics not listed below feel free to post a comment and I will add it, or better, send me a <a href="https://github.com/algui91/algui91-hugo/edit/master/content/post/resources-channels-podcast-to-learn-math.en.md" target="_blank" title="Pull Request!">Pull Request!</a>
+If you follow some resource about Mathematics not listed below feel free to post a comment and I will add it, or better, send me a <a href="https://github.com/elbaulp/algui91-hugo/edit/master/content/post/resources-channels-podcast-to-learn-math.en.md" target="_blank" title="Pull Request!">Pull Request!</a>
 
 > Thanks to <a href="https://twitter.com/sinclair_88" target="_blank" title="@sinclair_88">@sinclair_88</a> for proposing the idea of this curated list.
 
 # Other Lists
 
-- [52 Blogs / Channels / Podcast about Computer Science, Security & Data Science](https://elbauldelprogramador.com/en/resources-channels-blogs-podcast-about-computer-science-security-data-science/ "52 Blogs / Channels / Podcast about Computer Science, Security & Data Science")
+- [54 Blogs / Channels / Podcast about Computer Science, Security & Data Science](https://elbauldelprogramador.com/en/resources-channels-blogs-podcast-about-computer-science-security-data-science/ "54 Blogs / Channels / Podcast about Computer Science, Security & Data Science")
+- [21 Podcasts / Youtube Channels / Blogs about Science](https://elbauldelprogramador.com/en/resources-blogs-podcast-youtube-channels-about-science/ "21 Podcasts / Youtube Channels / Blogs about Science").
+
+# Podcasts
+
+<div class="row-post flex-grid">
+   <article class="box-item animate">
+       <h3>Math Mutation</h3>
+       <figure>
+         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/mathmutation.jpg" width="100" height="100" alt="" title="" ></amp-img>
+       </figure>
+       <p>Welcome to Math Mutation, a short podcast for people of all ages, where we explore fun, interesting, or just plain weird corners of mathematics that you probably didn't hear in school.</p>
+       <div class="tags">
+         <a href="http://mathmutation.blogspot.com.es/" target="_blank" title="Math Mutation">MathMutation</a>
+       </div>
+   </article>
+
+   <article class="box-item animate">
+       <h3>Rel Prime</h3>
+       <figure>
+         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/relprime.png" width="100" height="100" alt="" title="" ></amp-img>
+       </figure>
+       <p>Relatively Prime is a mathematics podcast all about the stories behind the Queen of the Sciences that Samuel Hansen dreamt up in an extreme bout of egotism and delusions of grandeur where he spent too long listening to Radiolab, This American Life, and Snap Judgment and began to think, “Hey, I could do that.”</p>
+       <div class="tags">
+         <a href="http://relprime.com/" target="_blank" title="Math Mutation">Rel Prime</a>
+       </div>
+   </article>
+</div>
 
 # Youtube
 
 <div class="row-post flex-grid">
 
   <article class="box-item animate">
-    <h3>3Blue1Brow-postn</h3>
+    <h3>3Blue1Brow</h3>
 
     <figure>
       <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/3b1b.jpg" width="100" height="100" alt="" title="" ></amp-img>
@@ -37,7 +64,7 @@ If you follow some resource about Mathematics not listed below feel free to post
     <p>3Blue1Brow-postn is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.</p>
 
     <div class="tags">
-      <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank" title="3Blue1Brow-postn">3Blue1Brow-postn</a>
+      <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank" title="3Blue1Brow-postn">3Blue1Brow</a>
     </div>
   </article>
 
@@ -179,3 +206,7 @@ If you follow some resource about Mathematics not listed below feel free to post
     </div>
   </article>
 </div>
+
+# Referencias
+
+- List of interesting math podcasts? | <a href="http://math.stackexchange.com/q/3/144541" target="_blank" title="List of interesting math podcasts?">math.stackexchange.com</a>

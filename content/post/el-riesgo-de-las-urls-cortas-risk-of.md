@@ -2,10 +2,8 @@
 author: alex
 categories:
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-15
-
+lastmod: 2017-04-22T12:34:48+01:00
 mainclass: articulos
 url: /el-riesgo-de-las-urls-cortas-risk-of/
 title: El riesgo de las URLs cortas

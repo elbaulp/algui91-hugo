@@ -13,18 +13,20 @@ In this post we are exploring our github community considering our friends (or f
 
 # 1.  Create the app, install packages, authenticate
 
-## 1.1 App registration 
+## 1.1 App registration
 
-First of all, as we want to access public data from Github, we need to register an app with authentication to do that. This will allow us to have no limit of calls. 
+First of all, as we want to access public data from Github, we need to register an app with authentication to do that. This will allow us to have no limit of calls.
 So go to [github developer program page](https://developer.github.com/program/ "github developer program page") and click on __Register now__. Then select an account and in __Personal settings__ tabs select __Authorized applications__.
 
 If you already have an authorized aplication to access gitHub API, you must see it here. Otherwise if you don't have any registered app, then go to __OAuth applications__ and click on __Register a new application__.
- 
+
 There you have to register your new application, giving it a name, a description... Fill the fields and in __Callback URL__ enter [localhost:1410](http://localhost:1410/ "localhost:1410") which is the URL that github will return once the app is authenticated.
- 
+
 Now you have registered your app, the __Client ID__ and __Client Secret__ for your app will be generated. You can see them clicking on __OAuth applications -> Your App__. Remember to keep them secret and safe!
 
-Wow! you're now a member of the developer program. The next thing we will do is installing the R packages we are going to use to work with gitHub from R.
+Wow! you're now a member of the developer program. The next thing we will do is installing the R packages we are going to use to work with gitHub from [R](https://elbauldelprogramador.com/en/tags/r/ "R").
+
+<!--more--><!--ad-->
 
 ## 1.2 Packages installation
 
@@ -56,7 +58,7 @@ library(ggplot2)
 ## 1.3 Authenticate the access
 
 We will need to authenticate the access, and we will do it through the function `interactive.login` from the `rgithub` package, passing to it our __ID__ and __secret__. My recommendation to you is to put that lines in a separate file and not share it with anyone or anywhere.
-Then just source the file when you need to authenticate, or just execute its lines. 
+Then just source the file when you need to authenticate, or just execute its lines.
 
 ```r
 # github app autentication
@@ -111,9 +113,9 @@ As you sure have seen, in the last information we extracted, there's info about 
 That info is fundamental to make our analysis, so we must get it. If you have took a look to the latest extracted data, you must have realized that there's a column named __repos_url__ which tells us that the url to get the repos from a user is __https://api.github.com/users/user/repos__ . For example, to get my repos information we should call __https://api.github.com/users/CritinaHG/repos__ , and we will get the data in JSON format from the API.
 
 So we are getting that data for each of our followers, by reading the already created dataset and getting our followers names, composing their repo url and parsing the returned data from the API using the `fromJSON` function:
- 
+
 ```r
-# read latest created csv 
+# read latest created csv
 myFriends<-read.csv("CrisFollowers.csv")
 
 # extract the names
@@ -138,7 +140,7 @@ In __clientID__ and __clientSecret__ you should put your ID and secret generated
 
 # 4. Lets do some data processing
 
-Lets read (if you have not read it yet) the dataset : `activeFriends<-read.csv("UsersWithRepoInfo.csv")` We are going to perform some transformations over it to make data more readable for the analysis in R. 
+Lets read (if you have not read it yet) the dataset : `activeFriends<-read.csv("UsersWithRepoInfo.csv")` We are going to perform some transformations over it to make data more readable for the analysis in R.
 
 First, as the data timezone is UTC+2 (also Madrid timezone) we need to set the timezone parameter. Let's build a function to do that and apply it to every date column:
 
@@ -176,24 +178,24 @@ Finally, in the `full_name` column we must just get the user name, because the r
 ```r
 # Getting the username
 activeFriends$full_name<-unlist(lapply(strsplit(as.character(activeFriends$full_name),split = '/',fixed = TRUE),function(x) (x[1])))
-``` 
+```
 
 Save it if you want, for later reuse.
 
 # 5. Analizing programming language popularity
 
-We can get a first understanding of the data distribution like the mean, median, max or min of each column using `summary` over our dataset. That is just an example of the output for my community, showing the metrics for the first columns: 
+We can get a first understanding of the data distribution like the mean, median, max or min of each column using `summary` over our dataset. That is just an example of the output for my community, showing the metrics for the first columns:
 
 ```r
 summary(activeFriends)
-       id                 name      full_name            private                                                                      description 
-Min.   : 2054512   IV      :  4   Length:524         Min.   :0   Asignatura de infraestructuras virtuales para el Grado de Informática     :  4  
-1st Qu.:32878832   blog    :  3   Class :character   1st Qu.:0   Repositorio para la asignatura Infraestructura Virtual de 2016-2017       :  3  
-Median :51252063   DAI     :  3   Mode  :character   Median :0   An example repo in Ruby for continuous integration with Travis CI         :  2  
-Mean   :51191269   IV16-17 :  3                      Mean   :0   Curso de LaTeX organizado por AMAT para alumnos de Trabajo de Fin de Grado:  2  
-3rd Qu.:70082791   swap1415:  3                      3rd Qu.:0   Diferentes scripts para representación de carreras en cifras              :  2  
-Max.   :88848228   TFG     :  3                      Max.   :0   (Other)                                                                   :404  
-                   (Other) :505                                  NA's                                                                      :107  
+       id                 name      full_name            private                                                                      description
+Min.   : 2054512   IV      :  4   Length:524         Min.   :0   Asignatura de infraestructuras virtuales para el Grado de Informática     :  4
+1st Qu.:32878832   blog    :  3   Class :character   1st Qu.:0   Repositorio para la asignatura Infraestructura Virtual de 2016-2017       :  3
+Median :51252063   DAI     :  3   Mode  :character   Median :0   An example repo in Ruby for continuous integration with Travis CI         :  2
+Mean   :51191269   IV16-17 :  3                      Mean   :0   Curso de LaTeX organizado por AMAT para alumnos de Trabajo de Fin de Grado:  2
+3rd Qu.:70082791   swap1415:  3                      3rd Qu.:0   Diferentes scripts para representación de carreras en cifras              :  2
+Max.   :88848228   TFG     :  3                      Max.   :0   (Other)                                                                   :404
+                   (Other) :505                                  NA's                                                                      :107
 ```
 
 Now lets dive into what concern us: see what programming languages are being used in our friends' community, and how much they're used. For that purpose we can start creating a contingency table to give ourselves a quick look at our answer:
@@ -202,16 +204,16 @@ Now lets dive into what concern us: see what programming languages are being use
 languagesAndUse<-table(activeFriends$language)
 languagesAndUse
 
-         Arduino                C               C#              C++            CLIPS              CSS             Dart 
-               1               13                7               55                5               19                2 
-      Emacs Lisp              GAP         GDScript               Go           Groovy          Haskell             HTML 
-               2                1                1                3                1                2               48 
-            Java       JavaScript Jupyter Notebook              Lex              Lua         Makefile      Mathematica 
-              60               67                3                1                1                6                2 
-             PHP       PostScript           Prolog           Python                R             Ruby            Scala 
-               8                2                1               56               12               24                1 
-           Shell              TeX       TypeScript 
-               7               38                1 
+         Arduino                C               C#              C++            CLIPS              CSS             Dart
+               1               13                7               55                5               19                2
+      Emacs Lisp              GAP         GDScript               Go           Groovy          Haskell             HTML
+               2                1                1                3                1                2               48
+            Java       JavaScript Jupyter Notebook              Lex              Lua         Makefile      Mathematica
+              60               67                3                1                1                6                2
+             PHP       PostScript           Prolog           Python                R             Ruby            Scala
+               8                2                1               56               12               24                1
+           Shell              TeX       TypeScript
+               7               38                1
 ```
 
 With `nrow(languagesAndUse)` we can get the number of different languages our friends are using. For mine it is 31.
@@ -228,23 +230,19 @@ langUssage+theme(axis.text.x = element_text(angle = 90,hjust = 1)) +ggtitle("Pro
 Where we use `na.omit` to omit from data representation those languages which are NA (cannot have been extracted). The resulting hibstogram is the following:
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/FriendsLanguagesUsage.png" title="Programming languages used in my github community" alt="Programming languages used in my github community" width="603" height="380"></amp-img>
-<figcaption>Languages use in my github community </figcaption>
+    <amp-img sizes="(min-width: 603px) 603px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/FriendsLanguagesUsage.png" title="Programming languages used in my github community" alt="Programming languages used in my github community" width="603" height="380"></amp-img>
+    <figcaption>Languages use in my github community </figcaption>
 </figure>
 
-So, as we can see, in the representation, _JavaScript_ is the language most used with 67 repos containing _JavaScript_ code. Then _Java_, _C++_ and _Python_ are also very popular in my community.
-We find that _Tex_ code is in 38 repositories, so _LaTeX_ is also very present in my friends' community. They're also many repos with _HTML_, and much more less with _CSS_, _Ruby_, _R_ and _C_ code. Then come some languages not loved that much by the people such as _PHP_, _C#_ or _CLIPS_ that are contained in less than 10 repositories.
+So, as we can see, in the representation, _JavaScript_ is the language most used with 67 repos containing _JavaScript_ code. Then [_Java_](https://elbauldelprogramador.com/en/tags/java), _C++_ and [_Python_](https://elbauldelprogramador.com/en/tags/python) are also very popular in my community.
 
-Finally, we can see that there're less than 5 repos with _Dart_, _Go_,_Haskell_, _Jupyter_, _PostScript_ and _Mathematica_ code, and just one using _Scala_, _Groovy_, _Lua_ or _TypeScript_. So that answers my own question: as my favorite programming language is Scala, I wanted to know if my friends use it too. 
+We find that _Tex_ code is in 38 repositories, so [_LaTeX_](https://elbauldelprogramador.com/en/tags/latex) is also very present in my friends' community. They're also many repos with _HTML_, and much more less with _CSS_, _Ruby_, _R_ and _C_ code. Then come some languages not loved that much by the people such as _PHP_, _C#_ or _CLIPS_ that are contained in less than 10 repositories.
 
-So What happens in your friends community? 
+Finally, we can see that there're less than 5 repos with _Dart_, _Go_,_Haskell_, _Jupyter_, _PostScript_ and _Mathematica_ code, and just one using [_Scala_](https://elbauldelprogramador.com/en/tags/scala), _Groovy_, _Lua_ or _TypeScript_. So that answers my own question: as my favorite programming language is Scala, I wanted to know if my friends use it too.
+
+So What happens in your friends community?
 Are the languages used similarly than in my friends' community? Is JavaScript also the top used language?
-
-
-
 
 # References:
 
-- <a href="" target="_blank">Mastering Social Media Mining with R</a>
-
-
+- <a href="http://amzn.to/2ozoB3R" target="_blank">Mastering Social Media Mining with R</a>

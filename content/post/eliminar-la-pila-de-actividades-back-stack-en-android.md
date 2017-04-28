@@ -2,19 +2,9 @@
 author: alex
 categories:
 - android
-color: '#689F38'
 date: '2016-01-01'
-description: "El concurso universitario de software libre sigue en marcha, como dije
-  participo en SWADROID. La \xFAltima implementaci\xF3n que se hizo era a\xF1adir
-  una opci\xF3n para cerrar sesi\xF3n. Pero nos dimos cuenta que si el usuario cerraba
-  sesi\xF3n desde alguna activity distinta de la princial, no se mostraba la pantalla
-  de login, si no la activity en la que estuviera en el momento de cerrar sesi\xF3n.
-  Por supuesto, esto no es el comportamiento deseado, lo ideal ser\xEDa que al cerrar
-  sesi\xF3n se muestre la pantalla de login independientemente de d\xF3nde se encuentre
-  el usuario. Hoy veremos c\xF3mo eliminar la pila de actividades de una aplicaci\xF3n
-  Android para obtener este comportamiento."
-lastmod: 2015-12-25
-
+lastmod: 2017-04-17T20:00:00+01:00
+description: "El concurso universitario de software libre sigue en marcha, como dije  participo en SWADROID. La última implementación que se hizo era añadir  una opción para cerrar sesión. Pero nos dimos cuenta que si el usuario cerraba  sesión desde alguna activity distinta de la princial, no se mostraba la pantalla  de login, si no la activity en la que estuviera en el momento de cerrar sesión.  Por supuesto, esto no es el comportamiento deseado, lo ideal sería que al cerrar  sesión se muestre la pantalla de login independientemente de dónde se encuentre  el usuario. Hoy veremos cómo eliminar la pila de actividades de una aplicación  Android para obtener este comportamiento."
 mainclass: android
 url: /eliminar-la-pila-de-actividades-back-stack-en-android/
 tags:
@@ -43,14 +33,11 @@ Un ejemplo sería el siguiente:
 startActivity(new Intent(getBaseContext(), SWADMain.class)
                         .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
 finish();
-
 ```
 
-#### Referencias
+# Referencias
 
-*Finish all previous activities* »» <a href="http://stackoverflow.com/questions/6330260/finish-all-previous-activities" target="_blank">stackoverflow.com</a>
-
-
+- *Finish all previous activities* »» <a href="http://stackoverflow.com/questions/6330260/finish-all-previous-activities" target="_blank">stackoverflow.com</a>
 
  [1]: https://elbauldelprogramador.com/fundamentos-programacion-android/ "Fundamentos programación Android: Conceptos básicos y componentes"
  [2]: https://elbauldelprogramador.com/programacion-android-intents-conceptos/ "Programación Android: Intents – Conceptos básicos"

@@ -8,7 +8,7 @@ lastmod: 2016-08-16
 
 mainclass: dev
 url: /nuevo-proyecto-aventura-grafica-con-sdl/
-title: "Nuevo Proyecto: Aventura gr\xE1fica con SDL y C++"
+title: "Nuevo Proyecto: Aventura gráfica con SDL y C++"
 ---
 
 Haitike (Coloborador del blog), y yo, hemos decidido embarcarnos en un proyecto con el fin de ampliar nuestro conocimiento y vamos a intentar desarrollar un pequeño juego en C++, usando la libreria [SDL][1], para guiarnos un poco, nos basaremos en esta página: <a target="_blank" href="http://www.lazyfoo.net/SDL_tutorials/index.php">Beginning Game Programming</a>

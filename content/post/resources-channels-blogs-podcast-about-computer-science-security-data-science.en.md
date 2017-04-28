@@ -2,8 +2,9 @@
 image = "resources-channels-blogs-podcast-about-computer-science-security-data-science.png"
 tags = ["computer Science", "podcasts", "blogs", "Youtube Channels", "security", "data science", "lists"]
 categories = ["articulos"]
-date = "2017-03-01T09:34:39+01:00"
-title = "52 Blogs / Channels / Podcast about Computer Science, Security & Data Science"
+date = "2017-03-29T11:37:55+01:00"
+lastmod = "2017-03-29T11:37:53+01:00"
+title = "54 Blogs / Channels / Podcast about Computer Science, Security & Data Science"
 mainclass = "articulos"
 author = "alex"
 description = "A curated list of blogs, youtube channels and podcasts about Computer Science, Security and Data Science"
@@ -14,13 +15,14 @@ url = "/en/resources-channels-blogs-podcast-about-computer-science-security-data
 
 Below is a curated list of Podcast, Youtube Channels and Blogs I follow about Computer Science, Programming, Security and [Data Science](https://elbauldelprogramador.com/9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer/ "18 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer").
 
-If you follow some resource not listed below feel free to post a comment and I will add it, or better, send me a <a href="https://github.com/algui91/algui91-hugo/edit/master/content/post/resources-channels-blogs-podcast-about-computer-science-security-data-science.en.md" target="_blank" title="Pull Request!">Pull Request!</a>
+If you follow some resource not listed below feel free to post a comment and I will add it, or better, send me a <a href="https://github.com/elbaulp/algui91-hugo/edit/master/content/post/resources-channels-blogs-podcast-about-computer-science-security-data-science.en.md" target="_blank" title="Pull Request!">Pull Request!</a>
 
 > Thanks to <a href="https://twitter.com/sinclair_88" target="_blank" title="@sinclair_88">@sinclair_88</a> for proposing the idea of this curated list.
 
 # More lists
 
-- [11 Resources / Channels / Podcasts about Mathematics](https://elbauldelprogramador.com/en/resources-channels-podcast-to-learn-math/ "11 Resources / Channels / Podcasts about Mathematics")
+- [13 Resources / Channels / Podcasts about Mathematics](https://elbauldelprogramador.com/en/resources-channels-podcast-to-learn-math/ "11 Resources / Channels / Podcasts about Mathematics").
+- [21 Podcasts / Youtube Channels / Blogs about Science](https://elbauldelprogramador.com/en/resources-blogs-podcast-youtube-channels-about-science/ "21 Podcasts / Youtube Channels / Blogs about Science").
 
 # Computer Science (Programming, Data Science & Security)
 
@@ -61,6 +63,55 @@ If you follow some resource not listed below feel free to post a comment and I w
 ### Data Science
 
 <div class="row-post flex-grid">
+
+  <article class="box-item animate">
+    <h2>Not So Standard Deviations</h2>
+    <figure>
+      <a href="/img/notsostandard.jpg">
+        <amp-img
+          on="tap:lightbox1"
+          role="button"
+          tabindex="0"
+          layout="responsive"
+          src="/img/notsostandard.jpg"
+          alt="NOt so standard Deviations podcasts"
+          title="NOt so standard Deviations podcasts"
+          sizes="(min-width: 200px) 200px, 100vw"
+          width="200"
+          height="200">
+        </amp-img>
+      </a>
+    </figure>
+    <p>Roger Peng and Hilary Parker talk about the latest in data science and  data analysis in academia and industry. </p>
+    <div class="tags">
+      <a href="https://soundcloud.com/nssd-podcast" target="_blank" title="Not So Standard Deviations">Not So Standard Deviations</a>
+    </div>
+  </article>
+
+  <article class="box-item animate">
+    <h2>Linear Digressions</h2>
+    <figure>
+      <a href="/img/lineardigressions.jpg">
+        <amp-img
+          on="tap:lightbox1"
+          role="button"
+          tabindex="0"
+          layout="responsive"
+          src="/img/lineardigressions.jpg"
+          alt="Linear Digressions Podcass"
+          title="Linear Digressions Podcass"
+          sizes="(min-width: 200px) 200px, 100vw"
+          width="200"
+          height="200">
+        </amp-img>
+      </a>
+    </figure>
+    <p>Linear Digressions is a podcast about machine learning and data science.  Machine learning is being used to solve a ton of interesting problems, and to accomplish goals that were out of reach even a few short years ago.</p>
+    <div class="tags">
+      <a href="http://lineardigressions.com/" target="_blank" title="Linear Digressions">Linear Digressions</a>
+    </div>
+  </article>
+
 
   <article class="box-item animate">
     <h3>Becoming a Data Scientist</h3>
@@ -226,7 +277,7 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Udacity Inc — Medium</h3>
     <figure id="medium">
-       <svg>
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use>
       </svg>
     </figure>
@@ -241,7 +292,7 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Cloudera - Medium</h3>
     <figure id="medium">
-       <svg>
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use>
       </svg>
     </figure>
@@ -254,7 +305,7 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Nathan Benaich on Medium</h3>
     <figure id="medium">
-       <svg>
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use>
       </svg>
     </figure>
@@ -269,7 +320,7 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Adam Geitgey on Medium</h3>
     <figure id="medium">
-       <svg>
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use>
       </svg>
     </figure>
@@ -284,7 +335,7 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Airbnb Engineering &amp; Data Science — Medium</h3>
     <figure id="medium">
-       <svg>
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use>
       </svg>
     </figure>
@@ -299,7 +350,7 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Stories by Camron Godbout on Medium</h3>
     <figure id="medium">
-       <svg>
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use>
       </svg>
     </figure>
@@ -314,7 +365,7 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Stories by Monica Rogati on Medium</h3>
     <figure id="medium">
-       <svg>
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use>
       </svg>
     </figure>
@@ -329,7 +380,7 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Actionable Data - Medium</h3>
     <figure id="medium">
-       <svg>
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use>
       </svg>
     </figure>
@@ -344,7 +395,7 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Stories by Carlos E. Perez on Medium</h3>
     <figure id="medium">
-       <svg>
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use>
       </svg>
     </figure>
@@ -359,7 +410,7 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Stories by Sam DeBrule on Medium</h3>
     <figure id="medium">
-       <svg>
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use>
       </svg>
     </figure>
@@ -374,7 +425,7 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Stories by NYU Center for Data Science on Medium</h3>
     <figure id="medium">
-       <svg>
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use>
       </svg>
     </figure>
@@ -542,12 +593,12 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Genbeta Dev</h3>
     <figure>
-<svg width="300" height="100" viewBox="0 0 2012 187" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none meet">
+      <svg width="300" height="100" viewBox="0 0 2012 187" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none meet">
         <path d="M174 181.838c23.6-53.014 35.403-79.643 35.403-79.892 0-1.112-.866-1.668-2.595-1.668h-66.545c-2.224 0-3.707.805-4.45 2.41l-26.506 59.687h-20.76c-8.526 0-12.79-3.583-12.79-10.75 0-4.94 2.41-12.727 7.23-23.356l8.896-20.206c4.324-9.76 8.402-16.558 12.234-20.39 5.56-5.808 12.727-8.712 21.502-8.712h77.666c2.224 0 3.707-.742 4.45-2.224l7.6-17.24c.12-.246.185-.49.185-.74 0-1.113-.865-1.67-2.594-1.67H94.293c-18.415 0-35.775 6.428-52.087 19.28-14.83 11.74-26.322 26.505-34.477 44.3C2.91 131.174.5 141.06.5 150.33c0 11 3.458 19.526 10.38 25.58 6.55 5.56 15.446 8.34 26.692 8.34H169.55c2.225 0 3.708-.802 4.45-2.41zM398.658 123.634c5.312-11.738 7.97-17.67 7.97-17.794 0-1.234-.804-1.854-2.41-1.854H296.69c-10.046 0-20.46 22.058-6.89 22.058h104.597c2.224 0 3.644-.802 4.263-2.41z" id="Shape" />
         <path d="M372.893 181.838l7.6-17.053c0-.247.06-.493.185-.742 0-1.112-.866-1.668-2.595-1.668h-84.34c-8.526 0-12.79-3.583-12.79-10.75 0-4.94 2.41-12.727 7.23-23.356l8.896-20.206c4.323-9.76 8.4-16.558 12.233-20.39 5.56-5.808 12.726-8.712 21.502-8.712h84.34c2.346 0 3.83-.742 4.45-2.224l7.6-17.24c.12-.246.184-.49.184-.74 0-1.113-.806-1.67-2.41-1.67H299.49c-18.416 0-35.776 6.428-52.088 19.28-14.954 11.74-26.446 26.505-34.478 44.3-4.82 10.505-7.23 20.39-7.23 29.66 0 11 3.46 19.526 10.38 25.58 6.55 5.56 15.447 8.34 26.693 8.34h125.49c2.348 0 3.894-.802 4.636-2.41zM613.307 181.838l54.497-122.34c.122-.246.186-.49.186-.74 0-1.113-.805-1.67-2.41-1.67H640c-2.35 0-3.832.807-4.45 2.41l-23.355 52.273L482.812 59.5c-3.957-1.605-7.108-2.41-9.454-2.41h-28.545c-2.225 0-3.708.805-4.45 2.41l-54.496 122.338c-.124.25-.185.495-.185.74 0 1.113.863 1.67 2.595 1.67h25.58c2.224 0 3.707-.803 4.448-2.41l22.8-51.347 126.973 50.976c4.57 1.854 8.278 2.78 11.122 2.78h29.658c2.346.002 3.83-.8 4.45-2.408zM821.8 173.126c11.243-7.415 19.278-16.497 24.097-27.248 2.224-4.82 3.336-9.39 3.336-13.717 0-6.672-2.41-12.108-7.23-16.31 8.28-3.83 15.262-8.713 20.947-14.645 6.795-7.29 10.195-14.83 10.195-22.614 0-7.414-3.15-13.035-9.454-16.867-5.313-3.087-11.925-4.634-19.832-4.634H684.632c-2.35 0-3.832.805-4.448 2.41-36.456 81.808-54.682 122.833-54.682 123.08 0 1.112.802 1.668 2.41 1.668h159.41c11.74 0 23.232-3.707 34.478-11.122zm-36.146-72.29c-4.45 2.102-9.083 3.15-13.902 3.15h-38.04l-9.715 22.058h37.93c7.416 0 11.123 3.337 11.123 10.01 0 6.55-2.905 12.576-8.712 18.073-5.81 5.5-11.988 8.25-18.537 8.25h-37.998l37.073-83.414h38c9.268 0 13.9 2.78 13.9 8.34 0 1.237-.31 2.595-.926 4.078-1.855 3.958-5.255 7.108-10.196 9.455zM1051.132 123.634c5.312-11.738 7.97-17.67 7.97-17.794 0-1.234-.804-1.854-2.41-1.854H946.23c-10.045 0-25.154 22.058-11.584 22.058h112.225c2.223 0 3.642-.802 4.262-2.41z" id="Shape" />
         <path d="M1027.367 181.838l7.6-17.053c0-.247.06-.493.186-.742 0-1.112-.866-1.668-2.595-1.668h-84.34c-8.527 0-12.79-3.583-12.79-10.75 0-4.94 2.41-12.727 7.228-23.356l8.897-20.206c4.324-9.76 8.402-16.558 12.234-20.39 5.56-5.808 12.726-8.712 21.502-8.712h84.34c2.345 0 3.828-.742 4.447-2.224l7.6-17.24c.122-.246.186-.49.186-.74 0-1.113-.805-1.67-2.41-1.67h-125.49c-18.415 0-35.775 6.428-52.087 19.28-14.953 11.74-26.446 26.505-34.478 44.3-4.82 10.505-7.23 20.39-7.23 29.66 0 11 3.46 19.526 10.382 25.58 6.548 5.56 15.446 8.34 26.692 8.34h125.49c2.347 0 3.893-.802 4.635-2.41zM1265.556 78.962c2.225 0 3.707-.742 4.45-2.224 5.19-11.74 7.784-17.73 7.784-17.98 0-1.112-.805-1.668-2.41-1.668h-178.875c-2.224 0-3.707.806-4.448 2.41-5.19 11.742-7.786 17.673-7.786 17.795 0 1.112.864 1.668 2.596 1.668h51.716c-30.648 68.833-45.97 103.372-45.97 103.618 0 1.113.742 1.67 2.225 1.67h67.1c2.1 0 3.523-.803 4.264-2.41l45.786-102.877h53.57zM1391.417 58.016c-.495-.617-1.297-.927-2.41-.927h-19.648c-1.238 0-2.29.31-3.152.926l-187.216 122.34c-1.36.865-2.04 1.667-2.04 2.41 0 .99.99 1.482 2.967 1.482h198.15l-14.014-21.874h-130.382l91.57-60.613 52.827 82.488c.372.62 85.268 0 85.268 0 2.965 0 4.448-.927 4.448-2.78 0-.37-25.458-41.52-76.37-123.452zM1546.2 181.423c3.59-3.59 5.385-7.888 5.385-12.9 0-5.008-1.795-9.31-5.384-12.898-3.588-3.59-7.89-5.384-12.898-5.384-5.01 0-9.31 1.796-12.9 5.385-3.588 3.59-5.383 7.89-5.383 12.9 0 5.01 1.794 9.31 5.383 12.898 3.59 3.59 7.89 5.384 12.9 5.384 5.008 0 9.31-1.794 12.898-5.384zM1548.2 83.95c3.59-3.588 5.385-7.887 5.385-12.898 0-5.01-1.795-9.31-5.384-12.9-3.588-3.588-7.89-5.383-12.898-5.383-5.01 0-9.31 1.794-12.9 5.383-3.588 3.59-5.383 7.89-5.383 12.9 0 5.01 1.794 9.31 5.383 12.898 3.59 3.59 7.89 5.385 12.9 5.385 5.008 0 9.31-1.794 12.898-5.384zM1691.2 181.536h20.976V.5H1691.2v55.746c-2.617-.298-4.412-.485-5.383-.56-7.778-.823-13.76-1.235-17.946-1.235-13.684 0-25.163 3.293-34.435 9.872-20.34 14.582-30.51 36.566-30.51 65.954 0 14.357 3.103 26.583 9.31 36.678 7.404 12.04 17.872 18.06 31.407 18.06 9.198 0 18.357-3.293 27.48-9.872 8.077-5.833 14.768-13.085 20.08-21.76v28.154zm-17.497-29.612c-8.9 8.75-17.273 13.124-25.125 13.124-8.076 0-14.17-4.523-18.283-13.572-3.14-6.954-4.71-14.955-4.71-24.003 0-15.104 3.625-27.817 10.88-38.136 8.224-11.59 19.59-17.386 34.097-17.386 6.355 0 13.236.974 20.64 2.917v53.728c-5.012 8.972-10.845 16.75-17.5 23.33zM1855.21 154.167c-16.303 8.974-31.183 13.46-44.643 13.46-7.554 0-14.284-1.794-20.19-5.384-6.432-3.887-11.404-9.683-14.918-17.386-3.217-6.955-4.824-14.47-4.824-22.545h86.368v-4.487c0-18.693-3.477-33.61-10.432-44.754-8.45-13.533-21.424-20.3-38.92-20.3-11.217 0-21.407 2.954-30.566 8.86-9.16 5.908-16.32 14.245-21.48 25.013-4.935 10.246-7.403 21.087-7.403 32.528 0 11.89 2.692 23.034 8.076 33.426 11.065 21.687 28.265 32.528 51.595 32.528 14.88 0 30.658-3.962 47.334-11.89v-19.067zm-48.456-83.9c9.047 0 16.04 3.43 20.975 10.288 4.41 6.04 6.617 13.754 6.617 23.146v3.02h-62.477c5.01-24.3 16.638-36.453 34.884-36.453z" id="Shape" />
         <path d="M1956.628 181.536l54.85-125.29h-20.937l-43.8 99.21-42.956-99.21h-22.864l54.4 125.29h21.308z" />
-</svg>
+      </svg>
     </figure>
 
     <p>Blog sobre programación.</p>
@@ -760,15 +811,15 @@ If you follow some resource not listed below feel free to post a comment and I w
   <article class="box-item animate">
     <h3>Ars Technica » Risk Assessment</h3>
     <figure id="medium">
-    <svg data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="6.1in" height="2in" viewBox="0 0 436.8 144.3">
-    <circle cx="72.2" cy="72.2" r="72.2" fill="#ff4e00" />
-    <g fill="#fff">
-        <path d="M46.6 94.2l-.9-5.9a20.8 20.8 0 0 1-15.6 6.8c-8 0-13-4.8-13-12.3 0-11 9.4-15.4 27.9-17.3v-1.9c0-5.6-3.3-7.5-8.4-7.5s-10.5 1.7-15.3 3.8l-1.1-7.1c5.3-2.1 10.3-3.7 17.1-3.7 10.7 0 15.9 4.3 15.9 14.2v30.9h-6.7zM45 71.8c-16.3 1.6-19.7 6-19.7 10.6s2.4 5.9 6.6 5.9 9.4-2.4 13.1-6.2V71.8zM72.4 68.1v26.1h-8.2V50.1h6.6l1.4 9c3.1-5 8.2-9.5 15.5-9.9l1.3 7.9c-7.4.3-13.6 5.2-16.6 11zM109.7 95.1a36.2 36.2 0 0 1-16.1-4.2l1.2-7.8a27.6 27.6 0 0 0 15.6 5.1c5.6 0 9-2.1 9-5.8s-2.5-5.6-10.5-7.5c-10.4-2.6-14.5-5.7-14.5-13.6s5.9-12.2 15.6-12.2a35.7 35.7 0 0 1 14.5 3l-1.3 7.8a28.2 28.2 0 0 0-13.4-3.8c-5 0-7.6 1.9-7.6 5.1s2.2 4.6 9.2 6.4c10.9 2.8 15.8 5.9 15.8 14.3s-6.1 13.2-17.5 13.2z" />
-    </g>
-    <g fill="#fff">
-        <path d="M219.3 83.9c-4.4 3.7-8.4 5-12.8 5-7.7 0-12.7-5.3-13.5-14h24.9l.9-5.5H193c.8-8.7 5.7-14.1 12.9-14.1 4.9 0 8.8 1.7 12.9 5.1l1-5.9a23 23 0 0 0-13.7-4.3c-10.7 0-19.2 7.8-19.2 21.9S195.2 94 205.8 94a22.1 22.1 0 0 0 14.3-4.8zM170.5 56.3v37h-5.8v-37h-13.4V51h32.2l.9 5.3h-13.9zM245.2 94c-11.9 0-19.5-8.8-19.5-21.8s7.8-22 19.6-22a20.3 20.3 0 0 1 12 3.5l-.9 5.9a18.1 18.1 0 0 0-11.2-4.1c-8.6 0-13.6 6.5-13.6 16.6s5.1 16.6 13.6 16.6a20.1 20.1 0 0 0 11.9-4.2l.9 5.4a22.3 22.3 0 0 1-12.8 4.1zM292.7 93.2V73.7h-21.4v19.5h-5.8V51h5.8v17.5h21.4V51h5.8v42.2h-5.8zM335.7 93.2l-23.2-32.9v32.9h-5.3V51h5.1l22.4 31.6V51h5.3v42.2h-4.3zM349.1 93.2V51h5.8v42.2h-5.8zM381.8 94c-11.9 0-19.5-8.8-19.5-21.8s7.8-22 19.6-22a20.3 20.3 0 0 1 12 3.5l-.9 5.9a18.1 18.1 0 0 0-11.2-4.1c-8.6 0-13.6 6.5-13.6 16.6s5.1 16.6 13.6 16.6a20.1 20.1 0 0 0 11.9-4.2l.9 5.4a22.3 22.3 0 0 1-12.8 4.1zM414.8 50.8h5.8l16.3 41.6-5.6 1.2-5-13.1h-17.4l-4.8 12.7h-5.8zm-4 24.7h13.5l-6.8-17.9z" />
-    </g>
-</svg>
+      <svg data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="6.1in" height="2in" viewBox="0 0 436.8 144.3">
+        <circle cx="72.2" cy="72.2" r="72.2" fill="#ff4e00" />
+        <g fill="#fff">
+          <path d="M46.6 94.2l-.9-5.9a20.8 20.8 0 0 1-15.6 6.8c-8 0-13-4.8-13-12.3 0-11 9.4-15.4 27.9-17.3v-1.9c0-5.6-3.3-7.5-8.4-7.5s-10.5 1.7-15.3 3.8l-1.1-7.1c5.3-2.1 10.3-3.7 17.1-3.7 10.7 0 15.9 4.3 15.9 14.2v30.9h-6.7zM45 71.8c-16.3 1.6-19.7 6-19.7 10.6s2.4 5.9 6.6 5.9 9.4-2.4 13.1-6.2V71.8zM72.4 68.1v26.1h-8.2V50.1h6.6l1.4 9c3.1-5 8.2-9.5 15.5-9.9l1.3 7.9c-7.4.3-13.6 5.2-16.6 11zM109.7 95.1a36.2 36.2 0 0 1-16.1-4.2l1.2-7.8a27.6 27.6 0 0 0 15.6 5.1c5.6 0 9-2.1 9-5.8s-2.5-5.6-10.5-7.5c-10.4-2.6-14.5-5.7-14.5-13.6s5.9-12.2 15.6-12.2a35.7 35.7 0 0 1 14.5 3l-1.3 7.8a28.2 28.2 0 0 0-13.4-3.8c-5 0-7.6 1.9-7.6 5.1s2.2 4.6 9.2 6.4c10.9 2.8 15.8 5.9 15.8 14.3s-6.1 13.2-17.5 13.2z" />
+        </g>
+        <g fill="#fff">
+          <path d="M219.3 83.9c-4.4 3.7-8.4 5-12.8 5-7.7 0-12.7-5.3-13.5-14h24.9l.9-5.5H193c.8-8.7 5.7-14.1 12.9-14.1 4.9 0 8.8 1.7 12.9 5.1l1-5.9a23 23 0 0 0-13.7-4.3c-10.7 0-19.2 7.8-19.2 21.9S195.2 94 205.8 94a22.1 22.1 0 0 0 14.3-4.8zM170.5 56.3v37h-5.8v-37h-13.4V51h32.2l.9 5.3h-13.9zM245.2 94c-11.9 0-19.5-8.8-19.5-21.8s7.8-22 19.6-22a20.3 20.3 0 0 1 12 3.5l-.9 5.9a18.1 18.1 0 0 0-11.2-4.1c-8.6 0-13.6 6.5-13.6 16.6s5.1 16.6 13.6 16.6a20.1 20.1 0 0 0 11.9-4.2l.9 5.4a22.3 22.3 0 0 1-12.8 4.1zM292.7 93.2V73.7h-21.4v19.5h-5.8V51h5.8v17.5h21.4V51h5.8v42.2h-5.8zM335.7 93.2l-23.2-32.9v32.9h-5.3V51h5.1l22.4 31.6V51h5.3v42.2h-4.3zM349.1 93.2V51h5.8v42.2h-5.8zM381.8 94c-11.9 0-19.5-8.8-19.5-21.8s7.8-22 19.6-22a20.3 20.3 0 0 1 12 3.5l-.9 5.9a18.1 18.1 0 0 0-11.2-4.1c-8.6 0-13.6 6.5-13.6 16.6s5.1 16.6 13.6 16.6a20.1 20.1 0 0 0 11.9-4.2l.9 5.4a22.3 22.3 0 0 1-12.8 4.1zM414.8 50.8h5.8l16.3 41.6-5.6 1.2-5-13.1h-17.4l-4.8 12.7h-5.8zm-4 24.7h13.5l-6.8-17.9z" />
+        </g>
+      </svg>
     </figure>
 
     <p>Serving the Technologist for more than a decade. IT news, reviews, and analysis.</p>

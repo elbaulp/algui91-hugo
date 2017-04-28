@@ -12,7 +12,7 @@ mainclass: android
 url: /video-proyecto-wifibar-en-la-ultima/
 tags:
 - curso android pdf
-title: "[V\xEDdeo] Proyecto WifiBar, en la \xFAltima fase de desarrollo"
+title: "[Vídeo] Proyecto WifiBar, en la última fase de desarrollo"
 ---
 
 Ya he hablado otras veces sobre este proyecto, que se trata ni más ni menos que del proyecto de fin de curso, [publiqué un vídeo hace algún tiempo][1], pero aún le quedaba mucho por mejorar, sobre todo la interfaz, visualmente parece que el programa no tiene mucho trabajo, pero si que lo tiene, ya que todo se envía y recibe de una base de datos. A continuación voy a explicar un poco su funcionamiento:

@@ -4,7 +4,7 @@ categories:
 - basededatos
 date: '2016-01-01'
 lastmod: 2017-02-12
-description: "Los bloques PL/SQL presentan una estructura espec\xEDfica compuesta
+description: "Los bloques PL/SQL presentan una estructura específica compuesta
   de tres partes bien diferenciadas"
 mainclass: BaseDeDatos
 url: /bloques-plsql/

@@ -2,16 +2,10 @@
 author: alex
 categories:
 - linux
-color: '#2196F3'
 date: '2016-01-01'
-description: "Este art\xEDculo tiene su origen en una pregunta a la que respond\xED
-  en *serverfault*, el usuario preguntaba *How to detect exceptionally long file locks
-  in linux?*. Aunque mi respuesta no solucion\xF3 su problema, creo que la explicaci\xF3n
-  puede ser de utilidad para alguien. A continuaci\xF3n escribo la traducci\xF3n de
-  mi respuesta al usuario"
+description: "Este artículo tiene su origen en una pregunta a la que respondí  en *serverfault*, el usuario preguntaba *How to detect exceptionally long file locks  in linux?*. Aunque mi respuesta no solucionó su problema, creo que la explicación  puede ser de utilidad para alguien. A continuación escribo la traducción de  mi respuesta al usuario"
 image: como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg
-lastmod: 2015-12-23
-
+lastmod: 2017-03-20T10:05:15+01:00
 mainclass: linux
 url: /como-detectar-ficheros-con-bloqueocerrojo-en-linux/
 tags:
@@ -21,11 +15,11 @@ tags:
 - file locks
 - flock
 - locks
-title: "\xBFC\xF3mo detectar ficheros con bloqueo/cerrojo en Linux?"
+title: "¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?"
 ---
 
 <figure>
-<a href="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="640px" height="640px" /></a>
+<a href="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg" title="¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?" alt="¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?" width="640px" height="640px" /></a>
 <span class="image-credit">Crédito de la imagen: pixabay.com</span>
 </figure>
 
@@ -59,8 +53,8 @@ Donde las columnas significan:
 * *Séptima:* Byte donde comienza el bloqueo en el fichero.
 * *Octava:* Byte donde acaba el bloqueo del fichero.
 
-#### Referencias
+# Referencias
 
-*How to detect exceptionally long file locks in linux?* »» <a href="http://serverfault.com/a/593873/181098" target="_blank">serverfault.com</a>
+- *How to detect exceptionally long file locks in linux?* »» <a href="http://serverfault.com/a/593873/181098" target="_blank">serverfault.com</a>
 
  [1]: https://elbauldelprogramador.com/introduccion-los-procesos/ "Intro a los procesos"

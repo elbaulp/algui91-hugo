@@ -3,36 +3,41 @@ author: alex
 categories:
 - administracion de servidores
 - seguridad
-color: '#0097A7'
 date: '2016-01-01'
-description: "Las copias de seguridad son algo que debemos tener a buen resguardo
-  por si alg\xFAn dia le ocurre algo a nuestros datos. Si bien lo anterior es cierto,
-  de igual modo hemos de tener bien protegidas \xE9stas copias de seguridad para que
-  no puedan ser usadas por terceros de caer en manos maliciosas. Hoy veremos c\xF3mo
-  cifrar archivos con openssl."
+lastmod: 2017-03-09T17:22:15+01:00
+description: "Las copias de seguridad son algo que debemos tener a buen resguardo  por si algún dia le ocurre algo a nuestros datos. Si bien lo anterior es cierto,  de igual modo hemos de tener bien protegidas éstas copias de seguridad para que  no puedan ser usadas por terceros de caer en manos maliciosas. Hoy veremos cómo  cifrar archivos con openssl."
 image: 2012/11/Apps-preferences-desktop-cryptography-icon1.png
-lastmod: 2016-07-31
-
 mainclass: servidores
 url: /como-cifrar-archivos-con-openssl/
 tags:
 - cifrar copias de seguridad con openssl
 - cifrar tar con openssl
 - comandos openssl
-title: "C\xF3mo cifrar archivos con openssl"
+- openssl
+- cifrar
+title: "Cómo cifrar archivos con openssl"
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/11/Apps-preferences-desktop-cryptography-icon1.png" alt="Homomorphic Encryption" alt="Cómo cifrar archivos con openssl" title="Cómo cifrar archivos con openssl" width="256px" height="256px" />
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2012/11/Apps-preferences-desktop-cryptography-icon1.png"
+            alt="Cómo cifrar archivos con openssl"
+            title="Cómo cifrar archivos con openssl"
+            sizes="(min-width: 256px) 256px, 100vw"
+            width="256"
+            height="256">
+          </amp-img>
 </figure>
 
 Las copias de seguridad son algo que debemos tener a buen resguardo por si algún dia le ocurre algo a nuestros datos. Si bien lo anterior es cierto, de igual modo hemos de tener bien protegidas éstas copias de seguridad para que no puedan ser usadas por terceros de caer en manos maliciosas. Hoy veremos cómo **cifrar archivos con openssl**.
 
-
-
 <!--more--><!--ad-->
 
-### Generar las claves públicas y privadas
+# Generar las claves públicas y privadas
 
 Al igual que en [GPG][1], necesitaremos generar un par de claves, pública y privada, para poder cifrar archivos con openssl:
 
@@ -44,26 +49,26 @@ $ openssl rsa -in clave.pem -out clave.pub.pem -outform PEM -pubout
 
 Con el primer comando generamos la clave, en *clave.pem* se encuentran tanto la clave privada como la pública, con el segundo comando extraemos la pública a un archivo distinto.
 
-### Método elegido para cifrar los archivos
+# Método elegido para cifrar los archivos
 
 El sistema de claves pública/privada no puede cifrar archivos de gran tamaño. Por tanto usaremos un <a href="http://es.wikipedia.org/wiki/Criptograf%C3%ADa_sim%C3%A9trica" target="_blank">cifrado simétrico</a> para el cifrado normal. Cada vez que cifremos un fichero se usará una clave simétrica generada aleatoriamente. Esta clave simétrica es la que **cifraremos de forma <a href="http://es.wikipedia.org/wiki/Criptograf%C3%ADa_asim%C3%A9trica" target="_blank">asimétrica</a>** con la **llave pública** que hemos generado con los comandos de arriba. En resumen:
 
-##### Para cifrar los archivos
+## Para cifrar los archivos
 
   1. Generamos una clave aleatoriamente, de gran longitud (40-50 caracteres por ejemplo).
   2. Ciframos el archivo con la clave generada en 1.
   3. Ciframos la clave generada en 1 con nuestra clave pública.
 
-##### Para descifrar los archivos
+## Para descifrar los archivos
 
   1. Desciframos la clave generada en 1 y cifrada con la llave pública en 3
   2. Desciframos el archivo con la clave que acabamos de descifrar en 1
 
-### Aplicar los pasos con openssl
+# Aplicar los pasos con openssl
 
 Ahora procedemos a aplicar los pasos descritos anteriormente con openssl:
 
-##### Cifrando los archivos
+## Cifrando los archivos
 
 ```bash
 # Paso 1, generar clave aleatoria
@@ -86,7 +91,7 @@ Los argumentos significan:
   * **-inkey:** Llave con la que cifrar
   * **-pubin:** Indica que vamos a firmar con una llave pública.
 
-##### Descifrado de archivos
+## Descifrado de archivos
 
 ```bash
 # Paso 1, desciframos la clave generada en 1 y cifrada con la llave pública en 3
@@ -100,7 +105,7 @@ Donde:
 
   * **-d:** Descifra los datos de entrada.
 
-### Script para descifrar varios archivos de una vez
+# Script para descifrar varios archivos de una vez
 
 Como suele ser habitual, los [scripts bash][2] nos facilitan las tareas repetitivas, con los comandos de arriba, es trivial escribir un **script** que automatize el proceso de descrifrar todos los archivos de un directorio:
 
@@ -126,16 +131,15 @@ do
 done
 
 IFS="$OIFS"
-
 ```
 
 Espero que os sea de utilidad.
 
-#### Referencias
+# Referencias
 
-*Encrypt tar.gz file on create* »» <a href="http://askubuntu.com/questions/95920/encrypt-tar-gz-file-on-create/96182#96182" target="_blank">askubuntu.com</a>
-*how to encrypt a large file in openssl using public key* »» <a href="http://stackoverflow.com/questions/7143514/how-to-encrypt-a-large-file-in-openssl-using-public-key" target="_blank">stackoverflow.com</a>
-*Documentación oficial de openssl* »» <a href="http://www.openssl.org/docs/apps/openssl.html" target="_blank">Visitar sitio</a>
+- *Encrypt tar.gz file on create* »» <a href="http://askubuntu.com/questions/95920/encrypt-tar-gz-file-on-create/96182#96182" target="_blank">askubuntu.com</a>
+- *how to encrypt a large file in openssl using public key* »» <a href="http://stackoverflow.com/questions/7143514/how-to-encrypt-a-large-file-in-openssl-using-public-key" target="_blank">stackoverflow.com</a>
+- *Documentación oficial de openssl* »» <a href="http://www.openssl.org/docs/apps/openssl.html" target="_blank">Visitar sitio</a>
 
 
 

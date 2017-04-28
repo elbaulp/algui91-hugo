@@ -12,7 +12,7 @@ tags:
 - android view setonclicklistener example
 - curso android pdf
 - startactivityforresult android example
-title: "Programaci\xF3n Android: Trabajar con actividades y pasar par\xE1metros entre ellas"
+title: "Programación Android: Trabajar con actividades y pasar parámetros entre ellas"
 ---
 
 En el primer capítulo, vimos como crear nuestro primer proyecto en Android, el conocido [Hola Mundo][1], en esta entrada, vamos a ver como crear varias [actividades][2] y cómo hacer que se pasen parámetros las unas a las otras.

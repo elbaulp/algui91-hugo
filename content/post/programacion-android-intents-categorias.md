@@ -12,7 +12,7 @@ tags:
 - android ejemplo intent filter
 - curso android pdf
 - ejemplo intentfilter implicito
-title: "Programaci\xF3n Android: Intents - Categor\xEDas"
+title: "Programación Android: Intents - Categorías"
 ---
 
 <div class="separator" >

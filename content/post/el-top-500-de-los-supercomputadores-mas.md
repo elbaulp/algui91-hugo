@@ -3,19 +3,14 @@ author: alex
 categories:
 - curiosidades
 - internet
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-04-22T12:36:47+01:00
 mainclass: articulos
 url: /el-top-500-de-los-supercomputadores-mas/
 tags:
 - top 500 supercomputadoras mundo
-title: "El top 500 de los supercomputadores m\xE1s potentes del mundo"
+title: "El top 500 de los supercomputadores más potentes del mundo"
 ---
-
-<div >
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="" src="https://2.bp.blogspot.com/-gIWvFVFFQqs/T0eBr9zRL4I/AAAAAAAACHU/vGXacktGdQc/s400/kcom-main.jpg"  />
-</div>
 
 Esta semana en clase de TOC (Tecnología y Organización de Computadores) nos enseñaron una web que se dedica a buscar por el mundo los supercomputadores y clasificarlos en un ranking de los 500 mejores, la web en cuestión es <a href="http://top500.org/" target="_blank">top500.org</a>.
 

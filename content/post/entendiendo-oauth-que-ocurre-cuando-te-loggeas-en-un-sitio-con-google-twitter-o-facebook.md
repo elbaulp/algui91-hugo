@@ -3,15 +3,9 @@ author: luzila
 categories:
 - articulos
 - seguridad
-color: '#F57C00'
 date: '2016-01-01'
-description: "Loggearte en otro sitio con tu cuenta de Google, Twitter o Facebook
-  no s\xF3lo es conveniente sino que adem\xE1s es m\xE1s segura que crear una nueva
-  cuenta, o ingresar tu contrase\xF1a de Google, Twitter o Facebook en un sitio de
-  terceros. Aqu\xED es donde OAuth entra en acci\xF3n. Veamos c\xF3mo funciona y c\xF3mo
-  mantiene nuestras contrase\xF1as seguras en sitios de terceros."
-lastmod: 2016-08-10
-
+lastmod: 2017-04-22T12:48:59+01:00
+description: "Loggearte en otro sitio con tu cuenta de Google, Twitter o Facebook  no sólo es conveniente sino que además es más segura que crear una nueva  cuenta, o ingresar tu contraseña de Google, Twitter o Facebook en un sitio de  terceros. Aquí es donde OAuth entra en acción. Veamos cómo funciona y cómo  mantiene nuestras contraseñas seguras en sitios de terceros."
 mainclass: articulos
 url: /entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/
 aliases: /opensource/seguridad/entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/
@@ -19,8 +13,7 @@ tags:
 - aplicaciones web
 - OAuth
 - seguridad
-title: "Entendiendo OAuth: Qu\xE9 ocurre cuando te loggeas en un sitio con Google,
-  Twitter o Facebook"
+title: "Entendiendo OAuth: Qué ocurre cuando te loggeas en un sitio con Google, Twitter o Facebook"
 ---
 
 Loggearte en otro sitio con tu cuenta de Google, Twitter o Facebook no sólo es conveniente sino que además es más segura que crear una nueva cuenta, o ingresar tu contraseña de Google, Twitter o Facebook en un sitio de terceros. Aquí es donde OAuth entra en acción. Veamos cómo funciona y cómo mantiene nuestras contraseñas seguras en sitios de terceros.
@@ -29,12 +22,10 @@ Hace poco, <a href="http://lifehacker.com/5917895/twitter-service-tweetgif-hacke
 
 <!--more--><!--ad-->
 
-
-
 # Cómo funciona OAuth
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/06/medium1.jpg" alt="" title="medium" width="300px" height="166px"></amp-img>
+    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/06/medium1.jpg" alt="" title="medium" width="300px" height="166px"></amp-img>
 </figure>
 
 Digamos que quieres usar una aplicación como Tweetgif para postear divertidas imágenes GIF animadas en tu cuenta de Twitter. Para lograrlo, es necesario darle a Tweetgif acceso a tu cuenta de Twitter, para poder obtener tu info y postear tweets en tu nombre. En los viejos tiempos, tenías que darle a una aplicación como Tweetgif tu nombre de usuario y contraseña de Twitter, para que pueda loggearse y acceder a los servicios. No solo tenías que confiar que usen esas credenciales sabiamente, sino que también debías mantenerlas protegidas de los hackers - lo que era un verdadero gran salto de fe. Es como darle las llaves de tu casa a un extraño y confiar que no hará copias para todos sus amigos y luego robar todas tus cosas.
@@ -54,4 +45,4 @@ Por lo tanto, en lugar de darles la llave de toda tu casa, les estás dando una 
 La gran desventaja de esta innovación es que algunos sitios podrían dejar loggear usando Facebook o Twitter e intentarán postear en tu perfil, incluso si no es realmente *necesario*. Algunos sitios, como el reproductor de música <a href="http://turntable.fm/" target="_blank">Turntable.fm</a>, no te permiten crear una cuenta - debes loggearte con Facebook o Twitter. Es conveniente, dado que no tienes que crear una cuenta, pero luego éste intenta postear en tu perfil sobre qué estás haciendo en su sitio. De manera similar, <a href="http://waxy.org/2012/02/the_perpetual_invisible_window_into_your_gmail_inbox/" target="_blank">Google no te dice realmente qué permisos otorgas</a> cuando usas OAuth. Para evitar problemas, asegúrate de leer la política de privacidad de cada aplicación a la que te conectas, y si puedes, presta atención a los permisos que cada aplicación obtiene. Si detectas algo que no quieres que la aplicación haga, simplemente no la uses. O, como alternativa, fíjate si hay una opción para desactivar esta "característica" en la configuración de la aplicación (Turntable, por ejemplo, te permite desactivar los posteos en el muro de Facebook en su configuración luego de loggearte). Y, como siempre, asegúrate de regularmente reducir tus aplicaciones autorizadas así no te metes en problemas - si no has usado alguna por un tiempo, probablemente es mejor quitarla por completo.
 
 
-Fuente: <a href="http://lifehacker.com/5918086/understanding-oauth-what-happens-when-you-log-into-a-site-with-google-twitter-or-facebook" target="_blank">lifehacker</a>
+- Fuente: <a href="http://lifehacker.com/5918086/understanding-oauth-what-happens-when-you-log-into-a-site-with-google-twitter-or-facebook" target="_blank">lifehacker</a>

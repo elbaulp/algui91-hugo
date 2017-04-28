@@ -11,7 +11,7 @@ mainclass: linux
 url: /gestion-basica-de-usuarios-en-linux/
 tags:
 - script gestion de usuarios linux
-title: "Gesti\xF3n b\xE1sica de usuarios en linux"
+title: "Gestión básica de usuarios en linux"
 ---
 
 Hace un tiempo hice un script para gestionar los usuarios en linux de forma sencilla, personalmente creo que es fácil de usar. Sus características son las siguientes:

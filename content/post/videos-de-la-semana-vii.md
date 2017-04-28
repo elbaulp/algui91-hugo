@@ -7,7 +7,7 @@ date: '2016-01-01'
 
 mainclass: geek
 url: /videos-de-la-semana-vii/
-title: "V\xEDdeos de la semana (VII)"
+title: "Vídeos de la semana (VII)"
 ---
 
 <div class="separator" >

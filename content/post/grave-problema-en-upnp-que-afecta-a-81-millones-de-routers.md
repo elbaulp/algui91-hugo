@@ -9,7 +9,7 @@ date: '2016-01-01'
 mainclass: security-now
 url: /grave-problema-en-upnp-que-afecta-a-81-millones-de-routers/
 tags:
-- "qu\xE9 es upnp"
+- "qué es upnp"
 - upnp que es
 title: Grave vulnerabilidad en UPnP que afecta a 81 millones de routers
 ---

@@ -2,16 +2,11 @@
 author: alex
 categories:
 - seguridad
-color: '#F57C00'
 date: '2016-01-01'
-description: "En estos tiempos en los que est\xE1 claro que estamos sometidos a vigilancia
-  de los gobiernos, es posible que queramos un poco de privacidad cuando nos comunicamos
-  por la red. Hoy voy a explicar c\xF3mo configurar un plugin para Firefox y Chrome
-  que nos permitir\xE1 enviar correos de forma segura mediante GPG, Mailvelope."
+lastmod: 2017-03-09T17:25:57+01:00
+description: "En estos tiempos en los que está claro que estamos sometidos a vigilancia  de los gobiernos, es posible que queramos un poco de privacidad cuando nos comunicamos  por la red. Hoy voy a explicar cómo configurar un plugin para Firefox y Chrome  que nos permitirá enviar correos de forma segura mediante GPG, Mailvelope."
 image: 2013/04/GnuPG-Logo.png
-introduction: "C\xF3mo cifrar correos electr\xF3nicos con gpg y mailvelope"
-lastmod: 2016-08-10
-
+introduction: "Cómo cifrar correos electrónicos con gpg y mailvelope"
 mainclass: articulos
 url: /como-cifrar-correos-con-gpg-con-mailvelope/
 tags:
@@ -21,18 +16,28 @@ tags:
 - instalar mailvelope en firefox
 - tutorial mailvelope
 - user gpg en correo
-- "como cifrar correos electr\xF3nicos"
+- "como cifrar correos electrónicos"
 - gpg
-title: "C\xF3mo cifrar correos electr\xF3nicos con GPG usando Mailvelope"
+- cifrar
+title: "Cómo cifrar correos electrónicos con GPG usando Mailvelope"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/GnuPG-Logo.png" alt="Cómo cifrar correos con GPG usando Mailvelope" width="400px" height="175px"></amp-img>
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2013/04/GnuPG-Logo.png"
+            alt="Cómo cifrar correos con GPG usando Mailvelope"
+            title="Cómo cifrar correos con GPG usando Mailvelope"
+            sizes="(min-width: 400px) 400px, 100vw"
+            width="400"
+            height="175">
+          </amp-img>
 </figure>
 
 En estos tiempos en los que está claro que estamos sometidos a vigilancia de los gobiernos, es posible que queramos un poco de privacidad cuando nos comunicamos por la red. Hoy voy a explicar cómo configurar un plugin para Firefox y Chrome que nos permitirá enviar correos de forma segura mediante [GPG](/tags/gpg), **Mailvelope**.
-
-
 
 <!--more--><!--ad-->
 
@@ -73,7 +78,18 @@ Tras esto, en **dist/mailvelope.xpi** se encuentra el plugin para instalarlo.
 Una vez instalado mailvelope en el navegador correspondiente, hacemos **click en el icono del plugin » opciones**. Aparecerá un formulario que rellenaremos con un nombre, el correo a usar y un **passphrase**, en las opciones avanzadas podemos elegir el algoritmo de cifrado, la longitud y la fecha de expiración:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope.png" alt="Cómo cifrar correos con GPG usando Mailvelope" width="610px" height="619px"></amp-img>
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope.png"
+            alt="Cómo cifrar correos con GPG usando Mailvelope"
+            title="Cómo cifrar correos con GPG usando Mailvelope"
+            sizes="(min-width: 610px) 610px, 100vw"
+            width="610"
+            height="619">
+          </amp-img>
 </figure>
 
 # Enviar la clave pública a un servidor de llaves
@@ -87,19 +103,58 @@ Vamos a poner un ejemplo con la cuenta de correo de contacto de este blog. El pr
 Como es la primera vez que ambas cuentas de correo van a ponerse en contacto, para que yo pueda enviar correos cifrados debo conocer la clave pública del otro usuario. Mailvelope dispone de una opción que permite enviar la clave pública por correo en Display Keys » (Seleccionamos la clave deseada) » Export » Send Public Key by email. Si por algún motivo no funcionara simplemente copiamos la clave pública y la pegamos en el correo como parte del mensaje. Otra opción es proporcionar el enlace del servidor de claves donde reside.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope1.png" alt="Cómo cifrar correos con GPG usando Mailvelope" width="597px" height="592px"></amp-img>
+        <a href="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope1.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope1.png"
+            alt="Cómo cifrar correos con GPG usando Mailvelope"
+            title="Cómo cifrar correos con GPG usando Mailvelope"
+            sizes="(min-width: 597px) 597px, 100vw"
+            width="597"
+            height="592">
+          </amp-img>
+        </a>
 </figure>
 
 Como vemos en la imagen, aparece un simbolo a la derecha, tenemos que pulsarlo y escribir en mensaje ahí:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope2.png" alt="Cómo cifrar correos con GPG usando Mailvelope" width="1255px" height="978px"></amp-img>
+        <a href="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope2.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope2.png"
+            alt="Cómo cifrar correos con GPG usando Mailvelope"
+            title="Cómo cifrar correos con GPG usando Mailvelope"
+            sizes="(min-width: 800px) 800px, 100vw"
+            width="1255"
+            height="978">
+          </amp-img>
+        </a>
 </figure>
 
 Como aparece en la imagen, si es la primera vez que ambos correos se ponen en contacto, hay que enviar la clave pública para que la otra persona pueda reponder con un mensaje cifrado. Luego hacemos click en el candado y seleccionamos a clave pública con la que cifrar el mensaje, en este caso con la del correo de este blog, que hemos importado más arriba. Ya solo queda hacer click en **Transfer** y obtendremos esto:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope3.png" alt="Cómo cifrar correos con GPG usando Mailvelope" width="590px" height="587px" ></amp-img>
+        <a href="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope3.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope3.png"
+            alt="Cómo cifrar correos con GPG usando Mailvelope"
+            title="Cómo cifrar correos con GPG usando Mailvelope"
+            sizes="(min-width: 590px) 590px, 100vw"
+            width="590"
+            height="587">
+          </amp-img>
+        </a>
 </figure>
 
 Pulsamos enviar y listo.
@@ -107,7 +162,20 @@ Pulsamos enviar y listo.
 El proceso contrario, es decir, cuando nos envíen un email cifrado es bastante intuitivo, abrimos el correo y nos encontramos con esto:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope4.png" alt="Cómo cifrar correos con GPG usando Mailvelope" width="795px" height="380px" ></amp-img>
+        <a href="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope4.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope4.png"
+            alt="Cómo cifrar correos con GPG usando Mailvelope"
+            title="Cómo cifrar correos con GPG usando Mailvelope"
+            sizes="(min-width: 795px) 795px, 100vw"
+            width="795"
+            height="380">
+          </amp-img>
+        </a>
 </figure>
 
 El cursor adaptará la forma de una llave, hacemos click, introducimos nuestro **passphrase** y descifraremos el mensaje.

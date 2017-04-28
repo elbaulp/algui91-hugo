@@ -17,7 +17,7 @@ tags:
 - mobile applications
 - mobile computing
 - mobile design
-title: "Nueva gu\xEDa: 8 Steps to Building Mobile Apps Fast in the Cloud"
+title: "Nueva guía: 8 Steps to Building Mobile Apps Fast in the Cloud"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/8-Steps-to-Building-Mobile-Apps-Fast-in-the-Cloud-300x1431.png" alt="8 Steps to Building Mobile Apps Fast in the Cloud" width="300px" height="143px" />][1]

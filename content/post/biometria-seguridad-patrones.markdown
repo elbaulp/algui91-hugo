@@ -3,17 +3,17 @@ author: cristina
 categories:
 - articulos
 date: 2016-01-26 10:51:21
-description: "En este art\xEDculo se dar\xE1 un repaso por las distintas t\xE9nicas
-  existentes de reconocimiento de patrones y c\xF3mo pueden usarse sobre datos biom\xE9tricos."
+description: "En este artículo se dará un repaso por las distintas ténicas
+  existentes de reconocimiento de patrones y cómo pueden usarse sobre datos biométricos."
 image: hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png
 mainclass: articulos
 tags:
-- "seguridad biom\xE9trica"
-- "biometr\xEDa aplicada a la seguridad"
-- "reconocimiento de patrones biom\xE9tricos"
-- "sistemas biom\xE9tricos"
-- "biometr\xEDa de la mano"
-title: "Biometr\xEDa Aplicada a La Seguridad - Reconocimiento De Patrones"
+- "seguridad biométrica"
+- "biometría aplicada a la seguridad"
+- "reconocimiento de patrones biométricos"
+- "sistemas biométricos"
+- "biometría de la mano"
+title: "Biometría Aplicada a La Seguridad - Reconocimiento De Patrones"
 lastmod: 2017-02-11
 ---
 

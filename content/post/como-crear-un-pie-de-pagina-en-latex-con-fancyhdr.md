@@ -3,35 +3,31 @@ author: alex
 categories:
 - how to
 - latex
-color: '#B31917'
 date: '2016-01-01'
+lastmod: 2017-03-18T12:28:55+01:00
 image: 2013/05/latex_logo.png
-lastmod: 2016-08-13
-
 mainclass: latex
 url: /como-crear-un-pie-de-pagina-en-latex-con-fancyhdr/
 tags:
-- "crear un pie de p\xE1gina en LaTeX"
+- "crear un pie de página en LaTeX"
 - fancyhdr
-- "personalizar pie de p\xE1gina latex"
+- "personalizar pie de página latex"
 - pie de pagina latex
 - latex
 - fancy hdr
 - latex nota al pie
-title: "C\xF3mo crear un pie de p\xE1gina en LaTeX con fancyhdr"
+title: "Cómo crear un pie de página en LaTeX con fancyhdr"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" alt="latex_logo" width="300px" height="114px"></amp-img>
+<amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" alt="latex_logo" width="300px" height="114px"></amp-img>
 </figure>
 
 Como he mencionado en algún [artículo anterior][1], he aprendido bastante a programar en LaTeX reescribiendo el [curso de Android][2]. Hoy vamos a ver cómo crear un pie de página en LaTeX.
 
 <!--more--><!--ad-->
 
-
-
-## Fancyhdr
+# Fancyhdr
 
 Para poder crear pies de página y cabeceras es necesario usar el paquete *fancyhdr*, y establecer el estilo de página a *fancy*:
 
@@ -42,7 +38,7 @@ Para poder crear pies de página y cabeceras es necesario usar el paquete *fancy
 
 Ahora nuestros documentos tendrán una línea arriba y abajo, en la cabecera y pie de página respectivamente.
 
-## Personalizar el estilo del pie de página
+# Personalizar el estilo del pie de página
 
 Para cambiar el aspecto por defecto que ofrece el paquete fancyhdr, hemos de usar los comandos `fancyhead` y `fancyfoot`, correspondientes a la cabecera y pie de página, respectivamente. Nosotros nos centraremos en el pie, aunque para personalizar la cabecera bastará con sustituir `fancyfoot` por `fancyhead` en el código.
 
@@ -92,10 +88,10 @@ Ahora desde el fichero principal, resulta muy fácil reusar la plantilla y cambi
 Produciendo el siguiente resultado:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/footerFancyHdrLatex.png" alt="Cómo crear un pie de página en LaTeX con fancyhdr" title="Cómo crear un pie de página en LaTeX con fancyhdr" width="887px" height="53px"></amp-img>
+<amp-img sizes="(min-width: 887px) 887px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/footerFancyHdrLatex.png" alt="Cómo crear un pie de página en LaTeX con fancyhdr" title="Cómo crear un pie de página en LaTeX con fancyhdr" width="887px" height="53px"></amp-img>
 </figure>
 
-#### Referencias
+# Referencias
 
 - *Header/Footer in Latex with Fancyhdr* »» <a href="http://texblog.org/2007/11/07/headerfooter-in-latex-with-fancyhdr/" target="_blank">texblog.org</a>
 

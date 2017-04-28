@@ -8,7 +8,7 @@ date: '2016-01-01'
 
 mainclass: misc
 url: /nueva-guia-4-key-recommendations-cloud-integration/
-title: "Nueva gu\xEDa: 4 Key Recommendations for Cloud Integration"
+title: "Nueva guía: 4 Key Recommendations for Cloud Integration"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/09/WhitePaper_Cloudinte.jpg" alt=" 4 Key Recommendations for Cloud Integration" width="125px" height="160px" />][1]

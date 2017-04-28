@@ -4,15 +4,13 @@ categories:
 - android
 - aplicaciones
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-06
-
+lastmod: 2017-04-11T16:27:26+01:00
 mainclass: android
 url: /desarrollo-android-que-es-android/
 tags:
 - curso android pdf
-title: "Desarrollo android. \xBFQu\xE9 es Android?. Traducci\xF3n de developer.android.com"
+title: "Desarrollo android. ¿Qué es Android?. Traducción de developer.android.com"
 ---
 
 # ¿Qué es Android?
@@ -39,7 +37,7 @@ Android es un conjunto de software para dispositivos móviles que incluye Sistem
 El siguiente diagrama muestra los principales componentes del sistema operatívo Android.  Cada sección se describe con más detalle abajo.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="512" height="368" src="https://lh4.googleusercontent.com/_IlK2pNFFgGM/TahoYPof5pI/AAAAAAAAAbA/uX4dBYbzVbA/system-architecture.jpg" alt="Android System Architecture"></amp-img>
+    <amp-img sizes="(min-width: 512px) 512px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="512" height="368" src="https://lh4.googleusercontent.com/_IlK2pNFFgGM/TahoYPof5pI/AAAAAAAAAbA/uX4dBYbzVbA/system-architecture.jpg" alt="Android System Architecture"></amp-img>
 </figure>
 
 ## Aplicaciones

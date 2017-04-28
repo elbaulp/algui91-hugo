@@ -12,7 +12,7 @@ mainclass: linux
 url: /liberada-la-version-10-de-htop/
 tags:
 - htop
-title: "Liberada la versi\xF3n 1.0 de htop"
+title: "Liberada la versión 1.0 de htop"
 ---
 
 Si monitorizáis el estado de vuestros sistemas con [Linux][1] probablemente conozcáis el célebre comando top, que permite acceder a esa información en modo consola de una forma más visual de la que suele ofrecer el simple ‘ps’. Y seguro que también conocéis htop, que ocho años después acaba de anunciar su versión 1.0.

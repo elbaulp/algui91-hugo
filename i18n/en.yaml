@@ -60,6 +60,8 @@
   translation: "También disponible en"
 - id: single_reading_time
   translation: "Reading Time {{ .ReadingTime }} m."
+- id: words
+  translation: "{{ .WordCount }} words."
 - id: not_found_title
   translation: "There is nothing to see here :-(, you can search below:"
 - id: not_found_latest
@@ -74,3 +76,7 @@
   translation: "Create a Pull Request"
 - id: more_posts
   translation: "More {{ .name }}'s posts"
+- id: lastMod
+  translation: "Modified on"
+- id: related
+  translation: "Maybe this posts are also worth reading"

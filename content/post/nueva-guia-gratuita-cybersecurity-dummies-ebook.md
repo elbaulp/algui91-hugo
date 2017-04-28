@@ -14,7 +14,7 @@ mainclass: misc
 url: /nueva-guia-gratuita-cybersecurity-dummies-ebook/
 tags:
 - Cybersecurity
-title: "Nueva gu\xEDa gratuita: Cybersecurity for Dummies eBook"
+title: "Nueva guía gratuita: Cybersecurity for Dummies eBook"
 ---
 
 <figure>

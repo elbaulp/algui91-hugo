@@ -9,7 +9,7 @@ lastmod: 2016-09-21
 
 mainclass: misc
 url: /nueva-guia-newbies-getting-started/
-title: "Nueva gu\xEDa: A Newbies Getting Started Guide to Linux"
+title: "Nueva guía: A Newbies Getting Started Guide to Linux"
 ---
 
 <figure>

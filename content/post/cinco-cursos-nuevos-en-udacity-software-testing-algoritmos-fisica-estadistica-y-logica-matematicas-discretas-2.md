@@ -10,11 +10,10 @@ url: /cinco-cursos-nuevos-en-udacity-software-testing-algoritmos-fisica-estadist
 tags:
 - algoritmos
 - cursos online
-- "programaci\xF3n"
+- "programación"
 - software testing
 - udacity
-title: "Cinco cursos nuevos en Udacity: Software Testing, Algoritmos, F\xEDsica, Estad\xEDstica
-  y L\xF3gica & matem\xE1ticas discretas"
+title: "Cinco cursos nuevos en Udacity: Software Testing, Algoritmos, Física, Estadística y Lógica & matemáticas discretas"
 ---
 
 <a href="http://www.udacity.com/" target="_blank">Udacity</a> sigue mejorando,y a una semana escasa de acabar los [cinco cursos][1] que comenzaron hace siete semanas. Ayer anunciaron en su blog que iban a impartir otros cinco cursos a partir del 25 de Junio. A continuación dejo una descripción de cada uno de los cursos.

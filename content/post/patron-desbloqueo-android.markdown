@@ -6,11 +6,11 @@ categories:
 - java
 color: '#D32F2F'
 date: 2016-02-17 06:25:54
-description: "Reconozca un patr\xF3n de gestos sobre pantalla de vuestra elecci\xF3n.
-  Una vez detectado el patr\xF3n se debe ejecutar la aplicaci\xF3n de c\xE1mara y
-  realizar autom\xE1ticamente una foto transcurridos 3 segundos. Los gestos a detectar
-  son similares a los que se realizan con la pantalla de bloqueo Android, cuanto m\xE1s
-  complejo sea el que se detecta mejor puntuaci\xF3n tendr\xE1."
+description: "Reconozca un patrón de gestos sobre pantalla de vuestra elección.
+  Una vez detectado el patrón se debe ejecutar la aplicación de cámara y
+  realizar automáticamente una foto transcurridos 3 segundos. Los gestos a detectar
+  son similares a los que se realizan con la pantalla de bloqueo Android, cuanto más
+  complejo sea el que se detecta mejor puntuación tendrá."
 image: npi/drawingPatter.png
 
 mainclass: java
@@ -18,9 +18,9 @@ modified: null
 tags:
 - tutorial patrones android
 - patternlock android
-- "echar foto tras cuenta atr\xE1s android"
-- "programar patr\xF3n de bloqueo android"
-title: "Crear Un Patr\xF3n De Desbloqueo Android"
+- "echar foto tras cuenta atrás android"
+- "programar patrón de bloqueo android"
+title: "Crear Un Patrón De Desbloqueo Android"
 ---
 
 >La siguiente aplicación es parte de una práctica de la asignatura “Nuevos Paradigmas de la Interacción” de la facultad de Ingeniería Informática de Granada (ETSIIT) Otras aplicaciones de la práctica son:
@@ -222,7 +222,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
 
 ### Referencias
 
-- Código de la aplicación \| [github.com/algui91/photoGesture](https://github.com/algui91/grado_informatica_npi/tree/master/Android/PhotoGesture)
+- Código de la aplicación \| [github.com/elbaulp/photoGesture](https://github.com/elbaulp/grado_informatica_npi/tree/master/Android/PhotoGesture)
 - Página oficial de Android \| [developer.android.com/guide/topics/media/camera](http://developer.android.com/guide/topics/media/camera.html)
 - Librería PatternLock \| [github.com/DreaminginCodeZH/PatternLock](https://github.com/DreaminginCodeZH/PatternLock)
 </uses-permission></patternview.cell>

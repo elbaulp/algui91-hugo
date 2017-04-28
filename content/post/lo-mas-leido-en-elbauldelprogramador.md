@@ -8,7 +8,7 @@ lastmod: 2016-10-08
 
 mainclass: articulos
 url: /lo-mas-leido-en-elbauldelprogramador/
-title: "Lo m\xE1s leido en ElbaulDelProgramador (Noviembre 2011)"
+title: "Lo más leido en ElbaulDelProgramador (Noviembre 2011)"
 ---
 
 Con esta entrada os dejo lo más leido del més en el blog, junto con algunos datos estadísticos:

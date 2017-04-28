@@ -2,43 +2,42 @@
 author: alex
 categories:
 - java
-color: '#0097A7'
 date: '2016-01-01'
-
+lastmod: 2017-03-20T10:02:21+01:00
 mainclass: servidores
 url: /como-desarrollar-aplicaciones-en-un-servidor-cloud-2/
 tags:
 - aplicaciones cliente servidor
 - desarrollo backend
 - servidores cloud
-title: "C\xF3mo desarrollar aplicaciones en un servidor Cloud"
+title: "Cómo desarrollar aplicaciones en un servidor Cloud"
 ---
 
 En éste artículo vamos a ver cómo configurar un servidor cloud para ejecutar una aplicación básica a modo de ejemplo. Será el típico juego de adivinar qué número ha pensado el oponente, escrito en Java. Para el lado servidor, he elegido el servicio cloud de [Arsys][1], bastante sencillo de usar. Ya que permite crear servidores a base de clicks, e incrementar los recursos de cada servidor para que se ajusten a nuestras necesidades.
 
 <!--more--><!--ad-->
 
-## Configurar el servidor
+# Configurar el servidor
 
-### Crear el tipo de servidor
+## Crear el tipo de servidor
 
 En éste caso, elegiremos un servidor con Debian 6, y una instalación base.
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/1.-Creación-de-un-servidor-Cloud.png" alt="1. Creación de un servidor Cloud" width="817px" height="448px" />
 
-### Configurar la capacidad del servidor
+## Configurar la capacidad del servidor
 
 Para el ejemplo concreto, no necestiamos grandes recursos, así que fijaremos todo al mínimo.
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/2.-Configuración-capacidad-servidor-Cloud.png" alt="2. Configuración capacidad servidor Cloud" width="817px" height="575px" />
 
-### Establecer la contraseña de usuario
+## Establecer la contraseña de usuario
 
 Por último, solo resta proporcionar una contraseña al usuario **root**.
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/3.-Finalización-de-la-puesta-en-marcha-del-servidor-cloud.png" alt="3. Finalización de la puesta en marcha del servidor cloud" width="815px" height="581px" />
 
-## Código del programa del lado servidor
+# Código del programa del lado servidor
 
 El fichero `Servidor.java`, código encargado de aceptar las peticiones de nuevos jugadores.
 
@@ -292,7 +291,7 @@ public class Cliente {
 
 ```
 
-## Enviar el programa al servidor.
+# Enviar el programa al servidor.
 
 Para el servidor únicamente nos hacen falta los ficheros `Servidor.java` y `Procesador.java`, podemos enviarlos con *scp*:
 
@@ -301,7 +300,7 @@ scp Servidor.java Procesador.java root@ip:
 
 ```
 
-### Compilar el programa en el servidor
+## Compilar el programa en el servidor
 
 Accedemos al servidor mediante ssh y compilamos el programa:
 
@@ -311,14 +310,14 @@ javac Procesador.java
 
 ```
 
-### Ejecutar el programa servidor
+## Ejecutar el programa servidor
 
 ```bash
 java Servidor
 
 ```
 
-## En el lado cliente
+# En el lado cliente
 
 En la máquina que hará de cliente, compilamos el programa `Cliente.java`:
 
@@ -345,7 +344,7 @@ O, desde Arsys, en políticas de firewall añadir lo siguiente:
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/5.-Configuración-puerto.png" alt="5. Configuración puerto" width="343px" height="45px" />
 
-## Captura de pantalla del juego en marcha
+# Captura de pantalla del juego en marcha
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/6.-Ejempli-programa.png" alt="6. Ejemplo programa" width="653px" height="863px" />
 

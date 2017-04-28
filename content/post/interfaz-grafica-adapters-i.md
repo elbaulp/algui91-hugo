@@ -11,7 +11,7 @@ mainclass: android
 url: /programacion-android-interfaz-grafica_28/
 tags:
 - adapter android
-- "android dise\xF1ar gui"
+- "android diseñar gui"
 - android listview con imagenes
 - android listview example
 - como hacer interfaces graficas en android
@@ -21,7 +21,7 @@ tags:
 - layout android
 - menu android
 - simple adapter android ejemplo
-title: "Programaci\xF3n Android: Interfaz gr\xE1fica - Adapters I"
+title: "Programación Android: Interfaz gráfica - Adapters I"
 ---
 
 Un objeto Adaptador actúa como puente entre un AdapterView y los datos de una Vista (View). El adaptador permite el acceso a los elementos de datos, éste también es responsable de crear una vista para cada elemento en la colección de datos.

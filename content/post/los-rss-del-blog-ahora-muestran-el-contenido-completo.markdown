@@ -5,9 +5,9 @@ categories:
 color: '#F57C00'
 date: 2016-12-03 10:40:33
 lastmod: 2017-01-26
-description: "Tras escuchar a varios lectores, ahora es posible leer los art\xEDculos
+description: "Tras escuchar a varios lectores, ahora es posible leer los artículos
   completos desde los lectores RSS"
-introduction: "Tras escuchar a varios lectores, ahora es posible leer los art\xEDculos
+introduction: "Tras escuchar a varios lectores, ahora es posible leer los artículos
   completos desde los lectores RSS"
 mainclass: articulos
 title: Los RSS Del Blog Ahora Muestran El Contenido Completo

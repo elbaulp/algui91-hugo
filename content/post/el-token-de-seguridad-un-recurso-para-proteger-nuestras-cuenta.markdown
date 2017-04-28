@@ -2,19 +2,11 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: 2015-03-30 14:51:38
-description: "A medida que han ido siendo m\xE1s habituales todo tipo de transaccione
-  online, tanto los servicios que las ofrecen como los usuarios que la utilizan muestran
-  una mayor preocupaci\xF3n por reforzar la seguridad a acometer este tipo de operaciones.
-  Buena prueba de ello es como la banc ha trabajado sin descanso por evitar el fraude
-  que se comete a trav\xE9s d la suplantaci\xF3n de identidad con f\xF3rmulas como
-  el sistema de pag [Vini](https://be.ceca.es/2000/vini/index.html), con tarjetas
-  virtuale y diversos m\xE9todos"
-
+lastmod: 2017-04-22T12:35:20+01:00
+description: "A medida que han ido siendo más habituales todo tipo de transaccione  online, tanto los servicios que las ofrecen como los usuarios que la utilizan muestran  una mayor preocupación por reforzar la seguridad a acometer este tipo de operaciones.  Buena prueba de ello es como la banc ha trabajado sin descanso por evitar el fraude  que se comete a través d la suplantación de identidad con fórmulas como  el sistema de pag [Vini](https://be.ceca.es/2000/vini/index.html), con tarjetas  virtuale y diversos métodos"
 mainclass: articulos
-modified: null
-tags: []
+tags: [seguridad, privacidad]
 title: El Token De Seguridad, Un Recurso Para Proteger Nuestras Cuenta
 ---
 
@@ -25,8 +17,6 @@ Aunque la obsesión por la seguridad no es exclusiva de las entidade bancarias y
 <!--more--><!--ad-->
 
 Un ejemplo de esto podría ser la sala de póker online PokerStars dond sus usuarios pueden disponer de un servicio opcional de [token de seguridad](http://www.pokerstars.es/poker/room/features/security/token/) para proteger su cuenta personal. En este caso la misma sala proporciona el token de autenticación a través  de su Tienda VIP, algo que e habitual en estos dispositivos.
-
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="https://elbauldelprogramador.com/03/El-token-de-seguridad-un-recurso-para-proteger-nuestras-cuentas2.jpg" alt="El token de seguridad, un recurso para proteger nuestras cuentas2" />
 
 Este pequeño aparato electrónico puede presentar diferentes tipos, desde los token USB que almacenan claves criptográficas que pueden contene datos biométricos o firmas digitales, hasta un generador de contraseña dinámicas "OTP" (One Time Password) que generan una clave operativ durante un espacio limitado de tiempo para el ingreso a una cuent determinada. En el caso del mencionado token de seguridad de PokerStars cada vez que se pulsa el dispositivo, éste crea una clave que aparece e la pantalla durante solamente dos segundos y que permite el inicio d sesión en el software del usuario que tiene asignado el token
 

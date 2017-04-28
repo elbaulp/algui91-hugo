@@ -12,7 +12,7 @@ url: /programacion-android-implementando-un_29/
 tags:
 - Content Provider Android
 - curso android pdf
-title: "Programaci\xF3n Android: Implementando un Content Provider (Parte 4)"
+title: "Programación Android: Implementando un Content Provider (Parte 4)"
 ---
 
 En esta última parte de una serie de [4 artículos][1] en los que se ha ido explicando cómo implementar un [ContentProvider][2] desde cero, se va a ver cómo registrar dicho proveedor y cómo darle uso.

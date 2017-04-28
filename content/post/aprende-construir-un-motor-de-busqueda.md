@@ -5,16 +5,16 @@ categories:
 - noticias
 - opensource
 date: '2016-01-01'
-description: "Despues del \xE9xito de los cursos impartidos por Stanford sobre inteligencia
-  artificial, machine learning y bases de datos, se han propuesto seguir ense\xF1ando
-  gratuitamente a trav\xE9s de la red, \xE9sta vez ser\xE1n David Evans, profesor
-  de la ciencia de la computaci\xF3n en la universidad de Virginia y Sebastian Thrun,
+description: "Despues del éxito de los cursos impartidos por Stanford sobre inteligencia
+  artificial, machine learning y bases de datos, se han propuesto seguir enseñando
+  gratuitamente a través de la red, ésta vez serán David Evans, profesor
+  de la ciencia de la computación en la universidad de Virginia y Sebastian Thrun,
   de la universidad de Stanford."
 mainclass: articulos
 url: /aprende-construir-un-motor-de-busqueda/
 tags:
 - programar motor de busqueda
-title: "Aprende a construir un motor de b\xFAsqueda y un coche aut\xF3nomo con Udacity"
+title: "Aprende a construir un motor de búsqueda y un coche autónomo con Udacity"
 lastmod: 2017-02-04
 ---
 

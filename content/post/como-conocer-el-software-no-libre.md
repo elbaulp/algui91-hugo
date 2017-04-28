@@ -5,13 +5,11 @@ categories:
 - curiosidades
 - how to
 - linux
-color: '#2196F3'
 date: '2016-01-01'
-lastmod: 2016-09-09
-
+lastmod: 2017-03-15T18:23:50+01:00
 mainclass: linux
 url: /como-conocer-el-software-no-libre/
-title: "C\xF3mo conocer el software \u201Cno libre\u201D instalado en nuestro equipo"
+title: "Cómo conocer el software \u201Cno libre\u201D instalado en nuestro equipo"
 ---
 
 Este programa lo ví en [ProyectosBeta][1].
@@ -19,8 +17,6 @@ Este programa lo ví en [ProyectosBeta][1].
 Seguro que en nuestro equipo tenemos montones de aplicaciones instaladas, de las cuales muchas serán **no libres**, con el programita **vrms** podemos conocerlos de forma sencilla.
 
 Los pasos a seguir son los siguientes:
-
-<!--more--><!--ad-->
 
 Instalamos el programa:
 
@@ -33,7 +29,7 @@ Y lo ejecutamos con `vrms`
 El resultado es el siguiente:
 
 <figure>
-    <a href="https://4.bp.blogspot.com/-wWUOaA33nCk/TdN2JjQ8OxI/AAAAAAAAAgM/nxfKbEuZCnE/s1600/vrms.png"><amp-img layout="responsive"  height="450" width="800" src="https://4.bp.blogspot.com/-wWUOaA33nCk/TdN2JjQ8OxI/AAAAAAAAAgM/nxfKbEuZCnE/s800/vrms.png"></amp-img></a>
+    <a href="https://4.bp.blogspot.com/-wWUOaA33nCk/TdN2JjQ8OxI/AAAAAAAAAgM/nxfKbEuZCnE/s1600/vrms.png"><amp-img sizes="(min-width: 800px) 800px, 100vw" layout="responsive"  height="450" width="800" src="https://4.bp.blogspot.com/-wWUOaA33nCk/TdN2JjQ8OxI/AAAAAAAAAgM/nxfKbEuZCnE/s800/vrms.png"></amp-img></a>
 </figure>
 
 Para que nos salga la el dibujito de **Stallman** hay que seguir los siguientes pasos.
@@ -45,7 +41,7 @@ $ cowsay -f rms -W 60 `vrms`
 ```
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="256" width="238" src="https://3.bp.blogspot.com/-Hur9i5TORyM/TdN5Q19CliI/AAAAAAAAAgU/rhmM1JOnJao/s400/stallman.png"></amp-img>
+	<amp-img sizes="(min-width: 238px) 238px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="256" width="238" src="https://3.bp.blogspot.com/-Hur9i5TORyM/TdN5Q19CliI/AAAAAAAAAgU/rhmM1JOnJao/s400/stallman.png"></amp-img>
 </figure>
 
 Fuente: [Proyectosbeta][2]

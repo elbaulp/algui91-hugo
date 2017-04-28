@@ -13,7 +13,7 @@ tags:
 - aprender desarrollo web
 - manuales programacion web
 - cursos programacion web
-title: "Guia Gratu\xEDta: The Best Web Programming Languages to Learn"
+title: "Guia Gratuíta: The Best Web Programming Languages to Learn"
 ---
 
 <figure>

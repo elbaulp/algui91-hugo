@@ -8,7 +8,7 @@ lastmod: 2016-08-19
 
 mainclass: dev
 url: /programacion-para-juegos-leccion-12/
-title: "Programaci\xF3n para Juegos - Lecci\xF3n 1.2 - Hello World"
+title: "Programación para Juegos - Lección 1.2 - Hello World"
 ---
 
 En esta lección vamos a aprender a hacer un Hola Mundo al estilo SDL.

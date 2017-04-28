@@ -8,7 +8,7 @@ lastmod: 2016-08-15
 
 mainclass: BaseDeDatos
 url: /introduccion-sql-sql-introduction/
-title: "Introducci\xF3n SQL"
+title: "Introducción SQL"
 ---
 
 Un <acronym title="Relational Data Base Management System">RDBMS</acronym> es un software capaz de producir, manipular y gestionar bases de datos de tipo relacional.

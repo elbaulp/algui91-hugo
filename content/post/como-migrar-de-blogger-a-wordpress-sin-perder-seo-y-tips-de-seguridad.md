@@ -3,15 +3,9 @@ author: alex
 categories:
 - how to
 - internet
-color: '#E64A19'
 date: '2016-01-01'
-description: "En esta entrada  se ver\xE1 c\xF3mo migrar desde la plataforma de blogeo
-  de blogger a una en wordpress bajo un hosting propio as\xED como la configuraci\xF3n
-  necesaria para no perder a los  lectores habituales, los suscriptores al feed ni
-  el posicionamiento en los buscadores. Por \xFAltimo se mencionar\xE1n algunos consejos
-  de seguridad."
-lastmod: 2016-08-13
-
+lastmod: 2017-03-23T13:55:24+01:00
+description: "En esta entrada  se verá cómo migrar desde la plataforma de blogeo  de blogger a una en wordpress bajo un hosting propio así como la configuración  necesaria para no perder a los  lectores habituales, los suscriptores al feed ni  el posicionamiento en los buscadores. Por último se mencionarán algunos consejos  de seguridad."
 mainclass: dev
 url: /como-migrar-de-blogger-a-wordpress-sin-perder-seo-y-tips-de-seguridad/
 tags:
@@ -19,10 +13,10 @@ tags:
 - migrar blogger a wordpress
 - migrar blogger wordpress
 - wordpress
-title: "C\xF3mo migrar de Blogger a WordPress sin perder SEO y Tips de seguridad"
+title: "Cómo migrar de Blogger a WordPress sin perder SEO y Tips de seguridad"
 ---
 
-### Importar entradas y comentários
+# Importar entradas y comentários
 
 Una vez tenemos wordpress instalado y funcionando, vamos a importar todos las entradas y los comentarios de nuestro blog de blogger, para ello hacemos clic en *Herramientas→Importar→Blogger*
 
@@ -30,7 +24,7 @@ Hecho esto, debemos conceder permisos a blogger para que deje a wordpress accede
 
 <!--more--><!--ad-->
 
-### Cambiar las DNS del dominio para que apunte a nuestro hosting con wordpress
+# Cambiar las DNS del dominio para que apunte a nuestro hosting con wordpress
 
 En el caso de que dispongáis de un dominio propio como en mi caso, el primer paso es encontrar la dirección de los servidores DNS de nuestro proveedor de hosting, en mi caso con OVH las direcciones son <em><strong>ns100.ovh.net</strong></em> y <strong><em>dns100.ovh.net. </em></strong>Al comprar el domínio a través de blogger para acceder al panel de control debemos usar google Apps a través de este enlace https://www.google.com/nombredetudominio. Una vez dentro del panel de control nos dirigimos a <em>Domain settings</em><em>→Domain Names</em><em>→Avanced DNS settings. </em>Nos logeamos en la consola y editamos la sección <em>DNS Information </em>para que quede parecido a esto:
 
@@ -40,7 +34,7 @@ En el caso de que dispongáis de un dominio propio como en mi caso, el primer pa
 
 Obviamente con los DNS correspondientes a los que os proporcione vuestro servicio de hosting.
 
-### Redireccionar los enlaces de blogger a wordpress
+# Redireccionar los enlaces de blogger a wordpress
 
 Para no perder los enlaces que tenemos repartidos por internet, existe un plugin que se encarga de hacer la redirección de la entrada a su correspondiente en wordpress, en<a href="http://justinsomnia.org/2006/10/maintain-permalinks-moving-from-blogger-to-wordpress/" target="_blank"> este enlace</a> se explica detalladamente los pasos a seguir, yo voy a hacer un breve resumen:
 
@@ -51,7 +45,7 @@ Para no perder los enlaces que tenemos repartidos por internet, existe un plugin
 * Ahora toca ir a __Ajustes→Enlaces permanentes__ y seleccionar més y nombre
 * Por último, instalamos el plugin <a href="http://wordpress.org/extend/plugins/blogger-301-redirect/" target="_blank">Blogger 301 Redirect</a> o SEO Blogger to <a href="http://wordpress.org/extend/plugins/seo-blogger-to-wordpress-301-redirector/" target="_blank">WordPress Migration using 301 Redirection</a> y seguimos sus respectivas instrucciones.
 
-### FeedBurner
+# FeedBurner
 
 No podemos olvidarnos de nuestros suscriptores de RSS y correo. El primer paso es dirigirnos a la configuración de feedburner y en la url del feed sustituir la de blogger por *elbauldelprogramador.org/* feed en mi caso. Hecho esto, instalamos <a href="http://flagrantdisregard.com/feedburner/" target="_blank">FD FeedBurner</a> y en la configuración del plugin escribimos la dirección de feedburner *http://feeds.feedburner.com/elBauldelProgramador.* A partir de ahora el RSS de nuestro feed wordpress redireccionará a feedburner y mantendremos a todos nuestros suscriptores.
 
@@ -59,27 +53,27 @@ No podemos olvidarnos de nuestros suscriptores de RSS y correo. El primer paso e
 
 Llegó el momento de configurar wordpress para hacerlo lo más seguro posible. Voy a recomendar unos cuantos plugings que nos ayudarán en esta tarea:
 
-### AskApache Password Protect
+# AskApache Password Protect
 
 [AskApache Password Protect][6] realiza un escaner para comprobar las capacidades del servidor que proporciona nuestro hosting y proporciona módulos que podemos activar/desactivar para generar un *.htaccess*. Si activais un módulo que sea demasiado restrictivo y no podéis acceder al blog, no os preocupéis, como el autor del plugin dice, solo se crean dos archivos, un *.htaccess* en la raiz de la instalación de WordPress y otro dentro de *wp-admin*. Simplemente buscamos la regla, y la eliminamos.
 
-### Login Lock-Down
+# Login Lock-Down
 
 <a href="http://wordpress.org/extend/plugins/login-lockdown/" target="_blank">Login Lock-Down</a> restringe los intentos masivos de login cuando se detectan, se puede configurar qué cantidad de logins fallidos se permiten para bloquearlo.
 
-### Secure WordPress
+# Secure WordPress
 
 <a href="http://wordpress.org/extend/plugins/secure-wordpress/" target="_blank">Secure WordPress</a> Permite activar una serie de medidas de seguridad como por ejemplo eliminar la versión de wordpress de la cabecera de la plantilla y los RSS.
 
-### WordPress Database BackUp
+# WordPress Database BackUp
 
 <a href="http://wordpress.org/extend/plugins/wp-db-backup/" target="_blank">Un plugin</a> realmente útil y necesario, ya que la base de datos es la base de todo lo que tenemos en WordPress, cada entrada, cada comentario, configuraciones&#8230; La copia de seguridad se puede descargar o enviarse al correo. También es posible programar una copia de seguridad cada hora, dos veces al día, cada día o una vez a la semana y nos la enviará a nuestro correo.
 
-### WP Security Scan
+# WP Security Scan
 
 Una de las características de <a href="http://wordpress.org/extend/plugins/wp-security-scan/" target="_blank">Wp Security Scan</a> es que escanea los principales directorios y ficheros de WordPress para comprobar qué permisos actuales tienen y cuales serían los que debería tener, además permite realizar copias de seguridad de la base de datos. Con el tema de los permisos yo recomiendo empezar por un nivel muy restrictivo he ir probando hasta que todo funcione correctamente.
 
-### Robots.txt
+# Robots.txt
 
 El robots.txt es algo a tener en cuenta y que debe colocarse en la raíz de la instalación de wordpress. El siguiente archivo es una combinación de los ejemplos que encontré en <a href="http://www.zonaw.com/robots-txt-optimizado-para-wordpress" target="_blank">zonaw</a> y <a href="http://ayudawordpress.com/robotstxt-perfecto-para-wordpress/" target="_blank">ayudawordpress</a>:
 
@@ -175,7 +169,7 @@ User-agent: Slurp
 Crawl-delay: 10
 ```
 
-### .htaccess
+# .htaccess
 
 Por último, el htaccess es algo importante también, os dejo un ejemplo de configuración, muchas de las reglas están generadas por plugins:
 

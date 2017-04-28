@@ -5,17 +5,17 @@ amp:
 categories: android
 color: '#689F38'
 date: 2016-01-11 07:16:24
-description: "En el art\xEDculo anterior se dieron unas nociones b\xE1sicas de Android,
-  sus compoenentes principales etc. En este art\xEDculo examinaremos a fondo una aplicaci\xF3n
+description: "En el artículo anterior se dieron unas nociones básicas de Android,
+  sus compoenentes principales etc. En este artículo examinaremos a fondo una aplicación
   muy simple. Se componone de dos pantallas, en una de ellas se pide al usuario que
-  introduzca un texto, dicho texto se enviar\xE1 a otra pantalla."
+  introduzca un texto, dicho texto se enviará a otra pantalla."
 image: android/layouthelloworldandroid.png
 
 mainclass: android
 modified: null
 tags:
 - Curso de Android
-- "programaci\xF3n Android"
+- "programación Android"
 - tutoriales Android
 - hola mundo Android
 - fragments Android
@@ -277,5 +277,5 @@ Esto es todo, solo resta ver el *AndroidManifest*, el fichero que recoge todas l
 
 En este fichero se definen las pantallas que la aplicación va a usar, así como los permisos que necesita (En este caso ninguno).
 
-El código de este artículo podéis encontrarlo en el repositorio de [Github Curso de Android](https://github.com/algui91/CursoAndroid/tree/master/Ejemplos/MainApp/helloworld "Curso de  Android repositorio")
+El código de este artículo podéis encontrarlo en el repositorio de [Github Curso de Android](https://github.com/elbaulp/CursoAndroid/tree/master/Ejemplos/MainApp/helloworld "Curso de  Android repositorio")
 {: .notice-info }

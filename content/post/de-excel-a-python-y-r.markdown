@@ -2,27 +2,23 @@
 author: marta
 categories:
 - dev
-color: '#E64A19'
 date: 2016-11-04 15:23:40
-description: "Todo empez\xF3 cuando me mandaron hacer una pr\xE1ctica para la universidad
-  en la que ten\xEDa que..."
+lastmod: 2017-04-11T16:18:44+01:00
+description: "Todo empezó cuando me mandaron hacer una práctica para la universidad en la que tenía que..."
 image: chrp1.png
-introduction: "Todo empez\xF3 cuando me mandaron hacer una pr\xE1ctica para la universidad
-  en la que ten\xEDa que..."
-
+introduction: "Todo empezó cuando me mandaron hacer una práctica para la universidad en la que tenía que..."
 mainclass: dev
 tags:
 - R
 - python
-- "an\xE1lisis de datos"
-title: "C\xF3mo Pas\xE9 De Usar Excel a Usar R Y Python"
+- "análisis de datos"
+title: "Cómo Pasé De Usar Excel a Usar R Y Python"
 ---
 
 Cómo pasé de analizar resultados con Excel a analizarlos con R+Python
 
 
-
-## Cómo empezó todo...
+# Cómo empezó todo...
 
 Todo empezó cuando me mandaron hacer una práctica para la universidad en la que tenía que:
 
@@ -37,7 +33,7 @@ y todo esto en unas tres semanas aproximadamente.
 
 > Puedes ver una práctica del estilo en [Optimizando código y evaluando el rendimiento](https://elbauldelprogramador.com/peso-hamming-y-optimizacion/ "Optimizando código y evaluando el rendimiento")
 
-### Dormida en los laureles
+## Dormida en los laureles
 
 Empecé con bastante tranquilidad pensando que en dos semanas tendría todo el trabajo hecho y me quedaría otra semana extra para documentar. A la hora de realizar los algoritmos me encontré con algunos fallos y varios quebraderos de cabeza, pero pude tenerlos todos terminados en esas dos semanas. Empecé a hacer mi documentación explicando con todo detalle todo lo que había hecho, centrándome en obtener tanto una buena presentación como una buena redacción y, finalmente, me quedaron dos días para hacer lo más importante: el análisis de los resultados.
 
@@ -45,7 +41,7 @@ Para hacer el análisis, el profesor nos había dejado preparada una hoja de cá
 
 Cuando ya calculé con _Calc_ todo lo que había que calcular vino __el problema__: poner todos los datos que había calculado en mi documento de LaTeX. Un amigo me pasó un script que te permite exportar la tabla con sintaxis `tabular` de [LaTeX](https://elbauldelprogramador.com/categories/latex/ "Artículos sobre LaTeX") pero, en la hoja de cálculo tenía las tablas que había hecho para todos y cada uno de los algoritmos y en mi documento tenían que ir separadas en secciones. Al final después de pelearme con _Calc_ conseguí separar las tablas e incluirlas en mi documento, pero había perdido un precioso día para documentar y analizar los resultados que había estado __todo el día__ preparando.
 
-### Último día. Kernel panic.
+## Último día. Kernel panic.
 
 Llegó el último día que, como tenía clase por la tarde, era en realidad _la última mañana_. Decidí que sería una buena idea poner gráficas en mi documentación, pues con las tablas no me había dado como para escribir _todo lo que me hubiese gustado_ y además, le darían a mi documento un extra de "profesionalidad".
 
@@ -54,18 +50,18 @@ Así que me dispuse a intentar generar un gráfico en la hoja de cálculo que te
 Estos son los gráficos que finalmente incluí en la que iba a ser la chachi documentación extra profesional a 5 minutos de que la entrega se cerrase.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/calc1.png" alt="{{ title }}" title="{{ title }}" width="605" height="340"></amp-img>
+    <amp-img sizes="(min-width: 605px) 605px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/calc1.png" alt="C\xF3mo Pas\xE9 De Usar Excel a Usar R Y Python" title="C\xF3mo Pas\xE9 De Usar Excel a Usar R Y Python" width="605" height="340"></amp-img>
     <figcaption>Primer gráfico horrible</figcaption>
 </figure>
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/calc2.png" alt="{{ title }}" title="{{ title }}" width="605" height="340"></amp-img>
+    <amp-img sizes="(min-width: 605px) 605px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/calc2.png" alt="C\xF3mo Pas\xE9 De Usar Excel a Usar R Y Python" title="C\xF3mo Pas\xE9 De Usar Excel a Usar R Y Python" width="605" height="340"></amp-img>
     <figcaption>Segundo gráfico horrible</figcaption>
 </figure>
 
 ¿Podéis sacar alguna conclusión de ellos? Yo no.
 
-## Cuello de botella
+# Cuello de botella
 
 Tras el gran desastre que hice en la primera práctica, me prometí que no me pasaría lo mismo en la segunda. Tras un rato de reflexión, me di cuenta de que mi principal problema fue el tiempo que __gasté__ metiendo datos en la hoja de cálculo a mano e intentando hacer una gráfica medio decente. Tareas tediosas y, sobre todo, que podría haber automatizado con un script.
 
@@ -73,7 +69,7 @@ Empecé a investigar cómo podría hacer un equivalente a mi hoja de cálculo, p
 
 Tuve la suerte de haber hecho mi práctica en _python_, por lo que añadirle el script que voy a describir a continuación fue pan comido.
 
-## Mi script con `tabulate`
+# Mi script con `tabulate`
 
 Si habéis leído la documentación de `tabulate` habréis visto que es bastante sencillo de usar: sólo hay que hacer una lista de listas, donde cada lista de la lista representa una fila de la tabla. En mi caso, la información que tenía que almacenar para cada algoritmo era:
 
@@ -86,7 +82,7 @@ La última columna era una forma de reflejar la diferencia del coste obtenido po
 Mi script consistió en ejecutar todos los casos del algoritmo y guardar dos medidas, en dos listas separadas: tiempo de ejecución y coste de la solución obtenida. De antemano tenía guardados los distintos casos que tenía que ejecutar y las mejores soluciones conocidas de cada algoritmo, que usé para calcular la desviación de cada solución con la siguiente fórmula:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/zzpvyzc.png" alt="{{ title }}" title="{{ title }}" width="197" height="36"></amp-img>
+    <amp-img sizes="(min-width: 197px) 197px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/zzpvyzc.png" alt="C\xF3mo Pas\xE9 De Usar Excel a Usar R Y Python" title="C\xF3mo Pas\xE9 De Usar Excel a Usar R Y Python" width="197" height="36"></amp-img>
 </figure>
 
 Una vez tenía estos datos, generé la tabla en formato LaTeX consultando las diferentes listas que había creado.
@@ -107,34 +103,34 @@ def imprime(self):
     print("Tiempo = ",self.tiempo())
 ```
 
-## Y los gráficos, ¿qué?
+# Y los gráficos, ¿qué?
 
 Una vez tuve mi script "hoja de cálculo" hecho, pasé a pensar cómo podría automatizar la creación de los gráficos que yo quería. Justo por esa época, @JJ dio una [charla](http://jj.github.io/data-vis/#/) sobre _Visualización de datos con R_ en la que describía el paquete `ggplot2`. El funcionamiento de `ggplot2` es muy sencillo, y permite obtener gráficos muy bonitos e ilustrativos a partir de un _Data frame_.
 
 Antes de describir el script en [R](https://elbauldelprogramador.com/tags/r "Artículos sobre R") que hice, quiero enseñaros los gráficos que obtuve para que los comparéis con los que obtuve con _Calc_.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/chrp1.png" alt="Gráfico que muestra el rendimiento en un caso pequeño" title="Gráfico que muestra el rendimiento en un caso pequeño" width="800" height="800"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/chrp1.png" alt="Gráfico que muestra el rendimiento en un caso pequeño" title="Gráfico que muestra el rendimiento en un caso pequeño" width="800" height="800"></amp-img>
     <figcaption>Gráfico que muestra el rendimiento en un caso pequeño</figcaption>
 </figure>
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/taip1.png" alt="Gráfico que muestra el rendimiento en un caso grande" title="Gráfico que muestra el rendimiento en un caso grande" width="800" height="800"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/taip1.png" alt="Gráfico que muestra el rendimiento en un caso grande" title="Gráfico que muestra el rendimiento en un caso grande" width="800" height="800"></amp-img>
     <figcaption>Gráfico que muestra el rendimiento en un caso grande</figcaption>
 </figure>
 
 ¿Qué algoritmo funciona mejor en casos pequeños? ¿Y en casos grandes?
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/converp2.png" alt="Gráfico de convergencia" title="Gráfico de convergencia" width="800" height="800"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/converp2.png" alt="Gráfico de convergencia" title="Gráfico de convergencia" width="800" height="800"></amp-img>
     <figcaption>Gráfico de convergencia</figcaption>
 </figure>
 
 Este último gráfico lo hice con los datos de la práctica 2, en vez de con los de la práctica 1. Representa la convergencia a una solución, al ser algoritmos multiarranque, pueden llegar a una buena solución y después dar con otra peor. ¿Qué algoritmo da con la mejor solución? ¿Qué algoritmo converge más rápido?
 
-## Mi script con `ggplot2`
+# Mi script con `ggplot2`
 
-### Pasando datos de Python a R
+## Pasando datos de Python a R
 
 `ggplot2` era ideal, pero tenía un problema: ¿cómo paso mis datos de python a R? La respuesta no fue muy difícil de encontrar. Lo que hice fue añadir una función más a mi script en python que guardaba los datos de la "hoja de cálculo" en un fichero `csv`. Con el fichero `csv` de cada algoritmo, creaba un _Data frame_ en R con los datos que me interesaban para mi gráfica.
 
@@ -163,7 +159,7 @@ def mejor_csv(self):
     csvfile.close()
 ```
 
-### Representando en R los datos
+## Representando en R los datos
 
 Una vez tenía los datos en ficheros `csv` sólo tenía que usar la función `read.csv` para convertirlos en un _Data frame_. En mi caso, como habréis visto en las gráficas, sólo estaba interesada en el coste obtenido por cada algoritmo en casos pequeños y grandes, por lo que obivé los datos relacionados con el tiempo de ejecución.
 
@@ -295,11 +291,11 @@ representa_convergencia <- function(resultados, nombres, file) {
 }
 ```
 
-## Referencias
+# Referencias
 
 El código de la práctica está disponible en el GitHub de Marta: [github.com/mgmacias95/Analisis-Resultados-R-Python](https://github.com/mgmacias95/Analisis-Resultados-R-Python "Enlace al Repo")
 
-## Más sobre R y Python
+# Más sobre R y Python
 
 Puedes consultar los siguientes atrículos sobre R y python:
 

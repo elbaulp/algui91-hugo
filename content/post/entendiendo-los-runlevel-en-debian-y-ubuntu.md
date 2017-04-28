@@ -3,9 +3,8 @@ author: alex
 categories:
 - linux
 - so
-color: '#2196F3'
 date: '2016-01-01'
-
+lastmod: 2017-04-22T12:47:38+01:00
 mainclass: linux
 url: /entendiendo-los-runlevel-en-debian-y-ubuntu/
 tags:
@@ -19,10 +18,6 @@ tags:
 - modificar runlevel debian
 title: Entendiendo los runlevel en Debian
 ---
-
-<figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="sh" src="/img/2012/07/sh1.png" width="128px" height="128px" />
-</figure>
 
 Visto de forma simple, los runlevel  determinan qué programas se ejecutan al inicio del sistema.
 
@@ -46,7 +41,7 @@ Del runlevel 2 al 5 son modos multiusuario, y el modo usado por defecto.
 
 Si el 0 era la condición de apagado, el 6 es la señal de reinicio del sistema. Es exactamente igual que el runlevel 0 salvo que reinicia al terminar la secuencia en lugar de apagar.
 
-#### ¿Dónde residen los Run Level?
+# ¿Dónde residen los Run Level?
 
 Como todo en un sitema Linux, están definidos mediante ficheros, y se encuentran bajo el directorio `/etc`:
 
@@ -83,7 +78,7 @@ El nombre de los enlaces de estos directorios puede ser poco intuitivos al princ
 
 Es decir, la primera letra del nombre puede ser una **K** o una **S**, seguidas de un número de dos dígitos, del 01 al 99 y por último una cadena de texto. La K significa que el servicio será detenido al entrar al runlevel (Kill), la S para iniciarlo (Start). El número indica la prioridad del servicio dentro del runlevel, por ejemplo, **S02apache** y **S01php** iniciará primero php y luego apache. Si dos servicios tienen el mismo orden de prioridad numérico, se procede en orden alfabético.
 
-#### Cómo determinar en qué runlevel se encuentra el sistema
+# Cómo determinar en qué runlevel se encuentra el sistema
 
 El comando **runlevel** mostará el último runlevel que fue ejecutado, y el actual:
 
@@ -98,7 +93,7 @@ La **N** significa None, informando de que no ha habido ningún cambio de runlev
 
 Para moverse de un runlevel a otro basta con ejectar el comando **telinit** seguido del número del runlevel deseado. Aunque pueda parecer correcto, no se recomienda apagar o reiniciar el sistema cambiando a los runlevel 0 o 6.
 
-#### Cómo agregar un servicio a un runlevel
+# Cómo agregar un servicio a un runlevel
 
 Si deseamos agregar un servicio a un runlevel deberemos usar el comando **update-rc.d**. Por ejemplo, si quieres que **nginx** o **Apache** se ejecuten en cada inicio del sistema, basta con agregarlos a los runlevel 2-5, correspondientes al modo multiusuario:
 
@@ -144,9 +139,9 @@ EXAMPLES
           update-rc.d foobar stop 45 S .
 ```
 
-#### Referencias
+# Referencias
 
-*An introduction to run-levels* »» <a href="http://www.debian-administration.org/articles/212" target="_blank">Visitar sitio</a>
+- *An introduction to run-levels* »» <a href="http://www.debian-administration.org/articles/212" target="_blank">Visitar sitio</a>
 
  [1]: https://elbauldelprogramador.com/grub-customizer-20-personaliza-tu-grub2/ "Grub Customizer 2.0, personaliza tu GRUB2"
  [2]: https://elbauldelprogramador.com/

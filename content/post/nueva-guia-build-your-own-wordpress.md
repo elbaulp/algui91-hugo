@@ -11,7 +11,7 @@ lastmod: 2016-09-12
 
 mainclass: misc
 url: /nueva-guia-build-your-own-wordpress/
-title: "Nueva Gu\xEDa: Build Your Own WordPress Site Guide"
+title: "Nueva Guía: Build Your Own WordPress Site Guide"
 ---
 
 <figure>

@@ -5,7 +5,7 @@ categories:
 - offtopic
 color: '#262626'
 date: '2016-01-01'
-description: "Si se escribiesen ensayos con lenguajes de programaci\xF3n [HUMOR]"
+description: "Si se escribiesen ensayos con lenguajes de programación [HUMOR]"
 
 mainclass: geek
 url: /si-se-escribiesen-ensayos-con-lenguajes-de-programacion-humor/
@@ -13,7 +13,7 @@ tags:
 - comics
 - ensayo lenguaje de programacion
 - ensayos
-title: "Si se escribiesen ensayos con lenguajes de programaci\xF3n [HUMOR]"
+title: "Si se escribiesen ensayos con lenguajes de programación [HUMOR]"
 ---
 
 <figure>

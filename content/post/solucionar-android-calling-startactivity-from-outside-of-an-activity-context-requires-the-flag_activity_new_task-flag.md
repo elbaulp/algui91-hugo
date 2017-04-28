@@ -10,8 +10,7 @@ url: /solucionar-android-calling-startactivity-from-outside-of-an-activity-conte
 tags:
 - error Calling startActivity from outside of an Activity context requires the FLAG_ACTIVITY_NEW_TASK
   flag android
-title: Solucionar el error en Android Calling startActivity from outside of an Activity  context
-  requires the FLAG_ACTIVITY_NEW_TASK flag
+title: Solucionar el error en Android Calling startActivity from outside of an Activity  context requires the FLAG_ACTIVITY_NEW_TASK flag
 ---
 
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/android2.png" alt="Solucionar el error en Android Calling startActivity from outside of an Activity  context requires the FLAG_ACTIVITY_NEW_TASK flag" width="132px" height="154px" />

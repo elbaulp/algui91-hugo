@@ -8,10 +8,10 @@ date: '2016-01-01'
 mainclass: misc
 url: /history-of-cryptography/
 tags:
-- "criptograf\xEDa"
+- "criptografía"
 - descargas
 - guias
-title: "Nueva gu\xEDa: History of cryptography"
+title: "Nueva guía: History of cryptography"
 ---
 
 [<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/04/History-of-Cryptograpy.jpg" alt="History of Cryptography" width="178px" height="229px" />][1]

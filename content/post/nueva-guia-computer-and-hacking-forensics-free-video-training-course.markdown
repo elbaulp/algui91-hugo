@@ -11,7 +11,7 @@ image: hotlink-ok/Computer-and-Hacking-Forensics---FREE-Video-Training-Course.jp
 mainclass: misc
 modified: null
 tags: []
-title: "Nueva Gu\xEDa: Computer and Hacking Forensics - FREE Video Training Course"
+title: "Nueva Guía: Computer and Hacking Forensics - FREE Video Training Course"
 ---
 
 <figure>

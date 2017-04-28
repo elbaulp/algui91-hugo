@@ -3,14 +3,10 @@ author: alex
 categories:
 - android
 - how to
-color: '#689F38'
 date: '2016-01-01'
-description: "Hace tiempo que habl\xE9 de c\xF3mo crear un adapter simple, y otro
-  un poco m\xE1s personalizado en Android. En esta entrada se ver\xE1 c\xF3mo crear
-  un adapter desde cero, con algunas funcionalidades m\xE1s."
+lastmod: 2017-04-06T19:52:38+01:00
+description: "Hace tiempo que hablé de cómo crear un adapter simple, y otro  un poco más personalizado en Android. En esta entrada se verá cómo crear  un adapter desde cero, con algunas funcionalidades más."
 image: 2012/09/principal1.png
-lastmod: 2016-08-10
-
 mainclass: android
 url: /adapter-personalizado-en-android/
 aliases: /how-to/adapter-personalizado-en-android/
@@ -24,10 +20,10 @@ tags:
 - curso android pdf
 - custom adapter
 - list adapter
-- "listview setlistadapter espa\xF1ol"
+- "listview setlistadapter español"
 - manual android parcelable
 - simple adapter android ejemplo
-title: "C\xF3mo crear un adapter personalizado en Android"
+title: "Cómo crear un adapter personalizado en Android"
 ---
 
 Hace tiempo que hablé de cómo crear un [adapter simple][1], y [otro][2] un poco más personalizado en [Android][3].
@@ -45,62 +41,63 @@ Para este ejemplo, se necesita mostrar en un listview los siguientes datos:
 Terminada, la aplicación de prueba debe quedar algo así:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class="aligncenter  wp-image-964" title="principal" src="/img/2012/09/principal1.png" alt="adapter android" width="484px" height="807px"></amp-img>
+    <amp-img sizes="(min-width: 484px) 484px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="principal" src="/img/2012/09/principal1.png" alt="adapter android" width="484px" height="807px"></amp-img>
 </figure>
 
 Antes de nada, hay que crear un [layout][4] que define cómo ha de verse cada fila del ListView:
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<relativelayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/LinearLayout1"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="#999999"
-    android:padding="2dp">
+    android:padding="2dp" >
 
-   <checkbox
-       android:id="@+id/leido"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_centervertical="true"
-       android:focusable="false"/>
+    <CheckBox
+        android:id="@+id/leido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:focusable="false" />
 
-   <textview
-       android:id="@+id/tvTitulo"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_centervertical="true"
-       android:layout_torightof="@id/leido"
-       android:text="Titulo del post"
-       android:textappearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/leido"
+        android:text="Titulo del post"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
-   <textview
-       android:id="@+id/tvFecha_publicacion"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignparentright="true"
-       android:layout_below="@+id/tvTitulo"
-       android:paddingtop="10dp"
-       android:text="25/05/2012"
-       android:textappearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/tvFecha_publicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvTitulo"
+        android:paddingTop="10dp"
+        android:text="25/05/2012"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
-   <imageview
-       android:id="@+id/ivCalendar"
-       android:layout_width="22dp"
-       android:layout_height="22dp"
-       android:layout_aligntop="@+id/tvFecha_publicacion"
-       android:layout_margintop="10dp"
-       android:layout_toleftof="@+id/tvFecha_publicacion"
-       android:contentdescription="@string/imagen_content_description"
-       android:src="@drawable/calendar" />
-</relativelayout>
+    <ImageView
+        android:id="@+id/ivCalendar"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignTop="@+id/tvFecha_publicacion"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/tvFecha_publicacion"
+        android:contentDescription="@string/imagen_content_description"
+        android:src="@drawable/calendar" />
+
+</RelativeLayout>
 ```
 
 Creando así el aspecto deseado para cada línea del ListView:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="customrow" src="/img/2012/09/customrow1.png" alt="adapter android" width="307px" height="50px"></amp-img>
+    <amp-img sizes="(min-width: 307px) 307px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="customrow" src="/img/2012/09/customrow1.png" alt="adapter android" width="307px" height="50px"></amp-img>
 </figure>
 
 El primer paso es crear una clase que representará los datos a almacenar:
@@ -166,7 +163,7 @@ public class PostData implements Parcelable {
        dest.writeInt(getChecked() ? 1 : 0);
     }
 
-   public static final Parcelable.Creator<postdata> CREATOR = new Parcelable.Creator</postdata><postdata>() {
+   public static final Parcelable.Creator<PostData> CREATOR = new Parcelable.Creator<PostData>() {
      public PostData createFromParcel(Parcel in) {
            return new PostData(in);
         }
@@ -214,10 +211,10 @@ public class PostAdapter extends BaseAdapter
    private static final String TAG = "CustomAdapter";
   private static int convertViewCounter = 0;
 
-  private ArrayList</postdata><postdata> data;
+  private ArrayList<PostData> data;
    private LayoutInflater inflater = null;
 
- public PostAdapter(Context c, ArrayList</postdata><postdata> d)
+ public PostAdapter(Context c, ArrayList<PostData> d)
     {
        Log.v(TAG, "Constructing CustomAdapter");
 
@@ -389,12 +386,12 @@ Una vez explicado cómo funciona el adaptador voy a explicar en detalle lo que h
 El principal problema que hay cuando se añade un checkBox a un ListView, es que dicho CheckBox tiene la propiedad de requerir el foco, impidiento que el listView se comporte correctamente. La forma de solucionar este problema es tan sencilla como quitar el foco al CheckBox:
 
 ```xml
-<checkbox
-    android:id="@+id/leido"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centervertical="true"
-    android:focusable="false"/>
+<CheckBox
+        android:id="@+id/leido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:focusable="false" />
 ```
 
 Es necesario hacer un cambio más, y es crear un evento on click y asociarlo al checkbox:
@@ -469,7 +466,7 @@ public void onCreate(Bundle savedInstanceState) {
    super.onCreate(savedInstanceState);
    //...
    if (savedInstanceState == null){
-      data = new ArrayList</checkbox></postdata><postdata>();
+      data = new ArrayList<PostData>();
 
       data.add(new PostData("19/09/2012", "Moborobo, herramienta de Administración Integrada para Android en el PC" , false));
       data.add(new PostData("23/09/2012", "Cómo crear shortcodes en WordPress que soporten parámetros" , false));

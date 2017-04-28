@@ -12,8 +12,8 @@ url: /programacion-android-arquitectura-de/
 tags:
 - content provider
 - curso android pdf
-- "Programaci\xF3n Android: Arquitectura de los Proveedores de contenidos"
-title: "Programaci\xF3n Android: Arquitectura de los Proveedores de contenidos"
+- "Programación Android: Arquitectura de los Proveedores de contenidos"
+title: "Programación Android: Arquitectura de los Proveedores de contenidos"
 ---
 
 Vamos a examinar algunos de los elementos que componen los proveedores de contenidos(CV) y cómo éstos se relacionan con otras abstracciones de acceso a datos.

@@ -12,7 +12,7 @@ aliases: /programacion/basededatos/lenguaje-manipulacion-de-datos-dml/
 tags:
 - que es un ddl
 - sentencias dml y ddl
-title: "Lenguaje Manipulaci\xF3n de Datos (DML)"
+title: "Lenguaje Manipulación de Datos (DML)"
 ---
 
 En los anteriores post hemos visto órdenes del *Lenguaje de Definición de Datos (DDL)*, [Create][1], [Drop][2], [Alter Table][3], [Vístas][4], [Índices y secuencias][5], y por último [Sinónimos y pseudoColumnas][6]

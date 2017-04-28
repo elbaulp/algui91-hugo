@@ -17,7 +17,7 @@ tags:
 - manuales
 - libros
 - analytics
-title: "Gu\xEDa Gratuita: The Power of Predictive Analytics"
+title: "Guía Gratuita: The Power of Predictive Analytics"
 ---
 
 <figure>

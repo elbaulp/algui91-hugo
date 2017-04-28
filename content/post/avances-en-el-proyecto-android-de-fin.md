@@ -5,8 +5,8 @@ categories:
 - aplicaciones
 - opensource
 date: '2016-01-01'
-description: "Como ya sab\xE9is tengo que realizar un proyecto de fin de curso, el
-  cual ya expliqu\xE9 en [qu\xE9 consist\xEDa][1], y escribo esta entrada para mostraros
+description: "Como ya sabéis tengo que realizar un proyecto de fin de curso, el
+  cual ya expliqué en [qué consistía][1], y escribo esta entrada para mostraros
   un poco los avances que voy haciendo."
 lastmod: 2016-09-07
 mainclass: android
@@ -69,4 +69,4 @@ Estoy bastante contento con este proyecto, ya que me ha permitido iniciarme en l
  [1]: https://elbauldelprogramador.com/conectar-base-de-datos-sql-server-2008/
  [2]: https://elbauldelprogramador.com/bases-de-datos/
  [3]: http://www.gnu.org/licenses/
- [4]: https://github.com/algui91/WifiBar
+ [4]: https://github.com/elbaulp/WifiBar

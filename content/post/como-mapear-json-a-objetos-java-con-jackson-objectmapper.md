@@ -2,10 +2,8 @@
 author: alex
 categories:
 - java
-color: '#D32F2F'
 date: '2016-01-01'
-lastmod: 2015-03-30
-
+lastmod: 2017-03-22T10:13:31+01:00
 mainclass: java
 url: /como-mapear-json-a-objetos-java-con-jackson-objectmapper/
 tags:
@@ -19,29 +17,29 @@ tags:
 - mapear objetos java
 - objectmapper
 - serializar objetos json java
-title: "C\xF3mo mapear json a objetos Java con Jackson ObjectMapper"
+- json
+title: "Cómo mapear json a objetos Java con Jackson ObjectMapper"
 ---
 
 Hoy vamos a hablar de cómo usar la librería *Jackson* para mapear fácilmente un *Json* a objetos Java.
 
-## Declarar dependencia
+# Declarar dependencia
 
 El primer paso es declarar la dependencia en el proyecto, en éste caso usando *maven*, en el fichero `pom.xml` añadimos:
 
 ```xml
 <dependency>
-<groupid>com.fasterxml.jackson.core</groupid>
-<artifactid>jackson-databind</artifactid>
-<version>2.4.4</version>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.4.4</version>
 </dependency>
-
 ```
 
 Hecho esto, ya es posible usar la librería en el proyecto.
 
 <!--more--><!--ad-->
 
-## Introducción a Jackson
+# Introducción a Jackson
 
 Veamos una guía de uso rápido de jackson. Para los siguientes ejemplos supondremos la siguiente clase:
 
@@ -73,7 +71,7 @@ public static final ObjectMapper JSON_MAPPER = new ObjectMapper();
 
 ```
 
-### Json a Objeto Java (Des-Serializar)
+## Json a Objeto Java (Des-Serializar)
 
 Para des-serializar el `json` y crear el objeto en Java:
 
@@ -84,7 +82,7 @@ MiClase objeto = JSON_MAPPER.readValue(new URL("http://ruta/a/mijson.json", MiCl
 
 ```
 
-### Objeto Java a Json (Serializar)
+## Objeto Java a Json (Serializar)
 
 Para realizar el proceso inverso, basta con:
 
@@ -97,7 +95,7 @@ String jsonString = JSON_MAPPER.writeValueAsString(objeto);
 
 ```
 
-### Generalizar el tipo de objeto a des-serializar
+## Generalizar el tipo de objeto a des-serializar
 
 Al trabajar con una [API][1], serializar y des-serializar objetos es una tarea común, una forma de generalizar el proceso puede ser la siguiente.
 
@@ -228,29 +226,29 @@ Los arrays en json:
 
 ```
 
-Con estos datos, queremos des-serializar el `json` en un `ArrayList` del tipo de clase que sea, en éste caso `ArrayList<personas><producto>`. La forma **NO** genérica de hacerlo sería:
+Con estos datos, queremos des-serializar el `json` en un `ArrayList` del tipo de clase que sea, en éste caso `ArrayList<Personas>` y `ArrayList<Producto>`. La forma NO genérica de hacerlo sería:
+
 
 ```java
-ArrayList<persona> personas = JSON_MAPPER.readValue(new File("personas.json"),
+ArrayList<Persona> personas = JSON_MAPPER.readValue(new File("personas.json"),
                     JSON_MAPPER.getTypeFactory().constructCollectionType(ArrayList.class, Persona.class));
 
 // Para productos
 
-ArrayList</persona></producto><producto> productos = JSON_MAPPER.readValue(new File("productos.json"),
+ArrayList<Producto> productos = JSON_MAPPER.readValue(new File("productos.json"),
                     JSON_MAPPER.getTypeFactory().constructCollectionType(ArrayList.class, Producto.class));
-
 ```
 
 Ahora bien, si tenemos más modelos, a parte de `Personas` y `Productos`, y normalmente, los `json` se obtienen mediante la *API*, vamos a repetir un montón de código. Podríamos crear un método genérico para mapear `json` a objetos java, como el siguiente:
 
 ```java
-public static <t> List</t><t> getList(String url, Class</t><t> clazz) {
+public static <T> List<T> getList(String url, Class<T> clazz) {
 
    HttpClient client = HttpClientBuilder.create().build();
    HttpGet getRequest = new HttpGet(url);
    getRequest.setHeader(HttpHeaders.ACCEPT, MediaType.APPLICATION_JSON);
 
-   List</t><t> data = null;
+   List<T> data = null;
 
    HttpResponse response;
    try {
@@ -262,30 +260,23 @@ public static <t> List</t><t> getList(String url, Class</t><t> clazz) {
    }
    return data;
 }
-
 ```
 
 Éste método se usaría así:
 
 ```java
 // Para personas
-ArrayList<persona> personas = getList(URL DE LA API PARA OBTENER PERSONAS, Persona.class);
+ArrayList<Persona> personas = getList(URL DE LA API PARA OBTENER PERSONAS, Persona.class);
 // Para productos
-ArrayList</persona></t></producto><producto> personas = getList(URL DE LA API PARA OBTENER PRODUCTOS, Producto.class);
-
+ArrayList<Producto> personas = getList(URL DE LA API PARA OBTENER PRODUCTOS, Producto.class);
 ```
 
-## Conclusión
+# Conclusión
 
 La librería *Jackson* de *fasterXML* ofrece muchísimas más cosas de las vistas aquí. El uso de anotaciones por ejemplo permite ignorar ciertos valores de un modelo, no permitir nulos etc, para más información visita las referencias.
 
-#### Referencias
+# Referencias
 
-*Jackson databind* »» <a href="https://github.com/FasterXML/jackson-databind/" target="_blank">github.com</a>
-
-
+- *Jackson databind* »» <a href="https://github.com/FasterXML/jackson-databind/" target="_blank">github.com</a>
 
  [1]: https://elbauldelprogramador.com/buenas-practicas-para-el-diseno-de-una-api-restful-pragmatica/ "Buenas prácticas para el Diseño de una API RESTful Pragmática"
-
-
-</producto></personas>

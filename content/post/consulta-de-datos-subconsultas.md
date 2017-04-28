@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-19
-
+lastmod: 2017-03-30T17:18:29+01:00
 mainclass: BaseDeDatos
 url: /consulta-de-datos-subconsultas/
 title: Consulta de Datos. Subconsultas
@@ -43,6 +41,6 @@ El predicado ALL se utiliza para recuperar únicamente aquellos registros de la 
 
 El predicado `EXISTS` se utiliza en comparaciones de verdad/falso para determinar si la subconsulta devuelve algún registro.
 
-## Siguiente Tema: [Consulta de Datos - Tablas Resumen operadores y Funciones Oracle][1]
+# Siguiente Tema: [Consulta de Datos - Tablas Resumen operadores y Funciones Oracle][1]
 
  [1]: https://elbauldelprogramador.com/consulta-de-datos-tablas-resumen/

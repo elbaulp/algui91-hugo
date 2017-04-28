@@ -6,13 +6,20 @@ alex:
   bio: "Graduado en Ingeniería Informática en la ETSIIT, Granada."
   email: contacto@elbauldelprogramador.com
   twitter: elbaulp
-  facebook: elbauldelprogramador
+  facebook: elbaulp
   google:
     plus: elbauldelprogramador
-  github: algui91
-  stackoverflow: 1612432/algui91
-  stackcareers: algui91
+  github: elbaulp
+  stackoverflow: 1612432/elbaulp
+  stackcareers: elbaulp
   linkedin: algui91
+
+marti:
+  name: Martí Puig Colomé
+  slug: marti
+  email: mpuig1991@gmail.com
+  bio: "Titulado en C.F.G.S. de Mantenimiento Electrónico. Amante de la cultura DIY, de la programación y la electrónica."
+  avatar: author_marti.jpg
 
 marta:
   name: Marta Gómez
@@ -50,6 +57,16 @@ jordi:
   google:
     plus: Programarivm
   avatar: author_jordi.jpg
+
+juan:
+  name: Juan Antonio
+  slug: juan
+  bio: "Graduado en Ing. Informática."
+  avatar: author_juan.jpg
+  twitter: sinclair_88
+  linkedin: juanafernandez
+  github: juanAFernandez
+
 
 colaboraciones:
   name: Colaboraciones

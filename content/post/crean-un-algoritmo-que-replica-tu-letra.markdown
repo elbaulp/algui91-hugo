@@ -1,32 +1,24 @@
 ---
 author: alex
 amp:
-  elements: [amp-youtube]
+    elements: [amp-youtube]
 categories:
 - articulos
-color: '#F57C00'
 date: 2016-08-13 05:07:34
-description: Investigadores de la UCL han desarrollado un software que analiza el
-  texto escrito en papel de un individuo y replica de forma muy similar su letra.
-  El programa se llama My Text in Your Handwriting.
+description: Investigadores de la UCL han desarrollado un software que analiza el  texto escrito en papel de un individuo y replica de forma muy similar su letra.  El programa se llama My Text in Your Handwriting.
 image: crean-un-algoritmo-que-replica-tu-letra.jpg
-introduction: Investigadores de la UCL han desarrollado un software que analiza el
-  texto escrito en papel de un individuo y replica de forma muy similar su letra.
-  El programa se llama My Text in Your Handwriting.
-lastmod: 2016-08-13
-
+introduction: Investigadores de la UCL han desarrollado un software que analiza el  texto escrito en papel de un individuo y replica de forma muy similar su letra.  El programa se llama My Text in Your Handwriting.
+lastmod: 2017-04-02T19:23:10+01:00
 mainclass: articulos
 tags:
 - algoritmos
-- "investigaci\xF3n"
+- "investigación"
 title: Crean Un Algoritmo Que Replica Tu Letra
 ---
 
 Investigadores de la _UCL_ han desarrollado un software que analiza el texto escrito en papel de un individuo y replica de forma muy similar su letra. El programa se llama _My Text in Your Handwriting_ (Mi texto en tu letra).
 
 <!--more--><!--ad-->
-
-
 
 # Lo que había hasta ahora
 
@@ -44,9 +36,9 @@ Antes de que se desarrollara este software, la única forma de conseguir tipogra
 Este programa se podría usar para replicar el tipo de letra que tenían personajes pasados. El equipo replicó la letra de _Arthur Conan Doyle_, _Abraham Lincoln_ y _Frida Kahio_, como podemos ver en la imagen:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crean-un-algoritmo-que-replica-tu-letra.jpg" alt="{{ title }}" title="{{ title }}" width="755" height="701">
-</amp-img>
-    <figcaption>Crédito de la imagen <a href="http://visual.cs.ucl.ac.uk/pubs/handwriting/" target="_blank">visual.cs.ucl.ac.uk</a></figcaption>
+  <amp-img sizes="(min-width: 755px) 755px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crean-un-algoritmo-que-replica-tu-letra.jpg" alt="Crean Un Algoritmo Que Replica Tu Letra" title="Crean Un Algoritmo Que Replica Tu Letra" width="755" height="701">
+  </amp-img>
+  <figcaption>Crédito de la imagen <a href="http://visual.cs.ucl.ac.uk/pubs/handwriting/" target="_blank">visual.cs.ucl.ac.uk</a></figcaption>
 </figure>
 
 ## Crear subtítulos personalizados
@@ -74,9 +66,9 @@ Para evaluar la calidad del software, los investigadores imprimieron una serie d
 A continuación dejo un vídeo explicativo del software, junto con el enlace a la investigación y artículos relacionados. Puedes consultar más [artículos escritos en el blog](/categories/articulos/ "Artículos del blog").
 
 <amp-youtube
-    data-videoid="3mAKZaOPbBo"
-    layout="responsive"
-    width="640" height="480"></amp-youtube>
+  data-videoid="3mAKZaOPbBo"
+  layout="responsive"
+  width="640" height="480"></amp-youtube>
 
 - New computer programme replicates handwriting \| [phys.org](http://phys.org/news/2016-08-programme-replicates.html)
 - My Text in Your Handwriting \| [visual.cs.ucl.ac.uk](http://visual.cs.ucl.ac.uk/pubs/handwriting/)

@@ -6,9 +6,9 @@ categories:
 - c
 color: '#E64A19'
 date: '2016-01-01'
-description: "El curso pasado hice unas pr\xE1cticas Inform\xE1tica Gr\xE1fica (IG)
-  en la que hab\xEDa que implementar alg\xFAn objeto con modelos jer\xE1rquicos. La
-  pr\xE1ctica se basa en una plantilla que encontr\xE9 de la universidad http://www.csc.villanova.edu."
+description: "El curso pasado hice unas prácticas Informática Gráfica (IG)
+  en la que había que implementar algún objeto con modelos jerárquicos. La
+  práctica se basa en una plantilla que encontré de la universidad http://www.csc.villanova.edu."
 lastmod: 2015-12-22
 
 mainclass: dev
@@ -16,10 +16,9 @@ url: /opengl-practicas-informatica-grafica-modelos-jerarquicos-un-robot/
 tags:
 - practicas IG etsiit
 - practicas IG ugr
-- "practicas inform\xE1tica Gr\xE1fica"
+- "practicas informática Gráfica"
 - practicas opengl
-title: "OpenGL - Pr\xE1cticas Inform\xE1tica Gr\xE1fica: Modelos jer\xE1rquicos  -
-  Un Robot"
+title: "OpenGL - Prácticas Informática Gráfica: Modelos jerárquicos  - Un Robot"
 ---
 
 El curso pasado hice unas prácticas Informática Gráfica (IG) en la que había que implementar algún objeto con modelos jerárquicos. La práctica se basa en una plantilla que encontré de la universidad [http://www.csc.villanova.edu][1].
@@ -619,7 +618,7 @@ int main(int argc, char **argv) {
 
 
  [1]: http://www.csc.villanova.edu/~mdamian/Past/graphicsF10/code/robotSkeleton.cpp
- [2]: https://github.com/algui91/grado_informatica_ig_practicas/tree/master/P3
+ [2]: https://github.com/elbaulp/grado_informatica_ig_practicas/tree/master/P3
 
 
 </windows.h>

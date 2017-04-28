@@ -2,6 +2,16 @@
 {{ $author := index .Site.Data.authors $au }}
 {{ $title := or .Title .Site.Title }}
 
+{{ if isset .Params "description" }}
+<meta name="description" content="{{ .Params.description }}" />
+{{ else }}
+<meta name="description" content="{{ $.Site.Params.description }}" />
+{{ end }}
+
+{{ with .Params.tags }}
+  <meta name="keywords" content="{{ range . }} {{ . }}, {{ end }}" />
+{{ end }}
+
 <!-- Site verification -->
 {{ with .Site.Params.verify }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
 
@@ -29,8 +39,8 @@
 {{with .Params.description}}<meta property="og:description" content="{{ . }}">{{ end }}
 <meta property="og:site_name" content="{{ $title }}">
 <meta property="fb:pages" content="139660486080346" />
-<meta property="article:publisher" content="http://facebook.com/elbauldelprogramador" />
-<meta property="article:author" content="http://facebook.com/elbauldelprogramador" />
+<meta property="article:publisher" content="http://facebook.com/elbaulp" />
+<meta property="article:author" content="http://facebook.com/elbaulp" />
 
 <!-- Social: Google+ / Schema.org  -->
 {{ with .Date}}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05" }}" />{{ end }}

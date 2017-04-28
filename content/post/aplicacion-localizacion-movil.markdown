@@ -4,15 +4,14 @@ categories:
 - java
 date: 2016-02-04 08:33:22
 description: "El robo de smartphones se ha disparado recientemente. Aumenta un 30%
-  cada a\xF1o, y aparentemente incluso el gobierno ha comenzado a notarlo porque quieren
-  que las compa\xF1\xEDas de tel\xE9fonos dise\xF1en dispositivos con una seguridad
-  mejorada que ayuden a localizar el m\xF3vil en caso de p\xE9rdida."
+  cada año, y aparentemente incluso el gobierno ha comenzado a notarlo porque quieren
+  que las compañías de teléfonos diseñen dispositivos con una seguridad
+  mejorada que ayuden a localizar el móvil en caso de pérdida."
 mainclass: java
 tags:
-- "aplicaiones localizaci\xF3n movil"
+- "aplicaiones localización movil"
 - localizar movil
-title: "3 Intervenciones Para Poner a Salvo Tu Tel\xE9fono Con Una Aplicaci\xF3n Para
-  Localizar El M\xF3vil"
+title: "3 Intervenciones Para Poner a Salvo Tu Teléfono Con Una Aplicación Para Localizar El Móvil"
 lastmod: 2017-02-04
 ---
 

@@ -1,12 +1,10 @@
 <section class="comments">
-  <h3>{{ T "comments_title" }}</h3>
-
   <amp-iframe
      height="300"
-     sandbox="allow-scripts allow-same-origin allow-modals allow-popups"
+     sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
      resizable
      frameborder="0"
-     src="https://cdn.rawgit.com/algui91/algui91-hugo/master/static/disqus-amp.html?url={{ .Permalink }}">
+     src="https://cdn.rawgit.com/elbaulp/algui91-hugo/c1c11891b012e22c2e6ea7c399d6b03f7cdda04e/static/disqus-amp.html?url={{ .Permalink }}&disqus_title={{.Title}}">
     <div overflow tabindex=0 role=button aria-label="Read more">Read more!</div>
 </amp-iframe>
 </section>

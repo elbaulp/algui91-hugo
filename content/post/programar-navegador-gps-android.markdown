@@ -4,11 +4,11 @@ categories:
 - java
 color: '#D32F2F'
 date: 2016-02-16 20:05:38
-description: "Enunciado: se facilitar\xE1n las coordenadas de una serie de puntos
-  GPS (latitud/longitud) mediante c\xF3digos QR a la appGPSQR que iniciar\xE1 autom\xE1ticamente
-  la navegaci\xF3n GPS hacia dicho punto, debe guardar el recorrido realizado y mostrarlo
-  en un mapa al finalizar el mismo. En el anexo I ten\xE9is ejemplos de los c\xF3digos
-  QR que se deben detectar, en la defensa ser\xE1n distintos."
+description: "Enunciado: se facilitarán las coordenadas de una serie de puntos
+  GPS (latitud/longitud) mediante códigos QR a la appGPSQR que iniciará automáticamente
+  la navegación GPS hacia dicho punto, debe guardar el recorrido realizado y mostrarlo
+  en un mapa al finalizar el mismo. En el anexo I tenéis ejemplos de los códigos
+  QR que se deben detectar, en la defensa serán distintos."
 image: npi/gqsqr_read.png
 
 mainclass: java
@@ -272,7 +272,7 @@ GoogleDirection.withServerKey(getString(R.string.google_maps_server_key))
 
 ### Referencias y agradecimientos
 
-- [github.com/algui91/GPSQR](https://github.com/algui91/grado_informatica_npi/tree/master/Android/GPSQR "Código en Github")
+- [github.com/elbaulp/GPSQR](https://github.com/elbaulp/grado_informatica_npi/tree/master/Android/GPSQR "Código en Github")
 - [stackoverflow.com](http://stackoverflow.com/a/14695943/1612432 "Android update activity UI from service")
 - [github.com/googlesamples/android-play-location](https://github.com/googlesamples/android-play-location/tree/master/LocationUpdates "Ejemplos de Google")
 - [github.com/akexorcist/Android-GoogleDirectionLibrary](https://github.com/akexorcist/Android-GoogleDirectionLibrary "Android-GoogleDirectionLibrary")

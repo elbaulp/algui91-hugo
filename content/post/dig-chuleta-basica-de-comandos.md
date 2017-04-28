@@ -4,9 +4,8 @@ categories:
 - administracion de servidores
 - aplicaciones
 - opensource
-color: '#0097A7'
 date: '2016-01-01'
-
+lastmod: 2017-04-17T19:31:15+01:00
 mainclass: servidores
 url: /dig-chuleta-basica-de-comandos/
 tags:
@@ -15,14 +14,14 @@ tags:
 - chuleta comandos dig
 - chuleta dig
 - estado DNS
-title: "Dig - Chuleta b\xE1sica de comandos"
+title: "Dig - Chuleta básica de comandos"
 ---
 
 **Dig (Domain Information Groper)** es un comando de gran utilidad para realizar consultas a registros DNS. Se usa mucho &#8212; entre otras cosas &#8212; para el diagnóstico de [Servidores DNS][1]. Desde que administro yo mismo el servidor del blog lo he usado bastante, y hoy voy a dar unas nociones básicas de cómo usarlo.
 
 <!--more--><!--ad-->
 
-#### [Actualización]
+# [Actualización]
 
 En un comentario hecho en la página de <a href="https://plus.google.com/b/108003822606696308728/108003822606696308728/posts/idbcxhy5vzG" target="_blank">Google+ del blog</a> un usuario indicó que es posible obtener una salida simplificada de todos los comandos de abajo con la opción *+short*.
 
@@ -33,7 +32,7 @@ dig ejemplo.com
 
 ```
 
-#### Obtener distintos tipos de registros DNS
+# Obtener distintos tipos de registros DNS
 
 La sintaxis es:
 
@@ -65,7 +64,7 @@ google.com.       300 IN  A   173.194.34.233
 
 ```
 
-#### Obtener los servidores de nombres
+# Obtener los servidores de nombres
 
 ```bash
 dig @208.67.222.222 google.com NS
@@ -82,7 +81,7 @@ google.com.      172749  IN  NS  ns4.google.com.
 
 ```
 
-#### Obtener registros MX (De correo)
+# Obtener registros MX (De correo)
 
 ```bash
 dig @208.67.222.222 google.com MX
@@ -99,7 +98,7 @@ google.com.      469 IN  MX  30 alt2.aspmx.l.google.com.
 
 ```
 
-#### Obtener registros TXT
+# Obtener registros TXT
 
 ```bash
 dig @208.67.222.222 google.com TXT
@@ -113,7 +112,7 @@ google.com.        3600    IN  TXT "v=spf1 include:_spf.google.com ip4:216.73.93
 
 ```
 
-#### Obtener todos los tipos de registros en una misma consulta
+# Obtener todos los tipos de registros en una misma consulta
 
 ```bash
 dig any google.com
@@ -134,7 +133,7 @@ google.com.      172781  IN  NS  ns4.google.com.
 
 ```
 
-#### Realizar una consulta inversa
+# Realizar una consulta inversa
 
 ```bash
 dig -x 173.194.34.233
@@ -149,9 +148,9 @@ dig -x 173.194.34.233
 
 Puedes encontrar una descripción un poco más extensa sobre el funcionamiento de la consulta inversa en la [tercera][2] parte del artículo *Cómo configurar un servidor DNS*
 
-#### Referencias
+# Referencias
 
-*dig – Linux DNS Lookup utility cheat sheet* »» <a href="http://linuxaria.com/pills/dig-linux-dns-lookup-utility-cheat-sheet" target="_blank">linuxaria</a>
+- *dig – Linux DNS Lookup utility cheat sheet* »» <a href="http://linuxaria.com/pills/dig-linux-dns-lookup-utility-cheat-sheet" target="_blank">linuxaria</a>
 
 
 

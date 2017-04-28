@@ -2,22 +2,15 @@
 author: alex
 categories:
 - script
-color: '#2196F3'
 date: '2016-01-01'
-format: aside
-if_slider_image:
-- null
-- null
-- null
-- null
-
+lastmod: 2017-04-02T19:20:01+01:00
 mainclass: linux
 url: /convertir-archivos-mp4-a-mp3-masivamente/
 tags:
 - bash
 - ffmpeg
 - mp4 to mp3
-title: "Convertir archivos mp4 a mp3 mas\xEDvamente"
+title: "Convertir archivos mp4 a mp3 masívamente"
 ---
 
 Ya mostré cómo <a href="/renombrar-archivos-masivamente-en/" target="_blank">Renombrar archivos masivamente en GNU/Linux</a>. Hoy voy a enseñar un pequeño script que he tenido que crear para pasarme unos cuantos archivos en mp4 a mp3.

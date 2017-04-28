@@ -2,31 +2,38 @@
 author: alex
 categories:
 - php
-color: '#E64A19'
 date: '2016-01-01'
-description: "La semana pasada, en el Curso de Programaci\xF3n PHP guay, desarrollamos
-  una agenda PHP basada en archivos CSV. El ejercicio era tan sencillo que no utilizamos
-  ning\xFAn framework de desarrollo de aplicaciones como por ejemplo Symfony, Laravel
-  o Yii, pero s\xED que aplicamos algunas ideas de an\xE1lisis para afrontar nuestro
-  desarrollo con garant\xEDas de \xE9xito."
+lastmod: 2017-03-18T12:21:11+01:00
+description: "La semana pasada, en el Curso de Programación PHP guay, desarrollamos  una agenda PHP basada en archivos CSV. El ejercicio era tan sencillo que no utilizamos  ningún framework de desarrollo de aplicaciones como por ejemplo Symfony, Laravel  o Yii, pero sí que aplicamos algunas ideas de análisis para afrontar nuestro  desarrollo con garantías de éxito."
 image: https://img.youtube.com/vi/eYoDqz29qSA/0.jpg
-lastmod: 2015-12-24
-
 mainclass: dev
 url: /como-crear-un-front-controller-en-php/
 tags:
 - apache
 - front controller
 - nginx
-- "patrones de dise\xF1o"
-title: "C\xF3mo crear un Front Controller en PHP"
+- "patrones de diseño"
+title: "Cómo crear un Front Controller en PHP"
 ---
 
 > Éste artículo es una colaboración de [Jordi Bassagañas][1]
 
 La semana pasada, **en el [Curso de Programación PHP guay][2], desarrollamos una agenda PHP basada en archivos CSV**. El ejercicio era tan sencillo que no utilizamos ningún [framework][3] de desarrollo de aplicaciones como por ejemplo Symfony, Laravel o Yii, pero sí que aplicamos algunas ideas de análisis para afrontar nuestro desarrollo con garantías de éxito.
 
-[![¡Aprende a programar 1 agenda CSV con PHP! 1ª parte][4]][5]
+<figure>
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="https://img.youtube.com/vi/eYoDqz29qSA/0.jpg"
+            alt="Como crear un frontcontroller PHP"
+            title="Como crear un frontcontroller PHP"
+            sizes="(min-width: 480px) 480px, 100vw"
+            width="480"
+            height="360">
+          </amp-img>
+</figure>
 
 <!--more--><!--ad-->
 
@@ -42,7 +49,7 @@ Por cierto, te recuerdo que el código de `AgendaPHPGuay` está disponible [en e
 
 Finalmente **propusimos a los alumnos que mejoraran la seguridad de `AgendaPHPGuay` implementando el patrón de diseño de software [Front Controller][8]**. Y los que teníais un nivel de programación intermedio comentabais que esta propuesta empezaba a complicarse bastante. Pues bien amig@s, que no cunda el pánico, hoy voy a explicar qué pasos hay que seguir exactamente para poner un Front Controller en la app.
 
-## ¿Qué es Front Controller?
+# ¿Qué es Front Controller?
 
 Front Controller es un patrón de diseño de software muy utilizado en aplicaciones web que consiste en **definir un único punto de acceso para todas las peticiones HTTP**.
 
@@ -52,7 +59,7 @@ El resto de archivos permanece inaccesible a los usuarios, a excepción de los a
 
 Front Controller aporta por tanto una capa de seguridad, y mejora también el mantenimiento de la aplicación porque permite definir en un solo punto toda aquella lógica que de otro modo estaría esparcida en varios archivos diferentes. Esta es la lógica de inicialización o arranque de la app (bootstrap logic).
 
-## ¿Cómo se implementa Front Controller?
+# ¿Cómo se implementa Front Controller?
 
 Implementar Front Controller es sencillo. Por un lado, primero **tenemos que crear una carpeta llamada `public` en la carpeta raíz de nuestra aplicación**. Aquí ponemos los archivos que pueden ver los usuarios de Internet, por así decirlo. O dicho de otra forma, los archivos que están en `public` son los únicos accesibles por los usuarios desde su navegador web. Estos archivos son los assets y el mismo `index.php`. A modo de ejemplo **puedes echar un vistazo a [esta estructura de directorios][9] recomendada por Slim**.
 

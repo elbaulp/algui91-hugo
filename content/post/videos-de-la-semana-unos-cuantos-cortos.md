@@ -7,7 +7,7 @@ date: '2016-01-01'
 
 mainclass: articulos
 url: /videos-de-la-semana-unos-cuantos-cortos/
-title: "V\xEDdeos de la semana: Unos cuantos cortos y un time-lapse"
+title: "Vídeos de la semana: Unos cuantos cortos y un time-lapse"
 ---
 
 <div class="separator" >

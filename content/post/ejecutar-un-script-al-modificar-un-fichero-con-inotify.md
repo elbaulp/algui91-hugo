@@ -4,11 +4,9 @@ categories:
 - bash
 - linux
 - script
-color: '#2196F3'
 date: '2016-01-01'
+lastmod: 2017-04-17T19:43:21+01:00
 image: 2013/07/Screenshot-from-2013-07-02-164301.png
-lastmod: 2016-08-09
-
 mainclass: linux
 url: /ejecutar-un-script-al-modificar-un-fichero-con-inotify/
 tags:
@@ -86,9 +84,9 @@ Espero que sea de utilidad, el repositorio de _inotify-tools_ está en github (E
 
 # Referencias
 
-- _Repositorio inotify-tools_ \| <a href="https://github.com/rvoicilas/inotify-tools" target="_blank">Visitar sitio</a><br>
-- _inotify_ \| <a href="http://inotify.aiken.cz/?section=incron&page=about&lang=en" target="_blank">inotify.aiken.cz</a><br>
-- _How to execute a command whenever a file changes?_ \| <a href="http://superuser.com/questions/181517/how-to-execute-a-command-whenever-a-file-changes" target="_blank">superuser.com</a><br>
+- _Repositorio inotify-tools_ \| <a href="https://github.com/rvoicilas/inotify-tools" target="_blank">Visitar sitio</a>
+- _inotify_ \| <a href="http://inotify.aiken.cz/?section=incron&page=about&lang=en" target="_blank">inotify.aiken.cz</a>
+- _How to execute a command whenever a file changes?_ \| <a href="http://superuser.com/questions/181517/how-to-execute-a-command-whenever-a-file-changes" target="_blank">superuser.com</a>
 - _Bash: Execute script on file save?_ \| <a href="http://stackoverflow.com/questions/3283228/bash-execute-script-on-file-save" target="_blank">stackoverflow</a>
 
 

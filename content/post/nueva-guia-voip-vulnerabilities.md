@@ -10,7 +10,7 @@ mainclass: misc
 url: /nueva-guia-voip-vulnerabilities/
 tags:
 - VoIP Vulnerabilities
-title: "Nueva Gu\xEDa: VoIP Vulnerabilities"
+title: "Nueva Guía: VoIP Vulnerabilities"
 ---
 
 [

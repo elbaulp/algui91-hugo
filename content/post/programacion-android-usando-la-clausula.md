@@ -10,9 +10,9 @@ lastmod: 2016-10-08
 mainclass: android
 url: /programacion-android-usando-la-clausula/
 tags:
-- "Cl\xE1usula where android"
+- "Cláusula where android"
 - curso android pdf
-title: "Programaci\xF3n Android: Usando la cl\xE1usula Where"
+title: "Programación Android: Usando la cláusula Where"
 ---
 
 Los proveedores de conteido ofrecen dos formas de pasar una cláusula *[where][1]:*

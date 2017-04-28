@@ -227,6 +227,15 @@
                     "eventCategory": "catslinks",
                     "eventAction": "catClick"
                 }
+            },
+            "similar_post" : {
+                "on": "click",
+                "selector": "#related-post",
+                "request": "event",
+                "vars": {
+                    "eventCategory": "similar_post",
+                    "eventAction": "{{.URL | relLangURL}}"
+                }
             }
         }
     }

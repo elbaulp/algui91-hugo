@@ -11,7 +11,7 @@ mainclass: android
 url: /prueba-la-aplicacion-favsites-en-tu/
 tags:
 - curso android pdf
-title: "Prueba la aplicaci\xF3n FavSites en tu Android"
+title: "Prueba la aplicación FavSites en tu Android"
 ---
 
 Como sabéis hace algún tiempo terminé la aplicación [Favsites][1].

@@ -2,16 +2,14 @@
 author: alex
 categories:
 - script
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-07-31
-
+lastmod: 2017-04-02T19:28:47+01:00
 mainclass: dev
 url: /crear-imagenes-en-miniaturas/
-title: "Crear miniaturas de im\xE1genes"
+title: "Crear miniaturas de imágenes"
 ---
 
-### Creé una Versión mejorada de este script [aquí][1]
+> Creé una Versión mejorada de este script [aquí][1]
 
 Este script es muy simple, pero resulta muy útil cuando tenemos muchas imágenes y queremos hacer miniaturas, por ejemplo, para subirlas a nuestra web.
 

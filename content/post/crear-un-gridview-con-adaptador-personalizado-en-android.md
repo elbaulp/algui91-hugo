@@ -2,27 +2,24 @@
 author: alex
 categories:
 - android
-color: '#689F38'
 date: '2016-01-01'
-description: Un GridView es una AdapterView capaz de organizar datos en forma de cuadricula
-  para mejorar la accesibilidad del usuario. A diferencia de un ListView, este contenedor
-  permite scrolling horizontal y vertical en sus interacciones.
+lastmod: 2017-04-06T15:25:38+01:00
+description: Un GridView es una AdapterView capaz de organizar datos en forma de cuadricula  para mejorar la accesibilidad del usuario. A diferencia de un ListView, este contenedor  permite scrolling horizontal y vertical en sus interacciones.
 image: 2014/11/gridview-scrolling-horizontal.png
-lastmod: 2015-12-23
-
 mainclass: android
 url: /crear-un-gridview-con-adaptador-personalizado-en-android/
 tags:
 - adaptador gridview
 - crear gridview
 - gridview android
+- adapter android
 title: Crear un GridView con Adaptador personalizado en Android
 ---
 
 > Éste artículo es una colaboración de **James Revelo Urrea**. Su blog es <a href="http://www.hermosaprogramacion.com" title="Blog del colaborador" target="_blank">www.hermosaprogramacion.com</a>. Muchas gracias.
 
 <figure>
-<a href="/img/2014/11/gridview-scrolling-horizontal.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/11/gridview-scrolling-horizontal.png" title="{{ page.title }}" alt="{{ page.title }}" width="700px" height="350px" /></a>
+  <a href="/img/2014/11/gridview-scrolling-horizontal.png"><amp-img sizes="(min-width: 700px) 700px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/11/gridview-scrolling-horizontal.png" title="Crear un GridView con Adaptador personalizado en Android" alt="Crear un GridView con Adaptador personalizado en Android" width="700px" height="350px" /></a>
 </figure>
 
 # Poblar un GridView con un Adaptador de ImageViews en Android
@@ -44,7 +41,7 @@ Son considerados mejor alternativa que las listas, si se desea aprovechar el esp
 El despliegue por defecto de los elementos de un GridView es vertical. El orden de los elementos va de izquierda a derecha y así mismo se definen los indices (basados en inicio 0) en nuestras estructuras de datos relacionadas.
 
 <figure>
-<a href="/img/2014/11/gridview-scrolling-horizontal.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/11/gridview-scrolling-horizontal.png" title="{{ page.title }}" alt="{{ page.title }}" width="700px" height="350px" /></a>
+    <a href="/img/2014/11/gridview-scrolling-horizontal.png"><amp-img sizes="(min-width: 700px) 700px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/11/gridview-scrolling-horizontal.png" title="Crear un GridView con Adaptador personalizado en Android" alt="Crear un GridView con Adaptador personalizado en Android" width="700px" height="350px" /></a>
 </figure>
 
 Como ves, en el anterior ejemplo se comienza en la parte superior izquierda con el indice 0 hasta terminar el recorrido de izquierda a derecha en la parte inferior derecha con el indice 5.
@@ -54,7 +51,7 @@ Como ves, en el anterior ejemplo se comienza en la parte superior izquierda con 
 En este caso se recorre el Grid en función de cada fila. Lo que quiere decir que accederemos a las posiciones de arriba hacia abajo.
 
 <figure>
-<a href="/img/2014/11/gridview-scrolling-horizontal.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/11/gridview-scrolling-horizontal.png" title="{{ page.title }}" alt="{{ page.title }}" width="700px" height="350px" /></a>
+    <a href="/img/2014/11/gridview-scrolling-horizontal.png"><amp-img sizes="(min-width: 700px) 700px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/11/gridview-scrolling-horizontal.png" title="Crear un GridView con Adaptador personalizado en Android" alt="Crear un GridView con Adaptador personalizado en Android" width="700px" height="350px" /></a>
 </figure>
 
 La ilustración muestra el recorrido vertical de los elementos.
@@ -70,8 +67,16 @@ A la actividad basada en el `GridView` se le ha denominado `Main` y a aquella qu
 En el archivo de diseño de `Main` se escribirá un layout cuyo nodo principal sea un elemento `<gridview>`. Veamos:
 
 ```xml
-</gridview><gridview xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/gridview" android:layout_width="match_parent" android:layout_height="match_parent" android:columnwidth="90dp" android:numcolumns="auto_fit" android:verticalspacing="10dp" android:horizontalspacing="10dp" android:stretchmode="columnWidth" android:gravity="center">
-
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="90dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"/>
 ```
 
 La distribución de nuestros elementos se ve afectada en el GridView por los siguientes atributos descriptivos:
@@ -93,8 +98,11 @@ La distribución de nuestros elementos se ve afectada en el GridView por los sig
     Por otra parte, el layout para `Details` consta simplemente de un `ImageView` como nodo raíz:
 
 ```xml
-<imageview xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:contentdescription="@string/imageDesc" android:id="@+id/originalImage">
-
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/imageDesc"
+    android:id="@+id/originalImage" >
 ```
 
 ## Crear un Adaptador personalizado para el GridView
@@ -160,7 +168,6 @@ public class ImageAdapter extends BaseAdapter {
     }
 
 }
-
 ```
 
 El adaptador establece por defecto los métodos `getItem()` y `getItemId()` debido a que no se está usando fuentes de datos estructuradas como una lista o mapa hash.
@@ -185,7 +192,7 @@ gridview.setAdapter(new ImageAdapter(this));
 Creando una nueva escucha para los elementos del Grid
  */
 gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-    public void onItemClick(AdapterView<? ?> parent, View v, int position, long id) {
+    public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
         /*
         Iniciar una nueva actividad al presionar la foto
          */
@@ -195,7 +202,6 @@ gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
     }
 });
-
 ```
 
 Si observas, el `Intent` creado en `onItemClick()` lleva consigo el valor de la posición del item actualmente procesado y luego se inicia la actividad `Details`. Finalmente recibes ese valor desde `onCreate()`en `Details` y asignas el recurso drawable con la referencia:
@@ -213,7 +219,6 @@ Seteando el recurso en el ImageView
  */
 ImageView originalImage = (ImageView)findViewById(R.id.originalImage);
 originalImage.setImageResource(adapter.getThumbId(position));
-
 ```
 
 Ahora solo ejecuta la aplicación y prueba su funcionamiento.
@@ -223,6 +228,3 @@ Ahora solo ejecuta la aplicación y prueba su funcionamiento.
  [2]: https://elbauldelprogramador.com/optimizando-la-interfaz-android-compound-drawables/ "Optimizando la interfaz Android – Compound Drawables"
  [3]: https://elbauldelprogramador.com/programacion-android-intents-conceptos/ "Programación Android: Intents – Conceptos básicos"
  [4]: https://www.dropbox.com/s/e56vsfojei6z2ow/Pics.rar?dl=0
-
-
-</imageview></gridview>

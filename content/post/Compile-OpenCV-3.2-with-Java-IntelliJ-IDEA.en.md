@@ -2,6 +2,7 @@
 tags = ["opencv", "intelliJ", "java"]
 categories = ["dev"]
 date = "2017-01-25"
+lastmod = "2017-03-29T16:20:12+01:00"
 title = "Compile OpenCV 3.2 with Java and use it in IntelliJ IDEA"
 image = "example-face-detection-with-opencv.png"
 mainclass = "dev"
@@ -49,9 +50,10 @@ cris@cris ~/opencv-3.2.0/build $ cmake -DBUILD_SHARED_LIBS=OFF ..
 ```
 
 Notice that when generating the makefile, the output in the Java field looks like this:
+
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" width="983px" height="164px"></amp-img>
-<figcaption>building makefiles</figcaption>
+    <amp-img sizes="(min-width: 983px) 983px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" width="983px" height="164px"></amp-img>
+    <figcaption>building makefiles</figcaption>
 </figure>
 
 That is, there is a specified ant and JNI path, and Java wrappers is set to YES.
@@ -84,13 +86,13 @@ Now that it is build, the next step would be create an example in Java to check 
  and choose **Dependencies** tab. Here, we click to add and select the **opencv-320.jar** and  the library, that is in **opencv3.2.0/build/lib** :
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-Opencv-jar-to-IntelliJ-project.png" title="" alt="" width="1022" height="341"></amp-img>
-<figcaption>adding .jar file</figcaption>
+    <amp-img sizes="(min-width: 1022px) 1022px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-Opencv-jar-to-IntelliJ-project.png" title="" alt="" width="1022" height="341"></amp-img>
+    <figcaption>adding .jar file</figcaption>
 </figure>
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-libpath-to-intelliJ-project.png" title="" alt="" width="734" height="291"></amp-img>
-<figcaption>adding .so file</figcaption>
+    <amp-img sizes="(min-width: 734px) 734px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/adding-libpath-to-intelliJ-project.png" title="" alt="" width="734" height="291"></amp-img>
+    <figcaption>adding .so file</figcaption>
 </figure>
 
 
@@ -155,5 +157,5 @@ Finally we run **HelloOpenCV** example and see it works! printing lenna's face d
 
 <figure>
     <amp-img sizes="(min-width: 531px) 531px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/example-face-detection-with-opencv.png" title="" alt="" width="531" height="528"></amp-img>
-<figcaption>example face detection</figcaption>
+    <figcaption>example face detection</figcaption>
 </figure>

@@ -4,10 +4,8 @@ categories:
 - how to
 - linux
 - opensource
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-16
-
+lastmod: 2017-03-18T12:30:20+01:00
 mainclass: articulos
 url: /como-crear-un-repositorio-ppa-how/
 title: Como crear un PPA (Personal Package Archive)
@@ -22,7 +20,7 @@ Hace poco hablé de qué eran los [sistemas de paquetes PPA][1], para los intere
 3. Ya en el panel de control, hay que hacer clic en &#8220;Create a new PPA&#8221;, que nos lleva a https://launchpad.net/~NOMBRE_USUARIO/+activate-ppa, en esta página rellenamos los datos de nuestro PPA y lo activamos.
 4. Tras activar el PPA, es necesario subir paquetes al sistema, hay <a target="_blank" href="https://help.launchpad.net/Packaging/PPA/Uploading">varias formas de hacerlo</a>, pero la más sencilla es la siguiente:
 
-### FTP en Ubuntu 9.10 y posteriores:
+# FTP en Ubuntu 9.10 y posteriores:
 
 Visita la página de información general de tu PPA, y encontrarás algo similar a:
 

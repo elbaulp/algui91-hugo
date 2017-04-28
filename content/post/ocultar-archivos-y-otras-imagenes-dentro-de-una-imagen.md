@@ -10,7 +10,7 @@ mainclass: dev
 url: /ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
 aliases: /programacion/ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
 tags:
-- "estenograf\xEDa"
+- "estenografía"
 - ocultar archivos
 - ocultar archivos en imagenes
 - ocultar fichero foto
@@ -392,5 +392,5 @@ Este programa no tiene un uso útil, meramente acadámico, el proyecto es accesi
 
 ##### Referencias:
 
-- <a href="https://github.com/algui91/Hide-file-in-Photo" target="_blank">Repositorio en GitHub</a>
+- <a href="https://github.com/elbaulp/Hide-file-in-Photo" target="_blank">Repositorio en GitHub</a>
 - <a href="http://stackoverflow.com/questions/12042950/substitute-an-instruction-depending-on-a-condition" target="_blank">Pregunta en StackOverflow</a>

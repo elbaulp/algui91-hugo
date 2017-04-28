@@ -12,7 +12,7 @@ mainclass: misc
 url: /hacking-y-seguridad-en-comunicaciones/
 tags:
 - comunicaciones moviles lte
-title: "Hacking y Seguridad en Comunicaciones M\xF3viles GSM / GPRS / UMTS / LTE"
+title: "Hacking y Seguridad en Comunicaciones Móviles GSM / GPRS / UMTS / LTE"
 ---
 
 Os dejo un vídeo que demuestra como se puede suplantar la identidad de una red GSM / GPRS / UMTS / LTE.
