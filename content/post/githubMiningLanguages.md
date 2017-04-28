@@ -9,7 +9,7 @@ tags = ["github","minería","comunidad","API"]
 title = "Minería en tu comunidad de github con R - Analizando la popularidad de los lenguajes"
 +++
 
-En este post vamos a explorar nuestra comunidad de github, considerando nuestros amigos (nuestros seguidores) en esta red social. En primer lugar daremos algunas indicaciones para crear una aplicación y empezar a usar la API de github. Después extraeremos la información que necesitamos para realizar nuestro análisis, y así obtener que lenguajes de programación son más usados por nuestros amigos, y cuales los menos usados. ¡Exploremos la popularidad de los lengajes en nuestra comunidad!
+En este post vamos a explorar nuestra comunidad de github, considerando nuestros amigos (nuestros seguidores) en esta red social. En primer lugar daremos algunas indicaciones para crear una aplicación y empezar a usar la API de github. Después extraeremos la información que necesitamos para realizar nuestro análisis, y así obtener que lenguajes de programación son más usados por nuestros amigos, y cuales los menos usados. ¡Exploremos la popularidad de los lenguajes en nuestra comunidad!
 
 # 1. Crear la app, instalar paquetes, autenticarse
 
@@ -34,7 +34,7 @@ Usaremos la versión 3 de la API de GitHub para obtener los datos [github v3 API
 install.packages('jsonlite')
 ```
 
-Si no tienes instalado el paquete `stringr`, instálalo tal como acabamos de hacer con `jsonlite`. Lo usaremos para hacer operaciones comunes con _strings_. Instala también `ggplot2` si no lo tienes instalado. Lo usaremos para las gráficas.
+Si no tienes instalado el paquete `stringr`, instálalo tal como acabamos de hacer con `jsonlite`. Lo usaremos para hacer operaciones comunes con _strings_. Instala también `ggplot2` si no lo tienes instalado. Lo usaremos para las gráficas y `httpuv`, un paquete para poder trabajar con HTTP.
 
 Para conectarse a la app the github, necesitaremos instalar el paquete `rgithub`. Puedes hacerlo directamente desde el código fuente en github. Date cuenta que depende del paquete `devtools`:
 
