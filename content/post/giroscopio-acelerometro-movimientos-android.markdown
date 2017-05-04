@@ -2,15 +2,11 @@
 author: alex
 categories:
 - java
-color: '#D32F2F'
 date: 2016-02-18 08:32:53
-description: "Una appMovimientoSonido que reconozca un patrón de movimientos de
-  vuestra elección usando el giroscopio y/o el acelerómetro, una vez detectado
-  el patrón, se reproducirá un sonido"
+lastmod: 2017-05-04T10:49:40+01:00
+description: "Una appMovimientoSonido que reconozca un patrón de movimientos de  vuestra elección usando el giroscopio y/o el acelerómetro, una vez detectado  el patrón, se reproducirá un sonido"
 image: npi/movementSound.png
-
 mainclass: java
-modified: null
 tags:
 - tutorial acelerometro android
 - tutorial giroscopio android
@@ -32,18 +28,18 @@ Si te interesa android, puedes echar un vistazo a los cursos disponibles en el b
 
 _Enunciado: Una appMovimientoSonido que reconozca un patrón de movimientos de vuestra elección usando el giroscopio y/o el acelerómetro, una vez detectado el patrón, se reproducirá un sonido._
 
-## Movement Sound
+# Movement Sound
 
 En esta aplicación se usa el acelerómetro y el giroscopio, para mostrar sus valores por pantalla. El giroscopio es capaz de detectar una rotación del dispositivo, al hacerlo, reproduce un sonido. Por contra, el acelerómetro detecta una sacudida del dispositivo y reproduce un sonido distinto. Debido a que no en todos los dispositivos se obtienen valores precisos para los sensores, solo se mostrarán aquellos que tengan sentido.
 
 <figure>
-<a href="/img/npi/movementSound.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/movementSound.png" title="Aplicación Movement Sound" alt="Aplicación Movement Sound" width="338px" height="600px" /></a>
-<span class="image-credit">Aplicación Movement Sound</span>
+    <a href="/img/npi/movementSound.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/movementSound.png" title="Aplicación Movement Sound" alt="Aplicación Movement Sound" width="338px" height="600px" /></a>
+    <figcaption>Aplicación Movement Sound</figcaption>
 </figure>
 
-### Implementación
+## Implementación
 
-#### Para instanciar ambos sensores en el `onCreate`:
+## Para instanciar ambos sensores en el `onCreate`:
 
 ```java
 // Get the sensors to use
@@ -143,16 +139,14 @@ private void detectRotation(SensorEvent event) {
 }
 ```
 
-##### Permisos requeridos para el AndroidManifest
+### Permisos requeridos para el AndroidManifest
 
 ```xml
-<uses-permission android:name="android.hardware.sensor.gyroscope">
-</uses-permission><uses-permission android:name="android.hardware.sensor.accelerometer">
+<uses-permission android:name="android.hardware.sensor.gyroscope"/>
+<uses-permission android:name="android.hardware.sensor.accelerometer"/>
 ```
 
-
-### Referencias
+# Referencias
 
 - Código de la aplicación \| [github.com/elbaulp/movementSound](https://github.com/elbaulp/grado_informatica_npi/tree/master/Android/MovementSound)
 - AndroidWearMotionSensors \| [github.com/drejkim](https://github.com/drejkim/AndroidWearMotionSensors)
-</uses-permission>

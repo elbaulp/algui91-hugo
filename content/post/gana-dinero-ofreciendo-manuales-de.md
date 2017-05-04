@@ -3,17 +3,14 @@ author: alex
 categories:
 - cursos
 - internet
-color: '#61B38D'
 date: '2016-01-01'
-
+lastmod: 2017-05-04T10:42:50+01:00
 mainclass: misc
 url: /gana-dinero-ofreciendo-manuales-de/
 title: "Gana dinero ofreciendo manuales de todas las áreas de conocimiento a tus lectores con RevResponse"
 ---
 
-<div class="separator" >
-<a href="https://1.bp.blogspot.com/-uMNh-u1Idaw/T13_vPpxViI/AAAAAAAACNs/7qxqEujKX6U/s1600/refer_badge.png"  ><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="226" width="300" src="https://1.bp.blogspot.com/-uMNh-u1Idaw/T13_vPpxViI/AAAAAAAACNs/7qxqEujKX6U/s400/refer_badge.png" /></a>
-</div>
+<a href="https://1.bp.blogspot.com/-uMNh-u1Idaw/T13_vPpxViI/AAAAAAAACNs/7qxqEujKX6U/s1600/refer_badge.png"  ><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="226" width="300" src="https://1.bp.blogspot.com/-uMNh-u1Idaw/T13_vPpxViI/AAAAAAAACNs/7qxqEujKX6U/s400/refer_badge.png" /></a>
 
 Hace bastante tiempo que uso RevResponse. Para quien no lo sepa, es un servício que ofrece manuales de todas las áreas de conocimiento, dichas áreas podéis verlas aquí en el siguiente cuadro:
 
@@ -23,12 +20,12 @@ Revresponse paga cada descarga que un usuario realize entre **1.5 y 20$**, varia
 
 El motivo por el cual escribo esta entrada es que hoy me llegó un correo de esta empresa **ofreciendo 25$ a todos aquellos que se registren en la plataforma hasta el 31 de Marzo**. Lo cual es un buen motivo para empezar a probar este servício.
 
+<!--more--><!--ad-->
+
 Como la mayoría de servícios que ofrecen dinero a cambio de usarlos, RevResponse **paga al alcanzar los 50$**. Deciros que yo llevo usando esta plataforma bastante tiempo y es la única en la que he conseguido alcanzar la cuota para recibir el pago. Creo que es más rentable que los servícios de publicidad, ya que éstos últimos por lo menos a mí no es que me sirvan de mucho.
 
 Una vez que os registréis, podréis empezar a ofrecer cualquier tipo de guía/manual a vuestros lectores.
 
 Dicho todo esto, a quien le interese puede registrarse en este [ enlace][1].
-
-
 
  [1]: http://www.revresponse.com/join.php/?refbrand=bashyc-blogspot&invcode;=raf&page;=referral-page

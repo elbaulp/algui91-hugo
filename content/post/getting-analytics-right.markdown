@@ -2,20 +2,17 @@
 author: alex
 categories:
 - misc
-color: null
 date: 2016-08-01 09:42:49
+lastmod: 2017-05-04T10:48:15+01:00
 description: Answering business questions with more data in less time.
 image: Getting-Analytics-Right-centered.jpg
 introduction: Answering business questions with more data in less time.
-
 mainclass: misc
-modified: null
-tags: []
 title: 'Libro Gratuito: Getting Analytics Right'
 ---
 
 <figure>
-   <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Getting-Analytics-Right-centered.jpg" alt="{{ title }}" title="{{ title }}" width="640px" height="336px">
+    <amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Getting-Analytics-Right-centered.jpg" alt="Getting Analytics Right" title="Getting Analytics Right" width="640px" height="336px">
    </amp-img>
 </figure>
 

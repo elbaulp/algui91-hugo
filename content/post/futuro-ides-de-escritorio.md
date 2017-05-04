@@ -2,10 +2,8 @@
 author: luzila
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-09
-
+lastmod: 2017-05-04T10:40:25+01:00
 mainclass: articulos
 url: /futuro-ides-de-escritorio/
 tags:
@@ -15,11 +13,11 @@ tags:
 title: "5 Razones por las cuales en 5 años los IDEs de escritorio estarán muertos"
 ---
 
-Sí, no es broma. En 5 años, todos los desarrolladores codificarán en la nube. No sólo codificarán allí sino que también compilarán*, ___testearán, correrán, depurarán y desplegarán___ las aplicaciones en la nube. Es inevitable, aunque no sea muy obvio todavía. De hecho, los proyectos IDE basados en la nube están saliendo al mercado como los jugadores más importantes con serias intenciones y visiones claras y estratégicas. Sí, es imposible hacer una predicción del 100% sobre cómo se comportará el mercado en 1-2 años. Las nuevas tendencias en la industria del desarrollo de software hablan de la necesidad de una forma más productiva de codificar. Hay un largo incremento en el número de aplicaciones desarrolladas en todo el mundo, mientras que el número de desarrolladores se mantiene bastante igual. ¿Qué significa esto? Significa que los desarrolladores tienen que volverse más productivos. Al margen de los limites que existen en la resistencia y productividad del ser humano, es posible ganar algo de tiempo optimizando los procesos de codificación, compilación, testeo, ejecución y despliegue. Aquí es exactamente cuando un IDE ubicado en la nube entra en juego como un serio rival para las herramientas offline. Algunas de las ventajas más obvias de los IDEs online incluyen:
+Sí, no es broma. En 5 años, todos los desarrolladores codificarán en la nube. No sólo codificarán allí sino que también compilarán*, ___testearán, correrán, depurarán y desplegarán___ las aplicaciones en la nube. Es inevitable, aunque no sea muy obvio todavía. De hecho, los proyectos IDE basados en la nube están saliendo al mercado como los jugadores más importantes con serias intenciones y visiones claras y estratégicas. Sí, es imposible hacer una predicción del 100% sobre cómo se comportará el mercado en 1-2 años. Las nuevas tendencias en la industria del desarrollo de software hablan de la necesidad de una forma más productiva de codificar.
+
+Hay un largo incremento en el número de aplicaciones desarrolladas en todo el mundo, mientras que el número de desarrolladores se mantiene bastante igual. ¿Qué significa esto? Significa que los desarrolladores tienen que volverse más productivos. Al margen de los limites que existen en la resistencia y productividad del ser humano, es posible ganar algo de tiempo optimizando los procesos de codificación, compilación, testeo, ejecución y despliegue. Aquí es exactamente cuando un IDE ubicado en la nube entra en juego como un serio rival para las herramientas offline. Algunas de las ventajas más obvias de los IDEs online incluyen:
 
 <!--more--><!--ad-->
-
-
 
 # ** Mayor productividad y fácil integración**
 
@@ -29,7 +27,9 @@ Sí, no es broma. En 5 años, todos los desarrolladores codificarán en la nube.
 
 Un IDE situado en la nube aloja todos los servicios necesarios juntos de forma tal que están inmediatamente disponibles cuando se los solicita. Los proyectos son construidos en máquinas poderosas, las cuales desplazarán a las computadoras de los desarrolladores. En otras palabras, es posible usar laptops y máquinas de escritorio de características mediocres. Las construcciones son más rápidas y no requieren muchos recursos (los desarrolladores pueden realizar otras tareas mientras se están construyendo los proyectos).
 
-Ejecutar y depurar aplicaciones en la nube es otra caracteristica fundamental de un buen IDE ubicado en la web. Una vez que el proyecto está construido, está listo para ser ejecutado o depurado. Aún más, es posible actualizar aplicaciones en tiempo de ejecución, por ejemplo, usando el plugin JRebel. Con cualquier cambio hecho al código fuente, los desarrolladores pueden, de hecho, revisarlos en las aplicaciones corriendo. Lo mismo aplica para el modo de depuración. La aplicación está levantada en el servidor IDE, mientras que un desarrollador puede *jugar* con ella configurándole breakpoints, inspeccionando y cambiando variables, evaluando expresiones, sentencia por sentencia, etc.
+Ejecutar y depurar aplicaciones en la nube es otra caracteristica fundamental de un buen IDE ubicado en la web. Una vez que el proyecto está construido, está listo para ser ejecutado o depurado. Aún más, es posible actualizar aplicaciones en tiempo de ejecución, por ejemplo, usando el plugin JRebel.
+
+Con cualquier cambio hecho al código fuente, los desarrolladores pueden, de hecho, revisarlos en las aplicaciones corriendo. Lo mismo aplica para el modo de depuración. La aplicación está levantada en el servidor IDE, mientras que un desarrollador puede *jugar* con ella configurándole breakpoints, inspeccionando y cambiando variables, evaluando expresiones, sentencia por sentencia, etc.
 
 # **Compartir y colaborar**
 
@@ -45,4 +45,4 @@ Es cierto que a los IDEs de la web actualmente les faltan características de va
 
 # Referencias
 
-*DZone* »» <a href="http://architects.dzone.com/articles/5-reasons-why-5-years-desktop" target="_blank">5 Reasons Why in 5 Years Desktop IDEs Will Be Dead</a>
+- *DZone* »» <a href="http://architects.dzone.com/articles/5-reasons-why-5-years-desktop" target="_blank">5 Reasons Why in 5 Years Desktop IDEs Will Be Dead</a>

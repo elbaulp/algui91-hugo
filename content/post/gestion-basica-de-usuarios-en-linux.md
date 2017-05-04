@@ -3,10 +3,8 @@ author: alex
 categories:
 - linux
 - script
-color: '#2196F3'
 date: '2016-01-01'
-lastmod: 2016-08-15
-
+lastmod: 2017-05-04T10:45:35+01:00
 mainclass: linux
 url: /gestion-basica-de-usuarios-en-linux/
 tags:
@@ -244,4 +242,4 @@ main
 
 Si no visualizáis bien el código, haced clic [aquí.][1]
 
- [1]: http://pastebin.com/2UbqU3Yk
+ [1]: https://github.com/elbaulp/linux-user-management/blob/master/usermanagment.sh

@@ -4,9 +4,7 @@ categories:
 - dev
 - python
 date: '2016-01-01'
-description: "Seguro que tú tambén escucas música mientras programas, a mi
-  me gusta descansar cada 30 min siguiendo la técnica pomodoro. Pero mejor hacerlo
-  escuchando música. Este script en python te ayudará."
+description: "Seguro que tú tambén escucas música mientras programas, a mi  me gusta descansar cada 30 min siguiendo la técnica pomodoro. Pero mejor hacerlo  escuchando música. Este script en python te ayudará."
 image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
 lastmod: 2017-02-03
 mainclass: dev
