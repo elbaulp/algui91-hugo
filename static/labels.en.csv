@@ -1,25 +1,25 @@
 ,label,title,title2
-11,0,creating-trees-dependency-graphs-svms-in-tikz.en.md,"Creating trees, Dependency graphs and Support Vector Machines in LaTeX with Tikz"
-8,0,cant-update-to-firefox-48-in-gentoo-nss-version-too-old.en.markdown,"Can't Update to Firefox 48 in Gentoo, NSS Version Too Old"
-23,0,how-to-remove-slotted-packages-in-gentoo.en.md,How to remove slotted packages in gentoo
-3,1,buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.en.md,How to search files with locate using regular expressions.
+1,0,bash-syntax-highlighted-script.en.md,Bash syntax highlighted script
+12,0,bash-syntax-highlighted-script-improved.en.md,Bash syntax highlighted script [Improved]
+11,1,creating-trees-dependency-graphs-svms-in-tikz.en.md,"Creating trees, Dependency graphs and Support Vector Machines in LaTeX with Tikz"
 21,1,chuleta-atajos-teclado-emacs.en.markdown,"Emacs cheatsheet, Shortcuts and useful packages for beginners"
-20,1,cambiar-el-color-del-summary-en-una-preferencia-android.en.md,How to change summary color in Android's preferences
-18,1,Compile-OpenCV-3.2-with-Java-IntelliJ-IDEA.en.md,Compile OpenCV 3.2 with Java and use it in IntelliJ IDEA
+19,1,resources-channels-podcast-to-learn-math.en.md,13 Resources / Channels / Podcasts about Mathematics
 17,1,my-first-game-jam-unlimitosis.en.md,My experience in Game Jam 2017 
-16,1,c-syntax-highlighted-script.en.md,C++ syntax highlighted script
-15,1,how-to-solve-missing-url-for-attribute-src-in-tag-a-error-in-amp-mustache.en.markdown,How to Solve 'Missing URL for Attribute 'Src' in Tag 'a'' Error in Amp-mustache
-14,1,acceder-variable-dentro-funcion-r.en.markdown,How to modify a variable inside a function in R
-2,1,how-to-parse-frontmatter-with-python.en.md,How to parse frontmatter with python
-13,1,generar-listas-de-reproduccion-determinada-duracion-python.en.md,Create music playlists with a given length
-22,1,how-to-compile-opencv3-nonfree-part-from-source.en.md,How to Compile  OpenCV 3.0+ nonfree part from source
 10,1,githubMiningLanguages.en.md,Mining your github community with R - Analysing languages popularity
-1,1,bash-syntax-highlighted-script.en.md,Bash syntax highlighted script
-5,1,how-to-mantain-patchs-quilt-tutorial.en.md,How to manage multiple patches - A Quilt tutorial
-12,1,bash-syntax-highlighted-script-improved.en.md,Bash syntax highlighted script [Improved]
-0,1,how-to-change-portage-folders-to-other-location.en.markdown,How to Change Portage Folders to Other Location in Gentoo
-9,2,resources-channels-blogs-podcast-about-computer-science-security-data-science.en.md,"54 Blogs / Channels / Podcast about Computer Science, Security & Data Science"
-7,2,recommended-books.en.md,Recommended Books
-6,2,resources-blogs-podcast-youtube-channels-about-science.en.md,21 Podcasts / Youtube Channels / Blogs about Science
-19,2,resources-channels-podcast-to-learn-math.en.md,13 Resources / Channels / Podcasts about Mathematics
+9,1,resources-channels-blogs-podcast-about-computer-science-security-data-science.en.md,"54 Blogs / Channels / Podcast about Computer Science, Security & Data Science"
+23,1,how-to-remove-slotted-packages-in-gentoo.en.md,How to remove slotted packages in gentoo
+7,1,recommended-books.en.md,Recommended Books
+6,1,resources-blogs-podcast-youtube-channels-about-science.en.md,21 Podcasts / Youtube Channels / Blogs about Science
+3,1,buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.en.md,How to search files with locate using regular expressions.
+2,1,how-to-parse-frontmatter-with-python.en.md,How to parse frontmatter with python
+8,1,cant-update-to-firefox-48-in-gentoo-nss-version-too-old.en.markdown,"Can't Update to Firefox 48 in Gentoo, NSS Version Too Old"
+22,2,how-to-compile-opencv3-nonfree-part-from-source.en.md,How to Compile  OpenCV 3.0+ nonfree part from source
+5,2,how-to-mantain-patchs-quilt-tutorial.en.md,How to manage multiple patches - A Quilt tutorial
+13,2,generar-listas-de-reproduccion-determinada-duracion-python.en.md,Create music playlists with a given length
+14,2,acceder-variable-dentro-funcion-r.en.markdown,How to modify a variable inside a function in R
+15,2,how-to-solve-missing-url-for-attribute-src-in-tag-a-error-in-amp-mustache.en.markdown,How to Solve 'Missing URL for Attribute 'Src' in Tag 'a'' Error in Amp-mustache
+16,2,c-syntax-highlighted-script.en.md,C++ syntax highlighted script
 4,2,how-to-convert-column-to-vectorudt-densevector-spark.en.md,How to convert a column to VectorUDT/DenseVector in Spark
+18,2,Compile-OpenCV-3.2-with-Java-IntelliJ-IDEA.en.md,Compile OpenCV 3.2 with Java and use it in IntelliJ IDEA
+20,2,cambiar-el-color-del-summary-en-una-preferencia-android.en.md,How to change summary color in Android's preferences
+0,2,how-to-change-portage-folders-to-other-location.en.markdown,How to Change Portage Folders to Other Location in Gentoo
