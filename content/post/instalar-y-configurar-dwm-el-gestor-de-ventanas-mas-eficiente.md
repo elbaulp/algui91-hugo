@@ -4,19 +4,10 @@ categories:
 - aplicaciones
 - c
 - linux
-color: '#E64A19'
 date: '2016-01-01'
-description: "Hace tiempo que hablé de Xmonad, y hasta hace poco ha sido mi gestor
-  de ventanas, durante varios años. Pero semanas atrás descubrí el proyecto
-  original en el que se basaba xmonad, DWM. Xmonad es un clon de DWM escrito en Haskell,
-  lo cual lo hace un poco más pesado y lento debido a las dependencias que tiene
-  y la necesidad de instalar su compilador. Tras probar DWM, no puedo estar más
-  contento con el resultado, está escrito en C, y todas las modificaciones en la
-  configuración se hacen sobre el propio código, lo cual lo hace muy eficiente
-  y rápido. En este artículo veremos cómo instalar y configurar DWM."
+lastmod: 2017-05-05T10:32:42+01:00
+description: "Hace tiempo que hablé de Xmonad, y hasta hace poco ha sido mi gestor  de ventanas, durante varios años. Pero semanas atrás descubrí el proyecto  original en el que se basaba xmonad, DWM. Xmonad es un clon de DWM escrito en Haskell,  lo cual lo hace un poco más pesado y lento debido a las dependencias que tiene  y la necesidad de instalar su compilador. Tras probar DWM, no puedo estar más  contento con el resultado, está escrito en C, y todas las modificaciones en la  configuración se hacen sobre el propio código, lo cual lo hace muy eficiente  y rápido. En este artículo veremos cómo instalar y configurar DWM."
 image: "2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-más-eficiente1.png"
-lastmod: 2015-12-24
-
 mainclass: dev
 url: /instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente/
 tags:
@@ -33,11 +24,11 @@ Hace tiempo que hablé de [Xmonad][1], y hasta hace poco ha sido mi gestor de ve
 
 <!--more--><!--ad-->
 
-## Qué es DWM
+# Qué es DWM
 
 DWM es un gestor de ventanas dinámico que permite organizar las ventanas de varias formas (*tiled, monocle y floating*). Cada ventana se asigna a una etiqueta, esto podría considerarse como escritorios en otros gestores de ventanas. Por defecto hay 9 etiquetas.
 
-## Cómo instalar DWM
+# Cómo instalar DWM
 
 La mejor forma es clonar el repositorio [git][2]:
 
@@ -94,12 +85,12 @@ exec dwm
 Creado el script, hay que darle permisos de ejecución y copiarlo a `/usr/bin`
 
 ```bash
-$ chmo +x dwm-personalized
+$ chmod +x dwm-personalized
 $ sudo cp dwm-personalized /usr/bin
 
 ```
 
-## Primera ejecución
+# Primera ejecución
 
 Ejecutados los pasos anteriores, ahora basta con salir de la sesión actual y entrar con DWM. Algunas cosas que probablemente sean adecuadas cambiar antes de ejecutar dwm es qué terminal usar. Para ello hay que modificar la variable `termcmd` en `config.def.h`, que por defecto es:
 
@@ -117,11 +108,13 @@ static const char *termcmd[]  = { "terminator", NULL };
 
 Recompilamos y listo.
 
-### Instalar Dmenu
+## Instalar Dmenu
 
 Un programa muy útil es dmenu, permite lanzar cualquier programa abriendo una ventanita en la que podemos escribir el nombre del programa a ejecutar:
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/dmenu.png" alt="Dmenu" width="478px" height="13px" />
+<figure>
+    <amp-img sizes="(min-width: 478px) 478px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/dmenu.png" alt="Dmenu" width="478px" height="13px" />
+</figure>
 
 Para instalarlo:
 
@@ -144,11 +137,11 @@ static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", normbgcolor, 
 
 ```
 
-## Probando DWM
+# Probando DWM
 
 Ahora que está todo al entrar podremos ejecutar un terminal pulsando ALT+Shift+Enter, ejecutar **dmenu** pulsando ALT+p etc. Los atajos de teclado se definen en el array `static Key keys[]`.
 
-## Cambiar la tecla ALT por la de Windows
+# Cambiar la tecla ALT por la de Windows
 
 Para los usuarios de Linux, la tecla de Windows no se usa prácticamente para nada, lo cual viene muy bien para este tipo de programas, y así de paso evitamos interferir con cualquier otro atajo que haya definido otro programa. Para cambiar el modificador ALT por la tecla de Windows basta con cambiar
 
@@ -166,23 +159,23 @@ por
 
 en el fichero `config.def.h`
 
-## Aplicar parches
+# Aplicar parches
 
 Existen multitud de modificaciones hechas por los usuarios de DWM para añadirle funcionalidad. Pueden encontrarse en <a href="https://github.com/jceb/dwm-clean-patches" title="Clean patches" target="_blank">este repositorio</a> de [github][3].
 
-## Comentarios finales
+# Comentarios finales
 
 Espero que esta pequeña introducción haya servido al lector. Desde que entré en el mundo de éste tipo de gestores de ventanas no he querido volver a ver a los gestores clásicos. Una vez te acostumbras a usar el teclado, la velocidad al trabajar en el pc aumenta considerablemente.
 
 Aquí dejo una captura de pantalla de mi escritorio actual. En unos días explicaré cómo desarrollé la posibilidad de colorear la barra de estado (Ya está disponible [aquí][4]), ya que por defecto la versión 6.1 de DWM no lo permite.
 
 <figure>
-<a href="/img/2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-más-eficiente1.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-más-eficiente1.png" title="{{ page.title }}" alt="{{ page.title }}" width="1280px" height="768px" /></a>
+    <a href="/img/2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-más-eficiente1.png"><amp-img sizes="(min-width: 1280px) 1280px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-más-eficiente1.png" title="Instalar y configurar DWM, el gestor de ventanas más eficiente" alt="Instalar y configurar DWM, el gestor de ventanas más eficiente" width="1280px" height="768px" /></a>
 </figure>
 
-#### Referencias
+# Referencias
 
-*Web Oficial de DWM* »» <a href="" target="_blank">dwm.suckless.org</a>
+- *Web Oficial de DWM* »» <a href="" target="_blank">dwm.suckless.org</a>
 
 
 
