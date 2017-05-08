@@ -5,9 +5,8 @@ image = "scala_logo.png"
 mainclass = "dev"
 author = "alex"
 description = "What is the Idiomatic way of iterate through multiple collections in scala?"
-date = "2017-05-06T12:26:16+02:00"
+date = "2017-05-08T12:12:30+01:00"
 title = "How to iterate through multiple collections in Scala"
-draft = "true"
 +++
 
 When I first started working with [scala](https://elbauldelprogramador.com/en/tags/scala "post about scala scala") I've found myself unable to do trivial things I have being doing in other languages I already known. That is the most frustrating part of learning a new programming language, in my opinion.

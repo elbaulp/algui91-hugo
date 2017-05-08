@@ -4,10 +4,9 @@ categories = ["dev"]
 image = "scala_logo.png"
 mainclass = "dev"
 author = "alex"
-description = "¿Cual es la forma más <em>Idiomática</em> de iterar varias colecciones a la vez en Scala?"
-date = "2017-05-06T12:26:16+02:00"
+description = "¿Cual es la forma más Idiomática de iterar varias colecciones a la vez en Scala?"
+date = "2017-05-08T12:12:39+01:00"
 title = "Cómo iterar sobre varias colecciones en Scala"
-draft = "true"
 +++
 
 Cuando empecé a trabajar con [scala](https://elbauldelprogramador.com/tags/scala "artículos sobre scala") me encontré con que me resultaba difícil resolver problemas triviales, fáciles de resolver en lenguajes que ya conocía. Supongo que esa es la parte más frustrante de aprender un lenguaje nuevo, al menos en mi opinión.
