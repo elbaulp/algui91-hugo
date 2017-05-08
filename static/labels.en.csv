@@ -1,25 +1,26 @@
 ,label,title,title2
 1,0,bash-syntax-highlighted-script.en.md,Bash syntax highlighted script
-16,0,c-syntax-highlighted-script.en.md,C++ syntax highlighted script
 3,0,buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.en.md,How to search files with locate using regular expressions.
-12,0,bash-syntax-highlighted-script-improved.en.md,Bash syntax highlighted script [Improved]
-9,1,resources-channels-blogs-podcast-about-computer-science-security-data-science.en.md,"54 Blogs / Channels / Podcast about Computer Science, Security & Data Science"
-6,1,resources-blogs-podcast-youtube-channels-about-science.en.md,21 Podcasts / Youtube Channels / Blogs about Science
-19,1,resources-channels-podcast-to-learn-math.en.md,13 Resources / Channels / Podcasts about Mathematics
-18,2,Compile-OpenCV-3.2-with-Java-IntelliJ-IDEA.en.md,Compile OpenCV 3.2 with Java and use it in IntelliJ IDEA
-22,2,how-to-compile-opencv3-nonfree-part-from-source.en.md,How to Compile  OpenCV 3.0+ nonfree part from source
-2,2,how-to-parse-frontmatter-with-python.en.md,How to parse frontmatter with python
-5,2,how-to-mantain-patchs-quilt-tutorial.en.md,How to manage multiple patches - A Quilt tutorial
-10,3,githubMiningLanguages.en.md,Mining your github community with R - Analysing languages popularity
-14,3,acceder-variable-dentro-funcion-r.en.markdown,How to modify a variable inside a function in R
-21,4,chuleta-atajos-teclado-emacs.en.markdown,"Emacs cheatsheet, Shortcuts and useful packages for beginners"
-20,4,cambiar-el-color-del-summary-en-una-preferencia-android.en.md,How to change summary color in Android's preferences
-4,4,how-to-convert-column-to-vectorudt-densevector-spark.en.md,How to convert a column to VectorUDT/DenseVector in Spark
-13,4,generar-listas-de-reproduccion-determinada-duracion-python.en.md,Create music playlists with a given length
-15,4,how-to-solve-missing-url-for-attribute-src-in-tag-a-error-in-amp-mustache.en.markdown,How to Solve 'Missing URL for Attribute 'Src' in Tag 'a'' Error in Amp-mustache
-17,4,my-first-game-jam-unlimitosis.en.md,My experience in Game Jam 2017 
-0,5,how-to-change-portage-folders-to-other-location.en.markdown,How to Change Portage Folders to Other Location in Gentoo
-23,5,how-to-remove-slotted-packages-in-gentoo.en.md,How to remove slotted packages in gentoo
-8,5,cant-update-to-firefox-48-in-gentoo-nss-version-too-old.en.markdown,"Can't Update to Firefox 48 in Gentoo, NSS Version Too Old"
-7,6,recommended-books.en.md,Recommended Books
-11,6,creating-trees-dependency-graphs-svms-in-tikz.en.md,"Creating trees, Dependency graphs and Support Vector Machines in LaTeX with Tikz"
+17,0,c-syntax-highlighted-script.en.md,C++ syntax highlighted script
+13,0,bash-syntax-highlighted-script-improved.en.md,Bash syntax highlighted script [Improved]
+2,1,how-to-parse-frontmatter-with-python.en.md,How to parse frontmatter with python
+5,1,how-to-mantain-patchs-quilt-tutorial.en.md,How to manage multiple patches - A Quilt tutorial
+19,1,Compile-OpenCV-3.2-with-Java-IntelliJ-IDEA.en.md,Compile OpenCV 3.2 with Java and use it in IntelliJ IDEA
+9,1,iterate-multiple-collections-scala.en.md,How to iterate through multiple collections in Scala
+23,1,how-to-compile-opencv3-nonfree-part-from-source.en.md,How to Compile  OpenCV 3.0+ nonfree part from source
+10,2,resources-channels-blogs-podcast-about-computer-science-security-data-science.en.md,"54 Blogs / Channels / Podcast about Computer Science, Security & Data Science"
+6,2,resources-blogs-podcast-youtube-channels-about-science.en.md,21 Podcasts / Youtube Channels / Blogs about Science
+20,2,resources-channels-podcast-to-learn-math.en.md,13 Resources / Channels / Podcasts about Mathematics
+4,3,how-to-convert-column-to-vectorudt-densevector-spark.en.md,How to convert a column to VectorUDT/DenseVector in Spark
+16,3,how-to-solve-missing-url-for-attribute-src-in-tag-a-error-in-amp-mustache.en.markdown,How to Solve 'Missing URL for Attribute 'Src' in Tag 'a'' Error in Amp-mustache
+18,4,my-first-game-jam-unlimitosis.en.md,My experience in Game Jam 2017 
+12,4,creating-trees-dependency-graphs-svms-in-tikz.en.md,"Creating trees, Dependency graphs and Support Vector Machines in LaTeX with Tikz"
+14,4,generar-listas-de-reproduccion-determinada-duracion-python.en.md,Create music playlists with a given length
+22,4,chuleta-atajos-teclado-emacs.en.markdown,"Emacs cheatsheet, Shortcuts and useful packages for beginners"
+7,4,recommended-books.en.md,Recommended Books
+21,4,cambiar-el-color-del-summary-en-una-preferencia-android.en.md,How to change summary color in Android's preferences
+11,5,githubMiningLanguages.en.md,Mining your github community with R - Analysing languages popularity
+15,5,acceder-variable-dentro-funcion-r.en.markdown,How to modify a variable inside a function in R
+0,6,how-to-change-portage-folders-to-other-location.en.markdown,How to Change Portage Folders to Other Location in Gentoo
+8,6,cant-update-to-firefox-48-in-gentoo-nss-version-too-old.en.markdown,"Can't Update to Firefox 48 in Gentoo, NSS Version Too Old"
+24,6,how-to-remove-slotted-packages-in-gentoo.en.md,How to remove slotted packages in gentoo
