@@ -4,12 +4,9 @@ categories:
 - linux
 - gentoo
 date: 2016-08-17 08:30:50
-description: "Cómo cambiar el directorio de portage y directorio temporal a otro
-  directorio"
+description: "Cómo cambiar el directorio de portage y directorio temporal a otro  directorio"
 image: como-instalar-actualizar-elminar-paquetes-gentoo.png
-introduction: "Cómo cambiar el directorio de portage y directorio temporal a otro
-  directorio"
-
+introduction: "Cómo cambiar el directorio de portage y directorio temporal a otro  directorio"
 mainclass: linux
 tags:
 - gentoo

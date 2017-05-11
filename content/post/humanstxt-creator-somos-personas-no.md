@@ -3,18 +3,16 @@ author: alex
 categories:
 - internet
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
+lastmod: 2017-05-11T10:45:01+01:00
 image: HumanstxtCreatorsomospersonasnomaquinas.png
-lastmod: 2016-09-07
-
 mainclass: articulos
 url: /humanstxt-creator-somos-personas-no/
 title: "Humanstxt Creator. Somos personas, no máquinas"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/HumanstxtCreatorsomospersonasnomaquinas.png" alt="{{ title }}" title="{{ title }}" width="351" height="101"></amp-img>
+    <amp-img sizes="(min-width: 351px) 351px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/HumanstxtCreatorsomospersonasnomaquinas.png" alt="Humanstxt Creator. Somos personas, no máquinas" title="Humanstxt Creator. Somos personas, no máquinas" width="351" height="101"></amp-img>
 </figure>
 
 De la web de un amigo blogger ([EtnasSoft][1]), me llega la iniciativa Humanstxt Creator. Que trata de:

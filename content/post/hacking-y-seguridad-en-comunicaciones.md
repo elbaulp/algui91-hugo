@@ -3,11 +3,9 @@ author: alex
 categories:
 - noticias
 - seguridad
-color: '#61B38D'
 date: '2016-01-01'
+lastmod: 2017-05-11T10:40:12+01:00
 image: hacking-y-seguridad-en-comunicaciones.jpg
-lastmod: 2016-10-08
-
 mainclass: misc
 url: /hacking-y-seguridad-en-comunicaciones/
 tags:
@@ -25,5 +23,5 @@ Una de las características que se conocen desde hace mucho tiempo es la posibil
 
 Esta suplantación, que se puede hacer a las redes GSM, se puede extender, como enseñan desde hace más de un año los investigadores españoles José Picó y David Perez a las redes UMTS, es decir, a las tecnologías GPRS y EDGE. Si el dispositivo no tiene configurada la opción de conectarse solo a redes 3G o 3.5G, un atacante podrá simular ser cualquier operador ya que en las tecnologías GPRS y EDGE no se autentica la red, es decir, basta con suplantar el nombre de la red y engañar al usuario.
 
-Fuente: <a target="_blank" href="http://www.elladodelmal.com/2011/11/nuevo-libro-de-hacking-y-seguridad-en.html">elladodelmal</a>
-Más info: <a target="_blank" href="http://www.seguridadapple.com/2011/01/atacando-iphone-e-ipad-con-redes-falsas.html">seguridadApple</a>
+- Fuente: <a target="_blank" href="http://www.elladodelmal.com/2011/11/nuevo-libro-de-hacking-y-seguridad-en.html">elladodelmal</a>
+- Más info: <a target="_blank" href="http://www.seguridadapple.com/2011/01/atacando-iphone-e-ipad-con-redes-falsas.html">seguridadApple</a>
