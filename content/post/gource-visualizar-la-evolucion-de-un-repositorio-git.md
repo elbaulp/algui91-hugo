@@ -5,12 +5,10 @@ amp:
 categories:
 - aplicaciones
 - opensource
-color: '#F57C00'
 date: '2016-01-01'
+lastmod: 2017-05-11T10:12:41+01:00
 description: Tutorial de gource y ejemplo de uso
 image: 2013/05/gourceGit-1024x804.png
-lastmod: 2015-12-13
-
 mainclass: articulos
 url: /gource-visualizar-la-evolucion-de-un-repositorio-git/
 tags:
@@ -32,20 +30,18 @@ Para instalar el programa basta con ejecutar:
 
 ```bash
 # aptitude install gource
-
 ```
 
 Una vez instalado, basta con ejecutar el programa y pasarle la ruta a la carpeta *.git* del repositorio que queramos visualizar:
 
 ```bash
 gource /ruta/a/.git
-
 ```
 
 El resultado es algo como esto:
 
 <figure>
-<a href="/img/2013/05/gourceGit-1024x804.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/gourceGit-1024x804.png" title="{{ page.title }}" alt="{{ page.title }}" width="1024px" height="804px" /></a>
+    <a href="/img/2013/05/gourceGit-1024x804.png"><amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/gourceGit-1024x804.png" title="Gource: Visualizar la evolución de un repositorio Git" alt="Gource: Visualizar la evolución de un repositorio Git" width="1024px" height="804px" /></a>
 </figure>
 
 Al pasar el ratón por la parte inferior, aparece un recuadro en el que podremos seleccionar la fecha a visualizar.
@@ -56,7 +52,6 @@ Es posible grabar en vídeo la visualización de *gource* con el comando:
 gource ruta/a/.git/  -1280x1024 --max-files 99999 --disable-progress --stop-at-end \
        --user-scale 2 --highlight-all-users --output-ppm-stream - \
        | ffmpeg -y -b 3000K -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 gource.mp4
-
 ```
 
 Donde:

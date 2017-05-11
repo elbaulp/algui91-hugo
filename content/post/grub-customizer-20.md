@@ -1,51 +1,36 @@
 ---
 author: alex
 categories:
-- sin categoria
-color: '#2196F3'
+- noticias
 date: '2016-01-01'
-lastmod: 2016-08-15
-
+lastmod: 2017-05-11T10:27:14+01:00
 mainclass: linux
-url: /grub-customizer-20/
-title: Grub Customizer 2.0
+url: /grub-customizer-20-personaliza-tu-grub2/
+title: Grub Customizer 2.0, personaliza tu GRUB2
 ---
 
-<figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Grub Customizer 2.0" width="800" height="508" src="https://lh3.ggpht.com/_1QSDkzYY2vc/TOmPPw_WKsI/AAAAAAAACUo/3JHDf60vuSc/s800/grub-customizer-2.0.png"></amp-img>
-</figure>
-
-__With the release of version 2.0, Grub Customizer becomes the most complete GRUB 2 graphical configuration tool__
-
-
-Grub Customizer - a new graphical GRUB 2 and BURG settings manager -, 2.0 has been released today with a lot of enhancements: <b>you can now select the default boot entry</b>, change the menu visibility and timeout, set kernel parameters, disable recovery entries and change screen resolution (GFX_MODE) - all by using Grub Customizer.
+Los desarrolladores de [Grub Customizer][1] **han lanzado la versión 2.0 de esta herramienta** para personalizar el aspecto y funcionamiento de nuestro gestor de arranque, algo que es bastante molesto desde la entrada de GRUB2 y que ahora se hace mucho más cómodo con esta solución.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="695" height="465" alt="Grub Customizer appearance" src="https://lh4.ggpht.com/_1QSDkzYY2vc/TOmPgMD2l4I/AAAAAAAACUs/O4iov5Q5lMY/s800/grub-customizer-appearence.png"></amp-img>
-    <figcaption>(Grub Customizer 2.0 - Appearance preferences)</figcaption>
+    <amp-img sizes="(min-width: 500px) 500px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Grub-customizer0" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TOpPJrxOdBI/AAAAAAAAAFk/RWhgQykL8wo/s1600/Grub-customizer0-500x321.jpg" alt="Grub customizer" width="500" height="321" ></amp-img>
 </figure>
 
-Besides the above new features, <b>Grub Customizer 2.0</b> also brings some GRUB 2 only specific settings (they don&#8217;t work for BURG) like changing the menu colors or background image. Please note that these appearance options worked for me in Ubuntu 10.04 but did not work in Ubuntu 10.10 - however this might happen because I&#8217;ve messed a lot with the GRUB 2 configuration (including running the <a href="http://www.webupd8.org/2010/10/script-to-fix-ubuntu-plymouth-for.html" title="Script To Fix The Ubuntu Plymouth For Proprietary Nvidia And ATI Graphics Drivers">script for fixing the Plymouth</a>).
+Como revelan en [WebUpd8][2] y otras webs, **hay bastantes mejoras en Grub Customizer 2.0**. Entre ellas, la posibilidad de seleccionar la entrada por defecto que está seleccionada para arrancar, además de cambiar la visibilidad del menú, el tiempo límite de interacción, o el establecimiento de parámetros del núcleo.
 
-<figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Grub 2 - colors" width="633" height="476" src="https://lh3.ggpht.com/_1QSDkzYY2vc/TOmWY9zu60I/AAAAAAAACUw/T1I8twGbj9g/s800/grub2-colors.png"></amp-img>
-    <figcaption>(GRUB 2 with new colors)</figcaption>
-</figure>
-
-## Install Grub Customizer in Ubuntu:
+Además en el caso de GRUB2 hay algunas características especiales como **cambiar los colores del menú o la imagen de fondo**. Para instalar la aplicación en Ubuntu podéis hacer lo siguiente:
 
 ```bash
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer
-sudo apt-get update
-sudo apt-get install grub-customizer
+sudo apt-get updatesudo
+apt-get install grub-customizer
 ```
 
-Once installed, you can find it under <i>Applications > System Tools > Grub Customizer</i>.
+Y a partir de ahí podréis lanzar la aplicación desde terminal o con el menú **Aplicaciones/Herramientas de Sistema/Grub Customizer**.
 
-For other Linux distributions: download <a class="external" href="https://code.launchpad.net/grub-customizer">Grub Customizer @ Launchpad</a> (you&#8217;ll have to get it through BZR).
+Para otras distros Linux basta con descargar [Grub Customizer en Launchpad][3], algo para lo que, cuidado, **necesitaréis tener instalado BZR**.
 
-_For a similar BURG only tool, see <a href="http://www.webupd8.org/2010/11/burg-manager-10-released-with-option-to.html">Burg Manager</a>._
+# Fuente: <a href="http://www.muylinux.com/2010/11/22/grub-customizer-2-0-personaliza-tu-grub2" target="_blank"> MuyLinux.com </a>
 
-## Source
-
-Source: <a href="http://www.webupd8.org/2010/11/grub-customizer-20-can-change-default.html" target="_blank">webupd8.org</a>
+ [1]: https://launchpad.net/grub-customizer
+ [2]: http://www.webupd8.org/2010/11/grub-customizer-20-can-change-default.html
+ [3]: https://code.launchpad.net/grub-customizer

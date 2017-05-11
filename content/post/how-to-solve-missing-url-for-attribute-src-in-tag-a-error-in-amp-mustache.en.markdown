@@ -2,13 +2,11 @@
 author: alex
 categories:
 - dev
-color: '#E64A19'
 date: 2016-07-31 05:37:13
+lastmod: 2017-05-11T10:44:08+01:00
 description: 'Solving amp-mustache error: Missing URL for Attribute'
 image: how-to-solve-missing-url-for-attribute-src-in-tag-a-error-in-amp-mustache.png
 introduction: 'Solving amp-mustache error: Missing URL for Attribute'
-lang: en
-
 mainclass: dev
 tags:
 - amp-mustache

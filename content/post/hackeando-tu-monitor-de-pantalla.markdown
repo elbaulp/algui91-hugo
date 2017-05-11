@@ -2,15 +2,11 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: 2016-08-12 07:06:02
-description: "Un grupo de investigadores ha conseguido acceder y moficar los píxeles
-  de una pantalla"
+lastmod: 2017-05-11T10:38:41+01:00
+description: "Un grupo de investigadores ha conseguido acceder y moficar los píxeles  de una pantalla"
 image: Hackeando-Tu-Monitor-De-Pantalla.jpg
-introduction: "Un grupo de investigadores ha conseguido acceder y moficar los píxeles
-  de una pantalla"
-lastmod: 2016-08-15
-
+introduction: "Un grupo de investigadores ha conseguido acceder y moficar los píxeles  de una pantalla"
 mainclass: articulos
 tags:
 - seguridad
@@ -19,8 +15,7 @@ twitter_text: null
 ---
 
 <figure>
-  <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Hackeando-Tu-Monitor-De-Pantalla.jpg" alt="{{ title }}" title="{{ title }}" width="800px" height="400px">
-  </amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Hackeando-Tu-Monitor-De-Pantalla.jpg" alt="Hackeando Tu Monitor De Pantalla" title="Hackeando Tu Monitor De Pantalla" width="800px" height="400px"></amp-img>
   <figcaption>Imagen: Lorenzo Franceschi-Bicchierai/Motherboard</figcaption>
 </figure>
 
