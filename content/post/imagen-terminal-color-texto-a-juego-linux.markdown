@@ -2,13 +2,10 @@
 author: cristina
 categories:
 - linux
-color: '#2196F3'
 date: 2016-07-18 16:08:56
-description: null
+lastmod: 2017-05-13T11:20:14+01:00
 image: imagen-terminal-color-texto-a-juego-linux.png
-introduction: "Con este pequeño script podrás cambiar el fondo y color de texto
-  de tu terminal, a juego"
-
+introduction: "Con este pequeño script podrás cambiar el fondo y color de texto  de tu terminal, a juego"
 mainclass: linux
 tags:
 - Terminal
@@ -187,19 +184,19 @@ Para no tener que andar lanzando el script, puedes planificarlo con **crontab** 
 #### Algunos ejemplos ####
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux2.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="656px" height="386px" />
+    <amp-img sizes="(min-width: 656px) 656px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux2.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="656px" height="386px" />
 </figure>
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux3.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="650px" height="386px" />
+    <amp-img sizes="(min-width: 650px) 650px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux3.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="650px" height="386px" />
 </figure>
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux4.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="656px" height="385px" />
+    <amp-img sizes="(min-width: 656px) 656px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux4.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="656px" height="385px" />
 </figure>
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux5.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="1003px" height="581px" />
+    <amp-img sizes="(min-width: 1003px) 1003px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux5.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="1003px" height="581px" />
 </figure>
 
 
-#### Enlace al código
+# Enlace al código
 
 Puedes bajarte el script en [github](https://github.com/CristinaHG/My-TerminalsBacgroundSetter "Repositorio My Terminals Background Setter")
