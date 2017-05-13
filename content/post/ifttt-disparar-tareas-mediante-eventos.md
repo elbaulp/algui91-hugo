@@ -4,10 +4,8 @@ categories:
 - aplicaciones
 - internet
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-29
-
+lastmod: 2017-05-13T11:19:13+01:00
 mainclass: articulos
 url: /ifttt-disparar-tareas-mediante-eventos/
 title: 'Ifttt: Disparar tareas mediante eventos producidos en redes sociales'
