@@ -2,11 +2,10 @@
 author: alex
 categories:
 - misc
-color: '#61B38D'
 date: 2016-03-16 10:02:52
+lastmod: 2017-05-13T13:39:10+01:00
 description: How IoT is set to revolutionize the commercial real estate industry.
 image: The-Impact-of-Internet-of-Things-IoT-on-Facilities-Management.jpg
-
 mainclass: misc
 tags:
 - guia Impact of Internet of Things
@@ -16,7 +15,7 @@ title: "Guía Gratuita - The Impact of Internet of Things (IoT) on Facilities Ma
 ---
 
 <figure>
-<a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_senc01"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/The-Impact-of-Internet-of-Things-IoT-on-Facilities-Management.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="1200px" height="630px" /></a>
+    <a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_senc01"><amp-img sizes="(min-width: 1200px) 1200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/The-Impact-of-Internet-of-Things-IoT-on-Facilities-Management.jpg" title="The Impact of Internet of Things (IoT) on Facilities Management" alt="The Impact of Internet of Things (IoT) on Facilities Management" width="1200px" height="630px" /></a>
 </figure>
 
 How IoT is set to revolutionize the commercial real estate industry.
@@ -34,7 +33,7 @@ This paper discusses what’s driving the adoption of the Internet of Things (Io
 </div>
 
 Visita la página [Manuales gratuitos][1] o consulta el [catálogo completo][2].
-{: .notice-info }
+
 
 [1]: https://elbauldelprogramador.com/manuales-gratuitos/
 [2]: http://elbauldelprogramador.tradepub.com/category/information-technology/1207/ "Catálogo completo de Guías gratuítas "

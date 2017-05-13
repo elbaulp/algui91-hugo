@@ -3,10 +3,8 @@ author: alex
 categories:
 - articulos
 - opensource
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-13
-
+lastmod: 2017-05-13T13:41:08+01:00
 mainclass: articulos
 url: /imponiendo-gpl-usando-tecnicas-de-judo/
 aliases: /opensource/imponiendo-gpl-usando-tecnicas-de-judo/
@@ -27,9 +25,7 @@ La GPL promueve los derechos del usuario, pero los defensores de esos derechos s
 
 Bradley Kuhn toma una analogía de las artes marciales, y dice que &#8220;copyleft es una toma de judo sobre el copyright &#8220;. En el judo, el objetivo es aprovechar el impulso del atacante para defenderse, y eso es exactamente lo que hace copyleft. Mientras la ley de copyright se vuelve cada vez más y más amplia, el copyleft se sirve de ese impulso y lo devuelve con la misma fuerza. Por lo tanto el copyleft es siempre tan fuerte como el copyright. &#8221;
 
-
-
-## Los infractores
+# Los infractores
 
 El software libre permite el acceso al trabajo de miles de programadores, es relativamente libre de costo, y elimina la necesidad de reinventar la rueda una y otra vez. Compartir el código es útil para todos, al menos en teoría.
 
@@ -45,7 +41,7 @@ El Firmware es la fuente de problemas de conformidad de licencias por sí solo, 
 
 En muchos casos &#8220;no dirán quién es su proveedor primario&#8221;, ya sea por razones de mercado o para proteger a su proveedor. A veces &#8220;su proveedor primario ha perdido el código fuente &#8230; por lo que puede llevar un tiempo obtener una versión de código fuente que se corresponda con el binario que se distribuye.&#8221;
 
-## Para el usuario
+# Para el usuario
 
 El objetivo de la aplicación de la GPL es proteger los derechos del usuario e, incluso aunque ningún código encuentre su camino de regreso al proyecto antecesor que originó el código, esto puede tener algunos efectos secundarios útiles y positivos. Los ejemplos incluyen &#8220;el proyecto OpenWrt, o el proyecto SamyGO&#8221;, donde los usuarios finales y desarrolladores &#8220;han tomado versiones que las empresas han hecho para una familia específica de dispositivos, en primer caso routers inalámbricos, y en segundo caso, televisores, y han hecho su propio firmware para ejecutar en dichos dispositivos &#8220;. Esto se basó en el código publicado como resultado de la aplicación de la GPL por la FSF y la Software Freedom Conservancy.
 
@@ -57,7 +53,7 @@ La mayoría de las infracciones no son deliberadas, y probablemente pueden ser a
 
 Harald Welte tiene su propia perspectiva sobre este tema. &#8220;Creo que todavía hay demasiadas violaciones a la GPL, y necesitamos ver más casos positivos con el fin de obtener mayoría de involucrados en el cumplimiento en las respectivas líneas de negocio. Pero lidiar con los dispositivos embebidos en el 2012 y seguir obteniendo el cumplimiento totalmente mal aplicado en realidad significa que no ha habido la más mínima atención en este tema. Y sin refuerzos, nunca va a cambiar. Las personas que no están realmente interesadas deben utilizar simplemente licencias del estilo del MIT. &#8221;
 
-## Los implementadores
+# Los implementadores
 
 Al mismo tiempo, los propietarios del copyright no siempre ven el beneficio directo de defender la GPL. Un proyecto independiente como BusyBox rara vez se entera de las actualizaciones del código predecesor generadas en nuevos versionados. A los programadores no les interesa perder el tiempo en cuestiones burocráticas y legales, y además a muchos de ellos se les paga por trabajar en empresas que suelen ser dueñas del copyright y no les agrada la idea de difundir el software libre en los tribunales. La antipatía de las corporativas hacia la GPL es un verdadero impedimento para el software libre. La GPL necesita partidarios y defensores, para perpetuar la idea de que el software debería ser libre. Y, lamentablemente, las compañías de open source y organizaciones como Red Hat y la Linux Foundation han brillado por su ausencia.
 
@@ -73,7 +69,7 @@ Pero, como Jeremy Allison, miembro de la junta directiva del SFC, señala:&#8221
 
 Cuando le preguntamos a Allison porqué Samba es menos propenso a violar la licencia que otros softwares distribuidos en dispositivos pequeños, hizo la observación de que &#8220;los proveedores de dispositivos Samba tienden a tener una relación más larga con el cliente que otros proveedores. La gente almacena sus datos con Samba, y si son flexibles respecto a licencias es probable que sean flexibles también con otras cosas, lo que consecuentemente no garantiza que sea un buen producto. Es por esto que la mayor parte de nuestros proveedores prefieren hacer las cosas bien. &#8221;
 
-## Las razones y porqués
+# Las razones y porqués
 
 Recientemente BusyBox y la Software Freedom Conservancy han sido objeto de prolongados debates en Linux Weekly News (LWN) que surgieron de un artículo de Matthew Garrett instando a los propietarios del copyright del kernel de Linux a participar en la aplicación de la GPL.
 La discusión partió de una publicación en eLinux de un ingeniero de Sony, Tim Bird, proponiendo un proyecto de sustitución de BusyBox, y un artículo posterior en LWN, que referenciaba al proyecto toybox, un proyecto revivido por Rob Landley para replicar (y mejorar) la funcionalidad de BusyBox, usando una licencia open source más liberal.
@@ -82,7 +78,7 @@ La razón fundamental de este proyecto es que BusyBox es &#8220;la pieza más co
 
 SFC y su papel en el control de la GPL se convirtió en el foco de gran parte de las discusiones en los temas de LWN. Inevitablemente, hubo malos entendidos y confusiones, algunas de las cuales se han resuelto, pero los debates plantean inevitablemente preguntas sobre los porqués, los cómos y para qués de imponer la GPL.
 
-## Derecho de preferencia
+# Derecho de preferencia
 
 La cuestión clave es la causa y efecto de aplicar la GPL en los vendedores de chips. Por deducción se dijo que los litigantes, en la forma de SFC, habían exigido el derecho de &#8220;autoridad para revisión de los productos no relacionados&#8221; (lo que para Kuhn no es cierto), y el &#8220;derecho de preferencia sobre los módulos no-Busybox&#8221;. La cuestión recae en que esto podría imponer sanciones no viables a empresas, como Tim Bird ha afirmado: &#8220;. Es posible que un error cometido por un ODM (como proveer el código fuente de BusyBox de una versión equivocada) puede causar el retiro de millones de productos no relacionados. De esta manera, las demandas hechas por la SFC para que una empresa vuelva a cumplir están más allá del valor que BusyBox le proporciona a una compañía. Además creo que están equivocados, tanto desde el punto de vista legal como moral &#8220;.
 
@@ -92,7 +88,7 @@ Welte concuerda con las líneas generales de este enfoque, y señala que gpl-vio
 
 El punto de vista de Kuhn es que &#8220;hay que cumplir con todo si se desea utilizar BusyBox. El artículo 4 de la GPLv2 dice que tan pronto como se viola la licencia los derechos de copiar, modificar y distribuir el software desaparecen. Así que una vez que se viola el copyright de Busybox se pierde el derecho a distribuir el código GPL. &#8221;
 
-## La pena de muerte
+# La pena de muerte
 
 La razón de esta perspectiva es que elimina los problemas por debajo de la línea del fabricante. Después de todo todavía hay una obligación legal y moral para cumplir con la licencia de cualquier otro módulo que se esté lanzando al mercado. Si usted está cumpliendo con la GPL de BusyBox, ¿por qué no cumplir con todos los componentes GPL incluidos en el dispositivo, o arriesgarse al litigio de otros propietarios del copyright en el futuro?
 
@@ -112,7 +108,7 @@ Su conclusión es que &#8220;el mejor método, sin lugar a dudas, es tener un pr
 
 Desde ambos puntos de vista, el objetivo es el cumplimiento, no el litigio, eliminación de los productos o castigo de los errores. Hay una gran brecha entre la percepción de maniobras legales y su aplicación en el mundo real.
 
-## El modelo ejemplar
+# El modelo ejemplar
 
 La excesiva dependencia de los propietarios del copyright de BusyBox es definitivamente un problema para el SFC, y esto es una cuestión reconocida incluso por Kuhn. &#8220;Me sorprendió que en las discusiones LWN la gente esté tan disgustada frente a esto, ya que lo he hecho siempre de la misma manera&#8221;, dice. Uno de los temas correspondía al destino de los ingresos, pero SFC es una organización sin fines de lucro y declara todos sus ingresos. Bruce Perens comentó sobre esto en el contexto de su trabajo como consultor de empresas contactadas por la SFC. &#8220;También he tenido que pagar SFC para el trabajo técnico en la auditoría&#8221;, escribió. &#8220;Ellos cobran mucho menos que yo, y menos que cualquier profesional técnico-jurídico en su sano juicio en Nueva York debería cobrar.&#8221;
 
@@ -122,7 +118,7 @@ Respecto al reemplazo de BusyBox, dice, &#8220;desconectarse de BusyBox no es re
 
 Como era de esperar, Rob Landley, un ex-defensor de BusyBox que se ha desilusionado con Busybox y su papel en el cumplimiento de la GPL, la GPL, la FSF y el SFC, tiene una perspectiva totalmente diferente y ha lanzado toybox &#8220;bajo una licencia BSD inciso 2&#8243;, y la quiere &#8220;para convertirse en la implementación por línea de comando por defecto en los sistemas de Android en todas partes.&#8221; La postura de Landley es que la GPLv3 y la aplicación de la GPL están alejando a las empresas de adoptar código abierto, como se ejemplifica, a su juicio, por la decisión de Google de eliminar el código GPL del &#8220;espacio de usuario&#8221; de Android.
 
-## La realidad más calma
+# La realidad más calma
 
 Para los defensores del copyleft y el software libre, aplicar la GPL es una necesidad práctica si permite al software ser libre y accesible para todos, y también ayuda a aquellas empresas que elijan cumplirla. &#8220;El cumplimiento de la GPL es una cuestión de competencia leal&#8221;, dice Welte. &#8220;Hay algunas empresas que realmente hacen un buen trabajo garantizando el cumplimiento de varias licencias de Software Libre. Si la competencia no invierte los fondos en las respectivas técnicas, procedimientos y procesos de negocio, obtendrán una ventaja competitiva injusta en contra de quienes lo están haciendo correctamente. Si no hay regulación, la motivación sería reducir los esfuerzos en el cumplimiento, no aumentarlos&#8221;.
 
@@ -130,4 +126,4 @@ La mayoría de las empresas felizmente cumplen, y no se sabe nada de ellas porqu
 
 Detrás de las principales historias de litigios subyace una realidad más tranquila, donde la gran mayoría de las empresas que están notificadas por la SFC o gpl-violations.org están felices de cumplir sin molestias, ya que el software funciona para ellos, y les da una reducción en el costo, velocidad al mercado, oportunidades colaborativas y acceso a código de alta calidad. Como bien señaló un colaborador de las discusiones LWN: &#8220;no fue sino hasta que el SFC comenzó una campaña agresiva, utilizando Busybox como un arma (alrededor del 2006/2007), que como consumidor comencé a ver los dispositivos promocionados con pequeños volantes GPL y el código fuente disponible para su descarga. &#8221;
 
-## Fuente: <a href="http://www.h-online.com/open/features/Enforcing-the-GPL-with-Judo-moves-1471698.html" target="_blank">h-online</a>
+# Fuente: <a href="http://www.h-online.com/open/features/Enforcing-the-GPL-with-Judo-moves-1471698.html" target="_blank">h-online</a>

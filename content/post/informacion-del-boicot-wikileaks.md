@@ -2,10 +2,8 @@
 author: alex
 categories:
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-15
-
+lastmod: 2017-05-13T13:44:05+01:00
 mainclass: articulos
 url: /informacion-del-boicot-wikileaks/
 title: "Recopilación de Información del Boicot a WikiLeaks"

@@ -2,28 +2,21 @@
 author: alex
 categories:
 - misc
-color: null
 date: 2016-08-12 11:24:05
-description: "Descubra cómo impactan las aplicaciones web y los dispositivos móviles
-  sobre la capacidad de TI para defenderse con éxito contra las amenazas cibernéticas,
-  y averig\xFCe por qué SDN puede ser la solución."
+lastmod: 2017-05-13T13:44:46+01:00
+description: "Descubra cómo impactan las aplicaciones web y los dispositivos móviles  sobre la capacidad de TI para defenderse con éxito contra las amenazas cibernéticas,  y averig\xFCe por qué SDN puede ser la solución."
 image: guides/informe-sobre-defensa-frente-a-ciberamenazas-2015-por-cyberedge-group-full.jpg
-introduction: "Descubra cómo impactan las aplicaciones web y los dispositivos móviles
-  sobre la capacidad de TI para defenderse con éxito contra las amenazas cibernéticas,
-  y averig\xFCe por qué SDN puede ser la solución."
-
+introduction: "Descubra cómo impactan las aplicaciones web y los dispositivos móviles  sobre la capacidad de TI para defenderse con éxito contra las amenazas cibernéticas,  y averig\xFCe por qué SDN puede ser la solución."
 mainclass: misc
-modified: null
 tags:
 - guias
 title: Informe Sobre Defensa Frente a Ciberamenazas 2015. Por CyberEdge Group
 ---
 
 <figure>
-   <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/guides/informe-sobre-defensa-frente-a-ciberamenazas-2015-por-cyberedge-group-centered.jpg" alt="{{ title }}" title="{{ title }}" width="800" height="420">
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/guides/informe-sobre-defensa-frente-a-ciberamenazas-2015-por-cyberedge-group-centered.jpg" alt="Informe Sobre Defensa Frente a Ciberamenazas 2015. Por CyberEdge Group" title="Informe Sobre Defensa Frente a Ciberamenazas 2015. Por CyberEdge Group" width="800" height="420">
    </amp-img>
 </figure>
-
 
 Descubra cómo impactan las aplicaciones web y los dispositivos móviles sobre la capacidad de TI para defenderse con éxito contra las amenazas cibernéticas, y averigüe por qué SDN puede ser la solución.
 
