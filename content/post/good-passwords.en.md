@@ -1,6 +1,6 @@
 +++
 image = "haystackpassword.png"
-mainclass = "articulos"
+mainclass = "security"
 author = "alex"
 description = "Best practices to create and manage passwords & hardening your online presence"
 date = "2017-05-22T12:46:41+02:00"
