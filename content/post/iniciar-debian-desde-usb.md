@@ -2,9 +2,8 @@
 author: alex
 categories:
 - how to
-color: '#2196F3'
 date: '2016-01-01'
-
+lastmod: 2017-05-22T17:14:25+01:00
 mainclass: linux
 url: /iniciar-debian-desde-usb/
 tags:
@@ -21,7 +20,7 @@ Recientemente formateé mi pc de sobremesa y el portatil para pasar de <a href="
 
 A lo largo del tutorial, se asumirá que el dispositivo usb está en **/dev/sda** y que la distribución a instalar es debian testing.
 
-### Método 1
+# Método 1
 
 El primer paso es desmontar el usb:
 
@@ -71,7 +70,7 @@ sudo umount /dev/sda
 
 Ahora es posible iniciar debian desde USB e instalar debian testing.
 
-### Método 2
+# Método 2
 
 Descargar la ISO deseada de debian y ejecutar lo siguiente:
 
@@ -82,15 +81,12 @@ cat debian.versión.iso > /dev/sdX ; sync
 
 Donde **/dev/sdX** ha de ser el dispositivo USB
 
-### Método 3 (Sugerido en los comentarios por cioran)
+# Método 3 (Sugerido en los comentarios por cioran)
 
 ```bash
 dd if=/ruta/debian.iso of=/dev/sdb bs=1M; sync
-
 ```
 
-* * *
+# Referencias
 
-### Referencias
-
-*Boot Debian from an USB device* »» <a href="http://www.debian-administration.org/article/Boot_Debian_from_an_USB_device" target="_blank">Visitar sitio</a>
+- *Boot Debian from an USB device* »» <a href="http://www.debian-administration.org/article/Boot_Debian_from_an_USB_device" target="_blank">Visitar sitio</a>
