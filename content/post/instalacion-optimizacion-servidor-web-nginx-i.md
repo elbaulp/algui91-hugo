@@ -3,15 +3,10 @@ author: alex
 categories:
 - administracion de servidores
 - linux
-color: '#0097A7'
 date: '2016-01-01'
-description: "A lo largo de esta guía se pretende mostrar cómo instalar desde
-  cero un servidor web con Nginx, realizando las operaciones necesarias para lograr
-  el mayor rendimiento y seguridad posibles con programas tales como php-fpm, APC,
-  y el módulo pagespeed de Google para optimizar los recursos web."
+lastmod: 2017-06-01T12:08:02+01:00
+description: "A lo largo de esta guía se pretende mostrar cómo instalar desde  cero un servidor web con Nginx, realizando las operaciones necesarias para lograr  el mayor rendimiento y seguridad posibles con programas tales como php-fpm, APC,  y el módulo pagespeed de Google para optimizar los recursos web."
 image: "Instalación-y-optimización-de-un-servidor-web-con-Nginx1.png"
-lastmod: 2015-12-25
-
 mainclass: servidores
 url: /instalacion-optimizacion-servidor-web-nginx-i/
 tags:
@@ -149,7 +144,7 @@ service nginx start
 Como se muestra en la siguiente figura nginx, podemos comprobar que nginx está funcionando correctamente dirigiéndonos a la dirección *localhost*, donde veremos lo siguiente:
 
 <figure>
-<a href="/img/2014/02/instalacionNginx.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/02/instalacionNginx.png" title="{{ page.title }}" alt="{{ page.title }}" width="554px" height="192px" /></a>
+    <a href="/img/2014/02/instalacionNginx.png"><amp-img sizes="(min-width: 554px) 554px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/02/instalacionNginx.png" title="Instalación y optimización de un servidor web con Nginx (I)" alt="Instalación y optimización de un servidor web con Nginx (I)" width="554px" height="192px" /></a>
 </figure>
 
 ### Configuración
@@ -220,7 +215,6 @@ Cambiamos los permisos del directorio donde se alojan los recursos web a este ú
 ```bash
 chown -R www-data:www-data /usr/local/nginx/html/
 service nginx destroy && service nginx start
-
 ```
 
 # Tabla de contenidos

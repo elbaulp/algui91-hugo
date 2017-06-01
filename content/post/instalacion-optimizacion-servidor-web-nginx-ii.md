@@ -3,15 +3,10 @@ author: alex
 categories:
 - administracion de servidores
 - linux
-color: '#0097A7'
 date: '2016-01-01'
-description: "A lo largo de esta guía se pretende mostrar cómo instalar desde
-  cero un servidor web con Nginx, realizando las operaciones necesarias para lograr
-  el mayor rendimiento y seguridad posibles con programas tales como php-fpm, APC,
-  y el módulo pagespeed de Google para optimizar los recursos web."
+lastmod: 2017-06-01T12:05:32+01:00
+description: "A lo largo de esta guía se pretende mostrar cómo instalar desde  cero un servidor web con Nginx, realizando las operaciones necesarias para lograr  el mayor rendimiento y seguridad posibles con programas tales como php-fpm, APC,  y el módulo pagespeed de Google para optimizar los recursos web."
 image: "Instalación-y-optimización-de-un-servidor-web-con-Nginx1.png"
-lastmod: 2015-12-28
-
 mainclass: servidores
 url: /instalacion-optimizacion-servidor-web-nginx-ii/
 tags:
@@ -21,24 +16,21 @@ tags:
 title: "Instalación y optimización de un servidor web con Nginx (II)"
 ---
 
-# Tabla de contenidos
-
-  * [Instalación y optimización de un servidor web con Nginx (I)][1]
-  * Instalación y optimización de un servidor web con Nginx (II)
-  * [Instalación y optimización de un servidor web con Nginx (III)][2]
+* [Instalación y optimización de un servidor web con Nginx (I)][1]
+* Instalación y optimización de un servidor web con Nginx (II)
+* [Instalación y optimización de un servidor web con Nginx (III)][2]
 
 Continuando con el artículo anterior, ahora procedemos a instalar PHP-FPM.
 
 <!--more--><!--ad-->
 
-## Instalar PHP-FPM
+# Instalar PHP-FPM
 
 En lugar de instalar php5, instalaremos php5-fpm (FastCGI Process Manager), una implementación alternativa con algunas características adicionales. En Ubuntu se puede instalar desde repositorios, para debian los agregamos a mano al *sources.list*:
 
 ```bash
 deb http://packages.dotdeb.org stable all
 deb-src http://packages.dotdeb.org stable all
-
 ```
 
 Es necesario agregar la [llave GnuPG][3], instalamos php5-fpm y lo iniciamos:
@@ -49,7 +41,6 @@ wget http://www.dotdeb.org/dotdeb.gpg
 cat dotdeb.gpg | sudo apt-key add -
 apt-get install php5-cli php5-suhosin php5-fpm php5-cgi php5-mysql
 service php5-fpm start
-
 ```
 
 Ahora probaremos que php funciona bajo nginx, para ello es necesario modificar ligeramente el archivo *nginx.conf*, concretamente:
@@ -76,7 +67,7 @@ location ~ \.php$ {
 
 * Una última modificación al archivo */etc/php5/fpm/pool.d/www.conf* y agregamos la línea *listen = /var/run/php-fpm.socket*.
 
-### Probando PHP
+## Probando PHP
 
 Para comprobar que PHP funciona crearemos un fichero simple que mostrará un mensaje, hemos de colocarlo en */usr/local/nginx/http/* y asignarle como grupo y usuario *www-data*:
 

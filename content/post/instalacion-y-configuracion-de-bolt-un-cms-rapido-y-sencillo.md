@@ -3,9 +3,8 @@ author: alex
 categories:
 - how to
 - opensource
-color: '#0097A7'
 date: '2016-01-01'
-
+lastmod: 2017-06-01T12:09:53+01:00
 mainclass: servidores
 url: /instalacion-y-configuracion-de-bolt-un-cms-rapido-y-sencillo/
 tags:
@@ -19,17 +18,17 @@ Leyendo notícias en mi lector RSS, encontré en Genbeta Dev un artículo hablan
 
 <!--more--><!--ad-->
 
-### Objetivos de Bolt
+# Objetivos de Bolt
 
 Bolt se centra en ser lo más sencillo y simple posible. Es muy rápido de instalar, de fácil configuración y usa unas plantillas muy elegantes. Ha sido creado usando bibliotecas [open source][1] modernas y es el más adecuado para crear webs en [HTML5][2].
 
-### Datos técnicos
+# Datos técnicos
 
 Bolt está escrito en [PHP][3], en cuanto a [bases de datos][4] es capaz de usar SQLite, MySQL o PostgreSQL. Está construido sobre el <a href="http://silex.sensiolabs.org/" target="_blank">framework Silex</a>. En cuanto a la licencia, está bajo la <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT-license</a>.
 
 Una aspecto a favor de Bolt es la flexibilidad que ofrece a los programadores, con una capacidad de configuración muy alta. De igual manera, por su simpleza es muy útil para cualquier tipo de persona que desee escribir en una web de forma rápida y sencilla.
 
-### Instalando Bolt
+# Instalando Bolt
 
 Tras esta breve introducción a Bolt, voy a pasar a explicar cómo instalarlo y configurarlo.
 
@@ -41,7 +40,7 @@ Antes de proceder, asegúrate que cumples con los requisitos mínimos:
 
 En la página oficial ofrecen tres formas de instalar Bolt. **Desde línea de comandos**, usando SFTP o la **instalación para desarrolladores**. En ester artículo cubriré la primera y tercera opción.
 
-### Instalar Bolt desde línea de comandos
+# Instalar Bolt desde línea de comandos
 
 Empecemos por la más sencilla, bastarán 3 órdenes en la terminal para finalizar la instalación:
 
@@ -56,11 +55,15 @@ La razón de establecer los permisos a [777][7] es porque en la mayoría de serv
 
 Eso es todo, así de fácil es instalar Bolt. La primera vez que visites la web deberás registrar un usuario para administar la web:
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Login-to-bolt-CMS-1024x819.png" alt="crear usuario en bolt" width="1024px" height="819px" />][8]
+<figure>
+    <amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Login-to-bolt-CMS-1024x819.png" alt="crear usuario en bolt" width="1024px" height="819px" />
+</figure>
 
 Ya en el panel de administración, puedes agregar contenido de muestra dirigiendote a *Settings » Check Database* y hacer click en **Add some sample Records with Loripsum text**. Tras hacer click tendremos contenido que mostrar en la web:
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Bolt-Home-PAge-CMS-1024x819.png" alt="Bolt Home PAge CMS" width="1024px" height="819px" />][9]
+<figure>
+    <amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Bolt-Home-PAge-CMS-1024x819.png" alt="Bolt Home PAge CMS" width="1024px" height="819px" />
+</figure>
 
 Por defecto Bolt usa Sqlite como base de datos, normalmente se instala con php5, si recibes un mensaje de error informando que el módulo SQLite no está disponible debes instalarlo:
 
@@ -93,7 +96,7 @@ database:
 
 ```
 
-### Instalar Bolt por el método para desarrolladores
+# Instalar Bolt por el método para desarrolladores
 
 Este método no es mucho más complicado que el anterior. La ventaja es que permite estar a la última en cuanto a la versión, y el método de actualización es muy sencillo. En este caso se usará **git** y **Composer**:
 
@@ -126,20 +129,22 @@ php composer.phar update
 
 Algo que me ha llamado mucho la atención es la facilidad que se le da al desarrollador para depurar el entorno. Si estás logeado y con el modo depuración activado (*debug:true* en el archivo *config.yml*) verás una barra de depuración abajo a la derecha:
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/bolt-debug.png" alt="bolt debug" width="748px" height="55px" />][10]
+<figure>
+    <amp-img sizes="(min-width: 748px) 748px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/bolt-debug.png" alt="bolt debug" width="748px" height="55px" />
+</figure>
 
 Desde ahí se puede acceder a estadísticas de carga, uso de memoria, entradas del log, consultas a la base de datos etc.
 
 Incluso cuando estés desarrollando una extensión puedes obtener información de cualquier objeto o variable, en las plantillas hay que escribir *{% raw %}{{ print(variable) }}{% endraw %}* y en código *\util::var_dump($variable);*
 
-### Conclusión
+# Conclusión
 
 Creo que este CMS promete mucho, personalmente me ha gustado y en un futuro no descartaría mover el blog de WordPress a Bolt.
 
-#### Referencias
+# Referencias
 
-*Visto en* »» <a href="http://www.genbetadev.com/gestores-de-contenido/bolt-un-cms-sencillo-y-rapido-como-un-rayo" target="_blank">Genbeta::Dev</a>
-*Sitio Oficial* »» <a href="http://bolt.cm/" target="_blank">bolt.cm</a>
+- *Visto en* »» <a href="http://www.genbetadev.com/gestores-de-contenido/bolt-un-cms-sencillo-y-rapido-como-un-rayo" target="_blank">Genbeta::Dev</a>
+- *Sitio Oficial* »» <a href="http://bolt.cm/" target="_blank">bolt.cm</a>
 
 
 
