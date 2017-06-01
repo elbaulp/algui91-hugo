@@ -2,9 +2,8 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-06-01T12:13:37+01:00
 mainclass: articulos
 url: /instalar-atom-el-editor-de-github-en-linux/
 tags:
@@ -25,7 +24,7 @@ En éste artículo veremos cómo instalarlo y qué paquetes de los que no vienen
 
 <!--more--><!--ad-->
 
-### Requisitos
+# Requisitos
 
   * Un Sistema Operativo de 64-bits
   * <a target="_blank" href="http://nodejs.org/download/">node.js</a> v0.10.x
@@ -33,7 +32,7 @@ En éste artículo veremos cómo instalarlo y qué paquetes de los que no vienen
   * libgnome-keyring-dev `sudo apt-get install libgnome-keyring-dev`
   * `npm config set python /usr/bin/python2 -g` Para asegurarnos que gyp usa Python2
 
-### Compilar e instalar Atom
+# Compilar e instalar Atom
 
 Una vez instalados los requisitos, comenzamos a instalar **Atom**:
 
@@ -50,25 +49,27 @@ Una vez terminado, podemos instalar el fichero .deb que reside en el directorio 
 
 Hecho esto, ya podemos ejecutar Atom desde la consola o desde el menú que nuestro Sistema Operativo haya creado como enlace a la aplicación.
 
-### Mini tutorial
+# Mini tutorial
 
 Si no se te da bien recordar atajos de teclado, basta con recordar uno solo para obtenerlos todos `ctrl-shift-P`, aparecerá algo así:
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/cmd-alt-p-atom.png" alt="cmd-alt-p atom" width="548px" height="390px" />
+<figure>
+    <amp-img sizes="(min-width: 548px) 548px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/cmd-alt-p-atom.png" alt="cmd-alt-p atom" width="548px" height="390px" />
+</figure>
 
-#### Encontrando archivos
+## Encontrando archivos
 
 La forma más rápida de encontrar algún archivo es pulsar `Ctrl-T` y escribir el nombre del archivo a buscar. Para buscar en archivos ya abiertos es mejor usar `Ctrl-b`. Si estamos usando [git][1] `Ctrl-shift-b` para buscar la lista de ficheros modificados y no agregados en el repositorio.
 
-#### Panel de control
+## Panel de control
 
 La forma rápida de abrir las preferencias es pulsar `Ctrl-,`. Aquí podremos personalizar entre otras cosas, la apariencia del editor.
 
-### Paquetes útiles
+# Paquetes útiles
 
 Hasta ahora, he encontrado dos paquetes que resultan bastánte útiles, la lista entera se puede encontrar en la <a href="https://atom.io/packages" target="_blank">página oficial</a>.
 
-#### Build
+## Build
 
 Uno de ellos es *build*, que permite compilar el projecto abierto directamente desde **Atom**.
 
@@ -81,7 +82,7 @@ apm install build
 
 Una vez instalado, basta con situarnos en el proyecto y pulsar `alt-Ctrl-b`. Si necesitamos añadir opciones adicionales a make, podemos hacerlo en la preferencias del paquete.
 
-#### Git plus
+## Git plus
 
 Otro paquete interesante es **<a href="https://atom.io/packages/git-plus" title="Git Plus" target="_blank">git-plus</a>**, que permite hacer cosas en git sin necesidad de la línea de comandos, para instalarlo:
 
@@ -92,7 +93,9 @@ apm install git-plus
 
 Una demostración de su uso:
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/git-plus-atom.gif" alt="git-plus-atom" width="1075px" height="340px" />
+<figure>
+    <amp-img sizes="(min-width: 1075px) 1075px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/git-plus-atom.gif" alt="git-plus-atom" width="1075px" height="340px" />
+</figure>
 
 Algunos comandos básicos:
 
@@ -124,25 +127,26 @@ Algunos comandos básicos:
 
     Aplica `Git add all` y `Git commit` sucesivamente: `Ctrl-Shift-A a`
 
-#### Git diff
+## Git diff
 
 Éste paquete viene instalado por defecto, es bastante útil porque muestra el diff de forma gráfica, por ejemplo:
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/git-diff-atom.png" alt="git diff atom" width="800px" height="224px" />
+<figure>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/git-diff-atom.png" alt="git diff atom" width="800px" height="224px" />
+</figure>
+
 
 Donde el símbolo + significa que se ha agregado una línea nueva, y el punto amarillo que se ha modificado una existente.
 
-### Conclusión
+# Conclusión
 
 Personalmente es un editor que me ha gustado mucho, muy fácil de usar y con una capacidad de configuración tremenda. Dispone de una cantidad de extensiones enorme, y eso que aún está en sus fases iniciales. Vale la pena probarlo, no os decepcionará. Además, es [opensource][2].
 
 ¿Y tú?, ¿lo has probado?, ¿Hay algún paquete que hayas probado que te resulte interesante? ¡Déjanos un comentario!
 
-#### Referencias
+# Referencias
 
-*Readme.MD linux* »» <a href="https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md" target="_blank">github.com</a>
-
-
+- *Readme.MD linux* »» <a href="https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md" target="_blank">github.com</a>
 
  [1]: https://elbauldelprogramador.com/mini-tutorial-y-chuleta-de-comandos-git/ "Git: Mini Tutorial y chuleta de comandos"
  [2]: https://elbauldelprogramador.com/la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/ "La generación GitHub: Por qué ahora todos estamos en el opensource"
