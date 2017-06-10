@@ -30,7 +30,7 @@ aliases:
 <div class="post-content">
   <p>Si estás buscando libros de texto, quizá te interesen estos dos artículos:</p>
   <ul>
-    <li><a id="libros-ml" href="/9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer/" target="_blank" title="18 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer">18 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer</a></li>
+    <li><a id="libros-ml" href="/9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer/" target="_blank" title="20 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer">20 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer</a></li>
     <li><a id="libros-geek" href="/5-libros-de-no-ficcion-que-todo-geek-deberia-leer/" target="_blank" title="21 Libros de No-Ficción que todo Geek debería leer">21 Libros de No-Ficción que todo Geek debería leer</a></li>
   </ul>
   {{< importPartial "structure/guidenote.html" >}}

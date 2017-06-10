@@ -3,7 +3,7 @@ author: alex
 categories:
 - articulos
 date: 2015-11-01 20:30:17
-lastmod: 2017-06-10T12:48:07+02:00
+lastmod: 2017-06-10T13:34:41+01:00
 description: "Tras mucho buscar, al fin he conseguido recopilar una lista de libros que todo Científico de Datos o Ingeniero de Datos debería tener en su biblioteca personal."
 image: ml/Machine-Learning-for-Hackers.jpg
 mainclass: articulos
@@ -19,7 +19,7 @@ tags:
 - libros sobre machine learning
 - "libros sobre Aprendizaje automático"
 - listas
-title: 18 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer
+title: 20 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer
 ---
 
 Tras mucho buscar, al fin he conseguido recopilar una lista de libros que todo _Científico de Datos_ o _Ingeniero de Datos_ debería tener en su
@@ -29,6 +29,36 @@ biblioteca personal. Sin más dilaciones, he aquí la lista (La descrición de l
 # Para Data Scientist
 
 <div class="row flex-grid">
+
+  <article class="box-item animate">
+    <h2>Python Machine Learning</h2>
+
+    <figure>
+      <a href="/img/ml/pythonmachinelearning.jpg">
+        <amp-img
+          on="tap:lightbox1"
+          role="button"
+          tabindex="0"
+          layout="responsive"
+          src="/img/ml/pythonmachinelearning.jpg"
+          alt="Python Machine Learning book"
+          title="Python Machine Learning book"
+          sizes="(min-width: 380px) 380px, 100vw"
+          width="380"
+          height="468">
+        </amp-img>
+      </a>
+    </figure>
+
+
+
+    <p>Unlock deeper insights into Machine Leaning with this vital guide to cutting-edge predictive analytics. Leverage Python's most powerful open-source libraries for deep learning, data wrangling, and data visualization</p>
+    <div class="tags">
+      <a href="http://amzn.to/2se4MjS" target="_blank">Ver en Amazon</a>
+    </div>
+  </article>
+
+
   <article class="box-item animate">
     <h2>Learning From Data</h2>
     <figure>
@@ -95,6 +125,32 @@ biblioteca personal. Sin más dilaciones, he aquí la lista (La descrición de l
 # Para Data Engineer
 
 <div class="row flex-grid">
+
+  <article class="box-item animate">
+    <h2>Test-Driven Machine Learning</h2>
+    <figure>
+      <a href="/img/tdd.jpg">
+        <amp-img
+          on="tap:lightbox1"
+          role="button"
+          tabindex="0"
+          layout="responsive"
+          src="/img/tdd.jpg"
+          alt="Test-Driven Machine Learning"
+          title="Test-Driven Machine Learning"
+          sizes="(min-width: 260px) 260px, 100vw"
+          width="260"
+          height="320">
+        </amp-img>
+      </a>
+    </figure>
+    <p>Este libro trata el <strong>testeo de software</strong> desde otra perspectiva, además de enseñarte qué es el <strong>TDD</strong> (<em>Test-Driven Development</em>), te enseña a aplicarlo enfocándolo a problemas de <em>Machine Learning</em>. Enfocar los problemas de <em>Machine Learning</em> desde este punto de vista te ayudará a crear modelos más robustos y comparar distinas técnicas de una forma sencilla y modular.</p>
+    <div class="tags">
+      <a href="http://amzn.to/2mIW0rR" target="_blank">Ver en Amazon</a>
+    </div>
+  </article>
+
+
   <article class="box-item animate">
     <h2>The Second Machine Age</h2>
     <figure>
