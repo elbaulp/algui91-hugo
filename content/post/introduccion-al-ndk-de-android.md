@@ -2,9 +2,8 @@
 author: alex
 categories:
 - android
-color: '#689F38'
 date: '2016-01-01'
-
+lastmod: 2017-06-10T18:26:25+01:00
 mainclass: android
 url: /introduccion-al-ndk-de-android/
 tags:
@@ -18,28 +17,28 @@ El NDK de Android es un conjunto de herramientas que permiten embeber código m�
 
 <!--more--><!--ad-->
 
-### Conceptos básicos del NDK
+# Conceptos básicos del NDK
 
 La Máquina Virtual de Android (VM) permite que el código de la aplicación (escrito en Java) llame a métodos implementados en código nativo a través de JNI. En una *nutshell*, lo cual quiere decir que:
 
   * El código fuente de la aplicación declarará uno o más métodos con la palabra reservada **native** para indicar que dicho método está implementado en código nativo. Ej:
+
 ```java
 native byte[] loadFile(String filePath);
-
 ```
 
-  * Es necesario proporcionar una biblioteca compartida nativa que contenga la implentación de dichos métodos, que será empaquetada en el .apk de la aplicación. La biblioteca debe ser nombrada de acuerdo al estándar Unix *lib<nombre>.so*, y deberá contener un punto de entrada JNI estándar (veremos esto más adelante), por ejemplo: *libFileLoader.so*
+  * Es necesario proporcionar una biblioteca compartida nativa que contenga la implentación de dichos métodos, que será empaquetada en el .apk de la aplicación. La biblioteca debe ser nombrada de acuerdo al estándar Unix *`lib<nombre>.so`*, y deberá contener un punto de entrada JNI estándar (veremos esto más adelante), por ejemplo: *`libFileLoader.so`*
   * La aplicación debe cargar explícitamente la biblioteca. Por ejemplo, para cargarla al iniciar la aplicación, simplemente añade la siguiente línea al código:
+
 ```java
 static {
     System.loadLibrary("FileLoader");
 }
-
 ```
 
 No hay que scribir el prefijo “lib” ni el sufijo “.so”.
 
-### Primer ejemplo en el NDK Android - Hola Mundo
+# Primer ejemplo en el NDK Android - Hola Mundo
 
 En el *ndk* existe un directorio que contiene varios ejemplos, importamos a eclipse el *HelloJni*. Veamos la estructura del proyecto:
 
@@ -101,7 +100,7 @@ Java_com_example_hellojni_HelloJni_stringFromJNI( JNIEnv* env,
 
 Como se puede apreciar, es necesario llamar a la función con el nombre del paquete Java y la clase donde se encuentra la llamada a la función. Es decir, *Java\_com\_example\_hellojni\_HelloJni* corresponde con la ruta del proyecto *./src/com/example/hellojni/HelloJni*.
 
-### Ejecutar el Hola Mundo del NDK de Android
+# Ejecutar el Hola Mundo del NDK de Android
 
 Para compilar y ejecutar el programa, con el proyecto *Hello-Jni* de ejemplo importado en eclipse, nos situamos en el directorio del proyecto desde el terminal y ejecutamos el comando *ndk-build*:
 
@@ -128,18 +127,28 @@ El primer comando compila y genera el *.apk* y con el segundo lo instalamos en e
 
 Por último, la aplicación es tan simple como esto:
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/helloJni-NDK-de-android-180x300.png" alt="helloJni NDK de android" width="180px" height="300px" />][2]
+<figure>
+        <a href="/img/2013/06/helloJni-NDK-de-android.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/2013/06/helloJni-NDK-de-android.png"
+            alt="NKD android"
+            title="NKD android"
+            sizes="(min-width: 480px) 480px, 100vw"
+            width="480"
+            height="800">
+          </amp-img>
+        </a>
+        <figcaption>Ejemplo Hola Mundo NKD</figcaption>
+</figure>
 
 Eso es todo, espero que esta pequeña introducción haya ayudado a iniciarse con el NDK de android.
 
-#### Referencias
+# Referencias
 
-*Documentación del NDK* »» <a href="http://developer.android.com/tools/sdk/ndk/index.html" target="_blank">Visitar sitio</a>
-
-
+- *Documentación del NDK* »» <a href="http://developer.android.com/tools/sdk/ndk/index.html" target="_blank">Visitar sitio</a>
 
  [1]: https://elbauldelprogramador.com/programacion-android-hola-mundo/
- [2]: https://elbauldelprogramador.com/img/2013/06/helloJni-NDK-de-android.png
-
-
-</jni.h></string.h></nombre>

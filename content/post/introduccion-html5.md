@@ -2,15 +2,10 @@
 author: alex
 categories:
 - html5
-color: '#E64A19'
 date: '2016-01-01'
-description: "Con este primer artículo de introducción a HTML5, presentamos
-  una serie de artículos a modo de curso cuyo autor, al que agradezco su interés
-  por colaborar en el blog, es Roberto. Si ya sabes algo puedes echar un vistazo al
-  artículo Ejemplos en HTML5: Almacenamiento Web, SQL y WebSocket."
+lastmod: 2017-06-10T18:40:57+01:00
+description: "Con este primer artículo de introducción a HTML5, presentamos  una serie de artículos a modo de curso cuyo autor, al que agradezco su interés  por colaborar en el blog, es Roberto. Si ya sabes algo puedes echar un vistazo al  artículo Ejemplos en HTML5: Almacenamiento Web, SQL y WebSocket."
 image: "2013/11/Introducción-a-HTML51.png"
-lastmod: 2015-12-30
-
 mainclass: dev
 url: /introduccion-html5/
 tags:
@@ -20,18 +15,18 @@ title: "Introducción a HTML5"
 ---
 
 <figure>
-<a href="/img/2013/11/Introducción-a-HTML51.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Introducción-a-HTML51.png" title="{{ page.title }}" alt="{{ page.title }}" width="512px" height="512px" /></a>
+    <a href="/img/2013/11/Introducción-a-HTML51.png"><amp-img sizes="(min-width: 512px) 512px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Introducción-a-HTML51.png" title="Introducción a HTML5" alt="Introducción a HTML5" width="512px" height="512px" /></a>
 </figure>
 
 Con este primer artículo de introducción a HTML5, presentamos una serie de artículos a modo de curso cuyo autor, al que agradezco su interés por colaborar en el blog, es <a href="http://www.rogamainformatica.es/" title="Roberto" target="_blank">Roberto</a>. Si ya sabes algo puedes echar un vistazo al artículo [Ejemplos en HTML5: Almacenamiento Web, SQL y WebSocket][1].
 
-### Un poco de historia
+# Un poco de historia
 
 Como bien indica su propio nombre es la 5 versión del estándar de WWW (*World Wide Web*), el <a href="http://www.w3.org/" title="World Wide Web" target="_blank">W3C</a> a estado años trabajando en este nuevo estándar despuesdespués del XHTML, el cual se puede denominar como uno de sus fracasos, al tener un lenguaje muy estricto, y no ser compatible con la mayoría de las webs publicadas en el momento del lanzamiento, esta nueva versión sí es compatible con todas las anteriores, ademas de incorporar nuevas mejoras, algunas de las novedades que mas ruido han hecho ha sido la desaparición del *case sensitive*, con lo que podemos escribir por ejemplo la etiqueta ID de un div en mayúsculas o minúsculas y que los navegadores lo reconozcan sin producir error, aun así se recomienda seguir unos estándares, como son el de escribir todos los elementos en minúsculas, y sus valores entre comillas dobles *&#8220;&#8221;*, aunque en esta versión sean validas las comillas simples &#8221;; también se recomienda cerrar todas las etiquetas, aunque no sea obligatorio como en XHTML; así mismo también incluye nuevas funciones como la reproducción de vídeo y sonido, y algunas etiquetas nuevas, para ello hicieron un estudio sobre el nombrado de etiquetas de las webs mas famosas, y casi todas tenían una barra lateral, llamada **aside**,un encabezado llamado **header**, y un pie llamado **footer**, así como las barras de navegación **nav**; y un largo etc.
 
 <!--more--><!--ad-->
 
-### ¿Por dónde empezar?
+# ¿Por dónde empezar?
 
 Lo primero que debemos saber es que HTML sea cual sea su versión **no es un lenguaje de programación**, tan solo es un lenguaje de marcas, se usan una serie de etiquetas estandarizadas, HTML se usa para crear la estructura de una web, y se ha puesto de moda para las aplicaciones móviles, gracias a <a href="https://elbauldelprogramador.com/los-10-mejores-frameworks-gratis-de-aplicaciones-web/" title="Los 10 Mejores Frameworks gratuitos para Aplicaciones Web" target="_blank">Frameworks</a> como PhoneGap a esta moda se a sumado Mozilla, con su S.O. Firefox OS; así que como podemos comprobar es casi obligatorio como mínimo conocerlo sea cual sea la plataforma a la que queramos desarrollar; como he dicho nos sirve para dar la estructura a una web (el esqueleto) después podremos darle colores, formas y organizarlo con las hojas de estilo en cascada (CSS) y se recomienda usar su ultima versión <a href="https://elbauldelprogramador.com/generar-codigo-css-3-facilmente/" title="Generar código CSS 3 fácilmente" target="_blank">CSS3</a>, aunque esta es otra batalla de la que hablaremos en otra ocasión; ahora que sabemos que es, y para que sirve, es el momento de conocer la etiqueta que debe aparecer en cualquier documento HTML5.
 
@@ -63,14 +58,14 @@ Todo el que empieza en esto esta deseando ir al código escribir su primera pagi
 A esta estructura le podemos dar “vida” simplemente abriendo nuestro blog de notas, y pegándolo, dándole el nombre que deseemos y la extensión html. Después de eso si la abrimos con cualquier navegador podemos verla funcionando.
 
 <figure>
-<a href="/img/2013/11/Introducción-a-HTML5.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Introducción-a-HTML5.png" title="{{ page.title }}" alt="{{ page.title }}" width="481px" height="409px" /></a>
+    <a href="/img/2013/11/Introducción-a-HTML5.png"><amp-img sizes="(min-width: 481px) 481px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Introducción-a-HTML5.png" title="Introducción a HTML5" alt="Introducción a HTML5" width="481px" height="409px" /></a>
 </figure>
 
 Ahora os explicare qué es cada etiqueta, la primera: el **Doctipe**, ya la conocemos, seguidamente tenemos una etiqueta **<html>**; que cierra al final del documento **</html>** podemos intuir que hay que incluir dentro todo el contenido html y justamente es así como funciona debemos escribir dentro todo el contenido de nuestra página, la siguiente etiqueta es el **<head>** allí debemos incluir los enlaces a nuestras hojas de estilo, etiquetas de metadatos (mas adelante veremos que son y para que sirven), el titulo de la página, este se incluye dentro de las etiquetas **<title>** **</title>** y como vemos en la imagen superior lo que escribamos aquí va a aparecer en la pestaña de nuestra pagina; se debe cerrar con **</head>**; seguidamente nos encontramos con **<body>** aquí es donde escribiremos todo el cuerpo de nuestra web.
 
 Estas son las etiquetas básicas, el body podemos complicarlo todo lo que queramos o necesitemos añadiendo tantas etiquetas <div> </div> conocidas como divisiones, o capas, y dentro de cada una meteremos el contenido que deseemos, imágenes, texto, vídeo&#8230;
 
-### Etiquetas de HTML5
+# Etiquetas de HTML5
 
 Las etiquetas mas usadas son:
 
@@ -115,14 +110,11 @@ externos y metadatos
           * &lt;textarea> es un campo de texto con varias lineas para escribir un texto extenso.
     Estas son las mas usadas, y estandarizadas, podemos ver todas desde multitud de webs, una buena de referencia es la de Mozilla.
 
-    #### Referencias
+# Referencias
 
-    *Referencia etiquetas HTML5* »» <a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos" target="_blank">developer.mozilla.org</a>
+- *Referencia etiquetas HTML5* »» <a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos" target="_blank">developer.mozilla.org</a>
 
 
 
  [1]: https://elbauldelprogramador.com/ejemplos-en-html5-almacenamiento-web/ "Ejemplos en HTML5: Almacenamiento Web, SQL y WebSocket"
  [2]: https://elbauldelprogramador.com/crear-webapps-con-soporte-html5-css3-y/ "Crear WebApps con soporte HTML5, CSS3 y JavaScript con el LungoJs framework"
-
-
-</body>

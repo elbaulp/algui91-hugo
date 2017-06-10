@@ -2,11 +2,8 @@
 author: alex
 categories:
 - django
-color: '#E64A19'
 date: '2016-01-01'
 image: 2013/10/django.png
-lastmod: 2016-10-12
-
 mainclass: dev
 url: /introduccion-django-instalacion-y-primer-proyecto/
 tags:
@@ -19,13 +16,11 @@ title: "Introducción a Django - Instalación y primer proyecto"
 
 Hacía tiempo que el [framework][1] web ***Django*** estaba en mi lista de cosas a las que echar un vistazo. Por fin he podido sacar un hueco para instalarlo y trastearlo un poquito. Hoy comparto con vosotros lo que he aprendido mediante una pequeña introducción en la que veremos cómo instalar django bajo un entorno virtual para no ensuciar demasiado el sistema, y una pequeña aplicación sacada de la documentación oficial de ***Django***.
 
-
-
-### Instalar django bajo un entorno virtual con virtualenv
+# Instalar django bajo un entorno virtual con virtualenv
 
 Django desde la version 1.8 (LTS) solo soporta python 2.7 o 3.x (recomendado). En este tutorial se usará la version estable 1.10.2.
 
-#### Usando python 2.7
+## Usando python 2.7
 
 Vamos a instalar virtualenv, lo cual nos permitirá crear un entorno virtual en el que trabajar con python e instalar fácilmente aplicaciones mediante **pip**, que ya viene incluido en python 2.7.9, en caso de tener otra version anterior, deberemos instalarlo.
 
@@ -41,7 +36,7 @@ Tras esto, ahora podremos instalar virtualenv:
 $ sudo pip install --upgrade virtualenv
 ```
 
-#### Usando python 3.x
+## Usando python 3.x
 
 En caso de usar la version 3.4 o superior, ya tendremos disponible pip por lo que no será necesario su instalación. En otro caso, procederemos a instalar pip.
 
@@ -55,7 +50,7 @@ Ahora podremos instalar virtualenv:
 $ sudo pip3 install --upgrade virtualenv
 ```
 
-#### Inicializar el entorno virtual
+## Inicializar el entorno virtual
 
 Con virtualenv instalado ahora creamos un entorno virtual (lo llamaremos python-env) en el que instalar todo lo relacionado con ***Django*** y sus dependencias:
 
@@ -69,7 +64,7 @@ Al ejecutar este comando tendremos una carpeta llamada python-env, ahora activar
 $ source python-env/bin/activate
 ```
 
-#### Instalar Django
+## Instalar Django
 
 Por último, instalamos ***Django***:
 
@@ -77,7 +72,7 @@ Por último, instalamos ***Django***:
 $ pip install --upgrade django
 ```
 
-### Configurando Django
+# Configurando Django
 
 Asumiremos que la versión instalada es la 1.10:
 
@@ -86,7 +81,7 @@ $ python -m django --version
 1.10.2
 ```
 
-#### Crear un proyecto
+## Crear un proyecto
 
 Para inicializar un proyecto debemos ejecutar el siguiente comando:
 
@@ -114,7 +109,7 @@ mysite/
   * *mysite/urls.py*. La declaración de URLs para este proyecto; como una &#8220;Tabla de contenidos&#8221; del proyecto.
   * mysite/wsgi.py. Punto de entrada para servidores webs compatibles con <a href="http://en.wikipedia.org/wiki/Web_Server_Gateway_Interface" title="Qué es WSGI" target="_blank">WSGI</a>.
 
-#### El servidor de desarrollo
+## El servidor de desarrollo
 
 **Django** proporciona un servidor simple que nos permita probar nuestro proyecto de forma local, para iniciarlo hay que ejecutar:
 
@@ -122,9 +117,9 @@ mysite/
 $ python manage.py runserver
 ```
 
-#### El fichero de configuración settings.py
+## El fichero de configuración settings.py
 
-##### Configurar la base de datos
+### Configurar la base de datos
 
 Para modificar la configuración de la [base de datos][2] editamos el fichero *mysite/settings.py*, en este tutorial usaremos *sqlite* por ser la más sencilla.
 
@@ -142,7 +137,7 @@ DATABASES = {
 }
 ```
 
-##### Aplicaciones instaladas
+### Aplicaciones instaladas
 
 En *INSTALLED_APPS* se definen las aplicaciones instaladas en nuestro proyecto, por defecto tendremos:
 
@@ -165,7 +160,7 @@ Una vez tengamos configurado esto, procedemos a iniciar la base de datos:
 $ python manage.py migrate
 ```
 
-### Crear una aplicación
+# Crear una aplicación
 
 Para crear una nueva aplicación basta con ejecutar el comando:
 
@@ -232,7 +227,7 @@ $ python manage.py makemigrations pools
 $ python manage.py migrate
 ```
 
-#### Activar el panel de administración
+## Activar el panel de administración
 
 Primero deberemos crear un usuario con permiso de administración, esto es posible directamente con un comando de manage.py en el que solo debemos seguir los pasos:
 
@@ -254,7 +249,7 @@ urlpatterns = [
 Ejecutamos el servidor con *python manage.py runserver* y entramos a <a href="http://127.0.0.1:8000/admin/" target="_blank">http://127.0.0.1:8000/admin/</a>. Deberíamos ver:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/09/admin01.png" alt="{{ title }}" title="{{ title }}" width="336px" height="192px"></amp-img>
+    <amp-img sizes="(min-width: 336px) 336px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/09/admin01.png" alt="Introducción a Django - Instalación y primer proyecto" title="Introducción a Django - Instalación y primer proyecto" width="336px" height="192px"></amp-img>
 </figure>
 
 Para poder hacer accesibles los modelos que acabamos de crear desde el panel de administración, debemos configurar django para que los objetos Polls tengan una interfaz en el panel de administración. Para ello, crea un archivo llamado *admin.py* en el directorio *polls*:
@@ -269,10 +264,10 @@ admin.site.register(Poll)
 Debemos reiniciar el servidor para que los cambios se apliquen, ahora sí vemos la aplicación polls:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/09/admin03t.png" alt="Introducción a Django – Instalación y primer proyecto" width="400px" height="134px" />
+    <amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/09/admin03t.png" alt="Introducción a Django – Instalación y primer proyecto" width="400px" height="134px" />
 </figure>
 
-#### Escribir la primera vista
+## Escribir la primera vista
 
 Hemos mencionado antes que en *views.py* se define qué se va a mostrar al usuario. Veamos la vista más simple que podemos crear. En *polls/views.py* escribe lo siguiente:
 
@@ -310,14 +305,14 @@ urlpatterns = [
 
 Tras modificar estos ficheros, veremos el mensaje **Hello, world. You&#8217;re at the poll index.** en <a href="http://127.0.0.1:8000/polls" target="_blank">http://127.0.0.1:8000/polls</a>.
 
-#### Ejemplo completo
+## Ejemplo completo
 
 Para no alargar mucho este artículo, he intentado dar unas nociones básicas de cómo instalar y empezar a usar django. El ejemplo completo de la documentación oficial citada en las referencias lo podéis encontrar en <a href="https://github.com/elbaulp/djangoTutorialv1.5" title="Ejemplo en Github" target="_blank">github</a>.
 
-#### Referencias
+# Referencias
 
-*Documentación Oficial* »» <a href="https://docs.djangoproject.com/en/1.10/intro/tutorial01/" target="_blank">djangoproject.com</a>
-*Imagen de aruseni* »» <a href="http://aruseni.deviantart.com/art/Django-white-and-green-318200642" target="_blank">deviantart</a>
+- *Documentación Oficial* »» <a href="https://docs.djangoproject.com/en/1.10/intro/tutorial01/" target="_blank">djangoproject.com</a>
+- *Imagen de aruseni* »» <a href="http://aruseni.deviantart.com/art/Django-white-and-green-318200642" target="_blank">deviantart</a>
 
  [1]: https://elbauldelprogramador.com/los-10-mejores-frameworks-gratis-de-aplicaciones-web/ "Los 10 Mejores Frameworks gratuitos para Aplicaciones Web"
  [2]: https://elbauldelprogramador.com/bases-de-datos/ "Bases de datos"

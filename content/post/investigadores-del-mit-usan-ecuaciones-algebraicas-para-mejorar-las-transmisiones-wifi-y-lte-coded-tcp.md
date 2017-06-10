@@ -4,18 +4,12 @@ categories:
 - informatica
 - noticias
 - "tecnología"
-color: '#F57C00'
 date: '2016-01-01'
-description: "Un equipo de investigadores del MIT, Caltech, Harvard, y otras universidades
-  Europeas, han ideado una forma de potenciar el rendimiento en redes inalámbricas
-  &#8212; sin aumentar la potencia de transmisión o añádir más estaciones
-  base. La creación de los investigadores, ***coded TCP,***, en lugar de enviar
-  paquetes simples, crea una ecuación que describe una serie de paquetes. Es una
-  forma nueva de transmitir datos de modo que los paquetes perdidios no aumenten la
-  latencia o re-envíen datos, ya que son la causa de que la red se congestione."
-
+lastmod: 2017-06-10T18:49:31+01:00
+description: "Un equipo de investigadores del MIT, Caltech, Harvard, y otras universidades  Europeas, han ideado una forma de potenciar el rendimiento en redes inalámbricas  &#8212; sin aumentar la potencia de transmisión o añádir más estaciones  base. La creación de los investigadores, ***coded TCP,***, en lugar de enviar  paquetes simples, crea una ecuación que describe una serie de paquetes. Es una  forma nueva de transmitir datos de modo que los paquetes perdidios no aumenten la  latencia o re-envíen datos, ya que son la causa de que la red se congestione."
 mainclass: articulos
 url: /investigadores-del-mit-usan-ecuaciones-algebraicas-para-mejorar-las-transmisiones-wifi-y-lte-coded-tcp/
+image: 2012/10/Algebra-Packets-MIT1.jpg
 tags:
 - algebra
 - ancho de banda
@@ -27,7 +21,7 @@ title: "Investigadores del MIT usan ecuaciones algebráicas para mejorar las tra
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class="alignleft  wp-image-1001"  title="Algebra Packets MIT" src="/img/2012/10/Algebra-Packets-MIT1.jpg" alt="paquetes algebráicos MIT TCP" width="296px" height="370px" />
+    <amp-img sizes="(min-width: 296px) 296px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class="alignleft  wp-image-1001"  title="Algebra Packets MIT" src="/img/2012/10/Algebra-Packets-MIT1.jpg" alt="paquetes algebráicos MIT TCP" width="296px" height="370px" />
 </figure>
 
 Un equipo de investigadores del MIT, Caltech, Harvard, y otras universidades Europeas, han ideado una forma de potenciar el rendimiento en redes inalámbricas &#8212; sin aumentar la potencia de transmisión o añádir más estaciones base. La creación de los investigadores, ***coded TCP,***, en lugar de enviar paquetes simples, crea una ecuación que describe una serie de paquetes. Es una forma nueva de transmitir datos de modo que los paquetes perdidios no aumenten la latencia o re-envíen datos, ya que son la causa de que la red se congestione.
@@ -40,8 +34,8 @@ En realidad, estas mejoras no son del todo sorprendentes. El protocolo TCP fue d
 
 En un futuro, se espera que el protocolo TCP codificado tenga una gran repercusión en el rendimiento de redes WIFI y LTE.
 
-### Referencias
+# Referencias
 
-*A Bandwidth Breakthrough* »» <a href="http://www.technologyreview.com/news/429722/a-bandwidth-breakthrough/" target="_blank">Visitar sitio</a>
-*Increasing wireless network speed by 1000%, by replacing packets with algebra* »» <a href="http://www.extremetech.com/computing/138424-increasing-wireless-network-speed-by-1000-by-replacing-packets-with-algebra" target="_blank">Visitar sitio</a>
-*MIT researchers use algebraic equation that improves WiFi and LTE data streams* »» <a href="http://www.engadget.com/2012/10/24/mit-researchers-algebraic-equation-to-weave-wifi-and-lte-signals/" target="_blank">Visitar sitio</a>
+- *A Bandwidth Breakthrough* »» <a href="http://www.technologyreview.com/news/429722/a-bandwidth-breakthrough/" target="_blank">Visitar sitio</a>
+- *Increasing wireless network speed by 1000%, by replacing packets with algebra* »» <a href="http://www.extremetech.com/computing/138424-increasing-wireless-network-speed-by-1000-by-replacing-packets-with-algebra" target="_blank">Visitar sitio</a>
+- *MIT researchers use algebraic equation that improves WiFi and LTE data streams* »» <a href="http://www.engadget.com/2012/10/24/mit-researchers-algebraic-equation-to-weave-wifi-and-lte-signals/" target="_blank">Visitar sitio</a>

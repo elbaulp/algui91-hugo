@@ -3,22 +3,20 @@ author: alex
 categories:
 - procesos
 - so
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-09-02
-
+lastmod: 2017-06-10T18:44:46+01:00
 mainclass: articulos
 url: /introduccion-los-procesos/
 title: "Introducción a los Procesos"
 ---
 
-## 1 . Concepto
+# 1 . Concepto
 
 El proceso se puede definir como un programa en ejecución y, de una forma más precisa, como la unidad de procesamiento gestionada por el sistema operativo. Todos los programas cuya ejecución solicitan los usuarios lo hacen en forma de procesos, de ahí la importancia de conocerlos en detalle.
 
 <!--more--><!--ad-->
 
-## 1.2 . Composición y estructura
+# 1.2 . Composición y estructura
 
 El sistema operativo mantiene una tabla de procesos, dentro de la que se alamacena un **bloque de control de proceso (BCP)** por cada proceso. Por razones de eficiencia, la tabla de procesos se contruye normalmente como una estructura estática que tiene un determinado número de BCP, todos ellos del mismo tamaño.
 
@@ -42,7 +40,7 @@ El BCP contiene la información básica del proceso:
 - **Punteros** para estructurar los procesos en colas o anillos: Por ejemplo, los procesos que están en estado de listo pueden estar organizados en una cola, de forma que se facilite la labor del planificador.
 - **Comunicación entre procesos:** El BCP puede contener espacio para almacenar las señales y para algún mensaje enviado al proceso.
 
-## 1.3 . Estados y transiciones
+# 1.3 . Estados y transiciones
 
 Un proceso puede encontrarse en tres estados diferentes:
 
@@ -51,7 +49,7 @@ Un proceso puede encontrarse en tres estados diferentes:
 - **Listo:** Un proceso está listo para ejecutar cuando puede entrar en fase de procesamiento. Dado que puede haber varios procesos en este estado, una de las tareas del sistema operativo será seleccionar aquel que debe pasar a ejecución. El módulo del SO que toma esta decisión se denomina **planificador.** En este estado el proceso reside en BCP.
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Estado Procesos" title="Estado de los procesos"  height="267" width="445" src="https://4.bp.blogspot.com/-BOayf2Lle4g/TVg7VxeOZII/AAAAAAAAAW0/O6u9ZEGonWg/s800/estados.png"></amp-img>
+    <amp-img sizes="(min-width: 445px) 445px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Estado Procesos" title="Estado de los procesos"  height="267" width="445" src="https://4.bp.blogspot.com/-BOayf2Lle4g/TVg7VxeOZII/AAAAAAAAAW0/O6u9ZEGonWg/s800/estados.png"></amp-img>
 </figure>
 
 La **transición** entre cada uno de los tres estados puede hacerse de la siguiente manera:
@@ -61,7 +59,7 @@ La **transición** entre cada uno de los tres estados puede hacerse de la siguie
 - **Transición 3.** Cuando el proceso que está listo pasa al estado de ejecución; es decir, cuando al proceso le llega una nueva disposición del tiempo de la CPU para poder ejecutarse.
 - **Transición 4.** Cuando el proceso pasa de estar bloqueado a estar listo, es decir, cuando el proceso recibe una orden o señal que estaba esperando para pasar al estado de listo y posteriormente, tras la transición 3, pasar a ejecución.
 
-## Características
+# Características
 
 Las características principales de los procesos son:
 

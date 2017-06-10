@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-19
-
+lastmod: 2017-06-10T18:45:56+01:00
 mainclass: BaseDeDatos
 url: /introduccion-plsql/
 title: "Introducción a PL/SQL"
@@ -13,7 +11,7 @@ title: "Introducción a PL/SQL"
 
 Ahora que el [temario de SQL][1] está terminado, voy a empezar a escribir sobre [PL/SQL][2]. Empezaré con una introducción.
 
-### Introducción
+# Introducción
 
 El trabajo realizado [hasta ahora][3] con la base de datos se ha hecho de forma interactiva: el usuario introducía una orden (en SQL) y Oracle proporcionaba una respuesta. Esta forma de trabajar no resulta operativa en un entorno de producción, porque todos los usuarios no conocen ni utilizan SQL, y además suelen producirse frecuentes errores.
 
@@ -27,9 +25,7 @@ El uso del lenguaje PL/SQL es también imprescindible para construir disparadore
 
 PL/SQL soporta todos los comandos de consulta y manipulación de datos, aportando sobre SQL las estructuras de control y otros elementos propios de los lenguajes procedimentales de tercera generación. Su unidad de trabajo es el bloque, formado por un conjunto de declaraciones, instrucciones y mecanismos de gestión de errores y excepciones.
 
-### Siguiente Tema: [Introducción a PL/SQL - Transacciones][4]
-
-
+# Siguiente Tema: [Introducción a PL/SQL - Transacciones][4]
 
  [1]: https://elbauldelprogramador.com/consulta-de-datos-tablas-resumen/
  [2]: http://es.wikipedia.org/wiki/PL/SQL

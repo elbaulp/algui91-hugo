@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-13
-
+lastmod: 2017-06-10T18:34:42+01:00
 mainclass: BaseDeDatos
 url: /introduccion-base-de-datos/
 tags:
@@ -15,7 +13,7 @@ tags:
 title: Introduccion a base de datos
 ---
 
-## Introducción a bases de datos
+# Introducción a bases de datos
 
 > **Nota:** Todo lo que voy a escribir a continuación sobre base de datos, lo he sacado de los apuntes de mi profesor de Bases de Datos.
 
@@ -23,9 +21,7 @@ Lo subo a modo de manual para todos.
 
 <!--more--><!--ad-->
 
-
-
-## Elementos relacionados con un sistema de base de datos:
+# Elementos relacionados con un sistema de base de datos:
 
 - **Datos.-** En una BD existen dos tipos de datos: **_el diccionario de datos (DD)_** que son los datos de uso interno del software que gestiona la base de datos, como son el tamaño de los campos, el tipo, los usuarios… Y por otra parte están **_los datos que el cliente necesita almacenar._** La información de los datos debe estar integrada, es decir, como si se tratara de un único fichero. Además, los datos deben ser compartidos, es decir, muchos usuarios pueden acceder a la misma información, eso sí, con acceso controlado.
 - **Hardware.-** Toda la información a la que hace referencia en el punto anterior debe tener una capacidad adaptada a los requerimientos de la base de datos.
@@ -45,7 +41,7 @@ El <abbr title="Sistema Gestor de Base de Datos">SGBD</abbr> debe permitir:
   *   **Programador de aplicación:** es un usuario con conocimientos informáticos con la responsabilidad de escribir código para la aplicación de gestión. Habitualmente tiene la posibilidad de crear subesquemas en la base de datos y por tanto se le permite modificar y estructurar la base de datos. Tiene permiso para crear código.
   *   **Administrador (DBA):** Es el usuario con permisos más alto de la base de datos y tiene la responsabilidad de mantener el funcionamiento de la base de datos, definir todos los parámetros de inicialización y almacenamiento. Crea usuarios y les otorga los permisos pertinentes. Tiene que definir la forma de recuperar la base de datos y todas las políticas de seguridad.
 
-## Niveles de abstracción de la información.
+# Niveles de abstracción de la información.
 
 Uno de los objetivos de un sistema de bases de datos es proporcionar a los usuarios una visión abstracta de la información, ocultando ciertos detalles acerca de cómo se almacenan los datos, pero permitiendo una recuperación eficaz de la información.
 
@@ -69,7 +65,7 @@ Todo ello permitirá una mayor independencia de los datos:
 * **Independencia de los dispositivos:** se consigue cuando la ejecución de los programas es independiente del sistema de almacenamiento.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="sistema gestor de base de datos - sgbd" title="sistema gestor de base de datos - sgbd" height="300" src="https://3.bp.blogspot.com/_IlK2pNFFgGM/TMsDbV2ZnZI/AAAAAAAAADs/xVmeBhnwGno/s320/figura1.1.jpg" width="320"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="sistema gestor de base de datos - sgbd" title="sistema gestor de base de datos - sgbd" height="300" src="https://3.bp.blogspot.com/_IlK2pNFFgGM/TMsDbV2ZnZI/AAAAAAAAADs/xVmeBhnwGno/s800/figura1.1.jpg" width="320"></amp-img>
 </figure>
 
 En el siguiente ejemplo de una base de datos se puede observar que se han obtenido dos subesquemas (esquemas externos) a partir del único esquema conceptual formado por las entidades: VENDEDORES, VENTAS y ARTICULOS. La estructura de cada subesquema obedece a las necesidades concretas del tipo de usuario que lo va a utilizar. Por ejemplo:
@@ -77,7 +73,7 @@ En el siguiente ejemplo de una base de datos se puede observar que se han obteni
 1.  Uno de los subesquemas será utilizado por un programa que totalizará ventas por departamento, por lo tanto la visión que le interesa tener de la base de datos es una relación de ventas ordenadas por departamentos.
 2.  El otro subesquema lo utilizará un programa que listará una relación de empleados por departamento, por lo que sólo necesita conocer los nombres de todos los empleados y el departamento al que pertenecen.
 
-### SUBESQUEMAS
+## SUBESQUEMAS
 
 Esquema externo o subesquema para el programa “Ventas por departamento”
 
@@ -89,22 +85,22 @@ Esquema externo o subesquema para el programa “Relación de empleados por depa
 | DEPARTAMENTO 	| NOMBRE 	|
 |--------------	|--------	|
 
-### ESQUEMA CONCEPTUAL
+## ESQUEMA CONCEPTUAL
 
 Esquema conceptual de toda la base de datos, formado por los siguientes registros conceptuales:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" height="66" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TMtBOVu7K0I/AAAAAAAAADw/KH1tI0GGlFU/s320/tabla1.jpg" width="320"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" height="66" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TMtBOVu7K0I/AAAAAAAAADw/KH1tI0GGlFU/s800/tabla1.jpg" width="320"></amp-img>
 </figure>
 
-### ESQUEMA INTERNO
+## ESQUEMA INTERNO
 
 Esquema interno de toda la base de datos:
 
 | COD_VEND string(3) 	| NOMBRE string(30) 	| DEPART string(4) 	| … 	|
 |--------------------	|-------------------	|------------------	|---	|
 
-#### ARTICULOS
+## ARTICULOS
 
 | COD_ART string(4) 	| CONCEPTO string(40) 	| PVP float 	| ... 	|
 |-------------------	|---------------------	|-----------	|-----	|
@@ -113,9 +109,9 @@ Además se incluiría el tipo de organización, la secuencia física de los regi
 
 A continuación podemos observar algunas ocurrencias de los registros externos y conceptuales.
 
-### VISTAS EXTERNAS
+## VISTAS EXTERNAS
 
-#### VENTAS_POR_DEPARTAMENTO
+## VENTAS_POR_DEPARTAMENTO
 
 | DEPARTAMENTO | CONCEPTO           | IMPORTE |
 |--------------|--------------------|---------|
@@ -124,7 +120,7 @@ A continuación podemos observar algunas ocurrencias de los registros externos y
 | Hogar        | Juego toallas      | 6.500   |
 | Hogar        | Sábanas estampadas | 4.500   |
 
-#### EMPLEADOS_POR_DEPARTAMENTO
+## EMPLEADOS_POR_DEPARTAMENTO
 
 | DEPARTAMENTO 	| NOMBRE            	|
 |--------------	|-------------------	|
@@ -132,27 +128,27 @@ A continuación podemos observar algunas ocurrencias de los registros externos y
 | Hogar        	| Ana Ruiz Ramírez  	|
 | Hogar        	| Julia Pérez Ramos 	|
 
-### VISTA CONCEPTUAL
+## VISTA CONCEPTUAL
 
-#### VENDEDORES
+## VENDEDORES
 
 | COD_VEND 	| NOMBRE            	| DEPARTAMENTO 	| … 	|
 |----------	|-------------------	|--------------	|---	|
 | 001      	| José López García 	| Automóvil    	|   	|
 
 
-#### VENTAS
+## VENTAS
 
 | COD_VEND 	| COD_ART 	| CANTIDAD 	| FECHA    	| … 	|
 |----------	|---------	|----------	|----------	|---	|
 | 002      	| H22     	| 1        	| 01-10-98 	|   	|
 
-## Funcionamiento de un SGBD
+# Funcionamiento de un SGBD
 
 Para describir el funcionamiento de un SGBD supondremos el caso de un programa de aplicación, que lee un registro de una base de datos, para ello realiza una solicitud al <abbr title="Sistema Gestor de Base de Datos">SGBD</abbr>, esencialmente la secuencia, mostrada en el esquema de la figura 1.2, es la siguiente:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Funcionamiento de un SGBD" height="255" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TMwEXF5RGLI/AAAAAAAAAD0/VfTA_V3C7x0/s320/figura1.2.jpg" width="320"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Funcionamiento de un SGBD" height="255" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TMwEXF5RGLI/AAAAAAAAAD0/VfTA_V3C7x0/s800/figura1.2.jpg" width="320"></amp-img>
 </figure>
 
 1. El programa de aplicación A pide al <abbr title="Sistema Gestor de Base de Datos">SGBD</abbr> que lea un registro. Se proporciona la clave de acceso. El <abbr title="Sistema Gestor de Base de Datos">SGBD</abbr> evalúa la capacidad del usuario para realizar la operación solicitada.
@@ -168,7 +164,7 @@ Para describir el funcionamiento de un SGBD supondremos el caso de un programa d
    cualquier indicación de error.
 11. El programa puede ahora trabajar con los datos pedidos.
 
-## Lenguajes de un SGBD
+# Lenguajes de un SGBD
 
 Para comunicarnos con la base de datos necesitamos un lenguaje, este lenguaje nos
 permitirá realizar varios procedimientos:
@@ -177,7 +173,7 @@ permitirá realizar varios procedimientos:
 * **DML:** las instrucciones del DML producen modificaciones sobre los datos en sí, pero no sobre las estructura de las tablas. Las sentencias de este lenguaje generan instrucciones de manejo de los datos.
 * **DCL** son todas las sentencias que definen restricciones de control de acceso a los datos. Generan información en el diccionario de datos.
 
-## Tipos de Bases de Datos
+# Tipos de Bases de Datos
 
 Según la estructura lógica, a nivel conceptual o a nivel externo, los SGBD se clasifican en:
 
@@ -186,4 +182,4 @@ Según la estructura lógica, a nivel conceptual o a nivel externo, los SGBD se 
   programador tiene que recorrer la base de datos registro a registro, especificando esta vez la dirección y la relación a recorrer.
 * **Relacional:** prácticamente es el más extendido en la actualidad, será el que seguiremos en este módulo, y al que dedicaremos un tema posteriormente.
 
-## Siguiente tema: [Diseño de Bases de Datos ( I ) – Conceptos del Modelo Relacional](https://elbauldelprogramador.com/diseno-de-bases-de-datos-i-conceptos/)
+# Siguiente tema: [Diseño de Bases de Datos ( I ) – Conceptos del Modelo Relacional](https://elbauldelprogramador.com/diseno-de-bases-de-datos-i-conceptos/)
