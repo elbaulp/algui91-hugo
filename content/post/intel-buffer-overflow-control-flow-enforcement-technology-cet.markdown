@@ -2,18 +2,12 @@
 author: alex
 categories:
 - security now
-color: '#00BCD4'
 date: 2016-07-05 20:09:47
-description: "Hace tiempo que hablamos aquí sobre lo que es un Buffer Overflow
-  y cómo aprovecharnos de ellos para tomar control del sistema. Pues bien, Intel
-  se propone acabar con este tipo tan común de vulnerabilidad en sus nuevos procesadores"
+lastmod: 2017-06-10T11:03:30+01:00
+description: "Hace tiempo que hablamos aquí sobre lo que es un Buffer Overflow  y cómo aprovecharnos de ellos para tomar control del sistema. Pues bien, Intel  se propone acabar con este tipo tan común de vulnerabilidad en sus nuevos procesadores"
 image: ComoIntelVaaAcabarConLosBuffersOverflowsConControl-FlowEnforcementTechnologyCET.png
-introduction: "Hace tiempo que hablamos aquí sobre lo que es un Buffer Overflow
-  y cómo aprovecharnos de ellos para tomar control del sistema. Pues bien, Intel
-  se propone acabar con este tipo tan común de vulnerabilidad en sus nuevos procesadores"
-
+introduction: "Hace tiempo que hablamos aquí sobre lo que es un Buffer Overflow  y cómo aprovecharnos de ellos para tomar control del sistema. Pues bien, Intel  se propone acabar con este tipo tan común de vulnerabilidad en sus nuevos procesadores"
 mainclass: security-now
-modified: null
 url: /intel-buffer-overflow-control-flow-enforcement-technology-cet/
 tags:
 - security now
@@ -80,7 +74,7 @@ Además, no implica ningun decremento en el rendimiento del sistema, ya que est�
 
 Me ha parecido un tema muy interesante y quería compartirlo con vosotros, espero que también os haya gustado. Dejanos un comentario para hacernos llegar tu opinión!
 
-### Referencias
+# Referencias
 
 - Security Now 565 Control-Flow Enforcement Technology (CET) \| [twit.tv](https://twit.tv/shows/security-now/episodes/565 "Security Now 565
 Control-Flow Enforcement Technology (CET)")

@@ -2,15 +2,8 @@
 author: alex
 categories:
 - python
-color: '#E64A19'
 date: '2016-01-01'
-if_seo_keywords:
-- re python, regexp python, expresiones regulares python
-- re python, regexp python, expresiones regulares python
-if_slider_image:
-- null
-- null
-
+lastmod: 2017-06-10T11:27:38+01:00
 mainclass: dev
 url: /introduccion-a-las-expresiones-regulares-en-python/
 sif_eo_description:
@@ -27,18 +20,19 @@ title: "Introducción a las expresiones regulares en python"
 
 En esta entrada voy a intentar introducir brevemente cómo crear expresiones regulares en python (dentro de la complejidad de las mismas).
 
-Son recopilaciones que he hecho durante el curso de *Programming languages *[en udacity][1] y voy a intentar explicarlos lo más claramente posible.
+Son recopilaciones que he hecho durante el curso de *Programming languages *[en udacity][1]* y voy a intentar explicarlos lo más claramente posible.
 
-Lo primero que hay que hacer para usar expresiones regulares es importar el módulo **re **de python con ***import re***
+Lo primero que hay que hacer para usar expresiones regulares es importar el módulo **re** de python con ***import re***
 
 Una vez hecho esto, podemos empezar a usar expresiones, como por ejemplo esta:
+
 <!--more--><!--ad-->
 
 ```python
 regex = r'[a-z]+-?[a-z]+'
 ```
 
-La expresión de arriba considerará válida cualquier cadena que empieze con una o más letras (*[a-z]+*), seguido de un guión, que es opcional, es decir, puede aparecer o no en la cadena (*-?*) seguido nuevamente de uno o más caracteres de la **a **a la **z**, en minúsculas.
+La expresión de arriba considerará válida cualquier cadena que empieze con una o más letras (*[a-z]+*), seguido de un guión, que es opcional, es decir, puede aparecer o no en la cadena (*-?*) seguido nuevamente de uno o más caracteres de la **a** a la **z**, en minúsculas.
 
 Algunos casos de ejemplo son los siguientes:
 
@@ -63,7 +57,7 @@ El siguiente ejemplo servirá para coincidir con cadenas que representen funcion
 regexp = r"[a-z]+( *[0-9]+ *)"
 ```
 
-Esto encontrará cadenas que empiecen con una o más letras (*[a-z]+*)*, *tenemos que escapar los paréntesis para que los tome como algo que queremos que forme parte de la cadena, ya que los paréntesis tienen un significado especial en la expresiones regulares, los escapamos con , despues buscamos por cero o más espácios ( *) seguidos de números (*[0-9]+*) y nuevamente cero o más espacios.
+Esto encontrará cadenas que empiecen con una o más letras (*[a-z]+*), tenemos que escapar los paréntesis para que los tome como algo que queremos que forme parte de la cadena, ya que los paréntesis tienen un significado especial en la expresiones regulares, los escapamos con \\, despues buscamos por cero o más espácios ( \*) seguidos de números (*[0-9]+*) y nuevamente cero o más espacios.
 
 Ejemplos:
 
@@ -86,17 +80,17 @@ Como vemos, el primer ejemplo no válido precisamente no es válido porque no pe
 Veamos otro más, esta vez queremos encontrar cadenas que contengan caracteres de escape () y comillas
 
 ```python
-regexp = r'"(?:[^\]|(?:\.))*"'
+regexp = r'"(?:[^\\]|(?:\.))*"'
 
 ```
 
-En este caso voy a ir explicando de fuera hacia adentro, en primer lugar vamos a buscar cadenas que estén entrecomilladas (*r&#8217;""&#8217;*), lo que encontremos, lo vamos a encontrar cero o más veces (*r'&#8221;(?:)*&#8221;&#8216;*), **(?:)** coincide con la expresión regular que contenga entre los paréntesis. A continuación queremos cualquier cosa que **no** sea un , y nótese que debemos escaparlo (*r'&#8221;(?:[^\])*&#8221;&#8216;*) **ó (*|*)** un seguido de cualquier caracter
-(*r'&#8221;(?:[^\]|(?:\.))*&#8221;&#8216;*)
+En este caso voy a ir explicando de fuera hacia adentro, en primer lugar vamos a buscar cadenas que estén entrecomilladas (*r&#8217;""&#8217;*), lo que encontremos, lo vamos a encontrar cero o más veces (*r'&#8221;(?:)*&#8221;&#8216;*), **(?:)** coincide con la expresión regular que contenga entre los paréntesis. A continuación queremos cualquier cosa que **no** sea un \\, y nótese que debemos escaparlo (*r'&#8221;(?:[^\])*&#8221;&#8216;*) **ó (*|*)** un `.` seguido de cualquier caracter
+(*r'&#8221;(?:[^\\]|(?:\.))*&#8221;&#8216;*)
 
 Ejemplos:
 
 ```python
-regexp = r'"(?:[^\]|(?:\.))*"'
+regexp = r'"(?:[^\\]|(?:\.))*"'
 #  Ejemplos válidos:
 print re.findall(regexp,'"I say, \"hello.\""') == ['"I say, \"hello.\""']
 #>>> True
@@ -113,7 +107,7 @@ regexp = r'"[^"]*"'
 
 ```
 
-Con esta expresión buscamos cadenas que empiecen y acaben obligatóriamente con **&#8220;** (*r'&#8221;&#8221;&#8216;*), no pueden contener ningún caracter **&#8220;** entre la cadena (*r'&#8221;[^&#8221;]&#8221;&#8216;*), finalmente, daremos por buena la cadena que cumpla esto con cualquier caracter cero o más veces (*r'&#8221;[^&#8221;]*&#8221;&#8216;*)
+Con esta expresión buscamos cadenas que empiecen y acaben obligatóriamente con (*r'"'*), no pueden contener ningún caracter **`"`** entre la cadena (**`r'"[^"]'`**), finalmente, daremos por buena la cadena que cumpla esto con cualquier caracter cero o más veces (**`r'"[^"]*"'`**).
 
 Ejemplos:
 
@@ -126,7 +120,5 @@ print re.findall(regexp,'""')
 print re.findall(regexp,'"esc " ape"')
 
 ```
-
-
 
  [1]: https://elbauldelprogramador.com/nuevos-cursos-disponibles-en-udacity-la-universidad-online-gratuita/ "Nuevos Cursos disponibles en Udacity, la universidad online gratuita"

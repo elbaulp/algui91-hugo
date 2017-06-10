@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-08-14
-
+lastmod: 2017-06-10T11:08:18+01:00
 mainclass: android
 url: /programacion-android-interfaz-grafica_28/
 tags:
@@ -50,7 +48,7 @@ Primero creamos el layout, que va a contener un ListView con un Id ya definido p
         <textview
             android:id="@android:id/empty"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"></textview>
+            android:layout_height="fill_parent"/>
     </listview>
 </linearlayout>
 ```
@@ -171,22 +169,21 @@ public class AdaptadoresActivity extends ListActivity {
             .show();
     }
 }
-</string>
 ```
 
 El resultado de este código es el siguiente, para una adaptador con datos:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  alt="Adaptadores Android" title="Adaptadores Android" height="800" width="480" src="https://2.bp.blogspot.com/-p_QGLZLQNbY/TgojF5KyZKI/AAAAAAAAAqg/zUY-4oCbZhE/s800/Adaptadores.png"></amp-img>
+    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  alt="Adaptadores Android" title="Adaptadores Android" height="800" width="480" src="https://2.bp.blogspot.com/-p_QGLZLQNbY/TgojF5KyZKI/AAAAAAAAAqg/zUY-4oCbZhE/s800/Adaptadores.png"></amp-img>
 </figure>
 
 Y para un adaptador sin datos:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" height="800" width="480" src="https://2.bp.blogspot.com/-gB_egWAdpUc/TgojWE4FONI/AAAAAAAAAqo/fhfy9j6sQeE/s800/listaVacia.png"></amp-img>
+    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" height="800" width="480" src="https://2.bp.blogspot.com/-gB_egWAdpUc/TgojWE4FONI/AAAAAAAAAqo/fhfy9j6sQeE/s800/listaVacia.png"></amp-img>
 </figure>
 
-#### Siguiente Tema: [Programación Android: Interfaz gráfica - Adapters II][2]
+# Siguiente Tema: [Programación Android: Interfaz gráfica - Adapters II][2]
 
  [1]: https://elbauldelprogramador.com/programacion-android-interfaz-grafica_25/
  [2]: https://elbauldelprogramador.com/programacion-android-interfaz-grafica-2/

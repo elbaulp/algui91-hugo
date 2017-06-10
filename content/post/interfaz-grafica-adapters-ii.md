@@ -3,11 +3,9 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
+lastmod: 2017-06-10T11:06:00+01:00
 image: https://3.bp.blogspot.com/-A6gb57w_xX4/Tg4D4i8sSVI/AAAAAAAAAqw/hvsbzYlBpPQ/s800/adaptadores2.png
-lastmod: 2016-08-14
-
 mainclass: android
 url: /programacion-android-interfaz-grafica-2/
 tags:
@@ -207,10 +205,10 @@ public class Adaptadores2Activity extends ListActivity {
 Ya solo resta ejecutarlo y ver el resultado:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Adaptadores en Android" alt="Adaptadores en Android"  height="800" width="420" src="https://3.bp.blogspot.com/-A6gb57w_xX4/Tg4D4i8sSVI/AAAAAAAAAqw/hvsbzYlBpPQ/s800/adaptadores2.png"></amp-img>
+    <amp-img sizes="(min-width: 420px) 420px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Adaptadores en Android" alt="Adaptadores en Android"  height="800" width="420" src="https://3.bp.blogspot.com/-A6gb57w_xX4/Tg4D4i8sSVI/AAAAAAAAAqw/hvsbzYlBpPQ/s800/adaptadores2.png"></amp-img>
 </figure>
 
-#### Siguiente Tema: [Programación Android: Interfaz gráfica - Menús][2]
+# Siguiente Tema: [Programación Android: Interfaz gráfica - Menús][2]
 
  [1]: https://elbauldelprogramador.com/programacion-android-interfaz-grafica_28
  [2]: https://elbauldelprogramador.com/programacion-android-interfaz-grafica_08/
