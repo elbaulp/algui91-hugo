@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-23
-
+lastmod: 2017-06-10T18:47:06+01:00
 mainclass: BaseDeDatos
 url: /introduccion-plsql-transacciones/
 tags:
@@ -13,7 +11,7 @@ tags:
 title: "Introducción a PL/SQL. Transacciones"
 ---
 
-### Transacciones
+# Transacciones
 
 Oracle es un sistema de base de datos puramente transaccional, de tal forma, que la instrucción `BEGIN TRANSACTION` no existe.
 
@@ -71,7 +69,7 @@ EXCEPTION
 END;
 ```
 
-### Siguiente Tema: [Fundamentos de PL/SQL][2]
+# Siguiente Tema: [Fundamentos de PL/SQL][2]
 
  [1]: https://elbauldelprogramador.com/plsql-disparadores-o-triggers/
  [2]: https://elbauldelprogramador.com/fundamentos-de-plsql/

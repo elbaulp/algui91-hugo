@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-15
-
+lastmod: 2017-06-10T18:48:01+01:00
 mainclass: BaseDeDatos
 url: /introduccion-sql-sql-introduction/
 title: "Introducción SQL"
@@ -17,8 +15,6 @@ Es un software que se antepone a los datos de una base de datos, es decir, cualq
 
 <!--more--><!--ad-->
 
-
-
 Prácticamente es un Sistema Operativo que controla el acceso a los datos, para conseguirlo, posee una serie de subesquemas que gestionan cada servicio:
 
   * **Sistema de gestión de la memoria.** Decide que parte de la memoria se dedica a cada tarea del RDBMS. Debe controlar que haya suficiente memoria para que el RDBMS funcione eficazmente y dejar la suficiente para el Sistema Operativo del ordenador.
@@ -28,7 +24,7 @@ Prácticamente es un Sistema Operativo que controla el acceso a los datos, para 
   * **Control de la red.** Gestiona las conexiones a la base de datos desde la red y evita problemas a la base de datos en caso de desconexión.
   * **Control de transacciones.** Gestiona una serie de operaciones que se pueden anular o llevar a cabo al final.
 
-### Diccionario de Datos
+# Diccionario de Datos
 
 Agrupa los metadatos de una base de datos. En este diccionario aparecen todos los objetos de la base de datos con su nombre, función, control de acceso (seguridad) y correspondencia física en los archivos de datos.
 
@@ -46,7 +42,7 @@ Conexión en la que servidor y usuario están en la misma máquina. Limita el us
 
 Es lo más común. El servidor lanza un proceso en la máquina central. Este proceso está a la escucha de nuevos usuarios, cuando estos llegan se produce una conexión que permite que el servidor y el cliente se comuniquen. Esto permite una accesibilidad a la base de datos desde distintas máquinas.
 
-### Herramientas de los RDBMS
+# Herramientas de los RDBMS
 
 Para el uso de las bases de datos, los RDBMS proporcionan diversas herramientas, que
 además tienen finalidades distintas en función de qué tipo de usuario las utiliza:
@@ -63,7 +59,7 @@ además tienen finalidades distintas en función de qué tipo de usuario las uti
   * Herramientas de globalización
   * Herramientas de creación de aplicaciones hacia Internet
 
-### SQL(Structure Query Language)
+# SQL(Structure Query Language)
 
 SQL es el lenguaje de consulta universal para bases de datos.
 
@@ -102,6 +98,6 @@ GRANT
 REVOKE
 ```
 
-## Siguiente tema: [Componentes del lenguaje SQL][1]
+# Siguiente tema: [Componentes del lenguaje SQL][1]
 
  [1]: https://elbauldelprogramador.com/componentes-del-lenguaje-sql-sql/
