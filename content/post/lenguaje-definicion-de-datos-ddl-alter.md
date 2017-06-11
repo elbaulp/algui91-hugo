@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-16
-
+lastmod: 2017-06-11T17:44:12+01:00
 mainclass: BaseDeDatos
 url: /lenguaje-definicion-de-datos-ddl-alter/
 tags:
@@ -15,7 +13,7 @@ tags:
 title: "Lenguaje Definición de Datos (DDL) - ALTER TABLE"
 ---
 
-## Modificar la estrutura de una tabla
+# Modificar la estrutura de una tabla
 
 Para modificar la estructura de una tabla se utiliza el comando ALTER TABLE.
 
@@ -101,6 +99,6 @@ alter table CabFacturas DISABLE CK_CabFacturas;
 alter table nombre_table DROP COLUMN nombre_columna;
 ```
 
-## Siguiente Tema: [Lenguaje Definición de Datos (DDL) - Vistas][1]
+# Siguiente Tema: [Lenguaje Definición de Datos (DDL) - Vistas][1]
 
  [1]: https://elbauldelprogramador.com/lenguaje-definicion-de-datos-ddl-vistas/

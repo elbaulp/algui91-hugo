@@ -2,10 +2,9 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
+lastmod: 2017-06-11T17:36:30+01:00
 image: "2013/08/La-generación-GitHub-Por-qué-ahora-todos-estamos-en-el-opensource.jpg"
-lastmod: 2016-08-07
 mainclass: articulos
 url: /la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/
 tags:
@@ -17,22 +16,20 @@ title: "La generación GitHub: Por qué ahora todos estamos en el opensource"
 aliases: /articulos/la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/
 ---
 
+[***GitHub***][1] se desarrolló con la idea de ser una plataforma colaborativa de [software libre][2], pero se ha convertido en mucho más que código. En la actualidad lo usan artistas, constructores, compañías enteras&#8230; y ciudades.
+
 <figure>
     <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/08/La-generación-GitHub-Por-qué-ahora-todos-estamos-en-el-opensource.jpg" alt="La generación GitHub: Por qué ahora todos estamos en el opensource" title="La generación GitHub: Por qué ahora todos estamos en el opensource" width="1240px" height="826px"></amp-img>
 </figure>
-
-
-[***GitHub***][1] se desarrolló con la idea de ser una plataforma colaborativa de [software libre][2], pero se ha convertido en mucho más que código. En la actualidad lo usan artistas, constructores, compañías enteras&#8230; y ciudades.
 
 <!--more--><!--ad-->
 
 > Cualquiera puede ahora cambiar los datos de un mapa cuando se construyen nuevos caminos para montar en bici, cuando las carreteras estén en construcción y cuando se hagan nuevos edificios” <a href="http://digital.cityofchicago.org/index.php/chicago-on-github/" title="http://digital.cityofchicago.org/index.php/chicago-on-github/" target="_blank">anunció</a> hace poco la ciudad de Chicago, que ahora se encuentra en ***GitHub***. Ahora la gente <a href="http://www.wired.com/wiredenterprise/2013/01/this-old-house/" title="This Old (Open Source) House: Man Renovates Home on GitHub" target="_blank">administra las restauraciones de sus casas</a> en ***GitHub***. Hace poco un bufete de abogados anunció también que está publicando documentos legales para la financiación en fases iniciales en ***GitHub***. Alguien además <a href="https://github.com/bundestag/gesetze" target="_blank">publicó</a> el año pasado la totalidad de las leyes Alemanas en Github. (Quizá no sea muy sorprendente que tenga unas 17 peticiones de pull abiertas para realizar cambios). Y por supuesto, ***GitHub*** lo usan programadores y desarrolladores que <a href="http://nodecopter.com/" title="AR Drones" target="_blank">vuelan Drones AR</a> con **Node.js** o crean sitios webs con **jQuery**.
 
 
-
 ***GitHub***, según cree el autor original de artículo, está haciendo al software libre lo que internet le hizo a la industria: **Está creando un hueco cultural entre la generación anterior de grandes proyectos de software libre y una nueva, más aficionada cultura del software libre de hoy día.**
 
-### La revolución no será centralizada
+# La revolución no será centralizada
 
 Cuando la gente oye “Open” source (ó Software “libre”), piensan en algo democrático, distribuido e igualitario: Gente construyendo algo juntas para que el resto lo use.
 
@@ -48,7 +45,7 @@ Con este sistema de trabajo se incentiva a la gente a colaborar: Fomenta a los d
 
 Lo realmente útil y bueno de este sistema es que cualquiera puede convertirse en usuario de otro proyecto ayudando a desarrollarlo, y al contrario, uno mismo puede beneficiarse de colaboraciones de otras personas en proyectos que hayas creado tú.
 
-### Des-centralización como democracia
+# Des-centralización como democracia
 
 La primera versión de ***GitHub*** hizo una cosa muy bien: Facilitar mucho la publicación de código. Esto fue suficiente para que muchos proyectos prestigiosos, incluyendo Ruby on Rails, migraran su código casi inmediatamente a ***GitHub***.
 
@@ -60,29 +57,29 @@ Hoy día, un vasto panorama del software simple y comprensible es accesible a un
 
 Obviamente, ésta afición al software libre tiene grandes ventajas.
 
-### Haciendo las cosas más fáciles de usar
+# Haciendo las cosas más fáciles de usar
 
-Uno de los mayores problemas que han tenido siempre los programas de software libre ha sido el “*Fit and finish*”. Mala documentación, diseño de la web, y la usabilidad en general ha sido pobre. &#8212; Especialmente en comparación con muchas contrapartidas propietarias.
+Uno de los mayores problemas que han tenido siempre los programas de software libre ha sido el *“Fit and finish”*. Mala documentación, diseño de la web, y la usabilidad en general ha sido pobre. &#8212; Especialmente en comparación con muchas contrapartidas propietarias.
 
 Pero ahora, siendo tan fácil realizar colaboraciones, usuarios menos técnicos ven estas plataformas como lugares fáciles en los que poder mejorar en el que recaen. (Esto significa pequeñas cosas como corregir errores crípticos por mensajes más humanos, por ejemplo)
 
 En el nuevo software libre, la gente quiere usar la tecnología sin tener que convertirse en expertos en ella. La facilidad de uso se valora más que nunca.
 
-### Prevenir el exceso de ingeniería
+# Prevenir el exceso de ingeniería
 
 A los ingenieros les gustan los desafíos y las soluciones a ellos se vuelven más inteligentes conforme incrementan las posibilidades de resolverlos. Eso estaba bien cuando los consumidores de esas soluciones eran mentes muy técnicas como los propios ingenieros que disfrutaban resolviendo viejos problemas.
 
 Pero esto ha cambiado con los aficionados, una vez que el problema está resuelto raramente volverá a examinarlo. Lo cual fuerza a los desarrolladores a crear soluciones simples que hagan de los problemas complejos algo sencillo de entender.
 
-### Apoyando un ecosistema más amplio
+# Apoyando un ecosistema más amplio
 
 ***GitHub*** ha dado poder a una nueva generación de personas para que colaboren, creen y produzcan. Muchos desarrolladores lamentarán la pérdida de las antiguas normas &#8212; como el lugar de los *commiteadores* o la eterna lucha sobre qué licencia escoger &#8212; pero el futuro ya está en manos de la nueva generación.
 
 **Esto no es solo una herramienta: estamos presenciando el nacimiento de una nueva cultura**
 
-#### Referencias
+# Referencias
 
-*The GitHub generation: why we're all in open source now* »» <a href="http://www.wired.co.uk/news/archive/2013-03/11/github-democracy" target="_blank">Wired.co.uk</a>
+- *The GitHub generation: why we're all in open source now* »» <a href="http://www.wired.co.uk/news/archive/2013-03/11/github-democracy" target="_blank">Wired.co.uk</a>
 
  [1]: https://elbauldelprogramador.com/mini-tutorial-y-chuleta-de-comandos-git/ "Git: Mini Tutorial y chuleta de comandos"
  [2]: https://elbauldelprogramador.com/ "Categoría OpenSource"
