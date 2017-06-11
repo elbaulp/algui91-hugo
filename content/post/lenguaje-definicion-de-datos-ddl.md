@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-16
-
+lastmod: 2017-06-11T17:46:00+01:00
 mainclass: BaseDeDatos
 url: /lenguaje-definicion-de-datos-ddl/
 tags:
@@ -16,7 +14,7 @@ tags:
 title: "Lenguaje Definición de Datos (DDL) - \xCDndices y secuencias"
 ---
 
-## Creación de un índice
+# Creación de un índice
 
 Los índices sirven para mejorar el rendimiento de las consultas. El optimizador de Oracle los utiliza implícitamente y se actualizan de forma automática al actualizar las filas.
 
@@ -37,7 +35,7 @@ Ejemplo:
 CREATE INDEX emp_hiredate_idx ON employees (hire_date);
 ```
 
-## Borrado de un índice
+# Borrado de un índice
 
 Cuando se borra una tabla, automáticamente se borran los índices asociados a ella. Los índices ocupan espacio dentro de la BD como si de una tabla se tratara y por esa razón se aconseja tener solo como índices aquellas columnas por las cuales se realizan consultas de forma periódica. Para borrar un índice se utiliza la orden:
 
@@ -45,7 +43,7 @@ Cuando se borra una tabla, automáticamente se borran los índices asociados a e
 drop index nombre_indice;
 ```
 
-## Creación de una secuencia
+# Creación de una secuencia
 
 Las secuencias se utilizan para generar números de forma automática, sin embargo, esto no garantiza la ausencia de ‘huecos’: si se solicitan números a una secuencia y no se utilizan, estos valores se pierdan.
 
@@ -59,7 +57,7 @@ CREATE SEQUENCE Nombre_secuencia
 ```
 
 
-## Utilización de las secuencias
+# Utilización de las secuencias
 
 * **Nombresecuencia.CURRVAL**: Devuelve el valor actual de la secuencia.
 * **Nombresecuencia.NEXTVAL**: Devuelve el valor actual de la secuencia e incrementa el valor de la secuencia. Esta pseudo-columna es la primera a la que se tiene que hacer referencia después de crear la secuencia o abrir una sesión.
@@ -84,6 +82,6 @@ INSERT INTO employees VALUES
 SELECT employee_id, last_name FROM employees WHERE last_name = 'Valdivia';
 ```
 
-#### Siguiente Tema: [Lenguaje Definición de Datos (DDL) - Sinónimos y Pseudocolumnas][1]
+# Siguiente Tema: [Lenguaje Definición de Datos (DDL) - Sinónimos y Pseudocolumnas][1]
 
  [1]: https://elbauldelprogramador.com/lenguaje-definicion-de-datos-ddl_27/

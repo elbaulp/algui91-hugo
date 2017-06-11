@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-16
-
+lastmod: 2017-06-11T17:48:22+01:00
 mainclass: BaseDeDatos
 url: /lenguaje-manipulacion-de-datos-dml/
 aliases: /programacion/basededatos/lenguaje-manipulacion-de-datos-dml/
@@ -25,9 +23,7 @@ Las instrucciones de actualización son aquellas que no devuelven ningún regist
 
 <!--more--><!--ad-->
 
-
-
-## Inserción de registros
+# Inserción de registros
 
 La sentencia INSERT nos permite introducir nuevas filas en una tabla de la base de datos. Su sintaxis más simple es:
 
@@ -71,7 +67,7 @@ INSERT INTO MATRICULAS(nNumMatr,cCodAlu,cNomAlu) VALUES (SQ_NumFactura.NEXTVAL, 
 SELECT * FROM MATRICULAS;
 ```
 
-## Borrado de registros
+# Borrado de registros
 
 La sentencia DELETE nos permite borrar filas de una tabla de la base de datos. Su sintaxis más simple es:
 
@@ -87,7 +83,7 @@ La sentencia DELETE es de tipo DML mientras que la sentencia TRUNCATE es de tipo
 Una vez que se han eliminado los registros utilizando la sentencia DELETE, no puede deshacer la operación. Si desea saber qué registros se eliminarán, primero examine los resultados de una consulta de selección que utilice el mismo criterio y después ejecute la consulta de borrado. Mantenga copias de seguridad de sus datos en todo momento. Si elimina los registros equivocados podrá recuperarlos desde las copias de seguridad.
 Hay que tener en mucho cuidado con la restricción de ON DELETE CASCADE.
 
-### Modificación de registros
+## Modificación de registros
 
 La sentencia UPDATE nos permite modificar filas de una tabla de la base de datos. Su sintaxis más simple es:
 
@@ -105,7 +101,7 @@ Update tabla Set columna1= (Sentencia SELECT) [Where <condici>]
 
 Este tipo de actualizaciones sólo son válidas si la Sentencia SELECT devuelve un único valor, que además debe de ser compatible con la columna que se actualiza.
 
-### Sentencia MERGE
+## Sentencia MERGE
 
 Este comando sirve para actualizar los valores de los registros de una tabla a partir de valores de registros de otra tabla o consulta. Permite pues combinar los datos de dos tablas a fin de actualizar la primera. Su sintaxis es:
 
@@ -144,16 +140,16 @@ WHEN NOT MATCHED THEN
 La situación se muestra en la ilustración siguiente:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="470" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TRnrV2IJs1I/AAAAAAAAAOg/YMDC7sjbyQ0/s800/merge.png" width="765"></amp-img>
+    <amp-img sizes="(min-width: 765px) 765px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="470" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TRnrV2IJs1I/AAAAAAAAAOg/YMDC7sjbyQ0/s800/merge.png" width="765"></amp-img>
 </figure>
 
 y el resultado después de ejecutar la sentencia MERGE sería:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="136" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TRnrQ3Xb0EI/AAAAAAAAAOY/hBO4ZHrwZqA/s800/tablamerge.png" width="374"></amp-img>
+    <amp-img sizes="(min-width: 375px) 375px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="136" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TRnrQ3Xb0EI/AAAAAAAAAOY/hBO4ZHrwZqA/s800/tablamerge.png" width="374"></amp-img>
 </figure>
 
-## Siguiente Tema: [Consulta de Datos - Cláusula Select][7]
+# Siguiente Tema: [Consulta de Datos - Cláusula Select][7]
 
  [1]: https://elbauldelprogramador.com/lenguaje-definicion-de-datosddl-create/
  [2]: https://elbauldelprogramador.com/lenguaje-definicion-de-datosddl-drop/

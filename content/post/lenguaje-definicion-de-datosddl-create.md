@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-16
-
+lastmod: 2017-06-11T17:44:43+01:00
 mainclass: BaseDeDatos
 url: /lenguaje-definicion-de-datosddl-create/
 tags:
@@ -23,7 +21,7 @@ En esta entrada vamos a ver la orden CREATE
 
 CREATE sirve para crear objetos de la base de datos, entre estos objetos tenemos tablas, vistas etc.
 
-### Creación de una tabla
+# Creación de una tabla
 
 ```sql
 CREATE TABLE nombre tabla
@@ -72,7 +70,7 @@ Una cláusula CONSTRAINT puede restringir una sola columna, se habla en este cas
     Cuando la restricción de Integridad Referencial se realiza sobre la definición de un campo en la sentencia CREATE TABLE solo se utiliza la clausula REFERENCES, no se utiliza la clausula FOREIGN KEY; esta última se utiliza cuando la restricción se crea a nivel de tabla.
 * **CHECK.** Es una restricción que exige la integridad del dominio al limitar los valores posibles que se pueden escribir en una o varias columnas.
 
-####  Notas
+##  Notas
 
 - En Oracle no se pueden crear campos calculados ni de autoincremento de forma directa sobre una tabla.
 - Los datos tipo autoincremento se realizan mediante la utilización de secuencias.
@@ -93,7 +91,7 @@ CREATE TABLE nombre tabla
 AS Consulta_SQL;
 ```
 
-#### Ejemplo 1: Restricciones sobre columnas
+## Ejemplo 1: Restricciones sobre columnas
 
 ```sql
 CREATE TABLE Emp1
@@ -109,7 +107,7 @@ CREATE TABLE Emp1
                             CONSTRAINT fk_deptno1 REFERENCES scott.dept(deptno) ) ;
 ```
 
-#### Ejemplo 2: Restricciones sobre la tabla
+## Ejemplo 2: Restricciones sobre la tabla
 
 
 ```sql
@@ -127,13 +125,13 @@ CREATE TABLE emp
    CONSTRAINT fk_deptno FOREIGN KEY (deptno,job) REFERENCES  dept(deptno,job));
 ```
 
-### Descripción de la estructura de una tabla
+# Descripción de la estructura de una tabla
 
 ```sql
 DESCRIBE nombre_tabla;
 ```
 
-### Siguiente Tema: [Data Definition Language(DDL) - DROP.][1]
+# Siguiente Tema: [Data Definition Language(DDL) - DROP.][1]
 
 
  [1]: https://elbauldelprogramador.com/lenguaje-definicion-de-datosddl-drop/

@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-16
-
+lastmod: 2017-06-11T17:43:08+01:00
 mainclass: BaseDeDatos
 url: /lenguaje-definicion-de-datos-ddl_27/
 tags:
@@ -16,7 +14,7 @@ tags:
 title: "Lenguaje Definición de Datos (DDL) - Sinónimos y Pseudocolumnas"
 ---
 
-## Sinónimos
+# Sinónimos
 
 Un sinónimo es un nuevo nombre que se puede asignar a una tabla o a una vista y con ellos podemos darle nombres diferentes a un mismo objeto.
 
@@ -52,9 +50,9 @@ DROP [PUBLIC] SYNONYM [Esquema.]Nombre_Sinonimo;
 
 Solamente el administrador de la BD y usuarios con privilegios adecuados pueden suprimir sinónimos de tipo public.
 
-NOTA: Para ver los sinónimos que son propiedad del usuario se utiliza la vista **USER_SYNONYM**.
+> **NOTA**: Para ver los sinónimos que son propiedad del usuario se utiliza la vista **USER_SYNONYM**.
 
-## Pseudocolumnas
+# Pseudocolumnas
 
 Las pesudocolumnas son similares a los campos de una tabla, pero no lo son, aunque si pueden ser utilizados en instrucciones DML (Select, Insert…).
 
@@ -69,6 +67,6 @@ SELECT USER FROM DUAL;
 SELECT employee_id, hire_date, SYSDATE FROM employees WHERE ROWNUM < 10;
 ```
 
-## Siguiente Tema: [Lenguaje Manipulación de Datos (DML)][1]
+# Siguiente Tema: [Lenguaje Manipulación de Datos (DML)][1]
 
  [1]: https://elbauldelprogramador.com/lenguaje-manipulacion-de-datos-dml/

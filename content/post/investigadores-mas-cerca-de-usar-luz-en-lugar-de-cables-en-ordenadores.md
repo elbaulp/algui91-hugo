@@ -2,9 +2,8 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-06-11T17:28:07+01:00
 mainclass: articulos
 url: /investigadores-mas-cerca-de-usar-luz-en-lugar-de-cables-en-ordenadores/
 tags:
@@ -17,7 +16,7 @@ title: "Investigadores más cerca de usar luz en lugar de cables en ordenadores"
 
 La luz es mucho más eficiente a la hora de transmitir datos que la electricidad a través de cables, pero conseguir que funcione correctamente en un ordenador es algo problemático. Un equipo de ingenieros anunció recientemente un nuevo dispositivo *“enlace óptico”* hecho de silicio que es capaz de doblar la luz en ángulos rectos, lo cual es un gran avance de cara a reemplazar los cables eléctricos en ordenadores. La investigación fue dirigida por **Jelena Vuckovic**, de la universidad de Stanford. El paper se publicó en el *journal Scientific Reports*.
 
-Vuckovic dijo en una [rueda de prensa][1]:
+*Vuckovic* dijo en una [rueda de prensa][1]:
 
 <!--more--><!--ad-->
 
@@ -39,12 +38,11 @@ Aunque el enlace es un dispositivo impresionante ahora, la primera aproximación
 
 Además de los rayos de luz en forma de T generados por el enlace en éste estudio, el algoritmo hace posible tener infinitas formas de manipular la luz, lo cual podría ser muy útil en la transmisión óptica de datos conforme se avanza en éste campo.
 
-#### Referencias
+# Referencias
 
-**Créditos de la imagen: Vuckovic Lab**
-*Artículo original* »» <a href="http://www.iflscience.com/physics/researchers-closer-using-optics-instead-wires-computers" target="_blank">iflscience.com</a>
-*Paper de la investigación* »» <a href="" target="_blank">nature.com</a>
-
+- **Créditos de la imagen: Vuckovic Lab**
+- *Artículo original* »» <a href="http://www.iflscience.com/physics/researchers-closer-using-optics-instead-wires-computers" target="_blank">iflscience.com</a>
+- *Paper de la investigación* »» <a href="" target="_blank">nature.com</a>
 
 
  [1]: http://news.stanford.edu/news/2014/december/optical-silicon-algorithm-120214.html "Stanford engineers take big step toward using light instead of wires inside computers"

@@ -2,9 +2,8 @@
 author: alex
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-
+lastmod: 2017-06-11T17:34:40+01:00
 mainclass: dev
 url: /jugando-con-la-seccion-dtors-de-la-tabla-de-secciones-en-c/
 tags:
@@ -15,7 +14,6 @@ tags:
 title: Jugando con las secciones .dtors y .ctors de la tabla de secciones en C
 ---
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="https://lh4.ggpht.com/_IlK2pNFFgGM/TROxbBd0LMI/AAAAAAAAAOA/YQiMnAyp4EQ/text-x-c%2B%2Bsrc.png" class="alignleft" />
 Los que me leéis habitualmente probablemente hayais visto los artículos que escribí sobre [ingeniería inversa en C][1], o [explotación de buffers overflows][2]. Son temas que me llaman la atención, hoy quiero hablaros de dos secciones de la tabla de secciones en C llamadas *.dtors* y *.ctors*, creada por los binarios compilados con el compilador de GNU.
 
 Estas secciones se crean para los [destructores][3] y [constructores][4], respectivamente. Los constructores se llaman justo antes de ejecutar la función `main()` y los destructores se llaman justo antes de que `main()` finalize con la llamada al sistema `exit`.
@@ -197,24 +195,20 @@ Contents of section .fini_array:
 ```
 
 La primera dirección apunta a la tabla de desplazamiento global (\_GLOBAL\_OFFSET\_TABLE\_) y la segunda a _\_do\_global\_dtors\_aux.
+
 La última dirección (3c840408) corresponde con la dirección de la función `miDestructor`, pero en little-endian (0804843c). Al poder modificar dicha tabla, sería posible tomar el control del programa explotando alguna vulnerabilidad y obtener una shell con permisos de root. El propósito inicial del artículo era mostar cómo explotar dicha vulnerabilidad, pero al no existir la sección .ctors y .dtors no va a ser posible, ya que he estado trasteando un poco con estas secciones nuevas y no he conseguido nada.
 
 Aún así, espero que os haya resultado útil para aprender sobre los constructores y destructores en C, y hayáis conocido un poco más a fondo la estructura de un ejecutable.
 
 http://www.exploit-db.com/papers/13234/
 
-#### Referencias
+# Referencias
 
-*Replace .ctors/.dtors with .init\_array/.fini\_array* »» <a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=46770" target="_blank">gcc.gnu.org</a>
-*Abusing .CTORS and .DTORS For FUN and PROFIT* »» <a href="http://www.exploit-db.com/papers/13234/" target="_blank">exploit-db.com</a>
-
-
+- *Replace .ctors/.dtors with .init\_array/.fini\_array* »» <a href="http://gcc.gnu.org/bugzilla/show_bug.cgi?id=46770" target="_blank">gcc.gnu.org</a>
+- *Abusing .CTORS and .DTORS For FUN and PROFIT* »» <a href="http://www.exploit-db.com/papers/13234/" target="_blank">exploit-db.com</a>
 
  [1]: https://elbauldelprogramador.com/desafio-de-ingenieria-inversa-en-c-soluciones/ "Desafío de ingeniería inversa en C – Soluciones"
  [2]: https://elbauldelprogramador.com/explotacion-buffers-overflows-y-exploits-parte-i/ "Explotación – Buffers OverFlows y exploits (Parte I)"
  [3]: https://elbauldelprogramador.com/clases-y-objetos-el-destructor/
  [4]: https://elbauldelprogramador.com/clases-y-objetos-el-constructor/
  [5]: https://elbauldelprogramador.com/ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/ "Ocultar archivos dentro de una imagen"
-
-
-</stdlib.h></stdio.h>
