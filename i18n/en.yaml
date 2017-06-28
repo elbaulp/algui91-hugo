@@ -80,3 +80,5 @@
   translation: "Modified on"
 - id: related
   translation: "Maybe this posts are also worth reading"
+- id: title
+  translation: "The Programmer Chest"

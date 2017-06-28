@@ -23,7 +23,7 @@ gulp.task('stylus', function(){
       compress: true
     }))
     //.pipe(purify(['_site/**/*.js', '_site/**/*.html'], options = {info:true, rejected:true, minify:true}))
-    .pipe(rename('stylesheet.html'))
+    .pipe(rename('stylesheet.css'))
     .pipe(gulp.dest('layouts/partials/'));
 });
 

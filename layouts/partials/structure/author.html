@@ -1,6 +1,5 @@
-{{ $author := index .Site.Data.authors .Params.author }}
-
-
+{{ $authorSet := .Params.author | default "alex" }}
+{{ $author := index .Site.Data.authors $authorSet }}
 
 <section class="author">
   <div class="details">

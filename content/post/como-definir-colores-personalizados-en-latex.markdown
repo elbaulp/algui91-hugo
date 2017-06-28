@@ -1,6 +1,6 @@
 ---
 author: alex
-categories: LaTeX
+categories: [latex]
 date: 2015-12-09 15:55:32
 lastmod: 2017-03-18T12:31:22+01:00
 description: "En este artículo veremos cómo podemos definir colores personalizados  en LateX usando el paquete xcolor."

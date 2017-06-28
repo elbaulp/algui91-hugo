@@ -3,7 +3,7 @@
   <strong>{{ T "post_cats" }}</strong>
   <div id="taxo">
   {{ range . }}
-  <a id="cats" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}">{{ . }}</a>
+     <a id="cats" href="{{ "/categories/" | absLangURL }}{{ . | urlize }}">{{ . }}</a>
   {{ end }}
   </div>
 {{ end }}

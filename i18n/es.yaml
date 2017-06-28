@@ -80,3 +80,5 @@
   translation: "Modificado el"
 - id: related
   translation: "Quizá también te interese leer..."
+- id: title
+  translation: "El Baúl del Programador"

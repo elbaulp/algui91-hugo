@@ -2,7 +2,7 @@
 author: alex
 amp:
   elements: [amp-youtube]
-categories: android
+categories: [android]
 color: '#689F38'
 date: 2016-06-14 07:45:21
 description: "En este artículo se verá cómo almacenar datos del usuario en

@@ -1,6 +1,6 @@
 ---
 author: alex
-categories: LaTeX
+categories: [latex]
 date: 2016-09-16 13:48:53
 lastmod: 2017-04-02T19:24:37+01:00
 description: "Breve introducción al paquete PgfGantt de LaTeX, para crear diagramas  de Gantt"
