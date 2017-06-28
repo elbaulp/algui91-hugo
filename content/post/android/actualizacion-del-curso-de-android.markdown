@@ -1,6 +1,6 @@
 ---
 author: alex
-categories: android
+categories: [android]
 color: '#689F38'
 date: 2015-12-11 16:24:12
 description: "Hacía mucho tiempo que tenía pendiente escribir este artículo.

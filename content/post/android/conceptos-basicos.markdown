@@ -1,6 +1,6 @@
 ---
 author: alex
-categories: android
+categories: [android]
 color: '#689F38'
 date: 2015-12-14 07:53:53
 description: "En este primer artículo veremos los conceptos fundamentales que componen
