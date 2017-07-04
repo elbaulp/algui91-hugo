@@ -3,6 +3,7 @@ author: alex
 categories:
 - misc
 date: 2016-08-24 08:22:59
+lastmod: 2017-07-04T12:18:39+01:00
 description: Delve into the world of Android Programming with this compact cookbook that introduces common recipes for the Android platform!
 image: guides/Android-Programming-Cookbook-centered.jpg
 introduction: Delve into the world of Android Programming with this compact cookbook that introduces common recipes for the Android platform!
@@ -14,10 +15,9 @@ title: Libro Gratuito. Android Programming Cookbook
 ---
 
 <figure>
-   <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/guides/Android-Programming-Cookbook-centered.jpg" alt="{{ title }}" title="{{ title }}" width="800" height="420">
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/guides/Android-Programming-Cookbook-centered.jpg" alt="Libro Gratuito. Android Programming Cookbook" title="Libro Gratuito. Android Programming Cookbook" width="800" height="420">
    </amp-img>
 </figure>
-
 
 [Android](/curso-programacion-android/ "Curso de Android") is a mobile operating system developed by Google, based on the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and tablets. Android's user interface is mainly based on direct manipulation, using touch gestures that loosely correspond to real-world actions, such as swiping, tapping and pinching, to manipulate on-screen objects, along with a virtual keyboard for text input.
 
