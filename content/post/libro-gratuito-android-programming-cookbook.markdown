@@ -2,14 +2,10 @@
 author: alex
 categories:
 - misc
-color: null
 date: 2016-08-24 08:22:59
-description: Delve into the world of Android Programming with this compact cookbook
-  that introduces common recipes for the Android platform!
+description: Delve into the world of Android Programming with this compact cookbook that introduces common recipes for the Android platform!
 image: guides/Android-Programming-Cookbook-centered.jpg
-introduction: Delve into the world of Android Programming with this compact cookbook
-  that introduces common recipes for the Android platform!
-
+introduction: Delve into the world of Android Programming with this compact cookbook that introduces common recipes for the Android platform!
 mainclass: misc
 tags:
 - manuales
