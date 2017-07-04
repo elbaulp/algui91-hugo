@@ -1,4 +1,0 @@
-# Sitemap
-
-sitemap: https://elbauldelprogramador.com/sitemap.xml
-User-agent: *

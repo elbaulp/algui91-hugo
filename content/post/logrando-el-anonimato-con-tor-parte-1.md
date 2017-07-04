@@ -5,11 +5,9 @@ categories:
 - articulos
 - opensource
 - seguridad
-color: '#F57C00'
 date: '2016-01-01'
+lastmod: 2017-07-04T12:25:02+01:00
 image: 2012/11/081012_1601_AchievingAn21-300x86.png
-lastmod: 2016-08-08
-
 mainclass: articulos
 url: /logrando-el-anonimato-con-tor-parte-1/
 aliases:
@@ -19,20 +17,19 @@ tags:
 - navegacion anonima
 - Tor
 title: Logrando el anonimato con Tor (Parte 1)
+elements: amp-youtube
 ---
 
 * Logrando el anonimato con Tor (Parte 1)
-  * [Logrando el anonimato con Tor (Parte 2): Servidores DNS y Proxies][1]
-  * [Logrando el anonimato con Tor (Parte 3): TorButton y Tsocks][2]
-  * [Logrando el anonimato con Tor (Parte 4): Tor para relés][3]
-
-
+* [Logrando el anonimato con Tor (Parte 2): Servidores DNS y Proxies][1]
+* [Logrando el anonimato con Tor (Parte 3): TorButton y Tsocks][2]
+* [Logrando el anonimato con Tor (Parte 4): Tor para relés][3]
 
 Todos sabemos que Tor nos permite navegar anónimamente en Internet. En este artículo veremos cómo lograrlo y verdaderamente saber contra qué luchamos.
 
 Primero instalemos Tor y empecemos a usarlo para desasirnos de algunas cosas. Hay muchos tutoriales en Internet que describen cómo instalar y usar Tor, pero mencionemos una vez más todos los pasos requeridos.
 
-## 1. Instalación
+# 1. Instalación
 
 Asumiremos que usas la distribución Ubuntu Linux, sin embargo los pasos son relevantes a su vez para otras distribuciones. Primero veamos [1] cómo agregar el repositorio correcto a la lista de fuentes. En caso de que uses Ubuntu 10.04 - las mismas versiones que Backtrack 5 R2 usa - ejecuta los siguientes comandos:
 
@@ -90,7 +87,7 @@ tcp 0 0 127.0.0.1:9050 0.0.0.0:* LISTEN 8540/tor
 Ok, los puertos están en estado de escucha, lo que significa que todo está bien, porque pueden aceptar conexiones. el único paso que nos falta es configurar nuestro navegador para que use privoxy. Un ejemplo de configuración de Firefox se presenta en la siguiente imagen:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class="size-medium wp-image-1027 alignnone" src="/img/2012/11/081012_1601_AchievingAn12-300x298.png" alt="" width="300px" height="298px"></amp-img>
+    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class="size-medium wp-image-1027 alignnone" src="/img/2012/11/081012_1601_AchievingAn12-300x298.png" alt="" width="300px" height="298px"></amp-img>
 </figure>
 
 Podemos ver que configuramos el navegador para conectarse a traves del proxy que está corriendo en IP 127.0.0.1 y el puerto 8118, el cual es exactamente nuestro proxy Privoxy. Así nuestro navegador web se conecta a Privoxy, el cual se conecta en turnos a Tor, que nos permite navegar en Internet anónimamente.
@@ -98,7 +95,7 @@ Podemos ver que configuramos el navegador para conectarse a traves del proxy que
 Verifiquemos si el navegador está efectivamente usando la red Tor para navegar en internet de manera anónima. Podemos hacerlo visitando la URI <a href="http://check.torproject.org/" target="_blank">Check Torproject</a>. Si ves algo como la siguiente imagen, entonces hemos configurado Tor exitosamente y podemos navegar en Internet de forma anónima.
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/11/081012_1601_AchievingAn21-300x86.png" alt="" width="300px" height="86px"></amp-img>
+    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/11/081012_1601_AchievingAn21-300x86.png" alt="" width="300px" height="86px"></amp-img>
 </figure>
 
 En vez de configurarlo manualmente, también podemos usar Tor Browser Bundle, el cual integra prácticamente todo lo que necesitamos. Simplemente tenemos que descargar Tor Browser Bundle, extraerlo y ejecutar el script start-for-browser, de la siguiente manera:
@@ -112,7 +109,7 @@ En vez de configurarlo manualmente, también podemos usar Tor Browser Bundle, el
 Este script primero inicia Vidalia, que es un QT frontend para Tor y se ve así:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/11/081012_1601_AchievingAn31-284x300.png" alt="" width="284px" height="300px"></amp-img>
+    <amp-img sizes="(min-width: 284px) 284px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/11/081012_1601_AchievingAn31-284x300.png" alt="" width="284px" height="300px"></amp-img>
 </figure>
 
 En esta imagen podemos ver que nos conectamos exitosamente a la red Tor (se conecta cuando se inicia Vidalia). Si clickeamos en &#8220;View the Network&#8221; (Ver la Red), obtendremos una lista de todos los nodos online que la red Tor está usando - esto puede estar más actualizado en <a href="http://torstatus.all.de/index.php?SR=Bandwidth&SO=Desc" target="_blank">Nodos Tor</a>.
@@ -120,12 +117,12 @@ En esta imagen podemos ver que nos conectamos exitosamente a la red Tor (se cone
 El script tambien abrirá el navegador web Tor una vez que nos conectemos con éxito a la red Tor. Este navegador está basado en Firefox y se ve como en la siguiente imagen:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/11/081012_1601_AchievingAn41-300x86.png" alt="" width="300px" height="86px"></amp-img>
+    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/11/081012_1601_AchievingAn41-300x86.png" alt="" width="300px" height="86px"></amp-img>
 </figure>
 
 Podemos ver que nuestro navegador está usando efectivamente la red Tor y podemos navegar en Internet de manera anónima.
 
-## 2. Cómo funciona Tor
+# 2. Cómo funciona Tor
 
 
 Antes de describir cómo funciona Tor, debemos saber cómo funciona la internet moderna. Cuando visitamos un sitio web como <a href="http://www.google.com" target="_blank">Google</a> estamos enviando una petición a uno de los servidores web de Google. Pero esto no sucede directamente de nuestra computadora al servidor de Google. Lo que ocurre es que nosotros enviamos la petición primero a nuestro router, seguido por el ISP (Internet Service Provider), el cual la reenvía a uno de los NIRs (National Internet Registries), que se encarga de reenviarla a uno de los LIRs (Local Internet Registries), que a su vez la reenvía a uno de los RIRs (Regional Internet Registries), etc, hasta que eventualmente el proceso es revertido una vez que la petición alcanzó el destino - el servidor de Google. Puede observarse esto usando el programa Traceroute que envía paquetes con un valor específico de TTL (Time to Live), que expira en cada salto (TTL es aumentado en 1 cada vez que el paquete es enviado para asegurar que expira) entre nuestro cliente y el servidor, revelando la identidad de cada nodo. Para encontrar todos los nodos que el paquete tiene que visitar cuando viaja a traves de Internet al servidor web de Google, podemos ejecutar el comando siguiente:
@@ -161,7 +158,7 @@ Con Tor, podemos asegurarnos que Internet aunque canaliza la información, no ti
 
 Con motivo de esconder la información del nivel de aplicación que pueda comprometer nuestro anonimato, podemos usar <a href="https://www.torproject.org/torbutton/" target="_blank">Torbutton</a>, una extensión de Firefox que inhabilita muchos posibles filtrados de información que nos puedan comprometer. O lo que es mejor, podemos usar<a href="https://www.torproject.org/projects/torbrowser.html.en" target="_blank"> Tor browser bundle</a>, el cual usa Vidalia para configurar e iniciar Tor. Éste además abre el navegador Web Tor con Torbutton integrado, el que podemos usar para buscar anónimamente en internet.
 
-## 3. Variables de configuración de Tor
+# 3. Variables de configuración de Tor
 
 Presentemos lo que el manual dice sobre las variables de configuración que usamos en este artículo:
 
@@ -171,7 +168,7 @@ Presentemos lo que el manual dice sobre las variables de configuración que usam
 - __SocksListenAddress__: Bindea hacia esta dirección para esperar por conexiones de aplicaciones de Socks-speaking. (Default: 127.0.0.1) Puedes especificar incluso un puerto (e.g. 192.168.0.1:9100) esta directiva puede ser especificada múltiples veces para bindear múltiples direcciones/puertos.
 - __SocksPort__: Activa este puerto para esperar conexiones de aplicaciones Socks-speaking. Configuralo en 0 si no quieres permitir conexiones con aplicaciones vía SOCKS. Configuralo en &#8220;auto&#8221; para dejar que Tor seleccione un puerto por vos. (Default: 9050)
 
-## 4. Configurar resolución DNS de forma segura
+# 4. Configurar resolución DNS de forma segura
 
 La única cosa que debemos realmente observar cuando usamos Tor es la resolución de DNS. Usualmente nuestra máquina cliente está usando nuestros propios servidores DNS, los cuales en turnos usan los servidores DNS del ISP, por lo tanto un intruso puede todavía obtener la IP origen y destino con el que nos estamos comunicando. Este es un comportamiento no deseado, porque el servidor DNS ve qué hostname estamos intentando resolver y conectarnos, lo que puede derivar en una revelación de usuario.
 
@@ -195,12 +192,19 @@ WarnUnsafeSocks 1
 
 En el próximo artículo describiremos cómo configurar el mecanismo de resolución de DNS para evitar cualquier posible robo de información.
 
-## 5. Conclusión
+# 5. Conclusión
 
 Podemos ver que si somos cuidadosos podemos ser totalmente anónimos en Internet. Debemos vigilar que no resolvamos los hostnames de forma local y debemos no incluir información sensible en los datos de una aplicación que pueda desenmascararnos. Si cumplimos con esto, podemos realmente navegar de manera anónima en Internet.
 
+<amp-youtube
+    data-videoid="QRYzre4bf7I"
+    layout="responsive"
+    width="480"
+    height="270">
+</amp-youtube>
 
-### Referencias:
+
+# Referencias:
 
 - Manual de Tor, <a href="https://www.torproject.org/docs/tor-manual.html.en" target="_blank">https://www.torproject.org/docs/tor-manual.html.en</a>.
 - *Infosec* »» <a href="http://resources.infosecinstitute.com/tor-part-1/" target="_blank">Visitar sitio</a>

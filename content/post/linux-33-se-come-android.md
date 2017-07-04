@@ -4,9 +4,8 @@ categories:
 - android
 - linux
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-
+lastmod: 2017-07-04T12:22:31+01:00
 mainclass: android
 url: /linux-33-se-come-android/
 tags:
@@ -16,9 +15,9 @@ title: Linux 3.3 se come a Android
 
 Android se ha mezclado en el recién estrenado kernel linux 3.3, poniendo fin a años de controversia sobre cómo debería llevarse a cabo la tarea de combinar software libre, resultando así más sencillo para los desarrolladores crear aplicaciones multiplataforma. Aunque Android y la rama principal de Linux comparten una gran cantidad de código, el kernel básico se había separado; Con esta nueva versión los fabricantes podrán simplemente lanzar sus drivers para el hardware específico en un apartado basado en Linux y tener un dispositivo Android funcional.
 
-<div >
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="456" width="580" src="https://3.bp.blogspot.com/-wmvDyfmx96c/T2eRobfMcdI/AAAAAAAACQ0/OESZzQKxrvw/s1600/tux_eats_android-580x456.jpg" />
-</div>
+<figure>
+    <amp-img sizes="(min-width: 456px) 456px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="456" width="580" src="https://3.bp.blogspot.com/-wmvDyfmx96c/T2eRobfMcdI/AAAAAAAACQ0/OESZzQKxrvw/s1600/tux_eats_android-580x456.jpg" />
+</figure>
 
 En las notas de la liberación de Android 3.3 se dice:
 

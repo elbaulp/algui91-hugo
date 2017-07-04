@@ -4,10 +4,8 @@ categories:
 - linux
 - opensource
 - procesos
-color: '#2196F3'
 date: '2016-01-01'
-lastmod: 2016-10-01
-
+lastmod: 2017-07-01T13:47:33+01:00
 mainclass: linux
 url: /liberada-la-version-10-de-htop/
 tags:
@@ -63,13 +61,13 @@ El tiempo vuela, no puedo creer que hayan pasado ya 8 años de desarrollo. Parec
 Para instalarlo tan solo debéis escribir en el terminal:
 
 ```bash
-sudo aptitude install htop
+$ sudo aptitude install htop
 ```
 
 Al ejecutarlo veremos algo parecido a lo siguiente:
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="linux htop" width="800" height="640" src="https://4.bp.blogspot.com/-ZCdSHEPwhvc/TswerYkwIZI/AAAAAAAAB1U/j909jru88cU/s800/Screenshot-Terminal.png"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="linux htop" width="800" height="640" src="https://4.bp.blogspot.com/-ZCdSHEPwhvc/TswerYkwIZI/AAAAAAAAB1U/j909jru88cU/s800/Screenshot-Terminal.png"></amp-img>
 </figure>
 
 Vía <a target="_blank" href="http://www.muylinux.com/2011/11/22/ocho-anos-despues-llega-htop-1-0/">MuyLinux</a>

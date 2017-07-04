@@ -2,14 +2,11 @@
 author: alex
 categories:
 - misc
-color: '#61B38D'
 date: 2016-03-15 07:39:18
-description: Delve into the world of Spring Data Programming with this compact cookbook
-  that introduces common recipes for the Spring Data framework!
+lastmod: 2017-07-04T12:20:44+01:00
+description: Delve into the world of Spring Data Programming with this compact cookbook that introduces common recipes for the Spring Data framework!
 image: Spring-Data-Programming-Cookbook.jpg
-
 mainclass: misc
-modified: null
 tags:
 - manual de spring data
 - cookbook spring
@@ -19,7 +16,7 @@ title: "Guía Gratuita - Spring Data Programming Cookbook"
 ---
 
 <figure>
-<a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_java22&ch=ocsoc"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Spring-Data-Programming-Cookbook.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="1200px" height="630px" /></a>
+<a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_java22&ch=ocsoc"><amp-img sizes="(min-width: 1200px) 1200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Spring-Data-Programming-Cookbook.jpg" title="Guía Gratuita - Spring Data Programming Cookbook" alt="Guía Gratuita - Spring Data Programming Cookbook" width="1200px" height="630px" /></a>
 </figure>
 
 Delve into the world of Spring Data Programming with this compact cookbook that introduces common recipes for the Spring Data framework!

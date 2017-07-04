@@ -4,20 +4,18 @@ categories:
 - curiosidades
 - linux
 - opensource
-color: '#2196F3'
 date: 2016-09-01
+lastmod: 2017-07-04T12:21:37+01:00
 description: "Visualización de la evolución de las distribuciones GNU/Linux"
 image: linea-cronologica-de-distribuciones.png
 introduction: "Visualización de la evolución de las distribuciones GNU/Linux"
-lastmod: 2016-09-01
-
 mainclass: linux
 url: /linea-cronologica-de-distribuciones/
 title: "Evolución de las distribuciones GNU/Linux, de 1992 a 2016"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/linea-cronologica-de-distribuciones.png" alt="{{ title }}" title="{{ title }}" width="800" height="400"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/linea-cronologica-de-distribuciones.png" alt="Evolución de las distribuciones GNU/Linux, de 1992 a 2016" title="Evolución de las distribuciones GNU/Linux, de 1992 a 2016" width="800" height="400"></amp-img>
 </figure>
 
 Hoy os traigo la línea cronológica de las [distribuciones GNU/Linux](/categories/linux/ "Artículos sobre linux") desde el año 1992 al 2016, es increíble la cantidad de distribuciones que hay.
@@ -30,6 +28,6 @@ A partir de estas 3, se abre un abanico inmenso de distribuciones, y seguro que 
 
 - [https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg "Evolución de las distros GNU/Linux, de 1992 a 2016")
 
-## Referencias
+# Referencias
 
 - [linuxtimeline](https://github.com/konimex/linuxtimeline "Repositorio en Github de LinuxTimeline")
