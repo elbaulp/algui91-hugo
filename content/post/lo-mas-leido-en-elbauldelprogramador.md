@@ -2,10 +2,8 @@
 author: alex
 categories:
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-10-08
-
+lastmod: 2017-07-04T19:48:39+01:00
 mainclass: articulos
 url: /lo-mas-leido-en-elbauldelprogramador/
 title: "Lo más leido en ElbaulDelProgramador (Noviembre 2011)"
@@ -13,32 +11,30 @@ title: "Lo más leido en ElbaulDelProgramador (Noviembre 2011)"
 
 Con esta entrada os dejo lo más leido del més en el blog, junto con algunos datos estadísticos:
 
-
-
-##### Entradas
+# Entradas
 
 <!--more--><!--ad-->
 
-  * [Humor gráfico - Informáticos, Programadores, geek&#8230; - 9GAG.COM][1]
-  * [Chistes de informaticos - www.desmotivaciones.es][2]
-  * [Rootear Samsung Galaxy S GT-I9003][3]
-  * [Conectar base de datos sql Server 2008 a aplicación Java remotamente][4]
-  * [Por qué nuestro PC necesita un firewall activado][5]
-  * [Guerra de navegadores - Humor][6]
-  * [Programación Android: Hola Mundo][7]
-  * [Los desarrolladores de GNOME crean &#8220;Boxes&#8221; para la virtualización][8]
-  * [Programación Android: Interfaz gráfica - Layouts][9]
-  * [Programación Android: Interfaz gráfica - Diálogos y notificaciones][10]
+* [Humor gráfico - Informáticos, Programadores, geek&#8230; - 9GAG.COM][1]
+* [Chistes de informaticos - www.desmotivaciones.es][2]
+* [Rootear Samsung Galaxy S GT-I9003][3]
+* [Conectar base de datos sql Server 2008 a aplicación Java remotamente][4]
+* [Por qué nuestro PC necesita un firewall activado][5]
+* [Guerra de navegadores - Humor][6]
+* [Programación Android: Hola Mundo][7]
+* [Los desarrolladores de GNOME crean &#8220;Boxes&#8221; para la virtualización][8]
+* [Programación Android: Interfaz gráfica - Layouts][9]
+* [Programación Android: Interfaz gráfica - Diálogos y notificaciones][10]
 
-##### Usuarios
+# Usuarios
 
 En cuanto a los usuarios, los lectores principalmente son Españoles, seguidos de México y Argentína
 
-##### Navegadores
+# Navegadores
 
 El navegador que más usan los lectores es Firefox (39%), seguido de Chrome (30%) e Internet Explorer (16%)
 
-##### Sistema Operativo
+# Sistema Operativo
 
 Claramente gana Windows con un 68%, seguido de Linux (17%), MAC (4%) y Android (4%)
 

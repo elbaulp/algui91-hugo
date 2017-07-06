@@ -2,15 +2,9 @@
 author: alex
 categories:
 - java
-color: '#D32F2F'
 date: '2016-01-01'
-description: "En este artículo veremos un poco sobre el manejo de excepciones en
-  java, esto es esencial para toda programación básica en java, una excepción
-  es un indicador que tenemos de que algo ha ido mal en nuestro código. Con lo
-  cual podremos controlarlas y capturarlas para poder tratar con ellas e indicar lo
-  que se tiene que hacer."
-lastmod: 2015-12-24
-
+lastmod: 2017-07-06T12:35:07+01:00
+description: "En este artículo veremos un poco sobre el manejo de excepciones en  java, esto es esencial para toda programación básica en java, una excepción  es un indicador que tenemos de que algo ha ido mal en nuestro código. Con lo  cual podremos controlarlas y capturarlas para poder tratar con ellas e indicar lo  que se tiene que hacer."
 mainclass: java
 url: /manejar-excepciones-en-java/
 tags:
@@ -23,13 +17,13 @@ title: Manejar excepciones en Java
 
 > Éste artículo es una colaboración de [Jonathan Melgoza.][1]
 
-## Introducción
+# Introducción
 
 En este artículo veremos un poco sobre el manejo de excepciones en java, esto es esencial para toda programación básica en java, una excepción es un indicador que tenemos de que algo ha ido mal en nuestro código. Con lo cual podremos controlarlas y capturarlas para poder tratar con ellas e indicar lo que se tiene que hacer.
 
 <!--more--><!--ad-->
 
-### Instrucción Try - Catch
+## Instrucción Try - Catch
 
 Cuando sabemos que un código podría lanzar un error, como por ejemplo una división entre cero, debemos encerrarla entre un bloque `try-catch`. Veamos un ejemplo:
 
@@ -51,7 +45,7 @@ try{
 
 ```
 
-### El Bloque Finally
+## El Bloque Finally
 
 `Finally` se utiliza cuando el programador solicita ciertos recursos al sistema que se deben liberar, y se coloca después del último bloque `catch`. Veamos un ejemplo en el que intentamos leer un archivo:
 
@@ -76,7 +70,7 @@ try {
 
 el código contenido en `finally` se ejecutará tras terminar el bloque `try`, haya habido o no excepción, lo que permite liberar los recursos reservados para abrir el archivo. (Más sobre finally en la [documentación de Oracle][2])
 
-### La Cláusula Throws
+## La Cláusula Throws
 
 Esta cláusula advierte de las excepciones que podría lanzar un método, van entre la declaración del método y su cuerpo (pueden ser varias), así:
 
@@ -91,7 +85,7 @@ public static void metodo() throws ArithmeticException{
 
 ```
 
-### La palabra clave throw
+## La palabra clave throw
 
 `throw` nos permite lanzar una excepción propia, esto lo veremos en el siguiente ejemplo en el que aprovechamos para englobar todo lo visto aquí:
 
@@ -120,8 +114,6 @@ public static class MalNumeroADividir extends Exception {
        super("No es posible dividir entre cero");
    }
 }
-
-
 ```
 
 Como vimos el manejo de las excepciones en java no es algo difícil de implementar.
