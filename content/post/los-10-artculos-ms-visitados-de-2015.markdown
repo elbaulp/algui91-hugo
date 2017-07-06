@@ -2,20 +2,17 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: 2015-12-15 07:17:53
-description: "Se nos va otro año, estos son los 10 artículos que más os han
-  gustado"
+lastmod: 2017-07-04T20:02:11+01:00
+description: "Se nos va otro año, estos son los 10 artículos que más os han gustado"
 image: los10articulosmasvisitados2015.png
-
 mainclass: articulos
-modified: null
 title: "Los 10 Artículos Más Visitados De 2015"
 ---
 
 <figure>
-<a href="/img/los10articulosmasvisitados2015.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/los10articulosmasvisitados2015.png" title="{{ page.title }}" alt="{{ page.title }}" width="1024px" height="512px" /></a>
-<span class="image-credit">Crédito de la imagen: Buffer</span>
+    <a href="/img/los10articulosmasvisitados2015.png"><amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/los10articulosmasvisitados2015.png" title="Los 10 Artículos Más Visitados De 2015" alt="Los 10 Artículos Más Visitados De 2015" width="1024px" height="512px" /></a>
+    <span class="image-credit">Crédito de la imagen: Buffer</span>
 </figure>
 
 Prácticamente hemos terminado este 2015. Llegadas estas fechas, me gusta acudir a las estadísticas para sacar conclusiones y ver qué artículos han gustado más. Abajo se muestra una lista con los 10 más visitados. ¿Y a tí, qué artículo del blog ha sido el que más te ha gustado?, déjanos un comentario con tu opinión.

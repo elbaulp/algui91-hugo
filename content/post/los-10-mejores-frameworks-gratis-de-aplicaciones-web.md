@@ -3,10 +3,8 @@ author: alex
 categories:
 - articulos
 - internet
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-14
-
+lastmod: 2017-07-04T20:03:53+01:00
 mainclass: articulos
 url: /los-10-mejores-frameworks-gratis-de-aplicaciones-web/
 tags:
