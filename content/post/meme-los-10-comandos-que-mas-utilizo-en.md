@@ -2,10 +2,8 @@
 author: alex
 categories:
 - meme
-color: '#2196F3'
 date: '2016-01-01'
-lastmod: 2016-08-30
-
+lastmod: 2017-07-07T18:33:17+01:00
 mainclass: linux
 url: /meme-los-10-comandos-que-mas-utilizo-en/
 title: "Descubre cuales son los 10 comandos que más usas en Linux con esta línea"

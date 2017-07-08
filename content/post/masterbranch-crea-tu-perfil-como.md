@@ -4,10 +4,8 @@ categories:
 - aplicaciones
 - internet
 - opensource
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-09-09
-
+lastmod: 2017-07-07T18:32:08+01:00
 mainclass: articulos
 url: /masterbranch-crea-tu-perfil-como/
 title: MasterBranch - Crea tu perfil como Programador y muestra todos tus proyectos
@@ -27,11 +25,9 @@ MasterBranch busca nuestros proyectos automáticamente, pero si por algún motiv
 
 Os dejo mi [Perfil][1], aunque aún falta por agregar el proyecto que ando desarrollando ahora, [WifiBar][2]
 
-
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="293" width="400" src="https://4.bp.blogspot.com/-9km3TPlNXMU/TdF7XXobO2I/AAAAAAAAAfI/wMH4SrHwKpA/s400/masterbranch.png"></amp-img>
+    <amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="293" width="400" src="https://4.bp.blogspot.com/-9km3TPlNXMU/TdF7XXobO2I/AAAAAAAAAfI/wMH4SrHwKpA/s400/masterbranch.png"></amp-img>
 </figure>
-
 
 Sitio Web: [masterbranch.com][3]
 

@@ -4,10 +4,8 @@ categories:
 - aplicaciones
 - noticias
 - opensource
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-09-04
-
+lastmod: 2017-07-07T18:33:09+01:00
 mainclass: dev
 url: /mejoras-para-el-proyecto-pylabra/
 title: Mejoras para el proyecto PyLabra
