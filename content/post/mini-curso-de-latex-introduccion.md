@@ -2,19 +2,13 @@
 author: marta
 categories:
 - latex
-color: '#B31917'
 date: '2016-01-01'
-description: "En este tutorial, curso o como queráis llamarlo os voy a enseñar
-  lo básico que debéis saber para hacer vuestros documentos en <strong>LaTeX</strong>!
-  Como estamos en un blog sobre informática vamos a orientarlo un poco hacia la
-  informática."
+lastmod: 2017-07-08T08:00:19+01:00
+description: "En este tutorial, curso o como queráis llamarlo os voy a enseñar lo básico que debéis saber para hacer vuestros documentos en <strong>LaTeX</strong>! Como estamos en un blog sobre informática vamos a orientarlo un poco hacia la informática."
 image: 2013/05/latex_logo.png
-lastmod: 2015-12-22
-
 mainclass: latex
 url: /mini-curso-de-latex-introduccion/
 tags:
-- codigo latex
 - curso latex
 - "curso latex español"
 - enlaces latex
@@ -28,14 +22,14 @@ title: "Mini Curso de LaTeX - Introducción"
 ---
 
 <figure>
-<a href="/img/2013/05/latex_logo.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="{{ page.title }}" alt="{{ page.title }}" width="300px" height="114px" /></a>
+    <a href="/img/2013/05/latex_logo.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Mini Curso de LaTeX - Introducción" alt="Mini Curso de LaTeX - Introducción" width="300px" height="114px" /></a>
 </figure>
 
 * Mini Curso de LaTeX - Introducción
 * [Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos][1]
 * [Mini Curso de LaTeX - Figuras, Enlaces y cabeceras][2]
 
-## Mini curso de Latex
+# Mini curso de Latex
 
 ¡Hola *internet*!
 
@@ -47,7 +41,7 @@ Bueno, podría empezar contándote qué significa LaTeX o quién lo creó pero m
 
 Vamos a imaginar que tenemos que hacer una pequeña documentación que acompañe a un programa muy simple que hemos hecho para unas prácticas.
 
-## Cabecera de un documento
+# Cabecera de un documento
 
 Lo primero que debemos hacer en un documento de LaTeX es poner una cabecera, esto es, establecer la configuración del documento. La primera línea de cualquier documento LaTeX sería la siguiente:
 
@@ -76,7 +70,7 @@ Sabiendo esto ya podemos poner la primera línea de nuestro documento, que en nu
 
 El siguiente paso, es especificarle a LaTeX los paquetes que necesitaremos usar en nuestro documento, podemos ir añadiéndolos conforme los vayamos necesitando a la hora de hacer el documento, pero vamos a añadir de primeras los más básicos. La sintáxis de uso de paquetes es:
 
-### Paquetes
+## Paquetes
 
 ```latex
 \usepackage[opciones]{paquete}
@@ -93,7 +87,7 @@ Los paquetes que añadiremos de primeras son:
 
 ```
 
-## Comienzo del documento
+# Comienzo del documento
 
 Tras añadir los paquetes podríamos añadir otras opciones al documento tales como el encabezado, el pie de página&#8230; Pero no nos vamos a entretener ahora en eso. Vamos a empezar nuestro documento con el comando:
 
@@ -135,7 +129,7 @@ Y por último, le añadimos el título a nuestro documento y un pequeño índice
 
 ```
 
-### Secciones
+## Secciones
 
 Y ahora vamos a empezar en la primera sección, para indicarle a LaTeX que vamos a empezar una sección lo hacemos de la siguiente manera:
 
@@ -159,7 +153,7 @@ Y sí ahora queremos hacer una subsección lo haríamos con el siguiente comando
 
 Con este comando tendríamos una subsección en Descripción del programa llamada Funcionamiento general.
 
-### Formateo del texto
+## Formateo del texto
 
 Ahora tenemos que empezar a escribir normalmente, cuando queramos cambiar de párrafo hacemos un doble salto de línea, si queremos hacer un salto de línea lo hacemos con una doble barra y, si queremos poner nuestro texto en negrita, en cursiva o con subrayado lo haríamos con los siguientes comandos:
 
@@ -193,7 +187,7 @@ Ahora vamos a hacer una pequeña tabla, para ello, tenemos que añadir el paquet
 
 ```
 
-### Tablas en Latex
+## Tablas en Latex
 
 Y para hacer una tabla usamos la orden `tabular` (si escribimos `tab` en Sublime Text y le damos a tabulación nos completa la sintaxis) cuya sintaxis es:
 

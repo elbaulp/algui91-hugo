@@ -56,37 +56,37 @@ A pesar de haber sido &#8220;inventado&#8221; muchos años antes, el objeto que 
 Probablemente escuchaste la historia del rey danés del siglo X, Harald Blátand, que está relacionada con Bluetooth, ¿no? Él era un renombrado conocedor de arándanos; de hecho uno de sus dientes tenía un coloreado permanente de azul; etc etc etc. Lo que probablemente no sepas es que el símbolo de Bluetooth es en realidad una combinación de dos runas que representan las iniciales de Harald. Lo que pasa es que el primer receptor también tenía una forma &#8220;estilo diente&#8221;, y fue - adivinaste - azul. Pero ésto no termina aquí. Según las notas de Bluetooth SIG, Blátand &#8220;fue instrumental para unir grupos opuestos en partes de lo que ahora es Noruega, Suecia y Dinamarca - tan sencillo como la tecnología Bluetooth fue diseñada para permitir colaboración entre industrias en desacuerdo como el mercado de las computadoras, celulares y automóviles.
 
 <figure>
-    [<amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="pause" src="/img/2014/03/pause.jpg" width="160px" height="160px" />][2]
+    <amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="pause" src="/img/2014/03/pause.jpg" width="160px" height="160px" />
 </figure>
 
 Tan lejos como el símbolo de pausa ha llegado, muchos han notado que se parece a la notación para una conexión abierta de un esquema eléctrico. Algunos dicen que es sencillamente un símbolo de stop con un pedazo truncado en el medio. Nosotros hemos puesto nuestra moneda en un origen más clásico: En la notación musical, la cesura indica una - espera un momento - pausa.
 
 <figure>
-    [<amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="firewire" src="/img/2014/03/Firewire.jpg" width="160px" height="160px" />][3]
+    <amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="firewire" src="/img/2014/03/Firewire.jpg" width="160px" height="160px" />
 </figure>
 
 Tiempo atrás en 1995, un pequeño grupo de Apple - el desarrollador principal de FireWire - con la tarea de diseñar un símbolo que pueda reflejar adecuadamente la nueva tecnología en la que estaban trabajando. Con la intención original de ser una alternativa serie a SCSI, el principal encanto de FireWire fue que prometía conectividad de alta velocidad para equipos de audio y video digital. Por lo tanto los diseñadores optaron por un símbolo con tres puntas, representando audio, video y datos. Inicialmente el símbolo era rojo, pero fue luego cambiado a amarillo por razones desconocidas.
 
 <figure>
-    [<amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="sleep" src="/img/2014/03/Sleep.jpg" width="160px" height="160px" />][4]
+    <amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="sleep" src="/img/2014/03/Sleep.jpg" width="160px" height="160px" />
 </figure>
 
 La gente estaba confundida con el estado &#8220;standby&#8221; (en espera). Parecía un poco intuitivo para un equipo electrónico que no estaba ni encendido ni apagado. Por lo tanto, luego de que la IEEE apañara el botón de standby de ICE (¿recuerdas?), decidieron que un rebautismo era necesario. El cuerpo gubernamental renombró al modo standby como &#8220;sleep&#8221; (dormir), para invocar el estado en que los humanos no están ni activados ni apagados. Hoy en día, una luna creciente es de facto el símbolo de estado sleep en aparatos de Estados Unidos y Europa. ¡Su poder metafórico es innegable! Viaja a Japón, supongo, y probablemente verás el botón &#8220;zzz&#8221; ocasional.
 
 <figure>
-    [<amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="usb" src="/img/2014/03/usb.jpg" width="160px" height="160px" />][5]
+    <amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="usb" src="/img/2014/03/usb.jpg" width="160px" height="160px" />
 </figure>
 
 Creado como parte de la especificación de USB 1.0, el ícono USB fue dibujado con la intención de parecerse al Tridente de Neptuno, el poderoso Dreizack (Pero esto no significa que deberías salir a pinchar gente o intentar domesticar delfines con tu disco flash). En lugar de los triángulos puntiagudos en el extremo de la lanza de tres puntas, los promotores del USB decidieron modificar las figuras a un triángulo, un cuadrado y un círculo. Esto se hizo para simbolizar los diferentes periféricos que pueden ser acoplados usando el standard.
 
 <figure>
-    [<amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Play" src="/img/2014/03/Play.jpg" width="160px" height="160px" />][6]
+    <amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Play" src="/img/2014/03/Play.jpg" width="160px" height="160px" />
 </figure>
 
 Mientras que los símbolos de play/pause no son nativos de las computadoras, han hecho su trabajo con los teclados, reproductores multimedia (reales y virtuales) y todos los otros aparatos que pueden reproducir audio o video. Desafortunadamente, ni el triángulo que apunta hacia la derecha ni la doble barra de pausa parecen tener un origen definido. Su primera aparición fue como símbolos de la cinta en un magnetófono de bobina abierta a mediados de los &#8217;60. En algunos casos, estaban acompañados por los símbolos (doble triángulo) rebobinar y adelantar. La dirección de la flecha de play indicaba la dirección en que la sinta se movería. Fácil.
 
 <figure>
-[<amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Play" src="/img/2014/03/sbbod.jpg" width="160px" height="160px" />][7]
+    <amp-img sizes="(min-width: 160px) 160px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Play" src="/img/2014/03/sbbod.jpg" width="160px" height="160px" />
 </figure>
 
 
@@ -96,12 +96,3 @@ Este terror es conocido por muchos nombres: la hipnótica rueda del destino, la 
 # Referencias
 
 - *Lifehack* »» <a href="http://www.lifehack.org/articles/technology/the-origins-famous-iconic-and-frequently-used-tech-symbols.html" target="_blank">The Origins Of Famous, Iconic and Frequently Used Tech Symbols</a>
-
-
- [1]: https://elbauldelprogramador.com/img/2014/03/at.jpg
- [2]: https://elbauldelprogramador.com/img/2014/03/pause.jpg
- [3]: https://elbauldelprogramador.com/img/2014/03/Firewire.jpg
- [4]: https://elbauldelprogramador.com/img/2014/03/Sleep.jpg
- [5]: https://elbauldelprogramador.com/img/2014/03/usb.jpg
- [6]: https://elbauldelprogramador.com/img/2014/03/Play.jpg
- [7]: https://elbauldelprogramador.com/img/2014/03/sbbod.jpg

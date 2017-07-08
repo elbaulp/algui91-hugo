@@ -4,13 +4,11 @@ categories:
 - aplicaciones
 - c
 - opensource
-color: '#E64A19'
 date: '2016-01-01'
-
+lastmod: 2017-07-08T08:12:04+01:00
 mainclass: dev
 url: /mini-grep-en-c-busca-palabras-en-archivos/
 tags:
-- buscar palabra fichero c
 - comandos
 - cpp
 - grep
@@ -18,6 +16,7 @@ title: Mini grep en C++, busca palabras en archivos
 ---
 
 Aquí os dejo un pequeño ejercício en C++, se trata de crear un programa que actue básicamente como el comando grep de linux, pero mucho más simple. Se usa de la siguiente forma:
+
 Para buscar una palabra:
 
 ```bash
@@ -34,11 +33,10 @@ Un ejemplo de ejecución:
 
 ```bash
 hkr-> ./grep cout max.php grep.cpp smtp.cpp
-grep.cpp(22)     cout < < "Uso: grep <palabra a="a" buscar="buscar"> <firchero1><ficheros...>]>" < < endl;
+grep.cpp(22)     cout << "Uso: grep <palabra a buscar"> <firchero1><ficheros...>]>" << endl;
 grep.cpp(56)     cout << nombre << "(" << nlinea << ") t" << remove_left_white_spaces(cadena) << endl;
-smtp.cpp(56)     cout << "socket createdn";
-smtp.cpp(75)    cout << "Connectedn";
-
+smtp.cpp(56)     cout << "socket created";
+smtp.cpp(75)     cout << "Connectedn";
 ```
 
 El programa nos indica el fichero en el que se encontró la palabra, el número de línea y la linea en sí.
@@ -66,7 +64,7 @@ int
 main(int argc, char* argv[])
 {
       if (argc < 3){
-         cout << "Uso: grep </fstream></string></iostream></ficheros...></firchero1></palabra><palabra a="a" buscar="buscar"> <firchero1><ficheros...>]>" < < endl;
+         cout << "Uso: grep <palabra a buscar> <firchero1><ficheros...>]>" << endl;
          return -1;
       } else {
          for (int i = 2; i < argc; i++)
@@ -103,13 +101,4 @@ grep(const char* palabra, const char* nombre)
             if (strstr(cadena, palabra))
                cout << nombre << "(" << nlinea << ") t" << remove_left_white_spaces(cadena) << endl;
       }
-
-
 ```
-
-</ficheros...></firchero1>
-
-
-
-
-</palabra>
