@@ -3,9 +3,8 @@ author: alex
 categories:
 - android
 - how to
-color: '#689F38'
 date: '2016-01-01'
-
+lastmod: 2017-07-09T20:49:57+01:00
 mainclass: android
 url: /ndk-gdb-depurar-aplicaciones-en-el-nkd-de-android/
 tags:
@@ -16,8 +15,7 @@ tags:
 title: NDK-gdb - Depurar aplicaciones en el NKD de Android
 ---
 
-En el artículo [Introducción al NDK de Android][1] se explicaron las nociones básicas del NDK, hoy vamos a ver un ejemplo un poco más complejo en el que aprenderemos a depurar código nativo en aplicaciones [Android][2]. La aplicación de ejemplo actuará como servidor esperando conexiones mediante *telnet*. Cuando un cliente se conecte al dispositivo a través *telnet*, será posible enviar y recibir mensajes. Así como ejecutar dos comandos, *ip_de <dominio>*, que devolverá la *IP* de dicho dominio, y *adios*, que finalizará la conexión.
-
+En el artículo [Introducción al NDK de Android][1] se explicaron las nociones básicas del NDK, hoy vamos a ver un ejemplo un poco más complejo en el que aprenderemos a depurar código nativo en aplicaciones [Android][2]. La aplicación de ejemplo actuará como servidor esperando conexiones mediante *telnet*. Cuando un cliente se conecte al dispositivo a través *telnet*, será posible enviar y recibir mensajes. Así como ejecutar dos comandos, `ip_de <dominio>`, que devolverá la *IP* de dicho dominio, y *adios*, que finalizará la conexión.
 
 <!--more--><!--ad-->
 
@@ -45,7 +43,7 @@ private static final String TAG = "SimpleServer";
                 mButton = (Button) findViewById(R.id.button1);
                 mButton.setEnabled(false);
 
-                new AsyncTask<void>() {
+                new AsyncTask<Void, Void, String>() {
                     @Override
                     protected String doInBackground(Void... params) {
                         return startTelnetSession();
@@ -71,7 +69,6 @@ private static final String TAG = "SimpleServer";
         System.loadLibrary("sServer");
     }
 }
-
 ```
 
 Por ahora es bastante sencillo, tenemos un [*TextView* y un *Button*][4] en la interfaz. Con el primero mostraremos un log de los datos transferidos durante la sesión *telnet*, y con el botón conectaremos y desconectaremos la sesión. El método
@@ -95,15 +92,15 @@ Veamos ahora el código C, que implementa el servidor:
 ```c
 #include <jni.h>
 
-#include <android>log.h>
+#include <android/log.h>
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#include <sys</android>socket.h>
-#include <netinet>in.h>
-#include <arpa</netinet>inet.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 #include <netdb.h>
 
 #include "hacking.h"
@@ -134,7 +131,7 @@ startServer(void) {
   if ((sockfd = socket(PF_INET, SOCK_STREAM, 0)) == -1)
     __android_log_write(ANDROID_LOG_ERROR, TAG, "Fatal en socket");
 
-  if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &yes;, sizeof(int)) == -1)
+  if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &yes, sizeof(int)) == -1)
     __android_log_write(ANDROID_LOG_ERROR, TAG, "Fatal en setsockopt");
 
   host_addr.sin_family = AF_INET;       // host byte order
@@ -142,7 +139,7 @@ startServer(void) {
   host_addr.sin_addr.s_addr = INADDR_ANY;  // automatically fill with my IP
   memset(&(host_addr.sin_zero), '\0', 8);  // zero the rest of the struct
 
-  if (bind(sockfd, (struct sockaddr *) &host;_addr, sizeof(struct sockaddr))
+  if (bind(sockfd, (struct sockaddr *) &host_addr, sizeof(struct sockaddr))
       == -1)
     __android_log_write(ANDROID_LOG_ERROR, TAG, "Fatal en bind");
 
@@ -151,7 +148,7 @@ startServer(void) {
 
   while (1) {    // Accept loop
     sin_size = sizeof(struct sockaddr_in);
-    new_sockfd = accept(sockfd, (struct sockaddr *) &client;_addr, &sin;_size);
+    new_sockfd = accept(sockfd, (struct sockaddr *) &client_addr, &sin_size);
     if (new_sockfd == -1)
       __android_log_write(ANDROID_LOG_ERROR, TAG, "Fatal en accpct");
 
@@ -161,7 +158,7 @@ startServer(void) {
                         ntohs(client_addr.sin_port));
 
     send(new_sockfd, "Bienvenido!\n", 12, 0);
-    recv_length = recv(new_sockfd, &buffer;, 1024, 0);
+    recv_length = recv(new_sockfd, &buffer, 1024, 0);
 
     while (recv_length > 0) {
       buffer[recv_length] = 0;
@@ -211,7 +208,7 @@ startServer(void) {
       __android_log_print(ANDROID_LOG_INFO, TAG,
                           "Recibidos %d bytes mensaje: %s", recv_length,
                           buffer);
-      recv_length = recv(new_sockfd, &buffer;, 1024, 0);
+      recv_length = recv(new_sockfd, &buffer, 1024, 0);
     }
     close(new_sockfd);
     close(sockfd);
@@ -227,7 +224,6 @@ Java_com_elbauldelprogramador_simpleserver_MainActivity_startTelnetSession(
   char *bf = startServer();
   return (*env)->NewStringUTF(env, bf);
 }
-
 ```
 
 Consta de 3 métodos,
@@ -317,7 +313,7 @@ typedef enum android_LogPriority {
 
 ```
 
-### Compilando la aplicación con ndk-build
+# Compilando la aplicación con ndk-build
 
 Nos situamos en el directorio del proyecto y ejecutamos:
 
@@ -328,7 +324,7 @@ ndk-build && ant debug && adb install -r bin/MainActivity-debug.apk
 
 Si todo está bien, la aplicación deberá estar instalada en el dispositivo.
 
-### Depurando la aplicación con ndk-gdb
+# Depurando la aplicación con ndk-gdb
 
 El comando para iniciar el depurador es
 
@@ -440,14 +436,15 @@ Con el comando adios terminamos la sesión, y el buffer ha registrado toda la co
 
 y se muestra en la pantalla del dispositivo:
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/Screenshot_2013-06-17-17-20-53-180x300.png" alt="tutorial ndk-gdb" width="180px" height="300px" />][6]
+<figure>
+    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/Screenshot_2013-06-17-17-20-53.png" alt="tutorial ndk-gdb" width="480px" height="800px" />
+</figure>
 
 Con esto concluye el artículo, espero que haya sido de utilidad.
 
-#### Referencias
+# Referencias
 
-*Repositorio en GitHub del ejemplo* »» <a href="https://github.com/elbaulp/androidSimpleServerNDKExample" target="_blank">Visitar sitio</a>
-
+- *Repositorio en GitHub del ejemplo* »» <a href="https://github.com/elbaulp/androidSimpleServerNDKExample" target="_blank">Visitar sitio</a>
 
 
  [1]: https://elbauldelprogramador.com/introduccion-al-ndk-de-android/ "Introducción al NDK de Android"
@@ -455,7 +452,3 @@ Con esto concluye el artículo, espero que haya sido de utilidad.
  [3]: https://elbauldelprogramador.com/lenguaje-c/
  [4]: https://elbauldelprogramador.com/programacion-android-interfaz-grafica_25/
  [5]: https://elbauldelprogramador.com/fundamentos-programacion-android_17/
- [6]: https://elbauldelprogramador.com/img/2013/06/Screenshot_2013-06-17-17-20-53.png
-
-
-</netdb.h></jni.h></void></ip></dominio>

@@ -2,12 +2,9 @@
 author: alex
 categories:
 - internet
-color: '#E64A19'
 date: '2016-01-01'
-description: "Código php para mostrar en wordpress nuestro número de seguidores
-  en twitter"
-format: aside
-
+lastmod: 2017-07-09T20:42:47+01:00
+description: "Código php para mostrar en wordpress nuestro número de seguidores en twitter"
 mainclass: dev
 url: /mostrar-el-numero-de-seguidores-en-twitter-en-wordpress/
 tags:
@@ -18,7 +15,6 @@ title: "Mostrar el número de seguidores en Twitter en WordPress"
 ---
 
 Hoy voy a explicar cómo mostrar los seguidores de nuestra cuenta de Twitter en el blog. Antes de nada, necesitamos instalar un plugin que nos permite añadir widgets que contengan código PHP, se llama WP PHP Widget y podéis descargarlo de la página de <a href="http://wordpress.org/extend/plugins/wp-php-widget/" target="_blank">plugins de WordPress</a>. Una vez que tengamos instalado el plugin, agregamos el widget a nuestra plantilla y pegamos el siguiente código:
-
 
 <!--more--><!--ad-->
 
@@ -48,12 +44,11 @@ Y en el widget tengo lo siguiente:
 
 ```php
 <p class="twittercount">
-<a href="http://twitter.com/elbaulp" title="Follow on Twitter" target="_blank">
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  src="twitter.png" alt="Twitter" /></a>
-<span>< ?php echo followers_count();?></span> Followers
-
+    <a href="http://twitter.com/elbaulp" title="Follow on Twitter" target="_blank">
+        <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  src="twitter.png" alt="Twitter" />
+    </a>
+    <span>< ?php echo followers_count();?></span> Followers
 </p>
-
 ```
 
 Y el estilo es el siguiente:
@@ -74,13 +69,6 @@ Y el estilo es el siguiente:
   margin: 5px;
   display: inline-block;
 }
-
 ```
-
-<div >
-<p class="twittercount">
-<a href="http://twitter.com/elbaulp" title="Follow on Twitter" target="_blank"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  src="/wp-content/themes/ifeature/img/social/round/twitter.png" alt="Twitter" /></a><span>693</span> Followers
-  </p>
-</div>
 
 Eso es todo.

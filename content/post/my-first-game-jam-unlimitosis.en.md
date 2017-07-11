@@ -1,5 +1,4 @@
 +++
-
 title = "My experience in Game Jam 2017 "
 mainclass = "dev"
 author = "alex"

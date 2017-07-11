@@ -3,10 +3,8 @@ author: alex
 categories:
 - articulos
 - linux
-color: '#2196F3'
 date: '2016-01-01'
-lastmod: 2016-08-11
-
+lastmod: 2017-07-11T16:58:53+01:00
 mainclass: linux
 url: /netstat-analizando-la-red-y-detectando-problemas/
 aliases: /articulos/netstat-analizando-la-red-y-detectando-problemas/
@@ -35,14 +33,13 @@ title: 'Netstat: Analizando la red y detectando problemas'
 <!--more--><!--ad-->
 
 
-
-## Netstat es un paquete de herramienas de red
+# Netstat es un paquete de herramienas de red
 
 El comando *netstat* sirve para varias cosas, como mostrar estadísticas de la red, imprimir la tabla de rutas, mostrar conexiones activas y mucho más. Para cada una de las opciones de uso menciondas existe un comando específico que realiza la misma tarea. Pero netstat los abarca todos bajo un mismo comando, y además es multiplataforma. Lo cual quiere decir que podremos usarlo tanto en Windows, Linux o Mac.
 
 Tras esta pequeña introducción, veamos algunas salidas de este comando:
 
-## Mostrar las conexiones de red
+# Mostrar las conexiones de red
 
 Es posible mostrar las conexiones que existen actualmente entre tu máquina y otras máquinas, así como sockets escuchando en un puerto para que otra máquina se conecte. También muestra qué programas están activos en la red:
 
@@ -104,7 +101,7 @@ El singnificado de cada columna es el siguiente:
 
 - **Proto**: Indica el protocolo usado por el socket, puede ser TCP o UDP (Son protocolos de red). TCP se usa para obtener conexiones en las que se asegura que todos los paquetes llegan a su destino, en el orden correcto. El problema es que se vuelve muy lento si la conexión es mala. UDP es mucho más rápido, pero puede perder paquetes o entregarlos en un orden incorrecto. En resumen, TCP se usa para navegar por internet y descargar ficheros y UDP se usa en videos streaming y juegos.
 - **Recv-Q y Send-Q**: Indican la cantidad de bytes que hay en cola para dicho socket. En Recv-Q datos esperando a ser leidos y en Send-Q a ser enviados. Normalmente ambas columnas han de estar a 0. De lo contrario puede que exista algún problema. En el ejemplo hay dos sockets con valores distintos a cero, los miraremos más adelante.
-- **Local Address y Foreign Address**: A qué host y puerto está conectado cada socket. La dirección local siempre será el ordenador en el que se está ejecutando netstat, en este caso se llama * hkr-pc*. Foreign Address puede ser cualquier otro pc en internet, o la misma máquina local. Aunque parezca algo extraño, en ocasiones es útil que en ambas columnas aparezca la máquina local, lo cual indica que dicha máquina se está comunicando con ella misma a través de la red.
+- **Local Address y Foreign Address**: A qué host y puerto está conectado cada socket. La dirección local siempre será el ordenador en el que se está ejecutando netstat, en este caso se llama *hkr-pc*. Foreign Address puede ser cualquier otro pc en internet, o la misma máquina local. Aunque parezca algo extraño, en ocasiones es útil que en ambas columnas aparezca la máquina local, lo cual indica que dicha máquina se está comunicando con ella misma a través de la red.
 - **State**: Muestra el estado del socket. TCP dispone de una serie de estados, algunos de ellos son *LISTEN* (Esperando a que otra máquina establezca conexión),*ESTABLISHED* (Listo para comunicarse). En la lista aparecen varios más, como *CLOSE WAIT*, este estado indica que la máquina remota cerró la conexión, pero el programa local no ha seguido la petición y permanece abierto. Normalmente, un estado como este y cantidades distintas a cero en las columnas **Recv-Q** y **Send-Q** suelen ir de la mano. Otro estado que aparece en el ejemplo es *TIME WAIT*, puedes consultar una lista completa de los estados TCP en la referencias.
 - **PID/Program name**: El indicador de proceso del socket en ejecución y el nombre del programa ejecutando dicho proceso.
 
@@ -144,7 +141,7 @@ Cuando se realiza una conexión externa, el programa local no suele preocuparse 
 
 Netstat también sirve para mostrar la tabla de rutas (**Routing Table**)
 
-## Imprimiendo la tabla de rutas (Routing Table)
+# Imprimiendo la tabla de rutas (Routing Table)
 
 La tabla de rutas significa dedidir dónde mandar un paquete en base a su destino. Un ejemplo de estas tablas es el siguiente:
 
@@ -168,7 +165,7 @@ Una breve explicación del significado de las columnas:
 - **irtt**: *Initial Round Trip Time*, puede ser usado por el Kernel para intentar adivinar la mejor configuración de parámetros para TCP. No suele usarse.
 - **iface**: Establece la interfaz de red a usar para enviar los paquetes.
 
-## Mostrar estadísticas e interfaces
+# Mostrar estadísticas e interfaces
 
 También es posible, con netstat, mostrar las interfaces disponibles y listar algunas estadísticas de cómo se están comportando:
 
@@ -195,7 +192,7 @@ Como se aprecia en el ejemplo, todo parece estar correcto, ya que las columnas d
 
 Como nota final, y aunque este no es un artículo patrocinado, considero que debo proporcionar un enlace a la <a href="http://linuxacademy.com" target="_blank">Linux Academy</a>, perteneciente al autor cuyo artículo he traducido.
 
-## Referencias
+# Referencias
 
 - *Netstat: network analysis and troubleshooting, explained* »» <a href="http://pinehead.tv/linux/netstat-network-analysis-and-troubleshooting-explained/" target="_blank">pinehead.tv</a>
 - *Lista posibles estados TCP* »» <a href="http://www.tcpipguide.com/free/t_TCPOperationalOverviewandtheTCPFiniteStateMachineF-2.htm" target="_blank">tcpipguide.com</a>
