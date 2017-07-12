@@ -3,17 +3,15 @@ author: alex
 categories:
 - cursos
 - internet
-color: '#61B38D'
 date: '2016-01-01'
-lastmod: 2016-10-28
-
+lastmod: 2017-07-12T17:49:27+01:00
 mainclass: misc
 url: /nueva-guia-how-internet-works/
 title: "Nueva guía: How the internet works"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="500" height="615" src="https://lh5.googleusercontent.com/-fvbBeqczi8o/TwmLPVbKehI/AAAAAAAACDU/5VTDVQKFeTQ/s615/done_internet1.jpg" title="How the internet works" alt="How the internet works"></amp-img>
+    <amp-img sizes="(min-width: 500px) 500px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="500" height="615" src="https://lh5.googleusercontent.com/-fvbBeqczi8o/TwmLPVbKehI/AAAAAAAACDU/5VTDVQKFeTQ/s615/done_internet1.jpg" title="How the internet works" alt="How the internet works"></amp-img>
 </figure>
 
 The web’s place in our daily lives is undeniable. We can now access the Internet from our home computers, office, laptops and our phones. But even with this close intimacy many people still aren’t entirely sure what the Internet is and how it really works.

@@ -3,9 +3,8 @@ author: alex
 categories:
 - cursos
 - noticias
-color: '#61B38D'
 date: '2016-01-01'
-
+lastmod: 2017-07-12T17:52:04+01:00
 mainclass: misc
 url: /nueva-guia-security-for-a-faster-world/
 tags:
@@ -15,7 +14,7 @@ tags:
 title: "Nueva Guía: Security for a Faster World"
 ---
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Executive-eBook-Security-for-a-Faster-World.gif" alt="Executive eBook: Security for a Faster World" width="200px" height="259px" />][1]
+[<amp-img sizes="(min-width: 200px) 200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Executive-eBook-Security-for-a-Faster-World.gif" alt="Executive eBook: Security for a Faster World" width="200px" height="259px" />][1]
 
 With Security for a Faster World, You&#8217;ll learn best practices for protecting your corporate data, keeping intruders and malware out of your network, and protecting against disgruntled employees who may attempt to use their access privileges to compromise your systems.
 

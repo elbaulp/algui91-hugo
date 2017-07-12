@@ -2,12 +2,10 @@
 author: alex
 categories:
 - misc
-color: '#61B38D'
 date: 2015-05-30 11:53:41
-description: JavaScriptMVC is a client-side, JavaScript framework that builds maintainable,
-  error-free, lightweight applications as quickly as possible.
+lastmod: 2017-07-12T17:39:26+01:00
+description: JavaScriptMVC is a client-side, JavaScript framework that builds maintainable, error-free, lightweight applications as quickly as possible.
 image: nueva-gua-gratuita-learning-javascriptmvc-free-14-page-excerpt.jpg
-
 mainclass: misc
 tags:
 - cursos
@@ -18,7 +16,7 @@ title: "Nueva Guía Gratuita: Learning JavaScriptMVC -- Free 14 Page Excerpt"
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/nueva-gua-gratuita-learning-javascriptmvc-free-14-page-excerpt.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="199px" height="258px" />
+    <amp-img sizes="(min-width: 199px) 199px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/nueva-gua-gratuita-learning-javascriptmvc-free-14-page-excerpt.jpg" title="Nueva Guía Gratuita: Learning JavaScriptMVC -- Free 14 Page Excerpt" alt="Nueva Guía Gratuita: Learning JavaScriptMVC -- Free 14 Page Excerpt" width="199px" height="258px" />
 </figure>
 
 JavaScriptMVC is a client-side, JavaScript framework that builds maintainable, error-free, lightweight applications as quickly as possible.
@@ -34,7 +32,7 @@ This book will guide you on how to build a sample application from scratch, test
 Packt Enterprise books can be summed up through the tagline "Professional Expertise Distilled". They take in-the-trenches knowledge from experienced software professionals, and distil it into a single, easy to follow manuscript.
 
 <div class="button-post">
-<a href="http://bashyc-blogspot.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_pack39" target="_blank">Descárgala</a>
+    <a href="http://bashyc-blogspot.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_pack39" target="_blank">Descárgala</a>
 </div>
 
 Visita la página [Manuales gratuitos][2] o consulta el [catálogo completo][3].

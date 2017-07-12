@@ -2,20 +2,17 @@
 author: alex
 categories:
 - sin categoria
-color: '#61B38D'
 date: '2016-01-01'
+lastmod: 2017-07-12T17:50:13+01:00
 image: A-Newbies-Getting-Started-Guide-to-Linux.png
-lastmod: 2016-09-21
-
 mainclass: misc
 url: /nueva-guia-newbies-getting-started/
 title: "Nueva guía: A Newbies Getting Started Guide to Linux"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/A-Newbies-Getting-Started-Guide-to-Linux.png" alt="{{ title }}" title="{{ title }}" width="229" height="300"></amp-img>
+    <amp-img sizes="(min-width: 229px) 229px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/A-Newbies-Getting-Started-Guide-to-Linux.png" alt="Nueva guía: A Newbies Getting Started Guide to Linux" title="Nueva guía: A Newbies Getting Started Guide to Linux" width="229" height="300"></amp-img>
 </figure>
-
 
 {{< importPartial "structure/guidenote.html" >}}
 

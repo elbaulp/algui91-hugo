@@ -2,14 +2,9 @@
 author: alex
 categories:
 - cursos
-color: '#61B38D'
 date: '2016-01-01'
-description: APTs (Advanced Persistent Threats) have changed the world of enterprise
-  security and how networks and organizations are attacked. These threats, and the
-  cyber-criminals behind them, are experts at remaining hidden from traditional security
-  while exhibiting an intelligence, resiliency, and patience that has never been seen
-  before.
-
+lastmod: 2017-07-12T17:48:59+01:00
+description: APTs (Advanced Persistent Threats) have changed the world of enterprise  security and how networks and organizations are attacked. These threats, and the  cyber-criminals behind them, are experts at remaining hidden from traditional security  while exhibiting an intelligence, resiliency, and patience that has never been seen before.
 mainclass: misc
 url: /nueva-guia-gratuita-cybersecurity-dummies-ebook/
 tags:
@@ -18,7 +13,7 @@ title: "Nueva guía gratuita: Cybersecurity for Dummies eBook"
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/Nueva-guía-gratuita-Cybersecurity-for-Dummies-eBook.jpg" alt="Nueva guía gratuita: Cybersecurity for Dummies eBook" width="591px" height="914px" />
+    <amp-img sizes="(min-width: 591px) 591px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/Nueva-guía-gratuita-Cybersecurity-for-Dummies-eBook.jpg" alt="Nueva guía gratuita: Cybersecurity for Dummies eBook" width="591px" height="914px" />
 </figure>
 
 APTs (Advanced Persistent Threats) have changed the world of enterprise security and how networks and organizations are attacked. These threats, and the cyber-criminals behind them, are experts at remaining hidden from traditional security while exhibiting an intelligence, resiliency, and patience that has never been seen before.
