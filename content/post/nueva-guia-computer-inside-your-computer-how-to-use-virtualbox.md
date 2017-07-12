@@ -3,11 +3,9 @@ author: alex
 categories:
 - cursos
 - noticias
-color: '#61B38D'
 date: '2016-01-01'
-description: Learn to use VirtualBox. Get virtual computers up and running inside
-  your computer, without having to buy any new hardware.
-
+lastmod: 2017-07-12T17:47:25+01:00
+description: Learn to use VirtualBox. Get virtual computers up and running inside your computer, without having to buy any new hardware.
 mainclass: misc
 url: /nueva-guia-computer-inside-your-computer-how-to-use-virtualbox/
 tags:
@@ -16,7 +14,7 @@ title: "Nueva Guía: Computer Inside Your Computer: How To Use VirtualBox"
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  src="/img/2012/06/virtual-box-big1.jpg" title="Computer Inside Your Computer: How To Use VirtualBox" alt="Computer Inside Your Computer: How To Use VirtualBox" width="500px" height="608px" />
+    <amp-img sizes="(min-width: 500px) 500px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  src="/img/2012/06/virtual-box-big1.jpg" title="Computer Inside Your Computer: How To Use VirtualBox" alt="Computer Inside Your Computer: How To Use VirtualBox" width="500px" height="608px" />
 </figure>
 
 Learn to use VirtualBox. Get virtual computers up and running inside your computer, without having to buy any new hardware.

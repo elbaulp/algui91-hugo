@@ -2,19 +2,16 @@
 author: alex
 categories:
 - misc
-color: '#61B38D'
 date: 2016-01-04 17:20:11
+lastmod: 2017-07-12T17:45:26+01:00
 description: Kick-start your Bootstrap projects with these hot recipes!
 image: hotlink-ok/Bootstrap-Programming-Cookbook1.jpg
-
 mainclass: misc
-modified: null
-tags: []
 title: "Guía gratuita - Bootstrap Programming Cookbook"
 ---
 
 <figure>
-<a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_webd05"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Bootstrap-Programming-Cookbook.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="175px" height="259px" /></a>
+    <a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_webd05"><amp-img sizes="(min-width: 175px) 175px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Bootstrap-Programming-Cookbook.jpg" title="Guía gratuita - Bootstrap Programming Cookbook" alt="Guía gratuita - Bootstrap Programming Cookbook" width="175px" height="259px" /></a>
 </figure>
 
 Kick-start your Bootstrap projects with these hot recipes!
@@ -32,7 +29,7 @@ With this free eBook you will also receive weekly news, tips and special offers 
 </div>
 
 Visita la página [Manuales gratuitos][1] o consulta el [catálogo completo][2].
-{: .notice-info }
+
 
 [1]: https://elbauldelprogramador.com/manuales-gratuitos/
 [2]: http://elbauldelprogramador.tradepub.com/category/information-technology/1207/ "Catálogo completo de Guías gratuítas "

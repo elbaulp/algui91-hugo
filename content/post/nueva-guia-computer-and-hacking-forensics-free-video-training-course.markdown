@@ -2,20 +2,16 @@
 author: alex
 categories:
 - misc
-color: '#61B38D'
 date: 2015-12-12 12:48:51
-description: Learn how to determine potential online criminal activity, legally gather
-  evidence, search and investigate wireless attacks.
+lastmod: 2017-07-12T17:46:52+01:00
+description: Learn how to determine potential online criminal activity, legally gather evidence, search and investigate wireless attacks.
 image: hotlink-ok/Computer-and-Hacking-Forensics---FREE-Video-Training-Course.jpg
-
 mainclass: misc
-modified: null
-tags: []
 title: "Nueva Guía: Computer and Hacking Forensics - FREE Video Training Course"
 ---
 
 <figure>
-<a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_cybr02"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Computer-and-Hacking-Forensics---FREE-Video-Training-Course2.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="199px" height="258px" /></a>
+    <a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_cybr02"><amp-img sizes="(min-width: 199px) 199px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Computer-and-Hacking-Forensics---FREE-Video-Training-Course2.jpg" title="Nueva Guía: Computer and Hacking Forensics - FREE Video Training Course" alt="Nueva Guía: Computer and Hacking Forensics - FREE Video Training Course" width="199px" height="258px" /></a>
 </figure>
 
 Learn how to determine potential online criminal activity, legally gather evidence, search and investigate wireless attacks.
@@ -31,7 +27,7 @@ This course runs for 7 hours and 8 minutes.
 </div>
 
 Visita la página [Manuales gratuitos][1] o consulta el [catálogo completo][2].
-{: .notice-info }
+
 
 [1]: https://elbauldelprogramador.com/manuales-gratuitos/
 [2]: http://elbauldelprogramador.tradepub.com/category/information-technology/1207/ "Catálogo completo de Guías gratuítas "

@@ -3,9 +3,8 @@ author: alex
 categories:
 - cursos
 - noticias
-color: '#61B38D'
 date: '2016-01-01'
-
+lastmod: 2017-07-12T17:43:10+01:00
 mainclass: misc
 url: /nueva-guia-8-steps-to-building-mobile-apps-fast-in-the-cloud/
 tags:
@@ -20,7 +19,7 @@ tags:
 title: "Nueva guía: 8 Steps to Building Mobile Apps Fast in the Cloud"
 ---
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/8-Steps-to-Building-Mobile-Apps-Fast-in-the-Cloud-300x1431.png" alt="8 Steps to Building Mobile Apps Fast in the Cloud" width="300px" height="143px" />][1]
+[<amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/8-Steps-to-Building-Mobile-Apps-Fast-in-the-Cloud-300x1431.png" alt="8 Steps to Building Mobile Apps Fast in the Cloud" width="300px" height="143px" />][1]
 
 Start turning your ideas into mobile apps with the 8 Steps to Building Mobile Apps Fast in the Cloud guide, learn how to:
 
@@ -29,17 +28,15 @@ Start turning your ideas into mobile apps with the 8 Steps to Building Mobile Ap
   * Make every developer a mobile one
   * Get on the fastest path to mobile freedom
 
-#### Descargar la guía
+# Descargar la guía
 
 <div class="button-post">
-<a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&pc=w_sale38" target="_blank" class="wi-button style-3">Descárgala<i class="icon-download icon-2x"></i></a>
+    <a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&pc=w_sale38" target="_blank" class="wi-button style-3">Descárgala<i class="icon-download icon-2x"></i></a>
 </div>
 
 ***Visita la página [Manuales gratuitos][2] o consulta el [catálogo completo][3].***
 
 <!--more--><!--ad-->
-
-
 
  [1]: http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&pc;=w_sale38/prgm.cgi/
  [2]: https://elbauldelprogramador.com/manuales-gratuitos/

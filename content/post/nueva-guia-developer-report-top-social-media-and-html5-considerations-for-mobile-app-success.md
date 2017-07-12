@@ -3,18 +3,14 @@ author: alex
 categories:
 - cursos
 - noticias
-color: '#61B38D'
 date: '2016-01-01'
-if_slider_image:
-- null
-- null
-
+lastmod: 2017-07-12T17:47:47+01:00
 mainclass: misc
 url: /nueva-guia-developer-report-top-social-media-and-html5-considerations-for-mobile-app-success/
 title: "Nueva guía: Developer Report: Top Social Media and HTML5 Considerations for Mobile App Success"
 ---
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/08/w_appc01c1.gif" alt="Developer Report: Top Social Media and HTML5 Considerations for Mobile App Success" title="Developer Report: Top Social Media and HTML5 Considerations for Mobile App Success" width="114px" height="150px" />][1]
+[<amp-img sizes="(min-width: 114px) 114px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/08/w_appc01c1.gif" alt="Developer Report: Top Social Media and HTML5 Considerations for Mobile App Success" title="Developer Report: Top Social Media and HTML5 Considerations for Mobile App Success" width="114px" height="150px" />][1]
 
 Find out about two of the hottest topics surrounding mobile app development right now-social media and HTML5. In a recent developer survey report from IDC and Appcelerator, you&#8217;ll learn why social media is a critical component for user engagement and content distribution, and why HTML5 could be the key to building richer, more dynamic and more user-friendly app experiences. Plus, learn what 2,100 experts closest to mobile innovation think about the future of social media and the role of HTML5-and compare their predictions to your own strategies.
 
@@ -27,8 +23,6 @@ Download the report and learn:
 
 [Descárgala desde aquí][1] o
 Visita la página [Manuales gratuitos][2] para ver las guías disponibles.
-
-
 
  [1]: http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&pc;=w_appc01/prgm.cgi
  [2]: https://elbauldelprogramador.com/manuales-gratuitos/

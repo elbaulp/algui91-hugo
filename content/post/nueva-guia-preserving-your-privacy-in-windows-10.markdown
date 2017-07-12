@@ -2,22 +2,16 @@
 author: alex
 categories:
 - misc
-color: '#61B38D'
 date: 2015-12-13 11:38:27
-description: Learn how to stop Windows 10 from exporting your personal data. Windows
-  10 is the fastest, most efficient and powerful Operating System Microsoft has ever
-  created. Fast and responsive, this software is being continually being refined via
-  your user feedback and telemetry.
+lastmod: 2017-07-12T17:51:24+01:00
+description: Learn how to stop Windows 10 from exporting your personal data. Windows  10 is the fastest, most efficient and powerful Operating System Microsoft has ever  created. Fast and responsive, this software is being continually being refined via  your user feedback and telemetry.
 image: hotlink-ok/Preserving-Your-Privacy-in-Windows-10.jpg
-
 mainclass: misc
-modified: null
-tags: []
 title: "Nueva Guía: Preserving Your Privacy in Windows 10"
 ---
 
 <figure>
-<a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_wini02"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Preserving-Your-Privacy-in-Windows-102.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="181px" height="259px" /></a>
+    <a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_wini02"><amp-img sizes="(min-width: 181px) 181px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Preserving-Your-Privacy-in-Windows-102.jpg" title="Nueva Guía: Preserving Your Privacy in Windows 10" alt="Nueva Guía: Preserving Your Privacy in Windows 10" width="181px" height="259px" /></a>
 </figure>
 
 Learn how to stop Windows 10 from exporting your personal data.
@@ -41,7 +35,7 @@ A quick, easy read that walks you through the different privacy settings in Wind
 </div>
 
 Visita la página [Manuales gratuitos][1] o consulta el [catálogo completo][2].
-{: .notice-info }
+
 
 [1]: https://elbauldelprogramador.com/manuales-gratuitos/
 [2]: http://elbauldelprogramador.tradepub.com/category/information-technology/1207/ "Catálogo completo de Guías gratuítas "

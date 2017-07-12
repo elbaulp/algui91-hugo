@@ -3,18 +3,16 @@ author: alex
 categories:
 - cursos
 - internet
-color: '#61B38D'
 date: '2016-01-01'
+lastmod: 2017-07-12T17:43:37+01:00
 image: AdministracionAvanzadadelSistemaOperativoGNULinux.jpg
-lastmod: 2016-09-13
-
 mainclass: misc
 url: /nueva-guia-administracion-avanzada-del/
 title: "Guía gratuita: Administración Avanzada del Sistema Operativo GNU/Linux"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/AdministracionAvanzadadelSistemaOperativoGNULinux.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="800" height="420"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/AdministracionAvanzadadelSistemaOperativoGNULinux.jpg" title="Guía gratuita: Administración Avanzada del Sistema Operativo GNU/Linux" alt="Guía gratuita: Administración Avanzada del Sistema Operativo GNU/Linux" width="800" height="420"></amp-img>
 </figure>
 
 El objetivo principal de este libro es introducirnos en el mundo de la administración de los sistemas GNU/Linux.
