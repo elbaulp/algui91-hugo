@@ -4,11 +4,8 @@ categories:
 - cursos
 - internet
 - noticias
-color: '#61B38D'
 date: '2016-01-01'
-format: status
-lastmod: 2016-08-05
-
+lastmod: 2017-07-17T19:32:30+01:00
 mainclass: misc
 url: /nuevos-cursos-disponibles-en-udacity-la-universidad-online-gratuita/
 tags:
@@ -20,10 +17,6 @@ tags:
 title: Nuevos Cursos disponibles en Udacity, la universidad online gratuita
 ---
 
-<figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Banner Udacity" src="https://4.bp.blogspot.com/-4_orLVxvsaA/Ty6o0VKqt3I/AAAAAAAACDs/3Xxk1Zqo5Ug/s1600/Screenshot.png" alt=""></amp-img>
-</figure>
-
 Hace aproximadamente 7 semanas que escribí una entrada hablando sobre Udacity y su primer curso, Construir un [motor de búsqueda][1]. Pues bien, acaba de terminar, yo estaba inscrito y la verdad es que me ha gustado bastante, ya que he aprendido un montón de cosas interesantes, aparte de aprender a mejorar la eficiencia del código y refrescar mi conocimiento sobre [python][2], el cual tenía un poco abandonado.
 
 Por desgracia no he podido obtener el certificado del curso ya que a partir de la unidad 6 por falta de tiempo fui dejando de seguir el curso. Sin embargo sí que terminé de ver todo el contenido aunque no hiciera el examen final.
@@ -32,7 +25,7 @@ Para todo aquel que esté interesado el curso (Lo cual recomiendo totalmente,) s
 
 <!--more--><!--ad-->
 
-## The Design of Computer Programs
+# The Design of Computer Programs
 
 Impartido por Peter Norvig, Director de investigación en Google
 
@@ -109,7 +102,7 @@ El contenido del curso es el siguiente:
   </p>
 </div>
 
-## Web Application Engineering
+# Web Application Engineering
 
 Impartido por Steve Huffman, creador de Reddit y HipMuk
 
@@ -187,7 +180,7 @@ Contenido:
   </p>
 </div>
 
-## Programming Languages
+# Programming Languages
 
 Impartido por Wetley Weimer, profesos en la Univerdidad de Virginia
 
@@ -262,7 +255,7 @@ Impartido por Wetley Weimer, profesos en la Univerdidad de Virginia
   </p>
 </div>
 
-## Applied Cryptography
+# Applied Cryptography
 
 Impartido por David Evans, Profesor en la Universidad de Virginia y tutor del anterior curso de construir el motor de búsqueda.
 

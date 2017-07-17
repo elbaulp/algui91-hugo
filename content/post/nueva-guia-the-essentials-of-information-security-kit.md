@@ -3,9 +3,8 @@ author: alex
 categories:
 - cursos
 - noticias
-color: '#61B38D'
 date: '2016-01-01'
-
+lastmod: 2017-07-15T13:17:19+01:00
 mainclass: misc
 url: /nueva-guia-the-essentials-of-information-security-kit/
 tags:
@@ -15,15 +14,16 @@ tags:
 title: "Nueva Guía: The Essentials of Information Security Kit"
 ---
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/The-Essentials-of-Information-Security-Kit-Includes-a-Free-PC-Security-Handbook-2nd-Edition-eBook.gif" alt="The Essentials of Information Security Kit: Includes a Free PC Security Handbook - 2nd Edition eBook" width="199px" height="258px" />][1]
+<figure>
+[<amp-img sizes="(min-width: 199px) 199px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/The-Essentials-of-Information-Security-Kit-Includes-a-Free-PC-Security-Handbook-2nd-Edition-eBook.gif" alt="The Essentials of Information Security Kit: Includes a Free PC Security Handbook - 2nd Edition eBook" width="199px" height="258px" />][1]
+</figure>
+
 
 Download this security kit to learn everything you need to know about Information Security.
 
 The Essentials of Information Security brings together the latest in information, coverage of important developments, and expert commentary to help with your Information Security related decisions:
 
 **The following kit contents will help you get the most out of your Information Security research:**
-
-*
 
   * PC Security Handbook - 2nd Edition
   * Research Report: How the Major Mobility Platforms Compare in TCO and Security

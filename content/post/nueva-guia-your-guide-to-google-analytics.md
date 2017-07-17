@@ -3,12 +3,8 @@ author: alex
 categories:
 - cursos
 - noticias
-color: '#61B38D'
 date: '2016-01-01'
-if_slider_image:
-- null
-- null
-
+lastmod: 2017-07-15T13:20:03+01:00
 mainclass: misc
 url: /nueva-guia-your-guide-to-google-analytics/
 tags:
@@ -18,7 +14,10 @@ tags:
 title: "Nueva Guía: Your Guide to Google Analytics"
 ---
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/08/googleanalytics-5001-246x300.jpg" alt="Your Guide To Google Analytics" title="Your Guide To Google Analytics" width="199px" height="243px" />][1]
+<figure>
+[<amp-img sizes="(min-width: 199px) 199px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/08/googleanalytics-5001-246x300.jpg" alt="Your Guide To Google Analytics" title="Your Guide To Google Analytics" width="199px" height="243px" />][1]
+</figure>
+
 
 Do you own a website or a blog? If so, do you have any idea how many visitors you get each day? And even if you’ve installed a counter and you’ve figured out how to gauge your traffic, do you have any idea where your visitors are coming from, what browsers most of them use, what search engines they use, or which of your pages is the most popular?
 
@@ -40,7 +39,6 @@ You will learn how to access to all of the following details about your website:
 
 [Descárgala desde aquí][1] o
 Visita la página [Manuales gratuitos][3] para ver las guías disponibles.
-
 
 
  [1]: http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&pc;=w_make88/prgm.cgi

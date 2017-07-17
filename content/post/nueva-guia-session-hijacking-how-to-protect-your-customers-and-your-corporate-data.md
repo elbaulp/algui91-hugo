@@ -2,12 +2,8 @@
 author: alex
 categories:
 - cursos
-color: '#61B38D'
 date: '2016-01-01'
-if_slider_image:
-- null
-- null
-
+lastmod: 2017-07-15T13:15:54+01:00
 mainclass: misc
 url: /nueva-guia-session-hijacking-how-to-protect-your-customers-and-your-corporate-data/
 title: "Nueva guía: Session Hijacking: How to Protect your Customers and your Corporate Data"
@@ -18,11 +14,10 @@ Firesheep is a Mozilla Firefox extension which was first released in Autumn 2010
 Computing surveyed 140 business decision makers in order to understand how organisations view the threats posed by Firesheep and its mobile counterpart FaceNiff and how they are mitigating them. This paper features a detailed discussion of the survey findings and the implications of Firesheep and other session hijacking attacks for both corporate data security as well as customers and end users of websites.
 
 <div class="button-post">
-<a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&pc=w_thaw01" target="_blank" class="wi-button style-3">Descárgala<i class="icon-download icon-2x"></i></a>
+    <a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&pc=w_thaw01" target="_blank" class="wi-button style-3">Descárgala<i class="icon-download icon-2x"></i></a>
 </div>
 
 ***Visita la página [Manuales gratuitos][1] o consulta el [catálogo completo][2].***
-
 
 
  [1]: https://elbauldelprogramador.com/manuales-gratuitos/

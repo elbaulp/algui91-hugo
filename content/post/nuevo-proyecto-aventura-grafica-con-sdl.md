@@ -2,10 +2,8 @@
 author: alex
 categories:
 - opensource
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-08-16
-
+lastmod: 2017-07-17T19:32:11+01:00
 mainclass: dev
 url: /nuevo-proyecto-aventura-grafica-con-sdl/
 title: "Nuevo Proyecto: Aventura gráfica con SDL y C++"

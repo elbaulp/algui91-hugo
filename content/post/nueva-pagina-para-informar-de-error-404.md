@@ -2,9 +2,8 @@
 author: alex
 categories:
 - sin categoria
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-07-15T13:20:30+01:00
 mainclass: articulos
 url: /nueva-pagina-para-informar-de-error-404/
 title: "Nueva página para informar de error 404 en el blog"
