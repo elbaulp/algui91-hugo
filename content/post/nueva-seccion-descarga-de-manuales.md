@@ -6,10 +6,8 @@ categories:
 - linux
 - noticias
 - opensource
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-09-12
-
+lastmod: 2017-07-17T19:31:18+01:00
 mainclass: articulos
 url: /nueva-seccion-descarga-de-manuales/
 title: "Nueva sección: Descarga de Manuales gratuitos"

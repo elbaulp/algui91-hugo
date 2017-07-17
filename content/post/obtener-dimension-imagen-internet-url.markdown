@@ -2,14 +2,11 @@
 author: alex
 categories:
 - linux
-color: '#2196F3'
 date: 2016-10-01 16:32:13
-description: "Cómo obtener el ancho y alto de una imagen que está en internet
-  desde línea de comandos"
+lastmod: 2017-07-17T19:36:48+01:00
+description: "Cómo obtener el ancho y alto de una imagen que está en internet  desde línea de comandos"
 image: obtener-dimension-imagen-internet-url.png
-introduction: "Cómo obtener el ancho y alto de una imagen que está en internet
-  desde línea de comandos"
-
+introduction: "Cómo obtener el ancho y alto de una imagen que está en internet  desde línea de comandos"
 mainclass: linux
 tags:
 - imagenes
@@ -18,13 +15,13 @@ tags:
 title: "Cómo Obtener La Dimensión De Una Imagen en Internet"
 ---
 
-## Problema: Dada la url de una imagen extraer sus dimensiones (Ancho y alto)
+# Problema: Dada la url de una imagen extraer sus dimensiones (Ancho y alto)
 
 Queremos obtener las dimensiones de una imagen desde línea de comandos. La imagen puede ser local o estar en internet.  En anteriores artículos vimos algo parecido ([Cómo Añadir Automáticamente El Tamaño De Una Imagen en HTML Con Python](https://elbauldelprogramador.com/como-anadir-automaticamente-el-tamao-de-una-imagen-en-html-con-python/ "Cómo Añadir Automáticamente El Tamaño De Una Imagen en HTML Con Python").
 
 <!--more--><!--ad-->
 
-## Solución: el comando Identify de ImageMagick
+# Solución: el comando Identify de ImageMagick
 
 El comando `identify` es un programa perteneciente a la suite _ImageMagick_, citamos su página `man`:
 

@@ -2,10 +2,8 @@
 author: alex
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-08-13
-
+lastmod: 2017-07-17T19:38:06+01:00
 mainclass: dev
 url: /ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
 aliases: /programacion/ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
@@ -20,7 +18,7 @@ title: Ocultar archivos dentro de una imagen
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class="aligncenter  wp-image-942" title="winzip_xp_encrypt_icon" src="/img/2012/09/winzip_xp_encrypt_icon11.gif" alt="" width="395px" height="380px"></amp-img>
+    <amp-img sizes="(min-width: 395px) 395px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="winzip_xp_encrypt_icon" src="/img/2012/09/winzip_xp_encrypt_icon11.gif" alt="" width="395px" height="380px"></amp-img>
 </figure>
 
 Hace unos meses publiqué una <a href="/ocultarrevelar-informacion-dentro-de/" target="_blank">entrada</a> en la que explicaba (Sin mostar código) una práctica que me mandaron en la asignatura metodología de la programación.
@@ -52,8 +50,7 @@ A continuación paso a describir uno a uno los archivos :
 <!--more--><!--ad-->
 
 
-
-### *./include/codificar.h*
+# *./include/codificar.h*
 
 ```cpp
 /**
@@ -81,7 +78,7 @@ int revelar(unsigned char[],int, char[], int);
 - `int get_file_size(std::ifstream& );` será útil para obtener el tamaño en bytes del fichero a ocultar.
 - `int ocultar(unsigned char[],int , char[]);` se encarga de ocultar el archivo en sí, el primer parámetro es el buffer de la imagen (contiene el valor de los píxeles), el segundo el tamaño de la imagen y el tercero el nombre del archivo a ocultar.
 
-### *./src/codificar.cpp*
+# *./src/codificar.cpp*
 
 ```cpp
 /*
@@ -102,34 +99,34 @@ const bool WRITE_FROM_ARRAY = false;
 //TODO hacer que ifstream sea opcional
 int write_bit_by_bit(unsigned char buffer[], ifstream& f, int from, int to, char sms[], bool type){
 
- unsigned short int indiceLetra        = 0;
-  unsigned char mask                    = 0x80; //Empezamos por el bit más significativo (10000000)
+    unsigned short int indiceLetra        = 0;
+    unsigned char mask                    = 0x80; //Empezamos por el bit más significativo (10000000)
 
-   char* file_buffer = 0;
+    char* file_buffer = 0;
 
-  if(type){ //Write file data
-     int number_of_bytes_to_read = to;//get_file_size(f);
+    if(type){ //Write file data
+        int number_of_bytes_to_read = to;//get_file_size(f);
         file_buffer = new char[number_of_bytes_to_read];
         f.read(file_buffer, number_of_bytes_to_read);
-   }
+    }
 
-   const char* place_to_get_stuff_from = type ? file_buffer : sms;
- char letra = place_to_get_stuff_from[0];
+    const char* place_to_get_stuff_from = type ? file_buffer : sms;
+    char letra = place_to_get_stuff_from[0];
     int indice = from;
 
-  for (int i = 0; i < to; i++) {
-      for (int k = 7; k >= 0; k--){
-           char c = (letra & mask) >> k;
-           mask >>= 1;
+    for (int i = 0; i < to; i++) {
+        for (int k = 7; k >= 0; k--){
+            char c = (letra & mask) >> k;
+            mask >>= 1;
 
-         buffer[indice] &= 0xfe; //hacemos 0 último bit con máscara 11111110
-         buffer[indice++] ^= c;
-      }
-       letra = place_to_get_stuff_from[++indiceLetra];//letra = sms[++indiceLetra];
+            buffer[indice] &= 0xfe; //hacemos 0 último bit con máscara 11111110
+            buffer[indice++] ^= c;
+        }
+        letra = place_to_get_stuff_from[++indiceLetra];//letra = sms[++indiceLetra];
         mask = 0x80;
     }
-   if (file_buffer) delete[] file_buffer;
-      place_to_get_stuff_from = 0;
+    if (file_buffer) delete[] file_buffer;
+    place_to_get_stuff_from = 0;
 
     return indice;
 }
@@ -143,83 +140,83 @@ int ocultar(unsigned char buffer[],int tamImage, char sms[]){
 
         strcpy(sms,basename(sms));
 
-      //Cabecera que indica el comienzo del nombre del archivo
+        //Cabecera que indica el comienzo del nombre del archivo
         buffer[0] = 0xff;
 
-       //Calculo el pixel donde tiene que terminar el nombre del archivo
-       int fin_cabecera = strlen(sms) * 8 +1;
-      buffer[fin_cabecera] = 0xff;
+        //Calculo el pixel donde tiene que terminar el nombre del archivo
+        int fin_cabecera = strlen(sms) * 8 +1;
+        buffer[fin_cabecera] = 0xff;
 
         //Escribo el nombre del archivo a ocultar
-       write_bit_by_bit(buffer, f, 1, strlen(sms), sms, WRITE_FROM_ARRAY);
+        write_bit_by_bit(buffer, f, 1, strlen(sms), sms, WRITE_FROM_ARRAY);
 
-     int tamanio_en_bytes = get_file_size(f) /** 8*/;
+        int tamanio_en_bytes = get_file_size(f) /** 8*/;
         int datos_fichero = fin_cabecera + 1;
-       int ind = write_bit_by_bit(buffer, f, datos_fichero, tamanio_en_bytes, sms, WRITE_FROM_FILE);
+        int ind = write_bit_by_bit(buffer, f, datos_fichero, tamanio_en_bytes, sms, WRITE_FROM_FILE);
 
-       //Escribo 0xff para indicar EOF de los datos
+        //Escribo 0xff para indicar EOF de los datos
         char eof = 0x7f;
         char* fin_contenido = &eof;
 
-     write_bit_by_bit(buffer, f, ind, 1, fin_contenido, WRITE_FROM_ARRAY);
-   }
-   return 0;
+        write_bit_by_bit(buffer, f, ind, 1, fin_contenido, WRITE_FROM_ARRAY);
+    }
+    return 0;
 }
 
 //____________________________________________________________________________
 
 int revelar(unsigned char buffer[], int tamImage, char sms[], int tamSMS){
 
-  int indice_sms            = 0;
-  char value                = 0;
+    int indice_sms            = 0;
+    char value                = 0;
 
-  unsigned char* ptr;
- int in = 1;
- ptr = buffer;
+    unsigned char* ptr;
+    int in = 1;
+    ptr = buffer;
 
-   //Me posiciono en la pos siguiete del nombre del archivo, donde empieza el contenido del mismo.
- while(ptr[in++] != 0xff);
-   ptr = 0;
+    //Me posiciono en la pos siguiete del nombre del archivo, donde empieza el contenido del mismo.
+    while(ptr[in++] != 0xff);
+    ptr = 0;
 
     int i = 1;
-  while (i != in-1){
-      for (int k = 8; k > 0; k--)
-         value = value << 1 | (buffer[i++] & 0x01); //vamos almacenando en value los 8 bits
-      sms[indice_sms++] = value;
-      value = 0;
-      if (indice_sms > tamSMS)
+    while (i != in-1){
+        for (int k = 8; k > 0; k--)
+            value = value << 1 | (buffer[i++] & 0x01); //vamos almacenando en value los 8 bits
+        sms[indice_sms++] = value;
+        value = 0;
+        if (indice_sms > tamSMS)
             return -1; //cadena de mayor tamaño que que la cadena donde almacenarlo
- }
+    }
 
-   //Ahora en sms está el nombre del fichero, lo creamos:.
- ofstream f(sms);
+    //Ahora en sms está el nombre del fichero, lo creamos:.
+    ofstream f(sms);
     if (f) {
         //seguimos leyendo hasta que encontremos un byte a 0x7f, que indica el fin del archivo
-      bool fin_datos = false;
-     int indice = in;
+        bool fin_datos = false;
+        int indice = in;
         value = 0;
-      for (int i = in; i < tamImage && !fin_datos; i++) {
-         for (int k = 0; k < 8; k++)
-             value = value << 1 | (buffer[indice++] & 0x01); //vamos almacenando en value los 8 bits
-         if (value == 0x7f) {
+        for (int i = in; i < tamImage && !fin_datos; i++) {
+            for (int k = 0; k < 8; k++)
+                value = value << 1 | (buffer[indice++] & 0x01); //vamos almacenando en value los 8 bits
+            if (value == 0x7f) {
                 fin_datos = true;
-               continue;
-           }
-           f.write(&value;, 1); //TODO, ir almacenanto en array y luego escribir a archivo
-          value = 0;
-      }
-   }
+                continue;
+            }
+            f.write(&value;, 1); //TODO, ir almacenanto en array y luego escribir a archivo
+            value = 0;
+        }
+    }
 
-   return 0;
+    return 0;
 }
 
 //Calcula el tamaño en bytes del fichero
 int get_file_size(ifstream& f){
-   f.seekg(0, std::ios_base::end);
- size_t size = f.tellg();
+    f.seekg(0, std::ios_base::end);
+    size_t size = f.tellg();
     f.seekg(0, std::ios_base::beg);
 
- return size;
+    return size;
 }
 ```
 
@@ -228,30 +225,30 @@ En este archivo se definen las funciones mencionadas en el .h, es la base del pr
 Empecemos por ocultar:
 
 ```cpp
-int ocultar(unsigned char buffer[],int tamImage, char archivo[]){
+    int ocultar(unsigned char buffer[],int tamImage, char archivo[]){
 
-   ifstream f(archivo);
+    ifstream f(archivo);
 
     if (f) {
 
         strcpy(archivo,basename(archivo));
-      buffer[0] = 0xff;
+        buffer[0] = 0xff;
 
-       int fin_cabecera = strlen(archivo) * 8 +1;
-      buffer[fin_cabecera] = 0xff;
+        int fin_cabecera = strlen(archivo) * 8 +1;
+        buffer[fin_cabecera] = 0xff;
 
         write_bit_by_bit(buffer, f, 1, strlen(archivo), archivo, WRITE_FROM_ARRAY);
 
-     int tamanio_en_bytes = get_file_size(f);
+        int tamanio_en_bytes = get_file_size(f);
         int datos_fichero = fin_cabecera + 1;
-       int ind = write_bit_by_bit(buffer, f, datos_fichero, tamanio_en_bytes, archivo, WRITE_FROM_FILE);
+        int ind = write_bit_by_bit(buffer, f, datos_fichero, tamanio_en_bytes, archivo, WRITE_FROM_FILE);
 
-       char eof = 0x7f;
+        char eof = 0x7f;
         char* fin_contenido = &eof;
 
-     write_bit_by_bit(buffer, f, ind, 1, fin_contenido, WRITE_FROM_ARRAY);
-   }
-   return 0;
+        write_bit_by_bit(buffer, f, ind, 1, fin_contenido, WRITE_FROM_ARRAY);
+    }
+    return 0;
 }
 ```
 
@@ -273,11 +270,11 @@ El bucle for de esta función itera sobre los píxeles de la imagen y almacena l
 
 ```cpp
 for (int k = 7; k >= 0; k--){
-   char c = (letra & mask) >> k;
-   mask >>= 1;
+    char c = (letra & mask) >> k;
+    mask >>= 1;
 
-   buffer[indice] &= 0xfe; //hacemos 0 último bit con máscara 11111110
-   buffer[indice++] ^= c;
+    buffer[indice] &= 0xfe; //hacemos 0 último bit con máscara 11111110
+    buffer[indice++] ^= c;
 }
 ```
 
@@ -295,49 +292,49 @@ Para terminar con la función `ocultar()`, es necesario escribir algún valor qu
 Expliquemos ahora cómo se revelan los datos:
 
 ```cpp
-int revelar(unsigned char buffer[], int tamImage, char sms[], int tamSMS){
+    int revelar(unsigned char buffer[], int tamImage, char sms[], int tamSMS){
 
-  int indice_sms            = 0;
-  char value            = 0;
+    int indice_sms            = 0;
+    char value            = 0;
 
-  unsigned char* ptr;
- int in = 1;
- ptr = buffer;
+    unsigned char* ptr;
+    int in = 1;
+    ptr = buffer;
 
-   //Me posiciono en la pos siguiete del nombre del archivo, donde empieza el contenido del mismo.
- while(ptr[in++] != 0xff);
-   ptr = 0;
+    //Me posiciono en la pos siguiete del nombre del archivo, donde empieza el contenido del mismo.
+    while(ptr[in++] != 0xff);
+    ptr = 0;
 
     int i = 1;
-  while (i != in-1){
-      for (int k = 8; k > 0; k--)
-         value = value << 1 | (buffer[i++] & 0x01); //vamos almacenando en value los 8 bits
-      sms[indice_sms++] = value;
-      value = 0;
-      if (indice_sms > tamSMS)
+    while (i != in-1){
+        for (int k = 8; k > 0; k--)
+            value = value << 1 | (buffer[i++] & 0x01); //vamos almacenando en value los 8 bits
+        sms[indice_sms++] = value;
+        value = 0;
+        if (indice_sms > tamSMS)
             return -1; //cadena de mayor tamaño que que la cadena donde almacenarlo
- }
+    }
 
-   //Ahora en sms está el nombre del fichero, lo creamos:.
- ofstream f(sms);
+    //Ahora en sms está el nombre del fichero, lo creamos:.
+    ofstream f(sms);
     if (f) {
         //seguimos leyendo hasta que encontremos un byte a 0x7f, que indica el fin del archivo
-      bool fin_datos = false;
-     int indice = in;
+        bool fin_datos = false;
+        int indice = in;
         value = 0;
-      for (int i = in; i < tamImage && !fin_datos; i++) {
-         for (int k = 0; k < 8; k++)
-             value = value << 1 | (buffer[indice++] & 0x01);
+        for (int i = in; i < tamImage && !fin_datos; i++) {
+            for (int k = 0; k < 8; k++)
+                value = value << 1 | (buffer[indice++] & 0x01);
             if (value == 0x7f) {
                 fin_datos = true;
-               continue;
-           }
-           f.write(&value;, 1); //TODO, ir almacenanto en array y luego escribir a archivo
-          value = 0;
-      }
-   }
+                continue;
+            }
+            f.write(&value;, 1); //TODO, ir almacenanto en array y luego escribir a archivo
+            value = 0;
+        }
+    }
 
-   return 0;
+    return 0;
 }
 ```
 
@@ -368,7 +365,7 @@ doc  imagenEntrada.pgm  imagenes  imagenSalida.pgm  include  Makefile  Nombre_fi
 En la imagen de salida se pueden apreciar los dos píxeles blancos que contienen el nombre del archivo:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/09/Screenshot-from-2012-09-13-1902101.png" alt="" title="Screenshot from 2012-09-13 19:02:10" width="416px" height="469px"></amp-img>
+    <amp-img sizes="(min-width: 416px) 416px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/09/Screenshot-from-2012-09-13-1902101.png" alt="" title="Screenshot from 2012-09-13 19:02:10" width="416px" height="469px"></amp-img>
 </figure>
 
 Para revelar la información, usamos el programa para tal propósito, que espera un único parámetro, la imagen con los datos ocultos:
@@ -390,7 +387,7 @@ Contenido del fichero
 
 Este programa no tiene un uso útil, meramente acadámico, el proyecto es accesible en su repositorio en gitHub.
 
-##### Referencias:
+# Referencias:
 
 - <a href="https://github.com/elbaulp/Hide-file-in-Photo" target="_blank">Repositorio en GitHub</a>
 - <a href="http://stackoverflow.com/questions/12042950/substitute-an-instruction-depending-on-a-condition" target="_blank">Pregunta en StackOverflow</a>
