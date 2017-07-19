@@ -4,13 +4,9 @@ amp:
   elements: [amp-youtube]
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-description: "El curso pasado hice unas prácticas Informática Gráfica (IG)
-  en la que había que implementar algún objeto con modelos jerárquicos. La
-  práctica se basa en una plantilla que encontré de la universidad http://www.csc.villanova.edu."
-lastmod: 2015-12-22
-
+lastmod: 2017-07-19T14:39:20+01:00
+description: "El curso pasado hice unas prácticas Informática Gráfica (IG)  en la que había que implementar algún objeto con modelos jerárquicos. La  práctica se basa en una plantilla que encontré de la universidad http://www.csc.villanova.edu."
 mainclass: dev
 url: /opengl-practicas-informatica-grafica-modelos-jerarquicos-un-robot/
 tags:
@@ -23,16 +19,11 @@ title: "OpenGL - Prácticas Informática Gráfica: Modelos jerárquicos  - Un Ro
 
 El curso pasado hice unas prácticas Informática Gráfica (IG) en la que había que implementar algún objeto con modelos jerárquicos. La práctica se basa en una plantilla que encontré de la universidad [http://www.csc.villanova.edu][1].
 
-Aquí dejo el código y un vídeo demostrativo, también está disponible en [Github][2].
-
-<amp-youtube
-    data-videoid="ZBX2a1c3KCE"
-    layout="responsive"
-    width="480" height="270"></amp-youtube>
+Aquí dejo el código y un [vídeo demostrativo](https://www.youtube.com/watch?v=ZBX2a1c3KCE), también está disponible en [Github][2].
 
 <!--more--><!--ad-->
 
-## Código Fuente
+# Código Fuente
 
 ```c
 /* Program: robotSkeleton.cpp (Chapter 10)
@@ -48,10 +39,10 @@ Aquí dejo el código y un vídeo demostrativo, también está disponible en [Gi
  */
 
 #ifdef __APPLE__
-#include <glut>glut.h>
+#include <GLUT/glut.h>
 #else
-</glut>/  #include <windows.h>
-#include <gl>glut.h>
+//  #include <windows.h>
+#include <GL/glut.h>
 #endif
 
 #include <math.h>
@@ -62,10 +53,10 @@ Aquí dejo el código y un vídeo demostrativo, también está disponible en [Gi
 
 using namespace std;
 
-</gl>* Variables to control the spped of rotation/translation/zoom */
-#define DEGREES_PER_PIXEL  0.6f
-#define UNITS_PER_PIXEL        0.1f
-#define ZOOM_FACTOR        0.04f
+/* Variables to control the spped of rotation/translation/zoom */
+#define DEGREES_PER_PIXEL	0.6f
+#define UNITS_PER_PIXEL		0.1f
+#define ZOOM_FACTOR		0.04f
 
 /* Enumeration of body parts */
 enum {
@@ -593,7 +584,7 @@ void myInit() {
 
 int main(int argc, char **argv) {
   srand(time(NULL));
-  glutInit(&argc;, argv);
+  glutInit(&argc, argv);
   glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
   glutInitWindowSize(500, 500);
   glutCreateWindow("Hierarchical Robot");
@@ -612,13 +603,8 @@ int main(int argc, char **argv) {
   /* start event processing */
   glutMainLoop();
 }
-
 ```
-
 
 
  [1]: http://www.csc.villanova.edu/~mdamian/Past/graphicsF10/code/robotSkeleton.cpp
  [2]: https://github.com/elbaulp/grado_informatica_ig_practicas/tree/master/P3
-
-
-</windows.h>

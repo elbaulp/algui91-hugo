@@ -2,16 +2,10 @@
 author: alex
 categories:
 - latex
-color: '#B31917'
 date: 2015-11-19 09:20:00
-description: "Si trabajas habitualmente con LaTeX, estás acostumbrado a ver múltiples
-  ficheros generados automáticamente al compilar el proyecto. Pueden llegar a molestar
-  bastante, ya que ensucian el directorio de trabajo. Hoy explicaré dos alternativas
-  para mover todos esos ficheros a un directorio separado para mantener un directorio
-  de trabaja limpio."
+lastmod: 2017-07-19T14:23:07+01:00
+description: "Si trabajas habitualmente con LaTeX, estás acostumbrado a ver múltiples  ficheros generados automáticamente al compilar el proyecto. Pueden llegar a molestar  bastante, ya que ensucian el directorio de trabajo. Hoy explicaré dos alternativas  para mover todos esos ficheros a un directorio separado para mantener un directorio  de trabaja limpio."
 image: 2013/05/latex_logo.png
-lastmod: 2016-11-06
-
 mainclass: latex
 tags:
 - latex
@@ -24,8 +18,7 @@ title: Ocultar Los Metaficheros De LaTeX Del Directorio De Trabajo
 Si trabajas habitualmente con [LaTeX](https://elbauldelprogramador.com/category/latex/ "Tutoriales sobre LaTeX"), estás acostumbrado a ver múltiples ficheros generados automáticamente al compilar el proyecto. Pueden llegar a molestar bastante, ya que ensucian el directorio de trabajo. Hoy explicaré dos alternativas para mover todos esos ficheros a un directorio separado para mantener un directorio de trabaja limpio.
 
 
-
-## Estructura del directorio
+# Estructura del directorio
 
 <!--more--><!--ad-->
 
@@ -54,7 +47,7 @@ Directorio del proyecto/
 
 ```
 
-## Mediante un script
+# Mediante un script
 
 Este script lo encontré en el blog de <a href="http://texblog.org" target="_blank" title="TexBlog">Tom</a>, en su artículo <a href="http://texblog.org/2015/08/20/hiding-latex-metafiles-from-project-directory/" target="_blank" title="Hiding LaTeX metafiles from project directory">Hiding LaTeX metafiles from project directory</a>:
 
@@ -78,7 +71,7 @@ pdflatex -output-directory=metafiles main
 ln -s metafiles/main.pdf
 ```
 
-## Usando latexmk
+# Usando latexmk
 
 Para aportar algo al artículo de _Tom_, miré la documentación de LatexMK, [comando que ya hemos visto en este blog](https://elbauldelprogramador.com/compilar-automaticamente-ficheros-en-latex-mientras-los-modificamos/ "Compilar Automáticamente Ficheros en LaTeX Mientras Los Modificamos"), y tiene la opción `-output-directory` que permite especificar donde se guardaran todos los metaficheros, su uso es simple:
 
