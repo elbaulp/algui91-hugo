@@ -4,10 +4,8 @@ categories:
 - curiosidades
 - internet
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-09-05
-
+lastmod: 2017-07-22T12:21:55+01:00
 mainclass: articulos
 url: /organiza-tu-lista-de-tareas-con/
 title: Organiza tu lista de Tareas con Remember the Milk
@@ -22,7 +20,7 @@ Personalmente me ha gustado esta web ya que permite organizar las tareas por pri
 Tambien disponen de aplicación para android: [Remember de Milk Android][2]
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="800" src="https://2.bp.blogspot.com/-8j9hDAVSaE4/TaQV05eYOzI/AAAAAAAAAas/7uOEbPjFXBw/s800/Screenshot-1.png"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="800" src="https://2.bp.blogspot.com/-8j9hDAVSaE4/TaQV05eYOzI/AAAAAAAAAas/7uOEbPjFXBw/s800/Screenshot-1.png"></amp-img>
 </figure>
 
 
