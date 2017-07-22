@@ -29,7 +29,7 @@
         {{ range .Site.Menus.main }}
         <li>
           <a href="{{ .URL | absLangURL }}">
-            <amp-fit-text width="220" height="20" max-font-size="20" layout="responsive">{{ .Name }}</amp-fit-text>
+            {{ .Name }}
           </a>
         </li>
         {{ end }}

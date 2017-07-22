@@ -81,7 +81,7 @@ author = "author"
     amp = true # enables amp features
 
     # define which amp-elements you are using globally, these elements will be included in every page
-    ampElements = ["amp-fit-text","amp-ad","amp-analytics","amp-image","amp-sidebar","amp-mustache"]
+    ampElements = ["amp-ad","amp-analytics","amp-image","amp-sidebar","amp-mustache"]
 
     themeColor = "#002f4c" # define a theme color (this will colorize the android address-bar)
 
