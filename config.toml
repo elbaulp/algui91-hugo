@@ -81,13 +81,13 @@ author = "author"
     amp = true # enables amp features
 
     # define which amp-elements you are using globally, these elements will be included in every page
-    ampElements = ["amp-ad","amp-analytics","amp-image","amp-sidebar","amp-mustache"]
+    ampElements = ["amp-ad","amp-image","amp-sidebar","amp-mustache"]
 
     themeColor = "#002f4c" # define a theme color (this will colorize the android address-bar)
 
     adsensePublisher = "ca-pub-9043332344373532" # required if you want to include google adsense
     adSlot = "2633319248"
-    googleAnalytics = "UA-19017085-2" # required if you want to use google analytics
+    # googleAnalytics = "UA-19017085-2" # required if you want to use google analytics
 
     alternatePageName = "El Baúl" # alternative name for website structured data
     organisationLogo = "http://elbauldelprogramador.com/img/logo.png" # set organisation logo for structured data

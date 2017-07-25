@@ -3,10 +3,8 @@ author: alex
 categories:
 - internet
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-09-09
-
+lastmod: 2017-07-25T11:27:56+01:00
 mainclass: articulos
 url: /paperli-crea-tu-periodico-digital/
 title: "Paper.li: Crea tu periódico digital automáticamente con lo más relevante de Twitter y Facebook"
