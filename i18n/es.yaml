@@ -3,17 +3,17 @@
 - id: ads_title
   translation: "Ayúdanos a seguir escribiendo"
 - id: ads_adblock
-  translation: "Añádenos a la “Lista blanca” de tu bloqueador de anuncios"
+  translation: "Añádenos a la “Lista blanca” de tu <strong>bloqueador de anuncios</strong>"
 - id: ads_amz
-  translation: "Usa nuestro enlace de Ámazon"
+  translation: "Usa nuestro enlace de <strong>Ámazon</strong>"
 - id: ads_amz_link
   translation: "https://www.amazon.es/?&tag=bmab-21&camp=4586&creative=670922&linkCode=ur1&adid=01FEFB5JJ9GNJJX2T2CR&"
 - id: ads_guide
-  translation: "Descarga una de nuestras guías gratuitas"
+  translation: "Descarga una de nuestras <strong>guías gratuitas</strong>"
 - id: ads_patreon
-  translation: "¡Hazte un Patreon!"
+  translation: "¡Hazte un <strong>Patreon!</strong>"
 - id: ads_support
-  translation: "Descubre más formas de apoyarnos"
+  translation: "Descubre más formas de <strong>apoyarnos</strong>"
 - id: author
   translation: "Autor"
 - id: author_title
@@ -82,3 +82,5 @@
   translation: "Quizá también te interese leer..."
 - id: title
   translation: "El Baúl del Programador"
+- id: no_ga
+  translation: "Por qué renuncio a <strong>Google Analytics</strong>"
