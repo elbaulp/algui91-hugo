@@ -5,15 +5,15 @@
 - id: ads_adblock
   translation: "“Whitelist” us in your ad blocker"
 - id: ads_amz
-  translation: "Use our amazon link"
+  translation: "Use our <strong>Amazon</strong> link"
 - id: ads_amz_link
   translation: "https://www.amazon.com/?&_encoding=UTF8&tag=elbauldelpro-20&linkCode=ur2&linkId=e6433bf2e98871a88a484ff872e3dbe9&camp=1789&creative=9325"
 - id: ads_guide
-  translation: "Download one of our free EBooks"
+  translation: "Download one of our <strong>free EBooks</strong>"
 - id: ads_patreon
-  translation: "Become a Patreon!"
+  translation: "Become a <strong>Patreon!</strong>"
 - id: ads_support
-  translation: "More ways to support us"
+  translation: "More ways to <strong>support us</strong>"
 - id: author
   translation: "Author"
 - id: author_title
@@ -82,3 +82,5 @@
   translation: "Maybe this posts are also worth reading"
 - id: title
   translation: "The Programmer Chest"
+- id: no_ga
+  translation: "Why I removed <strong>Google Analytics</strong>"
