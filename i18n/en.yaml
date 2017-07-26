@@ -3,7 +3,7 @@
 - id: ads_title
   translation: "Help us keep writing"
 - id: ads_adblock
-  translation: "“Whitelist” us in your ad blocker"
+  translation: "“Whitelist” us in your <strong>ad blocker</strong>"
 - id: ads_amz
   translation: "Use our <strong>Amazon</strong> link"
 - id: ads_amz_link
