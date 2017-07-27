@@ -3,11 +3,15 @@ image = "haystackpassword.png"
 mainclass = "seguridad"
 author = "alex"
 description = "Buenas prácticas para crear y administrar tus contraseñas y cómo fortalecer tu presencia online"
-date = "2017-05-22T12:46:41+02:00"
+date = "2017-07-27T12:21:26+01:00"
 title = "Crear y administrar contraseñas inteligentemente"
 tags = ["seguridad", "contraseñas"]
 categories = ["seguridad"]
 +++
+
+# CHANGELOG
+
+> 27.07.2017: **Añado** *Passwords Evolved: Authentication Guidance for the Modern Era* a enlaces de interés.
 
 # Introducción
 
@@ -133,3 +137,7 @@ Es importante que descarues y guardes estos códigos en un lugar seguro. La mejo
 Eso es todo, creo que aplicando estos consejos estarás más protegido que la mayoría de gente, pero recuerda que nada es seguro al 100%.
 
 *¿Qué tipo de consejos o mejores prácticas usas tú?, deja un comentario!*
+
+# Enlaces de interés
+
+- <a href="https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/" target="_blank" title="Passwords Evolved: Authentication Guidance for the Modern Era">Passwords Evolved: Authentication Guidance for the Modern Era</a>

@@ -3,11 +3,15 @@ image = "haystackpassword.png"
 mainclass = "security"
 author = "alex"
 description = "Best practices to create and manage passwords & hardening your online presence"
-date = "2017-05-22T12:46:41+02:00"
+date = "2017-07-27T12:21:35+01:00"
 title = "Creating and managing passwords intelligently"
 tags = ["security", "passwords"]
 categories = ["security"]
 +++
+
+# CHANGELOG
+
+> 07.27.2017: **Added** *Passwords Evolved: Authentication Guidance for the Modern Era* to useful links.
 
 # Introduction
 
@@ -133,3 +137,7 @@ It is important that you save this backup's codes, but In a secure place. The be
 That's it, In this days I think applying this tips and bests practices should have your password pretty secure, but **remember, nothing is complete secure**.
 
 *What tips do you use to secure your passwords? Let me know in the comments!*
+
+# Useful links
+
+- <a href="https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/" target="_blank" title="Passwords Evolved: Authentication Guidance for the Modern Era">Passwords Evolved: Authentication Guidance for the Modern Era</a>

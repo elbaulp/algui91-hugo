@@ -1,19 +1,19 @@
 {{ $au := or .Params.author "alex" }}
 {{ $author := index .Site.Data.authors $au }}
 
-    <script type="application/ld+json">
+<script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "Article",
         "author": {
             "name" : "{{ $author.name }}"
         },
-        "headline": {{ .Title }},
-        "description": {{ .Params.description }},
+        "headline": "{{ .Title }}",
+        "description": "{{ .Params.description }}",
         "wordCount": {{ .Content | plainify | countwords }},
         "datePublished" : "{{ .Date.Format "2006-01-02T15:04:05" }}",
         "dateModified" : "{{ .Lastmod.Format "2006-01-02T15:04:05"  }}",
-        "articleBody": {{.Content}},
+        "articleBody": {{ .Plain | jsonify }},
         "image": {
             "@type": "ImageObject",
             "url": "{{ .Site.BaseURL }}{{ if .Params.image }}/img/{{ .Params.image }}{{ else }}/img/default-thumb.png{{ end }}",
@@ -38,13 +38,13 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "articleBody": {{ .Content }},
+        "articleBody": {{ .Plain | jsonify }},
         "wordCount": "{{ .Content | plainify | countwords }}",
         "mainEntityOfPage": "{{ .Permalink }}",
-        "headline": {{ .Title }},
+        "headline": "{{ .Title }}",
         "datePublished" : "{{ .Date.Format "2006-01-02T15:04:05" }}",
         "dateModified" : "{{ .Lastmod.Format "2006-01-02T15:04:05"  }}",
-        "description": {{ .Params.description }},
+        "description": "{{ .Params.description }}",
         "url": "{{ .Permalink }}",
         "image": {
             "@type": "ImageObject",
@@ -66,14 +66,18 @@
         },
         "publisher": {
             "@type": "Organization",
-            "name": {{ .Site.Title }},
+            "name": "{{ .Site.Title }}",
             "url": "{{ .Site.BaseURL }}",
             "logo": {
                 "@type": "ImageObject",
                 "url": "{{ .Site.BaseURL }}/img/bio-photo.png",
                 "width": 150
-            }
-            {{ with .Site.Params.socialProfiles }}, "sameAs": {{ . }}{{ end }}
+            },
+            "sameAs": ["http://www.facebook.com/elbaulp",
+                       "http://plus.google.com/+elbauldelprogramador",
+                       "https://twitter.com/elbaulp",
+                       "https://telegram.me/elbaulp"]
+
         }
     }
 }

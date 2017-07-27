@@ -2,7 +2,7 @@
     {
         "@context": "http://schema.org",
         "@type": "WebSite",
-        "name": {{ .Site.Title }},
+        "name": "{{ .Site.Title }}",
         {{ with .Site.Params.alternatePageName }}"alternateName": "{{ . }}",{{ end }}
         "url": "{{ .Site.BaseURL }}"
     }
@@ -14,7 +14,7 @@
     {
         "@context": "http://schema.org",
         "@type": "Blog",
-        "name": {{.Site.Title }},
+        "name": "{{.Site.Title }}",
         "audience": {
             "@type": "Audience",
             "audienceType": "Developers, informáticos, programadores"
