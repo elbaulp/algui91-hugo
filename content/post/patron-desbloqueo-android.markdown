@@ -4,17 +4,10 @@ amp:
   elements: [amp-youtube]
 categories:
 - java
-color: '#D32F2F'
-date: 2016-02-17 06:25:54
-description: "Reconozca un patrón de gestos sobre pantalla de vuestra elección.
-  Una vez detectado el patrón se debe ejecutar la aplicación de cámara y
-  realizar automáticamente una foto transcurridos 3 segundos. Los gestos a detectar
-  son similares a los que se realizan con la pantalla de bloqueo Android, cuanto más
-  complejo sea el que se detecta mejor puntuación tendrá."
+date: 2017-07-31T14:02:04+01:00
+description: "Reconozca un patrón de gestos sobre pantalla de vuestra elección.  Una vez detectado el patrón se debe ejecutar la aplicación de cámara y  realizar automáticamente una foto transcurridos 3 segundos. Los gestos a detectar  son similares a los que se realizan con la pantalla de bloqueo Android, cuanto más  complejo sea el que se detecta mejor puntuación tendrá."
 image: npi/drawingPatter.png
-
 mainclass: java
-modified: null
 tags:
 - tutorial patrones android
 - patternlock android
@@ -23,7 +16,7 @@ tags:
 title: "Crear Un Patrón De Desbloqueo Android"
 ---
 
->La siguiente aplicación es parte de una práctica de la asignatura “Nuevos Paradigmas de la Interacción” de la facultad de Ingeniería Informática de Granada (ETSIIT) Otras aplicaciones de la práctica son:
+> La siguiente aplicación es parte de una práctica de la asignatura “Nuevos Paradigmas de la Interacción” de la facultad de Ingeniería Informática de Granada (ETSIIT) Otras aplicaciones de la práctica son:
 
 - [Brújula Compass](/brujula-android-asr-voz)
 - [GPS QR](/programar-navegador-gps-android)
@@ -31,10 +24,9 @@ title: "Crear Un Patrón De Desbloqueo Android"
 
 <!--more--><!--ad-->
 
-Si te interesa android, puedes echar un vistazo a los cursos disponibles en el blog, [Android1](/curso-programacion-android/ "Curso de Android"), [Android2](/android/ "Curso nuevo de Android")
-{: .notice-info }
+> Si te interesa android, puedes echar un vistazo a los cursos disponibles en el blog, [Android1](/curso-programacion-android/ "Curso de Android"), [Android2](/android/ "Curso nuevo de Android")
 
-## Photo Gesture
+# Photo Gesture
 
 _Enunciado: reconozca un patrón de gestos sobre pantalla de vuestra elección. Una vez detectado el patrón se debe ejecutar la aplicación de cámara y realizar automáticamente una foto transcurridos 3 segundos. Los gestos a detectar son similares a los que se realizan con la pantalla de bloqueo Android, cuanto más complejo sea el que se detecta mejor puntuación tendrá._
 
@@ -50,15 +42,15 @@ Para realizar esta aplicación se ha usado una librería llamada [PatterLock](ht
 En esta aplicación se le pide al usuario que establezca un patrón de bloqueo, puede ser tan complejo como el patrón de bloqueo usado en [Android](/curso-programacion-android/ "Curso de Android"). Una vez establecido, cuando se introduzca correctamente la aplicación tomará una foto a los 3 segundos. A continuación mostramos la pantalla principal de la aplicación.
 
 <figure>
-<a href="/img/npi/photoGesture.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/photoGesture.png" title="Pantalla principal de photoGesture" alt="Pantalla principal de photoGesture" width="338px" height="600px" /></a>
+    <a href="/img/npi/photoGesture.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/photoGesture.png" title="Pantalla principal de photoGesture" alt="Pantalla principal de photoGesture" width="338px" height="600px" /></a>
 <span class="image-credit">Pantalla principal de photoGesture</span>
 </figure>
 
 Al pulsar _“Establecer patrón”_ veremos lo siguiente:
 
 <figure>
-<a href="/img/npi/setPattern.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/setPattern.png" title="Establecer patrón" alt="Establecer patrón" width="338px" height="600px" /></a>
-<span class="image-credit">Establecer patrón</span>
+    <a href="/img/npi/setPattern.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/setPattern.png" title="Establecer patrón" alt="Establecer patrón" width="338px" height="600px" /></a>
+    <span class="image-credit">Establecer patrón</span>
 </figure>
 
 Es posible hacer que el patrón no sea visible cuando lo introducimos, para añadir una capa extra de seguridad.
@@ -66,20 +58,20 @@ Es posible hacer que el patrón no sea visible cuando lo introducimos, para aña
 Cuando pulsemos _Establecer patrón_ se nos pedirá que lo dibujemos dos veces, para confirmarlo:
 
 <figure>
-<a href="/img/npi/drawingPatter.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/drawingPatter.png" title="Dibujando el patrón" alt="Dibujando el patrón" width="338px" height="600px" /></a>
-<span class="image-credit">Dibujando el patrón</span>
+    <a href="/img/npi/drawingPatter.png"><amp-img sizes="(min-width: 338px) 338px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/drawingPatter.png" title="Dibujando el patrón" alt="Dibujando el patrón" width="338px" height="600px" /></a>
+    <span class="image-credit">Dibujando el patrón</span>
 </figure>
 
 Hecho esto, cuando volvamos a la pantalla principal, en lugar de “Establecer patrón” aparecerá “Echar foto”. Si pulsamos sobre ese botón, se nos pide el patrón establecido. Si se introduce bien, aparecerá la cámara con una cuenta atrás, al llegar a 0 se echará una foto:
 
 <figure>
-<a href="/img/npi/countdown.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/countdown.png" title="Cuenta atrás para echar la foto" alt="Cuenta atrás para echar la foto" width="338px" height="600px" /></a>
-<span class="image-credit">Cuenta atrás para echar la foto</span>
+    <a href="/img/npi/countdown.png"><amp-img sizes="(min-width: 338px) 338px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/countdown.png" title="Cuenta atrás para echar la foto" alt="Cuenta atrás para echar la foto" width="338px" height="600px" /></a>
+    <span class="image-credit">Cuenta atrás para echar la foto</span>
 </figure>
 
 La foto se guardará en la galería.
 
-### Implementación
+## Implementación
 
 Se ha reutilizado el ejemplo que el autor de la librería creo para demostar su uso, y se ha modificado para ajustarlo a los requisitos de la práctica. Para ello, cuando se introduce correctamente el parón, se incia la actividad de hacer una foto:
 
@@ -143,7 +135,7 @@ Al llegar la cuenta atrás a cero, se llama al método `takePicture` de la cáma
 mCamera.takePicture(mShutter, null, mPicture);
 ```
 
-##### Mostrando una vista previa de la cámara
+### Mostrando una vista previa de la cámara
 
 Para crear la parte superior de la pantalla, en la que se muestra una vista previa de la cámara, hay que crear una clase extendiendo de `SurfaceView` que hemos llamado `CameraPreview`, esta clase implementa la interfaz `SurfaceHolder.Callback`:
 
@@ -213,16 +205,15 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
 }
 ```
 
-##### Permisos requeridos para el AndroidManifest
+### Permisos requeridos para el AndroidManifest
 
 ```xml
-<uses-permission android:name="android.permission.CAMERA">
-</uses-permission><uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 ```
 
-### Referencias
+# Referencias
 
-- Código de la aplicación \| [github.com/elbaulp/photoGesture](https://github.com/elbaulp/grado_informatica_npi/tree/master/Android/PhotoGesture)
-- Página oficial de Android \| [developer.android.com/guide/topics/media/camera](http://developer.android.com/guide/topics/media/camera.html)
-- Librería PatternLock \| [github.com/DreaminginCodeZH/PatternLock](https://github.com/DreaminginCodeZH/PatternLock)
-</uses-permission></patternview.cell>
+- Código de la aplicación | [github.com/elbaulp/photoGesture](https://github.com/elbaulp/grado_informatica_npi/tree/master/Android/PhotoGesture)
+- Página oficial de Android | [developer.android.com/guide/topics/media/camera](http://developer.android.com/guide/topics/media/camera.html)
+- Librería PatternLock | [github.com/DreaminginCodeZH/PatternLock](https://github.com/DreaminginCodeZH/PatternLock)

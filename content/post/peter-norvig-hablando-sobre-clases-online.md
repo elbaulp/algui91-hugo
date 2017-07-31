@@ -3,13 +3,8 @@ author: alex
 categories:
 - cursos
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-format: aside
-if_slider_image:
-- null
-- null
-
+lastmod: 2017-07-31T14:19:51+01:00
 mainclass: articulos
 url: /peter-norvig-hablando-sobre-clases-online/
 tags:
@@ -27,11 +22,6 @@ Despues de eso se creó [Udacity][1] (en la que Peter impartió un curso sobre d
 
 Este mes Peter dio una charla sobre como nació toda esta idea, está subtitulada en inglés.
 
-<div >
-</div>
-
 Enlace al vídeo: <a href="http://www.ted.com/talks/peter_norvig_the_100_000_student_classroom.html" target="_blank">Peter Norvig: The 100,000-student classroom</a>
-
-
 
  [1]: https://elbauldelprogramador.com/?s=udacity

@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-29
-
+lastmod: 2017-07-31T14:31:15+01:00
 mainclass: BaseDeDatos
 url: /plsql-estructuras-basicas-de-control/
 tags:
@@ -18,11 +16,11 @@ Como PL/SQL es un lenguaje 3GL, cuenta con las estructuras típicas de control d
 
 
 
-## Bifurcaciones condicionales:
+# Bifurcaciones condicionales:
 
 <!--more--><!--ad-->
 
-### IF
+## IF
 
 La sintaxis básica es:
 
@@ -40,7 +38,7 @@ END IF;
 
 Como en cualquier lenguaje de programación, &#8220;condición&#8221; es cualquier expresión que de cómo resultado un valor booleano. Hay que saber que las estructuras IF se pueden anidar unas dentro de otras.
 
-#### IF - THEN
+## IF - THEN
 
 Se evalúa la condición y si resulta **verdadera**, se ejecutan uno o más líneas de código de programa. En el caso de que la condición resulte **falsa o nula**, NO se realiza NINGUNA acción.
 
@@ -60,7 +58,7 @@ IF fecha_nac < ‘1-01-1970’ THEN
 END IF;
 ```
 
-#### IF - THEN - ELSE
+## IF - THEN - ELSE
 
 Se evalúa la condición y si resulta **verdadera**, se ejecutan uno o más líneas de código de programa. En el caso de que la condición resulte **falsa**, se ejecutan las instrucciones que siguen a la instrucción `ELSE`. Sólo se permite una instrucción `ELSE` en cada instrucción IF.
 
@@ -72,7 +70,7 @@ ELSE
 END IF;
 ```
 
-#### IF - THEN - ELSIF
+## IF - THEN - ELSIF
 
 Se evalúa la condición y si resulta **verdadera**, se ejecutan uno o más líneas de código de programa. En el caso de que la condición resulte ser **falsa**, se evalúa la condición especificada en el `ELSIF`.
 
@@ -102,7 +100,7 @@ ELSE
 END IF;                        --Sólo se necesita un único END IF
 ```
 
-#### CASE
+## CASE
 
 La instrucción `CASE` puede evaluar múltiples expresiones y devolver para cada una de ellas un valor/bloque de instrucciones. El resultado de cada `WHEN` puede ser un valor o una sentencia, en el primer caso el resultado de una sentencia `CASE` se puede guardar en una variable.
 
@@ -158,7 +156,7 @@ END
 
 En esta sintaxis después del `CASE` no aparece ninguna variable y cada `WHEN` tiene su propia condición a evaluar.
 
-#### BUCLES
+## BUCLES
 
 ```sql
 LOOP
@@ -256,6 +254,6 @@ END;
 En el caso de especificar `REVERSE` el bucle se recorre en sentido inverso.
 
 
-### Siguiente tema: [PL/SQL - Excepciones][1]
+# Siguiente tema: [PL/SQL - Excepciones][1]
 
  [1]: https://elbauldelprogramador.com/plsql-excepciones/

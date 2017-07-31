@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-25
-
+lastmod: 2017-07-31T14:20:06+01:00
 mainclass: android
 url: /planteamiento-de-la-segunda-parte-del/
 tags:

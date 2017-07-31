@@ -4,7 +4,7 @@ categories:
 - internet
 - noticias
 date: '2016-01-01'
-lastmod: 2017-07-25T11:27:56+01:00
+lastmod: 2017-07-31T13:50:16+01:00
 mainclass: articulos
 url: /paperli-crea-tu-periodico-digital/
 title: "Paper.li: Crea tu periódico digital automáticamente con lo más relevante de Twitter y Facebook"
@@ -21,7 +21,7 @@ Primero entramos en [paper.li][1], nos registramos y clicamos en **Create a pape
 <!--more--><!--ad-->
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="427" width="660" src="https://2.bp.blogspot.com/-qijtnO2I-UM/TdTIPXp6QJI/AAAAAAAAAgc/SRBe5Je3KRE/s800/paper.png"></amp-img>
+    <amp-img sizes="(min-width: 427px) 427px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="427" width="660" src="https://2.bp.blogspot.com/-qijtnO2I-UM/TdTIPXp6QJI/AAAAAAAAAgc/SRBe5Je3KRE/s800/paper.png"></amp-img>
 </figure>
 
 Hay variar formas de agregar contenido al periódico:
@@ -35,7 +35,7 @@ Hay variar formas de agregar contenido al periódico:
 Por último os dejo una captura del periódico que cree, y la dirección, [Bashyc Paper][3]
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="633" width="739" src="https://1.bp.blogspot.com/-AmaJZNgtmN0/TdTLZ3tDNQI/AAAAAAAAAgk/QOeg7E2tbuY/s800/peperbashyc.png"></amp-img>
+    <amp-img sizes="(min-width: 739px) 739px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="633" width="739" src="https://1.bp.blogspot.com/-AmaJZNgtmN0/TdTLZ3tDNQI/AAAAAAAAAgk/QOeg7E2tbuY/s800/peperbashyc.png"></amp-img>
 </figure>
 
  [1]: http://paper.li/
