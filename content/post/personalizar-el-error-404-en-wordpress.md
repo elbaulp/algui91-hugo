@@ -2,11 +2,9 @@
 author: alex
 categories:
 - php
-color: '#0097A7'
 date: '2016-01-01'
-description: El error 404 debe tratarse adecuadamente en las webs para no asustar
-  al usuario y provocar que salga de nuestro sitio.
-
+lastmod: 2017-07-31T14:19:41+01:00
+description: El error 404 debe tratarse adecuadamente en las webs para no asustar al usuario y provocar que salga de nuestro sitio.
 mainclass: servidores
 url: /personalizar-el-error-404-en-wordpress/
 tags:
@@ -16,7 +14,7 @@ title: Personalizar el Error 404 en wordpress
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/08/4041.jpg" alt="" title="404" width="256px" height="197px" />
+    <amp-img sizes="(min-width: 256px) 256px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/08/4041.jpg" alt="" title="404" width="256px" height="197px" />
 </figure>
 
 El error 404 debe tratarse adecuadamente en las webs para no asustar al usuario y provocar que salga de nuestro sitio.
@@ -127,15 +125,10 @@ if($query->have_posts()){
 ```
 
 
-    <p>
-      Al juntarlo todo, la estructura del código queda así:
-    </p>
+Al juntarlo todo, la estructura del código queda así:
 
 
-    ```php
-
-
-
+```php
 <p>
   Ha
   <?php
@@ -220,13 +213,7 @@ if($query->have_posts()){
       ?>
 
     </ul>
-
 ```
 
 
-    <p>
-      Para ver un ejemplo haz click en el siguiente enlace: <a href="/404" target="_blank">elbauldelprogramador.org/404</a>.
-    </p>
-<hr />
-    Fuente |
-    <a href="http://codex.wordpress.org/Creating_an_Error_404_Page" target="_blank">Creating an Error 404 Page</a>
+Fuente | <a href="http://codex.wordpress.org/Creating_an_Error_404_Page" target="_blank">Creating an Error 404 Page</a>

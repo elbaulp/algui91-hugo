@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-09-03
-
+lastmod: 2017-07-31T14:30:08+01:00
 mainclass: BaseDeDatos
 url: /plsql-disparadores-o-triggers/
 tags:
@@ -15,7 +13,7 @@ tags:
 title: PL/SQL. Disparadores o Triggers
 ---
 
-## Introducción
+# Introducción
 
 Los disparadores (o triggers) son [bloques de código PL/SQL][1] asociados a una tabla y que se ejecutan automáticamente como reacción a una [operación DML][2] específica (`INSERT`, `UPDATE` o `DELETE`) sobre dicha tabla.
 
@@ -51,7 +49,7 @@ En principio, dentro del cuerpo de programa del trigger podemos hacer uso de cua
 * No se llamen a [procedimientos][6] que trasgredan la restricción anterior
 * No se llame a procedimientos que utilicen sentencias de control de transacciones
 
-## Predicados condicionales
+# Predicados condicionales
 
 Cuando se crea un trigger para más de una operación DML, se puede utilizar un predicado condicional en las sentencias que componen el trigger que indique que tipo de operación o sentencia ha disparado el trigger. Estos predicados condicionales son los siguientes:
 
@@ -86,7 +84,7 @@ BEGIN
 END;
 ```
 
-## Tipos de triggers
+# Tipos de triggers
 
 Los triggers pueden definirse para las operaciones `INSERT`, `DELETE` o Update, y pueden dispararse antes o después de la operación. Finalmente, el nivel de los disparadores puede ser la fila o registro o la orden.
 
@@ -102,7 +100,7 @@ Tipos de disparadores.
 | Temporalización | `BEFORE o AFTER`         | Define si el disparador se activa antes o después deque se ejecute la operación DML                                                                                                                                                                                                                                 |
 | Nivel           | Fila u Orden             | Los disparadores con nivel de fila se activan unavez por cada fila afectada por la orden que provocóel disparo. Los Triggers con nivel de orden seactivan sólo una vez, antes o después de la orden.Los disparadores con nivel de fila se identificanpor la cláusula `FOR EACH ROW` en la definicióndel disparador. |
 
-## Orden de ejecución de los triggers
+# Orden de ejecución de los triggers
 
 Una misma tabla puede tener varios triggers asociados. En tal caso es necesario conocer el orden en el que se van a ejecutar.
 
@@ -115,7 +113,7 @@ Los disparadores se activan al ejecutarse la sentencia SQL.
 - Se ejecuta si existe, el disparador de tipo `AFTER` (disparador posterior) con nivel de fila.
 - Se ejecuta, si existe, el disparador de tipo `AFTER` con nivel de orden.
 
-## Restricciones de los Triggers.
+# Restricciones de los Triggers.
 
 El cuerpo de un disparador es un [bloque PL/SQL][1]. Cualquier orden que sea legal en un bloque PL/SQL , es legal en el cuerpo de un disparador, con las siguientes restricciones:
 
@@ -123,7 +121,7 @@ El cuerpo de un disparador es un [bloque PL/SQL][1]. Cualquier orden que sea leg
 - Por las mismas razones, ningún [procedure o función][6] llamado por el disparador puede emitir órdenes de control de transacciones.
 - El disparador no puede declarar [variables][7] de tipo `LONG`.
 
-## Utilización de :old y :new en los disparadores con nivel de fila.
+# Utilización de :old y :new en los disparadores con nivel de fila.
 
 Un disparador con nivel de fila se ejecuta una vez por cada fila procesada por la orden que provoca el disparo. Dentro del disparador, puede accederse a la fila que está siendo actualmente
 procesada utilizando, para ello, dos pseudo-registros, **`:old`** y **`:new`**.
@@ -168,7 +166,7 @@ BEGIN
 END;
 ```
 
-## La cláusula WHEN
+# La cláusula WHEN
 
 La cláusula `WHEN` sólo es válida para disparadores con nivel de fila. Si está presente, el cuerpo del disparador sólo se ejecutará para las filas que cumplan la condición especificada en la cláusula.
 
@@ -207,13 +205,13 @@ El `num_error` es un número entero cualquiera, aunque se aconseja que tenga 5 d
 raise_application_error( 20000,’ No se puede modificar el cliente.’);
 ```
 
-## Tabla Mutando
+# Tabla Mutando
 
 Cuando se realiza un trigger sobre una tabla, dicha tabla se dice que está en **“proceso de mutación”**, es decir, que se están realizando cambios sobre ella y que por tanto **dentro del trigger no se debe hacer ningún tipo de acceso a dicha tabla con operaciones DML (`SELECT`, `INSERT`, `DELETE` o `UPDATE`).**
 
 Si queremos conocer los valores del registro de la tabla sobre la que se ha disparado el trigger, este último debe estar declarado de forma `FOR EACH ROW` y acceder a sus valores mediante las pseudocolumnas :NEW y :OLD.
 
-## Siguiente tema: [PL/SQL - Registros y Tablas][8]
+# Siguiente tema: [PL/SQL - Registros y Tablas][8]
 
  [1]: https://elbauldelprogramador.com/bloques-plsql/
  [2]: https://elbauldelprogramador.com/lenguaje-manipulacion-de-datos-dml/

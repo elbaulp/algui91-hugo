@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-27
-
+lastmod: 2017-07-31T14:23:42+01:00
 mainclass: BaseDeDatos
 url: /plsql-declaracion-de-variables/
 tags:
@@ -43,7 +41,7 @@ Otra forma de asignarle un valor a una variable es mediante la clausula `INTO` d
 SELECT COUNT(*) INTO xNumFac FROM FACTURAS;
 ```
 
-## Atributos %TYPE y %ROWTYPE.
+# Atributos %TYPE y %ROWTYPE.
 
 Se puede declarar el tipo de una variable tomándolo de otro identificador, usando el atributo `%TYPE` y se puede declarar el tipo de una variable también cuando es un tipo estructurado con el atributo `%ROWTYPE`. Esto es particularmente útil cuando una variable va a tomar valores de una columna de una tabla. Declarar variables con el atributo `%TYPE` tiene dos ventajas. Primero, no necesitamos conocer el tipo exacto de la columna de la tabla. Segundo, si cambiamos la definición y/o tipo de la columna de la tabla, el tipo de la variable cambia automáticamente en tiempo de ejecución.
 
@@ -64,6 +62,6 @@ En este caso para acceder a cada campo que tuviera el tabla employee mediante la
 Un bloque tiene acceso a los objetos identificados dentro de su esquema. Solo podremos acceder a los objetos del usuario donde estemos conectados y a los que ese usuario pueda acceder porque le hayan otorgado permisos.
 
 
-## Siguiente Tema: [PL/SQL - Estructuras básicas de control][1]
+# Siguiente Tema: [PL/SQL - Estructuras básicas de control][1]
 
  [1]: https://elbauldelprogramador.com/plsql-estructuras-basicas-de-control/

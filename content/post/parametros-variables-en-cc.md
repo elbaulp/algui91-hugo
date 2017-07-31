@@ -2,14 +2,10 @@
 author: alex
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-description: "En ocasiones, es necesario tener una función a la que podamos pasar
-  un número de parámetros variables. En el artículo de hoy veremos cómo
-  hacerlo en C/C++."
+lastmod: 2017-07-31T13:52:02+01:00
+description: "En ocasiones, es necesario tener una función a la que podamos pasar  un número de parámetros variables. En el artículo de hoy veremos cómo  hacerlo en C/C++."
 image: 2013/11/cpp.png
-lastmod: 2016-08-19
-
 mainclass: dev
 url: /parametros-variables-en-cc/
 tags:
@@ -20,8 +16,6 @@ title: "Pasar parámetros variables en C/C++"
 ---
 
 En ocasiones, es necesario tener una función a la que podamos pasar un número de parámetros variables. En el artículo de hoy veremos cómo hacerlo en [C/C++](/tags/cpp).
-
-
 
 Para ello, usaremos la macro `va_start`, encargada de inicializar una lista de argumentos variables. Su prototipo es:
 
@@ -34,7 +28,7 @@ Inicializa `ap` para recuperar argumentos adicionales después del parámetro `p
 - `ap`: Objeto sin inicializar del tipo `va_list`. Después de la llamada, almacena la información necesaria para recuperar argumentos adicionales usando `va_arg`. Si `ap` ya ha sido pasado como primer argumento a una llamada previa a `va_start` o `va_copy`, debe ser pasado a `va_end` antes de llamar a la función.
 - `paramN`: Nombre del último parámetro con nombre en la definición de la función. Los argumentos extraídos por las llamadas posteriores a `va_arg` son aquellos tras `paramN`.
 
-## Primer ejemplo de parámetros variables
+# Primer ejemplo de parámetros variables
 
 <!--more--><!--ad-->
 
@@ -144,6 +138,6 @@ En éste caso, queremos llamar a `checkLine` con un número indeterminado de par
 
 Espero que estos tres ejemplos sencillos hayan servido para comprender el funcionamiento del uso de parámetros variables en C/C++.
 
-## Referencias
+# Referencias
 
 - *Documentación va_start* »» <a href="http://www.cplusplus.com/reference/cstdarg/va_start/" target="_blank">cplusplus.com</a>

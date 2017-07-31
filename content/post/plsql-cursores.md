@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-09-02
-
+lastmod: 2017-07-31T14:20:29+01:00
 mainclass: BaseDeDatos
 url: /plsql-cursores/
 tags:
@@ -25,8 +23,6 @@ PL/SQL crea implícitamente un cursor para todas las sentencias SQL de manipulac
 En PL/SQL no se pueden utilizar sentencias `SELECT` de sintaxis básica ( `SELECT <lista> FROM <tabla>` ). PL/SQL utiliza cursores para gestionar las instrucciones `SELECT`. Un cursor es un conjunto de registros devuelto por una instrucción SQL.
 
 <!--more--><!--ad-->
-
-
 
 Podemos distinguir dos tipos de cursores:
 
@@ -64,7 +60,7 @@ Para trabajar con un cursor hay que realizar los siguientes pasos:
 3. Recuperar cada una de sus filas (bucle)
 4. Cerrar el cursor
 
-## 1. Declarar el cursor
+# 1. Declarar el cursor
 
 Al igual que cualquier otra variable, el cursor se declara en la sección `DECLARE`. Se define el nombre que tendrá el cursor y qué consulta `SELECT` ejecutará. No es más que una declaración. La sintaxis básica es:
 
@@ -77,7 +73,7 @@ Una vez que el cursor está declarado ya podrá ser utilizado dentro del bloque 
 
 Antes de utilizar un cursor se debe abrir. En ese momento se ejecuta la sentencia `SELECT` asociada y se almacena el resultado en el área de contexto (estructura interna de memoria que maneja el cursor). Un puntero señala a la primera fila
 
-## 2. Abrir el cursor
+# 2. Abrir el cursor
 
 Al abrir el cursor se ejecuta la sentencia `SELECT` asociada y cuyo resultado se guarda en el servidor en un área de memoria interna (tablas temporales) de las cuales se va retornando cada una de las filas según se va pidiendo desde el cliente. Al abrir un cursor, un puntero señalará al primer registro.
 
@@ -90,7 +86,7 @@ OPEN nombre_cursor(valor1, valor2, ..., valorN);
 
 Una vez que el cursor está abierto, se podrá empezar a pedir los resultados al servidor.
 
-## 3.Recuperar cada una de sus filas.
+# 3.Recuperar cada una de sus filas.
 
 Una vez que el cursor está abierto en el servidor se podrá hacer la petición de recuperación de fila. En cada recuperación solo se accederá a una **única** fila. La sintaxis de recuperación de fila de un cursor es:
 
@@ -102,7 +98,7 @@ FETCH nombre_cursor INTO variables;
 Podremos recuperar filas mientras la consulta `SELECT` tenga filas pendientes de recuperar. Para saber cuándo no hay más filas podemos consultar los siguientes atributos de un cursor:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="74" width="584" src="https://1.bp.blogspot.com/_IlK2pNFFgGM/TUhwFtXwPiI/AAAAAAAAAT4/hCYNcjrUIuA/s1600/image.7HS4PV"></amp-img>
+    <amp-img sizes="(min-width: 584px) 584px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="74" width="584" src="https://1.bp.blogspot.com/_IlK2pNFFgGM/TUhwFtXwPiI/AAAAAAAAAT4/hCYNcjrUIuA/s1600/image.7HS4PV"></amp-img>
 </figure>
 
 Al recuperar un registro, la información recuperada se guarda en una o varias variables. Si sólo se hace referencia a una variable, ésta se puede declarar con [`%ROWTYPE`][2]. Si se utiliza una lista de variables, cada variable debe coincidir en tipo y orden con cada una de las columnas de la sentencia `SELECT`.
@@ -130,7 +126,7 @@ FOR variable IN nombre_cursor LOOP
 END LOOP;
 ```
 
-## 4. Cerrar el cursor
+# 4. Cerrar el cursor
 
 Una vez que se han recuperado todas las filas del cursor, hay que cerrarlo para que se liberen de la memoria del servidor los objetos temporales creados. Si no cerrásemos el cursor, la tabla
 temporal quedaría en el servidor almacenada con el nombre dado al cursor y la siguiente vez ejecutásemos ese bloque de código, nos daría la excepción `CURSOR_ALREADY_OPEN` (cursor ya abierto) cuando intentásemos abrir el cursor. Para cerrar el cursor se utiliza la siguiente sintaxis:
@@ -146,7 +142,7 @@ Cuando trabajamos con cursores debemos considerar:
 - Cuando se cierra el cursor, es ilegal tratar de usarlo.
 - El nombre del cursor es un identificador, no una variable. Se utiliza para identificar la consulta, por eso no se puede utilizar en expresiones.
 
-## Atributos en cursores implícitos
+# Atributos en cursores implícitos
 
 Los cursores implícitos no se pueden manipular por el usuario, pero Oracle sí permite el uso de sus atributos. Las sentencia a través de las que podemos obtener información de estos atributos son: `SELECT ... INTO, [INSERT, UPDATE, DELETE`][3].
 
@@ -207,7 +203,7 @@ BEGIN
 END;
 ```
 
-## Cursores Parametrizados
+# Cursores Parametrizados
 
 Los cursores son aquellos que permiten utilizar la orden OPEN para pasarle al cursor el valor de uno o varios de sus parámetros.
 
@@ -228,7 +224,7 @@ BEGIN
 END;
 ```
 
-## Cursores de actualización
+# Cursores de actualización
 
 Los cursores de actualización se declaran igual que los cursores explícitos, añadiendo `FOR UPDATE` al final de la sentencia `SELECT`.
 
@@ -267,7 +263,7 @@ BEGIN
 END;
 ```
 
-## Siguiente tema: [PL/SQL - Procedimientos y Funciones][5]
+# Siguiente tema: [PL/SQL - Procedimientos y Funciones][5]
 
  [1]: https://elbauldelprogramador.com/plsql-excepciones/
  [2]: https://elbauldelprogramador.com/plsql-declaracion-de-variables/

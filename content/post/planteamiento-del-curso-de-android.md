@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-20
-
+lastmod: 2017-07-31T14:20:20+01:00
 mainclass: android
 url: /planteamiento-del-curso-de-android/
 tags:
