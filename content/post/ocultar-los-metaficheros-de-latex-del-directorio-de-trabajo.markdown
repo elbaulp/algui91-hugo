@@ -15,7 +15,7 @@ tags:
 title: Ocultar Los Metaficheros De LaTeX Del Directorio De Trabajo
 ---
 
-Si trabajas habitualmente con [LaTeX](https://elbauldelprogramador.com/category/latex/ "Tutoriales sobre LaTeX"), estás acostumbrado a ver múltiples ficheros generados automáticamente al compilar el proyecto. Pueden llegar a molestar bastante, ya que ensucian el directorio de trabajo. Hoy explicaré dos alternativas para mover todos esos ficheros a un directorio separado para mantener un directorio de trabaja limpio.
+Si trabajas habitualmente con [LaTeX](https://elbauldelprogramador.com/category/latex/ "Tutoriales sobre LaTeX"), estás acostumbrado a ver múltiples ficheros generados automáticamente al compilar el proyecto. Pueden llegar a molestar bastante, ya que ensucian el directorio de trabajo. Hoy explicaré dos alternativas para mover todos esos ficheros a un directorio separado para mantener un directorio de trabajo limpio.
 
 
 # Estructura del directorio
