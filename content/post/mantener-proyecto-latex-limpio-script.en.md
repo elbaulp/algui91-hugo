@@ -6,7 +6,7 @@ mainclass = "latex"
 categories = ["LaTeX"]
 tags = ["tutorials"]
 description = "Automatically clean LaTeX temp files and show the updated PDF"
-url = "/en/keep-latex-proyect-clean"
+url = "/en/keep-latex-project-clean"
 +++
 
 > This post is a collaboration by <a href="http://Github.com/lulivi" target="_blank" title="Luis Liñan">Luis Liñan</a>.
