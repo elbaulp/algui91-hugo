@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-08-31
-
+lastmod: 2017-08-11T11:40:23+01:00
 mainclass: BaseDeDatos
 url: /plsql-excepciones/
 tags:
@@ -137,10 +135,10 @@ Las líneas de código debajo del manejador específico se ejecutarán cuando es
 A continuación se muestra una lista de las excepciones automáticas predefinidas por Oracle:
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="262" width="294" alt="Tabla errores oracle" title="Tabla errores oracle" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TUWDM6WfCxI/AAAAAAAAATM/0b1NleX1IY4/s320/image.0WG9PV"></amp-img>
+    <amp-img sizes="(min-width: 294px) 294px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="262" width="294" alt="Tabla errores oracle" title="Tabla errores oracle" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TUWDM6WfCxI/AAAAAAAAATM/0b1NleX1IY4/s320/image.0WG9PV"></amp-img>
 </figure>
 
-## Siguiente tema: [PL/SQL - Cursores][1]
+# Siguiente tema: [PL/SQL - Cursores][1]
 
 
  [1]: https://elbauldelprogramador.com/plsql-cursores/

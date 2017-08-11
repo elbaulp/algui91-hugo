@@ -2,10 +2,8 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2015-12-28
-
+lastmod: 2017-08-11T12:03:13+01:00
 mainclass: articulos
 url: /por-que-es-linux-mas-rapido-que-windows/
 tags:
@@ -30,6 +28,6 @@ La pregunta anterior genera mucho debate. Algunos dicen que es un mito pero la m
 
 Éstos motivos no son los únicos que hacen a linux más rápido que Windows. Se pueden encontrar motivos a nivel del Kernel explicados por un <a href="http://blog.zorinaq.com/?e=74" title="I Contribute to the Windows Kernel. We Are Slower Than Other Operating Systems. Here Is Why." target="_blank">desarrollador anónimo del kernel de Windows</a>.
 
-#### Referencias
+# Referencias
 
-*Why is Linux faster than Windows?* »» <a href="http://www.techdrivein.com/2014/02/why-is-linux-faster-than-windows.html" target="_blank">techdrivein.com</a>
+- *Why is Linux faster than Windows?* »» <a href="http://www.techdrivein.com/2014/02/why-is-linux-faster-than-windows.html" target="_blank">techdrivein.com</a>

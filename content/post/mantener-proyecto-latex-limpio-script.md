@@ -8,7 +8,7 @@ tags = ["bash"]
 description = "Limpiar automáticamente los ficheros temporales y mostrar el PDF actualizado"
 +++
 
-> Este artículo es una colaboración de <a href="http://Github.com/lulivi" target="_blank" title="Luis Liñan">Luis Liñan</a>.
+> Este artículo es una colaboración de <a href="http://Github.com/lulivi" target="_blank" title="Luis Liñan">Luis Liñan</a>, <a href="https://t.me/lulivi" target="_blank" title="@lulivi">@lulivi</a>.
 
 En esta entrada del blog utilizaremos un script simple que nos permitirá actualizar automáticamente nuestro documento pdf (a partir del fichero tex) y devolverlo al directorio de trabajo manteniendolo totalmente limpio.
 

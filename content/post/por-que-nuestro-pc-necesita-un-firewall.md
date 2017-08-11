@@ -4,10 +4,8 @@ categories:
 - internet
 - seguridad
 - so
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-10-01
-
+lastmod: 2017-08-11T12:04:42+01:00
 mainclass: articulos
 url: /por-que-nuestro-pc-necesita-un-firewall/
 tags:
