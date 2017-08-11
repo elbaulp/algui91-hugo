@@ -9,7 +9,7 @@ description = "Automatically clean LaTeX temp files and show the updated PDF"
 url = "/en/keep-latex-project-clean"
 +++
 
-> This post is a collaboration by <a href="http://Github.com/lulivi" target="_blank" title="Luis Liñan">Luis Liñan</a>.
+> This post is a collaboration by <a href="http://Github.com/lulivi" target="_blank" title="Luis Liñan">Luis Liñan</a>, <a href="https://t.me/lulivi" target="_blank" title="@lulivi">@lulivi</a>.
 
 Today we are going to use a simple shell script to autoupdate the pdf preview of our latex files. Then, it will bring the pdf from the metafiles directory to our project directory, keeping it clean from auxiliar files.
 

@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-09-02
-
+lastmod: 2017-08-11T11:54:41+01:00
 mainclass: BaseDeDatos
 url: /plsql-procedimientos-y-funciones/
 tags:
@@ -16,7 +14,7 @@ tags:
 title: PL/SQL. Procedimientos y Funciones
 ---
 
-## Procedimientos
+# Procedimientos
 
 Una vez que tenemos escrito un bloque de código, podemos guardarlo en un fichero .sql para su posterior uso, o bien guardarlo en base de datos para que pueda ser ejecutado por cualquier aplicación. El segundo caso se realiza mediante procedimientos almacenados (Stored Procedure).
 
@@ -68,7 +66,7 @@ CREATE OR REPLACE
 
 Una vez creado y compilado el procedimiento almacenado podemos ejecutarlo. Existen dos formas de pasar argumentos a un procedimiento almacenado a la hora de ejecutarlo. Estas son:
 
-### Notación posicional
+## Notación posicional
 
 Se pasan los valores de los parámetros en el mismo orden en que el procedure los define.
 
@@ -80,7 +78,7 @@ END;
 
 ```
 
-### Notación nominal
+## Notación nominal
 
 Se pasan los valores en cualquier orden nombrando explícitamente el parámetro y su valor separados por el símbolo =>.
 
@@ -125,7 +123,7 @@ BEGIN
 END;
 ```
 
-## Funciones
+# Funciones
 
 Para crear una función usaremos la siguiente sintaxis:
 
@@ -139,8 +137,7 @@ BEGIN
 END;
 ```
 
-
-## Siguiente tema: [PL/SQL - Paquetes (Packages)][3]
+# Siguiente tema: [PL/SQL - Paquetes (Packages)][3]
 
  [1]: https://elbauldelprogramador.com/bloques-plsql/
  [2]: https://elbauldelprogramador.com/plsql-declaracion-de-variables/
