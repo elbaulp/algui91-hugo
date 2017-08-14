@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-10-22
-
+lastmod: 2017-08-14T17:53:07+01:00
 mainclass: articulos
 url: /disponible-la-primera-parte-del-curso/
 tags:

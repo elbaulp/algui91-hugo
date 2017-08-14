@@ -3,11 +3,9 @@ author: alex
 categories:
 - c
 - hacking
-color: '#E64A19'
 date: '2016-01-01'
+lastmod: 2017-08-14T17:50:01+01:00
 image: 2012/12/logicbomb.png
-lastmod: 2016-08-05
-
 mainclass: dev
 url: /desafio-de-ingenieria-inversa-en-c-soluciones/
 tags:
@@ -19,10 +17,8 @@ title: "Desafío de ingeniería inversa en C. Soluciones"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Bomba" alt="" src="/img/2012/12/logicbomb.png" width="532px" height="449px"></amp-img>
+    <amp-img sizes="(min-width: 532px) 532px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Bomba" alt="" src="/img/2012/12/logicbomb.png" width="532px" height="449px"></amp-img>
 </figure>
-
-
 
 Hace unas semanas [hablé de un desafío][1] propuesto por los profesores de Estructura de computadores de mi facultad. Ahora que ha finalizado el plazo de entrega de la práctica, escribo este artículo con los resultados que obtuve.
 
@@ -36,50 +32,50 @@ Todos los programas escritos por los alumnos estan basados en este:
 #include <string.h>   // para strncmp()/strlen()
 #include <sys/time.h> // para gettimeofday(), struct timeval
 
-char password[]="abracadabran";
+    char password[]="abracadabran";
 int  passcode  = 7777;
 
 void boom(){
- printf("***************n");
-   printf("*** BOOM!!! ***n");
-   printf("***************n");
-   exit(-1);
+    printf("***************n");
+    printf("*** BOOM!!! ***n");
+    printf("***************n");
+    exit(-1);
 }
 
 void defused(){
-   printf("·························n");
- printf("··· bomba desactivada ···n");
- printf("·························n");
- exit(0);
+    printf("·························n");
+    printf("··· bomba desactivada ···n");
+    printf("·························n");
+    exit(0);
 }
 
 int main(){
 #define SIZE 100
-  char pass[SIZE];
-  int  pasv;
+    char pass[SIZE];
+    int  pasv;
 #define TLIM 5
     struct timeval tv1,tv2; // gettimeofday() secs-usecs
 
     gettimeofday(&tv1;,NULL);
 
     printf("Introduce la contraseña: ");
-  fgets(pass,SIZE,stdin);
-   if (strncmp(pass,password,strlen(password)))
-      boom();
+    fgets(pass,SIZE,stdin);
+    if (strncmp(pass,password,strlen(password)))
+        boom();
 
- gettimeofday(&tv2;,NULL);
-  if (tv2.tv_sec - tv1.tv_sec > TLIM)
-       boom();
+    gettimeofday(&tv2;,NULL);
+    if (tv2.tv_sec - tv1.tv_sec > TLIM)
+        boom();
 
- printf("Introduce el código: ");
-  scanf("%i",&pasv;);
+    printf("Introduce el código: ");
+    scanf("%i",&pasv;);
     if (pasv!=passcode) boom();
 
- gettimeofday(&tv1;,NULL);
-  if (tv1.tv_sec - tv2.tv_sec > TLIM)
-       boom();
+    gettimeofday(&tv1;,NULL);
+    if (tv1.tv_sec - tv2.tv_sec > TLIM)
+        boom();
 
- defused();
+    defused();
 }
 ```
 
@@ -307,13 +303,13 @@ Para escribir mi programa me basé en técnicas de ofuscación que encontré por
 
 ```c
 /*
- ============================================================================
- Name        : Boom.c
- Author      : Alejandro Alcalde
- Version     : 0.1
- Description : Práctica sobre ingeniería inversa
- ============================================================================
- */
+  ============================================================================
+  Name        : Boom.c
+  Author      : Alejandro Alcalde
+  Version     : 0.1
+  Description : Práctica sobre ingeniería inversa
+  ============================================================================
+*/
 
 #include <stdio.h>    // para printf()
 #include <stdlib.h>   // para exit()
@@ -326,92 +322,92 @@ Para escribir mi programa me basé en técnicas de ofuscación que encontré por
 #define OFUSCACION ,(char *) v);
 
 //char password[] = "abracadabran";
-int passcode = 555;
+                                                                               int passcode = 555;
 
 void boom() {
-  printf("***************n");
-   printf("*** BOOM!!! ***n");
-   printf("***************n");
-   exit(-1);
+    printf("***************n");
+    printf("*** BOOM!!! ***n");
+    printf("***************n");
+    exit(-1);
 }
 
 void defused() {
-  printf("·························n");
- printf("··· bomba desactivada ···n");
- printf("·························n");
- exit(0);
+    printf("·························n");
+    printf("··· bomba desactivada ···n");
+    printf("·························n");
+    exit(0);
 }
 
 double password[3];
 
 char* decode(char* p){
-  int a = 0;
+    int a = 0;
     char* f;
-  f = (char*) malloc(sizeof(char)*SIZE);
+    f = (char*) malloc(sizeof(char)*SIZE);
 
-  for (a = 0; a < 10; a++)
-      f[a] = p[a * 2 + 1];
-  return f;
+    for (a = 0; a < 10; a++)
+        f[a] = p[a * 2 + 1];
+    return f;
 }
 
 void confuse2(int* pw){
-   int i = 0;
+    int i = 0;
     char* salt = "wE9mg9pu2KSmp5lh";
-  for (i = 0; i < 16; i++)
-      *pw ^= salt[i];
-   *pw+=7777;
+    for (i = 0; i < 16; i++)
+        *pw ^= salt[i];
+    *pw+=7777;
 }
 
 int main(_, v) double *v; int _;{
     int pasv;
 #define TLIM 60
     struct timeval tv1, tv2; // gettimeofday() secs-usecs
- double h[3];
-  switch (_) {
-  case 0:
+    double h[3];
+    switch (_) {
+    case 0:
 //     ESTO ES OFUSCACION
         break;
     case 45681:
-       strcpy((char*) password, (char*)v);
-       confuse2(&passcode;);
-      main(0, v);
-       break;
+        strcpy((char*) password, (char*)v);
+        confuse2(&passcode;);
+        main(0, v);
+        break;
     default:
-      h[0] = 13027340775320732841130839654634808548322878081841199945244886528920637933617152.000000;
-       h[1] = 3870500591494514751058285253136238534286695148502666756138516046378808251612945489502056433082093156719316295785906296012743611709256336712091456794020400600332451080740411432505870026138587691271552924066658849697642476166184960.000000;
-      h[2] = 0;
-     main(45681, h);
-       //main(45681, "@M?eg \PoiRlLldo!�");
+        h[0] = 13027340775320732841130839654634808548322878081841199945244886528920637933617152.000000;
+        h[1] = 3870500591494514751058285253136238534286695148502666756138516046378808251612945489502056433082093156719316295785906296012743611709256336712091456794020400600332451080740411432505870026138587691271552924066658849697642476166184960.000000;
+        h[2] = 0;
+        main(45681, h);
+        //main(45681, "@M?eg \PoiRlLldo!�");
         break;
     }
 
-   //Pedimos datos al usuario
+    //Pedimos datos al usuario
     char f[SIZE];
- gettimeofday(&tv1;,NULL);
+    gettimeofday(&tv1;,NULL);
 
     printf("Introduce la contraseña: ");
-  fgets(f,SIZE,stdin);
+    fgets(f,SIZE,stdin);
 
     if (strncmp(f,decode((char*)password),strlen(decode((char*)password))))
-       boom();
+        boom();
 
- gettimeofday(&tv2;,NULL);
-  if (tv2.tv_sec - tv1.tv_sec > TLIM)
-       boom();
+    gettimeofday(&tv2;,NULL);
+    if (tv2.tv_sec - tv1.tv_sec > TLIM)
+        boom();
 
- printf("Introduce el código: ");
-  scanf("%i",&pasv;);
+    printf("Introduce el código: ");
+    scanf("%i",&pasv;);
     confuse2(&pasv;);
-  if (pasv!=passcode)
-       boom();
+    if (pasv!=passcode)
+        boom();
 
- gettimeofday(&tv1;,NULL);
-  if (tv1.tv_sec - tv2.tv_sec > TLIM)
-       boom();
+    gettimeofday(&tv1;,NULL);
+    if (tv1.tv_sec - tv2.tv_sec > TLIM)
+        boom();
 
- defused();
+    defused();
 
-  return 0;
+    return 0;
 }
 ```
 
