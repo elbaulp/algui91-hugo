@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-10-28
-
+lastmod: 2017-08-15T19:11:05+01:00
 mainclass: android
 url: /programacion-android-implementando-un_14/
 tags:
@@ -23,9 +21,7 @@ En el código que vimos en la anterior entrada, se implementa el método *getTyp
 
 Como ya se vió en la [entrada anterior][2], se usa UriMatcher para descifrar el tipo de URI. En función de esta, la clase *favSitesTableMEtaData* tiene definida las constantes de los tipos MIME a devolver para cada URI.
 
-
-
-#### Implementación del método Query
+# Implementación del método Query
 
 El método *query* es el responsable de devolver una colección de filas en función de una URI dada y una [cláusula where][4].
 
@@ -35,7 +31,7 @@ Al igual que los otros métodos, usa UriMatcher para identificar el tipo de URI.
 
 El método query usa las proyecciones (projecttions) que creamos para identificar las columnas devueltas. Básicamente, query devuelve un [cursor][5]. Durante la llamada al método query, se usa el objeto *<a target="_blank" href="http://developer.android.com/reference/android/database/sqlite/SQLiteQueryBuilder.html">SQLiteQueryBuilder</a>* para formular y ejecutar la consulta.
 
-#### Implementación del método Insert
+# Implementación del método Insert
 
 Éste método se encarga de insertar registros en la base de datos y devuelve una URI que apunta al registro insertado. Al igual que el método anterior, usa UriMatcher para identificar el tipo de URI. Primero comprueba si la URI coincide correctamente con el tipo de colección de datos de dicha URI. Si esta comprobación falla, se lanza una excepción.
 
@@ -43,19 +39,19 @@ A continuación, se validan los parámetros correspondientes a las columnas opci
 
 Después, se usa el objeto <a target="_blank" href="http://developer.android.com/reference/android/database/sqlite/SQLiteDatabase.html">SQLiteDatabase</a> para insertar el nuevo registro y devolver el ID que se acaba de insertar. Por último, se crea una URI nueva a partir del ID devuelto por la base de datos.
 
-#### Implementación del método Update
+# Implementación del método Update
 
 Se encarga de actualizar registros que cumplan las condiciones que establece la [cláusula where][4]. Éste método devuelve el número de registros actualizados.
 
 También usa UriMatcher para identificar el tipo de URI. Si la URI es una colección de datos, se aplica la cláusula where para aplicar el update a los registros que cumplan las condiciones de dicha cláusula. Si por el contrario, el tipo de URI es de un solo registro, se extrae el ID (En este caso de un lugar) de la URI y se especifica como una cláusula where adicional para identificar el lugar almacenado en la base de datos que tenga asignado ese ID. Una vez acabado el proceso de actualizar los registros, Update devuelve el número de registros que se modificaron.
 
-#### Implementación de método Delete
+# Implementación de método Delete
 
 Se encarga de eliminar registros basandose en la cláusula where que se le pasa como parámetro. Devuelve el número de filas eliminadas.
 
 Usa UriMatcher, al igual que los anteriores. Si la URI es una colección, se aplica la cláusula where para borrar todos los registros que cumplan esas condiciones. Si no existe la cláusula, se eliminan todos los registros. En el caso de que la URI corresponda a un único elemento, se extrae su ID de la URI y se especifíca como cláusula where adicional (al igual que en el método update). Por último, devuelve el número de registros elminados.
 
-#### Usando UriMatcher para conocer el tipo de URI
+# Usando UriMatcher para conocer el tipo de URI
 
 Hemos hablado mucho en esta sección de UriMatcher, ahora es el momento de profundizar en él. La mayoría de los métodos de un proveedor de contenidos están sobrecargados. Por ejemplo, se llama al mismo método query() tanto para recuperar un único registro o múltiples. Es el método el que debe averiguar el tipo de URI. La utilidad que ofrece Android con UriMatcher ayuda precisamente a realizar este trabajo de identificar el tipo de URI.
 
@@ -108,7 +104,7 @@ static {
 }
 ```
 
-#### Usando los mapas de proyecciones (Projection Maps)
+# Usando los mapas de proyecciones (Projection Maps)
 
 El proveedor de contenido actúa de intermediario entre un conjunto abstracto de columnas y un conjunto real de columnas en una base de datos, sin embargo los conjuntos de columnas pueden ser distintos. Mientras construimos consultas (queries), es necesario hacer un mapeo entre las columnas de la cláusula where y las columnas reales de la base de datos. Para configurar este *projection map* necesitamos la ayuda de la clase *[SQLiteQueryBuilder.][6]*
 
@@ -147,7 +143,7 @@ qb.setTables(favSitesTableMEtaData.TABLE_NAME);
 qb.setProjectionMap(sSitesProjectionMap);
 ```
 
-### Siguiente Tema: [Implementando un Content Provider (Parte 4)][8]
+# Siguiente Tema: [Implementando un Content Provider (Parte 4)][8]
 
  [1]: https://elbauldelprogramador.com/programacion-android-implementando-un
  [2]: https://elbauldelprogramador.com/programacion-android-implementando-un_08

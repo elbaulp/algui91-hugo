@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-11-03
-
+lastmod: 2017-08-15T19:12:08+01:00
 mainclass: android
 url: /programacion-android-implementando-un_29/
 tags:
@@ -17,9 +15,7 @@ title: "Programación Android: Implementando un Content Provider (Parte 4)"
 
 En esta última parte de una serie de [4 artículos][1] en los que se ha ido explicando cómo implementar un [ContentProvider][2] desde cero, se va a ver cómo registrar dicho proveedor y cómo darle uso.
 
-
-
-#### Registrar el proveedor
+# Registrar el proveedor
 
 Para poder usar el proveedor es necesario registrarlo en el [AndroidManifest:][3]
 
@@ -30,7 +26,7 @@ android:authorities="com.elbauldelprogramador.provider.FavSites" />
 
 <!--more--><!--ad-->
 
-#### Añadir registros
+# Añadir registros
 
 ```java
 String tag = "Insertando registros...";
@@ -55,7 +51,7 @@ Uri insertedUri = cr.insert(uri, cv);
 Log.d(tag,"inserted uri:" + insertedUri);
 ```
 
-#### Eliminar registros
+# Eliminar registros
 
 ```java
 ContentResolver cr = getContentResolver();
@@ -67,7 +63,7 @@ Log.d("Deleting site...","site delete uri:" + uri);
          new String[]{"5"});
 ```
 
-#### Obtener el número de registros
+# Obtener el número de registros
 
 Para realizar esto, debemos crear un [cursor][4] y contar el número de registros de este:
 
@@ -82,7 +78,7 @@ int numeroRegistros = cur.getCount();
 cur.close();
 ```
 
-#### Mostrar la lista de sítios
+# Mostrar la lista de sítios
 
 Muestra todo el contenido de la tabla sites de la base de datos.
 
@@ -150,7 +146,7 @@ Muestra todo el contenido de la tabla sites de la base de datos.
 
 Espero que este conjunto de cuatro artículos os haya servido de ayuda. En los próximos artículos veremos en profundidad los intents.
 
-#### Siguiente Tema: [Intents - Conceptos básicos][5]
+# Siguiente Tema: [Intents - Conceptos básicos][5]
 
  [1]: https://elbauldelprogramador.com/guia-de-desarrollo-android
  [2]: https://elbauldelprogramador.com/programacion-android-proveedores-de

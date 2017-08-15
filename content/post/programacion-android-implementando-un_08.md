@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-10-28
-
+lastmod: 2017-08-15T19:10:23+01:00
 mainclass: android
 url: /programacion-android-implementando-un_08/
 tags:
@@ -197,7 +195,7 @@ public class SitesProvider extends ContentProvider{
 }
 ```
 
-## Siguiente Tema: [Implementando un Content Provider (Parte 3)][7]
+# Siguiente Tema: [Implementando un Content Provider (Parte 3)][7]
 
  [1]: https://elbauldelprogramador.com/guia-de-desarrollo-android
  [2]: https://elbauldelprogramador.com/programacion-android-implementando-un

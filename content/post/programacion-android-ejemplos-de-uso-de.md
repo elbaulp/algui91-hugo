@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-08-13
-
+lastmod: 2017-08-15T19:07:03+01:00
 mainclass: android
 url: /programacion-android-ejemplos-de-uso-de/
 aliases: /opensource/programacion-android-ejemplos-de-uso-de/
@@ -38,7 +36,6 @@ Por lo tanto debemos usar **startActivityForResult()**, que sí que tiene callba
 
 ```java
 protected void onActivityResult (int requestCode, int resultCode, Intent data)
-
 ```
 
 Donde el primer argumento es el código que le hemos pasado a **startActivityForResult()**, el segundo argumento (resultcode), puede ser *RESULT\_OK, RESULT\_CANCELED* o un código propio. Si decidimos usar un código propio, debe empezar en *RESULT\_FIRST\_USER*. El tercer parámetro contiene cualquier dato adicional que la actividad invocada devuelva. Para *ACTION_PICK* tendremos una URI apuntando a un elemento.

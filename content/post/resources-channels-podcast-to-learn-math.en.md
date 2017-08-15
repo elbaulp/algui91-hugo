@@ -3,7 +3,7 @@ image = "resources-channels-podcast-to-learn-math.png"
 mainclass = "articulos"
 author = "alex"
 date = "2017-02-24T21:42:53+01:00"
-lastmod = "2017-03-16T11:40:27+01:00"
+lastmod = "2017-08-15T18:46:29+01:00"
 title = "13 Resources / Channels / Podcasts about Mathematics"
 description = "A curated list of blogs, podcasts and Youtube Channels about Mathematics"
 tags = ["mathematics", "podcasts", "blogs", "Youtube Channels", "lists"]
@@ -64,7 +64,7 @@ If you follow some resource about Mathematics not listed below feel free to post
     <p>3Blue1Brow-postn is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.</p>
 
     <div class="tags">
-      <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank" title="3Blue1Brow-postn">3Blue1Brow</a>
+      <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank" title="3Blue1Brow-postn">3Blue1Brow</a>, he also have a podcast: <a href="https://www.benbenandblue.com/" target="_blank" title="https://www.benbenandblue.com/">benbenandblue.com</a>.
     </div>
   </article>
 

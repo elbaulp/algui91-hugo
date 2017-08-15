@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-10-28
-
+lastmod: 2017-08-15T19:12:38+01:00
 mainclass: android
 url: /programacion-android-implementando-un/
 tags:
@@ -34,7 +32,7 @@ También necesitamos configurar unas cuantas cosas antes de implementarlo. Los p
   3. Implementar los métodos query, insert, update, delete y getType.
   4. Registrar el proveedor en el Android Manifest.
 
-### Planteamiento de la base de datos
+# Planteamiento de la base de datos
 
 El siguiente planteamiento de la base de datos pertenece a la aplicación [FavSites][5], proyecto que realicé tiempo atrás y registrado bajo licencia [GPLv3][6]. Esta base de datos contiene una única tabla con las columnas nombre, descripción, latitud, longitud y foto. Estos nombres de columnas pasarán a formar parte de los metadatos en nuestra clase FavSitesProviderMetadata.
 
@@ -166,7 +164,7 @@ La clase *favSitesTableMEtaData* define los MIME types para una colección de si
 
 Además, la clase *favSitesTableMEtaData* hereda de la clase *BaseColumns*, la cual proporciona el campo estandar *_ID*, que representa el identificador de la fila. Con todas estas definiciones de metadatos, estamos listos para continuar con la implementación de nuestro proveedor.
 
-## Siguiente Tema: [Implementando un Content Provider (Parte 2)][7]
+# Siguiente Tema: [Implementando un Content Provider (Parte 2)][7]
 
  [1]: https://elbauldelprogramador.com/programacion-android-actualizar-y
  [2]: https://elbauldelprogramador.com/bases-de-datos

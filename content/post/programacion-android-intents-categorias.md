@@ -3,9 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-
+lastmod: 2017-08-15T19:13:38+01:00
 mainclass: android
 url: /programacion-android-intents-categorias/
 tags:
@@ -14,10 +13,6 @@ tags:
 - ejemplo intentfilter implicito
 title: "Programación Android: Intents - Categorías"
 ---
-
-<div class="separator" >
-
-</div>
 
 Las actividades se pueden clasificar en categorías para así poder buscarlas basándonos en el nombre de dicha categoría. Por ejemplo, mientras el sistema se está iniciando, busca en las actividades las que estén bajo la categoría *CATEGORY_LAUNCHER*.
 
@@ -34,12 +29,11 @@ La forma de declarar las categorías en el AndroidManifest es la siguiente:
 
 ```xml
 <activity android:name=".PrincipalActivity" android:label="@string/app_name">
-<intent>
-<action android:name="android.intent.action.MAIN">
-<category android:name="android.intent.category.LAUNCHER">
-</category></action></intent>
+   <intent-filter>
+      <action android:name="android.intent.action.MAIN" />
+      <category android:name="android.intent.category.LAUNCHER" />
+   </intent-filter>
 </activity>
-
 ```
 
 Vamos a ver algunas categorías predefinidas, podéis encontrar la lista de todas ellas en <a target="_blank" href="http://developer.android.com/reference/android/content/Intent.html#CATEGORY_ALTERNATIVE">developer.android.com/reference/android/content/Intent.html#CATEGORY_ALTERNATIVE</a>:
@@ -56,7 +50,6 @@ Intent i = new Intent(Intent.ACTION_MAIN, null);
 i.addCategory(Intent.CATEGORY_LAUNCHER);
 PackageManager pm = getPackageManager();
 List<resolveinfo> list = pm.queryIntentActivities(i, 0);
-</resolveinfo>
 ```
 
 PackageManager permite encontrar actividades que coincidan con un intent sin llegar a invocarlas. Una vez ejecutado lo de arriba, podemos iterar sobre la lista e invocar a la actividad que coincida con el nombre que deseemos:
@@ -72,7 +65,6 @@ for(ResolveInfo ri: list){
       activity.startActivity(i);
    }
 }
-
 ```
 
 Es posible lanzar una actividad basándonos en el nombre de la categoría:
@@ -81,20 +73,13 @@ Es posible lanzar una actividad basándonos en el nombre de la categoría:
 Intent i = new Intent(Intent.ACTION_MAIN, null);
 i.addCategory(Intent.CATEGORY_LAUNCHER);
 activity.startActivity(i);
-
 ```
 
 Como mencioné anteriormente, en el caso de que exista más de una actividad que satisfaga las condiciones que impone el intent, se mostrará un diálogo al usuario para que elija cual lanzar.
 
 Si quisiéramos invocar un intent para volver a la pantalla principal, basta con cambiar la categoría del código de arriba de *Intent.CATEGORY_LAUNCHER* a *Intent.CATEGORY_HOME*
 
-* * *
-
-#### Siguiente Tema: [Cómo se resuelven los Intents][2]
-
-
-
-
+# Siguiente Tema: [Cómo se resuelven los Intents][2]
 
  [1]: https://elbauldelprogramador.com/programacion-android-intents-conceptos
  [2]: https://elbauldelprogramador.com/programacion-android-como-se-resuelven/
