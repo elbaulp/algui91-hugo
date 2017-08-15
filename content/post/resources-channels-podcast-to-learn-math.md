@@ -3,7 +3,7 @@ image = "resources-channels-podcast-to-learn-math.png"
 mainclass = "articulos"
 author = "alex"
 date = "2017-02-24T21:42:53+01:00"
-lastmod = "2017-03-16T11:40:06+01:00"
+lastmod = "2017-08-15T18:46:22+01:00"
 title = "13 recursos / canales / podcasts sobre matemáticas"
 description = "Una lista de blogs, podcasts y canales de Youtube que enseñan o hablan de Matemáticas"
 tags = ["matemáticas", "podcasts", "blogs", "Canales Youtube", "listas"]
@@ -65,7 +65,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
     <p>3Blue1Brow-postn is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.</p>
 
     <div class="tags">
-      <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank" title="3Blue1Brow-postn">3Blue1Brow</a>
+    <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank" title="3Blue1Brow-postn">3Blue1Brow</a>, también tiene un podcast: <a href="https://www.benbenandblue.com/" target="_blank" title="https://www.benbenandblue.com/">benbenandblue.com</a>.
     </div>
   </article>
 
