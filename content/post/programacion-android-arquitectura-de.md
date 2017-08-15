@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-10-01
-
+lastmod: 2017-08-15T19:05:23+01:00
 mainclass: android
 url: /programacion-android-arquitectura-de/
 tags:
@@ -67,7 +65,7 @@ content://contacts/people/23
 
 > Nótese que estos CV (content://media y content://contacts) no tienen una estructura completa como los vistos más arriba. Se debe a que no son CV de terceros, son propios de Android y él es quién los controla.
 
-## Siguiente Tema: [Proveedores de Contenidos - Leer datos mediante URIs][5]
+# Siguiente Tema: [Proveedores de Contenidos - Leer datos mediante URIs][5]
 
  [1]: https://elbauldelprogramador.com/buenas-practicas-para-el-diseno-de-una-api-restful-pragmatica/
  [2]: https://elbauldelprogramador.com/plsql-procedimientos-y-funciones/

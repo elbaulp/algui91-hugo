@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-14
-
+lastmod: 2017-08-15T19:07:43+01:00
 mainclass: android
 url: /programacion-android-hola-mundo/
 tags:
@@ -27,12 +25,12 @@ En esta entrada vamos a empezar directamente con el típico Hola Mundo (Hello Wo
 
 <!--more--><!--ad-->
 
-## CREANDO EL PROYECTO
+# CREANDO EL PROYECTO
 
 Arrancamos eclipse con todo configurado correctamente y vamos a Archivo->nuevo->Proyecto Android:
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="crear Proyecto Android" alt="crear Proyecto Android"  height="605" width="800" src="https://3.bp.blogspot.com/-yu9kW8WAiD8/Tfjrq_ZBS9I/AAAAAAAAAmU/CX2f8KDBR9A/s800/nuevoProyecto.png"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="crear Proyecto Android" alt="crear Proyecto Android"  height="605" width="800" src="https://3.bp.blogspot.com/-yu9kW8WAiD8/Tfjrq_ZBS9I/AAAAAAAAAmU/CX2f8KDBR9A/s800/nuevoProyecto.png"></amp-img>
 </figure>
 
 Despues de esto se nos mostrará un dialogo para configurar el proyecto, debemos introducir:
@@ -47,34 +45,34 @@ Despues de esto se nos mostrará un dialogo para configurar el proyecto, debemos
   * Una vez rellenado todo, le damos a finalizar.
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="configuracion proyecto Android" alt="configuracion proyecto Android"  height="625" width="782" src="https://4.bp.blogspot.com/-nhOjIrNDwN8/Tfj1iSJ8I7I/AAAAAAAAAmc/J5ME2LrOGRE/s800/ConfigurarPoryecto.png"></amp-img>
+    <amp-img sizes="(min-width: 782px) 782px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="configuracion proyecto Android" alt="configuracion proyecto Android"  height="625" width="782" src="https://4.bp.blogspot.com/-nhOjIrNDwN8/Tfj1iSJ8I7I/AAAAAAAAAmc/J5ME2LrOGRE/s800/ConfigurarPoryecto.png"></amp-img>
 </figure>
 
 Ya hemos creado nuestro primer proyecto Android, ahora vamos a ver de qué se compone:
 
-## COMPONENTES DEL PROYECTO
+# COMPONENTES DEL PROYECTO
 
 Los proyectos de Android siguen una estructura fija de carpetas que debemos respetar. Podemos ver esta estructura con la vista ***Package Explorer*** que proporciona eclipse:
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Estructura proyectos Android" alt="Estructura proyectos Android"  height="507" width="239" src="https://3.bp.blogspot.com/-8mEhB--FnqI/Tfj3eqQKPhI/AAAAAAAAAmk/mf2HiIbzU8c/s800/estructuraCarpetas.png"></amp-img>
+    <amp-img sizes="(min-width: 239px) 239px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Estructura proyectos Android" alt="Estructura proyectos Android"  height="507" width="239" src="https://3.bp.blogspot.com/-8mEhB--FnqI/Tfj3eqQKPhI/AAAAAAAAAmk/mf2HiIbzU8c/s800/estructuraCarpetas.png"></amp-img>
 </figure>
 
-### Carpeta src (de fuentes)
+## Carpeta src (de fuentes)
 
 Esta carpeta contiene el código fuente organizado en paquetes. Aquí irán las clases java de nuestra aplicación.
 
-### Carpeta gen (archivos generados)
+## Carpeta gen (archivos generados)
 
 Aquí van los archivos que genera el compilador en sus pasadas, como el archivo de recursos ***R***, esta carpeta normalmente no se debe tocar.
 
-### Carpeta assets (De recursos varios)
+## Carpeta assets (De recursos varios)
 
 Almacena recursos que pueda necesitar nuestra aplicación, como ficheros de música etc.
 
 Podremos acceder a ellos fácilmente con la clase del sistema ***AssetManager***
 
-### Clase de recursos (res)
+## Clase de recursos (res)
 
 Esta carpeta es una de la que más vamos a usar junto con ***src***, contiene todos los recursos necesarios para la aplicación. Todos los archivos de esta carpeta son indexados por el compilador y se genera el fichero de recursos ***R***, que nos permite acceder a ellos de una forma rápida.
 
@@ -91,13 +89,13 @@ Está dividida en subcarpetas:
 
 Algunas carpetas pueden tener varias versiones para adaptarse a diferentes tamaños de pantallas, idiomas etc.
 
-### El archivo Manifest (AndroidManifest.xml)
+## El archivo Manifest (AndroidManifest.xml)
 
 Todos los proyectos tienen un archivo como este, en él se detallan las características principales (módulos, permisos, nombre, icono&#8230;).
 
 Ahora que hemos explicado la estructura de un proyecto Android, veamos el ejemplo ***Hola Mundo*** al detalle
 
-## Profundizando en el &#8220;Hola Mundo&#8221;
+# Profundizando en el &#8220;Hola Mundo&#8221;
 
 ```java
 package app.tutorial.holaMundo;
@@ -121,24 +119,24 @@ Al crear una activity Android llama a su método ***onCreate()*** que hace lo ne
 
 Por lo tanto, ***R.layout.main*** referencia a un archivo xml situado en la carpeta ./res/layout (ficheros de definición de pantalla).
 
-### Archivo ./res/layout/main.xml
+## Archivo ./res/layout/main.xml
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-    <linearlayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-    <textview
+    <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/hello" />
-</linearlayout>
+</LinearLayout>
 ```
 
 En este archivo se define una pantalla en la que los elementos se agruparán de forma lineal (LinearLayout) y con un componente de texto (TextView). Al componente de texto le fijamos el texto a mostrar con la referencia ***@string/hello*** (valor del item en ./res/values/strings.xml)
 
-### Archivo ./res/values/strings.xml
+## Archivo ./res/values/strings.xml
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -168,7 +166,7 @@ Para que la aplicación funcione es necesario crear el AndroidManifest:
 
 En este archivo se definen el paquete por defecto, datos de versión, icono (mediante una referencia). El nombre de la aplicación (otra referencia al fichero strings.xml). Despues se define el comportamiento de la aplicación. Se añaden dos filtros para que la actividad que definimos anteriormente sea usada como principal (***android.intent.action.MAIN***) y para que sea incluida en el menú de aplicaciones (***android.intent.category.LAUNCHER***)
 
-## Siguiente tema: [Fundamentos programación Android: Conceptos básicos y componentes][5]
+# Siguiente tema: [Fundamentos programación Android: Conceptos básicos y componentes][5]
 
  [1]: https://elbauldelprogramador.com/resultados-de-la-encuesta-que-tematica
  [2]: video-tutorial-programacion-android

@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-10-26
-
+lastmod: 2017-08-15T19:04:39+01:00
 mainclass: android
 url: /programacion-android-actualizar-y/
 tags:
@@ -44,7 +42,7 @@ Logicamente, el método *delete* no necesita un argumento que contenga el *Conte
 
 Casi todas las llamadas que se hacen desde *managedQuery* y *ContentResolver* se dirigen a las clase *provider*. Saber cómo un proveedor implementa cada uno de estos métodos no dá suficientes pistas de cómo se usan dichos métodos. [En entradas posteriores][3], veremos cómo implementar desde cero un content provider.
 
-## Siguiente Tema: [Implementando un Content Provider (Parte 1)][4]
+# Siguiente Tema: [Implementando un Content Provider (Parte 1)][4]
 
  [1]: https://elbauldelprogramador.com/programacion-android-insertando
  [2]: https://elbauldelprogramador.com/lenguaje-manipulacion-de-datos-dml

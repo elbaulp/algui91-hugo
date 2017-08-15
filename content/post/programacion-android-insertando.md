@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-10-20
-
+lastmod: 2017-08-15T19:13:13+01:00
 mainclass: android
 url: /programacion-android-insertando/
 tags:
@@ -17,9 +15,7 @@ title: "Programación Android: Insertando registros"
 
 En la entrada anterior hablamos de cómo [obtener regístros][1] de los proveedores de contenidos (CV) usando [URIs][2]. Ahora vamos a ver como insertar registros.
 
-
-
-## Introducción
+# Introducción
 
 Anroid utiliza una clase llamada *android.content.ContentValues* para retener los valores de un solo registro, que será el que se insertará. Los *ContentValues* son un dicionario de pares clave/valor, al igual que los nombres de columnas y valores de las [bases de datos][3]. La forma de insertar un registro es rellenando el ContentValues primero y despues decir a *android.content.ContentResolver* que lo inserte usando una URI.
 
@@ -69,7 +65,7 @@ Con esta Uri, podemos por ejemplo mostrar en el log del sistema qué registro he
 Log.d("Nuevo registro añadido","Uri:" + insertedUri);
 ```
 
-## Añadir archivos a un Content Provider
+# Añadir archivos a un Content Provider
 
 Puede que en ocasiones necesitemos añadir un archivo a una base de datos. Lo normal es guardar el archivo en disco y actualizar el registro en la base de datos para que apunte al archivo correspondiente. Android usa este protocolo y lo automatiza mediante la definición de un procedimiento específico para guardar y recibir estos archivos. Usa un convenio en el cual una referencia a un nombre de archivo se guarda en un registro con un nombre de columna reservado llamado **_data**.
 
@@ -99,7 +95,7 @@ outStream.close;
 
 El código usa el flujo de salida para escribir.
 
-## Siguiente Tema: [Actualizar y borrar registros][5]
+# Siguiente Tema: [Actualizar y borrar registros][5]
 
  [1]: https://elbauldelprogramador.com/programacion-android-usando-la-clausula
  [2]: https://elbauldelprogramador.com/programacion-android-proveedores-de
