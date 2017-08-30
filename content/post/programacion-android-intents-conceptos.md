@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-11-03
-
+lastmod: 2017-08-30T10:51:59+01:00
 mainclass: android
 url: /programacion-android-intents-conceptos/
 tags:
@@ -19,9 +17,7 @@ title: "Programación Android: Intents - Conceptos básicos"
 
 Un intent sirve para invocar componentes, en android entendemos por componentes las [activities,][1] Que son componentes de UI [Interfaz gráfica], services, Código ejecutándose en segundo plano, broadcast receivers, Código que responde a un mensaje de transmisión [Broadcast messages] y [proveedores de contenido][2], código que abstráe los datos.
 
-
-
-### Introducción a los Intents
+# Introducción a los Intents
 
 <!--more--><!--ad-->
 
@@ -74,7 +70,7 @@ if (intent == null){
 }
 ```
 
-### Intents disponibles en Android
+# Intents disponibles en Android
 
 En <a target="_blank" href="http://developer.android.com/guide/appendix/g-app-intents.html">developer.android.com/guide/appendix/g-app-intents.html</a> se puede encontrar una lista con las aplicaciones disponibles en Android junto con los intents que las invocan. Por ejemplo, para el navegador web, tenemos dos acciones, **VIEW ** y **WEB_SEARCH**, que abren el navegador en una url específica o realizan una búsqueda.
 
@@ -113,13 +109,13 @@ public static void showMapAtLatLong(Activity activity){
 }
 ```
 
-### Composición de los intents
+# Composición de los intents
 
 Un intent está formado por una acción, datos (que se representan mediante URIs), datos extra en pares clave/valor y un nombre de clase explícito, llamado nombre del componente.
 
 > Es necesario aclarar algo, cuando un intent trae consigo un nombre de componente, se le llama intent explícito. Cuando no lo lleva y depende de la acción y los datos se llama intent implícito.
 
-### Intents y Data URIs
+# Intents y Data URIs
 
 Como vimos un poco más arriba los URIs para las acciones ACTION\_DIAL y ACTION\_CALL tienen la estructura *tel:número*, y la manera de usar esta URI en el intent para pasarla como dato es la siguiente:
 
@@ -131,7 +127,7 @@ El nombre de las acciones normalmente suele ser un String o un String constante 
 
 La sección de *datos* de un intent no son datos realmente, se trata de punteros a datos. Está representado por un string que representa una URI. Una Uri de un intent puede contener argumentos, como las urls de las web.
 
-### Acciones genéricas
+# Acciones genéricas
 
 Vamos a volver a ver el código que invoca al navegador web para analizarlo más en profundidad:
 
@@ -155,7 +151,7 @@ En este caso, ACTION_VEW parece una accíon muy genérica, Android se las ingeni
 
 SE puede obtener más informacion del elemento *data* en <a target="_blank" href="http://developer.android.com/guide/topics/manifest/data-element.html">developer.android.com/guide/topics/manifest/data-element.html</a>
 
-### Infomación extra
+# Infomación extra
 
 Los intents admiten además de las acciones y datos, un atributo adicional llamado *extras*. Este tipo de dato viene dado por la forma clave/valor, en la cual el nombre de la clave normalmente suele empezar con el nombre del paquete y el valor puede ser de cualqueira de los tipos fundamentales u objetos arbitrários, siempre que se implemente la inrefaz android.os.Parcelable. Esta información extra se representa mediante la clase *android.os.Bundle*
 
@@ -190,7 +186,7 @@ getExtras devuelve el bundle que contenga el intent. Si el intent ya tiene un bu
 
 La clase intent tiene declarados unas claves extras que acompañan a ciertas acciones, pueden verse en [developer.android.com/reference/android/content/Intent.html#EXTRA\_ALARM\_COUNT][4]. Por ejemplo EXTRA_SUBJECT nos permite almacenar el asunto de un email. El valor de esta clave es *android.intent.extra.SUBJECT*.
 
-### Usar componentes para invocar directamente una activity
+# Usar componentes para invocar directamente una activity
 
 Una forma más directa de iniciar una actividad es mediante el su ComponentName, que es una abstracción del nombre del paquete y de la clase. Existen varios métodos para realizar esta acción en la clase Intent:
 
@@ -228,7 +224,7 @@ Así, cualquier intent podrá iniciar la actividad, pero para ello, debemos regi
 
 Sin ningún tipo de intent-filter, ya que estos no son necesarios cuando se invoca a una actividad directamente mediante el nombre de su clase. Recordad que este intent es de tipo explícito.
 
-#### Siguiente Tema: [Intents - Categorías][5]
+# Siguiente Tema: [Intents - Categorías][5]
 
  [1]: https://elbauldelprogramador.com/programacion-android-trabajar-con/
  [2]: https://elbauldelprogramador.com/programacion-android-proveedores-de
