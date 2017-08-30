@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-20
-
+lastmod: 2017-08-30T10:59:21+01:00
 mainclass: android
 url: /programacion-android-recursos-layout/
 tags:
@@ -15,7 +13,7 @@ tags:
 title: "Programación Android: Recursos - Layout"
 ---
 
-## Introducción
+# Introducción
 
 En Android, cada pantalla de una aplicación habitualmente se carga desde un fichero XML que actua de recurso. Un recurso layout es un recurso clave que se usa en Android para componer la UI de nuestra aplicación. Vamos a considerar el segmenteo de código siguiente como ejemplo de una [actividad][1] en Android.
 
@@ -39,8 +37,7 @@ La línea ***setContentView(R.layout.main);*** señala que hay una clase estáti
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
+    android:layout_height="fill_parent">
     <TextView
         android:id="@+id/text1"
         android:layout_width="fill_parent"
@@ -88,7 +85,7 @@ En este ejemplo, hemos localizado el TextView usando el método ***findViewById(
 
 El valor del atributo id, indica que la constante llamada text1 será usada para identificar únicamente a esa vista. El signo + de ***+id/text1*** significa que el ID text1 será creado si no existe. En la siguiente entrada se tratará la sintaxis de los recursos.
 
-## Siguiente Tema: [Programación Android: Recursos - Sintaxis de los Recursos][2]
+# Siguiente Tema: [Programación Android: Recursos - Sintaxis de los Recursos][2]
 
  [1]: https://elbauldelprogramador.com/fundamentos-programacion-android_17/
  [2]: https://elbauldelprogramador.com/programacion-android-recursos-sintaxis/

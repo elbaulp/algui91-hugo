@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-17
-
+lastmod: 2017-08-30T10:57:09+01:00
 mainclass: android
 url: /programacion-android-interfaz-grafica/
 tags:
@@ -24,10 +22,8 @@ Todos los componenetes de la interfaz de usuario de Android descienden de la cla
 
 <!--more--><!--ad-->
 
-
-
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="300" width="514" src="https://3.bp.blogspot.com/-qMw4Dx_mS0U/TgDfg6rdMCI/AAAAAAAAApU/Pl9tUQckM5g/s1600/layoutparams.png"></amp-img>
+    <amp-img sizes="(min-width: 515px) 515px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="300" width="514" src="https://3.bp.blogspot.com/-qMw4Dx_mS0U/TgDfg6rdMCI/AAAAAAAAApU/Pl9tUQckM5g/s1600/layoutparams.png"></amp-img>
 </figure>
 
 Los objetos ***View*** se pueden definir de dos maneras:
@@ -59,7 +55,7 @@ Un atributo imprescindible es el ***id***(de tipo entero). Que sirve para identi
 
 Los objetos View pueden tener otros muchos atributos, como padding, colores, imágenes, fondos, márgentes etc
 
-### Context
+# Context
 
 Si ya has programado algo en Android, o has visto alguno de los [ejemplos][1], probablemente hayas visto que muchos métodos referidos a la vista piden como parámetro un objeto de tipo ***context***.
 
@@ -71,7 +67,7 @@ Podemos acceder al contexto de diferentes formas en función de donde nos encont
 * Las actividades implementan esta interfaz, por lo que haciendo referencia a ellas mismas, con (***this***) o NombreActivity.this, estaremos referenciando el contexto.
 * Usando otros métodos como ***getApplicationContext() o getApplication()***
 
-### Siguiente Tema: [Programación Android: Interfaz gráfica - Layouts][3]
+# Siguiente Tema: [Programación Android: Interfaz gráfica - Layouts][3]
 
  [1]: https://elbauldelprogramador.com/programacion-android-trabajar-con/
  [2]: https://elbauldelprogramador.com/fundamentos-programacion-android_16/

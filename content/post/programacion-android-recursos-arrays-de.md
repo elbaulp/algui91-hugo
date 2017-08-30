@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-08-09
-
+lastmod: 2017-08-30T10:59:09+01:00
 mainclass: android
 url: /programacion-android-recursos-arrays-de/
 aliases: /opensource/programacion-android-recursos-arrays-de/
@@ -41,6 +39,6 @@ for (String s: strings)
    Log.d("ejemplo", s);
 ```
 
-#### Siguiente Tema: [Programación Android: Recursos - Plurales][1]
+# Siguiente Tema: [Programación Android: Recursos - Plurales][1]
 
  [1]: https://elbauldelprogramador.com/programacion-android-recursos-plurales/

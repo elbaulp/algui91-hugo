@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-20
-
+lastmod: 2017-08-30T10:53:13+01:00
 mainclass: android
 url: /programacion-android-interfaz-grafica_08/
 tags:
@@ -30,9 +28,7 @@ Se dispone de distintos tipo de menús:
 * ***Context Menu:*** Menús contextuales desplegados al realizar una pulsación larga en una View.
 * ***Submenús:*** Menús desplegados al pulsar sobre un elemento de otro menú.
 
-
-
-### Options Menu
+# Options Menu
 
 <!--more--><!--ad-->
 
@@ -99,7 +95,7 @@ public boolean onOptionsItemSelected(MenuItem item) {
 }
 ```
 
-### Context Menu
+# Context Menu
 
 Los menús contextuales son similares a los menús mostrados al hacer click con el botón derecho de un ratón en un PC, para crearlos, debemos sobreescribir el método ***onCreateContextMenu()***, donde inflaremos el archivo xml.
 
@@ -147,20 +143,20 @@ registerForContextMenu(boton);
 Aquí dejo algunas capturas de pantalla de la aplicación:
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Option menu Android" title="Option Menu android"  height="800" width="480" src="https://3.bp.blogspot.com/-JIhItNsspfQ/ThdvxHzhiLI/AAAAAAAAArI/n5vFz4sOjvA/s800/optionmenu.png"></amp-img>
+    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Option menu Android" title="Option Menu android"  height="800" width="480" src="https://3.bp.blogspot.com/-JIhItNsspfQ/ThdvxHzhiLI/AAAAAAAAArI/n5vFz4sOjvA/s800/optionmenu.png"></amp-img>
 </figure>
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="800" width="480" alt="Option menu Android" title="Option menu Android" src="https://1.bp.blogspot.com/-bBsrepZGNdM/ThdvxuQJ0XI/AAAAAAAAArQ/vxr-eRx3mJM/s800/optionmenu-about.png"></amp-img>
+    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="800" width="480" alt="Option menu Android" title="Option menu Android" src="https://1.bp.blogspot.com/-bBsrepZGNdM/ThdvxuQJ0XI/AAAAAAAAArQ/vxr-eRx3mJM/s800/optionmenu-about.png"></amp-img>
 </figure>
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  title="Context menu Android" alt="Context menu Android" height="800" width="480" src="https://2.bp.blogspot.com/-wiia8Yo7Ass/Thdvx_KduPI/AAAAAAAAArY/wVFBRmQeX68/s800/contextMenu.png"></amp-img>
+    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  title="Context menu Android" alt="Context menu Android" height="800" width="480" src="https://2.bp.blogspot.com/-wiia8Yo7Ass/Thdvx_KduPI/AAAAAAAAArY/wVFBRmQeX68/s800/contextMenu.png"></amp-img>
 </figure>
 
 Podéis encontrar más información sobre Menús en la [página oficial de Android][1]
 
 Espero que os sirva de ayuda.
 
-### Siguiente Tema: [Programación Android: Interfaz gráfica - Diálogos y notificaciones][3]
+# Siguiente Tema: [Programación Android: Interfaz gráfica - Diálogos y notificaciones][3]
 
  [1]: http://developer.android.com/guide/topics/ui/menus.html
  [2]: http://devgui-android-es.netii.net/descargar.php?archivo=menus.zip&sub;=android

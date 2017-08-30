@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-08-08
-
+lastmod: 2017-08-30T10:58:11+01:00
 mainclass: android
 url: /programacion-android-proveedores-de_28/
 tags:
@@ -75,6 +73,6 @@ Cursor managedCursor = managedQuery(mContactsUri,
                                     Contacts.People.NAME + " ASC"); //Clausula order by
 ```
 
-## Siguiente Tema: [Usando cursores][1]
+# Siguiente Tema: [Usando cursores][1]
 
  [1]: https://elbauldelprogramador.com/programacion-android-usando-cursores/
