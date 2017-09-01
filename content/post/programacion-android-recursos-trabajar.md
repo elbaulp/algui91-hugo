@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-26
-
+lastmod: 2017-09-01T12:26:16+01:00
 mainclass: android
 url: /programacion-android-recursos-trabajar/
 tags:
@@ -76,7 +74,7 @@ private String getEventsFromAnXMLFile(Context activity)
 Lo que hacemos en el código de arriba es obtener el XmlPullParser, usarlo para navegar a través de los elementos del archivo y usar métodos adicionales de XmlPullParser para acceder a detalles de los elementos XML. Para ejecutar este código, se debe crear un archivo XML como el mostrado anteriormente y llamar al método *getEventsFromAnXMLFile* desde cualquier menú o botón. Devolverá un string, el cual se podrá usar para mostrarlo por el Log usando el método de debug Log.d
 
 
-### Siguiente Tema: [Programación Android: Recursos - Trabajar con recursos RAW][2]
+# Siguiente Tema: [Programación Android: Recursos - Trabajar con recursos RAW][2]
 
  [1]: https://elbauldelprogramador.com/curso-programacion-android/
  [2]: https://elbauldelprogramador.com/programacion-android-recursos-trabajar-2/

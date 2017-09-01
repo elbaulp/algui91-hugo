@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-20
-
+lastmod: 2017-09-01T12:26:30+01:00
 mainclass: android
 url: /programacion-android-recursos-usando/
 tags:
@@ -39,7 +37,7 @@ Si lo que queremos es acceder a un recurso definido por el sistema antepondremos
 * Desde el código: `android.R.layout.simple_list_item_1`.
 * En los ficheros XML: `@android:layout/simple_list_item_1`.
 
-### Referenciando atributos de estilo
+# Referenciando atributos de estilo
 
 Cuando aplicamos estilos a nuestros layout puede interesarnos acceder a un atributo concreto de un estilo, para eso tenemos una sintaxis específica que podemos usar en nuestros XML:
 
@@ -106,6 +104,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 </resources>
 ```
 
-### Siguiente Tema: [Programación Android: Recursos - Strings][1]
+# Siguiente Tema: [Programación Android: Recursos - Strings][1]
 
  [1]: https://elbauldelprogramador.com/programacion-android-recursos-strings/
