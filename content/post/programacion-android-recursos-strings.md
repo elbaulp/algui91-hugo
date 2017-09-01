@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-20
-
+lastmod: 2017-09-01T12:25:23+01:00
 mainclass: android
 url: /programacion-android-recursos-strings/
 tags:
@@ -16,7 +14,7 @@ tags:
 title: "Programación Android: Recursos - Strings"
 ---
 
-## Introducción
+# Introducción
 
 Como ya hemos visto, los recursos juegan un papel muy importante en la arquitectura Android. Un recurso en Android es un archivo (como un fichero de música) o un valor (como el título de un Diálogo) que está ligado a una aplicación ejecutable. Estos archivos están ligados a un ejecutable de tal manera que podemos cambiarlos sin necesidad de recompilar la aplicación.
 
@@ -26,7 +24,7 @@ Existen mucho recursos en Android, que vamos a ver a lo largo de las etradas pos
 
 <!--more--><!--ad-->
 
-## Recursos string
+# Recursos string
 
 Android permite definir strings en uno o más archivos XML de recursos. Estos archivos están bajo el directorio ***./res/values***. El nombre del archivo XML para este tipo de recurso puede ser cualquiera, pero por convención se suele llamar ***strings.xml***. Veamos un ejemplo de este fichero:
 
@@ -92,6 +90,6 @@ public final class R {
 }
 ```
 
-## Siguiente Tema: [Programación Android: Recursos - Layout][1]
+# Siguiente Tema: [Programación Android: Recursos - Layout][1]
 
  [1]: https://elbauldelprogramador.com/programacion-android-recursos-layout/

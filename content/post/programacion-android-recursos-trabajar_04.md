@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-29
-
+lastmod: 2017-09-01T12:25:53+01:00
 mainclass: android
 url: /programacion-android-recursos-trabajar_04/
 tags:
@@ -30,7 +28,7 @@ String getStringFromAssetFile(Context activity)
    }
 ```
 
-## Siguiente Tema: [Programación Android: Recursos - Repasando la estructura del directorio de recursos][1]
+# Siguiente Tema: [Programación Android: Recursos - Repasando la estructura del directorio de recursos][1]
 
 
  [1]: https://elbauldelprogramador.com/programacion-android-recursos-repasando/

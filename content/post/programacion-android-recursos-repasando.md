@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-29
-
+lastmod: 2017-09-01T12:24:48+01:00
 mainclass: android
 url: /programacion-android-recursos-repasando/
 tags:
@@ -35,6 +33,6 @@ En resumen, en el siguiente listado muestra la estructura global del directorio 
 
 > Debido a que no se encuentra bajo el directorio <i>/res</i>, solo el directorio<i> /assets</i> puede contener una lista arbitrária de directorios. Cualquier otro directorio solo puede contener ficheros en ese nivel, y no mas subdirectorios
 
-## Siguiente Tema: [Programación Android: Recursos - Recursos y cambios de configuración][1]
+# Siguiente Tema: [Programación Android: Recursos - Recursos y cambios de configuración][1]
 
  [1]: https://elbauldelprogramador.com/programacion-android-recursos-recursos/

@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-10-08
-
+lastmod: 2017-09-01T12:27:38+01:00
 mainclass: android
 url: /programacion-android-usando-cursores/
 tags:
@@ -76,6 +74,6 @@ for(cur.moveToFirst(); !cur.isAfterLast(); cur.moveToNext()){
 
 Por último, para obtener el número de registros que hay en el cursor, podemos usar el método ***getCount().***
 
-## Siguiente Tema: [Usando la cláusula Where][1]
+# Siguiente Tema: [Usando la cláusula Where][1]
 
  [1]: https://elbauldelprogramador.com/programacion-android-usando-la-clausula/

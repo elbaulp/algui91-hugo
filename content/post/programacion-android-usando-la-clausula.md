@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-10-08
-
+lastmod: 2017-09-01T12:27:52+01:00
 mainclass: android
 url: /programacion-android-usando-la-clausula/
 tags:
@@ -24,7 +22,7 @@ En esta entrada vamos a ver ambas.
 
 
 
-### Cláusula Where mediante la URI
+# Cláusula Where mediante la URI
 
 Imaginemos que queremos recuperar un lugar (De la aplicación [FavSites][2]) cuyo id sea 23. Usaríamos el siguiente código:
 
@@ -57,7 +55,7 @@ Como vemos la id del sitio se extrae de la URI. La Uri se divide en segmentos (p
 > Las clases Uri y UriMatcher se usan para identificar las URIs y extraer parámetros de ellas, más adelante las veremos. SQLiteQueryBuilder es una clase asistente en android.database.sqlite que permite construir consultas SQL que se ejecutarán por SQLiteDatabase en una instancia de una base de datos SQLite.
 
 
-### Cláusulas where explícitas
+# Cláusulas where explícitas
 
 Vamos a ver una vez más la estructura del método *managedQuery* de la clase Activity:
 
@@ -92,7 +90,7 @@ managedQuery("content://com.elbauldelprogramador.provider.FavSites/sites"
 
 Te preguntarás qué método usar en según que situación. Por convención se suele usar el método mediate URI cuando sea posible aplicarlo, y el explícito en casos especiales (Como en el ejemplo de arriba.)
 
-### Siguiente Tema: [Insertando registros][3]
+# Siguiente Tema: [Insertando registros][3]
 
  [1]: https://elbauldelprogramador.com/consulta-de-datos-clausula-where
  [2]: https://elbauldelprogramador.com/prueba-la-aplicacion-favsites-en-tu

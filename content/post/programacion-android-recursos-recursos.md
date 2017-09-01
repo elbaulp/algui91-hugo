@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-29
-
+lastmod: 2017-09-01T12:24:03+01:00
 mainclass: android
 url: /programacion-android-recursos-recursos/
 tags:
@@ -63,7 +61,7 @@ Con los clasificadores mostrados arriba, podemos crear directorios de recursos c
 Para saber nuestra localización actual podemos ejecutar una aplicación que viene instalada en el emulador android. La encontramos en el menú de aplicaciones y se llama Custom Locale.
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="485" height="800" src="https://4.bp.blogspot.com/-Q3bB0guwyaU/TrufmiBkv0I/AAAAAAAABjA/kQypC8CXIbU/s800/Screenshot.png"></amp-img>
+    <amp-img sizes="(min-width: 485px) 485px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="485" height="800" src="https://4.bp.blogspot.com/-Q3bB0guwyaU/TrufmiBkv0I/AAAAAAAABjA/kQypC8CXIbU/s800/Screenshot.png"></amp-img>
 </figure>
 
 Dado un ID de recurso, Android usa un algoritmo para elegir el adecuado. Si deseas saber más acerca de este tema puedes visitar la siguiente dirección <a target="_blank" href="http://developer.android.com/guide/topics/resources/providing-resources.html#AlternativeResources">http://developer.android.com/guide/topics/resources/providing-resources.html#AlternativeResources</a>, pero voy a dar unas reglas básicas.
@@ -149,7 +147,7 @@ Como se aprecia, aunque hemos definido muchos strings, solo se han generado cinc
 
 El SDK de Android tiene algoritmos más detallados aún, sin embargo, con este ejemplo se ha mostrado lo esencial. La clave está en darse cuenta de la precedencia de cada variación sobre otra. A continuación, para aquellos que deseen ampliar información dejo unas URLs de referencia:
 
-## Referencias
+# Referencias
 
   * <a target="_blank" href="http://developer.android.com/guide/topics/resources/index.html">Índice de recursos Android</a>
   * <a target="_blank" href="http://developer.android.com/guide/topics/resources/available-resources.html">Tipos de recursos Android</a>

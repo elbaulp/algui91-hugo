@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-26
-
+lastmod: 2017-09-01T12:23:16+01:00
 mainclass: android
 url: /programacion-android-recursos-plurales/
 tags:
@@ -14,7 +12,7 @@ tags:
 title: "Programación Android: Recursos - Plurales"
 ---
 
-### Introducción
+# Introducción
 
 Los recursos Plurals son un conjunto de strings. Estos strings representan una forma de escribir cantidades numéricas, por ejemplo, cuantos huevos hay en una cesta. Vamos a ver un ejemplo:
 
@@ -49,7 +47,7 @@ Con este código, cada cantidad se mostrará con su correcta cadena de texto.
 
 Existen otras posibilidades que podemos aplicar al atributo *quantity* del elemento item. Para ello, recomiendo que lean el código fuente de Resources.java y PluralsRules.java para entenderlo correctamente. Aún así, dejo lo fundamental de estas dos ficheros para que entiendan bien el funcionamiento:
 
-### PluralRules.java
+# PluralRules.java
 
 ```java
 abstract class PluralRules {
@@ -139,7 +137,7 @@ abstract class PluralRules {
 }
 ```
 
-### Resources.java
+# Resources.java
 
 ```java
 public CharSequence getQuantityText(int id, int quantity) throws NotFoundException {
@@ -170,6 +168,6 @@ public CharSequence getQuantityText(int id, int quantity) throws NotFoundExcepti
 
 En la mayoria de los idiomas normalmente hay dos posibles valores, _one_ y _other_, pero para el Checo, los valores son _one_ para 1, _few_ del 2 al 4 y _other_ para el resto.
 
-### Siguiente Tema: [Programación Android: Recursos - Trabajar con recursos XML arbitrarios][1]
+# Siguiente Tema: [Programación Android: Recursos - Trabajar con recursos XML arbitrarios][1]
 
  [1]: https://elbauldelprogramador.com/programacion-android-recursos-trabajar/

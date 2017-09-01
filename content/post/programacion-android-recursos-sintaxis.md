@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-21
-
+lastmod: 2017-09-01T12:25:02+01:00
 mainclass: android
 url: /programacion-android-recursos-sintaxis/
 tags:
@@ -72,6 +70,6 @@ este nombre.­­>
 En la sintaxis “`@+id/text`”, el signo + tiene un significado especial. Le dice a Android que el ID puede no existir aún y, que en ese caso, cree uno nuevo y lo llame text.
 
 
-## Siguiente Tema: [Programación Android: Recursos compilados y no compilados][1]
+# Siguiente Tema: [Programación Android: Recursos compilados y no compilados][1]
 
  [1]: https://elbauldelprogramador.com/programacion-android-recursos-2/

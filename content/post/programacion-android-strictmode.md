@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-25
-
+lastmod: 2017-09-01T12:26:51+01:00
 mainclass: android
 url: /programacion-android-strictmode/
 tags:
@@ -123,20 +121,20 @@ try{
 
 # Ejemplo de uso
 
-### Mediante el penaltyLog():
+## Mediante el penaltyLog():
 
 <figure>
-    <a href="https://3.bp.blogspot.com/-IdweIPhRyVQ/TsOuiL-BQQI/AAAAAAAABx8/X2hvK1eoP00/s1600/Screenshot-1.png"><amp-img layout="responsive" alt="android development"  height="774" width="1189" src="https://3.bp.blogspot.com/-IdweIPhRyVQ/TsOuiL-BQQI/AAAAAAAABx8/X2hvK1eoP00/s1600/Screenshot-1.png"></amp-img></a>
+    <a href="https://3.bp.blogspot.com/-IdweIPhRyVQ/TsOuiL-BQQI/AAAAAAAABx8/X2hvK1eoP00/s1600/Screenshot-1.png"><amp-img sizes="(min-width: 1189px) 1189px, 100vw" layout="responsive" alt="android development"  height="774" width="1189" src="https://3.bp.blogspot.com/-IdweIPhRyVQ/TsOuiL-BQQI/AAAAAAAABx8/X2hvK1eoP00/s1600/Screenshot-1.png"></amp-img></a>
 </figure>
 
-### Mediante penaltyDialog():
+## Mediante penaltyDialog():
 
 <figure>
-    <a href="https://1.bp.blogspot.com/-osWDkvmrHug/TsOu3XOySgI/AAAAAAAAByI/2TbyygetI14/s1600/Screenshot.png"  ><amp-img layout="responsive"  alt="android" height="337" width="447" src="https://1.bp.blogspot.com/-osWDkvmrHug/TsOu3XOySgI/AAAAAAAAByI/2TbyygetI14/s1600/Screenshot.png"></amp-img></a>
+    <a href="https://1.bp.blogspot.com/-osWDkvmrHug/TsOu3XOySgI/AAAAAAAAByI/2TbyygetI14/s1600/Screenshot.png"  ><amp-img sizes="(min-width: 447px) 447px, 100vw" layout="responsive"  alt="android" height="337" width="447" src="https://1.bp.blogspot.com/-osWDkvmrHug/TsOu3XOySgI/AAAAAAAAByI/2TbyygetI14/s1600/Screenshot.png"></amp-img></a>
 </figure>
 
 
-### Siguiente Tema: [Proveedores de Contenido - Introducción][5]
+# Siguiente Tema: [Proveedores de Contenido - Introducción][5]
 
  [1]: https://elbauldelprogramador.com/tags/android
  [2]: https://elbauldelprogramador.com/fundamentos-programacion-android_17/

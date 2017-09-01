@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-08-09
-
+lastmod: 2017-09-01T12:26:04+01:00
 mainclass: android
 url: /programacion-android-recursos-trabajar-2/
 tags:
