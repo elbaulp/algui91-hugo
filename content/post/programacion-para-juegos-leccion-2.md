@@ -2,10 +2,8 @@
 author: alex
 categories:
 - juegos
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-08-19
-
+lastmod: 2017-09-02T12:58:51+01:00
 mainclass: dev
 url: /programacion-para-juegos-leccion-2/
 title: "Programación para Juegos - Lección 2 - Imágenes Optimizadas"
@@ -209,13 +207,13 @@ Cargamos las imágenes usando la función que creamos anteriormente.
 Aplicamos el fondo a la ventana con la función que hicimos. Antes de unir el fondo a la ventana, teníamos algo asi:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6HlvSgW8I/AAAAAAAAARE/TIY1ZDZZymM/blank.jpg"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6HlvSgW8I/AAAAAAAAARE/TIY1ZDZZymM/blank.jpg"></amp-img>
 </figure>
 
 Pero al unirlas, tendremos algo así:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6Hlu7YxVI/AAAAAAAAARA/CzNfc3D0kso/background.jpg"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6Hlu7YxVI/AAAAAAAAARA/CzNfc3D0kso/background.jpg"></amp-img>
 </figure>
 
 Cuando las unimos, se copian los píxels de una imagen a otra. Por eso el la imagen que estamos usando de fondo aparece en la esquina superior izquierda, queremos que el fondo ocupe toda la ventana, pero, ¿significa eso que tendremos que cargar la imagen de fondo 3 veces mas?
@@ -238,21 +236,21 @@ Ahora vamos a aplicar la imagen mensaje a la ventana, en las coordenadas X=180 y
 El sistema de coordenadas de SDL no trabaja así:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6HmFPv1EI/AAAAAAAAARI/ta-NTaunvQU/cartesian.jpg"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6HmFPv1EI/AAAAAAAAARI/ta-NTaunvQU/cartesian.jpg"></amp-img>
 </figure>
 
 
 Trabaja así:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6HmnGdBpI/AAAAAAAAARQ/QWA0K9-uB_A/sdlcoord.jpg"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6HmnGdBpI/AAAAAAAAARQ/QWA0K9-uB_A/sdlcoord.jpg"></amp-img>
 </figure>
 
 
 El origen de coordenadas (0,0) está en la esquina superior izquierda. Por eso hay que aplicar la imagen de esta forma:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh4.ggpht.com/_IlK2pNFFgGM/TT6HmRzk0tI/AAAAAAAAARM/UoHjJY_0jxE/coorddemo.jpg"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh4.ggpht.com/_IlK2pNFFgGM/TT6HmRzk0tI/AAAAAAAAARM/UoHjJY_0jxE/coorddemo.jpg"></amp-img>
 </figure>
 
 ```bash
@@ -291,7 +289,7 @@ Fuente:
 
 [lazyfoo.net][3]
 
-## Siguiente tema: [Programación para Juegos - Lección 3 Librerías de SDL][4]
+# Siguiente tema: [Programación para Juegos - Lección 3 Librerías de SDL][4]
 
  [1]: http://www.lazyfoo.net/downloads/index.php?file=SDLTut_lesson02
  [2]: https://elbauldelprogramador.com/programacion-para-juegos-leccion-12/

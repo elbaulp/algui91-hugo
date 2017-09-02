@@ -3,10 +3,8 @@ author: alex
 categories:
 - juegos
 - python
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-06
-
+lastmod: 2017-09-02T13:03:02+01:00
 mainclass: articulos
 url: /programando-videojuegos-en-python/
 title: Programando Videojuegos en Python

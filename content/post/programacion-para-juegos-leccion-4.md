@@ -2,10 +2,8 @@
 author: alex
 categories:
 - juegos
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-08-19
-
+lastmod: 2017-09-02T13:01:17+01:00
 mainclass: dev
 url: /programacion-para-juegos-leccion-4/
 title: "Programación para Juegos. Lección 4 . Programación orientada a eventos"
@@ -204,14 +202,14 @@ En SDL cuando ocurre un evento, se coloca en la cola de eventos. Ésta cola de e
 Por ejemplo si fuera a presionar un botón del ratón, mover el cursor y a continuación, presionar una tecla del teclado, la cola de eventos se vería así:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="177" width="255" src="https://lh3.ggpht.com/_IlK2pNFFgGM/TT6ImYP7bjI/AAAAAAAAARU/QiAey3O_FW0/queue.jpg"></amp-img>
+    <amp-img sizes="(min-width: 255px) 255px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="177" width="255" src="https://lh3.ggpht.com/_IlK2pNFFgGM/TT6ImYP7bjI/AAAAAAAAARU/QiAey3O_FW0/queue.jpg"></amp-img>
 </figure>
 
 
 Lo que `SDL_PollEvent()` hace es sacar un evento de la cola y guardar sus datos en nuestra estructura de tipo Evento:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="258" width="294" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6ImqKAdJI/AAAAAAAAARY/JqvFGavqRHY/poll.jpg"></amp-img>
+    <amp-img sizes="(min-width: 294px) 294px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="258" width="294" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6ImqKAdJI/AAAAAAAAARY/JqvFGavqRHY/poll.jpg"></amp-img>
 </figure>
 
 Por lo tanto este código es recoger datos de los eventos **mientras** haya en la cola.
@@ -246,7 +244,7 @@ Fuente:
 
 [lazyfoo.net][3]
 
-#### Siguiente tema: [Lección 5 - Colores Clave][4]
+# Siguiente tema: [Lección 5 - Colores Clave][4]
 
  [1]: http://www.lazyfoo.net/downloads/index.php?file=SDLTut_lesson04
  [2]: https://elbauldelprogramador.com/programacion-para-juegos-leccion-2/

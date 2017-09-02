@@ -2,10 +2,8 @@
 author: alex
 categories:
 - juegos
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-08-29
-
+lastmod: 2017-09-02T12:54:46+01:00
 mainclass: dev
 url: /programacion-para-juegos-articulo-3-que/
 title: "Programación para Juegos. Artículo 3. ¿Qué es un pixel?"
@@ -84,22 +82,22 @@ Probablemente estarás pensando que hay un error. 8 bits por color * 3 colores =
 El alfa controla la transparencia del píxel. El valor 255 para el alfa quiere decir que el píxel es completamente opaco y 0 completamente transparente. A continuación hay unos ejemplos de una imagen sobre un fondo blanco. Cada imagen tiene un valor para el alfa distinto:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TUK2lKrtn2I/AAAAAAAAASs/vVyJ2YkO3oY/s320/255.jpg"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TUK2lKrtn2I/AAAAAAAAASs/vVyJ2YkO3oY/s320/255.jpg"></amp-img>
     <figcaption>En esta imagen el alfa esta a 255.</figcaption>
 </figure>
 
 <figure>
-  <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://1.bp.blogspot.com/_IlK2pNFFgGM/TUK2lEXQZAI/AAAAAAAAAS0/kyR_W-tWVo0/s320/192.jpg"></amp-img>
+  <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://1.bp.blogspot.com/_IlK2pNFFgGM/TUK2lEXQZAI/AAAAAAAAAS0/kyR_W-tWVo0/s320/192.jpg"></amp-img>
   <figcaption>En esta imagen el alfa esta a 192. Se puede ver como el fondo blanco empieza a mostrarse a través de la imagen.</figcaption>
 </figure>
 
 <figure>
-  <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TUK2lWOQFWI/AAAAAAAAAS8/R3cn8kuccy0/s320/128.jpg"></amp-img>
+  <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TUK2lWOQFWI/AAAAAAAAAS8/R3cn8kuccy0/s320/128.jpg"></amp-img>
   <figcaption>En esta imagen el alfa esta a 128. Aproximadamente el 50% de transparencia.</figcaption>
 </figure>
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TUK2luEZy5I/AAAAAAAAATE/pa2iI4pX_Pk/s320/0.jpg"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TUK2luEZy5I/AAAAAAAAATE/pa2iI4pX_Pk/s320/0.jpg"></amp-img>
   <figcaption>En esta imagen el alfa esta a 0. Completamente transparente.</figcaption>
 </figure>
 
