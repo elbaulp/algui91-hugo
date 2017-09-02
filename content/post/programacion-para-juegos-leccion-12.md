@@ -2,10 +2,8 @@
 author: alex
 categories:
 - juegos
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-08-19
-
+lastmod: 2017-09-02T12:56:37+01:00
 mainclass: dev
 url: /programacion-para-juegos-leccion-12/
 title: "Programación para Juegos - Lección 1.2 - Hello World"
@@ -105,7 +103,7 @@ Fuente:
 
 [lazyfoo.net][4]
 
-## Siguiente tema: [Lección 2 - Superficies Optimizadas][5]
+# Siguiente tema: [Lección 2 - Superficies Optimizadas][5]
 
 
  [1]: https://elbauldelprogramador.com/programacion-para-juegos-leccion-1/

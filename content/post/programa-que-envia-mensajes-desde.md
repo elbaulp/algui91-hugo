@@ -4,10 +4,8 @@ categories:
 - android
 - aplicaciones
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-04
-
+lastmod: 2017-09-02T13:03:13+01:00
 mainclass: android
 url: /programa-que-envia-mensajes-desde/
 tags:
@@ -26,11 +24,11 @@ A este código le hice algunas modificaciones en la parte del Cliente, y, finalm
 Como prueba dejo dos capturas de pantalla, una realizando la conexión desde el emulador, y otra probandolo con mi móvil:
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="640" width="1600" src="https://2.bp.blogspot.com/-NhzqkbbVSlI/TZSLKW_mJeI/AAAAAAAAAXs/fLJMMsGSYbI/s1600/Screenshot.png"></amp-img>
+    <amp-img sizes="(min-width: 1600px) 1600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="640" width="1600" src="https://2.bp.blogspot.com/-NhzqkbbVSlI/TZSLKW_mJeI/AAAAAAAAAXs/fLJMMsGSYbI/s1600/Screenshot.png"></amp-img>
 </figure>
 
 <figure>
-	<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="450" width="600" src="https://2.bp.blogspot.com/-IP60xZKxqEo/TZSMSDUnHcI/AAAAAAAAAX0/eXLpj7fD5PY/s320/31032011045.jpg"></amp-img>
+    <amp-img sizes="(min-width: 600px) 600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="450" width="600" src="https://2.bp.blogspot.com/-IP60xZKxqEo/TZSMSDUnHcI/AAAAAAAAAX0/eXLpj7fD5PY/s320/31032011045.jpg"></amp-img>
 </figure>
 
  [1]: https://elbauldelprogramador.com/video-tutorial-programacion-android/

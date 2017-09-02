@@ -2,10 +2,8 @@
 author: alex
 categories:
 - juegos
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-08-25
-
+lastmod: 2017-09-02T13:01:52+01:00
 mainclass: dev
 url: /programacion-para-juegos-leccion-5/
 title: "Programación para Juegos - Lección 5 - Colores Clave"
@@ -18,7 +16,7 @@ Lo que vamos a ver ahora son los *colores clave*. Un color clave es un color que
 Bien, supongamos que queremos fusionar esta imagen llamada _foo_:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="foo"  height="64" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6FKpmp0fI/AAAAAAAAAQs/oFYGZsQzBn8/foo.jpg" width="32"></amp-img>
+    <amp-img sizes="(min-width: 32px) 32px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="foo"  height="64" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6FKpmp0fI/AAAAAAAAAQs/oFYGZsQzBn8/foo.jpg" width="32"></amp-img>
 </figure>
 
 <!--more--><!--ad-->
@@ -26,13 +24,13 @@ Bien, supongamos que queremos fusionar esta imagen llamada _foo_:
 a este fondo:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Imagen Fondo"  height="240" width="320" src="https://lh4.ggpht.com/_IlK2pNFFgGM/TT6FKroPMYI/AAAAAAAAAQo/oJFPpVHNsIg/background.jpg"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Imagen Fondo"  height="240" width="320" src="https://lh4.ggpht.com/_IlK2pNFFgGM/TT6FKroPMYI/AAAAAAAAAQo/oJFPpVHNsIg/background.jpg"></amp-img>
 </figure>
 
 Pero no queremos que aparezca el fondo azul claro de la primera imagen:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Resultado"  height="240" width="320" src="https://lh4.ggpht.com/_IlK2pNFFgGM/TT6FLLUBg4I/AAAAAAAAAQ0/gS1QeS8p7PA/nokey.jpg"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Resultado"  height="240" width="320" src="https://lh4.ggpht.com/_IlK2pNFFgGM/TT6FLLUBg4I/AAAAAAAAAQ0/gS1QeS8p7PA/nokey.jpg"></amp-img>
 </figure>
 
 Para que no se muestre el fondo de la primera imagen, necesitamos fijarlo como _color key_, en este caso el valor de este color es (En hexadecimal): Red 0, Green FF, Blue FF.
@@ -111,7 +109,7 @@ Para finalizar, la función devuelve la imagen optimizada con el color clave.
 El resultado de hacer todo esto da como resultado la imagen siguiente:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Imagen final"  height="240" width="320" src="https://lh4.ggpht.com/_IlK2pNFFgGM/TT6FK_nKIkI/AAAAAAAAAQw/rDMnHtu9ewo/key.jpg"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Imagen final"  height="240" width="320" src="https://lh4.ggpht.com/_IlK2pNFFgGM/TT6FK_nKIkI/AAAAAAAAAQw/rDMnHtu9ewo/key.jpg"></amp-img>
 </figure>
 
 
