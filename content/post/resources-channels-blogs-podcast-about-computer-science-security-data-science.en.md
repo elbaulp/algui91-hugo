@@ -4,7 +4,6 @@ tags = ["computer Science", "podcasts", "blogs", "Youtube Channels", "security",
 categories = ["articulos"]
 lastmod = "2017-09-04T13:39:53+01:00"
 date = "2017-09-04T13:39:55+01:00"
-lastmod = "2017-03-29T11:37:53+01:00"
 title = "55 Blogs / Channels / Podcast about Computer Science, Security & Data Science"
 mainclass = "articulos"
 author = "alex"
