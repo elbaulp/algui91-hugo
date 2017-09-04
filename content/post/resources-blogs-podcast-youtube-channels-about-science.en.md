@@ -1,8 +1,8 @@
 +++
 image = "resources-blogs-podcast-youtube-channels-about-science.png"
-date = "2017-03-14T20:13:47+01:00"
-lastmod = "2017-09-04T13:47:04+01:00"
-title = "21 Podcasts / Youtube Channels / Blogs about Science"
+date = "2017-09-04T13:52:08+01:00"
+lastmod = "2017-09-04T13:52:06+01:00"
+title = "22 Podcasts / Youtube Channels / Blogs about Science"
 author = "alex"
 description = "A curated list of podcasts, youtube channels and blogs about Science"
 tags = ["science", "podcasts", "blogs", "Youtube Channels", "lists"]
@@ -27,6 +27,19 @@ If you follow some resource not listed below feel free to post a comment and I w
 # Youtube
 
 <div class="row-post flex-grid">
+
+    <article class="box-item animate">
+       <h3>Looking Glass Universe</h3>
+       <figure>
+         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/LGU.jpg" width="100" height="100" alt="" title=""></amp-img>
+       </figure>
+
+       <p>Curiouser and curiouser... About the strange world of maths and physics</p>
+
+       <div class="tags">
+         <a href="https://www.youtube.com/user/LookingGlassUniverse/" target="_blank" title="Looking Glass Universe">Looking Glass Universe</a>
+       </div>
+   </article>
 
   <article class="box-item animate">
     <h3>Sixty Simbols</h3>

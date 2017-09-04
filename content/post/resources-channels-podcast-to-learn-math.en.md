@@ -22,7 +22,7 @@ If you follow some resource about Mathematics not listed below feel free to post
 # Other Lists
 
 - [55 Blogs / Channels / Podcast about Computer Science, Security & Data Science](https://elbauldelprogramador.com/en/resources-channels-blogs-podcast-about-computer-science-security-data-science/ "55 Blogs / Channels / Podcast about Computer Science, Security & Data Science")
-- [21 Podcasts / Youtube Channels / Blogs about Science](https://elbauldelprogramador.com/en/resources-blogs-podcast-youtube-channels-about-science/ "21 Podcasts / Youtube Channels / Blogs about Science").
+- [22 Podcasts / Youtube Channels / Blogs about Science](https://elbauldelprogramador.com/en/resources-blogs-podcast-youtube-channels-about-science/ "22 Podcasts / Youtube Channels / Blogs about Science").
 
 # Podcasts
 

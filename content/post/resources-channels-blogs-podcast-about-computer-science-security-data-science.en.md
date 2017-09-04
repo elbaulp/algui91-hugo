@@ -23,7 +23,7 @@ If you follow some resource not listed below feel free to post a comment and I w
 # More lists
 
 - [14 Resources / Channels / Podcasts about Mathematics](https://elbauldelprogramador.com/en/resources-channels-podcast-to-learn-math/ "11 Resources / Channels / Podcasts about Mathematics").
-- [21 Podcasts / Youtube Channels / Blogs about Science](https://elbauldelprogramador.com/en/resources-blogs-podcast-youtube-channels-about-science/ "21 Podcasts / Youtube Channels / Blogs about Science").
+- [22 Podcasts / Youtube Channels / Blogs about Science](https://elbauldelprogramador.com/en/resources-blogs-podcast-youtube-channels-about-science/ "22 Podcasts / Youtube Channels / Blogs about Science").
 
 # Computer Science (Programming, Data Science & Security)
 
