@@ -1,7 +1,8 @@
 +++
 image = "resources-blogs-podcast-youtube-channels-about-science.png"
-date = "2017-03-14T20:13:47+01:00"
-title = "21 Podcasts / Canales de Youtube / Blogs sobre Ciencia"
+lastmod = "2017-09-04T13:45:42+01:00"
+date = "2017-09-04T13:51:15+01:00"
+title = "22 Podcasts / Canales de Youtube / Blogs sobre Ciencia"
 author = "alex"
 description = "Una lista de podcasts, blogs y canales de youtube sobre ciencia"
 tags = ["ciencia", "podcasts", "blogs", "Canales Youtube", "listas"]
@@ -20,12 +21,25 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
 
 # Más listas
 
-- [13 recursos / canales / podcasts sobre matemáticas](https://elbauldelprogramador.com/recursos-canales-podcast-sobre-matematicas/ "11 recursos / canales / podcasts sobre matemáticas").
+- [14 recursos / canales / podcasts sobre matemáticas](https://elbauldelprogramador.com/recursos-canales-podcast-sobre-matematicas/ "11 recursos / canales / podcasts sobre matemáticas").
 - [52 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad](https://elbauldelprogramador.com/blogs-canales-podcast-aprender-informatica/ "52 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad").
 
 # Youtube
 
 <div class="row-post flex-grid">
+
+    <article class="box-item animate">
+       <h3>Looking Glass Universe</h3>
+       <figure>
+         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/LGU.jpg" width="100" height="100" alt="" title=""></amp-img>
+       </figure>
+
+       <p>Curiouser and curiouser... About the strange world of maths and physics</p>
+
+       <div class="tags">
+         <a href="https://www.youtube.com/user/LookingGlassUniverse/" target="_blank" title="Looking Glass Universe">Looking Glass Universe</a>
+       </div>
+   </article>
 
   <article class="box-item animate">
     <h3>Sixty Simbols</h3>

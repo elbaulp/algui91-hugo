@@ -2,9 +2,9 @@
 image = "resources-channels-blogs-podcast-about-computer-science-security-data-science.png"
 tags = ["informática", "podcasts", "blogs", "Canales Youtube", "seguridad", "data science", "listas"]
 categories = ["articulos"]
-lastmod = "2017-03-29T11:38:12+01:00"
-date = "2017-03-29T11:38:13+01:00"
-title = "54 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad"
+lastmod = "2017-09-04T13:39:22+01:00"
+date = "2017-09-04T13:39:27+01:00"
+title = "55 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad"
 mainclass = "articulos"
 author = "alex"
 description = "Una lista de blogs, podcasts y canales de Youtube que enseñan o hablan de informática, Data Science o Seguridad."
@@ -21,8 +21,8 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 
 # Otras listas
 
-- [13 recursos/canales/podcasts sobre matemáticas](https://elbauldelprogramador.com/recursos-canales-podcast-sobre-matematicas/ "11 recursos/canales/podcasts sobre matemáticas")
-- [21 Podcasts / Canales de Youtube / Blogs sobre Ciencia](https://elbauldelprogramador.com/blogs-podcasts-canales-youtube-sobre-ciencia/ "21 Podcasts / Canales de Youtube / Blogs sobre Ciencia").
+- [14 recursos/canales/podcasts sobre matemáticas](https://elbauldelprogramador.com/recursos-canales-podcast-sobre-matematicas/ "11 recursos/canales/podcasts sobre matemáticas")
+- [22 Podcasts / Canales de Youtube / Blogs sobre Ciencia](https://elbauldelprogramador.com/blogs-podcasts-canales-youtube-sobre-ciencia/ "22 Podcasts / Canales de Youtube / Blogs sobre Ciencia").
 
 # Computer Science (Programming, Data Science & Security)
 
@@ -191,6 +191,19 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 
     <div class="tags">
       <a href="https://www.theguardian.com/technology/series/chips-with-everything/podcast.xml" target="_blank" title="Chips with everything">Chips with everything</a> | <a href="https://www.theguardian.com/technology/series/chips-with-everything" target="_blank" title="Website">Website</a>
+    </div>
+  </article>
+
+  <article class="box-item animate">
+    <h3>Geek Speak</h3>
+    <figure>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/geekspeak.png" width="100" height="100"></amp-img>
+    </figure>
+
+    <p>A weekly talk show about technology, science, and human creativity that excites, educates, and fosters curiosity. Discussions touch upon how technology affects society and how we react to that change. Hosts are passionate about explaining complex concepts in simple, easy to digest, chunks. We bridge the gaps between Geeks and the rest of humanity.</p>
+
+    <div class="tags">
+      <a href="https://geekspeak.org/episodes/rss.xml" target="_blank" title="Chips with everything">Geek Speak</a>
     </div>
   </article>
 
