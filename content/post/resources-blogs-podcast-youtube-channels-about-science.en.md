@@ -1,6 +1,7 @@
 +++
 image = "resources-blogs-podcast-youtube-channels-about-science.png"
 date = "2017-03-14T20:13:47+01:00"
+lastmod = "2017-09-04T13:47:04+01:00"
 title = "21 Podcasts / Youtube Channels / Blogs about Science"
 author = "alex"
 description = "A curated list of podcasts, youtube channels and blogs about Science"
@@ -20,7 +21,7 @@ If you follow some resource not listed below feel free to post a comment and I w
 
 # More lists
 
-- [13 Resources / Channels / Podcasts about Mathematics](https://elbauldelprogramador.com//en/resources-channels-podcast-to-learn-math/ "11 Resources / Channels / Podcasts about Mathematics")
+- [14 Resources / Channels / Podcasts about Mathematics](https://elbauldelprogramador.com//en/resources-channels-podcast-to-learn-math/ "11 Resources / Channels / Podcasts about Mathematics")
 - [52 Blogs / Channels / Podcasts about Computer Science, Security & Data Science](https://elbauldelprogramador.com/en/resources-channels-blogs-podcast-about-computer-science-security-data-science/ "52 Blogs / Channels / Podcasts about Computer Science, Security & Data Science")
 
 # Youtube

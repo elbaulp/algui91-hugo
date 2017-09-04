@@ -2,9 +2,9 @@
 image = "resources-channels-podcast-to-learn-math.png"
 mainclass = "articulos"
 author = "alex"
-date = "2017-02-24T21:42:53+01:00"
-lastmod = "2017-08-15T18:46:22+01:00"
-title = "13 recursos / canales / podcasts sobre matemáticas"
+lastmod = "2017-09-04T13:45:22+01:00"
+date = "2017-09-04T13:45:24+01:00"
+title = "14 recursos / canales / podcasts sobre matemáticas"
 description = "Una lista de blogs, podcasts y canales de Youtube que enseñan o hablan de Matemáticas"
 tags = ["matemáticas", "podcasts", "blogs", "Canales Youtube", "listas"]
 categories = ["articulos"]
@@ -21,7 +21,7 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
 
 # Otras listas
 
-- [54 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad](https://elbauldelprogramador.com/blogs-canales-podcast-aprender-informatica/ "54 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad")
+- [55 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad](https://elbauldelprogramador.com/blogs-canales-podcast-aprender-informatica/ "55 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad")
 - [21 Podcasts / Canales de Youtube / Blogs sobre Ciencia](https://elbauldelprogramador.com/blogs-podcasts-canales-youtube-sobre-ciencia/ "21 Podcasts / Canales de Youtube / Blogs sobre Ciencia").
 
 # Podcasts
@@ -35,6 +35,19 @@ Si conoces de algún recurso digital que hable y enseñe matemáticas no listado
        <p>Welcome to Math Mutation, a short podcast for people of all ages, where we explore fun, interesting, or just plain weird corners of mathematics that you probably didn't hear in school.</p>
        <div class="tags">
          <a href="http://mathmutation.blogspot.com.es/" target="_blank" title="Math Mutation">MathMutation</a>
+       </div>
+   </article>
+
+   <article class="box-item animate">
+       <h3>Ben Ben Blue</h3>
+       <figure>
+         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bbb.png" width="100" height="100" alt="" title=""></amp-img>
+       </figure>
+
+       <p>A podcast by Grant Sanderson, Ben Eater and Ben Stenhaug about education, technology, and whatever else comes to mind.</p>
+
+       <div class="tags">
+         <a href="http://benbenandblue.libsyn.com/rss" target="_blank" title="Ben Ben Blue">Ben Ben Blue</a>
        </div>
    </article>
 

@@ -2,9 +2,9 @@
 image = "resources-channels-podcast-to-learn-math.png"
 mainclass = "articulos"
 author = "alex"
-date = "2017-02-24T21:42:53+01:00"
-lastmod = "2017-08-15T18:46:29+01:00"
-title = "13 Resources / Channels / Podcasts about Mathematics"
+lastmod = "2017-09-04T13:40:42+01:00"
+date = "2017-09-04T13:40:44+01:00"
+title = "14 Resources / Channels / Podcasts about Mathematics"
 description = "A curated list of blogs, podcasts and Youtube Channels about Mathematics"
 tags = ["mathematics", "podcasts", "blogs", "Youtube Channels", "lists"]
 categories = ["articulos"]
@@ -21,7 +21,7 @@ If you follow some resource about Mathematics not listed below feel free to post
 
 # Other Lists
 
-- [54 Blogs / Channels / Podcast about Computer Science, Security & Data Science](https://elbauldelprogramador.com/en/resources-channels-blogs-podcast-about-computer-science-security-data-science/ "54 Blogs / Channels / Podcast about Computer Science, Security & Data Science")
+- [55 Blogs / Channels / Podcast about Computer Science, Security & Data Science](https://elbauldelprogramador.com/en/resources-channels-blogs-podcast-about-computer-science-security-data-science/ "55 Blogs / Channels / Podcast about Computer Science, Security & Data Science")
 - [21 Podcasts / Youtube Channels / Blogs about Science](https://elbauldelprogramador.com/en/resources-blogs-podcast-youtube-channels-about-science/ "21 Podcasts / Youtube Channels / Blogs about Science").
 
 # Podcasts
@@ -46,6 +46,19 @@ If you follow some resource about Mathematics not listed below feel free to post
        <p>Relatively Prime is a mathematics podcast all about the stories behind the Queen of the Sciences that Samuel Hansen dreamt up in an extreme bout of egotism and delusions of grandeur where he spent too long listening to Radiolab, This American Life, and Snap Judgment and began to think, “Hey, I could do that.”</p>
        <div class="tags">
          <a href="http://relprime.com/" target="_blank" title="Math Mutation">Rel Prime</a>
+       </div>
+   </article>
+
+   <article class="box-item animate">
+       <h3>Ben Ben Blue</h3>
+       <figure>
+         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bbb.png" width="100" height="100" alt="" title=""></amp-img>
+       </figure>
+
+       <p>A podcast by Grant Sanderson, Ben Eater and Ben Stenhaug about education, technology, and whatever else comes to mind.</p>
+
+       <div class="tags">
+         <a href="http://benbenandblue.libsyn.com/rss" target="_blank" title="Ben Ben Blue">Ben Ben Blue</a>
        </div>
    </article>
 </div>

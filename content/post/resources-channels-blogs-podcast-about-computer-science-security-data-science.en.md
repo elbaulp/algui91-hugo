@@ -2,9 +2,10 @@
 image = "resources-channels-blogs-podcast-about-computer-science-security-data-science.png"
 tags = ["computer Science", "podcasts", "blogs", "Youtube Channels", "security", "data science", "lists"]
 categories = ["articulos"]
-date = "2017-03-29T11:37:55+01:00"
+lastmod = "2017-09-04T13:39:53+01:00"
+date = "2017-09-04T13:39:55+01:00"
 lastmod = "2017-03-29T11:37:53+01:00"
-title = "54 Blogs / Channels / Podcast about Computer Science, Security & Data Science"
+title = "55 Blogs / Channels / Podcast about Computer Science, Security & Data Science"
 mainclass = "articulos"
 author = "alex"
 description = "A curated list of blogs, youtube channels and podcasts about Computer Science, Security and Data Science"
@@ -21,7 +22,7 @@ If you follow some resource not listed below feel free to post a comment and I w
 
 # More lists
 
-- [13 Resources / Channels / Podcasts about Mathematics](https://elbauldelprogramador.com/en/resources-channels-podcast-to-learn-math/ "11 Resources / Channels / Podcasts about Mathematics").
+- [14 Resources / Channels / Podcasts about Mathematics](https://elbauldelprogramador.com/en/resources-channels-podcast-to-learn-math/ "11 Resources / Channels / Podcasts about Mathematics").
 - [21 Podcasts / Youtube Channels / Blogs about Science](https://elbauldelprogramador.com/en/resources-blogs-podcast-youtube-channels-about-science/ "21 Podcasts / Youtube Channels / Blogs about Science").
 
 # Computer Science (Programming, Data Science & Security)
@@ -194,6 +195,20 @@ If you follow some resource not listed below feel free to post a comment and I w
       <a href="https://www.theguardian.com/technology/series/chips-with-everything/podcast.xml" target="_blank" title="Chips with everything">Chips with everything</a> | <a href="https://www.theguardian.com/technology/series/chips-with-everything" target="_blank" title="Website">Website</a>
     </div>
   </article>
+
+  <article class="box-item animate">
+    <h3>Geek Speak</h3>
+    <figure>
+      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/geekspeak.png" width="100" height="100"></amp-img>
+    </figure>
+
+    <p>A weekly talk show about technology, science, and human creativity that excites, educates, and fosters curiosity. Discussions touch upon how technology affects society and how we react to that change. Hosts are passionate about explaining complex concepts in simple, easy to digest, chunks. We bridge the gaps between Geeks and the rest of humanity.</p>
+
+    <div class="tags">
+      <a href="https://geekspeak.org/episodes/rss.xml" target="_blank" title="Chips with everything">Geek Speak</a>
+    </div>
+  </article>
+
 </div>
 
 ### Security
