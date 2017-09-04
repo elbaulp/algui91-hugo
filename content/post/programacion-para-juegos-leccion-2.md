@@ -89,14 +89,14 @@ Al crear la imagen convertida ganamos en velocidad de ejecución, ya que convert
 Así que ahora tenemos dos imágenes, la imagen cargada antigua (loadedImage), y la nueva imagen optimizada (optimizedImage).
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6GiUQZr0I/AAAAAAAAAQ4/bJGLBtK7gnE/displayformat.jpg" width="320"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6GiUQZr0I/AAAAAAAAAQ4/bJGLBtK7gnE/displayformat.jpg" width="320"></amp-img>
 </figure>
 
 
 SDL_DisplayFormat() crea una imagen nueva optimizada pero no se deshace de la otra. Por eso hay que llamar a SDL_FreeSurface().
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6G2JAjz0I/AAAAAAAAAQ8/NtLIOitNd24/freesurface.jpg" width="320"></amp-img>
+    <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6G2JAjz0I/AAAAAAAAAQ8/NtLIOitNd24/freesurface.jpg" width="320"></amp-img>
 </figure>
 
 
