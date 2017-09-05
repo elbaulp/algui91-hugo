@@ -2,14 +2,10 @@
 author: alex
 categories:
 - java
-color: '#D32F2F'
 date: 2016-04-06 19:24:34
-description: "El siguiente artículo es una traducción de una pregunta en stackOverflow
-  del usuario ziggy, que preguntaba ¿Qué es un NullPointerException y cómo
-  se puede solucionar?. La respuesta es del usuario vincent-ramdhanie"
+lastmod: 2017-09-05T12:37:26+01:00
+description: "El siguiente artículo es una traducción de una pregunta en stackOverflow  del usuario ziggy, que preguntaba ¿Qué es un NullPointerException y cómo  se puede solucionar?. La respuesta es del usuario vincent-ramdhanie"
 image: "2014/05/Qué-es-un-NullPointerException-y-cómo-solucionarlo.png"
-lastmod: 2016-04-06
-
 mainclass: java
 url: /que-es-un-nullpointerexception-y-como-solucionarlo/
 tags:
@@ -29,11 +25,11 @@ title: "Qué es un NullPointerException y cómo solucionarlo"
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/Qué-es-un-NullPointerException-y-cómo-solucionarlo.png" title="{{page.title}}" alt="{{ page.title }}" width="250px" height="292px" />
+    <amp-img sizes="(min-width: 250px) 250px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/Qué-es-un-NullPointerException-y-cómo-solucionarlo.png" title="Qué es un NullPointerException y cómo solucionarlo" alt="Qué es un NullPointerException y cómo solucionarlo" width="250px" height="292px" />
 </figure>
 
 Si has llegado aquí porque tienes problemas con **facebook**, tu respuesta está en este artículo: [Qué Esta Causando Un NullPointerException en Facebook E Internet](/nullpointerexception-facebook "Qué Esta Causando Un NullPointerException en Facebook E Internet")
-{: .notice-info }
+
 
 > El siguiente artículo es una traducción de una pregunta en stackOverflow del usuario <a href="http://stackoverflow.com/users/29182/ziggy" target="_blank">ziggy</a>, que preguntaba ¿Qué es un **NullPointerException** y cómo se puede solucionar?. La respuesta es del usuario <a href="http://stackoverflow.com/users/27439/vincent-ramdhanie" target="_blank">vincent-ramdhanie</a>
 
@@ -88,6 +84,6 @@ public void doSomething(Integer num){
 
 ```
 
-#### Referencias
+# Referencias
 
-*What is a Null Pointer Exception, and how do I fix it?* »» <a href="http://stackoverflow.com/a/218510/1612432" target="_blank">stackoverflow</a>
+- *What is a Null Pointer Exception, and how do I fix it?* »» <a href="http://stackoverflow.com/a/218510/1612432" target="_blank">stackoverflow</a>

@@ -2,9 +2,8 @@
 author: alex
 categories:
 - articulos
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-09-05T12:38:30+01:00
 mainclass: articulos
 url: /que-significa-unknown-en-las-estadisticas-de-whos-amung/
 tags:
@@ -21,7 +20,7 @@ También listará como usuarios desconocidos a cualquiera que esté visitando tu
 
 Otro caso en el que aparecerá este estado desconocido para un visitante es cuando estás logeado y viendo artículos programados desde el panel de administración de wordpress, o si alguien está visitando una página privada
 
-*What does unknown mean in whos amung stats* »» <a href="http://www.techbuzz.in/what-does-unknown-mean-in-whos-amung-us-stats-page.php" target="_blank">Visitar sitio</a>
+- *What does unknown mean in whos amung stats* »» <a href="http://www.techbuzz.in/what-does-unknown-mean-in-whos-amung-us-stats-page.php" target="_blank">Visitar sitio</a>
 
 
 

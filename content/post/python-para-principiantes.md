@@ -2,10 +2,8 @@
 author: alex
 categories:
 - python
-color: '#E64A19'
 date: '2016-01-01'
-lastmod: 2016-08-31
-
+lastmod: 2017-09-05T12:36:53+01:00
 mainclass: dev
 url: /python-para-principiantes/
 title: Python para principiantes

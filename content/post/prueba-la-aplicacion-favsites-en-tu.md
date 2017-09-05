@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-27
-
+lastmod: 2017-09-05T12:28:59+01:00
 mainclass: android
 url: /prueba-la-aplicacion-favsites-en-tu/
 tags:
@@ -28,9 +26,9 @@ Por último, decir como siempre, que toda crítica es bienvenida, pero por favor
 
 > Una vez descargado, guarda el archivo .apk en tu terminal e instálalo.
 
-## Descargar mediante enlace
+# Descargar mediante enlace
 
-## Descargar mediante QR
+# Descargar mediante QR
 
 ![qrcode][2]
 
