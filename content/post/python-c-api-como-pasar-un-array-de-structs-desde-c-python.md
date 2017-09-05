@@ -3,17 +3,10 @@ author: alex
 categories:
 - c
 - python
-color: '#E64A19'
 date: '2016-01-01'
-description: "Hace algún tiempo estaba desarrollando un módulo para python,
-  con el cual aprendí bastante y sirvió para crear una serie de artículos
-  sobre el tema (Crear un módulo para python con la Python C API). Uno de los problemas
-  encontrados fue cómo conseguir pasar un array de structs desde C a Python, para
-  resolver la duda pregunté, cómo no, en stackoverflow. Al final terminé
-  respondiéndome a mí mismo, pero aprendí bastante, veamos cómo hacerlo."
+lastmod: 2017-09-05T12:32:25+01:00
+description: "Hace algún tiempo estaba desarrollando un módulo para python,  con el cual aprendí bastante y sirvió para crear una serie de artículos  sobre el tema (Crear un módulo para python con la Python C API). Uno de los problemas  encontrados fue cómo conseguir pasar un array de structs desde C a Python, para  resolver la duda pregunté, cómo no, en stackoverflow. Al final terminé  respondiéndome a mí mismo, pero aprendí bastante, veamos cómo hacerlo."
 image: "2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"
-lastmod: 2015-12-22
-
 mainclass: dev
 url: /python-c-api-como-pasar-un-array-de-structs-desde-c-python/
 tags:
@@ -24,7 +17,7 @@ title: "Python C API - Cómo pasar un array de structs desde C a Python"
 ---
 
 <figure>
-<a href="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png" title="{{ page.title }}" alt="{{ page.title }}" width="201px" height="190px" /></a>
+    <a href="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"><amp-img sizes="(min-width: 201px) 201px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png" title="Python C API - Cómo pasar un array de structs desde C a Python" alt="Python C API - Cómo pasar un array de structs desde C a Python" width="201px" height="190px" /></a>
 </figure>
 
 Hace algún tiempo estaba desarrollando un módulo para python, con el cual aprendí bastante y sirvió para crear una serie de artículos sobre el tema ([Crear un módulo para python con la Python C API][1]). Uno de los problemas encontrados fue cómo conseguir pasar un array de structs desde C a Python, para resolver la duda pregunté, cómo no, en <a href="http://stackoverflow.com/users/1612432/algui91" title="PErfil en SO" target="_blank">stackoverflow</a>. Al final terminé respondiéndome a mí mismo, pero aprendí bastante, veamos cómo hacerlo.
@@ -101,10 +94,8 @@ dict = Py_BuildValue("{"
 
 Y continuar rellenando el diccionario según nuestras necesidades.
 
-#### Referencias
+# Referencias
 
-*Python C API How to pass array of structs from C to Python* »» <a href="http://stackoverflow.com/questions/15786525/python-c-api-how-to-pass-array-of-structs-from-c-to-python/15833209#15833209" target="_blank">stackoverflow.com</a>
-
-
+- *Python C API How to pass array of structs from C to Python* »» <a href="http://stackoverflow.com/questions/15786525/python-c-api-how-to-pass-array-of-structs-from-c-to-python/15833209#15833209" target="_blank">stackoverflow.com</a>
 
  [1]: https://elbauldelprogramador.com/crear-modulo-python-con-python-c-api-1/ "Crear un módulo para python con la Python C API (I) – Introducción"

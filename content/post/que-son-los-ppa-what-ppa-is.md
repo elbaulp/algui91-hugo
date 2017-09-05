@@ -2,10 +2,8 @@
 author: alex
 categories:
 - linux
-color: '#2196F3'
 date: '2016-01-01'
-lastmod: 2016-08-16
-
+lastmod: 2017-09-05T12:39:47+01:00
 mainclass: linux
 url: /que-son-los-ppa-what-ppa-is/
 title: "¿Qué son los PPA?"
@@ -25,6 +23,6 @@ Mediante los PPA los desarrolladores de paquetes están en contacto con los usua
 
 La capacidad con la que cuentan los desarrolladores de PPA es de 1 Gb, solo para proyectos open source.
 
-## Fuente: <a target="_blank" href="http://www.linuxzone.es/">linuxzone.es</a>
+# Fuente: <a target="_blank" href="http://www.linuxzone.es/">linuxzone.es</a>
 
  [1]: https://elbauldelprogramador.com/como-crear-un-repositorio-ppa-how/

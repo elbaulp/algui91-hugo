@@ -4,9 +4,8 @@ categories:
 - linux
 - script
 color: '#2196F3'
-date: '2016-01-01'
-lastmod: 2016-08-11
-
+lastmod: 2017-09-05T12:54:20+01:00
+date: 2017-09-05T12:54:22+01:00
 mainclass: linux
 url: /renombrar-archivos-masivamente-en/
 tags:
@@ -20,7 +19,6 @@ En ocasiones, cuando bajamos archivos de internet (Normalmente música), cada ar
 Si queremos renombrar todos los archivos para eliminar la página web del nombre del archivo, no es necesario ir uno por uno renombrando, usando el comando rename de GNU/linux lo conseguimos fácilmente.
 
 Por ejemplo, pongamos que los archivos son los siguientes:
-
 
 <!--more--><!--ad-->
 

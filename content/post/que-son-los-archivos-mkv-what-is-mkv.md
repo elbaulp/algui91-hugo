@@ -2,10 +2,8 @@
 author: alex
 categories:
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-15
-
+lastmod: 2017-09-05T12:39:02+01:00
 mainclass: articulos
 url: /que-son-los-archivos-mkv-what-is-mkv/
 title: "¿Que son los archivos mkv?"

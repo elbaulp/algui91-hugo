@@ -2,17 +2,11 @@
 author: alex
 categories:
 - dev
-color: '#E64A19'
 date: 2016-04-19 08:48:34
-description: "Hace tiempo me encontré con el problema de tener que construir una
-  lista de la forma más eficiente posible, sin usar bucles for, ya que era el código
-  de una MetaHeurística y debía evaluarse miles de veces. el código original
-  era el siguiente"
+lastmod: 2017-09-05T12:35:40+01:00
+description: "Hace tiempo me encontré con el problema de tener que construir una  lista de la forma más eficiente posible, sin usar bucles for, ya que era el código  de una MetaHeurística y debía evaluarse miles de veces. el código original era el siguiente"
 image: python-lista-de-listas-eficiente.png
-lastmod: 2016-08-09
-
 mainclass: dev
-modified: null
 tags:
 - python
 - "optimización de código"
@@ -66,4 +60,4 @@ Espero que sirva de ayuda a alguien que busque conseguir algo similar.
 
 # Fuente
 
-- Build a List of Lists eficiently in python \| <a href="http://stackoverflow.com/questions/23040784/build-a-list-of-list-efficiently-in-python" title="Build a List of Lists eficiently in python" target="_blank">stackoverlow.com</a>
+- Build a List of Lists eficiently in python | <a href="http://stackoverflow.com/questions/23040784/build-a-list-of-list-efficiently-in-python" title="Build a List of Lists eficiently in python" target="_blank">stackoverlow.com</a>

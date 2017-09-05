@@ -3,17 +3,12 @@ author: alex
 categories:
 - cursos
 - python
-color: '#E64A19'
 date: '2016-01-01'
-
+lastmod: 2017-09-05T12:31:08+01:00
 mainclass: dev
 url: /python4kids-aprende-programar-en-python/
 title: "Python4Kids. Aprende a programar en python fácilmente"
 ---
-
-<div class="separator" >
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  src="" id="logo" name="py" class="icono" />
-</div>
 
 En esta estrada os traigo un tutorial para la gente que quiere iniciarse en el mundo de la programación, como ya he hecho en [otras ocasiones][1]. Hace tiempo publiqué [6 eBooks gratuitos][2] en los que aprender este lenguaje, o [este otro][3] que quizás sea el más completo de los que he publicado.
 
@@ -25,6 +20,6 @@ Que no os engañe el que el nombre del tutorial sea python para niños, a lo lar
 
 
 
- [1]: https://elbauldelprogramador.com/label/python
+ [1]: https://elbauldelprogramador.com/tags/python
  [2]: https://elbauldelprogramador.com/6-e-books-gratuitos-para-aprenter
  [3]: https://elbauldelprogramador.com/python-para-principiantes
