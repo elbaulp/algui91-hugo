@@ -2,10 +2,8 @@
 author: alex
 categories:
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-08-15
-
+lastmod: 2017-09-06T20:38:44+01:00
 mainclass: articulos
 url: /rockmelt-una-navegador-social-basado-en/
 title: Rockmelt, una navegador social basado en Chromium
@@ -25,7 +23,7 @@ También dispone de una ventana de chat y sus responsables dicen que es en&nbsp;
 
 Ya os contaremos cuando lo probemos, aunque veremos si este desarrollo puede ofrecer características diferenciadoras frente a [Flock, un navegador social también basado en Chromium][3] que lleva estando disponible desde 2005, y que **precisamente tenía el objetivo de convertirse en el navegador social** por excelencia.
 
-## Fuente: <a href="http://www.muylinux.com" target="_blank">www.muylinux.com</a>
+# Fuente: <a href="http://www.muylinux.com" target="_blank">www.muylinux.com</a>
 
  [1]: http://www.muycomputer.com/Actualidad/Noticias/RockMelt-el-navegador-social/_wE9ERk2XxDC0g_DH3CC9QUuuHsX3wKj1cQZyau99m55NwZa46YIwMNsMxvxMpWok
  [2]: http://www.muylinux.com/img/2010/11/Rockmelt.jpg

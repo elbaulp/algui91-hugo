@@ -2,15 +2,10 @@
 author: alex
 categories:
 - c
-color: '#E64A19'
 date: '2016-01-01'
-description: "Cuando estaba en el primer curso de la facultad, hicimos una práctica
-  en la asignatura Fundamentos de la Programación que consistía en resolver
-  un laberinto almacenado en un fichero. Me gustó bastante hacer ese programa y
-  lo comparto en el blog para los curiosos que quieran ver cómo funciona."
+lastmod: 2017-09-06T20:33:18+01:00
+description: "Cuando estaba en el primer curso de la facultad, hicimos una práctica  en la asignatura Fundamentos de la Programación que consistía en resolver  un laberinto almacenado en un fichero. Me gustó bastante hacer ese programa y  lo comparto en el blog para los curiosos que quieran ver cómo funciona."
 image: 2013/11/cpp.png
-lastmod: 2015-12-29
-
 mainclass: dev
 url: /resolver-laberintos-en-c/
 tags:
@@ -20,14 +15,14 @@ title: Resolver laberintos en C++
 ---
 
 <figure>
-<a href="/img/2013/11/cpp.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/cpp.png" title="{{ page.title }}" alt="{{ page.title }}" width="128px" height="128px" /></a>
+    <a href="/img/2013/11/cpp.png"><amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/cpp.png" title="Resolver laberintos en C++" alt="Resolver laberintos en C++" width="128px" height="128px" /></a>
 </figure>
 
 Cuando estaba en el primer curso de la facultad, hicimos una práctica en la asignatura Fundamentos de la Programación que consistía en resolver un laberinto almacenado en un fichero. Me gustó bastante hacer ese programa y lo comparto en el blog para los curiosos que quieran ver cómo funciona.
 
 <!--more--><!--ad-->
 
-### Formato del laberinto en el fichero
+# Formato del laberinto en el fichero
 
 Los ficheros que almacenan el laberinto tienen el siguiente formato:
 
@@ -51,7 +46,7 @@ Donde:
   * e representa la entrada al laberinto.
   * s representa la salida.
 
-### Programa principal
+# Programa principal
 
 Dado esto, es posible implementar un programa que lea el fichero, cree una matriz representando el laberinto e intente resolverlo. Esto se podría hacer con:
 
@@ -77,7 +72,7 @@ int main()
 
 ```
 
-### Ejemplo de uso
+# Ejemplo de uso
 
 La clase *Laberinto* la veremos en breve. Básicamente, se lee el fichero, almacenando el tamaño que tiene y se construye un laberinto de dicho tamaño y cambiando la representación del laberinto, es decir `Laberinto lab('+',' ','#',FIL,COL);` crea un laberinto de tamaño *FILxCOL*, cuya representación será un *#* para el camino que conduce a la salida, + para las paredes y un espacio en blanco para las celdas libres. La siguiente línea imprime el laberinto sin resolver, quedando así:
 
@@ -118,18 +113,18 @@ El laberinto no tiene salida
 
 ```
 
-### Clase Laberinto
+# Clase Laberinto
 
 La definición del Laberinto es la siguiente:
 
 ```cpp
-#include </vector><vector>
+#include <vector>
 
 class Laberinto{
 
 private:
-    std::vector<std::vector><int> > path;
-    std::vector</int></std::vector><std::vector><char> > laberinto;
+    std::vector<std::vector<int> > path;
+    std::vector<std::vector<char> > laberinto;
     char shapeP,
          shapeL,
          shapeC;
@@ -159,7 +154,6 @@ public:
     char getShapeL() const    { return (*this).shapeL; }
     char getShapeC() const    { return (*this).shapeC; }
 };
-
 ```
 
 En `path` se almacena el camino recorrido hasta el momento. Internamente, se crea una matriz de igual tamaño que el laberinto, pero *booleana* que irá llevando la cuenta de los lugares por los que ha pasado.
@@ -167,7 +161,7 @@ En `path` se almacena el camino recorrido hasta el momento. Internamente, se cre
 La implementación:
 
 ```cpp
-#include </int></char></std::vector></vector></iostream><iostream>
+#include <iostream>
 
 #include "Laberinto.h"
 
@@ -207,7 +201,7 @@ void Laberinto::printLabResuelto() const{
 
 void Laberinto::resolverLaberinto(){
 
-    vector<vector><bool> > recorrido((*this).laberinto.size(), vector</bool><bool>((*this).laberinto[0].size(),false));
+    vector<vector<bool> > recorrido((*this).laberinto.size(), vector<bool>((*this).laberinto[0].size(),false));
 
 
     (*this).path.push_back(findEnter());
@@ -258,10 +252,10 @@ void Laberinto::resolverLaberinto(){
     }
 }
 
-vector</int><int> Laberinto::findEnter() const{
+vector<int> Laberinto::findEnter() const{
     //Buscamos la entrada
     bool encontrada = false;
-    vector</int><int> pos;
+    vector<int> pos;
     for(unsigned int i=0; i < (*this).laberinto.size() && !encontrada; i++)
         for(unsigned int j=0; j < (*this).laberinto[i].size() && !encontrada; j++)
             if((*this).laberinto[i][j] == 'e'){
@@ -278,10 +272,9 @@ void Laberinto::addPathToLab(unsigned int i, unsigned int j){
            && (*this).laberinto[i][j] != 'e' && (*this).laberinto[i][j] != 's')
             (*this).laberinto[i][j] = getShapeC();
 }
-
 ```
 
-### Más ejemplos
+# Más ejemplos
 
 ```latex
 ./bin/laberinto < labs/laberinto1.txt
@@ -398,11 +391,6 @@ LABERINTO RESUELTO:
 
 ```
 
-#### Referencias
+# Referencias
 
 Asignatura fundamentos de la programación de la Universidad de Granada.
-
-
-
-
-</int></bool></vector></char></iostream>

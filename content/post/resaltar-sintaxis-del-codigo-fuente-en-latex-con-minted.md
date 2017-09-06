@@ -2,11 +2,9 @@
 author: alex
 categories:
 - latex
-color: '#B31917'
 date: '2016-01-01'
+lastmod: 2017-09-06T20:23:46+01:00
 image: 2013/05/latex_logo.png
-lastmod: 2016-08-13
-
 mainclass: latex
 math: true
 url: /resaltar-sintaxis-del-codigo-fuente-en-latex-con-minted/
@@ -26,9 +24,7 @@ Sin embargo, una de las cosas que más me ha costado conseguir es encontrar algu
 
 <!--more--><!--ad-->
 
-
-
-### Instalando dependencias
+# Instalando dependencias
 
 Para instalarlo, es necesaria una versión de python igual o superior a la 2.6, y *Pygments*. Para instalar el último ejecuta:
 
@@ -42,11 +38,11 @@ Si no tienes instalado el programa *easy_install*, ejecuta:
 # aptitude install python-setuptools
 ```
 
-### Instalar minted
+# Instalar minted
 
 Descarga el paquete desde su <a href="http://code.google.com/p/minted/downloads/list" target="_blank">repositorio</a>. Extráelo y sitúate en su directorio. Luego ejecuta la instrucción *make*.
 
-### Algunos ejemplos
+# Algunos ejemplos
 
 Ya está todo listo para usar, empecemos con un ejemplo básico extraido del manual, disponible para descargar en las referencias:
 
@@ -72,10 +68,10 @@ Ya está todo listo para usar, empecemos con un ejemplo básico extraido del man
 Este trozo de código dará como resultado lo siguiente:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/mintedEjemploC.png" alt="Ejemplo minted C" width="599px" height="246px"></amp-img>
+    <amp-img sizes="(min-width: 599px) 599px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/mintedEjemploC.png" alt="Ejemplo minted C" width="599px" height="246px"></amp-img>
 </figure>
 
-### Insertar código desde un archivo de código fuente
+# Insertar código desde un archivo de código fuente
 
 Normalmente, si tenemos un código fuente con muchas líneas es más cómodo incluirlo directamente en lugar de copiar todas esas líneas. **Minted** proporciona un comando para tal fin. `\newmintedfile[]{}`. Veamos un ejemplo:
 
@@ -156,10 +152,10 @@ linenos muestra el número de línea, numbersep es la separación entre el códi
 El resultado será:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/newmintedfileEjemplo.png" alt="newmintedfileEjemplo" width="733px" height="940px"></amp-img>
+    <amp-img sizes="(min-width: 733px) 733px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/newmintedfileEjemplo.png" alt="newmintedfileEjemplo" width="733px" height="940px"></amp-img>
 </figure>
 
-### Creando un comando
+# Creando un comando
 
 Puede resultar incómodo y pesado tener que escribir una y otra vez *\myJava[label=&#8221;\*&#8221;]{\*.java}*. Así que creamos un comando para facilitar las cosas:
 
@@ -184,11 +180,11 @@ Ahora en lugar de usar *myJava* para incluir ficheros fuente en el documento, us
 
 Obtenemos el mismo resultado, el primer argumento es la ruta al fichero y el segundo la etiqueta a mostrar en el documento.
 
-### Conclusiones
+# Conclusiones
 
 Para mi, minted es el mejor paquete que hay para resaltar código en $$\LaTeX$$. Y recomiendo a todo el mundo que aprenda a programar en él.
 
-#### Referencias
+# Referencias
 
 - *Manual de referencia Minted* »» <a href="http://mirror.unl.edu/ctan/macros/latex/contrib/minted/minted.pdf" target="_blank">Descargar</a>
 - *Repositorio del paquete* »» <a href="http://code.google.com/p/minted/downloads/list" target="_blank">Visitar repositorio</a>
