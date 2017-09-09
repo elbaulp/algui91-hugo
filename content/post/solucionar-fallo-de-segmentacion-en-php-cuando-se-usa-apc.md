@@ -3,9 +3,8 @@ author: alex
 categories:
 - administracion de servidores
 - linux
-color: '#0097A7'
 date: '2016-01-01'
-
+lastmod: 2017-09-09T20:28:51+01:00
 mainclass: servidores
 url: /solucionar-fallo-de-segmentacion-en-php-cuando-se-usa-apc/
 tags:
@@ -21,7 +20,7 @@ Hace algún tiempo, el blog se caía de forma aleatoria y dejaba de funcionar. T
 
 <!--more--><!--ad-->
 
-### Para qué sirve el parámetro /proc/sys/kernel/shmmax
+# Para qué sirve el parámetro /proc/sys/kernel/shmmax
 
 Según la documentación del kernel:
 
@@ -38,7 +37,7 @@ Traducido:
 >
 > Este valor puede usarse para consultar y establecer el límite máximo del segmento de memoria compartida que puede crearse. Se soportan segmentos de memoria compartida de hasta 1Gb. Su valor por defecto está definido por la constante SHMMAX.
 
-### Para qué sirve el parámetro apc.shm_size
+# Para qué sirve el parámetro apc.shm_size
 
 Según la documentación de APC:
 
@@ -57,7 +56,7 @@ Sabiendo para qué sirve cada parámetro, en un foro encontré la respuesta a la
 
 Por tanto, incrementando el valor del parámetro `/proc/sys/kernel/shmmax` a un valor igual o mayor que el del parámetro `apc.shm_size` de APC soluciona el problema. Desde que apliqué este cambio no he vuelto a tener caídas en los procesos de PHP.
 
-### Algunas notas a tener en cuenta
+# Algunas notas a tener en cuenta
 
 El parámetro del kernel se puede cambiar de varias formas, tal y como mencionaba el usuario del foro se cambia únicamente durante la sesión activa del Sistema Operativo, tras reiniciar el servidor se establecerá su valor por defecto (30Mb). Para hacer los cambios permanentes, debemos escribir el valor del parámetro en el fichero */etc/sysctl.conf* o en */etc/sysctl.d/99-sysctl.conf*.
 
@@ -83,8 +82,8 @@ cat /proc/sys/kernel/shmmax
 
 ```
 
-#### Referencias
+# Referencias
 
-*Créditos de la imagen* »» <a href="http://icons8.com/" target="_blank">icons8</a>
-*APC causes PHP fast-cgi to segfault* »» <a href="https://bugs.php.net/bug.php?id=56894" target="_blank">bugs.php.net</a>
-*Documentación Sysctl* »» <a href="https://www.kernel.org/doc/Documentation/sysctl/kernel.txt" target="_blank">kernel.org</a>
+- *Créditos de la imagen* »» <a href="http://icons8.com/" target="_blank">icons8</a>
+- *APC causes PHP fast-cgi to segfault* »» <a href="https://bugs.php.net/bug.php?id=56894" target="_blank">bugs.php.net</a>
+- *Documentación Sysctl* »» <a href="https://www.kernel.org/doc/Documentation/sysctl/kernel.txt" target="_blank">kernel.org</a>

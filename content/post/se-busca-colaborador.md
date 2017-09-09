@@ -2,10 +2,8 @@
 author: alex
 categories:
 - sin categoria
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-09-27
-
+lastmod: 2017-09-08T12:10:09+01:00
 mainclass: articulos
 url: /se-busca-colaborador/
 title: Se busca colaborador

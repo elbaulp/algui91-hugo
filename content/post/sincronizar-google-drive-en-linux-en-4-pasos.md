@@ -2,18 +2,10 @@
 author: alex
 categories:
 - linux
-color: '#2196F3'
 date: '2016-01-01'
-description: "Llevaba tiempo buscando la manera de sincronizar los archivos de Google
-  Drive en Linux con carpetas locales del mismo modo que Dropbox. Pensé en usar
-  el programa inotify, pero no sabía muy bien por donde empezar. Hace unos días
-  encontré la respuesta en openlinuxforums y al parecer no iba mal encaminado,
-  es una solución bastante sencilla usando inotify y nos permitirá mantener
-  sincronizados los archivos y carpetas de Google Drive en todos los ordenadores que
-  queramos."
+lastmod: 2017-09-09T20:22:14+01:00
+description: "Llevaba tiempo buscando la manera de sincronizar los archivos de Google  Drive en Linux con carpetas locales del mismo modo que Dropbox. Pensé en usar  el programa inotify, pero no sabía muy bien por donde empezar. Hace unos días  encontré la respuesta en openlinuxforums y al parecer no iba mal encaminado,  es una solución bastante sencilla usando inotify y nos permitirá mantener  sincronizados los archivos y carpetas de Google Drive en todos los ordenadores que  queramos."
 image: 2013/11/google-drive-linux3.jpg
-lastmod: 2016-08-09
-
 mainclass: linux
 url: /sincronizar-google-drive-en-linux-en-4-pasos/
 tags:
@@ -24,14 +16,12 @@ title: Sincronizar Google Drive en Linux en 4 pasos
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/google-drive-linux3.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="800px" height="701px"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/google-drive-linux3.jpg" title="Sincronizar Google Drive en Linux en 4 pasos" alt="Sincronizar Google Drive en Linux en 4 pasos" width="800px" height="701px"></amp-img>
 </figure>
 
 Llevaba tiempo buscando la manera de sincronizar los archivos de **Google Drive en Linux** con carpetas locales del mismo modo que Dropbox. Pensé en usar el programa [inotify][1], pero no sabía muy bien por donde empezar. Hace unos días encontré la respuesta en <a href="https://openlinuxforums.org" title="Foro linux" target="_blank">openlinuxforums</a> y al parecer no iba mal encaminado, es una solución bastante sencilla usando inotify y nos permitirá mantener sincronizados los archivos y carpetas de **Google Drive** en todos los ordenadores que queramos.
 
 > Hay una modificación para este método en <a href="/sincronizar-google-drive-en-linux-en-4-pasos-actualizacion/" title="Sincronizar Google Drive en Linux en 4 pasos [Actualización]">Sincronizar Google Drive en Linux en 4 pasos [Actualización]</a>
-
-
 
 <!--more--><!--ad-->
 
@@ -170,7 +160,7 @@ Con estos 4 pasos hemos conseguido mantener sincronizado nuestro Google Drive en
 El resultado de estas modificaciones es el siguiente:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Sincronizar-Google-Drive-en-Linux-en-4-pasos.png" title="{{ page.title }}" alt="{{ page.title }}" width="1366px" height="768px"></amp-img>
+    <amp-img sizes="(min-width: 1366px) 1366px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Sincronizar-Google-Drive-en-Linux-en-4-pasos.png" title="Sincronizar Google Drive en Linux en 4 pasos" alt="Sincronizar Google Drive en Linux en 4 pasos" width="1366px" height="768px"></amp-img>
 </figure>
 
 # Referencias

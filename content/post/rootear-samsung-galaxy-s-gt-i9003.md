@@ -3,10 +3,8 @@ author: alex
 categories:
 - android
 - aplicaciones
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-09-27
-
+lastmod: 2017-09-08T12:01:09+01:00
 mainclass: articulos
 url: /rootear-samsung-galaxy-s-gt-i9003/
 tags:
@@ -56,7 +54,7 @@ sudo mono SuperOneClick.exe
 Este comando ejecutará la aplicación, que será como la de la imagen:
 
 <figure>
-    <a href="https://1.bp.blogspot.com/-m5BLQYMKlGo/ToIa7Z8PYiI/AAAAAAAAAxg/hp9LVGRaQTQ/s1600/Screenshot-SuperOneClick.png"><amp-img layout="responsive"  height="346" width="800" src="https://1.bp.blogspot.com/-m5BLQYMKlGo/ToIa7Z8PYiI/AAAAAAAAAxg/hp9LVGRaQTQ/s800/Screenshot-SuperOneClick.png"></amp-img></a>
+    <a href="https://1.bp.blogspot.com/-m5BLQYMKlGo/ToIa7Z8PYiI/AAAAAAAAAxg/hp9LVGRaQTQ/s1600/Screenshot-SuperOneClick.png"><amp-img sizes="(min-width: 800px) 800px, 100vw" layout="responsive"  height="346" width="800" src="https://1.bp.blogspot.com/-m5BLQYMKlGo/ToIa7Z8PYiI/AAAAAAAAAxg/hp9LVGRaQTQ/s800/Screenshot-SuperOneClick.png"></amp-img></a>
 </figure>
 
 2.- Ya tenemos la aplicación funcionando correctamente, vamos a preparar el terminal:
@@ -69,7 +67,7 @@ Este comando ejecutará la aplicación, que será como la de la imagen:
 Una vez terminado, tenemos que reiniciar el teléfono, y nos encontraremos con una aplicación como la de la imagen, que nos pedirá permiso cada vez que una aplicación necesite permisos de Root:
 
 <figure>
-    <a href="https://lh5.googleusercontent.com/-6_6VWUHX_fA/ToIg3Si55bI/AAAAAAAAAxo/aXmmt_TEloU/s800/SC20110927-211316.png"><amp-img layout="responsive" height="800" width="480" src="https://lh5.googleusercontent.com/-6_6VWUHX_fA/ToIg3Si55bI/AAAAAAAAAxo/aXmmt_TEloU/s800/SC20110927-211316.png"></amp-img></a>
+    <a href="https://lh5.googleusercontent.com/-6_6VWUHX_fA/ToIg3Si55bI/AAAAAAAAAxo/aXmmt_TEloU/s800/SC20110927-211316.png"><amp-img sizes="(min-width: 480px) 480px, 100vw" layout="responsive" height="800" width="480" src="https://lh5.googleusercontent.com/-6_6VWUHX_fA/ToIg3Si55bI/AAAAAAAAAxo/aXmmt_TEloU/s800/SC20110927-211316.png"></amp-img></a>
 </figure>
 
 # Solución de problemas

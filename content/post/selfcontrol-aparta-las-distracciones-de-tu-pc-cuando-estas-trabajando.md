@@ -3,12 +3,8 @@ author: alex
 categories:
 - aplicaciones
 - opensource
-color: '#F57C00'
-date: '2016-01-01'
-if_slider_image:
-- null
-- null
-
+lastmod: 2017-09-08T12:10:22+01:00
+date: 2017-09-08T12:10:24+01:00
 mainclass: articulos
 url: /selfcontrol-aparta-las-distracciones-de-tu-pc-cuando-estas-trabajando/
 tags:
@@ -26,17 +22,15 @@ tags:
 title: "SelfControl, aparta las distracciones de tu pc cuando estás trabajando"
 ---
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="selfcontrol" src="/img/2012/08/selfcontrol11.png" alt="" width="192px" height="192px" />][1]
+<figure>
+    <amp-img sizes="(min-width: 192px) 192px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="selfcontrol" src="/img/2012/08/selfcontrol11.png" alt="" width="192px" height="192px" />
+</figure>
 
 Es fácil distraerse cuando estás sentado enfrente de un ordenador, sobre todo cuando se tienen pocas ganas de trabajar. Leyendo mi RSS encontré una aplicación que puede llegar a ser muy útil si te distras fácilmente; SelfControl.
 
 Esta aplicación bloquea las páginas de internet durante el tiempo que digamos, es bastante fácil de usar y configurar.
 
 Antes de instalarlo es necesario resolver las dependencias del paquete instalando lo siguiente:
-
-&nbsp;
-
-&nbsp;
 
 ```bash
 sudo aptitude install libgtk2-perl libyaml-perl
@@ -54,13 +48,14 @@ Ahora que está todo listo ejecutamos SelfControl desde la línea de comandos y 
 <!--more--><!--ad-->
 
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Selfcontro1" src="/img/2012/08/Selfcontro11.png" alt="" width="415px" height="378px" />][2]
+<figure>
+    <amp-img sizes="(min-width: 415px) 415px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Selfcontro1" src="/img/2012/08/Selfcontro11.png" alt="" width="415px" height="378px" />
+</figure>
 
 Donde aparecen las webs bloqueadas, una entrada de texto para añadir las páginas a bloquear y por cuanto tiempo.
 
 Antes de configurarlo, hay que asegurarse de que todo esté correcto, abrimos una terminal para ver el estado de <a title="20 ejemplos de iptables para SysAdmins novatos" href="//20-ejemplos-de-iptables-para-sysadmins/" target="_blank">iptables</a>:
 
-&nbsp;
 
 ```bash
 $ sudo iptables --list
@@ -95,12 +90,5 @@ Chain INPUT (policy ACCEPT)
   DROP       all  --  anywhere             www.example.com
 ```
 
-* * *
-
-Sítio Oficial | <a href="http://svn.jklmnop.net/projects/SelfControl.html" target="_blank">SelfControl </a>
-Fuente | <a href="http://www.datamation.com/open-source/15-must-have-linux-applications-1.html" target="_blank">15 Must Have Linux Applications</a>
-
-
-
- [1]: https://elbauldelprogramador.com/img/2012/08/selfcontrol11.png
- [2]: https://elbauldelprogramador.com/img/2012/08/Selfcontro11.png
+- Sítio Oficial | <a href="http://svn.jklmnop.net/projects/SelfControl.html" target="_blank">SelfControl </a>
+- Fuente | <a href="http://www.datamation.com/open-source/15-must-have-linux-applications-1.html" target="_blank">15 Must Have Linux Applications</a>

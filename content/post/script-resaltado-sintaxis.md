@@ -3,10 +3,8 @@ author: alex
 categories:
 - linux
 - script
-color: '#2196F3'
 date: '2016-01-01'
-lastmod: 2016-07-29
-
+lastmod: 2017-09-08T12:08:31+01:00
 mainclass: linux
 url: /script-resaltado-sintaxis/
 tags:
@@ -43,7 +41,6 @@ case $? in
   echo "No se seleciciono nada.";;
 esac
 ```
-
 
 <b>Voy a explicar un poco el código:</b><br /> La variable <em>keyWords</em> contiene las palabras claves de c++, menos &#8220;class&#8221;, que despues explicaré porque. En esta variable, las palabras han de estar separadas por un espacio, y todas en una misma linea, Para que el for coja palabra a palabra..
 
