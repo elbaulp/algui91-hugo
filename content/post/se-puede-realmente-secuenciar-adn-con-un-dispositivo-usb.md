@@ -3,12 +3,9 @@ author: alex
 categories:
 - articulos
 - "tecnología"
-color: '#F57C00'
 date: '2016-01-01'
-description: "¿Qué pasaría si pudieras poner algunas células bacterianas
-  en un dispositivo USB, conectarlo a su laptop, y obtener una secuencia completa
-  de ADN en cuestión de minutos?"
-
+lastmod: 2017-09-08T12:11:38+01:00
+description: "¿Qué pasaría si pudieras poner algunas células bacterianas  en un dispositivo USB, conectarlo a su laptop, y obtener una secuencia completa  de ADN en cuestión de minutos?"
 mainclass: articulos
 url: /se-puede-realmente-secuenciar-adn-con-un-dispositivo-usb/
 tags:
@@ -21,11 +18,13 @@ tags:
 title: "¿Se puede realmente secuenciar ADN con un dispositivo USB?"
 ---
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/05/Oxford-Nanopore-MinION1.jpeg" alt="" title="Oxford-Nanopore-MinION" width="660px" height="440px" />][1]
+<figure>
+    <amp-img sizes="(min-width: 600px) 600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/05/Oxford-Nanopore-MinION1.jpeg" alt="" title="Oxford-Nanopore-MinION" width="660px" height="440px" />
+</figure>
+
 ¿Qué pasaría si pudieras poner algunas células bacterianas en un dispositivo USB, conectarlo a su laptop, y obtener una secuencia completa de ADN en cuestión de minutos?
 
 <!--more--><!--ad-->
-
 
 Oxford Nanopore ha construido un dispositivo USB que hará precisamente eso. Al menos eso es lo que dice la compañía. Conocido como MinION, el dispositivo recibió una considerable cantidad de prensa cuando fue anunciado en Febrero, y está previsto para ser lanzado al mundo en general en la segunda mitad del año. Sin embargo muchos siguen siendo escépticos de que este pequeño dispositivo cumplirá realmente la función para lo que fue diseñado.
 
@@ -61,19 +60,10 @@ Greg Lucier - el CEO de Life Technologies, un competidor en el juego de secuenci
 
 Lo sabremos con seguridad a fines de este año.
 
-&nbsp;
-
 [Actualizaciones: Se ha actualizado esta historia para aclarar lo relativo al sensor y los mecanismos de reducción de ruido del dispositivo nanoporos. El modelo de negocio de Sequetech se mejoró. &#8220;Pipeline&#8221; fue cambiado a &#8220;*Pipeline Pilot*&#8220;.]
 
-&nbsp;
 
-Fuente: [Wired][2]
-
-&nbsp;
-
-&nbsp;
-
-
+- Fuente: [Wired][2]
 
  [1]: https://elbauldelprogramador.com/img/2012/05/Oxford-Nanopore-MinION1.jpeg
- [2]: http://www.wired.com/wiredenterprise/2012/03/oxford-nanopore-sequencing-usb/?utm_source=feedburner&utm;_medium=feed&utm;_campaign=Feed%3A+wired%2Findex+%28Wired%3A+Index+3+%28Top+Stories+2%29%29 "Wired"
+ [2]: http://www.wired.com/wiredenterprise/2012/03/oxford-nanopore-sequencing-usb/ "Wired"

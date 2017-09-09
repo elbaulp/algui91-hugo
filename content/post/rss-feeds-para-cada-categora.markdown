@@ -2,11 +2,10 @@
 author: alex
 categories:
 - misc
-color: '#61B38D'
 date: 2016-06-24 06:06:58
+lastmod: 2017-09-08T12:02:13+01:00
 description: "Listado de los feeds por categorías disponibles para los lectores"
 introduction: "Listado de los feeds por categorías disponibles para los lectores"
-
 mainclass: misc
 title: "Rss Feeds Para Cada Categoría"
 ---

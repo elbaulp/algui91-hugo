@@ -2,18 +2,10 @@
 author: alex
 categories:
 - linux
-color: '#2196F3'
 date: '2016-01-01'
-description: "Hace poco vimos en un artículo cómo Sincronizar Google Drive en
-  Linux en 4 pasos. Llevo usando ese método unas semanas y hasta ahora todo funcionaba
-  correctamente. Sin embargo me he dado cuenta que cuando se usa con archivos muy
-  grandes puede haber problemas, ya que grive vuelve a ejecutarse varias veces mientras
-  está subiendo archivos, con lo cual acaban pasando cosas extrañas, como quedarse
-  subiendo el archivo indefinidamente o inundar la memoria RAM. Aplicar los siguientes
-  cambios parece que soluciona los problemas."
+lastmod: 2017-09-08T12:18:45+01:00
+description: "Hace poco vimos en un artículo cómo Sincronizar Google Drive en  Linux en 4 pasos. Llevo usando ese método unas semanas y hasta ahora todo funcionaba  correctamente. Sin embargo me he dado cuenta que cuando se usa con archivos muy  grandes puede haber problemas, ya que grive vuelve a ejecutarse varias veces mientras  está subiendo archivos, con lo cual acaban pasando cosas extrañas, como quedarse  subiendo el archivo indefinidamente o inundar la memoria RAM. Aplicar los siguientes cambios parece que soluciona los problemas."
 image: 2013/11/google-drive-linux3.jpg
-lastmod: 2016-08-09
-
 mainclass: linux
 url: /sincronizar-google-drive-en-linux-en-4-pasos-actualizacion/
 tags:
@@ -24,12 +16,12 @@ title: "Sincronizar Google Drive en Linux en 4 pasos [Actualización]"
 ---
 
 <figure>
-  <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/google-drive-linux3.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="800px" height="701px"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/google-drive-linux3.jpg" title="Sincronizar Google Drive en Linux en 4 pasos [Actualización]" alt="Sincronizar Google Drive en Linux en 4 pasos [Actualización]" width="800px" height="701px"></amp-img>
 </figure>
 
+> **NOTA**: Actualmente uso insyncq, una cliente multiplataforma para sincronizar Google Drive.
+
 Hace poco vimos en un artículo cómo [Sincronizar Google Drive en Linux en 4 pasos][1]. Llevo usando ese método unas semanas y hasta ahora todo funcionaba correctamente. Sin embargo me he dado cuenta que cuando se usa con archivos muy grandes puede haber problemas, ya que *grive* vuelve a ejecutarse varias veces mientras está subiendo archivos, con lo cual acaban pasando cosas extrañas, como quedarse subiendo el archivo indefinidamente o inundar la memoria RAM. Aplicar los siguientes cambios parece que soluciona los problemas.
-
-
 
 <!--more--><!--ad-->
 
