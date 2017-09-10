@@ -5,6 +5,7 @@ categories:
 - opensource
 lastmod: 2017-09-08T12:10:22+01:00
 date: 2017-09-08T12:10:24+01:00
+description: "Es fácil distraerse cuando estás sentado enfrente de un ordenador, sobre todo cuando se tienen pocas ganas de trabajar. Leyendo mi RSS encontré una aplicación que puede llegar a ser muy útil si te distras fácilmente; SelfControl."
 mainclass: articulos
 url: /selfcontrol-aparta-las-distracciones-de-tu-pc-cuando-estas-trabajando/
 tags:
