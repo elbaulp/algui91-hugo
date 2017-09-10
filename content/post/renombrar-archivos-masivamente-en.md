@@ -3,7 +3,6 @@ author: alex
 categories:
 - linux
 - script
-color: '#2196F3'
 lastmod: 2017-09-05T12:54:20+01:00
 date: 2017-09-05T12:54:22+01:00
 mainclass: linux
@@ -12,11 +11,12 @@ tags:
 - renombrar archivos linux masivo
 - renombrar linux
 title: Renombrar archivos masivamente en GNU/Linux
+description: "Si queremos renombrar todos los archivos para eliminar la página web del nombre del archivo, no es necesario ir uno por uno renombrando, usando el comando rename de GNU/linux lo conseguimos fácilmente."
 ---
 
 En ocasiones, cuando bajamos archivos de internet (Normalmente música), cada archivo tiene en el nombre la dirección de la página web de donde se descargó.
 
-Si queremos renombrar todos los archivos para eliminar la página web del nombre del archivo, no es necesario ir uno por uno renombrando, usando el comando rename de GNU/linux lo conseguimos fácilmente.
+Si queremos renombrar todos los archivos para eliminar la página web del nombre del archivo, no es necesario ir uno por uno renombrando, usando el comando `rename` de GNU/linux lo conseguimos fácilmente.
 
 Por ejemplo, pongamos que los archivos son los siguientes:
 
