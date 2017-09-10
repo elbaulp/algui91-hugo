@@ -3,9 +3,8 @@ author: luzila
 categories:
 - articulos
 - seguridad
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-09-10T13:00:03+01:00
 mainclass: articulos
 url: /todos-los-lugares-donde-deberias-habilitar-autenticacion-de-dos-factores-ahora-mismo/
 tags:
@@ -17,22 +16,19 @@ title: "Todos los lugares donde deberías habilitar la Autenticación de Dos Fac
 
 La Autenticación de dos factores (Two-factor autenticación) es una de <a href="http://lifehacker.com/5932501/strong-passwords-arent-enough-how-to-to-ensure-the-apple-and-amazon-exploit-never-happens-to-you" target="_blank">las mejores cosas que puedes hacer</a> para asegurarte de que tus cuentas no sean hackeadas. Aquí hay una lista de todos los servicios populares que la ofrecen, y donde deberías ir para activarlo ahora mismo.
 
-## ¿Qué es la Autenticación de Dos Factores?
+# ¿Qué es la Autenticación de Dos Factores?
 
 Las contraseñas, desafortunadamente, <a href="http://lifehacker.com/5937303/your-clever-password-tricks-arent-protecting-you-from-todays-hackers" target="_blank">no son tan seguras como solían serlo,</a> y si alguien obtiene tu contraseña, puede acceder a tu cuenta sin problema. La Autenticación de Dos Factores soluciona ese problema.
 
-<div >
-<span class="embed-youtube" ></span>
-</div>
 
 El gurú del spam de Google, Matt Cutts, <a href="http://lifehacker.com/5932700/please-turn-on-two+factor-authentication" target="_blank">lo expresa mejor</a>: la Autenticación de dos factores es una simple característica que te pide más que solo tu contraseña. Requiere tanto &#8220;algo que sabes&#8221; (por ejemplo, una contraseña) como &#8220;algo que tienes&#8221; (por ejemplo, tu teléfono). Luego de ingresar tu contraseña, tendrás un segundo código enviado a tu teléfono, y solo después de ingresarlo podrás ingresar a tu cuenta. Piensa en esto como ingresar un numero de PIN, luego hacer un escaneo de retina, como ves en todas las películas de espías que existen. Es mucho mas seguro que una contraseña que puedes hackear, y mantiene a los fisgones no deseados alejados de tus cuentas online.
 <!--more--><!--ad-->
 
-## ¿Dónde puedo usarla?
+# ¿Dónde puedo usarla?
 
 Desafortunadamente, no puedes usar autenticación de dos factores en cualquier parte de la web todavía. Pero muchos sitios la han implementado recientemente, incluyendo muchos de tus servicios favoritos. Aquí están algunos servicios que permiten autenticación de dos factores, con algunas instrucciones de cómo habilitarla:
 
-  * **<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class="alignright"  src="http://img.gawkerassets.com/img/17xdyo64drt8ujpg/original.jpg" alt="" />Google/Gmail:** La mayoría de nosotros guarda mucha información en nuestras cuentas de Google, y definitivamente querrás protegerla activando la autenticación de dos factores. Puedes aprender <a href="http://lifehacker.com/5756977/set-up-googles-two+step-verification-now-for-seriously-enhanced-security-for-your-google-account" target="_blank">cómo hacerlo aquí,</a> o checkear la <a href="https://support.google.com/accounts/bin/answer.py?hl=en&answer=185839&topic=1056283&ctx=topic" target="_blank">documentación oficial de Google</a> para más información.
+  * **Google/Gmail:** La mayoría de nosotros guarda mucha información en nuestras cuentas de Google, y definitivamente querrás protegerla activando la autenticación de dos factores. Puedes aprender <a href="http://lifehacker.com/5756977/set-up-googles-two+step-verification-now-for-seriously-enhanced-security-for-your-google-account" target="_blank">cómo hacerlo aquí,</a> o checkear la <a href="https://support.google.com/accounts/bin/answer.py?hl=en&answer=185839&topic=1056283&ctx=topic" target="_blank">documentación oficial de Google</a> para más información.
   * **LastPass**: Si usas LastPass para crear, manejar, y guardar tus contraseñas de otros sitios (lo cual recomendamos que hagas), este es uno de los más importantes servicios para los cuales tienes que habilitar la autenticación de dos factores, dado que almacena tus contraseñas por cualquier otro sitio en la red. Usa la aplicación <a href="http://code.google.com/p/google-authenticator/" target="_blank">Google Authenticator</a> para Android, iOS y BlackBerry, y puedes leer <a href="http://helpdesk.lastpass.com/security-options/google-authenticator/" target="_blank">cómo habilitarlo aquí</a>. Alternativamente, puedes usar <a href="http://lifehacker.com/5799036/the-best-password-utilities-that-dont-store-your-data-in-the-cloud" target="_blank">una de esas aplicaciones de gestión de contraseñas</a> que sincronizan entre computadoras con Dropbox (que también soporta Autenticación de dos factores, como describimos a continuación.
   * **Facebook**: Tener la contraseña de Facebook secuestrada puede ser más que sorprendente, y la autenticación de dos factores es muy fácil de usar. encontrarás instrucciones sobre <a href="https://www.facebook.com/note.php?note_id=10150172618258920" target="_blank">cómo hacerlo aquí</a>.
   * **Dropbox**: Dropbox es<a href="http://lifehacker.com/5933884/top-10-clever-uses-for-dropbox" target="_blank"> útil por una gran cantidad de cosas</a>, no solo por estar almacenando datos y <a href="http://lifehacker.com/5910408/from-saucy-pics-to-passwords-how-to-share-sensitive-information-over-the-internet" target="_blank">enviando información sensible a través de Internet.</a> Hazte un favor y <a href="https://blog.dropbox.com/index.php/another-layer-of-security-for-your-dropbox-account/" target="_blank">activa la autenticación de dos factores utilizando estas instrucciones</a>. Si quieres otra capa de seguridad adicional, puedes hacerlo <a href="http://lifehacker.com/5794486/how-to-add-a-second-layer-of-encryption-to-dropbox" target="_blank">encriptando de los contenidos de tu Dropbox con TrueCrypt</a>.

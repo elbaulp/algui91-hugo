@@ -3,15 +3,10 @@ author: luzila
 categories:
 - articulos
 - opensource
-color: '#F57C00'
 date: '2016-01-01'
-description: "A la hora de crear proyectos, suele ser una tarea difícil elegir
-  bajo qué licencia liberar el código, al menos para mi. Con este artículo
-  que traduzco de outercurve.org espero facilitar la tarea de selección de una
-  licencia."
+lastmod: 2017-09-10T12:58:56+01:00
+description: "A la hora de crear proyectos, suele ser una tarea difícil elegir  bajo qué licencia liberar el código, al menos para mi. Con este artículo  que traduzco de outercurve.org espero facilitar la tarea de selección de una  licencia."
 image: 2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minutos.png
-lastmod: 2016-03-20
-
 mainclass: articulos
 url: /todo-lo-que-necesitas-saber-sobre-copyright-y-licencias-en-2-minutos/
 tags:
@@ -24,7 +19,7 @@ title: Todo lo que necesitas saber sobre Copyright y licencias en 2 minutos
 ---
 
 <figure>
-<a href="/img/2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minutos.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minutos.png" title="{{ page.title }}" alt="{{ page.title }}" width="672px" height="656px" /></a>
+    <a href="/img/2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minutos.png"><amp-img sizes="(min-width: 672px) 672px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minutos.png" title="Todo lo que necesitas saber sobre Copyright y licencias en 2 minutos" alt="Todo lo que necesitas saber sobre Copyright y licencias en 2 minutos" width="672px" height="656px" /></a>
 </figure>
 
 A la hora de crear proyectos, suele ser una tarea difícil elegir bajo qué licencia liberar el código, al menos para mi. Con este artículo que traduzco de *<a title="Outercurve" href="http://www.outercurve.org" target="_blank">outercurve.org</a>* espero facilitar la tarea de selección de una licencia.
@@ -48,10 +43,9 @@ Si usas **[GitHub][1]**, aún tardarás menos tiempo en escoger licencia, ya que
 
 *Si quieres que otras personas usen tu software, licéncialo. Los escritores lo hacen, los artistas lo hacen, Ingenieros y arquitectos lo hacen, así que tú también deberías hacerlo.*
 
-#### Referencias
+# Referencias
 
-*Everything You NEED to Know About Software Copyright and Licensing-to-Share in 2 Minutes* »» <a href="http://www.outercurve.org/Blogs/EntryId/100/Everything-You-NEED-to-Know-About-Software-Copyright-and-Licensing-to-Share-in-2-Minutes" target="_blank">outercurve.org</a>
-
+- *Everything You NEED to Know About Software Copyright and Licensing-to-Share in 2 Minutes* »» <a href="http://www.outercurve.org/Blogs/EntryId/100/Everything-You-NEED-to-Know-About-Software-Copyright-and-Licensing-to-Share-in-2-Minutes" target="_blank">outercurve.org</a>
 
 
  [1]: https://elbauldelprogramador.com/la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/ "La generación GitHub: Por qué ahora todos estamos en el opensource"

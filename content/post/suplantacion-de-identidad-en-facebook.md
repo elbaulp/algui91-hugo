@@ -2,13 +2,8 @@
 author: alex
 categories:
 - seguridad
-color: '#F57C00'
 date: '2016-01-01'
-format: aside
-if_slider_image:
-- null
-- null
-
+lastmod: 2017-09-10T12:49:03+01:00
 mainclass: articulos
 url: /suplantacion-de-identidad-en-facebook/
 tags:
@@ -23,9 +18,9 @@ Leyendo el blog de <a href="http://www.elladodelmal.com/" target="_blank">Chema 
 
 El método consiste en conseguir 3 cosas:
 
-*La dirección de correo de la persona a suplantar.*
-*Dirección de correo de facebook de la persona a quién se va a engañar.*
-*Un sistema para enviar correos SMTP*
+- *La dirección de correo de la persona a suplantar.*
+- *Dirección de correo de facebook de la persona a quién se va a engañar.*
+- *Un sistema para enviar correos SMTP*
 
 Los pasos a seguir podéis leerlos en la entrada de <a href="http://www.elladodelmal.com/2012/05/suplantacion-de-identidad-en-facebook.html" target="_blank">Chema: Suplantación de identidad en Facebook</a>
 
@@ -34,7 +29,7 @@ Voy a explicar lo que yo he hecho:
 Al principio al establecer comunicación mediante telnet por el puerto 25 (el de SMTP) y escribrir los comandos siempre recibía el siguiente error:
 
 ```bash
-<strong>550 5.6.0 Invalid header found (see RFC2822 section 3.6)</strong>
+550 5.6.0 Invalid header found (see RFC2822 section 3.6)
 ```
 
 Tras buscar un poco el motivo descubrí que se debía a que me estaba saltando algunas cabeceras del protocolo, concretamente *From, To * y *Date.*
@@ -76,7 +71,6 @@ También probé con dos programas (sin éxito), uno en[ C++][1] y otro en [pytho
 ```cpp
 #include <iostream>
      #include <sys>
-     #include </sys><sys>
      #include <netinet>
      #include <netdb>
      #include <stdio>
@@ -210,10 +204,7 @@ except Exception, exc:
 
 Esto es todo, por más que lo he intentado no lo he logrado, si os animáis a probarlo y lo conseguís, agradecería que lo comentárais.
 
-##### Fuente: <a href="http://www.elladodelmal.com/2012/05/suplantacion-de-identidad-en-facebook.html" target="_blank">Elladodelmal</a>
-</string></stdio></netdb></netinet></sys></iostream>
-
-
+# Fuente: <a href="http://www.elladodelmal.com/2012/05/suplantacion-de-identidad-en-facebook.html" target="_blank">Elladodelmal</a>
 
  [1]: https://elbauldelprogramador.com/c/
  [2]: https://elbauldelprogramador.com/python

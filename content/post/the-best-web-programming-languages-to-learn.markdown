@@ -2,12 +2,11 @@
 author: alex
 categories:
 - misc
-color: '#61B38D'
 date: 2016-06-13 16:35:07
+lastmod: 2017-09-10T12:57:14+01:00
 description: Boosting your Web Development Career!
 image: Boosting-your-Web-Development-Career2.jpg
 introduction: Boosting your Web Development Career!
-
 mainclass: misc
 tags:
 - aprender desarrollo web
@@ -17,7 +16,7 @@ title: "Guia Gratuíta: The Best Web Programming Languages to Learn"
 ---
 
 <figure>
-<a href="http://bashyc-blogspot.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_webd10"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Boosting-your-Web-Development-Career2.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="1200px" height="630px" /></a>
+    <a href="http://bashyc-blogspot.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_webd10"><amp-img sizes="(min-width: 1200px) 1200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Boosting-your-Web-Development-Career2.jpg" title="{{ page.title }}" alt="{{ page.title }}" width="1200px" height="630px" /></a>
 </figure>
 
 The web has been around for many years now, but the real advancements and innovation from it are being seen this last decade. Everything just seems to have gotten better and more productive as both programmers and technology put efforts into creating some fundamental standards everyone would follow to work on the web.

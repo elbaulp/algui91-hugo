@@ -2,9 +2,8 @@
 author: alex
 categories:
 - security now
-color: '#00BCD4'
-date: '2016-01-01'
-
+lastmod: 2017-09-10T12:44:21+01:00
+date: 2017-09-10T12:44:23+01:00
 mainclass: security-now
 url: /sqrl-y-la-idea-de-eliminar-el-uso-de-usuario-y-contrasena-en-internet/
 tags:
@@ -17,13 +16,16 @@ tags:
 title: "SQRL y la idea de eliminar el uso de usuario y contraseña en internet"
 ---
 
-**Nota:** Puedes echar un ojo al artículo más actualizado [SQRL -Secure Quick Reliable Login a Fondo](/sqrl-secure-quick-reliable-login-a-fondo/)
-{: .notice}
+> **Nota:** Puedes echar un ojo al artículo más actualizado [SQRL -Secure Quick Reliable Login a Fondo](/sqrl-secure-quick-reliable-login-a-fondo/)
 
 Los lectores habituales sabrán que suelo escuchar el programa de radio *[Security Now!][1]*, la semana pasada, **Steve Gibson**, uno de los mayores expertos en seguridad anunció que se le había ocurrido una manera de eliminar la necesidad de usar usuario y contraseña para identificarse en los sitios web, eliminando así los problemas que esto conlleva. Steve ha llamado a su invención **SQRL** (*Secure [QR][2] Login*) y ha tenido bastante éxito en la comunidad, tanto que hasta el [W3][3] se ha puesto en contacto con él mostrando interés en este nuevo método de autentificación.
 
 <!--more--><!--ad-->
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/sqrl-login-sample.png" alt="SQRL y la idea de elminar el uso de usuario y contraseña en internet" width="400px" height="199px" />
+
+<figure>
+    <amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/sqrl-login-sample.png" alt="SQRL y la idea de elminar el uso de usuario y contraseña en internet" width="400px" height="199px" />
+</figure>
+
 
 El sistema **SQRL** es bastante simple, cuando se desea identificarse en un sitio web mediante **SQRL**, aparecerá un código, entonces:
 
@@ -47,20 +49,17 @@ Este método, a pesar de ser bastante simple, es de lejos mucho más seguro que 
   * El sitio web de autenticación recibe y reconoce la consulta POST devolviéndole una respuesta standard HTTP “200 OK” sin otro contenido. La aplicación SQRL acepta la solicitud exitosa del código QR del usuario identificado.
   * El sitio de autenticación tiene la URL que contiene el nonce que devolvió la página de login del smartphone del usuario. Tiene también una firma criptográfica de esa URL, y la clave pública específica del sitio del usuario. Usa la clave pública para verificar que la firma es válida para la URL. Esto confirma que el usuario que produjo la firma usó la clave privada que corresponde a la clave pública. Tras de verificar la firma, el sitio de autentificación reconoce al usuario (ahora-autenticado) por la clave pública específica de sitio.
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/sign-algo.png" alt="SQRL y la idea de elminar el uso de usuario y contraseña en internet" width="580px" height="194px" />
+<figure>
+    <amp-img sizes="(min-width: 580px) 580px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/sign-algo.png" alt="SQRL y la idea de elminar el uso de usuario y contraseña en internet" width="580px" height="194px" />
+</figure>
 
 Resumiendo: &#8220;El login del sitio web presenta un código QR que contiene la URL de su servicio de autenticación, más un nonce. El smartphone del usuario firma la login URL usando una clave privada derivada de su secreto maestro y el nombre de dominio de la URL. El smartphone envía la clave pública que se corresponde para identificar el usuario, y la firma para autenticarlo.&#8221;
 
 A continuación dejo los dos podcast en los que Steve Gibson ha dado cantidad de detalles de cómo funciona el sistema **SQRL**, y en las referencias todos los detalles técnicos. Vuelvo a comentar que toda colaboración para traducir dicha página es bienvenida.
 
-<span class="embed-youtube" ></span>
-<span class="embed-youtube" ></span>
+# Referencias
 
-#### Referencias
-
-*(1) SQRL en la página de su creador, Steve* »» <a href="https://www.grc.com/sqrl/sqrl.htm" target="_blank">grc.com</a>
-
-
+- *(1) SQRL en la página de su creador, Steve* »» <a href="https://www.grc.com/sqrl/sqrl.htm" target="_blank">grc.com</a>
 
  [1]: https://elbauldelprogramador.com/security-now/ "Artículos sobre Security now!"
  [2]: https://elbauldelprogramador.com/estructura-y-seguridad-de-los-qr-codes/ "Estructura y seguridad de los QR Codes"
