@@ -4,9 +4,8 @@ categories:
 - articulos
 - noticias
 - "tecnología"
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-09-10T12:46:58+01:00
 mainclass: articulos
 url: /superordenador-de-barcelona-armandose-para-entrar-en-las-maquinas-mas-rapidas-del-mundo/
 tags:
@@ -41,29 +40,14 @@ Las cosas se vuelve más interesantes ahora que Vvidia empieza a preparar los su
 
 Pero para tomar ventaja de esta próxima generación de chips, el equipo de Barcelona necesitará tener perfectamente optimizado su software para la nueva y poco probada arquitectura. Necesitaran superar el benchmark Linpack usado en el grupo de los Top500, pero también necesitaran reescribir los programas de investigación usados por los científicos universitarios: software que simula problemas físicos y químicos intrincados. Esta sera la parte mas difícil. Si la apuesta sale bien, Ramirez cree que la maquina podrá seguir el camino hasta ser el sistema mas poderoso de la lista Top500 para el 2017. &#8220;Estamos trabajando en una maquina que podría utilizarse dentro de cinco años&#8221; ha dicho.
 
-<div>
-<p>
-    El sistema rondará <a href="http://www.eesi-project.eu/media/BarcelonaConference/Day2/13-Mont-Blanc_Overview.pdf" target="_blank">probablemente el rango de los 200 Petaflop</a>, unas 20 veces la potencia del superordenador con mayor ptencia del mundo actualmente, el <a href="http://www.wired.com/wiredenterprise/2011/11/japanese_megamachine/" target="_blank">Japan’s K Computer.</a>
-</p>
-<p>
-    A pesar de toda esta excitación acerca del Mont-Blanc en el mundo de la supercomputación, ARM es crítica con el proyecto. Ve grandes beneficios en los smartphones y tabletas que los consumidores le están comprando, no en supeordenadores.
-  </p>
-<p>
-    El mes pasado, el presidente de ARM &#8220;Simon Segars&#8221; nos contó en Barcelona que el proyecto de Superordenador era &#8220;interesante&#8221;, pero menospreció el mercado de la supercomputación. &#8220;Los superordenadores no son un mercado de alto volumen para ARM&#8221; dijo, &#8220;No es algo de lo que hablamos mucho. Nuestro negocio está basado en las ventas de unidades, por lo que estamos interesados en mercados de alto volumen&#8221;.
-  </p>
-<p>
-    Fuente Original: <a href="http://www.wired.com/wiredenterprise/2012/04/barcelona" target="_blank">http://www.wired.<wbr>com/wiredenterprise/2012/04/</wbr><wbr>barcelona</wbr></a>
-</p>
-<p>
-    Autor: Robert McMillan con contribuciones de Cade Metz.
-  </p>
-</div>
-<div>
-</div>
-<div>
-  Traductor: Francisco José Rodríguez (haitike)
-</div>
+El sistema rondará <a href="http://www.eesi-project.eu/media/BarcelonaConference/Day2/13-Mont-Blanc_Overview.pdf" target="_blank">probablemente el rango de los 200 Petaflop</a>, unas 20 veces la potencia del superordenador con mayor ptencia del mundo actualmente, el <a href="http://www.wired.com/wiredenterprise/2011/11/japanese_megamachine/" target="_blank">Japan’s K Computer.</a>
 
+A pesar de toda esta excitación acerca del Mont-Blanc en el mundo de la supercomputación, ARM es crítica con el proyecto. Ve grandes beneficios en los smartphones y tabletas que los consumidores le están comprando, no en supeordenadores.
 
+El mes pasado, el presidente de ARM &#8220;Simon Segars&#8221; nos contó en Barcelona que el proyecto de Superordenador era &#8220;interesante&#8221;, pero menospreció el mercado de la supercomputación. &#8220;Los superordenadores no son un mercado de alto volumen para ARM&#8221; dijo, &#8220;No es algo de lo que hablamos mucho. Nuestro negocio está basado en las ventas de unidades, por lo que estamos interesados en mercados de alto volumen&#8221;.
+
+- Fuente Original: <a href="http://www.wired.com/wiredenterprise/2012/04/barcelona" target="_blank">http://www.wired.<wbr>com/wiredenterprise/2012/04/</wbr><wbr>barcelona</wbr></a>
+- Autor: Robert McMillan con contribuciones de Cade Metz.
+- Traductor: Francisco José Rodríguez (haitike)
 
  [1]: https://elbauldelprogramador.com/el-top-500-de-los-supercomputadores-mas/

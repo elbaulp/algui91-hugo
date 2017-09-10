@@ -3,11 +3,9 @@ author: alex
 categories:
 - c
 date: '2016-01-01'
-description: "Días atrás hablamos sobre DWM y quedó pendiente explicar cómo
-  colorear la barra de estado. En el artículo de hoy veremos cómo aplicar el
-  parche Simple StatusColor en DWM 6.1, que escribí hace poco."
+lastmod: 2017-09-10T12:45:31+01:00
+description: "Días atrás hablamos sobre DWM y quedó pendiente explicar cómo  colorear la barra de estado. En el artículo de hoy veremos cómo aplicar el  parche Simple StatusColor en DWM 6.1, que escribí hace poco."
 image: 2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png
-lastmod: 2017-01-30
 mainclass: dev
 url: /statuscolor-dwm-6-1/
 tags:
@@ -24,7 +22,7 @@ Días atrás hablamos [sobre DWM][1] y quedó pendiente explicar cómo colorear 
 
 Para aquel que quiera simplemente aplicar el parche y empezar a usarlo, debe leer únicamente la siguiente sección. Aquellos que estén interesados en los detalles técnicos pueden leer el artículo completo.
 
-## Aplicar y usar el parche
+# Aplicar y usar el parche
 
 El primer paso es situarnos en el directorio con el código de DWM y descargar el parche:
 
@@ -47,7 +45,7 @@ $ sudo make clean install
 
 ```
 
-### Crear una barra de estado con dwmstatus
+## Crear una barra de estado con dwmstatus
 
 Éste parche solo funciona con la aplicación **dwmstatus**, para descargarlo e instalarlo basta con hacer:
 
@@ -60,7 +58,7 @@ $ dwmstatus
 
 Con esto tendremos **dwmstatus** ejecutándose y mostrando información.
 
-### Coloreando la barra de estado
+## Coloreando la barra de estado
 
 Para darle color, basta con modificar el código de **dwmstatus** e indicar qué colores usar. Por ejemplo, en el fichero `dwmstatus.c` la línea que formatea el estado es la siguiente:
 
@@ -79,10 +77,10 @@ status = smprintf("L:%s\x01 A:%s\x02 U:%s %s\x03", avgs, tmar, tmutc, tmbln);
 Coloreará `L:%s` con el color 1, `L:%s` con el color 2 y ` U:%s %s` con el color 3. He aquí un ejemplo de la mía:
 
 <figure>
-<a href="/img/2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png" title="{{ page.title }}" alt="{{ page.title }}" width="702px" height="13px" /></a>
+    <a href="/img/2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png"><amp-img sizes="(min-width: 702px) 702px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png" title="Colorear la barra de estado con Simple StatusColor en DWM 6.1" alt="Colorear la barra de estado con Simple StatusColor en DWM 6.1" width="702px" height="13px" /></a>
 </figure>
 
-## Dentro del código
+# Dentro del código
 
 Pasemos ahora a ver qué hace el código para ser capaz de colorear la barra de estado. Explicaremos paso a paso lo que hace cada trozo de código en cada fichero:
 
@@ -226,12 +224,12 @@ Por último, solo queda usar los métodos creados, deben ir en el método `drawb
 
 ```
 
-## Referencias
+# Referencias
 
 Todo el trabajo está en mi cuenta de Github, Tanto mi configuración actual de DWM como mi DWMstatus. En los siguientes enlaces.
 
-*myDWMstatus* »» <a href="https://github.com/elbaulp/myDWMstatus" target="_blank">github.com/elbaulp/myDWMstatus</a>
-*myDWM* »» <a href="https://github.com/elbaulp/myDWM" target="_blank">github.com/elbaulp/myDWM</a>
+- *myDWMstatus* »» <a href="https://github.com/elbaulp/myDWMstatus" target="_blank">github.com/elbaulp/myDWMstatus</a>
+- *myDWM* »» <a href="https://github.com/elbaulp/myDWM" target="_blank">github.com/elbaulp/myDWM</a>
 
 [1]: https://elbauldelprogramador.com/instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente/ "Instalar y configurar DWM, el gestor de ventanas más eficiente"
 [3]: https://elbauldelprogramador.com/clases-y-objetos-arrays/ "Clases y Objetos – Arrays"

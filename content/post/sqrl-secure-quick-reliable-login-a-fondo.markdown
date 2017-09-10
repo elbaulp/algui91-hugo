@@ -4,14 +4,9 @@ amp:
   elements: [amp-youtube]
 categories:
 - security now
-color: '#00BCD4'
-date: 2015-09-10 09:08:37
-description: "Hace unos años, hablé aquí sobre la idea de Steve Gibson, SQRL,
-  sistema con el que pretende eliminar el uso de usuarios y contraseñas en internet.
-  Unos dos años más tarde, con el proyecto bastante maduro, en Security Now!
-  Steve ha vuelto a dar detalles del funcionamiento de SQRL, y la verdad es que pinta
-  pero que muy bien. En éste artículo he usado como fuente el episodio 424 del
-  podcast."
+lastmod: 2017-09-10T12:41:57+01:00
+date: 2017-09-10T12:41:58+01:00
+description: "Hace unos años, hablé aquí sobre la idea de Steve Gibson, SQRL,  sistema con el que pretende eliminar el uso de usuarios y contraseñas en internet.  Unos dos años más tarde, con el proyecto bastante maduro, en Security Now!  Steve ha vuelto a dar detalles del funcionamiento de SQRL, y la verdad es que pinta  pero que muy bien. En éste artículo he usado como fuente el episodio 424 del  podcast."
 image: SQRL-Secure-Quick-Reliable-Login-a-Fondo.png
 mainclass: security-now
 math: true
@@ -28,18 +23,18 @@ type: post
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/SQRL-Secure-Quick-Reliable-Login-a-Fondo.png" title="{{ .Title }}" alt="{{ .Title }}" width="450px" height="450px" />
+    <amp-img sizes="(min-width: 450px) 450px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/SQRL-Secure-Quick-Reliable-Login-a-Fondo.png" title="SQRL -Secure Quick Reliable Login a Fondo" alt="SQRL -Secure Quick Reliable Login a Fondo" width="450px" height="450px" />
 </figure>
 
 Hace unos años, hablé aquí sobre la idea de Steve Gibson, __SQRL__, sistema con el que pretende eliminar [el uso de usuarios y contraseñas en internet](/sqrl-y-la-idea-de-eliminar-el-uso-de-usuario-y-contrasena-en-internet/). Unos dos años más tarde, con el proyecto bastante maduro, en [Security Now!](/security-now/ "Todos los artículos traducidos") Steve ha vuelto a dar detalles del funcionamiento de __SQRL__, y la verdad es que pinta pero que muy bien. En éste artículo he usado como fuente el episodio [\#424](https://twit.tv/shows/security-now/episodes/424) del podcast.
 
 <!--more--><!--ad-->
 
-## Resumen
+# Resumen
 
 Antes de empezar con los detalles, a continuación se muestra un resumen del sistema de autentificación:
 
-### El concepto principal
+## El concepto principal
 
 - Una __HMAC__ cuya clave es un número grande generado aleatóriamente.
   - Un código de autentificación basado en Hashes.
@@ -48,28 +43,28 @@ Antes de empezar con los detalles, a continuación se muestra un resumen del sis
 - Cada usuario obtiene su propia función hash.
 - A cada [dominio](/como-configurar-un-servidor-dns/ "Configurar un servidor DNS") de un sitio web se le aplica un hash para producir una clave privada personal.
 
-### La jerarquía de claves de SQRL
+## La jerarquía de claves de SQRL
 
 - Código de recuperación de 24 dígitos, como una carta para “Salir de la cárcel”.
 - Es posible que nunca se necesite éste código.
 - La [contraseña](/como-se-almacenan-tus-contrasenas-en-internet-y-cuando-la-longitud-de-la-misma-no-importa/ "Cómo se almacenan tus contraseñas en internet (y cuando la longitud de la misma no importa)" ) del usuario
 
-### ¿Qué ocurre si queremos otra identidad para el mismo sitio?
+## ¿Qué ocurre si queremos otra identidad para el mismo sitio?
 
 - Si mi mujer y yo queremos entrar a facebook con el mismo pc, se crean IDs alternativos para cada uno.
 
-### ¿Qué pasa si me me roban mi identidad SQLR?, ¿O si creo que me la robaron?
+## ¿Qué pasa si me me roban mi identidad SQLR?, ¿O si creo que me la robaron?
 
 - Boqueo de identidad.
 - Se puede bloquear/desbloquear una identidad fácilmente
 - Regenerar las claves para una identidad.
 
-### ¿Qué pasa si quiero dejar de usar SQRL?
+## ¿Qué pasa si quiero dejar de usar SQRL?
 
 - Eliminar/reemplazar las identidades.
 - Las identidades poseen un ciclo de vida completo que puede administrarse.
 
-### ¿Y si un sito fraudulento muestra un ID de __SQRL__ de otro sitio web?
+## ¿Y si un sito fraudulento muestra un ID de __SQRL__ de otro sitio web?
 
 - El problema del spoofing, se hablará a lo largo del artículo.
 
@@ -86,7 +81,7 @@ La diferencia pues, es que una función _hash_ es simplemente una función, _SHA
 
 Si embargo, un _Keyed hash_ es distinto, la salida de la función viene determinada por la clave secreta. Por tanto, se tendrán tantas funciones _hash_ como posibles claves se puedan generar a partir de la longitud de la clave. Si la longitud de la clave es 256 bits, se pueden generar $$2^{256}$$ distintas claves, y por tanto $$2^{256}$$ distitas funciones _hash_. __SQRL__ usa un _keyed hash_.
 
-## Cómo usa __SQRL__ la HMAC
+# Cómo usa __SQRL__ la HMAC
 
 Veamos un ejemplo. Cuando vas a un sitio web, el dominio del sitio, por ejemplo amazon.com, o Twit.tv, el que sea. A ese dominio se le aplica un _hash_ usando _HMAC_, lo que devuelve un resumen de una longitud fija, pero usando como clave tu identidad de SQRL. Ésta identidad, se creará al momento de instalar SQRL, y cada usuario tendrá su propia función _hash_, completamente distinta de los demás. El resultado de la función _hash_ para el sitio visitado, por ejemplo amazon, será la clave privada para esa web.
 
@@ -94,7 +89,7 @@ SQRL genera una clave privada única para cada sitio web distinto que visitas, s
 
 Resumiendo lo visto hasta ahora, _SQRL_ consiste en un usuario con una identidad maestra, para el cual el sistema crea automáticamente una clave privada para cada sitio que visita. Eso sí, cuando se visita la misma web, se obtiene la misma clave privada.
 
-### Uso de la clave privada
+## Uso de la clave privada
 
 ¿Qué se hace con la clave privada?, es una clave privada de basada en una curva elíptica, en concreto la de Dan Bernstein, por ser determinista, es decir, permite especificar la clave privada.
 
@@ -104,11 +99,11 @@ El siguiente paso es usar una función de la curva elíptica que obtiene la clav
 
 Por último, cuando el usuario se identifica en un sitio web, la web dice “_vale, dices que este eres tú, demuéstralo._” Para ello la web envía un trozo de datos aleatorio (único para cada usuario), el usuario los firma con su clave privada y lo devuelve a la web. De éste modo, sin exponer la clave privada, acabas de demostrar que la posees. Ésto es _SQRL_ en esencia, proporcionar la clave pública a una web para identificarte. Cuando quieras volver a identificarte en ella, en lugar de usar el típico e inseguro usuario/contraseña, usando SQRL, la web envía un trozo de datos aleatorios, el usiario entonces le devolverá los datos firmados con la clave privada y la clave pública. Al haber usado la web anteriormente, ya conocía tu clave pública, verifica la firma y corrobora que tú eres quien dices ser y listo, identificado.
 
-## ¿Y si alguien se hace pasar por mi?
+# ¿Y si alguien se hace pasar por mi?
 
 Una identidad __SQRL__ es un sistema de dos personas (Tú y todas las webs del mundo), el usuario es pseudoanónimo para todas las webs. Ya que cada sitio web ve al usuario como un token aleatorio (La clave pública). De éste modo el usuario no puede ser rastreado, es decir, no hay forma de asociar tu identidad entre sitios webs. Además, la cláve pública que proporcionas al sitio web solo es útil para dicho sitio, para ninguno más, a diferencia del usuario/contraseña. En esencia, con __SQRL__ no estás dándole a la web un secreto que guardar (La contraseña), no necesitan mantener segura la base de datos. Cualquiera podría descargarla y le sería inútil, a cualquiera salvo al sitio web.
 
-## Cómo recuperar tu identidad
+# Cómo recuperar tu identidad
 
 ¿Cómo permitimos a los usuarios que sean responsables de su propia identidad, pero al mismo tiempo darles la opción de recuperarla si la perdieran, o se la robaran?
 
@@ -118,7 +113,7 @@ Esta es la carta “Salir de la cárcel” de la que hablábamos al principio. T
 
 Una vez anotado o imprimido, __SQRL__ comienza el proceso de hash, aplicando múltiples hash, haciendo operaciones XOR. Tras aplicar iterativamente funciones hash al código, se obtiene lo que será la clave para la función hash del usuario, recuerda, una _keyed hash_ (_HMAC_). Ahora, la clave de la función hash se cifra con una contraseña usando la función [Scrypt](https://en.wikipedia.org/wiki/Scrypt), la cual hace totalmente inviable averiguar  la contraseña.
 
-## ¿Y si me roban mi identidad?
+# ¿Y si me roban mi identidad?
 
 Para ello se creó el _Identity Lock_ (Bloqueador de identidad). Un protocolo consistente en una serie de ecuaciones. Conforme se les va proporcionando la clave pública a las webs, se les proporciona también información sobre el _identity lock_. Esta información se genera aleatoriamente por el cliente, y el protocolo permite al cliente generar dicha información para asegurar tu identidad, pero no probrarla. Por tanto, esto difiere de la capacidad anterior de __SQRL__ para probar tu identidad firmando puñado de datos que envía la web.
 
@@ -126,17 +121,17 @@ El objetivo del _identity lock_ es hacer deliberadamente que los clientes no sea
 
 La segunda cosa que proporciona el código de recuperación (La carta para salir de la cárcel), al insertarlo en el cliente SQRL, permite cambiar tu identidad y re-habilitar la autenticación de haber sido deshabilitada, ya que es posible deshabilitar la autentificación para las webs, pero solo es posible rehabilitarlas con el código de recuperación.
 
-## Deshabilitar la autentificación
+# Deshabilitar la autentificación
 
 La posibilidad de deshabilitar la autentificación es útil cuando por ejemplo, pierdes tu móvil, te lo confiscan etc. En esos casos, tu identidad queda expuesta, en ese caso, con cualquier otro cliente SQRL, puedes cargar tu identidad y deshabilitar la autentificación para tu identidad. Ningún intrudo podrá cambiar tu identidad, tú puedes deshabilitarla, pero para re activarla necesitarás el código de recuperación. Si alguna vez pasa algo así, al reactivarla con el código, es posible regenerar la identidad (_rekeyed_).
 
-## Conclusión
+# Conclusión
 
 Esto en esencia es SQRL, bastante prometedor. A continuación dejo el episodio del podcast y la documentación de SQRL.
 
-### Fuentes
+# Fuentes
 
-Documentación oficial SQRL | [gcr.com](https://www.grc.com/sqrl/sqrl.htm)
+- Documentación oficial SQRL | [gcr.com](https://www.grc.com/sqrl/sqrl.htm)
 
 <amp-youtube
     data-videoid="hsotcaizGjM"

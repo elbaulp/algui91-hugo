@@ -2,16 +2,11 @@
 author: alex
 categories:
 - misc
-color: null
 date: 2016-11-27 09:54:40
-description: Predictive analytics provide companies the ability to systematically
-  leverage data from across the value chain to peer into the future and identify the
-  most likely outcomes.
+lastmod: 2017-09-10T12:57:55+01:00
+description: Predictive analytics provide companies the ability to systematically  leverage data from across the value chain to peer into the future and identify the  most likely outcomes.
 image: guides/The-Power-of-Predictive-Analytics-centered.jpg
-introduction: Predictive analytics provide companies the ability to systematically
-  leverage data from across the value chain to peer into the future and identify the
-  most likely outcomes.
-
+introduction: Predictive analytics provide companies the ability to systematically  leverage data from across the value chain to peer into the future and identify the  most likely outcomes.
 mainclass: misc
 tags:
 - manuales
@@ -21,7 +16,7 @@ title: "Guía Gratuita: The Power of Predictive Analytics"
 ---
 
 <figure>
-   <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/guides/The-Power-of-Predictive-Analytics-centered.jpg" alt="{{ title }}" title="{{ title }}" width="800" height="420">
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/guides/The-Power-of-Predictive-Analytics-centered.jpg" alt="Guía Gratuita: The Power of Predictive Analytics" title="Guía Gratuita: The Power of Predictive Analytics" width="800" height="420">
    </amp-img>
 </figure>
 

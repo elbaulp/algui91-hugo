@@ -2,9 +2,8 @@
 author: alex
 categories:
 - noticias
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-09-10T12:51:23+01:00
 mainclass: articulos
 url: /suscritebe-al-feed-rss-unicamente-en-las-categorias-que-te-interesen/
 title: "Suscríbete al feed RSS únicamente en las categorías que te interesen"
