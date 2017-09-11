@@ -3,10 +3,8 @@ author: alex
 categories:
 - cursos
 - python
-color: '#F57C00'
 date: '2016-01-01'
-lastmod: 2016-09-04
-
+lastmod: 2017-09-11T18:31:41+01:00
 mainclass: articulos
 url: /tutorial-de-python-v270/
 tags:

@@ -4,10 +4,8 @@ categories:
 - android
 - aplicaciones
 - opensource
-color: '#689F38'
 date: '2016-01-01'
-lastmod: 2016-09-12
-
+lastmod: 2017-09-11T18:38:59+01:00
 mainclass: android
 url: /video-demostracion-del-proyecto-wifibar/
 tags:

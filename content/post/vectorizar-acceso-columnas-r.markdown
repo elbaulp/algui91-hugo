@@ -2,15 +2,11 @@
 author: alex
 categories:
 - dev
-color: '#E64A19'
 date: 2016-04-04 18:56:12
-description: "En unas prácticas de Aprendizaje automático para la facultad en
-  las que usamos R. Me surgió un problema intentando vectorizar el acceso a un
-  Data set por columnas, así que pregunté en StackOVerflow."
+lastmod: 2017-09-11T18:37:36+01:00
+description: "En unas prácticas de Aprendizaje automático para la facultad en  las que usamos R. Me surgió un problema intentando vectorizar el acceso a un  Data set por columnas, así que pregunté en StackOVerflow."
 image: vectorizar-acceso-columnas-r.png
-
 mainclass: dev
-modified: null
 tags:
 - R
 - vectorizar en r
@@ -23,10 +19,8 @@ title: Vectorizar El Acceso a Columnas en R
 ---
 
 <figure>
-<a href="/img/vectorizar-acceso-columnas-r.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/vectorizar-acceso-columnas-r.png" title="{{ page.title }}" alt="{{ page.title }}" width="640px" height="320px" /></a>
+    <a href="/img/vectorizar-acceso-columnas-r.png"><amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/vectorizar-acceso-columnas-r.png" title="Vectorizar El Acceso a Columnas en R" alt="Vectorizar El Acceso a Columnas en R" width="640px" height="320px" /></a>
 </figure>
-
-
 
 > El siguiente artículo es una traducción de una pregunta en **StackOverflow** del usuario <a href="http://stackoverflow.com/users/1612432/algui91" target="_blank" title="Perfil de algui91">algui91</a>, que preguntaba <a href="http://stackoverflow.com/questions/35914984/vectorize-access-to-columns-in-r" target="_blank" title="Vectorize access to columns in R">Vectorize access to columns in R</a>. La respuesta es del usuario <a href="http://stackoverflow.com/users/3001626/david-arenburg" target="_blank" title="Perfil de David Arenburg">David Arenburg</a>.
 
@@ -90,6 +84,6 @@ Para cambiar los -1  por 1 basta llamar al a función con un parámetro más, el
 indexNegative = lapply(datafunctions[3:6], getPercentageOfData, condition = -1)
 ```
 
-#### Fuente
+# Fuente
 
-Vectorize access to columns in R \| <a href="http://stackoverflow.com/questions/35914984/vectorize-access-to-columns-in-r" title="Vectorize access to columns in R" target="_blank">stackoverlow.com</a>
+- Vectorize access to columns in R \| <a href="http://stackoverflow.com/questions/35914984/vectorize-access-to-columns-in-r" title="Vectorize access to columns in R" target="_blank">stackoverlow.com</a>

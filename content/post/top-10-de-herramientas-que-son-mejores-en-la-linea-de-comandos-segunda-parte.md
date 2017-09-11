@@ -1,5 +1,5 @@
 ---
-date: 2017-03-28T20:25:48+01:00
+lastmod: 2017-09-11T18:30:18+01:00
 author: juan
 categories:
 - articulos
@@ -16,7 +16,7 @@ title: "10 de las Mejores Herramientas en la Línea de Comandos II"
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" sizes="(min-width: 640px) 640px, 100vw" role="button" tabindex="0" layout="responsive" title="Top 10 de las Mejores Herramientas en la Línea de Comandos" src="/img/2012/08/original1.jpg" alt="Comandos" width="640px" height="360px" />
+    <amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" sizes="(min-width: 640px) 640px, 100vw" role="button" tabindex="0" layout="responsive" title="Top 10 de las Mejores Herramientas en la Línea de Comandos" src="/img/2012/08/original1.jpg" alt="Comandos" width="640px" height="360px" />
 </figure>
 
 En esta segunda entrega revisaremos otras [diez herramientas](/top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos/) que podemos usar en nuestra **terminal de Linux** y que nos ahorrarán tiempo y esfuerzo en muchas tareas cotidianas ampliando así nuestra lista de imprescindibles.

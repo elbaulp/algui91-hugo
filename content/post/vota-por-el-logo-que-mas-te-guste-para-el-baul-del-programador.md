@@ -2,9 +2,8 @@
 author: alex
 categories:
 - offtopic
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-09-11T18:47:56+01:00
 mainclass: articulos
 url: /vota-por-el-logo-que-mas-te-guste-para-el-baul-del-programador/
 title: "Vota por el logo que más te guste para El Baúl del Programador"
@@ -20,8 +19,6 @@ Gracias de antemano y espero que os guste la nueva mascota del blog! Un saludo.
 </noscript>
 
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/LOGOS.png" alt="LOGOS" width="978px" height="786px" />][1]
-
-
-
- [1]: https://elbauldelprogramador.com/img/2013/06/LOGOS.png
+<figure>
+    <amp-img sizes="(min-width: 978px) 978px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/LOGOS.png" alt="LOGOS" width="978px" height="786px" />
+</figure>

@@ -4,9 +4,8 @@ categories:
 - aplicaciones
 - hacking
 - seguridad
-color: '#F57C00'
 date: '2016-01-01'
-
+lastmod: 2017-09-11T18:32:32+01:00
 mainclass: articulos
 url: /unhide-forensic-tool-encuentra-puertos-y-procesos-ocultos/
 tags:
@@ -17,7 +16,7 @@ title: 'Unhide Forensic Tool: Encuentra puertos y procesos ocultos'
 ---
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/ghostbuster.jpg" alt="Unhide Forensic Tool" width="200px" height="176px" />
+    <amp-img sizes="(min-width: 200px) 200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/ghostbuster.jpg" alt="Unhide Forensic Tool" width="200px" height="176px" />
 </figure>
 
 Unhide Forensic Tool o simplemente ***Unhide*** es una herramienta forense que permite encontrar los procesos que ocultan los <a href="https://es.wikipedia.org/wiki/Rootkit" target="_blank">RootKits</a>, por módulos del kernel Linux o por otras técnicas.
@@ -126,9 +125,9 @@ Test_list :
 
 ```
 
-#### Fuente
+# Fuente
 
-*Unhide Forensic Tool, Find hidden processes and ports* »» <a href="http://toolsyard.thehackernews.com/2013/02/unhide-forensic-tool-find-hidden.html" target="_blank">toolsyard.thehackernews.com</a>
+- *Unhide Forensic Tool, Find hidden processes and ports* »» <a href="http://toolsyard.thehackernews.com/2013/02/unhide-forensic-tool-find-hidden.html" target="_blank">toolsyard.thehackernews.com</a>
 
 
 [1]: https://elbauldelprogramador.com/netstat-analizando-la-red-y-detectando-problemas/
