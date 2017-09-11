@@ -2,14 +2,10 @@
 author: alex
 categories:
 - dev
-color: '#E64A19'
 date: 2016-06-02 14:52:24
-description: "Desarrollando una página en PHP para una asignatura de la facultad
-  estuve buscando formas de ver el contenido de las Variables en una página php.
-  En concreto quería mostrar todas las variables definidas, pero podríamos mostrar
-  cualquier variable. El comando en cuestión es"
+lastmod: 2017-09-11T18:36:36+01:00
+description: "Desarrollando una página en PHP para una asignatura de la facultad  estuve buscando formas de ver el contenido de las Variables en una página php.  En concreto quería mostrar todas las variables definidas, pero podríamos mostrar  cualquier variable. El comando en cuestión es"
 image: como-mostrar-variables-php-depurar-print_r-var_dump.png
-
 mainclass: dev
 tags:
 - depurar en php
@@ -22,7 +18,7 @@ title: "Cómo Mostrar Información De Variables PHP Depurando"
 ---
 
 <figure>
-<a href="/img/como-mostrar-variables-php-depurar-print_r-var_dump.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/como-mostrar-variables-php-depurar-print_r-var_dump.png" title="{{ page.title }}" alt="{{ page.title }}" width="702px" height="355px" /></a>
+    <a href="/img/como-mostrar-variables-php-depurar-print_r-var_dump.png"><amp-img sizes="(min-width: 702px) 702px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/como-mostrar-variables-php-depurar-print_r-var_dump.png" title="Cómo Mostrar Información De Variables PHP Depurando" alt="Cómo Mostrar Información De Variables PHP Depurando" width="702px" height="355px" /></a>
 </figure>
 
 > El siguiente artículo es una traducción de una pregunta en **StackOverflow** del usuario Plummer, que preguntaba <a href="http://stackoverflow.com/questions/19816438/make-var-dump-look-pretty" target="_blank" title="Make var_dump look pretty">Make var_dump look pretty</a>. La respuesta es del usuario AbraCadaver
@@ -61,6 +57,6 @@ array (
 
 Espero que os sea de utilidad
 
-#### Fuente
+# Fuente
 
-Make var_dump look pretty \| <a href="http://stackoverflow.com/a/19816742/1612432" title="Make var_dump look pretty" target="_blank">stackoverlow.com</a>
+- Make var_dump look pretty \| <a href="http://stackoverflow.com/a/19816742/1612432" title="Make var_dump look pretty" target="_blank">stackoverlow.com</a>

@@ -6,11 +6,9 @@ categories:
 - administracion de servidores
 - aplicaciones
 - opensource
-color: '#0097A7'
 date: '2016-01-01'
+lastmod: 2017-09-11T18:42:46+01:00
 image: visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia.png
-lastmod: 2016-08-06
-
 mainclass: servidores
 url: /visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia/
 tags:
@@ -59,6 +57,6 @@ Os dejo un vídeo del tráfico de mi modesto blog:
     layout="responsive"
     width="480" height="270"></amp-youtube>
 
-#### Referencias
+# Referencias
 
-*Web oficial* »» <a href="https://code.google.com/p/logstalgia/" target="_blank">Visitar sitio</a>
+- *Web oficial* »» <a href="https://code.google.com/p/logstalgia/" target="_blank">Visitar sitio</a>

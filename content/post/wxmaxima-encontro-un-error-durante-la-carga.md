@@ -3,8 +3,8 @@ author: alex
 categories:
 - how to
 - linux
-color: '#E64A19'
 date: '2016-01-01'
+lastmod: 2017-09-11T18:55:40+01:00
 mainclass: dev
 url: /wxmaxima-encontro-un-error-durante-la-carga/
 tags:
@@ -13,7 +13,10 @@ tags:
 title: "Cómo resolver el error &#8216;wxMaxima encontró un error durante la carga&#8217;"
 ---
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/Maxima.png" alt="wxMaxima encontró un error durante la carga" width="271px" height="256px" />
+<figure>
+    <amp-img sizes="(min-width: 271px) 271px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/Maxima.png" alt="wxMaxima encontró un error durante la carga" width="271px" height="256px" />
+</figure>
+
 En la facultad solemos usar wxMaxima en las prácticas de las asignturas. Hace poco al intentar abrir un fichero wxm me encontré con el siguiente error:
 
 wxMaxima encontró un error durante la carga ó Failed to convert file to Unicode.
@@ -22,7 +25,7 @@ Que indica que wxmaxima ha encontrado un error intentando convertir el fichero a
 
 <!--more--><!--ad-->
 
-### Resolver el error &#8216;wxMaxima encontró un error durante la carga&#8217;
+# Resolver el error &#8216;wxMaxima encontró un error durante la carga&#8217;
 
 Usaremos el programa *file* para determinar el tipo de fichero:
 
@@ -59,6 +62,6 @@ IFS=' '
 
 Hay que decir, sin embargo, que es posible ahorrarse todo esto si se guardaran todos los ficheros de wxmaxima con la extensión *.wxmx*.
 
-#### Referencias
+# Referencias
 
-*ubuntudriver* »» <a href="http://ubuntudriver.blogspot.com.es/2011/06/cambiar-codificacion-de-un-archivo.html" target="_blank">Cómo Cambiar la Codificación de un Fichero en Linux y Mac OS X</a>
+- *ubuntudriver* »» <a href="http://ubuntudriver.blogspot.com.es/2011/06/cambiar-codificacion-de-un-archivo.html" target="_blank">Cómo Cambiar la Codificación de un Fichero en Linux y Mac OS X</a>

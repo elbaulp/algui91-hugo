@@ -2,9 +2,8 @@
 author: alex
 categories:
 - android
-color: '#689F38'
 date: '2016-01-01'
-
+lastmod: 2017-09-11T18:48:22+01:00
 mainclass: android
 url: /restlib-libreria-para-realizar-peticiones-a-web-services-en-android/
 tags:
@@ -38,7 +37,6 @@ rq.setURL("http://freegeoip.net/json/");
 
 RestServiceTask task = new RestServiceTask(this, this, "Espere", "Obteniendo datos...");
 task.execute(rq);
-
 ```
 
 `rq` es el objeto necesario para construir la petición, en este caso irá en JSON. Las siguientes instrucciones establecen el típo de método a usar y la url del WebService, respectivamente. **RestServiceTask** se encarga de crear un <a href="http://developer.android.com/reference/android/os/AsyncTask.html" target="_blank">AsyncTask</a> para realizar la petición fuera del hilo principal de la aplicación.
@@ -46,8 +44,7 @@ task.execute(rq);
 En cada clase que se use la librería es necesario implementar la interfaz `AsyncTaskCompleteListener<restresponse>`, Por ejemplo:
 
 ```java
-public class MainActivity extends Activity implements AsyncTaskCompleteListener</restresponse><restresponse>
-
+public class MainActivity extends Activity implements AsyncTaskCompleteListener<RestResponse>
 ```
 
 Además, añadir el callback `onTaskComplete()`, que será llamado una vez obtengamos la respuesta del Web Service, la cabecera del método es la siguiente:
@@ -55,7 +52,6 @@ Además, añadir el callback `onTaskComplete()`, que será llamado una vez obten
 ```java
 @Override
     public void onTaskComplete(RestResponse result)
-
 ```
 
 Para obtener la respuesta de la petición llamamos al método `getContent()` del objeto `result`, que devuelve un `HashMap<string>` con los pares **clave/valor** correspondientes a la respuesta en JSON.
@@ -69,7 +65,7 @@ RestRequest apiWordpress = new JSONRestRequest();
 apiWordpress.setMethod(RestRequest.GET_METHOD);
 apiWordpress.setURL("https://public-api.wordpress.com/rest/v1/test/5");
 
-HashMap</string><string> args = new HashMap</string><string>() {
+HashMap<String, Object> args = new HashMap<String, Object>() {
    {
       put("pretty", "true");
       put("default_string", "Test App WS www.elbauldelprogramador.org");
@@ -82,7 +78,6 @@ apiWordpress.setContent(args);
 
 RestServiceTask task2 = new RestServiceTask(this, this, "Espere", "Obteniendo datos...");
 task2.execute(apiWordpress);
-
 ```
 
 A continuación escribo el código de la aplicación de ejemplo que he programado para Android, en las referencias habrá un enlace para descargar el proyecto.
@@ -108,7 +103,7 @@ import thecocktaillab.restJsonLib.RestServiceTask;
 
 import java.util.HashMap;
 
-public class MainActivity extends Activity implements AsyncTaskCompleteListener</string></restresponse><restresponse> {
+public class MainActivity extends Activity implements AsyncTaskCompleteListener<RestResponse> {
 
     private TextView ciudadD;
     private TextView codRegD;
@@ -164,7 +159,7 @@ public class MainActivity extends Activity implements AsyncTaskCompleteListener<
                 apiWordpress.setMethod(RestRequest.GET_METHOD);
                 apiWordpress.setURL("https://public-api.wordpress.com/rest/v1/test/5");
 
-                HashMap<string> args = new HashMap</string><string>() {
+                HashMap<String, Object> args = new HashMap<String, Object>() {
                     {
                         put("pretty", "true");
                         put("default_string", "Test App WS www.elbauldelprogramador.org");
@@ -214,29 +209,23 @@ public class MainActivity extends Activity implements AsyncTaskCompleteListener<
     }
 
 }
-
 ```
 
 Es necesario agregar la librería al proyecto, para ello, descárgala, crea una carpeta en tu proyecto llamada **libs**. En eclipse; **clic derecho en dicha carpeta » import » File System**, selecciona la carpeta en la que se encuentra la librería y en la parte derecha selecciónala; pulsa finalizar. Luego, en las **propiedades del proyecto » Java Build Path » Libraries » Add JARs**. Ya está agregada al proyecto y lista para usar.
 
 La aplicación de ejemplo debe quedar así:
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/webservicelibexample2.png" alt="WebserviceLibExample" width="480px" height="800px" />][1]
+<figure>
+    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/webservicelibexample2.png" alt="WebserviceLibExample" width="480px" height="800px" />
+</figure>
 
 Para finalizar, decir que la librería por ahora está muy limitada, pero es perfectamente funcional para realizar peticiones básicas. Intentaremos seguir desarrollandola cuando dispongamos de más tiempo.
 
-#### Referencias
+# Referencias
 
 <a class="aligncenter download-button" href="https://elbauldelprogramador.com/" rel="nofollow"> Download &ldquo;WebserviceLibExample&rdquo; <small>WebserviceLibExample.zip &ndash; Downloaded 811 times &ndash; </small> </a>
 
-*FreeGeoIp* »» <a href="http://freegeoip.net/static/index.html" target="_blank">Visitar sitio</a>
-*developer.wordpress.com* »» <a href="http://developer.wordpress.com/docs/api/1/get/test/%24ID/" target="_blank">Visitar sitio</a>
-*Descargar librería* »» <a href="https://github.com/Cocktails/Restlib/blob/master/restlib.jar" target="_blank">Visitar sitio</a>
-*GitHub del proyecto* »» <a href="https://github.com/Cocktails/Restlib" target="_blank">Visitar sitio</a>
-
-
-
- [1]: https://elbauldelprogramador.com/img/2013/01/webservicelibexample2.png
-
-
-</string></restresponse>
+- *FreeGeoIp* »» <a href="http://freegeoip.net/static/index.html" target="_blank">Visitar sitio</a>
+- *developer.wordpress.com* »» <a href="http://developer.wordpress.com/docs/api/1/get/test/%24ID/" target="_blank">Visitar sitio</a>
+- *Descargar librería* »» <a href="https://github.com/Cocktails/Restlib/blob/master/restlib.jar" target="_blank">Visitar sitio</a>
+- *GitHub del proyecto* »» <a href="https://github.com/Cocktails/Restlib" target="_blank">Visitar sitio</a>

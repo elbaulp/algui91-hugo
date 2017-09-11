@@ -2,10 +2,8 @@
 author: alex
 categories:
 - basededatos
-color: '#009688'
 date: '2016-01-01'
-lastmod: 2016-09-03
-
+lastmod: 2017-09-11T18:31:31+01:00
 mainclass: BaseDeDatos
 url: /tunning-basico-de-sql/
 tags:
@@ -15,7 +13,7 @@ title: "Tunning básico de SQL"
 
 Hemos llegado al fin del temario de base de datos, todo lo que he ido escribiendo a lo largo de estos meses lo encontrarás en la página de [Base de Datos][1]. El último tema de este curso va a tratar de __Tunning básico de SQL__.
 
-## Tunning básico de SQL
+# Tunning básico de SQL
 
 Una de las tareas más importantes de las propias de un desarrollador de bases de datos es la de puesta a punto o tuning. Hay que tener en cuenta que las sentencias SQL pueden llegar a ser muy complejas y conforme el esquema de base de datos va creciendo las sentencias son más complejas y confusas. Por es difícil escribir la sentencia correcta a la primera.
 
