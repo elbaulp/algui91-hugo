@@ -12,7 +12,7 @@ title: 'Bodhi: Ubuntu+Enlightenment, perfecto para minimalistas'
 Los amantes de las distribuciones minimalistas puede que quieran echarle un vistazo a [Bodhi][1], una distribución que **está basada en Ubuntu 10.04** y que además aporta otro elemento importante: la última compilación de **Enlightenment (E17)** -aún en fase de desarrollo-, lo que permite contar con un escritorio singular tanto en su diseño como en su funcionamiento.
 
 <figure>
-    <amp-img on"tap:lightbox1" role="button" tabindex="0" layout="responsive" titl e="Bodhi" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TOkI5nGhCBI/AAAAAAAAAFQ/1h4Zse1FwUM/s1600/Bodhi.jpg"></amp-img>
+    <amp-img on"tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Bodhi" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TOkI5nGhCBI/AAAAAAAAAFQ/1h4Zse1FwUM/s1600/Bodhi.jpg"></amp-img>
 </figure>
 
 De hecho [el responsable de esta distribución][2] insiste en que solo Austrumi y PCLinuxOS incluyen una versión reciente de E17, pero que el **quería incluir dicho entorno de escritorio en una distribución más popular**, y eso lo que ha hecho con Bodhi.
