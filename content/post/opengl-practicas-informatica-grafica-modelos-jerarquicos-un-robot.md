@@ -1,7 +1,5 @@
 ---
 author: alex
-amp:
-  elements: [amp-youtube]
 categories:
 - c
 date: '2016-01-01'

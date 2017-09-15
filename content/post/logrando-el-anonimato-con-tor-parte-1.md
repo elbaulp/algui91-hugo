@@ -17,7 +17,7 @@ tags:
 - navegacion anonima
 - Tor
 title: Logrando el anonimato con Tor (Parte 1)
-elements: amp-youtube
+elements: [amp-youtube]
 ---
 
 * Logrando el anonimato con Tor (Parte 1)
