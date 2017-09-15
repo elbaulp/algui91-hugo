@@ -83,7 +83,7 @@ git push repo2 -f --mirror
 
 # Mantener sincronizada una única rama
 
-Un problema similar podría ser mantener sincronizado en _repo2_ únicamente las ramas _master_. De forma que podamos crear tantas ramas como necesitemos en _repo1_ sin que se vean reflejadas en _repo2_. Para ello, en lugar de usar el _hook_ `post-commit`, usaremos `post-merge`. Éste _hook_ se ejecutará cada vez que se haga un `git merge <rama distinta="distinta" de="de" master="master">` sobre master.
+Un problema similar podría ser mantener sincronizado en _repo2_ únicamente las ramas _master_. De forma que podamos crear tantas ramas como necesitemos en _repo1_ sin que se vean reflejadas en _repo2_. Para ello, en lugar de usar el _hook_ `post-commit`, usaremos `post-merge`. Éste _hook_ se ejecutará cada vez que se haga un `git merge <rama distinta de master>` sobre master.
 
 Para activarlo:
 
@@ -93,7 +93,6 @@ Para activarlo:
 mv .git/hooks/pre-commit.sample .git/hooks/post-merge
 # Añadir el comando a ejecutar
 echo -e "#!/bin/bash\n\ngit push repo2 master:master" > .git/hooks/post-merge
-
 ```
 
 El contenido del _hook_ es:
