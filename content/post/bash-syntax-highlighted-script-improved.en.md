@@ -2,9 +2,10 @@
 author: alex
 categories:
 - linux
+tags:
 - script
 date: '2016-01-01'
-lastmod: 2016-08-15
+lastmod: 2017-09-17T18:17:36+01:00
 mainclass: linux
 title: Bash syntax highlighted script [Improved]
 ---

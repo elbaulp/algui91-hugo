@@ -2,25 +2,13 @@
 author: alex
 categories:
 - dev
-- python
 description: "Sure you too listen to music when programming, I like to take a rest every 30 minutes following the Pomodoro Technique. But personaly I like to listen to music while programming, so I wrote a Python script to generate playlist 30 minutes lenght."
 image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
 date: 2017-02-03
 mainclass: dev
 tags:
-- generate playlist of fixed size
-- music
 - python
-- script python
-- python m3u parser
 - parser
-- playlist m3u
-- python m3u
-- from sys import argv
-- python import mp4
-- python mp4 to mp3
-- python mp4 parser
-- custom music playlists
 title: "Create music playlists with a given length"
 ---
 

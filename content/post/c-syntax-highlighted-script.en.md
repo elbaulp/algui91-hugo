@@ -2,6 +2,7 @@
 author: alex
 categories:
 - linux
+tags:
 - script
 date: '2016-01-01'
 lastmod: 2017-04-06T19:35:15+01:00

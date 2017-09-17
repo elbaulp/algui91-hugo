@@ -9,9 +9,7 @@ image: how-to-solve-missing-url-for-attribute-src-in-tag-a-error-in-amp-mustache
 introduction: 'Solving amp-mustache error: Missing URL for Attribute'
 mainclass: dev
 tags:
-- amp-mustache
 - amp-pages
-- jekyll ecape tags
 title: How to Solve 'Missing URL for Attribute 'Src' in Tag 'a'' Error in Amp-mustache
 ---
 

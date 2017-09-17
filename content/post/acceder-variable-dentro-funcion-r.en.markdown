@@ -9,11 +9,6 @@ mainclass: dev
 lastmod: 2017-01-31
 tags:
 - R
-- Global variable in R
-- Access function variable in R
-- Machine Learning
-- SDG
-- Gradient Descent
 title: "How to modify a variable inside a function in R"
 ---
 

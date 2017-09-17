@@ -2,7 +2,6 @@
 author: alex
 categories:
 - linux
-- gentoo
 date: 2016-08-04 09:05:17
 lastmod: 2017-02-20
 description: 'Solve configure: error you don''t have NSS installed or your version is too old'
@@ -10,7 +9,6 @@ mainclass: linux
 tags:
 - gentoo
 - emerge
-- firefox
 title: Can't Update to Firefox 48 in Gentoo, NSS Version Too Old
 ---
 

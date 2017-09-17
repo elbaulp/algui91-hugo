@@ -2,9 +2,9 @@
 author: alex
 categories:
 - linux
+tags:
 - script
 date: '2016-01-01'
-lang: en
 lastmod: 2017-02-08
 mainclass: linux
 title: Bash syntax highlighted script
