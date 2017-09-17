@@ -3,16 +3,10 @@ author: alex
 amp:
   elements: [amp-youtube]
 categories: [android]
-color: '#689F38'
 date: 2016-01-11 07:16:24
-description: "En el artículo anterior se dieron unas nociones básicas de Android,
-  sus compoenentes principales etc. En este artículo examinaremos a fondo una aplicación
-  muy simple. Se componone de dos pantallas, en una de ellas se pide al usuario que
-  introduzca un texto, dicho texto se enviará a otra pantalla."
+description: "En el artículo anterior se dieron unas nociones básicas de Android,  sus compoenentes principales etc. En este artículo examinaremos a fondo una aplicación  muy simple. Se componone de dos pantallas, en una de ellas se pide al usuario que  introduzca un texto, dicho texto se enviará a otra pantalla."
 image: android/layouthelloworldandroid.png
-
 mainclass: android
-modified: null
 tags:
 - Curso de Android
 - "programación Android"
@@ -21,10 +15,6 @@ tags:
 - fragments Android
 title: Tutorial Android - Hola Mundo a Fondo
 ---
-
-<figure>
-  <a href="/img/2014/01/iconoAndroid.png"><amp-img layout="responsive" src="/img/2014/01/iconoAndroid.png" title="{{ page.title }}" alt="{{ page.title }}" /></a>
-</figure>
 
 En el [artículo anterior](/android/conceptos-basicos/) se dieron unas nociones básicas de Android, sus componentes principales etc. En este artículo examinaremos a fondo una aplicación muy simple. Se componone de dos pantallas, en una de ellas se pide al usuario que introduzca un texto, dicho texto se enviará a otra pantalla. He aquí el resultado:
 
@@ -82,7 +72,7 @@ Si usamos `weight`, hay que poner un `width` de 0dip para mejorar el rendimiento
 El resultado de este `layout` es:
 
 <figure>
-  <a href="/img/android/layouthelloworldandroid.png"><amp-img layout="responsive" src="/img/android/layouthelloworldandroid.png" title="{{ page.title }}" alt="{{ page.title }}" /></a>
+<a href="/img/android/layouthelloworldandroid.png"><amp-img layout="responsive" src="/img/android/layouthelloworldandroid.png" title="{{ page.title }}" alt="{{ page.title }}" /></a>
 </figure>
 
 ## Segunda pantalla
@@ -278,4 +268,3 @@ Esto es todo, solo resta ver el *AndroidManifest*, el fichero que recoge todas l
 En este fichero se definen las pantallas que la aplicación va a usar, así como los permisos que necesita (En este caso ninguno).
 
 El código de este artículo podéis encontrarlo en el repositorio de [Github Curso de Android](https://github.com/elbaulp/CursoAndroid/tree/master/Ejemplos/MainApp/helloworld "Curso de  Android repositorio")
-{: .notice-info }

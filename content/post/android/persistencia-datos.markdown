@@ -3,15 +3,11 @@ author: alex
 amp:
   elements: [amp-youtube]
 categories: [android]
-color: '#689F38'
 date: 2016-06-14 07:45:21
-description: "En este artículo se verá cómo almacenar datos del usuario en
-  una base de datos SQLite o SharedPreferences"
+description: "En este artículo se verá cómo almacenar datos del usuario en  una base de datos SQLite o SharedPreferences"
 image: hotlink-ok/ProgramacionAndroid-Persistencia-de-Datoscard.png
 introduction: "Ejemplo de cómo guardar datos de usuario en Android"
-
 mainclass: android
-modified: null
 tags:
 - Bases de Datos Android
 - Persistencia de datos Android
