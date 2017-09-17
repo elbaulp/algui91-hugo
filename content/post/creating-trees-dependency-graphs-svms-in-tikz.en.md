@@ -3,8 +3,8 @@ author = "alex"
 date = "2017-02-16T16:50:27+01:00"
 title = "Creating trees, Dependency graphs and Support Vector Machines in LaTeX with Tikz"
 description = "My computer Science final project was about NLP (Natural Language Processing), writing the memoir I had to draw some trees and a visual representation of SVMs using Latex Tikz library."
-tags = ["tikz", "latex"]
-categories = ["latex"]
+tags = ["tikz"]
+categories = ["latex", "dev"]
 image = "support-vector-machine-tikz-latex.png"
 mainclass = "latex"
 +++
@@ -51,8 +51,8 @@ Here is the code:
 And the result:
 
 <figure>
-<a href="/img/dependency-tree.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree.png" alt="Dependenty tree in tikz" title="Dependenty tree in tikz" width="799" height="194"></amp-img></a>
-<figcaption>Dependenty tree in tikz</figcaption>
+    <a href="/img/dependency-tree.png"><amp-img sizes="(min-width: 799px) 799px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree.png" alt="Dependenty tree in tikz" title="Dependenty tree in tikz" width="799" height="194"></amp-img></a>
+    <figcaption>Dependenty tree in tikz</figcaption>
 </figure>
 
 
@@ -109,8 +109,8 @@ And the result:
 Result:
 
 <figure>
-<a href="/img/dependency-tree-2.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree-2.png" alt="Other Dependency Tree in tikz" title="Other Dependency Tree in tikz" width="926" height="485"></amp-img></a>
-<figcaption>Other Dependency Tree in tikz</figcaption>
+    <a href="/img/dependency-tree-2.png"><amp-img sizes="(min-width: 926px) 926px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree-2.png" alt="Other Dependency Tree in tikz" title="Other Dependency Tree in tikz" width="926" height="485"></amp-img></a>
+    <figcaption>Other Dependency Tree in tikz</figcaption>
 </figure>
 
 
@@ -142,8 +142,8 @@ Finally, one last example:
 ```
 
 <figure>
-<a href="/img/dependency-tree-3.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree-3.png" alt="Yet another example of a Dependency tree in tikz" title="Yet another example of a Dependency tree in tikz" width="795" height="513"></amp-img></a>
-<figcaption>Yet another example of a Dependency tree in tikz</figcaption>
+    <a href="/img/dependency-tree-3.png"><amp-img sizes="(min-width: 795px) 795px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree-3.png" alt="Yet another example of a Dependency tree in tikz" title="Yet another example of a Dependency tree in tikz" width="795" height="513"></amp-img></a>
+    <figcaption>Yet another example of a Dependency tree in tikz</figcaption>
 </figure>
 
 # Drawing a Support Vector Machine In tikz
@@ -203,8 +203,8 @@ I've also had to draw a visual explanation of what a SVM is:
 ```
 
 <figure>
-<a href="/img/support-vector-machine-tikz-latex.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/support-vector-machine-tikz-latex.png" alt="Support Vector Machine in Latex with Tikz" title="Support Vector Machine in Latex with Tikz" width="811" height="652"></amp-img></a>
-<figcaption>Support Vector Machine in Latex with Tikz</figcaption>
+    <a href="/img/support-vector-machine-tikz-latex.png"><amp-img sizes="(min-width: 811px) 811px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/support-vector-machine-tikz-latex.png" alt="Support Vector Machine in Latex with Tikz" title="Support Vector Machine in Latex with Tikz" width="811" height="652"></amp-img></a>
+    <figcaption>Support Vector Machine in Latex with Tikz</figcaption>
 </figure>
 
 # References

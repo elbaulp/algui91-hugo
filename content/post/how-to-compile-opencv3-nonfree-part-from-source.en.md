@@ -1,6 +1,6 @@
 +++
 title = "How to Compile  OpenCV 3.0+ nonfree part from source"
-tags = ["howto", "opencv", "intellij", "java"]
+tags = ["howto", "opencv", "java"]
 categories = ["dev"]
 image = "how-to-compile-opencv3-nonfree-part-from-source.jpg"
 mainclass = "dev"
@@ -53,7 +53,7 @@ cris@cris ~$ export JAVA_HOME=/home/jdk1.8.0_111/
 Notice that when generating the makefile, the output in the Java field looks like this:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" title="Building makefiles for JAVA openCV" alt="Building makefiles for JAVA openCV output" width="983" height="164"></amp-img>
+    <amp-img sizes="(min-width: 983px) 983px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" title="Building makefiles for JAVA openCV" alt="Building makefiles for JAVA openCV output" width="983" height="164"></amp-img>
     <figcaption>building makefiles</figcaption>
 </figure>
 

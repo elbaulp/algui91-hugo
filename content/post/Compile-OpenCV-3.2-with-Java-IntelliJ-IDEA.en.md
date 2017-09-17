@@ -1,5 +1,5 @@
 +++
-tags = ["opencv", "intelliJ", "java"]
+tags = ["opencv", "java"]
 categories = ["dev"]
 date = "2017-01-25"
 lastmod = "2017-03-29T16:20:12+01:00"

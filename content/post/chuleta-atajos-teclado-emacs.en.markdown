@@ -1,12 +1,12 @@
 ---
 author: alex
 categories:
-- misc
+- articulos
 date: 2017-03-09T18:01:44+01:00
 description: "Emacs: A useful recopilation of commands and actions"
 image: chuleta-atajos-teclado-emacs.png
 introduction: "Emacs: A useful recopilation of commands and actions"
-mainclass: misc
+mainclass: articulos
 tags:
 - emacs
 - cheatsheet

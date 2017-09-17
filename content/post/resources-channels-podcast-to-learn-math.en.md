@@ -6,7 +6,7 @@ lastmod = "2017-09-04T13:40:42+01:00"
 date = "2017-09-04T13:40:44+01:00"
 title = "14 Resources / Channels / Podcasts about Mathematics"
 description = "A curated list of blogs, podcasts and Youtube Channels about Mathematics"
-tags = ["mathematics", "podcasts", "blogs", "Youtube Channels", "lists"]
+tags = ["mathematics", "podcasts", "youtube channels", "lists"]
 categories = ["articulos"]
 url = "/en/resources-channels-podcast-to-learn-math/"
 +++

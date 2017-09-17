@@ -1,7 +1,7 @@
 ---
 author: alex
 categories:
-- sin categoria
+- articulos
 date: '2016-01-01'
 lastmod: 2017-05-11T10:23:07+01:00
 mainclass: linux

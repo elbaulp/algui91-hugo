@@ -5,7 +5,7 @@ author = "alex"
 description = "Best practices to create and manage passwords & hardening your online presence"
 date = "2017-07-27T12:21:35+01:00"
 title = "Creating and managing passwords intelligently"
-tags = ["security", "passwords"]
+tags = ["passwords"]
 categories = ["security"]
 +++
 

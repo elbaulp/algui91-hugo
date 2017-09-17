@@ -1,15 +1,13 @@
 ---
 author: alex
 categories:
-- script
+- linux
 date: 2017-02-15
 description: "In GNU/Linux, Locate command is useful to find files in the file system by querying a database. Here is how to use with regular expressions."
 image: 2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.png
 mainclass: linux
 tags:
-- custom music playlists
-- locate examples
-- regex in linux
+- script
 - locate
 - regex
 - howto

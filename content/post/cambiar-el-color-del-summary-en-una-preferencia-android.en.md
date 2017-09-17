@@ -1,16 +1,13 @@
 ---
 author: alex
 categories:
-- android
+- dev
 date: 2017-02-17
 description: "This example shows how to customize the summary text in an Android preference Activity"
 image: 2014/02/Cambiar-el-color-del-summary-en-una-Preferencia-Android.png
-mainclass: android
+mainclass: dev
 tags:
-- color summary android preferences
-- CUSL
-- android preferences
-- summary android
+- android
 - howto
 title: "How to change summary color in Android's preferences"
 ---

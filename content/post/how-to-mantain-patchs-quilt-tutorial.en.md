@@ -3,9 +3,8 @@ author = "alex"
 date = "2017-01-30"
 title = "How to manage multiple patches - A Quilt tutorial"
 description = "Quilt Tool allow us to easily manage multiple patchs in a program"
-tags = ["quilt", "software", "patchs"]
+tags = ["quilt", "patchs"]
 categories = ["dev"]
-image = ""
 mainclass = "dev"
 +++
 

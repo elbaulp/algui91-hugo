@@ -6,8 +6,8 @@ languageCode = "es-ES"
 paginate = 12
 
 #PygmentsCodeFencesGuessSyntax = true
-PygmentsCodeFences = true
-pygmentsUseClasses = true
+PygmentsCodeFences = false
+pygmentsUseClasses = false
 
 defaultContentLanguage="es"
 

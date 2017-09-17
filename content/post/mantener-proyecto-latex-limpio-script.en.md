@@ -3,8 +3,8 @@ title = "Keep your LaTeX project clean with this simple script"
 date = "2017-08-09T17:45:16+02:00"
 author = "colaboraciones"
 mainclass = "latex"
-categories = ["LaTeX"]
-tags = ["tutorials"]
+categories = ["latex", "dev"]
+tags = ["howto", "script"]
 description = "Automatically clean LaTeX temp files and show the updated PDF"
 url = "/en/keep-latex-project-clean"
 +++

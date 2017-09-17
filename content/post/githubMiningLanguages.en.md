@@ -1,10 +1,10 @@
 +++
 author = "cristina"
-categories = ["datamining"]
+categories = ["datascience"]
 date = "2017-04-24T21:13:39+02:00"
 description = "In this post you will be given the first directions for creating an application to use the github API and will analyse the programming languages popularities in your community from github data"
 image = "FriendsLanguagesUsage.png"
-mainclass = "datamining"
+mainclass = "datascience"
 tags = ["github","mining","community","API"]
 title = "Mining your github community with R - Analysing languages popularity"
 +++

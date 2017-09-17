@@ -3,8 +3,7 @@ title = "My experience in Game Jam 2017 "
 mainclass = "dev"
 author = "alex"
 description = "Some weeks ago I participated in my first GameJam. I've never program a Game so this was a challenge for me. We have 48 hours to think and develop a Game from scratch. Our team decided to use Godot engine. The team was formed by four people: @Cristina, @ElenoideArt, @JJ Ramos and me."
-tags = ["gamejam", "godot"]
-categories = ["development"]
+categories = ["dev"]
 image = "gamejam17-unlimitosis.jpg"
 date = "2017-04-11T09:53:42+02:00"
 [amp]
