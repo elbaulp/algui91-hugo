@@ -7,6 +7,9 @@
     {{ if eq .Type "post" }}
        {{ partial "structure/author" . }}
     {{ end }}
+    {{ if eq .Type "post" }}
+       <p>{{ T "typo" | safeHTML }}</p>
+    {{ end }}
     {{ if not .Params.notoc }}
         {{ with .TableOfContents }}
            <div id="toc">
@@ -22,7 +25,6 @@
     {{ partial "structure/nextprev" . }}
   </article>
   {{ if eq .Type "post" }}
-
      {{ partial "structure/comments" . }}
   {{ end }}
 </section>

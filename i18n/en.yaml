@@ -84,3 +84,5 @@
   translation: "The Programmer Chest"
 - id: no_ga
   translation: "Why I removed <strong>Google Analytics</strong>"
+- id: typo
+  translation: "<blockquote><strong>Have you seen a Typo?</strong>: Please, help me fix it by <a href=\"/en/contacto/\">contacting me.</a></blockquote>"
