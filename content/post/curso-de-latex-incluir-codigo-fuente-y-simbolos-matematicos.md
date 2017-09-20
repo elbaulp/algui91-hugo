@@ -8,6 +8,7 @@ description: "Continuando por donde lo dejamos en el último artículo, hoy vere
 image: 2013/05/latex_logo.png
 mainclass: latex
 url: /curso-de-latex-incluir-codigo-fuente-y-simbolos-matematicos/
+math: true
 tags:
 - codigo latex
 - curso latex
@@ -138,7 +139,7 @@ en cuenta que todos las operaciones dentro del for tienen eficiencia $O(1)$:
 
 ```
 
-Para representar la sumatoria dentro del entorno matemático utilizamos la opción `\sum`, después, utilizamos `_` y `^` para establecer los límites de la sumatoria. `\qquad\` lo usamos para dejar un pequeño espacio (podemos usar `\quad` o `\qquad\`). Así, el texto de arriba quedaría <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="//s0.wp.com/latex.php?latex=%5Csum_%7Bi%3D0%7D%5E%7Bs.size%28%29%7D+%3D+s.size%28%29&bg=ffffff&fg=000&s=0" alt="\sum_{i=0}^{s.size()} = s.size()" title="\sum_{i=0}^{s.size()} = s.size()" class="latex" />
+Para representar la sumatoria dentro del entorno matemático utilizamos la opción `\sum`, después, utilizamos `_` y `^` para establecer los límites de la sumatoria. `\qquad\` lo usamos para dejar un pequeño espacio (podemos usar `\quad` o `\qquad\`). Así, el texto de arriba quedaría \\(\sum_{i=0}^{s.size()} = s.size()\\)
 
 Otro detalle a destacar, es que en el párrafo de introducción, cuando menciono variables matemáticas, las menciono entre signos de dólar. Esto es para que salgan en cursiva y se puedan diferenciar del resto del texto.
 
