@@ -38,6 +38,7 @@ gulp.task('minify-html', () => {
             minifyJS: true,
             removeComments: true,
             useShortDoctype: true,
+            ignorePath: 'static/js/mj/',
             processScripts: ['application/ld+json','application/json']
         }))
         .pipe(gulp.dest('./public'))
