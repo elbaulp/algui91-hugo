@@ -9,7 +9,7 @@ paginate = 12
 PygmentsCodeFences = true
 pygmentsUseClasses = true
 
-defaultContentLanguage="es"
+defaultContentLanguage = "es"
 
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 defaultContentLanguageInSubdir = false
