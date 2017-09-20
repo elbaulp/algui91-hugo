@@ -4,7 +4,7 @@ categories:
 - articulos
 - git
 date: 2015-12-13 18:10:12
-lastmod: 2017-07-08T12:36:13+01:00
+lastmod: 2017-09-20T20:06:25+01:00
 description: Un mini tutorial y lista extensa de comandos git
 image: 2013/03/git-logo.png
 mainclass: git
@@ -79,7 +79,7 @@ Una de mis tareas pendientes era aprender GIT decentemente. Así que empecé a l
 - `git log --pretty=format:"%h - %an, %ar : %s"`
 - `git log --pretty=format;"%h %s" --graph`
 - `git log --since=2.weeks`
-- `git log <branch> --not master`  # Muestra commit de <branch> sin incluir los de master
+- `git log <branch> --not master`  # Muestra commit de `<branch>` sin incluir los de master
 - `git log --abbrev-commit --pretty=oneline`
 - `git diff master...contrib`  # Muestra solo el trabajo que la rama contrib actual ha introducido desde su antecesor común con master
 - `git log <branch1>..<branch2>`   # Commits de branch2 que no están en branch1
@@ -95,7 +95,7 @@ Una de mis tareas pendientes era aprender GIT decentemente. Así que empecé a l
 - `git fetch <remote>`   #  descarga trabajo nuevo a máquina local, no sobreescribe nada tuyo. ( git pull sí hace merge automaticamente si se esta realizando un seguimiento de esa branch)
 - `git push [remote-name] [branch-name]`  #  sii nadie ha hecho push antes
 - `git remote show [remote-name]`  #  inspecciona remote.
-- `git remote rename <old-name> <new-name>`   #  también renombra branches: quedaría <new-name>/master
+- `git remote rename <old-name> <new-name>`   #  también renombra branches: quedaría `<new-name>/master`
 - `git remote rm <remote-name>`   #  p.e si el contribuidor ya no contribuye más
 
 ## Añadir varios repositorios remotos
@@ -136,7 +136,7 @@ Las ramas simplememte son punteros a distintos snapshots
 - `git branch <nombre-rama>`   # crea rama. Puntero al commit actual
 - `git checkout <nombre-rama>`   # cambiar a la rama especificada.
 - `git checkout -b <nombre-rama>`   # crea y cambia de rama
-- `git merge <rama>`   #  Mezcla la rama actual con <rama>
+- `git merge <rama>`   #  Mezcla la rama actual con `<rama>`
 - `git branch -d <rama>`   # elimina la rama
 - `git push origin --delete <branchName>`   #  Elimina una rama del servidor
 - `git mergetool`  # Herramienta gráfica para resolver conflictos
@@ -167,7 +167,7 @@ Las ramas simplememte son punteros a distintos snapshots
 Rebase y merge se diferencian en que merge mezcla dos puntos finales de dos snapshots y rebase aplica cada uno de los cambios a la rama en la que se hace el rebase. No lo uses en repos publicos con mas colaboradores, porque todos los demas tendrán que hacer re-merges
 
 - `git checkout <una rama>`
-- `git rebase master`  #  aplica todos los cambios de <una rama> a master
+- `git rebase master`  #  aplica todos los cambios de `<una rama>` a master
 - `git merge master`  # hay que hacer un merge de tipo fast forward
 - Tenemos 3 ramas, master, client y server, en server y client tenemos varios commit y queremos mezclar client en master pero dejar server intacta:
   - `git rebase --onto master server client`  #  adivina los patches del antecesor común de las ramas server y client y aplica los cambios a master.
@@ -197,7 +197,7 @@ Rebase y merge se diferencian en que merge mezcla dos puntos finales de dos snap
 
 ## GENERAR UN CHANGELOG
 
-- `git shortlog --no-merges master --not <tag>`   # Recopila todos los commits desde <tag> y los agrupa por autor
+- `git shortlog --no-merges master --not <tag>`   # Recopila todos los commits desde `<tag>` y los agrupa por autor
 
 ## RECOMENDACIONES
 
