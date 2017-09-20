@@ -47,7 +47,7 @@ Antes de empezar con los detalles, a continuación se muestra un resumen del sis
 
 - Código de recuperación de 24 dígitos, como una carta para “Salir de la cárcel”.
 - Es posible que nunca se necesite éste código.
-- La [contraseña](/como-se-almacenan-tus-contrasenas-en-internet-y-cuando-la-longitud-de-la-misma-no-importa/ "Cómo se almacenan tus contraseñas en internet) del usuario")
+- La [contraseña](/como-se-almacenan-tus-contrasenas-en-internet-y-cuando-la-longitud-de-la-misma-no-importa/ "Cómo se almacenan tus contraseñas en internet del usuario")
 
 ## ¿Qué ocurre si queremos otra identidad para el mismo sitio?
 
