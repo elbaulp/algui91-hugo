@@ -39,7 +39,7 @@ Antes de empezar con los detalles, a continuación se muestra un resumen del sis
 - Una __HMAC__ cuya clave es un número grande generado aleatóriamente.
   - Un código de autentificación basado en Hashes.
   - Similar a cuando se usa una clave en otros sistemas para [cifrar/descifrar](/como-cifrar-archivos-con-openssl/ "Cómo cifrar archivos con openssl").
-  - Una forma de crear un “_keyed hash_” (Un hash, de alguna manera, que venga dado por una clave).
+  - Una forma de crear un *keyed hash* (Un hash, de alguna manera, que venga dado por una clave).
 - Cada usuario obtiene su propia función hash.
 - A cada [dominio](/como-configurar-un-servidor-dns/ "Configurar un servidor DNS") de un sitio web se le aplica un hash para producir una clave privada personal.
 
@@ -79,13 +79,13 @@ Resulta que también se pueden tener funciones _hash_ con claves (_keyed hash_),
 
 La diferencia pues, es que una función _hash_ es simplemente una función, _SHA-256_ es el mismo _SHA-256_ para todo el mundo, ésta funcionalidad es útil para algunos casos, por ejemplo para comprobar que un fichero descargado no ha sido modificado por nadie. El que sube el fichero, publica el resultado de aplicarle la función _hash_, y cuando tú lo descargas, vuelves a pasárselo, si el resultado es el mismo, el fichero no ha sido alterado.
 
-Si embargo, un _Keyed hash_ es distinto, la salida de la función viene determinada por la clave secreta. Por tanto, se tendrán tantas funciones _hash_ como posibles claves se puedan generar a partir de la longitud de la clave. Si la longitud de la clave es 256 bits, se pueden generar $$2^{256}$$ distintas claves, y por tanto $$2^{256}$$ distitas funciones _hash_. __SQRL__ usa un _keyed hash_.
+Si embargo, un _Keyed hash_ es distinto, la salida de la función viene determinada por la clave secreta. Por tanto, se tendrán tantas funciones _hash_ como posibles claves se puedan generar a partir de la longitud de la clave. Si la longitud de la clave es 256 bits, se pueden generar \\(2^{256}\\) distintas claves, y por tanto \\(2^{256}\\) distitas funciones _hash_. __SQRL__ usa un _keyed hash_.
 
 # Cómo usa __SQRL__ la HMAC
 
 Veamos un ejemplo. Cuando vas a un sitio web, el dominio del sitio, por ejemplo amazon.com, o Twit.tv, el que sea. A ese dominio se le aplica un _hash_ usando _HMAC_, lo que devuelve un resumen de una longitud fija, pero usando como clave tu identidad de SQRL. Ésta identidad, se creará al momento de instalar SQRL, y cada usuario tendrá su propia función _hash_, completamente distinta de los demás. El resultado de la función _hash_ para el sitio visitado, por ejemplo amazon, será la clave privada para esa web.
 
-SQRL genera una clave privada única para cada sitio web distinto que visitas, si dos usuarios de __SQRL__ visitan el mismo sitio web, la función _hash_ personal de cada uno dará un resultado distinto, ya que se está usando _HMAC_. Por tanto, usando una identidad maestra junto con la función _HMAC_, __SQRL__ crea una galaxia de claves privadas de tal modo que cada usuario tenga una clave distinta cuando visitan sitios distintos. Como dijimos antes, con $$2^{256}$$ hay claves de sobra. Tantas que no hay que preocuprarse por posibles colisiones.
+SQRL genera una clave privada única para cada sitio web distinto que visitas, si dos usuarios de __SQRL__ visitan el mismo sitio web, la función _hash_ personal de cada uno dará un resultado distinto, ya que se está usando _HMAC_. Por tanto, usando una identidad maestra junto con la función _HMAC_, __SQRL__ crea una galaxia de claves privadas de tal modo que cada usuario tenga una clave distinta cuando visitan sitios distintos. Como dijimos antes, con \\(2^{256}\\) hay claves de sobra. Tantas que no hay que preocuprarse por posibles colisiones.
 
 Resumiendo lo visto hasta ahora, _SQRL_ consiste en un usuario con una identidad maestra, para el cual el sistema crea automáticamente una clave privada para cada sitio que visita. Eso sí, cuando se visita la misma web, se obtiene la misma clave privada.
 
