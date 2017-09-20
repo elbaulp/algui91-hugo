@@ -3,7 +3,7 @@ author: marta
 categories:
 - latex
 date: '2016-01-01'
-lastmod: 2017-04-06T19:48:54+01:00
+lastmod: 2017-09-20T18:12:41+01:00
 description: "Continuando por donde lo dejamos en el último artículo, hoy veremos  cómo incluir código fuente en el documento."
 image: 2013/05/latex_logo.png
 mainclass: latex
@@ -23,15 +23,16 @@ tags:
 title: "Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos"
 ---
 
-<figure>
-    <a href="/img/2013/05/latex_logo.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos" alt="Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos" width="300px" height="114px" /></a>
-</figure>
 
 * [Mini Curso de LaTeX - Introducción][1]
 * Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos
 * [Mini Curso de LaTeX - Figuras, Enlaces y cabeceras][2]
 
 # Mini curso de Latex
+
+<figure>
+    <a href="/img/2013/05/latex_logo.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos" alt="Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos" width="300px" height="114px" /></a>
+</figure>
 
 Continuando por donde lo dejamos en el último artículo, hoy veremos cómo incluir código fuente en el documento.
 
@@ -136,7 +137,6 @@ en cuenta que todos las operaciones dentro del for tienen eficiencia $O(1)$:
 \sum_{i=0}^{s.size()} = s.size(), \qquad\ \textrm{siendo $s.size()$
     el tamaño del string que contiene la operación aritmética}
 \end{displaymath}
-
 ```
 
 Para representar la sumatoria dentro del entorno matemático utilizamos la opción `\sum`, después, utilizamos `_` y `^` para establecer los límites de la sumatoria. `\qquad\` lo usamos para dejar un pequeño espacio (podemos usar `\quad` o `\qquad\`). Así, el texto de arriba quedaría \\(\sum_{i=0}^{s.size()} = s.size()\\)

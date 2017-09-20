@@ -4,7 +4,7 @@ categories:
 - administracion de servidores
 - linux
 date: '2016-01-01'
-lastmod: 2017-05-22T17:30:14+01:00
+lastmod: 2017-09-20T18:26:47+01:00
 description: "A lo largo de esta guía se pretende mostrar cómo instalar desde  cero un servidor web con Nginx, realizando las operaciones necesarias para lograr  el mayor rendimiento y seguridad posibles con programas tales como php-fpm, APC,  y el módulo pagespeed de Google para optimizar los recursos web."
 image: "Instalación-y-optimización-de-un-servidor-web-con-Nginx1.png"
 mainclass: servidores
@@ -48,9 +48,9 @@ Hay varias aproximaciones para determinar el valor adecuado de estos parámetros
 
 El primero (<a href="http://nls.io/optimize-nginx-and-php-fpm-max_children/" title="Optimize nginx and PHP-FPM (max_children)" target="_blank">Guillaume Moigneu</a>) consiste en calcular *pm.max_children* basándonos en la fórmula:
 
-$$pm.max\\_children = (RAM\_{total} - RAM\_{resto Proc})/ RAM\_{mediaPHP}$$
+\\[pm.max\\_children = (RAM\_{total} - RAM\_{resto Proc})/ RAM\_{mediaPHP}\\]
 
-Donde $$RAM\_{restoProc}$$ es la memoria usada por los otros procesos y $$RAM\_{mediaPHP}$$ es la media de memoria usada por los procesos de PHP. La memoria consumida por el resto de procesos se puede calcular mediante este comando:
+Donde \\(RAM\_{restoProc}\\) es la memoria usada por los otros procesos y \\(RAM\_{mediaPHP}\\) es la media de memoria usada por los procesos de PHP. La memoria consumida por el resto de procesos se puede calcular mediante este comando:
 
 ```bash
 ps -ylA --sort:rss | grep -v php5-fpm | awk '!/RSS/ { s+=$8 } END { printf "%s\n", "Memoria total usada por otros procesos"; printf "%dM\n", s/1024 }'
@@ -64,21 +64,21 @@ ps -ylC php5-fpm --sort:rss  | awk '!/RSS/ { s+=$8 } END { printf "%s\n", "Memor
 
 Al número anterior lo dividimos por los procesos de PHP y obtenemos la media. Una vez calculado el valor de *max_children*, *min\_spare\_servers* y *max\_spare\_servers* se suelen calcular evaluando el rendimiento y *start_servers*, suele ser:
 
-$$ start\\_servers = \frac{min\\_spare\\_servers + (max\\_spare\\_servers - min\\_spare\\_servers)}{2} $$
+\\[start\\_servers = \frac{min\\_spare\\_servers + (max\\_spare\\_servers - min\\_spare\\_servers)}{2}\\]
 
 #### Segundo método
 
 El segundo método (<a href="http://myshell.co.uk/index.php/adjusting-child-processes-for-php-fpm-nginx/" title="Adjusting child processes for PHP-FPM (Nginx)" target="_blank">myshell.co.uk</a>) es calcularlo en base a:
 
-$$ pm.max\\_children = RAM\_{total} / RAM\_{maxPHP} $$
+\\[pm.max\\_children = RAM\_{total} / RAM\_{maxPHP}\\]
 
-Donde $$RAM\_{maxPHP}$$ es el process PHP que ocupe más memoria. El resto de parámetros se calculan en base a éste.
+Donde \\(RAM\_{maxPHP}\\) es el process PHP que ocupe más memoria. El resto de parámetros se calculan en base a éste.
 
 #### Tercer método
 
 Por último, otro método (<a href="https://github.com/perusio/php-fpm-example-config" title="Example configuration of php-fpm" target="_blank">Perusio</a>) es realizando la operación siguiente:
 
-$$pm.max\\_children = 1.2 \cdot RAM\_{total}/RAM\_{mediaPHP}$$
+\\[pm.max\\_children = 1.2 \cdot RAM\_{total}/RAM\_{mediaPHP}\\]
 
 ### Optimizando Nginx
 

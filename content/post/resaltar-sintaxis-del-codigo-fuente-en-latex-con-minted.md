@@ -3,10 +3,9 @@ author: alex
 categories:
 - latex
 date: '2016-01-01'
-lastmod: 2017-09-06T20:23:46+01:00
+lastmod: 2017-09-20T18:09:04+01:00
 image: 2013/05/latex_logo.png
 mainclass: latex
-math: true
 url: /resaltar-sintaxis-del-codigo-fuente-en-latex-con-minted/
 tags:
 - ejemplos minted
@@ -18,7 +17,7 @@ tags:
 title: "Resaltar sintaxis del código fuente en LaTeX con minted"
 ---
 
-Hace unas semanas que aprendí a usar $$\LaTeX$$, y cada vez me gusta más, proporciona una calidad a los documentos impecable. De hecho, estoy entregando las prácticas de la facultad en que he reescrito el [Curso de programación Android][1] por completo.
+Hace unas semanas que aprendí a usar [LaTeX](https://elbauldelprogramador.com/categories/latex "Post sobre latex") , y cada vez me gusta más, proporciona una calidad a los documentos impecable. De hecho, estoy entregando las prácticas de la facultad en que he reescrito el [Curso de programación Android][1] por completo.
 
 Sin embargo, una de las cosas que más me ha costado conseguir es encontrar alguna forma que me gustase de resaltar la sintaxis en latex del código fuente. Tras mucho buscar por internet encontré un paquete que concluyó con mi búsqueda, se llama **minted**.
 
@@ -182,7 +181,7 @@ Obtenemos el mismo resultado, el primer argumento es la ruta al fichero y el seg
 
 # Conclusiones
 
-Para mi, minted es el mejor paquete que hay para resaltar código en $$\LaTeX$$. Y recomiendo a todo el mundo que aprenda a programar en él.
+Para mi, minted es el mejor paquete que hay para resaltar código en **LaTeX**. Y recomiendo a todo el mundo que aprenda a programar en él.
 
 # Referencias
 

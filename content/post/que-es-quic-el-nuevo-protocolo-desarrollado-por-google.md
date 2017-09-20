@@ -3,7 +3,7 @@ author: alex
 categories:
 - security now
 date: '2016-01-01'
-lastmod: 2017-03-15T16:13:04+01:00
+lastmod: 2017-09-20T18:17:21+01:00
 image: 2013/07/Que-es-QUIC-el-nuevo-protocolo-desarrollado-por-Google.png
 introduction: "Introducción al nuevo protocolo de Google"
 mainclass: security-now
@@ -27,7 +27,7 @@ Escuchando el podcast <a href="http://twit.tv/show/security-now/411" target="_bl
 
 # ¿Qué es QUIC?
 
-QUIC es el nombre de un protocolo experimental en el que Google está trabajando, sus siglas vienen de ***Q**uick **U**DP **I**nternet **C**onnection*. El protocolo soporta un conujunto de conexiones multiplexadas a través de UDP y ha sido diseñado para proporcionar una [seguridad][16] equivalente a <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security" target="_blank">TLS/SSL</a> y para reducir la latencia tanto en la conexión como en el transporte de datos. En la última versión de Chrome se ha implementado una versión experimental del protocolo.
+QUIC es el nombre de un protocolo experimental en el que Google está trabajando, sus siglas vienen de **Q**uick **U**DP **I**nternet **C**onnection. El protocolo soporta un conujunto de conexiones multiplexadas a través de UDP y ha sido diseñado para proporcionar una [seguridad][16] equivalente a <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security" target="_blank">TLS/SSL</a> y para reducir la latencia tanto en la conexión como en el transporte de datos. En la última versión de Chrome se ha implementado una versión experimental del protocolo.
 
 
 
@@ -75,7 +75,7 @@ Como hemos aprendido con SPDY y otros protocolos, si no ciframos el tráfico, en
 
 # UDP no tiene controles de congestión, ¿No causará QUIC un colapso en internet si es ampliamente adoptado?
 
-*QUIC* emplea controles de congestión, así como emplea retransmisiones automáticas para apoyar el transporte fiable. *QUIC* tratará de ser justo compitiendo con el tráfico TCP. Por ejemplo, al transportar $$\mathcal{Q}$$ flujos multiplexados, y compartir un ancho de banda con $$\mathcal{T}$$ flujos TCP simultáneos, vamos a tratar de utilizar recursos en el rango de $$\frac{\mathcal{Q}}{\mathcal{Q} + \mathcal{T}}$$ de ancho de banda. (Es decir, *una parte justa* para los flujos $$\mathcal{Q}$$ adicionales).
+*QUIC* emplea controles de congestión, así como emplea retransmisiones automáticas para apoyar el transporte fiable. *QUIC* tratará de ser justo compitiendo con el tráfico TCP. Por ejemplo, al transportar \\(\mathcal{Q}\\) flujos multiplexados, y compartir un ancho de banda con \\(\mathcal{T}\\) flujos TCP simultáneos, vamos a tratar de utilizar recursos en el rango de \\(\frac{\mathcal{Q}}{\mathcal{Q} + \mathcal{T}}\\) de ancho de banda. (Es decir, *una parte justa* para los flujos \\(\mathcal{Q}\\) adicionales).
 
 
 
