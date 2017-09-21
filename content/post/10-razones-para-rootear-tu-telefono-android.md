@@ -3,17 +3,14 @@ author: alex
 categories:
 - articulos
 date: '2016-01-01'
+lastmod: 2017-09-21T12:18:02+01:00
 description: "Android es uno de los sistemas operativos más abiertos, versátil  y personalizable del mercado. Quizá pienses que no es necesario rootearlo, pero  te sorprenderías de la cantidad de cosas que se pueden hacer con un teléfono  Android rooteado. A continuación se listan 10 razones por las que merece la pena  (Traducidas de LifeHacker)."
 image: 2013/08/ku-bigpic.jpg
-lastmod: 2017-02-28T12:36:39+01:00
 mainclass: articulos
 url: /10-razones-para-rootear-tu-telefono-android/
 tags:
-- como rootear android
-- problemas rootear android
-- razones para rootear android
-- rootear android
 - listas
+- android
 title: "10 razones para rootear tu teléfono Android"
 ---
 

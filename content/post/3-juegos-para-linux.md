@@ -1,15 +1,13 @@
 ---
 author: alex
 categories:
-- juegos
+- articulos
 date: '2016-01-01'
-lastmod: 2017-02-28T12:37:40+01:00
+lastmod: 2017-09-21T12:29:47+01:00
 mainclass: articulos
 url: /3-juegos-para-linux/
 tags:
-- osmos para linux
 - juegos
-- linux
 - listas
 title: 3 Juegos para Linux
 ---

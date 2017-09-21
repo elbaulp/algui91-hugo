@@ -1,18 +1,17 @@
 ---
 author: alex
 categories:
-- misc
+- articulos
+mainclass: articulos
 date: 2016-05-07 09:55:51
-description: "Hoy el blog cumple años, 7 para ser exáctos, echamos la vista
-  atrás y repasamos su historia"
+lastmod: 2017-09-21T12:43:49+01:00
+description: "Hoy el blog cumple años, 7 para ser exáctos, echamos la vista  atrás y repasamos su historia"
 image: 7-cumpleanios0.png
-mainclass: misc
 title: "El Baúl Del Programador Cumple 7 Años"
-lastmod: 2017-01-31
 ---
 
 <figure>
-<a href="/img/7-cumpleanios0.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios0.png" title="{{ page.title }}" alt="{{ page.title }}" width="1024px" height="512px" /></a>
+    <a href="/img/7-cumpleanios0.png"><amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios0.png" title="El Baúl Del Programador Cumple 7 Años" alt="El Baúl Del Programador Cumple 7 Años" width="1024px" height="512px" /></a>
 </figure>
 
 Hoy este humilde blog cumple nada más y nada menos que 7 años. Todo empezó con la recomendación de un profesor cuando cursaba un Módulo superior en Desarrollo de Aplicaciones Informáticas, y hasta estas fechas hemos llegado. La verdad es que nunca esperé que llegara a mantener tanto tiempo el blog.
@@ -56,28 +55,28 @@ Por este séptimo aniversario quisiera echar la vista atrás y mostrar cómo ha 
 ## Blogger
 
 <figure>
-<a href="/img/7-cumpleanios1.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios1.png" title="{{ page.title }}" alt="{{ page.title }}" width="1882px" height="987px" /></a>
+    <a href="/img/7-cumpleanios1.png"><amp-img sizes="(min-width: 1882px) 1882px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios1.png" title="El Baúl Del Programador Cumple 7 Años" alt="El Baúl Del Programador Cumple 7 Años" width="1882px" height="987px" /></a>
 </figure>
 <figure>
-<a href="/img/7-cumpleanios2.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios2.png" title="{{ page.title }}" alt="{{ page.title }}" width="1879px" height="987px" /></a>
+    <a href="/img/7-cumpleanios2.png"><amp-img sizes="(min-width: 1879px) 1879px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios2.png" title="El Baúl Del Programador Cumple 7 Años" alt="El Baúl Del Programador Cumple 7 Años" width="1879px" height="987px" /></a>
 </figure>
 
 ## WordPress
 
 <figure>
-<a href="/img/7-cumpleanios3.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios3.png" title="{{ page.title }}" alt="{{ page.title }}" width="1880px" height="984px" /></a>
+    <a href="/img/7-cumpleanios3.png"><amp-img sizes="(min-width: 1880px) 1880px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios3.png" title="El Baúl Del Programador Cumple 7 Años" alt="El Baúl Del Programador Cumple 7 Años" width="1880px" height="984px" /></a>
 </figure>
 <figure>
-<a href="/img/7-cumpleanios4.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios4.png" title="{{ page.title }}" alt="{{ page.title }}" width="1877px" height="984px" /></a>
+    <a href="/img/7-cumpleanios4.png"><amp-img sizes="(min-width: 1877px) 1877px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios4.png" title="El Baúl Del Programador Cumple 7 Años" alt="El Baúl Del Programador Cumple 7 Años" width="1877px" height="984px" /></a>
 </figure>
 <figure>
-<a href="/img/7-cumpleanios5.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios5.png" title="{{ page.title }}" alt="{{ page.title }}" width="1882px" height="985px" /></a>
+    <a href="/img/7-cumpleanios5.png"><amp-img sizes="(min-width: 1882px) 1882px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios5.png" title="El Baúl Del Programador Cumple 7 Años" alt="El Baúl Del Programador Cumple 7 Años" width="1882px" height="985px" /></a>
 </figure>
 
 ## Jekyll
 
 <figure>
-<a href="/img/7-cumpleanios6.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios6.png" title="{{ page.title }}" alt="{{ page.title }}" width="1134px" height="1046px" /></a>
+    <a href="/img/7-cumpleanios6.png"><amp-img  sizes="(min-width: 1134px) 1134px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/7-cumpleanios6.png" title="El Baúl Del Programador Cumple 7 Años" alt="El Baúl Del Programador Cumple 7 Años" width="1134px" height="1046px" /></a>
 </figure>
 
 

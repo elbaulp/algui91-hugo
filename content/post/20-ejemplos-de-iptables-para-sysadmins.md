@@ -1,16 +1,11 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- internet
 - linux
 - seguridad
 date: '2016-01-01'
-lastmod: 2017-02-28T12:37:07+01:00
-description: "netfiltes es un conjunto de hooks (Ganchos) dentro del kernel de linux
-  que permiten a los módulos del kernel registrar funciones callbacks con la pila
-  de red. Una función callback registrada se llama entonces para cada paquete que
-  atraviesa el hook correspondiente dentro de la pila de red."
+lastmod: 2017-09-21T12:24:54+01:00
+description: "netfiltes es un conjunto de hooks (Ganchos) dentro del kernel de linux  que permiten a los módulos del kernel registrar funciones callbacks con la pila  de red. Una función callback registrada se llama entonces para cada paquete que  atraviesa el hook correspondiente dentro de la pila de red."
 image: 20-ejemplos-de-iptables-para-sysadmins.png
 mainclass: servidores
 url: /20-ejemplos-de-iptables-para-sysadmins/
@@ -19,38 +14,15 @@ aliases:
 - /2011/12/20-ejemplos-de-iptables-para-sysadmins.html
 - /internet/20-ejemplos-de-iptables-para-sysadmins
 tags:
-- agregar regla de iptables
-- bloquear acceso a ssh mediante iptables
-- bloquear direccion iptables
-- comando iptables
-- comando iptables linux
-- configurando iptables debian wheezy
-- configurar iptables
-- configurar iptables en debian
-- ejemplos de firewall
-- ejemplos iptables
-- filtrar dominios com iptables
 - iptables
-- iptables con servidor debian
-- iptables eliminar regla
-- iptables fedora 16 como
-- iptables mangle
-- iptables tutorial
-- politicas con iptables firewall
-- reglas iptable
-- ver reglas iptable
-- iptables ejemlos
-- comandos iptables
-- iptables bloquear ping
-- iptables listar reglas
 - listas
+- sysadmin
 title: 20 ejemplos de iptables para SysAdmins novatos
 ---
 
 Linux por defecto trae un cortafuegos llamado NetFilter. Según el sitio oficil de proyecto:
 
 > netfiltes es un conjunto de hooks (Ganchos) dentro del kernel de linux que permiten a los módulos del kernel registrar funciones callbacks con la pila de red. Una función callback registrada se llama entonces para cada paquete que atraviesa el hook correspondiente dentro de la pila de red.
-
 
 Este firewall lo controla un programa llamado iptables que gestiona el filtrado para IPv4, y ip6tables para IPv6.
 

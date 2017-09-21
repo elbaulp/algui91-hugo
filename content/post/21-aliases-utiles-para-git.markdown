@@ -1,22 +1,15 @@
 ---
 author: alex
 categories:
-- git
+- dev
 date: 2015-12-01 10:56:26
-lastmod: 2017-02-28T12:37:22+01:00
-description: "Todo aquel que use git sabrá que en ocasiones es un poco tedioso
-  escribir los comandos a ejecutar. Para ello existen los alias, que nos permiten
-  crearnos atajos a la hora de ejecutar un comando. En este artículo se recopilarán
-  unos cuantos alias útiles para el día a día. Os animo a que comentéis
-  vuestros preferidos para ir aumentando la lista!. Comencemos."
+lastmod: 2017-09-21T12:27:01+01:00
+description: "Todo aquel que use git sabrá que en ocasiones es un poco tedioso  escribir los comandos a ejecutar. Para ello existen los alias, que nos permiten  crearnos atajos a la hora de ejecutar un comando. En este artículo se recopilarán  unos cuantos alias útiles para el día a día. Os animo a que comentéis  vuestros preferidos para ir aumentando la lista!. Comencemos."
 image: 2013/03/git-logo.png
-mainclass: git
+mainclass: dev
 tags:
 - git
 - github
-- alias git
-- configurar git
-- configuraciones git
 - listas
 title: "21 alias útiles para git"
 ---
@@ -121,7 +114,7 @@ Veamos ahora una serie de _alias_ para mostrar los logs de los commits de distin
 # Mostrar commits de forma compacta y colores, git ls
 
 <figure>
-<a href="/img/gitls.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/gitls.png" title="{{ page.title }}" alt="{{ page.title }}" width="666px" height="504px" /></a>
+    <a href="/img/gitls.png"><amp-img sizes="(min-width: 666px) 666px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/gitls.png" title="21 alias útiles para git" alt="21 alias útiles para git" width="666px" height="504px" /></a>
 </figure>
 
 El _alias_ es el siguiente:
@@ -135,7 +128,7 @@ ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decor
 # Listar commits y ficheros modificados, git ll
 
 <figure>
-<a href="/img/gitll.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/gitll.png" title="{{ page.title }}" alt="{{ page.title }}" width="603px" height="498px" /></a>
+    <a href="/img/gitll.png"><amp-img sizes="(min-width: 603px) 603px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/gitll.png" title="21 alias útiles para git" alt="21 alias útiles para git" width="603px" height="498px" /></a>
 </figure>
 
 El _alias_ es el siguiente:
@@ -149,7 +142,7 @@ ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decor
 # Mostar commits de forma compacta y con fechas, git lds
 
 <figure>
-<a href="/img/gitlds.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/gitlds.png" title="{{ page.title }}" alt="{{ page.title }}" width="766px" height="502px" /></a>
+    <a href="/img/gitlds.png"><amp-img sizes="(min-width: 766px) 766px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/gitlds.png" title="21 alias útiles para git" alt="21 alias útiles para git" width="766px" height="502px" /></a>
 </figure>
 
 ```bash
@@ -161,7 +154,7 @@ lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" 
 Si lo preferimos con fechas relativas, usaremos el _alias_ `git ld`:
 
 <figure>
-<a href="/img/gitld.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/gitld.png" title="{{ page.title }}" alt="{{ page.title }}" width="785px" height="498px" /></a>
+    <a href="/img/gitld.png"><amp-img sizes="(min-width: 785px) 785px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/gitld.png" title="21 alias útiles para git" alt="21 alias útiles para git" width="785px" height="498px" /></a>
 </figure>
 
 ```bash

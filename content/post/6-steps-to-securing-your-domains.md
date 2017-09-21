@@ -1,18 +1,20 @@
 ---
 author: alex
 categories:
-- cursos
+- freebies
+mainclass: freebies
 date: '2016-01-01'
-mainclass: misc
+lastmod: 2017-09-21T12:43:03+01:00
 url: /6-steps-to-securing-your-domains/
 tags:
-- dominios
-- internet
-- seguridad dominio
+- libros
+- descargas
 title: "Nueva guía: 6 Steps to Securing Your Domains"
 ---
 
-[<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/six-steps-to-securing-your-domains-2.png" alt="6 Steps to Securing Your Domains" width="199px" height="258px" />][1]
+<figure>
+    <amp-img sizes="(min-width: 200px) 200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/six-steps-to-securing-your-domains-2.png" alt="6 Steps to Securing Your Domains" width="199px" height="258px" />
+</figure>
 
 Domain hijacking is now front page news. Learn how to prevent your company&#8217;s valuable domains from being next!
 
