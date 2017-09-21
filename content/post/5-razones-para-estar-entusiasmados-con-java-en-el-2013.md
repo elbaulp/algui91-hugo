@@ -2,20 +2,15 @@
 author: luzila
 categories:
 - articulos
-date: '2016-01-01'
-description: "Un tema obvio para comenzar para la mayoría de los desarrolladores
-  Java, es la *release* del 2013. Asumiendo que no habrá demoras, podemos esperar
-  que Java 8 llegue en Septiembre, trayendo consigo muchas funciones lambda esperadas."
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-09-21T12:39:22+01:00
+description: "Un tema obvio para comenzar para la mayoría de los desarrolladores  Java, es la *release* del 2013. Asumiendo que no habrá demoras, podemos esperar  que Java 8 llegue en Septiembre, trayendo consigo muchas funciones lambda esperadas."
 url: /5-razones-para-estar-entusiasmados-con-java-en-el-2013/
 tags:
-- java 8
-- java en 2013
-- noticias java
-- novedades java
+- java
 title: 5 Razones para estar entusiasmados con Java en el 2013
 image: 2012/12/java1-300x227.jpg
-lastmod: 2017-01-28
 ---
 
 Habiendo terminado el 2012, es tiempo de mirar hacia los próximos 12 meses en el mundo del desarrollo. Luego de leer <a href="http://jaxenter.com/what-will-2013-bring-developers-place-their-bets-45933.html" target="_blank">este interesante artículo</a> sobre las predicciones de algunos respetados desarrolladores, presentamos cinco sencillas razones por las cuales debes entusiasmarte con lo que traerá el 2013&#8230;

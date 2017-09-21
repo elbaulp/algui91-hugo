@@ -1,34 +1,23 @@
 ---
 author: alex
 categories:
-- articulos
 - seguridad
+mainclass: seguridad
 date: '2016-01-01'
-description: "El mundo digital es un vecindario muy peligroso lleno de atacantes listos
-  para robar los datos más personales e importantes para los negocios. A estas
-  alturas deberíamos saber que la \u201Dseguridad\u201D significa algo más que
-  disponer de una contraseña única y larga. Para entender cómo proteger nuestros
-  datos y cuentas, en duosecurity han hecho una recopilación de las formas más
-  comunes que usan los atacantes para robar datos ajenos en la red."
+lastmod: 2017-09-21T12:40:07+01:00
+description: "El mundo digital es un vecindario muy peligroso lleno de atacantes listos  para robar los datos más personales e importantes para los negocios. A estas  alturas deberíamos saber que la seguridad significa algo más que  disponer de una contraseña única y larga. Para entender cómo proteger nuestros  datos y cuentas, en duosecurity han hecho una recopilación de las formas más  comunes que usan los atacantes para robar datos ajenos en la red."
 image: 2013/06/blog_sevenways.png
-lastmod: 2017-02-28T12:38:01+01:00
-mainclass: articulos
 url: /6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login/
 tags:
-- articulos sobre cibercrimen
-- "autentificación de dos factores"
-- Brechas en sitios Webs
-- Configuraciones de software incorrectas
-- Estafas de Phishing
-- malware
-- robo de credenciales
-- saltar autentificacion de dos factores
-- Vulnerabilidades en las aplicaciones
+- privacidad
+- seguridad
 - listas
 title: 6 formas usadas por los cibercriminales para robar o vulnerar credenciales de login
 ---
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/blog_sevenways.png" alt="7 formas usadas por cibercriminales para robar o vulnerar credenciales de login" width="700px" height="350px" />
+<figure>
+    <amp-img sizes="(min-width: 700px) 700px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/blog_sevenways.png" alt="7 formas usadas por cibercriminales para robar o vulnerar credenciales de login" width="700px" height="350px" />
+</figure>
 
 El mundo digital es un vecindario muy peligroso lleno de atacantes listos para robar los datos más personales e importantes para los negocios. A estas alturas deberíamos saber que la ”*[seguridad][1]*” significa algo más que disponer de una contraseña única y larga. Para entender cómo proteger nuestros datos y cuentas, en *duosecurity* han hecho una recopilación de las formas más comunes que usan los atacantes para robar datos ajenos en la red.
 
