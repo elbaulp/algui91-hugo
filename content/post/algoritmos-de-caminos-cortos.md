@@ -1,19 +1,14 @@
 ---
 author: alex
 categories:
-- algoritmos
-- c
-- inteligencia artificial
-date: '2016-01-01'
-lastmod: 2017-01-31
-description: "Para hablar de este tipo de algoritmos, tengo que hacer una breve introducción
-  a lo que es un grafo y cómo se representa en un ordenador."
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-22T11:50:33+01:00
+description: "Para hablar de este tipo de algoritmos, tengo que hacer una breve introducción a lo que es un grafo y cómo se representa en un ordenador."
 url: /algoritmos-de-caminos-cortos/
 tags:
-- algoritmo de dijkstra en c
-- Algoritmo Dijkstra
-- prim java algoritmo
+- algoritmos
 title: Algoritmos de caminos cortos.
 ---
 
@@ -26,7 +21,7 @@ Existen diferentes implementaciones del tipo grafo: con una matriz de adyacencia
 Matriz de adyacencias: se asocia cada fila y cada columna a cada nodo del grafo, siendo los elementos de la matriz la relación entre los mismos, tomando los valores de 1 si existe la arista y 0 en caso contrario.
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/10/Matriz_de_adyacencia1.jpg" alt="" title="Matriz_de_adyacencia" width="546px" height="232px"></amp-img>
+    <amp-img sizes="(min-width: 546px) 546px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/10/Matriz_de_adyacencia1.jpg" alt="" title="Matriz_de_adyacencia" width="546px" height="232px"></amp-img>
 </figure>
 
 <!--more--><!--ad-->
@@ -42,7 +37,7 @@ Para solucionar este problema, los tres algoritmos mas conocidos son:
 El **algoritmo de Dijkstra** consiste en ir explorando todos los caminos más cortos que parten del vértice origen y que llevan a todos los demás vértices; cuando se obtiene el camino más corto desde el vértice origen, al resto de vértices que componen el grafo, el algoritmo se detiene.
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/10/Caminosmascortos1.jpg" alt="" title="Caminosmascortos" width="744px" height="500px"></amp-img>
+    <amp-img sizes="(min-width: 744px) 744px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/10/Caminosmascortos1.jpg" alt="" title="Caminosmascortos" width="744px" height="500px"></amp-img>
 </figure>
 
 # Algoritmo de Dijkstra
