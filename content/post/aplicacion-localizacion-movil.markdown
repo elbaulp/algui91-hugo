@@ -1,18 +1,14 @@
 ---
 author: alex
 categories:
-- java
+- articulos
+mainclass: articulos
 date: 2016-02-04 08:33:22
-description: "El robo de smartphones se ha disparado recientemente. Aumenta un 30%
-  cada año, y aparentemente incluso el gobierno ha comenzado a notarlo porque quieren
-  que las compañías de teléfonos diseñen dispositivos con una seguridad
-  mejorada que ayuden a localizar el móvil en caso de pérdida."
-mainclass: java
+lastmod: 2017-09-22T11:53:39+01:00
+description: "El robo de smartphones se ha disparado recientemente. Aumenta un 30%  cada año, y aparentemente incluso el gobierno ha comenzado a notarlo porque quieren  que las compañías de teléfonos diseñen dispositivos con una seguridad  mejorada que ayuden a localizar el móvil en caso de pérdida."
 tags:
-- "aplicaiones localización movil"
-- localizar movil
+- android
 title: "3 Intervenciones Para Poner a Salvo Tu Teléfono Con Una Aplicación Para Localizar El Móvil"
-lastmod: 2017-02-04
 ---
 
 El robo de smartphones se ha disparado recientemente. Aumenta un 30% cada año, y aparentemente incluso el gobierno ha comenzado a notarlo porque quieren que las compañías de teléfonos diseñen dispositivos con una seguridad mejorada que ayuden a localizar el móvil en caso de pérdida. Pero mientras que las compañías aún no tienen una solución, existe una herramienta que puede ayudarnos. Dicha herramienta es una [aplicación para localizar móviles](http://xnspy.com/es/cell-phone-tracker.html). La mayoría viene con su sistema básico de localización por GPS, pero esta aplicación permite cuidar de su teléfono desde lejos. XNSPY es útil para tener el teléfono a salvo, veamos como funciona en esta breve guía.

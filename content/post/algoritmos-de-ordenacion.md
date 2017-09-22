@@ -1,25 +1,15 @@
 ---
 author: alex
 categories:
-- algoritmos
+- dev
 date: '2016-01-01'
-lastmod: 2017-01-31
-description: "Bueno, como dice el título de la entrada, voy a hablar sobre los
-  algoritmos de ordenación, vamos a distinguir entre lentos y rápidos. La diferencia
-  mas grande es la eficiencia, es decir, como se comportan al ordenar una gran entrada
-  de datos, los lentos se comportan en un orden cuadrático, es decir, O(n\xB2),
-  mientras que los algoritmos rápidos se comportan, en un caso promedio en un orden
-  logarítmico, osea, O (n log n)."
+lastmod: 2017-09-22T11:51:55+01:00
+description: "Bueno, como dice el título de la entrada, voy a hablar sobre los  algoritmos de ordenación, vamos a distinguir entre lentos y rápidos. La diferencia  mas grande es la eficiencia, es decir, como se comportan al ordenar una gran entrada  de datos, los lentos se comportan en un orden cuadrático, es decir, O(n\xB2),  mientras que los algoritmos rápidos se comportan, en un caso promedio en un orden  logarítmico, osea, O (n log n)."
 mainclass: articulos
 url: /algoritmos-de-ordenacion/
 tags:
-- algoritmo de ordenacion
-- algoritmos de ordenamiento quicksort
-- algoritmos ordenacion
+- algoritmos
 - eficiencia
-- metodo ordenamiento burbuja
-- pseudocodigo ordenamiento burbuja
-- pseudocodigo ordenamiento por seleccion
 title: "Algoritmos de ordenación."
 ---
 

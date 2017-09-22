@@ -2,22 +2,13 @@
 author: alex
 categories:
 - dev
-date: 2016-04-22 06:40:33
-description: "Haciendo una práctica de Aprendizaje Automático, en concreto implementando
-  Gradiente Descendente Estocástico (Stochastic Gradient Descent) o SGD para Regresión
-  Logística e intentando hacer el código lo más eficiente posible (Y eso
-  en R significa evitar el uso de for a toda costa) me encontré con la siguiente
-  situación:"
-image: Como-Acceder-a-Una-Variable-Desde-Dentro-De-Una-Funcion-en-R.png
 mainclass: dev
-lastmod: 2017-01-31
+date: 2016-04-22 06:40:33
+lastmod: 2017-09-22T11:47:18+01:00
+description: "Haciendo una práctica de Aprendizaje Automático, en concreto implementando  Gradiente Descendente Estocástico (Stochastic Gradient Descent) o SGD para Regresión  Logística e intentando hacer el código lo más eficiente posible (Y eso  en R significa evitar el uso de for a toda costa) me encontré con la siguiente  situación:"
+image: Como-Acceder-a-Una-Variable-Desde-Dentro-De-Una-Funcion-en-R.png
 tags:
 - R
-- tutorial R
-- variables globales R
-- acceder variable en funcion R
-- "Aprendizaje automático"
-- etsiit R
 title: "Cómo modificar Una Variable Desde Dentro De Una Función en R"
 ---
 

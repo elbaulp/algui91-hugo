@@ -1,14 +1,13 @@
 ---
 author: alex
 categories:
-- seguridad
-- so
-date: '2016-01-01'
-lastmod: 2017-01-31
+- articulos
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-22T11:49:36+01:00
 url: /actualizar-bios-de-asus-desde-linux/
 tags:
-- como actualizar bios asus p5b
+- seguridad
 title: Actualizar BIOS de ASUS desde Linux
 ---
 
@@ -17,7 +16,6 @@ Toda esta historia viene al comprar una memória de 2Gb de Ram a mi pc, para aum
 Bueno, inserto la RAM en la placa base todo contento ya que ahora iba a tener 4Gb (2x1Gb y 1x2Gb) y no se mi iba a quedar colgado el pc mientras escucho música con el Eclipse abierto más el emulador Android y el Chrome&#8230; (Que se come la RAM que da gusto), y resulta que solo reconoce 3Gb&#8230; Tras una tarde de buscar por foros y no encontrar nada me decido a publicar mi problema en los foros de [cruchbang][1] y [debian][2]. Al principio pensaba que era un problema de que no estaba colocando las memórias en los canales correctos para que hiciera el dual channel. Pero ese no era el problema.
 
 Tras una respuesta en uno de los foros miro a ver si la BIOS reconoce las 4Gb y el resultado es que solo reconoce 3Gb. Investigo el motivo por el cual solo reconoce 3Gb y llego a una página que dice que es un problema de la versión de la BIOS que se soluciona actualizando a la última versión. Así que voy a explicar el proceso de actualización de la BIOS, en mi caso para la placa base ASUS P5B Deluxe Wifi edition:
-
 
 <!--more--><!--ad-->
 

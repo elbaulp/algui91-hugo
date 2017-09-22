@@ -1,26 +1,15 @@
 ---
 author: alex
 categories:
-- how to
-date: '2016-01-01'
-description: "Hace poco actualicé mi Samsung Galaxy S II (GT-I9100) a CyanogenMod
-  10.1 y me dí cuenta que las opciones de desarrollador en [Android][1] 4.2 no
-  estaban donde siempre, en la configuración del teléfono. Así que buscando
-  un poco encontré la respuesta. A fin de mejorar la experiencia del usuario, Google
-  ha escondido por defecto esta opción."
+- articulos
+- howto
 mainclass: articulos
-lastmod: 2017-01-31
+lastmod: 2017-09-22T11:48:24+01:00
+date: '2016-01-01'
+description: "Hace poco actualicé mi Samsung Galaxy S II (GT-I9100) a CyanogenMod  10.1 y me dí cuenta que las opciones de desarrollador en [Android][1] 4.2 no  estaban donde siempre, en la configuración del teléfono. Así que buscando  un poco encontré la respuesta. A fin de mejorar la experiencia del usuario, Google  ha escondido por defecto esta opción."
 url: /activar-opciones-de-desarrollador-en-android-4-2/
 tags:
 - android
-- android 4.2
-- desactivar Simular pantallas secundarias
-- modo ingeniero android
-- opciones de desarrollador android
-- opciones de desarrollo android
-- problema Simulate secondary displays
-- Simulate secondary displays
-- xda
 title: "Cómo activar opciones de desarrollador en Android 4.2"
 ---
 
@@ -37,7 +26,7 @@ Una vez activado, eché un vistazo a ver qué opciones nuevas había. Activé un
 La respuesta concretamente la encontré en el foro de [XDA][2]. Como sabía que el problema lo había causado la opción **Simular pantallas secundarias** bastaba con desactivarla para volver a la normalidad. Resulta que Android posee de un modo de *rescate o modo seguro* que se puede iniciar manteniendo pulsadas todas las teclas excepto el botón de encendido en el proceso de arranque:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Screenshot_2013-03-03-13-48-30.png" alt="Safe Mode in Android o Modo rescate en Android" width="480px" height="800px" />
+    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Screenshot_2013-03-03-13-48-30.png" alt="Safe Mode in Android o Modo rescate en Android" width="480px" height="800px" />
 </figure>
 
 Una vez en el modo rescate, desactivé la opción y problema resuelto.
