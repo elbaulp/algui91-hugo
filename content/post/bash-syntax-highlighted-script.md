@@ -2,13 +2,14 @@
 author: alex
 categories:
 - linux
-- script
 date: '2016-01-01'
-lastmod: 2017-02-08
+lastmod: 2017-09-23T13:10:55+01:00
 mainclass: linux
 url: /bash-syntax-highlighted-script/
 title: Script resaltado sintaxis bash
 aliases: /script-resaltado-sintaxis-bash/
+tags:
+- script
 ---
 
 Como os dije, he hecho el script para el resaltado de bash, me ha costado un poco mas, porque queria intentar resaltar mas cosas, pero al final desistí, y lo hice un poco más simple. Hay que tener en cuenta, que habrá muchas palabras que no se resalten, ya que en la terminal de gnu/Linux existen muchísimos comandos, y obviamente, no puedo ponerlos todos, cuando querais que un determinado comando se resalte (como ls, telnet, ftp&#8230;) o cualquiera que useis, simplemente añadirlo a la variable keyWords.

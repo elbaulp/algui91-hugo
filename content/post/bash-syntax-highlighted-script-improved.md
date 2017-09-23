@@ -2,13 +2,14 @@
 author: alex
 categories:
 - linux
-- script
-date: '2016-01-01'
-lastmod: 2017-02-08
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-23T13:10:25+01:00
 url: /bash-syntax-highlighted-script-improved/
 title: Script resaltado sintaxis bash (Mejorado)
 aliases: /script-resaltado-sintaxis-bash-mejorado/
+tags:
+- script
 ---
 
 Gracias a DavidRSM, he mejorado el script de resaltado de sintaxis para bash, y ahora permite muchas más palabras clave. Simplemente hay que añadir a la variable keywords los nombres de los comandos que se encuentran en /bin/, y /sbin/, Podéis agregar más palabras clave concatenándolas a la variable, de esta manera:
