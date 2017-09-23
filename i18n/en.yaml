@@ -77,7 +77,7 @@
 - id: more_posts
   translation: "More {{ .name }}'s posts"
 - id: lastMod
-  translation: "Modified on"
+  translation: "Updated on"
 - id: related
   translation: "Maybe this posts are also worth reading"
 - id: title
