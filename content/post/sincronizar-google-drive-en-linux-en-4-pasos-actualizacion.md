@@ -12,6 +12,7 @@ tags:
 - cliente google drive linux
 - grive
 - tutorial grive
+- sincronizar ficheros
 title: "Sincronizar Google Drive en Linux en 4 pasos [Actualización]"
 ---
 
