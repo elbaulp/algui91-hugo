@@ -1,7 +1,7 @@
 +++
 title = "Upgrading Gentoo kernel automatically"
 date = "2017-09-15T17:44:34+02:00"
-lastmod = "2017-09-18T20:18:36+01:00"
+lastmod = "2017-09-23T12:22:14+01:00"
 author = "alex"
 mainclass = "linux"
 image = "upgrade-gentoo-kernel-automatically.png"
@@ -51,6 +51,7 @@ _main () {
     echo "Building..."
     make -j4 olddefconfig
     make -j4 modules_prepare
+    make modules_install
     emerge --ask @module-rebuild
     make -j4
     make install
