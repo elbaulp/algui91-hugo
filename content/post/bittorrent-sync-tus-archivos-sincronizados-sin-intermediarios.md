@@ -36,7 +36,7 @@ Una vez descargado, ejecutamos el programa y saldrá una ventana como esta:
 
 <figure>
     <amp-img sizes="(min-width: 593px) 593px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="BitTorrent Sync" src="/img/2013/05/sync1.png" width="593px" height="393px" />
-<figure>
+</figure>
 
 En Windows y mac, en linux hay que dirigirse a <a href="http://localhost:8888/gui" target="_blank">http://localhost:8888/gui</a>.
 
