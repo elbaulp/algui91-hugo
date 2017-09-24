@@ -1,21 +1,17 @@
 ---
 author: alex
 categories:
-- script
-date: '2016-01-01'
-lastmod: 2017-02-15
-description: "En linux, existe un comando llamado locate que busca archivos en nuestro
-  sistema de ficheros haciendo consultas a una base de datos, la descripción según
-  su man es:"
-image: 2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.png
+- linux
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-24T19:23:13+01:00
+description: "En linux, existe un comando llamado locate que busca archivos en nuestro  sistema de ficheros haciendo consultas a una base de datos, la descripción según  su man es:"
+image: 2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.png
 url: /buscar-archivos-con-locate-mediante-expresiones-regulares-complejas/
 tags:
-- "crear lista de reproducción"
-- ejemplos locate
-- expresiones regulares linux
 - locate
 - regex
+- script
 title: Buscar archivos con locate mediante expresiones regulares
 ---
 
@@ -48,7 +44,7 @@ En `$i` está el nombre de la canción, `.*` permite que haya cero o más caract
 Siempre que necesito crear una expresión regular uso una herramienta llamada **regex tester** que permite visualizar qué cadenas de texto coincidirían con el patrón:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.png" title="{{ page.title }}" alt="{{ page.title }}" width="627px" height="285px"></amp-img>
+    <amp-img sizes="(min-width: 627px) 627px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.png" title="Buscar archivos con locate mediante expresiones regulares" alt="Buscar archivos con locate mediante expresiones regulares" width="627px" height="285px"></amp-img>
     <figcaption>Créditos: <a href="https://www.iconfinder.com/icons/33644/terminal_icon" target="_blank">inconfinder</a></figcaption>
 </figure>
 

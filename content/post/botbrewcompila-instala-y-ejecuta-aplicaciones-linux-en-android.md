@@ -3,21 +3,15 @@ author: alex
 categories:
 - android
 - articulos
-date: '2016-01-01'
-description: "Leyendo noticias en mi lector RSS he encontrado un artículo interesante
-  que comparto con vosotros. Se trata de un programa que permitirá tener un sistema
-  debian básico en el dispostivo."
-image: 2012/12/linux-apps-on-android1.jpg
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-09-24T19:16:55+01:00
+description: "Leyendo noticias en mi lector RSS he encontrado un artículo interesante  que comparto con vosotros. Se trata de un programa que permitirá tener un sistema  debian básico en el dispostivo."
+image: 2012/12/linux-apps-on-android1.jpg
 url: /botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/
 aliases: /programacion/android/botbrewcompila-instala-y-ejecuta-aplicaciones-linux-en-android/
 tags:
-- botbrew basil
-- como instalar aplicaciones de linux a android
-- curso android pdf
-- debian en android
-- samsung galaxy scl gti9003
-- xda
+- linux
 title: BotBrew basil, Compila, instala y ejecuta aplicaciones Linux en Android
 lastmod: 2017-02-12
 ---
@@ -73,7 +67,7 @@ int main(){
 Ya solo queda compilarlo y ejecutarlo, dejo una captura de pantalla como prueba de que funciona:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot_2012-12-04-17-14-141.png" alt="" title="Compilando código C/C++ en android" width="800px" height="480px"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot_2012-12-04-17-14-141.png" alt="" title="Compilando código C/C++ en android" width="800px" height="480px"></amp-img>
 </figure>
 
 Y no solo eso, también podemos instalar python:
@@ -89,7 +83,7 @@ Hola Mundo desde Android!
 De nuevo, com prueba, una captura de pantalla:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot_2012-12-04-17-32-141.png" alt="" title="Ejecutando programas en python desde Android" width="800px" height="480px"></amp-img>
+    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot_2012-12-04-17-32-141.png" alt="" title="Ejecutando programas en python desde Android" width="800px" height="480px"></amp-img>
 </figure>
 
 A continuación un vídeo explicando el proceso de instalación de busybox sin permisos de root:

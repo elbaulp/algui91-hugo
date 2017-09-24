@@ -2,23 +2,19 @@
 author: alex
 categories:
 - linux
-date: '2016-01-01'
-lastmod: 2017-02-20
-description: Si quieres personalizar la pantalla de bienvenida en Debian o Ubuntu,
-  es posible cambiar el fondo de pantalla en unos cuantos pasos.
-image: 2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-24T19:25:03+01:00
+description: Si quieres personalizar la pantalla de bienvenida en Debian o Ubuntu,  es posible cambiar el fondo de pantalla en unos cuantos pasos.
+image: 2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg
 url: /cambiar-fondo-en-la-pantalla-de-login-en-debian-y-ubuntu/
 tags:
-- cambiar fondo gdm3
-- cambiar fondo login debian
-- cambiar fondo login ubuntu
-- lightdm
+- script
 title: Cambiar fondo en la pantalla de login en Debian y Ubuntu
 ---
 
 <figure>
-<a href="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg" title="Cambiar fondo en la pantalla de login en Debian y Ubuntu" alt="Cambiar fondo en la pantalla de login en Debian y Ubuntu" width="3264px" height="2448px" /></a>
+    <a href="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg"><amp-img sizes="(min-width: 3264px) 3264px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg" title="Cambiar fondo en la pantalla de login en Debian y Ubuntu" alt="Cambiar fondo en la pantalla de login en Debian y Ubuntu" width="3264px" height="2448px" /></a>
 </figure>
 
 Si quieres personalizar la pantalla de bienvenida en Debian o Ubuntu, es posible cambiar el fondo de pantalla en unos cuantos pasos.
@@ -103,7 +99,7 @@ sudo cp ruta/imagen/deseada /usr/share/xfce4/backdrops/xubuntu-trusty.png
 ```
 
 <figure>
-<a href="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg" title="Cambiar fondo en la pantalla de login en Debian y Ubuntu" alt="Cambiar fondo en la pantalla de login en Debian y Ubuntu" width="3264px" height="2448px" /></a>
+    <a href="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg"><amp-img sizes="(min-width: 3264px) 3264px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Cambiar-fondo-en-la-pantalla-de-login-en-Debian-y-Ubuntu.jpg" title="Cambiar fondo en la pantalla de login en Debian y Ubuntu" alt="Cambiar fondo en la pantalla de login en Debian y Ubuntu" width="3264px" height="2448px" /></a>
 </figure>
 
 # Referencias

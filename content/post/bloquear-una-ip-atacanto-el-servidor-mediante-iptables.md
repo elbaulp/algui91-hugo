@@ -1,30 +1,23 @@
 ---
 author: alex
 categories:
-- internet
 - linux
 - seguridad
 - servidores
-date: '2016-01-01'
-description: "Ayer ojeando el archivo de log detecté que había una ip mandando
-  peticiones POST indiscriminadamente a la página de login del blog y decidí
-  investigar un poco."
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-09-24T19:13:25+01:00
+description: "Ayer ojeando el archivo de log detecté que había una ip mandando  peticiones POST indiscriminadamente a la página de login del blog y decidí  investigar un poco."
 url: /bloquear-una-ip-atacanto-el-servidor-mediante-iptables/
 tags:
-- agregar regla de iptables
-- bloquear ip
-- bloquear ip servidor web
-- comando iptables linux
-- ejemplos de firewall
 - iptables
-- iptables con servidor debian
-- politicas con iptables firewall
 title: Bloquear una IP atacando el servidor mediante iptables
-lastmod: 2017-02-11
 ---
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/Applic-Firewall-icon.png" alt="Applic-Firewall-icon" width="256px" height="256px" />
+<figure>
+    <amp-img sizes="(min-width: 256px) 256px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/Applic-Firewall-icon.png" alt="Applic-Firewall-icon" width="256px" height="256px" />
+</figure>
+
 
 Ayer ojeando el archivo de log detecté que había una ip mandando peticiones POST indiscriminadamente a la página de login del blog y decidí investigar un poco.
 

@@ -3,27 +3,18 @@ author: alex
 amp:
   elements: [amp-youtube]
 categories:
-- java
+- dev
+- android
+mainclass: android
 date: 2016-02-15 19:36:34
-description: "Enunciado: se debe identificar mediante interfaz vocal un punto cardinal
-  (Norte, Sur, Este y Oeste) y el porcentaje de error (cantidad entera) en la detección
-  del punto, solo el número, por ejemplo \u201CNorte diez\u201D. Una vez reconocido
-  el patrón vocal se debe mostrar una brújula para que el usuario se oriente
-  en la dirección indicada, cuando lo realice se le debe indicar que ya se ha conseguido."
+lastmod: 2017-09-24T19:18:24+01:00
+description: "Enunciado: se debe identificar mediante interfaz vocal un punto cardinal  (Norte, Sur, Este y Oeste) y el porcentaje de error (cantidad entera) en la detección  del punto, solo el número, por ejemplo \u201CNorte diez\u201D. Una vez reconocido  el patrón vocal se debe mostrar una brújula para que el usuario se oriente  en la dirección indicada, cuando lo realice se le debe indicar que ya se ha conseguido."
 image: hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png
-mainclass: java
-tags:
-- brujula android
-- crear brujula android
-- programar brujula android
-- reconocimiento de voz android
-- tutorial ASR android
 title: "Crear Una Brújula Con Reconocimiento De Voz en Android"
-lastmod: 2017-02-12
 ---
 
 <figure>
-<a href="/img/hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png" title="{{ page.title }}" alt="{{ page.title }}" width="336px" height="285px" /></a>
+    <a href="/img/hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png"><amp-img sizes="(min-width: 336px) 336px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png" title="Crear Una Brújula Con Reconocimiento De Voz en Android" alt="Crear Una Brújula Con Reconocimiento De Voz en Android" width="336px" height="285px" /></a>
 </figure>
 
 >La siguiente aplicación es parte de una práctica de la asignatura “Nuevos Paradigmas de la Interacción” de la facultad de Ingeniería Informática de Granada (ETSIIT) Otras aplicaciones de la práctica son:
@@ -32,8 +23,7 @@ lastmod: 2017-02-12
 - [Photo Gesture](/patron-desbloqueo-android)
 - [Movement Sound](/giroscopio-acelerometro-movimientos-android)
 
-Si te interesa android, puedes echar un vistazo a los cursos disponibles en el blog, [Android1](/curso-programacion-android/ "Curso de Android"), [Android2](/android/ "Curso nuevo de Android")
-{: .notice-info }
+> Si te interesa android, puedes echar un vistazo a los cursos disponibles en el blog, [Android1](/curso-programacion-android/ "Curso de Android"), [Android2](/android/ "Curso nuevo de Android")
 
 # Brujula Compass
 
@@ -41,10 +31,12 @@ _Enunciado: se debe identificar mediante interfaz vocal un punto cardinal (Norte
 
 Empecemos con un video de la aplicación funcionando:
 
+<figure>
 <amp-youtube
     data-videoid="PSAfGnKJN0M"
     layout="responsive"
     width="480" height="270"></amp-youtube>
+</figure>
 
 Para realizar esta aplicación se ha tomado como base la brújula de la _ROM_ MIUI. Se le ha añadido el reconocimiento de voz (_ASR_) y se modificó la la interfaz de la brújula para que mostrara hacia donde tiene que dirigirse el usuario en función del comando de voz. Veamos la primera pantalla:
 
@@ -53,24 +45,24 @@ Para realizar esta aplicación se ha tomado como base la brújula de la _ROM_ MI
 # Inicio de la aplicación
 
 <figure>
-<a href="/img/npi/inicioBrujula.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/inicioBrujula.png" title="Primera pantalla de la aplicación brújula" alt="Primera pantalla de la aplicación brújula" width="338px" height="600px" /></a>
-<span class="image-credit">Primera pantalla de la aplicación brújula</span>
+    <a href="/img/npi/inicioBrujula.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/inicioBrujula.png" title="Primera pantalla de la aplicación brújula" alt="Primera pantalla de la aplicación brújula" width="338px" height="600px" /></a>
+    <span class="image-credit">Primera pantalla de la aplicación brújula</span>
 </figure>
 
 
 Al mostrarse esta pantalla, el usuario debe proporcionar un comando de voz, por ejemplo _“Norte 10”_. Tras dar el comando, en la brujula se añadirá un marcador indicando dónde está el Norte + 10 grados. Además de esto, mediante una voz, se le irá indicando al usuario si debe girar a la derecha/izquierda o va en la dirección correcta:
 
 <figure>
-<a href="/img/npi/norte10.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/norte10.png" title="Indicaciones en la brujula" alt="Indicaciones en la brujula" width="338px" height="600px" /></a>
-<span class="image-credit">Indicaciones en la brujula</span>
+    <a href="/img/npi/norte10.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/norte10.png" title="Indicaciones en la brujula" alt="Indicaciones en la brujula" width="338px" height="600px" /></a>
+    <span class="image-credit">Indicaciones en la brujula</span>
 </figure>
 
 
 Como vemos en la imagen, aparece un indicador rojo situado en el norte + 10 grados. Veamos otro ejemplo, Norte 45:
 
 <figure>
-<a href="/img/npi/norte45.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/norte45.png" title="Indicaciones en la brujula" alt="Indicaciones en la brujula" width="338px" height="600px" /></a>
-<span class="image-credit">Indicaciones en la brujula</span>
+    <a href="/img/npi/norte45.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/norte45.png" title="Indicaciones en la brujula" alt="Indicaciones en la brujula" width="338px" height="600px" /></a>
+    <span class="image-credit">Indicaciones en la brujula</span>
 </figure>
 
 
