@@ -2,21 +2,15 @@
 author: luzila
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-02-12
-description: "Esta es una traducción lo más literal posible del artículo
-  original, ya que quería preservar la opinión personal del autor así como
-  también el destacable trabajo de investigación y análisis que realizó."
-image: 2014/01/201305-xml-vs-json-api.png
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-09-24T19:21:18+01:00
+description: "Esta es una traducción lo más literal posible del artículo  original, ya que quería preservar la opinión personal del autor así como  también el destacable trabajo de investigación y análisis que realizó."
+image: 2014/01/201305-xml-vs-json-api.png
 url: /buenas-practicas-para-el-diseno-de-una-api-restful-pragmatica/
 tags:
-- api restfull
 - API
-- buenas practicas apis
-- como hacer una api rest
-- api rest ejemplo
-- que es una api rest
+- API restful
 title: "Buenas prácticas para el Diseño de una API RESTful Pragmática"
 ---
 
@@ -27,8 +21,6 @@ Tu modelo de datos ha empezado a estabilizarse y es el momento de crear una API 
 <!--more--><!--ad-->
 
 Diseñando una API para [SupportFu](http://www.supportfu.com/) (una alternativa para [Zendesk](http://www.supportfu.com/zendesk-alternative)), intenté encontrar respuestas pragmáticas a estas preguntas. Mi objetivo para la [API de SupportFu](http://dev.supportfu.com/api/v1) es que sea fácil de usar, facil de adoptar y lo suficientemente flexible para implementarla en nuestras propias interfaces de usuario.
-
-
 
 # TL,DR
 
@@ -193,7 +185,7 @@ No voy a poner mucho esfuerzo en explicar las razones de lo dicho arriba si se p
 Simplemente te dejaré que veas las gráficas de Google Trends ([XML API vs JSON API](http://www.google.com/trends/explore?q=xml+api#q=xml%20api%2C%20json%20api&cmpt=q)) para que medites:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/201305-xml-vs-json-api.png" title="Buenas prácticas para el Diseño de una API RESTful Pragmática" alt="Buenas prácticas para el Diseño de una API RESTful Pragmática" width="817px" height="237px"></amp-img>
+    <amp-img sizes="(min-width: 817px) 817px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/201305-xml-vs-json-api.png" title="Buenas prácticas para el Diseño de una API RESTful Pragmática" alt="Buenas prácticas para el Diseño de una API RESTful Pragmática" width="817px" height="237px"></amp-img>
 </figure>
 
 No obstante, si tu base de clientes consiste en un gran número de clientes empresariales, puedes tener que dar soporte XML de todas maneras. Si debes hacerlo, te surgirá una nueva pregunta:

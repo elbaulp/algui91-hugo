@@ -2,7 +2,7 @@
 author: alex
 categories:
 - articulos
-- howto
+- how to
 mainclass: articulos
 lastmod: 2017-09-22T11:48:24+01:00
 date: '2016-01-01'

@@ -2,16 +2,12 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-02-20
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-09-24T19:30:09+01:00
 url: /programacion-android-trabajar-con/
 tags:
-- android usar boton para ir a otra actividad
-- android view setonclicklistener example
-- curso android pdf
-- startactivityforresult android example
+- android activity
 title: "Programación Android: Trabajar con actividades y pasar parámetros entre ellas"
 ---
 
@@ -258,10 +254,6 @@ public class ParametrosActivity extends Activity {
 ```
 
 # Siguiente Tema: [Programación Android: Interfaz gráfica - Conceptos básicos][3]
-
-
-
-
 
  [1]: https://elbauldelprogramador.com/programacion-android-hola-mundo/
  [2]: https://elbauldelprogramador.com/fundamentos-programacion-android_17/

@@ -2,11 +2,10 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-02-12
-description: "Los bloques PL/SQL presentan una estructura específica compuesta
-  de tres partes bien diferenciadas"
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-09-24T19:14:55+01:00
+description: "Los bloques PL/SQL presentan una estructura específica compuesta de tres partes bien diferenciadas"
 url: /bloques-plsql/
 title: Bloques PL/SQL
 ---
