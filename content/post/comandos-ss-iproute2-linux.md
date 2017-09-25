@@ -1,32 +1,15 @@
 ---
 author: alex
 categories:
-- aplicaciones
 - linux
+mainclass: linux
 date: '2016-01-01'
-lastmod: 2017-03-08T10:40:30+01:00
+lastmod: 2017-09-25T14:30:09+01:00
 description: "El propósito de iproute2 es reemplazar el conjunto de herramientas  que componen las net-tools y pasar a ser él quien se encargue de configurar las  interfaces de red, la tabla de rutas y gestionar la tabla ARP."
 image: 2012/07/sh1.png
-mainclass: linux
 url: /comandos-ss-iproute2-linux/
 tags:
-- comando ip route linux
-- comando ss
-- conmando ifconfig
-- herramientas de red
-- ifconfig
-- ip addr
-- ip link
-- ip route
-- iproute2
-- mostrar informacion TCP
-- net-tools
 - netstat
-- notas iproute2
-- sockets
-- ss
-- tc iproute2 debian
-- UDP
 title: "Algunos comandos útiles con iproute2"
 ---
 

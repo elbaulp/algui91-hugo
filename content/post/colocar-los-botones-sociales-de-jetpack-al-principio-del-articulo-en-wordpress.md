@@ -1,20 +1,15 @@
 ---
 author: alex
 categories:
-- opensource
-- php
+- dev
+mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-03-07T17:49:23+01:00
+lastmod: 2017-09-25T14:29:53+01:00
 description: "A día de hoy, el famoso plugin para wordpress jetpack no soporta  colocar de una forma fácil los botones sociales al principio del artículo.  Así que buscando un poco por la red encontré una forma de hacerlo en el foro  de WordPress que menciono en las referencias y que veremos a continuación."
 image: 2013/06/jetpack-300x222.png
-mainclass: dev
 url: /colocar-los-botones-sociales-de-jetpack-al-principio-del-articulo-en-wordpress/
-tags:
-- botones sociales al principio
-- botones sociales jetpack
-- botones sociales para wordpress
-- botones sociales wordpress
 title: "Colocar los botones sociales de jetpack al principio del artículo en WordPress"
+tags: php
 ---
 
 A día de hoy, el famoso plugin para wordpress ***jetpack*** no soporta colocar de una forma fácil los botones sociales al principio del artículo. Así que buscando un poco por la red encontré una forma de hacerlo en el foro de WordPress que menciono en las referencias y que veremos a continuación.

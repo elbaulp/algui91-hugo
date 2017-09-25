@@ -2,12 +2,13 @@
 author: alex
 categories:
 - articulos
-date: '2016-01-01'
-description: "Muchas organizaciones eligen Open Source por razones como flexibilidad  y agilidad. Todos necesitamos hacer más con menos. Pero en el gobierno, Open  Source maneja simultáneamente el compromiso cívico junto con la participación  del gobierno, como nunca antes. Gracias a la digitalización, el mundo se siente  mucho más pequeño y más conectado. Y Open Source le da a la gente la oportunidad  de unirse a la causa, sin importar dónde viven."
-lastmod: 2017-03-07T18:14:34+01:00
 mainclass: articulos
+date: 2017-09-25T14:28:01+01:00
+lastmod: 2017-09-25T14:26:55+01:00
+description: "Muchas organizaciones eligen Open Source por razones como flexibilidad  y agilidad. Todos necesitamos hacer más con menos. Pero en el gobierno, Open  Source maneja simultáneamente el compromiso cívico junto con la participación  del gobierno, como nunca antes. Gracias a la digitalización, el mundo se siente  mucho más pequeño y más conectado. Y Open Source le da a la gente la oportunidad  de unirse a la causa, sin importar dónde viven."
 url: /codigo-open-source-para-la-gente-por-la-gente/
 title: "Código Open Source: Para la gente, por la gente"
+tags: software libre
 ---
 
 Muchas organizaciones eligen Open Source por razones como flexibilidad y agilidad. Todos necesitamos hacer más con menos. Pero en el gobierno, Open Source maneja simultáneamente el compromiso cívico junto con la participación del gobierno, como nunca antes. Gracias a la digitalización, el mundo se siente mucho más pequeño y más conectado. Y Open Source le da a la gente la oportunidad de unirse a la causa, sin importar dónde viven.
