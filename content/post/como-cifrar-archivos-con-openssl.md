@@ -1,19 +1,15 @@
 ---
 author: alex
 categories:
-- administracion de servidores
 - seguridad
+- servidores
+mainclass: servidores
 date: '2016-01-01'
-lastmod: 2017-03-09T17:22:15+01:00
+lastmod: 2017-09-25T18:45:51+01:00
 description: "Las copias de seguridad son algo que debemos tener a buen resguardo  por si algún dia le ocurre algo a nuestros datos. Si bien lo anterior es cierto,  de igual modo hemos de tener bien protegidas éstas copias de seguridad para que  no puedan ser usadas por terceros de caer en manos maliciosas. Hoy veremos cómo  cifrar archivos con openssl."
 image: 2012/11/Apps-preferences-desktop-cryptography-icon1.png
-mainclass: servidores
 url: /como-cifrar-archivos-con-openssl/
 tags:
-- cifrar copias de seguridad con openssl
-- cifrar tar con openssl
-- comandos openssl
-- openssl
 - cifrar
 title: "Cómo cifrar archivos con openssl"
 ---

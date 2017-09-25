@@ -4,7 +4,7 @@ categories:
 - servidores
 mainclass: servidores
 date: '2016-01-01'
-lastmod: 2017-09-25T14:32:42+01:00
+lastmod: 2017-09-25T18:45:41+01:00
 description: "Los comentarios de spam son algo frecuente en internet, y WordPress  no es una excepción. Hace poco vimos cómo bloquear ataques de fuerza bruta  en Nginx y WordPress con Fail2Ban. Hoy veremos cómo evitar que se nos inunde  la cola de comentarios pendientes o de spam, en mi caso rondan los 200-300 comentarios  diarios."
 image: 2013/11/Bloquear-ataques-de-fuerza-bruta-en-Nginx-y-Wordpress-con-Fail2Ban2.png
 url: /combatir-los-comentarios-de-spam-en-wordpress/
@@ -90,14 +90,14 @@ fi
 Tras guardar el script con el nombre deseado, el uso es el siguiente:
 
 ```bash
-./nombre_script.sh </comentario></ip><ip> <mensaje en="en" el="el" log="log">
+./nombre_script.sh <ip> <mensaje en el log>
 
 ```
 
 Si la IP ya está bloqueada, no se añadirá otra entrada a Iptables, el segundo parámetro aparecerá en los logs del sistema, algo así:
 
 ```bash
-Dec  8 18:40:36 nombreServidor kernel: </mensaje><mensaje en="EN" el="EL" log="LOG">=eth0 OUT= MAC=XXXXXXXXXXXXXX SRC=X.X.X.X DST=Y.Y.Y.Y LEN=X TOS=X PREC=X TTL=X ID=X DF PROTO=TCP SPT=XX DPT=XX WINDOW=XXX RES=XXX SYN URGP=X
+Dec  8 18:40:36 nombreServidor kernel: ><mensaje en el log>=eth0 OUT= MAC=XXXXXXXXXXXXXX SRC=X.X.X.X DST=Y.Y.Y.Y LEN=X TOS=X PREC=X TTL=X ID=X DF PROTO=TCP SPT=XX DPT=XX WINDOW=XXX RES=XXX SYN URGP=X
 
 ```
 

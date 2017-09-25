@@ -2,18 +2,15 @@
 author: alex
 categories:
 - how to
+- linux
+mainclass: linux
 date: '2016-01-01'
-lastmod: 2017-03-09T12:07:47+01:00
+lastmod: 2017-09-25T18:43:56+01:00
 description: "Métodos para personalizar la resolución de pantalla de las terminales  tty en linux"
 image: img/2012/08/sh1.png
-mainclass: linux
 url: /como-cambiar-la-resolucion-de-pantalla-en-las-ttys-de-gnulinux/
 tags:
-- editar 10_linux
-- grub para linux
-- "resolución grub"
-- "resolución tty"
-- vga=0x31b
+- terminal
 title: "Cómo cambiar la resolución de pantalla de las ttys y del GRUB en Linux"
 ---
 

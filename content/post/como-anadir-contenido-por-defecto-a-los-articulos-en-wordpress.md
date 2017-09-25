@@ -1,18 +1,15 @@
 ---
 author: alex
 categories:
+- dev
 - how to
-- php
-date: '2016-01-01'
-lastmod: 2017-03-09T11:56:41+01:00
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-25T18:39:44+01:00
 url: /como-anadir-contenido-por-defecto-a-los-articulos-en-wordpress/
-tags:
-- Articulos wordpress
-- contenido por defecto
-- contenido por defecto en post wordpress
-- wordpress
 title: "Cómo añadir contenido por defecto a los artículos en WordPress"
+tags:
+- php
 ---
 
 <figure>

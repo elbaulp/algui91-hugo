@@ -1,18 +1,15 @@
 ---
 author: alex
 categories:
-- c
 - how to
+- dev
+mainclass: dev
 date: '2016-01-01'
 lastmod: 2017-03-09T17:34:48+01:00
-mainclass: dev
 url: /como-compilar-todos-los-archivos-cpp-de-una-vez-usando-makefile/
-tags:
-- compilar ficheros cpp makefile
-- crear makefile
-- tutorial makefile
-- makefile
 title: "Cómo compilar todos los archivos CPP de una vez usando MakeFile"
+tags:
+- c
 ---
 
 Los makefile sirven para automatizar el proceso de compilación de un proyecto estableciendo unas reglas que dictan cómo y en qué orden han de crearse los ficheros objetos, librerías y binarios.
