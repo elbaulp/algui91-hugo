@@ -4,7 +4,7 @@ categories:
 - dev
 mainclass: dev
 date: '2016-01-01'
-lastmod = "2017-09-25T12:41:25+01:00"
+lastmod: 2017-09-25T12:52:09+01:00
 url: /clases-y-objetos-funciones-inline/
 title: Clases y Objetos - Funciones inline
 tags:
