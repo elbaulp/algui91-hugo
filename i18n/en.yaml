@@ -82,6 +82,8 @@
   translation: "Maybe this posts are also worth reading"
 - id: title
   translation: "The Programmer Chest"
+- id: short_title
+  translation: "TPC"
 - id: no_ga
   translation: "Why I removed <strong>Google Analytics</strong>"
 - id: typo
