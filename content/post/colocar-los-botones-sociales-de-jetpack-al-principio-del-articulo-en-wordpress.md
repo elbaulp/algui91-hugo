@@ -9,7 +9,8 @@ description: "A día de hoy, el famoso plugin para wordpress jetpack no soporta 
 image: 2013/06/jetpack-300x222.png
 url: /colocar-los-botones-sociales-de-jetpack-al-principio-del-articulo-en-wordpress/
 title: "Colocar los botones sociales de jetpack al principio del artículo en WordPress"
-tags: php
+tags:
+- php
 ---
 
 A día de hoy, el famoso plugin para wordpress ***jetpack*** no soporta colocar de una forma fácil los botones sociales al principio del artículo. Así que buscando un poco por la red encontré una forma de hacerlo en el foro de WordPress que menciono en las referencias y que veremos a continuación.
