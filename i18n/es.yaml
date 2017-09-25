@@ -82,6 +82,8 @@
   translation: "Quizá también te interese leer..."
 - id: title
   translation: "El Baúl del Programador"
+- id: short_title
+  translation: "El Baúl"
 - id: no_ga
   translation: "Por qué renuncio a <strong>Google Analytics</strong>"
 - id: typo
