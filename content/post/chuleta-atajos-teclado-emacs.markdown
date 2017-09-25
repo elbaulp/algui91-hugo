@@ -1,17 +1,18 @@
 ---
 author: alex
 categories:
-- misc
+- articulos
+mainclass: articulos
 date: 2016-08-30 14:10:30
-lastmod: 2017-03-09T18:01:54+01:00
+lastmod: 2017-09-25T12:34:45+01:00
 description: "Emacs: Recopilación de comandos y acciones útiles"
 image: chuleta-atajos-teclado-emacs.png
 introduction: "Emacs: Recopilación de comandos y acciones útiles"
-mainclass: misc
 tags:
 - emacs
 - chuleta
 - prelude
+- ensime
 title: "Chuleta De Comandos / Atajos De Teclado / Paquetes más útiles para Emacs"
 ---
 

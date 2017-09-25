@@ -1,9 +1,9 @@
 ---
 author: alex
 categories:
-- curiosidades
+- articulos
 date: '2016-01-01'
-lastmod: 2017-03-04T08:09:36+01:00
+lastmod: 2017-09-25T12:38:39+01:00
 mainclass: articulos
 url: /citas-clasicas-de-programacion/
 title: "22 Citas clásicas de programación"

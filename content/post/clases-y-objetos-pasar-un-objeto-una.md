@@ -1,13 +1,15 @@
 ---
 author: alex
 categories:
-- c
-date: '2016-01-01'
-lastmod: 2017-03-06T18:26:08+01:00
-description: "Vamos a estudiar cómo se pasa una variable a una función en uno  de sus argumentos."
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-25T12:42:01+01:00
+description: "Vamos a estudiar cómo se pasa una variable a una función en uno  de sus argumentos."
 url: /clases-y-objetos-pasar-un-objeto-una/
 title: "Clases y Objetos - Pasar un objeto a una función"
+tags:
+- c
 ---
 
 # Introducción

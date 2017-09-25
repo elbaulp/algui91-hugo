@@ -3,11 +3,11 @@ author: alex
 amp:
   elements: [amp-youtube]
 categories:
-- internet
+- articulos
 - seguridad
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-02-20
-mainclass: articulos
+lastmod: 2017-09-25T12:11:04+01:00
 url: /chema-alonso-hablando-de-la-inseguridad/
 title: "Chema Alonso hablando de la inseguridad de las vías telemáticas"
 ---
