@@ -1,17 +1,14 @@
 ---
 author: alex
 categories:
-- administracion de servidores
+- servidores
+mainclass: servidores
 date: '2016-01-01'
-lastmod: 2017-03-08T10:43:45+01:00
+lastmod: 2017-09-25T14:32:42+01:00
 description: "Los comentarios de spam son algo frecuente en internet, y WordPress  no es una excepción. Hace poco vimos cómo bloquear ataques de fuerza bruta  en Nginx y WordPress con Fail2Ban. Hoy veremos cómo evitar que se nos inunde  la cola de comentarios pendientes o de spam, en mi caso rondan los 200-300 comentarios  diarios."
 image: 2013/11/Bloquear-ataques-de-fuerza-bruta-en-Nginx-y-Wordpress-con-Fail2Ban2.png
-mainclass: servidores
 url: /combatir-los-comentarios-de-spam-en-wordpress/
 tags:
-- bloquear spam wodpress
-- eliminar spam wordpress
-- iptables wordpress comentarios
 - fail2ban
 - iptables
 title: Combatir los comentarios de spam en WordPress
