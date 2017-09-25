@@ -1,16 +1,15 @@
 ---
 author: alex
 categories:
-- javascript
-date: '2016-01-01'
-lastmod: 2017-03-13T16:03:12+01:00
+- servidores
+- dev
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-09-25T18:52:52+01:00
 url: /como-configurar-entornos-de-desarrollo-para-aplicaciones-moviles-en-un-servidor-cloud/
 tags:
-- api restfull nodejs
-- crear api con nodejs
-- crear base de datos mongodb
-- tutorial express
+- API
+- API restful
 title: "Cómo configurar entornos de desarrollo para aplicaciones móviles en  un servidor cloud"
 ---
 
@@ -30,19 +29,28 @@ Otra ventaja viene dada a la hora de hacer pruebas, ya que se puede crear un ent
 
 En éste caso, elegiremos un servidor con Debian 6, y una instalación base.
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/1.-Creación-de-un-servidor-Cloud.png" alt="1. Creación de un servidor Cloud" width="817px" height="448px" />
+<figure>
+    <amp-img sizes="(min-width: 817px) 817px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/1.-Creación-de-un-servidor-Cloud.png" alt="1. Creación de un servidor Cloud" width="817px" height="448px" />
+</figure>
+
 
 ## Configurar la capacidad del servidor
 
 Para el ejemplo concreto, no necestiamos grandes recursos, así que fijaremos todo al mínimo.
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/2.-Configuración-capacidad-servidor-Cloud.png" alt="2. Configuración capacidad servidor Cloud" width="817px" height="575px" />
+<figure>
+    <amp-img sizes="(min-width: 817px) 817px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/2.-Configuración-capacidad-servidor-Cloud.png" alt="2. Configuración capacidad servidor Cloud" width="817px" height="575px" />
+</figure>
+
 
 ## Establecer la contraseña de usuario
 
 Por último, solo resta proporcionar una contraseña al usuario **root**.
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/3.-Finalización-de-la-puesta-en-marcha-del-servidor-cloud.png" alt="3. Finalización de la puesta en marcha del servidor cloud" width="815px" height="581px" />
+<figure>
+    <amp-img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/3.-Finalización-de-la-puesta-en-marcha-del-servidor-cloud.png" alt="3. Finalización de la puesta en marcha del servidor cloud" width="815px" height="581px" />
+</figure>
+
 
 # Instalar Node.js
 

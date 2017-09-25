@@ -2,17 +2,12 @@
 author: alex
 categories:
 - android
-- aplicaciones
 - how to
-date: '2016-01-01'
-lastmod: 2017-03-09T17:36:06+01:00
-description: 'Ya me ha sucedido en varias ocasiones que he intentado conectar mi Samsung  Galaxy S al adb del SDK de Android y he tenido que buscar durante un rato en internet  como solucionar el siguiete problema:'
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-09-25T18:49:21+01:00
+description: 'Ya me ha sucedido en varias ocasiones que he intentado conectar mi Samsung  Galaxy S al adb del SDK de Android y he tenido que buscar durante un rato en internet  como solucionar el siguiete problema:'
 url: /como-conectar-tu-dispositivo-android-en/
-tags:
-- curso android pdf
-- android
-- adb
 title: "Cómo conectar tu dispositivo Android en Linux al adb para depurar y desarrollar  aplicaciones"
 ---
 
@@ -78,8 +73,6 @@ List of devices attached
 900339eb5012 device
 ```
 
-<p class="alert">
-  Aún así, en mi caso sigue sin reconocer el dispositivo, tras buscar y buscar encontré que este problema se soluciona renombrando el archivo <span >51-android.rules</span> a <span >91-android.rules</span>
-</p>
+> Aún así, en mi caso sigue sin reconocer el dispositivo, tras buscar y buscar encontré que este problema se soluciona renombrando el archivo <span >51-android.rules</span> a <span >91-android.rules</span>
 
 Fuente: <a href="http://dimitar.me/how-to-connect-your-android-phone-to-ubuntu-to-do-developmenttestinginstallations-or-tethering/" target="_blank">dimitar.me</a>

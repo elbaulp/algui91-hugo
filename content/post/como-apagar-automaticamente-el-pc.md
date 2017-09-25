@@ -1,13 +1,11 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- curiosidades
 - how to
-- internet
-date: '2016-01-01'
-lastmod: 2017-03-09T12:01:23+01:00
+- linux
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-25T18:40:06+01:00
 url: /como-apagar-automaticamente-el-pc/
 title: "Cómo apagar automáticamente el PC cuando las descargas finalicen"
 ---
