@@ -2,18 +2,15 @@
 author: alex
 categories:
 - articulos
+- seguridad
+mainclass: seguridad
 date: 2015-11-30 18:15:43
-lastmod: 2017-03-06T18:27:32+01:00
+lastmod: 2017-09-25T12:42:57+01:00
 description: "Los USBs suelen llevarse siempre a mano, en los bolsillos, mochila etc,  y en ocasiones pueden contener información sensible que no debería poder leer  cualquiera. Por ello es buena idea llevarlo encriptado, ya sea por si se pierde  o nos lo roban. Hoy veremos cómo podemos cifrar/encriptar nuestro usb con Veracrypt"
 image: Veracryptlogo.png
-mainclass: articulos
 tags:
 - "criptografía"
-- usb
-- truecrypt
-- truecript
-- Veracrypt
-- cifrar usb
+- privacidad
 title: "Cómo Cifar Un USB Con Veracrypt"
 ---
 
@@ -45,7 +42,7 @@ El primer paso es dirigirnos a la <a href="https://veracrypt.codeplex.com/wikipa
 ## Crear el usb cifrado
 
 <figure>
-<a href="/img/2.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2.png" title="Crear un usb cifrado con veracrypt" alt="Crear un usb cifrado con veracrypt" width="804px" height="506px" /></a>
+    <a href="/img/2.png"><amp-img sizes="(min-width: 804px) 804px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2.png" title="Crear un usb cifrado con veracrypt" alt="Crear un usb cifrado con veracrypt" width="804px" height="506px" /></a>
 </figure>
 
 A continuación se mostrarán una serie de pantallas, seguimos los pasos que aparecen en ellas:
@@ -53,13 +50,13 @@ A continuación se mostrarán una serie de pantallas, seguimos los pasos que apa
 ## Seleccionar el tipo de volumen
 
 <figure>
-<a href="/img/3.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/3.png" title="Volumen estándar Veracrypt" alt="Volumen estándar Veracrypt" width="806px" height="505px" /></a>
+    <a href="/img/3.png"><amp-img sizes="(min-width: 806px) 806px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/3.png" title="Volumen estándar Veracrypt" alt="Volumen estándar Veracrypt" width="806px" height="505px" /></a>
 </figure>
 
 ## Seleccionar el dispositivo
 
 <figure>
-<a href="/img/4.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/4.png" title="Selección del volumen a cifrar Veracrypt" alt="Selección del volumen a cifrar Veracrypt" width="805px" height="505px" /></a>
+    <a href="/img/4.png"><amp-img sizes="(min-width: 805px) 805px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/4.png" title="Selección del volumen a cifrar Veracrypt" alt="Selección del volumen a cifrar Veracrypt" width="805px" height="505px" /></a>
 </figure>
 
 ## Tipos de cifrados
@@ -67,10 +64,10 @@ A continuación se mostrarán una serie de pantallas, seguimos los pasos que apa
 En el tipo de cifrado, podemos ejecutar un _benchmark_ para ver el rendimiento de cada uno, el más rápido es AES, pero si preferimos podemos elegir otros que fortifiquen la seguridad del dispositivo. A continuación se muestra el resultado de las pruebas:
 
 <figure>
-<a href="/img/bench.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bench.png" title="Benchmark Veracrypt" alt="Benchmark Veracrypt" width="632px" height="403px" /></a>
+    <a href="/img/bench.png"><amp-img sizes="(min-width: 632px) 632px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bench.png" title="Benchmark Veracrypt" alt="Benchmark Veracrypt" width="632px" height="403px" /></a>
 </figure>
 <figure>
-<a href="/img/5.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/5.png" title="Tipo de cifrado Veracrypt" alt="Tipo de cifrado Veracrypt" width="803px" height="504px" /></a>
+    <a href="/img/5.png"><amp-img sizes="(min-width: 806px) 806px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/5.png" title="Tipo de cifrado Veracrypt" alt="Tipo de cifrado Veracrypt" width="803px" height="504px" /></a>
 </figure>
 
 ## Establecer contraseña
@@ -78,7 +75,7 @@ En el tipo de cifrado, podemos ejecutar un _benchmark_ para ver el rendimiento d
 A la hora de escoger la contraseña, es importante que sea fuerte y de más de 20 caractéres. Si es menor de este número, se recomienda establecer un PIM (_Personal Iterations Multiplier_)
 
 <figure>
-<a href="/img/8.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/8.png" title="Escoger contraseña  Veracrypt" alt="Escoger contraseña Veracrypt" width="806px" height="504px" /></a>
+    <a href="/img/8.png"><amp-img sizes="(min-width: 806px) 806px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/8.png" title="Escoger contraseña  Veracrypt" alt="Escoger contraseña Veracrypt" width="806px" height="504px" /></a>
 </figure>
 
 ## Seleccionar el sistema de ficheros
@@ -86,7 +83,7 @@ A la hora de escoger la contraseña, es importante que sea fuerte y de más de 2
 Ahora seleccionamos el tipo de sistema de ficheros que queremos. Se recomienda hacer un formateo completo en lugar de rápido. En mi caso marqué rápido porque ya lo había formateado previamente.
 
 <figure>
-<a href="/img/9.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/9.png" title="Pantalla principal Veracrypt" alt="Pantalla principal Veracrypt" width="806px" height="505px" /></a>
+    <a href="/img/9.png"><amp-img sizes="(min-width: 806px) 806px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/9.png" title="Pantalla principal Veracrypt" alt="Pantalla principal Veracrypt" width="806px" height="505px" /></a>
 </figure>
 
 ## Soporte multiplataforma
@@ -94,7 +91,7 @@ Ahora seleccionamos el tipo de sistema de ficheros que queremos. Se recomienda h
 Por último, si queremos usar el USB en otros sistemas, deberemos marcar la casilla adecuada.
 
 <figure>
-<a href="/img/10.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/10.png" title="Pantalla principal Veracrypt" alt="Pantalla principal Veracrypt" width="804px" height="505px" /></a>
+    <a href="/img/10.png"><amp-img sizes="(min-width: 804px) 804px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/10.png" title="Pantalla principal Veracrypt" alt="Pantalla principal Veracrypt" width="804px" height="505px" /></a>
 </figure>
 
 Ya solo queda pulsar el botón de formatear en la siguiente pantalla y esperar, puede tardar un poco y parecer que se ha quedado colgado, paciencia.

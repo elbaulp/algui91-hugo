@@ -1,12 +1,14 @@
 ---
 author: alex
 categories:
-- c
-date: '2016-01-01'
-lastmod: 2017-03-06T18:22:56+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-25T12:39:45+01:00
 url: /clases-y-objetos-definir-una-clase/
 title: Clases y Objetos. Definir una Clase
+tags:
+- c
 ---
 
 # Introducción

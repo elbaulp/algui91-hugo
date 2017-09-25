@@ -1,12 +1,14 @@
 ---
 author: alex
 categories:
-- c
-date: '2016-01-01'
-lastmod: 2017-03-06T18:24:54+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod = "2017-09-25T12:41:25+01:00"
 url: /clases-y-objetos-funciones-inline/
 title: Clases y Objetos - Funciones inline
+tags:
+- c
 ---
 
 Podemos declarar y definir funciones dentro de la clase, para no tener que definirla a parte en su respectivo archivo .cpp: a estas funciones se las denomina inline.

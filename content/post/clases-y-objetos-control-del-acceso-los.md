@@ -1,12 +1,14 @@
 ---
 author: alex
 categories:
-- c
-date: '2016-01-01'
-lastmod: 2017-03-06T18:22:14+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-25T12:39:28+01:00
 url: /clases-y-objetos-control-del-acceso-los/
 title: Clases y Objetos. Control del acceso a los miembros de la clase
+tags:
+- c
 ---
 
 Veamos la diferencia entre las siguientes declaraciones de la [clase Punto][1]:

@@ -1,13 +1,15 @@
 ---
 author: alex
 categories:
-- c
-date: '2016-01-01'
-lastmod: 2017-03-06T18:24:28+01:00
-description: "El destructor es una función especial, que tiene el mismo nombre  que la clase pero que va precedido del símbolo ~ (ASCII 126). El destructor es  único y no tiene argumentos: se puede definir dentro de la clase o fuera de la  misma."
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-25T12:41:11+01:00
+description: "El destructor es una función especial, que tiene el mismo nombre  que la clase pero que va precedido del símbolo ~ (ASCII 126). El destructor es  único y no tiene argumentos: se puede definir dentro de la clase o fuera de la  misma."
 url: /clases-y-objetos-el-destructor/
 title: Clases y Objetos. El Destructor
+tags:
+- c
 ---
 
 Ya hemos visto como [definir una clase][1], y como crear un [constructor][2] para ella. Ahora vamos a ver como destruir un objeto creado.

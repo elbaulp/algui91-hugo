@@ -1,12 +1,14 @@
 ---
 author: alex
 categories:
-- c
-date: '2016-01-01'
-lastmod: 2017-03-06T18:23:49+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-25T12:40:58+01:00
 url: /clases-y-objetos-el-constructor/
 title: Clases y Objetos. El Constructor
+tags:
+- c
 ---
 
 # Constructores

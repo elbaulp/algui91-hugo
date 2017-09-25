@@ -1,13 +1,15 @@
 ---
 author: alex
 categories:
-- c
-date: '2016-01-01'
-lastmod: 2017-03-06T18:25:21+01:00
-description: "Hace poco puse a vuestra disposición unos tutoriales básicos de  C++, y ahora voy a comenzar a explicar las clases y los objetos en C++."
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-25T12:41:47+01:00
+description: "Hace poco puse a vuestra disposición unos tutoriales básicos de  C++, y ahora voy a comenzar a explicar las clases y los objetos en C++."
 url: /clases-y-objetos-introduccion/
 title: "Programación en C++. Clases y objetos - Introducción"
+tags:
+- c
 ---
 
 Hace poco puse a vuestra disposición unos [tutoriales básicos de C++][1], y ahora voy a comenzar a explicar las clases y los objetos en C++:

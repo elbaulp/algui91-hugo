@@ -1,13 +1,15 @@
 ---
 author: alex
 categories:
-- c
+- dev
+mainclass: dev
 date: '2016-01-01'
 lastmod: 2017-03-06T18:26:54+01:00
 description: "Los operadores new y delete ofrecen la posibilidad de reservar y liberar  de forma dinámica la porción de memoria que ocupa un objeto, de un modo similar  a la de las funciones malloc y free."
-mainclass: dev
 url: /clases-y-objetos-punteros-objetos/
 title: Clases y Objetos. Punteros a objetos
+tags:
+- c
 ---
 
 Los operadores **new y delete** ofrecen la posibilidad de reservar y liberar de forma dinámica la porción de memoria que ocupa un objeto, de un modo similar a la de las funciones **malloc y free**. La ventaja principal estriba en que **new y delete** forman parte del lenguaje C++, no son funciones de una librería. Hay dos tipos de operadores new y delete, según traten o no con arrays. En el segundo caso, **operator new**( admite opcionalmente una inicialización. La sentencia:

@@ -3,25 +3,20 @@ author: alex
 categories:
 - articulos
 - how to
-date: '2016-01-01'
-lastmod: 2017-03-04T07:51:42+01:00
-description: "Si encontraste esta página, por suerte es lo que estabas buscando,
-  una pequeña chuleta de comandos para GPG. Si encuentras algún error, no dudes
-  en comentarlo."
-image: 2014/04/Chuleta-de-comandos-GPG.png
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-09-25T12:37:07+01:00
+description: "Si encontraste esta página, por suerte es lo que estabas buscando,  una pequeña chuleta de comandos para GPG. Si encuentras algún error, no dudes  en comentarlo."
+image: 2014/04/Chuleta-de-comandos-GPG.png
 url: /chuleta-de-comandos-para-gpg/
 tags:
 - chuleta
-- chuleta de comandos gpg
 - gpg
-- manual gpg
-- tutorial gpg
 title: Chuleta de comandos para GPG
 ---
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/04/Chuleta-de-comandos-GPG.png" title="Chuleta de comandos para GPG" alt="Chuleta de comandos para GPG" width="400px" height="175px"></amp-img>
+    <amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/04/Chuleta-de-comandos-GPG.png" title="Chuleta de comandos para GPG" alt="Chuleta de comandos para GPG" width="400px" height="175px"></amp-img>
 </figure>
 
 Si encontraste esta página, por suerte es lo que estabas buscando, una pequeña chuleta de comandos para [GPG][1]. Si encuentras algún error, no dudes en comentarlo.
