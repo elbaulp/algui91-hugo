@@ -2,12 +2,12 @@
 author: alex
 categories:
 - dev
+mainclass: dev
 date: 2016-08-25 15:01:15
-lastmod: 2017-03-15T18:26:42+01:00
+lastmod: 2017-09-26T12:47:49+01:00
 description: "En este artículo veremos cómo crear comandos que usemos habitualmente  en emacs, asociándolos a una función para su posterior uso."
 image: como-crear-comandos-personalizados-en-emacs.png
 introduction: "Si usas mucho un comando en emacs, descubre como asociarlo a una función  para usarlo más rápido"
-mainclass: dev
 tags:
 - emacs
 - regex

@@ -1,45 +1,20 @@
 ---
 author: alex
 categories:
-- administracion de servidores
-- articulos
-- internet
+- servidores
+mainclass: servidores
 date: '2016-01-01'
-lastmod: 2017-03-13T16:13:17+01:00
+lastmod: 2017-09-26T12:45:36+01:00
 description: "En esta serie de artículos, intentaré explicar lo mejor posible  el funcionamiento de los servidores DNS, y cómo configurar el tuyo propio. Habrá  una parte más teórica sobre el funcionamiento del sistema, que es una traducción  de un artículo en howtoforge."
 image: 2013/04/dns.jpg
-mainclass: servidores
 url: /como-configurar-un-servidor-dns/
 tags:
-- A records
 - bind
-- bind tutorial dns
 - CNAME
-- como configurar un servidor dns
-- como montar servidor dns
-- como crear dns localhost
-- crear servidor dns
-- como crear una zona primaria en dns
-- configura un servidor dns
-- configuracion de namedconf
-- "configuración de servidores"
-- configuracion dns servidor dedicado
-- configuracion refresco zona dns
-- configuracion servidor dns
-- configurar bind9
-- configurar dns
-- configurar servidor dns
 - debian
-- implementar servidor dns en debian
 - MX records
 - named.conf
-- servidor debian
 - servidor dns
-- servidor dns debian
-- servidores dns
-- soa correo
-- configurar zona reversa en dns linux
-- servidor
 - DNS
 title: "Cómo configurar un servidor DNS - Parte 1 (Introducción)"
 ---
@@ -100,7 +75,7 @@ Por ejemplo, supongamos que quieres encontrar a **google.com**. Tu resolver pide
 Así, el servidor root envia la petición a un servidor COM. Éste último servidor dice: “*No tengo esa información, pero sé de un servidor de nombres que sí, tiene dirección 173.194.34.6 y nombre ns1.google.com. Dirígete a esa dirección y te dirá la dirección del sitio web google.com.”*
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Esquema servidores DNS" src="/img/2013/02/dns.png" width="513px" height="399px" />
+    <amp-img sizes="(min-width: 513px) 513px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Esquema servidores DNS" src="/img/2013/02/dns.png" width="513px" height="399px" />
 </figure>
 
 En la figura de arriba, la parte superior izquierda representa los servidores root. En la jerga DNS, éstos servidores reprensentan el comienzo del camino en el sistema DNS. Suelen representarse con un punto (“.”). En los archivos de configuración, el mapeo entre IP y nombre acabará en un punto. A lo largo de esta series de artículos quedará más claro este concepto.
@@ -114,8 +89,8 @@ En este punto es donde **BIND** entra en acción. El primer componente que menci
 En la figura 2, *named* ha recibido una petición. Busca en su fichero de configuración *named.conf*, que busca en el archivo de zona primaria y pasa la información solicitada al resolver desde el exterior.
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Figura 2 - Respondiendo a una petición" src="/img/2013/02/config.png" width="411px" height="185px" />
-<figcaption>Figura 2 - Respondiendo a una petición</figcaption>
+    <amp-img sizes="(min-width: 411px) 411px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Figura 2 - Respondiendo a una petición" src="/img/2013/02/config.png" width="411px" height="185px" />
+    <figcaption>Figura 2 - Respondiendo a una petición</figcaption>
 </figure>
 
 # Usando Named.conf

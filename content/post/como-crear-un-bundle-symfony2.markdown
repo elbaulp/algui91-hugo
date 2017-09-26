@@ -2,14 +2,12 @@
 author: colaboraciones
 categories:
 - dev
-date: 2015-06-22 09:00:00
-lastmod: 2017-03-17T18:29:24+01:00
-description: "En este articulo vamos a ver los pasos que he seguido para crear un  bundle de symfony 2 de forma que sea redistribuible mediante composer. Este bundle  servirá para facilitar la interacción con la api de smsup, desde symfony2  y poder enviar sms masivos. Es un bundle simple, pero tiene varias cosas interesantes  (requiere otra librería, utiliza parámetros de configuración, etc.), y  puede ser una buena introducción."
 mainclass: dev
+date: 2015-06-22 09:00:00
+lastmod: 2017-09-26T12:50:08+01:00
+description: "En este articulo vamos a ver los pasos que he seguido para crear un  bundle de symfony 2 de forma que sea redistribuible mediante composer. Este bundle  servirá para facilitar la interacción con la api de smsup, desde symfony2  y poder enviar sms masivos. Es un bundle simple, pero tiene varias cosas interesantes  (requiere otra librería, utiliza parámetros de configuración, etc.), y  puede ser una buena introducción."
 tags:
-- bundle
 - php
-- Symfony2
 title: "Cómo Crear Un Bundle Symfony2"
 ---
 

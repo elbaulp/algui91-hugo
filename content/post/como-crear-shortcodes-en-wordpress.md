@@ -2,14 +2,13 @@
 author: alex
 categories:
 - how to
-- php
-date: '2016-01-01'
-lastmod: 2017-03-17T18:05:21+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-26T12:49:51+01:00
 url: /como-crear-shortcodes-en-wordpress/
 tags:
-- shortcodes
-- wordpress shortcodes
+- php
 - wordpress
 title: "Cómo crear shortcodes en WordPress que soporten parámetros"
 ---
