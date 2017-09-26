@@ -3,9 +3,8 @@ author: alex
 categories:
 - how to
 - linux
-- opensource
 date: '2016-01-01'
-lastmod: 2017-03-18T12:30:20+01:00
+lastmod: 2017-09-26T16:56:15+01:00
 mainclass: articulos
 url: /como-crear-un-repositorio-ppa-how/
 title: Como crear un PPA (Personal Package Archive)

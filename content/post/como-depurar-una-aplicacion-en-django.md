@@ -1,18 +1,15 @@
 ---
 author: alex
 categories:
-- django
-date: '2016-01-01'
-lastmod: 2017-03-20T10:01:02+01:00
-image: 2013/10/django.png
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-26T16:57:28+01:00
+image: 2013/10/django.png
 url: /como-depurar-una-aplicacion-en-django/
 tags:
-- depuracion
-- depurar aplicacion django
-- depurar django
+- depurar
 - django
-- pdb
 title: "Cómo depurar una aplicación en Django"
 ---
 

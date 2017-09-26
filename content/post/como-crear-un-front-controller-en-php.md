@@ -1,18 +1,16 @@
 ---
-author: alex
+author: colaboraciones
 categories:
-- php
+- dev
+mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-03-18T12:21:11+01:00
+lastmod: 2017-09-26T16:54:28+01:00
 description: "La semana pasada, en el Curso de Programación PHP guay, desarrollamos  una agenda PHP basada en archivos CSV. El ejercicio era tan sencillo que no utilizamos  ningún framework de desarrollo de aplicaciones como por ejemplo Symfony, Laravel  o Yii, pero sí que aplicamos algunas ideas de análisis para afrontar nuestro  desarrollo con garantías de éxito."
 image: https://img.youtube.com/vi/eYoDqz29qSA/0.jpg
-mainclass: dev
 url: /como-crear-un-front-controller-en-php/
 tags:
-- apache
-- front controller
 - nginx
-- "patrones de diseño"
+- php
 title: "Cómo crear un Front Controller en PHP"
 ---
 
