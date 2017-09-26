@@ -2,18 +2,13 @@
 author: alex
 categories:
 - android
+- dev
+mainclass: android
 date: '2016-01-01'
+lastmod: 2017-09-26T12:50:58+01:00
 description: "Este año estoy participando en el concurso universitario de software  libre, concretamente en el proyecto SWADroid. Mi intención es explicar todo lo  que vaya aprendiendo mientras participo en el desarrollo del proyecto. Este primer  artículo comienza un historial que llevará cuenta de todos los avances logrados."
 image: 2014/01/CrearDialogoAndroid.png
-lastmod: 2017-03-17T18:30:42+01:00
-mainclass: android
 url: /como-crear-un-dialogo-personalizado-en-las-preferencias-android/
-tags:
-- dialogo personalizado android
-- dialogpreference
-- preferencias android
-- settings android
-- swadroid
 title: "Cómo crear un diálogo personalizado en las preferencias Android"
 ---
 

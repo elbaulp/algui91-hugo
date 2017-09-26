@@ -1,47 +1,19 @@
 ---
 author: alex
 categories:
-- administracion de servidores
-- articulos
-- internet
-date: '2016-01-01'
-lastmod: 2017-03-13T16:10:38+01:00
-image: 2013/04/dns.jpg
+- servidores
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-09-26T12:44:26+01:00
+image: 2013/04/dns.jpg
 url: /como-configurar-un-servidor-dns3/
 tags:
-- A records
 - bind
-- bind tutorial dns
 - CNAME
-- como crear dns localhost
-- crear servidor dns
-- como montar servidor dns
-- como crear una zona primaria en dns
-- configura un servidor dns
-- "configuración de servidores"
-- configuracion dns servidor dedicado
-- configuracion refresco zona dns
-- configuracion servidor dns
-- configuracion zona dns dominio
-- configurar dns
-- configurar servidor dns
 - debian
-- dns dedicado ovh
-- implementar servidor dns en debian
-- in-addr.arpa
 - MX records
 - named.conf
-- ovh
-- servidor debian
-- servidor dedicado ovh
 - servidor dns
-- servidor dns debian
-- servidor dns secundario ovh
-- servidores dns
-- soa correo
-- zona dns inversa
-- servidor
 - DNS
 title: "Cómo configurar un servidor DNS - Parte 3 (Zona Inversa y DNS secundario)"
 ---

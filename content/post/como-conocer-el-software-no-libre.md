@@ -1,13 +1,11 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- curiosidades
 - how to
 - linux
-date: '2016-01-01'
-lastmod: 2017-03-15T18:23:50+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-26T12:46:14+01:00
 url: /como-conocer-el-software-no-libre/
 title: "Cómo conocer el software \u201Cno libre\u201D instalado en nuestro equipo"
 ---

@@ -1,17 +1,15 @@
 ---
 author: alex
 categories:
-- administracion de servidores
-date: '2016-01-01'
-lastmod: 2017-03-13T16:04:51+01:00
-description: "Hoy vamos a hablar de cómo configurar un Balanceador de carga para  un servidor. Veremos dos alternativas, configurarlo todo a mano, o desde un entorno  cloud virtualizado, desde el panel de control de Arsys. Está claro que, la segunda  opción, será mucho más sencilla. Aún así, con la primera se aprenderá  qué está pasando realmente por debajo."
+- servidores
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-09-26T12:22:52+01:00
+description: "Hoy vamos a hablar de cómo configurar un Balanceador de carga para  un servidor. Veremos dos alternativas, configurarlo todo a mano, o desde un entorno  cloud virtualizado, desde el panel de control de Arsys. Está claro que, la segunda  opción, será mucho más sencilla. Aún así, con la primera se aprenderá  qué está pasando realmente por debajo."
 url: /como-configurar-un-balanceador-de-carga-en-entornos-cloud/
-tags:
-- balanceador de carga
-- configurar load balancer nginx
-- load balancers
 title: "Cómo configurar un balanceador de carga en entornos cloud"
+tags:
+- nginx
 ---
 
 Hoy vamos a hablar de cómo configurar un Balanceador de carga para un servidor. Veremos dos alternativas, configurarlo todo a mano, o desde un entorno cloud virtualizado, desde el panel de control de [Arsys][1]. Está claro que, la segunda opción, será mucho más sencilla. Aún así, con la primera se aprenderá qué está pasando realmente por debajo.
@@ -98,17 +96,24 @@ Visto cómo crear el balanceo de carga a mano, ahora pasemos a administrar y cre
 
 Para ello, en el panel de control hacemos click en *Red* » Balanceadores. Allí crearemos uno nuevo
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga1.png" alt="Balanceadoresdecarga1" width="815px" height="531px" />
+<figure>
+    <amp-img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga1.png" alt="Balanceadoresdecarga1" width="815px" height="531px" />
+</figure>
 
 Donde se especifica el nombre, puertos y direcciones a usar.
 
 El siguiente paso es elegir el tipo de Control de estado a realizar, y el método de balanceo (Round robin o least connections)
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga2.png" alt="Balanceadoresdecarga2" width="812px" height="532px" />
+<figure>
+    <amp-img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga2.png" alt="Balanceadoresdecarga2" width="812px" height="532px" />
+</figure>
+
 
 Por último, se especifica la aplicación que será balanceada entre todos los servidores virtuales disponibles.
 
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga3.png" alt="Balanceadoresdecarga3" width="815px" height="529px" />
+<figure>
+    <amp-img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga3.png" alt="Balanceadoresdecarga3" width="815px" height="529px" />
+</figure>
 
 # Ventajas y desventajas
 
@@ -117,7 +122,5 @@ La opción de crear y configurar el balanceador a mano puede ser buena para apre
 # Referencias
 
 - *Nginx Docs* »» <a href="http://nginx.org/en/docs/http/load_balancing.html" target="_blank">nginx.org</a>
-
-
 
  [1]: http://www.arsys.es/servidores/cloud?utm_source=cooperation&utm;_medium=baul&utm;_term=balanceador&utm;_content=online&utm;_campaign=cloud
