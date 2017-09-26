@@ -2,25 +2,19 @@
 author: alex
 categories:
 - linux
+- how to
+mainclass: linux
 date: '2016-01-01'
+lastmod: 2017-09-26T17:02:30+01:00
 description: "Este artículo tiene su origen en una pregunta a la que respondí  en *serverfault*, el usuario preguntaba *How to detect exceptionally long file locks  in linux?*. Aunque mi respuesta no solucionó su problema, creo que la explicación  puede ser de utilidad para alguien. A continuación escribo la traducción de  mi respuesta al usuario"
 image: como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg
-lastmod: 2017-03-20T10:05:15+01:00
-mainclass: linux
 url: /como-detectar-ficheros-con-bloqueocerrojo-en-linux/
-tags:
-- bloqueos ficheros
-- cerrojos
-- fcntl
-- file locks
-- flock
-- locks
 title: "¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?"
 ---
 
 <figure>
-<a href="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg" title="¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?" alt="¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?" width="640px" height="640px" /></a>
-<span class="image-credit">Crédito de la imagen: pixabay.com</span>
+    <a href="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg"><amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/como-detectar-ficheros-con-bloqueocerrojo-en-linux.jpg" title="¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?" alt="¿Cómo detectar ficheros con bloqueo/cerrojo en Linux?" width="640px" height="640px" /></a>
+    <span class="image-credit">Crédito de la imagen: pixabay.com</span>
 </figure>
 
 Éste artículo tiene su origen en una pregunta a la que respondí en *serverfault*, el usuario preguntaba *How to detect exceptionally long file locks in linux?*. Aunque mi respuesta no solucionó su problema, creo que la explicación puede ser de utilidad para alguien. A continuación escribo la traducción de mi respuesta al usuario:

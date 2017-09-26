@@ -1,18 +1,15 @@
 ---
 author: alex
 categories:
-- aplicaciones
 - how to
-- internet
-date: '2016-01-01'
-lastmod: 2017-03-20T10:03:58+01:00
+- linux
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-26T17:01:48+01:00
 url: /como-descargar-archivos-de-una-web-por-extension-con-wget/
 tags:
-- "android studio español guia"
-- android studio tutorial
-- descargar por extension wget
-- wget
+- aplicaciones
+- internet
 title: "Cómo descargar archivos de una web por extensión con wget"
 ---
 

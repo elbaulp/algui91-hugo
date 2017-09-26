@@ -1,21 +1,16 @@
 ---
 author: alex
-categories: [latex]
+categories: [latex, dev]
+mainclass: latex
 date: 2015-12-09 15:55:32
-lastmod: 2017-03-18T12:31:22+01:00
+lastmod: 2017-09-26T16:56:39+01:00
 description: "En este artículo veremos cómo podemos definir colores personalizados  en LateX usando el paquete xcolor."
 image: latexxcolorbrillantes.png
-mainclass: latex
-tags:
-- latex
-- xcolor
-- paquete xcolor
-- tutorial xcolor latex
 title: "Cómo Definir Colores Personalizados en LaTeX"
 ---
 
 <figure>
-<amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="114px" />
+    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="114px" />
 </figure>
 
 > Os traigo hoy otro artículo interesante que he encontrado en el blog de <a href="http://texblog.org" target="_blank" title="http://texblog.org">blog de Tom</a>. Veremos cómo es posible definir colores personalizados en LaTeX con el paquete `xcolor`.
@@ -45,8 +40,8 @@ El paquete <a href="http://mirrors.ctan.org/macros/latex/contrib/xcolor/xcolor.p
 ```
 
 <figure>
-<a href="/img/xcolorlatex1.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/xcolorlatex1.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="154px" /></a>
-<span class="image-credit">Crédito de la imagen: texblog.org</span>
+    <a href="/img/xcolorlatex1.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/xcolorlatex1.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="154px" /></a>
+    <span class="image-credit">Crédito de la imagen: texblog.org</span>
 </figure>
 
 # Mezclar colores usando un modelo de color
@@ -70,8 +65,8 @@ El paquete xcolor permite definir colores usando modelos de color (_gris, RGB, H
 ```
 
 <figure>
-<a href="/img/xcolorlatex2.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/xcolorlatex2.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="142px" /></a>
-<span class="image-credit">Crédito de la imagen: texblog.org</span>
+    <a href="/img/xcolorlatex2.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/xcolorlatex2.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="142px" /></a>
+    <span class="image-credit">Crédito de la imagen: texblog.org</span>
 </figure>
 
 # Mezclar dos colores
