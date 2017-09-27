@@ -2,16 +2,13 @@
 author: alex
 categories:
 - android
-date: 2015-06-30 16:48:42
-lastmod: 2017-03-21T16:36:53+01:00
-description: "Cómo solucionar un ListView no capturando el foco cuando está  dentro de un ScrollView"
+- dev
 mainclass: android
+date: 2015-06-30 16:48:42
+lastmod: 2017-09-27T13:47:15+01:00
+description: "Cómo solucionar un ListView no capturando el foco cuando está  dentro de un ScrollView"
 tags:
-- android
-- Scroll
-- ScrollView
 - ListView
-- setOnTouchListener
 title: "Cómo Hacer Scroll en Un ListView Que Está Dentro De Un ScrollView en  Android"
 ---
 
@@ -52,9 +49,4 @@ miListView.setOnTouchListener(new View.OnTouchListener() {
 
 La documentación oficial del método es:
 
->Called when a child does not want this parent and its ancestors to intercept touch events with onInterceptTouchEvent(MotionEvent).
-This parent should pass this call onto its parents. This parent must obey this request for the duration of the touch (that is, only clear the flag after this parent has received an up or a cancel.
-Parameters
-disallowIntercept 	True if the child does not want the parent to intercept touch events.
-
-Es decir, le pasaremos `true` cuando la vista hija no quiera que el padre intercepte eventos `onTouch`.
+>Called when a child does not want this parent and its ancestors to intercept touch events with onInterceptTouchEvent(MotionEvent). This parent should pass this call onto its parents. This parent must obey this request for the duration of the touch (that is, only clear the flag after this parent has received an up or a cancel. Parameters disallowIntercept 	True if the child does not want the parent to intercept touch events. Es decir, le pasaremos `true` cuando la vista hija no quiera que el padre intercepte eventos `onTouch`.

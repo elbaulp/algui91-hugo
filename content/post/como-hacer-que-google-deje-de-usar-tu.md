@@ -2,10 +2,10 @@
 author: alex
 categories:
 - how to
-- noticias
-date: '2016-01-01'
-lastmod: 2017-03-21T16:36:30+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-09-27T13:47:08+01:00
 url: /como-hacer-que-google-deje-de-usar-tu/
 title: "Cómo hacer que google deje de usar tu Wifi para obtener datos de geolocalización"
 ---

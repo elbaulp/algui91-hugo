@@ -1,19 +1,16 @@
 ---
 author: alex
 categories:
-- administracion de servidores
+- servidores
 - how to
-date: '2016-01-01'
-lastmod: 2017-03-21T16:44:32+01:00
-image: 2013/02/nginx-logo.png
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-09-27T13:53:03+01:00
+image: 2013/02/nginx-logo.png
 url: /como-instalar-nginx-con-php5-fpm/
 tags:
-- configurar nginx
-- configurar servidor nginx debian
-- instalar nginx
 - nginx
-- php-fpm
+- php
 - servidor web
 title: "Cómo instalar y configurar Nginx con php5-fpm"
 ---
@@ -115,13 +112,13 @@ Ahora estamos en condiciones de ejecutar nginx:
 Listo, nos dirigimos a nuestro navegador y escribimos en la barra de direcciones **localhost**. Si todo ha ido bien deberíamos ver esta pantalla:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/instalar-nginx-en-debian-1024x818.png" alt="instalar nginx en debian" width="1024px" height="818px"></amp-img>
+    <amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/instalar-nginx-en-debian-1024x818.png" alt="instalar nginx en debian" width="1024px" height="818px"></amp-img>
 </figure>
 
 Usando firebug se puede comprobar que efectivamente se está corriendo un servidor nginx:
 
 <figure>
-    <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/instalar-nginx-en-debian2.png" alt="instalar nginx en debian2" width="641px" height="150px"></amp-img>
+    <amp-img sizes="(min-width: 641px) 641px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/instalar-nginx-en-debian2.png" alt="instalar nginx en debian2" width="641px" height="150px"></amp-img>
 </figure>
 
 # Modificando la configuración por defecto

@@ -2,6 +2,7 @@
 author: colaboraciones
 categories:
 - dev
+- how to
 mainclass: dev
 date: 2015-06-22 09:00:00
 lastmod: 2017-09-26T12:50:08+01:00

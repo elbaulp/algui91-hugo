@@ -1,16 +1,15 @@
 ---
 author: alex
 categories:
-- administracion de servidores
-date: '2016-01-01'
-lastmod: 2017-03-21T16:34:11+01:00
+- servidores
+- how to
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-09-27T13:46:00+01:00
 url: /como-hablitar-la-pagina-de-estado-en-nginx/
 tags:
-- estadisticas nginx
-- estado nginx
-- estado servidor web nginx
 - nginx
+- servidor web
 title: "Cómo habilitar la página de estado en Nginx"
 ---
 

@@ -1,17 +1,15 @@
 ---
 author: alex
 categories:
-- c
+- dev
 - how to
-date: '2016-01-01'
-lastmod: 2017-03-20T10:17:31+01:00
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-27T13:41:55+01:00
 url: /como-evitar-que-se-aplique-ingenieria-inversa-a-un-ejecutable/
 tags:
-- evitar ingenieria inversa
-- funcion ptrace C
-- ingenieria inversa C
-- ptrace
+- ingenieria inversa
+- c
 title: "Cómo evitar que se aplique ingeniería inversa a un ejecutable"
 ---
 

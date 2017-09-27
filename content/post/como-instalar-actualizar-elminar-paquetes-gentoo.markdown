@@ -2,19 +2,18 @@
 author: alex
 categories:
 - linux
-- gentoo
+- how to
+mainclass: linux
 date: 2016-07-29 10:20:01
-lastmod: 2017-03-21T16:38:56+01:00
+lastmod: 2017-09-27T13:49:07+01:00
 description: Chuleta de comandos para administrar gentoo, instalar, actualizar y borrar  paquetes
 image: como-instalar-actualizar-elminar-paquetes-gentoo.png
 introduction: Chuleta de comandos para administrar gentoo, instalar, actualizar y  borrar paquetes
-mainclass: linux
 tags:
 - gentoo
 - portage
 - emerge
-- eclean
-- emaint
+- chuleta
 title: "Cómo Instalar/actualizar/eliminar Paquetes en Gentoo"
 ---
 
@@ -251,7 +250,7 @@ Filesystem Size  Used Avail Use%                                                
 /dev/sdb1  110G   11G   94G  9.8 [########...........................................................................] /home/hkr/ssd2
 ```
 
-### Referencias
+# Referencias
 
 - [Gentoo Cheat Sheet](https://wiki.gentoo.org/wiki/Gentoo_Cheat_Sheet "CheatSheet de Gentoo" )
 - [Equery](https://wiki.gentoo.org/wiki/Equery "Página de Equery" )

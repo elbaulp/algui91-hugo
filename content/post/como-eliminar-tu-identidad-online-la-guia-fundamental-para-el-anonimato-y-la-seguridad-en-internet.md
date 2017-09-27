@@ -2,18 +2,16 @@
 author: luzila
 categories:
 - articulos
+- seguridad
+- how to
+mainclass: seguridad
 date: '2016-01-01'
+lastmod: 2017-09-27T13:37:15+01:00
 description: "El anonimato es algo que no existe hoy en día. Todo lo que haces  es trackeado, desde las compras que haces para navegar en internet, hasta las fotos  que tomas con tu iPhone. Todo lo que alguna vez dijiste e hiciste en internet todavía  está allí, en algún lado. Esto es llamado *caching*. Por ejemplo, cuando  un sitio está caido, puedes ver su página cacheada en Google."
 image: 2014/10/draft.jpg
-lastmod: 2017-03-20T11:17:03+01:00
-mainclass: articulos
 url: /como-eliminar-tu-identidad-online-la-guia-fundamental-para-el-anonimato-y-la-seguridad-en-internet/
 tags:
-- anonimato en la red
-- anonimato internet
-- redes sociales
-- seguridad
-- tracking
+- privacidad
 title: "Cómo eliminar tu identidad online: Guía Fundamental para el Anonimato  y Seguridad en Internet"
 ---
 

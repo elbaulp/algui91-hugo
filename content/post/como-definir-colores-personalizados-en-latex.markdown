@@ -1,6 +1,6 @@
 ---
 author: alex
-categories: [latex, dev]
+categories: [latex, dev, how to]
 mainclass: latex
 date: 2015-12-09 15:55:32
 lastmod: 2017-09-26T16:56:39+01:00
