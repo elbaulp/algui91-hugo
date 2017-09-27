@@ -1,15 +1,15 @@
 ---
 author: alex
 categories:
-- administracion de servidores
-date: '2016-01-01'
-lastmod: 2017-03-20T10:15:57+01:00
-description: "En sistemas operativos como Debian, muchos de los programas y demonios  envían mensajes al usuario root para informar del estado del sistema. Los mensajes  se almacenan en el archivo /var/mail/root. El problema es que se almacena el correo  en texto plano, es decir, con todas las cabeceras típicas del protocolo de correo.  Pueden usarse programas como mutt para administrar los mensajes. Sin embargo, considero  más organizado redireccionar todos los mensajes a una cuenta de correo típica."
+- servidores
+- how to
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-09-27T13:41:38+01:00
+description: "En sistemas operativos como Debian, muchos de los programas y demonios  envían mensajes al usuario root para informar del estado del sistema. Los mensajes  se almacenan en el archivo /var/mail/root. El problema es que se almacena el correo  en texto plano, es decir, con todas las cabeceras típicas del protocolo de correo.  Pueden usarse programas como mutt para administrar los mensajes. Sin embargo, considero  más organizado redireccionar todos los mensajes a una cuenta de correo típica."
 url: /como-enviar-los-emails-de-varmailroot-una-cuenta-de-correo/
 tags:
-- /var/mail/root a gmail
-- enviar mensajes del sistema a correo
+- emails
 title: "Cómo enviar los emails de /var/mail/root a una cuenta de correo"
 ---
 

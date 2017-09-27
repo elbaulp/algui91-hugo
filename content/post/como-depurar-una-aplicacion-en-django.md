@@ -2,6 +2,7 @@
 author: alex
 categories:
 - dev
+- how to
 mainclass: dev
 date: '2016-01-01'
 lastmod: 2017-09-26T16:57:28+01:00

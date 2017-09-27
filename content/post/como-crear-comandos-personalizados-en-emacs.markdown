@@ -2,6 +2,7 @@
 author: alex
 categories:
 - dev
+- how to
 mainclass: dev
 date: 2016-08-25 15:01:15
 lastmod: 2017-09-26T12:47:49+01:00

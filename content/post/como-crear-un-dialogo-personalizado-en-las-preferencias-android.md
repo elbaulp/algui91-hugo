@@ -3,6 +3,7 @@ author: alex
 categories:
 - android
 - dev
+- how to
 mainclass: android
 date: '2016-01-01'
 lastmod: 2017-09-26T12:50:58+01:00

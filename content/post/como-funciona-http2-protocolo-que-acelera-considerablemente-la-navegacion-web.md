@@ -4,17 +4,14 @@ amp:
   elements: [amp-youtube]
 categories:
 - security now
-date: '2016-01-01'
-lastmod: 2017-03-21T16:13:21+01:00
+- how to
+- seguridad
 mainclass: security-now
+date: '2016-01-01'
+lastmod: 2017-09-27T13:45:00+01:00
 url: /como-funciona-http2-protocolo-que-acelera-considerablemente-la-navegacion-web/
 tags:
-- como funciona http2
-- detalles tecnicos http2
-- http2
-- spdy
-- "implementación http2"
-- protocolo http2
+- protocolos
 title: "Cómo funciona HTTP/2, protocolo que acelerá considerablemente la navegación  Web"
 ---
 

@@ -3,6 +3,7 @@ author: alex
 categories:
 - latex
 - dev
+- how to
 mainclass: latex
 date: 2015-05-27 10:28:05
 lastmod: 2017-09-26T12:48:40+01:00

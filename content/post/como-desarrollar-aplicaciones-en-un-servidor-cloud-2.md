@@ -3,6 +3,7 @@ author: alex
 categories:
 - dev
 - servidores
+- how to
 mainclass: servidores
 date: '2016-01-01'
 lastmod: 2017-09-26T16:58:42+01:00

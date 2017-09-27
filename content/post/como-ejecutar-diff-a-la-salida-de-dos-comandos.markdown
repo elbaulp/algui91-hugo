@@ -2,20 +2,14 @@
 author: alex
 categories:
 - dev
+- how to
+mainclass: dev
 date: 2016-01-07 11:54:12
-lastmod: 2017-03-20T10:06:55+01:00
+lastmod: 2017-09-27T13:35:28+01:00
 description: "Recientemente necesité ejecutar el comando `diff` sobre la salida  de otros dos comandos. Es decir, `diff` recibe como parámetros los ficheros sobre  los que se quiere mostrar las diferencias, pero yo buscaba hacer un `diff` a la  salida de dos comandos, no dos ficheros."
 image: Como-Ejecutar-Diff-a-La-Salida-De-Dos-Comandos.png
-mainclass: dev
 tags:
-- comando diff
-- ejemplos diff
-- diff sin ficheros
-- diff con parametros
-- diff salida dos comandos
-- "diff tuberías"
-- diff pipes
-- diff
+- bash
 title: "Cómo Ejecutar Diff a La Salida De Dos Comandos"
 ---
 

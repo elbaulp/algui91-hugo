@@ -2,19 +2,12 @@
 author: alex
 categories:
 - security now
-date: '2016-01-01'
-lastmod: 2017-03-21T16:08:55+01:00
+- seguridad
+- how to
 mainclass: security-now
+date: '2016-01-01'
+lastmod: 2017-09-27T13:43:00+01:00
 url: /como-funciona-el-bitcoin-la-cripto-moneda/
-tags:
-- bitcoin es
-- como funciona bitcoin
-- "cómo funciona el bitcoin"
-- "explicación bitcoin"
-- "qué es el bitcoin"
-- red bitcoin
-- sistema bitcoin
-- webs aceptan bitcoin
 title: "Cómo funciona el Bitcoin, la cripto-moneda"
 amp:
   elements: [amp-youtube]
