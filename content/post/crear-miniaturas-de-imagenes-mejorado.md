@@ -2,13 +2,13 @@
 author: alex
 categories:
 - linux
-- script
-date: '2016-01-01'
-lastmod: 2017-04-02T19:29:28+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-28T20:16:32+01:00
 url: /crear-miniaturas-de-imagenes-mejorado/
 tags:
-- crear miniaturas de imagenes
+- script
+- bash
 title: "Crear miniaturas de imágenes [Mejorado]"
 ---
 

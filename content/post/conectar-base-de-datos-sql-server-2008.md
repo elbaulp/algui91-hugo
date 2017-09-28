@@ -2,18 +2,14 @@
 author: alex
 categories:
 - android
-- aplicaciones
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-03-29T16:12:39+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-09-28T20:06:30+01:00
 url: /conectar-base-de-datos-sql-server-2008/
 tags:
-- android jdbc sqlserver 2008
-- android sqlserver
-- conectar java con oracle
-- curso android pdf
-- programar base datoss java
+- java
 title: "Conectar base de datos sql Server 2008 a aplicación Java remotamente"
 ---
 

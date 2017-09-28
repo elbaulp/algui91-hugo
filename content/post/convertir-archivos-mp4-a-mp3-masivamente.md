@@ -1,15 +1,15 @@
 ---
 author: alex
 categories:
-- script
-date: '2016-01-01'
-lastmod: 2017-04-02T19:20:01+01:00
+- articulos
+- linux
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-28T20:11:52+01:00
 url: /convertir-archivos-mp4-a-mp3-masivamente/
 tags:
 - bash
-- ffmpeg
-- mp4 to mp3
+- script
 title: "Convertir archivos mp4 a mp3 masívamente"
 ---
 

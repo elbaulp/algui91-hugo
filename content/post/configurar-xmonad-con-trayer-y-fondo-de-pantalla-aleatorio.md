@@ -3,14 +3,10 @@ author: alex
 categories:
 - how to
 - linux
-date: '2016-01-01'
-lastmod: 2017-03-30T17:09:13+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-28T20:09:23+01:00
 url: /configurar-xmonad-con-trayer-y-fondo-de-pantalla-aleatorio/
-tags:
-- feh
-- trayer
-- xmonad
 title: Configurar xmonad con trayer y fondo de pantalla aleatorio
 ---
 

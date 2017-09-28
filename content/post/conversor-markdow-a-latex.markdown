@@ -2,15 +2,12 @@
 author: alex
 categories:
 - dev
-date: 2016-05-09 11:20:10
-lastmod: 2017-03-30T17:19:32+01:00
-description: "Hace tiempo, para la asignatura \u201CModelos de Computación\u201D  desarrollé un conversor de MarkDown a LaTeX usando flex. Básicamente con flex  se van reconociendo partes del documento MarkDown mediante expresiones regulares  y se traduce a su comando homólogo en LaTeX."
 mainclass: dev
+date: 2016-05-09 11:20:10
+lastmod: 2017-09-28T20:10:33+01:00
+description: "Hace tiempo, para la asignatura \u201CModelos de Computación\u201D  desarrollé un conversor de MarkDown a LaTeX usando flex. Básicamente con flex  se van reconociendo partes del documento MarkDown mediante expresiones regulares  y se traduce a su comando homólogo en LaTeX."
 tags:
-- MarkDown
-- conversor latex markdown
-- lex
-- tutorial lex
+- c
 title: Un Conversor De Markdown a LaTeX Casero en Lex
 ---
 

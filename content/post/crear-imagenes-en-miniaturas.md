@@ -1,12 +1,15 @@
 ---
 author: alex
 categories:
-- script
-date: '2016-01-01'
-lastmod: 2017-04-02T19:28:47+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-09-28T20:15:52+01:00
 url: /crear-imagenes-en-miniaturas/
 title: "Crear miniaturas de imágenes"
+tags:
+- script
+- bash
 ---
 
 > Creé una Versión mejorada de este script [aquí][1]
