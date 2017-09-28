@@ -2,18 +2,13 @@
 author: alex
 categories:
 - android
+- dev
+mainclass: android
 date: '2016-01-01'
-lastmod: 2017-04-02T19:26:04+01:00
+lastmod: 2017-09-28T20:14:17+01:00
 description: "Para una aplicación que estoy haciendo, me hacía falta ser capaz  de mostrar un enlace al usuario de forma similar al que se crean en las páginas  webs con la etiqueta &lt;a href=\u201D\u201D&gt;&lt;/a&gt;."
 image: 2013/05/setMovementMethod-example.png
-mainclass: android
 url: /crear-enlaces-en-un-textview-con-la-etiqueta-html-a-href-en-android/
-tags:
-- a href android xml
-- crear enlaces cadenas de texto android
-- etiqueta a href android
-- etiqueta a href string.xml
-- etiqueta a href TextView android
 title: Crear enlaces en un TextView con la etiqueta HTML
 ---
 

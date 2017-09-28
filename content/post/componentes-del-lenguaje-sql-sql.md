@@ -2,9 +2,9 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-03-29T16:10:56+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-09-28T20:05:26+01:00
 url: /componentes-del-lenguaje-sql-sql/
 title: Componentes del lenguaje SQL
 ---

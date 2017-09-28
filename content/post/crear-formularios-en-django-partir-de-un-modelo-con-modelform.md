@@ -1,16 +1,15 @@
 ---
 author: alex
 categories:
-- django
+- dev
+mainclass: dev
 date: '2016-01-01'
 image: 2013/10/django.png
-lastmod: 2017-04-02T19:27:09+01:00
-mainclass: dev
+lastmod: 2017-09-28T20:15:24+01:00
 url: /crear-formularios-en-django-partir-de-un-modelo-con-modelform/
 tags:
-- crear formularios a partir del modelo django
-- crear formularios en django
-- formularios en django
+- django
+- python
 title: Crear formularios en Django a partir de un Modelo con ModelForm
 ---
 

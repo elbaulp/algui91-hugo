@@ -1,24 +1,22 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- curiosidades
-- opensource
-- script
-date: '2016-01-01'
-lastmod: 2017-03-29T16:13:13+01:00
+- dev
+- linux
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-28T20:07:20+01:00
 url: /configurar-dos-pantallas-en-openbox/
 tags:
-- configuracion openbox
-- crunchbang cambiar wallpaper
-- debian openbox distro
+- script
 - openbox
-- wallpaper para openbox
 title: Configurar dos pantallas en OpenBox bajo CruchBang y wallpaper aleatorio
 ---
 
-<amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="128" width="128" src="https://1.bp.blogspot.com/-iiunZ-gX5Y8/T0TbVE86pHI/AAAAAAAACGw/wmYeZWkIe-s/s400/1329912632_stock_connect.png" />
+<figure>
+    <amp-img sizes="(min-width: 128px) 128px, 100vw" sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="128" width="128" src="https://1.bp.blogspot.com/-iiunZ-gX5Y8/T0TbVE86pHI/AAAAAAAACGw/wmYeZWkIe-s/s400/1329912632_stock_connect.png" />
+</figure>
+
 
 Llevaba tiempo queriendo instalar en mi equipo la distribución <a target="_blank" href="http://crunchbanglinux.org/">CrunchBang</a>, que es una distro muy ligera basada en debian que viene con <a target="_blank" href="http://openbox.org/">openbox</a>, este fin de semana finalmente me decidí a instalarla para probarla y la he dejado ya que me ha gustado bastante por si simpleza y capacidad de configuración.
 

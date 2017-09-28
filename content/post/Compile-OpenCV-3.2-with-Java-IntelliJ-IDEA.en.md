@@ -1,11 +1,11 @@
 +++
 tags = ["opencv", "java"]
 categories = ["dev"]
+mainclass = "dev"
 date = "2017-01-25"
-lastmod = "2017-03-29T16:20:12+01:00"
+lastmod: 2017-09-28T20:04:28+01:00
 title = "Compile OpenCV 3.2 with Java and use it in IntelliJ IDEA"
 image = "example-face-detection-with-opencv.png"
-mainclass = "dev"
 author = "cristina"
 description = "If you are wishing to compile OpenCV 3.2 by your own with Java support, possibly this will help. Also it is for you if, done that, you want to use it in IntelliJ IDEA. Let's start!"
 +++

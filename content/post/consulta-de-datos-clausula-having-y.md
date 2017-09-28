@@ -6,8 +6,6 @@ date: '2016-01-01'
 lastmod: 2017-03-30T17:16:43+01:00
 mainclass: BaseDeDatos
 url: /consulta-de-datos-clausula-having-y/
-tags:
-- base de datos having
 title: "Consulta de Datos - Cláusula HAVING y ORDER BY"
 ---
 

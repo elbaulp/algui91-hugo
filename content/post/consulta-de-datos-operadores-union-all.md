@@ -6,8 +6,6 @@ date: '2016-01-01'
 lastmod: 2017-03-30T17:18:00+01:00
 mainclass: BaseDeDatos
 url: /consulta-de-datos-operadores-union-all/
-tags:
-- MINUS pl sql
 title: Consulta de Datos - Operadores UNION [ALL], INTERSECT, MINUS.
 ---
 
