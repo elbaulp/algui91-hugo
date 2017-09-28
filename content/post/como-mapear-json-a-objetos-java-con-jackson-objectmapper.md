@@ -1,27 +1,22 @@
 ---
 author: alex
 categories:
-- java
+- dev
+- how to
+mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-03-22T10:13:31+01:00
-mainclass: java
+lastmod: 2017-09-28T17:51:48+01:00
 url: /como-mapear-json-a-objetos-java-con-jackson-objectmapper/
+description: Hoy vamos a hablar de cómo usar la librería *Jackson* para mapear fácilmente un *Json* a objetos Java.
 tags:
-- desserializar objetos json java
-- ejemplo jackson json java
-- fasterxml
-- jackson
-- jackson json example
-- jackson json example java
-- mapear json
-- mapear objetos java
-- objectmapper
-- serializar objetos json java
 - json
+- java
 title: "Cómo mapear json a objetos Java con Jackson ObjectMapper"
 ---
 
 Hoy vamos a hablar de cómo usar la librería *Jackson* para mapear fácilmente un *Json* a objetos Java.
+
+<!--more--><!--ad-->
 
 # Declarar dependencia
 

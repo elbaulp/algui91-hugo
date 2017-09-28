@@ -2,9 +2,10 @@
 author: alex
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-03-23T14:03:54+01:00
+- how to
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-09-28T17:58:23+01:00
 url: /como-programar-app-moviles-para-pymes-sin-salir-de-casa/
 title: "Cómo programar apps móviles para pymes sin salir de casa"
 ---

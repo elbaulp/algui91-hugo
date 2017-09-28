@@ -2,18 +2,12 @@
 author: alex
 categories:
 - latex
+- dev
+mainclass: latex
 date: 2015-06-25 16:50:48
-lastmod: 2017-03-27T17:03:02+01:00
+lastmod: 2017-09-28T18:13:51+01:00
 description: "Para los que estéis acostumbrados a escribir vuestros documentos  en LaTeX, sin ningún editor específico, sabréis que llega a ser un poco  tedioso compilar cada vez que queremos ver el resultado. Hace poco, descubrí  un comando, latexmk, que nos facilitará bastante la vida."
 image: 2013/05/latex_logo.png
-mainclass: latex
-tags:
-- latex
-- latexmk
-- pdflatex
-- xelatex
-- compilar latex
-- minted
 title: "Compilar Automáticamente Ficheros en LaTeX Mientras Los Modificamos"
 ---
 
@@ -28,6 +22,7 @@ Si estás interesado en aprender a usar LaTeX echa un vistazo al [mini curso que
 El comando `latexmk` tiene muchas opciones, pero  en mi caso particular, no he necesitado más que estas (La opción `-shell-escape` la uso porque normalmente utilizo el paquete [minted](/resaltar-sintaxis-del-codigo-fuente-en-latex-con-minted/ "Resaltar sintaxis del código fuente en LaTeX con minted") para colorear la sintáxis del código):
 
 ## Para pdflatex
+
 ```bash
 
 $ latexmk -shell-escape -pdf -pvc
@@ -35,6 +30,7 @@ $ latexmk -shell-escape -pdf -pvc
 ```
 
 ## Para xelatex
+
 ```bash
 
 $ latexmk -shell-escape -xelatex -pdf -pvc

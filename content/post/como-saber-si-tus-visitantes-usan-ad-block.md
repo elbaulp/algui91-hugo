@@ -2,15 +2,13 @@
 author: alex
 categories:
 - how to
-- internet
-date: '2016-01-01'
-lastmod: 2017-03-24T14:32:45+01:00
-description: "Hace unos días, visitando la web makeuseof me apareció un mensaje  en la parte superior de la página en la que indicaba que se había detectado  que estaba usando el plugin Ad-Block (Que bloquea la publicidad de las web, para  quien no lo sepa). Y de una manera muy educada sugerían que se desabilitara para  apoyar la web y así poder seguir ofreciendo contenido libre de costo."
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-09-28T18:03:32+01:00
+description: "Hace unos días, visitando la web makeuseof me apareció un mensaje  en la parte superior de la página en la que indicaba que se había detectado  que estaba usando el plugin Ad-Block (Que bloquea la publicidad de las web, para  quien no lo sepa). Y de una manera muy educada sugerían que se desabilitara para  apoyar la web y así poder seguir ofreciendo contenido libre de costo."
 url: /como-saber-si-tus-visitantes-usan-ad-block/
 tags:
-- adblock
-- anuncios
 - javascript
 title: "Cómo saber si tus visitantes usan Ad-Block"
 ---
@@ -69,7 +67,5 @@ y
 Basta con modificar el contenido de las funciones **_enabled()** y **_disabled()** en el primer caso por el contenido que deseemos, o **_status** en el segundo método y listo.
 
 Y a vosotros, ¿qué os parece que se os sugieran este tipo de cosas?, ¿Lo desactivaríais? dejad vuestros comentarios.
-
-&nbsp;
 
 Vía | <a href="http://adblockdetector.com/" target="_blank">Adblockdetector</a>
