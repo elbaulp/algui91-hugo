@@ -1,18 +1,17 @@
 ---
 author: alex
 categories:
-- script
+- how to
+- linux
+mainclass: linux
 date: '2016-01-01'
-lastmod: 2017-03-23T13:59:00+01:00
+lastmod: 2017-09-28T17:57:11+01:00
 description: "Hace poco me encontré queriendo ordenar una carpeta de fondos de  pantalla por resolución, en lugar de otros métodos de ordenación más  típicos como por nombre o tamaño. Así que buscando un poco encontré  la respuesta en *superuser*. El usuario flammable preguntaba cómo ordenar imágenes  por resolución. La respuesta es la siguiente:"
 image: 2012/07/sh.png
-mainclass: linux
 url: /como-ordenar-imagenes-por-resolucion/
 tags:
-- identify
-- imagenes por resolucion
-- "ordenar por resolución"
-- imagenes
+- script
+- imágenes
 title: "Cómo ordenar imágenes por resolución"
 ---
 

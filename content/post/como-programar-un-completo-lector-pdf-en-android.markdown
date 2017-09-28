@@ -1,17 +1,15 @@
 ---
 author: jordi
 categories:
-- java
+- dev
+mainclass: dev
 date: 2015-07-06 19:00:00
-lastmod: 2017-03-23T14:05:11+01:00
+lastmod: 2017-09-28T17:59:25+01:00
 description: "¿Conoces el SDK PlugPDF? Esta API te permite trabajar con documentos  PDF de forma nativa, tanto en Android como en iOS."
 image: "Lector PDF Android con barra de navegación.jpg"
-mainclass: java
 tags:
-- android
 - pdf
-- plugpdf
-- lector pdf android
+- java
 title: "Cómo Programar Un Completo Lector PDF en Android"
 ---
 
@@ -28,7 +26,7 @@ En este tutorial te vamos a enseñar cómo poner en tus apps Android un completo
 <!--more--><!--ad-->
 
 <figure>
-<amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Lector PDF Android con barra de navegación.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+    <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Lector PDF Android con barra de navegación.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 1. Lector PDF Android que incluye una barra de navegación con varios controles</figcaption>
 </figure>
 

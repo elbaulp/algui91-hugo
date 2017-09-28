@@ -1,18 +1,14 @@
 ---
 author: alex
 categories:
-- administracion de servidores
+- servidores
 - how to
-date: '2016-01-01'
-lastmod: 2017-03-23T13:57:02+01:00
-image: 2013/04/dns-300x240.jpg
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-09-28T17:56:36+01:00
+image: 2013/04/dns-300x240.jpg
 url: /como-ocultar-la-version-de-bind-y-como-averiguarla/
 tags:
-- fingerprinting bind version
-- ocultar version de bind
-- seguridad en bind
-- usar fpdns
 - bind
 title: "Cómo ocultar la versión de BIND (Y cómo averiguarla)"
 ---

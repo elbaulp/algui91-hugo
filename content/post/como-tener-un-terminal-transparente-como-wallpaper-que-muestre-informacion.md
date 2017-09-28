@@ -3,26 +3,14 @@ author: alex
 categories:
 - how to
 - linux
-date: '2016-01-01'
-lastmod: 2017-03-27T16:48:52+01:00
-image: 2013/03/xroot-example.jpg
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-28T18:09:19+01:00
+image: 2013/03/xroot-example.jpg
 url: /como-tener-un-terminal-transparente-como-wallpaper-que-muestre-informacion/
 tags:
-- comando xrootconsole
-- eterm
-- fluxbox
-- gnome
-- htop
 - log
 - openbox
-- system logs
-- terminal
-- terminal transparente
-- terminal window
-- tilda
-- wallpaper
-- xrootconsole
 title: "Cómo tener un terminal transparente como wallpaper que muestre información"
 ---
 

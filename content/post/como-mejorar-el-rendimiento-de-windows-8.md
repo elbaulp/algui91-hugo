@@ -2,30 +2,14 @@
 author: alex
 categories:
 - how to
-date: '2016-01-01'
-lastmod: 2017-03-23T13:50:34+01:00
-image: 2013/02/Windows8problem.jpg
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-09-28T17:54:34+01:00
+image: 2013/02/Windows8problem.jpg
 url: /como-mejorar-el-rendimiento-de-windows-8/
 tags:
-- acelerar computadora windows 8
-- acelerar win 8
-- acelerar windows 8
-- agilizar windows 8
-- configurar prefetch windows 8
-- mal rendimiento en windows 8
-- mejorar rendimiento pc
-- mejorar rendimiento windows 8
-- optimizacion de windows 8
-- optimizar win8
-- optimizar windows 8
-- problemas con w8
-- problemas windows 8
-- temporales en w8
-- trucos optimizar windows 8
-- windows 8 lento
-- windows 8 se bloquea
-- windows 8 se traba
+- windows
 title: "Cómo mejorar el rendimiento de Windows 8"
 ---
 

@@ -2,13 +2,13 @@
 author: alex
 categories:
 - how to
-date: '2016-01-01'
-lastmod: 2017-03-21T16:46:40+01:00
-description: "Existe un comando que realiza esta operación, `rev`. De acuerdo a  la descripción que proporciona la documentación funciona de la siguiente manera"
+- linux
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-28T17:51:01+01:00
+description: "Existe un comando que realiza esta operación, `rev`. De acuerdo a  la descripción que proporciona la documentación funciona de la siguiente manera"
 url: /como-invertir-una-cadena-en-unix/
 tags:
-- invertir cadena
 - bash
 title: "Cómo invertir una cadena en Unix"
 ---
@@ -30,7 +30,6 @@ Dará el siguiente resultado:
 
 ```bash
 rodamargorpledluable
-
 ```
 
 Es posible usar la siguiente sintaxis:
@@ -100,7 +99,6 @@ Ejemplo en PHP:
 ```bash
 echo foo | php -r 'print strrev(trim(fgets(STDIN)));'
 php -r 'print strrev(trim(fgets(STDIN)));' <<< foo
-
 ```
 
 * * *

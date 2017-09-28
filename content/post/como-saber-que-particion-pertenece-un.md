@@ -3,11 +3,13 @@ author: alex
 categories:
 - how to
 - linux
-date: '2016-01-01'
-lastmod: 2017-03-24T14:29:39+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-09-28T18:02:24+01:00
 url: /como-saber-que-particion-pertenece-un/
 title: "Cómo saber a qué partición pertenece un archivo en GNU/Linux"
+tags:
+- disco duro
 ---
 
 ¿Cómo podemos saber que el archivo */home/hkr/Desktop/combinaciones.cpp* pertenece a una partición específica?¿O cómo podemos saber en qué partición existe un archivo?
@@ -71,7 +73,7 @@ findpart /home/vivek/test.txt
 ```
 
 <figure>
-<amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  width="640" height="108"  src="https://1.bp.blogspot.com/-F2sPR477GsI/TvsYjhPFVgI/AAAAAAAAB_8/olid11qqdXw/s800/Screenshot.png"></amp-img>
+    <amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  width="640" height="108"  src="https://1.bp.blogspot.com/-F2sPR477GsI/TvsYjhPFVgI/AAAAAAAAB_8/olid11qqdXw/s800/Screenshot.png"></amp-img>
 </figure>
 
 Vía <a target="_blank" href="http://www.cyberciti.biz/faq/linux-unix-command-findout-on-which-partition-file-directory-exits/">cyberciti</a>

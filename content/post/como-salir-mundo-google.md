@@ -1,12 +1,15 @@
 +++
 title = "Cómo salir del mundo de Google"
 description = "Descubre las distintas alternativas existentes para hacer tu navegación por internet más segura y privada."
+categories = ["how to", "articulos"]
+mainclass = "articulos"
 tags = ["privacidad", "tor"]
 image = "Como-salir-del-mundo-de-Google.jpg"
-mainclass = "articulos"
-author = "marti"
+author = "colaboraciones"
 date = "2017-03-21T13:00:18+01:00"
 +++
+
+> Este artículo es una colaboración de <a href="mailto:mpuig1991@gmail.com" target="_blank" title="mpuig1991@gmail.com">Martí Puig</a>, Titulado en C.F.G.S. de Mantenimiento Electrónico. Amante de la cultura DIY, de la programación y la electrónica.
 
 # Como está la privacidad actualmente
 

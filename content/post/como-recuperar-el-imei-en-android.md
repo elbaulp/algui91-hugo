@@ -2,26 +2,12 @@
 author: alex
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-03-24T14:28:35+01:00
-description: "\xC9ste artículo pretende ser una guía para todo aquel que ha  perdido el imei de su teléfono y no puede acceder a la red telefónica. Y como  referencia para mí, que he perdido el imei dos veces. Veremos cómo recuperar  el IMEI del teléfono mediante dos métodos. Antes de realizar alguno de ellos,  HAZLO BAJO TU RESPONSABILIDAD."
+- how to
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-09-28T18:01:20+01:00
+description: "\xC9ste artículo pretende ser una guía para todo aquel que ha  perdido el imei de su teléfono y no puede acceder a la red telefónica. Y como  referencia para mí, que he perdido el imei dos veces. Veremos cómo recuperar  el IMEI del teléfono mediante dos métodos. Antes de realizar alguno de ellos,  HAZLO BAJO TU RESPONSABILIDAD."
 url: /como-recuperar-el-imei-en-android/
-tags:
-- imei android
-- imei perdido
-- perdi imei android
-- como recuperar imei
-- recuperar imei android
-- recuperar imei samsung
-- recuperar imei android
-- restaurar imei android
-- perdi mi imei android
-- como recuperar el imei android
-- como restaurar el imei android
-- recuperar imei
-- como restaurar el imei de un celular
-- como recuperar el imei de mi android
 title: "Cómo recuperar el IMEI en Android"
 ---
 

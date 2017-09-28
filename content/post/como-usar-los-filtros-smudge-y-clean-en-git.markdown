@@ -1,18 +1,15 @@
 ---
 author: alex
 categories:
-- git
+- dev
+- how to
+mainclass: dev
 date: 2015-05-21 14:50:42
-lastmod: 2017-03-27T16:54:54+01:00
+lastmod: 2017-09-28T18:12:03+01:00
 description: "Cómo crear filtros en git, smudge y clean"
 image: 2013/03/git-logo.png
-mainclass: git
 tags:
 - git
-- smudge
-- git smudge
-- git clean
-- git hooks
 title: Como Usar Los Filtros Smudge Y Clean en Git
 ---
 

@@ -5,19 +5,15 @@ amp:
 categories:
 - articulos
 - how to
-- internet
 - seguridad
+mainclass: seguridad
 date: 2015-07-14 21:00:00
-lastmod: 2017-03-24T14:32:56+01:00
+lastmod: 2017-09-28T18:08:20+01:00
 description: "Cuando algún sitio web que usamos frecuentemente es hackeado, comprometiendo  las contraseñas de los usuarios, probablemente pensemos en la seguridad online.  \ pero, ¿Qué quiere decir realmente cuando un sitio es hackeado?, ¿y cómo  podemos protegernos? A continuación se explica cómo se almacenan las contraseñas  en internet, y cómo te afecta cuando la web que usas se ve comprometida."
 image: 2012/07/original2.jpg
-mainclass: articulos
 url: /como-se-almacenan-tus-contrasenas-en-internet-y-cuando-la-longitud-de-la-misma-no-importa/
 tags:
-- algoritmos de cifrado
-- metodos de cifrado
-- seguridad
-- "cómo funciona un salt"
+- algoritmos
 - contraseñas
 - cifrar
 title: "Cómo se almacenan tus contraseñas en internet (y cuando la longitud  de la misma no importa)"
