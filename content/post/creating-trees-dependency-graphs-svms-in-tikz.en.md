@@ -1,12 +1,13 @@
 +++
 author = "alex"
 date = "2017-02-16T16:50:27+01:00"
+lastmod = "2017-09-29T13:21:43+01:00"
 title = "Creating trees, Dependency graphs and Support Vector Machines in LaTeX with Tikz"
 description = "My computer Science final project was about NLP (Natural Language Processing), writing the memoir I had to draw some trees and a visual representation of SVMs using Latex Tikz library."
 tags = ["tikz"]
 categories = ["latex", "dev"]
-image = "support-vector-machine-tikz-latex.png"
 mainclass = "latex"
+image = "support-vector-machine-tikz-latex.png"
 +++
 
 My computer science final project was about building a dependency parser for Spanish. Writing the documentation I had to draw some trees representing a dependency graph and a visual explanation of what an SVM (Support Vector Machine ) is.

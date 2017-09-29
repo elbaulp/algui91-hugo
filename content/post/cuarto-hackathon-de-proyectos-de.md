@@ -1,12 +1,10 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- hackathon
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-06T19:43:26+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-09-29T13:23:49+01:00
 url: /cuarto-hackathon-de-proyectos-de/
 title: Cuarto Hackathon de proyectos de software libre de la UGR
 ---

@@ -2,15 +2,10 @@
 author: alex
 categories:
 - articulos
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-06T15:45:28+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-09-29T13:22:40+01:00
 url: /cronica-5-hackathon-de-la-osl-en-granada/
-tags:
-- hackathon granada
-- oficina software libre
-- osl
 title: "Crónica del 5\xB0 hackathon de la OSL en Granada"
 ---
 

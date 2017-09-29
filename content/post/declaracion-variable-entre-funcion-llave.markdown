@@ -2,14 +2,12 @@
 author: alex
 categories:
 - dev
-date: 2016-04-06 19:24:34
-lastmod: 2017-04-11T16:16:42+01:00
-description: "Declaración De Variables Entre El Nombre De La Función Y La Primera Llave en C"
 mainclass: dev
+date: 2016-04-06 19:24:34
+lastmod: 2017-09-29T13:27:14+01:00
+description: "Declaración De Variables Entre El Nombre De La Función Y La Primera Llave en C"
 tags:
-- pre ansi C stilo
-- declarar variables antes de funcion C
-- "sintaxis extraña C"
+- c
 title: "Declaración De Variables Entre El Nombre De La Función Y La Primera Llave en C"
 ---
 
