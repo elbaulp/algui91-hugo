@@ -1,19 +1,15 @@
 ---
 author: alex
 categories:
-- c
-- python
-date: '2016-01-01'
+- dev
+mainclass: dev
+date: 2017-09-29T13:16:43+01:00
 lastmod: 2017-04-04T10:00:47+01:00
 description: "Como dijimos en la entrada anterior, vamos a hablar de *DistUtils*, una herramienta con la que seremos capaces de automatizar el proceso de compilación e instalación de nuestro módulo creado con la Python C API."
 image: "2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"
-mainclass: dev
 url: /crear-modulo-python-con-python-c-api-3-distutils/
 tags:
-- embebiendo python en c++
-- reference count python
-- tutorial crear modulos python
-- tutorial python c api
+- c
 - python
 - python C API
 title: "Crear un módulo para python con la Python C API (III) - DistUtils"

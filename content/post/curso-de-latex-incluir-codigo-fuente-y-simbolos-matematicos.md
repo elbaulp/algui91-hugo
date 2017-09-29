@@ -2,24 +2,17 @@
 author: marta
 categories:
 - latex
-date: '2016-01-01'
-lastmod: 2017-09-20T18:12:41+01:00
+- dev
+mainclass: latex
+date: 2017-09-29T13:25:50+01:00
+lastmod: 2017-09-29T13:25:48+01:00
 description: "Continuando por donde lo dejamos en el último artículo, hoy veremos  cómo incluir código fuente en el documento."
 image: 2013/05/latex_logo.png
-mainclass: latex
 url: /curso-de-latex-incluir-codigo-fuente-y-simbolos-matematicos/
 math: true
 tags:
-- codigo latex
-- curso latex
-- "curso latex español"
-- enlaces latex
-- figuras latex
-- imagenes latex
 - incluir codigo latex
-- "programación Latex"
-- simbolos latex
-- latex
+- curso
 title: "Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos"
 ---
 

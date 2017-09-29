@@ -1,21 +1,17 @@
 ---
 author: alex
 categories:
-- c
-- python
-date: '2016-01-01'
-lastmod: 2017-04-04T10:02:20+01:00
+- dev
+mainclass: dev
+date: 2017-09-29T13:17:47+01:00
+lastmod: 2017-09-29T13:17:53+01:00
 description: "Este es el último artículo de esta serie de 5 sobre cómo crear  un módulo con la Python C API. Para terminar, veremos la forma de hacer compatible  un módulo con **Python 3**. Nos basaremos en el módulo **herramientasRed**  que hemos creado en la parte 3."
 image: "2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"
-mainclass: dev
 url: /crear-modulo-python-con-python-c-api-5-python3/
 tags:
-- embebiendo python en c++
-- reference count python
-- tutorial crear modulos python
-- tutorial python c api
 - python
 - python C API
+- c
 title: "Crear un módulo para python con la Python C API (V) \u2013 Python 3"
 ---
 

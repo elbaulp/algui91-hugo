@@ -2,23 +2,16 @@
 author: marta
 categories:
 - latex
-date: '2016-01-01'
-lastmod: 2017-04-06T19:44:15+01:00
+- dev
+mainclass: latex
+date: 2017-09-29T13:26:02+01:00
+lastmod: 2017-09-29T13:24:13+01:00
 description: "Tras haber terminado nuestra sección del análisis de la eficiencia,  ahora nos piden que pongamos un pantallazo con la salida del programa en terminal.  Para ello, vamos a usar dos herramientas..."
 image: 2013/05/latex_logo.png
-mainclass: latex
 url: /curso-de-latex-figuras-enlaces-y-cabeceras/
 tags:
-- codigo latex
-- curso latex
-- "curso latex español"
-- enlaces latex
-- figuras latex
-- imagenes latex
 - incluir codigo latex
-- "programación Latex"
-- simbolos latex
-- latex
+- curso
 title: Mini Curso de LaTeX - Figuras, Enlaces y cabeceras
 ---
 

@@ -2,26 +2,16 @@
 author: alex
 categories:
 - how to
-- opensource
+- dev
+mainclass: dev
 date: 2015-11-27 16:17:00
-lastmod: 2017-04-06T15:22:10+01:00
+lastmod: 2017-09-29T13:18:48+01:00
 description: Nunca es buena idea realizar cambios a un sitio web sin haberlos probado  de antemano, hasta asegurarnos que funcionan correctamente. Para ello, lo habitual  es tener una copia local de la web, probarlos y luego aplicar los cambios en el  sitio real. Sin embargo, muchas veces hay cosas que funcionan el local y no en la  web.
 image: hotlink-ok/CREAR-UN-ENTORNO-DE-DESARROLLO-PARA-WORDPRESS-CON-GIT-CAPISTRANO-Y-WP-DEPLOY.png
-mainclass: git
 url: /crear-un-entorno-de-desarrollo-para-wordpress-con-git-capistrano-y-wp-deploy/
 tags:
 - git
 - wordpress
-- Configurar capistrano
-- configurar WP-Deploy
-- ejemplo capistrano
-- entornos de desarrollo Wordpress
-- staging Worpress
-- Wp-Deploy
-- Que es capistrano
-- capistrano wordpress
-- capistrano deploy
-- wordpress git
 title: Crear un entorno de desarrollo para WordPress con Git, Capistrano y Wp-Deploy
 ---
 

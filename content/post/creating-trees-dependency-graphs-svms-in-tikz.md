@@ -1,12 +1,13 @@
 +++
 author = "alex"
 date = "2017-02-16T16:50:27+01:00"
+lastmod = "2017-09-29T13:22:18+01:00"
 title = "Dibujar árboles de dependencias y Máquinas de soporte Vectoriales usando LaTeX y Tikz"
 description = "En mi proyecto final del carrera implementé un parseador de dependencias (Un paso previo a taréas del Procesamiento del Lenguaje Natural). Escribiendo la memoria tuve que dibujar varios árboles de dependencias y una representación visual de lo que es una máquina de soporte vectorial (SVM), las dibujé mediante Tikz"
 tags = ["tikz", "latex"]
 categories = ["latex"]
-image = "support-vector-machine-tikz-latex.png"
 mainclass = "latex"
+image = "support-vector-machine-tikz-latex.png"
 +++
 
 Como he comentado, para dibujar los árboles y la SVM usé el paquete `tikz` de [LaTeX](https://elbauldelprogramador.com/tags/latex "LaTeX"), a continuación muestro el código que usé:
