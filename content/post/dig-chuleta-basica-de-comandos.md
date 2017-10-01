@@ -1,19 +1,14 @@
 ---
 author: alex
 categories:
-- administracion de servidores
-- aplicaciones
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-17T19:31:15+01:00
+- servidores
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-10-01T13:17:09+01:00
 url: /dig-chuleta-basica-de-comandos/
 tags:
 - chuleta
-- administracion DNS
-- chuleta comandos dig
-- chuleta dig
-- estado DNS
+- DNS
 title: "Dig - Chuleta básica de comandos"
 ---
 

@@ -2,9 +2,9 @@
 author: luzila
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-04-11T16:22:28+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-01T13:10:03+01:00
 url: /dejes-que-los-astronautas-de-arquitecturas-te-asusten/
 title: No dejes que los Astronautas de Arquitecturas te asusten
 ---

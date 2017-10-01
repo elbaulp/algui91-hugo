@@ -2,12 +2,15 @@
 author: alex
 categories:
 - android
+- dev
+mainclass: android
 date: 2016-10-22 06:03:57
-lastmod: 2017-04-17T19:25:19+01:00
+lastmod: 2017-10-01T13:15:00+01:00
 description: "El curso de Android del blog, ahora para descargar de forma gratuíta"
 introduction: "El curso de Android del blog, ahora para descargar de forma gratuíta"
-mainclass: android
 title: Liberado El Curso De Android
+tags:
+- cursos
 ---
 
 He decidido liberar el [curso de programación Android](https://elbauldelprogramador.com/curso-programacion-android/ "Curso de Programación en Android"), ya que está algo antiguo, podéis descargarlo en: <a href="http://elbauldelprogramador.com/pdfs/PaqueteProgramacionAndroid.zip" id="androidCourse">Curso de Programación Android Gratuíto</a>. De todos modos, si valoras el trabajo realizado, se aceptan donaciones mediante nuestro [enlace de Paypal](https://www.paypal.me/elbaul).

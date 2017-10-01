@@ -2,14 +2,11 @@
 author: alex
 categories:
 - android
-- aplicaciones
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-11T16:27:26+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-01T13:13:29+01:00
 url: /desarrollo-android-que-es-android/
-tags:
-- curso android pdf
 title: "Desarrollo android. ¿Qué es Android?. Traducción de developer.android.com"
 ---
 
