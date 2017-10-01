@@ -21,7 +21,7 @@ Si conoces de algún recurso digital que hable y enseñe informática, data scie
 
 # Otras listas
 
-- [14 recursos/canales/podcasts sobre matemáticas](https://elbauldelprogramador.com/recursos-canales-podcast-sobre-matematicas/ "11 recursos/canales/podcasts sobre matemáticas")
+- [15 recursos/canales/podcasts sobre matemáticas](https://elbauldelprogramador.com/recursos-canales-podcast-sobre-matematicas/ "11 recursos/canales/podcasts sobre matemáticas")
 - [22 Podcasts / Canales de Youtube / Blogs sobre Ciencia](https://elbauldelprogramador.com/blogs-podcasts-canales-youtube-sobre-ciencia/ "22 Podcasts / Canales de Youtube / Blogs sobre Ciencia").
 
 # Computer Science (Programming, Data Science & Security)

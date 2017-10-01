@@ -1,7 +1,7 @@
 +++
 title = "Upgrading Gentoo kernel automatically"
 date = "2017-10-01T12:35:09+01:00"
-lastmod: 2017-10-01T12:35:06+01:00
+lastmod = "2017-10-01T12:53:55+01:00"
 author = "alex"
 mainclass = "linux"
 image = "upgrade-gentoo-kernel-automatically.png"

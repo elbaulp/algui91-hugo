@@ -2,9 +2,9 @@
 image = "resources-channels-podcast-to-learn-math.png"
 mainclass = "articulos"
 author = "alex"
-lastmod = "2017-09-04T13:40:42+01:00"
-date = "2017-09-04T13:40:44+01:00"
-title = "14 Resources / Channels / Podcasts about Mathematics"
+lastmod = "2017-10-01T12:39:36+01:00"
+date = "2017-10-01T12:39:38+01:00"
+title = "15 Resources / Channels / Podcasts about Mathematics"
 description = "A curated list of blogs, podcasts and Youtube Channels about Mathematics"
 tags = ["mathematics", "podcasts", "youtube channels", "lists"]
 categories = ["articulos"]
@@ -27,6 +27,18 @@ If you follow some resource about Mathematics not listed below feel free to post
 # Podcasts
 
 <div class="row-post flex-grid">
+
+    <article class="box-item animate">
+       <h3>My Favorite Theorem</h3>
+       <figure>
+         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/myfavtheo.jpg" width="100" height="100" alt="My Favorite Theorem Logo" title="My Favorite Theorem"></amp-img>
+       </figure>
+       <p>Join us as we spend each episode talking with a mathematical professional about their favorite result. And since the best things in life come in pairs, find out what our guest thinks pairs best with their theorem.</p>
+       <div class="tags">
+       <a href="https://kpknudson.com/my-favorite-theorem?format=rss/" target="_blank" title="My Favorite Theorem">Subscribe via RSS</a> <a href="https://kpknudson.com/my-favorite-theorem/" target="_blank" title="My Favorite Theorem Blog">Website</a>
+       </div>
+   </article>
+
    <article class="box-item animate">
        <h3>Math Mutation</h3>
        <figure>
