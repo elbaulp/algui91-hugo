@@ -1,7 +1,7 @@
 +++
 title = "Upgrading Gentoo kernel automatically"
-date = "2017-09-15T17:44:34+02:00"
-lastmod = "2017-09-23T12:22:14+01:00"
+date = "2017-10-01T12:35:09+01:00"
+lastmod: 2017-10-01T12:35:06+01:00
 author = "alex"
 mainclass = "linux"
 image = "upgrade-gentoo-kernel-automatically.png"
@@ -116,6 +116,32 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 - <a href="https://www.reddit.com/r/Gentoo/comments/70b8sl/upgrading_gentoo_kernel_automatically/dn3x5hp/" target="_blank" title="Btirooh Script">Btirooh script</a> its repo <a href="https://github.com/jeekkd/gentoo-kernel-build" target="_blank" title="jeekkd/gentoo-kernel-build">jeekkd/gentoo-kernel-build</a>.
 - <a href="https://www.reddit.com/r/Gentoo/comments/70b8sl/upgrading_gentoo_kernel_automatically/dn32vf3/" target="_blank" title="KernelKunt">KernelKunt</a> has its script on github: <a href="https://github.com/t4nki/kupdate" target="_blank" title="t4nki/kupdate">t4nki/kupdate</a>
-- And finally, <a href="https://www.reddit.com/r/Gentoo/comments/70b8sl/upgrading_gentoo_kernel_automatically/dn2tgbk/" target="_blank" title="sQu1rr">sQu1rr</a> kernel update on <a href="https://gist.github.com/sQu1rr/6d40a81a40de44b5f4e5b2b50899f888" target="_blank" title="Github Gists">github gists.</a>
+- <a href="https://www.reddit.com/r/Gentoo/comments/70b8sl/upgrading_gentoo_kernel_automatically/dn2tgbk/" target="_blank" title="sQu1rr">sQu1rr</a> kernel update on <a href="https://gist.github.com/sQu1rr/6d40a81a40de44b5f4e5b2b50899f888" target="_blank" title="Github Gists">github gists.</a>
+- <a href="https://www.reddit.com/r/Gentoo/comments/70b8sl/upgrading_gentoo_kernel_automatically/dn1zjmj/" target="_blank" title="Htay67ce">htay6r7ce</a> use the following [script](https://elbauldelprogramador.com/en/tags/script "Scipts"):
+
+```bash
+eselect kernel list
+eselect kernel set #
+
+# Use current kernel config and store copy
+gunzip /proc/config.gz -c > /root/config; cp /root/config /root/config-$(uname -r)
+
+#  Optionally change module settings in the config file, or use --menuconfig
+#  with genkernel.
+genkernel --makeopts=-j9 --splash --kernel-config=/root/config all
+
+# Update packages with kernel modules
+emerge -1 @module-rebuild
+
+# Cleanup old files
+for name in $(ls /lib/modules/ | sort -V | head -n -3); do
+  rm -rf /boot/{initramfs,kernel,System.map}-genkernel-x86_64-${name:?}
+  rm -rf /lib/modules/${name:?}
+done
+
+# Update boot config file
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 
 All of them are far more elaborate than mine, so I will try to use them and improve mine.

@@ -4,7 +4,7 @@ categories:
 - dev
 mainclass: dev
 date: 2017-09-29T13:16:43+01:00
-lastmod: 2017-04-04T10:00:47+01:00
+lastmod: 2017-09-29T13:43:04+01:00
 description: "Como dijimos en la entrada anterior, vamos a hablar de *DistUtils*, una herramienta con la que seremos capaces de automatizar el proceso de compilación e instalación de nuestro módulo creado con la Python C API."
 image: "2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"
 url: /crear-modulo-python-con-python-c-api-3-distutils/
