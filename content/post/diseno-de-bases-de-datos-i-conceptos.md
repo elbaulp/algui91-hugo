@@ -2,15 +2,14 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-04-17T19:39:37+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-01T13:24:30+01:00
 url: /diseno-de-bases-de-datos-i-conceptos/
 title: "Diseño de Bases de Datos ( I ) - Conceptos del Modelo Relacional"
 ---
 
 > Nota: Basado en los apuntes de clase
-
 
 
 # 1. Introducción

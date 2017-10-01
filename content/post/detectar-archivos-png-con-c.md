@@ -1,16 +1,13 @@
 ---
 author: alex
 categories:
-- c
+- dev
+mainclass: dev
 date: '2016-01-01'
 lastmod: 2017-04-17T19:26:13+01:00
-mainclass: dev
 url: /detectar-archivos-png-con-c/
 tags:
-- imgen png
-- leer formato archivos png
-- leer imagen png c++
-- ocultar imagenes en imagenes
+- c
 title: Detectar archivos PNG con C++
 ---
 

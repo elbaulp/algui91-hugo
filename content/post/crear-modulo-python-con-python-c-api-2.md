@@ -4,7 +4,7 @@ categories:
 - dev
 mainclass: dev
 date: 2017-09-29T13:16:55+01:00
-lastmod: 2017-04-04T09:56:54+01:00
+lastmod: 2017-09-29T13:43:11+01:00
 description: "Continuando con nuestro artículo sobre la Python C API, esta vez  vamos a ver un ejemplo sencillo en el que crearemos un módulo que imprima por  pantalla un mensaje, como *Hola **nombre,** desde la python C API!*. El módulo  consistirá en una función llamada *saluda()* que recibirá una cadena de  texto usada como nombre para saludar. Una vez terminado podrá usarse así:"
 image: "2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"
 url: /crear-modulo-python-con-python-c-api-2/

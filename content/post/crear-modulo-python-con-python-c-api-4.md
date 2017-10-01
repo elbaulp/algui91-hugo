@@ -4,7 +4,7 @@ categories:
 - dev
 mainclass: dev
 date: 2017-09-29T13:17:17+01:00
-lastmod: 2017-04-04T10:01:14+01:00
+lastmod: 2017-09-29T13:42:56+01:00
 description: "Llegó el momento de crear un módulo con la Python C API algo más  complejo, como dijimos en la primera parte, crearemos un módulo llamado **herramientasRed**  que permita obtener la dirección IP de un dominio, algo parecido a lo que hicimos  en NDK-gdb \u2013 Depurar aplicaciones en el NKD de Android."
 image: "2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"
 url: /crear-modulo-python-con-python-c-api-4/

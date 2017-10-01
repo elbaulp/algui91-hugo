@@ -1,16 +1,12 @@
 ---
 author: alex
 categories:
-- curiosidades
+- articulos
+mainclass: articulos
 date: '2016-01-01'
-lastmod: 2017-04-17T19:29:51+01:00
+lastmod: 2017-10-01T13:16:18+01:00
 image: 2013/01/2013-01-13-105334_1256x830_scrot2.png
-mainclass: dev
 url: /diagramas-animados-de-numeros-factorizados/
-tags:
-- animated diagrams
-- "factorización"
-- html5
 title: "Diagramas animados de números factorizados en HTML5"
 ---
 

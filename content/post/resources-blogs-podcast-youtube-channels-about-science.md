@@ -21,7 +21,7 @@ Si sigues algún recurso no listado abajo y quieres contribuir, no dudes en hace
 
 # Más listas
 
-- [14 recursos / canales / podcasts sobre matemáticas](https://elbauldelprogramador.com/recursos-canales-podcast-sobre-matematicas/ "11 recursos / canales / podcasts sobre matemáticas").
+- [15 recursos / canales / podcasts sobre matemáticas](https://elbauldelprogramador.com/recursos-canales-podcast-sobre-matematicas/ "11 recursos / canales / podcasts sobre matemáticas").
 - [52 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad](https://elbauldelprogramador.com/blogs-canales-podcast-aprender-informatica/ "52 Blogs / Canales / Podcast sobre informática, Data Science y Seguridad").
 
 # Youtube

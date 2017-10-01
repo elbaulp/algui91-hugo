@@ -1,19 +1,21 @@
 ---
 author: alex
 categories:
-- c
-- hacking
-date: '2016-01-01'
-lastmod: 2017-04-11T16:25:39+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-01T13:11:42+01:00
 url: /desafio-de-ingenieria-inversa-en-c/
 tags:
+- c
 - asm
 - Ingenieria inversa
 title: "Desafío de ingeniería inversa en C"
 ---
 
-<amp-img sizes="(min-width: 432px) 432px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/logicbomb1.png" alt="" title="Bomba" width="532px" height="449px" />
+<figure>
+    <amp-img sizes="(min-width: 432px) 432px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/logicbomb1.png" alt="" title="Bomba" width="532px" height="449px" />
+</figure>
 
 > Puedes encontrar la solución a esta práctica en [Desafío de ingeniería inversa en C - Soluciones][1]
 

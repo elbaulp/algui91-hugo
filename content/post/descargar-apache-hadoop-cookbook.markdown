@@ -1,21 +1,14 @@
 ---
 author: alex
 categories:
-- misc
+- descargas
+mainclass: descargas
 date: 2016-05-27 10:08:44
-lastmod: 2017-04-17T19:25:27+01:00
+lastmod: 2017-10-01T13:23:48+01:00
 description: Delve into the world of Spring Data Programming with this compact cookbook that introduces common recipes for the Spring Data framework!
 image: Apache-Hadoop-Cookbook2.jpg
-mainclass: misc
 tags:
-- guias gratuitas de hadoop
-- libros gratuitos hadoop
-- tutoriales sobre hadoop
-- descargar libros hadoop
-- descargar guias hadoop
-- descargar apache hadoop cookbook
-- libros sobre apache hadoop
-- descargar tutoriales apache hadoop
+- cursos
 title: "Nueva Guía: Apache Hadoop Cookbook"
 ---
 
