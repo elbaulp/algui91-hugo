@@ -1,14 +1,13 @@
 ---
 author: alex
 categories:
-- git
-category: git
+- dev
+mainclass: dev
 date: 2016-11-12 08:12:16
-lastmod: 2017-04-17T19:59:06+01:00
+lastmod: 2017-10-02T17:38:55+01:00
 description: "Cómo eliminar por completo un fichero demasiado grande para GitHub"
 image: 2013/03/git-logo.png
 introduction: "Cómo eliminar por completo un fichero demasiado grande para GitHub"
-mainclass: git
 url: /eliminar-ficheros-grandes-github/
 tags:
 - git

@@ -2,9 +2,9 @@
 author: alex
 categories:
 - dev
-date: '2016-01-01'
-lastmod: 2017-04-17T19:54:00+01:00
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-02T17:36:14+01:00
 title: C++ y Java
 ---
 

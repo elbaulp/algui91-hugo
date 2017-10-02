@@ -2,15 +2,10 @@
 author: alex
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-04-22T12:49:59+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-02T17:46:46+01:00
 url: /eres-chica-y-te-gusta-la-informatica-participa-en-el-campus-ugrgoogle-para-chicas/
-tags:
-- campus ugr google
-- etsiit
-- "ingeniería para chicas"
-- ugr
 title: "¿Eres chica y te gusta la informática?, participa en el campus UGR/Google para chicas"
 ---
 

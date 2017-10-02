@@ -1,14 +1,11 @@
 ---
 author: alex
 categories:
-- articulos
-date: '2016-01-01'
-lastmod: 2017-04-17T19:55:07+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-02T17:36:25+01:00
 url: /introduccion-a-ruby/
-tags:
-- ejemplos
-- ruby
 title: "Introducción rápida a Ruby"
 ---
 

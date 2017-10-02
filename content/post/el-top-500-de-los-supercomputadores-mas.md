@@ -1,14 +1,11 @@
 ---
 author: alex
 categories:
-- curiosidades
-- internet
-date: '2016-01-01'
-lastmod: 2017-04-22T12:36:47+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-02T17:42:55+01:00
 url: /el-top-500-de-los-supercomputadores-mas/
-tags:
-- top 500 supercomputadoras mundo
 title: "El top 500 de los supercomputadores más potentes del mundo"
 ---
 

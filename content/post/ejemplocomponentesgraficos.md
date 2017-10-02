@@ -2,19 +2,13 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-17T19:49:23+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-02T17:35:09+01:00
 url: /programacion-android-interfaz-grafica_25/
 tags:
 - adapter android
-- "android diseñar gui"
-- como hacer interfaces graficas en android
-- curso android pdf
-- definicion del metodo setonitemclicklistener
-- interfaces de usuario android
-- interfaz grafica en android
 - layout android
 - menu android
 title: "Programación Android: Interfaz gráfica - Componentes gráficos y Eventos"

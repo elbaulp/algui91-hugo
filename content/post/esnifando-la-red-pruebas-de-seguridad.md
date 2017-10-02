@@ -1,16 +1,11 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- internet
 - seguridad
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-04-22T12:53:31+01:00
-mainclass: articulos
+lastmod: 2017-10-02T17:49:02+01:00
 url: /esnifando-la-red-pruebas-de-seguridad/
-tags:
-- "ettercap en español"
-- tutorial ettercap comandos
 title: 'Esnifando la red (Pruebas de seguridad): Ettercap y Wireshark (Man in the middle)'
 ---
 

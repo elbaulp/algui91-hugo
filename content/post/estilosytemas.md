@@ -2,17 +2,12 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-25T14:03:26+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-02T17:49:32+01:00
 url: /programacion-android-interfaz-grafica_18/
 tags:
-- "android diseñar gui"
-- como hacer interfaces graficas en android
-- curso android pdf
-- interfaces de usuario android
-- interfaz grafica en android
 - layout android
 title: "Programación Android: Interfaz gráfica - Estilos y Temas"
 ---

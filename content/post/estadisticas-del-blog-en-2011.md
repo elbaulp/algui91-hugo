@@ -1,10 +1,10 @@
 ---
 author: alex
 categories:
-- noticias
-date: '2016-01-01'
-lastmod: 2017-04-25T13:52:59+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-02T17:49:19+01:00
 url: /estadisticas-del-blog-en-2011/
 title: "Estadísticas del blog en 2011"
 ---

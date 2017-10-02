@@ -3,18 +3,18 @@ author: alex
 categories:
 - articulos
 - seguridad
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-04-22T12:38:37+01:00
-mainclass: articulos
+lastmod: 2017-10-02T17:43:46+01:00
 url: /el-uso-de-contrasenas-en-una-evolucion-tecnologica/
-tags:
-- deloitte
-- "la evolucion de las contraseñas tecnologicas"
-- the hacker news
 title: "El uso de contraseñas en una evolución tecnológica"
+tags:
+- contraseñas
 ---
 
-<amp-img sizes="(min-width: 350px) 350px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/The-use-of-passwords-in-a-technological-evolution.png" alt="El uso de contraseñas en una evolución tecnológica" width="350px" height="274px" />
+<figure>
+    <amp-img sizes="(min-width: 350px) 350px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/The-use-of-passwords-in-a-technological-evolution.png" alt="El uso de contraseñas en una evolución tecnológica" width="350px" height="274px" />
+</figure>
 
 Hoy os traigo un artículo sobre la gran problemática que hay entorno a las contraseñas, y es que, por todos es conocido que usar contraseñas débiles puede comprometer cualquier sistema informático. A continuación resumo un artículo muy interesante que leí en **The Hacker News**.
 

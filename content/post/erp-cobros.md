@@ -2,14 +2,14 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-04-22T12:50:57+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-02T17:47:04+01:00
 url: /resultados-examen-plsql-base-de-datos/
 tags:
-- examenes resueltos bases de datos
-- examenes resueltos bases de datos pl/sql
-- examenes sql
+- sql
+- descargas
+- pl/sql
 title: Resultados examen PL/SQL base de datos
 ---
 

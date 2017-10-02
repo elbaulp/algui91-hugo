@@ -2,13 +2,10 @@
 author: alex
 categories:
 - seguridad
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-04-22T12:33:54+01:00
-mainclass: articulos
+lastmod: 2017-10-02T17:41:22+01:00
 url: /el-modelo-de-seguridad-de-ios-charla-del-nesg-en-la-ugr/
-tags:
-- modelo de seguridad iOS
-- seguridad
 title: El modelo de seguridad de iOS (Charla del NESG en la UGR)
 ---
 

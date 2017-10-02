@@ -2,19 +2,14 @@
 author: alex
 categories:
 - android
-date: '2016-01-01'
-lastmod: 2017-04-22T12:31:12+01:00
-description: "Trabajando en el proyecto SWADroid \t(Fuente en Github), y tras pasar  la herramienta Lint, me encontré con cientos de recursos sin usar, que debía  eliminar a mano. Pensé que debía existir alguna herramienta que permitiera  automatizar el proceso, y de hecho, exíste, Android Resource Remover. Hoy veremos  cómo usar ésta herramienta para eliminar recursos sin usar en Android."
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-02T17:40:07+01:00
+description: "Trabajando en el proyecto SWADroid \t(Fuente en Github), y tras pasar  la herramienta Lint, me encontré con cientos de recursos sin usar, que debía  eliminar a mano. Pensé que debía existir alguna herramienta que permitiera  automatizar el proceso, y de hecho, exíste, Android Resource Remover. Hoy veremos  cómo usar ésta herramienta para eliminar recursos sin usar en Android."
 url: /eliminar-recursos-sin-usar-en-android/
 tags:
-- Android Resource Remover
-- ejemplo Android Resource Remover
-- eliminar recursos Android
-- limpiar proyecto Android
-- recursos sin usar Android
-- tutorial Android Resource Remover
-- unusedResources Android
+- recursos android
 title: Eliminar recursos sin usar en Android
 ---
 
