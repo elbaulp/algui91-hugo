@@ -5,7 +5,8 @@ categories = ["articulos"]
 image = "recommended-books.png"
 mainclass = "articulos"
 author = "alex"
-date = "2017-04-04T09:24:53+01:00"
+lastmod = "2017-10-02T13:41:10+01:00"
+date = "2017-10-02T13:41:11+01:00"
 title = "Libros recomendados"
 url = "/libros-recomendados/"
 +++
@@ -20,6 +21,31 @@ Si estás buscando más libros que leer, puede que te interesen las siguientes d
 </br></br>
 
 <div class="row-post flex-grid">
+
+  <article class="box-item animate">
+    <h2>Python Machine Learning</h2>
+    <figure>
+      <a href="/img/pythonmachinelearning.jpg">
+        <amp-img
+          on="tap:lightbox1"
+          role="button"
+          tabindex="0"
+          layout="responsive"
+          src="/img/pythonmachinelearning.jpg"
+          alt="Python Machine Learning book"
+          title="Python Machine Learning"
+          sizes="(min-width: 260px) 260px, 100vw"
+          width="260"
+          height="320">
+        </amp-img>
+      </a>
+    </figure>
+    <p>Este libro, de <a href="https://sebastianraschka.com/" target="_blank" title="Sebastian Raschka">Sebastian Raschka</a> lo descubrí escuchando uno de los <a href="/blogs-canales-podcast-aprender-informatica/">podcasts de Ciencia de Datos</a>. Muy fácil de seguir y con bastante código de ejemplo.</p>
+    <div class="tags">
+      <a href="http://amzn.to/2fJVjwk" target="_blank">Ver en Amazon</a>
+    </div>
+  </article>
+
   <article class="box-item animate">
     <h2>Programming Scala, 2nd Edition</h2>
     <figure>
