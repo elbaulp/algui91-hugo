@@ -2,20 +2,10 @@
 author: alex
 categories:
 - linux
-- so
-date: '2016-01-01'
-lastmod: 2017-04-22T12:47:38+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-02T17:45:43+01:00
 url: /entendiendo-los-runlevel-en-debian-y-ubuntu/
-tags:
-- autoejecutar servicios linux
-- iniciar servicio linux
-- runlevel
-- runlevel Debian
-- runlevel linux
-- init 3 debian
-- linux runlevel
-- modificar runlevel debian
 title: Entendiendo los runlevel en Debian
 ---
 

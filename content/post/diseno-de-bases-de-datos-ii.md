@@ -3,15 +3,12 @@ author: alex
 categories:
 - basededatos
 date: '2016-01-01'
-lastmod: 2017-04-17T19:40:38+01:00
+lastmod: 2017-10-02T17:31:32+01:00
 mainclass: BaseDeDatos
 url: /diseno-de-bases-de-datos-ii/
-tags:
-- default
-- sintaxis de restricciones check
-- sintaxis de restricciones check unique default
-- unique
 title: "Diseño de Bases de Datos ( II ) - Restricciones"
+tags:
+- sql
 ---
 
 > __Nota:__ Basado en los apuntes de clase

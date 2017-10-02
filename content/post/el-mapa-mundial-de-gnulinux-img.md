@@ -1,20 +1,16 @@
 ---
 author: alex
 categories:
-- curiosidades
 - linux
-- opensource
-date: 2016-09-08
-lastmod: 2017-04-22T12:32:50+01:00
-image: el-mapa-mundial-de-gnulinux-2.jpg
 mainclass: linux
+date: 2016-09-08
+lastmod: 2017-10-02T17:40:57+01:00
+image: el-mapa-mundial-de-gnulinux-2.jpg
 url: /el-mapa-mundial-de-gnulinux-img/
 title: El gran Mapa mundial de GNU/Linux
 ---
 
 > Hace unos años que publiqué este artículo, pero he decidido actualizarlo, ya que han aparecido versiones del mapa más actuales. Espero que os guste.
-
-
 
 # Mapa mundial de GNU/Linux 1
 

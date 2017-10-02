@@ -1,18 +1,15 @@
 ---
 author: alex
 categories:
-- bash
 - linux
-- script
-date: '2016-01-01'
-lastmod: 2017-04-17T19:43:21+01:00
-image: 2013/07/Screenshot-from-2013-07-02-164301.png
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-02T17:33:58+01:00
+image: 2013/07/Screenshot-from-2013-07-02-164301.png
 url: /ejecutar-un-script-al-modificar-un-fichero-con-inotify/
 tags:
-- Ejecutar un script al modificar un fichero
-- ejemplo inotify
-- ejemplo inotify-tools
+- script
+- bash
 title: Ejecutar un script al modificar un fichero con inotify
 ---
 

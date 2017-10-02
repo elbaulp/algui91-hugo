@@ -2,15 +2,11 @@
 author: alex
 categories:
 - dev
+mainclass: dev
 date: 2016-07-30 16:27:54
-lastmod: 2017-04-22T12:52:10+01:00
+lastmod: 2017-10-02T17:48:14+01:00
 description: "Cómo implementar correctamente amp-mustache y evitar errores en Jekyll"
 image: error-al-implementar-amp-mustache.png
-mainclass: dev
-tags:
-- amp-mustache
-- amp-pages
-- error amp-mustache
 title: "Cómo solucionar errores Al Implementar Amp-mustache"
 ---
 

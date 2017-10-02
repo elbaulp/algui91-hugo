@@ -4,16 +4,11 @@ categories:
 - articulos
 - security now
 - seguridad
-date: '2016-01-01'
-lastmod: 2017-04-25T16:54:43+01:00
-image: 2012/12/qrbaulinnercorners2.png
 mainclass: security-now
+date: 2017-10-02T17:50:35+01:00
+lastmod: 2017-10-02T17:50:33+01:00
+image: 2012/12/qrbaulinnercorners2.png
 url: /estructura-y-seguridad-de-los-qr-codes/
-tags:
-- como funciona qr
-- "Cómo funcionan los códigod QR"
-- qr code
-- security now
 title: Estructura y seguridad de los QR Codes
 ---
 

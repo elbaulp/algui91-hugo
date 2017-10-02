@@ -1,10 +1,10 @@
 ---
 author: alex
 categories:
-- noticias
-date: '2016-01-01'
-lastmod: 2017-04-17T19:57:59+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-02T17:38:27+01:00
 url: /el-estado-de-wayland-aspirante/
 title: El estado de Wayland, aspirante a reemplazar X.org
 ---

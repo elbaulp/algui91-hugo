@@ -1,12 +1,12 @@
 ---
 author: alex
 categories:
-- articulos
+- seguridad
+mainclass: seguridad
 date: 2015-03-30 14:51:38
-lastmod: 2017-04-22T12:35:20+01:00
+lastmod: 2017-10-02T17:41:45+01:00
 description: "A medida que han ido siendo más habituales todo tipo de transaccione  online, tanto los servicios que las ofrecen como los usuarios que la utilizan muestran  una mayor preocupación por reforzar la seguridad a acometer este tipo de operaciones.  Buena prueba de ello es como la banc ha trabajado sin descanso por evitar el fraude  que se comete a través d la suplantación de identidad con fórmulas como  el sistema de pag [Vini](https://be.ceca.es/2000/vini/index.html), con tarjetas  virtuale y diversos métodos"
-mainclass: articulos
-tags: [seguridad, privacidad]
+tags: [privacidad]
 title: El Token De Seguridad, Un Recurso Para Proteger Nuestras Cuenta
 ---
 
@@ -31,4 +31,6 @@ Lo habitual es configurar la aplicación de modo que no nos solicite e código e
 En resumen, los token de seguridad son una opción más a la hora d proteger nuestra información personal, aunque por otro lado tampoco s pueden considerar infalibles, de hecho la empresa [RS Security](http://www.emc.com/domains/rsa/index.htm) dedicada a l criptografía y software de seguridad, reconoció en 2011 una intrusión e sus sistemas de seguridad que le obligó a sustituir muchos de su dispositivos
 
 
+<figure>
 <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="http://ads.adpv.com/pst_px.php?z=1779&c=1513&s=3012" />
+</figure>

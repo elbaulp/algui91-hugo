@@ -2,16 +2,12 @@
 author: alex
 categories:
 - android
-date: '2016-01-01'
-lastmod: 2017-04-17T20:00:00+01:00
-description: "El concurso universitario de software libre sigue en marcha, como dije  participo en SWADROID. La última implementación que se hizo era añadir  una opción para cerrar sesión. Pero nos dimos cuenta que si el usuario cerraba  sesión desde alguna activity distinta de la princial, no se mostraba la pantalla  de login, si no la activity en la que estuviera en el momento de cerrar sesión.  Por supuesto, esto no es el comportamiento deseado, lo ideal sería que al cerrar  sesión se muestre la pantalla de login independientemente de dónde se encuentre  el usuario. Hoy veremos cómo eliminar la pila de actividades de una aplicación  Android para obtener este comportamiento."
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-02T17:39:32+01:00
+description: "El concurso universitario de software libre sigue en marcha, como dije  participo en SWADROID. La última implementación que se hizo era añadir  una opción para cerrar sesión. Pero nos dimos cuenta que si el usuario cerraba  sesión desde alguna activity distinta de la princial, no se mostraba la pantalla  de login, si no la activity en la que estuviera en el momento de cerrar sesión.  Por supuesto, esto no es el comportamiento deseado, lo ideal sería que al cerrar  sesión se muestre la pantalla de login independientemente de dónde se encuentre  el usuario. Hoy veremos cómo eliminar la pila de actividades de una aplicación  Android para obtener este comportamiento."
 url: /eliminar-la-pila-de-actividades-back-stack-en-android/
-tags:
-- CUSL
-- eliminar actividades de la pila Android
-- eliminar activities back stack
-- swadroid
 title: Eliminar la pila de actividades (Back Stack) en Android
 ---
 

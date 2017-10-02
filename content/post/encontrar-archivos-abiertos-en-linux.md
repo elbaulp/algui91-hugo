@@ -2,11 +2,10 @@
 author: alex
 categories:
 - linux
-- opensource
-- so
-date: '2016-01-01'
-lastmod: 2017-04-22T12:42:34+01:00
+- how to
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-02T17:44:48+01:00
 url: /encontrar-archivos-abiertos-en-linux/
 title: Encontrar archivos abiertos en Linux
 ---

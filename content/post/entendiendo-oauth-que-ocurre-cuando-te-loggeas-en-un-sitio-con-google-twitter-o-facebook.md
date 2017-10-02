@@ -3,16 +3,12 @@ author: luzila
 categories:
 - articulos
 - seguridad
-date: '2016-01-01'
-lastmod: 2017-04-22T12:48:59+01:00
-description: "Loggearte en otro sitio con tu cuenta de Google, Twitter o Facebook  no sólo es conveniente sino que además es más segura que crear una nueva  cuenta, o ingresar tu contraseña de Google, Twitter o Facebook en un sitio de  terceros. Aquí es donde OAuth entra en acción. Veamos cómo funciona y cómo  mantiene nuestras contraseñas seguras en sitios de terceros."
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-02T17:46:15+01:00
+description: "Loggearte en otro sitio con tu cuenta de Google, Twitter o Facebook  no sólo es conveniente sino que además es más segura que crear una nueva  cuenta, o ingresar tu contraseña de Google, Twitter o Facebook en un sitio de  terceros. Aquí es donde OAuth entra en acción. Veamos cómo funciona y cómo  mantiene nuestras contraseñas seguras en sitios de terceros."
 url: /entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/
 aliases: /opensource/seguridad/entendiendo-oauth-que-ocurre-cuando-te-loggeas-en-un-sitio-con-google-twitter-o-facebook/
-tags:
-- aplicaciones web
-- OAuth
-- seguridad
 title: "Entendiendo OAuth: Qué ocurre cuando te loggeas en un sitio con Google, Twitter o Facebook"
 ---
 

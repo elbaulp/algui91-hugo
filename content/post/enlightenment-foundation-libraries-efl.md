@@ -2,9 +2,9 @@
 author: alex
 categories:
 - linux
-date: '2016-01-01'
-lastmod: 2017-04-22T12:46:59+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-02T17:45:15+01:00
 url: /enlightenment-foundation-libraries-efl/
 title: Enlightenment Foundation Libraries (EFL)
 ---

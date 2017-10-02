@@ -6,7 +6,8 @@ tags = ["books", "lists"]
 categories = ["articulos"]
 image = "recommended-books.png"
 mainclass = "articulos"
-date = "2017-04-04T09:24:41+01:00"
+lastmod = "2017-10-02T16:08:14+01:00"
+date = "2017-10-02T16:08:15+01:00"
 +++
 
 Bellow is a collection of books I've read. I will be updating it each time I finish a new book.
@@ -19,6 +20,32 @@ If you are looking for more books, You can check the following two collections. 
 </br></br>
 
 <div class="row-post flex-grid">
+
+  <article class="box-item animate">
+    <h2>Python Machine Learning</h2>
+    <figure>
+      <a href="/img/pythonmachinelearning.jpg">
+        <amp-img
+          on="tap:lightbox1"
+          role="button"
+          tabindex="0"
+          layout="responsive"
+          src="/img/pythonmachinelearning.jpg"
+          alt="Python Machine Learning book"
+          title="Python Machine Learning"
+          sizes="(min-width: 260px) 260px, 100vw"
+          width="260"
+          height="320">
+        </amp-img>
+      </a>
+    </figure>
+    <p>I discovered this book while listening to one of the <a href="/en/resources-channels-blogs-podcast-about-computer-science-security-data-science/" target="_blank" title="">podcasts about data science I am subscribed to</a>. <a href="https://sebastianraschka.com/" target="_blank" title="Sebastian Raschka">Sebastian Raschka</a>'s book its easy to follow and have a lot of code examples.</p>
+    <div class="tags">
+      <a href="$3" target="_blank">See on Amazon</a>
+    </div>
+  </article>
+
+
   <article class="box-item animate">
     <h2>Programming Scala, 2nd Edition</h2>
     <figure>
