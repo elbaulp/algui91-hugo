@@ -2,16 +2,13 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-27T12:58:29+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-03T14:16:41+01:00
 url: /fundamentos-programacion-android_16/
 tags:
-- androidmanifest
 - curso android pdf
-- intents
-- startactivityforresult
 title: "Fundamentos programación Android: Intents y AndroidManifest"
 ---
 

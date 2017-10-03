@@ -2,9 +2,9 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-04-27T12:56:27+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-03T14:16:22+01:00
 url: /fundamentos-de-plsql/
 title: Fundamentos de PL/SQL
 ---

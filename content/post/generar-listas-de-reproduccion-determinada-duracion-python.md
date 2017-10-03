@@ -2,27 +2,15 @@
 author: alex
 categories:
 - dev
-- python
+mainclass: dev
 date: '2016-01-01'
+lastmod: 2017-10-03T14:20:28+01:00
 description: "Seguro que tú tambén escucas música mientras programas, a mi  me gusta descansar cada 30 min siguiendo la técnica pomodoro. Pero mejor hacerlo  escuchando música. Este script en python te ayudará."
 image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
-lastmod: 2017-02-03
-mainclass: dev
 url: /generar-listas-de-reproduccion-determinada-duracion-python/
 tags:
-- "listas de reproducción de duración fija"
-- "música"
 - python
-- script python
-- python m3u parser
-- playlist m3u
-- python m3u
-- listas 20 minutos
-- from sys import argv
-- python import mp4
-- python mp4 to mp3
-- python mp4 parser
-- "listas de reproducción personalizadas"
+- script
 title: "Generar listas de reproducción de una determinada duración con Python"
 ---
 
@@ -34,7 +22,7 @@ Para ello he creado un pequeño script en python que genera automáticamente las
 
 # Requisitos
 
-Para leer la duración de cada fichero he usado un módulo llamado <a href="https://code.google.com/p/mutagen/" title="Mutagen Homepage" target="_blank">Mutagen</a>. Para instalarlo:
+Para leer la duración de cada fichero he usado un módulo llamado <a href="https://github.com/quodlibet/mutagen/" title="Mutagen Homepage" target="_blank">Mutagen</a>. Para instalarlo:
 
 ```bash
 $ pip install mutagen

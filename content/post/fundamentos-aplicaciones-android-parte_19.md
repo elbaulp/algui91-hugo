@@ -2,11 +2,10 @@
 author: alex
 categories:
 - android
-- aplicaciones
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-27T12:54:57+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-03T14:15:57+01:00
 url: /fundamentos-aplicaciones-android-parte_19/
 tags:
 - curso android pdf

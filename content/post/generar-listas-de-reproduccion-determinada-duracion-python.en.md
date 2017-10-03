@@ -2,10 +2,11 @@
 author: alex
 categories:
 - dev
+mainclass: dev
 description: "Sure you too listen to music when programming, I like to take a rest every 30 minutes following the Pomodoro Technique. But personaly I like to listen to music while programming, so I wrote a Python script to generate playlist 30 minutes lenght."
 image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
 date: 2017-02-03
-mainclass: dev
+lastmod: 2017-10-03T14:19:59+01:00
 tags:
 - python
 - parser
@@ -20,7 +21,7 @@ After a little thinking I decided to write a little [python](https://elbauldelpr
 
 # Requirements
 
-In order to read the length of each file I've used <a href="https://code.google.com/p/mutagen/" title="Mutagen Homepage" target="_blank">Mutagen</a>. It is easy to install:
+In order to read the length of each file I've used <a href="https://github.com/quodlibet/mutagen" title="Mutagen Homepage" target="_blank">Mutagen</a>. It is easy to install:
 
 ```bash
 $ pip install mutagen

@@ -1,11 +1,11 @@
 ---
 author: alex
 categories:
-- noticias
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-25T16:57:41+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-03T14:10:51+01:00
+
 url: /evaluando-el-estado-de-la-licencia-gpl/
 title: Evaluando el estado de la licencia GPL
 ---

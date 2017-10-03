@@ -2,16 +2,15 @@
 author: alex
 categories:
 - linux
+mainclass: linux
 date: 2016-06-10 13:59:28
-lastmod: 2017-04-25T17:01:04+01:00
+lastmod: 2017-10-03T14:14:07+01:00
 description: "Cómo aplicar una expresión regular multilínea a ficheros"
 image: Expresiones-Regulares-Multilinea.png
 introduction: "Cómo aplicar una expresión regular multilínea a ficheros"
-mainclass: linux
 tags:
 - perl
 - regex
-- "expresiones multilínea"
 title: "Expresiones Regulares Multilínea"
 ---
 

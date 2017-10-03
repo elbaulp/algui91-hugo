@@ -2,15 +2,13 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-27T13:00:37+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-03T14:17:34+01:00
 url: /fundamentos-programacion-android_18/
 tags:
 - curso android pdf
-- "Fundamentos programación Android"
-- procesos android
 title: "Fundamentos programación Android: Limpieza de Procesos"
 ---
 

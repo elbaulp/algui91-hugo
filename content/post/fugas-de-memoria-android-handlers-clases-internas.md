@@ -2,17 +2,12 @@
 author: alex
 categories:
 - android
-date: '2016-01-01'
-lastmod: 2017-04-27T12:48:33+01:00
-description: "Éste artículo es una traducción del blog de Alex Lockwood.  Gracias por el permiso."
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-03T14:14:49+01:00
+description: "Éste artículo es una traducción del blog de Alex Lockwood.  Gracias por el permiso."
 url: /fugas-de-memoria-android-handlers-clases-internas/
-tags:
-- fugas de memoria en Android
-- fugas de memoria handlers
-- fugas de memoria Java
-- fugas de memoria runnable
-- memory leaks
 title: 'Fugas de memoria en Android: Handlers & Clases Internas'
 ---
 

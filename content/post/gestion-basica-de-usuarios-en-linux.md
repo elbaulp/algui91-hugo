@@ -2,13 +2,12 @@
 author: alex
 categories:
 - linux
-- script
-date: '2016-01-01'
-lastmod: 2017-05-04T10:45:35+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-03T14:21:30+01:00
 url: /gestion-basica-de-usuarios-en-linux/
 tags:
-- script gestion de usuarios linux
+- script
 title: "Gestión básica de usuarios en linux"
 ---
 
