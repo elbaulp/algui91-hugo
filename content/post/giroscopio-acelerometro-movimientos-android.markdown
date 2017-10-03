@@ -1,21 +1,17 @@
 ---
 author: alex
 categories:
-- java
+- android
+- dev
+mainclass: android
 date: 2016-02-18 08:32:53
-lastmod: 2017-05-04T10:49:40+01:00
+lastmod: 2017-10-03T14:22:23+01:00
 description: "Una appMovimientoSonido que reconozca un patrón de movimientos de  vuestra elección usando el giroscopio y/o el acelerómetro, una vez detectado  el patrón, se reproducirá un sonido"
 image: npi/movementSound.png
-mainclass: java
-tags:
-- tutorial acelerometro android
-- tutorial giroscopio android
-- "detectar rotación giroscopio android"
-- detectar golpe acelerometro android
 title: "Utilizando El Acelerómetro Y Giroscopio en Android Para Detectar Movimientos"
 ---
 
->La siguiente aplicación es parte de una práctica de la asignatura “Nuevos Paradigmas de la Interacción” de la facultad de Ingeniería Informática de Granada (ETSIIT) Otras aplicaciones de la práctica son:
+> La siguiente aplicación es parte de una práctica de la asignatura “Nuevos Paradigmas de la Interacción” de la facultad de Ingeniería Informática de Granada (ETSIIT) Otras aplicaciones de la práctica son:
 
 - [Brújula Compass](/brujula-android-asr-voz)
 - [GPS QR](/programar-navegador-gps-android)

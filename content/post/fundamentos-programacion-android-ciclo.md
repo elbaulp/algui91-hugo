@@ -2,16 +2,13 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-27T13:01:19+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-03T14:17:47+01:00
 url: /fundamentos-programacion-android-ciclo/
 tags:
-- ciclo de vida
-- componentes android
 - curso android pdf
-- "Fundamentos programación Android"
 title: "Fundamentos programación Android: Ciclo de vida de los componentes"
 ---
 

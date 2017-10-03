@@ -2,19 +2,13 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-27T12:59:56+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-03T14:17:14+01:00
 url: /fundamentos-programacion-android_17/
 tags:
-- Actividades
-- android
 - curso android pdf
-- "Fundamentos programación Android"
-- Hilos
-- Procesos
-- Tareas
 title: "Fundamentos programación Android: Actividades, Tareas, Procesos e Hilos"
 ---
 

@@ -1,11 +1,12 @@
 +++
 author = "cristina"
-categories = ["datamining"]
+categories = ["datascience"]
+mainclass = "datascience"
 date = "2017-04-25T18:34:49+02:00"
+lastmod = "2017-10-03T14:23:36+01:00"
 description = "En este post recibirás las primeras indicaciones en la creación de una aplicación para usar la API de github, y analizarás la popularidad de los lenguajes de programación en tu comunidad de amigos a partir de datos extraídos de github"
 image = "FriendsLanguagesUsage.png"
-mainclass = "datamining"
-tags = ["github","minería","comunidad","API"]
+tags = ["github","minería de datos","comunidad","API"]
 title = "Minería en tu comunidad de github con R - Analizando la popularidad de los lenguajes"
 +++
 

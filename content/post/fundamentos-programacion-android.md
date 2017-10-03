@@ -2,15 +2,13 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-04-27T13:02:52+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-03T14:18:19+01:00
 url: /fundamentos-programacion-android/
 tags:
-- "conceptos básicos y componentes Android"
 - curso android pdf
-- "Fundamentos programación Android"
 title: "Fundamentos programación Android: Conceptos básicos y componentes"
 ---
 
