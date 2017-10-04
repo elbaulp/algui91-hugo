@@ -1,9 +1,10 @@
 +++
 author = "alex"
 date = "2017-01-30"
+lastmod = "2017-10-04T20:54:01+01:00"
 title = "How to manage multiple patches - A Quilt tutorial"
 description = "Quilt Tool allow us to easily manage multiple patchs in a program"
-tags = ["quilt", "patchs"]
+tags = ["howto"]
 categories = ["dev"]
 mainclass = "dev"
 +++

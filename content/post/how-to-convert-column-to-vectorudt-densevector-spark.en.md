@@ -1,11 +1,11 @@
 +++
-tags = ["spark", "scala"]
+tags = ["spark", "scala", "howto"]
 categories = ["dev"]
+mainclass = "dev"
 image = "sparklogo.png"
 date = "2017-02-06T17:04:46+01:00"
-lastmod = "2017-02-06"
+lastmod = "2017-10-04T20:52:22+01:00"
 title = "How to convert a column to VectorUDT/DenseVector in Spark"
-mainclass = "dev"
 author = "alex"
 description = "Trying to fit a Linear Regression model in Spark I kept getting the error “`Column features must be of type org.apache.spark.ml.linalg.VectorUDT`”, I struggled looking for a solution, but finally found the key. "
 +++

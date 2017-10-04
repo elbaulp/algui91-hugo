@@ -1,10 +1,10 @@
 ---
 author: alex
 categories:
-- noticias
-date: '2016-01-01'
-lastmod: 2017-05-11T10:27:14+01:00
+- linux
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-04T20:39:40+01:00
 url: /grub-customizer-20-personaliza-tu-grub2/
 title: Grub Customizer 2.0, personaliza tu GRUB2
 ---

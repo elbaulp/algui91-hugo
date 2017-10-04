@@ -2,16 +2,14 @@
 author: alex
 categories:
 - articulos
+- seguridad
+mainclass: seguridad
 date: 2016-08-12 07:06:02
-lastmod: 2017-05-11T10:38:41+01:00
+lastmod: 2017-10-04T20:41:22+01:00
 description: "Un grupo de investigadores ha conseguido acceder y moficar los píxeles  de una pantalla"
 image: Hackeando-Tu-Monitor-De-Pantalla.jpg
 introduction: "Un grupo de investigadores ha conseguido acceder y moficar los píxeles  de una pantalla"
-mainclass: articulos
-tags:
-- seguridad
 title: Hackeando Tu Monitor De Pantalla
-twitter_text: null
 ---
 
 <figure>

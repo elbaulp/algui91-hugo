@@ -2,11 +2,10 @@
 author: alex
 categories:
 - linux
-- opensource
-date: '2016-01-01'
-lastmod: 2017-05-11T10:36:05+01:00
-image: chuletacomandoslinux.png
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-04T20:40:29+01:00
+image: chuletacomandoslinux.png
 url: /guia-de-referencia-de-comandos/
 title: "Guía de Referencia de comandos Unix/Linux [IMG]"
 ---

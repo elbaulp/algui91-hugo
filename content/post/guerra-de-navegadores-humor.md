@@ -1,13 +1,11 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- curiosidades
-- internet
+- articulos
+mainclass: articulos
 date: '2016-01-01'
-lastmod: 2017-05-11T10:35:28+01:00
+lastmod: 2017-10-04T20:40:09+01:00
 image: guerra-de-navegadores-humor.jpg
-mainclass: geek
 url: /guerra-de-navegadores-humor/
 title: Guerra de navegadores [Humor]
 ---

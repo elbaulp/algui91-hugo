@@ -2,16 +2,13 @@
 author: alex
 categories:
 - how to
+- android
+mainclass: android
 date: '2016-01-01'
-lastmod: 2017-05-11T10:36:55+01:00
+lastmod: 2017-10-04T20:41:02+01:00
 description: "En ocasiones, al crear un emulador Android, aún habiendo habilitado  el soporte para teclado éste no funciona. Hoy veremos cómo habilitar el teclado  en el emulador Android y, además, cómo habilitar la navegación mediante  los cursores del teclado."
 image: "2014/08/Cómo-habilitar-el-teclado-en-el-emulador-Android.png"
-mainclass: android
 url: /habilitar-el-teclado-en-el-emulador-android/
-tags:
-- habilitar el teclado en el emulador Android
-- hw.dPad=yes
-- hw.keyboard=yes
 title: "Cómo habilitar el teclado en el emulador Android"
 ---
 
