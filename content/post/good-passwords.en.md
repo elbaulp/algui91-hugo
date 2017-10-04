@@ -1,12 +1,13 @@
 +++
 image = "haystackpassword.png"
+categories = ["security"]
 mainclass = "security"
 author = "alex"
 description = "Best practices to create and manage passwords & hardening your online presence"
-date = "2017-07-27T12:21:35+01:00"
+lastmod = "2017-10-04T13:47:27+01:00"
+date = "2017-10-04T13:47:29+01:00"
 title = "Creating and managing passwords intelligently"
 tags = ["passwords"]
-categories = ["security"]
 +++
 
 # CHANGELOG

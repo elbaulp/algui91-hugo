@@ -3,20 +3,15 @@ author: alex
 amp:
   elements: [amp-youtube]
 categories:
-- aplicaciones
-- opensource
+- articulos
+mainclass: articulos
 date: '2016-01-01'
-lastmod: 2017-05-11T10:12:41+01:00
+lastmod: 2017-10-04T14:10:31+01:00
 description: Tutorial de gource y ejemplo de uso
 image: 2013/05/gourceGit-1024x804.png
-mainclass: articulos
 url: /gource-visualizar-la-evolucion-de-un-repositorio-git/
 tags:
-- como instalar gource
-- gource git
-- grabar video con gource
-- tutorial gource
-- gource tutorial
+- git
 title: "Gource: Visualizar la evolución de un repositorio Git"
 ---
 
