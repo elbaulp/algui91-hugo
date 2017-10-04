@@ -1,10 +1,10 @@
 ---
 author: alex
 categories:
-- articulos
-date: '2016-01-01'
-lastmod: 2017-05-11T10:23:07+01:00
+- linux
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-04T20:39:53+01:00
 url: /grub-customizer-20/
 title: Grub Customizer 2.0
 ---

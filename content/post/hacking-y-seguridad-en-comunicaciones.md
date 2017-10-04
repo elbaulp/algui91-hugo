@@ -1,15 +1,14 @@
 ---
 author: alex
 categories:
-- noticias
 - seguridad
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-05-11T10:40:12+01:00
+lastmod: 2017-10-04T20:42:17+01:00
 image: hacking-y-seguridad-en-comunicaciones.jpg
-mainclass: misc
 url: /hacking-y-seguridad-en-comunicaciones/
 tags:
-- comunicaciones moviles lte
+- hacking
 title: "Hacking y Seguridad en Comunicaciones Móviles GSM / GPRS / UMTS / LTE"
 ---
 

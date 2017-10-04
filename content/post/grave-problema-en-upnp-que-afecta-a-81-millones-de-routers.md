@@ -92,7 +92,7 @@ Al principio se dan unos cuantos datos estadísticos de todos los dispositivos y
 En resumen, el 2.2% del total de direcciones IPv4 del mundo responde a paquetes UPnP. Sobre el 20% de esas IPs están expuestas a la API de SOAP, es decir, al enviar el paquete de solicitud UPnP, el objetivo del paquete responde con una cadena de identificación, versión del sistema Operativo que está ejecutando, versión de la librería UPnP junto a más información. Lo cual permite elegir el exploit a utilizar para lograr explotar la vulnerabilidad. Incluso indica dónde se está ejecutando su servicio HTTP (el servicio HTTP de UPnP). Una vez conectado a ese servidor, es interactua con la API de SOAP para cambiar la configuraión del router.
 
 
-A continuación en las referencias proporciono una herramienta que <a href="http://www.grc.com/intro.htm" target="_blank">Steve Gibson</aha creado para comprobar si eres vulnerable a paquetes UPnP.
+A continuación en las referencias proporciono una herramienta que <a href="http://www.grc.com/intro.htm" target="_blank">Steve Gibson</a> ha creado para comprobar si eres vulnerable a paquetes UPnP.
 
 # Referencias
 

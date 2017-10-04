@@ -1,12 +1,12 @@
 +++
 title = "Compilar la parte no gratuita de OpenCV 3.0+ desde fuente"
-tags = ["privativa", "opencv", "intellij", "java"]
-categories = ["dev"]
-image = "how-to-compile-opencv3-nonfree-part-from-source.jpg"
+tags = ["java"]
+categories = ["dev", "how to"]
 mainclass = "dev"
+image = "how-to-compile-opencv3-nonfree-part-from-source.jpg"
 author = "cristina"
 description = "Por defecto, la parte de código privativo no se compila cuando compilas OpenCV o realizas una instalación por defecto, learn how to install nonfree code, aprende a instalar la parte no gratuita de OpenCV"
-lastmod = "2017-03-07T20:31:36+01:00"
+lastmod = "2017-10-04T20:51:20+01:00"
 date = "2017-03-07T20:31:38+01:00"
 url = "/compilar-la-parte-no-gratuita-de-opencv-3.0-desde-fuente/"
 +++
@@ -48,8 +48,8 @@ cris@cris ~$ export JAVA_HOME=/home/jdk1.8.0_111/
 Fíjate cuando estés generando el makefile, que la salida para el campo de Java es así:
 
 <figure>
-<amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" title="Building makefiles for JAVA openCV" alt="Building makefiles for JAVA openCV output" width="983" height="164"></amp-img>
-<figcaption>building makefiles</figcaption>
+    <amp-img sizes="(min-width: 983px) 983px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" title="Building makefiles for JAVA openCV" alt="Building makefiles for JAVA openCV output" width="983" height="164"></amp-img>
+    <figcaption>building makefiles</figcaption>
 </figure>
 
 Es decir, que hay un path para JNI especificado,y Java _wrappers_ está a YES.

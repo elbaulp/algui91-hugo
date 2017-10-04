@@ -1,11 +1,12 @@
 +++
 tags = ["spark", "scala"]
-categories = ["dev"]
+categories = ["dev", "how to"]
+mainclass = "dev"
 image = "sparklogo.png"
 date = "2017-02-06T17:04:46+01:00"
 lastmod = "2017-02-06"
 title = "Cómo convertir una columna a VectorUDT/DenseVector en Spark"
-mainclass = "dev"
+
 author = "alex"
 description = "Intentando entrenar un modelo de regresión lineal en Spark obtenía el siguiente el error “`Column features must be of type org.apache.spark.ml.linalg.VectorUDT`”, Me costó bastante encontrar una solución, pero finalmente conseguí solucionarlo"
 +++

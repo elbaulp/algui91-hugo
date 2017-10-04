@@ -1,11 +1,10 @@
 +++
 author = "alex"
 date = "2017-01-30"
+lastmod = "2017-10-04T20:54:44+01:00"
 title = "Cómo mantener varios parches - Un tutorial sobre Quilt"
 description = "La herramienta quilt permite administrar fácilmente los distintos parches de un programa."
-tags = ["quilt", "software", "parches"]
-categories = ["dev"]
-image = ""
+categories = ["dev", "how to"]
 mainclass = "dev"
 +++
 

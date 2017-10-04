@@ -1,12 +1,12 @@
 +++
 title = "How to Compile  OpenCV 3.0+ nonfree part from source"
-tags = ["howto", "opencv", "java"]
+tags = ["howto", "java"]
 categories = ["dev"]
-image = "how-to-compile-opencv3-nonfree-part-from-source.jpg"
 mainclass = "dev"
+image = "how-to-compile-opencv3-nonfree-part-from-source.jpg"
 author = "cristina"
 description = "By default, nofree code does not ship with the default OpenCv installation, learn how to install nonfree code"
-lastmod = "2017-03-07T20:31:53+01:00"
+lastmod = "2017-10-04T20:50:56+01:00"
 date = "2017-03-07T20:31:54+01:00"
 url = "/en/how-to-compile-opencv3-nonfree-part-from-source/"
 +++
