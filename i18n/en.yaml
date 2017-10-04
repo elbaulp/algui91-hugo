@@ -1,19 +1,19 @@
 - id: home
   translation: "Home"
 - id: ads_title
-  translation: "Help us keep writing"
+  translation: "Help me keep writing"
 - id: ads_adblock
-  translation: "“Whitelist” us in your <strong>ad blocker</strong>"
+  translation: "“Whitelist” me in your <strong>ad blocker</strong>"
+- id: ads_patreon
+  translation: "Become a <strong>Patreon!</strong>"
 - id: ads_amz
-  translation: "Use our <strong>Amazon</strong> link"
+  translation: "Use my <strong>Amazon</strong> link"
 - id: ads_amz_link
   translation: "https://www.amazon.com/?&_encoding=UTF8&tag=elbauldelpro-20&linkCode=ur2&linkId=e6433bf2e98871a88a484ff872e3dbe9&camp=1789&creative=9325"
 - id: ads_guide
-  translation: "Download one of our <strong>free EBooks</strong>"
-- id: ads_patreon
-  translation: "Become a <strong>Patreon!</strong>"
+  translation: "Download a <strong>free EBook</strong>"
 - id: ads_support
-  translation: "More ways to <strong>support us</strong>"
+  translation: "Other ways to <strong>support me</strong>"
 - id: author
   translation: "Author"
 - id: author_title
@@ -87,4 +87,4 @@
 - id: no_ga
   translation: "Why I removed <strong>Google Analytics</strong>"
 - id: typo
-  translation: "<blockquote><strong>Have you seen a Typo?</strong>: Please, help me fix it by <a href=\"/en/contacto/\">contacting me.</a></blockquote>"
+  translation: "<blockquote><strong>Spot a typo?</strong>: Help me fix it by <a href=\"/en/contacto/\">contacting me.</a></blockquote>"

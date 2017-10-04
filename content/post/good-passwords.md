@@ -1,12 +1,13 @@
 +++
 image = "haystackpassword.png"
+categories = ["seguridad"]
 mainclass = "seguridad"
 author = "alex"
 description = "Buenas prácticas para crear y administrar tus contraseñas y cómo fortalecer tu presencia online"
-date = "2017-07-27T12:21:26+01:00"
+lastmod = "2017-10-04T13:48:13+01:00"
+date = "2017-10-04T13:48:14+01:00"
 title = "Crear y administrar contraseñas inteligentemente"
-tags = ["seguridad", "contraseñas"]
-categories = ["seguridad"]
+tags = ["contraseñas"]
 +++
 
 # CHANGELOG

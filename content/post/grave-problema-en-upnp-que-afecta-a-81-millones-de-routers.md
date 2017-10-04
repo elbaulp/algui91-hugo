@@ -3,13 +3,10 @@ author: alex
 categories:
 - articulos
 - security now
-date: '2016-01-01'
-lastmod: 2017-05-11T10:14:53+01:00
 mainclass: security-now
+date: '2016-01-01'
+lastmod: 2017-10-04T14:10:58+01:00
 url: /grave-problema-en-upnp-que-afecta-a-81-millones-de-routers/
-tags:
-- "qué es upnp"
-- upnp que es
 title: Grave vulnerabilidad en UPnP que afecta a 81 millones de routers
 ---
 

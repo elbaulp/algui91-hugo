@@ -2,10 +2,10 @@
 author: alex
 categories:
 - articulos
-date: 2015-11-06 15:38:37
-lastmod: 2017-05-04T10:53:05+01:00
-image: contributorad.png
 mainclass: articulos
+date: 2017-10-04T13:59:29+01:00
+lastmod: 2017-10-04T13:59:33+01:00
+image: contributorad.png
 title: Google Lanza Contributor, Apoya a Tus Webs Favoritas Sin Ver Anuncios
 ---
 
