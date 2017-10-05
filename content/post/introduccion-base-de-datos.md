@@ -2,14 +2,13 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-06-10T18:34:42+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-05T16:25:24+01:00
 url: /introduccion-base-de-datos/
 tags:
-- abstraccion de datos pl/sql
-- apuntes bases de datos
-- guia de sql basico
+- pl/sql
+- sql
 title: Introduccion a base de datos
 ---
 

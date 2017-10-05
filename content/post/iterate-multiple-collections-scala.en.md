@@ -1,11 +1,12 @@
 +++
 tags = ["scala", "python", "howto"]
 categories = ["dev"]
-image = "scala_logo.png"
 mainclass = "dev"
+image = "scala_logo.png"
 author = "alex"
 description = "What is the Idiomatic way of iterate through multiple collections in scala?"
 date = "2017-05-08T12:12:30+01:00"
+lastmod = "2017-10-05T16:29:51+01:00"
 title = "How to iterate through multiple collections in Scala"
 +++
 

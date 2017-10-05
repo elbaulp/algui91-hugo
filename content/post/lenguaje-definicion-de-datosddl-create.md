@@ -2,19 +2,13 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-06-11T17:44:43+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-05T16:36:55+01:00
 url: /lenguaje-definicion-de-datosddl-create/
-tags:
-- alter table posibles valores
-- clausulas del ddl
-- concepto de ddl
-- que es un ddl
-- sentencia create
-- sentencias dml y ddl
-- unique para varias columnas
 title: "Lenguaje Definición de Datos(DDL) - CREATE"
+tags:
+- sql
 ---
 
 En esta entrada vamos a ver la orden CREATE

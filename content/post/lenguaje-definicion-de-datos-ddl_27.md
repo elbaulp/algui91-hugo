@@ -2,15 +2,12 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-06-11T17:43:08+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-05T16:36:26+01:00
 url: /lenguaje-definicion-de-datos-ddl_27/
 tags:
-- clausulas del ddl
-- concepto de ddl
-- que es un ddl
-- sentencias dml y ddl
+- sql
 title: "Lenguaje Definición de Datos (DDL) - Sinónimos y Pseudocolumnas"
 ---
 

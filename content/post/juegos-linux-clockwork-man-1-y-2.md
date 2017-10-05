@@ -1,10 +1,10 @@
 ---
 author: alex
 categories:
-- juegos
-date: '2016-01-01'
-lastmod: 2017-06-11T17:30:49+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-05T16:32:23+01:00
 url: /juegos-linux-clockwork-man-1-y-2/
 title: Juegos Linux, The Clockwork Man 1 y 2
 ---

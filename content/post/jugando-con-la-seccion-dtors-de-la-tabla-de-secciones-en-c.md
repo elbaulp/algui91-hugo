@@ -1,16 +1,13 @@
 ---
 author: alex
 categories:
-- c
-date: '2016-01-01'
-lastmod: 2017-06-11T17:34:40+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-05T16:32:37+01:00
 url: /jugando-con-la-seccion-dtors-de-la-tabla-de-secciones-en-c/
 tags:
-- .ctors y .dtors
-- .init_array .fini_array
-- ELF
-- secciones C
+- c
 title: Jugando con las secciones .dtors y .ctors de la tabla de secciones en C
 ---
 

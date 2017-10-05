@@ -1,20 +1,15 @@
 ---
 author: alex
 categories:
-- python
-date: '2016-01-01'
-lastmod: 2017-06-10T11:27:38+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-05T16:23:38+01:00
+description: "Tutorial sobre expresiones regulares en python"
 url: /introduccion-a-las-expresiones-regulares-en-python/
-sif_eo_description:
-- Tutorial sobre expresiones regulares en python
-- Tutorial sobre expresiones regulares en python
 tags:
-- ejemplos de expresiones regulares
-- expresiones regulares
-- probar expresiones regulares
 - python
-- regexp
+- regex
 title: "Introducción a las expresiones regulares en python"
 ---
 

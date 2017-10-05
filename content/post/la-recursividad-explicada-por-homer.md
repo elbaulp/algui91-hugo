@@ -1,11 +1,10 @@
 ---
 author: alex
 categories:
-- humor
-- internet
+- articulos
+mainclass: articulos
 date: '2016-01-01'
-lastmod: 2017-06-11T17:39:18+01:00
-mainclass: geek
+lastmod: 2017-10-05T16:34:20+01:00
 url: /la-recursividad-explicada-por-homer/
 title: La recursividad, explicada por Homer Simpson
 ---

@@ -1,23 +1,20 @@
 ---
 author: alex
 categories:
-- misc
+- descargas
+mainclass: descargas
 date: 2016-03-14 08:38:01
-lastmod: 2017-07-04T12:19:12+01:00
+lastmod: 2017-10-05T16:41:54+01:00
 description: Kick-start your Python projects with these hot recipes!
 image: Python-Programming-Cookbook.jpg
-mainclass: misc
 tags:
-- guias Gratuita
-- descargar guias python
-- manuales de python
-- curso de python
-- Cookbook python
+- guias
+- libros
 title: "Guía Gratuita - Python Programming Cookbook"
 ---
 
 <figure>
-<a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_webd07&ch=ocsoc2"><amp-img sizes="(min-width: 1200px) 1200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Python-Programming-Cookbook.jpg" title="Guía Gratuita - Python Programming Cookbook" alt="Guía Gratuita - Python Programming Cookbook" width="1200px" height="630px" /></a>
+    <a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_webd07&ch=ocsoc2"><amp-img sizes="(min-width: 1200px) 1200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Python-Programming-Cookbook.jpg" title="Guía Gratuita - Python Programming Cookbook" alt="Guía Gratuita - Python Programming Cookbook" width="1200px" height="630px" /></a>
 </figure>
 
 Kick-start your Python projects with these hot recipes!
@@ -35,7 +32,7 @@ With this free eBook you will also receive weekly news, tips and special offers 
 </div>
 
 Visita la página [Manuales gratuitos][1] o consulta el [catálogo completo][2].
-{: .notice-info }
+
 
 [1]: https://elbauldelprogramador.com/manuales-gratuitos/
 [2]: http://elbauldelprogramador.tradepub.com/category/information-technology/1207/ "Catálogo completo de Guías gratuítas "

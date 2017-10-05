@@ -2,11 +2,13 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-06-10T18:45:56+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-05T16:27:41+01:00
 url: /introduccion-plsql/
 title: "Introducción a PL/SQL"
+tags:
+- pl/sql
 ---
 
 Ahora que el [temario de SQL][1] está terminado, voy a empezar a escribir sobre [PL/SQL][2]. Empezaré con una introducción.
