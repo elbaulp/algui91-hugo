@@ -2,23 +2,16 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-06-10T11:06:00+01:00
-image: https://3.bp.blogspot.com/-A6gb57w_xX4/Tg4D4i8sSVI/AAAAAAAAAqw/hvsbzYlBpPQ/s800/adaptadores2.png
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-05T12:29:59+01:00
+image: https://3.bp.blogspot.com/-A6gb57w_xX4/Tg4D4i8sSVI/AAAAAAAAAqw/hvsbzYlBpPQ/s800/adaptadores2.png
 url: /programacion-android-interfaz-grafica-2/
 tags:
 - adapter android
-- adapter getview android
-- "android diseñar gui"
-- como hacer interfaces graficas en android
-- curso android pdf
-- interfaces de usuario android
-- interfaz grafica en android
 - layout android
 - menu android
-- simple adapter android ejemplo
 title: "Programación Android: Interfaz gráfica - Adapters II"
 ---
 

@@ -2,15 +2,15 @@
 author: cristina
 categories:
 - linux
+mainclass: linux
 date: 2016-07-18 16:08:56
-lastmod: 2017-05-13T11:20:14+01:00
+lastmod: 2017-10-05T12:17:35+01:00
 image: imagen-terminal-color-texto-a-juego-linux.png
 introduction: "Con este pequeño script podrás cambiar el fondo y color de texto  de tu terminal, a juego"
-mainclass: linux
 tags:
-- Terminal
-- Gnome
 - "Imágenes"
+- bash
+- script
 title: "Cambia La Imágen De Fondo Del Terminal Gnome Y Pon Un Color De Texto a Juego, Automáticamente"
 ---
 
@@ -23,7 +23,7 @@ Aquí os quiero contar como se me ocurrió hacerlo a mí, con un script en bash 
 Antes de comenzar...
 -------------
 
-#### Comprobar versión de gnome-shell
+# Comprobar versión de gnome-shell
 
 El script es válido para **versiones de gnome < 3.8**. Lo he probado en Linux Mint Debian Edition y en Ubuntu 14.04. En este último tuve que instalar gnome-shell.
 
@@ -39,7 +39,7 @@ Para comprobar la versión de gnome:
     cris@cris ~ $ gnome-shell --version
 ```
 
-#### instalar ImageMagick y gawk
+# instalar ImageMagick y gawk
 
 Usaremos funciones de ImageMagick para convertir las imágenes, y gawk para filtrar por expresiones. Para instalarlos:
 
@@ -55,7 +55,7 @@ Expliación del script
 
 La idea del script es modificar directamente los valores de configuración de terminal que se establecen en el fichero **%gconf.xml** que se ubica en `home/user/.gconf/apps/gnome-terminal/profiles/Default/`, para versiones de shell gnome < 3.8.
 
-#### Declaración de variables
+# Declaración de variables
 
 Inicialmente declaramos las variables con la ruta de los comandos que vamos a tilizar frecuentemente. No es obligatorio, pero es recomendable. La variable **ROUTE** contiene la ruta del directorio donde guardamos las imágenes que queremos poner de fondo.
 
@@ -74,7 +74,7 @@ Inicialmente declaramos las variables con la ruta de los comandos que vamos a ti
 - **gawk** : escaneador de patrones. Lo usaremo para filtrar patrón hexadecimal.
 - **convert** : lo usaremos para redimensionar la imágen y convertirla en hibstograma.
 
-#### Tomar imágenes
+# Tomar imágenes
 
 tomamos aleatoriamente una imágen de **miRuta** para la terminal:
 
@@ -103,7 +103,7 @@ Como mis imágenes son tamaño fondo de escritorio, las redimensiono a la mitad 
     FILED=$(shuf -n 1 -e $ROUTE)
 ```
 
-#### Ponemos la imágen de fondo en el terminal
+# Ponemos la imágen de fondo en el terminal
 
 modificamos algunas configuraciones que vienen por defecto antes de aplicar los cambios, para que tengan efecto:
 
@@ -131,7 +131,7 @@ Por último, ponemos un color oscuro de fondo del terminal y un nivel de opacida
     $GCONFT --set /apps/gnome-terminal/profiles/Default/background_darkness --type float "0.78"
 ```
 
-#### Ponemos color del texto a juego
+# Ponemos color del texto a juego
 
 Para ello, sacamos el hibstograma de colores de la imágen, y tomamos un tono de esos colores. Con **convert** podemos indicar el número de colores que deseamos sacar y la profundidad. Luego los ordenamos segun su orden numérico y filtramos solo el  código hexadecimal de los colores con **gawk**. Lo guardamos en un fichero de texto llamado paleta.txt que se creara en /tmp.
 
@@ -171,9 +171,9 @@ Lo de tomar el 6º color es porque como están ordenados de más claro a más os
     gsettings set org.gnome.desktop.background picture-uri "file:///$FILED"
 ```
 
-#### Disfruta y luce tus terminales
+# Disfruta y luce tus terminales
 
-#### Planifica la ejecución
+# Planifica la ejecución
 Para no tener que andar lanzando el script, puedes planificarlo con **crontab** para que se ejecute, por ejemplo cada vez que inicias el sistema:
 
 ```bash
@@ -181,7 +181,7 @@ Para no tener que andar lanzando el script, puedes planificarlo con **crontab** 
     @reboot /miRuta_al_script/CambiaTerminales.sh # añadir tarea
 ```
 
-#### Algunos ejemplos ####
+# Algunos ejemplos
 
 <figure>
     <amp-img sizes="(min-width: 656px) 656px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux2.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="656px" height="386px" />

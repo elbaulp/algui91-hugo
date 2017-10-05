@@ -2,15 +2,10 @@
 author: alex
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-06-01T12:13:37+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-05T12:26:07+01:00
 url: /instalar-atom-el-editor-de-github-en-linux/
-tags:
-- atom
-- editor atom github
-- instalar atom
-- instalar atom en Ubuntu
 title: Instalar Atom, el editor de GitHub en Linux
 ---
 

@@ -2,23 +2,15 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-06-10T11:08:18+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-05T12:30:12+01:00
 url: /programacion-android-interfaz-grafica_28/
 tags:
 - adapter android
-- "android diseñar gui"
-- android listview con imagenes
-- android listview example
-- como hacer interfaces graficas en android
-- curso android pdf
-- interfaces de usuario android
-- interfaz grafica en android
 - layout android
 - menu android
-- simple adapter android ejemplo
 title: "Programación Android: Interfaz gráfica - Adapters I"
 ---
 

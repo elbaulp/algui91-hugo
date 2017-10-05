@@ -2,15 +2,15 @@
 author: alex
 categories:
 - dev
+mainclass: dev
 date: 2016-07-31 05:37:13
-lastmod: 2017-05-11T10:44:08+01:00
+lastmod: 2017-10-05T12:15:03+01:00
 description: 'Solving amp-mustache error: Missing URL for Attribute'
 image: how-to-solve-missing-url-for-attribute-src-in-tag-a-error-in-amp-mustache.png
 introduction: 'Solving amp-mustache error: Missing URL for Attribute'
-mainclass: dev
-tags:
-- amp-pages
 title: How to Solve 'Missing URL for Attribute 'Src' in Tag 'a'' Error in Amp-mustache
+tags:
+- howto
 ---
 
 # What is Amp-mustache and how it works #

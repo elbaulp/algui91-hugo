@@ -1,11 +1,12 @@
 +++
 description = "Learn how to parse and modify frontmatter content with Python-Frontmatter"
-tags = ["python", "frontmatter", "parser", "howto"]
+tags = ["python", "parser", "howto"]
 categories = ["dev"]
-image = "Learn-how-to-parse-and-modify-frontmatter-content-with-Python-Frontmatter.png"
 mainclass = "dev"
+image = "Learn-how-to-parse-and-modify-frontmatter-content-with-Python-Frontmatter.png"
 author = "alex"
 date = "2017-01-26"
+lastmod = "2017-10-05T12:13:54+01:00"
 title = "How to parse frontmatter with python"
 +++
 
