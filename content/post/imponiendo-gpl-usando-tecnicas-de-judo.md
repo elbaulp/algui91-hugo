@@ -4,7 +4,7 @@ categories:
 - articulos
 mainclass: articulos
 date: '2016-01-01'
-lastmod = "2017-10-05T12:18:59+01:00"
+lastmod: 2017-10-05T12:35:10+01:00
 url: /imponiendo-gpl-usando-tecnicas-de-judo/
 aliases: /opensource/imponiendo-gpl-usando-tecnicas-de-judo/
 tags:
