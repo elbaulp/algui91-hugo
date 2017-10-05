@@ -2,15 +2,10 @@
 author: alex
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-06-11T17:28:07+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-05T16:29:16+01:00
 url: /investigadores-mas-cerca-de-usar-luz-en-lugar-de-cables-en-ordenadores/
-tags:
-- "física"
-- luz por cables
-- transmitir datos por luz
-- Vuckovic Lab
 title: "Investigadores más cerca de usar luz en lugar de cables en ordenadores"
 ---
 

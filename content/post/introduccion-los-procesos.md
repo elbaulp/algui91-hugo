@@ -1,13 +1,14 @@
 ---
 author: alex
 categories:
-- procesos
-- so
+- articulos
+mainclass: articulos
 date: '2016-01-01'
 lastmod: 2017-06-10T18:44:46+01:00
-mainclass: articulos
 url: /introduccion-los-procesos/
 title: "Introducción a los Procesos"
+tags:
+- so
 ---
 
 # 1 . Concepto

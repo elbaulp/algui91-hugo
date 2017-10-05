@@ -1,20 +1,17 @@
 ---
 author: luzila
 categories:
-- aplicaciones
-- articulos
-- opensource
 - seguridad
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-07-04T12:25:02+01:00
+lastmod: 2017-10-05T16:46:26+01:00
 image: 2012/11/081012_1601_AchievingAn21-300x86.png
-mainclass: articulos
 url: /logrando-el-anonimato-con-tor-parte-1/
 aliases:
 - /articulos/logrando-el-anonimato-con-tor-parte-1
 - /opensource/logrando-el-anonimato-con-tor-parte-1
 tags:
-- navegacion anonima
+- privacidad
 - Tor
 title: Logrando el anonimato con Tor (Parte 1)
 elements: [amp-youtube]

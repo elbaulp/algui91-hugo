@@ -1,16 +1,13 @@
 ---
 author: alex
 categories:
-- html5
+- dev
+mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-06-10T18:40:57+01:00
+lastmod: 2017-10-05T16:26:55+01:00
 description: "Con este primer artículo de introducción a HTML5, presentamos  una serie de artículos a modo de curso cuyo autor, al que agradezco su interés  por colaborar en el blog, es Roberto. Si ya sabes algo puedes echar un vistazo al  artículo Ejemplos en HTML5: Almacenamiento Web, SQL y WebSocket."
 image: "2013/11/Introducción-a-HTML51.png"
-mainclass: dev
 url: /introduccion-html5/
-tags:
-- curso html5
-- etiquetas html5
 title: "Introducción a HTML5"
 ---
 

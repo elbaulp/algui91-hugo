@@ -2,11 +2,14 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-06-10T18:48:01+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-05T16:28:26+01:00
 url: /introduccion-sql-sql-introduction/
 title: "Introducción SQL"
+tags:
+- pl/sql
+- sql
 ---
 
 Un <acronym title="Relational Data Base Management System">RDBMS</acronym> es un software capaz de producir, manipular y gestionar bases de datos de tipo relacional.

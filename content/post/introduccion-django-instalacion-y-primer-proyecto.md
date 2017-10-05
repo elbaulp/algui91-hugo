@@ -1,14 +1,14 @@
 ---
 author: alex
 categories:
-- django
-date: '2016-01-01'
-image: 2013/10/django.png
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-05T16:26:31+01:00
+image: 2013/10/django.png
 url: /introduccion-django-instalacion-y-primer-proyecto/
 tags:
-- ejemplos django
-- instalar django
+- django
 title: "Introducción a Django - Instalación y primer proyecto"
 ---
 

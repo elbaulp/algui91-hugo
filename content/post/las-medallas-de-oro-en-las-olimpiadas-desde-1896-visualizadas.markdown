@@ -2,14 +2,14 @@
 author: alex
 categories:
 - articulos
-date: 2016-09-23 13:01:18
-lastmod: 2017-03-04T19:32:52+01:00
+mainclass: articulos
+date: 2017-10-05T16:35:36+01:00
+lastmod: 2017-10-05T16:35:28+01:00
 description: "Olympic Feathers es una visualización de datos interactiva que muestra la historia de las medallas olímpicas desde 1896 hasta hoy"
 image: Olympic-Feathers-Detail-7.png
 introduction: "Olympic Feathers es una visualización de datos interactiva que muestra la historia de las medallas olímpicas desde 1896 hasta hoy"
-mainclass: articulos
 tags:
-- visualizacion datos
+- visualizacion de datos
 - d3js
 title: "Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016"
 ---

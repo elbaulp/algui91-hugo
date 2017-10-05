@@ -2,16 +2,14 @@
 author: alex
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-06-11T17:36:30+01:00
-image: "2013/08/La-generación-GitHub-Por-qué-ahora-todos-estamos-en-el-opensource.jpg"
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-05T16:33:01+01:00
+image: "2013/08/La-generación-GitHub-Por-qué-ahora-todos-estamos-en-el-opensource.jpg"
 url: /la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/
 tags:
-- cambios github
-- generacion github
-- que es github
-- ventajas de github
+- github
+- git
 title: "La generación GitHub: Por qué ahora todos estamos en el opensource"
 aliases: /articulos/la-generacion-github-por-que-ahora-todos-estamos-en-el-opensource/
 ---

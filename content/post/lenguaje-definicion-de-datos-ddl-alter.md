@@ -2,14 +2,12 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-06-11T17:44:12+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-05T16:36:39+01:00
 url: /lenguaje-definicion-de-datos-ddl-alter/
 tags:
-- concepto de ddl
-- que es un ddl
-- sentencias dml y ddl
+- sql
 title: "Lenguaje Definición de Datos (DDL) - ALTER TABLE"
 ---
 

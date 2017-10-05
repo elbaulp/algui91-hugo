@@ -2,16 +2,10 @@
 author: luzila
 categories:
 - articulos
-- opensource
-date: '2016-01-01'
-lastmod: 2017-06-11T17:29:19+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-05T16:30:49+01:00
 url: /java-open-source-se-mueve-a-linux-aix-en-powerpc/
-tags:
-- AIX
-- Java Open Source
-- Linux
-- PowerPC
 title: Java Open Source se mueve a Linux, AIX en PowerPC
 ---
 

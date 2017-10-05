@@ -2,11 +2,9 @@
 author: alex
 categories:
 - linux
-- opensource
-- procesos
-date: '2016-01-01'
-lastmod: 2017-07-01T13:47:33+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-05T16:38:34+01:00
 url: /liberada-la-version-10-de-htop/
 tags:
 - htop

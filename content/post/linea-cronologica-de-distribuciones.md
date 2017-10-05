@@ -1,17 +1,17 @@
 ---
 author: alex
 categories:
-- curiosidades
 - linux
-- opensource
+mainclass: linux
 date: 2016-09-01
-lastmod: 2017-07-04T12:21:37+01:00
+lastmod: 2017-10-05T16:45:01+01:00
 description: "Visualización de la evolución de las distribuciones GNU/Linux"
 image: linea-cronologica-de-distribuciones.png
 introduction: "Visualización de la evolución de las distribuciones GNU/Linux"
-mainclass: linux
 url: /linea-cronologica-de-distribuciones/
 title: "Evolución de las distribuciones GNU/Linux, de 1992 a 2016"
+tags:
+- visualizacion de datos
 ---
 
 <figure>

@@ -2,14 +2,14 @@
 author: alex
 categories:
 - android
-date: '2016-01-01'
-lastmod: 2017-06-10T18:26:25+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-05T16:25:00+01:00
 url: /introduccion-al-ndk-de-android/
 tags:
-- ejemplos ndk android
-- hola mundo ndk android
-- "introducción ndk android"
+- java
+- c
 title: "Introducción al NDK de Android"
 ---
 

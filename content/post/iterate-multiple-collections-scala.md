@@ -1,7 +1,7 @@
 +++
 tags = ["scala", "python"]
-categories = ["dev"]
 image = "scala_logo.png"
+categories = ["dev", "how to"]
 mainclass = "dev"
 author = "alex"
 description = "¿Cual es la forma más Idiomática de iterar varias colecciones a la vez en Scala?"

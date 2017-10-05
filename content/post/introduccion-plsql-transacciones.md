@@ -2,12 +2,13 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-06-10T18:47:06+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-05T16:28:07+01:00
 url: /introduccion-plsql-transacciones/
 tags:
-- transacciones sql
+- pl/sql
+- sql
 title: "Introducción a PL/SQL. Transacciones"
 ---
 
