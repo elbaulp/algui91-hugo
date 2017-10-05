@@ -2,36 +2,10 @@
 author: alex
 categories:
 - articulos
-- internet
-date: '2016-01-01'
-lastmod: 2017-07-04T20:03:53+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-05T19:33:49+01:00
 url: /los-10-mejores-frameworks-gratis-de-aplicaciones-web/
-tags:
-- aplicaciones web
-- cakephp
-- catalyst
-- codelgniter
-- comparativa framework php gratuitos
-- django
-- framework para python
-- frameworks
-- frameworks para php
-- los 10 mejores frameworks
-- pylons
-- ruby on rails
-- symfony
-- turbogears
-- yii
-- zend framework
-- framework php
-- tipos de framework
-- framework web
-- frameworks web
-- framework para php
-- ejemplos de framework
-- tipos de frameworks
-- framework para desarrollo web
 title: "Los 15 Mejores Frameworks gratuitos para Aplicaciones Web/Móvil [Actualizado]"
 ---
 

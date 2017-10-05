@@ -2,15 +2,14 @@
 author: luzila
 categories:
 - articulos
+- seguridad
+mainclass: seguridad
 date: '2016-01-01'
 image: 2013/06/081712_1525_AchievingAn4.png
-lastmod: 2017-07-04T12:32:34+01:00
-mainclass: articulos
+lastmod: 2017-10-05T19:32:28+01:00
 url: /logrando-el-anonimato-con-tor-parte-4/
 tags:
-- configurar tor
-- instalar tor
-- navegar anonimamente
+- privacidad
 - Tor
 title: "Logrando el anonimato con Tor (Parte 4) - Tor para relés"
 ---
@@ -19,8 +18,6 @@ title: "Logrando el anonimato con Tor (Parte 4) - Tor para relés"
 * [Logrando el anonimato con Tor (Parte 2): Servidores DNS y Proxies][2]
 * [Logrando el anonimato con Tor (Parte 3): TorButton y Tsocks][3]
 * Logrando el anonimato con Tor (Parte 4): Tor para relés
-
-
 
 # 1. Introducción
 

@@ -2,11 +2,11 @@
 author: alex
 categories:
 - android
-- aplicaciones
-date: '2016-01-01'
-lastmod: 2017-07-04T20:03:04+01:00
-description: "\xDAltimamente recibo muchos correos haciendome preguntas sobre cuestiones  sobre Android, eso me alegra, ya que significa que la gente lee el blog y se interesa  por el contenido, pero sinceramente, no dispongo del tiempo (ni tampoco del conocimiento)  suficiente para responder a todas ellas. Por eso, aprovechando que encontré un  artículo en inglés que nombraba los 10 errores comunes de los nuevos programadores  en esta plataforma. Aquí los dejo traducidos, ya que son de lectura recomendable:"
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-05T19:33:30+01:00
+description: "\xDAltimamente recibo muchos correos haciendome preguntas sobre cuestiones  sobre Android, eso me alegra, ya que significa que la gente lee el blog y se interesa  por el contenido, pero sinceramente, no dispongo del tiempo (ni tampoco del conocimiento)  suficiente para responder a todas ellas. Por eso, aprovechando que encontré un  artículo en inglés que nombraba los 10 errores comunes de los nuevos programadores  en esta plataforma. Aquí los dejo traducidos, ya que son de lectura recomendable:"
 url: /los-10-errores-de-novato-que-todo/
 tags:
 - curso android pdf

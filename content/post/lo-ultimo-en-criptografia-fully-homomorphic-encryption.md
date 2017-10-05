@@ -1,21 +1,16 @@
 ---
 author: alex
 categories:
-- algoritmos
 - articulos
 - security now
 - seguridad
-date: '2016-01-01'
-lastmod: 2017-07-06T12:30:37+01:00
 mainclass: security-now
+date: '2016-01-01'
+lastmod: 2017-10-05T19:37:05+01:00
 url: /lo-ultimo-en-criptografia-fully-homomorphic-encryption/
 tags:
-- cifrado determinista
-- "cifrado homomórfico"
-- cifrado probabilistico
+- cifrar
 - "criptografía"
-- criptografia homomorfica
-- Fully Homomorphic Encryption
 title: "Lo último en criptografía: Fully Homomorphic Encryption"
 ---
 

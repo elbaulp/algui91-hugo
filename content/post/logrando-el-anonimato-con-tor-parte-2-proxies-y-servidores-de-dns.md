@@ -1,17 +1,15 @@
 ---
 author: luzila
 categories:
-- aplicaciones
 - articulos
-- opensource
 - seguridad
+mainclass: seguridad
 date: '2016-01-01'
 image: 2012/12/081012_1604_AchievingAn11-300x128.png
-lastmod: 2017-07-04T12:29:33+01:00
-mainclass: articulos
+lastmod: 2017-10-05T19:31:06+01:00
 url: /logrando-el-anonimato-con-tor-parte-2-proxies-y-servidores-de-dns/
 tags:
-- navegacion anonima
+- privacidad
 - Tor
 title: 'Logrando el anonimato con Tor (Parte 2) : Proxies y servidores de DNS'
 ---

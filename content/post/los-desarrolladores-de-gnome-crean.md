@@ -2,11 +2,9 @@
 author: alex
 categories:
 - linux
-- noticias
-- opensource
-date: '2016-01-01'
-lastmod: 2017-07-04T20:04:59+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-05T19:34:57+01:00
 url: /los-desarrolladores-de-gnome-crean/
 title: "Los desarrolladores de GNOME crean \u201CBoxes\u201D para la virtualización"
 ---

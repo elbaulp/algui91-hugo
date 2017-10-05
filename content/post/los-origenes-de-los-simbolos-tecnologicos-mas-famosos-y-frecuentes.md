@@ -2,16 +2,12 @@
 author: luzila
 categories:
 - articulos
+mainclass: articulos
 date: '2016-01-01'
-lastmod: 2017-07-06T12:16:29+01:00
+lastmod: 2017-10-05T19:35:39+01:00
 description: "Contínuamente exploramos el mundo de los orígenes pero es muy raro que discutamos sobre dónde provienen los símbolos más comunes de tecnología. Lo que es sorprendente considerando la frecuencia con la que vemos y usamos estos símbolos. Afortunadamente, Visual.ly ha creado un gráfico que puede decirte casi todo lo que necesitas saber, desde dónde se originó el símbolo de Blouetooth hasta porqué \u2018@\u2019 es tan comunmente usado. Cada símbolo viene con su propia historia de origen, la mayoría de las cuales son mucho más interesantes de lo que piensas. Por ejemplo, ¿sabías que la tecla de comando Apple está inspirada en un símbolo sueco que indica una atracción destacable en un camping? Debe haber algunos símbolos incluidos en este gráfico que posiblemente nunca has oído o visto."
 image: "2014/03/LOS-OR\xCDGENES-DE-LOS-S\xCDMBOLOS-TECNOL\xD3GICOS-M\xC1S-FAMOSOS-Y-FRECUENTES.png"
-mainclass: articulos
 url: /los-origenes-de-los-simbolos-tecnologicos-mas-famosos-y-frecuentes/
-tags:
-- origen simbolo @
-- origen simbolo usb
-- "origen símbolos tecnológicos"
 title: "Los orígenes de los símbolos tecnológicos más famosos y frecuentes"
 ---
 

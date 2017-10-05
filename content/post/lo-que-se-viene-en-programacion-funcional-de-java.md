@@ -2,14 +2,12 @@
 author: luzila
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-07-04T19:49:31+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-05T19:32:58+01:00
 url: /lo-que-se-viene-en-programacion-funcional-de-java/
 tags:
-- haskell
-- java 8
-- programacion funcional java
+- java
 title: "Lo que se viene en programación funcional de Java&#8230;"
 ---
 
