@@ -2,11 +2,11 @@
 author: alex
 categories:
 - articulos
-date: 2016-12-03 10:40:33
-lastmod: 2017-07-06T12:29:54+01:00
+mainclass: articulos
+date: 2017-10-05T19:36:43+01:00
+lastmod: 2017-10-05T19:36:17+01:00
 description: "Tras escuchar a varios lectores, ahora es posible leer los artículos  completos desde los lectores RSS"
 introduction: "Tras escuchar a varios lectores, ahora es posible leer los artículos completos desde los lectores RSS"
-mainclass: articulos
 title: Los RSS Del Blog Ahora Muestran El Contenido Completo
 ---
 

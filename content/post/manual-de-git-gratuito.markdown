@@ -1,16 +1,16 @@
 ---
 author: alex
 categories:
-- misc
+- descargas
+mainclass: descargas
 date: 2016-08-06 16:15:22
 lastmod: 2017-07-07T18:30:46+01:00
 description: Descarga un manual de git completo de forma gratuita
 image: git-tutorial-centered.jpg
-mainclass: misc
 tags:
 - git
-- manuales
-- tutorial
+- libros
+- guias
 title: Manual De Git Gratuito
 ---
 

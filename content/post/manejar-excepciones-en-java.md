@@ -1,17 +1,14 @@
 ---
 author: alex
 categories:
-- java
+- dev
+mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-07-06T12:35:07+01:00
+lastmod: 2017-10-05T19:37:55+01:00
 description: "En este artículo veremos un poco sobre el manejo de excepciones en  java, esto es esencial para toda programación básica en java, una excepción  es un indicador que tenemos de que algo ha ido mal en nuestro código. Con lo  cual podremos controlarlas y capturarlas para poder tratar con ellas e indicar lo  que se tiene que hacer."
-mainclass: java
 url: /manejar-excepciones-en-java/
 tags:
-- errores java
-- excepciones java
-- finally java
-- try catch java
+- java
 title: Manejar excepciones en Java
 ---
 

@@ -3,7 +3,7 @@ title = "Mantén tu proyecto de LaTeX limpio con este simple script"
 date = "2017-08-09T17:45:16+02:00"
 author = "colaboraciones"
 mainclass = "latex"
-categories = ["LaTeX"]
+categories = ["LaTeX", "dev"]
 tags = ["bash"]
 description = "Limpiar automáticamente los ficheros temporales y mostrar el PDF actualizado"
 +++

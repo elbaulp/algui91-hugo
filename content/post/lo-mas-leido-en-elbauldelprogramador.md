@@ -1,10 +1,10 @@
 ---
 author: alex
 categories:
-- noticias
-date: '2016-01-01'
-lastmod: 2017-07-04T19:48:39+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-05T19:32:49+01:00
 url: /lo-mas-leido-en-elbauldelprogramador/
 title: "Lo más leido en ElbaulDelProgramador (Noviembre 2011)"
 ---

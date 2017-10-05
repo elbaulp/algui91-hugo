@@ -2,11 +2,11 @@
 author: alex
 categories:
 - articulos
+mainclass: articulos
 date: 2015-12-15 07:17:53
-lastmod: 2017-07-04T20:02:11+01:00
+lastmod: 2017-10-05T19:33:11+01:00
 description: "Se nos va otro año, estos son los 10 artículos que más os han gustado"
 image: los10articulosmasvisitados2015.png
-mainclass: articulos
 title: "Los 10 Artículos Más Visitados De 2015"
 ---
 
