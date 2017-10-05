@@ -1,12 +1,11 @@
 ---
 author: alex
 categories:
-- internet
-- noticias
-date: '2016-01-01'
-lastmod: 2017-05-11T10:45:01+01:00
-image: HumanstxtCreatorsomospersonasnomaquinas.png
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-05T12:16:17+01:00
+image: HumanstxtCreatorsomospersonasnomaquinas.png
 url: /humanstxt-creator-somos-personas-no/
 title: "Humanstxt Creator. Somos personas, no máquinas"
 ---

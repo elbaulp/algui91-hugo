@@ -1,22 +1,17 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- c
 - linux
+- dev
+mainclass: linux
 date: '2016-01-01'
-lastmod: 2017-06-10T11:01:57+01:00
+lastmod: 2017-10-05T12:27:14+01:00
 description: "Hace tiempo que hablé de Xmonad, y hasta hace poco ha sido mi gestor  de ventanas, durante varios años. Pero semanas atrás descubrí el proyecto  original en el que se basaba xmonad, DWM. Xmonad es un clon de DWM escrito en Haskell,  lo cual lo hace un poco más pesado y lento debido a las dependencias que tiene  y la necesidad de instalar su compilador. Tras probar DWM, no puedo estar más  contento con el resultado, está escrito en C, y todas las modificaciones en la  configuración se hacen sobre el propio código, lo cual lo hace muy eficiente  y rápido. En este artículo veremos cómo instalar y configurar DWM."
 image: "2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-más-eficiente1.png"
-mainclass: dev
 url: /instalar-y-configurar-dwm-el-gestor-de-ventanas-mas-eficiente/
 tags:
+- c
 - dwm
-- dynamic window manager
-- "En este artículo veremos cómo instalar y configurar DWM"
-- que es dwm
-- statuscolor dwm 6.1
-- tiling desktop
 title: "Instalar y configurar DWM, el gestor de ventanas más eficiente"
 ---
 

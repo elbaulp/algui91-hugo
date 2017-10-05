@@ -1,11 +1,12 @@
 +++
 description = "Pequeña guía de cómo eliminar paquetes _sloted_ en Gentoo"
-tags = ["gentoo", "portage", "emerge", "slotted package"]
+tags = ["gentoo", "portage", "emerge"]
 date = "2017-02-04T12:53:37+01:00"
+lastmod = "2017-10-05T12:14:49+01:00"
 title = "Cómo eliminar un paquete slotted en Gentoo"
-categories = ["gentoo", "linux"]
-image = "como-instalar-actualizar-elminar-paquetes-gentoo.png"
+categories = ["linux"]
 mainclass = "linux"
+image = "como-instalar-actualizar-elminar-paquetes-gentoo.png"
 author = "alex"
 +++
 

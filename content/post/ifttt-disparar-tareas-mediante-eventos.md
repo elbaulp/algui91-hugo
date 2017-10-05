@@ -1,12 +1,10 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- internet
-- noticias
-date: '2016-01-01'
-lastmod: 2017-05-13T11:19:13+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-05T12:17:19+01:00
 url: /ifttt-disparar-tareas-mediante-eventos/
 title: 'Ifttt: Disparar tareas mediante eventos producidos en redes sociales'
 ---

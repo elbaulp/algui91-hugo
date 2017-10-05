@@ -4,8 +4,8 @@ tags = ["howto", "gentoo", "portage", "emerge"]
 date = "2017-02-04T12:53:37+01:00"
 title = "How to remove slotted packages in gentoo"
 categories = ["linux"]
-image = "como-instalar-actualizar-elminar-paquetes-gentoo.png"
 mainclass = "linux"
+image = "como-instalar-actualizar-elminar-paquetes-gentoo.png"
 author = "alex"
 +++
 

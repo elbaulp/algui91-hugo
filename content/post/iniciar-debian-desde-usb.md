@@ -2,17 +2,15 @@
 author: alex
 categories:
 - how to
-date: '2016-01-01'
-lastmod: 2017-05-22T17:14:25+01:00
+- linux
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-05T12:22:35+01:00
 url: /iniciar-debian-desde-usb/
 tags:
-- debian testing
-- iniciar debian desde pendrive
-- instalar debian testing usb
-- install debian desde usb
-- linux instalar debian usb
-- linux para portatil
+- debian
+- bash
+- usb
 title: "Cómo instalar debian desde un USB"
 ---
 

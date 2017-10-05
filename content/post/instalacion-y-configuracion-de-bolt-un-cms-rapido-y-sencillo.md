@@ -2,15 +2,11 @@
 author: alex
 categories:
 - how to
-- opensource
+- servidores
+mainclass: servidores
 date: '2016-01-01'
 lastmod: 2017-06-01T12:09:53+01:00
-mainclass: servidores
 url: /instalacion-y-configuracion-de-bolt-un-cms-rapido-y-sencillo/
-tags:
-- bolt vs wordpress
-- "CMS rápido"
-- instalar bolt
 title: "Cómo instalar Bolt, un CMS rápido y sencillo"
 ---
 

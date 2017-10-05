@@ -19,7 +19,7 @@ title: Hackeando Tu Monitor De Pantalla
 
 ***
 
-En el blog de [Bruce Schneier]() he leido esta interesante noticia que os traduzco:
+En el blog de [Bruce Schneier](https://www.schneier.com/blog) he leido esta interesante noticia que os traduzco:
 
 > Un grupo de investigadores ha encontrado la forma de hackear directamente el pequeño ordenador que controla el monitor de la pantalla sin acceder directamente al ordenador en sí (Lo que entendemos por la torre, el portatil etc). Tanto el mini ordenador de la pantalla como el ordenador, ven los píxeles que se muestran por pantalla -- por tanto es posible espiar lo que el usuario hace -- así como manipular los píxeles y mostrar imágenes diferentes.
 

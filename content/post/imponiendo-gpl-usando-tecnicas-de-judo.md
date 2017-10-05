@@ -2,15 +2,13 @@
 author: alex
 categories:
 - articulos
-- opensource
-date: '2016-01-01'
-lastmod: 2017-05-13T13:41:08+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod = "2017-10-05T12:18:59+01:00"
 url: /imponiendo-gpl-usando-tecnicas-de-judo/
 aliases: /opensource/imponiendo-gpl-usando-tecnicas-de-judo/
 tags:
 - gpl
-- licencias GPL
 - software libre
 title: "Imponiendo GPL usando técnicas de Judo"
 ---
@@ -18,6 +16,8 @@ title: "Imponiendo GPL usando técnicas de Judo"
 *&#8220;En judo, el objetivo es aprovechar el impulso del atacante para defenderse, y eso es exactamente lo que hace el copyleft&#8221;*
 
 El propósito del software libre es hacer que el código que corre en las máquinas que gobiernan nuestras vidas sea transparente. En palabras de Lawrence Lessig, el software libre es &#8220;libre en el sentido de que el control del código de desarrollo sea transparente para todos, y que cualquier persona tenga el derecho de tomar ese control, y modificarlo si él o ella cree conveniente.&#8221;
+
+<!--more--><!--ad-->
 
 El mecanismo por el cual el software libre logra esto es el copyleft. El copyleft es un hack en el copyright (la ley de derechos de autor) que le quita los derechos exclusivos al titular del copyright y los comparte con el usuario, otorgándole el derecho de modificar, copiar, compartir y redistribuir el software, bajo la condición de que deben transferirse los mismos derechos a usuarios subsiguientes. &#8220;Si uno usa y adapta un programa de software libre, y luego libera esa nueva versión adaptada para el público, debe ser tan libre como la versión original&#8221;.
 
@@ -31,7 +31,6 @@ El software libre permite el acceso al trabajo de miles de programadores, es rel
 
 Sin embargo, la aplicación del copyleft depende de la voluntad de los proveedores de software GPL para cumplir con los términos de la licencia, y/o la voluntad de los titulares del copyright para actuar en defensa de la GPL. Y por diversas razones los términos de la GPL son a menudo ignorados por los distribuidores de software libre y los titulares del copyright no siempre están dispuestos a involucrarse.
 
-<!--more--><!--ad-->
 
 El único requisito de la GPL es que el código fuente sea accesible a los usuarios finales, pero este requisito se olvida con frecuencia, especialmente cuando el código se reutiliza en el firmware y dispositivos embebidos.
 
