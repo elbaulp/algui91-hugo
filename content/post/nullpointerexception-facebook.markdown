@@ -1,27 +1,14 @@
 ---
 author: alex
 categories:
-- java
+- dev
+mainclass: dev
 date: 2016-03-30 06:29:58
-lastmod: 2017-07-17T19:34:10+01:00
+lastmod: 2017-10-06T13:50:33+01:00
 description: "Explicación de por qué muchos usuarios de internet están obteniendo un error nullpointerexception, en facebook entre otras aplicaciones"
 image: nullpointerexception-facebook-line-numbers.jpg
-mainclass: java
 tags:
-- que es NullPointerException
-- Facebook NullPointerException
-- excepciones java
-- null
-- NullPointerException java
-- nullpointerexception null
-- error facebook nullpointerexception null
-- nullpointerexception facebook
-- nullpointerexception
-- nullpointerexception null facebook
-- que significa nullpointerexception null
-- error nullpointerexception null facebook
-- que es nullpointerexception null
-- error al entrar en facebook nullpointerexception
+- java
 title: "Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo"
 ---
 

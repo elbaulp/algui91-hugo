@@ -1,19 +1,15 @@
 ---
 author: alex
 categories:
-- c
-date: '2016-01-01'
-lastmod: 2017-07-17T19:38:06+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-06T13:52:56+01:00
 url: /ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
 aliases: /programacion/ocultar-archivos-y-otras-imagenes-dentro-de-una-imagen/
 tags:
-- "estenografía"
-- ocultar archivos
-- ocultar archivos en imagenes
-- ocultar fichero foto
-- ocultar imagenes en imagenes
-- ocultar informacion en imagenes
+- c
+- estenografía
 title: Ocultar archivos dentro de una imagen
 ---
 

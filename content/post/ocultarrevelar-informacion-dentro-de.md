@@ -1,16 +1,15 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- c
-date: '2016-01-01'
-lastmod: 2017-07-19T14:25:55+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-06T13:53:58+01:00
 url: /ocultarrevelar-informacion-dentro-de/
 aliases: /programacion/ocultarrevelar-informacion-dentro-de/
 tags:
-- esconder informacion en imagen
-- ocultar texto en imagen
+- cpp
+- estenografía
 title: "Ocultar/Revelar información dentro de imágenes con C++"
 ---
 
