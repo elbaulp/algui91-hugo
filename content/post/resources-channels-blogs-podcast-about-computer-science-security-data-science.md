@@ -13,7 +13,7 @@ url = "/blogs-canales-podcast-aprender-informatica/"
 
 # ¿Qué es esta lista?
 
-A continuación se listan una serie de Podcast, Canales de Youtube y Blogs que sigo que hablan sobre informática, [Data Science](https://elbauldelprogramador.com/9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer/ "20 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer") y [seguridad](https://elbauldelprogramador.com/categories/security-now/).
+A continuación se listan una serie de Podcast, Canales de Youtube y Blogs que sigo que hablan sobre informática, [Data Science](https://elbauldelprogramador.com/9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer/ "21 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer") y [seguridad](https://elbauldelprogramador.com/categories/security-now/).
 
 Si conoces de algún recurso digital que hable y enseñe informática, data science o seguridad no listado abajo, contribuye dejándonos un comentario y lo añadiremos a la lista, o mejor aún, añádelo tú mismo haciendo un <a href="https://github.com/elbaulp/algui91-hugo/edit/master/content/post/resources-channels-blogs-podcast-about-computer-science-security-data-science.md" target="_blank" title="Pull Request!">Pull Request!</a>
 

@@ -16,7 +16,7 @@ A continuación enumero una lista de libros que he leido y que recomiendo. Iré 
 Si estás buscando más libros que leer, puede que te interesen las siguientes dos listas. Los libros allí mencionados no los he leido, pero los tengo pendientes.
 
 - [21 Libros de No-Ficción que todo Geek debería leer](https://elbauldelprogramador.com/5-libros-de-no-ficcion-que-todo-geek-deberia-leer/ "21 Libros de No-Ficción que todo Geek debería leer")
-- [20 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer](https://elbauldelprogramador.com/9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer/ "20 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer")
+- [21 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer](https://elbauldelprogramador.com/9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer/ "21 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer")
 
 </br></br>
 

@@ -13,7 +13,7 @@ url = "/en/resources-channels-blogs-podcast-about-computer-science-security-data
 
 # What is this list?
 
-Below is a curated list of Podcast, Youtube Channels and Blogs I follow about Computer Science, Programming, Security and [Data Science](https://elbauldelprogramador.com/9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer/ "20 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer").
+Below is a curated list of Podcast, Youtube Channels and Blogs I follow about Computer Science, Programming, Security and [Data Science](https://elbauldelprogramador.com/9-libros-que-debes-leer-para-ser-un-data-scientist-o-data-engineer/ "21 Libros Que Debes Leer Para Ser Un Data Scientist O Data Engineer").
 
 If you follow some resource not listed below feel free to post a comment and I will add it, or better, send me a <a href="https://github.com/elbaulp/algui91-hugo/edit/master/content/post/resources-channels-blogs-podcast-about-computer-science-security-data-science.en.md" target="_blank" title="Pull Request!">Pull Request!</a>
 
