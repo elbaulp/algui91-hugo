@@ -1,17 +1,14 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- c
-- opensource
-date: '2016-01-01'
-lastmod: 2017-07-08T08:12:04+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-06T11:17:17+01:00
 url: /mini-grep-en-c-busca-palabras-en-archivos/
 tags:
 - comandos
-- cpp
-- grep
+- c
 title: Mini grep en C++, busca palabras en archivos
 ---
 

@@ -1,16 +1,15 @@
 ---
 author: alex
 categories:
-- cursos
-- noticias
+- descargas
+mainclass: descargas
 date: '2016-01-01'
-lastmod: 2017-07-12T17:44:58+01:00
+lastmod: 2017-10-06T11:29:42+01:00
 description: The multitude of devices, users, and generated traffic all combine to  create a proliferation of data that is being created with incredible volume, velocity,  and variety.
-mainclass: misc
 url: /nueva-guia-big-security-for-big-data/
 tags:
-- descargar Big Security for Big Data
-- download Big Security for Big Data
+- libros
+- guias
 title: "Nueva Guía: Big Security for Big Data"
 ---
 

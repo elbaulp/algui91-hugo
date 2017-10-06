@@ -1,12 +1,12 @@
 +++
 title = "Mi experiencia en la GameJam 2017 "
+categories = ["development"]
 mainclass = "dev"
 author = "alex"
 description = "Hace unas semanas participé en mi primera GameJam. Nunca había programado un juego así que tenía curiosidad y fue todo un reto para mi. Teníamos 48 horas para presentar un prototipo mínimo. Nuestro equipo decidió usar el motor Godot. En total estábamos cuatro personas: @Cristina, @ElenoideArt, @JJ Ramos y yo."
-tags = ["gamejam", "godot"]
-categories = ["development"]
 image = "gamejam17-unlimitosis.jpg"
 date = "2017-04-11T09:53:42+02:00"
+lastmod = "2017-10-06T11:22:46+01:00"
 url = "/gamejam-2017-unlimitosis"
 [amp]
     elements = ["amp-youtube"]

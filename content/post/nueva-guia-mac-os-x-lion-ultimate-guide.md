@@ -1,13 +1,16 @@
 ---
 author: alex
 categories:
-- cursos
+- descargas
+mainclass: descargas
 date: '2016-01-01'
 image: Mac-OS-X-LionThe-Ultimate-Guide.jpg
-lastmod: 2017-07-12T17:49:44+01:00
-mainclass: misc
+lastmod: 2017-10-06T11:32:45+01:00
 url: /nueva-guia-mac-os-x-lion-ultimate-guide/
 title: "Nueva guía: Mac OS X Lion: The Ultimate Guide"
+tags:
+- libros
+- guias
 ---
 
 <figure>

@@ -1,30 +1,15 @@
 ---
 author: alex
 categories:
-- articulos
 - linux
-date: '2016-01-01'
-lastmod: 2017-07-11T16:58:53+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-06T11:24:02+01:00
 url: /netstat-analizando-la-red-y-detectando-problemas/
 aliases: /articulos/netstat-analizando-la-red-y-detectando-problemas/
 tags:
-- comando netstat
-- comandos linux
-- como interpretar netstat an
-- como leer una tabla de ruta con netstat
-- ejemplos netstat
-- herramientas red
-- manual practico de netstat
 - netstat
-- netstat comando windows
-- netstat mac
-- netstat para que sirve
-- netstat ver puertos
-- netstat windows
-- salida comando netstat
-- significado close_wait
-- usos netstat
+- comandos
 title: 'Netstat: Analizando la red y detectando problemas'
 ---
 

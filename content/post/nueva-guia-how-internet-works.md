@@ -1,13 +1,15 @@
 ---
 author: alex
 categories:
-- cursos
-- internet
+- descargas
+mainclass: descargas
 date: '2016-01-01'
-lastmod: 2017-07-12T17:49:27+01:00
-mainclass: misc
+lastmod: 2017-10-06T11:32:16+01:00
 url: /nueva-guia-how-internet-works/
 title: "Nueva guía: How the internet works"
+tags:
+- libros
+- guias
 ---
 
 <figure>

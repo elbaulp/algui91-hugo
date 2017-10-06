@@ -1,25 +1,20 @@
 ---
 author: alex
 categories:
-- cursos
-- noticias
+- descargas
+mainclass: descargas
 date: '2016-01-01'
-lastmod: 2017-07-12T17:43:10+01:00
-mainclass: misc
+lastmod: 2017-10-06T11:28:53+01:00
 url: /nueva-guia-8-steps-to-building-mobile-apps-fast-in-the-cloud/
 tags:
-- application
-- apps
-- cloud mobile development
-- engaging applications
-- mobile application development
-- mobile applications
-- mobile computing
-- mobile design
+- guias
+- libros
 title: "Nueva guía: 8 Steps to Building Mobile Apps Fast in the Cloud"
 ---
 
-[<amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/8-Steps-to-Building-Mobile-Apps-Fast-in-the-Cloud-300x1431.png" alt="8 Steps to Building Mobile Apps Fast in the Cloud" width="300px" height="143px" />][1]
+<figure>
+    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/8-Steps-to-Building-Mobile-Apps-Fast-in-the-Cloud-300x1431.png" alt="8 Steps to Building Mobile Apps Fast in the Cloud" width="300px" height="143px" />
+</figure>
 
 Start turning your ideas into mobile apps with the 8 Steps to Building Mobile Apps Fast in the Cloud guide, learn how to:
 

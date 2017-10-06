@@ -2,22 +2,16 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-07-12T17:34:33+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-06T11:24:42+01:00
 url: /programacion-android-interfaz-grafica_11/
 tags:
-- "android diseñar gui"
-- android programar ProgressDialog
-- como hacer interfaces graficas en android
 - curso android pdf
-- interfaces de usuario android
-- interfaz grafica en android
 - layout android
 - menu android
 - notificaciones
-- android
 title: "Programación Android: Interfaz gráfica - Diálogos y notificaciones"
 ---
 

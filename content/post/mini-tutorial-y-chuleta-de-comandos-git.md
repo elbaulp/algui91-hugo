@@ -2,33 +2,17 @@
 author: alex
 categories:
 - articulos
-- git
+mainclass: articulos
 date: 2015-12-13 18:10:12
-lastmod: 2017-09-20T20:06:25+01:00
+lastmod: 2017-10-06T11:18:31+01:00
 description: Un mini tutorial y lista extensa de comandos git
 image: 2013/03/git-logo.png
-mainclass: git
 url: /mini-tutorial-y-chuleta-de-comandos-git/
 aliases: /articulos/mini-tutorial-y-chuleta-de-comandos-git/
 tags:
 - chuleta
 - git
-- chuleta comandos git
-- chuleta git
-- comandos git
-- git cheatsheet
-- git tutorial
-- introduccion git
-- ramas con git
-- tutorial git
-- tutoriales sobre git
-- "tutorial git español"
-- git bash tutorial
-- comandos bitbucket
-- "git tutorial español"
-- "git manual español pdf"
-- git clone
-- git init
+- comandos
 title: 'Git: Mini Tutorial y chuleta de comandos'
 ---
 
