@@ -4,7 +4,7 @@ categories:
 - dev
 mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-10-06T11:20:28+01:00
+lastmod: 2017-10-06T11:49:53+01:00
 description: "Código php para mostrar en wordpress nuestro número de seguidores en twitter"
 url: /mostrar-el-numero-de-seguidores-en-twitter-en-wordpress/
 title: "Mostrar el número de seguidores en Twitter en WordPress"
