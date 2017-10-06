@@ -1,12 +1,10 @@
 ---
 author: alex
 categories:
-- hackathon
-- noticias
-- opensource
-date: '2016-01-01'
-lastmod: 2017-07-08T07:59:33+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-06T11:15:59+01:00
 url: /mi-experiencia-en-el-3-hackathon-de-la/
 title: "Mi experiencia en el 3er Hackathon de la Universidad de Granada"
 ---

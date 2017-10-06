@@ -1,17 +1,15 @@
 ---
 author: alex
 categories:
-- misc
+- descargas
+mainclass: descargas
 date: 2015-11-28 08:14:31
-lastmod: 2017-07-12T17:40:09+01:00
+lastmod: 2017-10-06T11:26:22+01:00
 description: Essentials of Information Security brings together the latest in information,  coverage of important developments, and expert commentary to help with your Information  Security related decisions.
 image: /hotlink-ok/The-Essentials-of-Information-Security-Kit.jpg
-mainclass: misc
 tags:
-- guias gratuitas
-- cursos
-- pdfs
-- ebooks gratuitos
+- guias
+- libros
 title: "Nueva Guía: The Essentials of Information Security Kit"
 ---
 

@@ -3,15 +3,14 @@ author: alex
 categories:
 - android
 - how to
-date: '2016-01-01'
-lastmod: 2017-07-09T20:49:57+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-06T11:23:33+01:00
 url: /ndk-gdb-depurar-aplicaciones-en-el-nkd-de-android/
 tags:
-- como depurar jni android
-- depurar aplicaciones con ndk-gdb
-- depurar codigo nativo android ndk-gdb
-- tutorial ndk-gdb
+- java
+- c
 title: NDK-gdb - Depurar aplicaciones en el NKD de Android
 ---
 

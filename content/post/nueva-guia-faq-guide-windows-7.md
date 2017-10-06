@@ -1,12 +1,15 @@
 ---
 author: alex
 categories:
-- cursos
+- descargas
+mainclass: descargas
 date: '2016-01-01'
-lastmod: 2017-07-12T17:48:17+01:00
-mainclass: misc
+lastmod: 2017-10-06T11:31:32+01:00
 url: /nueva-guia-faq-guide-windows-7/
 title: "Nueva guía: FAQ Guide: Windows 7 Migrations Are the Time to Lockdown PCs"
+tags:
+- libros
+- guias
 ---
 
 <figure>

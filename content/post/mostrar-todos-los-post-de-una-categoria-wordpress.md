@@ -1,13 +1,13 @@
 ---
 author: alex
 categories:
-- php
-date: '2016-01-01'
-lastmod: 2017-07-09T20:45:00+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-06T11:21:56+01:00
 url: /mostrar-todos-los-post-de-una-categoria-wordpress/
 tags:
-- "Mostrar todos los artículos de una categoría en Wordpress"
+- php
 title: "Mostrar todos los post de una categoría en WordPress"
 ---
 

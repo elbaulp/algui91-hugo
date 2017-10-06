@@ -1,13 +1,16 @@
 ---
 author: alex
 categories:
-- sin categoria
+- descargas
+mainclass: descargas
 date: '2016-01-01'
-lastmod: 2017-07-12T17:50:13+01:00
+lastmod: 2017-10-06T11:33:15+01:00
 image: A-Newbies-Getting-Started-Guide-to-Linux.png
-mainclass: misc
 url: /nueva-guia-newbies-getting-started/
 title: "Nueva guía: A Newbies Getting Started Guide to Linux"
+tags:
+- libros
+- guias
 ---
 
 <figure>
