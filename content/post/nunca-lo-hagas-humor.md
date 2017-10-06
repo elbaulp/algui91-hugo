@@ -1,11 +1,11 @@
 ---
 author: alex
 categories:
-- curiosidades
+- articulos
+mainclass: articulos
 date: '2016-01-01'
-lastmod: 2017-07-17T19:35:35+01:00
+lastmod: 2017-10-06T13:51:41+01:00
 image: nunca-lo-hagas-sudo-rm-rf.jpg
-mainclass: geek
 url: /nunca-lo-hagas-humor/
 title: "Nunca lo hagas! [Humor]"
 ---
