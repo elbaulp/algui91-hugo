@@ -2,15 +2,13 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-08-11T11:54:41+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:16:37+01:00
 url: /plsql-procedimientos-y-funciones/
 tags:
-- ejemplos create procedure sql
-- funcion parametros sql
-- funcion sql
-- sql generar procedure
+- sql
+- pl/sql
 title: PL/SQL. Procedimientos y Funciones
 ---
 

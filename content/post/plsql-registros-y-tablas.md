@@ -2,11 +2,14 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-08-11T11:55:27+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:16:45+01:00
 url: /plsql-registros-y-tablas/
 title: PL/SQL. Registros y Tablas
+tags:
+- sql
+- pl/sql
 ---
 
 # Conceptos

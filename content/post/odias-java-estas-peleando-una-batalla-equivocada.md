@@ -2,14 +2,12 @@
 author: alex
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-07-19T14:29:53+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:04:28+01:00
 url: /odias-java-estas-peleando-una-batalla-equivocada/
 tags:
-- cobol
 - java
-- mainframes
 title: "¿Odias Java? Estás peleando una batalla equivocada"
 ---
 

@@ -2,17 +2,13 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-07-31T14:20:29+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:14:47+01:00
 url: /plsql-cursores/
 tags:
-- cursores en sql
-- cursores explicitos en sql server
-- ejemplo cursores sql
-- eliminar cursores en oracle
-- for oracle cursor
-- tutoriales cursores sql
+- sql
+- pl/sql
 title: PL/SQL. Cursores
 ---
 

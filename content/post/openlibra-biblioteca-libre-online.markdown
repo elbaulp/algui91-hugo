@@ -2,15 +2,11 @@
 author: alex
 categories:
 - articulos
+mainclass: articulos
 date: 2016-03-03 20:30:24
-lastmod: 2017-07-22T11:47:56+01:00
+lastmod: 2017-10-07T12:06:38+01:00
 description: "Hace unos años, concretamente 5, un compañero bloggero lanzaba  OpenLibra: La Biblioteca Libre Online tal como la esperabas"
 image: openlibra-biblioteca-libre-online.jpg
-mainclass: articulos
-tags:
-- openlibra
-- biblioteca online
-- descargar libros gratis
 title: "OpenLibra Cumple 5 Años Y Estrena Versión 2.0"
 ---
 

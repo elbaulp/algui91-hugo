@@ -1,12 +1,10 @@
 ---
 author: alex
 categories:
-- internet
-- linux
-- opensource
-date: '2016-01-01'
-lastmod: 2017-07-22T11:49:47+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:07:05+01:00
 url: /openlibra-la-biblioteca-libre-online/
 title: 'OpenLibra: La Biblioteca Libre Online tal como la esperabas'
 ---

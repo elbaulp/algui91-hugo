@@ -1,15 +1,15 @@
 ---
 author: alex
 categories:
-- php
-date: '2016-01-01'
-lastmod: 2017-07-31T14:19:41+01:00
-description: El error 404 debe tratarse adecuadamente en las webs para no asustar al usuario y provocar que salga de nuestro sitio.
+- servidores
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-10-07T12:12:50+01:00
+description: El error 404 debe tratarse adecuadamente en las webs para no asustar al usuario y provocar que salga de nuestro sitio.
 url: /personalizar-el-error-404-en-wordpress/
 tags:
-- error 404
-- personalizar 404 wordpress
+- wordpress
+- php
 title: Personalizar el Error 404 en wordpress
 ---
 

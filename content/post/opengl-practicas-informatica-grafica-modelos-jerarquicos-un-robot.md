@@ -1,17 +1,14 @@
 ---
 author: alex
 categories:
-- c
-date: '2016-01-01'
-lastmod: 2017-07-19T14:39:20+01:00
-description: "El curso pasado hice unas prácticas Informática Gráfica (IG)  en la que había que implementar algún objeto con modelos jerárquicos. La  práctica se basa en una plantilla que encontré de la universidad http://www.csc.villanova.edu."
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-07T12:06:12+01:00
+description: "El curso pasado hice unas prácticas Informática Gráfica (IG)  en la que había que implementar algún objeto con modelos jerárquicos. La  práctica se basa en una plantilla que encontré de la universidad http://www.csc.villanova.edu."
 url: /opengl-practicas-informatica-grafica-modelos-jerarquicos-un-robot/
 tags:
-- practicas IG etsiit
-- practicas IG ugr
-- "practicas informática Gráfica"
-- practicas opengl
+- c
 title: "OpenGL - Prácticas Informática Gráfica: Modelos jerárquicos  - Un Robot"
 ---
 

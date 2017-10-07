@@ -1,11 +1,11 @@
 ---
 author: alex
 categories:
+- dev
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-07-31T14:20:06+01:00
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-07T12:14:01+01:00
 url: /planteamiento-de-la-segunda-parte-del/
 tags:
 - curso android pdf

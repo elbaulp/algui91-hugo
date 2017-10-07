@@ -2,14 +2,13 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-07-31T14:30:08+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:15:52+01:00
 url: /plsql-disparadores-o-triggers/
 tags:
-- algoritmos trigger
-- como hacer un trigger
-- trigger de actualizacion
+- sql
+- pl/sql
 title: PL/SQL. Disparadores o Triggers
 ---
 
