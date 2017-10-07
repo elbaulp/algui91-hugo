@@ -1,11 +1,11 @@
 ---
 author: alex
 categories:
-- internet
+- dev
+mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-07-22T12:04:04+01:00
+lastmod: 2017-10-07T12:08:25+01:00
 image: optimizando-el-tiempo-de-carga-del-blog.png
-mainclass: articulos
 url: /optimizando-el-tiempo-de-carga-del-blog/
 title: Optimizando el tiempo de carga del blog
 ---

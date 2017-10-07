@@ -2,13 +2,13 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-07-31T14:31:15+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:16:07+01:00
 url: /plsql-estructuras-basicas-de-control/
 tags:
-- comandos basicos sql
-- sentencias sql while
+- sql
+- pl/sql
 title: "PL/SQL. Estructuras básicas de control"
 ---
 

@@ -2,13 +2,10 @@
 author: alex
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-08-11T12:03:13+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:17:35+01:00
 url: /por-que-es-linux-mas-rapido-que-windows/
-tags:
-- linux mas rapido que windows
-- windows vs linux
 title: "¿Por qué es Linux más rápido que Windows?"
 ---
 

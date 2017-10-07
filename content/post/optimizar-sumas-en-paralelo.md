@@ -1,17 +1,14 @@
 ---
 author: alex
 categories:
-- algoritmos
-- articulos
-- c
+- dev
+mainclass: dev
 date: '2016-01-01'
 lastmod: 2017-07-22T12:21:44+01:00
-mainclass: dev
 url: /optimizar-sumas-en-paralelo/
 tags:
-- concurrencia
-- paralelo
-- ps3
+- algoritmos
+- c
 title: Optimizar sumas en paralelo
 ---
 

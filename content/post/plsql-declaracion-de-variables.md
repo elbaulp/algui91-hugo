@@ -2,12 +2,13 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-07-31T14:23:42+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:15:41+01:00
 url: /plsql-declaracion-de-variables/
 tags:
-- declare en pl sql
+- sql
+- pl/sql
 title: "PL/SQL. Declaración de variables"
 ---
 

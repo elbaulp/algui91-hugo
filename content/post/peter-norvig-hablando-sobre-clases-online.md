@@ -1,16 +1,11 @@
 ---
 author: alex
 categories:
-- cursos
-- noticias
-date: '2016-01-01'
-lastmod: 2017-07-31T14:19:51+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:13:35+01:00
 url: /peter-norvig-hablando-sobre-clases-online/
-tags:
-- peter norvig
-- Sebastian Thrun
-- udacity
 title: Peter Norvig hablando sobre clases online
 ---
 

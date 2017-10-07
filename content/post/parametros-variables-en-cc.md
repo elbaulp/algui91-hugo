@@ -1,17 +1,15 @@
 ---
 author: alex
 categories:
-- c
+- dev
+mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-07-31T13:52:02+01:00
+lastmod: 2017-10-07T12:10:40+01:00
 description: "En ocasiones, es necesario tener una función a la que podamos pasar  un número de parámetros variables. En el artículo de hoy veremos cómo  hacerlo en C/C++."
 image: 2013/11/cpp.png
-mainclass: dev
 url: /parametros-variables-en-cc/
 tags:
-- parametros indefinidos
-- "parámetros variables en C/c++"
-- pasar paramestros
+- c
 title: "Pasar parámetros variables en C/C++"
 ---
 

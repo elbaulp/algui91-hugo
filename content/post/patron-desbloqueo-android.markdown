@@ -3,16 +3,15 @@ author: alex
 amp:
   elements: [amp-youtube]
 categories:
-- java
+- dev
+- android
+mainclass: android
 date: 2017-07-31T14:02:04+01:00
+lastmod: 2017-10-07T12:12:15+01:00
 description: "Reconozca un patrón de gestos sobre pantalla de vuestra elección.  Una vez detectado el patrón se debe ejecutar la aplicación de cámara y  realizar automáticamente una foto transcurridos 3 segundos. Los gestos a detectar  son similares a los que se realizan con la pantalla de bloqueo Android, cuanto más  complejo sea el que se detecta mejor puntuación tendrá."
 image: npi/drawingPatter.png
-mainclass: java
 tags:
-- tutorial patrones android
-- patternlock android
-- "echar foto tras cuenta atrás android"
-- "programar patrón de bloqueo android"
+- java
 title: "Crear Un Patrón De Desbloqueo Android"
 ---
 

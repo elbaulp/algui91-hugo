@@ -2,13 +2,13 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-08-11T11:54:05+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:16:23+01:00
 url: /plsql-paquetes-packages/
 tags:
-- crear paquetes en oracle
-- usuarios package en pl/sql
+- sql
+- pl/sql
 title: PL/SQL. Paquetes (Packages)
 ---
 

@@ -2,12 +2,13 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-08-11T11:40:23+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-07T12:16:16+01:00
 url: /plsql-excepciones/
 tags:
-- ejecutar excepciones en sql
+- sql
+- pl/sql
 title: PL/SQL. Excepciones
 ---
 

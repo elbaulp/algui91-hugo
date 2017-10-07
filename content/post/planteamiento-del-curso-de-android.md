@@ -2,10 +2,10 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-07-31T14:20:20+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-07T12:14:13+01:00
 url: /planteamiento-del-curso-de-android/
 tags:
 - curso android pdf

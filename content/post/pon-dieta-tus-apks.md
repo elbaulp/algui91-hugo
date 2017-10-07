@@ -3,17 +3,13 @@ author: alex
 categories:
 - android
 - articulos
+- dev
+mainclass: android
 lastmod: 2017-08-11T11:55:50+01:00
-date: 2017-08-11T11:55:52+01:00
+lastmod: 2017-10-07T12:17:00+01:00
 description: "En el anterior artículo hablamos de cómo reducir el tamaño  de una aplicación Android eliminando recursos sin usar. En el blog de Cyril Mottier  encontré un artículo muy interesante con varios consejos para reducir el tamaño  del APK y optimizar el código en producción. A continuación pasamos a traducir las partes importantes."
 image: hotlink-ok/Pon-a-dieta-a-tus-APKs.png
-mainclass: android
 url: /pon-dieta-tus-apks/
-tags:
-- android
-- optimizar APK
-- reducir peso APK
-- "tamaño del APK"
 title: Pon a dieta a tus APKs
 ---
 

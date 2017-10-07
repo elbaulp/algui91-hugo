@@ -2,18 +2,13 @@
 author: alex
 categories:
 - android
-date: '2016-01-01'
-lastmod: 2017-07-22T12:05:16+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-07T12:08:40+01:00
 url: /optimizando-la-interfaz-android-compound-drawables/
 tags:
-- android listview con imagenes
-- android listview example
-- compound drawables
-- curso android pdf
-- lint warning
-- optimizacion de listas android
-- optimizar layout
+- layout android
 title: Optimizando la interfaz Android - Compound Drawables
 ---
 
