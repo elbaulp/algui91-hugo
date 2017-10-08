@@ -1,10 +1,10 @@
 ---
 author: alex
 categories:
-- curiosidades
+- articulos
+mainclass: articulos
 date: '2016-01-01'
 lastmod: 2017-10-05T12:16:50+01:00
-mainclass: articulos
 url: /humor-como-arreglar-una-computadora/
 title: '[Humor]: Como arreglar una computadora (Windows, Linux o Mac OSX)'
 ---

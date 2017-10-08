@@ -1,8 +1,8 @@
 ---
 author: alex
 categories:
-- freebies
-mainclass: freebies
+- descargas
+mainclass: descargas
 date: '2016-01-01'
 lastmod: 2017-09-21T12:43:03+01:00
 url: /6-steps-to-securing-your-domains/
