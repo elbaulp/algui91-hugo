@@ -2,13 +2,12 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-15T19:04:39+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T16:45:01+01:00
 url: /programacion-android-actualizar-y/
 tags:
-- Actualizar y borrar registros
 - curso android pdf
 title: "Programación Android: Actualizar y borrar registros"
 ---

@@ -2,16 +2,14 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-30T10:51:59+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T16:49:36+01:00
 url: /programacion-android-intents-conceptos/
 tags:
-- android ejemplo intent filter
 - curso android pdf
-- ejemplo intentfilter implicito
-- uso de intents android
+- intents
 title: "Programación Android: Intents - Conceptos básicos"
 ---
 

@@ -1,10 +1,10 @@
 ---
 author: alex
 categories:
-- noticias
-date: '2016-01-01'
-lastmod: 2017-08-15T07:45:31+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-08T16:44:21+01:00
 url: /probando-rockmelt/
 title: Probando RockMelt
 ---

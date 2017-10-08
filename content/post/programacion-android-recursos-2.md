@@ -2,15 +2,14 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-30T10:58:51+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T16:52:55+01:00
 url: /programacion-android-recursos-2/
 tags:
 - curso android pdf
-- recursos compilados
-- recursos no compilados
+- recursos android
 title: "Programación Android: Recursos compilados y no compilados"
 ---
 

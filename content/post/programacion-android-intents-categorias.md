@@ -2,15 +2,14 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-15T19:13:38+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T16:49:26+01:00
 url: /programacion-android-intents-categorias/
 tags:
-- android ejemplo intent filter
 - curso android pdf
-- ejemplo intentfilter implicito
+- intents
 title: "Programación Android: Intents - Categorías"
 ---
 

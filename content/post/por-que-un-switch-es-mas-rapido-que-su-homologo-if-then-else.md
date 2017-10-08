@@ -1,18 +1,14 @@
 ---
 author: alex
 categories:
-- c
+- dev
+mainclass: dev
 date: 2017-08-11T12:07:29+01:00
 lastmod: 2017-08-11T12:07:38+01:00
-mainclass: dev
 url: /por-que-un-switch-es-mas-rapido-que-su-homologo-if-then-else/
 tags:
+- c
 - asm
-- ejemplo switch
-- implementacion switch
-- jump table
-- switch
-- tabla de salto
 title: "Por qué un switch es más rápido que su homólogo if-then-else"
 ---
 
