@@ -1,6 +1,4 @@
-{{ $authorSet := .Params.author | default "alex" }}
-{{ $author := index .Site.Data.authors $authorSet }}
-
+{{ $author := . }}
 <section class="author">
   <div class="details">
     <div id="author-photo">
@@ -9,10 +7,10 @@
     <div>
     <p class="def">{{ T "author" }}</p>
     <h3 class="name">
-      <a title="{{ T "author_title" $author.name }}" id="author-name" href="{{ "/author/" | absLangURL}}{{.Params.author}}/">{{ $author.name }}</a>
+      <a title="{{ T "author_title" $author.name }}" id="author-name" href="{{ "/author/" | absLangURL}}{{.slug}}/">{{ $author.name }}</a>
     </h3>
     <p class="desc">{{$author.bio}}</p>
-    <p class="desc"><a href="{{ "/author/" | absLangURL}}{{.Params.author}}/">{{ T "more_posts" $author }}</a></p>
+    <p class="desc"><a href="{{ "/author/" | absLangURL}}{{ .slug }}/">{{ T "more_posts" $author }}</a></p>
     <div class="share">
       {{ if $author.email }}
       <a href="mailto:{{ $author.email }}" ><svg class="social icon-mail"><use xlink:href="#icon-inbox"></use></svg></a>

@@ -5,7 +5,7 @@
   <article role="article" id="post" class="post-content {{ if eq .Type  "page"}} page {{ end }}">
     {{ if eq .Type "page"}}<h1>{{.Title}}</h1>{{ end }}
     {{ if eq .Type "post" }}
-       {{ partial "structure/author" . }}
+       {{ partial "structure/author" (index .Site.Data.authors $.Params.author) }}
     {{ end }}
     {{ if eq .Type "post" }}
        <p>{{ T "typo" | safeHTML }}</p>
