@@ -1,14 +1,14 @@
 ---
 author: alex
 categories:
-- cursos
+- descargas
+mainclass: descargas
 date: '2016-01-01'
 lastmod: 2017-05-11T10:40:51+01:00
-mainclass: misc
 url: /history-of-cryptography/
 tags:
-- descargas
 - guias
+- libros
 title: "Nueva guía: History of cryptography"
 ---
 

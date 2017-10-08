@@ -1,6 +1,6 @@
 +++
 title = "Mi experiencia en la GameJam 2017 "
-categories = ["development"]
+categories = ["dev"]
 mainclass = "dev"
 author = "alex"
 description = "Hace unas semanas participé en mi primera GameJam. Nunca había programado un juego así que tenía curiosidad y fue todo un reto para mi. Teníamos 48 horas para presentar un prototipo mínimo. Nuestro equipo decidió usar el motor Godot. En total estábamos cuatro personas: @Cristina, @ElenoideArt, @JJ Ramos y yo."
