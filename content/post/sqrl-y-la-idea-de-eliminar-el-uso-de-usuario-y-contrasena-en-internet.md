@@ -2,17 +2,14 @@
 author: alex
 categories:
 - security now
-lastmod: 2017-09-10T12:44:21+01:00
+- seguridad
+lastmod: 2017-10-08T19:20:06+01:00
 date: 2017-09-10T12:44:23+01:00
 mainclass: security-now
 url: /sqrl-y-la-idea-de-eliminar-el-uso-de-usuario-y-contrasena-en-internet/
 tags:
 - "metodos de autenticación"
-- metodos de autentificacion
-- security now SQRL
 - SQRL
-- SQRL steve gibson
-- "uso de usuario y contraseña"
 title: "SQRL y la idea de eliminar el uso de usuario y contraseña en internet"
 ---
 

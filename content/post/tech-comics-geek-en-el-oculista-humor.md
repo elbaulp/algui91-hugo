@@ -1,13 +1,11 @@
 ---
 author: alex
 categories:
-- curiosidades
-- humor
-- meme
+- articulos
+mainclass: articulos
 date: '2016-01-01'
-lastmod: 2017-09-10T12:56:12+01:00
+lastmod: 2017-10-08T19:23:56+01:00
 image: geek-eye-doctor.jpg
-mainclass: geek
 url: /tech-comics-geek-en-el-oculista-humor/
 title: "Tech Comics: \u201CGeek en el oculista\u201D [HUMOR]"
 ---

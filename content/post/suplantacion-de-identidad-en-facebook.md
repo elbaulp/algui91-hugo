@@ -2,15 +2,12 @@
 author: alex
 categories:
 - seguridad
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-09-10T12:49:03+01:00
-mainclass: articulos
+lastmod: 2017-10-08T19:21:08+01:00
 url: /suplantacion-de-identidad-en-facebook/
 tags:
-- email spoofing
-- seguridad
-- smtp
-- spoofing facebook
+- emails
 title: "Suplantación de identidad en Facebook"
 ---
 

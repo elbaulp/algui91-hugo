@@ -1,17 +1,16 @@
 ---
 author: alex
 categories:
-- algoritmos
-- python
-date: '2016-01-01'
-lastmod: 2017-09-20T18:21:07+01:00
-description: "Una ecuación no es más que una igualdad en la que hay cantidades  desconocidas llamadas incógnitas. Las soluciones son los valores que tienen las  incógnitas cuando satisfacen la igualdad. Un sistema de ecuaciones es la reunión  de 2 o mas ecuaciones con 2 o más incógnitas. Así:"
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-08T19:09:05+01:00
+description: "Una ecuación no es más que una igualdad en la que hay cantidades  desconocidas llamadas incógnitas. Las soluciones son los valores que tienen las  incógnitas cuando satisfacen la igualdad. Un sistema de ecuaciones es la reunión  de 2 o mas ecuaciones con 2 o más incógnitas. Así:"
 math: true
 url: /como-resolver-sistemas-de-ecuaciones-lineales-con-dos-incognitas/
 tags:
-- ecuaciones lineales
-- resolver ecuaciones python
+- algoritmos
+- python
 title: "Cómo resolver sistemas de ecuaciones lineales con dos incógnitas en Python"
 ---
 

@@ -1,7 +1,7 @@
 ---
 author: alex
 categories:
-- cursos
+- articulos
 date: '2016-01-01'
 lastmod: 2017-09-10T12:39:28+01:00
 mainclass: articulos

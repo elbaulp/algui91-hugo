@@ -1,12 +1,14 @@
 ---
 author: alex
 categories:
-- juegos
-date: '2016-01-01'
-lastmod: 2017-09-02T13:01:17+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-08T18:58:23+01:00
 url: /programacion-para-juegos-leccion-4/
 title: "Programación para Juegos. Lección 4 . Programación orientada a eventos"
+tags:
+- SDL
 ---
 
 [Pueden descargar el código fuente de esta lección.][1]

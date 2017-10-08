@@ -1,12 +1,14 @@
 ---
 author: alex
 categories:
-- juegos
-date: '2016-01-01'
-lastmod: 2017-09-02T12:58:51+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-08T18:57:42+01:00
 url: /programacion-para-juegos-leccion-2/
 title: "Programación para Juegos - Lección 2 - Imágenes Optimizadas"
+tags:
+- SDL
 ---
 
 [Pueden descargar el código fuente de esta lección.][1]

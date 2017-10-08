@@ -1,18 +1,15 @@
 ---
 author: alex
 categories:
-- android
-- aplicaciones
+- articulos
+mainclass: articulos
 date: '2016-01-01'
-lastmod: 2017-09-10T12:58:34+01:00
+lastmod: 2017-10-08T19:25:47+01:00
 description: "Para los que tengáis vuestro terminal rooteado voy a hablar en estos  días de dos aplicaciones que pueden ayudarnos a extender el tiempo de vida de  la batería. Pero antes de escribir estos pequeños manuales de configuración  de las aplicaciones (que son SetCPU y CPU Tunner), tengo que introducir un concepto  de los microprocesadores llamado gobernadores (governors):"
 image: Tipos-de-gobernadores-en-las-CPUs.jpg
-mainclass: linux
 url: /tipos-de-gobernadores-en-las-cpus/
 tags:
-- curso android pdf
-- que es cpu conservative
-- samsung galaxy scl gti9003
+- so
 title: Tipos de gobernadores en las CPUs
 ---
 

@@ -2,18 +2,13 @@
 author: alex
 categories:
 - dev
+mainclass: dev
 date: 2016-06-02 14:52:24
-lastmod: 2017-09-11T18:36:36+01:00
+lastmod: 2017-10-08T19:29:38+01:00
 description: "Desarrollando una página en PHP para una asignatura de la facultad  estuve buscando formas de ver el contenido de las Variables en una página php.  En concreto quería mostrar todas las variables definidas, pero podríamos mostrar  cualquier variable. El comando en cuestión es"
 image: como-mostrar-variables-php-depurar-print_r-var_dump.png
-mainclass: dev
 tags:
-- depurar en php
-- mostrar variables depurando php
-- mostrar variables legibles en php
-- mostrar variables legibles para humanos php depurar
-- var_dump en php
-- print_r php no bonito
+- php
 title: "Cómo Mostrar Información De Variables PHP Depurando"
 ---
 

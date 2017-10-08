@@ -1,10 +1,10 @@
 ---
 author: alex
 categories:
-- offtopic
-date: '2016-01-01'
-lastmod: 2017-09-11T18:47:56+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-08T19:32:45+01:00
 url: /vota-por-el-logo-que-mas-te-guste-para-el-baul-del-programador/
 title: "Vota por el logo que más te guste para El Baúl del Programador"
 ---
@@ -15,7 +15,7 @@ Gracias de antemano y espero que os guste la nueva mascota del blog! Un saludo.
 
 <!--more--><!--ad-->
 <noscript>
-<a href="http://polldaddy.com/poll/7207708/">Qué diseño para el logo te gusta más</a>
+    <a href="http://polldaddy.com/poll/7207708/">Qué diseño para el logo te gusta más</a>
 </noscript>
 
 

@@ -1,17 +1,12 @@
 ---
 author: alex
 categories:
-- humor
-- offtopic
+- articulos
+mainclass: articulos
 date: '2016-01-01'
-lastmod: 2017-09-09T20:24:24+01:00
+lastmod: 2017-10-08T19:16:35+01:00
 description: "Si se escribiesen ensayos con lenguajes de programación [HUMOR]"
-mainclass: geek
 url: /si-se-escribiesen-ensayos-con-lenguajes-de-programacion-humor/
-tags:
-- comics
-- ensayo lenguaje de programacion
-- ensayos
 title: "Si se escribiesen ensayos con lenguajes de programación [HUMOR]"
 ---
 

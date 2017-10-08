@@ -2,12 +2,12 @@
 author: alex
 categories:
 - basededatos
-date: '2016-01-01'
-lastmod: 2017-09-11T18:31:31+01:00
 mainclass: BaseDeDatos
+date: '2016-01-01'
+lastmod: 2017-10-08T19:28:05+01:00
 url: /tunning-basico-de-sql/
 tags:
-- que es tuning sql
+- sql
 title: "Tunning básico de SQL"
 ---
 

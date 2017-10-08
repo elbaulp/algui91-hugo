@@ -6,9 +6,7 @@ description: "Hacía mucho tiempo que tenía pendiente escribir este artículo. 
 image: 2014/01/iconoAndroid.png
 mainclass: android
 tags:
-- curso android
 - "programación android"
-- aprende android
 - tutorial android
 title: "Actualización Del Curso De Android"
 ---

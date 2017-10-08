@@ -1,6 +1,6 @@
 +++
 image = "resources-channels-blogs-podcast-about-computer-science-security-data-science.png"
-tags = ["podcasts", "youtube channels", "security", "lists"]
+tags = ["podcasts", "youtube channels", "lists"]
 categories = ["articulos"]
 lastmod = "2017-09-04T13:39:53+01:00"
 date = "2017-09-04T13:39:55+01:00"

@@ -2,10 +2,10 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-09-05T12:28:59+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T19:00:36+01:00
 url: /prueba-la-aplicacion-favsites-en-tu/
 tags:
 - curso android pdf

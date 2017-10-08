@@ -2,18 +2,12 @@
 author: alex
 categories:
 - latex
-date: '2016-01-01'
-lastmod: 2017-09-20T18:09:04+01:00
-image: 2013/05/latex_logo.png
+- dev
 mainclass: latex
+date: '2016-01-01'
+lastmod: 2017-10-08T19:08:24+01:00
+image: 2013/05/latex_logo.png
 url: /resaltar-sintaxis-del-codigo-fuente-en-latex-con-minted/
-tags:
-- ejemplos minted
-- instalar minted
-- pygments
-- resaltar sintaxis codigo latex
-- latex
-- colorear codigo fuente en latex
 title: "Resaltar sintaxis del código fuente en LaTeX con minted"
 ---
 

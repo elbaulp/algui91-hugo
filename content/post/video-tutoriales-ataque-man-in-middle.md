@@ -1,15 +1,11 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- internet
 - seguridad
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-09-11T18:41:22+01:00
-mainclass: articulos
+lastmod: 2017-10-08T19:32:00+01:00
 url: /video-tutoriales-ataque-man-in-middle/
-tags:
-- "ettercap en español"
 title: "[Vídeo tutoriales] Ataque Man in the middle"
 ---
 

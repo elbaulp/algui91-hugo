@@ -2,17 +2,13 @@
 author: alex
 categories:
 - dev
+mainclass: dev
 date: 2016-04-19 08:48:34
-lastmod: 2017-09-05T12:35:40+01:00
+lastmod: 2017-10-08T19:02:33+01:00
 description: "Hace tiempo me encontré con el problema de tener que construir una  lista de la forma más eficiente posible, sin usar bucles for, ya que era el código  de una MetaHeurística y debía evaluarse miles de veces. el código original era el siguiente"
 image: python-lista-de-listas-eficiente.png
-mainclass: dev
 tags:
 - python
-- "optimización de código"
-- list comprehensions python
-- crear lista de listas
-- codigo eficiente python
 title: Crear Una Lista De Listas De Forma Eficiente en Python
 ---
 

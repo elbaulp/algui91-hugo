@@ -2,12 +2,12 @@
 title = "Recommended Books"
 author = "alex"
 description = "A curated lists of books I've read and recommend about security, computer science and Machine Learning"
-tags = ["books", "lists"]
-categories = ["articulos"]
 image = "recommended-books.png"
+categories = ["articulos"]
 mainclass = "articulos"
-lastmod = "2017-10-02T16:08:14+01:00"
+lastmod = "2017-10-08T19:07:06+01:00"
 date = "2017-10-02T16:08:15+01:00"
+tags = ["books", "lists"]
 +++
 
 Bellow is a collection of books I've read. I will be updating it each time I finish a new book.

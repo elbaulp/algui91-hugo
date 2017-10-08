@@ -1,12 +1,14 @@
 ---
 author: alex
 categories:
-- juegos
-date: '2016-01-01'
-lastmod: 2017-09-02T12:56:37+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-08T18:57:11+01:00
 url: /programacion-para-juegos-leccion-12/
 title: "Programación para Juegos - Lección 1.2 - Hello World"
+tags:
+- SDL
 ---
 
 En esta lección vamos a aprender a hacer un Hola Mundo al estilo SDL.

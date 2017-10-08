@@ -2,19 +2,14 @@
 author: luzila
 categories:
 - articulos
-- opensource
-date: '2016-01-01'
-lastmod: 2017-09-10T12:58:56+01:00
+mainclass: articulos
+date: 2017-10-08T19:26:12+01:00
+lastmod: 2017-10-08T19:26:10+01:00
 description: "A la hora de crear proyectos, suele ser una tarea difícil elegir  bajo qué licencia liberar el código, al menos para mi. Con este artículo  que traduzco de outercurve.org espero facilitar la tarea de selección de una  licencia."
 image: 2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minutos.png
-mainclass: articulos
 url: /todo-lo-que-necesitas-saber-sobre-copyright-y-licencias-en-2-minutos/
 tags:
 - gpl
-- licencia apache
-- licencia BSD
-- licencia MIT
-- licencias libres
 title: Todo lo que necesitas saber sobre Copyright y licencias en 2 minutos
 ---
 

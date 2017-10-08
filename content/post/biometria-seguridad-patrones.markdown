@@ -2,12 +2,12 @@
 author: cristina
 categories:
 - articulos
+- seguridad
 mainclass: seguridad
 date: 2016-01-26 10:51:21
 description: "En este artículo se dará un repaso por las distintas ténicas  existentes de reconocimiento de patrones y cómo pueden usarse sobre datos biométricos."
 image: hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png
 tags:
-- seguridad
 - biometria
 title: "Biometría Aplicada a La Seguridad - Reconocimiento De Patrones"
 ---

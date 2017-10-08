@@ -2,14 +2,14 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-09-01T12:26:16+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T18:54:50+01:00
 url: /programacion-android-recursos-trabajar/
 tags:
 - curso android pdf
-- recursos xml
+- recursos android
 title: "Programación Android: Recursos - Trabajar con recursos XML arbitrarios"
 ---
 

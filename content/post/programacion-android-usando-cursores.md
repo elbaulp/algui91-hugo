@@ -2,14 +2,13 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-09-01T12:27:38+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T18:55:55+01:00
 url: /programacion-android-usando-cursores/
 tags:
 - curso android pdf
-- Cursores Android
 title: "Programación Android: Usando cursores"
 ---
 

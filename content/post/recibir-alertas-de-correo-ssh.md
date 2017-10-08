@@ -1,15 +1,11 @@
 ---
 author: alex
 categories:
-- administracion de servidores
-date: '2016-01-01'
-lastmod: 2017-09-05T12:48:16+01:00
+- servidores
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-10-08T19:06:17+01:00
 url: /recibir-alertas-de-correo-ssh/
-tags:
-- alertar ssh
-- correo ssh
-- seguridad ssh
 title: Recibir alertas de correo al acceder al  sistema mediante SSH
 ---
 

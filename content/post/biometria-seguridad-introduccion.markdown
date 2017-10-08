@@ -9,7 +9,6 @@ description: "En este artículo se verá una introducción a lo que es la biomet
 image: hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png
 mainclass: seguridad
 tags:
-- seguridad
 - biometria
 title: "Biometría Aplicada a La Seguridad - Introducción"
 ---

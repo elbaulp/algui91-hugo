@@ -1,10 +1,10 @@
 ---
 author: alex
 categories:
-- noticias
-date: '2016-01-01'
-lastmod: 2017-09-06T20:38:44+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-08T19:10:11+01:00
 url: /rockmelt-una-navegador-social-basado-en/
 title: Rockmelt, una navegador social basado en Chromium
 ---

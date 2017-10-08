@@ -1,12 +1,14 @@
 ---
 author: alex
 categories:
-- juegos
-date: '2016-01-01'
-lastmod: 2017-09-02T12:54:46+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-08T18:56:39+01:00
 url: /programacion-para-juegos-articulo-3-que/
 title: "Programación para Juegos. Artículo 3. ¿Qué es un pixel?"
+tags:
+- SDL
 ---
 
 Este artículo hace referéncia a la [Lección 5 - Colores Clave][1].

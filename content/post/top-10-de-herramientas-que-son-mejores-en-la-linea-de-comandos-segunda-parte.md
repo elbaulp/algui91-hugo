@@ -1,13 +1,12 @@
 ---
-lastmod: 2017-09-11T18:30:18+01:00
 author: juan
 categories:
-- articulos
 - linux
+mainclass: linux
 description: "Escribir commandos en una terminal puede parecer tedioso, pero con las  herramientas correctas, la línea de comandos puede ser increíblemente poderosa.  Aquí están nuestras herramientas de línea de comandos favoritas que hacen  impresionantes cosas que simplemente no puedes encontrar en una GUI (Interfaz Gráfica  de Usuario)."
-mainclass: articulos
 url: /top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos-ii/
 image: 2012/08/original1.jpg
+lastmod: 2017-10-08T19:27:49+01:00
 tags:
 - comandos
 - herramientas

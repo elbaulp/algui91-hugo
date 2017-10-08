@@ -2,16 +2,10 @@
 author: alex
 categories:
 - articulos
-- noticias
-- "tecnología"
+mainclass: articulos
 date: '2016-01-01'
 lastmod: 2017-09-10T12:46:58+01:00
-mainclass: articulos
 url: /superordenador-de-barcelona-armandose-para-entrar-en-las-maquinas-mas-rapidas-del-mundo/
-tags:
-- green500
-- supercomputadores
-- top500
 title: "Superordenador de Barcelona ARMándose para entrar en las máquinas más rápidas del mundo"
 ---
 

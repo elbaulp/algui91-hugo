@@ -1,17 +1,15 @@
 ---
 author: alex
 categories:
-- java
+- dev
+- android
+mainclass: android
 date: 2016-02-16 20:05:38
-lastmod: 2017-09-02T13:03:44+01:00
+lastmod: 2017-10-08T18:59:58+01:00
 description: "Enunciado: se facilitarán las coordenadas de una serie de puntos  GPS (latitud/longitud) mediante códigos QR a la appGPSQR que iniciará automáticamente  la navegación GPS hacia dicho punto, debe guardar el recorrido realizado y mostrarlo  en un mapa al finalizar el mismo. En el anexo I tenéis ejemplos de los códigos  QR que se deben detectar, en la defensa serán distintos."
 image: npi/gqsqr_read.png
-mainclass: java
 tags:
-- programar navegador gps android
-- tutorial gps android
-- leer QR code en android zxing
-- calcular rutas gps android
+- java
 title: Crear Un Navegador GPS Que Dibuje El Camino Seguido en Android
 ---
 

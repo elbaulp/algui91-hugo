@@ -1,16 +1,11 @@
 ---
 author: alex
 categories:
-- informatica
-date: '2016-01-01'
-lastmod: 2017-09-11T18:33:14+01:00
+- articulos
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-08T19:29:04+01:00
 url: /un-poco-de-circuitos-registros-y-generadores-de-secuencia/
-tags:
-- biestables
-- "circuitos lógicos"
-- logic works
-- registros
 title: "Un poco de circuitos, regístros y generadores de secuencia"
 ---
 

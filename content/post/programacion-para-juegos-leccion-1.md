@@ -1,12 +1,14 @@
 ---
 author: alex
 categories:
-- juegos
-date: '2016-01-01'
-lastmod: 2017-09-02T12:57:25+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-08T18:57:25+01:00
 url: /programacion-para-juegos-leccion-1/
 title: "Programación para Juegos - Lección 1 - Instalando SDL"
+tags:
+- SDL
 ---
 
 Como dije, voy a traducir el tutorial que estoy siguiendo de SDL, en <a target="_blank" href="http://www.lazyfoo.net/SDL_tutorials/">Lazy Foo&#8217; Productions</a>, que se compone de 36 lecciones y el lenguaje que usa es C++, por ser considerado un estándar para la industria del juego.

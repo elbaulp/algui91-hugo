@@ -3,6 +3,7 @@ title = "Why I am removing Google Analytics"
 date = "2017-07-25T12:12:46+02:00"
 author = "alex"
 mainclass = "articulos"
+categories = ["articulos"]
 tags = ["privacy"]
 description = "From now on this blog won't track any of its readers with Google Analytics"
 +++

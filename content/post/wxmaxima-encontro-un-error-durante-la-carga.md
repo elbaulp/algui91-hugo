@@ -3,13 +3,10 @@ author: alex
 categories:
 - how to
 - linux
+mainclass: linux
 date: '2016-01-01'
-lastmod: 2017-09-11T18:55:40+01:00
-mainclass: dev
+lastmod: 2017-10-08T19:35:34+01:00
 url: /wxmaxima-encontro-un-error-durante-la-carga/
-tags:
-- convertir a utf8 maxima
-- wxmaxima error
 title: "Cómo resolver el error &#8216;wxMaxima encontró un error durante la carga&#8217;"
 ---
 

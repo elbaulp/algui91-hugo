@@ -1,18 +1,16 @@
 ---
 author: alex
 categories:
-- c
+- dev
+mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-09-10T12:45:31+01:00
+lastmod: 2017-10-08T19:20:25+01:00
 description: "Días atrás hablamos sobre DWM y quedó pendiente explicar cómo  colorear la barra de estado. En el artículo de hoy veremos cómo aplicar el  parche Simple StatusColor en DWM 6.1, que escribí hace poco."
 image: 2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png
-mainclass: dev
 url: /statuscolor-dwm-6-1/
 tags:
 - dwm
-- simplestatuscolor dwm 6.1
-- statuscolor dwm 6.1
-- statuscolor for dwm 6.1
+- c
 title: Colorear la barra de estado con Simple StatusColor en DWM 6.1
 ---
 

@@ -1,25 +1,14 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- opensource
-lastmod: 2017-09-08T12:10:22+01:00
+- articulos
+mainclass: articulos
+lastmod: 2017-10-08T19:13:49+01:00
 date: 2017-09-08T12:10:24+01:00
 description: "Es fácil distraerse cuando estás sentado enfrente de un ordenador, sobre todo cuando se tienen pocas ganas de trabajar. Leyendo mi RSS encontré una aplicación que puede llegar a ser muy útil si te distras fácilmente; SelfControl."
-mainclass: articulos
 url: /selfcontrol-aparta-las-distracciones-de-tu-pc-cuando-estas-trabajando/
 tags:
-- agregar regla de iptables
-- bloquear facebook con iptables
-- bloquear facebook por iptables
-- bloquear twitter con iptables
-- bloquear webs
-- comando iptables linux
-- ejemplos de firewall
-- impedir conexiones entrantes
 - iptables
-- iptables con servidor debian
-- selfcontrol
 title: "SelfControl, aparta las distracciones de tu pc cuando estás trabajando"
 ---
 
