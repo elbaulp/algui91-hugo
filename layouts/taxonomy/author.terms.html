@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<section id="post" class="post-content" role="main">
+  <h1>{{ .Title }}</h1>
+    {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms.ByCount }}
+       {{ $author := index $.Site.Data.authors .Term }}
+       <span class="tag-title">{{ $author.name }} ({{ $value.Count }} posts)</a></span>
+       {{ partial "structure/author" $author }}
+    {{ end }}
+</section>
+
+{{ end }}
