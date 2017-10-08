@@ -1,15 +1,11 @@
 ---
 author: luzila
 categories:
-- articulos
+- seguridad
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-08-11T12:03:43+01:00
-mainclass: articulos
+lastmod: 2017-10-08T16:38:08+01:00
 url: /por-que-la-autentificacion-de-2-factores-depende-de-la-experiencia-del-usuario/
-tags:
-- "problemas autentificación de 2 factores"
-- "que es autentificación de 2 factores"
-- "usuarios autentificación de 2 factores"
 title: "Por qué la autentificación de 2 factores depende de la experiencia del usuario"
 ---
 

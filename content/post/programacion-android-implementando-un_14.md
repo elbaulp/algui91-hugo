@@ -2,13 +2,13 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-15T19:11:05+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T16:48:01+01:00
 url: /programacion-android-implementando-un_14/
 tags:
-- Content Provider Android
+- Content Provider
 - curso android pdf
 title: "Programación Android: Implementando un Content Provider (Parte 3)"
 ---

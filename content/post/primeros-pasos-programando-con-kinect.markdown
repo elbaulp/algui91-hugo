@@ -4,17 +4,12 @@ amp:
   elements: [amp-youtube]
 categories:
 - dev
+mainclass: dev
 date: 2015-11-05 18:30:26
-lastmod: 2017-09-20T18:24:15+01:00
+lastmod: 2017-10-08T16:43:55+01:00
 description: "Este artículo es parte de una práctica de una asignatura de mi  facultad Nuevos Paradigmas de la Interacción. El trabajo consiste en programar  por primera vez una aplicación haciendo uso de una Kinect."
 image: Primeros-Pasos-Programando-Con-Kinect.png
-mainclass: dev
 math: true
-tags:
-- programar kinect
-- "programación kinect"
-- tutorial kinect
-- aplicaciones kinect
 title: Primeros Pasos Programando Con Kinect
 ---
 

@@ -2,22 +2,13 @@
 author: alex
 categories:
 - android
-- opensource
+- dev
+mainclass: android
 date: '2016-01-01'
-lastmod: 2017-08-14T17:53:07+01:00
-mainclass: articulos
+lastmod: 2017-10-08T16:43:25+01:00
 url: /disponible-la-primera-parte-del-curso/
 tags:
-- pdf
-- programacion
-- android
-- curso android desarrollo pdf
 - curso android pdf
-- manual desarrollo aplicaciones android
-- "programacion android pdf español"
-- programacion aplicaciones android pdf
-- programacion en android
-- programar en android pdf
 title: Disponible la primera parte del curso Android en PDF
 ---
 

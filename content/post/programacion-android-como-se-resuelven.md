@@ -3,16 +3,14 @@ author: alex
 categories:
 - android
 - how to
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-15T19:06:01+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T16:47:12+01:00
 url: /programacion-android-como-se-resuelven/
 tags:
-- android ejemplo intent filter
+- intents
 - curso android pdf
-- ejemplo intentfilter implicito
-- resolver uri en android
 title: "Programación Android: Cómo se resuelven los Intents"
 ---
 

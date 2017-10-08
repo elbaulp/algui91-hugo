@@ -1,18 +1,13 @@
 ---
 author: alex
 categories:
-- internet
 - seguridad
-- so
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-08-11T12:04:42+01:00
-mainclass: articulos
+lastmod: 2017-10-08T16:40:01+01:00
 url: /por-que-nuestro-pc-necesita-un-firewall/
 tags:
-- cortafuegos
-- ejemplos de firewall
-- seguridad en la red
-- seguridad firewall
+- so
 title: "Por qué nuestro PC necesita un firewall activado"
 ---
 

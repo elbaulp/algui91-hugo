@@ -2,19 +2,15 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-15T19:07:03+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T16:46:52+01:00
 url: /programacion-android-ejemplos-de-uso-de/
 aliases: /opensource/programacion-android-ejemplos-de-uso-de/
 tags:
-- action_pick activity ejemplo
-- action_pick activity example
-- android listview example
-- como filtrar un action_pick
 - curso android pdf
-- startactivityforresult android example
+- intents
 title: "Programación Android - Ejemplo de uso de ACTION_PICK"
 ---
 

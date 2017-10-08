@@ -2,10 +2,9 @@
 author: alex
 categories:
 - linux
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-11T12:03:31+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-08T16:37:47+01:00
 url: /por-que-gnulinux-no-es-solo-para-geeks/
 title: "Por qué GNU/Linux no es solo para Geeks"
 ---

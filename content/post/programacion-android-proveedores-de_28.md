@@ -2,16 +2,14 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-30T10:58:11+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T16:51:41+01:00
 url: /programacion-android-proveedores-de_28/
 tags:
 - content provider
 - curso android pdf
-- Proveedores de Contenidos Android
-- URI
 title: "Programación Android: Proveedores de Contenidos - Leer datos mediante URIs"
 ---
 

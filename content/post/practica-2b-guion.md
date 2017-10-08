@@ -1,17 +1,14 @@
 ---
 author: alex
 categories:
-- algoritmos
-- c
-date: '2016-01-01'
-lastmod: 2017-08-14T17:39:14+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-08T16:41:14+01:00
 url: /peso-hamming-y-optimizacion/
 tags:
-- optimizacion
-- paridad
-- peso hamming
-- popcount
+- algoritmos
+- c
 title: "Optimizando código y evaluando el rendimiento"
 ---
 

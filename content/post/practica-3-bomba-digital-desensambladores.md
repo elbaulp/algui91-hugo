@@ -1,17 +1,16 @@
 ---
 author: alex
 categories:
-- c
-- hacking
-date: '2016-01-01'
-lastmod: 2017-08-14T17:50:01+01:00
-image: 2012/12/logicbomb.png
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-08T16:43:08+01:00
+image: 2012/12/logicbomb.png
 url: /desafio-de-ingenieria-inversa-en-c-soluciones/
 tags:
 - asm
-- bomba logica
-- "contraseñas asm"
+- c
+- hacking
 - Ingenieria inversa
 title: "Desafío de ingeniería inversa en C. Soluciones"
 ---

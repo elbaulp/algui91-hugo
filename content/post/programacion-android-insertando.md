@@ -2,14 +2,13 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-15T19:13:13+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T16:49:00+01:00
 url: /programacion-android-insertando/
 tags:
 - curso android pdf
-- Insertando registros
 title: "Programación Android: Insertando registros"
 ---
 

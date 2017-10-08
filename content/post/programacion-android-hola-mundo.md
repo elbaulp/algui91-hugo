@@ -2,14 +2,13 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-15T19:07:43+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T16:47:28+01:00
 url: /programacion-android-hola-mundo/
 tags:
 - curso android pdf
-- hola mundo android
 title: "Programación Android: Hola Mundo"
 ---
 
