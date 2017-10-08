@@ -2,17 +2,14 @@
 author: alex
 categories:
 - articulos
-lastmod: 2017-09-09T20:24:50+01:00
+- seguridad
+mainclass: seguridad
+lastmod: 2017-10-08T19:17:05+01:00
 date: 2017-09-09T20:24:52+01:00
 description: "\xDAltimo artículo de la serie \u201CBiometría Aplicada a La Seguridad\u201D,  en el que se presentan distintas vulnerabilidades en los sistemas biométricos,  así como distintos tipos de ataques y contramedidas."
 image: hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png
-mainclass: articulos
 tags:
-- "seguridad biométrica"
-- "biometría aplicada a la seguridad"
-- "reconocimiento de patrones biométricos"
-- "sistemas biométricos"
-- "biometría de la mano"
+- biometria
 title: "Biometría Aplicada a La Seguridad - Sistemas Biometricos"
 ---
 

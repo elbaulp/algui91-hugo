@@ -2,12 +2,10 @@
 author: alex
 categories:
 - articulos
-date: '2016-01-01'
-lastmod: 2017-09-10T12:53:53+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-08T19:22:44+01:00
 url: /tablet-vs-e-reader-cual-ganara/
-tags:
-- tablet vs ereader
 title: "Tablet Vs e-Reader: ¿cuál ganará?"
 ---
 

@@ -2,11 +2,10 @@
 author: alex
 categories:
 - android
-- aplicaciones
-- opensource
-date: '2016-01-01'
-lastmod: 2017-09-02T13:03:13+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T18:59:29+01:00
 url: /programa-que-envia-mensajes-desde/
 tags:
 - curso android pdf

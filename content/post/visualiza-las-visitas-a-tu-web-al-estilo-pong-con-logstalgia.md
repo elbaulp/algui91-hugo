@@ -3,18 +3,12 @@ author: alex
 amp:
   elements: [amp-youtube]
 categories:
-- administracion de servidores
-- aplicaciones
-- opensource
-date: '2016-01-01'
-lastmod: 2017-09-11T18:42:46+01:00
-image: visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia.png
+- servidores
 mainclass: servidores
+date: '2016-01-01'
+lastmod: 2017-10-08T19:32:23+01:00
+image: visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia.png
 url: /visualiza-las-visitas-a-tu-web-al-estilo-pong-con-logstalgia/
-tags:
-- grabar video logstalgia
-- instalar logstalgia
-- tutorial logstalgia
 title: Visualiza las visitas a tu web al estilo Pong con Logstalgia
 ---
 

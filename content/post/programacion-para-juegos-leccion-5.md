@@ -1,12 +1,14 @@
 ---
 author: alex
 categories:
-- juegos
-date: '2016-01-01'
-lastmod: 2017-09-02T13:01:52+01:00
+- dev
 mainclass: dev
+date: '2016-01-01'
+lastmod: 2017-10-08T18:58:44+01:00
 url: /programacion-para-juegos-leccion-5/
 title: "Programación para Juegos - Lección 5 - Colores Clave"
+tags:
+- SDL
 ---
 
 Lo que vamos a ver ahora son los *colores clave*. Un color clave es un color que no queremos que aparezca en la imágen, como el fondo de la misma. La estructura `SDL_Surface` tiene un elemento llamado _color key_ , que determina que color de la imagen no queremos que sea visible. Esto es lo que se usa cuando queremos una imagen con fondo transparente.

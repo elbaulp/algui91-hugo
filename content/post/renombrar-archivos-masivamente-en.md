@@ -2,14 +2,12 @@
 author: alex
 categories:
 - linux
-- script
-lastmod: 2017-09-05T12:54:20+01:00
-date: 2017-09-05T12:54:22+01:00
 mainclass: linux
+lastmod: 2017-10-08T19:07:59+01:00
+date: 2017-09-05T12:54:22+01:00
 url: /renombrar-archivos-masivamente-en/
 tags:
-- renombrar archivos linux masivo
-- renombrar linux
+- script
 title: Renombrar archivos masivamente en GNU/Linux
 description: "Si queremos renombrar todos los archivos para eliminar la página web del nombre del archivo, no es necesario ir uno por uno renombrando, usando el comando rename de GNU/linux lo conseguimos fácilmente."
 ---

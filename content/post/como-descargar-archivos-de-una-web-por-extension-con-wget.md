@@ -7,8 +7,6 @@ mainclass: linux
 date: '2016-01-01'
 lastmod: 2017-09-26T17:01:48+01:00
 url: /como-descargar-archivos-de-una-web-por-extension-con-wget/
-tags:
-- aplicaciones
 - internet
 title: "Cómo descargar archivos de una web por extensión con wget"
 ---

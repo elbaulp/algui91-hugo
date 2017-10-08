@@ -2,16 +2,13 @@
 author: alex
 categories:
 - how to
+- articulos
+mainclass: articulos
 date: '2016-01-01'
-lastmod: 2017-09-10T12:51:36+01:00
+lastmod: 2017-10-08T19:22:07+01:00
 description: "Hace tiempo, cuando migramos de blogger a WordPress escribimos un artículo  sobre cómo realizar la migración sin perder el posicionamiento web. Una parte  fundamental para mantener ese posicionamiento es conseguir que los enlaces sigan  funcionando. Para ello existe un plugin que he estado usando hasta ahora. Sin embargo  he decicido dejar de usarlo y sustituir todos los enlaces antiguos por los nuevos  usando expresiones regulares. En éste artículo veremos cómo aplicar este  cambio."
 image: 2014/01/Sustituir-los-enlaces-de-blogger-por-los-de-Wordpress-al-migrar-de-plataforma1.png
-mainclass: articulos
 url: /sustituir-los-enlaces-de-blogger-por-los-de-wordpress-al-migrar-de-plataforma/
-tags:
-- cambiar enlaces de blogger a wordpress
-- migrar blogger wordpress
-- url de blogger a wordpress
 title: Sustituir los enlaces de blogger por los de WordPress al migrar de plataforma
 ---
 

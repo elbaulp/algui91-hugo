@@ -3,6 +3,7 @@ title = "¿Por qué renuncio a Google Analytics?"
 date = "2017-07-25T12:12:46+02:00"
 author = "alex"
 mainclass = "articulos"
+categories = ["articulos"]
 description = "A partir de ahora este blog no hará seguimiento a sus lectores mediante Google Analytics"
 +++
 

@@ -6,9 +6,7 @@ mainclass: linux
 date: '2016-01-01'
 lastmod: 2017-09-22T11:49:36+01:00
 url: /actualizar-bios-de-asus-desde-linux/
-tags:
-- seguridad
-title: Actualizar BIOS de ASUS desde Linux
+ntitle: Actualizar BIOS de ASUS desde Linux
 ---
 
 Toda esta historia viene al comprar una memória de 2Gb de Ram a mi pc, para aumentar la capacidad total a 4Gb, no parece que sea algo muy complicado, ya que supuestamente mi placa base soporta hasta 8Gb y uso un Sistema Operatívo de 64-bits (CrunchBang 64-bit Stable + backports).

@@ -2,19 +2,13 @@
 author: alex
 categories:
 - articulos
-- informatica
-- noticias
+- seguridad
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-09-08T12:05:50+01:00
-mainclass: articulos
+lastmod: 2017-10-08T19:11:00+01:00
 url: /saltarse-la-autentificacion-de-dos-factores-de-google/
 tags:
-- android
-- autenficacion de dos pasos
 - "autentificación de dos factores"
-- duo security
-- google
-- saltar autentificacion de dos factores
 title: "Saltarse la autentificación de dos factores de Google"
 ---
 

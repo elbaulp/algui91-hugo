@@ -1,17 +1,14 @@
 ---
 author: alex
 categories:
-- aplicaciones
-- hacking
 - seguridad
+mainclass: seguridad
 date: '2016-01-01'
-lastmod: 2017-09-11T18:32:32+01:00
-mainclass: articulos
+lastmod: 2017-10-08T19:28:43+01:00
 url: /unhide-forensic-tool-encuentra-puertos-y-procesos-ocultos/
 tags:
+- hacking
 - herramientas forenses
-- unhide
-- unhide forensic tool
 title: 'Unhide Forensic Tool: Encuentra puertos y procesos ocultos'
 ---
 

@@ -2,10 +2,10 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-08-30T10:59:09+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T18:52:29+01:00
 url: /programacion-android-recursos-arrays-de/
 aliases: /opensource/programacion-android-recursos-arrays-de/
 tags:

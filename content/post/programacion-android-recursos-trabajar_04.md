@@ -2,10 +2,10 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-09-01T12:25:53+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T18:54:23+01:00
 url: /programacion-android-recursos-trabajar_04/
 tags:
 - curso android pdf

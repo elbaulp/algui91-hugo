@@ -1,16 +1,15 @@
 ---
 author: alex
 categories:
-- c
+- dev
+mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-09-06T20:33:18+01:00
+lastmod: 2017-10-08T19:09:29+01:00
 description: "Cuando estaba en el primer curso de la facultad, hicimos una práctica  en la asignatura Fundamentos de la Programación que consistía en resolver  un laberinto almacenado en un fichero. Me gustó bastante hacer ese programa y  lo comparto en el blog para los curiosos que quieran ver cómo funciona."
 image: 2013/11/cpp.png
-mainclass: dev
 url: /resolver-laberintos-en-c/
 tags:
-- practica laberintos fp
-- resolver laberinto fp
+- c
 title: Resolver laberintos en C++
 ---
 

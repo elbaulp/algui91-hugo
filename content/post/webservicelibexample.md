@@ -2,17 +2,13 @@
 author: alex
 categories:
 - android
-date: '2016-01-01'
-lastmod: 2017-09-11T18:48:22+01:00
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T19:33:08+01:00
 url: /restlib-libreria-para-realizar-peticiones-a-web-services-en-android/
 tags:
 - curso android pdf
 - json
-- libreria web services
-- restlib
-- web services android
-- web services programacion
 title: "Restlib - Librería para realizar peticiones a Web Services en Android"
 ---
 

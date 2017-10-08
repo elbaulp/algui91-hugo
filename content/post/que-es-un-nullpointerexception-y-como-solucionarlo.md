@@ -1,26 +1,15 @@
 ---
 author: alex
 categories:
-- java
+- dev
+mainclass: dev
 date: 2016-04-06 19:24:34
-lastmod: 2017-09-05T12:37:26+01:00
+lastmod: 2017-10-08T19:04:11+01:00
 description: "El siguiente artículo es una traducción de una pregunta en stackOverflow  del usuario ziggy, que preguntaba ¿Qué es un NullPointerException y cómo  se puede solucionar?. La respuesta es del usuario vincent-ramdhanie"
 image: "2014/05/Qué-es-un-NullPointerException-y-cómo-solucionarlo.png"
-mainclass: java
 url: /que-es-un-nullpointerexception-y-como-solucionarlo/
 tags:
-- excepciones java
-- null
-- NullPointerException java
-- nullpointerexception null
-- error facebook nullpointerexception null
-- nullpointerexception facebook
-- nullpointerexception
-- nullpointerexception null facebook
-- que significa nullpointerexception null
-- error nullpointerexception null facebook
-- que es nullpointerexception null
-- error al entrar en facebook nullpointerexception
+- java
 title: "Qué es un NullPointerException y cómo solucionarlo"
 ---
 

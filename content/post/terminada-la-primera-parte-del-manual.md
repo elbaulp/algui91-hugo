@@ -2,10 +2,9 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-09-10T12:56:59+01:00
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T19:24:09+01:00
 url: /terminada-la-primera-parte-del-manual/
 tags:
 - curso android pdf

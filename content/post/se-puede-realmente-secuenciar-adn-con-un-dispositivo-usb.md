@@ -2,18 +2,12 @@
 author: alex
 categories:
 - articulos
-- "tecnología"
-date: '2016-01-01'
-lastmod: 2017-09-08T12:11:38+01:00
-description: "¿Qué pasaría si pudieras poner algunas células bacterianas  en un dispositivo USB, conectarlo a su laptop, y obtener una secuencia completa  de ADN en cuestión de minutos?"
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-08T19:14:03+01:00
+description: "¿Qué pasaría si pudieras poner algunas células bacterianas  en un dispositivo USB, conectarlo a su laptop, y obtener una secuencia completa  de ADN en cuestión de minutos?"
 url: /se-puede-realmente-secuenciar-adn-con-un-dispositivo-usb/
 tags:
-- ADN
-- DNA
-- oxford nanopore
-- pendrive
-- secuenciar ADN
 - usb
 title: "¿Se puede realmente secuenciar ADN con un dispositivo USB?"
 ---

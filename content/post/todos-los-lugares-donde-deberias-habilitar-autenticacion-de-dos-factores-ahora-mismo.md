@@ -3,14 +3,13 @@ author: luzila
 categories:
 - articulos
 - seguridad
-date: '2016-01-01'
-lastmod: 2017-09-10T13:00:03+01:00
 mainclass: articulos
+date: '2016-01-01'
+lastmod: 2017-10-08T19:27:05+01:00
 url: /todos-los-lugares-donde-deberias-habilitar-autenticacion-de-dos-factores-ahora-mismo/
 tags:
 - "autentificación de dos factores"
 - "contraseñas"
-- google autenticator
 title: "Todos los lugares donde deberías habilitar la Autenticación de Dos Factores ahora mismo"
 ---
 

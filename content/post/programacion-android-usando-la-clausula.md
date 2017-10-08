@@ -2,13 +2,12 @@
 author: alex
 categories:
 - android
-- opensource
-date: '2016-01-01'
-lastmod: 2017-09-01T12:27:52+01:00
+- dev
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T18:56:15+01:00
 url: /programacion-android-usando-la-clausula/
 tags:
-- "Cláusula where android"
 - curso android pdf
 title: "Programación Android: Usando la cláusula Where"
 ---

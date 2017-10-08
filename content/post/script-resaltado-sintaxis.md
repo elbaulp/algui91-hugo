@@ -2,13 +2,12 @@
 author: alex
 categories:
 - linux
-- script
-date: '2016-01-01'
-lastmod: 2017-09-08T12:08:31+01:00
 mainclass: linux
+date: '2016-01-01'
+lastmod: 2017-10-08T19:12:03+01:00
 url: /script-resaltado-sintaxis/
 tags:
-- sintaxis c
+- script
 title: Script resaltado sintaxis c++
 ---
 

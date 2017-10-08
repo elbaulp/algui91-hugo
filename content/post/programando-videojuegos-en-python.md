@@ -1,13 +1,14 @@
 ---
 author: alex
 categories:
-- juegos
-- python
+- dev
+mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-09-02T13:03:02+01:00
-mainclass: articulos
+lastmod: 2017-10-08T18:59:11+01:00
 url: /programando-videojuegos-en-python/
 title: Programando Videojuegos en Python
+tags:
+- python
 ---
 
 Aunque no es la faceta más famosa de Python, Python es un lenguage con bastantes posibilidades para programar videojuegos. Por un lado convina la profundidad y recursos de usar las librerías de C/C++ y por otro la facilidad cercana a usar Flash, con un rendimiento medio entre ambas. Por lo que en muchas ocasiones en un buen lenguaje para programar cosas complejas de forma rápida, aunque obviamente sacrificando rendimiento, al ser juegos interpretados y no compilados.

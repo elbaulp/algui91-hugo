@@ -2,11 +2,9 @@
 author: alex
 categories:
 - android
-- aplicaciones
-- opensource
-date: '2016-01-01'
-lastmod: 2017-09-11T18:38:59+01:00
 mainclass: android
+date: '2016-01-01'
+lastmod: 2017-10-08T19:31:09+01:00
 url: /video-demostracion-del-proyecto-wifibar/
 tags:
 - curso android pdf

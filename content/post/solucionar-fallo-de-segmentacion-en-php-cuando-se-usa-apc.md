@@ -1,18 +1,14 @@
 ---
 author: alex
 categories:
-- administracion de servidores
+- servidores
 - linux
 date: '2016-01-01'
-lastmod: 2017-09-09T20:28:51+01:00
+lastmod: 2017-10-08T19:18:09+01:00
 mainclass: servidores
 url: /solucionar-fallo-de-segmentacion-en-php-cuando-se-usa-apc/
 tags:
-- "configuración apc"
-- "fallo segmentación php"
-- "parámetros kernel"
-- shmmax
-- sysctl
+- php
 title: "Solucionar fallo de segmentación en PHP cuando se usa APC"
 ---
 

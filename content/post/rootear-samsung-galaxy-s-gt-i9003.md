@@ -1,16 +1,11 @@
 ---
 author: alex
 categories:
-- android
-- aplicaciones
+- articulos
 date: '2016-01-01'
-lastmod: 2017-09-08T12:01:09+01:00
+lastmod: 2017-10-08T19:10:23+01:00
 mainclass: articulos
 url: /rootear-samsung-galaxy-s-gt-i9003/
-tags:
-- curso android pdf
-- samsung galaxy scl gti9003
-- xda
 title: Rootear Samsung Galaxy S GT-I9003
 ---
 
