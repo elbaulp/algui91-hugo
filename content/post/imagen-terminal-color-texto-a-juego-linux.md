@@ -50,14 +50,14 @@ Usaremos funciones de ImageMagick para convertir las imágenes, y gawk para filt
 
 -------------
 
-Expliación del script
+Explicación del script
 -------------
 
 La idea del script es modificar directamente los valores de configuración de terminal que se establecen en el fichero **%gconf.xml** que se ubica en `home/user/.gconf/apps/gnome-terminal/profiles/Default/`, para versiones de shell gnome < 3.8.
 
 # Declaración de variables
 
-Inicialmente declaramos las variables con la ruta de los comandos que vamos a tilizar frecuentemente. No es obligatorio, pero es recomendable. La variable **ROUTE** contiene la ruta del directorio donde guardamos las imágenes que queremos poner de fondo.
+Inicialmente declaramos las variables con la ruta de los comandos que vamos a utilizar frecuentemente. No es obligatorio, pero es recomendable. La variable **ROUTE** contiene la ruta del directorio donde guardamos las imágenes que queremos poner de fondo.
 
 ```bash
     GCONFT="/usr/bin/gconftool-2"
@@ -71,7 +71,7 @@ Inicialmente declaramos las variables con la ruta de los comandos que vamos a ti
 
 - **gconftool-2** : herramienta de configuración gnome. La usaremos con la opción set para modificar el archivo de configuración.
 - **sort** : comando que ordena líneas de texto.
-- **gawk** : escaneador de patrones. Lo usaremo para filtrar patrón hexadecimal.
+- **gawk** : escaneador de patrones. Lo usaremos para filtrar patrón hexadecimal.
 - **convert** : lo usaremos para redimensionar la imágen y convertirla en hibstograma.
 
 # Tomar imágenes
@@ -133,7 +133,7 @@ Por último, ponemos un color oscuro de fondo del terminal y un nivel de opacida
 
 # Ponemos color del texto a juego
 
-Para ello, sacamos el hibstograma de colores de la imágen, y tomamos un tono de esos colores. Con **convert** podemos indicar el número de colores que deseamos sacar y la profundidad. Luego los ordenamos segun su orden numérico y filtramos solo el  código hexadecimal de los colores con **gawk**. Lo guardamos en un fichero de texto llamado paleta.txt que se creara en /tmp.
+Para ello, sacamos el hibstograma de colores de la imágen, y tomamos un tono de esos colores. Con **convert** podemos indicar el número de colores que deseamos sacar y la profundidad. Luego los ordenamos según su orden numérico y filtramos solo el código hexadecimal de los colores con **gawk**. Lo guardamos en un fichero de texto llamado paleta.txt que se creara en /tmp.
 
 ```bash
     $CNVRT "/tmp/$FILECONV" -colors 25 -depth 6 -format '%c' histogram:info:- \
