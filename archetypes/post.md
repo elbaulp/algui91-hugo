@@ -1,10 +1,10 @@
 +++
+author = "alex"
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = "{{ .Date }}"
-author = "alex"
+categories = []
 mainclass = "articulos"
 image = ""
-categories = []
 tags = []
 description = ""
 draft = true
