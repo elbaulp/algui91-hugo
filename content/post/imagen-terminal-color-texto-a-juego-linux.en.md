@@ -3,29 +3,25 @@ author: cristina
 categories:
 - linux
 mainclass: linux
-date: 2016-07-18 16:08:56
-lastmod: 2017-10-05T12:17:35+01:00
+date: 2017-10-09T20:09:46+01:00
 image: imagen-terminal-color-texto-a-juego-linux.png
-introduction: "With that cript you will be able to change your terminal's background and text color, to one that suits the background"
+description: "With this script you will be able to change your terminal's background and text color, to one that suits the background"
 tags:
-- "Imágenes"
-- bash
 - script
 title: "Change your gnome shell background's image and put a text color that suits, automatically"
 ---
 
-Sure you are that kind of person that spend hours in front of a computer with one or more terminals open. And sure, you are very used to the shell black background with white letters, or whatever shell style you put long time ago... Because, lets be honest, changing it everyday is not the most fun job. But... What if it changes itself automatically? What if you could just have your favorite pictures as shell backsground's images, with a text that suits the colors in each of that images and you just have to no nothing? 
+Sure you are that kind of person that spend hours in front of a computer with one or more terminals open. And sure, you are very used to the shell black background with white letters, or whatever shell style you put long time ago... Because, lets be honest, changing it everyday is not the most fun job. But... What if it changes itself automatically? What if you could just have your favorite pictures as shell backsground's images, with a text that suits the colors in each of that images and you just have to no nothing?
 
 <!--more--><!--ad-->
 
 Here I want to tell you how I thought to do it with a bash script, and thus escape from the shell style routine.
 
-Before we start...
--------------
+# Before we start...
 
-# Check you gnome-shell version
+## Check you gnome-shell version
 
-That script is valid only for **gnome versions < 3.8**. I Have tested it in Linux Mint Debian Edition and in Ubuntu 14.04 (in this last I had to install gnome-shell). 
+That script is valid only for **gnome versions < 3.8**. I Have tested it in Linux Mint Debian Edition and in Ubuntu 14.04 (in this last I had to install gnome-shell).
 
 To install gnome-shell (just in case you need to):
 
@@ -39,7 +35,7 @@ to check the gnome version:
     cris@cris ~ $ gnome-shell --version
 ```
 
-# Install ImageMagick and gawk
+## Install ImageMagick and gawk
 
 We are goint to use some ImageMagick functions to convert the images, and gawk for filtering expressions. To install them:
 
@@ -48,16 +44,14 @@ We are goint to use some ImageMagick functions to convert the images, and gawk f
     cris@cris ~ $ sudo apt-get install imagemagick
 ```
 
--------------
+# Script explanation
 
-Script explanation
--------------
 
 What we want this script to do is to modify directly the shell configuration values that are set in the file **%gconf.xml** which is placed at `home/user/.gconf/apps/gnome-terminal/profiles/Default/` for gnome versions < 3.8.
 
-# Variables definition
+## Variables definition
 
-Initially, we are declaring the variables with the path of the commands we are going to use frequently. It is not mandatory, but it is recommended. The **ROUTE** variable contains the path for the folder where the images that we want to use as background images are placed. 
+Initially, we are declaring the variables with the path of the commands we are going to use frequently. It is not mandatory, but it is recommended. The **ROUTE** variable contains the path for the folder where the images that we want to use as background images are placed.
 
 ```bash
     GCONFT="/usr/bin/gconftool-2"
@@ -74,7 +68,7 @@ Initially, we are declaring the variables with the path of the commands we are g
 - **gawk** : pattern scanner. We use it to filter the hexadecimal pattern.
 - **convert** : we use this command to resize the image and convert it to an hibstogram.
 
-# Taking Images
+## Taking Images
 
 We take randomly an image of **myPath** for the shell background:
 
@@ -103,7 +97,7 @@ Optional: we take another image from the folder to set it as desktop background 
     FILED=$(shuf -n 1 -e $ROUTE)
 ```
 
-# Set the terminal's background image
+## Set the terminal's background image
 
 We modify some configurations that are by default before applying changes, to have an effect:
 
@@ -130,7 +124,7 @@ Last, we set a dark background color for shell and a high opacity level, to make
     $GCONFT --set /apps/gnome-terminal/profiles/Default/background_darkness --type float "0.78"
 ```
 
-# Set the text color to suit with the image
+## Set the text color to suit with the image
 
 To do that, we first get the color hibstogram from the image, and then we take a color tone of them. With **convert** we can specify the number of colors to take and the deeper we want to go in the image to get them. Then, we sort then according to their numeric order and filter just the hexadecimal code of the colors with **gawk**. We save it in a text file called paleta.txt which will be created at /tmp.
 
