@@ -6,12 +6,12 @@
      </h1>
   {{ end }}
   <div id="grid" class="row flex-grid">
-    {{ partial "structure/subscribe" }}
+    {{ partialCached "structure/subscribe" . }}
 
     {{ range .Paginator.Pages }}
       {{ .Render "li" }}
     {{ end }}
-    {{ partial "structure/pagination.html" . }}
+    {{ partialCached "structure/pagination.html" . }}
   </div>
 </main>
 {{ end }}
