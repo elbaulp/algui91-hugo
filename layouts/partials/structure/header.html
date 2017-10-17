@@ -1,6 +1,6 @@
 <header class="bar-header">
   <h1 class="logo">
-    {{ partial "structure/logo.html" }}
+    {{ partialCached "structure/logo.html" . }}
     <a id="logo" href="{{ "/" | absLangURL }}"></a>
     <a href="/">
       <svg class="icon flag-es">
@@ -15,7 +15,7 @@
   </h1>
 </header>
 
-{{ partial "svgicons" }}
+{{ partialCached "svgicons" . }}
 
 <div id="fade" class="overlay"></div>
   <amp-sidebar id="sidebar" layout="nodisplay" side="right">

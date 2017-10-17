@@ -1,4 +1,4 @@
 {{ partial "structure/head" . }}
-{{ partial "structure/header" . }}
+{{ partialCached "structure/header" . }}
 {{ block "main" . }}{{ end }}
-{{ partial "structure/foot" . }}
+{{ partialCached "structure/foot" . }}

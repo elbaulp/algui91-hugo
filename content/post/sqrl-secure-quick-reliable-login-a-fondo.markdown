@@ -5,7 +5,7 @@ amp:
 categories:
 - security now
 - seguridad
-lastmod: 2017-10-08T19:18:57+01:00
+lastmod: 2017-10-10T20:18:56+01:00
 date: 2017-09-10T12:41:58+01:00
 description: "Hace unos años, hablé aquí sobre la idea de Steve Gibson, SQRL, sistema con el que pretende eliminar el uso de usuarios y contraseñas en internet. Unos dos años más tarde, con el proyecto bastante maduro, en Security Now!, Steve ha vuelto a dar detalles del funcionamiento de SQRL, y la verdad es que pinta pero que muy bien. En este artículo he usado como fuente el episodio 424 del podcast."
 image: SQRL-Secure-Quick-Reliable-Login-a-Fondo.png
