@@ -1,0 +1,219 @@
++++
+author = "alex"
+title = "Org-mode Quick reference Cheat-Sheet"
+date = "2017-10-18T19:01:49+02:00"
+categories = ["articulos"]
+mainclass = "articulos"
+image = "orgmodequickreference.jpg"
+tags = ["cheatsheet", "emacs", "tutorials"]
+description = "A quick org-mode reference guide of the most useful key binds"
+url = "/en/org-mode-quick-cheatsheet/"
++++
+
+* Quick reference guide for emacs Org-mode key binds
+This is a quick reference to org mode, it is mostly a copy and paste from its manual, but I needed an easy way of checking the most useful *org-mode commands* in a single view, because I found myself checking again and again its manual.
+
+<figure>
+        <a href="/img/orgmodequickreference.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/orgmodequickreference.jpg"
+            alt="Org mode quick reference"
+            title="Org mode quick reference"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="480">
+          </amp-img>
+        </a>
+        <figcaption>Org mode quick reference</figcaption>
+</figure>
+
+First, you can cycle through your sections with =<TAB>=, which *expands/contract* sections in your document.
+
+* Sections
+#+BEGIN_SRC org
+* Top level headline
+** Second level
+*** 3rd level
+    some text
+*** 3rd level
+    more text
+
+* Another top level headline
+#+END_SRC
+
+* Cycling
+You can cycle through sections with:
+
+- =<TAB>=  Cycle *sub-tree*.
+- =S-<TAB>= or =C-u <TAB>= *Global* cycle. (The entire buffer)
+- =C-u C-u C-u <TAB>= Show all.
+
+* Move through headlines
+- =C-c C-n= Next heading.
+- =C-c C-p= Previous heading.
+- =C-c C-f= Next heading same level.
+- =C-c C-b= Previous heading same level.
+- =C-c C-u= Backward to higher level heading.
+
+<!--more--><!--ad-->
+
+* Insert/modify sections
+- =M-<RET>= Insert new heading with same level as current. If the cursor is at a plain list item, a new item is created. If used in the middle of a line, split the line and the rest become a new headline.
+- =M-S-<RET>= Insert new TODO at *same level*.
+- =<TAB>= In a new empty entry cycle through levels.
+- =M-<left>/<right>= Promote/demote *current headline* by one level.
+- =M-S-<left>/<right>= Promote/demote the *current sub-tree* by one level.
+- =M-S-<up>/<down>=  Move *sub-tree* up/down (swap with previous/next sub-tree of same level).
+- =C-c C-w= Refile *entry or region* to a different location.
+- =C-x n s/w=  Narrow buffer to *current sub-tree* / widen it again
+
+* Sparse Trees
+Useful to hide documents parts where you are not currently working.
+
+- =C-c <forward slash>= Prompts to create a sparse-tree
+- =C-c <forward slash> r= Occur. Prompts for a regexp and shows a sparse tree with all matches. Each match is also highlighted; the highlights disappear by pressing C-c C-c.
+
+* Plain lists
+- /Unordered:/ =-=, =+= or =*=.
+- /Ordered:/ =1.= or =1)=
+- /Description:/ Use =::= to separate the /term/ from the /description/.
+- =<TAB>= Fold items.
+- =M-<RET>= Insert item at the same level.
+- =M-S-<RET>= Insert item with a Checkbox.
+- =M-S-<up>/<down>= Move items *including sub-items* up/down.
+- =M-<left>/M-<right>= Decrease/increase indentation level.
+- =M-S-<left>/<right>= Decrease/increase indentation level, including *sub-items*.
+- =C-c C-c= If there is a *checkbox*, toggle it.
+- =C-c -= Cycle through differences kinds of lists.
+
+* Footnotes
+- =C-c C-x f= When cursor is at a footnote reference, jump to definition. When at a definition, jump to first reference. Otherwise, create a new footnote.
+- =C-c C-c= Jump between definition and reference.
+
+Here is an example footnote [fn:1]. The code to generate it is:
+
+#+BEGIN_SRC org
+Here is an example footnote [fn:1].
+
+[fn:1] Click return to return to reference
+#+END_SRC
+
+[fn:1] Click to return to reference
+
+* Hyperlinks
+Syntax: =[[link][description]]= or only =[[link]]=, once a link is created, you can edit it with =C-c C-l=
+
+In case the link is not a URL, it is considered to be internal in the current file:
+
+#+BEGIN_SRC org
+[[#custom-id]]
+[[My Target][Find my target]]
+#+END_SRC
+
+The last one will search for a target in the current file with syntax =<<My Target>>=
+
+- =C-c l= Store a link to the current location.
+- =C-c C-l= Insert link, it will ask you for the link and an optional description. If called with =C-u= prefix, file name completion is used to link to a file.
+- =C-c C-l= with *cursor in a link*, allows to edit it.
+- =C-c C-o= or =mouse-1= or =mouse-2= open link.
+
+* TODO items
+Any headline starting with /TODO/ becomes a /TODO/ item.
+
+- =C-c C-t= Rotate the TODO state of the current item among /(unmarked) -> TODO -> DONE -> (unmarked)/
+- =S-<right>/<left>= As above, but *only for the item* at point.
+- =C-c / t= View /TODO/ items in a /sparse tree/.
+- =C-c a t= Show the global TODO list.
+- =S-M-<RET>= Insert new /TODO/ item.
+- C-c , Set priority for item (Between /A,B,C/).
+- =S-<up>/<dwn>= Cycle through priorities.
+
+** TODO checkboxes
+You can have a composed list of /TODO/ items, and can toggle it with =C-c C-c=, and create a new one with =M-S-<RET>=.
+
+#+BEGIN_SRC org
+* TODO Organize party [0/3]
+  - [ ] call people [0/2]
+    - [ ] Peter
+    - [ ] Sarah
+  - [ ] order food
+#+END_SRC
+
+<figure>
+        <a href="/img/org-mode-todo-checkboxs.gif">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/org-mode-todo-checkboxs.gif"
+            alt="TODO Items checkboxes"
+            title="TODO items checkboxes"
+            sizes="(min-width: 244px) 244px, 100vw"
+            width="244"
+            height="100">
+          </amp-img>
+        </a>
+        <figcaption>TODO Items checkboxes</figcaption>
+</figure>
+
+* Markup
+- =*bold*= => *bold*.
+- =/italics/= => /italics/.
+- ==code== and =~verbatim~= ->  =code=, ~verbatim~.
+- =+strike-through+= -> +strike-through+.
+- =_underline_= -> _underline_
+
+* Images & Tables
+Tables have this syntax:
+#+BEGIN_SRC org
+| HEADER1  | header2  |
+|----------+----------|
+| content1 | contend2 |
+#+END_SRC
+
+<figure>
+        <a href="/img/org-mode-table.gif">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/org-mode-table.gif"
+            alt="Creating tables in org-mode"
+            title="Creating tables in org-mode"
+            sizes="(min-width: 304px) 304px, 100vw"
+            width="304"
+            height="214">
+          </amp-img>
+        </a>
+        <figcaption>Creating tables in org-mode</figcaption>
+</figure>
+
+Images are like links: =[[./img/a-image.jpg]]=
+
+* Source code
+To include source code:
+#+BEGIN_SRC org
+ #+BEGIN_SRC emacs-lisp
+     (defun org-xor (a b)
+        "Exclusive or."
+        (if a (not b) b))
+ #+END_SRC
+#+END_SRC
+
+will render to
+#+BEGIN_SRC emacs-lisp
+(defun org-xor (a b)
+  "Exclusive or."
+  (if a (not b) b))
+#+END_SRC
+
+You can edit the code example in a buffer supporting that language with =C-c '=
+
+* Source
+- [[http://orgmode.org/guide/][Org-mode short guide]]
