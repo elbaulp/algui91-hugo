@@ -1,0 +1,219 @@
++++
+author = "alex"
+title = "Chuleta de comandos para Org-Mode"
+date = "2017-10-18T19:04:01+02:00"
+categories = ["articulos"]
+mainclass = "articulos"
+image = "orgmodequickreference.jpg"
+tags = ["chuleta", "emacs"]
+description = "Una referencia rápida de los comandos más usados de org-mode"
++++
+
+Este artículo es una referencia rápida de los comandos más útiles de *org-mode*, es una versión de una página del manual oficial, pero ya que lo visitaba una y otra vez, decidí crear este post que recopile los comandos que más uso.
+
+<figure>
+        <a href="/img/orgmodequickreference.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/orgmodequickreference.jpg"
+            alt="Org mode quick reference"
+            title="Org mode quick reference"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="480">
+          </amp-img>
+        </a>
+        <figcaption>Org mode quick reference</figcaption>
+</figure>
+
+Para empezar, con =<TAB>=, ciclas sobre las distintas secciones, expandiendo/contrayendo.
+
+* Secciones
+#+BEGIN_SRC org
+* Top level headline
+** Second level
+*** 3rd level
+    some text
+*** 3rd level
+    more text
+
+* Another top level headline
+#+END_SRC
+
+* Ciclar
+Para ciclar sobre las secciones:
+
+- =<TAB>=  Cicla el *sub-árbol*.
+- =S-<TAB>= o =C-u <TAB>= Cicla *globalmente* todas las secciones.
+- =C-u C-u C-u <TAB>= Expande todas las secciones.
+
+* Moverse entre secciones
+
+- =C-c C-n= Siguiente sección.
+- =C-c C-p= Sección anterior.
+- =C-c C-f= Siguiente sección del mismo nivel.
+- =C-c C-b= Sección anterior del mismo nivel.
+- =C-c C-u= Ir subiendo a secciones superiores.
+
+<!--more--><!--ad-->
+
+* Insertar/modificar secciones
+
+- =M-<RET>= Insertar una nueva sección, del mismo nivel que el actual. Si el cursor está a mitad del párrafo, divide el párrafo en dos secciones.
+- =M-S-<RET>= Inserta un elemento *TODO* en el mismo nivel.
+- =<TAB>= En una sección vacía, ciclar sobre los niveles.
+- =M-<left>/<right>= Incrementar/decrementar un nivel.
+- =M-S-<left>/<right>= Incrementar/decrementar un nivel el *sub-árbol* actual.
+- =M-S-<up>/<down>=  Mover el *sub-árbol* arriba o abajo.
+- =C-c C-w= Mover la *sección o región* a otro lugar.
+- =C-x n s/w=  Reducir/ampliar el /bufer/ al *sub-árbol* actual.
+
+* Árboles dispersos
+Útil para ocultar partes del documento en las que no estamos trabajando actualmente.
+
+- =C-c <barra inclinada>= Pregunta cómo crear el árbol.
+- =C-c <barra inclinada> r= Crea el árbol disperso en base a una expresión regular, para desmarcar el resaltado pulsar =C-c C-c=.
+
+* Listas
+- /No ordenadas:/ =-=, =+= o =*=.
+- /Ordenadas:/ =1.= o =1)=
+- /Descripción:/ Usa =::= para separar el /término/ de la /descripción/.
+- =<TAB>= Ocultar los *elementos*.
+- =M-<RET>= Insertar nuevo elemento al mismo nivel.
+- =M-S-<RET>= Insertar elemento con /checkbox/.
+- =M-S-<up>/<down>= Mover elementos arriba/abajo, *incluyendo sub elementos*.
+- =M-<left>/M-<right>= Incrementar/decrementar nivel.
+- =M-S-<left>/<right>= Incrementar/decrementar nivel *incluyendo sub elementos*.
+- =C-c C-c= Si hay un /checkbox/, cambiar el estado.
+- =C-c -= Ciclar sobre los distintos tipos de listas.
+
+* Notas al pie
+- =C-c C-x f= Cuando el cursor está en una referencia, ir a la definición (o vice versa), de lo contrario crea una nueva nota al pie.
+- =C-c C-c= Saltar entre definición y referencia.
+
+Un ejemplo de una nota al pie [fn:1]. El código que la genera es:
+
+#+BEGIN_SRC org
+Un ejemplo de una nota al pie[fn:1].
+
+[fn:1] Click en return para volver a la referencia
+#+END_SRC
+
+[fn:1] Click en return para volver a la referencia.
+
+* Enlaces
+Sintáxis: =[[enlace][descripción]]= o solo =[[enlace]]=, una vez creado, se puede editar con =C-c C-l=.
+
+Si no hay una URL, el enlace se considera interno al documento:
+
+#+BEGIN_SRC org
+[[#custom-id]]
+[[My Target][Find my target]]
+#+END_SRC
+
+El último ejemplo, busca en el documento actual =<<My Target>>= y enlaza a él.
+
+- =C-c l= Almacena un enlace a la posición actual.
+- =C-c C-l= Inserta el enlace, pregunta por la /url/ y /descipción/, si se llama con el prefijo =C-u=, se usa autocompletado.
+- =C-c C-l= Con el *cursor en un enlace*, lo edita.
+- =C-c C-o= o =mouse-1= o =mouse-2= abre el enlace.
+
+* TODO items
+Toda sección comenzando con /TODO/ es un elemento /TODO/ (lista de tareas).
+
+- =C-c C-t= Cicla entre los distintos estados /(unmarked) -> TODO -> DONE -> (unmarked)/.
+- =S-<right>/<left>= Igual que arriba, pero solo para el elemento actual.
+- =C-c / t= Ver la lista como un /árbol disperso/.
+- =C-c a t= Muestra la lista de tareas global.
+- =S-M-<RET>= Inserta una nueva tarea.
+- C-c , Establecer prioridad de la tarea (Entre /A,B,C/).
+- =S-<up>/<dwn>= Ciclar entre prioridades.
+
+** TODO checkboxes
+Se pueden crear listas de tareas compuestas de *varios elementos*, y con =C-c C-c= se marcan como completadas, para crear una tarea nueva =M-S-<RET>=.
+
+#+BEGIN_SRC org
+* TODO Organize party [0/3]
+  - [ ] call people [0/2]
+    - [ ] Peter
+    - [ ] Sarah
+  - [ ] order food
+#+END_SRC
+
+<figure>
+        <a href="/img/org-mode-todo-checkboxs.gif">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/org-mode-todo-checkboxs.gif"
+            alt="TODO Items checkboxes"
+            title="TODO items checkboxes"
+            sizes="(min-width: 244px) 244px, 100vw"
+            width="244"
+            height="100">
+          </amp-img>
+        </a>
+        <figcaption>TODO Items checkboxes</figcaption>
+</figure>
+
+* Markup
+- =*negrita*= => *negrita*.
+- =/Cursiva/= => /Cursiva/.
+- ==code== y =~verbatim~= ->  =code=, ~verbatim~.
+- =+tachar+= -> +tachar+.
+- =_subrayar_= -> _subrayar_
+
+* Imágenes y tablas
+Sintáxis de las tablas:
+#+BEGIN_SRC org
+| HEADER1  | header2  |
+|----------+----------|
+| content1 | contend2 |
+#+END_SRC
+
+<figure>
+        <a href="/img/org-mode-table.gif">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/org-mode-table.gif"
+            alt="Creating tables in org-mode"
+            title="Creating tables in org-mode"
+            sizes="(min-width: 304px) 304px, 100vw"
+            width="304"
+            height="214">
+          </amp-img>
+        </a>
+        <figcaption>Creating tables in org-mode</figcaption>
+</figure>
+
+Las imágenes son enlaces: =[[./img/a-image.jpg]]=
+
+* Código fuente
+Para incluir código fuente:
+#+BEGIN_SRC org
+ #+BEGIN_SRC emacs-lisp
+     (defun org-xor (a b)
+        "Exclusive or."
+        (if a (not b) b))
+ #+END_SRC
+#+END_SRC
+
+generará lo siguiente:
+#+BEGIN_SRC emacs-lisp
+(defun org-xor (a b)
+  "Exclusive or."
+  (if a (not b) b))
+#+END_SRC
+
+Para editar el código en un /buffer/ que soporte dicho lenguaje, =C-c '=
+
+* Fuente
+- [[http://orgmode.org/guide/][Manual oficial de org-mode]]
