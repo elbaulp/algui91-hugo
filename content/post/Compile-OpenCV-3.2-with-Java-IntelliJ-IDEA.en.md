@@ -69,11 +69,11 @@ cris@cris ~/opencv-3.2.0/build $ make -j8
 when finished, make sure the files **opencv-320.jar** and **libopencv_java320.so** (.so or .dll) are created:
 
 ```bash
-    cris@cris ~/opencv-3.2.0/build $ ls -R | grep opencv-320.jar
+    cris@cris ~/opencv-3.2.0/build $ find . -name opencv-320.jar*
     opencv-320.jar
     opencv-320.jar.dephelper
 
-    cris@cris ~/opencv-3.2.0/build $ ls -R | grep libopencv_java320.so
+    cris@cris ~/opencv-3.2.0/build $ find . -name libopencv_java320.so
     libopencv_java320.so
 ```
 
