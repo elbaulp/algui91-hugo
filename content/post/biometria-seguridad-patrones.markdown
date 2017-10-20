@@ -21,9 +21,9 @@ El siguiente artículo forma parte de un trabajo en grupo realizado para la asig
 
 # Índice
 
-- [Biometría aplicada a la seguiridad - Introducción](/biometria-seguridad-introduccion "Biometría aplicada a la seguiridad - Introducción")
-- Biometría aplicada a la seguiridad - Reconocimiento de patrones
-- [Biometría aplicada a la seguiridad - Sistemas biométricos](/sistemas-biometricos "Biometría aplicada a la seguiridad - Sistemas biométricos")
+- [Biometría aplicada a la seguridad - Introducción](/biometria-seguridad-introduccion "Biometría aplicada a la seguiridad - Introducción")
+- Biometría aplicada a la seguridad - Reconocimiento de patrones
+- [Biometría aplicada a la seguridad - Sistemas biométricos](/sistemas-biometricos "Biometría aplicada a la seguiridad - Sistemas biométricos")
 
 <!--more--><!--ad-->
 
@@ -51,7 +51,7 @@ En primer lugar, para realizar un sistema de reconocimiento de patrones que nos 
 
 ### Extacción de características
 
-En un reconocedor, es muy importante tener en cuenta la extracción de características (parametrización) a realizar sobre la entrada, esto es, decidir qué vectores de características usar. Por ejemplo, en imágenes se puede usar el mapa de bits). Es indudable que el hecho de parametrizar nos facilita en cierta medida el problema, ya que mediante ella conseguimos disminuir el número de datos a procesar y transformamos el espacio de características, siendo más fácil discriminar en él(ver qué muestras sirven y cuales no).
+En un reconocedor, es muy importante tener en cuenta la extracción de características (parametrización) a realizar sobre la entrada, esto es, decidir qué vectores de características usar. Por ejemplo, en imágenes se puede usar el mapa de bits. Es indudable que el hecho de parametrizar nos facilita en cierta medida el problema, ya que mediante ella conseguimos disminuir el número de datos a procesar y transformamos el espacio de características, siendo más fácil discriminar en él(ver qué muestras sirven y cuales no).
 
 Problema: determinar los vectores de características más adecuados no es una tarea trivial.
 
@@ -67,7 +67,7 @@ En la Figura se puede apreciar como las dos clases son perfectamente separables 
 
 Es fácil mostrarlo en una imágen cuando tenemos pocas clases, como es este caso, que tenemos sólo dos. Pero cuando tenemos muchas el problema se complica. ¿Cómo sabemos si nuestro clasificador lo está haciendo bien o no? ¿cómo sabemos si una característica es discriminativa? En este caso se procede a calcular la media discriminativa de la característica, a partir de la distancia media entre clases y normalizando por la varianza.
 
-### Introducción a la detección de intrusos usando
+### Introducción a la detección de intrusos 
 
 Aplicando técnicas biométricas en sistemas de detención de [intrusos](/6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login/ "6 formas usadas por los cibercriminales para robar o vulnerar credenciales de login") nos permite reforzar la seguridad del sistema, por ejemplo, durante la autentificación, ya que podríamos establecer un perfil de cada usuario con más detalle, sin tener que preocuparnos de ciertos problemas como por ejemplo de que estos dejen su contraseña a la vista,la compartan se la roben…evitando así una posibilidad de ataque que afecte al rendimiento de un IDS.
 
