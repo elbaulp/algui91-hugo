@@ -4,12 +4,13 @@ categories:
 - articulos
 - security
 mainclass: seguridad
-date: 2017-10-18 10:51:21
+date: 2017-10-20T11:50:46+02:00
 description: "In this article we will talk about the existing different techniques from pattern recognition and how they can be used with biometric data."
 image: hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png
 tags:
 - biometrics
 title: "Biometrics applied to security - Pattern Recognition"
+url: "/en/biometrics-pattern-recognition/"
 ---
 
 <figure>
@@ -32,9 +33,9 @@ Pattern recognition
 
 Previously, we have talk about the different techniques that exist to perform the identification of an individual. Now we will get into **how** it is possible to recognise a face, an iris or a signature with pattern matching.
 
-### What is pattern recognition? 
+### What is pattern recognition?
 
-Is the science that describes and classifies objects, people, signals, representations, etc. Pattern recognition has multiple application fields, however the most related with [security](/security-now/ "security articles") is, definitely the biometric recognition of people. It is about assigning an identity to a person, or verify that it is what it says, by meassuring certain own characteristics. Characteristics as voice, face, fingerprints, iris, signature, etc. 
+Is the science that describes and classifies objects, people, signals, representations, etc. Pattern recognition has multiple application fields, however the most related with [security](/security-now/ "security articles") is, definitely the biometric recognition of people. It is about assigning an identity to a person, or verify that it is what it says, by meassuring certain own characteristics. Characteristics as voice, face, fingerprints, iris, signature, etc.
 
 ### The problem of pattern recognition
 
@@ -56,7 +57,7 @@ In a recognizer, it is so important to consider the feature extraction (parametr
 
 ### Class separability
 
-If we want to minimize the error of our biometrics system, we must try to make the data classification as accurate as possible, and for that we must select the classifier that best fits our data (distinct classifiers, distinct results...), by choosing correctly the classification criteria. 
+If we want to minimize the error of our biometrics system, we must try to make the data classification as accurate as possible, and for that we must select the classifier that best fits our data (distinct classifiers, distinct results...), by choosing correctly the classification criteria.
 
 In the next figure we can see how both two classes are perfectly separable when using both vector components (2 dimensions), but if we reduce it to just one dimension, we can see that both classes are no longer separable, as they overlap.
 
@@ -68,9 +69,9 @@ It is easy to ilustrate it in an image when the number of classes is low, as in 
 
 ### Introduction to intrusion detection
 
-Applying biometrics techniques in [intrusion](/6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login/ "6 ways used by cybercriminals to steal or infringe login credentials") detection systems allow us to intensify the security of our system, for example, during the authentication, as we could establish a more detailed profile for each user, without having to worry about certain problems like for example if the user is writting the password so others can see it, or if the user share its password or if it is stolen... thus avoiding a possibility of attack that affects the IDS performance. 
+Applying biometrics techniques in [intrusion](/6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login/ "6 ways used by cybercriminals to steal or infringe login credentials") detection systems allow us to intensify the security of our system, for example, during the authentication, as we could establish a more detailed profile for each user, without having to worry about certain problems like for example if the user is writting the password so others can see it, or if the user share its password or if it is stolen... thus avoiding a possibility of attack that affects the IDS performance.
 
-As is evident, the use of biometrics is not making impossible any security attack to the system, but at least it will ask every user to identify previously, through the authentication and validation mechanisms, so that any bad use or attack caused by an user and detected by an IDS will point to a concrete user.  
+As is evident, the use of biometrics is not making impossible any security attack to the system, but at least it will ask every user to identify previously, through the authentication and validation mechanisms, so that any bad use or attack caused by an user and detected by an IDS will point to a concrete user.
 
 Intrusion detection systems are still getting better, but it is already spoken that in the future advanced techniques of biometry could be developed, as for example, DNA recognition.
 
@@ -87,12 +88,3 @@ seguridad](http://www.amazon.es/gp/product/8478976361/ref=as_li_ss_tl?ie=UTF8&ca
 - [C. H. Chen and C. H. Chen, Handbook of Pattern Recognition and Computer Vision 4th edition](http://www.amazon.es/gp/product/9814656526/ref=as_li_ss_tl?ie=UTF8&camp;=3626&creative;=24822&creativeASIN;=9814656526&linkCode;=as2&tag;=bmab-21 "C. H. Chen and C. H. Chen, Handbook of Pattern Recognition and Computer Vision 4th edition")
 - [Wikipedia, “Biometría, según wikipedia.”](https://es.wikipedia.org/wiki/Biometr%C3%ADa "Wikipedia, “Biometría, según wikipedia.”")
 - [G. Argentina, “Historia de la biometría.”](http://www.biometria.gov.ar/acerca-de-la-biometria/historia-de-la-biometria.aspx "G. Argentina, “Historia de la biometría.”")
-
-
-
-
-
-
-
-
-
