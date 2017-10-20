@@ -5,6 +5,7 @@ categories:
 - seguridad
 mainclass: seguridad
 date: 2016-01-26 10:51:21
+lastmod: 2017-10-20T11:51:08+02:00
 description: "En este artículo se dará un repaso por las distintas ténicas  existentes de reconocimiento de patrones y cómo pueden usarse sobre datos biométricos."
 image: hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png
 tags:
@@ -67,7 +68,7 @@ En la Figura se puede apreciar como las dos clases son perfectamente separables 
 
 Es fácil mostrarlo en una imágen cuando tenemos pocas clases, como es este caso, que tenemos sólo dos. Pero cuando tenemos muchas el problema se complica. ¿Cómo sabemos si nuestro clasificador lo está haciendo bien o no? ¿cómo sabemos si una característica es discriminativa? En este caso se procede a calcular la media discriminativa de la característica, a partir de la distancia media entre clases y normalizando por la varianza.
 
-### Introducción a la detección de intrusos 
+### Introducción a la detección de intrusos
 
 Aplicando técnicas biométricas en sistemas de detención de [intrusos](/6-formas-usadas-por-los-cibercriminales-para-robar-o-vulnerar-credenciales-de-login/ "6 formas usadas por los cibercriminales para robar o vulnerar credenciales de login") nos permite reforzar la seguridad del sistema, por ejemplo, durante la autentificación, ya que podríamos establecer un perfil de cada usuario con más detalle, sin tener que preocuparnos de ciertos problemas como por ejemplo de que estos dejen su contraseña a la vista,la compartan se la roben…evitando así una posibilidad de ataque que afecte al rendimiento de un IDS.
 
