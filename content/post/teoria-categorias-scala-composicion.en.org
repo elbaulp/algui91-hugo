@@ -1,0 +1,153 @@
++++
+author = "alex"
+title = "Scala Category Theory - Composition"
+date = "2017-10-24T18:51:20+02:00"
+categories = ["dev"]
+mainclass = "dev"
+image = "category-theory-composition.jpg"
+tags = ["scala", "category theory", "composition", "mathematics"]
+description = "What is a category? This post explain it using Scala and Property based Tests"
+url = "/en/scala-category-theory-composition/"
++++
+
+This is the first post I'm going to write about *Category Theory*.
+
+I've been wanting to learn Category Theory for a while, since it seems to have [[http://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/][practical applications]] in software.
+
+This series will be based on the great book *Bartosz Milewski* wrote some time ago. To contribute to this cause, I've implemented the exercises he proposed in [[/en/tags/scala][scala]], and also wrote /Property Tests/ with =scalacheck=. I hope you enjoy this series, and don't hesitate to comment or fixing/improving this content.
+
+<!--more--><!--ad-->
+
+* Category: The Essence of Composition
+
+What is a /category/?, from [[https://en.wikipedia.org/wiki/Category_(mathematics)][Wikipedia]]:
+
+#+BEGIN_QUOTE
+In mathematics, a category is an algebraic structure similar to a group but without requiring inverse or closure properties. It comprises "objects" that are linked by "arrows". A category has two *basic properties:* the ability to compose the arrows *associatively* and the existence of an *identity arrow* for each object. A simple example is the category of sets, whose objects are sets and whose arrows are functions.
+#+END_QUOTE
+
+In short, a /category/ is form by *objects and arrows*, and they can compose. This is best shown with an image:
+
+<figure>
+        <a href="/img/category-theory-composition.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/category-theory-composition.jpg"
+            alt="Arrows and objects category Theory"
+            title="Arrows and objects category Theory"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="360">
+          </amp-img>
+        </a>
+</figure>
+
+Each arrow can be *composed*, f.e: If =A -> B= and =B -> D= then there must be an arrow from =A -> D=. Arrows can be called *morphisms*, they are *functions*, and they can be composed. In the image above, you have:
+
+- =f: A -> B=
+- =g: B -> D=
+- If you compose those two: you'll also have =h: A -> D=.
+
+Composition reads from /right to left:/ =g∘f= would be =g(f(x))=.
+
+* Properties of Composition
+
+1. *Associativity:* ~f∘(g∘h) == (f∘g)∘h == f∘g∘h~.
+2. For every object exists an *unit arrow*, it goes from the object to itself: ~f∘IDₐ = f == IDₐ∘f = f~, as shown below:
+
+<figure>
+        <a href="/img/category-theory-identity.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/category-theory-identity.jpg"
+            alt="Category Theory, object identity"
+            title="Category Theory, object identity"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="360">
+          </amp-img>
+        </a>
+</figure>
+
+* Examples in Scala
+
+Now that I've shown you a bit of theory, lets implement it in *scala*. As I said at the beginning of the post, I will be using /property based tests/ to check the implementation is correct and satisfy the /category properties/, that is, *Identity* and *associativity*.
+
+Here is the definition of a simple /Category/, you can check the full code at [[https://github.com/elbaulp/Scala-Category-Theory/blob/master/src/test/scala/elbaulp/CategorySpec.scala][Category.scala in my github repo]].
+
+#+BEGIN_SRC scala
+object Category {
+  def Id[T](x: T) = x
+  def compose[A, B, C](f: A => B, g: B => C): A => C =
+     f andThen g
+}
+#+END_SRC
+
+Simple enough, an /identity/ function and a function that compose two functions. Now lets try to prove this implementation is correct using /property based/ tests.
+
+* Property tests
+To simplify the post, I'm going to show only the important snippets of code, you can check [[https://github.com/elbaulp/Scala-Category-Theory/blob/master/src/test/scala/elbaulp/CategorySpec.scala][the entire code at github.]]
+** Identity Property
+#+BEGIN_SRC scala
+property("a == Id(a)") {
+  check(forAll { i:String =>
+    Category.Id(i) === i
+  })
+}
+
+property("Id∘f = f") {
+  check(forAll { i: Int =>
+    Category.Id(square(i)) === square(i)
+  })
+}
+
+property("f∘Id = f") {
+  check(forAll { i: Int =>
+    f(Category.Id(i)) === f(i)
+  })
+}
+#+END_SRC
+
+The first property states that for all =Strings= you can possibly pass to the =identity= function, the =identity= will always be the =String= the function was passed to as argument.
+
+The second and third properties states that it does not matter how you compose the =identity= function with another function =f=, it will always be that function =f=.
+
+** Associativity Property
+#+BEGIN_SRC scala
+property("Associativity: h∘(g∘f) = (h∘g)∘f = h∘g∘f"){
+  check(forAll { i: Int =>
+    Category.compose(Category.compose(f, g), h)(i) === Category.compose(f, Category.compose(g, h))(i)
+  })
+}
+#+END_SRC
+As you can see, this test states that the associative property holds.
+
+If you execute this property tests, all pass:
+
+<figure>
+        <a href="/img/category-theory-composition-test.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/category-theory-composition-test.png"
+            alt="Category theory property tests"
+            title="Category theory property tests"
+            sizes="(min-width: 397px) 397px, 100vw"
+            width="397"
+            height="105">
+          </amp-img>
+        </a>
+</figure>
+
+That's it for this first part, I hope you enjoy it, I would like to hear your opinion, /comment below!/
+
+* Resources
+- [[https://bartoszmilewski.com/2014/11/04/category-the-essence-of-composition/][Category: The Essence of Composition]]

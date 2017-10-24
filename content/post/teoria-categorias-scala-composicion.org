@@ -1,0 +1,158 @@
++++
+author = "alex"
+title = "Teoría de Categorías en Scala - Composición"
+date = "2017-10-24T18:51:32+02:00"
+categories = ["dev"]
+mainclass = "dev"
+image = "category-theory-composition.jpg"
+tags = ["scala", "teoría de categorías", "composición", "matemáticas"]
+description = "¿Qué es una categoría? En este artículo intentaré explicarlo usando scala y Tests basados en propiedades"
++++
+
+Este es el primer artículo de una serie que voy a escribir sobre *teoría de categorías*.
+
+Llevaba un tiempo queriendo aprender *teoría de categorías*, ya que he leido bastante sobre el tema y parece que tiene [[http://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/][aplicaciones en el desarrollo de software]].
+
+Esta serie de artículos se basan en gran libro que *Bartosz Milewski* escribió hace un tiempo. Para aportar mi granito de arena, he decidido implementar los ejercicios que propone usando [[/tags/scala/][scala]] y /tests basados en propiedades/ con =scalacheck=. Espero que te guste esta serie, y no dudes en comentar tu opinión o sugerir/corregir el contenido.
+
+<!--more--><!--ad-->
+
+* Categoría: La esencia de la composición
+
+Antes de continuar, ¿Qué es una /categoría?/, de [[https://es.wikipedia.org/wiki/Categor%C3%ADa_(matem%C3%A1ticas)][Wikipedia]]:
+
+#+BEGIN_QUOTE
+En teoría de categorías, una categoría es una estructura algebraica que consta de una *colección de objetos*, *conectados unos con otros mediante flechas* tales que se cumplen las siguientes propiedades básicas: las flechas se pueden componer unas con otras de manera *asociativa*, y para cada objeto existe una flecha que se comporta como un *elemento neutro bajo la composición*.
+#+END_QUOTE
+
+En resumen, una /categoría/ está formada por *objetos y flechas*, y pueden componerse. Esto se aprecia mejor con una imagen:
+
+<figure>
+        <a href="/img/category-theory-composition.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/category-theory-composition.jpg"
+            alt="Arrows and objects category Theory"
+            title="Arrows and objects category Theory"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="360">
+          </amp-img>
+        </a>
+        <figcaption>Ejemplo de Categoría</figcaption>
+</figure>
+
+Cada flecha puede *componerse*, p.e: Si =A -> B= y =B -> D= entonces debe existir una flecha de =A -> D=. Las flechas pueden llamarse *morfismos*, son *funciones*, y como tales se pueden componer. En la imagen de arriba tienes:
+
+- =f: A -> B=
+- =g: B -> D=
+- Si componemos esas dos, también tienes =h: A -> D=.
+
+La composición se lee de /derecha a izquierda/, por tanto =g∘f= quiere decir =g(f(x))=.
+
+* Propiedades de la composición
+
+1. *Asociatividad:* ~f∘(g∘h) == (f∘g)∘h == f∘g∘h~.
+2. Para cada objeto existe una *flecha unidad*, que va del objeto a sí mismo: ~f∘IDₐ = f == IDₐ∘f = f~, como muestro debajo:
+
+<figure>
+        <a href="/img/category-theory-identity.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/category-theory-identity.jpg"
+            alt="Category Theory, object identity"
+            title="Category Theory, object identity"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="360">
+          </amp-img>
+        </a>
+</figure>
+
+* Ejemplos en Scala
+
+Ahora que ya he comentado un poco de la teoría, vamos a implementarlo en *scala*. Como dije al principio, voy a usar /tests basados en propiedades/ para comprobar que el objeto creado cumple las *propiedades algebraicas* de una categoría. Estas propiedades son la *Identidad* y *asociatividad*.
+
+El código de abajo es la definición de una /categoría/, puedes consultar el código en el fichero [[https://github.com/elbaulp/Scala-Category-Theory/blob/master/src/main/scala/elbaulp/Category.scala][Category.scala de mi respositorio.]]
+
+#+BEGIN_SRC scala
+object Category {
+  def Id[T](x: T) = x
+  def compose[A, B, C](f: A => B, g: B => C): A => C =
+     f andThen g
+}
+#+END_SRC
+
+Es bastante simple, una función /identidad/ y otra función que /compone/ dos funciones. Para comprobar que cumple las propiedades, he escrito los siguientes tests.
+
+* Tests basados en propiedades
+
+Para mantener el artículo limpio, muestro solo el código necesario, puedes consultar el [[https://github.com/elbaulp/Scala-Category-Theory/blob/master/src/test/scala/elbaulp/CategorySpec.scala][código completo de los tests en github.]]
+
+** Propiedad Identidad
+
+#+BEGIN_SRC scala
+property("a == Id(a)") {
+  check(forAll { i:String =>
+    Category.Id(i) === i
+  })
+}
+
+property("Id∘f = f") {
+  check(forAll { i: Int =>
+    Category.Id(square(i)) === square(i)
+  })
+}
+
+property("f∘Id = f") {
+  check(forAll { i: Int =>
+    f(Category.Id(i)) === f(i)
+  })
+}
+#+END_SRC
+
+La primera propiedad manifiesta que para todo =String= posible que se le pase a la función =identity=, la =identidad= siempre será la cadena de texto que se le pasó a la función.
+
+La segunda y tercera propiedad indican que no importa cómo se componga la función =identidad= con otra función =f=, ya que el resultado siempre será esa función =f=.
+
+** Propiedad asociativa
+
+#+BEGIN_SRC scala
+property("Associativity: h∘(g∘f) = (h∘g)∘f = h∘g∘f"){
+  check(forAll { i: Int =>
+    Category.compose(Category.compose(f, g), h)(i) === Category.compose(f, Category.compose(g, h))(i)
+  })
+}
+#+END_SRC
+
+Como puedes ver, este test comprueba que la propiedad asociativa es cierta.
+
+Si ejecutas estos tests, verás que todos pasan:
+
+<figure>
+        <a href="/img/category-theory-composition-test.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/category-theory-composition-test.png"
+            alt="Category theory property tests"
+            title="Category theory property tests"
+            sizes="(min-width: 397px) 397px, 100vw"
+            width="397"
+            height="105">
+          </amp-img>
+        </a>
+</figure>
+
+Eso es todo para esta primera parte, espero que te haya gustado. Me gustaría saber tu opinión, /te animo a comentar abajo/.
+
+* Recursos
+- [[https://bartoszmilewski.com/2014/11/04/category-the-essence-of-composition/][Category: The Essence of Composition]]
