@@ -48,10 +48,10 @@ gulp.task('minify-html', () => {
  * Imagemin Task
  */
 gulp.task('imagemin', function() {
-  return gulp.src('static/img/**/*.{jpg,png,gif}')
-    //.pipe(newer('static/img/'))
+  return gulp.src('src/img/**/*.{jpg,png,gif}')
+    .pipe(newer('static/img/'))
     .pipe(plumber())
-    .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
+    .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true, verbose:true}))
     .pipe(gulp.dest('static/img/'));
 });
 
