@@ -4,7 +4,7 @@ categories:
 - dev
 mainclass: dev
 date: '2016-01-01'
-lastmod: 2017-10-03T14:20:28+01:00
+lastmod: 2017-10-25T12:32:53+02:00
 description: "Seguro que tú tambén escucas música mientras programas, a mi  me gusta descansar cada 30 min siguiendo la técnica pomodoro. Pero mejor hacerlo  escuchando música. Este script en python te ayudará."
 image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
 url: /generar-listas-de-reproduccion-determinada-duracion-python/
@@ -19,6 +19,10 @@ A muchos de nosotros nos gusta escuchar música mientras programamos. Hoy se me 
 Para ello he creado un pequeño script en python que genera automáticamente las listas de reproducción dado un directorio con ficheros mp3 o mp4 y una duración en minutos.
 
 <!--more--><!--ad-->
+
+# CHANGELOG
+
+- **24/10/2017**: Gracias a [leotok](https://github.com/elbaulp/genPlaylistByName/pull/4) ahora el programa soporta escanear carpetas de forma recursiva.
 
 # Requisitos
 
@@ -50,6 +54,7 @@ from mutagen.mp3 import MP3
 from mutagen.mp4 import MP4
 from mutagen.flac import FLAC
 
+from collections import deque
 from os.path import os, basename
 from sys import argv
 from random import shuffle
@@ -76,9 +81,15 @@ def main():
     too_long_items = []
     all_items = []
 
-    for music_file in os.listdir(directory):
-        if fnmatch.fnmatch(music_file, '*.mp[43]') or fnmatch.fnmatch(music_file, '*.flac'):
-            all_items.append(directory + music_file)
+    dir_queue = deque([directory])
+    while len(dir_queue) != 0:
+        cur_directory = dir_queue.popleft()
+        for node in os.listdir(cur_directory):
+            node = os.path.join(cur_directory, node)
+            if os.path.isdir(node):
+                dir_queue.append(node)
+            elif fnmatch.fnmatch(node, '*.mp[43]') or fnmatch.fnmatch(node, '*.flac'):
+                all_items.append(node)
 
     shuffle(all_items)
 
@@ -97,7 +108,7 @@ def main():
                 file_length = music_file.info.length
                 if file_length > length:
                     too_long_items.append(item)
-                    print 'File %s exceed the given length (%s min)' % (item, file_length/60)
+                    print("File %s exceed the given length (%s min)" % (item, file_length/60))
                 else:
                     curr_length += file_length
                     curr_items.append(item+'\n')
@@ -106,9 +117,9 @@ def main():
         create_playlist(path, playlist_basename, curr_items)
 
     if too_long_items:
-        print '\nThis files exceeded the given length and were not added to any playlist...\n'
+        print("\nThis files exceeded the given length and were not added to any playlist...\n")
         for i in too_long_items:
-            print basename(i)
+            print(basename(i))
 
 def create_playlist(path, playlist_basename, curr_items):
     global playlist_number, curr_length
@@ -116,15 +127,15 @@ def create_playlist(path, playlist_basename, curr_items):
     playlist_file = open(name, 'w')
     playlist_file.writelines(curr_items)
     playlist_file.close()
-    print 'Playlist generated, name: ', name , ' length ', curr_length/60 , 'min'
+    print('Playlist generated, name: ', name , ' length ', curr_length/60 , 'min')
     playlist_number += 1
     curr_length = 0
     del curr_items[:]
 
 def handleException(e):
-    print type(e)     # the exception instance
-    print e.args      # arguments stored in .args
-    print e           # __str__ allows args to printed directly
+    print(type(e))     # the exception instance
+    print(e.args)      # arguments stored in .args
+    print(e)           # __str__ allows args to printed directly
 
 if __name__ == '__main__':
     main()
