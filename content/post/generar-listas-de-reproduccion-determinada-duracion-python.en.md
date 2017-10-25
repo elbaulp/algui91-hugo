@@ -6,12 +6,16 @@ mainclass: dev
 description: "Sure you too listen to music when programming, I like to take a rest every 30 minutes following the Pomodoro Technique. But personaly I like to listen to music while programming, so I wrote a Python script to generate playlist 30 minutes lenght."
 image: Generar-listas-de-reproduccion-de-una-determinada-duracion-con-Python.png
 date: 2017-02-03
-lastmod: 2017-10-03T14:19:59+01:00
+lastmod: 2017-10-25T12:32:22+02:00
 tags:
 - python
 - parser
 title: "Create music playlists with a given length"
 ---
+
+# CHANGELOG
+
+- **10/25/2017**: Thanks to [leotok](https://github.com/elbaulp/genPlaylistByName/pull/4) the program is now able to inspect folders recursively.
 
 Many of us like to listen to music while programming. Today I thought that it would be nice if I could create a playlist with a fixed length I can choose.
 
@@ -32,16 +36,6 @@ Once installed, we can execute the script, here is the code:
 ```python
 #!/usr/bin/env python
 
-'''
-Created on Apr 4, 2014
-
-@author: Alejandro Alcalde
-
-Licensed under GPLv3
-
-More info: http://wp.me/p2kdv9-Bq
-'''
-
 import argparse
 import fnmatch
 
@@ -49,6 +43,7 @@ from mutagen.mp3 import MP3
 from mutagen.mp4 import MP4
 from mutagen.flac import FLAC
 
+from collections import deque
 from os.path import os, basename
 from sys import argv
 from random import shuffle
@@ -75,9 +70,15 @@ def main():
     too_long_items = []
     all_items = []
 
-    for music_file in os.listdir(directory):
-        if fnmatch.fnmatch(music_file, '*.mp[43]') or fnmatch.fnmatch(music_file, '*.flac'):
-            all_items.append(directory + music_file)
+    dir_queue = deque([directory])
+    while len(dir_queue) != 0:
+        cur_directory = dir_queue.popleft()
+        for node in os.listdir(cur_directory):
+            node = os.path.join(cur_directory, node)
+            if os.path.isdir(node):
+                dir_queue.append(node)
+            elif fnmatch.fnmatch(node, '*.mp[43]') or fnmatch.fnmatch(node, '*.flac'):
+                all_items.append(node)
 
     shuffle(all_items)
 
@@ -96,7 +97,7 @@ def main():
                 file_length = music_file.info.length
                 if file_length > length:
                     too_long_items.append(item)
-                    print 'File %s exceed the given length (%s min)' % (item, file_length/60)
+                    print("File %s exceed the given length (%s min)" % (item, file_length/60))
                 else:
                     curr_length += file_length
                     curr_items.append(item+'\n')
@@ -105,9 +106,9 @@ def main():
         create_playlist(path, playlist_basename, curr_items)
 
     if too_long_items:
-        print '\nThis files exceeded the given length and were not added to any playlist...\n'
+        print("\nThis files exceeded the given length and were not added to any playlist...\n")
         for i in too_long_items:
-            print basename(i)
+            print(basename(i))
 
 def create_playlist(path, playlist_basename, curr_items):
     global playlist_number, curr_length
@@ -115,15 +116,15 @@ def create_playlist(path, playlist_basename, curr_items):
     playlist_file = open(name, 'w')
     playlist_file.writelines(curr_items)
     playlist_file.close()
-    print 'Playlist generated, name: ', name , ' length ', curr_length/60 , 'min'
+    print('Playlist generated, name: ', name , ' length ', curr_length/60 , 'min')
     playlist_number += 1
     curr_length = 0
     del curr_items[:]
 
 def handleException(e):
-    print type(e)     # the exception instance
-    print e.args      # arguments stored in .args
-    print e           # __str__ allows args to printed directly
+    print(type(e))     # the exception instance
+    print(e.args)      # arguments stored in .args
+    print(e)           # __str__ allows args to printed directly
 
 if __name__ == '__main__':
     main()
@@ -182,10 +183,6 @@ Playlist generated, name:  ./playlists/genPlayListByLength.py20_32.m3u  length  
 ```
 
 The script will create as many playlists of the given length as it can, 32 above.
-
-# Improvements
-
-It took me half an hour to write the script, so it can greatly be improved. Right now it only looks music files in the current directory, not recursively.
 
 # Contribute
 
