@@ -18,15 +18,15 @@ Before going straight to cryptography, it is necessary to have clear a few mathe
 
 First, I am going to talk about *modular arithmetic*, also known as *clock arithmetic*, which is defined as:
 
-\[a \equiv b\pmod n\]
+\[a \equiv b\pmod n,\]
 
-If \(b - a\) is multiple of \(n\), in other words, \(a\) and \(b\) have the same remainder when divided by \(n\).
+if \(b - a\) is multiple of \(n\), in other words, \(a\) and \(b\) have the same remainder when divided by \(n\).
 
-For example, \(3\equiv 8\pmod 5\), because 8 - 3 = 5, which is a 5 multiple. Another way would be knowing that both remainders of \(\frac{3}{5}\) and \(\frac{8}{5}\) are 3. From now on, I'll write the remainder of a number like this:
+For example, \(3\equiv 8\pmod 5\), because \(8 - 3 = 5\), which is a 5 multiple. Another way would be knowing that both remainders of 3 divided by 5 and 8 divided by 5 are 3. From now on, I'll write the remainder of a number like this:
 
-\[a\bmod n = r\]
+\[a\bmod n = r,\]
 
-where \(r\) the remainder of \(\frac{a}{n}\).
+where \(r\) is the remainder of \(a\) divided by \(n\).
 
 <figure>
         <a href="/img/crypto-101.jpg">
@@ -45,27 +45,27 @@ where \(r\) the remainder of \(\frac{a}{n}\).
         </a>
 </figure>
 
-** Computing modular Inverses
-Given \(a \in Z_n\), \(a\) has inverse (also called unit), if \(\exists b \in Z_n\ :\ ba = 1\), and its written \(a^{-1}\).
+** Computing modular inverses
+Given \(a \in \mathbb Z_n\), \(a\) has inverse (also called unit) if \(\exists b \in \mathbb Z_n\ :\ ba = 1\), and its written \(a^{-1}\).
 
-The set of all \(Z_n\) units its called \(\mathcal{U}(Z_n)\) and is defined as:
+The set of all \(\mathbb Z_n\) units is called \(\mathcal{U}(\mathbb Z_n)\) and is defined as:
 
-\[\mathcal{U}(Z_n) = \{ a \in Z_n : \exists a^{-1}\} = \{ a \in Z_n : gcd(a, n) = 1\}\]
+\[\mathcal{U}(\mathbb Z_n) = \{ a \in \mathbb Z_n : \exists a^{-1}\} = \{ a \in \mathbb Z_n : gcd(a, n) = 1\},\]
 
 where *gcd* is /Greatest Common Divisor/.
 
-If \(p\) *is prime*, every element in \(Z_n\) but zero has inverse, therefore, \(Z_p\) is a *field*. Cryptography works with fields \(Z_p\) where \(p\) is prime.
+If \(p\) *is prime*, every element in \(\mathbb Z_p\) but zero has inverse, therefore, \(\mathbb Z_p\) is a *field*. Cryptography works with fields \(\mathbb Z_p\) where \(p\) is prime.
 
-The number of units in \(Z_n\) can be computed with *Euler's function* \(\phi(n)\):
+The number of units in \(\mathbb Z_n\) can be computed with *Euler's function* \(\phi(n)\):
 
 - If \(p\) *is prime* \(\phi(p) = p - 1\), because all its elements but zero are units.
 - Given two integers a,b: \( \phi(ab) = \phi(a)\phi(b)\ \text{iff}\ gcd(a, b) = 1\).
-- Given \(p\) prime: \(\phi(p^n) = p^n - p^{n-1}\)
+- Given \(p\) prime: \(\phi(p^n) = p^n - p^{n-1}\).
 
 ** Practical example
-Lets see *an example*. \(\#\mathcal{U}(Z_5) = 4\), because all its elements have inverse (1,2,3,4), and \(\phi(5) = 4\), therefore \(Z_5\) *is a field*. However, \(\#\mathcal{U}(Z_{15}) = 8\), because \(\phi(15) = \phi(3)\phi(5) = 2\cdot 4 = 8\). The units of \(Z_{15}\) are 1,2,4,7,8,11,13,14.
+Lets see *an example*. \(\#\mathcal{U}(\mathbb Z_5) = 4\), because all its elements have inverse (1,2,3,4), and \(\phi(5) = 4\), therefore \(\mathbb Z_5\) *is a field*. However, \(\#\mathcal{U}(\mathbb Z_{15}) = 8\), because \(\phi(15) = \phi(3)\phi(5) = 2\cdot 4 = 8\). The units of \(\mathbb Z_{15}\) are 1,2,4,7,8,11,13,14.
 
-The code below uses the /Euclidean algorithm/ to compute the inverse of a number in \(Z_n\). This [[/en/tags/python/][python code]] is [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej1.py][on my github]]:
+The code below uses the /Euclidean algorithm/ to compute the inverse of a number in \(\mathbb Z_n\). This [[/en/tags/python/][python code]] is [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej1.py][on my github]]:
 
 #+BEGIN_SRC python
   def extGcd(a,b):
@@ -100,7 +100,7 @@ The code below uses the /Euclidean algorithm/ to compute the inverse of a number
       return map(int, (a, x2, y2))
 #+END_SRC
 
-This algorithm return a tuple =(d, x, y)=, where =d= is =gcd(a,b)= and =x= is =a mod b= inverse. For example, =gcd(2, 5)=, will return =[1, -2, 1]=, where 1 is =gcd(2, 5)=, and -2 its inverse, if you want a positive number, just sum 5 to -2, which is 3, therefore 2 mod 5 inverse is 3, because 2*3 = 6, and 6 mod 5 = 1.
+This algorithm returns a tuple =(d, x, y)=, where =d= is =gcd(a,b)= and =x= is =a mod b= inverse. For example, =gcd(2, 5)=, will return =[1, -2, 1]=, where 1 is =gcd(2, 5)=, and \(-2\) its inverse, if you want a positive number, just sum 5 to \(-2\), which is 3, therefore 2 mod 5 inverse is 3, because \(2 \cdot 3 = 6\), and 6 mod 5 = 1.
 
 In order to make the task of computing a number's inverse, I've created the method bellow, the code is also available at my [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej2.py][github]]:
 
@@ -115,7 +115,11 @@ def moduloInverse(a,n):
         return x % n
 #+END_SRC
 
-Execute it with the same numbers as before, 2 and 5, it'll return \(2^{-1}\), that is, 3.
+Execute it with the same numbers as before, 2 and 5, and it'll return \(2^{-1},\) that is, 3.
+
+* Aknowledgements
+
+I'd like to thank [[https://github.com/josealberto4444/][josealberto4444]] for helping me with some corrections.
 
 * References
 
