@@ -1,13 +1,12 @@
 +++
 author = "alex"
 title = "Cryptography 101: Mathematical basis (I)"
-date = "2017-10-23T08:00:54+02:00"
+date = "2017-10-28T11:23:55+02:00"
 categories = ["security", "cryptography"]
-mainclass = "articulos"
+mainclass = "security"
 image = "crypto-101.jpg"
 tags = ["modular arithmetic", "mathematics", "python"]
 description = "First post on Cryptography basis, this series is inspired by a course on cryptography I took at my University"
-draft = true
 math = true
 url = "/en/cryptography-101-math-basis-i/"
 +++

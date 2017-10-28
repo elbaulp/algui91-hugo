@@ -1,13 +1,12 @@
 +++
 author = "alex"
 title = "Criptografía 101: Fundamentos matemáticos (I)"
-date = "2017-10-23T08:00:54+02:00"
+date = "2017-10-28T11:23:44+02:00"
 categories = ["seguridad", "criptografía"]
-mainclass = "articulos"
+mainclass = "seguridad"
 image = "crypto-101.jpg"
 tags = ["aritmética modular", "matemáticas", "python"]
 description = "Primer artículo de introducción a la criptografía, esta serie está inspirada por una asignatura que cursé en mi facultad."
-draft = true
 math = true
 +++
 
