@@ -17,15 +17,15 @@ Antes de profundizar en los temas sobre criptografía, es necesario tener una ba
 
 Nos centraremos en la aritmética modular, y cómo operar con ella. La aritmética modular se define del siguiente modo:
 
-\[a \equiv b\pmod n\]
+\[a \equiv b\pmod n,\]
 
-si \(b - a\) es múltiplo de \(n\), o dicho de otro modo, \(a\) y \(b\) tienen el mismo resto cuando se dividen por \(n\).
+si \(b - a\) es múltiplo de \(n\) o, dicho de otro modo, \(a\) y \(b\) tienen el mismo resto cuando se dividen por \(n\).
 
-Así, por ejemplo, \(3\equiv 8\pmod 5\), ya que 8 - 3 = 5, que es un multiplo de 5. También podemos comprobarlo sabiendo que el resto de dividir \(\frac{3}{5} = 3\) y el resto de \(\frac{8}{5} = 3\). A partir de ahora expresaremos el resto de un número como sigue:
+Así, por ejemplo, \(3 \equiv 8 \pmod 5\), ya que \(8 - 3 = 5\), que es un multiplo de 5. También podemos comprobarlo sabiendo que el resto de dividir 3 entre 5 es 3 y el resto de 8 entre 5, también. A partir de ahora expresaremos el resto de dividir un número entre otro como sigue:
 
-\[a\bmod n = r\]
+\[a\bmod n = r,\]
 
-donde \(r\) es el resto de dividir \(\frac{a}{n}\).
+donde \(r\) es el resto de dividir \(a\) entre \(n\).
 
 <figure>
         <a href="/img/crypto-101.jpg">
@@ -46,26 +46,26 @@ donde \(r\) es el resto de dividir \(\frac{a}{n}\).
 
 ** Cálculo de inversos
 
-Sea \(a \in Z_n\), se dice que \(a\) tiene inverso, o que es una unidad, si \(\exists b \in Z_n\ :\ ba = 1\), y se denota por \(a^{-1}\).
+Sea \(a \in \mathbb Z_n\), se dice que \(a\) tiene inverso, o que es una unidad, si \(\exists b \in \mathbb Z_n\ :\ ba = 1\), y se denota por \(a^{-1}\).
 
-Al conjunto de todas las unidades de \(Z_n\) lo llamaremos \(\mathcal{U}(Z_n)\) y se define como:
+Al conjunto de todas las unidades de \(\mathbb Z_n\) lo llamaremos \(\mathcal{U}(\mathbb Z_n)\) y se define como:
 
-\[\mathcal{U}(Z_n) = \{ a \in Z_n : \exists a^{-1}\} = \{ a \in Z_n : gcd(a, n) = 1\}\]
+\[\mathcal{U}(\mathbb Z_n) = \{ a \in \mathbb Z_n : \exists a^{-1}\} = \{ a \in \mathbb Z_n : gcd(a, n) = 1\},\]
 
 donde /gcd/ es el máximo común divisor.
 
-Particularmente, si \(p\) es un número primo, todo elemento de \(Z_n\), salvo el cero, tiene inverso, y por tanto \(Z_p\) es un cuerpo. En criptografía, trabajaremos en cuerpos \(Z_p\) con un \(p\) primo.
+Particularmente, si \(p\) es un número primo, todo elemento de \(\mathbb Z_p\), salvo el cero, tiene inverso, y por tanto \(\mathbb Z_p\) es un cuerpo. En criptografía, trabajaremos en cuerpos \(\mathbb Z_p\) con un \(p\) primo.
 
-El número de unidades de \(Z_n\), se puede calcular con la función de Euler \(\phi(n)\), y vale lo siguiente:
+El número de unidades de \(\mathbb Z_n\), se puede calcular con la función de Euler \(\phi(n)\), y vale lo siguiente:
 
 -  Si \(p\) es un número primo, \(\phi(p) = p - 1\), ya que todos los elementos salvo el 0, son unidades.
--  Sean a, b, dos números enteros \( \phi(ab) = \phi(a)\phi(b)\ sii\ gcd(a, b) = 1\)
--  Sea \(p\) un primo, \(\phi(p^n) = p^n - p^{n-1}\)
+-  Sean a, b, dos números enteros \( \phi(ab) = \phi(a)\phi(b)\ sii\ gcd(a, b) = 1\).
+-  Sea \(p\) un primo, \(\phi(p^n) = p^n - p^{n-1}\).
 
-Por ejemplo, \(\#\mathcal{U}(Z_5) = 4\), ya que todos sus elementos tienen inverso (el 1,2,3,4), y \(\phi(5) = 4\), y por tanto, \(Z_5\) es un cuerpo. Sin embargo, \(\#\mathcal{U}(Z_{15}) = 8\), ya que \(\phi(15) = \phi(3)\phi(5) = 2\cdot 4 = 8\). Las unidades de \(Z_{15}\) son 1,2,4,7,8,11,13,14.
+Por ejemplo, \(\#\mathcal{U}(\mathbb Z_5) = 4\), ya que todos sus elementos tienen inverso (el 1,2,3,4), y \(\phi(5) = 4\), y por tanto, \(\mathbb Z_5\) es un cuerpo. Sin embargo, \(\#\mathcal{U}(\mathbb Z_{15}) = 8\), ya que \(\phi(15) = \phi(3)\phi(5) = 2\cdot 4 = 8\). Las unidades de \(\mathbb Z_{15}\) son 1,2,4,7,8,11,13,14.
 
 ** Un ejemplo práctico
-Veamos ahora cómo calcular el inverso de un número en \(Z_n\) mediante el algoritmo Extendido de Euclides implementado en [[/tags/python/][python]], el código fuente está disponible en [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej1.py][github]]:
+Veamos ahora cómo calcular el inverso de un número en \(\mathbb Z_n\) mediante el algoritmo Extendido de Euclides implementado en [[/tags/python/][python]], el código fuente está disponible en [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej1.py][github]]:
 
 #+BEGIN_SRC python
 def extGcd(a,b):
@@ -100,7 +100,7 @@ def extGcd(a,b):
     return map(int, (a, x2, y2))
 #+END_SRC
 
-Este algoritmo, devuelve una tupla =(d, x, y)=, donde =d= es el máximo común divisor de los números =a,b= y =x= es el inverso de =a= mod =b=.  Por ejemplo, si ejecutamos =gcd(2, 5)=, nos devolverá =[1, -2, 1]=, donde 1 es el =gcd(2, 5)=, y -2 su inverso, si lo queremos en positivo, basta con sumar 5 a -2 = 3, luego el inverso de 2 mod 5 es 3, ya que 2*3 = 6, y 6 mod 5 = 1.
+Este algoritmo, devuelve una tupla =(d, x, y)=, donde =d= es el máximo común divisor de los números =a,b= y =x= es el inverso de =a= mod =b=.  Por ejemplo, si ejecutamos =gcd(2, 5)=, nos devolverá =[1, -2, 1]=, donde 1 es el =gcd(2, 5)=, y \(-2\) su inverso, si lo queremos en positivo, basta con sumar 5 a \(-2\), que es 3, luego el inverso de 2 mod 5 es 3, ya que \(2 \cdot 3 = 6\), y 6 mod 5 = 1.
 
 Para facilitar la tarea de calcular el inverso de un número, definiremos el siguiente método, el código fuente está disponible en [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej2.py][github]]:
 
@@ -116,6 +116,10 @@ def moduloInverse(a,n):
 #+END_SRC
 
 Si lo ejecutamos con los mismos números de antes, 2 y 5, nos devolverá \(2^{-1}\), es decir, 3.
+
+* Agradecimientos
+
+Gracias a [[https://github.com/josealberto4444/][josealberto4444]] por ayudarme con correcciones.
 
 * Referencias
 
