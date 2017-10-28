@@ -1,0 +1,130 @@
++++
+author = "alex"
+title = "Cryptography 101: Mathematical basis (I)"
+date = "2017-10-23T08:00:54+02:00"
+categories = ["security", "cryptography"]
+mainclass = "articulos"
+image = "crypto-101.jpg"
+tags = ["modular arithmetic", "mathematics", "python"]
+description = "First post on Cryptography basis, this series is inspired by a course on cryptography I took at my University"
+draft = true
+math = true
+url = "/en/cryptography-101-math-basis-i/"
++++
+
+* Modular Aritmethic
+
+Before going straight to cryptography, it is necessary to have clear a few mathematical concepts, as cryptography in based on them.
+
+First, I am going to talk about *modular arithmetic*, also known as *clock arithmetic*, which is defined as:
+
+\[a \equiv b\pmod n,\]
+
+if \(b - a\) is multiple of \(n\), in other words, \(a\) and \(b\) have the same remainder when divided by \(n\).
+
+For example, \(3\equiv 8\pmod 5\), because \(8 - 3 = 5\), which is a 5 multiple. Another way would be knowing that both remainders of 3 divided by 5 and 8 divided by 5 are 3. From now on, I'll write the remainder of a number like this:
+
+\[a\bmod n = r,\]
+
+where \(r\) is the remainder of \(a\) divided by \(n\).
+
+<figure>
+        <a href="/img/crypto-101.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/crypto-101.jpg"
+            alt="Modular Arithmetics"
+            title="Modular Arithmetics"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="360">
+          </amp-img>
+        </a>
+</figure>
+
+** Computing modular inverses
+Given \(a \in \mathbb Z_n\), \(a\) has inverse (also called unit) if \(\exists b \in \mathbb Z_n\ :\ ba = 1\), and its written \(a^{-1}\).
+
+The set of all \(\mathbb Z_n\) units is called \(\mathcal{U}(\mathbb Z_n)\) and is defined as:
+
+\[\mathcal{U}(\mathbb Z_n) = \{ a \in \mathbb Z_n : \exists a^{-1}\} = \{ a \in \mathbb Z_n : gcd(a, n) = 1\},\]
+
+where *gcd* is /Greatest Common Divisor/.
+
+If \(p\) *is prime*, every element in \(\mathbb Z_p\) but zero has inverse, therefore, \(\mathbb Z_p\) is a *field*. Cryptography works with fields \(\mathbb Z_p\) where \(p\) is prime.
+
+The number of units in \(\mathbb Z_n\) can be computed with *Euler's function* \(\phi(n)\):
+
+- If \(p\) *is prime* \(\phi(p) = p - 1\), because all its elements but zero are units.
+- Given two integers a,b: \( \phi(ab) = \phi(a)\phi(b)\ \text{iff}\ gcd(a, b) = 1\).
+- Given \(p\) prime: \(\phi(p^n) = p^n - p^{n-1}\).
+
+** Practical example
+Lets see *an example*. \(\#\mathcal{U}(\mathbb Z_5) = 4\), because all its elements have inverse (1,2,3,4), and \(\phi(5) = 4\), therefore \(\mathbb Z_5\) *is a field*. However, \(\#\mathcal{U}(\mathbb Z_{15}) = 8\), because \(\phi(15) = \phi(3)\phi(5) = 2\cdot 4 = 8\). The units of \(\mathbb Z_{15}\) are 1,2,4,7,8,11,13,14.
+
+The code below uses the /Euclidean algorithm/ to compute the inverse of a number in \(\mathbb Z_n\). This [[/en/tags/python/][python code]] is [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej1.py][on my github]]:
+
+#+BEGIN_SRC python
+  def extGcd(a,b):
+      """
+      Compute the Greatest Common Divisor d of a and b, and integers x and
+      y satisfying ax + by = d.
+
+      :returns: a tuple (d,x,y)
+      """
+
+      if b == 0:
+          return a,1,0
+      x2 = 1
+      x1 = 0
+      y2 = 0
+      y1 = 1
+
+      while b != 0:
+          q = a//b
+          r = a - q * b
+          x = x2 - q * x1
+          y = y2 - q * y1
+          a = b
+          b = r
+          x2 = x1
+          x1 = x
+          y2 = y1
+          y1 = y
+
+      if a < 0:
+          return map(int, (-a, -x2, -y2))
+      return map(int, (a, x2, y2))
+#+END_SRC
+
+This algorithm returns a tuple =(d, x, y)=, where =d= is =gcd(a,b)= and =x= is =a mod b= inverse. For example, =gcd(2, 5)=, will return =[1, -2, 1]=, where 1 is =gcd(2, 5)=, and \(-2\) its inverse, if you want a positive number, just sum 5 to \(-2\), which is 3, therefore 2 mod 5 inverse is 3, because \(2 \cdot 3 = 6\), and 6 mod 5 = 1.
+
+In order to make the task of computing a number's inverse, I've created the method bellow, the code is also available at my [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej2.py][github]]:
+
+#+BEGIN_SRC python
+def moduloInverse(a,n):
+    """:returns: the inverse of a modulo b, if it exists"""
+    d,x,y = extGcd(a,n)
+
+    if d > 1:
+        return u' a inverse does not exist'
+    else:
+        return x % n
+#+END_SRC
+
+Execute it with the same numbers as before, 2 and 5, and it'll return \(2^{-1},\) that is, 3.
+
+* Aknowledgements
+
+I'd like to thank [[https://github.com/josealberto4444/][josealberto4444]] for helping me with some corrections.
+
+* References
+
+{{< importPartial "structure/_cript_footer.html" >}}
+
+* More resources
+
+- [[https://en.wikipedia.org/wiki/Modular_arithmetic][Modular Arithmetic | wikipedia.org]]
