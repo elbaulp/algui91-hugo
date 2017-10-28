@@ -18,52 +18,65 @@ defaultContentLanguageInSubdir = false
 EnableMissingTranslationPlaceholders = true
 
 [[menu.main]]
-   name =  "Categorías"
-   url  = "/categories/"
-[[menu.main]]    
-   name =  "Tags"
-   url  =  "/tags/"
+   name   =  "Categorías"
+   url    = "/categories/"
+   weight = 1
 [[menu.main]]
-   name =  "Cursos"
-   url  =  "/cursos/"
+   name   =  "Tags"
+   url    =  "/tags/"
+   weight = 2
 [[menu.main]]
-   name =  "Manuales"
-   url  =  "/manuales-gratuitos/"
+   name   =  "Cursos"
+   url    =  "/cursos/"
+   weight = 3
 [[menu.main]]
-   name =  "Security Now!"
-   url  =  "/categories/security-now/"
+   name   =  "Manuales"
+   url    =  "/manuales-gratuitos/"
+   weight = 4
 [[menu.main]]
-   name =  "Apoyanos"
-   url  =  "/apoyanos/"
+   name   =  "Security Now!"
+   url    =  "/categories/security-now/"
+   weight = 5
 [[menu.main]]
-   name =  "Contacto"
-   url  =  "/contacto/"
+   name   =  "Libros"
+   url    = "/libros-recomendados/"
+   weight = 6
 [[menu.main]]
-   name =  "Libros"
-   url  = "/libros-recomendados/"
-
+   name   =  "Apoyanos"
+   url    =  "/apoyanos/"
+   weight = 7
+[[menu.main]]
+   name   =  "Contacto"
+   url    =  "/contacto/"
+   weight = 8
 [Languages]
 [Languages.en]
    title = "The Programmer's Chest"
    description = "A blog where I post everything I learn. I’m interested in Cryptography, Security, Machine Learning, Data Science and Software Development."
 [[Languages.en.menu.main]]
-   name =  "Categories"
-   url  = "/categories/"
-[[Languages.en.menu.main]]    
-   name =  "Tags"
-   url  =  "/tags/"
+   name   =  "Categories"
+   url    = "/categories/"
+   weight = 1
 [[Languages.en.menu.main]]
-   name =  "Tutorials"
-   url  =  "/manuales-gratuitos/"
+   name   =  "Tags"
+   url    =  "/tags/"
+   weight = 2
 [[Languages.en.menu.main]]
-   name =  "Support us"
-   url  =  "/apoyanos/"
+   name   =  "Tutorials"
+   url    =  "/manuales-gratuitos/"
+   weight = 3
 [[Languages.en.menu.main]]
-   name =  "Contact"
-   url  =  "/contacto/"
+   name   = "Books"
+   url    = "/recommended-books/"
+   weight = 4
 [[Languages.en.menu.main]]
-   name = "Books"
-   url  = "/recommended-books/"
+   name   =  "Support us"
+   url    =  "/apoyanos/"
+   weight = 5
+[[Languages.en.menu.main]]
+   name   =  "Contact"
+   url    =  "/contacto/"
+   weight = 6
 [Languages.es]
    title = "El Baúl del programador"
 
