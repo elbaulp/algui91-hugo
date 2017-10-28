@@ -1,0 +1,129 @@
++++
+author = "alex"
+title = "Criptografía 101: Fundamentos matemáticos (I)"
+date = "2017-10-28T11:23:44+02:00"
+categories = ["seguridad", "criptografía"]
+mainclass = "seguridad"
+image = "crypto-101.jpg"
+tags = ["aritmética modular", "matemáticas", "python"]
+description = "Primer artículo de introducción a la criptografía, esta serie está inspirada por una asignatura que cursé en mi facultad."
+math = true
++++
+
+* Aritmética modular
+
+Antes de profundizar en los temas sobre criptografía, es necesario tener una base matemática, ya que al fin y al cabo, la criptografía se basa en ellas.
+
+Nos centraremos en la aritmética modular, y cómo operar con ella. La aritmética modular se define del siguiente modo:
+
+\[a \equiv b\pmod n,\]
+
+si \(b - a\) es múltiplo de \(n\) o, dicho de otro modo, \(a\) y \(b\) tienen el mismo resto cuando se dividen por \(n\).
+
+Así, por ejemplo, \(3 \equiv 8 \pmod 5\), ya que \(8 - 3 = 5\), que es un multiplo de 5. También podemos comprobarlo sabiendo que el resto de dividir 3 entre 5 es 3 y el resto de 8 entre 5, también. A partir de ahora expresaremos el resto de dividir un número entre otro como sigue:
+
+\[a\bmod n = r,\]
+
+donde \(r\) es el resto de dividir \(a\) entre \(n\).
+
+<figure>
+        <a href="/img/crypto-101.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/crypto-101.jpg"
+            alt="Modular Arithmetics"
+            title="Modular Arithmetics"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="360">
+          </amp-img>
+        </a>
+</figure>
+
+** Cálculo de inversos
+
+Sea \(a \in \mathbb Z_n\), se dice que \(a\) tiene inverso, o que es una unidad, si \(\exists b \in \mathbb Z_n\ :\ ba = 1\), y se denota por \(a^{-1}\).
+
+Al conjunto de todas las unidades de \(\mathbb Z_n\) lo llamaremos \(\mathcal{U}(\mathbb Z_n)\) y se define como:
+
+\[\mathcal{U}(\mathbb Z_n) = \{ a \in \mathbb Z_n : \exists a^{-1}\} = \{ a \in \mathbb Z_n : gcd(a, n) = 1\},\]
+
+donde /gcd/ es el máximo común divisor.
+
+Particularmente, si \(p\) es un número primo, todo elemento de \(\mathbb Z_p\), salvo el cero, tiene inverso, y por tanto \(\mathbb Z_p\) es un cuerpo. En criptografía, trabajaremos en cuerpos \(\mathbb Z_p\) con un \(p\) primo.
+
+El número de unidades de \(\mathbb Z_n\), se puede calcular con la función de Euler \(\phi(n)\), y vale lo siguiente:
+
+-  Si \(p\) es un número primo, \(\phi(p) = p - 1\), ya que todos los elementos salvo el 0, son unidades.
+-  Sean a, b, dos números enteros \( \phi(ab) = \phi(a)\phi(b)\ sii\ gcd(a, b) = 1\).
+-  Sea \(p\) un primo, \(\phi(p^n) = p^n - p^{n-1}\).
+
+Por ejemplo, \(\#\mathcal{U}(\mathbb Z_5) = 4\), ya que todos sus elementos tienen inverso (el 1,2,3,4), y \(\phi(5) = 4\), y por tanto, \(\mathbb Z_5\) es un cuerpo. Sin embargo, \(\#\mathcal{U}(\mathbb Z_{15}) = 8\), ya que \(\phi(15) = \phi(3)\phi(5) = 2\cdot 4 = 8\). Las unidades de \(\mathbb Z_{15}\) son 1,2,4,7,8,11,13,14.
+
+** Un ejemplo práctico
+Veamos ahora cómo calcular el inverso de un número en \(\mathbb Z_n\) mediante el algoritmo Extendido de Euclides implementado en [[/tags/python/][python]], el código fuente está disponible en [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej1.py][github]]:
+
+#+BEGIN_SRC python
+def extGcd(a,b):
+    """
+    Compute the Greatest Common Divisor d of a and b, and integers x and
+    y satisfying ax + by = d.
+
+    :returns: a tuple (d,x,y)
+    """
+
+    if b == 0:
+        return a,1,0
+    x2 = 1
+    x1 = 0
+    y2 = 0
+    y1 = 1
+
+    while b != 0:
+        q = a//b
+        r = a - q * b
+        x = x2 - q * x1
+        y = y2 - q * y1
+        a = b
+        b = r
+        x2 = x1
+        x1 = x
+        y2 = y1
+        y1 = y
+
+    if a < 0:
+        return map(int, (-a, -x2, -y2))
+    return map(int, (a, x2, y2))
+#+END_SRC
+
+Este algoritmo, devuelve una tupla =(d, x, y)=, donde =d= es el máximo común divisor de los números =a,b= y =x= es el inverso de =a= mod =b=.  Por ejemplo, si ejecutamos =gcd(2, 5)=, nos devolverá =[1, -2, 1]=, donde 1 es el =gcd(2, 5)=, y \(-2\) su inverso, si lo queremos en positivo, basta con sumar 5 a \(-2\), que es 3, luego el inverso de 2 mod 5 es 3, ya que \(2 \cdot 3 = 6\), y 6 mod 5 = 1.
+
+Para facilitar la tarea de calcular el inverso de un número, definiremos el siguiente método, el código fuente está disponible en [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej2.py][github]]:
+
+#+BEGIN_SRC python
+def moduloInverse(a,n):
+    """:returns: the inverse of a modulo b, if it exists"""
+    d,x,y = extGcd(a,n)
+
+    if d > 1:
+        return u' a inverse does not exist'
+    else:
+        return x % n
+#+END_SRC
+
+Si lo ejecutamos con los mismos números de antes, 2 y 5, nos devolverá \(2^{-1}\), es decir, 3.
+
+* Agradecimientos
+
+Gracias a [[https://github.com/josealberto4444/][josealberto4444]] por ayudarme con correcciones.
+
+* Referencias
+
+{{< importPartial "structure/_cript_footer.html" >}}
+
+* Más información
+
+- [[https://es.wikipedia.org/wiki/Aritm%25C3%25A9tica_modular][Aritmética modular | wikipedia.org]]
