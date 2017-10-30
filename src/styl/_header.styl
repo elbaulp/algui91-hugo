@@ -24,6 +24,9 @@ $bg
     color main
     text-decoration none
     font-size rem(28px)
+    &:before
+      content url('/img/logo.png')
+      vertical-align middle
     &:after
       transition all .4s
       content '{{ T "short_title" }}'
@@ -31,8 +34,6 @@ $bg
         content '{{ T "title" }}'
   a
     text-decoration none
-  .logo svg
-    vertical-align middle
 
 // Header Post
 .header-post

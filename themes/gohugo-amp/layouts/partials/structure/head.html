@@ -1,10 +1,10 @@
 {{ if ne .Params.amp.enable false }}
 
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html {{ if isset $.Site.Params "amp" }}amp{{ end }} lang="en" class="no-js oldie"><![endif]-->
-<!--[if IE 8 ]><html {{ if isset $.Site.Params "amp" }}amp{{ end }} lang="en" class="no-js ie8"><![endif]-->
-<!--[if IE 9 ]><html {{ if isset $.Site.Params "amp" }}amp{{ end }} lang="en" class="no-js ie9"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--><html {{ if isset $.Site.Params "amp" }}amp{{ end }} class="no-js"><!--<![endif]-->
+<!--[if lt IE 8 ]><html {{ if isset $.Site.Params "amp" }}amp{{ end }} lang="{{.Lang}}" class="no-js oldie"><![endif]-->
+<!--[if IE 8 ]><html {{ if isset $.Site.Params "amp" }}amp{{ end }} lang="{{.Lang}}" class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html {{ if isset $.Site.Params "amp" }}amp{{ end }} lang="{{.Lang}}" class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html {{ if isset $.Site.Params "amp" }}amp{{ end }} lang="{{.Lang}}" class="no-js"><!--<![endif]-->
 <head>
     <title>{{ .Title }}</title>
     <meta charset="utf-8">
