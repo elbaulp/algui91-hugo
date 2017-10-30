@@ -3,12 +3,12 @@ author: alex
 categories:
 - linux
 mainclass: linux
-date: 2017-10-28T17:06:22+01:00
-url: /renombrar-archivos-masivamente-en.en/
+date: "2017-10-30T11:39:16+02:00"
 tags:
 - script
-title: Rename files massively in GNU/Linux
+title: Rename files in bulk in GNU/Linux
 description: "If we want to rename all the files to delete the web page name from the file name, there is no need in going renaming file by file. using the rename command of GNU/Linux we can get it done so easily."
+url: "/en/rename-files-in-bulk-linux/"
 ---
 
 > Note: Thanks to [Cristina H](https://elbauldelprogramador.com/author/cristina/) for translating this post to english.
@@ -65,7 +65,7 @@ hkr@hkr:~/Desktop/RAP/d$ ls -1
 13. 13 - www.HHGroups.com.mp3
 ```
 
-The only missing thing, is to delete the www.HHGroups.com part. We get it done with the following command: 
+The only missing thing, is to delete the www.HHGroups.com part. We get it done with the following command:
 
 ```bash
 rename 's/ - www.HHGroups.com//g' *.mp3
@@ -89,9 +89,3 @@ hkr@hkr:~/Desktop/RAP/d$ ls -1
 12. Mis ego depresiones.mp3
 13. 13.mp3
 ```
-
-
-
-
-
-
