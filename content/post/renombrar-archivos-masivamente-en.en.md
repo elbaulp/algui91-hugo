@@ -3,20 +3,21 @@ author: alex
 categories:
 - linux
 mainclass: linux
-lastmod: 2017-10-08T19:07:59+01:00
-date: 2017-09-05T12:54:22+01:00
-url: /renombrar-archivos-masivamente-en/
+date: 2017-10-28T17:06:22+01:00
+url: /renombrar-archivos-masivamente-en.en/
 tags:
 - script
-title: Renombrar archivos masivamente en GNU/Linux
-description: "Si queremos renombrar todos los archivos para eliminar la página web del nombre del archivo, no es necesario ir uno por uno renombrando, usando el comando rename de GNU/linux lo conseguimos fácilmente."
+title: Rename files massively in GNU/Linux
+description: "If we want to rename all the files to delete the web page name from the file name, there is no need in going renaming file by file. using the rename command of GNU/Linux we can get it done so easily."
 ---
 
-En ocasiones, cuando bajamos archivos de internet (Normalmente música), cada archivo tiene en el nombre la dirección de la página web de donde se descargó.
+> Note: Thanks to [Cristina H](https://elbauldelprogramador.com/author/cristina/) for translating this post to english.
 
-Si queremos renombrar todos los archivos para eliminar la página web del nombre del archivo, no es necesario ir uno por uno renombrando, usando el comando `rename` de GNU/linux lo conseguimos fácilmente.
+Sometimes when we get some files from the internet (usually music), each file contains in its name the name of the webpage from which it was downloaded.
 
-Por ejemplo, pongamos que los archivos son los siguientes:
+If we want to rename all files to delete the web page from the file name, it is not necessary to rename files one by one, using the `rename` command from GNU/Linux we can get it done easily.
+
+For example, lets say the files are as follows:
 
 <!--more--><!--ad-->
 
@@ -37,15 +38,15 @@ hkr@hkr:~/Desktop/RAP/d$ ls
 13. Rafael Lechowski (Flowklorikos) - 13 - www.HHGroups.com.mp3
 ```
 
-Queremos elimininar las siguientes partes del nombre: **Rafael Lechowski (Flowklorikos)** y **www.HHGroups.com**. Para ello usamos la orden rename con la siguiente sintaxis:
+We want to delete the following from their names: **Rafael Lechowski (Flowklorikos)** and **www.HHGroups.com**. For that we use the rename command with the following syntax:
 
 ```bash
 rename 's/Rafael Lechowski (Flowklorikos) - //g' *.mp3
 ```
 
-Lo que decimos con esa expresión regular es que reemplace lo que coincida con Rafael Lechowski (Flowklorikos) por nada, es decir, que lo elimine del nombre. Es necesario escapar con los espacios en blanco y los parentesis. El *.mp3 quiere decir que aplique el renombramiento a los archivos mp3.
+What we are saying with that expression is that we want to replace all that match with Rafael Lechowski (Flowklorikos) by nothing, that is, to delete it from the name. It is necessary to scape blanks and parenthesis. The *.mp3 means that we want to apply that renaming to all mp3 files.
 
-Como resultado, ahora los ficheros tienen los siguientes nombres:
+As a result, now the files have the following names:
 
 ```bash
 hkr@hkr:~/Desktop/RAP/d$ ls -1
@@ -64,13 +65,13 @@ hkr@hkr:~/Desktop/RAP/d$ ls -1
 13. 13 - www.HHGroups.com.mp3
 ```
 
-Falta eliminar la parte www.HHGroups.com, que lo conseguimos con esta orden:
+The only missing thing, is to delete the www.HHGroups.com part. We get it done with the following command: 
 
 ```bash
 rename 's/ - www.HHGroups.com//g' *.mp3
 ```
 
-Y finalmente, tenemos todos nuestros archivos renombrados:
+And finally, we have all our files renamed:
 
 ```bash
 hkr@hkr:~/Desktop/RAP/d$ ls -1
@@ -88,3 +89,9 @@ hkr@hkr:~/Desktop/RAP/d$ ls -1
 12. Mis ego depresiones.mp3
 13. 13.mp3
 ```
+
+
+
+
+
+
