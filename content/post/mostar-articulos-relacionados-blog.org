@@ -1,7 +1,7 @@
 +++
 author = "alex"
 title = "Mostrar artículos similares usando Clustering con sklearn"
-date = "2017-10-31T20:00:09+01:00"
+date = "2017-10-31T19:58:04+02:00"
 categories = ["datascience"]
 mainclass = "datascience"
 image = "clustering-similar-posts-sklearn-python.jpg"
