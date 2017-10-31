@@ -1,0 +1,176 @@
++++
+author = "alex"
+title = "Mostrar artículos similares usando Clustering con sklearn"
+date = "2017-10-31T20:00:09+01:00"
+categories = ["datascience"]
+mainclass = "datascience"
+image = "clustering-similar-posts-sklearn-python.jpg"
+tags = ["python", "clustering", "sklearn", "parser"]
+description = "Cómo mostrar al final de cada post artículos similares usando sklearn, clustering, kmeans y TF-IDF"
++++
+
+Hace un tiempo quería mostrar *artículos similares / relacionados* al final de cada artículo de este blog. Al momento de plantear este problema, [[https://gohugo.io/][Hugo]] no tenía soporte para esta característica, hoy día sí. Para ello decidí implementar mi propio sistema usando [[/tags/python/][python]], /sklearn/ y [[https://es.wikipedia.org/wiki/An%C3%A1lisis_de_grupos][Clustering]].
+
+<figure>
+        <a href="/img/clustering-similar-posts-sklearn-python.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/clustering-similar-posts-sklearn-python.jpg"
+            alt="Agrupando artículos similares"
+            title="Agrupando artículos similares"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="437">
+          </amp-img>
+        </a>
+</figure>
+
+* Diseño del programa
+** Leer y Parsear los artículos
+Ya que escribo tanto en [[/en/][Inglés]] y [[https://elbauldelprogramador.com][Español]], necesito entrenar el modelo dos veces, para poder mostrar artículos relacionados en inglés a los lectores ingleses, y en Castellano a los Hispanos. La función =readPosts= se encarga de esto. Recibe como argumentos el /directorio/ donde se encuentran los artículos, y un =booleano= indicando si quiero leer los escritos en inglés o castellano.
+
+#+BEGIN_SRC python
+dfEng = readPosts('blog/content/post',
+                  english=True)
+dfEs = readPosts('blog/content/post',
+                 english=False)
+#+END_SRC
+
+Dentro de esta función ([[https://github.com/elbaulp/hugo_similar_posts/blob/master/similar_posts.py#L63][puedes consultarla en mi github]]), leo los artículos y devuelvo un [[http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html][Data Frame de Pandas]]. Lo más relevante que hace esta función es seleccionar el [[/tags/parser/][parser correcto]], para abrir los ficheros usando el [[https://elbauldelprogramador.com/how-to-parse-frontmatter-with-python/][parseador de yaml]] o el de /TOML/. Una vez leido el /frontmatter/, =readPosts= crea el *DataFrame* usando estos /metadatos/. En concreto solo se queda con estos:
+
+#+BEGIN_SRC python
+tags = ('title', 'tags', 'introduction', 'description')
+#+END_SRC
+
+Lo cual significa, que usaremos esta información para clasificar los posts.
+
+<!--more--><!--ad-->
+
+* Selección del Modelo
+Como dije al principio, decidí usar /Clustering/. Ya que estoy tratando con datos de texto, necesito una forma de convertir esta información a forma numérica. Para conseguirlo se usa una técnica llamada [[https://es.wikipedia.org/wiki/Tf-idf][TF-IDF (/Term frequency – Inverse document frequency/)]]. No entraré en los detalles, pero daré una pequeña introducción.
+
+** ¿Qué es TF-IDF? (frecuencia de término – frecuencia inversa de documento)
+Cuando se trabaja con *datos de texto*, muchas palabras aparecen /muchas veces en distintos ducumentos pertenecientes a distintas clases/, dichas palabras no suelen contener *información discriminatoria*. *TF-IDF* se encarga de rebajar el peso que tienen estos términos en los datos, para que no influyan en la clasificación.
+
+/tf-idf/ se define como el producto de:
+
+- *Frecuencia del término*. Número de veces que aparece el término en el documento.
+- *Frecuencia Inversa de Documento*. Cuanta información proporciona el término teniendo en cuenta el resto de documentos, es decir, si el término es frecuente o no en el resto de documentos.
+
+Al multiplicar ambos, obtenemos el /tf-idf/, citando Wikipedia:
+
+#+BEGIN_QUOTE
+Un peso alto en tf-idf se alcanza con una elevada frecuencia de término (en el documento dado) y una pequeña frecuencia de ocurrencia del término en la colección completa de documentos. Como el cociente dentro de la función logaritmo del idf es siempre mayor o igual que 1, el valor del idf (y del tf-idf) es mayor o igual que 0. Cuando un término aparece en muchos documentos, el cociente dentro del logaritmo se acerca a 1, ofreciendo un valor de idf y de tf-idf cercano a 0.
+#+END_QUOTE
+
+En resumen, conforme *más común es un término entre todos los documentos*, menor será el valor /tf-idf/, lo cual indica que esa palabra no es importante para la clasificación.
+
+** Hiperparámetros
+Para seleccionar los parámetros apropiados para el modelo he usado [[http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html][el método GridSearchCV de sklearn]], puedes verlo en [[https://github.com/elbaulp/hugo_similar_posts/blob/master/similar_posts.py#L425][la línea 425 del código]].
+
+* Limpiando los datos
+Con el método a usar (/clustering/) y teniendo los datos de texto en formato numérico (/TF-IDF/), ahora toca limpiar los datos. Cuando se trabaja con datos de texto, es muy frecuente eliminar lo que se denominan /stop words/, palabras que no añaden significado alguno (el, la, los, con, a, eso...). Para ello creo la función [[https://github.com/elbaulp/hugo_similar_posts/blob/master/similar_posts.py#L155][generateTfIdfVectorizer]]. Esta misma función se encarga de realizar el /stemming/. De /Wikipedia/, [[https://es.wikipedia.org/wiki/Stemming][Stemming es el proceso de:]]
+
+#+BEGIN_QUOTE
+reducir una palabra a su raíz o (en inglés) a un stem.
+#+END_QUOTE
+
+Dependiendo de en qué idioma esté generando los *artículos relacionados* (inglés o Castellano) uso:
+
+#+BEGIN_SRC python
+def tokenizer_snowball(text):
+    stemmer = SnowballStemmer("spanish")
+    return [stemmer.stem(word) for word in text.split()
+            if word not in stop]
+#+END_SRC
+para Castellano o
+#+BEGIN_SRC python
+def tokenizer_porter(text):
+    porter = PorterStemmer()
+    return [porter.stem(word) for word in text.split()
+            if word not in stop]
+#+END_SRC
+para inglés.
+
+Tras este proceso, finalmente tengo todos los datos listos para aplicar /clustering/.
+
+* Clustering
+He usado /KMeans/ para realizar el clustering. La mayor carga de trabajo de este proceso era *limpiar los datos*, así que este paso es sencillo de programar. Solo es necesario saber cuantos /clusters/ debería tener. Para ello he usado un método llamado *Elbow Method* (El método del codo). Sirve para hacernos una idea del valor óptimo de =k= (Cuantos clusters). El metodo nos indica cuando la *distorsión* entre clusters empieza a aumentar rápidamente. Se muestra mejor con una imagen:
+
+<figure>
+        <a href="/img/Elbow method for clustering.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/Elbow method for clustering.jpg"
+            alt="Elbow method"
+            title="Elbow method"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="546">
+          </amp-img>
+        </a>
+        <figcaption>En este ejemplo, se aprecia un codo en k=12</figcaption>
+</figure>
+
+Tras ejecutar el modelo, usando /16 características/, estas son las seleccionadas para Catellano:
+#+BEGIN_SRC python
+[u'andro', u'comand', u'curs', u'dat', u'desarroll',
+u'funcion', u'googl', u'jav', u'libr', u'linux',
+u'program', u'python', u'recurs', u'script',
+u'segur', u'wordpress']
+#+END_SRC
+y para inglés:
+#+BEGIN_SRC python
+[u'blogs', u'chang', u'channels', u'curat', u'error',
+u'fil', u'gento',u'howt', u'list', u'lists', u'podcasts',
+u'python', u'scal', u'scienc', u'script', u'youtub']
+#+END_SRC
+
+* Cómo intregrar el resultado con Hugo
+Esta parte me llevó bastante tiempo ya que es necesario leer el resultado del modelo, en formato CSV, y mostrar 10 artículos del mismo cluster. Aunque ya no estoy usando este método (ahora uso el propio de Hugo), lo dejo por aquí como referencia:
+
+#+BEGIN_SRC go
+{{ $url := string (delimit (slice "static/" "labels." .Lang ".csv" ) "") }}
+{{ $sep := "," }}
+{{ $file := string .File.LogicalName }}
+
+{{/* First iterate thought csv to get post cluster */}}
+{{ range $i, $r := getCSV $sep $url }}
+   {{ if in $r (string $file) }}
+       {{ $.Scratch.Set "cluster" (index . 1) }}
+   {{ end }}
+{{ end }}
+
+{{ $cluster := $.Scratch.Get "cluster" }}
+
+{{/* loop csv again to store post in the same cluster */}}
+{{ range $i, $r := getCSV $sep $url }}
+    {{ if in $r (string $cluster) }}
+        {{ $.Scratch.Add "posts" (slice $r) }}
+    {{ end }}
+{{ end }}
+
+{{ $post := $.Scratch.Get "posts" }}
+
+{{/* Finally, show 5 randomly related posts */}}
+{{ if gt (len $post) 1 }}
+    <h1>{{T "related" }}</h1>
+    <ul>
+    {{ range first 5 (shuffle $post) }}
+        <li><a id="related-post"  {{ printf "href=%q" ($.Ref (index . 2)) | safeHTMLAttr }} {{ printf "title=%q" (index . 3) | safeHTMLAttr }}>{{ index . 3 }}</a></li>
+    {{ end }}
+    </ul>
+{{ end }}
+#+END_SRC
+
+/Si tienes algún comentario, o quiere mejorar algo, comenta abajo./
+
+* Referencias
+- [[http://amzn.to/2fJVjwk][Libro Python Machine Learning]]
+- [[http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html][Documentación de Sklearn]]
