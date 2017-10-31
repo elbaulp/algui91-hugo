@@ -1,0 +1,175 @@
++++
+author = "alex"
+title = "Show related posts in Hugo with Sklearn"
+date = "2017-10-31T20:00:32+01:00"
+categories = ["datascience"]
+mainclass = "datascience"
+image = "clustering-similar-posts-sklearn-python.jpg"
+tags = ["python", "clustering", "sklearn", "parser"]
+description = "How I implemented my own related posts feature using sklearn, KMeans and TF-IDF for this blog"
+url = "/en/related-posts-hugo-sklearn/"
++++
+
+A long time ago I wanted to show *similar/related posts* at the end of each post on this blog. At the time, [[https://gohugo.io/][Hugo]] didn't have built in support to show related posts (nowadays it has). So I decided to implement my own using [[/en/tags/python/][python]], /sklearn/ and [[https://en.wikipedia.org/wiki/Cluster_analysis][Clustering]].
+
+<figure>
+        <a href="/img/clustering-similar-posts-sklearn-python.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/clustering-similar-posts-sklearn-python.jpg"
+            alt="Clustereing similar posts with sklearn"
+            title="Clustereing similar posts with sklearn"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="437">
+          </amp-img>
+        </a>
+</figure>
+
+* Program design
+** Reading & Parsing posts
+
+Since I write in [[/en/][English]] and [[https://elbauldelprogramador.com][Spanish]], I needed to train the model twice, in order to only show English related post to English readers and Spanish ones to Spanish readers. To achieve it, I created a =readPosts= function that takes in as parameters a /path/ where the post are, and a =boolean= value indicating whether I want /related posts/ for English or Spanish.
+
+#+BEGIN_SRC python
+dfEng = readPosts('blog/content/post',
+                  english=True)
+dfEs = readPosts('blog/content/post',
+                 english=False)
+#+END_SRC
+
+Inside this function ([[https://github.com/elbaulp/hugo_similar_posts/blob/master/similar_posts.py#L63][you can check it on my github]]), I read all the English/Spanish posts and return a [[http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html][Pandas Data Frame]]. The most important thing this function does is select the correct [[/en/tags/parser/][parser]], to open files using [[https://elbauldelprogramador.com/en/how-to-parse-frontmatter-with-python/][a yaml parser]] or a /TOML parser/. Once the /frontmatter/ is read, =readPosts= makes a *DataFrame* using that /metadata/. It only takes into account the following metadata:
+
+#+BEGIN_SRC python
+tags = ('title', 'tags', 'introduction', 'description')
+#+END_SRC
+
+This is the information that will be used for classifying.
+
+<!--more--><!--ad-->
+
+* Model Selection
+As I said at the beginning of the post, I decided to use the Clustering technique. As I am treating with text data, I need a way to convert all this data to numeric form, as clustering only works with numeric data. To achieve it, I have to use a technique called [[https://en.wikipedia.org/wiki/Tf-idf][TF-IDF]]. I won't delve into the details of this technique, but give you a short introduction to it.
+
+** What is TF-IDF (Term Frequency - Inverse Document Frequency)
+When working with *text data*, many words will appear for /multiple documents of multiple classes/, this words typically don't contain /discriminatory information./ *TF-IDF* aims to downweight those frequently appearing words in the data (In this case, the Pandas Data Frame).
+
+The /tf-idf/ is defined as the product of:
+
+- The *term frequency*. Number of times a term appears in a document.
+- The *Inverse document frequency*. How much information the word provides taking into account all documents, that is, if the term is common or rare across all documents.
+
+Multiplying the above values gives the /tf-idf/, quoting Wikipedia:
+
+#+BEGIN_QUOTE
+A high weight in tf–idf is reached by a high term frequency (in the given document) and a low document frequency of the term in the whole collection of documents; the weights hence tend to filter out common terms. Since the ratio inside the idf's log function is always greater than or equal to 1, the value of idf (and tf-idf) is greater than or equal to 0. As a term appears in more documents, the ratio inside the logarithm approaches 1, bringing the idf and tf-idf closer to 0.
+#+END_QUOTE
+
+In short, as *more common a term is across all documents*, less /tf-idf/ score it will have, signaling that this word is not important for classifying.
+
+** Hyper-Parameter Tunning
+To select the appropriate parameters for the model I've used [[http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html][sklearn's GridSearchCV method]], you can check it on [[https://github.com/elbaulp/hugo_similar_posts/blob/master/similar_posts.py#L425][line 425 of my code]].
+
+* Cleaning the Data
+Now that I have decided what method use (/clustering/) and how convert the text data to a vector format (/TF-IDF/), I have to clean the data. Usually, when dealing with text data you have to remove words that are used often, but doesn't add meaning, those words are called *stop words* (/the, that, a etc/). This work is done in [[https://github.com/elbaulp/hugo_similar_posts/blob/master/similar_posts.py#L155][generateTfIdfVectorizer]]. In this process I also perform a /stemmization/ of the words. From /Wikipedia/, [[https://en.wikipedia.org/wiki/Stemming][Stemming is the process of:]]
+#+BEGIN_QUOTE
+Reducing inflected (or sometimes derived) words to their word stem, base or root form—generally a written word form.
+#+END_QUOTE
+Depending on which language I am generating the *related posts* for (English or Spanish) I use
+#+BEGIN_SRC python
+def tokenizer_snowball(text):
+    stemmer = SnowballStemmer("spanish")
+    return [stemmer.stem(word) for word in text.split()
+            if word not in stop]
+#+END_SRC
+for Spanish or
+#+BEGIN_SRC python
+def tokenizer_porter(text):
+    porter = PorterStemmer()
+    return [porter.stem(word) for word in text.split()
+            if word not in stop]
+#+END_SRC
+for English.
+
+After this process, finally I have all the data ready to perform /clustering/.
+
+* Clustering
+I've used /KMeans/ to do the clustering. The most time consuming task of all this process was, as usual, *clean the data*, so this step is simple. I just need a way of know how many /clusters/ I should have. For this, I've used the *Elbow Method*. This method is an easy way to identify the value of =k= (How many clusters there are.) for which the *distortion* begins to increase rapidly. This is best shown with an image:
+
+<figure>
+        <a href="/img/Elbow method for clustering.jpg">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/Elbow method for clustering.jpg"
+            alt="Elbow method"
+            title="Elbow method"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="546">
+          </amp-img>
+        </a>
+        <figcaption>In this example, you can slightly appreciate an elbow on k=12</figcaption>
+</figure>
+
+After executing the model, using /16 features/, this are the ones selected for Spanish:
+#+BEGIN_SRC python
+[u'andro', u'comand', u'curs', u'dat', u'desarroll',
+u'funcion', u'googl', u'jav', u'libr', u'linux',
+u'program', u'python', u'recurs', u'script',
+u'segur', u'wordpress']
+#+END_SRC
+and the ones used for English:
+#+BEGIN_SRC python
+[u'blogs', u'chang', u'channels', u'curat', u'error',
+u'fil', u'gento',u'howt', u'list', u'lists', u'podcasts',
+u'python', u'scal', u'scienc', u'script', u'youtub']
+#+END_SRC
+
+* How I integrated it with Hugo
+
+This was a tedious task, since I had to read the output of the model (in CSV format) into hugo and pick 10 random post from the same cluster. Although is no longer required to use this, I want to share how I integrated this approach with Hugo to show related posts:
+#+BEGIN_SRC go
+{{ $url := string (delimit (slice "static/" "labels." .Lang ".csv" ) "") }}
+{{ $sep := "," }}
+{{ $file := string .File.LogicalName }}
+
+{{/* First iterate thought csv to get post cluster */}}
+{{ range $i, $r := getCSV $sep $url }}
+   {{ if in $r (string $file) }}
+       {{ $.Scratch.Set "cluster" (index . 1) }}
+   {{ end }}
+{{ end }}
+
+{{ $cluster := $.Scratch.Get "cluster" }}
+
+{{/* loop csv again to store post in the same cluster */}}
+{{ range $i, $r := getCSV $sep $url }}
+    {{ if in $r (string $cluster) }}
+        {{ $.Scratch.Add "posts" (slice $r) }}
+    {{ end }}
+{{ end }}
+
+{{ $post := $.Scratch.Get "posts" }}
+
+{{/* Finally, show 5 randomly related posts */}}
+{{ if gt (len $post) 1 }}
+    <h1>{{T "related" }}</h1>
+    <ul>
+    {{ range first 5 (shuffle $post) }}
+        <li><a id="related-post"  {{ printf "href=%q" ($.Ref (index . 2)) | safeHTMLAttr }} {{ printf "title=%q" (index . 3) | safeHTMLAttr }}>{{ index . 3 }}</a></li>
+    {{ end }}
+    </ul>
+{{ end }}
+#+END_SRC
+
+/If you have any comments, or want to improve something, comment below./
+
+* References
+- [[https://sebastianraschka.com/books.html][Sebastian Raschka's book Python Machine Learning]]
+- [[http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html][Sklearn Documentation]]
