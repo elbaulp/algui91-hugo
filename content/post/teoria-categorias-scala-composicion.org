@@ -2,6 +2,7 @@
 author = "alex"
 title = "Teoría de Categorías en Scala - Composición"
 date = "2017-10-24T18:51:32+02:00"
+lastmod = "2017-11-01T19:20:42+01:00"
 categories = ["dev"]
 mainclass = "dev"
 image = "category-theory-composition.jpg"
@@ -9,6 +10,10 @@ tags = ["scala", "teoría de categorías", "composición", "matemáticas"]
 description = "¿Qué es una categoría? En este artículo intentaré explicarlo usando scala y Tests basados en propiedades"
 +++
 
+* CHANGELOG
+/Gracias a Jesús López por comentar en este artículo y corregir unos cuantos errores./
+
+* Introducción
 Este es el primer artículo de una serie que voy a escribir sobre *teoría de categorías*.
 
 Llevaba un tiempo queriendo aprender *teoría de categorías*, ya que he leido bastante sobre el tema y parece que tiene [[http://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/][aplicaciones en el desarrollo de software]].
@@ -18,7 +23,6 @@ Esta serie de artículos se basan en gran libro que *Bartosz Milewski* escribió
 <!--more--><!--ad-->
 
 * Categoría: La esencia de la composición
-
 Antes de continuar, ¿Qué es una /categoría?/, de [[https://es.wikipedia.org/wiki/Categor%C3%ADa_(matem%C3%A1ticas)][Wikipedia]]:
 
 #+BEGIN_QUOTE
@@ -45,7 +49,7 @@ En resumen, una /categoría/ está formada por *objetos y flechas*, y pueden com
         <figcaption>Ejemplo de Categoría</figcaption>
 </figure>
 
-Cada flecha puede *componerse*, p.e: Si =A -> B= y =B -> D= entonces debe existir una flecha de =A -> D=. Las flechas pueden llamarse *morfismos*, son *funciones*, y como tales se pueden componer. En la imagen de arriba tienes:
+Cada flecha puede *componerse*, p.e: Si =A -> B= y =B -> D= entonces debe existir una flecha de =A -> D=. Las flechas pueden llamarse *morfismos*, y se pueden componer. En la imagen de arriba tienes:
 
 - =f: A -> B=
 - =g: B -> D=
@@ -56,7 +60,7 @@ La composición se lee de /derecha a izquierda/, por tanto =g∘f= quiere decir 
 * Propiedades de la composición
 
 1. *Asociatividad:* ~f∘(g∘h) == (f∘g)∘h == f∘g∘h~.
-2. Para cada objeto existe una *flecha unidad*, que va del objeto a sí mismo: ~f∘IDₐ = f == IDₐ∘f = f~, como muestro debajo:
+2. Para cada objeto existe una *flecha Identidad, o morfismo Identidad*, que va del objeto a sí mismo: ~f∘IDₐ = f == IDₐ∘f = f~, como muestro debajo:
 
 <figure>
         <a href="/img/category-theory-identity.jpg">
@@ -79,7 +83,7 @@ La composición se lee de /derecha a izquierda/, por tanto =g∘f= quiere decir 
 
 Ahora que ya he comentado un poco de la teoría, vamos a implementarlo en *scala*. Como dije al principio, voy a usar /tests basados en propiedades/ para comprobar que el objeto creado cumple las *propiedades algebraicas* de una categoría. Estas propiedades son la *Identidad* y *asociatividad*.
 
-El código de abajo es la definición de una /categoría/, puedes consultar el código en el fichero [[https://github.com/elbaulp/Scala-Category-Theory/blob/master/src/main/scala/elbaulp/Category.scala][Category.scala de mi respositorio.]]
+El código de abajo es la definición de una /categoría/ (Para ser más precisos, es una instancia de la categoría *Hask*). En la categoría *Hask*, los objetos son tipos y las flechas funciones. Puedes consultar el código en el fichero [[https://github.com/elbaulp/Scala-Category-Theory/blob/master/src/main/scala/elbaulp/Category.scala][Category.scala de mi respositorio.]]
 
 #+BEGIN_SRC scala
 object Category {
