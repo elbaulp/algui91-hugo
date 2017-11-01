@@ -2,6 +2,7 @@
 author = "alex"
 title = "Scala Category Theory - Composition"
 date = "2017-10-24T18:51:20+02:00"
+lastmod = "2017-11-01T19:20:32+01:00"
 categories = ["dev"]
 mainclass = "dev"
 image = "category-theory-composition.jpg"
@@ -10,6 +11,10 @@ description = "What is a category? This post explain it using Scala and Property
 url = "/en/scala-category-theory-composition/"
 +++
 
+* CHANGELOG
+/Thanks to *Jesús López* for pointing out some errors/
+
+* Introduction
 This is the first post I'm going to write about *Category Theory*.
 
 I've been wanting to learn Category Theory for a while, since it seems to have [[http://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/][practical applications]] in software.
@@ -45,7 +50,7 @@ In short, a /category/ is form by *objects and arrows*, and they can compose. Th
         </a>
 </figure>
 
-Each arrow can be *composed*, f.e: If =A -> B= and =B -> D= then there must be an arrow from =A -> D=. Arrows can be called *morphisms*, they are *functions*, and they can be composed. In the image above, you have:
+Each arrow can be *composed*, f.e: If =A -> B= and =B -> D= then there must be an arrow from =A -> D=. Arrows can be called *morphisms*, they can be composed. In the image above, you have:
 
 - =f: A -> B=
 - =g: B -> D=
@@ -56,7 +61,7 @@ Composition reads from /right to left:/ =g∘f= would be =g(f(x))=.
 * Properties of Composition
 
 1. *Associativity:* ~f∘(g∘h) == (f∘g)∘h == f∘g∘h~.
-2. For every object exists an *unit arrow*, it goes from the object to itself: ~f∘IDₐ = f == IDₐ∘f = f~, as shown below:
+2. For every object exists an *Identity Arrow*, it goes from the object to itself: ~f∘IDₐ = f == IDₐ∘f = f~, as shown below:
 
 <figure>
         <a href="/img/category-theory-identity.jpg">
@@ -79,7 +84,7 @@ Composition reads from /right to left:/ =g∘f= would be =g(f(x))=.
 
 Now that I've shown you a bit of theory, lets implement it in *scala*. As I said at the beginning of the post, I will be using /property based tests/ to check the implementation is correct and satisfy the /category properties/, that is, *Identity* and *associativity*.
 
-Here is the definition of a simple /Category/, you can check the full code at [[https://github.com/elbaulp/Scala-Category-Theory/blob/master/src/test/scala/elbaulp/CategorySpec.scala][Category.scala in my github repo]].
+Here is the definition of a simple /Category/ (Its actually an instance of a Category, the category *Hask* in this case). A *Hask* category has *types as objects* and *arrows as functions*. You can check the full code at [[https://github.com/elbaulp/Scala-Category-Theory/blob/master/src/test/scala/elbaulp/CategorySpec.scala][Category.scala in my github repo]].
 
 #+BEGIN_SRC scala
 object Category {
