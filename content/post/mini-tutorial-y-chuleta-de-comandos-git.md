@@ -4,7 +4,7 @@ categories:
 - articulos
 mainclass: articulos
 date: 2015-12-13 18:10:12
-lastmod: 2017-10-06T11:18:31+01:00
+lastmod: 2017-11-06T10:18:56+01:00
 description: Un mini tutorial y lista extensa de comandos git
 image: 2013/03/git-logo.png
 url: /mini-tutorial-y-chuleta-de-comandos-git/
@@ -13,7 +13,7 @@ tags:
 - chuleta
 - git
 - comandos
-title: 'Git: Mini Tutorial y chuleta de comandos'
+title: 'Git: Chuleta de Comandos'
 ---
 
 <figure>

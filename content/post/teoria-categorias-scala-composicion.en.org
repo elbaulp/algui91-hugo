@@ -155,4 +155,4 @@ If you execute this property tests, all pass:
 That's it for this first part, I hope you enjoy it, I would like to hear your opinion, /comment below!/
 
 * Resources
-- [[https://bartoszmilewski.com/2014/11/04/category-the-essence-of-composition/][Category: The Essence of Composition]]
+- [[https://bartoszmilewski.com/2014/11/04/category-the-essence-of-composition/trackback/][Category: The Essence of Composition]]
