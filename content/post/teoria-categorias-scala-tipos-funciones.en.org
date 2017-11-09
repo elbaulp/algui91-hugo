@@ -1,12 +1,12 @@
 +++
 author = "alex"
-title = "Teoria Categorias Scala Tipos Funciones"
-date = "2017-11-04T07:46:20+01:00"
-categories = []
-mainclass = "articulos"
+title = "Scala Category Theory - Types and Functions"
+date = "2017-11-09T11:25:11+01:00"
+categories = ["dev"]
+mainclass = "dev"
 image = "teoria-categorias-scala-tipos-funciones.png"
-tags = []
-description = ""
+tags = ["scala", "category theory", "mathematics", "composition"]
+description = "What are Types and Functions in the context of Category Theory? Think of Types as Sets."
 draft = true
 +++
 
@@ -22,12 +22,14 @@ You can think of a *Type* as *Sets*, they can be /finite/ (Boolean, Char) or /in
 
 The above is defined in the /mathematical world/, in the real world you could think of *sets as types* in a programming language and *functions in the Set as functions* in a programming language. The problem is, a mathematical function just /knows the answer,/ but in a programming language you must write the code of that function, and that function may never return. To solve this, many programming languages declare a Type called [[https://en.wikipedia.org/wiki/Bottom_type][Bottom type]], all types extends the /bottom type./ Haskell bottom type is denoted by =_|_=, in [[/en/tags/scala/][scala]] is denoted by =Nothing= (See [[http://www.scala-lang.org/api/current/scala/Nothing.html][Nothing API documentation]]). A function that returns bottom is called a *Partial Function*.
 
+<!--more--><!--ad-->
+
 * The Mathematical Model
 If you are a developer, I am sure you have found yourself running an interpreter in your mind while debugging. We Humans aren't very good at this, since it is difficult to keep track of all variables. There is an alternative to know if a program is correct, it's called [[https://en.wikipedia.org/wiki/Denotational_semantics][Denotational Semantics]]. In short, *Denotational Semantics* is an approach of formalizing the /meanings/ of a programming language, it is concerned with finding mathematical objects called domains that represent what programs do.
 
 Opposed to /Denotational Semantics/ is [[https://en.wikipedia.org/wiki/Operational_semantics][Operational Semantics]]. /Operational Semantics/ tries to proof certain properties of a program (such as correctness) by constructing logical proofs, this is often too complex.
 
-By having a mathematical model (/Denotational semantics/) is that you can write formal proofs proving your software correctness.
+By having a mathematical model (/Denotational semantics/) you can write formal proofs proving your software correctness.
 
 * Pure & Dirty Functions
 /Pure functions/ are those who always return the same result for the same input and without side effects. For example, mathematical functions are always pure. On the contrary, /dirty functions/ have side effects.
@@ -43,30 +45,28 @@ Could you ever define a function that takes as parameter an object of type =Void
 cantCallMe :: Void -> a
 #+END_SRC
 
-A lower case letter in a function's declaration in haskell means =a= can be of any type. Here is the equivalent in scala:
+A lower case letter in a function's declaration in haskell means =a= can be of any type. Here are examples in scala:
 
 #+BEGIN_SRC scala
-def cantCallMe[T](a:Nothing) = 1
-// as T can be of any type, this also works:
-def cantCallMe(a:Nothing):Int = "str"
+def cantCallMe(a:Nothing) = 1
+def cantCallMe(a:Nothing) = "str"
 #+END_SRC
 
 Moving on, what Type would be the one corresponding to the *[[https://en.wikipedia.org/wiki/Singleton_(mathematics)][Singleton Set]]*?, that is, a type with only one element (one possible value). In C++ this type is =void=, not to be confused with Haskell's =Void=, =Void= is the empty set, whereas =void= in C++ is a singleton set, because its a set with only one element, in fact, you can call functions receiving =void= arguments. An example of such functions is =int f314() { ret 314 }=, you can call this function, and it will return always 314.
 
-Although it may seems this function is not taking any arguments, it is. Because if you can pass it an argument, you could not call it. So it is taking a dummy value with only one instance (a singleton set, in this case 314). Lets see the same example in Haskell and Scala:
+Although it may seems this function is not taking any arguments, it is. Because if you can't pass it an argument, you could not call it. So it is taking a dummy value with only one instance (a singleton set, in this case 314). Lets see the same example in Haskell and Scala:
 
 #+BEGIN_SRC haskell
-f314 :: () -> Integer // from Unit to Integer
+f314 :: () -> Integer -- from Unit to Integer
 f314() = 314
 #+END_SRC
 
-Here it becomes clearer that =f314= is taking a parameter, the =Unit= type (allowing only one value). Its called =f314()=, which denotes more explicitly this function is taking one parameter.
+Here it becomes clearer that =f314= is taking a parameter, the =Unit= type (allowing only one value). You call this function with =f314()=, which denotes more explicitly this function is taking one parameter.
 
 In Scala this type is also called [[http://www.scala-lang.org/api/current/scala/Unit.html][Unit]], and its unique value is denoted also by =()=, as in Haskell:
 
 #+BEGIN_SRC scala
-def f314() = 314
-// a function from () => Int
+def f314() = 314 /* from () => Int */
 #+END_SRC
 
 All this may be seems like nonsense, but we are building the concepts bottom up, as you delve more deeply into Category Theory, it will gain more and more sense. For example, with this knowledge you can avoid mentioning explicitly the elements in a set, now you can reference them with Arrows (Functions in this case, since we are in the Category of Sets). Functions going *from Unit to any type A* are in one-to-one correspondence with elements in that set A.
@@ -95,8 +95,9 @@ The next logical type to see is a *set with 2 elements,* which corresponds with 
 
 * Challenges
 Now I want to share with you two of the Challenges Bartosz proposes on his site that I solved. Please consider that they might be wrong or can be improved, I would like to hear your take on this challenges, so please comment below.
+You can see the complete list of challenges on Bartosz website (Linked in the refernces), I've only solved #1 and #6.
 
-- /Define a higher-order function (or a function object) memoize in your favorite language. This function takes a pure function f as an argument and returns a function that behaves almost exactly like f, except that it only calls the original function once for every argument, stores the result internally, and subsequently returns this stored result every time it’s called with the same argument. You can tell the memoized function from the original by watching its performance. For instance, try to memoize a function that takes a long time to evaluate. You’ll have to wait for the result the first time you call it, but on subsequent calls, with the same argument, you should get the result immediately./
+- Challenge #1
 Here is what I've done, I tried to do it with an immutable Map, but couldn't get it to work:
 
 #+BEGIN_SRC scala
@@ -116,7 +117,7 @@ b(10) // Takes 5 secs
 b(10) // immediate
 #+END_SRC
 
-- /Draw a picture of a category whose only objects are the types Void, () (unit), and Bool; with arrows corresponding to all possible functions between these types. Label the arrows with the names of the functions./
+- Challenge #6
 
 <figure>
         <a href="/img/teoria-categorias-scala-tipos-funciones.png">
