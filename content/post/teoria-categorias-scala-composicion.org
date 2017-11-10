@@ -10,6 +10,8 @@ tags = ["scala", "teoría de categorías", "composición", "matemáticas"]
 description = "¿Qué es una categoría? En este artículo intentaré explicarlo usando scala y Tests basados en propiedades"
 +++
 
+{{< importPartial "structure/_ct_header.html" >}}
+
 * CHANGELOG
 /Gracias a Jesús López por comentar en este artículo y corregir unos cuantos errores./
 

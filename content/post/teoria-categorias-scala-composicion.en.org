@@ -11,6 +11,8 @@ description = "What is a category? This post explain it using Scala and Property
 url = "/en/scala-category-theory-composition/"
 +++
 
+{{< importPartial "structure/_ct_header.html" >}}
+
 * CHANGELOG
 /Thanks to *Jesús López* for pointing out some errors/
 

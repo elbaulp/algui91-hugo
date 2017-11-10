@@ -8,7 +8,6 @@ image = "teoria-categorias-scala-tipos-funciones.png"
 tags = ["scala", "category theory", "mathematics", "composition"]
 description = "What are Types and Functions in the context of Category Theory? Think of Types as Sets."
 draft = true
-url = "/en/scala-category-theory-types"
 +++
 
 {{< importPartial "structure/_ct_header.html" >}}

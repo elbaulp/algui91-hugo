@@ -1,0 +1,8 @@
++++
+type = "page"
+title = "Scala Category Theory - Table of Contents"
+date = "2017-11-10T19:03:54+01:00"
++++
+
+- [[https://elbauldelprogramador.com/en/scala-category-theory-composition/][Composition]]
+- [[https://elbauldelprogramador.com/en/scala-category-theory-composition/][Types and Functions]]
