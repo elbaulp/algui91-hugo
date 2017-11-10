@@ -2,6 +2,7 @@
 type = "page"
 title = "Teoría de Categorías en Scala - Índice"
 date = "2017-11-10T19:08:55+01:00"
+description = "Página donde se listan todos los artículos de la serie sobre Teoría de Categorías en Scala"
 +++
 
 - [[https://elbauldelprogramador.com/teoria-categorias-scala-composicion/][Composición]]

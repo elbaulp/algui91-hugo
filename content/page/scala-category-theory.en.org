@@ -2,6 +2,7 @@
 type = "page"
 title = "Scala Category Theory - Table of Contents"
 date = "2017-11-10T19:03:54+01:00"
+description = "Page hosting all post about Scala Category Theory series"
 +++
 
 - [[https://elbauldelprogramador.com/en/scala-category-theory-composition/][Composition]]
