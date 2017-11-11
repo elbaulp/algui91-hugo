@@ -6,21 +6,22 @@ categories = ["dev"]
 mainclass = "dev"
 image = "teoria-categorias-scala-tipos-funciones.png"
 tags = ["scala", "teoría de categorías", "matemáticas"]
-description = "What are Types and Functions in the context of Category Theory? Think of Types as Sets."
+description = "¿Qué son los tipos y funciones en Teoría de Categorías? Piensa en los tipos como si fueran conjuntos."
 draft = true
 +++
 
 {{< importPartial "structure/_ct_header.html" >}}
 
-/In the previous post I wrote an introduction to/ [[https://elbauldelprogramador.com/en/scala-category-theory-composition/][Category Theory talking about composition]], /in this post I am going to talk about *Types and functions in Category Theory.*/
+/En el artículo anterior escribí sobre/ [[https://elbauldelprogramador.com/teoria-categorias-scala-composicion/][composición en Teoría de Categorías]], /hoy voy a hablar sobre *tipos y funciones en Teoría de Categorías.*/
 
-* Types and Functions
-You can compose arrows, but not /any two arrows/, the target object of one arrow must match the source arrow. In terms of programming languages: *a function's output must match the input type of the next function.*
+* Tipos y Funciones
+Se pueden componer flechas, pero /no cualquier par de flechas/, el destino de una flecha debe coincidir con el origen de la otra. En términos de programación: *El tipo de retorno de una función debe coincidir con el tipo de entrada de la siguiente función.*
 
-* What are Types?
-You can think of a *Type* as *Sets*, they can be /finite/ (Boolean, Char) or /infinite/ (String, Integer). In Category Theory there is a [[https://en.wikipedia.org/wiki/Category_of_sets][Category of Sets]], called *Set*. In this category, objects are *sets*, and arrows are *functions from a Set to another.*
 
-The above is defined in the /mathematical world/, in the real world you could think of *sets as types* in a programming language and *functions in the Set as functions* in a programming language. The problem is, a mathematical function just /knows the answer,/ but in a programming language you must write the code of that function, and that function may never return. To solve this, many programming languages declare a Type called [[https://en.wikipedia.org/wiki/Bottom_type][Bottom type]], all types extends the /bottom type./ Haskell bottom type is denoted by =_|_=, in [[/en/tags/scala/][scala]] is denoted by =Nothing= (See [[http://www.scala-lang.org/api/current/scala/Nothing.html][Nothing API documentation]]). A function that returns bottom is called a *Partial Function*.
+* ¿Qué son los tipos?
+Puedes pensar en un *Tipo* como *Conjuntos*, estos pueden ser /finitos/ (Booleanos, Chars) o /infinitos/ (Cadenas de texto, Enteros). En teoría de categorías existe una [[https://es.wikipedia.org/wiki/Categor%C3%ADa_de_conjuntos][Categoría de Conjuntos]], llamada *Set* (Conjunto). En esta categoría, los objetos son *conjuntos*, y las flechas *funciones de un conjunto a otro.*
+
+La definición de arriba es en /el mundo matemático/, en la realidad puedes pensar en los *conjuntos como tipos* en un lenguaje de programación y en las *funciones en el Set como funciones* en dicho lenguaje de programación. Pero hay un problema, en matemáticas una función simplemente /sabe la respuesta,/ pero en un lenguaje de programación eres tú quien debe implementar el código que calcule esa respuesta, y hay algunas funciones que nunca retornan. Como solución, muchos lenguajes de programación tienen un tipo llamado *Tipo de fondo*([[https://en.wikipedia.org/wiki/Bottom_type][Bottom type]]), todos los tipos extienden de él. En Haskell este tipo se denota por =_|_=, en [[https://elbauldelprogramador.com/tags/scala/][scala]] por =Nothing= (Puedes [[http://www.scala-lang.org/api/current/scala/Nothing.html][ver la documentación de este tipo]]). Una función que devuelve el tipo fondo se llama *Función Parcial*.
 
 <!--more--><!--ad-->
 

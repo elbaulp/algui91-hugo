@@ -16,7 +16,7 @@ url = "/en/scala-category-theory-types"
 /In the previous post I wrote an introduction to/ [[https://elbauldelprogramador.com/en/scala-category-theory-composition/][Category Theory talking about composition]], /in this post I am going to talk about *Types and functions in Category Theory.*/
 
 * Types and Functions
-You can compose arrows, but not /any two arrows/, the target object of one arrow must match the source arrow. In terms of programming languages: *a function's output must match the input type of the next function.*
+You can compose arrows, but not /any two arrows/, the target object of one arrow must match the source arrow. In terms of programming languages: *a function's output type must match the input type of the next function.*
 
 * What are Types?
 You can think of a *Type* as *Sets*, they can be /finite/ (Boolean, Char) or /infinite/ (String, Integer). In Category Theory there is a [[https://en.wikipedia.org/wiki/Category_of_sets][Category of Sets]], called *Set*. In this category, objects are *sets*, and arrows are *functions from a Set to another.*
