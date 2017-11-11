@@ -32,13 +32,13 @@ Opposed to /Denotational Semantics/ is [[https://en.wikipedia.org/wiki/Operation
 
 By having a mathematical model (/Denotational semantics/) you can write formal proofs proving your software correctness.
 
-* Pure & Dirty Functions
-/Pure functions/ are those who always return the same result for the same input and without side effects. For example, mathematical functions are always pure. On the contrary, /dirty functions/ have side effects.
+* Pure & Impure functions
+/Pure functions/ are those who always return the same result for the same input and without side effects. For example, mathematical functions are always pure. On the contrary, /impure functions/ have side effects.
 
 * Examples of types
 Lets see now a few types, starting from the *Empty set*.
 
-Which type would define an [[https://en.wikipedia.org/wiki/Empty_set][Empty Set]]? Think about it a moment, I've mentioned it above. In haskell this type is =Void=, in Scala =Nothing=. This Set has no elements. Previously I said there is a Category called /Set/, in which /Objects are sets/ and /Arrows are functions/. I this context, if =A= is a set, the empty set, only one function =f= exists from ={}= to =A=, the *empty function*.
+Which type would define an [[https://en.wikipedia.org/wiki/Empty_set][Empty Set]]? Think about it a moment, I've mentioned it above. In haskell this type is =Void=, in Scala =Nothing=. This Set has no elements. Previously I said there is a Category called /Set/, in which /Objects are sets/ and /Arrows are functions/. I this context, if =A= is a set, the empty set, only one function =f= exists from ={}= to =A=, the [[https://en.wikipedia.org/wiki/Function_(mathematics)#Empty_function][Empty Function]].
 
 Could you ever define a function that takes as parameter an object of type =Void= (/an empty set/)?, yes, you can, but you won't be able to call it, since you can't pass it a parameter which type is =Void=. However, the return type of this function could be any. This types of functions (Those who can return any type) are called *polymorphic in the return type*, here are some examples:
 

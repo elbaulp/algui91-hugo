@@ -25,40 +25,40 @@ La definición de arriba es en /el mundo matemático/, en la realidad puedes pen
 
 <!--more--><!--ad-->
 
-* The Mathematical Model
-If you are a developer, I am sure you have found yourself running an interpreter in your mind while debugging. We Humans aren't very good at this, since it is difficult to keep track of all variables. There is an alternative to know if a program is correct, it's called [[https://en.wikipedia.org/wiki/Denotational_semantics][Denotational Semantics]]. In short, *Denotational Semantics* is an approach of formalizing the /meanings/ of a programming language, it is concerned with finding mathematical objects called domains that represent what programs do.
+* El modelo matemático
+Si eres desarrollador, estoy seguro que como muchos, te has encontrado ejecutando un intérprete en tu cabeza, mientras depurabas algún programa. El ser humano no es muy bueno en esta tarea, ya que es muy complicado llevar cuenta de todas las variables. Existen alternativas para saber si un programa es correcto, la [[https://es.wikipedia.org/wiki/Sem%C3%A1ntica_formal][Semática Formal]]. En resumen, la *Semántica Formal* es un método para formalizar el /significado/ de un lenguaje de programación, se ocupa de encontrar objetos matemáticos (llamados dominio) que representan lo que hace el programa.
 
-Opposed to /Denotational Semantics/ is [[https://en.wikipedia.org/wiki/Operational_semantics][Operational Semantics]]. /Operational Semantics/ tries to proof certain properties of a program (such as correctness) by constructing logical proofs, this is often too complex.
+Por contra a la /Semántica Formal/ está la [[https://es.wikipedia.org/wiki/Sem%C3%A1ntica_operacional][Semántica Operacional]]. Esta intenta demostrar ciertas propiedades de un programa (como su corrección), para ello construye demostraciones lógicas, aunque a menudo es complejo.
 
-By having a mathematical model (/Denotational semantics/) you can write formal proofs proving your software correctness.
+Teniendo un modelo matemático (/Semántica Formal/) es posible escribir demostraciones formales que verifiquen la corrección de un programa.
 
-* Pure & Dirty Functions
-/Pure functions/ are those who always return the same result for the same input and without side effects. For example, mathematical functions are always pure. On the contrary, /dirty functions/ have side effects.
+* Funciones Puras e Impuras
+Las /función puras/ son aquellas que devuelven siempre el mismo resultado para la misma entrada, sin efectos colaterales. Las funciones matemáticas son un buen ejemplo de funciones puras. Por el contrario, las /funciones impuras/ tienen efectos colaterales.
 
-* Examples of types
-Lets see now a few types, starting from the *Empty set*.
+* Ejemplos de Tipos
+Al fin hemos llegado al asunto de este artículo, *los tipos*.
 
-Which type would define an [[https://en.wikipedia.org/wiki/Empty_set][Empty Set]]? Think about it a moment, I've mentioned it above. In haskell this type is =Void=, in Scala =Nothing=. This Set has no elements. Previously I said there is a Category called /Set/, in which /Objects are sets/ and /Arrows are functions/. I this context, if =A= is a set, the empty set, only one function =f= exists from ={}= to =A=, the *empty function*.
+Voy a empezar desde abajo, es decir, con el *Conjunto Vacío.*
 
-Could you ever define a function that takes as parameter an object of type =Void= (/an empty set/)?, yes, you can, but you won't be able to call it, since you can't pass it a parameter which type is =Void=. However, the return type of this function could be any. This types of functions (Those who can return any type) are called *polymorphic in the return type*, here are some examples:
+¿Qué tipo definiría al [[https://es.wikipedia.org/wiki/Conjunto_vac%C3%ADo][Conjunto Vacío]]? Piensa un momento, lo mencioné un poco más arriba. En Haskell este tipo es =Void=, en Scala =Nothing=. Este conjunto no tiene ningún elemento. Anteriormente dije que hay una categoría llamada /Set/, en la que los /objetos son conjuntos/ y las /flechas son funciones./ En este contexto, si =A= es un conjunto (El conjunto vacío), solo hay una función =f= de ={}= a =A=, la [[https://en.wikipedia.org/wiki/Function_(mathematics)#Empty_function][Función Vacía]].
+
+¿Podrías definir una función que tome como parámetro un objeto de tipo =Void= (/un conjunto vacío/)? sí, pero no podrías llamarla, ya que no puedes pasarle un parámetro de tipo =Void=. Sin embargo, el tipo de retorno de esta función podría ser de cualquier tipo. Este tipo de funciones (las devuelven cualquier tipo) se llaman *polimórficas en el tipo de retorno*, ejemplos:
 
 #+BEGIN_SRC haskell
-cantCallMe :: Void -> a
+noPuedesLlamarme :: Void -> a
 #+END_SRC
 
-A lower case letter in a function's declaration in haskell means =a= can be of any type. Here are examples in scala:
+Una letra en minúscula la de declaración de una función en Haskell significa que =a= puede ser de cualquier tipo. En Scala:
 
 #+BEGIN_SRC scala
-def cantCallMe(a:Nothing) = 1
-def cantCallMe(a:Nothing) = "str"
+def noPuedesLlamarme(a:Nothing) = 1
+def noPuedesLlamarme(a:Nothing) = "str"
 #+END_SRC
 
-Moving on, what Type would be the one corresponding to the *[[https://en.wikipedia.org/wiki/Singleton_(mathematics)][Singleton Set]]*?, that is, a type with only one element (one possible value). In C++ this type is =void=, not to be confused with Haskell's =Void=, =Void= is the empty set, whereas =void= in C++ is a singleton set, because its a set with only one element, in fact, you can call functions receiving =void= arguments. An example of such functions is =int f314() { ret 314 }=, you can call this function, and it will return always 314.
-
-Although it may seems this function is not taking any arguments, it is. Because if you can't pass it an argument, you could not call it. So it is taking a dummy value with only one instance (a singleton set, in this case 314). Lets see the same example in Haskell and Scala:
+¿Cual sería el tipo asociado al *[[https://es.wikipedia.org/wiki/Conjunto_unitario][Conjunto Unitario]]*? es decir, un conjunto de un solo elemento (Un posible valor). En C++ ese tipo es =void= (No lo confundas con el =Void= de Haskell, que representa el conjunto vacío). =void= en C++ es un conjunto unitario, ya que tiene un único elemento. De hecho, puedes llamar a funciones que reciben =void= como argumento. Ejemplos de estas funciones son =int f314() { ret 314 }=, si la llamas, siempre devolverá 314. Aunque parezca no estar recibiendo ningún argumento, no es así. Si no pudieras pasarle argumento alguno no podrías llamarla. Por tanto, toma como argumento un valor ficticio con una única instancia (El conjunto Unitario, en este caso 314). El mismo ejemplo en Haskell y Scala:
 
 #+BEGIN_SRC haskell
-f314 :: () -> Integer -- from Unit to Integer
+f314 :: () -> Integer -- De Unit a Integer
 f314() = 314
 #+END_SRC
 
