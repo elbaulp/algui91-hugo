@@ -76,10 +76,10 @@ What about functions *returning =void= (C++), or =Unit= (Haskell, Scala)*? Usual
 
 #+BEGIN_SRC haskell
 fInt :: Integer -> ()
-f _ = ()
+fInt x = ()
 #+END_SRC
 
-The special declaration using =_= means it does not matter what argument you pass in to =f=, as the argument type doesn't matter, you can define the function like this:
+The special declaration using =_= means it does not matter what argument you pass in to =f=, as the argument type doesn't matter, you can define the function above in a more generic way:
 
 #+BEGIN_SRC haskell
 unit :: a -> ()

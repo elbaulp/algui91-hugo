@@ -62,44 +62,44 @@ f314 :: () -> Integer -- De Unit a Integer
 f314() = 314
 #+END_SRC
 
-Here it becomes clearer that =f314= is taking a parameter, the =Unit= type (allowing only one value). You call this function with =f314()=, which denotes more explicitly this function is taking one parameter.
+Aquí es más evidente que =f314= toma un parámetro, el tipo =Unit= (El cual permite un solo valor). Puedes llamar a esta función con =f314()=, lo cual denota más explícitamente que toma un solo parámetro.
 
-In Scala this type is also called [[http://www.scala-lang.org/api/current/scala/Unit.html][Unit]], and its unique value is denoted also by =()=, as in Haskell:
+En Scala, el tipo representando el *Conjunto Unitario* también se llama [[http://www.scala-lang.org/api/current/scala/Unit.html][Unit]], su único valor se denota con =()=, como en Haskell:
 
 #+BEGIN_SRC scala
-def f314() = 314 /* from () => Int */
+def f314() = 314 /* de () => Int */
 #+END_SRC
 
-All this may be seems like nonsense, but we are building the concepts bottom up, as you delve more deeply into Category Theory, it will gain more and more sense. For example, with this knowledge you can avoid mentioning explicitly the elements in a set, now you can reference them with Arrows (Functions in this case, since we are in the Category of Sets). Functions going *from Unit to any type A* are in one-to-one correspondence with elements in that set A.
+Aunque todo esto te parezca un sin sentido, o absurdo, el objetivo es construir los conceptos de arriba a abajo. Conforme profundices más en Teoría de Categorías, todo irá ganando sentido. Por ejemplo, con el conocimiento adquirido hasta el momento puedes evitar mencionar explícitamente elementos en un conjunto, ahora simplemente los referencias con flechas (Funciones en este caso, ya que estamos tratando con la categoría Set). Las funciones que van de *Unit a cualquier tipo A* están en correspondencia una-a-una con los elementos de dicho conjunto A.
 
-What about functions *returning =void= (C++), or =Unit= (Haskell, Scala)*? Usually this kind of functions have *side effects*, but if they are *pure* what they are doing is /mapping/ elements in a set A to a singleton, so, all elements in a set A will be mapped to the same value. Lets see a few examples:
+¿Qué pasa con las funciones que *devuelven =void= (en C++) o =Unit= (en Scala, Haskell)*? Normalmente este tipo de funciones tienen *efectos colaterales*, pero si son *puras* simplemente hacen corresponder elementos de un conjunto A a un *Conjunto Unitario*. Es decir, todos los elementos en un conjunto A irán a parar al mismo valor. Ejemplos:
 
 #+BEGIN_SRC haskell
 fInt :: Integer -> ()
-f _ = ()
+fInt x = ()
 #+END_SRC
 
-The special declaration using =_= means it does not matter what argument you pass in to =f=, as the argument type doesn't matter, you can define the function like this:
+En Haskell =_= significa que da igual el argumento que le pases a la función =f=, ya que lo va a ignorar, puedes definir la función anterior de forma más genérica:
 
 #+BEGIN_SRC haskell
 unit :: a -> ()
 unit _ = ()
 #+END_SRC
 
-It won't matter what type you pass to this function, it will always be mapped to =Unit=. Here is the scala equivalent:
+No importa qué tipo de argumento le pases a =unit=, siempre va a hacer corresponder ese argumento a =Unit=. Este es el equivalente en Scala:
 
 #+BEGIN_SRC scala
 def unit[T](a:T):Unit = ()
 #+END_SRC
 
-The next logical type to see is a *set with 2 elements,* which corresponds with =bool= in C++, =Bool= in Haskell and =Boolean= in Scala. Functions to booleans are called predicates, examples of this functions: =isDigit, isLower, isLetter= and so on.
+El siguiente paso lógico en los tipos es el *conjunto de dos elementos,* que corresponde con =bool= en C++, =Bool= en Haskell y =Boolean= en Scala. Las funciones a booleanos se llaman predicados, seguro que estás familiarizado con nombre como =isDigig, isLower, isLetter= etc.
 
-* Challenges
-Now I want to share with you two of the Challenges Bartosz proposes on his site that I solved. Please consider that they might be wrong or can be improved, I would like to hear your take on this challenges, so please comment below.
-You can see the complete list of challenges on Bartosz website (Linked in the refernces), I've only solved #1 and #6.
+* Ejercicios
+Quiero compartir contigo algunos de los ejercicios que he resuelto de los que propone Bartosz. Ten en cuenta que puedo estar equivocado, si detectas un error, o crees que algo puede mejorarse, deja un comentario.
+Puedes ver la lista de ejercicios completa en el blog de Bartosz (Enlazado en las referencias), yo solo he resuelto el 1 y el 6.
 
-- Challenge #1
-Here is what I've done, I tried to do it with an immutable Map, but couldn't get it to work:
+- Ejercicio 1
+Esta es mi solución. Intenté hacerlo con un =Map= inmutable, pero no supe hacerlo funcionar:
 
 #+BEGIN_SRC scala
 case class Memoize[A, B](f: A => B) {
@@ -107,7 +107,7 @@ case class Memoize[A, B](f: A => B) {
   def apply(x: A) = values getOrElseUpdate(x, f(x))
 }
 #+END_SRC
-you can test it with:
+Puedes probarlo con esta función:
 #+BEGIN_SRC scala
 def f(a:Int) = {
   Thread.sleep(5000)
@@ -118,7 +118,7 @@ b(10) // Takes 5 secs
 b(10) // immediate
 #+END_SRC
 
-- Challenge #6
+- Ejercicio 6
 
 <figure>
         <a href="/img/teoria-categorias-scala-tipos-funciones.png">
@@ -137,5 +137,5 @@ b(10) // immediate
         </a>
 </figure>
 
-* References
+* Referencias
 - [[https://bartoszmilewski.com/2014/11/24/types-and-functions/trackback/][Types and Functions, by Bartosz Milewski]]
