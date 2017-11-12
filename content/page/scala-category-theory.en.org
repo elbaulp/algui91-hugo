@@ -6,4 +6,4 @@ description = "Page hosting all post about Scala Category Theory series"
 +++
 
 - [[https://elbauldelprogramador.com/en/scala-category-theory-composition/][Composition]]
-- [[https://elbauldelprogramador.com/en/scala-category-theory-composition/][Types and Functions]]
+- [[https://elbauldelprogramador.com/en/scala-category-theory-types/][Types and Functions]]

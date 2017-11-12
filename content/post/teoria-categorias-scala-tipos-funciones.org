@@ -1,7 +1,7 @@
 +++
 author = "alex"
 title = "Teoría de Categorías en Scala - Tipos y funciones"
-date = "2017-11-09T11:25:11+01:00"
+date = "2017-11-12T21:06:05+01:00"
 categories = ["dev"]
 mainclass = "dev"
 image = "teoria-categorias-scala-tipos-funciones.png"
