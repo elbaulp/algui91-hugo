@@ -6,10 +6,12 @@ lastmod = "2017-11-01T19:20:32+01:00"
 categories = ["dev"]
 mainclass = "dev"
 image = "category-theory-composition.jpg"
-tags = ["scala", "category theory", "composition", "mathematics"]
+tags = ["scala", "category theory", "mathematics"]
 description = "What is a category? This post explain it using Scala and Property based Tests"
 url = "/en/scala-category-theory-composition/"
 +++
+
+{{< importPartial "structure/_ct_header.html" >}}
 
 * CHANGELOG
 /Thanks to *Jesús López* for pointing out some errors/

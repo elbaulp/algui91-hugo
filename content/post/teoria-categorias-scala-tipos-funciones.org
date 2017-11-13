@@ -1,0 +1,140 @@
++++
+author = "alex"
+title = "Teoría de Categorías en Scala - Tipos y funciones"
+date = "2017-11-13T10:02:16+01:00"
+categories = ["dev"]
+mainclass = "dev"
+image = "teoria-categorias-scala-tipos-funciones.png"
+tags = ["scala", "teoría de categorías", "matemáticas"]
+description = "¿Qué son los tipos y funciones en Teoría de Categorías? Piensa en los tipos como si fueran conjuntos."
++++
+
+{{< importPartial "structure/_ct_header.html" >}}
+
+/En el artículo anterior escribí sobre/ [[https://elbauldelprogramador.com/teoria-categorias-scala-composicion/][composición en Teoría de Categorías]], /hoy voy a hablar sobre *tipos y funciones en Teoría de Categorías.*/
+
+* Tipos y Funciones
+Se pueden componer flechas, pero /no cualquier par de flechas/, el destino de una flecha debe coincidir con el origen de la otra. En términos de programación: *El tipo de retorno de una función debe coincidir con el tipo de entrada de la siguiente función.*
+
+
+* ¿Qué son los tipos?
+Puedes pensar en un *Tipo* como *Conjuntos*, estos pueden ser /finitos/ (Booleanos, Chars) o /infinitos/ (Cadenas de texto, Enteros). En teoría de categorías existe una [[https://es.wikipedia.org/wiki/Categor%C3%ADa_de_conjuntos][Categoría de Conjuntos]], llamada *Set* (Conjunto). En esta categoría, los objetos son *conjuntos*, y las flechas *funciones de un conjunto a otro.*
+
+La definición de arriba es en /el mundo matemático/, en la realidad puedes pensar en los *conjuntos como tipos* en un lenguaje de programación y en las *funciones en el Set como funciones* en dicho lenguaje de programación. Pero hay un problema, en matemáticas una función simplemente /sabe la respuesta,/ pero en un lenguaje de programación eres tú quien debe implementar el código que calcule esa respuesta, y hay algunas funciones que nunca retornan. Como solución, muchos lenguajes de programación tienen un tipo llamado *Tipo de fondo* ([[https://en.wikipedia.org/wiki/Bottom_type][Bottom type]]), todos los tipos extienden de él. En Haskell este tipo se denota por =_|_=, en [[https://elbauldelprogramador.com/tags/scala/][scala]] por =Nothing= (Puedes [[http://www.scala-lang.org/api/current/scala/Nothing.html][ver la documentación de este tipo]]). Una función que devuelve el tipo fondo se llama *Función Parcial*.
+
+<!--more--><!--ad-->
+
+* El modelo matemático
+Si eres desarrollador, estoy seguro que como muchos, te has encontrado ejecutando un intérprete en tu cabeza, mientras depurabas algún programa. El ser humano no es muy bueno en esta tarea, ya que es muy complicado llevar cuenta de todas las variables. Existen alternativas para saber si un programa es correcto, la [[https://es.wikipedia.org/wiki/Sem%C3%A1ntica_formal][Semática Formal]]. En resumen, la *Semántica Formal* es un método para formalizar el /significado/ de un lenguaje de programación, se ocupa de encontrar objetos matemáticos (llamados dominio) que representan lo que hace el programa.
+
+Por contra a la /Semántica Formal/ está la [[https://es.wikipedia.org/wiki/Sem%C3%A1ntica_operacional][Semántica Operacional]]. Esta intenta demostrar ciertas propiedades de un programa (como su corrección), para ello construye demostraciones lógicas, aunque a menudo es complejo.
+
+Teniendo un modelo matemático (/Semántica Formal/) es posible escribir demostraciones formales que verifiquen la corrección de un programa.
+
+* Funciones Puras e Impuras
+Las /funciones puras/ son aquellas que devuelven siempre el mismo resultado para la misma entrada, sin efectos colaterales. Las funciones matemáticas son un buen ejemplo de funciones puras. Por el contrario, las /funciones impuras/ tienen efectos colaterales.
+
+* Ejemplos de Tipos
+Al fin hemos llegado al asunto de este artículo, *los tipos*.
+
+Voy a empezar desde abajo, es decir, con el *Conjunto Vacío.*
+
+¿Qué tipo definiría al [[https://es.wikipedia.org/wiki/Conjunto_vac%C3%ADo][Conjunto Vacío]]? Piensa un momento, lo mencioné un poco más arriba. En Haskell este tipo es =Void=, en Scala =Nothing=. Este conjunto no tiene ningún elemento. Anteriormente dije que hay una categoría llamada /Set/, en la que los /objetos son conjuntos/ y las /flechas son funciones./ En este contexto, si =A= es un conjunto (El conjunto vacío), solo hay una función =f= de ={}= a =A=, la [[https://en.wikipedia.org/wiki/Function_(mathematics)#Empty_function][Función Vacía]].
+
+¿Podrías definir una función que tome como parámetro un objeto de tipo =Void= (/un conjunto vacío/)? sí, pero no podrías llamarla, ya que no puedes pasarle un parámetro de tipo =Void=. Sin embargo, el tipo de retorno de esta función podría ser de cualquier tipo. Este tipo de funciones (las que devuelven cualquier tipo) se llaman *polimórficas en el tipo de retorno*, ejemplos:
+
+#+BEGIN_SRC haskell
+noPuedesLlamarme :: Void -> a
+#+END_SRC
+
+Una letra en minúscula en la declaración de una función en Haskell significa que =a= puede ser de cualquier tipo. En Scala:
+
+#+BEGIN_SRC scala
+def noPuedesLlamarme(a:Nothing) = 1
+def noPuedesLlamarme(a:Nothing) = "str"
+#+END_SRC
+
+¿Cual sería el tipo asociado al *[[https://es.wikipedia.org/wiki/Conjunto_unitario][Conjunto Unitario]]*? es decir, un conjunto de un solo elemento (Un posible valor). En C++ ese tipo es =void= (No lo confundas con el =Void= de Haskell, que representa el conjunto vacío). =void= en C++ es un conjunto unitario, ya que tiene un único elemento. De hecho, puedes llamar a funciones que reciben =void= como argumento. Ejemplos de estas funciones son =int f314() { ret 314 }=, si la llamas, siempre devolverá 314. Aunque parezca no estar recibiendo ningún argumento, no es así. Si no pudieras pasarle argumento alguno no podrías llamarla. Por tanto, toma como argumento un valor ficticio con una única instancia (El conjunto Unitario, en este caso 314). El mismo ejemplo en Haskell y Scala:
+
+#+BEGIN_SRC haskell
+f314 :: () -> Integer -- De Unit a Integer
+f314() = 314
+#+END_SRC
+
+Aquí es más evidente que =f314= toma un parámetro, el tipo =Unit= (El cual permite un solo valor). Puedes llamar a esta función con =f314()=, lo cual denota más explícitamente que toma un solo parámetro.
+
+En Scala, el tipo representando el *Conjunto Unitario* también se llama [[http://www.scala-lang.org/api/current/scala/Unit.html][Unit]], su único valor se denota con =()=, como en Haskell:
+
+#+BEGIN_SRC scala
+def f314() = 314 /* de () => Int */
+#+END_SRC
+
+Aunque todo esto te parezca un sin sentido, o absurdo, el objetivo es construir los conceptos de abajo a arriba. Conforme profundices más en Teoría de Categorías, todo irá ganando sentido. Por ejemplo, con el conocimiento adquirido hasta el momento puedes evitar mencionar explícitamente elementos en un conjunto, ahora simplemente los referencias con flechas (Funciones en este caso, ya que estamos tratando con la categoría Set). Las funciones que van de *Unit a cualquier tipo A* están en correspondencia una-a-una con los elementos de dicho conjunto A.
+
+¿Qué pasa con las funciones que *devuelven =void= (en C++) o =Unit= (en Scala, Haskell)*? Normalmente este tipo de funciones tienen *efectos colaterales*, pero si son *puras* simplemente hacen corresponder elementos de un conjunto A a un *Conjunto Unitario*. Es decir, todos los elementos en un conjunto A irán a parar al mismo valor. Ejemplos:
+
+#+BEGIN_SRC haskell
+fInt :: Integer -> ()
+fInt x = ()
+#+END_SRC
+
+En Haskell =_= significa que da igual el argumento que le pases a la función =f=, ya que lo va a ignorar, puedes definir la función anterior de forma más genérica:
+
+#+BEGIN_SRC haskell
+unit :: a -> ()
+unit _ = ()
+#+END_SRC
+
+No importa qué tipo de argumento le pases a =unit=, siempre va a hacer corresponder ese argumento a =Unit=. Este es el equivalente en Scala:
+
+#+BEGIN_SRC scala
+def unit[T](a:T):Unit = ()
+#+END_SRC
+
+El siguiente paso lógico en los tipos es el *conjunto de dos elementos,* que corresponde con =bool= en C++, =Bool= en Haskell y =Boolean= en Scala. Las funciones a booleanos se llaman predicados, seguro que estás familiarizado con nombre como =isDigit, isLower, isLetter= etc.
+
+* Ejercicios
+Quiero compartir contigo algunos de los ejercicios que he resuelto de los que propone Bartosz. Ten en cuenta que puedo estar equivocado, si detectas un error, o crees que algo puede mejorarse, *deja un comentario*.
+Puedes ver la lista de ejercicios completa en el blog de Bartosz (Enlazado en las referencias), yo solo he resuelto el 1 y el 6.
+
+- Ejercicio 1
+Esta es mi solución. Intenté hacerlo con un =Map= inmutable, pero no supe hacerlo funcionar:
+
+#+BEGIN_SRC scala
+case class Memoize[A, B](f: A => B) {
+  private[this] val values: mutable.Map[A,B] = mutable.Map.empty
+  def apply(x: A) = values getOrElseUpdate(x, f(x))
+}
+#+END_SRC
+Puedes probarlo con esta función:
+#+BEGIN_SRC scala
+def f(a:Int) = {
+  Thread.sleep(5000)
+  a*a
+}
+val b = Memoize(f)
+b(10) // Takes 5 secs
+b(10) // immediate
+#+END_SRC
+
+- Ejercicio 6
+
+<figure>
+        <a href="/img/teoria-categorias-scala-tipos-funciones.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/teoria-categorias-scala-tipos-funciones.png"
+            alt="Scala Category Theory functions and types"
+            title="Scala Category Theory functions and types"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="527">
+          </amp-img>
+        </a>
+</figure>
+
+* Referencias
+- [[https://bartoszmilewski.com/2014/11/24/types-and-functions/trackback/][Types and Functions, by Bartosz Milewski]]
