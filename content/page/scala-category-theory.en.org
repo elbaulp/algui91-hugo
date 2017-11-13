@@ -1,7 +1,7 @@
 +++
 type = "page"
 title = "Scala Category Theory - Table of Contents"
-date = "2017-11-10T19:03:54+01:00"
+date = "2017-11-13T09:05:10+01:00"
 description = "Page hosting all post about Scala Category Theory series"
 +++
 
