@@ -1,0 +1,140 @@
++++
+author = "alex"
+title = "Scala Category Theory - Types and Functions"
+date = "2017-11-13T10:00:22+01:00"
+categories = ["dev"]
+mainclass = "dev"
+image = "teoria-categorias-scala-tipos-funciones.png"
+tags = ["scala", "category theory", "mathematics"]
+description = "What are Types and Functions in the context of Category Theory? Think of Types as Sets."
+url = "/en/scala-category-theory-types"
++++
+
+{{< importPartial "structure/_ct_header.html" >}}
+
+/In the previous post I wrote an introduction to/ [[https://elbauldelprogramador.com/en/scala-category-theory-composition/][Category Theory talking about composition]], /in this post I am going to talk about *Types and functions in Category Theory.*/
+
+* Types and Functions
+You can compose arrows, but not /any two arrows/, the target object of one arrow must match the source arrow. In terms of programming languages: *a function's output type must match the input type of the next function.*
+
+* What are Types?
+You can think of a *Type* as *Sets*, they can be /finite/ (Boolean, Char) or /infinite/ (String, Integer). In Category Theory there is a [[https://en.wikipedia.org/wiki/Category_of_sets][Category of Sets]], called *Set*. In this category, objects are *sets*, and arrows are *functions from a Set to another.*
+
+The above is defined in the /mathematical world/, in the real world you could think of *sets as types* in a programming language and *functions in the Set as functions* in a programming language. The problem is, a mathematical function just /knows the answer,/ but in a programming language you must write the code of that function, and that function may never return. To solve this, many programming languages declare a Type called [[https://en.wikipedia.org/wiki/Bottom_type][Bottom type]], all types extends the /bottom type./ Haskell bottom type is denoted by =_|_=, in [[/en/tags/scala/][scala]] is denoted by =Nothing= (See [[http://www.scala-lang.org/api/current/scala/Nothing.html][Nothing API documentation]]). A function that returns bottom is called a *Partial Function*.
+
+<!--more--><!--ad-->
+
+* The Mathematical Model
+If you are a developer, I am sure you have found yourself running an interpreter in your mind while debugging. We Humans aren't very good at this, since it is difficult to keep track of all variables. There is an alternative to know if a program is correct, it's called [[https://en.wikipedia.org/wiki/Denotational_semantics][Denotational Semantics]]. In short, *Denotational Semantics* is an approach of formalizing the /meanings/ of a programming language, it is concerned with finding mathematical objects called domains that represent what programs do.
+
+Opposed to /Denotational Semantics/ is [[https://en.wikipedia.org/wiki/Operational_semantics][Operational Semantics]]. /Operational Semantics/ tries to proof certain properties of a program (such as correctness) by constructing logical proofs, this is often too complex.
+
+By having a mathematical model (/Denotational semantics/) you can write formal proofs proving your software correctness.
+
+* Pure & Impure functions
+/Pure functions/ are those who always return the same result for the same input and without side effects. For example, mathematical functions are always pure. On the contrary, /impure functions/ have side effects.
+
+* Examples of types
+Lets see now a few types, starting from the *Empty set*.
+
+Which type would define an [[https://en.wikipedia.org/wiki/Empty_set][Empty Set]]? Think about it a moment, I've mentioned it above. In haskell this type is =Void=, in Scala =Nothing=. This Set has no elements. Previously I said there is a Category called /Set/, in which /Objects are sets/ and /Arrows are functions/. I this context, if =A= is a set, the empty set, only one function =f= exists from ={}= to =A=, the [[https://en.wikipedia.org/wiki/Function_(mathematics)#Empty_function][Empty Function]].
+
+Could you ever define a function that takes as parameter an object of type =Void= (/an empty set/)?, yes, you can, but you won't be able to call it, since you can't pass it a parameter which type is =Void=. However, the return type of this function could be any. This types of functions (Those who can return any type) are called *polymorphic in the return type*, here are some examples:
+
+#+BEGIN_SRC haskell
+cantCallMe :: Void -> a
+#+END_SRC
+
+A lower case letter in a function's declaration in haskell means =a= can be of any type. Here are examples in scala:
+
+#+BEGIN_SRC scala
+def cantCallMe(a:Nothing) = 1
+def cantCallMe(a:Nothing) = "str"
+#+END_SRC
+
+Moving on, what Type would be the one corresponding to the *[[https://en.wikipedia.org/wiki/Singleton_(mathematics)][Singleton Set]]*?, that is, a type with only one element (one possible value). In C++ this type is =void=, not to be confused with Haskell's =Void=, =Void= is the empty set, whereas =void= in C++ is a singleton set, because its a set with only one element, in fact, you can call functions receiving =void= arguments. An example of such functions is =int f314() { ret 314 }=, you can call this function, and it will return always 314.
+
+Although it may seems this function is not taking any arguments, it is. Because if you can't pass it an argument, you could not call it. So it is taking a dummy value with only one instance (a singleton set, in this case 314). Lets see the same example in Haskell and Scala:
+
+#+BEGIN_SRC haskell
+f314 :: () -> Integer -- from Unit to Integer
+f314() = 314
+#+END_SRC
+
+Here it becomes clearer that =f314= is taking a parameter, the =Unit= type (allowing only one value). You call this function with =f314()=, which denotes more explicitly this function is taking one parameter.
+
+In Scala this type is also called [[http://www.scala-lang.org/api/current/scala/Unit.html][Unit]], and its unique value is denoted also by =()=, as in Haskell:
+
+#+BEGIN_SRC scala
+def f314() = 314 /* from () => Int */
+#+END_SRC
+
+All this may be seems like nonsense, but we are building the concepts bottom up, as you delve more deeply into Category Theory, it will gain more and more sense. For example, with this knowledge you can avoid mentioning explicitly the elements in a set, now you can reference them with Arrows (Functions in this case, since we are in the Category of Sets). Functions going *from Unit to any type A* are in one-to-one correspondence with elements in that set A.
+
+What about functions *returning =void= (C++), or =Unit= (Haskell, Scala)*? Usually this kind of functions have *side effects*, but if they are *pure* what they are doing is /mapping/ elements in a set A to a singleton, so, all elements in a set A will be mapped to the same value. Lets see a few examples:
+
+#+BEGIN_SRC haskell
+fInt :: Integer -> ()
+fInt x = ()
+#+END_SRC
+
+The special declaration using =_= means it does not matter what argument you pass in to =f=, as the argument type doesn't matter, you can define the function above in a more generic way:
+
+#+BEGIN_SRC haskell
+unit :: a -> ()
+unit _ = ()
+#+END_SRC
+
+It won't matter what type you pass to this function, it will always be mapped to =Unit=. Here is the scala equivalent:
+
+#+BEGIN_SRC scala
+def unit[T](a:T):Unit = ()
+#+END_SRC
+
+The next logical type to see is a *set with 2 elements,* which corresponds with =bool= in C++, =Bool= in Haskell and =Boolean= in Scala. Functions to booleans are called predicates, examples of this functions: =isDigit, isLower, isLetter= and so on.
+
+* Challenges
+Now I want to share with you two of the Challenges Bartosz proposes on his site that I solved. Please consider that they might be wrong or can be improved, I would like to hear your take on this challenges, so please comment below.
+You can see the complete list of challenges on Bartosz website (Linked in the refernces), I've only solved #1 and #6.
+
+- Challenge #1
+Here is what I've done, I tried to do it with an immutable Map, but couldn't get it to work:
+
+#+BEGIN_SRC scala
+case class Memoize[A, B](f: A => B) {
+  private[this] val values: mutable.Map[A,B] = mutable.Map.empty
+  def apply(x: A) = values getOrElseUpdate(x, f(x))
+}
+#+END_SRC
+you can test it with:
+#+BEGIN_SRC scala
+def f(a:Int) = {
+  Thread.sleep(5000)
+  a*a
+}
+val b = Memoize(f)
+b(10) // Takes 5 secs
+b(10) // immediate
+#+END_SRC
+
+- Challenge #6
+
+<figure>
+        <a href="/img/teoria-categorias-scala-tipos-funciones.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/teoria-categorias-scala-tipos-funciones.png"
+            alt="Scala Category Theory functions and types"
+            title="Scala Category Theory functions and types"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="527">
+          </amp-img>
+        </a>
+</figure>
+
+* References
+- [[https://bartoszmilewski.com/2014/11/24/types-and-functions/trackback/][Types and Functions, by Bartosz Milewski]]

@@ -6,9 +6,11 @@ lastmod = "2017-11-01T19:20:42+01:00"
 categories = ["dev"]
 mainclass = "dev"
 image = "category-theory-composition.jpg"
-tags = ["scala", "teoría de categorías", "composición", "matemáticas"]
+tags = ["scala", "teoría de categorías", "matemáticas"]
 description = "¿Qué es una categoría? En este artículo intentaré explicarlo usando scala y Tests basados en propiedades"
 +++
+
+{{< importPartial "structure/_ct_header.html" >}}
 
 * CHANGELOG
 /Gracias a Jesús López por comentar en este artículo y corregir unos cuantos errores./
