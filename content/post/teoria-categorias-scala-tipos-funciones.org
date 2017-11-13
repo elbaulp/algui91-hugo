@@ -1,13 +1,12 @@
 +++
 author = "alex"
 title = "Teoría de Categorías en Scala - Tipos y funciones"
-date = "2017-11-12T21:06:05+01:00"
+date = "2017-11-13T10:02:16+01:00"
 categories = ["dev"]
 mainclass = "dev"
 image = "teoria-categorias-scala-tipos-funciones.png"
 tags = ["scala", "teoría de categorías", "matemáticas"]
 description = "¿Qué son los tipos y funciones en Teoría de Categorías? Piensa en los tipos como si fueran conjuntos."
-draft = true
 +++
 
 {{< importPartial "structure/_ct_header.html" >}}

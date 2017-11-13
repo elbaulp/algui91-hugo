@@ -1,13 +1,12 @@
 +++
 author = "alex"
 title = "Scala Category Theory - Types and Functions"
-date = "2017-11-09T11:25:11+01:00"
+date = "2017-11-13T10:00:22+01:00"
 categories = ["dev"]
 mainclass = "dev"
 image = "teoria-categorias-scala-tipos-funciones.png"
 tags = ["scala", "category theory", "mathematics"]
 description = "What are Types and Functions in the context of Category Theory? Think of Types as Sets."
-draft = true
 url = "/en/scala-category-theory-types"
 +++
 
