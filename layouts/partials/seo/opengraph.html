@@ -43,7 +43,7 @@
 <meta property="article:author" content="http://facebook.com/elbaulp" />
 
 <!-- Social: Google+ / Schema.org  -->
-{{ with .Date}}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05+0700" }}" />{{ end }}
+{{ with .Date}}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05-0700" }}" />{{ end }}
 {{ with .Next}}<link rel="next" href="{{ .Permalink }}" title="{{ .Title }}" />{{end}}
 {{ with .Prev}}<link rel="prev" href="{{ .Permalink }}" title="{{ .Title }}" />{{end}}
 
