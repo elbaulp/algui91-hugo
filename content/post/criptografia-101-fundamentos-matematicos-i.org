@@ -1,7 +1,8 @@
 +++
 author = "alex"
-title = "Criptografía 101: Fundamentos matemáticos (I)"
+title = "Criptografía 101: Fundamentos matemáticos (I) - Aritmética modular"
 date = "2017-10-28T11:23:44+02:00"
+lastmod = "2017-11-15T19:00:15+01:00"
 categories = ["seguridad", "criptografía"]
 mainclass = "seguridad"
 image = "crypto-101.jpg"

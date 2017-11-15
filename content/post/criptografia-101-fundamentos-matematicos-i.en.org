@@ -1,7 +1,8 @@
 +++
 author = "alex"
-title = "Cryptography 101: Mathematical basis (I)"
+title = "Cryptography 101: Mathematical basis (I) - Modular arithmetic"
 date = "2017-10-28T11:23:55+02:00"
+lastmod = "2017-11-15T19:00:45+01:00"
 categories = ["security", "cryptography"]
 mainclass = "security"
 image = "crypto-101.jpg"
