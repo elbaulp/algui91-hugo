@@ -1,0 +1,146 @@
++++
+author = "alex"
+title = "Criptografia 101 Fundamentos Matematicos Iii"
+date = "2017-11-15T17:59:46+01:00"
+categories = []
+mainclass = "articulos"
+image = ""
+tags = []
+description = ""
+draft = true
++++
+
+* Cálculo de potencias
+   :PROPERTIES:
+   :CUSTOM_ID: cálculo-de-potencias
+   :END:
+
+Queremos ahora, dados =a=, =m= y =n= calcular $$a^m\bmod n$$, pero de
+forma eficiente, para ello definiremos el teorema de Fermat:
+
+#+BEGIN_QUOTE
+  Sean $$a,n \in \mathcal{N}$$, si $$gcd(a,n) = 1$$ a\^{\phi(n)}
+  \equiv 1\pmod n$$
+#+END_QUOTE
+
+Veamos algunos ejemplos. En $$Z_5,\ \phi(5) = 4$$, luego, por el teorema
+de Fermat, tenemos que $$1^{4} = 2^{4} = 3^{4} = 4^{4} = 1$$. En
+$$Z_{53}$$, $$\phi(53) = 52$$, para calcular $$7^{111}$$, como
+$$gcd(7, 53) = 1$$ entonces $$ 7^{52} = 1 $$, luego $$7^{104} = 1$$ y
+por tanto $$7^{111} = 7^7 = 29$$.
+
+Un caso particular del teorema de Fermat, es el teorema Pequeño de
+Fermat:
+
+#+BEGIN_QUOTE
+  Sea $$p$$ primo $$a \in \mathcal{N}\ :\ 1 \leq a \leq p-1$$ entonces
+  $$a^{p-1} \equiv 1\pmod p$$
+#+END_QUOTE
+
+Como consecuencia a esto se tiene que $$a^{p} \equiv a\pmod p$$. Veamos
+algunos ejemplos:
+
+Calculemos las unidades de $$Z_4$$, que son
+$$\mathcal{U}(Z_4) = \{1,3\}$$, sabemos que únicamente tiene dos
+unidades, porque $$\phi(4) = \phi(2^2) = 2$$, y particularmente son el 1
+y el 3 porque cumplen que $$1^2 = 3^2 = 1$$. Más arriba vimos que en
+$$Z_5,\ \phi(5) = 4$$ y por tanto todos sus elementos tienen inverso,
+comprobemos que también se cumple una de las variantes del teorema
+Pequeño de Fermat, en $$Z_5$$. El teorema dice
+$$a^{p} \equiv a\pmod p$$, como vemos, en $$Z_5$$,
+$$0^5 = 0, 1^5 = 1, 2^5 = 2, 3^5 = 3, 4^5 = 4$$
+
+** Algoritmo para el cálculo de potencias
+    :PROPERTIES:
+    :CUSTOM_ID: algoritmo-para-el-cálculo-de-potencias
+    :END:
+
+El código fuente está disponible en
+[[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej3.py][github]]
+
+** TODO, explicar algo del código
+   :PROPERTIES:
+   :CUSTOM_ID: todo-explicar-algo-del-código
+   :END:
+
+#+BEGIN_SRC python
+
+    def powerModInt(a,k,n):
+      """
+          @input a in $Z_n$ and integers 0 <= k <= n
+          @output a to the power of k mod n ($a^k mod n$)
+      """
+      b = 1
+      if k == 0:
+          return b
+      A = a
+      # If the least significant bit is 1, $a^1 = a$
+      if 1 & k:
+          b = a
+      k = k >> 1
+      while k:
+          A = (A**2) % n
+          if 1 & k:
+              b = (b * A) % n
+          k = k >> 1
+      return b
+#+END_SRC
+
+El algoritmo es sencillo, recibe un número entero y otros dos números,
+$$k,n > 0$$ y calcula $$a^{k \pmod n}$$. Si $$k==0$$ no es necesario
+hacer ningún cálculo y simplemente devolvemos $$1$$, ya que cualquier
+cosa elevada a cero es $$1$$. La siguiente comprobación que se hace es
+mirar si $$
+
+** Orden
+   :PROPERTIES:
+   :CUSTOM_ID: orden
+   :END:
+
+Definiremos el orden de un número como $$\begin{equation}
+ord(a) = min(k\ \in \mathcal{N}\backslash 0\:a^k=1)
+\end{equation}
+$$ es decir, el número minimo al que hay que elevar $$a$$ para que sea
+igual a 1. Así, por ejemplo, en $$Z_5$$, tenemos los siguientes órdenes
+para sus elementos:
+
+$$1^4 = 1; ord(1) = 1$$, ya que el número mínimo al que hay que elevar 1
+para que de 1, es 1.
+
+$$2^4 = 1; ord(2) = 4$$
+
+$$3^4 = 1; ord(3) = 4$$
+
+$$4^4 = 1; ord(4) = 2$$, ya que el número minimo al que hay que elevar 4
+para que de 1, es 2.
+
+** Subgrupos y primitivos
+   :PROPERTIES:
+   :CUSTOM_ID: subgrupos-y-primitivos
+   :END:
+
+#+BEGIN_QUOTE
+  Sea $$a$$ un elemento de $$Z_p$$, por ejemplo,
+  $$<a> = \{ a^k:\ k\in N \}$$ es un subgrupo generado por $$a$$.
+#+END_QUOTE
+
+Por ejemplo, los subgrupos de las unidades de $$Z_5$$ son:
+
+$$<1> = \{ 1 \}$$, ya que $$\forall k \in Z, 1^k = 1 $$
+$$<2> = \{ 2^0 = 1, 2^1 = 2, 2^2 = 4, 2^3 = 3\} = \{ 1, 2, 3, 4 \}$$
+$$<3> = \{ 3^0, 3^1, 3^2, 3^3\} = \{ 1, 2, 3, 4 \}$$
+$$<4> = \{ 4^0, 4^1, 4^2, 4^3 \} = \{ 1, 4 \}$$
+
+Si nos fijamos, tanto $$<2>$$ como $$<3>$$ generan por completo $$Z_5$$,
+éstos elementos se llaman primitivos. Particularmente, $$<a>$$ será
+primitivo si su orden es máximo, en el caso que nos ocupa, vemos que es
+cierto, puesto que $$\phi(5)=4, ord(2) = ord(3) = 4$$, que es el máximo.
+Además, el orden de un número establece número de elementos que genera
+el subgrupo, como $$ord(2) = ord(3) = 4$$, sabemos que éstos subgrupos
+generan 4 elementos, que son el número de unidades de $$Z_5$$, y por
+tanto, lo generan completamente. De igual manera, vimos un poco más
+arriba que $$ord(4) = 2$$, y podemos comprobar $$4$$ genera únicamente
+dos elementos.
+
+** Referencias
+{{< importPartial "structure/_cript_footer.html" >}}
