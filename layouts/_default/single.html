@@ -7,9 +7,6 @@
     {{ if eq .Type "post" }}
        {{ partial "structure/author" (index .Site.Data.authors $.Params.author) }}
     {{ end }}
-    {{ if eq .Type "post" }}
-       <p>{{ T "typo" | safeHTML }}</p>
-    {{ end }}
     {{ if not .Params.notoc }}
         {{ with .TableOfContents }}
            <div id="toc">
@@ -20,6 +17,9 @@
     {{ end }}
     {{ $ad := partial "structure/ad" . }}
     {{ replace .Content "<!--ad-->" $ad | safeHTML }}
+    {{ if eq .Type "post" }}
+       <p>{{ T "typo" | safeHTML }}</p>
+    {{ end }}
     {{ partial "structure/share" . }}
     {{ partial "structure/cattags" . }}
     {{ partial "structure/nextprev" . }}
