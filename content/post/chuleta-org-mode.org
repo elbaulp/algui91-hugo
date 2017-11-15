@@ -166,7 +166,7 @@ Se pueden crear listas de tareas compuestas de *varios elementos*, y con =C-c C-
 - =/Cursiva/= => /Cursiva/.
 - ==code== y =~verbatim~= ->  =code=, ~verbatim~.
 - =+tachar+= -> +tachar+.
-- =_subrayar_= -> _subrayar_
+- =_subrayar_=
 
 * Imágenes y tablas
 Sintáxis de las tablas:

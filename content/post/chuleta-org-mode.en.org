@@ -166,7 +166,7 @@ You can have a composed list of /TODO/ items, and can toggle it with =C-c C-c=, 
 - =/italics/= => /italics/.
 - ==code== and =~verbatim~= ->  =code=, ~verbatim~.
 - =+strike-through+= -> +strike-through+.
-- =_underline_= -> _underline_
+- =_underline_=
 
 * Images & Tables
 Tables have this syntax:
