@@ -14,7 +14,8 @@ tags:
 - privacidad
 - Tor
 title: Logrando el anonimato con Tor (Parte 1)
-elements: [amp-youtube]
+amp:
+   elements: [amp-youtube]
 ---
 
 * Logrando el anonimato con Tor (Parte 1)
