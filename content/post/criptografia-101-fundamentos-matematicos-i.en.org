@@ -62,6 +62,8 @@ The number of units in \(\mathbb Z_n\) can be computed with *Euler's function* \
 - Given two integers a,b: \( \phi(ab) = \phi(a)\phi(b)\ \text{iff}\ gcd(a, b) = 1\).
 - Given \(p\) prime: \(\phi(p^n) = p^n - p^{n-1}\).
 
+<!--more--><!--ad-->
+
 ** Practical example
 Lets see *an example*. \(\#\mathcal{U}(\mathbb Z_5) = 4\), because all its elements have inverse (1,2,3,4), and \(\phi(5) = 4\), therefore \(\mathbb Z_5\) *is a field*. However, \(\#\mathcal{U}(\mathbb Z_{15}) = 8\), because \(\phi(15) = \phi(3)\phi(5) = 2\cdot 4 = 8\). The units of \(\mathbb Z_{15}\) are 1,2,4,7,8,11,13,14.
 

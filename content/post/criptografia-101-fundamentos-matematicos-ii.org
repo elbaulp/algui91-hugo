@@ -17,10 +17,10 @@ draft = true
 Queremos ahora, dados =a=, =m= y =n= calcular \(a^m\bmod n\), pero de forma eficiente, para ello definiremos el teorema de Fermat:
 
 #+BEGIN_QUOTE
-Sean \(a,n \in \mathbb N\), si \(gcd(a,n) = 1\), \(a^{\phi(n)} \equiv 1\pmod n\)
+Sean \(a,n \in \mathbb N\), si \(mcd(a,n) = 1\), \(a^{\phi(n)} \equiv 1\pmod n\)
 #+END_QUOTE
 
-Veamos algunos ejemplos. En \(\mathbb Z_5,\ \phi(5) = 4\), luego, por el teorema de Fermat, tenemos que \(1^{4} = 2^{4} = 3^{4} = 4^{4} = 1\). En \(\mathbb Z_{53}, \phi(53) = 52\), para calcular \(7^{111}\), como \(gcd(7, 53) = 1\) entonces \( 7^{52} = 1\), luego \(7^{104} = 1\) y por tanto \(7^{111} = 7^7 = 29\).
+Veamos algunos ejemplos. En \(\mathbb Z_5,\ \phi(5) = 4\), luego, por el teorema de Fermat, tenemos que \(1^{4} = 2^{4} = 3^{4} = 4^{4} = 1\). En \(\mathbb Z_{53}, \phi(53) = 52\), para calcular \(7^{111}\), como \(mcd(7, 53) = 1\) entonces \( 7^{52} = 1\), luego \(7^{52\cdot 2} = 7^{104} = 1\) y por tanto \(7^{111} = 7^7 = 29\).
 
 Un caso particular del teorema de Fermat, es el teorema Pequeño de Fermat:
 
@@ -35,7 +35,6 @@ Calculemos las unidades de \(\mathbb Z_4\), que son \(\mathcal U(\mathbb Z_4) = 
 ** Algoritmo para el cálculo de potencias
 El código fuente está disponible en [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej3.py][github]]
 
-** TODO, explicar algo del código
 #+BEGIN_SRC python
 def powerModInt(a,k,n):
   """
@@ -58,7 +57,12 @@ def powerModInt(a,k,n):
   return b
 #+END_SRC
 
-El algoritmo es sencillo, recibe un número entero y otros dos números, k,n > 0 y calcula \(a^{k \pmod n}\). Si k==0 no es necesario hacer ningún cálculo y simplemente devolvemos 1, ya que cualquier cosa elevada a cero es 1. La siguiente comprobación que se hace es mirar si
+Este algoritmo se basa en el hecho de que se puede representar el exponente en representación binaria. La representación binaria de k viene dada por \(\sum_{i=0}^t k_i 2^i\), donde cada \(k_i\in \{0, 1\}\). Quizá con esta notación no te resulte familiar, pero no es más que la forma abreviada de la más conocida, por ejemplo, 5 en binario es \(1\cdot 2^0 + 0\cdot 2^1 + 1\cdot 2^2\). Sabiendo esto, entonces
+
+$$a^k = \prod_{i=0}^t a^{k_i 2^i} = (a^{2^0})^{k_0}(a^{2^1})^{k_1}\cdots(a^{2^t})^{k_t}$$
+
+
+El algoritmo es sencillo, recibe un número entero y otros dos números, k,n > 0 y calcula \(a^{k \pmod n}\). Si k==0 no es necesario hacer ningún cálculo y simplemente devolvemos 1, ya que cualquier cosa elevada a cero es 1. La siguiente comprobación que se hace es mirar si =k= es impar,
 
 ** Orden
 Definiremos el orden de un número como
