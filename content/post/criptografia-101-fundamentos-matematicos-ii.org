@@ -33,7 +33,44 @@ Como consecuencia a esto se tiene que \(a^{p} \equiv a\pmod p\). Veamos algunos 
 Calculemos las unidades de \(\mathbb Z_4\), que son \(\mathcal U(\mathbb Z_4) = \{1,3\}\), sabemos que únicamente tiene dos unidades, porque \(\phi(4) = \phi(2^2) = 2\), y particularmente son el 1 y el 3, porque cumplen que \(1^2 = 3^2 = 1\). Más arriba vimos que en \(\mathbb Z_5,\ \phi(5) = 4\) y por tanto todos sus elementos tienen inverso, comprobemos que también se cumple una de las variantes del teorema Pequeño de Fermat en \(\mathbb Z_5\). El teorema dice \(a^{p} \equiv a\pmod p\), como vemos, en \(Z_5, 0^5 = 0, 1^5 = 1, 2^5 = 2, 3^5 = 3, 4^5 = 4\).
 
 ** Algoritmo para el cálculo de potencias
-El código fuente está disponible en [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej3.py][github]]
+Uno de los algoritmos usados para el cálculo de potencias modulares es el siguiente:
+
+- Entrada: \(a\in\mathbb Z_n\), un entero \(0 \leq k < n\) cuya representación binaria es \(\sum_{i=0}^t k_i 2^i\).
+- Salida: \(a^k \pmod n\)
+
+#+BEGIN_SRC
+  1. Fijar b = 1, Si k = 0 devolver b.
+  2. A = a
+  3. Si k_0 = 1 entonces b = a
+  4. Para cada i desde 1 a t repetir:
+     1. A = A * A modulo n.
+     2. Si k_i = 1 entonces b = A * b modulo n
+  5. Devolver b
+#+END_SRC
+
+Este algoritmo se basa en el hecho de que se puede representar el exponente en representación binaria. La representación binaria de k viene dada por \(\sum_{i=0}^t k_i 2^i\), donde cada \(k_i\in \{0, 1\}\). Quizá con esta notación no te resulte familiar, pero no es más que la forma abreviada de la más conocida, por ejemplo, 5 en binario es \(1\cdot 2^0 + 0\cdot 2^1 + 1\cdot 2^2\). Sabiendo esto, entonces
+
+$$a^k = \prod_{i=0}^t a^{k_i 2^i} = (a^{2^0})^{k_0}(a^{2^1})^{k_1}\cdots(a^{2^t})^{k_t}$$
+
+Si analizas un poco la expresión de arriba, cuando \(k_i = 0\) todo el término \((a^{2^i})^{k_i} = 1\), lo cual implica que ese cálculo no va a cambiar el resultado, porque estás multiplicando por 1.
+
+Con este apunte, leer el algoritmo es sencillo. Recibe un número entero y otros dos números, k,n > 0 y calcula \(a^{k \pmod n}\). Si k==0 no es necesario hacer ningún cálculo y simplemente devolvemos 1, ya que cualquier cosa elevada a cero es 1. En el paso 3, si \(k_0\) (el bit menos significativo de la representación binaria) es 1, luego \((a^{2^0})^{k_0} = a\), de lo contrario b = 1, ya que estás elevando a 0, y cualquier número elevado a 0 es 1. El siguiente paso es iterar sobre los bits restantes de k, es decir, desde \(k_1 \dots k_t\). Básicamente se repite el mismo proceso, se eleva al cuadrado A (corresponde con esta parte de la expresión \((a^2\)), y si el bit \(k_i = 1\) multiplicas \((a^{2^i})^{1}\) por A, si \(k_i = 0\) no hace falta hacer nada, ya que toda la expresión \((a^{2^i})^{0} = 1\). Una vez recorrida la representación binaria de k, devolvemos b.
+
+Para entenderlo mejor, imagina que quieres calcular \(2^5\pmod 5\). El primer paso es representar el exponente en binario, \(5 = 101_b\), sigue los pasos del algoritmo, donde a = 2, k = 5 y n = 5:
+
+#+BEGIN_SRC
+b = 1
+A = 2
+es k_0 == 1? sí -> b = 2
+Desde k_1 hasta k_t:
+   A = A * A mod n -> 2 * 2 mod 5 = 4
+   es k_1 == 1? no
+   A = A * A mod n -> 4 * 4 mod 5 = 1
+   es k_2 == 1? sí -> b = A * b mod n -> b = 1 * 2 mod 5 = 2
+devuelve b, que es 2
+#+END_SRC
+
+Espero que con este ejemplo te haya quedado claro cómo funciona el algoritmo. Lo he implementado en python, el código fuente está disponible en [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej3.py][github]]:
 
 #+BEGIN_SRC python
 def powerModInt(a,k,n):
@@ -57,22 +94,15 @@ def powerModInt(a,k,n):
   return b
 #+END_SRC
 
-Este algoritmo se basa en el hecho de que se puede representar el exponente en representación binaria. La representación binaria de k viene dada por \(\sum_{i=0}^t k_i 2^i\), donde cada \(k_i\in \{0, 1\}\). Quizá con esta notación no te resulte familiar, pero no es más que la forma abreviada de la más conocida, por ejemplo, 5 en binario es \(1\cdot 2^0 + 0\cdot 2^1 + 1\cdot 2^2\). Sabiendo esto, entonces
-
-$$a^k = \prod_{i=0}^t a^{k_i 2^i} = (a^{2^0})^{k_0}(a^{2^1})^{k_1}\cdots(a^{2^t})^{k_t}$$
-
-
-El algoritmo es sencillo, recibe un número entero y otros dos números, k,n > 0 y calcula \(a^{k \pmod n}\). Si k==0 no es necesario hacer ningún cálculo y simplemente devolvemos 1, ya que cualquier cosa elevada a cero es 1. La siguiente comprobación que se hace es mirar si =k= es impar,
-
 ** Orden
 Definiremos el orden de un número como
 \[ord(a) = min(k\ \in \mathbb N\backslash 0\:a^k=1)\]
-es decir, el número minimo al que hay que elevar a para que sea igual a 1. Así, por ejemplo, en \(\mathbb Z_5\), tenemos los siguientes órdenes para sus elementos:
+es decir, el número minimo al que hay que elevar =a= para que sea igual a 1. Así, por ejemplo, en \(\mathbb Z_5\), tenemos los siguientes órdenes para sus elementos:
 
-- \(1^4 = 1; ord(1) = 1\), ya que el número mínimo al que hay que elevar 1 para que de 1, es 1.
+- \(1^1 = 1; ord(1) = 1\), ya que el número mínimo al que hay que elevar  1para que de 1, es 1.
 - \(2^4 = 1; ord(2) = 4\)
 - \(3^4 = 1; ord(3) = 4\)
-- \(4^4 = 1; ord(4) = 2\), ya que el número minimo al que hay que elevar 4 para que de 1, es 2.
+- \(4^2 = 1; ord(4) = 2\), ya que el número minimo al que hay que elevar 4 para que de 1, es 2.
 
 ** Subgrupos y primitivos
 #+BEGIN_QUOTE
