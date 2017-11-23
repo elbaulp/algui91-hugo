@@ -4,7 +4,7 @@ title = "Criptografía 101 - Fundamentos Matematicos (II) - Cálculo de Potencia
 date = "2017-11-15T17:59:46+01:00"
 categories = ["seguridad", "criptografía"]
 mainclass = "seguridad"
-image = ""
+image = "criptografia-101-fundamentos-matematicos-ii-powermodint.png"
 tags = ["aritmética modular", "matemáticas", "python"]
 description = "Segundo artículo del curso de Introducción a la Criptografia, esta vez explicaré cómo calcular potencias en aritmética modular."
 math = true
@@ -69,6 +69,26 @@ Desde k_1 hasta k_t:
    es k_2 == 1? sí -> b = A * b mod n -> b = 1 * 2 mod 5 = 2
 devuelve b, que es 2
 #+END_SRC
+
+He intentado hacer una representación visual de cómo funciona, supón que quieres calcular \(2^7 \pmod 5\):
+
+<figure>
+        <a href="/img/criptografia-101-fundamentos-matematicos-ii-powermodint.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/criptografia-101-fundamentos-matematicos-ii-powermodint.png"
+            alt="Calcular potencias modulares criptografía"
+            title="Calcular potencias modulares Criptografía"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="330">
+          </amp-img>
+        </a>
+        <figcaption>Calcular potencias modulares cripgografía</figcaption>
+</figure>
 
 Espero que con este ejemplo te haya quedado claro cómo funciona el algoritmo. Lo he implementado en python, el código fuente está disponible en [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej3.py][github]]:
 
