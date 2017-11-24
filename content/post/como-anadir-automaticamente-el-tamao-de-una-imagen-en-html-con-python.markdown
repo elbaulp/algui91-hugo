@@ -4,7 +4,7 @@ categories:
 - dev
 mainclass: dev
 date: 2016-06-30 10:59:47
-lastmod: 2017-09-25T14:33:23+01:00
+lastmod: 2017-11-24T16:23:42+01:00
 description: "Pequeño script en python para añadir el tamaño a una etiqueta  img"
 image: ComoAnadirAutomaticamenteElTamanoDeUnaImagenenHTMLConPython.png
 introduction: "Pequeño script en python para añadir el tamaño a una etiqueta  img"
@@ -12,6 +12,7 @@ tags:
 - python
 - parser
 title: "Cómo Añadir Automáticamente El Tamaño De Una Imagen en HTML Con  Python"
+notoc: true
 ---
 
 Hace poco me encontré con el problema de añadir a todas las etiquetas de imágenes del blog los atributos de tamaño (Altura y anchura). Hacerlo a mano era inviable debido a la cantidad de artículos. Así que pensé que una buena forma sería hacerlo con [python](/tags/python/). El razonamiento es el siguiente:
@@ -45,7 +46,6 @@ for fname in glob.glob(path):
     # Creamos un objeto BeautifulSoup para parsear el fichero
     soup = BeautifulSoup(f)
     f.close()
-
     # Para cada etiqueta de imagen que encontremos en el fichero
     for img in soup.findAll('img'):
         if img != None:
@@ -60,7 +60,6 @@ for fname in glob.glob(path):
                     img['height'] = str(height) + "px"
             except KeyError:
                 pass
-
     # Guardamos el fichero modificado
     with open(fname, "wb") as file:
         file.write(str(soup))
