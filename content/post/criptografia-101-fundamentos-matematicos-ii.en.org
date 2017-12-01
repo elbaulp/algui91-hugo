@@ -1,0 +1,165 @@
++++
+author = "alex"
+title = "Cryptography 101 - Mathematical Basis (II) - Modular exponentiation"
+date = "2017-11-25T12:51:10+01:00"
+categories = ["security", "cryptography"]
+mainclass = "security"
+image = "criptografia-101-fundamentos-matematicos-ii-powermodint.png"
+tags = ["modular arithmetic", "mathematics", "python"]
+description = "Second post of the Cryptography 101 course I am writing. In this post you will learn how to compute Modular exponentiation"
+math = true
+draft = true
++++
+
+{{< importPartial "structure/_cript_header.html" >}}
+
+* Modular Exponentiation
+Given =a=, =m= and =n= now you want to compute \(a^m\bmod n\) in a efficient way, to do it, let first define [[https://en.wikipedia.org/wiki/Fermat's_little_theorem][Fermat's Theorem]]:
+
+#+BEGIN_QUOTE
+Given \(a,n \in \mathbb N\), if \(gcd(a,n) = 1\), \(a^{\phi(n)} \equiv 1\pmod n\)
+#+END_QUOTE
+
+Here are some examples. In \(\mathbb Z_5,\ \phi(5) = 4\), Fermat's theorem says then that \(1^{4} = 2^{4} = 3^{4} = 4^{4} = 1\). In \(\mathbb Z_{53}, \phi(53) = 52\), in order to compute \(7^{111}\), as \(mcd(7, 53) = 1\) then \( 7^{52} = 1\), so \(7^{52\cdot 2} = 7^{104} = 1\) and therefore \(7^{111} = 7^7 = 29\).
+
+A particular case of Fermat's Theorem is /Fermat's Little Theorem:/
+
+#+BEGIN_QUOTE
+Given p prime, \(a \in \mathbb N:\ 1 \leq a \leq p-1\) then \(a^{p-1} \equiv 1\pmod p\)
+#+END_QUOTE
+
+As consequence, now you have \(a^{p} \equiv a\pmod p\). Let see it with more examples:
+
+\(\mathbb Z_4\) units are \(\mathcal U(\mathbb Z_4) = \{1,3\}\), it has only two units because \(\phi(4) = \phi(2^2) = 2\), particularly those units are 1 and 3, because they satisfy \(1^2 = 3^2 = 1\). Above you saw that in \(\mathbb Z_5,\ \phi(5) = 4\), and therefore all its elements [[https://elbauldelprogramador.com/en/cryptography-101-math-basis-i/#computing-modular-inverses][have inverse]]. Lets check one of Fermat's Little theorem variants also holds in \(\mathbb Z_5\). The theorem states \(a^{p} \equiv a\pmod p\), and as you can see, in \(Z_5, 0^5 = 0, 1^5 = 1, 2^5 = 2, 3^5 = 3, 4^5 = 4\).
+
+** An algorithm to compute modular exponentiation
+There is more than one algorithm to compute modular exponentiation, here is one:
+
+- Input: \(a\in\mathbb Z_n\), an integer \(0 \leq k < n\) which binary representation is \(\sum_{i=0}^t k_i 2^i\).
+- Output: \(a^k \pmod n\)
+
+#+BEGIN_SRC
+  1. Set b = 1, If k = 0 return b.
+  2. A = a
+  3. If k_0 = 1 then b = a
+  4. For each i from 1 to t:
+     1. A = A * A modulo n.
+     2. If k_i = 1 then b = A * b modulo n
+  5. return b
+#+END_SRC
+
+This algorithm is based in the fact that the exponent can be represented in binary. The binary representation of k is given by \(\sum_{i=0}^t k_i 2^i\), in which each \(k_i\in \{0, 1\}\). It is possible this representation does not sound familiar to you, but is nothing more that an abbreviated form of the more common one, for example, lets represent 5 in binary, which is \(1\cdot 2^0 + 0\cdot 2^1 + 1\cdot 2^2\). Knowing this, then:
+
+$$a^k = \prod_{i=0}^t a^{k_i 2^i} = (a^{2^0})^{k_0}(a^{2^1})^{k_1}\cdots(a^{2^t})^{k_t}$$
+
+If you analyze the expression above, when \(k_i = 0\), the term \((a^{2^i})^{k_i} = 1\), which implies this term is not going to change the final result, because is multiplying by 1.
+
+Now read the algorithm becomes easier. It takes an integer and other two numbers, k,n > 0 and computes \(a^{k} \pmod n\). If k==0 is not necessary compute anything and it returns 1, because any number to the power of 0 is 1. In step 3, if \(k_0\) (the least significant bit) is 1, therefore \((a^{2^0})^{k_0} = a\), conversely b = 1 as you are raising to 0, and any number to the power of 0 is 1. Next step iterates over the remaining bits of k, that is \(k_1 \dots k_t\). Basically this loop do the same process described above. Compute A squared (corresponding to this part of the expression \((a^2\))), if the bit \(k_i = 1\) multiply \((a^{2^i})^{1}\) by =b=, if \(k_i = 0\) nothing is done, because the whole expression \((a^{2^i})^{0} = 1\). When the loops ends, b is returned.
+
+In order to let you understand this process better, imagine you want to compute \(2^5\pmod 5\). First step is represent the exponent in binary form, \(5 = 101_b\), follow the steps, where a = 2, k = 5 and n = 5.
+
+#+BEGIN_SRC
+b = 1
+A = 2
+is k_0 == 1? yes -> b = 2
+from k_1 to k_t:
+   A = A * A mod n -> 2 * 2 mod 5 = 4
+   is k_1 == 1? no
+   A = A * A mod n -> 4 * 4 mod 5 = 1
+   is k_2 == 1? yes -> b = A * b mod n -> b = 1 * 2 mod 5 = 2
+return b, which is 2
+#+END_SRC
+
+I've tried to draw two graphics representations to help you visualize the process, lets say you want to compute \(2^7 \pmod 5\) and \(2^{11} \pmod 5\):
+
+<figure>
+        <a href="/img/criptografia-101-fundamentos-matematicos-ii-powermodint.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/criptografia-101-fundamentos-matematicos-ii-powermodint.png"
+            alt="Computing Modular Exponentiation"
+            title="Computing Modular Exponentiation"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="330">
+          </amp-img>
+        </a>
+        <figcaption>Computing modular exponentiation</figcaption>
+</figure>
+
+<figure>
+        <a href="/img/criptografia-101-fundamentos-matematicos-ii-powermodint2.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/criptografia-101-fundamentos-matematicos-ii-powermodint2.png"
+            alt=""
+            title=""
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="206">
+          </amp-img>
+        </a>
+</figure>
+
+I hope this examples have let you understand better how the algorithm works. I've implemented it in python, source code is available on [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej3.py][github]]:
+
+#+BEGIN_SRC python
+def powerModInt(a,k,n):
+  """
+      @input a in $Z_n$ and integers 0 <= k <= n
+      @output a to the power of k mod n ($a^k mod n$)
+  """
+  b = 1
+  if k == 0:
+      return b
+  A = a
+  # If the least significant bit is 1, $a^1 = a$
+  if 1 & k:
+      b = a
+  k = k >> 1
+  while k:
+      A = (A**2) % n
+      if 1 & k:
+          b = (b * A) % n
+      k = k >> 1
+  return b
+#+END_SRC
+
+** Order
+The definition of a [[https://en.wikipedia.org/wiki/Multiplicative_order][number's order is]]
+\[ord(a) = min(k\ \in \mathbb N\backslash 0\:a^k=1)\]
+that is to say, the smallest number to which you have to raise =a= to give you 1. For example, in \(\mathbb Z_5\) you have the following orders for its elements:
+
+- \(1^1 = 1; ord(1) = 1\), The smallest number to which you have to raise 1 to give you 1 is 1.
+- \(2^4 = 1; ord(2) = 4\)
+- \(3^4 = 1; ord(3) = 4\)
+- \(4^2 = 1; ord(4) = 2\), The smallest number to which you have to raise 4 to give you 1 is 2.
+
+** Subgroups and primitives
+#+BEGIN_QUOTE
+Given an element of \(\mathbb Z_p\), for example, \(\lt a> = \{ a^k:\ k\in N \}\) is a subgroup generated by a.
+#+END_QUOTE
+
+This is called [[https://en.wikipedia.org/wiki/Generating_set_of_a_group][Generating a set of a group]].
+
+For example, the subgroups of the units of \(\mathbb Z_5\) are:
+
+- \(<1> = \{ 1 \}\), because \(\forall k \in\mathbb Z, 1^k = 1\)
+- \(<2> = \{ 2^0 = 1, 2^1 = 2, 2^2 = 4, 2^3 = 3\} = \{ 1, 2, 3, 4 \}\)
+- \(<3> = \{ 3^0, 3^1, 3^2, 3^3\} = \{ 1, 2, 3, 4 \}\)
+- \(<4> = \{ 4^0, 4^1, 4^2, 4^3 \} = \{ 1, 4 \}\)
+
+If you look closely, <2> and <3> generate \(\mathbb Z_5\) completely
+
+https://en.wikipedia.org/wiki/Primitive_root_modulo_n#Definition
+
+Si nos fijamos, tanto <2> como <3> generan por completo , estos elementos se llaman primitivos. Particularmente, &lt;a> será primitivo si su *orden es máximo*, en el caso que nos ocupa, vemos que es cierto, puesto que \(\phi(5)=4, ord(2) = ord(3) = 4\), que es el máximo. Además, el orden de un número establece número de elementos que genera el subgrupo, como ord(2) = ord(3) = 4, sabemos que éstos subgrupos generan 4 elementos, que son el número de unidades de \(\mathbb Z_5\), y por tanto, lo generan completamente. De igual manera, vimos un poco más arriba que ord(4) = 2, y podemos comprobar 4 genera únicamente dos elementos.
+
+* Referencias
+{{< importPartial "structure/_cript_footer.html" >}}

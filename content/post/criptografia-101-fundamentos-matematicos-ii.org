@@ -70,7 +70,7 @@ Desde k_1 hasta k_t:
 devuelve b, que es 2
 #+END_SRC
 
-He intentado hacer una representación visual de cómo funciona, supón que quieres calcular \(2^7 \pmod 5\):
+He intentado hacer dos representaciones visuales de cómo funciona, supón que quieres calcular \(2^7 \pmod 5\) y \(2^{11} \pmod 5\):
 
 <figure>
         <a href="/img/criptografia-101-fundamentos-matematicos-ii-powermodint.png">
@@ -88,6 +88,23 @@ He intentado hacer una representación visual de cómo funciona, supón que quie
           </amp-img>
         </a>
         <figcaption>Calcular potencias modulares criptografía</figcaption>
+</figure>
+
+<figure>
+        <a href="/img/criptografia-101-fundamentos-matematicos-ii-powermodint2.png">
+          <amp-img
+            on="tap:lightbox1"
+            role="button"
+            tabindex="0"
+            layout="responsive"
+            src="/img/criptografia-101-fundamentos-matematicos-ii-powermodint2.png"
+            alt="Calcular potencias modulares criptografía"
+            title="Calcular potencias modulares criptografía"
+            sizes="(min-width: 640px) 640px, 100vw"
+            width="640"
+            height="206">
+          </amp-img>
+        </a>
 </figure>
 
 Espero que con este ejemplo te haya quedado claro cómo funciona el algoritmo. Lo he implementado en python, el código fuente está disponible en [[https://github.com/algui91/grado_informatica_criptografia/blob/master/P1/modularArith/ej3.py][github]]:
