@@ -1,14 +1,13 @@
 +++
 author = "alex"
 title = "Criptografía 101 - Fundamentos Matemáticos (II) - Cálculo de Potencias"
-date = "2017-11-25T12:51:10+01:00"
+date = "2017-12-04T12:12:52+01:00"
 categories = ["seguridad", "criptografía"]
 mainclass = "seguridad"
 image = "criptografia-101-fundamentos-matematicos-ii-powermodint.png"
 tags = ["aritmética modular", "matemáticas", "python"]
 description = "Segundo artículo del curso de Introducción a la Criptografía, esta vez explicaré cómo calcular potencias en aritmética modular."
 math = true
-draft = true
 +++
 
 {{< importPartial "structure/_cript_header.html" >}}

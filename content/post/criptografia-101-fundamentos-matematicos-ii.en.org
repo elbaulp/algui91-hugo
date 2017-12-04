@@ -1,14 +1,14 @@
 +++
 author = "alex"
 title = "Cryptography 101 - Mathematical Basis (II) - Modular exponentiation"
-date = "2017-11-25T12:51:10+01:00"
+date = "2017-12-04T12:12:41+01:00"
 categories = ["security", "cryptography"]
 mainclass = "security"
 image = "criptografia-101-fundamentos-matematicos-ii-powermodint.png"
 tags = ["modular arithmetic", "mathematics", "python"]
 description = "Second post of the Cryptography 101 course I am writing. In this post you will learn how to compute Modular exponentiation"
 math = true
-draft = true
+url = "/en/cryptography-101-modular-exponentiation/"
 +++
 
 {{< importPartial "structure/_cript_header.html" >}}
@@ -20,7 +20,7 @@ Given =a=, =m= and =n= now you want to compute \(a^m\bmod n\) in a efficient way
 Given \(a,n \in \mathbb N\), if \(gcd(a,n) = 1\), \(a^{\phi(n)} \equiv 1\pmod n\)
 #+END_QUOTE
 
-Here are some examples. In \(\mathbb Z_5,\ \phi(5) = 4\), Fermat's theorem says then that \(1^{4} = 2^{4} = 3^{4} = 4^{4} = 1\). In \(\mathbb Z_{53}, \phi(53) = 52\), in order to compute \(7^{111}\), as \(mcd(7, 53) = 1\) then \( 7^{52} = 1\), so \(7^{52\cdot 2} = 7^{104} = 1\) and therefore \(7^{111} = 7^7 = 29\).
+Here are some examples. In \(\mathbb Z_5,\ \phi(5) = 4\), Fermat's theorem says then that \(1^{4} = 2^{4} = 3^{4} = 4^{4} = 1\). In \(\mathbb Z_{53}, \phi(53) = 52\), in order to compute \(7^{111}\), as \(gcd(7, 53) = 1\) then \( 7^{52} = 1\), so \(7^{52\cdot 2} = 7^{104} = 1\) and therefore \(7^{111} = 7^7 = 29\).
 
 A particular case of Fermat's Theorem is /Fermat's Little Theorem:/
 
@@ -54,9 +54,9 @@ $$a^k = \prod_{i=0}^t a^{k_i 2^i} = (a^{2^0})^{k_0}(a^{2^1})^{k_1}\cdots(a^{2^t}
 
 If you analyze the expression above, when \(k_i = 0\), the term \((a^{2^i})^{k_i} = 1\), which implies this term is not going to change the final result, because is multiplying by 1.
 
-Now read the algorithm becomes easier. It takes an integer and other two numbers, k,n > 0 and computes \(a^{k} \pmod n\). If k==0 is not necessary compute anything and it returns 1, because any number to the power of 0 is 1. In step 3, if \(k_0\) (the least significant bit) is 1, therefore \((a^{2^0})^{k_0} = a\), conversely b = 1 as you are raising to 0, and any number to the power of 0 is 1. Next step iterates over the remaining bits of k, that is \(k_1 \dots k_t\). Basically this loop do the same process described above. Compute A squared (corresponding to this part of the expression \((a^2\))), if the bit \(k_i = 1\) multiply \((a^{2^i})^{1}\) by =b=, if \(k_i = 0\) nothing is done, because the whole expression \((a^{2^i})^{0} = 1\). When the loops ends, b is returned.
+Now reading the algorithm becomes easier. It takes an integer and other two numbers, k,n > 0 and computes \(a^{k} \pmod n\). If k==0 is not necessary compute anything and it returns 1, because any number to the power of 0 is 1. In step 3, if \(k_0\) (the least significant bit) is 1, therefore \((a^{2^0})^{k_0} = a\), conversely b = 1 as you are raising to 0, and any number to the power of 0 is 1. Next step iterates over the remaining bits of k, that is \(k_1 \dots k_t\). Basically this loop do the same process described above. Compute A squared (corresponding to this part of the expression \((a^2\)), if the bit \(k_i = 1\) multiply \((a^{2^i})^{1}\) by =b=, if \(k_i = 0\) nothing is done, because the whole expression \((a^{2^i})^{0} = 1\). When the loops ends, b is returned.
 
-In order to let you understand this process better, imagine you want to compute \(2^5\pmod 5\). First step is represent the exponent in binary form, \(5 = 101_b\), follow the steps, where a = 2, k = 5 and n = 5.
+In order to let you understand this process better, imagine you want to compute \(2^5\pmod 5\). First step is representing the exponent in binary form, \(5 = 101_b\), follow the steps, where a = 2, k = 5 and n = 5.
 
 #+BEGIN_SRC
 b = 1
