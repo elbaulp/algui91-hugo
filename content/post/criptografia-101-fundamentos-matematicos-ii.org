@@ -34,7 +34,7 @@ Calculemos las unidades de \(\mathbb Z_4\), que son \(\mathcal U(\mathbb Z_4) = 
 ** Algoritmo para el cálculo de potencias
 Uno de los algoritmos usados para el cálculo de potencias modulares es el siguiente:
 
-- Entrada: \(a\in\mathbb Z_n\), un entero \(0 \leq k < n\) cuya representación binaria es \(\sum_{i=0}^t k_i 2^i\).
+- Entrada: \(a\in\mathbb Z_n\), un entero \(0 \leq k \lt n\) cuya representación binaria es \(\sum_{i=0}^t k_i 2^i\).
 - Salida: \(a^k \pmod n\)
 
 #+BEGIN_SRC
