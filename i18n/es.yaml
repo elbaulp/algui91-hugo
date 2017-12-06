@@ -87,4 +87,4 @@
 - id: no_ga
   translation: "Por qué renuncio a <strong>Google Analytics</strong>"
 - id: typo
-  translation: "<blockquote><strong>¿Has visto algún error?</strong>: Por favor, ayúdame a corregirlo <a href=\"/contacto/\">contactando</a> conmigo.</blockquote>"
+  translation: "<blockquote><strong>¿Has visto algún error?</strong>: Por favor, ayúdame a corregirlo <a href=\"/contacto/\">contactando</a> conmigo o comentando abajo.</blockquote>"

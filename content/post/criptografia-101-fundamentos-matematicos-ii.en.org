@@ -2,6 +2,7 @@
 author = "alex"
 title = "Cryptography 101 - Mathematical Basis (II) - Modular exponentiation"
 date = "2017-12-04T12:12:41+01:00"
+lastmod = "2017-12-06T12:36:48+01:00"
 categories = ["security", "cryptography"]
 mainclass = "security"
 image = "criptografia-101-fundamentos-matematicos-ii-powermodint.png"
@@ -14,15 +15,15 @@ url = "/en/cryptography-101-modular-exponentiation/"
 {{< importPartial "structure/_cript_header.html" >}}
 
 * Modular Exponentiation
-Given =a=, =m= and =n= now you want to compute \(a^m\bmod n\) in a efficient way, to do it, let first define [[https://en.wikipedia.org/wiki/Fermat's_little_theorem][Fermat's Theorem]]:
+Given =a=, =m= and =n= now you want to compute \(a^m\bmod n\) in a efficient way, to do it, let first define [[https://en.wikipedia.org/wiki/Fermat's_little_theorem][Fermat-Euler Theorem]]:
 
 #+BEGIN_QUOTE
 Given \(a,n \in \mathbb N\), if \(gcd(a,n) = 1\), \(a^{\phi(n)} \equiv 1\pmod n\)
 #+END_QUOTE
 
-Here are some examples. In \(\mathbb Z_5,\ \phi(5) = 4\), Fermat's theorem says then that \(1^{4} = 2^{4} = 3^{4} = 4^{4} = 1\). In \(\mathbb Z_{53}, \phi(53) = 52\), in order to compute \(7^{111}\), as \(gcd(7, 53) = 1\) then \( 7^{52} = 1\), so \(7^{52\cdot 2} = 7^{104} = 1\) and therefore \(7^{111} = 7^7 = 29\).
+Here are some examples. In \(\mathbb Z_5,\ \phi(5) = 4\), Fermat-Euler theorem says then that \(1^{4} = 2^{4} = 3^{4} = 4^{4} = 1\). In \(\mathbb Z_{53}, \phi(53) = 52\), in order to compute \(7^{111}\), as \(gcd(7, 53) = 1\) then \( 7^{52} = 1\), so \(7^{52\cdot 2} = 7^{104} = 1\) and therefore \(7^{111} = 7^7 = 29\).
 
-A particular case of Fermat's Theorem is /Fermat's Little Theorem:/
+A particular case of Fermat-Euler Theorem is /Fermat's Little Theorem:/
 
 #+BEGIN_QUOTE
 Given p prime, \(a \in \mathbb N:\ 1 \leq a \leq p-1\) then \(a^{p-1} \equiv 1\pmod p\)

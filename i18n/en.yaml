@@ -87,4 +87,4 @@
 - id: no_ga
   translation: "Why I removed <strong>Google Analytics</strong>"
 - id: typo
-  translation: "<blockquote><strong>Spot a typo?</strong>: Help me fix it by <a href=\"/en/contacto/\">contacting me.</a></blockquote>"
+  translation: "<blockquote><strong>Spot a typo?</strong>: Help me fix it by <a href=\"/en/contacto/\">contacting me</a> or commenting below!</blockquote>"

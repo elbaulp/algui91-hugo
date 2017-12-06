@@ -6,7 +6,7 @@ categories:
 - seguridad
 mainclass: security-now
 date: 2017-10-02T17:50:35+01:00
-lastmod: 2017-10-02T17:50:33+01:00
+lastmod: 2017-12-06T12:20:37+01:00
 image: 2012/12/qrbaulinnercorners2.png
 url: /estructura-y-seguridad-de-los-qr-codes/
 title: Estructura y seguridad de los QR Codes
@@ -60,7 +60,7 @@ A pesar de haber escrito una palabra justo en mitad del código, sigue siendo de
 
 Este tipo de corrección es similar al estilo de corrección de errores **Reed-Solomon** (Información en <a href="http://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction" target="_blank">inglés</a>, inf. en <a href="http://es.wikipedia.org/wiki/Reed-Solomon" target="_blank">Español</a>) que usan los discos duros. Al igual que en los QR Codes, en los discos duros puede haber un pequeño defecto en la superficie que cause la pérdida de una región física. Esta tecnología permite una recuperación robusta de los datos.
 
-Esencialmente hay un mosaico de 2&#215;4 que se extiende a lo largo de un borde y luego da la vuelta. Pero no como un <a href="http://en.wikipedia.org/wiki/Raster_scan" target="_blank">raster scan</a>, que salta de nuevo hacia donde empezó. En lugar de eso, se da la vuelta y regresa al punto de origen, dos bits más hayá. Luego vuelve a girar y regresar.
+Esencialmente hay un mosaico de 2&#215;4 que se extiende a lo largo de un borde y luego da la vuelta. Pero no como un <a href="http://en.wikipedia.org/wiki/Raster_scan" target="_blank">raster scan</a>, que salta de nuevo hacia donde empezó. En lugar de eso, se da la vuelta y regresa al punto de origen, dos bits más allá. Luego vuelve a girar y regresar.
 
 Uno de los problemas que se encontraron los diseñadores fue a la hora de que los datos emularan las características de reparación del QR Code. Habría un problema de señalización en banda, que es el término usado en teoría de la información para referirse al problema de intentar tener datos de formato, que deben estar separados del contenido, el problema es que el código se imprime con tinta. ¿Cómo se diferencia qué es datos y qué es formato?
 

@@ -12,7 +12,7 @@ math = true
 url = "/en/cryptography-101-math-basis-i/"
 +++
 
-* Modular Aritmethic
+* Modular Arithmetic
 
 Before going straight to cryptography, it is necessary to have clear a few mathematical concepts, as cryptography in based on them.
 
