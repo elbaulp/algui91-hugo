@@ -7,14 +7,6 @@
     {{ if eq .Type "post" }}
        {{ partial "structure/author" (index .Site.Data.authors $.Params.author) }}
     {{ end }}
-<!--    {{ if not .Params.notoc }}
-        {{ with .TableOfContents }}
-           <div id="toc">
-             <h1>{{ T "single_index" }}</h1>
-             {{ . }}
-           </div>
-        {{ end }}
-    {{ end }}-->
     {{ $ad := partial "structure/ad" . }}
     {{ replace .Content "<!--ad-->" $ad | safeHTML }}
     {{ if eq .Type "post" }}
