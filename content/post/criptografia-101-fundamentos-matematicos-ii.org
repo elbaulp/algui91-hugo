@@ -147,10 +147,10 @@ Sea a un elemento de \(\mathbb Z_p\), por ejemplo, \(\lt a> = \{ a^k:\ k\in N \}
 
 Por ejemplo, los subgrupos de las unidades de \(\mathbb Z_5\) son:
 
-- \(<1> = \{ 1 \}\), ya que \(\forall k \in\mathbb Z, 1^k = 1\)
-- \(<2> = \{ 2^0 = 1, 2^1 = 2, 2^2 = 4, 2^3 = 3\} = \{ 1, 2, 3, 4 \}\)
-- \(<3> = \{ 3^0, 3^1, 3^2, 3^3\} = \{ 1, 2, 3, 4 \}\)
-- \(<4> = \{ 4^0, 4^1, 4^2, 4^3 \} = \{ 1, 4 \}\)
+- \(\lt 1> = \{ 1 \}\), ya que \(\forall k \in\mathbb Z, 1^k = 1\)
+- \(\lt 2> = \{ 2^0 = 1, 2^1 = 2, 2^2 = 4, 2^3 = 3\} = \{ 1, 2, 3, 4 \}\)
+- \(\lt 3> = \{ 3^0, 3^1, 3^2, 3^3\} = \{ 1, 2, 3, 4 \}\)
+- \(\lt 4> = \{ 4^0, 4^1, 4^2, 4^3 \} = \{ 1, 4 \}\)
 
 Si nos fijamos, tanto <2> como <3> generan por completo \(\mathbb Z_5\), estos elementos se llaman primitivos. Particularmente, &lt;a> será primitivo si su *orden es máximo*, en el caso que nos ocupa, vemos que es cierto, puesto que \(\phi(5)=4, ord(2) = ord(3) = 4\), que es el máximo. Además, el orden de un número establece número de elementos que genera el subgrupo, como ord(2) = ord(3) = 4, sabemos que éstos subgrupos generan 4 elementos, que son el número de unidades de \(\mathbb Z_5\), y por tanto, lo generan completamente. De igual manera, vimos un poco más arriba que ord(4) = 2, y podemos comprobar 4 genera únicamente dos elementos.
 
