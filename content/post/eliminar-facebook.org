@@ -14,7 +14,7 @@ Imagino que sabes que los botones de compartir en Facebook, “Me gusta” etc, 
 
 Hace unos meses [[https://elbauldelprogramador.com/why-am-i-removing-google-analytics/][eliminé Google Analytics]] para intentar ser más respetuoso con tu privacidad, aunque aún mantengo un único anuncio (Estoy buscando alternativas). Este es otro paso hacia respetar un poco más tu privacidad. Aunque elimino Facebook, puedes seguir al tanto de nuevas publicaciones en el blog en las siguientes redes sociales:
 
-- Twitter: [[https:twitter.com/elbaulp/][@elbaulp]]
+- Twitter: [[https://twitter.com/elbaulp/][@elbaulp]]
 - G+: [[https://plus.google.com/%2BElbauldelprogramador/][+Elbauldelprogramador]]
 - Telegram: [[https://t.me/elbaulp][@elbaulp]]
 - [[http://eepurl.com/IZ5sX][La lista de correo.]]
