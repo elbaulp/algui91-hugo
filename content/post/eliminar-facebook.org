@@ -1,0 +1,27 @@
++++
+author = "alex"
+title = "Por qué elimino el perfil de Facebook"
+date = "2017-12-26T13:25:14+01:00"
+categories = ["articulos"]
+mainclass = "articulos"
+tags = ["privacidad"]
+description = "Explicación de por qué he decidido eliminar el perfil de Facebook de este blog"
++++
+
+Hace ya muchos años que decidí borrar mi cuenta personal de Facebook, pero aún seguía manteniendo la del blog. Últimamente me he vuelto aún más consciente de los problemas de privacidad a los que nos enfrentamos estos días, y tras leer noticia tras noticia he decidido eliminar todo rastro de Facebook en mi vida.
+
+Imagino que sabes que los botones de compartir en Facebook, “Me gusta” etc, son bien conocidos por rastrear a los usuarios mientras navegan, por ello nunca los he usado en este blog, uso HTML puro en los botones de compartir en todas las redes sociales.
+
+Hace unos meses [[https://elbauldelprogramador.com/why-am-i-removing-google-analytics/][eliminé Google Analytics]] para intentar ser más respetuoso con tu privacidad, aunque aún mantengo un único anuncio (Estoy buscando alternativas). Este es otro paso hacia respetar un poco más tu privacidad. Aunque elimino Facebook, puedes seguir al tanto de nuevas publicaciones en el blog en las siguientes redes sociales:
+
+- Twitter: [[https:twitter.com/elbaulp/][@elbaulp]]
+- G+: [[https://plus.google.com/%2BElbauldelprogramador/][+Elbauldelprogramador]]
+- Telegram: [[https://t.me/elbaulp][@elbaulp]]
+- [[http://eepurl.com/IZ5sX][La lista de correo.]]
+- [[https://elbauldelprogramador.com/rssfeed/][Feed RSS]]
+
+Si estás interesado en saber más sobre los peligros de Facebook, aquí dejo una lista de recursos para los interesados en conocer el asunto:
+
+- [[http://www.salimvirani.com/facebook/][Get your loved ones off Facebook]]:
+- [[https://www.lrb.co.uk/v39/n16/john-lanchester/you-are-the-product][John Lanchester · You Are the Product: It Zucks!]]
+- [[https://en.wikipedia.org/wiki/Criticism_of_Facebook][Criticism of Facebook]]
