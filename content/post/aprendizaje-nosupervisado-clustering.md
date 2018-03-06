@@ -98,10 +98,10 @@ La desigualdad triangular puede comprenderse mejor visualmente en la figura. Es 
 
 Las principales medidas de distancia son:
 
-- *Euclídea* o \\(L_2\\): \\(d_2(x,y) = \sqrt{\sum_{j=1}^J(x_j - y_j)^2}\\)
-- *Manhattan* o \\(L_1\\): \\(d_1(x,y) = \sum_{j=1}^J|x_j - y_j|\\)
-- *Chebyshev* o \\(L_{\infty}\\): \\(d_\infty = \text{máx}_{j\dots J}|x_j - y_j|\\)
-- *Minkowski* o Lr-norm: \\(d_p(x,y) = \left ( \sum_{j=1}^J|x_j - y_j|^p\right )^\frac{1}{p}, p \geq 1\\)
+- *Euclídea* o \\(L\_2 \\) : \\(d\_2 (x,y) = \sqrt{\sum\_{j=1}^J(x\_j - y\_j)^2}\\)
+- *Manhattan* o \\(L\_1\\): \\(d\_1 (x,y) = \sum\_{j=1}^J|x\_j - y\_j|\\)
+- *Chebyshev* o \\(L\_{\infty}\\): \\(d\_\infty = \text{máx}\_{j\dots J}|x\_j - y\_j|\\)
+- *Minkowski* o Lr-norm: \\(d\_p(x,y) = \left ( \sum\_{j=1}^J|x\_j - y\_j|^p\right )^\frac{1}{p}, p \geq 1\\)
 
 La distancia Euclídea es la línea recta entre dos puntos. En la distancia Manhattan la distancia entre dos puntos es la suma en valor absoluto de las diferencias de sus coordenadas cartesianas. La Figura muestra cómo pueden existir varios caminos a dos puntos usando Manhattan, pero solo uno y el más corto por Euclídea.
 
@@ -268,9 +268,9 @@ El proceso iterativo actualiza los centroides en cada iteración mientras los ce
 
 #### **Asignación de clusters a los puntos**<a id="sec-1-3-1-2" name="sec-1-3-1-2"></a>
 
-Para asignar a un punto el *cluster* más cercano es necesario usar una medida de proximidad, la más común es la distancia Euclídea (\\(L_2\\)), aunque no es la única y la elección depende del tipo de datos. Al re-calcular los centroides de cada *cluster* se optimiza una **función objetivo**, por ejemplo minimizar la distancias al cuadrado de cada punto a su *cluster* más cercano, como muestra la siguiente ecuación:
-\\[SSE = \sum^K_{i=1}\sum_{\textbf{x}\in C_i} dist \left ( c_i, x \right )^2\\]
-donde \\(C_i\\) es el i-ésimo *cluster*, \\(c_i\\) es el centróide del *cluster* \\(C_i\\) y \\(\textbf{x}\\) es un punto y \\(dist\\) es la distancia.
+Para asignar a un punto el *cluster* más cercano es necesario usar una medida de proximidad, la más común es la distancia Euclídea (\\(L\_2\\)), aunque no es la única y la elección depende del tipo de datos. Al re-calcular los centroides de cada *cluster* se optimiza una **función objetivo**, por ejemplo minimizar la distancias al cuadrado de cada punto a su *cluster* más cercano, como muestra la siguiente ecuación:
+\\[SSE = \sum^K\_{i=1}\sum\_{\textbf{x}\in C\_i} dist \left ( c\_i, x \right )^2\\]
+donde \\(C\_i\\) es el i-ésimo *cluster*, \\(c\_i\\) es el centróide del *cluster* \\(C\_i\\) y \\(\textbf{x}\\) es un punto y \\(dist\\) es la distancia.
 
 Con esta función objetivo, se calcula el error de cada punto, es decir, su distancia euclídea al *cluster* más cercano, luego se calcula la suma total de los errores al cuadrado. Con este dato, y dados dos conjuntos de *clusters* distintos generados por el algoritmo, K-Means escoge aquel con menor error cuadrático.
 
