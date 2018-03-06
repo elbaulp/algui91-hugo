@@ -69,7 +69,7 @@ Una solución al problema descrito en la sección anterior es definir una buena 
 
 Para crear medidas de similitud se consideran la semejanzas o distancias. A mayor valor de semejanza, más se parecen los dos puntos en comparación, sin embargo, a mayor distancia, menor parecido. Es común usar medidas de distancia para descubrir cómo de semejantes son dos puntos. Toda medida de distancia debe cumplir una serie de propiedades, listadas a continuación.
 
--   No negativa: \(d(x,y) \geq 0\)
+-   No negativa: \\(d(x,y) \geq 0\\)
 -   Reflexiva: \(d(x,y) = 0\text{ sii } x = y\)
 -   Simétrica: \(d(x,y) = d(y,x)\)
 -   Desigualdad triangular: \(d(x,y) \leq d(x,z) + d(z,y)\)
