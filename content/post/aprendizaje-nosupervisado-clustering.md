@@ -70,9 +70,9 @@ Una solución al problema descrito en la sección anterior es definir una buena 
 Para crear medidas de similitud se consideran la semejanzas o distancias. A mayor valor de semejanza, más se parecen los dos puntos en comparación, sin embargo, a mayor distancia, menor parecido. Es común usar medidas de distancia para descubrir cómo de semejantes son dos puntos. Toda medida de distancia debe cumplir una serie de propiedades, listadas a continuación.
 
 -   No negativa: \\(d(x,y) \geq 0\\)
--   Reflexiva: \(d(x,y) = 0\text{ sii } x = y\)
--   Simétrica: \(d(x,y) = d(y,x)\)
--   Desigualdad triangular: \(d(x,y) \leq d(x,z) + d(z,y)\)
+-   Reflexiva: \\(d(x,y) = 0\text{ sii } x = y\\)
+-   Simétrica: \\(d(x,y) = d(y,x)\\)
+-   Desigualdad triangular: \\(d(x,y) \leq d(x,z) + d(z,y)\\)
 
 La desigualdad triangular puede comprenderse mejor visualmente en la figura. Es decir, la suma de dos de los lados del triángulo siempre va a ser mayor o igual a la del lado restante. Como muestra la figura, conforme menos área tiene el triángulo, más cercana es la suma de dos lados al lado restante.
 
@@ -98,10 +98,10 @@ La desigualdad triangular puede comprenderse mejor visualmente en la figura. Es 
 
 Las principales medidas de distancia son:
 
-- *Euclídea* o \(L_2\): \(d_2(x,y) = \sqrt{\sum_{j=1}^J(x_j - y_j)^2}\)
-- *Manhattan* o \(L_1\): \(d_1(x,y) = \sum_{j=1}^J|x_j - y_j|\)
-- *Chebyshev* o \(L_{\infty}\): \(d_\infty = \text{máx}_{j\dots J}|x_j - y_j|\)
-- *Minkowski* o Lr-norm: \(d_p(x,y) = \left ( \sum_{j=1}^J|x_j - y_j|^p\right )^\frac{1}{p}, p \geq 1\)
+- *Euclídea* o \\(L_2\\): \\(d_2(x,y) = \sqrt{\sum_{j=1}^J(x_j - y_j)^2}\\)
+- *Manhattan* o \\(L_1\\): \\(d_1(x,y) = \sum_{j=1}^J|x_j - y_j|\\)
+- *Chebyshev* o \\(L_{\infty}\\): \\(d_\infty = \text{máx}_{j\dots J}|x_j - y_j|\\)
+- *Minkowski* o Lr-norm: \\(d_p(x,y) = \left ( \sum_{j=1}^J|x_j - y_j|^p\right )^\frac{1}{p}, p \geq 1\\)
 
 La distancia Euclídea es la línea recta entre dos puntos. En la distancia Manhattan la distancia entre dos puntos es la suma en valor absoluto de las diferencias de sus coordenadas cartesianas. La Figura muestra cómo pueden existir varios caminos a dos puntos usando Manhattan, pero solo uno y el más corto por Euclídea.
 
@@ -145,7 +145,7 @@ En la distancia de Chebyshev la distancia entre dos puntos es la mayor de sus di
         <figcaption>Distancia de Chebyshev. *Créd. Wikipedia*</figcaption>
 </figure>
 
-Por último la distancia de Minkowski es una generalización de las anteriores. Cuando \(p = 1\) corresponde con la distancia de Manhattan, para \(p = 2\) distancia Euclídea, y cuando \(p \to \infty\) corresponde con la distancia de Chebyshev. En la figura aparecen distintas distancias para varios valores de \(p\), en esta imagen se aprecia la distancia Manhattan para \(p=1\), Euclídea para \(p=2\) y Chebyshev para \(p=\infty\).
+Por último la distancia de Minkowski es una generalización de las anteriores. Cuando \\(p = 1\\) corresponde con la distancia de Manhattan, para \\(p = 2\\) distancia Euclídea, y cuando \\(p \to \infty\\) corresponde con la distancia de Chebyshev. En la figura aparecen distintas distancias para varios valores de \\(p\\), en esta imagen se aprecia la distancia Manhattan para \\(p=1\\), Euclídea para \\(p=2\\) y Chebyshev para \\(p=\infty\\).
 
 <figure>
         <a href="/img/minkos.png">
@@ -155,14 +155,14 @@ Por último la distancia de Minkowski es una generalización de las anteriores. 
             tabindex="0"
             layout="responsive"
             src="/img/minkos.png"
-            alt="Distintos valores de \(p\) para la distancia de Minkowski. *Créd. Wikipedia*"
-            title="Distintos valores de \(p\) para la distancia de Minkowski. *Créd. Wikipedia*"
+            alt="Distintos valores de \\(p\\) para la distancia de Minkowski. *Créd. Wikipedia*"
+            title="Distintos valores de \\(p\\) para la distancia de Minkowski. *Créd. Wikipedia*"
             sizes="(min-width: 1387px) 1387px, 100vw"
             width="1387"
             height="300">
           </amp-img>
         </a>
-        <figcaption>Distintos valores de \(p\) para la distancia de Minkowski. *Créd. Wikipedia*</figcaption>
+        <figcaption>Distintos valores de \\(p\\) para la distancia de Minkowski. *Créd. Wikipedia*</figcaption>
 </figure>
 
 ## Tipos de Clustering<a id="sec-1-2" name="sec-1-2"></a>
@@ -268,9 +268,9 @@ El proceso iterativo actualiza los centroides en cada iteración mientras los ce
 
 #### **Asignación de clusters a los puntos**<a id="sec-1-3-1-2" name="sec-1-3-1-2"></a>
 
-Para asignar a un punto el *cluster* más cercano es necesario usar una medida de proximidad, la más común es la distancia Euclídea (\(L_2\)), aunque no es la única y la elección depende del tipo de datos. Al re-calcular los centroides de cada *cluster* se optimiza una **función objetivo**, por ejemplo minimizar la distancias al cuadrado de cada punto a su *cluster* más cercano, como muestra la siguiente ecuación:
-\[SSE = \sum^K_{i=1}\sum_{\textbf{x}\in C_i} dist \left ( c_i, x \right )^2\]
-donde \(C_i\) es el i-ésimo *cluster*, \(c_i\) es el centróide del *cluster* \(C_i\) y \(\textbf{x}\) es un punto y \(dist\) es la distancia.
+Para asignar a un punto el *cluster* más cercano es necesario usar una medida de proximidad, la más común es la distancia Euclídea (\\(L_2\\)), aunque no es la única y la elección depende del tipo de datos. Al re-calcular los centroides de cada *cluster* se optimiza una **función objetivo**, por ejemplo minimizar la distancias al cuadrado de cada punto a su *cluster* más cercano, como muestra la siguiente ecuación:
+\\[SSE = \sum^K_{i=1}\sum_{\textbf{x}\in C_i} dist \left ( c_i, x \right )^2\\]
+donde \\(C_i\\) es el i-ésimo *cluster*, \\(c_i\\) es el centróide del *cluster* \\(C_i\\) y \\(\textbf{x}\\) es un punto y \\(dist\\) es la distancia.
 
 Con esta función objetivo, se calcula el error de cada punto, es decir, su distancia euclídea al *cluster* más cercano, luego se calcula la suma total de los errores al cuadrado. Con este dato, y dados dos conjuntos de *clusters* distintos generados por el algoritmo, K-Means escoge aquel con menor error cuadrático.
 
