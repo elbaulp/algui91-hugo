@@ -2,6 +2,7 @@
 author = "alex"
 title = "Aprendizaje no Supervisado y Detección de Anomalías: ¿Qué es el Clustering?"
 date = "2018-03-05T10:56:17+01:00"
+lastmod = "2018-03-06T12:39:12+01:00"
 categories = ["datascience"]
 mainclass = "datascience"
 image = "clustering-similar-posts-sklearn-python.jpg"
@@ -407,7 +408,7 @@ Por último, comparar dos conjuntos de *clusterings* puede hacerse de forma supe
 
 # Erratas
 
-- Gracias a [@josealberto4444](gitlab.com/josealberto4444 "Enlace al gitlab de JoseAlberto4444") por resaltar que faltaba la propiedad de no negatividad en las distancias.
+- Gracias a [@josealberto4444](https://gitlab.com/josealberto4444 "Enlace al gitlab de JoseAlberto4444") por resaltar que faltaba la propiedad de no negatividad en las distancias.
 
 # Bibliografía <a id="sec-5" name="sec-5"></a>
 
