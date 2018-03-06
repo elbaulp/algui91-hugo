@@ -319,6 +319,7 @@ En cuanto al post procesamiento, es posible eliminar *clusters* demasiado peque�
 Este algoritmo es de la familia jerárquica del *clustering*, concretamente **basado en densidad**. Su principal característica es detectar regiones de puntos densas separadas de otras regiones poco densas. Al contrario que K-Means, detecta automáticamente el número de *clusters*. Debido a que las regiones poco densas son descartadas, no produce un *clustering* completo, es decir, habrá puntos sin clasificar.
 
 DBSCAN está basado en una aproximación basada en el centro. Consiste en medir la densidad como el número de puntos que caen dentro de un radio especificado. El radio por tanto, es un parámetro del algoritmo que se debe ajustar. Una vez definido el radio, un punto puede caer en el interior de una región densa, en el borde o completamente fuera. A estos puntos se les llama puntos *core*, *border* o *noise*, respectivamente ( en español Principales, frontera o ruido). La figura muestra un ejemplo de cada uno de ellos.
+
 -   **Core Points**: Corresponden a los puntos dentro de la región densa. Para ser un punto *core* debe haber un número mínimo de puntos definidos como parámetro en su vecindario, que viene dado por el radio.
 -   **Border Points**: Aunque no es un *core point*, cae en el entorno de un *core point*.
 -   **Noise Points**: Un punto que no es ni *core* ni *border*.
