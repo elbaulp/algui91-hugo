@@ -405,6 +405,9 @@ En cuanto a las **técnicas supervisadas**, usando información externa, como po
 
 Por último, comparar dos conjuntos de *clusterings* puede hacerse de forma supervisada o no supervisada. Por ejemplo, lanzar dos veces K-Means y compararlos usando SSE o entropía.
 
+# Erratas
+
+- Gracias a [@josealberto4444](gitlab.com/josealberto4444 "Enlace al gitlab de JoseAlberto4444") por resaltar que faltaba la propiedad de no negatividad en las distancias.
 
 # Bibliografía <a id="sec-5" name="sec-5"></a>
 
