@@ -68,6 +68,7 @@ Una solución al problema descrito en la sección anterior es definir una buena 
 
 Para crear medidas de similitud se consideran la semejanzas o distancias. A mayor valor de semejanza, más se parecen los dos puntos en comparación, sin embargo, a mayor distancia, menor parecido. Es común usar medidas de distancia para descubrir cómo de semejantes son dos puntos. Toda medida de distancia debe cumplir una serie de propiedades, listadas a continuación.
 
+-   No negativa: \(d(x,y) \geq 0\)
 -   Reflexiva: \(d(x,y) = 0\text{ sii } x = y\)
 -   Simétrica: \(d(x,y) = d(y,x)\)
 -   Desigualdad triangular: \(d(x,y) \leq d(x,z) + d(z,y)\)
@@ -96,7 +97,7 @@ La desigualdad triangular puede comprenderse mejor visualmente en la figura \ref
 
 Las principales medidas de distancia son:
 
-- *Euclídea* o \\(L_2\\): \(d_2(x,y) = \sqrt{\sum_{j=1}^J(x_j - y_j)^2}\)
+- *Euclídea* o \(L_2\): \(d_2(x,y) = \sqrt{\sum_{j=1}^J(x_j - y_j)^2}\)
 - *Manhattan* o \(L_1\): \(d_1(x,y) = \sum_{j=1}^J|x_j - y_j|\)
 - *Chebyshev* o \(L_{\infty}\): \(d_\infty = \text{máx}_{j\dots J}|x_j - y_j|\)
 - *Minkowski* o Lr-norm: \(d_p(x,y) = \left ( \sum_{j=1}^J|x_j - y_j|^p\right )^\frac{1}{p}, p \geq 1\)
@@ -404,6 +405,9 @@ En cuanto a las **técnicas supervisadas**, usando información externa, como po
 
 Por último, comparar dos conjuntos de *clusterings* puede hacerse de forma supervisada o no supervisada. Por ejemplo, lanzar dos veces K-Means y compararlos usando SSE o entropía.
 
+# Erratas
+
+- Gracias a [@josealberto4444](gitlab.com/josealberto4444 "Enlace al gitlab de JoseAlberto4444") por resaltar que faltaba la propiedad de no negatividad en las distancias.
 
 # Bibliografía <a id="sec-5" name="sec-5"></a>
 
