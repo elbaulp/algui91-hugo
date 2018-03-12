@@ -2,7 +2,7 @@
 author = "alex"
 title = "Aprendizaje no Supervisado y Detección de Anomalías: ¿Qué es el Clustering?"
 date = "2018-03-05T10:56:17+01:00"
-lastmod = "2018-03-06T12:39:12+01:00"
+lastmod = "2018-03-12T09:40:03+01:00"
 categories = ["datascience"]
 mainclass = "datascience"
 image = "clustering-similar-posts-sklearn-python.jpg"
@@ -13,7 +13,7 @@ math = true
 
 > Este articulo forma parte de una serie de artículos sobre clustering, detección de anomalías y reglas de asociación. Originalmente forman parte de un trabajo para el __Máster Universitario Oficial en Ciencia de Datos e Ingeniería de Computadores__ de la Universidad de Granada en la asignatura _Aprendizaje no supervisado y detección de anomalías_. El resto de artículos son:
 
-- Detección de anomalías (Próximamente)
+- [Detección de anomalías](/aprendizaje-nosupervisado-anomalias/)
 - Reglas de Asociación (Próximamente)
 - Reglas de Asociación Avanzadas (Próximamente)
 
