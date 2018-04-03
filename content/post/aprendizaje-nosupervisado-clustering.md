@@ -2,7 +2,7 @@
 author = "alex"
 title = "Aprendizaje no Supervisado y Detección de Anomalías: ¿Qué es el Clustering?"
 date = "2018-03-05T10:56:17+01:00"
-lastmod = "2018-03-21T12:14:44+01:00"
+lastmod = "2018-04-03T12:49:35+02:00"
 categories = ["datascience"]
 mainclass = "datascience"
 image = "clustering-similar-posts-sklearn-python.jpg"
@@ -15,7 +15,7 @@ math = true
 
 - [Detección de anomalías](https://elbauldelprogramador.com/aprendizaje-nosupervisado-anomalias/)
 - [Reglas de Asociación](https://elbauldelprogramador.com/aprendizaje-nosupervisado-reglas/)
-- Reglas de Asociación Avanzadas (Próximamente)
+- [Reglas de Asociación Avanzadas](https://elbauldelprogramador.com/aprendizaje-nosupervisado-reglas-avanzadas/)
 
 El aprendizaje automático se distingue en dos tipos. **Supervisado**, donde se dispone de información sobre la clase a la que pertenece una instancia o **no supervisado**, donde esta información no está disponible. Estos apuntes se centran en el último tipo. En la figura se muestra un árbol de tipos de clasificaciones.
 

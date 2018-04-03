@@ -2,6 +2,7 @@
 author = "alex"
 title = "Aprendizaje no Supervisado y Detección de Anomalías: Reglas de Asociación"
 date = "2018-03-21T12:15:14+01:00"
+lastmod = "2018-04-03T12:50:20+02:00"
 categories = ["datascience"]
 mainclass = "datascience"
 image = "rulesMaximals.jpg"
@@ -14,7 +15,7 @@ math = "true"
 
 - [Clustering](https://elbauldelprogramador.com/aprendizaje-nosupervisado-clustering/)
 - [Detección de Anomalias](https://elbauldelprogramador.com/aprendizaje-nosupervisado-anomalias/)
-- Reglas de Asociación Avanzadas (Próximamente)
+- [Reglas de Asociación Avanzadas](https://elbauldelprogramador.com/aprendizaje-nosupervisado-reglas-avanzadas/)
 
 Las reglas de asociación se usan para aportar conocimiento que ayude a la toma de decisiones. Ejemplos en los que este tipo de métodos resulta útil es para conocer las tendencias de compra de los clientes. Otra aplicación es en tareas de predicción, como deducir los estudios de una persona en función de su salario. **Minería de textos** para asociar la presencia de términos en documentos etc.
 

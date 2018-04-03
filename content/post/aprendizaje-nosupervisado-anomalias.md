@@ -2,7 +2,7 @@
 author = "alex"
 title = "Aprendizaje no Supervisado y Detección de Anomalías: ¿Qué es una Anomalía?"
 date = "2018-03-12T09:39:48+01:00"
-lastmod = "2018-03-21T12:14:19+01:00"
+lastmod = "2018-04-03T12:48:35+02:00"
 categories = ["datascience"]
 mainclass = "datascience"
 image = "anoClust.png"
@@ -15,7 +15,7 @@ math = true
 
 - [Clustering](https://elbauldelprogramador.com/aprendizaje-nosupervisado-clustering/)
 - [Reglas de Asociación](https://elbauldelprogramador.com/aprendizaje-nosupervisado-reglas/)
-- Reglas de Asociación Avanzadas (Próximamente)
+- [Reglas de Asociación Avanzadas](https://elbauldelprogramador.com/aprendizaje-nosupervisado-reglas-avanzadas/)
 
 Antes de comenzar es necesario definir qué es una **anomalía**: Una anomalía es un dato muy distinto del resto. Esto puede deberse a fallos en mediciones, o a la propia naturaleza del dato. Por ejemplo, una intrusión a un sistema informático puede considerarse una anomalía, ya que por norma general el resto de actividades en dicho sistema serán legítimas. Por lo general, un dato se considera anómalo si escapa a los rangos de normalidad del resto de los datos.
 
