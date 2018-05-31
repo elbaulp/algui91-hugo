@@ -67,7 +67,7 @@ run _make_ to build openCV with Java and create a jar:
 cris@cris ~/opencv-3.2.0/build $ make -j8
 ```
 
--j8 is because JDK8. You should put here your JAVA version.
+- where j8 denotes the desired parallelism level.
 
 Make sure the files **opencv-320.jar** and **libopencv_java320.so** (.so or .dll) are created inside /build.
 
