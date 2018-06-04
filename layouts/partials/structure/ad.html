@@ -2,14 +2,14 @@
 <div class="support-us">
   <p><strong>{{ T "ads_title" }}</strong></p>
   <ul>
-    <li>{{ htmlUnescape  (T "ads_adblock") | safeHTML }}</li>
+    <!--<li>{{ htmlUnescape  (T "ads_adblock") | safeHTML }}</li>-->
     <li><a href={{ "/why-am-i-removing-google-analytics/" | absLangURL}}>{{ htmlUnescape (T "no_ga") | safeHTML }}</a></li>
     <li><a href="{{ T "ads_amz_link" }}">{{ htmlUnescape (T "ads_amz") | safeHTML }}</a></li>
     <li><a href={{ "/manuales-gratuitos/" | absLangURL }}>{{ htmlUnescape (T "ads_guide") | safeHTML }}</a></li>
     <!--<li><a href="http://patreon.com/elbauldelprogramador">{{ htmlUnescape  (T "ads_patreon") | safeHTML }}</a></li>-->
     <li><a href="{{ "/apoyanos/" | absLangURL}}">{{ htmlUnescape (T "ads_support") | safeHTML }}</a></li>
   </ul>
-  <div id="ad-slot">
+<!---  <div id="ad-slot">
     <amp-ad
        width="300"
        height="250"
@@ -19,5 +19,6 @@
        layout="responsive">
     </amp-ad>
   </div>
+-->
 </div> <!-- /.google-ads -->
 <hr/>
