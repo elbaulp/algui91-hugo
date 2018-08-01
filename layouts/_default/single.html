@@ -7,8 +7,8 @@
     {{ if eq .Type "post" }}
        <!--Thanks to https://github.com/kaushalmodi/ox-hugo/issues/178-->
        {{ $author := (partial "functions/author.html" .) }}
-       {{ $au := index $.Site.Data.authors $author }}
-       {{ partial "structure/author" $au }}
+
+       {{ partial "structure/author" $author }}
     {{ end }}
     {{ if not .Params.notoc }}
        {{ with .TableOfContents }}
