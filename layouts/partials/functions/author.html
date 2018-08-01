@@ -1,0 +1,9 @@
+{{- $au := or .Params.author "alex" -}}
+{{- $au_type := (printf "%T" $au) -}}
+{{- $au_is_slice := (eq "[]string" $au_type) -}}
+<!-- Return one of the two below -->
+{{- if $au_is_slice -}}
+    {{- index $au 0 -}}
+{{- else -}}
+    {{- $au -}}
+{{- end -}}

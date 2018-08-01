@@ -6,16 +6,9 @@
     {{ if eq .Type "page"}}<h1>{{.Title}}</h1>{{ end }}
     {{ if eq .Type "post" }}
        <!--Thanks to https://github.com/kaushalmodi/ox-hugo/issues/178-->
-       {{ $au := or .Params.author "alex" }}
-       {{ $au_type := (printf "%T" $au) }}
-       {{ $au_is_slice := (eq "[]string" $au_type) }}
-       {{ if $au_is_slice }}
-           {{ .Scratch.Set "__author_key" (index $au 0) }}
-       {{ else }}
-           {{ .Scratch.Set "__author_key" $au }}
-       {{ end }}
-       {{ $author := index .Site.Data.authors (.Scratch.Get "__author_key") }}
-       {{ partial "structure/author.html" (index .Site.Data.authors $author.slug) }}
+       {{ $author := (partial "functions/author.html" .) }}
+       {{ $au := index $.Site.Data.authors (printf "%s" $author) }}
+       {{ partial "structure/author" $au }}
     {{ end }}
     {{ if not .Params.notoc }}
        {{ with .TableOfContents }}
