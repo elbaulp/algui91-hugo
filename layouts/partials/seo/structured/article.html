@@ -1,5 +1,13 @@
+<!--Thanks to https://github.com/kaushalmodi/ox-hugo/issues/178-->
 {{ $au := or .Params.author "alex" }}
-{{ $author := index .Site.Data.authors $au }}
+{{ $au_type := (printf "%T" $au) }}
+{{ $au_is_slice := (eq "[]string" $au_type) }}
+{{ if $au_is_slice }}
+    {{ .Scratch.Set "__author_key" (index $au 0) }}
+{{ else }}
+    {{ .Scratch.Set "__author_key" $au }}
+{{ end }}
+{{ $author := index .Site.Data.authors (.Scratch.Get "__author_key") }}
 
 <script type="application/ld+json">
     {
