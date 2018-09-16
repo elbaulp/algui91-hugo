@@ -3,7 +3,7 @@ title = "Arduino Zumo Line Follower and Obstacle avoider"
 author = ["alex"]
 description = "Arduino project of a Zumo 32U4 robot line follower and obstacle avoider"
 date = 2018-09-16T18:42:00+02:00
-lastmod = 2018-09-16T18:44:47+02:00
+lastmod = 2018-09-16T19:16:47+02:00
 tags = ["arduino"]
 categories = ["dev"]
 url = "/en/arduino-line-follower-obstacles"
@@ -54,7 +54,7 @@ turns around. Next we show a video:
 
 ### Video {#video}
 
-<iframe width="560" height="315" src="<https://www.youtube-nocookie.com/embed/UwPJgL0ix_8>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UwPJgL0ix_8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ## VREP {#vrep}
@@ -125,7 +125,7 @@ stops in order to know when to check the proximity sensor again.
 ### VREP Video {#vrep-video}
 
 <iframe width="560" height="315"
-src="<https://www.youtube-nocookie.com/embed/dixjPmbJ1Ts>" frameborder="0"
+src="https://www.youtube-nocookie.com/embed/dixjPmbJ1Ts" frameborder="0"
 allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Hope you find it interesting!

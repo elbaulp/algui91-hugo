@@ -64,7 +64,11 @@ Se integra código del ejemplo =MazeSolver=, que hace uso del giroscopio, en con
 
 Para la *detección de obstáculos* se hace uso de un sensor de proximidad. La distancia a la que se para el robot se fija al valor 6. Cuando el robot se detiene al encontrar un obstáculo, avisa con una melodía simple compuesta por nosotros y similar al *claxon* de un vehículo. Finalmente, cuando el robot espera más de tres segundos y el obstáculo sigue presente, avisa con otra melodía compuesta por nosotros e inicia al camino en sentido opuesto girando 180 grados.
 ***** Vídeo
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UwPJgL0ix_8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+BEGIN_EXPORT html
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/UwPJgL0ix_8" frameborder="0"
+allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_EXPORT
 **** VREP
 Para el proyecto en VREP se ha implementado un robot *Sigue Líneas* que se detiene ante la presencia de un obstáculo. Si el obstáculo se retira durante la simulación, el robot sigue su camino. Si el obstáculo no se retira, el robot permanece sin moverse para evitar chocar con él.
 
@@ -132,7 +136,11 @@ Para el funcionamiento del sigue líneas se emplean tres sensores sigue líneas 
 
 En los ficheros adjuntos se proporcionan vídeos de ejemplo de ambas prácticas.
 ***** Vídeo VREP
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dixjPmbJ1Ts" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+BEGIN_EXPORT html
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/dixjPmbJ1Ts" frameborder="0"
+allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_EXPORT
 *** DONE Arduino Zumo Line Follower and Obstacle avoider
 CLOSED: [2018-09-16 Sun 18:42]
 :PROPERTIES:
@@ -179,7 +187,10 @@ plays a sound similar to a *car's horn*. Finally, when the robot waits for more
 than three seconds and the obstacle is still there, it plays another sound and
 turns around. Next we show a video:
 ***** Video
+#+BEGIN_EXPORT html
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UwPJgL0ix_8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+END_EXPORT
+
 **** VREP
 The VREP project has implemented a *line follower* robot which stops in front of
 an obstacle. If the obstacle is removed during the simulation the robot will
@@ -243,10 +254,11 @@ end
 What this code does is keep track of the time passed since the robot first
 stops in order to know when to check the proximity sensor again.
 ***** VREP Video
+#+BEGIN_EXPORT html
 <iframe width="560" height="315"
 src="https://www.youtube-nocookie.com/embed/dixjPmbJ1Ts" frameborder="0"
 allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+#+END_EXPORT
 Hope you find it interesting!
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:
