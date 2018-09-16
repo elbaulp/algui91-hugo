@@ -136,7 +136,7 @@ En los ficheros adjuntos se proporcionan vídeos de ejemplo de ambas prácticas.
 *** DONE Arduino Zumo Line Follower and Obstacle avoider
 CLOSED: [2018-09-16 Sun 18:42]
 :PROPERTIES:
-:EXPORT_DESCRIPTION: DESCRIOTP
+:EXPORT_DESCRIPTION: Arduino project of a Zumo 32U4 robot line follower and obstacle avoider
 :EXPORT_FILE_NAME: arduino-line-follower-obstacles.en.md
 :EXPORT_HUGO_URL: /en/arduino-line-follower-obstacles
 :END:

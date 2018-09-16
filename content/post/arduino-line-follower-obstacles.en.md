@@ -1,9 +1,9 @@
 +++
 title = "Arduino Zumo Line Follower and Obstacle avoider"
 author = ["alex"]
-description = "DESCRIOTP"
+description = "Arduino project of a Zumo 32U4 robot line follower and obstacle avoider"
 date = 2018-09-16T18:42:00+02:00
-lastmod = 2018-09-16T18:42:14+02:00
+lastmod = 2018-09-16T18:44:47+02:00
 tags = ["arduino"]
 categories = ["dev"]
 url = "/en/arduino-line-follower-obstacles"
