@@ -1,0 +1,258 @@
+#+hugo_base_dir: ~/Desarrollo/algui91-hugo
+#+hugo_auto_set_lastmod: t
+
+#+seq_todo: TODO DRAFT DONE
+
+#+startup: indent
+
+#+options: H:6
+
+
+#+macro: imageclick [[file:./static/images/$1][file:/images/$1]]
+#+macro: user @[[https://github.com/$1][*$1*]]
+#+macro: test-search Search the ~ox-hugo~ test site for [[https://ox-hugo.scripter.co/test/search/?q=$1]["$1"]] examples.
+#+macro: guser [[https://www.github.com/$1][*@$1*]] from GitHub
+#+macro: ruser [[https://www.reddit.com/user/$1][*/u/$1*]] from Reddit
+#+macro: tuser [[https://www.twitter.com/$1][*@$1*]] from Twitter
+#+macro: huser [[https://news.ycombinator.com/user?id=$1][*$1*]] from Hacker News
+#+macro: ghlink [[https://github.com/$1][/$1/]]
+
+# https://scripter.co/latex-in-html/
+#+macro: latex @@html:<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>@@
+
+# https://scripter.co/latex-in-html/
+#+macro: latex @@html:<span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>@@
+
+#+author: alex
+
+* Dev                                                                  :@dev:
+** Arduino line follower                                           :arduino:
+*** DONE Arduino Zumo Siguelineas Evita obstaculos :robótica:@how_to:@articulos:
+CLOSED: [2018-09-16 Sun 18:42]
+:PROPERTIES:
+:EXPORT_DESCRIPTION: Proyecto Arduino con un Zumo que sigue líneas y evita obstáculos
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :mainclass dev
+:EXPORT_FILE_NAME: arduino-line-follower-obstacles.md
+:EXPORT_HUGO_URL: arduino-sigue-lineas-obstaculos
+:END:
+#+BEGIN_QUOTE
+Este proyecto forma parte de un trabajo para la asignatura /Robótica Móvil y
+Neurobótica/ del /Máster en Ciencia de Datos/ de la ETSIIT. Sus autores son
+[[/author/cristina/][Cristina Heredia]] y [[/author/alex/][Alejandro Alcalde.]] El código está disponible en {{{ghlink(HerAlc/LineFollowerObstacles)}}}
+#+END_QUOTE
+El proyecto se compone de *dos partes*. La *primera* consiste en crear un robot
+que siga un camino pre-establecido marcado con líneas, además, debe evitar
+cualquier obstáculo que se encuentre en el camino. En caso de encontrarse con un
+obstáculo, el robot se detiene unos segundos y avisa, si pasado un tiempo el
+obstáculo sigue presente, el robot da media vuelta y sigue en camino contrario.
+La *segunda parte* se trata de implementar este funcionamiento en el entorno
+simulado Vrep.
+**** Arduino
+Para esta parte se ha implementado un Zumo capaz de conducir por sí mismo con las siguientes funcionalidades:
+
+- Sigue Líneas
+- Detección de obstáculos y toma de decisiones.
+- Avisos sonoros a los obstáculos.
+
+Para el sigue líneas se usan tres *sensores sigue  líneas* para detectar cambios de intensidad.
+
+Antes de comenzar, el robot necesita calibrar el *giroscopio* y los sensores sigue líneas. Para ello hay que pulsar el botón =A= una vez, esto calibra el giroscopio. Pulsar el botón =A= una segunda vez calibra los sensores sigue líneas.
+
+Cabe mencionar que se parte del ejemplo Sigue Líneas de Arduino, disponible en el IDE de Arduino, las modificaciones realizadas han sido las siguientes:
+
+Se integra código del ejemplo =MazeSolver=, que hace uso del giroscopio, en concreto los ficheros =TurnSensor.h= y =TurnSensor.cpp=. Esto permite calibrar el giroscopio, el cual es necesario para conseguir que el robot de media vuelta e inicie el camino contrario si el obstáculo que encuentra en su camino no se retira en tres segundos.
+
+Para la *detección de obstáculos* se hace uso de un sensor de proximidad. La distancia a la que se para el robot se fija al valor 6. Cuando el robot se detiene al encontrar un obstáculo, avisa con una melodía simple compuesta por nosotros y similar al *claxon* de un vehículo. Finalmente, cuando el robot espera más de tres segundos y el obstáculo sigue presente, avisa con otra melodía compuesta por nosotros e inicia al camino en sentido opuesto girando 180 grados.
+***** Vídeo
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UwPJgL0ix_8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+**** VREP
+Para el proyecto en VREP se ha implementado un robot *Sigue Líneas* que se detiene ante la presencia de un obstáculo. Si el obstáculo se retira durante la simulación, el robot sigue su camino. Si el obstáculo no se retira, el robot permanece sin moverse para evitar chocar con él.
+
+Para seguir las líneas se ha adaptado el ejemplo de VREP /LineFollowerBubbleRob/ para hacerlo funcionar con Zumo, usando el modelo proporcionado en clase. La adaptación ha consistido en modificar el código de /BubbleRob/, que solo tiene dos motores, y hacerlo funcionar en el Zumo, con cuatro motores. Para ello se han tenido que ajustar parámetros de torque, peso etc de acuerdo al Zumo. También se desactivó el comportamiento cíclico de los motores.
+
+Para evitar obstáculos se añade al robot un sensor de proximidad frontal, de forma similar al que se hizo en clase. Cuando el objeto se detecta a una distancia mínima pre-establecida, se detienen los motores del robot durante tres segundos. Transcurrido este tiempo, se vuelven a leer los datos del sensor de proximidad para comprobar si el objeto sigue presente o no. En caso de estar presente, el robot permanece parado, de lo contrario reanuda su marcha.
+
+A continuación se muestra el código principal que controla el Zumo.
+
+#+BEGIN_SRC lua
+function sysCall_actuation()
+    currTime = sim.getSimulationTime()
+    result,distance=sim.readProximitySensor(noseSensor)
+
+    if (result == 1 and distance < .25) then
+        speed = 0
+        if (objectDetected == false) then
+            timeOjectDetected = sim.getSimulationTime()
+            objectDetected = true
+        end
+        --sim.addStatusbarMessage(tostring(timeOjectDetected))
+    end
+    timeWaitingDetectedObject = currTime - timeOjectDetected
+    sim.addStatusbarMessage(tostring(timeWaitingDetectedObject))
+    -- After 3 seconds, check if continue foward or turn back
+    if (timeWaitingDetectedObject > 3 ) then
+        result,distance=sim.readProximitySensor(noseSensor)
+        if (result == 0) then
+            speed = -5
+            timeOjectDetected = 0
+            objectDetected = false
+        end
+    end
+
+    -- read the line detection sensors:
+    sensorReading={false,false,false}
+    for i=1,3,1 do
+        result,data=sim.readVisionSensor(floorSensorHandles[i])
+        if (result>=0) then
+            -- data[11] is the average of intensity of the image
+            sensorReading[i]=(data[11]<0.3)
+        end
+    end
+
+    rightV=speed
+    leftV=speed
+
+    if sensorReading[1] then
+        leftV=0.03*speed
+    end
+    if sensorReading[3] then
+        rightV=0.03*speed
+    end
+    -- When in forward mode, we simply move forward at the desired speed
+    sim.setJointTargetVelocity(frontLeftMotor,leftV)
+    sim.setJointTargetVelocity(frontRightMotor,rightV)
+    sim.setJointTargetVelocity(rearLeftMotor,leftV)
+    sim.setJointTargetVelocity(rearRightMotor,rightV)
+end
+#+END_SRC
+
+En el código se lleva la cuenta del tiempo transcurrido desde la última vez que se detuvo el robot, para decidir cuando se debe hacer la siguiente lectura del sensor de proximidad. La distancia máxima de detección de objetos se fija a 0.25.
+
+Para el funcionamiento del sigue líneas se emplean tres sensores sigue líneas (Izquierdo, central y derecho), ubicados en la parte delantera del Robot. Dichos sensores se colocan con el eje z hacia abajo. De todos los datos proporcionados por los sensores se usa la intensidad media de la imagen para ajustar la velocidad de los motores. Aunque se incorporó un sensor central, no ha sido necesario su uso, ya que el robot sigue las líneas bien con los otros dos.
+
+En los ficheros adjuntos se proporcionan vídeos de ejemplo de ambas prácticas.
+***** Vídeo VREP
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dixjPmbJ1Ts" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+*** DONE Arduino Zumo Line Follower and Obstacle avoider
+CLOSED: [2018-09-16 Sun 18:42]
+:PROPERTIES:
+:EXPORT_DESCRIPTION: DESCRIOTP
+:EXPORT_FILE_NAME: arduino-line-follower-obstacles.en.md
+:EXPORT_HUGO_URL: /en/arduino-line-follower-obstacles
+:END:
+#+BEGIN_QUOTE
+This project is a job assignment for a course on Robotics and Neurobotics at the
+Master on Data Science of the University of Granada. Its authors are [[/en/author/cristina][Cristina
+Heredia]] and [[/en/author/alex][Alejandro Alcalde]].
+#+END_QUOTE
+This project is composed of *two parts*. *First part* consist on program a robot
+(Zumo 32U4) that follows a determined path marked by black lines. In addition it
+must avoid any obstacle it encounters. In case of being in front of an obstacle,
+the robot stops a few seconds and beeps, if time passes and the obstacle is
+still on the path, the robots will turn around and will continue in the opposite
+direction. *Second part* is about implementing this behavior in VREP simulator.
+Lets begin.
+**** Arduino
+In this section the Zumo 32U4 is capable of drive by itself with the following
+functionalities:
+
+- Line follower.
+- Object detection and avoidance.
+- Alert sounds to the obstacles.
+
+For the line follower three *line sensors* are used to detect the path.
+
+Before starting, the robot needs to calibrate its *gyroscope* and line sensors.
+Pressing button =A= once will calibrate the gyroscope, pressing it a second time
+will calibrate line sensors.
+
+It is worth mentioning we have started with the Line follower example from
+Arduino IDE. The following code modifications has been made:
+
+We have integrated code from =MazeSolver=, which makes uses of the gyroscope, in
+particular, files =TurnSensor.h= and =TurnSensor.cpp=. This allow us to
+calibrate the gyroscope.
+
+To *detect obstacles* a proximity sensor is used. The distance between the robot
+and the obstacle is set to 6. When the robot sees and obstacle and stops, it
+plays a sound similar to a *car's horn*. Finally, when the robot waits for more
+than three seconds and the obstacle is still there, it plays another sound and
+turns around. Next we show a video:
+***** Video
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UwPJgL0ix_8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+**** VREP
+The VREP project has implemented a *line follower* robot which stops in front of
+an obstacle. If the obstacle is removed during the simulation the robot will
+continue his path, otherwise it will stay still.
+
+In this implementation, we have used the code from /LineFollowerBubbleRob/ from
+the VREP examples. The code is shown below:
+
+#+BEGIN_SRC lua
+function sysCall_actuation()
+    currTime = sim.getSimulationTime()
+    result,distance=sim.readProximitySensor(noseSensor)
+
+    if (result == 1 and distance < .25) then
+        speed = 0
+        if (objectDetected == false) then
+            timeOjectDetected = sim.getSimulationTime()
+            objectDetected = true
+        end
+        --sim.addStatusbarMessage(tostring(timeOjectDetected))
+    end
+    timeWaitingDetectedObject = currTime - timeOjectDetected
+    sim.addStatusbarMessage(tostring(timeWaitingDetectedObject))
+    -- After 3 seconds, check if continue foward or turn back
+    if (timeWaitingDetectedObject > 3 ) then
+        result,distance=sim.readProximitySensor(noseSensor)
+        if (result == 0) then
+            speed = -5
+            timeOjectDetected = 0
+            objectDetected = false
+        end
+    end
+
+    -- read the line detection sensors:
+    sensorReading={false,false,false}
+    for i=1,3,1 do
+        result,data=sim.readVisionSensor(floorSensorHandles[i])
+        if (result>=0) then
+            -- data[11] is the average of intensity of the image
+            sensorReading[i]=(data[11]<0.3)
+        end
+    end
+
+    rightV=speed
+    leftV=speed
+
+    if sensorReading[1] then
+        leftV=0.03*speed
+    end
+    if sensorReading[3] then
+        rightV=0.03*speed
+    end
+    -- When in forward mode, we simply move forward at the desired speed
+    sim.setJointTargetVelocity(frontLeftMotor,leftV)
+    sim.setJointTargetVelocity(frontRightMotor,rightV)
+    sim.setJointTargetVelocity(rearLeftMotor,leftV)
+    sim.setJointTargetVelocity(rearRightMotor,rightV)
+end
+#+END_SRC
+
+What this code does is keep track of the time passed since the robot first
+stops in order to know when to check the proximity sensor again.
+***** VREP Video
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/dixjPmbJ1Ts" frameborder="0"
+allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Hope you find it interesting!
+* Footnotes
+* COMMENT Local Variables                                           :ARCHIVE:
+# Local Variables:
+# fill-column: 80
+# eval: (auto-fill-mode 1)
+# eval: (add-hook 'after-save-hook #'org-hugo-export-wim-to-md-after-save :append :local)
+# org-hugo-footer: "\n\n[//]: # \"Exported with love from a post written in Org mode\"\n[//]: # \"- https://github.com/kaushalmodi/ox-hugo\""
+# End:
