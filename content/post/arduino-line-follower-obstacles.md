@@ -3,7 +3,7 @@ title = "Arduino Zumo Siguelineas Evita obstaculos"
 author = ["alex"]
 description = "Proyecto Arduino con un Zumo que sigue líneas y evita obstáculos"
 date = 2018-09-16T18:42:00+02:00
-lastmod = 2018-09-16T18:42:08+02:00
+lastmod = 2018-09-16T19:17:29+02:00
 tags = ["arduino", "robótica"]
 categories = ["dev", "how-to", "articulos"]
 url = "arduino-sigue-lineas-obstaculos"
@@ -45,7 +45,9 @@ Para la **detección de obstáculos** se hace uso de un sensor de proximidad. La
 
 ### Vídeo {#vídeo}
 
-<iframe width="560" height="315" src="<https://www.youtube-nocookie.com/embed/UwPJgL0ix_8>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/UwPJgL0ix_8" frameborder="0"
+allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ## VREP {#vrep}
@@ -119,7 +121,9 @@ En los ficheros adjuntos se proporcionan vídeos de ejemplo de ambas prácticas.
 
 ### Vídeo VREP {#vídeo-vrep}
 
-<iframe width="560" height="315" src="<https://www.youtube-nocookie.com/embed/dixjPmbJ1Ts>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315"
+src="https://www.youtube-nocookie.com/embed/dixjPmbJ1Ts" frameborder="0"
+allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 [//]: # "Exported with love from a post written in Org mode"
 [//]: # "- https://github.com/kaushalmodi/ox-hugo"
