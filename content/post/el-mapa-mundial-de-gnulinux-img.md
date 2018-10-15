@@ -15,7 +15,7 @@ title: El gran Mapa mundial de GNU/Linux
 # Mapa mundial de GNU/Linux 1
 
 <figure>
-    <a href="/img/el-mapa-mundial-de-gnulinux-full.png"><amp-img sizes="(min-width: 640px) 640px, 100vw" layout="responsive" src="/img/el-mapa-mundial-de-gnulinux-1.jpg" alt="El gran Mapa mundial de GNU/Linux" title="El gran Mapa mundial de GNU/Linux" width="680" height="383"></amp-img></a>
+    <a href="/img/el-mapa-mundial-de-gnulinux-full.png"><img sizes="(min-width: 640px) 640px, 100vw" layout="responsive" src="/img/el-mapa-mundial-de-gnulinux-1.jpg" alt="El gran Mapa mundial de GNU/Linux" title="El gran Mapa mundial de GNU/Linux" width="680" height="383"></img></a>
 </figure>
 
 <!--more--><!--ad-->
@@ -23,7 +23,7 @@ title: El gran Mapa mundial de GNU/Linux
 # Mapa Mundial de GNU/Linux 2
 
 <figure>
-    <a href="/img/el-mapa-mundial-de-gnulinux-2-full.jpg"><amp-img sizes="(min-width: 800px) 800px, 100vw" layout="responsive" src="/img/el-mapa-mundial-de-gnulinux-2.jpg" alt="El gran Mapa mundial de GNU/Linux" title="El gran Mapa mundial de GNU/Linux" width="800" height="477"></amp-img></a>
+    <a href="/img/el-mapa-mundial-de-gnulinux-2-full.jpg"><img sizes="(min-width: 800px) 800px, 100vw" layout="responsive" src="/img/el-mapa-mundial-de-gnulinux-2.jpg" alt="El gran Mapa mundial de GNU/Linux" title="El gran Mapa mundial de GNU/Linux" width="800" height="477"></img></a>
 </figure>
 
 # Referencias

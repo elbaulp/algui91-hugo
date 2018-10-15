@@ -13,7 +13,7 @@ Hace un tiempo quería mostrar *artículos similares / relacionados* al final de
 
 <figure>
         <a href="/img/clustering-similar-posts-sklearn-python.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -24,7 +24,7 @@ Hace un tiempo quería mostrar *artículos similares / relacionados* al final de
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="437">
-          </amp-img>
+          </img>
         </a>
 </figure>
 
@@ -102,7 +102,7 @@ He usado /KMeans/ para realizar el clustering. La mayor carga de trabajo de este
 
 <figure>
         <a href="/img/Elbow method for clustering.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -113,7 +113,7 @@ He usado /KMeans/ para realizar el clustering. La mayor carga de trabajo de este
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="546">
-          </amp-img>
+          </img>
         </a>
         <figcaption>En este ejemplo, se aprecia un codo en k=12</figcaption>
 </figure>

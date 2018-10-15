@@ -48,7 +48,7 @@ cris@cris ~$ export JAVA_HOME=/home/jdk1.8.0_111/
 Fíjate cuando estés generando el makefile, que la salida para el campo de Java es así:
 
 <figure>
-    <amp-img sizes="(min-width: 983px) 983px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" title="Building makefiles for JAVA openCV" alt="Building makefiles for JAVA openCV output" width="983" height="164"></amp-img>
+    <img sizes="(min-width: 983px) 983px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/output-build-makefiles-opencv-java.png" title="Building makefiles for JAVA openCV" alt="Building makefiles for JAVA openCV output" width="983" height="164"></img>
     <figcaption>building makefiles</figcaption>
 </figure>
 

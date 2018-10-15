@@ -184,16 +184,16 @@ Para no tener que andar lanzando el script, puedes planificarlo con **crontab** 
 # Algunos ejemplos
 
 <figure>
-    <amp-img sizes="(min-width: 656px) 656px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux2.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="656px" height="386px" />
+    <img sizes="(min-width: 656px) 656px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux2.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="656px" height="386px" />
 </figure>
 <figure>
-    <amp-img sizes="(min-width: 650px) 650px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux3.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="650px" height="386px" />
+    <img sizes="(min-width: 650px) 650px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux3.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="650px" height="386px" />
 </figure>
 <figure>
-    <amp-img sizes="(min-width: 656px) 656px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux4.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="656px" height="385px" />
+    <img sizes="(min-width: 656px) 656px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux4.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="656px" height="385px" />
 </figure>
 <figure>
-    <amp-img sizes="(min-width: 1003px) 1003px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux5.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="1003px" height="581px" />
+    <img sizes="(min-width: 1003px) 1003px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/imagen-terminal-color-texto-a-juego-linux5.png" alt="imagen-terminal-color-texto-a-juego-linux2" title="Ejemplo 1" width="1003px" height="581px" />
 </figure>
 
 

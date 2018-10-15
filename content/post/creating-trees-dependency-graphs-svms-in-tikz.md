@@ -50,7 +50,7 @@ El código es el siguiente:
 El resultado:
 
 <figure>
-<a href="/img/dependency-tree.png"><amp-img sizes="(min-width: 799px) 799px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree.png" alt="Dependenty tree in tikz" title="Dependenty tree in tikz" width="799" height="194"></amp-img></a>
+<a href="/img/dependency-tree.png"><img sizes="(min-width: 799px) 799px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree.png" alt="Dependenty tree in tikz" title="Dependenty tree in tikz" width="799" height="194"></img></a>
 <figcaption>Dependenty tree in tikz</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ El resultado:
 Resultado:
 
 <figure>
-<a href="/img/dependency-tree-2.png"><amp-img sizes="(min-width: 926px) 926px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree-2.png" alt="Other Dependency Tree in tikz" title="Other Dependency Tree in tikz" width="926" height="485"></amp-img></a>
+<a href="/img/dependency-tree-2.png"><img sizes="(min-width: 926px) 926px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree-2.png" alt="Other Dependency Tree in tikz" title="Other Dependency Tree in tikz" width="926" height="485"></img></a>
 <figcaption>Other Dependency Tree in tikz</figcaption>
 </figure>
 
@@ -141,7 +141,7 @@ El último ejemplo de árbol:
 ```
 
 <figure>
-<a href="/img/dependency-tree-3.png"><amp-img sizes="(min-width: 795px) 795px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree-3.png" alt="Yet another example of a Dependency tree in tikz" title="Yet another example of a Dependency tree in tikz" width="795" height="513"></amp-img></a>
+<a href="/img/dependency-tree-3.png"><img sizes="(min-width: 795px) 795px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/dependency-tree-3.png" alt="Yet another example of a Dependency tree in tikz" title="Yet another example of a Dependency tree in tikz" width="795" height="513"></img></a>
 <figcaption>Yet another example of a Dependency tree in tikz</figcaption>
 </figure>
 
@@ -202,7 +202,7 @@ Para la explicación gráfica de lo que es una SVM:
 ```
 
 <figure>
-<a href="/img/support-vector-machine-tikz-latex.png"><amp-img sizes="(min-width: 811px) 811px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/support-vector-machine-tikz-latex.png" alt="Support Vector Machine in Latex with Tikz" title="Support Vector Machine in Latex with Tikz" width="811" height="652"></amp-img></a>
+<a href="/img/support-vector-machine-tikz-latex.png"><img sizes="(min-width: 811px) 811px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/support-vector-machine-tikz-latex.png" alt="Support Vector Machine in Latex with Tikz" title="Support Vector Machine in Latex with Tikz" width="811" height="652"></img></a>
 <figcaption>Support Vector Machine in Latex with Tikz</figcaption>
 </figure>
 

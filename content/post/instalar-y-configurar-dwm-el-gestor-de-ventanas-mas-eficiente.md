@@ -108,7 +108,7 @@ Recompilamos y listo.
 Un programa muy útil es dmenu, permite lanzar cualquier programa abriendo una ventanita en la que podemos escribir el nombre del programa a ejecutar:
 
 <figure>
-    <amp-img sizes="(min-width: 478px) 478px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/dmenu.png" alt="Dmenu" width="478px" height="13px" />
+    <img sizes="(min-width: 478px) 478px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/dmenu.png" alt="Dmenu" width="478px" height="13px" />
 </figure>
 
 Para instalarlo:
@@ -165,7 +165,7 @@ Espero que esta pequeña introducción haya servido al lector. Desde que entré 
 Aquí dejo una captura de pantalla de mi escritorio actual. En unos días explicaré cómo desarrollé la posibilidad de colorear la barra de estado (Ya está disponible [aquí][4]), ya que por defecto la versión 6.1 de DWM no lo permite.
 
 <figure>
-    <a href="/img/2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-más-eficiente1.png"><amp-img sizes="(min-width: 1280px) 1280px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-más-eficiente1.png" title="Instalar y configurar DWM, el gestor de ventanas más eficiente" alt="Instalar y configurar DWM, el gestor de ventanas más eficiente" width="1280px" height="768px" /></a>
+    <a href="/img/2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-más-eficiente1.png"><img sizes="(min-width: 1280px) 1280px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/Instalar-y-configurar-DWM-el-gestor-de-ventanas-más-eficiente1.png" title="Instalar y configurar DWM, el gestor de ventanas más eficiente" alt="Instalar y configurar DWM, el gestor de ventanas más eficiente" width="1280px" height="768px" /></a>
 </figure>
 
 # Referencias

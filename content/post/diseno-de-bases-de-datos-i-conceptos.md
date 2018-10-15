@@ -24,7 +24,7 @@ Cada fila posee una ocurrencia o ejemplar de la instancia o relación representa
 Cada columna almacena información sobre una propiedad determinada de la tabla (se le llama también __atributo__), nombre, dni, apellidos, edad,&#8230; Cuando no se conoce el valor de un atributo se le asigna el valor __nulo__. Los valores nulos indican contenidos de atributos que no tienen ningún valor. En claves foráneas indican que el registro actual no está relacionado con ninguno. Las bases de datos relacionales admiten utilizar ese valor en todo tipo de operaciones.
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="151" src="https://3.bp.blogspot.com/_IlK2pNFFgGM/TNvmeiTTliI/AAAAAAAAAEc/oeK5KsBvCx4/s800/m.rf1.png" width="800"></amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="151" src="https://3.bp.blogspot.com/_IlK2pNFFgGM/TNvmeiTTliI/AAAAAAAAAEc/oeK5KsBvCx4/s800/m.rf1.png" width="800"></img>
 </figure>
 
 #  Conceptos del Modelo Relacional
@@ -154,7 +154,7 @@ Por ejemplo: `Artículos( código#, concepto)`
 Por ejemplo, el atributo NIF-PROV de la relación PRECIOS es clave foránea ya que se utiliza para referenciar a una tupla de PROVEEDORES mediante la clave primaria NIF.
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="577" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TOEf64pXGdI/AAAAAAAAAE0/eersZkN7Aj4/s800/m.rf2.png" width="800"></amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="577" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TOEf64pXGdI/AAAAAAAAAE0/eersZkN7Aj4/s800/m.rf2.png" width="800"></img>
 </figure>
 
 # Siguiente tema:[Diseño de Bases de Datos ( II ) - Restricciones][1]

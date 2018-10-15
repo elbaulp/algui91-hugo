@@ -13,7 +13,7 @@ title: "SelfControl, aparta las distracciones de tu pc cuando estás trabajando"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 192px) 192px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="selfcontrol" src="/img/2012/08/selfcontrol11.png" alt="" width="192px" height="192px" />
+    <img sizes="(min-width: 192px) 192px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="selfcontrol" src="/img/2012/08/selfcontrol11.png" alt="" width="192px" height="192px" />
 </figure>
 
 Es fácil distraerse cuando estás sentado enfrente de un ordenador, sobre todo cuando se tienen pocas ganas de trabajar. Leyendo mi RSS encontré una aplicación que puede llegar a ser muy útil si te distras fácilmente; SelfControl.
@@ -39,7 +39,7 @@ Ahora que está todo listo ejecutamos SelfControl desde la línea de comandos y 
 
 
 <figure>
-    <amp-img sizes="(min-width: 415px) 415px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Selfcontro1" src="/img/2012/08/Selfcontro11.png" alt="" width="415px" height="378px" />
+    <img sizes="(min-width: 415px) 415px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Selfcontro1" src="/img/2012/08/Selfcontro11.png" alt="" width="415px" height="378px" />
 </figure>
 
 Donde aparecen las webs bloqueadas, una entrada de texto para añadir las páginas a bloquear y por cuanto tiempo.

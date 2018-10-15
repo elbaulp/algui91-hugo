@@ -11,7 +11,7 @@ title: "Cómo resolver el error &#8216;wxMaxima encontró un error durante la ca
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 271px) 271px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/Maxima.png" alt="wxMaxima encontró un error durante la carga" width="271px" height="256px" />
+    <img sizes="(min-width: 271px) 271px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/Maxima.png" alt="wxMaxima encontró un error durante la carga" width="271px" height="256px" />
 </figure>
 
 En la facultad solemos usar wxMaxima en las prácticas de las asignturas. Hace poco al intentar abrir un fichero wxm me encontré con el siguiente error:

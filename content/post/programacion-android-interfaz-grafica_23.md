@@ -46,7 +46,7 @@ Este tipo de Layout es el más básico, coloca a sus objetos hijos en la parte s
 Como se puede apreciar en en resultado, si hay más de un hijo, los objetos se amontonan unos encima de otros.
 
 <figure>
-    <amp-img sizes="(min-width: 328px) 328px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="FrameLayout Android" title="FrameLayout Android"  height="436" width="328" src="https://2.bp.blogspot.com/-YNiwbTTpG5Y/TgMwa0LJnoI/AAAAAAAAApg/PKXOsoXfMoU/s800/frameLayout.png"></amp-img>
+    <img sizes="(min-width: 328px) 328px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="FrameLayout Android" title="FrameLayout Android"  height="436" width="328" src="https://2.bp.blogspot.com/-YNiwbTTpG5Y/TgMwa0LJnoI/AAAAAAAAApg/PKXOsoXfMoU/s800/frameLayout.png"></img>
 </figure>
 
 # LinearLayout
@@ -78,7 +78,7 @@ Este tipo de layout coloca sus hijos unos detras de otros, también comenzando p
 En este caso, he pueso un fondo de color a cada texto (con la propiedad ***android:background***) para diferenciarlo bien, y he usado la horientación horizontal, de haber usado la orientación vertical, los textos aparecerían uno debajo del otro:
 
 <figure>
-    <amp-img sizes="(min-width: 326px) 326px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="LinearLayout Android" title="LinearLayout Android"  height="435" width="326" src="https://3.bp.blogspot.com/-tT2G6ADQahI/TgM14QuwAjI/AAAAAAAAApw/PqPNv1ryoTs/s800/LinearLayout.png"></amp-img>
+    <img sizes="(min-width: 326px) 326px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="LinearLayout Android" title="LinearLayout Android"  height="435" width="326" src="https://3.bp.blogspot.com/-tT2G6ADQahI/TgM14QuwAjI/AAAAAAAAApw/PqPNv1ryoTs/s800/LinearLayout.png"></img>
 </figure>
 
 # RelativeLayout
@@ -117,7 +117,7 @@ Para conseguir esto, ***RelativeLayout*** proporciona propiedades como ***androi
 Como vemos, hemos centrado el texto1 en la pantalla con ***android:layout_centerInParent=&#8221;true&#8221;*** y hemos puesto debajo del texto1 al texto2 con ***android:layout_below=&#8221;@id/text1&#8243;***
 
 <figure>
-    <amp-img sizes="(min-width: 326px) 326px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="relativeLayout Android" alt="relativeLayout Android"  height="437" width="326" src="https://1.bp.blogspot.com/-pB2RUTDnOSg/TgOGYaZCVaI/AAAAAAAAAp4/r_qjr4tJoKc/s800/RelativeLayout.png"></amp-img>
+    <img sizes="(min-width: 326px) 326px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="relativeLayout Android" alt="relativeLayout Android"  height="437" width="326" src="https://1.bp.blogspot.com/-pB2RUTDnOSg/TgOGYaZCVaI/AAAAAAAAAp4/r_qjr4tJoKc/s800/RelativeLayout.png"></img>
 </figure>
 
 # Siguiente Tema: [Programación Android: Interfaz gráfica - Componentes gráficos y Eventos][1]

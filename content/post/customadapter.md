@@ -31,7 +31,7 @@ Para este ejemplo, se necesita mostrar en un listview los siguientes datos:
 Terminada, la aplicación de prueba debe quedar algo así:
 
 <figure>
-    <amp-img sizes="(min-width: 484px) 484px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="principal" src="/img/2012/09/principal1.png" alt="adapter android" width="484px" height="807px"></amp-img>
+    <img sizes="(min-width: 484px) 484px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="principal" src="/img/2012/09/principal1.png" alt="adapter android" width="484px" height="807px"></img>
 </figure>
 
 Antes de nada, hay que crear un [layout][4] que define cómo ha de verse cada fila del ListView:
@@ -87,7 +87,7 @@ Antes de nada, hay que crear un [layout][4] que define cómo ha de verse cada fi
 Creando así el aspecto deseado para cada línea del ListView:
 
 <figure>
-    <amp-img sizes="(min-width: 307px) 307px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="customrow" src="/img/2012/09/customrow1.png" alt="adapter android" width="307px" height="50px"></amp-img>
+    <img sizes="(min-width: 307px) 307px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="customrow" src="/img/2012/09/customrow1.png" alt="adapter android" width="307px" height="50px"></img>
 </figure>
 
 El primer paso es crear una clase que representará los datos a almacenar:

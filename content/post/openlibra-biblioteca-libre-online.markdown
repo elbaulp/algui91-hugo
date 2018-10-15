@@ -11,7 +11,7 @@ title: "OpenLibra Cumple 5 Años Y Estrena Versión 2.0"
 ---
 
 <figure>
-    <a href="/img/openlibra-biblioteca-libre-online.jpg"><amp-img sizes="(min-width: 600px) 600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/openlibra-biblioteca-libre-online.jpg" title="OpenLibra Cumple 5 Años Y Estrena Versión 2.0" alt="OpenLibra Cumple 5 Años Y Estrena Versión 2.0" width="600px" height="84px" /></a>
+    <a href="/img/openlibra-biblioteca-libre-online.jpg"><img sizes="(min-width: 600px) 600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/openlibra-biblioteca-libre-online.jpg" title="OpenLibra Cumple 5 Años Y Estrena Versión 2.0" alt="OpenLibra Cumple 5 Años Y Estrena Versión 2.0" width="600px" height="84px" /></a>
 </figure>
 
 Hace unos años, concretamente 5, un compañero bloggero lanzaba [OpenLibra: La Biblioteca Libre Online tal como la esperabas](/openlibra-la-biblioteca-libre-online/ "OpenLibra: La Biblioteca Libre Online tal como la esperabas").

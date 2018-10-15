@@ -15,7 +15,7 @@ title: "Cómo mostrar información de un repositorio Git en el prompt de tu term
 ---
 
 <figure>
-    <a href="/img/Mostrar-Informacion-De-Un-Repositorio-Git-en-El-Prompt-De-Bash.jpg"><amp-img sizes="(min-width: 823px) 823px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Mostrar-Informacion-De-Un-Repositorio-Git-en-El-Prompt-De-Bash.jpg" title="Cómo mostrar información de un repositorio Git en el prompt de tu terminal" alt="Cómo mostrar información de un repositorio Git en el prompt de tu terminal" width="823px" height="518px" /></a>
+    <a href="/img/Mostrar-Informacion-De-Un-Repositorio-Git-en-El-Prompt-De-Bash.jpg"><img sizes="(min-width: 823px) 823px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Mostrar-Informacion-De-Un-Repositorio-Git-en-El-Prompt-De-Bash.jpg" title="Cómo mostrar información de un repositorio Git en el prompt de tu terminal" alt="Cómo mostrar información de un repositorio Git en el prompt de tu terminal" width="823px" height="518px" /></a>
     <span class="image-credit">Crédito de la imagen: <a href="https://github.com/arialdomartini/oh-my-git" target="_blank" title="Repo Oh my Git">Repo Oh my Git</a></span>
 </figure>
 
@@ -80,7 +80,7 @@ source ~/.oh-my-git/prompt.sh
 A partir de ahora, al meternos en una carpeta con un repositorio git dentro, deberíamos ver lo siguiente:
 
 <figure>
-    <a href="/img/ohmygitprompt.png"><amp-img sizes="(min-width: 527px) 527px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/ohmygitprompt.png" title="Cómo mostrar información de un repositorio Git en el prompt de tu terminal" alt="Cómo mostrar información de un repositorio Git en el prompt de tu terminal" width="527px" height="39px" /></a>
+    <a href="/img/ohmygitprompt.png"><img sizes="(min-width: 527px) 527px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/ohmygitprompt.png" title="Cómo mostrar información de un repositorio Git en el prompt de tu terminal" alt="Cómo mostrar información de un repositorio Git en el prompt de tu terminal" width="527px" height="39px" /></a>
 </figure>
 
 ## Volver a nuestro prompt por defecto

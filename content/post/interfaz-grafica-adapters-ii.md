@@ -198,7 +198,7 @@ public class Adaptadores2Activity extends ListActivity {
 Ya solo resta ejecutarlo y ver el resultado:
 
 <figure>
-    <amp-img sizes="(min-width: 420px) 420px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Adaptadores en Android" alt="Adaptadores en Android"  height="800" width="420" src="https://3.bp.blogspot.com/-A6gb57w_xX4/Tg4D4i8sSVI/AAAAAAAAAqw/hvsbzYlBpPQ/s800/adaptadores2.png"></amp-img>
+    <img sizes="(min-width: 420px) 420px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Adaptadores en Android" alt="Adaptadores en Android"  height="800" width="420" src="https://3.bp.blogspot.com/-A6gb57w_xX4/Tg4D4i8sSVI/AAAAAAAAAqw/hvsbzYlBpPQ/s800/adaptadores2.png"></img>
 </figure>
 
 # Siguiente Tema: [Programación Android: Interfaz gráfica - Menús][2]

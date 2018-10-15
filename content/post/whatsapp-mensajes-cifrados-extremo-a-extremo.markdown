@@ -17,7 +17,7 @@ title: 'WhatsApp: Entendiendo Su Cifrado Extremo a Extremo'
 ---
 
 <figure>
-    <a href="/img/WhatsApp-Entendiendo-Su-Cifrado-Extremo-a-Extremo.png"><amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/WhatsApp-Entendiendo-Su-Cifrado-Extremo-a-Extremo.png" title="WhatsApp: Entendiendo Su Cifrado Extremo a Extremo" alt="WhatsApp: Entendiendo Su Cifrado Extremo a Extremo" width="640px" height="454px" /></a>
+    <a href="/img/WhatsApp-Entendiendo-Su-Cifrado-Extremo-a-Extremo.png"><img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/WhatsApp-Entendiendo-Su-Cifrado-Extremo-a-Extremo.png" title="WhatsApp: Entendiendo Su Cifrado Extremo a Extremo" alt="WhatsApp: Entendiendo Su Cifrado Extremo a Extremo" width="640px" height="454px" /></a>
     <span class="image-credit">Crédito de la imagen: <a href="https://whispersystems.org/blog/whatsapp­complete/ " target="_blank" title="whispersystems.org blog">whispersystems.org</a></span>
 </figure>
 
@@ -102,7 +102,7 @@ Para verificar que ambos tenéis el mísmo número basta con hacer click en la f
 Aún haciendo el paso anterior, nada nos protege si en algún momento las claves se ven comprometidas, para recibir notificaciones de seguridad hay que ir a los ajustes de nuestra cuenta de __WhatsApp__ y en la sección de seguridad activar la opción “Mostrar las notificaciones de seguridad”:
 
 <figure>
-    <a href="/img/whatsapp-mensajes-cifrados-extremo-a-extremo-mostrar-notificaciones-de-seguridad.jpg"><amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/whatsapp-mensajes-cifrados-extremo-a-extremo-mostrar-notificaciones-de-seguridad.jpg" title="WhatsApp: Entendiendo Su Cifrado Extremo a Extremo" alt="WhatsApp: Entendiendo Su Cifrado Extremo a Extremo" width="480px" height="800px" /></a>
+    <a href="/img/whatsapp-mensajes-cifrados-extremo-a-extremo-mostrar-notificaciones-de-seguridad.jpg"><img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/whatsapp-mensajes-cifrados-extremo-a-extremo-mostrar-notificaciones-de-seguridad.jpg" title="WhatsApp: Entendiendo Su Cifrado Extremo a Extremo" alt="WhatsApp: Entendiendo Su Cifrado Extremo a Extremo" width="480px" height="800px" /></a>
 </figure>
 
 # Conclusión

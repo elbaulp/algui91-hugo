@@ -212,7 +212,7 @@ Es necesario agregar la librería al proyecto, para ello, descárgala, crea una 
 La aplicación de ejemplo debe quedar así:
 
 <figure>
-    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/webservicelibexample2.png" alt="WebserviceLibExample" width="480px" height="800px" />
+    <img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/webservicelibexample2.png" alt="WebserviceLibExample" width="480px" height="800px" />
 </figure>
 
 Para finalizar, decir que la librería por ahora está muy limitada, pero es perfectamente funcional para realizar peticiones básicas. Intentaremos seguir desarrollandola cuando dispongamos de más tiempo.

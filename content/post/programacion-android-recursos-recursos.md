@@ -61,7 +61,7 @@ Con los clasificadores mostrados arriba, podemos crear directorios de recursos c
 Para saber nuestra localización actual podemos ejecutar una aplicación que viene instalada en el emulador android. La encontramos en el menú de aplicaciones y se llama Custom Locale.
 
 <figure>
-    <amp-img sizes="(min-width: 485px) 485px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="485" height="800" src="https://4.bp.blogspot.com/-Q3bB0guwyaU/TrufmiBkv0I/AAAAAAAABjA/kQypC8CXIbU/s800/Screenshot.png"></amp-img>
+    <img sizes="(min-width: 485px) 485px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="485" height="800" src="https://4.bp.blogspot.com/-Q3bB0guwyaU/TrufmiBkv0I/AAAAAAAABjA/kQypC8CXIbU/s800/Screenshot.png"></img>
 </figure>
 
 Dado un ID de recurso, Android usa un algoritmo para elegir el adecuado. Si deseas saber más acerca de este tema puedes visitar la siguiente dirección <a target="_blank" href="http://developer.android.com/guide/topics/resources/providing-resources.html#AlternativeResources">http://developer.android.com/guide/topics/resources/providing-resources.html#AlternativeResources</a>, pero voy a dar unas reglas básicas.

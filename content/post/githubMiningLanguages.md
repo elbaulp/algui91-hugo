@@ -232,7 +232,7 @@ langUssage+theme(axis.text.x = element_text(angle = 90,hjust = 1)) +ggtitle("Pro
 Donde usamos `na.omit` para omitir de la representación de los datos los valores NA (lenguajes que no se hayan podido extraer). El hibstograma resultante es el siguiente:
 
 <figure>
-    <amp-img sizes="(min-width: 603px) 603px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/FriendsLanguagesUsage.png" title="Programming languages used in my github community" alt="Lenguajes de programación usados en mi comunidad de github" width="603" height="380"></amp-img>
+    <img sizes="(min-width: 603px) 603px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/FriendsLanguagesUsage.png" title="Programming languages used in my github community" alt="Lenguajes de programación usados en mi comunidad de github" width="603" height="380"></img>
     <figcaption>Lenguajes usados en mi comunidad de github </figcaption>
 </figure>
 

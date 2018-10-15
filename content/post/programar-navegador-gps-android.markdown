@@ -28,7 +28,7 @@ _Enunciado: se facilitarán las coordenadas de una serie de puntos GPS (latitud/
 En esta aplicación se lee un destino mediante códigos QR, tras esto, se puede iniciar la navegación con _Google Maps_ (Usando la librería [Android-GoogleDirectionLibrary](https://github.com/akexorcist/Android-GoogleDirectionLibrary)). En la aplicación se muestran dos mapas. En el de abajo aparece el destino al que debemos llegar, además, se va dibujando un camino por el que el usuario va pasando. En el mapa de arriba se ve el mapa desde el punto de vista _StreetView_. Veamos la aplicación:
 
 <figure>
-    <a href="/img/npi/gpsQr.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/gpsQr.png" title="GPSQR" alt="GPSQR" width="338px" height="600px" /></a>
+    <a href="/img/npi/gpsQr.png"><img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/gpsQr.png" title="GPSQR" alt="GPSQR" width="338px" height="600px" /></a>
     <span class="image-credit">GPSQR</span>
 </figure>
 
@@ -37,7 +37,7 @@ En esta aplicación se lee un destino mediante códigos QR, tras esto, se puede 
 El _Floating Action Button_ de abajo a la izquierda lanza el lector de QRs, que usa una simplificación de la librería _Zxing_. Cuando se escanea una localización, veremos lo siguiente:
 
 <figure>
-    <a href="/img/npi/gqsqr_read.png"><amp-img sizes="(min-width: 360px) 360px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/gqsqr_read.png" title="Codigo QR leido con el destino" alt="Codigo QR leido con el destino" width="360px" height="600px" /></a>
+    <a href="/img/npi/gqsqr_read.png"><img sizes="(min-width: 360px) 360px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/gqsqr_read.png" title="Codigo QR leido con el destino" alt="Codigo QR leido con el destino" width="360px" height="600px" /></a>
     <span class="image-credit">Codigo QR leido con el destino</span>
 </figure>
 

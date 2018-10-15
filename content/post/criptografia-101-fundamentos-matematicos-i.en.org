@@ -30,7 +30,7 @@ where \(r\) is the remainder of \(a\) divided by \(n\).
 
 <figure>
         <a href="/img/crypto-101.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -41,7 +41,7 @@ where \(r\) is the remainder of \(a\) divided by \(n\).
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="360">
-          </amp-img>
+          </img>
         </a>
 </figure>
 

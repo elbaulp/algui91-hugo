@@ -67,7 +67,7 @@ int main(){
 Ya solo queda compilarlo y ejecutarlo, dejo una captura de pantalla como prueba de que funciona:
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot_2012-12-04-17-14-141.png" alt="" title="Compilando código C/C++ en android" width="800px" height="480px"></amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot_2012-12-04-17-14-141.png" alt="" title="Compilando código C/C++ en android" width="800px" height="480px"></img>
 </figure>
 
 Y no solo eso, también podemos instalar python:
@@ -83,7 +83,7 @@ Hola Mundo desde Android!
 De nuevo, com prueba, una captura de pantalla:
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot_2012-12-04-17-32-141.png" alt="" title="Ejecutando programas en python desde Android" width="800px" height="480px"></amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot_2012-12-04-17-32-141.png" alt="" title="Ejecutando programas en python desde Android" width="800px" height="480px"></img>
 </figure>
 
 A continuación un vídeo explicando el proceso de instalación de busybox sin permisos de root:

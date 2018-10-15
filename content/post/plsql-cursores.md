@@ -94,7 +94,7 @@ FETCH nombre_cursor INTO variables;
 Podremos recuperar filas mientras la consulta `SELECT` tenga filas pendientes de recuperar. Para saber cuándo no hay más filas podemos consultar los siguientes atributos de un cursor:
 
 <figure>
-    <amp-img sizes="(min-width: 584px) 584px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="74" width="584" src="https://1.bp.blogspot.com/_IlK2pNFFgGM/TUhwFtXwPiI/AAAAAAAAAT4/hCYNcjrUIuA/s1600/image.7HS4PV"></amp-img>
+    <img sizes="(min-width: 584px) 584px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="74" width="584" src="https://1.bp.blogspot.com/_IlK2pNFFgGM/TUhwFtXwPiI/AAAAAAAAAT4/hCYNcjrUIuA/s1600/image.7HS4PV"></img>
 </figure>
 
 Al recuperar un registro, la información recuperada se guarda en una o varias variables. Si sólo se hace referencia a una variable, ésta se puede declarar con [`%ROWTYPE`][2]. Si se utiliza una lista de variables, cada variable debe coincidir en tipo y orden con cada una de las columnas de la sentencia `SELECT`.

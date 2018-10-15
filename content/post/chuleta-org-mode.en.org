@@ -15,7 +15,7 @@ This is a quick reference to org mode, it is mostly a copy and paste from its ma
 
 <figure>
         <a href="/img/orgmodequickreference.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -26,7 +26,7 @@ This is a quick reference to org mode, it is mostly a copy and paste from its ma
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="480">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Org mode quick reference</figcaption>
 </figure>
@@ -145,7 +145,7 @@ You can have a composed list of /TODO/ items, and can toggle it with =C-c C-c=, 
 
 <figure>
         <a href="/img/org-mode-todo-checkboxs.gif">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -156,7 +156,7 @@ You can have a composed list of /TODO/ items, and can toggle it with =C-c C-c=, 
             sizes="(min-width: 244px) 244px, 100vw"
             width="244"
             height="100">
-          </amp-img>
+          </img>
         </a>
         <figcaption>TODO Items checkboxes</figcaption>
 </figure>
@@ -178,7 +178,7 @@ Tables have this syntax:
 
 <figure>
         <a href="/img/org-mode-table.gif">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -189,7 +189,7 @@ Tables have this syntax:
             sizes="(min-width: 304px) 304px, 100vw"
             width="304"
             height="214">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Creating tables in org-mode</figcaption>
 </figure>

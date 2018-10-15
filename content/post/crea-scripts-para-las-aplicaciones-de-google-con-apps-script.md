@@ -34,9 +34,9 @@ Todo lo necesario para comenzar a escribir código es una cuenta de google, un n
 Uno de los scripts que estoy usando actualmente recopila información de mi cuenta de gmail, para mandarme un correo al final de més con estadísticas y gráficos sobre quién me manda más correos electónicos, a quién respondo más etc. El informe que elabora este script es así:
 
 <figure>
-    <amp-img sizes="(min-width: 495px) 495px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/gmailStats.png" alt="gmailStats" width="495px" height="244px"></amp-img>
-    <amp-img sizes="(min-width: 650px) 650px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/chart1.png" alt="chart1" width="650px" height="400px"></amp-img>
-    <amp-img sizes="(min-width: 650px) 650px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/chart2.png" alt="chart2" width="650px" height="400px"></amp-img>
+    <img sizes="(min-width: 495px) 495px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/gmailStats.png" alt="gmailStats" width="495px" height="244px"></img>
+    <img sizes="(min-width: 650px) 650px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/chart1.png" alt="chart1" width="650px" height="400px"></img>
+    <img sizes="(min-width: 650px) 650px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/04/chart2.png" alt="chart2" width="650px" height="400px"></img>
 </figure>
 
 Los pasos para configurar y dejar funcionando el script se pueden encontrar en este tutorial de Google » <a href="https://developers.google.com/apps-script/articles/gmail-stats" target="_blank">Tutorial: Creating Gmail Inbox Statistics Report</a>.

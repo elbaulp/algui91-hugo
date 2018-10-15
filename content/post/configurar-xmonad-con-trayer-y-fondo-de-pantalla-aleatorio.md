@@ -225,7 +225,7 @@ Así luce mi escritorio con xmonad:
 
 <figure>
         <a href="/img/2013/01/Screenshot-from-2013-01-02-1852312-1024x409.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -236,7 +236,7 @@ Así luce mi escritorio con xmonad:
             sizes="(min-width: 1024px) 1024px, 100vw"
             width="1024"
             height="409">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Mi escritorio en Xmonad</figcaption>
 </figure>

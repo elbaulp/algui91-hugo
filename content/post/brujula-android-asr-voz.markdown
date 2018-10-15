@@ -14,7 +14,7 @@ title: "Crear Una Brújula Con Reconocimiento De Voz en Android"
 ---
 
 <figure>
-    <a href="/img/hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png"><amp-img sizes="(min-width: 336px) 336px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png" title="Crear Una Brújula Con Reconocimiento De Voz en Android" alt="Crear Una Brújula Con Reconocimiento De Voz en Android" width="336px" height="285px" /></a>
+    <a href="/img/hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png"><img sizes="(min-width: 336px) 336px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Crear-Una-Brujula-Con-Reconocimiento-De-Voz-en-Android.png" title="Crear Una Brújula Con Reconocimiento De Voz en Android" alt="Crear Una Brújula Con Reconocimiento De Voz en Android" width="336px" height="285px" /></a>
 </figure>
 
 >La siguiente aplicación es parte de una práctica de la asignatura “Nuevos Paradigmas de la Interacción” de la facultad de Ingeniería Informática de Granada (ETSIIT) Otras aplicaciones de la práctica son:
@@ -45,7 +45,7 @@ Para realizar esta aplicación se ha tomado como base la brújula de la _ROM_ MI
 # Inicio de la aplicación
 
 <figure>
-    <a href="/img/npi/inicioBrujula.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/inicioBrujula.png" title="Primera pantalla de la aplicación brújula" alt="Primera pantalla de la aplicación brújula" width="338px" height="600px" /></a>
+    <a href="/img/npi/inicioBrujula.png"><img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/inicioBrujula.png" title="Primera pantalla de la aplicación brújula" alt="Primera pantalla de la aplicación brújula" width="338px" height="600px" /></a>
     <span class="image-credit">Primera pantalla de la aplicación brújula</span>
 </figure>
 
@@ -53,7 +53,7 @@ Para realizar esta aplicación se ha tomado como base la brújula de la _ROM_ MI
 Al mostrarse esta pantalla, el usuario debe proporcionar un comando de voz, por ejemplo _“Norte 10”_. Tras dar el comando, en la brujula se añadirá un marcador indicando dónde está el Norte + 10 grados. Además de esto, mediante una voz, se le irá indicando al usuario si debe girar a la derecha/izquierda o va en la dirección correcta:
 
 <figure>
-    <a href="/img/npi/norte10.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/norte10.png" title="Indicaciones en la brujula" alt="Indicaciones en la brujula" width="338px" height="600px" /></a>
+    <a href="/img/npi/norte10.png"><img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/norte10.png" title="Indicaciones en la brujula" alt="Indicaciones en la brujula" width="338px" height="600px" /></a>
     <span class="image-credit">Indicaciones en la brujula</span>
 </figure>
 
@@ -61,7 +61,7 @@ Al mostrarse esta pantalla, el usuario debe proporcionar un comando de voz, por 
 Como vemos en la imagen, aparece un indicador rojo situado en el norte + 10 grados. Veamos otro ejemplo, Norte 45:
 
 <figure>
-    <a href="/img/npi/norte45.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/norte45.png" title="Indicaciones en la brujula" alt="Indicaciones en la brujula" width="338px" height="600px" /></a>
+    <a href="/img/npi/norte45.png"><img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/norte45.png" title="Indicaciones en la brujula" alt="Indicaciones en la brujula" width="338px" height="600px" /></a>
     <span class="image-credit">Indicaciones en la brujula</span>
 </figure>
 

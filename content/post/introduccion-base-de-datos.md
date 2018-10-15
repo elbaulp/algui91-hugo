@@ -64,7 +64,7 @@ Todo ello permitirá una mayor independencia de los datos:
 * **Independencia de los dispositivos:** se consigue cuando la ejecución de los programas es independiente del sistema de almacenamiento.
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="sistema gestor de base de datos - sgbd" title="sistema gestor de base de datos - sgbd" height="300" src="https://3.bp.blogspot.com/_IlK2pNFFgGM/TMsDbV2ZnZI/AAAAAAAAADs/xVmeBhnwGno/s800/figura1.1.jpg" width="320"></amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="sistema gestor de base de datos - sgbd" title="sistema gestor de base de datos - sgbd" height="300" src="https://3.bp.blogspot.com/_IlK2pNFFgGM/TMsDbV2ZnZI/AAAAAAAAADs/xVmeBhnwGno/s800/figura1.1.jpg" width="320"></img>
 </figure>
 
 En el siguiente ejemplo de una base de datos se puede observar que se han obtenido dos subesquemas (esquemas externos) a partir del único esquema conceptual formado por las entidades: VENDEDORES, VENTAS y ARTICULOS. La estructura de cada subesquema obedece a las necesidades concretas del tipo de usuario que lo va a utilizar. Por ejemplo:
@@ -76,12 +76,12 @@ En el siguiente ejemplo de una base de datos se puede observar que se han obteni
 
 Esquema externo o subesquema para el programa “Ventas por departamento”
 
-| DEPARTAMENTO 	| CONCEPTO 	| IMPORTE 	|
+| DEPARTAMENTO  | CONCEPTO  | IMPORTE   |
 |--------------	|----------	|---------	|
 
 Esquema externo o subesquema para el programa “Relación de empleados por departamento”
 
-| DEPARTAMENTO 	| NOMBRE 	|
+| DEPARTAMENTO  | NOMBRE    |
 |--------------	|--------	|
 
 ## ESQUEMA CONCEPTUAL
@@ -89,19 +89,19 @@ Esquema externo o subesquema para el programa “Relación de empleados por depa
 Esquema conceptual de toda la base de datos, formado por los siguientes registros conceptuales:
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" height="66" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TMtBOVu7K0I/AAAAAAAAADw/KH1tI0GGlFU/s800/tabla1.jpg" width="320"></amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" height="66" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TMtBOVu7K0I/AAAAAAAAADw/KH1tI0GGlFU/s800/tabla1.jpg" width="320"></img>
 </figure>
 
 ## ESQUEMA INTERNO
 
 Esquema interno de toda la base de datos:
 
-| COD_VEND string(3) 	| NOMBRE string(30) 	| DEPART string(4) 	| … 	|
+| COD_VEND string(3)    | NOMBRE string(30)     | DEPART string(4)  | …     |
 |--------------------	|-------------------	|------------------	|---	|
 
 ## ARTICULOS
 
-| COD_ART string(4) 	| CONCEPTO string(40) 	| PVP float 	| ... 	|
+| COD_ART string(4)     | CONCEPTO string(40)   | PVP float     | ...   |
 |-------------------	|---------------------	|-----------	|-----	|
 
 Además se incluiría el tipo de organización, la secuencia física de los registros, modos de acceso, etc.
@@ -121,33 +121,33 @@ A continuación podemos observar algunas ocurrencias de los registros externos y
 
 ## EMPLEADOS_POR_DEPARTAMENTO
 
-| DEPARTAMENTO 	| NOMBRE            	|
+| DEPARTAMENTO  | NOMBRE                |
 |--------------	|-------------------	|
-| Automóvil    	| José López García 	|
-| Hogar        	| Ana Ruiz Ramírez  	|
-| Hogar        	| Julia Pérez Ramos 	|
+| Automóvil     | José López García     |
+| Hogar         | Ana Ruiz Ramírez      |
+| Hogar         | Julia Pérez Ramos     |
 
 ## VISTA CONCEPTUAL
 
 ## VENDEDORES
 
-| COD_VEND 	| NOMBRE            	| DEPARTAMENTO 	| … 	|
+| COD_VEND  | NOMBRE                | DEPARTAMENTO  | …     |
 |----------	|-------------------	|--------------	|---	|
-| 001      	| José López García 	| Automóvil    	|   	|
+| 001       | José López García     | Automóvil     |       |
 
 
 ## VENTAS
 
-| COD_VEND 	| COD_ART 	| CANTIDAD 	| FECHA    	| … 	|
+| COD_VEND  | COD_ART   | CANTIDAD  | FECHA     | …     |
 |----------	|---------	|----------	|----------	|---	|
-| 002      	| H22     	| 1        	| 01-10-98 	|   	|
+| 002       | H22       | 1         | 01-10-98  |       |
 
 # Funcionamiento de un SGBD
 
 Para describir el funcionamiento de un SGBD supondremos el caso de un programa de aplicación, que lee un registro de una base de datos, para ello realiza una solicitud al <abbr title="Sistema Gestor de Base de Datos">SGBD</abbr>, esencialmente la secuencia, mostrada en el esquema de la figura 1.2, es la siguiente:
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Funcionamiento de un SGBD" height="255" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TMwEXF5RGLI/AAAAAAAAAD0/VfTA_V3C7x0/s800/figura1.2.jpg" width="320"></amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Funcionamiento de un SGBD" height="255" src="https://4.bp.blogspot.com/_IlK2pNFFgGM/TMwEXF5RGLI/AAAAAAAAAD0/VfTA_V3C7x0/s800/figura1.2.jpg" width="320"></img>
 </figure>
 
 1. El programa de aplicación A pide al <abbr title="Sistema Gestor de Base de Datos">SGBD</abbr> que lea un registro. Se proporciona la clave de acceso. El <abbr title="Sistema Gestor de Base de Datos">SGBD</abbr> evalúa la capacidad del usuario para realizar la operación solicitada.

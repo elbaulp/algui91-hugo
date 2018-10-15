@@ -50,7 +50,7 @@ En la siguiente sección intentaremos explicar cómo ejecutar un Tor relay. Prim
 Podemos muy sencillamente configurar un Tor relay con una interface de usuario gráfica de Vidalia haciendo click en Settings -> Sharing -> &#8220;Relay traffic for the Tor network (exit relay)&#8221;. Se puede ver en la imagen siguiente:
 
 <figure>
-    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn1" src="/img/2013/05/081712_1525_AchievingAn1.png" width="300px" height="298px"></amp-img>
+    <img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn1" src="/img/2013/05/081712_1525_AchievingAn1.png" width="300px" height="298px"></img>
 </figure>
 
 Podemos ver que hay un par de opciones que podemos configurar:
@@ -116,7 +116,7 @@ Especifica un número de bytes promedio permitido para ser transmitido a través
 Después de haber configurado nuestro nodo relay, deberíamos guardar la configuración y reiniciar Tor. Este proceso debería crear claves privadas para Tor, las cuales son almacenadas en keys/secret\_id\_key en nuestro DataDirectory. Si mostramos el contenido de DataDirectory, podemos ver que las claves privadas están presentes, como se puede ver en la imagen siguiente:
 
 <figure>
-    <amp-img sizes="(min-width: 616px) 616px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn2" src="/img/2013/06/081712_1525_AchievingAn2.png" width="616px" height="119px"></amp-img>
+    <img sizes="(min-width: 616px) 616px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn2" src="/img/2013/06/081712_1525_AchievingAn2.png" width="616px" height="119px"></img>
 </figure>
 
 Los comandos presentados en la imagen fueron ejecutados unos momentos después de que el relay de Tor sea configurado e iniciado. Podemos ver que la fecha actual es unos minutos después de la fecha de creación de las claves privadas, lo que indica que fueron creadas recientemente. Esas dos claves son críticas para la operación de nuestro relay, debido a que son usadas para encriptar/desencriptar el tráfico que pasa por nuestro relay. Si alguien puede meter las manos en esas dos claves privadas, entonces podría desencriptar todo el tráfico que pasa por nuestro relay, lo cual rompería nuestra capacidad de anonimato con Tor.
@@ -124,7 +124,7 @@ Los comandos presentados en la imagen fueron ejecutados unos momentos después d
 Presentemos una de las claves aquí, así podemos tener una imagen mejor de estos dos archivos. El contenido del archivo `secret_id_file` se muestra a continuación:
 
 <figure>
-    <amp-img sizes="(min-width: 587px) 587px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn3" src="/img/2013/06/081712_1525_AchievingAn3.png" width="587px" height="275px"></amp-img>
+    <img sizes="(min-width: 587px) 587px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn3" src="/img/2013/06/081712_1525_AchievingAn3.png" width="587px" height="275px"></img>
 </figure>
 
 Podemos ver que el archivo `secret_id_key` contiene solo la clave privada RSA usada para encriptar/desencriptar el tráfico que pasa a través del relay.
@@ -159,13 +159,13 @@ Las últimas líneas indican que Tor está verificando si los puertos ORPort y D
 En el Message Log podemos ver la imagen siguiente; que dice que Tor y Relay están corriendo bien, lo aumenta nuestra seguridad de que todo está funcionando correctamente.
 
 <figure>
-    <amp-img sizes="(min-width: 643px) 643px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn4" src="/img/2013/06/081712_1525_AchievingAn4.png" width="643px" height="138px"></amp-img>
+    <img sizes="(min-width: 643px) 643px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn4" src="/img/2013/06/081712_1525_AchievingAn4.png" width="643px" height="138px"></img>
 </figure>
 
 Si todavía no estamos satisfechos y quisiéramos ver nuestro relay en acción, necesitamos esperar una hora para que el relay sea agregado en el directorio, y luego podemos buscarlo en el sitio web Relay Search. Si escribimos &#8220;abracadabra&#8221; en el cuadro de búsqueda y presionamos &#8220;Search&#8221;, nuestro relay debería mostrarse. Podemos ver esto en la siguiente imagen:
 
 <figure>
-    <amp-img sizes="(min-width: 602px) 602px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn5" src="/img/2013/06/081712_1525_AchievingAn5.png" width="602px" height="520px"></amp-img>
+    <img sizes="(min-width: 602px) 602px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn5" src="/img/2013/06/081712_1525_AchievingAn5.png" width="602px" height="520px"></img>
 </figure>
 
 Hemos buscado la cadena &#8220;abracadabra&#8221;, la cual es el alias de nuestro relay, por lo tanto está funcionando. La IP externa está enmascarada con xxx.xxx.xxx.xxx para la imagen, pero la dirección está realmente, por lo que es otra confirmación de que el relay no es anónimo y su IP externa es visible. La imagen también nos muestra qué puertos el relay dejará atravesar (80 y 443), el ancho de banda disponible y la versión de Tor que está corriendo, más alguna otra extraña cadena &#8220;CwGinCP3xw5S0orVqecCNxQ7fUw”, de la que no tenemos información sobre qué significa.
@@ -173,7 +173,7 @@ Hemos buscado la cadena &#8220;abracadabra&#8221;, la cual es el alias de nuestr
 La imagen presentada también tiene un hipervínculo “b20yYC0pV6WSYHT0mq+h6i27Ke0″, que apunta a https://metrics.torproject.org/serverdesc?desc-id=6f6d32602d2957a5926074f49aafa1ea2dbb29ed. Esta dirección revela la información mostrada en la siguiente imagen:
 
 <figure>
-    <amp-img sizes="(min-width: 643px) 643px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn7" src="/img/2013/06/081712_1525_AchievingAn7.png" width="643px" height="215px"></amp-img>
+    <img sizes="(min-width: 643px) 643px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1525_AchievingAn7" src="/img/2013/06/081712_1525_AchievingAn7.png" width="643px" height="215px"></img>
 </figure>
 
 El alias para el relay es abracadabra, el ancho de banda es 59.39 KB, y el IP y el puerto también son visibles. Hay además banderas que identifican el tipo de servicio. Las banderas especifican las siguientes cosas en orden:

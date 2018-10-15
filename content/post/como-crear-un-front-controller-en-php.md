@@ -20,7 +20,7 @@ title: "Cómo crear un Front Controller en PHP"
 La semana pasada, **en el [Curso de Programación PHP guay][2], desarrollamos una agenda PHP basada en archivos CSV**. El ejercicio era tan sencillo que no utilizamos ningún [framework][3] de desarrollo de aplicaciones como por ejemplo Symfony, Laravel o Yii, pero sí que aplicamos algunas ideas de análisis para afrontar nuestro desarrollo con garantías de éxito.
 
 <figure>
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -31,7 +31,7 @@ La semana pasada, **en el [Curso de Programación PHP guay][2], desarrollamos un
             sizes="(min-width: 480px) 480px, 100vw"
             width="480"
             height="360">
-          </amp-img>
+          </img>
 </figure>
 
 <!--more--><!--ad-->

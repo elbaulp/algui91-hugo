@@ -27,7 +27,7 @@ Y lo ejecutamos con `vrms`
 El resultado es el siguiente:
 
 <figure>
-    <a href="https://4.bp.blogspot.com/-wWUOaA33nCk/TdN2JjQ8OxI/AAAAAAAAAgM/nxfKbEuZCnE/s1600/vrms.png"><amp-img sizes="(min-width: 800px) 800px, 100vw" layout="responsive"  height="450" width="800" src="https://4.bp.blogspot.com/-wWUOaA33nCk/TdN2JjQ8OxI/AAAAAAAAAgM/nxfKbEuZCnE/s800/vrms.png"></amp-img></a>
+    <a href="https://4.bp.blogspot.com/-wWUOaA33nCk/TdN2JjQ8OxI/AAAAAAAAAgM/nxfKbEuZCnE/s1600/vrms.png"><img sizes="(min-width: 800px) 800px, 100vw" layout="responsive"  height="450" width="800" src="https://4.bp.blogspot.com/-wWUOaA33nCk/TdN2JjQ8OxI/AAAAAAAAAgM/nxfKbEuZCnE/s800/vrms.png"></img></a>
 </figure>
 
 Para que nos salga la el dibujito de **Stallman** hay que seguir los siguientes pasos.
@@ -39,7 +39,7 @@ $ cowsay -f rms -W 60 `vrms`
 ```
 
 <figure>
-	<amp-img sizes="(min-width: 238px) 238px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="256" width="238" src="https://3.bp.blogspot.com/-Hur9i5TORyM/TdN5Q19CliI/AAAAAAAAAgU/rhmM1JOnJao/s400/stallman.png"></amp-img>
+    <img sizes="(min-width: 238px) 238px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="256" width="238" src="https://3.bp.blogspot.com/-Hur9i5TORyM/TdN5Q19CliI/AAAAAAAAAgU/rhmM1JOnJao/s400/stallman.png"></img>
 </figure>
 
 Fuente: [Proyectosbeta][2]

@@ -15,7 +15,7 @@ tags:
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/linea-cronologica-de-distribuciones.png" alt="Evolución de las distribuciones GNU/Linux, de 1992 a 2016" title="Evolución de las distribuciones GNU/Linux, de 1992 a 2016" width="800" height="400"></amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/linea-cronologica-de-distribuciones.png" alt="Evolución de las distribuciones GNU/Linux, de 1992 a 2016" title="Evolución de las distribuciones GNU/Linux, de 1992 a 2016" width="800" height="400"></img>
 </figure>
 
 Hoy os traigo la línea cronológica de las [distribuciones GNU/Linux](/categories/linux/ "Artículos sobre linux") desde el año 1992 al 2016, es increíble la cantidad de distribuciones que hay.

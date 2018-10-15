@@ -142,7 +142,7 @@ service nginx start
 Como se muestra en la siguiente figura nginx, podemos comprobar que nginx está funcionando correctamente dirigiéndonos a la dirección *localhost*, donde veremos lo siguiente:
 
 <figure>
-    <a href="/img/2014/02/instalacionNginx.png"><amp-img sizes="(min-width: 554px) 554px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/02/instalacionNginx.png" title="Instalación y optimización de un servidor web con Nginx (I)" alt="Instalación y optimización de un servidor web con Nginx (I)" width="554px" height="192px" /></a>
+    <a href="/img/2014/02/instalacionNginx.png"><img sizes="(min-width: 554px) 554px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/02/instalacionNginx.png" title="Instalación y optimización de un servidor web con Nginx (I)" alt="Instalación y optimización de un servidor web con Nginx (I)" width="554px" height="192px" /></a>
 </figure>
 
 ### Configuración

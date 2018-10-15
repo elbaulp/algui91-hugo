@@ -34,7 +34,7 @@ Android es un conjunto de software para dispositivos móviles que incluye Sistem
 El siguiente diagrama muestra los principales componentes del sistema operatívo Android.  Cada sección se describe con más detalle abajo.
 
 <figure>
-    <amp-img sizes="(min-width: 512px) 512px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="512" height="368" src="https://lh4.googleusercontent.com/_IlK2pNFFgGM/TahoYPof5pI/AAAAAAAAAbA/uX4dBYbzVbA/system-architecture.jpg" alt="Android System Architecture"></amp-img>
+    <img sizes="(min-width: 512px) 512px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" width="512" height="368" src="https://lh4.googleusercontent.com/_IlK2pNFFgGM/TahoYPof5pI/AAAAAAAAAbA/uX4dBYbzVbA/system-architecture.jpg" alt="Android System Architecture"></img>
 </figure>
 
 ## Aplicaciones

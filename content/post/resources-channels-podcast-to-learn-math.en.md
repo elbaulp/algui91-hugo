@@ -31,7 +31,7 @@ If you follow some resource about Mathematics not listed below feel free to post
     <article class="box-item animate">
        <h3>My Favorite Theorem</h3>
        <figure>
-         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/myfavtheo.jpg" width="100" height="100" alt="My Favorite Theorem Logo" title="My Favorite Theorem"></amp-img>
+         <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/myfavtheo.jpg" width="100" height="100" alt="My Favorite Theorem Logo" title="My Favorite Theorem"></img>
        </figure>
        <p>Join us as we spend each episode talking with a mathematical professional about their favorite result. And since the best things in life come in pairs, find out what our guest thinks pairs best with their theorem.</p>
        <div class="tags">
@@ -42,7 +42,7 @@ If you follow some resource about Mathematics not listed below feel free to post
    <article class="box-item animate">
        <h3>Math Mutation</h3>
        <figure>
-         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/mathmutation.jpg" width="100" height="100" alt="" title="" ></amp-img>
+         <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/mathmutation.jpg" width="100" height="100" alt="" title="" ></img>
        </figure>
        <p>Welcome to Math Mutation, a short podcast for people of all ages, where we explore fun, interesting, or just plain weird corners of mathematics that you probably didn't hear in school.</p>
        <div class="tags">
@@ -53,7 +53,7 @@ If you follow some resource about Mathematics not listed below feel free to post
    <article class="box-item animate">
        <h3>Rel Prime</h3>
        <figure>
-         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/relprime.png" width="100" height="100" alt="" title="" ></amp-img>
+         <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/relprime.png" width="100" height="100" alt="" title="" ></img>
        </figure>
        <p>Relatively Prime is a mathematics podcast all about the stories behind the Queen of the Sciences that Samuel Hansen dreamt up in an extreme bout of egotism and delusions of grandeur where he spent too long listening to Radiolab, This American Life, and Snap Judgment and began to think, “Hey, I could do that.”</p>
        <div class="tags">
@@ -64,7 +64,7 @@ If you follow some resource about Mathematics not listed below feel free to post
    <article class="box-item animate">
        <h3>Ben Ben Blue</h3>
        <figure>
-         <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bbb.png" width="100" height="100" alt="" title=""></amp-img>
+         <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bbb.png" width="100" height="100" alt="" title=""></img>
        </figure>
 
        <p>A podcast by Grant Sanderson, Ben Eater and Ben Stenhaug about education, technology, and whatever else comes to mind.</p>
@@ -83,7 +83,7 @@ If you follow some resource about Mathematics not listed below feel free to post
     <h3>3Blue1Brow</h3>
 
     <figure>
-      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/3b1b.jpg" width="100" height="100" alt="" title="" ></amp-img>
+      <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/3b1b.jpg" width="100" height="100" alt="" title="" ></img>
     </figure>
 
     <p>3Blue1Brow-postn is some combination of math and entertainment, depending on your disposition. The goal is for explanations to be driven by animations and for difficult problems to be made simple with changes in perspective.</p>
@@ -96,7 +96,7 @@ If you follow some resource about Mathematics not listed below feel free to post
   <article class="box-item animate">
     <h3>MathoLoger</h3>
     <figure>
-      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/mathologer.jpg" width="100" height="100"></amp-img>
+      <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/mathologer.jpg" width="100" height="100"></img>
     </figure>
 
     <p>Enter the world of the Mathologer in which beautiful math(s) rules.</p>
@@ -109,7 +109,7 @@ If you follow some resource about Mathematics not listed below feel free to post
   <article class="box-item animate">
     <h3>MinutePhysics</h3>
     <figure>
-      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/minutephysics.jpg" width="100" height="100"></amp-img>
+      <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/minutephysics.jpg" width="100" height="100"></img>
     </figure>
 
     <p>Simply put: cool physics and other sweet science.</p>
@@ -122,7 +122,7 @@ If you follow some resource about Mathematics not listed below feel free to post
   <article class="box-item animate">
     <h3>MinutoDeFísica</h3>
     <figure>
-      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/MinutoDeFisica.jpg" width="100" height="100"></amp-img>
+      <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/MinutoDeFisica.jpg" width="100" height="100"></img>
     </figure>
 
     <p>En pocas palabras: física genial y ciencia interesante</p>
@@ -135,7 +135,7 @@ If you follow some resource about Mathematics not listed below feel free to post
   <article class="box-item animate">
     <h3>NumberPhile</h3>
     <figure>
-      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/numberphile.jpg" width="100" height="100"></amp-img>
+      <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/numberphile.jpg" width="100" height="100"></img>
     </figure>
 
     <p>Videos about numbers - it's that simple.</p>
@@ -148,7 +148,7 @@ If you follow some resource about Mathematics not listed below feel free to post
   <article class="box-item animate">
     <h3>NumberPhile2</h3>
     <figure>
-      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/numberphile2.jpg" width="100" height="100"></amp-img>
+      <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/numberphile2.jpg" width="100" height="100"></img>
     </figure>
 
     <p>This is Numberphile's "second channel" for extra footage or stuff that didn't quite fit on the main channel</p>
@@ -161,7 +161,7 @@ If you follow some resource about Mathematics not listed below feel free to post
   <article class="box-item animate">
     <h3>PBS Infinite Series</h3>
     <figure>
-      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/pbsinfiniteseries.jpg" width="100" height="100"></amp-img>
+      <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/pbsinfiniteseries.jpg" width="100" height="100"></img>
     </figure>
 
     <p>Mathematician Kelsey Houston-Edwards offers ambitious content for viewers that are eager to attain a greater understanding of the world around them. Math is pervasive - a robust yet precise language - and with each episode you’ll begin to see the math that underpins everything in this puzzling, yet fascinating, universe.</p>
@@ -174,7 +174,7 @@ If you follow some resource about Mathematics not listed below feel free to post
   <article class="box-item animate">
     <h3>StandUpMaths</h3>
     <figure>
-      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/standupmaths.jpg" width="100" height="100"></amp-img>
+      <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/standupmaths.jpg" width="100" height="100"></img>
     </figure>
 
     <p>I do mathematics and stand-up. Sometimes simultaneously. Occasionally while being filmed. (It's quite the Venn diagram.)</p>
@@ -195,7 +195,7 @@ If you follow some resource about Mathematics not listed below feel free to post
   <article class="box-item animate">
     <h3>Physics.org Mathematics section</h3>
     <figure>
-      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physics_math.jpg" width="100" height="100"></amp-img>
+      <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physics_math.jpg" width="100" height="100"></img>
     </figure>
 
     <p>Mathematics section on Physics.org</p>
@@ -208,7 +208,7 @@ If you follow some resource about Mathematics not listed below feel free to post
   <article class="box-item animate">
     <h3>Physics.org Quantum Physics section</h3>
     <figure>
-      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physics_math.jpg" width="100" height="100"></amp-img>
+      <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/physics_math.jpg" width="100" height="100"></img>
     </figure>
 
     <p>Physics.org Quantum Physics section</p>
@@ -221,7 +221,7 @@ If you follow some resource about Mathematics not listed below feel free to post
   <article class="box-item animate">
     <h3></h3>
     <figure>
-      <amp-img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Quanta.jpg" width="100" height="100"></amp-img>
+      <img sizes="(min-width: 100px) 100px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Quanta.jpg" width="100" height="100"></img>
     </figure>
 
     <p>Quanta Magazine is an editorially independent online publication launched by the Simons Foundation to enhance public understanding of science. Why Quanta? Albert Einstein called photons “quanta of light.” Our goal is to “illuminate science.”</p>

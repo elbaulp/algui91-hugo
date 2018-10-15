@@ -11,7 +11,7 @@ title: "Humanstxt Creator. Somos personas, no máquinas"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 351px) 351px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/HumanstxtCreatorsomospersonasnomaquinas.png" alt="Humanstxt Creator. Somos personas, no máquinas" title="Humanstxt Creator. Somos personas, no máquinas" width="351" height="101"></amp-img>
+    <img sizes="(min-width: 351px) 351px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/HumanstxtCreatorsomospersonasnomaquinas.png" alt="Humanstxt Creator. Somos personas, no máquinas" title="Humanstxt Creator. Somos personas, no máquinas" width="351" height="101"></img>
 </figure>
 
 De la web de un amigo blogger ([EtnasSoft][1]), me llega la iniciativa Humanstxt Creator. Que trata de:

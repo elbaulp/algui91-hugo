@@ -136,7 +136,7 @@ Las líneas de código debajo del manejador específico se ejecutarán cuando es
 A continuación se muestra una lista de las excepciones automáticas predefinidas por Oracle:
 
 <figure>
-    <amp-img sizes="(min-width: 294px) 294px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="262" width="294" alt="Tabla errores oracle" title="Tabla errores oracle" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TUWDM6WfCxI/AAAAAAAAATM/0b1NleX1IY4/s320/image.0WG9PV"></amp-img>
+    <img sizes="(min-width: 294px) 294px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="262" width="294" alt="Tabla errores oracle" title="Tabla errores oracle" src="https://2.bp.blogspot.com/_IlK2pNFFgGM/TUWDM6WfCxI/AAAAAAAAATM/0b1NleX1IY4/s320/image.0WG9PV"></img>
 </figure>
 
 # Siguiente tema: [PL/SQL - Cursores][1]

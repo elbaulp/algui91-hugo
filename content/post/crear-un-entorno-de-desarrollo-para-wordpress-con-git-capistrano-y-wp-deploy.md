@@ -16,7 +16,7 @@ title: Crear un entorno de desarrollo para WordPress con Git, Capistrano y Wp-De
 ---
 
 <figure>
-  <amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/CREAR-UN-ENTORNO-DE-DESARROLLO-PARA-WORDPRESS-CON-GIT-CAPISTRANO-Y-WP-DEPLOY.png" title="Crear un entorno de desarrollo para WordPress con Git, Capistrano y Wp-Deploy" alt="Crear un entorno de desarrollo para WordPress con Git, Capistrano y Wp-Deploy" width="400px" height="400px"></amp-img>
+  <img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/CREAR-UN-ENTORNO-DE-DESARROLLO-PARA-WORDPRESS-CON-GIT-CAPISTRANO-Y-WP-DEPLOY.png" title="Crear un entorno de desarrollo para WordPress con Git, Capistrano y Wp-Deploy" alt="Crear un entorno de desarrollo para WordPress con Git, Capistrano y Wp-Deploy" width="400px" height="400px"></img>
 </figure>
 
 Nunca es buena idea realizar cambios a un sitio web sin haberlos probado de antemano, hasta asegurarnos que funcionan correctamente. Para ello, lo habitual es tener una copia local de la web, probarlos y luego aplicar los cambios en el sitio real. Sin embargo, muchas veces hay cosas que funcionan el local y no en la web.

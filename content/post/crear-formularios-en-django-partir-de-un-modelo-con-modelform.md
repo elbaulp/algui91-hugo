@@ -157,7 +157,7 @@ El primer comando se encarga de actualizar la base de datos con los modelos crea
 Si todo ha ido bien, deberíamos ver la siguiente página en <a href="http://127.0.0.1:8000/personas/list" title="localhost" target="_blank">http://127.0.0.1:8000/personas/list</a>
 
 <figure>
-    <amp-img sizes="(min-width: 161px) 161px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/Crear-formularios-en-Django-a-partir-de-un-Modelo-con-ModelForm.png" alt="Crear formularios en Django a partir de un Modelo con ModelForm" width="161px" height="153px" />
+    <img sizes="(min-width: 161px) 161px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/Crear-formularios-en-Django-a-partir-de-un-Modelo-con-ModelForm.png" alt="Crear formularios en Django a partir de un Modelo con ModelForm" width="161px" height="153px" />
 </figure>
 
 # Crear un formulario a partir de un Modelo con ModelForm

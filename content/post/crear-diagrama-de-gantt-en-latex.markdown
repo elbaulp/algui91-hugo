@@ -12,7 +12,7 @@ title: "Cómo Crear Diagramas De Gantt en LaTeX"
 ---
 
 <figure>
-  <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crear-diagrama-de-gantt-en-latex.png" alt="Cómo Crear Diagramas De Gantt en LaTeX" title="Cómo Crear Diagramas De Gantt en LaTeX" width="800" height="335"></amp-img>
+  <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crear-diagrama-de-gantt-en-latex.png" alt="Cómo Crear Diagramas De Gantt en LaTeX" title="Cómo Crear Diagramas De Gantt en LaTeX" width="800" height="335"></img>
 </figure>
 
 > Consulta el resto de [artículos sobre LaTeX escritos en el blog](/categories/latex "Artículos sobre LaTeX")

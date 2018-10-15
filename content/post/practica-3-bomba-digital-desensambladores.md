@@ -16,7 +16,7 @@ title: "Desafío de ingeniería inversa en C. Soluciones"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 532px) 532px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Bomba" alt="" src="/img/2012/12/logicbomb.png" width="532px" height="449px"></amp-img>
+    <img sizes="(min-width: 532px) 532px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Bomba" alt="" src="/img/2012/12/logicbomb.png" width="532px" height="449px"></img>
 </figure>
 
 Hace unas semanas [hablé de un desafío][1] propuesto por los profesores de Estructura de computadores de mi facultad. Ahora que ha finalizado el plazo de entrega de la práctica, escribo este artículo con los resultados que obtuve.

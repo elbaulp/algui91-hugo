@@ -35,8 +35,8 @@ Antes de que se desarrollara este software, la única forma de conseguir tipogra
 Este programa se podría usar para replicar el tipo de letra que tenían personajes pasados. El equipo replicó la letra de _Arthur Conan Doyle_, _Abraham Lincoln_ y _Frida Kahio_, como podemos ver en la imagen:
 
 <figure>
-  <amp-img sizes="(min-width: 755px) 755px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crean-un-algoritmo-que-replica-tu-letra.jpg" alt="Crean Un Algoritmo Que Replica Tu Letra" title="Crean Un Algoritmo Que Replica Tu Letra" width="755" height="701">
-  </amp-img>
+  <img sizes="(min-width: 755px) 755px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crean-un-algoritmo-que-replica-tu-letra.jpg" alt="Crean Un Algoritmo Que Replica Tu Letra" title="Crean Un Algoritmo Que Replica Tu Letra" width="755" height="701">
+  </img>
   <figcaption>Crédito de la imagen <a href="http://visual.cs.ucl.ac.uk/pubs/handwriting/" target="_blank">visual.cs.ucl.ac.uk</a></figcaption>
 </figure>
 

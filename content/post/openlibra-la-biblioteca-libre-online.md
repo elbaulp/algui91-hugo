@@ -10,7 +10,7 @@ title: 'OpenLibra: La Biblioteca Libre Online tal como la esperabas'
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="217" width="640" src="https://3.bp.blogspot.com/-uqafMWqPUPw/TedAknb7jBI/AAAAAAAAAjM/ej6mgwZbUJM/s1600/openlibra.jpg"></amp-img>
+    <img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="217" width="640" src="https://3.bp.blogspot.com/-uqafMWqPUPw/TedAknb7jBI/AAAAAAAAAjM/ej6mgwZbUJM/s1600/openlibra.jpg"></img>
 </figure>
 
 [EtnasSoft][1], un compañero blogger, está inmerso en un interesante proyecto que consiste en recopilar libros relacionados con la programación y software libre entre otras cosas, todos en Castellano.

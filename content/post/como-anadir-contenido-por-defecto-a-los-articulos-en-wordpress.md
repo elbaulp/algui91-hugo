@@ -13,7 +13,7 @@ tags:
 ---
 
 <figure>
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -24,7 +24,7 @@ tags:
             sizes="(min-width: 123px) 123px, 100vw"
             width="123"
             height="116">
-          </amp-img>
+          </img>
 </figure>
 
 Si escribes en un blog, seguramente en cada artículo repites algunos textos, como añadir shortcodes que usas habitualmente, pedir a los lectores que se suscriban al [feed del blog][2], que te sigan en las redes sociales etcétera. En esos casos es útil que para cada nuevo artículo creado, se inserte un texto por defecto.

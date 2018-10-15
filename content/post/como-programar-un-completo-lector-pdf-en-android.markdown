@@ -26,43 +26,43 @@ En este tutorial te vamos a enseñar cómo poner en tus apps Android un completo
 <!--more--><!--ad-->
 
 <figure>
-    <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Lector PDF Android con barra de navegación.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+    <img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Lector PDF Android con barra de navegación.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 1. Lector PDF Android que incluye una barra de navegación con varios controles</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Bloquear la rotación.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Bloquear la rotación.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 2. Bloquear la rotación</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Modo de visualización de la página.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Modo de visualización de la página.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 3. Modo de visualización</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Brillo.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Brillo.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 4. Brillo</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/outline.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/outline.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 5. Outline</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Búsqueda de texto.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Búsqueda de texto.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 6. Búsqueda de texto</figcaption>
 </figure>
 
 
 <figure>
-  <amp-img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Insertar anotaciones.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
+  <img sizes="(min-width: 960px) 960px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Insertar anotaciones.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="960px" height="560px" />
   <figcaption>Figura 7. Insertar anotaciones: subrayar texto, tachado, dibujo a mano alzada, etc.</figcaption>
 </figure>
 
@@ -102,7 +102,7 @@ En aplicaciones Android más complejas que cuentan con varias clases, es recomen
 Ahora vamos a crear un proyecto Android nuevo que llamaremos `SimpleDocumentReader`, y justo a continuación, importaremos PlugPDF como un módulo nuevo. La estructura de la aplicación tiene que quedar como sigue.
 
 <figure>
-  <amp-img sizes="(min-width: 429px) 429px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Estructura de la aplicación.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="429px" height="562px" />
+  <img sizes="(min-width: 429px) 429px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Estructura de la aplicación.jpg" title="Cómo Programar Un Completo Lector PDF en Android" alt="Cómo Programar Un Completo Lector PDF en Android" width="429px" height="562px" />
   <figcaption>Figura 8. Estructura de la aplicación</figcaption>
 </figure>
 
@@ -158,70 +158,70 @@ import com.epapyrus.plugpdf.core.viewer.DocumentState;
 
 public class MainActivity extends Activity {
 
-	private SimpleDocumentReader mReader;
-	private Button selectFileButton;
-	final int ACTIVITY_CHOOSE_FILE = 1;
+    private SimpleDocumentReader mReader;
+    private Button selectFileButton;
+    final int ACTIVITY_CHOOSE_FILE = 1;
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
 
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-		// init PlugPDF
-		try {
-			PlugPDF.init(getApplicationContext(),
-				"YOUR_PLUGPDF_LICENSE_HERE");
-		} catch (PlugPDFException.InvalidLicense ex) {
-			Log.e("PlugPDF", "Invalid license exception", ex);
-		}
+        // init PlugPDF
+        try {
+            PlugPDF.init(getApplicationContext(),
+                "YOUR_PLUGPDF_LICENSE_HERE");
+        } catch (PlugPDFException.InvalidLicense ex) {
+            Log.e("PlugPDF", "Invalid license exception", ex);
+        }
 
-		selectFileButton = (Button) findViewById(R.id.selectFileButton);
+        selectFileButton = (Button) findViewById(R.id.selectFileButton);
 
-		selectFileButton.setOnClickListener(new View.OnClickListener() {@Override
-			public void onClick(View arg0) {
-				Intent chooseFile = new Intent(Intent.ACTION_GET_CONTENT);
-				chooseFile.setType("application/pdf");
-				startActivityForResult(Intent.createChooser(chooseFile, "Choose a file"), ACTIVITY_CHOOSE_FILE);
-			}
-		});
+        selectFileButton.setOnClickListener(new View.OnClickListener() {@Override
+            public void onClick(View arg0) {
+                Intent chooseFile = new Intent(Intent.ACTION_GET_CONTENT);
+                chooseFile.setType("application/pdf");
+                startActivityForResult(Intent.createChooser(chooseFile, "Choose a file"), ACTIVITY_CHOOSE_FILE);
+            }
+        });
 
-	}
+    }
 
-	@Override
-	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-		// Check which request we're responding to
-		if (requestCode == ACTIVITY_CHOOSE_FILE) {
-			// Make sure the request was successful
-			if (resultCode == RESULT_OK) {
-				// get the file uri
-				Uri fileUri = data.getData();
-				// launch the PDF viewer
-				mReader = SimpleReaderFactory.createSimpleViewer(this, listener);
-				mReader.openFile(fileUri.getPath(), "");
-			}
-		}
-	}
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        // Check which request we're responding to
+        if (requestCode == ACTIVITY_CHOOSE_FILE) {
+            // Make sure the request was successful
+            if (resultCode == RESULT_OK) {
+                // get the file uri
+                Uri fileUri = data.getData();
+                // launch the PDF viewer
+                mReader = SimpleReaderFactory.createSimpleViewer(this, listener);
+                mReader.openFile(fileUri.getPath(), "");
+            }
+        }
+    }
 
-	/**
-	 * listener receiving event notifications on completion of PDF document loading on a {@link SimpleDocumentReader}
-	 */
-	private SimpleDocumentReaderListener listener = new SimpleDocumentReaderListener() {
+    /**
+     * listener receiving event notifications on completion of PDF document loading on a {@link SimpleDocumentReader}
+     */
+    private SimpleDocumentReaderListener listener = new SimpleDocumentReaderListener() {
 
-		@Override
-		public void onLoadFinish(DocumentState.OPEN state) {
-			Log.i("PlugPDF", "[INFO] Open " + state);
-		}
-	};
+        @Override
+        public void onLoadFinish(DocumentState.OPEN state) {
+            Log.i("PlugPDF", "[INFO] Open " + state);
+        }
+    };
 
-	@Override
-	protected void onDestroy() {
-		if (mReader.getDocument() != null) {
-			mReader.save();
-			mReader.clear();
-		}
-		super.onDestroy();
-	}
+    @Override
+    protected void onDestroy() {
+        if (mReader.getDocument() != null) {
+            mReader.save();
+            mReader.clear();
+        }
+        super.onDestroy();
+    }
 }
 ```
 

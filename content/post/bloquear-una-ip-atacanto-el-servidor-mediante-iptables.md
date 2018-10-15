@@ -15,7 +15,7 @@ title: Bloquear una IP atacando el servidor mediante iptables
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 256px) 256px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/Applic-Firewall-icon.png" alt="Applic-Firewall-icon" width="256px" height="256px" />
+    <img sizes="(min-width: 256px) 256px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/Applic-Firewall-icon.png" alt="Applic-Firewall-icon" width="256px" height="256px" />
 </figure>
 
 

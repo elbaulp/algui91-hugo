@@ -49,7 +49,7 @@ Hecho esto, ya podemos ejecutar Atom desde la consola o desde el menú que nuest
 Si no se te da bien recordar atajos de teclado, basta con recordar uno solo para obtenerlos todos `ctrl-shift-P`, aparecerá algo así:
 
 <figure>
-    <amp-img sizes="(min-width: 548px) 548px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/cmd-alt-p-atom.png" alt="cmd-alt-p atom" width="548px" height="390px" />
+    <img sizes="(min-width: 548px) 548px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/cmd-alt-p-atom.png" alt="cmd-alt-p atom" width="548px" height="390px" />
 </figure>
 
 ## Encontrando archivos
@@ -89,7 +89,7 @@ apm install git-plus
 Una demostración de su uso:
 
 <figure>
-    <amp-img sizes="(min-width: 1075px) 1075px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/git-plus-atom.gif" alt="git-plus-atom" width="1075px" height="340px" />
+    <img sizes="(min-width: 1075px) 1075px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/git-plus-atom.gif" alt="git-plus-atom" width="1075px" height="340px" />
 </figure>
 
 Algunos comandos básicos:
@@ -127,7 +127,7 @@ Algunos comandos básicos:
 Éste paquete viene instalado por defecto, es bastante útil porque muestra el diff de forma gráfica, por ejemplo:
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/git-diff-atom.png" alt="git diff atom" width="800px" height="224px" />
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/git-diff-atom.png" alt="git diff atom" width="800px" height="224px" />
 </figure>
 
 

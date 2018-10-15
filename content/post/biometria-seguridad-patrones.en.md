@@ -14,7 +14,7 @@ url: "/en/biometrics-pattern-recognition/"
 ---
 
 <figure>
-    <a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="Biometría Aplicada a La Seguridad - Reconocimiento De Patrones" alt="Biometría Aplicada a La Seguridad - Reconocimiento De Patrones" width="640px" height="405px" /></a>
+    <a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="Biometría Aplicada a La Seguridad - Reconocimiento De Patrones" alt="Biometría Aplicada a La Seguridad - Reconocimiento De Patrones" width="640px" height="405px" /></a>
     <span class="image-credit">image credits: pixabay<a href="https://pixabay.com/en/biometrics-eye-security-154660/"></a></span><br />
 </figure>
 
@@ -62,7 +62,7 @@ If we want to minimize the error of our biometrics system, we must try to make t
 In the next figure we can see how both two classes are perfectly separable when using both vector components (2 dimensions), but if we reduce it to just one dimension, we can see that both classes are no longer separable, as they overlap.
 
 <figure>
-    <a href="/img/separability.png"><amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/separability.png" title="class separability using two-dimensional vectors" alt="class separability using two-dimensional vectors" width="320px" height="316px" /></a>
+    <a href="/img/separability.png"><img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/separability.png" title="class separability using two-dimensional vectors" alt="class separability using two-dimensional vectors" width="320px" height="316px" /></a>
 </figure>
 
 It is easy to ilustrate it in an image when the number of classes is low, as in this example, as we got just two classes. But the difficulty increases with the number of classes. How can we know if our classifier is doing well or not? How can we know if a characteristic is discriminating or not? In that case proceed to calculate the discriminating mean of the characteristic, from the mean distance between classes and normalizing by its variance.

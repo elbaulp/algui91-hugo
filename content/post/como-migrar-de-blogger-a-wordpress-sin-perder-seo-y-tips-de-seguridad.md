@@ -27,7 +27,7 @@ Hecho esto, debemos conceder permisos a blogger para que deje a wordpress accede
 En el caso de que dispongáis de un dominio propio como en mi caso, el primer paso es encontrar la dirección de los servidores DNS de nuestro proveedor de hosting, en mi caso con OVH las direcciones son <em><strong>ns100.ovh.net</strong></em> y <strong><em>dns100.ovh.net. </em></strong>Al comprar el domínio a través de blogger para acceder al panel de control debemos usar google Apps a través de este enlace https://www.google.com/nombredetudominio. Una vez dentro del panel de control nos dirigimos a <em>Domain settings</em><em>→Domain Names</em><em>→Avanced DNS settings. </em>Nos logeamos en la consola y editamos la sección <em>DNS Information </em>para que quede parecido a esto:
 
 <figure>
-    <amp-img sizes="(min-width: 631px) 631px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="DNS settings blogger to wordpress" src="/img/2012/04/Screenshot-04042012-055625-PM1.png" alt="" width="613px" height="98px"></amp-img>
+    <img sizes="(min-width: 631px) 631px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="DNS settings blogger to wordpress" src="/img/2012/04/Screenshot-04042012-055625-PM1.png" alt="" width="613px" height="98px"></img>
 </figure>
 
 Obviamente con los DNS correspondientes a los que os proporcione vuestro servicio de hosting.

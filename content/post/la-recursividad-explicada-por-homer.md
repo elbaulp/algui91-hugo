@@ -10,7 +10,7 @@ title: La recursividad, explicada por Homer Simpson
 ---
 
 <figure>
-    <a href="/img/2012/04/tumblr_ld50v7q6tn1qabw68o1_4001.gif"  ><amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240px" src="/img/2012/04/tumblr_ld50v7q6tn1qabw68o1_4001.gif" width="320px" /></a>
+    <a href="/img/2012/04/tumblr_ld50v7q6tn1qabw68o1_4001.gif"  ><img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240px" src="/img/2012/04/tumblr_ld50v7q6tn1qabw68o1_4001.gif" width="320px" /></a>
 </figure>
 
 

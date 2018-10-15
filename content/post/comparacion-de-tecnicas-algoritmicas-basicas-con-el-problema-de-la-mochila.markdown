@@ -14,7 +14,7 @@ title: "Comparación de técnicas algorítmicas básicas con el problema de  la 
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 600px) 600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Comparación de técnicas algorítmicas básicas con el problema de la Mochila.png" title="Comparación de técnicas algorítmicas básicas con el problema de  la Mochila" alt="Comparación de técnicas algorítmicas básicas con el problema de  la Mochila" width="600px" height="520px" />
+    <img sizes="(min-width: 600px) 600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Comparación de técnicas algorítmicas básicas con el problema de la Mochila.png" title="Comparación de técnicas algorítmicas básicas con el problema de  la Mochila" alt="Comparación de técnicas algorítmicas básicas con el problema de  la Mochila" width="600px" height="520px" />
     <figcaption>Créditos de la imagen Wikipedia</figcaption>
 </figure>
 

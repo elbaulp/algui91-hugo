@@ -249,7 +249,7 @@ urlpatterns = [
 Ejecutamos el servidor con *python manage.py runserver* y entramos a <a href="http://127.0.0.1:8000/admin/" target="_blank">http://127.0.0.1:8000/admin/</a>. Deberíamos ver:
 
 <figure>
-    <amp-img sizes="(min-width: 336px) 336px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/09/admin01.png" alt="Introducción a Django - Instalación y primer proyecto" title="Introducción a Django - Instalación y primer proyecto" width="336px" height="192px"></amp-img>
+    <img sizes="(min-width: 336px) 336px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/09/admin01.png" alt="Introducción a Django - Instalación y primer proyecto" title="Introducción a Django - Instalación y primer proyecto" width="336px" height="192px"></img>
 </figure>
 
 Para poder hacer accesibles los modelos que acabamos de crear desde el panel de administración, debemos configurar django para que los objetos Polls tengan una interfaz en el panel de administración. Para ello, crea un archivo llamado *admin.py* en el directorio *polls*:
@@ -264,7 +264,7 @@ admin.site.register(Poll)
 Debemos reiniciar el servidor para que los cambios se apliquen, ahora sí vemos la aplicación polls:
 
 <figure>
-    <amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/09/admin03t.png" alt="Introducción a Django – Instalación y primer proyecto" width="400px" height="134px" />
+    <img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/09/admin03t.png" alt="Introducción a Django – Instalación y primer proyecto" width="400px" height="134px" />
 </figure>
 
 ## Escribir la primera vista

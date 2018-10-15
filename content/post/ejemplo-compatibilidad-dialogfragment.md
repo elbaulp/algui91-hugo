@@ -14,7 +14,7 @@ title: Crear DialogFragment compatibles con versiones inferiores a Android 3.0
 En un proyecto reciente he tenido que trabajar con las librerías de compatibilidad de Android, en este caso para crear diálogos que permitan elegir fecha y hora, como estos:
 
 <figure>
-    <amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/11/pickers1.png" alt="" title="pickers" width="400px" height="186px"></amp-img>
+    <img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/11/pickers1.png" alt="" title="pickers" width="400px" height="186px"></img>
 </figure>
 
 En Android recomiendan usar un <a href="http://developer.android.com/reference/android/support/v4/app/DialogFragment.html" title="DialogFrgment" target="_blank">`DialogFragment`</a>, que permite mostrar éstos diálogos en distintos layouts. Si pretendes que tu aplicación soporte este tipo de diálogos para versiones inferiores a Android 3.0, debes usar el DialogFragment mencionado anteriormente, si por lo contrario tu aplicación usa un *minSdkVersion* igual o superior a 11, puedes usar este otro <a href="http://developer.android.com/reference/android/app/DialogFragment.html" target="_blank">`DialogFragment`</a>. En este artículo se va a tratar la versión para soportar versiones anteriores a la 3.0.
@@ -92,7 +92,7 @@ Llegados a este punto, es importante saber qué clase hemos de importar. Ya que 
 Para comprobar que funciona, lanzamos el emulador, en este caso, con la versión 2.3 de Android:
 
 <figure>
-    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/device-2013-01-12-1337262.png" alt="TimePickerFragment Suportv4" width="480" height="800"></amp-img>
+    <img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/device-2013-01-12-1337262.png" alt="TimePickerFragment Suportv4" width="480" height="800"></img>
 </figure>
 
 El proceso de creación de un **DatePickerDialog** es muy similar.
@@ -151,7 +151,7 @@ public void mostrarDialogoDeFecha(View v){
 
 ```
 <figure>
-    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/device-2013-01-12-1352432.png" alt="DateTimePicker supportv4 Android" width="480" height="800"></amp-img>
+    <img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/01/device-2013-01-12-1352432.png" alt="DateTimePicker supportv4 Android" width="480" height="800"></img>
 </figure>
 
 Así de simple, es similar a crear un **timePickerDialog**.

@@ -240,7 +240,7 @@ service nginx reload
 Podemos comprobar que todo funciona correctamente ojeando las cabeceras de la respuesta del servidor como se muestra en la figura:
 
 <figure>
-    <a href="/img/2014/02/pagespeed.png"><amp-img sizes="(min-width: 255px) 255px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/02/pagespeed.png" title="Configuración pagespeed nginx" alt="Configuración pagespeed nginx" width="255px" height="135px" /></a>
+    <a href="/img/2014/02/pagespeed.png"><img sizes="(min-width: 255px) 255px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/02/pagespeed.png" title="Configuración pagespeed nginx" alt="Configuración pagespeed nginx" width="255px" height="135px" /></a>
 </figure>
 
 Como vemos, la cabecera de pagespeed está presente, luego está habilitado.

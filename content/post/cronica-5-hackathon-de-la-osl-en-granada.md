@@ -68,7 +68,7 @@ El año pasado hablé del [3°][1] y [4°][2] Hackathón que organizó la Oficin
 >
 > Yo participé en este último, code-reimagined. La idea de este proyecto es facilitar el proceso de aprendizaje en el mundo de la programación, principalmente a los más jóvenes, creando una pantalla del Mario Brox a partir del código de un proyecto Java. Está en fase de desarrollo aunque de momento tiene mucha funcionalidad implementada. Expresiones y declaraciones se representan con cajitas. Los for con los tubos, los if se remifican en dos caminos etc, puedes descargar el código de github Un ejemplo:
 >
->   <a href="/img/2013/03/Screenshot-from-2013-03-11-175049.png"><amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Screenshot-from-2013-03-11-175049-1024x817.png" alt="Maryo Brox" width="1024px" height="817px" /></a>
+>   <a href="/img/2013/03/Screenshot-from-2013-03-11-175049.png"><img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Screenshot-from-2013-03-11-175049-1024x817.png" alt="Maryo Brox" width="1024px" height="817px" /></a>
 >
 >   <p class="wp-caption-text">
 >     Maryo Brox

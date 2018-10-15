@@ -14,7 +14,7 @@ title: "Biometría Aplicada a La Seguridad - Reconocimiento De Patrones"
 ---
 
 <figure>
-    <a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="Biometría Aplicada a La Seguridad - Reconocimiento De Patrones" alt="Biometría Aplicada a La Seguridad - Reconocimiento De Patrones" width="640px" height="405px" /></a>
+    <a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="Biometría Aplicada a La Seguridad - Reconocimiento De Patrones" alt="Biometría Aplicada a La Seguridad - Reconocimiento De Patrones" width="640px" height="405px" /></a>
     <span class="image-credit">Crédito de la imagen: pixabay<a href="https://pixabay.com/en/biometrics-eye-security-154660/"></a></span><br />
 </figure>
 
@@ -63,7 +63,7 @@ Si queremos minimizar el error en nuestro sistema biométrico, debemos procurar 
 En la Figura se puede apreciar como las dos clases son perfectamente separables cuando se usan las dos componentes del vector (2 dimensiones), pero si reducimos a una dimensión se solapan ambas clases,resultando imposible separarlas.
 
 <figure>
-    <a href="/img/separability.png"><amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/separability.png" title="Separabilidad de dos clases con vectores bidimensionales" alt="Separabilidad de dos clases con vectores bidimensionales" width="320px" height="316px" /></a>
+    <a href="/img/separability.png"><img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/separability.png" title="Separabilidad de dos clases con vectores bidimensionales" alt="Separabilidad de dos clases con vectores bidimensionales" width="320px" height="316px" /></a>
 </figure>
 
 Es fácil mostrarlo en una imágen cuando tenemos pocas clases, como es este caso, que tenemos sólo dos. Pero cuando tenemos muchas el problema se complica. ¿Cómo sabemos si nuestro clasificador lo está haciendo bien o no? ¿cómo sabemos si una característica es discriminativa? En este caso se procede a calcular la media discriminativa de la característica, a partir de la distancia media entre clases y normalizando por la varianza.

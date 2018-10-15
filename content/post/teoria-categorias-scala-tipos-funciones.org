@@ -121,7 +121,7 @@ b(10) // immediate
 
 <figure>
         <a href="/img/teoria-categorias-scala-tipos-funciones.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -132,7 +132,7 @@ b(10) // immediate
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="527">
-          </amp-img>
+          </img>
         </a>
 </figure>
 

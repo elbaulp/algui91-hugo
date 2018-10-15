@@ -51,8 +51,8 @@ Como mejora a la _SRAM_ se creó la _DRAM_, que reducía la complejidad de la _S
 Estas nuevas memorias usan una tecnología de cambio de fase. Imaginemos un conjunto de conductores dispuestos horizontalmente, colocamos pequeños puntos de cosas en dichos conductores horizontalmente. Después, en la parte superior colocamos una rejilla de conductores verticalmente de forma que intersequen con los conductores horizontales en el punto X, de ahí el nombre __XPoint__. La siguiente imagen ayuda a visualizarlo:
 
 <figure>
-    <amp-img sizes="(min-width: 1289px) 1289px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/IntelAnunciaSusNuevosDiscosDuros1000VecesMasRapidosQueLosSSDs.png" alt="Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los SSDs" title="Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los SSDs" width="1289" height="1035">
-</amp-img>
+    <img sizes="(min-width: 1289px) 1289px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/IntelAnunciaSusNuevosDiscosDuros1000VecesMasRapidosQueLosSSDs.png" alt="Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los SSDs" title="Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los SSDs" width="1289" height="1035">
+</img>
     <figcaption>Créditos de la imagen: <a href="http://www.intelsalestraining.com/infographics/memory/3DXPointc.pdf" target="_blank">Intel</a></figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ Después de la descripción dada, uno puede imaginar de dónde sale el nombre __
 Hasta ahora, los dispositivos de almacenamiento a los que estamos acostumbrados formaban una pirámide jerárquica. Siendo los discos duros los más lentos, pero con más capacidad, hasta la memoria caché del microprocesador (L1, L2 etc), la más rápida pero con menor capacidad. Esta tecnología se situa justo debajo de la _DRAM_, como mostramos en la siguiente imagen:
 
 <figure>
-    <amp-img sizes="(min-width: 1264px) 1264px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/IntelAnunciaSusNuevosDiscosDuros1000VecesMasRapidosQueLosSSDs2.png" alt="Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los SSDs" title="Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los SSDs" width="1264" height="672"></amp-img>
+    <img sizes="(min-width: 1264px) 1264px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/IntelAnunciaSusNuevosDiscosDuros1000VecesMasRapidosQueLosSSDs2.png" alt="Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los SSDs" title="Intel Anuncia Sus Nuevos Discos Duros, 1000 Veces Más Rápidos Que Los SSDs" width="1264" height="672"></img>
     <figcaption>Imagen cortesia del <a href="https://www.youtube.com/watch?v=gMwz1eWQzno" target="_blank">vídeo de Intel</a></figcaption>
 </figure>
 

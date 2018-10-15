@@ -89,7 +89,7 @@ Listo, al ejecutar la aplicación tendremos un Toast como este:
 
 
 <figure>
-    <a href="https://2.bp.blogspot.com/-r66Zg6aP020/ThsyX24tuCI/AAAAAAAAArk/wWEypxjYmdo/s1600/toastPersonalizado.png"  ><amp-img sizes="(min-width: 240px) 240px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Toast notification Android " title="Toast notification Android"  height="400" width="240" src="https://2.bp.blogspot.com/-r66Zg6aP020/ThsyX24tuCI/AAAAAAAAArk/wWEypxjYmdo/s400/toastPersonalizado.png" /></a>
+    <a href="https://2.bp.blogspot.com/-r66Zg6aP020/ThsyX24tuCI/AAAAAAAAArk/wWEypxjYmdo/s1600/toastPersonalizado.png"  ><img sizes="(min-width: 240px) 240px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Toast notification Android " title="Toast notification Android"  height="400" width="240" src="https://2.bp.blogspot.com/-r66Zg6aP020/ThsyX24tuCI/AAAAAAAAArk/wWEypxjYmdo/s400/toastPersonalizado.png" /></a>
 </figure>
 
 
@@ -132,7 +132,7 @@ mNotificationManager.notify(HELLO_ID, notification);
 El resultado es el siguiente:
 
 <div class="separator" >
-<a href="https://3.bp.blogspot.com/-pCGwTzNQ89w/Ths04zdOqMI/AAAAAAAAArs/Y1tFR9TKe5I/s1600/notificationBar.png"  ><amp-img sizes="(min-width: 240px) 240px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="notification bar Android" alt="notification bar Android"  height="400" width="240" src="https://3.bp.blogspot.com/-pCGwTzNQ89w/Ths04zdOqMI/AAAAAAAAArs/Y1tFR9TKe5I/s400/notificationBar.png" /></a>
+<a href="https://3.bp.blogspot.com/-pCGwTzNQ89w/Ths04zdOqMI/AAAAAAAAArs/Y1tFR9TKe5I/s1600/notificationBar.png"  ><img sizes="(min-width: 240px) 240px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="notification bar Android" alt="notification bar Android"  height="400" width="240" src="https://3.bp.blogspot.com/-pCGwTzNQ89w/Ths04zdOqMI/AAAAAAAAArs/Y1tFR9TKe5I/s400/notificationBar.png" /></a>
 </div>
 
 Al igual que los Toast, se puede crear un layout personalizado, para más información visite: <a href="https://web.archive.org/web/20151121170738/http://developer.android.com/guide/topics/ui/notifiers/notifications.html" target="_blank" title="https://web.archive.org/web/20151121170738/http://developer.android.com/guide/topics/ui/notifiers/notifications.html">https://web.archive.org/web/20151121170738/http://developer.android.com/guide/topics/ui/notifiers/notifications.html</a>
@@ -182,7 +182,7 @@ dialog.show();
 ```
 
 <div class="separator" >
-<a href="https://1.bp.blogspot.com/-GhH6GUJdti0/Ths8m7mMf6I/AAAAAAAAAr0/Ox9Cn6gaLTA/s1600/alertDialog.png"  ><amp-img sizes="(min-width: 240px) 240px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="alertDialog Android" title="AlertDialog android"  height="400" width="240" src="https://1.bp.blogspot.com/-GhH6GUJdti0/Ths8m7mMf6I/AAAAAAAAAr0/Ox9Cn6gaLTA/s400/alertDialog.png" /></a>
+<a href="https://1.bp.blogspot.com/-GhH6GUJdti0/Ths8m7mMf6I/AAAAAAAAAr0/Ox9Cn6gaLTA/s1600/alertDialog.png"  ><img sizes="(min-width: 240px) 240px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="alertDialog Android" title="AlertDialog android"  height="400" width="240" src="https://1.bp.blogspot.com/-GhH6GUJdti0/Ths8m7mMf6I/AAAAAAAAAr0/Ox9Cn6gaLTA/s400/alertDialog.png" /></a>
 </div>
 
 También vamos a ver un ProgressDialog, indefinido (Que nunca termina).
@@ -200,7 +200,7 @@ ProgressDialog.show(
 Los dos últimos parámetros son para que el diálogo sea indeterminado, y para que se pueda cerrar con la flecha de &#8220;atrás&#8221; del terminal.
 
 <div class="separator" >
-    <a href="https://1.bp.blogspot.com/-uf-rVH41HfM/Ths-BUGmQ9I/AAAAAAAAAr8/7JsOXm7ScKs/s1600/progressDialog.png"  ><amp-img sizes="(min-width: 240px) 240px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="400" width="240" src="https://1.bp.blogspot.com/-uf-rVH41HfM/Ths-BUGmQ9I/AAAAAAAAAr8/7JsOXm7ScKs/s400/progressDialog.png" /></a>
+    <a href="https://1.bp.blogspot.com/-uf-rVH41HfM/Ths-BUGmQ9I/AAAAAAAAAr8/7JsOXm7ScKs/s1600/progressDialog.png"  ><img sizes="(min-width: 240px) 240px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="400" width="240" src="https://1.bp.blogspot.com/-uf-rVH41HfM/Ths-BUGmQ9I/AAAAAAAAAr8/7JsOXm7ScKs/s400/progressDialog.png" /></a>
 </div>
 
 Se puede descargar el proyecto de esta entrada aquí:

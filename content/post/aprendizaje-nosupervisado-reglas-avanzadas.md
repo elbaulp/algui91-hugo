@@ -61,7 +61,7 @@ donde  *marca* y *comida* son categorías del *zumo*. En la figura <a href="#fig
 
 <figure>
         <a name="fig:rulesHier" href="/img/rulesHier.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -72,7 +72,7 @@ donde  *marca* y *comida* son categorías del *zumo*. En la figura <a href="#fig
             sizes="(min-width: 736px) 736px, 100vw"
             width="736"
             height="411">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Ejemplo de reglas jerárquicas. *Créd. Apuntes de clase*</figcaption>
 </figure>
@@ -91,7 +91,7 @@ Se usan para representar conceptos, por ejemplo, ¿cuando  es una persona alta?,
 
 <figure>
         <a name="fig:ruleFuzzy1" href="/img/ruleFuzzy1.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -102,14 +102,14 @@ Se usan para representar conceptos, por ejemplo, ¿cuando  es una persona alta?,
             sizes="(min-width: 800px) 800px, 100vw"
             width="800"
             height="383">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Rango en la que una persona se considera como alta</figcaption>
 </figure>
 
 <figure>
         <a name="fig:ruleFuzzy2" href="/img/ruleFuzzy2.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -120,14 +120,14 @@ Se usan para representar conceptos, por ejemplo, ¿cuando  es una persona alta?,
             sizes="(min-width: 800px) 800px, 100vw"
             width="800"
             height="383">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Rango en la que una persona se considera como alta</figcaption>
 </figure>
 
 <figure>
         <a name="fig:ruleFuzzy3" href="/img/ruleFuzzy3.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -138,7 +138,7 @@ Se usan para representar conceptos, por ejemplo, ¿cuando  es una persona alta?,
             sizes="(min-width: 800px) 800px, 100vw"
             width="800"
             height="383">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Rango en la que una persona se considera como alta. Cuando la línea empieza a subir, aumenta el grado en el que se considera a una persona alta.</figcaption>
 </figure>
@@ -147,7 +147,7 @@ Las reglas difusas aparecen solo cuando se consideran **conjuntos difusos** para
 
 <figure>
         <a name="fig:ruleFuzzy4" href="/img/ruleFuzzy4.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -158,7 +158,7 @@ Las reglas difusas aparecen solo cuando se consideran **conjuntos difusos** para
             sizes="(min-width: 800px) 800px, 100vw"
             width="800"
             height="383">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Particiones difusas con función de pertenencia. Cabe destacar que pueden existir solapamientos (Región roja)</figcaption>
 </figure>

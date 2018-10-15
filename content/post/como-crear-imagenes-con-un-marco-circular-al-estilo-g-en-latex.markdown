@@ -50,7 +50,7 @@ Donde:
 Tras compilar el código, el resultado es el siguiente:
 
 <figure>
-    <amp-img sizes="(min-width: 558px) 558px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Cómo-Crear-Imagenes-Con-Un-Marco-Circular-Al-Estilo-G+-en-LaTeX.jpg" title="Cómo Crear Imagenes Con Un Marco Circular Al Estilo G+ en LaTeX" alt="Cómo Crear Imagenes Con Un Marco Circular Al Estilo G+ en LaTeX" width="558px" height="559px" />
+    <img sizes="(min-width: 558px) 558px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Cómo-Crear-Imagenes-Con-Un-Marco-Circular-Al-Estilo-G+-en-LaTeX.jpg" title="Cómo Crear Imagenes Con Un Marco Circular Al Estilo G+ en LaTeX" alt="Cómo Crear Imagenes Con Un Marco Circular Al Estilo G+ en LaTeX" width="558px" height="559px" />
 </figure>
 
 # Referencias

@@ -15,7 +15,7 @@ title: "Cómo convertir un archivo pdf a imágenes"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="sh" src="/img/2012/07/sh1.png" alt="" width="128px" height="128px" />
+    <img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="sh" src="/img/2012/07/sh1.png" alt="" width="128px" height="128px" />
 </figure>
 
 El otro día me hacía falta convertir cada una de las páginas de un documento pdf a imágenes individuales, con un poco de búsqueda en google lo solucioné y hoy lo comparto con vosotros.
