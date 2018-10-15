@@ -20,7 +20,7 @@ Los lectores habituales sabrán que suelo escuchar el programa de radio *[Securi
 <!--more--><!--ad-->
 
 <figure>
-    <amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/sqrl-login-sample.png" alt="SQRL y la idea de elminar el uso de usuario y contraseña en internet" width="400px" height="199px" />
+    <img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/sqrl-login-sample.png" alt="SQRL y la idea de elminar el uso de usuario y contraseña en internet" width="400px" height="199px" />
 </figure>
 
 
@@ -47,7 +47,7 @@ Este método, a pesar de ser bastante simple, es de lejos mucho más seguro que 
   * El sitio de autenticación tiene la URL que contiene el nonce que devolvió la página de login del smartphone del usuario. Tiene también una firma criptográfica de esa URL, y la clave pública específica del sitio del usuario. Usa la clave pública para verificar que la firma es válida para la URL. Esto confirma que el usuario que produjo la firma usó la clave privada que corresponde a la clave pública. Tras de verificar la firma, el sitio de autentificación reconoce al usuario (ahora-autenticado) por la clave pública específica de sitio.
 
 <figure>
-    <amp-img sizes="(min-width: 580px) 580px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/sign-algo.png" alt="SQRL y la idea de elminar el uso de usuario y contraseña en internet" width="580px" height="194px" />
+    <img sizes="(min-width: 580px) 580px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/10/sign-algo.png" alt="SQRL y la idea de elminar el uso de usuario y contraseña en internet" width="580px" height="194px" />
 </figure>
 
 Resumiendo: &#8220;El login del sitio web presenta un código QR que contiene la URL de su servicio de autenticación, más un nonce. El smartphone del usuario firma la login URL usando una clave privada derivada de su secreto maestro y el nombre de dominio de la URL. El smartphone envía la clave pública que se corresponde para identificar el usuario, y la firma para autenticarlo.&#8221;

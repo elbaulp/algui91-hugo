@@ -79,13 +79,13 @@ Creemos un *layout* simple a modo de ejemplo. Consiste en una barra horizontal d
 ```
 
 <figure>
-    <a href="/img/2014/12/Grid-Spacing-en-Android-take_1.png"><amp-img sizes="(min-width: 1080px) 1080px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/12/Grid-Spacing-en-Android-take_1.png" title="Grid Spacing en Android" alt="Grid Spacing en Android" width="1080px" height="624px" /></a>
+    <a href="/img/2014/12/Grid-Spacing-en-Android-take_1.png"><img sizes="(min-width: 1080px) 1080px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/12/Grid-Spacing-en-Android-take_1.png" title="Grid Spacing en Android" alt="Grid Spacing en Android" width="1080px" height="624px" /></a>
 </figure>
 
 La interfaz mostrada en la imagen de arriba depende claramente en la idea de un Grid. Sin embargo, carece de espacio entre elementos que permitan al usuario distinguir claramente la entidades independientes de la interfaz. Corrijamos éste problema añadiendo `android:layout_marginTop="@dimen/spacing_medium"` al `LinearLayout` identificado por `@id/buttons_container` y `android:layout_marginRight="@dimen/spacing_medium"` a los botones `@id/btn_first` y `@id/btn_second`:
 
 <figure>
-    <a href="/img/2014/12/Grid-Spacing-en-Android-take_2_1.png"><amp-img sizes="(min-width: 1080px) 1080px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/12/Grid-Spacing-en-Android-take_2_1.png" title="Grid Spacing en Android" alt="Grid Spacing en Android" width="1080px" height="672px" /></a>
+    <a href="/img/2014/12/Grid-Spacing-en-Android-take_2_1.png"><img sizes="(min-width: 1080px) 1080px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/12/Grid-Spacing-en-Android-take_2_1.png" title="Grid Spacing en Android" alt="Grid Spacing en Android" width="1080px" height="672px" /></a>
     <span class="image-credit">Crédito de la imagen: </span>
 </figure>
 
@@ -94,7 +94,7 @@ La interfaz mostrada en la imagen de arriba depende claramente en la idea de un 
 La interfaz de arriba tiene un aspecto bastante bueno: Buena apariencia, es legible, etc. Desafortunadamente, las cosas se ponen un poco mal cuando se ocultan dinámicamente algunas `Views` en el *layout*. De hecho, imaginemos que la función que se activaría con un click en el botón `@id/btn_third` requiere de alguna característica no disponible en el dispositivo (**Google Play Services** por ejemplo). La mejor forma de no desordenar la interfaz es ocultar el tercer botón con `View.GONE`:
 
 <figure>
-    <a href="/img/2014/12/Grid-Spacing-en-Android-take_2_2.png"><amp-img sizes="(min-width: 1080px) 1080px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/12/Grid-Spacing-en-Android-take_2_2.png" title="Grid Spacing en Android" alt="Grid Spacing en Android" width="1080px" height="672px" /></a>
+    <a href="/img/2014/12/Grid-Spacing-en-Android-take_2_2.png"><img sizes="(min-width: 1080px) 1080px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/12/Grid-Spacing-en-Android-take_2_2.png" title="Grid Spacing en Android" alt="Grid Spacing en Android" width="1080px" height="672px" /></a>
 </figure>
 
 Como es de esperar, el botón `@id/btn_third` desaparece, pero el borde derecho de `@id/btn_second` no está alineado con el borde derecho del icono de la aplicación. La razón principal de éste problema se debe a que la técnica usando el margen funciona bien siempre que se mantenga la asunción hecha al principio: cada `View` con un margen derecho/superior tiene una `View` vecina a su derecha/arriba. Ocultar algunas `Views` en la barra va en contra de esta restricción.
@@ -152,7 +152,7 @@ Ahora se puede usar el `Drawable` creado como un separador entre elementos estab
 ```
 
 <figure>
-    <a href="/img/2014/12/Grid-Spacing-en-Android-take_3.png"><amp-img sizes="(min-width: 1080px) 1080px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/12/Grid-Spacing-en-Android-take_3.png" title="Grid Spacing en Android" alt="Grid Spacing en Android" width="1080px" height="672px" /></a>
+    <a href="/img/2014/12/Grid-Spacing-en-Android-take_3.png"><img sizes="(min-width: 1080px) 1080px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/12/Grid-Spacing-en-Android-take_3.png" title="Grid Spacing en Android" alt="Grid Spacing en Android" width="1080px" height="672px" /></a>
 </figure>
 
 # Conclusión

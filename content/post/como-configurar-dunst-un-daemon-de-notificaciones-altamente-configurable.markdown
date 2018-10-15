@@ -16,7 +16,7 @@ title: "Cómo Configurar Dunst, Un Daemon De Notificaciones Altamente Configurab
 
 <figure>
         <a href="/img/Como-Configurar-Dunst,-un-daemon-de-notificaciones-altamente-configurable.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -27,7 +27,7 @@ title: "Cómo Configurar Dunst, Un Daemon De Notificaciones Altamente Configurab
             sizes="(min-width: 329px) 329px, 100vw"
             width="329"
             height="212">
-          </amp-img>
+          </img>
         </a>
 </figure>
 

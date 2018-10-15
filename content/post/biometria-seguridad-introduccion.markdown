@@ -14,7 +14,7 @@ title: "Biometría Aplicada a La Seguridad - Introducción"
 ---
 
 <figure>
-    <a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="Biometría Aplicada a La Seguridad - Introducción" alt="Biometría Aplicada a La Seguridad - Introducción" width="640px" height="405px" /></a>
+    <a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="Biometría Aplicada a La Seguridad - Introducción" alt="Biometría Aplicada a La Seguridad - Introducción" width="640px" height="405px" /></a>
     <span class="image-credit">Crédito de la imagen: pixabay<a href="https://pixabay.com/en/biometrics-eye-security-154660/"></a></span><br />
 </figure>
 
@@ -75,7 +75,7 @@ En el uso de un sistema biométrico existen unas características que es necesar
     -   *Facilidad de uso* - Varía dependiendo de lo que se le solicite al usuario (introducción del número de ID o uso de tarjetas, tiempo de posicionamiento, etc).
 
 <figure>
-    <amp-img sizes="(min-width: 239px) 239px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Biometricserror.jpg" alt="Biometric Error" title="Biometric Error" width="239" height="210"></amp-img>
+    <img sizes="(min-width: 239px) 239px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Biometricserror.jpg" alt="Biometric Error" title="Biometric Error" width="239" height="210"></img>
     <figcaption>EER</figcaption>
 </figure>
 
@@ -93,14 +93,14 @@ A la hora de llevar a cabo una búsqueda de coincidencias entre huellas, nos enc
 -   *Basada en minucias*: aquí, nos centraremos en determinadas formas fácilmente identificables existentes en la huella dactilar o “minucias”. Así, el modelo consistirá en una serie de dichas minucias, indicando si posición dentro de la huella, de forma que para el análisis, la plantilla correspondiente a cada usuario es un esquema que indica qué minucias se deben detectar, su posición y la distancia de separación entre ellas. El problema de esta técnica reside en la complejidad de extraer de forma precisa las minucias cuando la calidad de la muestra es deficiente.
 
 <figure>
-    <amp-img sizes="(min-width: 515px) 515px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/huellas3.png" width="515" height="392" alt="Minucias" title="Minucias" ></amp-img>
+    <img sizes="(min-width: 515px) 515px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/huellas3.png" width="515" height="392" alt="Minucias" title="Minucias" ></img>
     <figcaption>Minucias</figcaption>
 </figure>
 
 -   *Basada en correlación*: nos basamos en el patrón global seguido por la huella, es decir, un esquema general de la misma, sin atender a las minucias.
 
 <figure>
-    <amp-img sizes="(min-width: 609px) 609px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crestas.png" width="609" height="210" alt="Correlación" title="Correlación" ></amp-img>
+    <img sizes="(min-width: 609px) 609px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/crestas.png" width="609" height="210" alt="Correlación" title="Correlación" ></img>
     <figcaption>Correlación</figcaption>
 </figure>
 
@@ -111,12 +111,12 @@ Se basa en la forma de la mano para confirmar la identidad del usuario.  No requ
 Para capturar la muestra, se coloca la mano en la superficie de un lector y este toma una serie de imágenes 3D de la mano, con información relativa a curvas de los dedos, grosor y longitud, altura y anchura del dorso de la mano, etc. No obstante, no se tienen en cuenta rasgos superficiales.
 
 <figure>
-    <amp-img sizes="(min-width: 206px) 206px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bio2.png" width="206" height="245" alt="Escaner Morfología" title="Escaner Morfología" ></amp-img>
+    <img sizes="(min-width: 206px) 206px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/bio2.png" width="206" height="245" alt="Escaner Morfología" title="Escaner Morfología" ></img>
     <figcaption>Escaner Morfología</figcaption>
 </figure>
 
 <figure>
-    <amp-img sizes="(min-width: 350px) 350px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/extraccionmano.png" width="350" height="192" alt="Modelo Mano" title="Modelo Mano" ></amp-img>
+    <img sizes="(min-width: 350px) 350px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/extraccionmano.png" width="350" height="192" alt="Modelo Mano" title="Modelo Mano" ></img>
     <figcaption>Modelo Mano</figcaption>
 </figure>
 
@@ -127,7 +127,7 @@ Es una técnica con una FAR prácticamente nula (inmune incluso a ojos falsos y 
 Aunque se trate de una tecnología que aparentemente ofrece un alto grado de seguridad, la falta de aceptación por parte de los usuarios, unido al alto coste de los dispositivos, hacen que su utilización se limite a instalaciones militares, nucleares o laboratorios.
 
 <figure>
-    <amp-img sizes="(min-width: 1278px) 1278px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/RetinaViewer.png" width="1278" height="768" alt="Modelo Retina" title="Modelo Retina" ></amp-img>
+    <img sizes="(min-width: 1278px) 1278px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/RetinaViewer.png" width="1278" height="768" alt="Modelo Retina" title="Modelo Retina" ></img>
     <figcaption>Modelo Retina</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ Aunque se trate de una tecnología que aparentemente ofrece un alto grado de seg
 Es un método muy similar al anterior en cuanto a FAR y FRR, aunque aquí utiliza un escáner externo del iris del ojo, en lugar de la retina.
 
 <figure>
-    <amp-img sizes="(min-width: 315px) 315px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Iris_Scanner.jpg" width="315" height="462" alt="Escaner Iris" title="Escaner Iris" ></amp-img>
+    <img sizes="(min-width: 315px) 315px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Iris_Scanner.jpg" width="315" height="462" alt="Escaner Iris" title="Escaner Iris" ></img>
     <figcaption>Escaner Iris</figcaption>
 </figure>
 
@@ -149,7 +149,7 @@ Uno de los principales inconvenientes que presenta esta técnica es la facilidad
 Aun así, es una técnica satisfactoria para todas las personas y puede utilizarse para tareas de vigilancia sin necesidad de adquirir equipo específico.
 
 <figure>
-    <amp-img sizes="(min-width: 538px) 538px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/keylemon-2.png" width="538" height="535" alt="Análisis Facial" title="Análisis Facial" ></amp-img>
+    <img sizes="(min-width: 538px) 538px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/keylemon-2.png" width="538" height="535" alt="Análisis Facial" title="Análisis Facial" ></img>
     <figcaption>Análisis Facial</figcaption>
 </figure>
 

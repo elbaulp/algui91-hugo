@@ -19,7 +19,7 @@ Los usuarios que se den de alta en _Contributor_ pueden elegir entre 3 niveles d
 
 <figure>
     <a href="https://www.google.com/contributor/welcome/?utm_source=publisher&utm_medium=banner&utm_campaign=ca-pub-9043332344373532">
-        <amp-img sizes="(min-width: 406px) 406px, 100vw" layout="responsive" src="/img/contributions.png" title="Google Lanza Contributor, Apoya a Tus Webs Favoritas Sin Ver Anuncios" alt="Google Lanza Contributor, Apoya a Tus Webs Favoritas Sin Ver Anuncios" width="406px" height="361px"></amp-img>
+        <img sizes="(min-width: 406px) 406px, 100vw" layout="responsive" src="/img/contributions.png" title="Google Lanza Contributor, Apoya a Tus Webs Favoritas Sin Ver Anuncios" alt="Google Lanza Contributor, Apoya a Tus Webs Favoritas Sin Ver Anuncios" width="406px" height="361px"></img>
     </a>
 </figure>
 
@@ -33,6 +33,6 @@ O en la siguiente imagen:
 
 <figure>
     <a href="https://www.google.com/contributor/welcome/?utm_source=publisher&utm_medium=banner&utm_campaign=ca-pub-9043332344373532">
-        <amp-img sizes="(min-width: 300px) 300px, 100vw" layout="responsive" src="/img/contributorad.png" title="Google Lanza Contributor, Apoya a Tus Webs Favoritas Sin Ver Anuncios" alt="Google Lanza Contributor, Apoya a Tus Webs Favoritas Sin Ver Anuncios" width="300px" height="250px"></amp-img>
+        <img sizes="(min-width: 300px) 300px, 100vw" layout="responsive" src="/img/contributorad.png" title="Google Lanza Contributor, Apoya a Tus Webs Favoritas Sin Ver Anuncios" alt="Google Lanza Contributor, Apoya a Tus Webs Favoritas Sin Ver Anuncios" width="300px" height="250px"></img>
     </a>
 </figure>

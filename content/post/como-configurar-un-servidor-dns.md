@@ -21,7 +21,7 @@ title: "Cómo configurar un servidor DNS - Parte 1 (Introducción)"
 
 <figure>
         <a href="/img/2013/04/dns.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -32,7 +32,7 @@ title: "Cómo configurar un servidor DNS - Parte 1 (Introducción)"
             sizes="(min-width: 450px) 450px, 100vw"
             width="450"
             height="361">
-          </amp-img>
+          </img>
         </a>
 </figure>
 
@@ -75,7 +75,7 @@ Por ejemplo, supongamos que quieres encontrar a **google.com**. Tu resolver pide
 Así, el servidor root envia la petición a un servidor COM. Éste último servidor dice: “*No tengo esa información, pero sé de un servidor de nombres que sí, tiene dirección 173.194.34.6 y nombre ns1.google.com. Dirígete a esa dirección y te dirá la dirección del sitio web google.com.”*
 
 <figure>
-    <amp-img sizes="(min-width: 513px) 513px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Esquema servidores DNS" src="/img/2013/02/dns.png" width="513px" height="399px" />
+    <img sizes="(min-width: 513px) 513px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Esquema servidores DNS" src="/img/2013/02/dns.png" width="513px" height="399px" />
 </figure>
 
 En la figura de arriba, la parte superior izquierda representa los servidores root. En la jerga DNS, éstos servidores reprensentan el comienzo del camino en el sistema DNS. Suelen representarse con un punto (“.”). En los archivos de configuración, el mapeo entre IP y nombre acabará en un punto. A lo largo de esta series de artículos quedará más claro este concepto.
@@ -89,7 +89,7 @@ En este punto es donde **BIND** entra en acción. El primer componente que menci
 En la figura 2, *named* ha recibido una petición. Busca en su fichero de configuración *named.conf*, que busca en el archivo de zona primaria y pasa la información solicitada al resolver desde el exterior.
 
 <figure>
-    <amp-img sizes="(min-width: 411px) 411px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Figura 2 - Respondiendo a una petición" src="/img/2013/02/config.png" width="411px" height="185px" />
+    <img sizes="(min-width: 411px) 411px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Figura 2 - Respondiendo a una petición" src="/img/2013/02/config.png" width="411px" height="185px" />
     <figcaption>Figura 2 - Respondiendo a una petición</figcaption>
 </figure>
 

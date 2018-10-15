@@ -14,7 +14,7 @@ title: Personalizar el Error 404 en wordpress
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 256px) 256px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/08/4041.jpg" alt="" title="404" width="256px" height="197px" />
+    <img sizes="(min-width: 256px) 256px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/08/4041.jpg" alt="" title="404" width="256px" height="197px" />
 </figure>
 
 El error 404 debe tratarse adecuadamente en las webs para no asustar al usuario y provocar que salga de nuestro sitio.

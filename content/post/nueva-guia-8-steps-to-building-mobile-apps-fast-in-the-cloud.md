@@ -13,7 +13,7 @@ title: "Nueva guía: 8 Steps to Building Mobile Apps Fast in the Cloud"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/8-Steps-to-Building-Mobile-Apps-Fast-in-the-Cloud-300x1431.png" alt="8 Steps to Building Mobile Apps Fast in the Cloud" width="300px" height="143px" />
+    <img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/8-Steps-to-Building-Mobile-Apps-Fast-in-the-Cloud-300x1431.png" alt="8 Steps to Building Mobile Apps Fast in the Cloud" width="300px" height="143px" />
 </figure>
 
 Start turning your ideas into mobile apps with the 8 Steps to Building Mobile Apps Fast in the Cloud guide, learn how to:

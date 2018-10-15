@@ -20,7 +20,7 @@ title: "Cómo configurar un servidor DNS - Parte 3 (Zona Inversa y DNS secundari
 
 <figure>
         <a href="/img/2013/04/dns.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -31,7 +31,7 @@ title: "Cómo configurar un servidor DNS - Parte 3 (Zona Inversa y DNS secundari
             sizes="(min-width: 450px) 450px, 100vw"
             width="450"
             height="361">
-          </amp-img>
+          </img>
         </a>
 </figure>
 

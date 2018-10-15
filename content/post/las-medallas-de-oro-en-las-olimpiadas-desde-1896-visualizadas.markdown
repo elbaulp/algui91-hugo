@@ -15,7 +15,7 @@ title: "Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 750px) 750px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Olympic-Feathers-Detail-7.png" alt="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" title="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" width="750" height="750"></amp-img>
+    <img sizes="(min-width: 750px) 750px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Olympic-Feathers-Detail-7.png" alt="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" title="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" width="750" height="750"></img>
 </figure>
 
 Hace unos meses publicamos [15 Ejemplos De Las Mejores Visualizaciones De Datos](https://elbauldelprogramador.com/14-ejemplos-visualizacion-datos/ "15 Ejemplos De Las Mejores Visualizaciones De Datos"), hoy os traemos otra visualización muy interesante de [_Nadieh Bremer_](http://www.visualcinnamon.com "Sitio web de Nadieh Bremer"), en la cual muestra __todas las medallas de oro en los Juegos Olímpicos desde 1896__, en forma de plumas.
@@ -45,7 +45,7 @@ La mayoría de deportes Olímpicos empezaron siendo solo para hombres. Afortunad
 Cada círculo representa un grupo de deportes similares, como deportes de agua, deportes de pelotas etc. Dentro de cada círculo se muestran porciones, cada una de estas porciones es una __pluma__, que representa una disciplina.
 
 <figure>
-    <amp-img sizes="(min-width: 292px) 292px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Plumas-Olimpicas-Visualizacion-medallas-Olimpicas-1896-hasta-2016.png" alt="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" title="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" width="292" height="214"></amp-img>
+    <img sizes="(min-width: 292px) 292px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Plumas-Olimpicas-Visualizacion-medallas-Olimpicas-1896-hasta-2016.png" alt="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" title="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" width="292" height="214"></img>
     <figcaption>Una pluma</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ La siguiente división se hace por género. Por ejemplo, en la imagen de arriba,
 Las medallas se colorean en función del continente, como se muestra en la siguiente imagen:
 
 <figure>
-    <amp-img sizes="(min-width: 196px) 196px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Plumas-Olimpicas-Visualizacion-medallas-Olimpicas-1896-hasta-20162.png" alt="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" title="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" width="196" height="129"></amp-img>
+    <img sizes="(min-width: 196px) 196px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Plumas-Olimpicas-Visualizacion-medallas-Olimpicas-1896-hasta-20162.png" alt="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" title="Plumas Olímpicas, Visualización de las medallas Olímpicas desde 1896 hasta 2016" width="196" height="129"></img>
     <figcaption>Representación de los continentes</figcaption>
 </figure>
 

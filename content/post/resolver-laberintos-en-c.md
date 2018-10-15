@@ -14,7 +14,7 @@ title: Resolver laberintos en C++
 ---
 
 <figure>
-    <a href="/img/2013/11/cpp.png"><amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/cpp.png" title="Resolver laberintos en C++" alt="Resolver laberintos en C++" width="128px" height="128px" /></a>
+    <a href="/img/2013/11/cpp.png"><img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/cpp.png" title="Resolver laberintos en C++" alt="Resolver laberintos en C++" width="128px" height="128px" /></a>
 </figure>
 
 Cuando estaba en el primer curso de la facultad, hicimos una práctica en la asignatura Fundamentos de la Programación que consistía en resolver un laberinto almacenado en un fichero. Me gustó bastante hacer ese programa y lo comparto en el blog para los curiosos que quieran ver cómo funciona.

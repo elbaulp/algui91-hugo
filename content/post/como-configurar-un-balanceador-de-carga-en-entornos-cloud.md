@@ -97,7 +97,7 @@ Visto cómo crear el balanceo de carga a mano, ahora pasemos a administrar y cre
 Para ello, en el panel de control hacemos click en *Red* » Balanceadores. Allí crearemos uno nuevo
 
 <figure>
-    <amp-img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga1.png" alt="Balanceadoresdecarga1" width="815px" height="531px" />
+    <img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga1.png" alt="Balanceadoresdecarga1" width="815px" height="531px" />
 </figure>
 
 Donde se especifica el nombre, puertos y direcciones a usar.
@@ -105,14 +105,14 @@ Donde se especifica el nombre, puertos y direcciones a usar.
 El siguiente paso es elegir el tipo de Control de estado a realizar, y el método de balanceo (Round robin o least connections)
 
 <figure>
-    <amp-img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga2.png" alt="Balanceadoresdecarga2" width="812px" height="532px" />
+    <img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga2.png" alt="Balanceadoresdecarga2" width="812px" height="532px" />
 </figure>
 
 
 Por último, se especifica la aplicación que será balanceada entre todos los servidores virtuales disponibles.
 
 <figure>
-    <amp-img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga3.png" alt="Balanceadoresdecarga3" width="815px" height="529px" />
+    <img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Balanceadoresdecarga3.png" alt="Balanceadoresdecarga3" width="815px" height="529px" />
 </figure>
 
 # Ventajas y desventajas

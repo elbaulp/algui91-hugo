@@ -14,7 +14,7 @@ tags:
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 229px) 229px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/A-Newbies-Getting-Started-Guide-to-Linux.png" alt="Nueva guía: A Newbies Getting Started Guide to Linux" title="Nueva guía: A Newbies Getting Started Guide to Linux" width="229" height="300"></amp-img>
+    <img sizes="(min-width: 229px) 229px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/A-Newbies-Getting-Started-Guide-to-Linux.png" alt="Nueva guía: A Newbies Getting Started Guide to Linux" title="Nueva guía: A Newbies Getting Started Guide to Linux" width="229" height="300"></img>
 </figure>
 
 {{< importPartial "structure/guidenote.html" >}}

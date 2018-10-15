@@ -30,7 +30,7 @@ Otra ventaja viene dada a la hora de hacer pruebas, ya que se puede crear un ent
 En éste caso, elegiremos un servidor con Debian 6, y una instalación base.
 
 <figure>
-    <amp-img sizes="(min-width: 817px) 817px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/1.-Creación-de-un-servidor-Cloud.png" alt="1. Creación de un servidor Cloud" width="817px" height="448px" />
+    <img sizes="(min-width: 817px) 817px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/1.-Creación-de-un-servidor-Cloud.png" alt="1. Creación de un servidor Cloud" width="817px" height="448px" />
 </figure>
 
 
@@ -39,7 +39,7 @@ En éste caso, elegiremos un servidor con Debian 6, y una instalación base.
 Para el ejemplo concreto, no necestiamos grandes recursos, así que fijaremos todo al mínimo.
 
 <figure>
-    <amp-img sizes="(min-width: 817px) 817px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/2.-Configuración-capacidad-servidor-Cloud.png" alt="2. Configuración capacidad servidor Cloud" width="817px" height="575px" />
+    <img sizes="(min-width: 817px) 817px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/2.-Configuración-capacidad-servidor-Cloud.png" alt="2. Configuración capacidad servidor Cloud" width="817px" height="575px" />
 </figure>
 
 
@@ -48,7 +48,7 @@ Para el ejemplo concreto, no necestiamos grandes recursos, así que fijaremos to
 Por último, solo resta proporcionar una contraseña al usuario **root**.
 
 <figure>
-    <amp-img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/3.-Finalización-de-la-puesta-en-marcha-del-servidor-cloud.png" alt="3. Finalización de la puesta en marcha del servidor cloud" width="815px" height="581px" />
+    <img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/3.-Finalización-de-la-puesta-en-marcha-del-servidor-cloud.png" alt="3. Finalización de la puesta en marcha del servidor cloud" width="815px" height="581px" />
 </figure>
 
 

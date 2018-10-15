@@ -111,17 +111,17 @@ Para aplicarlos sobre actividades, usamos:
 En este caso, estos temas ya vienen predefinidos, y se ven así, respectivamente:
 
 <figure>
-    <a href="https://3.bp.blogspot.com/-xNsjnNc-zek/TiR5wvxSZhI/AAAAAAAAAsE/O3AMPDV-dU8/s1600/dialog.png"  ><amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="400" width="240" src="https://3.bp.blogspot.com/-xNsjnNc-zek/TiR5wvxSZhI/AAAAAAAAAsE/O3AMPDV-dU8/s400/dialog.png" /></a>
+    <a href="https://3.bp.blogspot.com/-xNsjnNc-zek/TiR5wvxSZhI/AAAAAAAAAsE/O3AMPDV-dU8/s1600/dialog.png"  ><img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="400" width="240" src="https://3.bp.blogspot.com/-xNsjnNc-zek/TiR5wvxSZhI/AAAAAAAAAsE/O3AMPDV-dU8/s400/dialog.png" /></a>
 </figure>
 
 <figure>
-    <a href="https://3.bp.blogspot.com/-_EEUkaXoSd0/TiR50goq7tI/AAAAAAAAAsM/yNHm5WdG6b0/s1600/translucid.png"  ><amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="400" width="240" src="https://3.bp.blogspot.com/-_EEUkaXoSd0/TiR50goq7tI/AAAAAAAAAsM/yNHm5WdG6b0/s400/translucid.png" /></a>
+    <a href="https://3.bp.blogspot.com/-_EEUkaXoSd0/TiR50goq7tI/AAAAAAAAAsM/yNHm5WdG6b0/s1600/translucid.png"  ><img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="400" width="240" src="https://3.bp.blogspot.com/-_EEUkaXoSd0/TiR50goq7tI/AAAAAAAAAsM/yNHm5WdG6b0/s400/translucid.png" /></a>
 </figure>
 
 A continuación, dejo una captura del ejemplo que he hecho para esta entrada, que se puede descargar desde:
 
 <figure>
-    <a href="https://3.bp.blogspot.com/-3lk1C3aehjI/TiR8Xj6GwGI/AAAAAAAAAsU/ZlAzXKyo-A0/s1600/device-2011-07-18-203800.png"  ><amp-img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="400" width="240" src="https://3.bp.blogspot.com/-3lk1C3aehjI/TiR8Xj6GwGI/AAAAAAAAAsU/ZlAzXKyo-A0/s400/device-2011-07-18-203800.png" /></a>
+    <a href="https://3.bp.blogspot.com/-3lk1C3aehjI/TiR8Xj6GwGI/AAAAAAAAAsU/ZlAzXKyo-A0/s1600/device-2011-07-18-203800.png"  ><img sizes="(min-width: 400px) 400px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="400" width="240" src="https://3.bp.blogspot.com/-3lk1C3aehjI/TiR8Xj6GwGI/AAAAAAAAAsU/ZlAzXKyo-A0/s400/device-2011-07-18-203800.png" /></a>
 </figure>
 
 

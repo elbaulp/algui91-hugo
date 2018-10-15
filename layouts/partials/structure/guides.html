@@ -8,8 +8,8 @@
       <article class="box-item shown">
         <a {{printf "href=%q" "{{url}}" | safeHTMLAttr}}>
           <figure>
-            <amp-img {{ printf "src=%q" "{{thumbnail}}" | safeHTMLAttr}} {{ printf "alt=%q" "{{title}}" | safeHTMLAttr }} {{ printf "width=%q" "{{width}}" | safeHTMLAttr }} {{ printf "height=%q" "{{height}}" | safeHTMLAttr }}>
-            </amp-img>
+            <img {{ printf "src=%q" "{{thumbnail}}" | safeHTMLAttr}} {{ printf "alt=%q" "{{title}}" | safeHTMLAttr }} {{ printf "width=%q" "{{width}}" | safeHTMLAttr }} {{ printf "height=%q" "{{height}}" | safeHTMLAttr }}>
+            </img>
           </figure>
         </a>
       </article>

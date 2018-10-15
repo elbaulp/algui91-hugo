@@ -44,7 +44,7 @@ Y en el widget tengo lo siguiente:
 ```php
 <p class="twittercount">
     <a href="http://twitter.com/elbaulp" title="Follow on Twitter" target="_blank">
-        <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  src="twitter.png" alt="Twitter" />
+        <img on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  src="twitter.png" alt="Twitter" />
     </a>
     <span>< ?php echo followers_count();?></span> Followers
 </p>

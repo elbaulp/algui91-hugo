@@ -37,7 +37,7 @@ Al iniciar Firefox, aparecerá la siguiente pantalla:
 <!--more--><!--ad-->
 
 <figure>
-    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1515_AchievingAn1" src="/img/2013/04/081712_1515_AchievingAn1.png" width="300px" height="114px"></amp-img>
+    <img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1515_AchievingAn1" src="/img/2013/04/081712_1515_AchievingAn1.png" width="300px" height="114px"></img>
 </figure>
 
 # 2. Torbutton
@@ -181,7 +181,7 @@ En el log de acceso deberíamos observar una entrada como la siguiente:
 Podemos ver que pedimos el archivo image.png de la dirección IP 31.172.30.1. Para verificar incluso si la IP es parte de la red Tor, podemos clickear en &#8220;View the Network&#8221; en la GUI Vidalia, la cual nos lista todos los nodos en la red Tor. Entre todos ellos está también el nodo con la IP 31.172.30.1 como se representa en la imagen siguiente:
 
 <figure>
-    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1515_AchievingAn2" src="/img/2013/05/081712_1515_AchievingAn2.png" width="300px" height="99px"></amp-img>
+    <img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081712_1515_AchievingAn2" src="/img/2013/05/081712_1515_AchievingAn2.png" width="300px" height="99px"></img>
 </figure>
 
 Podemos ver que el nodo Tor está ubicado en Alemania, tiene la IP 31.172.30.1, y está levantado desde hace 48 días, etc. Por lo tanto, hemos validado que el nodo es parte de la red Tor, y por lo tanto tsocks funcionó como era esperado.

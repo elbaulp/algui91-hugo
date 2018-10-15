@@ -52,13 +52,13 @@ La razón de establecer los permisos a [777][7] es porque en la mayoría de serv
 Eso es todo, así de fácil es instalar Bolt. La primera vez que visites la web deberás registrar un usuario para administar la web:
 
 <figure>
-    <amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Login-to-bolt-CMS-1024x819.png" alt="crear usuario en bolt" width="1024px" height="819px" />
+    <img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Login-to-bolt-CMS-1024x819.png" alt="crear usuario en bolt" width="1024px" height="819px" />
 </figure>
 
 Ya en el panel de administración, puedes agregar contenido de muestra dirigiendote a *Settings » Check Database* y hacer click en **Add some sample Records with Loripsum text**. Tras hacer click tendremos contenido que mostrar en la web:
 
 <figure>
-    <amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Bolt-Home-PAge-CMS-1024x819.png" alt="Bolt Home PAge CMS" width="1024px" height="819px" />
+    <img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Bolt-Home-PAge-CMS-1024x819.png" alt="Bolt Home PAge CMS" width="1024px" height="819px" />
 </figure>
 
 Por defecto Bolt usa Sqlite como base de datos, normalmente se instala con php5, si recibes un mensaje de error informando que el módulo SQLite no está disponible debes instalarlo:
@@ -126,7 +126,7 @@ php composer.phar update
 Algo que me ha llamado mucho la atención es la facilidad que se le da al desarrollador para depurar el entorno. Si estás logeado y con el modo depuración activado (*debug:true* en el archivo *config.yml*) verás una barra de depuración abajo a la derecha:
 
 <figure>
-    <amp-img sizes="(min-width: 748px) 748px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/bolt-debug.png" alt="bolt debug" width="748px" height="55px" />
+    <img sizes="(min-width: 748px) 748px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/bolt-debug.png" alt="bolt debug" width="748px" height="55px" />
 </figure>
 
 Desde ahí se puede acceder a estadísticas de carga, uso de memoria, entradas del log, consultas a la base de datos etc.

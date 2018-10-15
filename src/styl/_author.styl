@@ -8,17 +8,16 @@
         max-width rem(560px)
         padding 0 rem(20px)
         display flex
-        flex-flow row nowrap
+        flex-flow column nowrap
         #author-photo
             flex 1 0 rem(90px)
-            max-width rem(90px)
             margin rem(10px)
         +below(cut)
             text-align center
-            flex-flow row wrap
+            flex-flow column wrap
             #author-photo
                 margin 0 auto
-                
+
     img,amp-img
         border-radius 50%
         display block
@@ -28,6 +27,7 @@
         font-size rem(10px)
         mainFont(300)
         margin rem(10px)
+        text-align center
         +above(cut)
             margin 0
     .name

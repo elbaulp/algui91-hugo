@@ -11,7 +11,7 @@ title: "Aprende a construir un motor de búsqueda y un coche autónomo con Udaci
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 228px) 228px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="98" width="228" src="https://4.bp.blogspot.com/-4_orLVxvsaA/Ty6o0VKqt3I/AAAAAAAACDs/3Xxk1Zqo5Ug/s400/Screenshot.png"></amp-img>
+    <img sizes="(min-width: 228px) 228px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="98" width="228" src="https://4.bp.blogspot.com/-4_orLVxvsaA/Ty6o0VKqt3I/AAAAAAAACDs/3Xxk1Zqo5Ug/s400/Screenshot.png"></img>
 </figure>
 
 Despues del éxito de los cursos impartidos por Stanford sobre inteligencia artificial, machine learning y bases de datos, se han propuesto seguir enseñando gratuitamente a través de la red, ésta vez serán David Evans, profesor de la ciencia de la computación en la universidad de Virginia y Sebastian Thrun, de la universidad de Stanford.

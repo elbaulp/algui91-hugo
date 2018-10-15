@@ -21,7 +21,7 @@ sudo apt-get install sentinella
 <!--more--><!--ad-->
 
 <figure>
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -32,7 +32,7 @@ sudo apt-get install sentinella
             sizes="(min-width: 457px) 457px, 100vw"
             width="457"
             height="655">
-          </amp-img>
+          </img>
 </figure>
 
 Configura tu Sentinella con las mismas opciones de la imagen, pero asegurate que eliges tu interfaz de red correcta. Pulsa Start y listo!.

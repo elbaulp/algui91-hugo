@@ -14,7 +14,7 @@ title: "Sincronización de proyectos en git con hooks (ganchos)"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 910px) 913px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/git-logo.png" title="Sincronización de proyectos en git con hooks (ganchos)" alt="Sincronización de proyectos en git con hooks (ganchos)" width="910px" height="380px" />
+    <img sizes="(min-width: 910px) 913px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/git-logo.png" title="Sincronización de proyectos en git con hooks (ganchos)" alt="Sincronización de proyectos en git con hooks (ganchos)" width="910px" height="380px" />
 </figure>
 
 # Repositorio espejo (Mirror repo)

@@ -15,7 +15,7 @@ title: "Mini Curso de LaTeX - Introducción"
 ---
 
 <figure>
-    <a href="/img/2013/05/latex_logo.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Mini Curso de LaTeX - Introducción" alt="Mini Curso de LaTeX - Introducción" width="300px" height="114px" /></a>
+    <a href="/img/2013/05/latex_logo.png"><img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Mini Curso de LaTeX - Introducción" alt="Mini Curso de LaTeX - Introducción" width="300px" height="114px" /></a>
 </figure>
 
 * Mini Curso de LaTeX - Introducción

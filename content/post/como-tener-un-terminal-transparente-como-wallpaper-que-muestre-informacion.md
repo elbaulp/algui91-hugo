@@ -41,7 +41,7 @@ Donde:
 Puedes obtener más información consultando la ayuda del programa o su manual.
 
 <figure>
-    <amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/xroot-example.jpg" alt="xroot example" width="1024px" height="817px"></amp-img>
+    <img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/xroot-example.jpg" alt="xroot example" width="1024px" height="817px"></img>
 </figure>
 
 En este caso estoy mostrando salidas del comando [ss][3] usando un [script][4] que he creado:
@@ -103,7 +103,7 @@ Una breve explicación de los argumentos:
 Basta con cambiar el comando que sigue a la opción -e por el desado. Naturalmente, es posible tener tantas terminales como se quiera.
 
 <figure>
-<amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/5809765.png" alt="Eterm" width="640px" height="375px"></amp-img>
+<img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/5809765.png" alt="Eterm" width="640px" height="375px"></img>
 </figure>
 
 # Referencias

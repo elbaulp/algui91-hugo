@@ -10,7 +10,7 @@ title: "Cómo Definir Colores Personalizados en LaTeX"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="114px" />
+    <img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="114px" />
 </figure>
 
 > Os traigo hoy otro artículo interesante que he encontrado en el blog de <a href="http://texblog.org" target="_blank" title="http://texblog.org">blog de Tom</a>. Veremos cómo es posible definir colores personalizados en LaTeX con el paquete `xcolor`.
@@ -40,7 +40,7 @@ El paquete <a href="http://mirrors.ctan.org/macros/latex/contrib/xcolor/xcolor.p
 ```
 
 <figure>
-    <a href="/img/xcolorlatex1.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/xcolorlatex1.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="154px" /></a>
+    <a href="/img/xcolorlatex1.png"><img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/xcolorlatex1.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="154px" /></a>
     <span class="image-credit">Crédito de la imagen: texblog.org</span>
 </figure>
 
@@ -65,7 +65,7 @@ El paquete xcolor permite definir colores usando modelos de color (_gris, RGB, H
 ```
 
 <figure>
-    <a href="/img/xcolorlatex2.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/xcolorlatex2.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="142px" /></a>
+    <a href="/img/xcolorlatex2.png"><img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/xcolorlatex2.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="142px" /></a>
     <span class="image-credit">Crédito de la imagen: texblog.org</span>
 </figure>
 
@@ -90,7 +90,7 @@ Para terminar, el paquete xcolor también permite definir un color mediante la m
 ```
 
 <figure>
-<a href="/img/xcolorlatex3.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/xcolorlatex3.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="156px" /></a>
+<a href="/img/xcolorlatex3.png"><img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/xcolorlatex3.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="300px" height="156px" /></a>
 <span class="image-credit">Crédito de la imagen: texblog.org</span>
 </figure>
 
@@ -99,7 +99,7 @@ Para terminar, el paquete xcolor también permite definir un color mediante la m
 Los colores básicos como el rojo, verde o amarillo son demasiado chillones a la vista. Para atenuar su intensidad, es posible usar el modo de definir colores de arriba y luego mezclarlos con gris. Por ejemplo, combinar el 40% del color chillón con 60% de gris atenua la intensidad del color, haciendolo más agradable a la vista, compruébalo tú mismo:
 
 <figure>
-<a href="/img/latexxcolorbrillantes.png"><amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/latexxcolorbrillantes.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="1024px" height="291px" /></a>
+<a href="/img/latexxcolorbrillantes.png"><img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/latexxcolorbrillantes.png" title="Cómo Definir Colores Personalizados en LaTeX" alt="Cómo Definir Colores Personalizados en LaTeX" width="1024px" height="291px" /></a>
 <span class="image-credit">Crédito de la imagen: texblog.org</span>
 </figure>
 

@@ -436,7 +436,7 @@ Con el comando adios terminamos la sesión, y el buffer ha registrado toda la co
 y se muestra en la pantalla del dispositivo:
 
 <figure>
-    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/Screenshot_2013-06-17-17-20-53.png" alt="tutorial ndk-gdb" width="480px" height="800px" />
+    <img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/Screenshot_2013-06-17-17-20-53.png" alt="tutorial ndk-gdb" width="480px" height="800px" />
 </figure>
 
 Con esto concluye el artículo, espero que haya sido de utilidad.

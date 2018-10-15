@@ -150,7 +150,7 @@ Aunque esta no es la mejor forma de hacerlo, para ilustrar la diferencia entre a
 En este caso se pretende mostrar cómo implementar una preferencia para almacenar una contraseña. Cuando el usuario introduce en el diálogo su contraseña, ésta será cifrada en el método `cifrar` y será éste el valor almacenado en el archivo de preferencias. Con el diálogo normal, si el usuario vuelve a lanzar el diálogo con una contraseña ya almacenada verá esto:
 
 <figure>
-    <a href="/img/2014/01/CrearDialogoAndroid.png"><amp-img sizes="(min-width: 441px) 441px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/CrearDialogoAndroid.png" title="Cómo crear un diálogo personalizado en las preferencias Android" alt="Cómo crear un diálogo personalizado en las preferencias Android" width="441px" height="329px" /></a>
+    <a href="/img/2014/01/CrearDialogoAndroid.png"><img sizes="(min-width: 441px) 441px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/CrearDialogoAndroid.png" title="Cómo crear un diálogo personalizado en las preferencias Android" alt="Cómo crear un diálogo personalizado en las preferencias Android" width="441px" height="329px" /></a>
 </figure>
 
 Lo cual corresponde a la contraseña cifrada, lo ideal sería que el cuadro de texto apareciera vacío, para ello crearemos nosotros mismos el diálogo extendiendo de `DialogPreference`.

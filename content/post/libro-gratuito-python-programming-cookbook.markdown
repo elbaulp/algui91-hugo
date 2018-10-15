@@ -14,7 +14,7 @@ title: "Guía Gratuita - Python Programming Cookbook"
 ---
 
 <figure>
-    <a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_webd07&ch=ocsoc2"><amp-img sizes="(min-width: 1200px) 1200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Python-Programming-Cookbook.jpg" title="Guía Gratuita - Python Programming Cookbook" alt="Guía Gratuita - Python Programming Cookbook" width="1200px" height="630px" /></a>
+    <a href="http://elbauldelprogramador.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_webd07&ch=ocsoc2"><img sizes="(min-width: 1200px) 1200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Python-Programming-Cookbook.jpg" title="Guía Gratuita - Python Programming Cookbook" alt="Guía Gratuita - Python Programming Cookbook" width="1200px" height="630px" /></a>
 </figure>
 
 Kick-start your Python projects with these hot recipes!

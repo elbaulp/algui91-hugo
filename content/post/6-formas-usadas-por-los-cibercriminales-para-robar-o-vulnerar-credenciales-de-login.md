@@ -15,7 +15,7 @@ title: 6 formas usadas por los cibercriminales para robar o vulnerar credenciale
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 700px) 700px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/blog_sevenways.png" alt="7 formas usadas por cibercriminales para robar o vulnerar credenciales de login" width="700px" height="350px" />
+    <img sizes="(min-width: 700px) 700px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/blog_sevenways.png" alt="7 formas usadas por cibercriminales para robar o vulnerar credenciales de login" width="700px" height="350px" />
 </figure>
 
 El mundo digital es un vecindario muy peligroso lleno de atacantes listos para robar los datos más personales e importantes para los negocios. A estas alturas deberíamos saber que la ”*[seguridad][1]*” significa algo más que disponer de una contraseña única y larga. Para entender cómo proteger nuestros datos y cuentas, en *duosecurity* han hecho una recopilación de las formas más comunes que usan los atacantes para robar datos ajenos en la red.

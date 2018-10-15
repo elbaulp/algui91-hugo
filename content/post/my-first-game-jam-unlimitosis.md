@@ -18,7 +18,7 @@ Hace unas semanas participé en mi primera __GameJam__. Nunca había programado 
 
 <figure>
         <a href="/img/gamejam17-unlimitosis.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -29,7 +29,7 @@ Hace unas semanas participé en mi primera __GameJam__. Nunca había programado 
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="640">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Unlimitosis</figcaption>
 </figure>

@@ -72,7 +72,7 @@ Si usamos `weight`, hay que poner un `width` de 0dip para mejorar el rendimiento
 El resultado de este `layout` es:
 
 <figure>
-<a href="/img/android/layouthelloworldandroid.png"><amp-img layout="responsive" src="/img/android/layouthelloworldandroid.png" title="{{ page.title }}" alt="{{ page.title }}" /></a>
+<a href="/img/android/layouthelloworldandroid.png"><img layout="responsive" src="/img/android/layouthelloworldandroid.png" title="{{ page.title }}" alt="{{ page.title }}" /></a>
 </figure>
 
 ## Segunda pantalla

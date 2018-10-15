@@ -26,7 +26,7 @@ Una vez activado, eché un vistazo a ver qué opciones nuevas había. Activé un
 La respuesta concretamente la encontré en el foro de [XDA][2]. Como sabía que el problema lo había causado la opción **Simular pantallas secundarias** bastaba con desactivarla para volver a la normalidad. Resulta que Android posee de un modo de *rescate o modo seguro* que se puede iniciar manteniendo pulsadas todas las teclas excepto el botón de encendido en el proceso de arranque:
 
 <figure>
-    <amp-img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Screenshot_2013-03-03-13-48-30.png" alt="Safe Mode in Android o Modo rescate en Android" width="480px" height="800px" />
+    <img sizes="(min-width: 480px) 480px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Screenshot_2013-03-03-13-48-30.png" alt="Safe Mode in Android o Modo rescate en Android" width="480px" height="800px" />
 </figure>
 
 Una vez en el modo rescate, desactivé la opción y problema resuelto.

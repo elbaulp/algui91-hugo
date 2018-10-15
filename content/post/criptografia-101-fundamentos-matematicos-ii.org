@@ -73,7 +73,7 @@ He intentado hacer dos representaciones visuales de cómo funciona, supón que q
 
 <figure>
         <a href="/img/criptografia-101-fundamentos-matematicos-ii-powermodint.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -84,14 +84,14 @@ He intentado hacer dos representaciones visuales de cómo funciona, supón que q
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="330">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Calcular potencias modulares criptografía</figcaption>
 </figure>
 
 <figure>
         <a href="/img/criptografia-101-fundamentos-matematicos-ii-powermodint2.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -102,7 +102,7 @@ He intentado hacer dos representaciones visuales de cómo funciona, supón que q
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="206">
-          </amp-img>
+          </img>
         </a>
 </figure>
 

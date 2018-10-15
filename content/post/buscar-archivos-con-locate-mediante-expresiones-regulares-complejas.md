@@ -44,7 +44,7 @@ En `$i` está el nombre de la canción, `.*` permite que haya cero o más caract
 Siempre que necesito crear una expresión regular uso una herramienta llamada **regex tester** que permite visualizar qué cadenas de texto coincidirían con el patrón:
 
 <figure>
-    <amp-img sizes="(min-width: 627px) 627px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.png" title="Buscar archivos con locate mediante expresiones regulares" alt="Buscar archivos con locate mediante expresiones regulares" width="627px" height="285px"></amp-img>
+    <img sizes="(min-width: 627px) 627px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.png" title="Buscar archivos con locate mediante expresiones regulares" alt="Buscar archivos con locate mediante expresiones regulares" width="627px" height="285px"></img>
     <figcaption>Créditos: <a href="https://www.iconfinder.com/icons/33644/terminal_icon" target="_blank">inconfinder</a></figcaption>
 </figure>
 

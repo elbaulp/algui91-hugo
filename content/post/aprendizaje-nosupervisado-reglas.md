@@ -74,7 +74,7 @@ La <a href="#fig:rulesApriori">figura 1</a> muestra un ejemplo.
 
 <figure>
         <a name="fig:rulesApriori" href="/img/rulesApriori.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -85,7 +85,7 @@ La <a href="#fig:rulesApriori">figura 1</a> muestra un ejemplo.
             sizes="(min-width: 1357px) 1357px, 100vw"
             width="1357"
             height="830">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Ejemplo algoritmo Apriori. *Créd. Rafa Alcalá, Profesor Reglas de Asociación*</figcaption>
 </figure>
@@ -114,7 +114,7 @@ Los *itemsets Maximales* son aquellos *itemsets* frecuentes para los que ninguno
 
 <figure>
         <a name="fig:rulesMaximals" href="/img/rulesMaximals.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -125,7 +125,7 @@ Los *itemsets Maximales* son aquellos *itemsets* frecuentes para los que ninguno
             sizes="(min-width: 612px) 612px, 100vw"
             width="612"
             height="454">
-          </amp-img>
+          </img>
         </a>
         <figcaption>En azul: *itemsets* frecuentes, en amarillo: *Itemsets Maximales*. *Créd: <a href="http://www.hypertextbookshop.com/dataminingbook/public_version/contents/chapters/chapter002/section004/blue/page001.html">hypertextbookshop</a></figcaption>
 </figure>
@@ -134,7 +134,7 @@ Los *itemsets cerrados* son los *itemsets* frecuentes para los que ninguno de su
 
 <figure>
     <a name="fig:rulesCerrados" href="/img/rulesCerrados.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -145,7 +145,7 @@ Los *itemsets cerrados* son los *itemsets* frecuentes para los que ninguno de su
             sizes="(min-width: 677px) 677px, 100vw"
             width="677"
             height="509">
-          </amp-img>
+          </img>
         </a>
         <figcaption>En azul: *itemsets cerrados*, en amarillo: *Itemsets maximales*. *Créd: <a href="http://www.hypertextbookshop.com/dataminingbook/public_version/contents/chapters/chapter002/section004/blue/page001.html">hypertextbookshop</a></figcaption>
 </figure>
@@ -154,7 +154,7 @@ Para terminar, estos dos conjuntos están relacionados, como muestra la <a href=
 
 <figure>
         <a name="fig:rulesCerrMax" href="/img/rulesCerrMax.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -165,7 +165,7 @@ Para terminar, estos dos conjuntos están relacionados, como muestra la <a href=
             sizes="(min-width: 677px) 677px, 100vw"
             width="677"
             height="509">
-          </amp-img>
+          </img>
         </a>
         <figcaption>En azul: *itemsets cerrados*, en amarillo: *Itemsets maximales*. *Créd: <a href="http://www.hypertextbookshop.com/dataminingbook/public_version/contents/chapters/chapter002/section004/blue/page001.html">hypertextbookshop</a></figcaption>
 </figure>

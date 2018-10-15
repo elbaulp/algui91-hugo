@@ -13,7 +13,7 @@ title: "Nueva guía: 6 Steps to Securing Your Domains"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 200px) 200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/six-steps-to-securing-your-domains-2.png" alt="6 Steps to Securing Your Domains" width="199px" height="258px" />
+    <img sizes="(min-width: 200px) 200px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/01/six-steps-to-securing-your-domains-2.png" alt="6 Steps to Securing Your Domains" width="199px" height="258px" />
 </figure>
 
 Domain hijacking is now front page news. Learn how to prevent your company&#8217;s valuable domains from being next!

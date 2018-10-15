@@ -24,7 +24,7 @@ title: "Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos"
 # Mini curso de Latex
 
 <figure>
-    <a href="/img/2013/05/latex_logo.png"><amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos" alt="Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos" width="300px" height="114px" /></a>
+    <a href="/img/2013/05/latex_logo.png"><img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/latex_logo.png" title="Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos" alt="Mini Curso de LaTeX - Incluir código fuente y símbolos matemáticos" width="300px" height="114px" /></a>
 </figure>
 
 Continuando por donde lo dejamos en el último artículo, hoy veremos cómo incluir código fuente en el documento.

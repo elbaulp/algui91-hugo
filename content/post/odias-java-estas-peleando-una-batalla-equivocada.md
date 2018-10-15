@@ -12,7 +12,7 @@ title: "¿Odias Java? Estás peleando una batalla equivocada"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 460px) 460px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/java1.jpg" alt="" title="java" width="460px" height="349px" />
+    <img sizes="(min-width: 460px) 460px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/java1.jpg" alt="" title="java" width="460px" height="349px" />
 </figure>
 
 Una de las más interesantes tendencias que se ven ultimamente es la impopularidad de Java en los blogs, foros y otros. Pareciera que la gente está ofendida hasta incluso a nivel personal, cuando se sugiere a Java como el lenguaje superior en la web 2.0.

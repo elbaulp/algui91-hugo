@@ -129,7 +129,7 @@ public class EjemploLog4j2 {
 Al compilar y ejecutar, deberían aparecer en la consola los mensajes de log coloreados, como se muestra en la imagen:
 
 <figure>
-    <amp-img sizes="(min-width: 364px) 364px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Configurar-el-logger-Log4j2-en-Netbeans1.png" alt="Configurar Log4j2 en Netbeans1" width="364px" height="89px" />
+    <img sizes="(min-width: 364px) 364px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Configurar-el-logger-Log4j2-en-Netbeans1.png" alt="Configurar Log4j2 en Netbeans1" width="364px" height="89px" />
 </figure>
 
 # Establecer un nivel de log por defecto en toda la aplicación
@@ -194,7 +194,7 @@ public class EjemploLog4j2 {
 ```
 
 <figure>
-    <amp-img sizes="(min-width: 434px) 434px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Configurar-el-logger-Log4j2-en-Netbeans2.png" alt="Configurar Log4j2 en Netbeans2" width="434px" height="49px" />
+    <img sizes="(min-width: 434px) 434px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/03/Configurar-el-logger-Log4j2-en-Netbeans2.png" alt="Configurar Log4j2 en Netbeans2" width="434px" height="49px" />
 </figure>
 
  [1]: https://logging.apache.org/log4j/2.x/maven-artifacts.html

@@ -16,7 +16,7 @@ title: "Sincronizar Google Drive en Linux en 4 pasos [Actualización]"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/google-drive-linux3.jpg" title="Sincronizar Google Drive en Linux en 4 pasos [Actualización]" alt="Sincronizar Google Drive en Linux en 4 pasos [Actualización]" width="800px" height="701px"></amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/google-drive-linux3.jpg" title="Sincronizar Google Drive en Linux en 4 pasos [Actualización]" alt="Sincronizar Google Drive en Linux en 4 pasos [Actualización]" width="800px" height="701px"></img>
 </figure>
 
 > **NOTA**: Actualmente uso insyncq, una cliente multiplataforma para sincronizar Google Drive.

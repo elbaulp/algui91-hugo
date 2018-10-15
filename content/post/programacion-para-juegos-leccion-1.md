@@ -19,9 +19,9 @@ Esta primera parte de la lección 1 no la voy a traducir debido a que hay un gra
 
 Selecciona el SO que tengas:
 
-<figure><amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" width="128" height="128" role="button" tabindex="0" layout="responsive"  src="https://lh6.ggpht.com/_IlK2pNFFgGM/TSHH106Z0VI/AAAAAAAAAPo/fimALQz89iU/linux.png"></amp-img></figure>
-<figure><amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" width="128" height="128" role="button" tabindex="0" layout="responsive"  src="https://lh3.ggpht.com/_IlK2pNFFgGM/TSHJkwpqk-I/AAAAAAAAAP0/wSKqQWY0x_k/windows.png"></amp-img></figure>
-<figure><amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" width="128" height="128" role="button" tabindex="0" layout="responsive"  src="https://lh6.ggpht.com/_IlK2pNFFgGM/TSHH2DeE3mI/AAAAAAAAAPs/KES8kBZgn9M/apple-logo.png"></amp-img></figure>
+<figure><img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" width="128" height="128" role="button" tabindex="0" layout="responsive"  src="https://lh6.ggpht.com/_IlK2pNFFgGM/TSHH106Z0VI/AAAAAAAAAPo/fimALQz89iU/linux.png"></img></figure>
+<figure><img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" width="128" height="128" role="button" tabindex="0" layout="responsive"  src="https://lh3.ggpht.com/_IlK2pNFFgGM/TSHJkwpqk-I/AAAAAAAAAP0/wSKqQWY0x_k/windows.png"></img></figure>
+<figure><img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" width="128" height="128" role="button" tabindex="0" layout="responsive"  src="https://lh6.ggpht.com/_IlK2pNFFgGM/TSHH2DeE3mI/AAAAAAAAAPs/KES8kBZgn9M/apple-logo.png"></img></figure>
 
 Para los usuarios de GNU/Linux dejo el comando de instalación de las librerias:
 

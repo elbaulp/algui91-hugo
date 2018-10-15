@@ -24,7 +24,7 @@ En éste artículo vamos a ver cómo configurar un servidor cloud para ejecutar 
 En éste caso, elegiremos un servidor con Debian 6, y una instalación base.
 
 <figure>
-    <amp-img sizes="(min-width: 817px) 817px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/1.-Creación-de-un-servidor-Cloud.png" alt="1. Creación de un servidor Cloud" width="817px" height="448px" />
+    <img sizes="(min-width: 817px) 817px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/1.-Creación-de-un-servidor-Cloud.png" alt="1. Creación de un servidor Cloud" width="817px" height="448px" />
 </figure>
 
 
@@ -33,7 +33,7 @@ En éste caso, elegiremos un servidor con Debian 6, y una instalación base.
 Para el ejemplo concreto, no necestiamos grandes recursos, así que fijaremos todo al mínimo.
 
 <figure>
-    <amp-img sizes="(min-width: 817px) 817px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/2.-Configuración-capacidad-servidor-Cloud.png" alt="2. Configuración capacidad servidor Cloud" width="817px" height="575px" />
+    <img sizes="(min-width: 817px) 817px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/2.-Configuración-capacidad-servidor-Cloud.png" alt="2. Configuración capacidad servidor Cloud" width="817px" height="575px" />
 </figure>
 
 
@@ -42,7 +42,7 @@ Para el ejemplo concreto, no necestiamos grandes recursos, así que fijaremos to
 Por último, solo resta proporcionar una contraseña al usuario **root**.
 
 <figure>
-    <amp-img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/3.-Finalización-de-la-puesta-en-marcha-del-servidor-cloud.png" alt="3. Finalización de la puesta en marcha del servidor cloud" width="815px" height="581px" />
+    <img sizes="(min-width: 815px) 815px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/3.-Finalización-de-la-puesta-en-marcha-del-servidor-cloud.png" alt="3. Finalización de la puesta en marcha del servidor cloud" width="815px" height="581px" />
 </figure>
 
 
@@ -352,14 +352,14 @@ iptables -A INPUT -m state --state NEW -p tcp --dport 8989 -j ACCEPT
 O, desde Arsys, en políticas de firewall añadir lo siguiente:
 
 <figure>
-    <amp-img sizes="(min-width: 343px) 343px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/5.-Configuración-puerto.png" alt="5. Configuración puerto" width="343px" height="45px" />
+    <img sizes="(min-width: 343px) 343px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/5.-Configuración-puerto.png" alt="5. Configuración puerto" width="343px" height="45px" />
 </figure>
 
 
 # Captura de pantalla del juego en marcha
 
 <figure>
-    <amp-img sizes="(min-width: 653px) 653px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/6.-Ejempli-programa.png" alt="6. Ejemplo programa" width="653px" height="863px" />
+    <img sizes="(min-width: 653px) 653px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2015/01/6.-Ejempli-programa.png" alt="6. Ejemplo programa" width="653px" height="863px" />
 </figure>
 
 

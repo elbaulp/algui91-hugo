@@ -29,7 +29,7 @@ donde \(r\) es el resto de dividir \(a\) entre \(n\).
 
 <figure>
         <a href="/img/crypto-101.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -40,7 +40,7 @@ donde \(r\) es el resto de dividir \(a\) entre \(n\).
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="360">
-          </amp-img>
+          </img>
         </a>
 </figure>
 

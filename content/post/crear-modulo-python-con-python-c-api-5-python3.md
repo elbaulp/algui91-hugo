@@ -22,7 +22,7 @@ title: "Crear un módulo para python con la Python C API (V) \u2013 Python 3"
 * Crear un módulo para python con la Python C API (V) – Python 3
 
 <figure>
-    <a href="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"><amp-img sizes="(min-width: 201px) 201px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png" title="Crear un módulo para python con la Python C API (V) – Python 3" alt="Crear un módulo para python con la Python C API (V) – Python 3" width="201px" height="190px" /></a>
+    <a href="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png"><img sizes="(min-width: 201px) 201px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/Crear-un-módulo-para-python-con-la-Python-C-API-Parte-I.png" title="Crear un módulo para python con la Python C API (V) – Python 3" alt="Crear un módulo para python con la Python C API (V) – Python 3" width="201px" height="190px" /></a>
 </figure>
 
 Este es el último artículo de esta serie de 5 sobre cómo crear un módulo con la Python C API. Para terminar, veremos la forma de hacer compatible un módulo con **Python 3**. Nos basaremos en el módulo **herramientasRed** que hemos creado en la parte 3.

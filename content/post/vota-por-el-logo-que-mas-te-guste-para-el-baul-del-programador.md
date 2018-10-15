@@ -20,5 +20,5 @@ Gracias de antemano y espero que os guste la nueva mascota del blog! Un saludo.
 
 
 <figure>
-    <amp-img sizes="(min-width: 978px) 978px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/LOGOS.png" alt="LOGOS" width="978px" height="786px" />
+    <img sizes="(min-width: 978px) 978px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/LOGOS.png" alt="LOGOS" width="978px" height="786px" />
 </figure>

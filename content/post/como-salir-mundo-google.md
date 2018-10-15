@@ -43,7 +43,7 @@ En este navegador nos encontramos con una serie de *pluggins* muy interesantes p
 - <a href="https://noscript.net/" target="_blank" title="NoScript">**NoScript**</a>: Inhabilita que se ejecuten *scripts* con javascript. Esto puede ser útil por ejemplo si utilizamos un *adBlocker* y nos salta el aviso de que no podemos acceder al contenido de la web hasta que no hayamos desactivado el *adBlocker*. Aunque la verdad, hace bastante inviable la navegación, por lo tanto lo dejaremos en un segundo plano.
 
 <figure>
-    <amp-img
+    <img
         on="tap:lightbox1"
         role="button"
         tabindex="0"
@@ -52,7 +52,7 @@ En este navegador nos encontramos con una serie de *pluggins* muy interesantes p
         sizes="(min-width: 800px) 800px, 100vw"
         width="800"
         height="608">
-    </amp-img>
+    </img>
     <figcaption>Imagen de Pixabay (cc)</figcaption>
 </figure>
 

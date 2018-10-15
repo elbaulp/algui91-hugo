@@ -17,7 +17,7 @@ title: 'Git: Chuleta de Comandos'
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 910px) 910px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/git-logo.png" alt="Tutorial git y comandos git" title="Git: Mini Tutorial y chuleta de comandos git" alt="Git: Mini Tutorial y chuleta de comandos" width="910px" height="380px"></amp-img>
+    <img sizes="(min-width: 910px) 910px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/03/git-logo.png" alt="Tutorial git y comandos git" title="Git: Mini Tutorial y chuleta de comandos git" alt="Git: Mini Tutorial y chuleta de comandos" width="910px" height="380px"></img>
 </figure>
 
 > **NOTA:** Puede que te interese descargar este <a href="http://bashyc-blogspot.tradepub.com/c/pubRD.mpl?sr=oc&_t=oc:&qf=w_java24&ch=ocsoc" id="revresponse-git-link" title="Manual de git" target="_blank">manual para git</a>. _Si rellenas el formulario correctamente nos darán $1.5 de comisión, una buena forma de mostrar tu apoyo al blog ;-)_

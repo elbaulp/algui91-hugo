@@ -14,7 +14,7 @@ title: "Biometría Aplicada a La Seguridad - Sistemas Biometricos"
 ---
 
 <figure>
-    <a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="Biometría Aplicada a La Seguridad - Sistemas Biometricos" alt="Biometría Aplicada a La Seguridad - Sistemas Biometricos" width="640px" height="405px" /></a>
+    <a href="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png"><img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/Sistemas-biometricos-aplicados-a-la-seguridad.png" title="Biometría Aplicada a La Seguridad - Sistemas Biometricos" alt="Biometría Aplicada a La Seguridad - Sistemas Biometricos" width="640px" height="405px" /></a>
     <figcaption>Crédito de la imagen: pixabay<a href="https://pixabay.com/en/biometrics-eye-security-154660/"></a></figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ Uno de estos ataques es el denominado ataque *hill-climbing*, propuesto por Sout
 de caras, se podría decir que son “caras” estándares.), la constante va ajustandose para encontrar la puntuación de acierto mayor. A las Eigenfaces se las entrena con la base de datos de caras del atacante. Al terminar de ajustar, el sistema no solo reconocerá correctamente la cara generada, además guardará parecido similar a la cara de la víctima debido al entrenamiento de las Eigenfaces. Tras realizar varios experimentos, se mostró que con 4000 iteraciones la imagen generada acertaba en el 99.9% de los casos.
 
 <figure>
-    <a href="/img/Eigenfaces.png"><amp-img sizes="(min-width: 357px) 357px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Eigenfaces.png" title="Eigenfaces" alt="Eigenfaces" width="357px" height="426px" /></a>
+    <a href="/img/Eigenfaces.png"><img sizes="(min-width: 357px) 357px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Eigenfaces.png" title="Eigenfaces" alt="Eigenfaces" width="357px" height="426px" /></a>
     <span class="image-credit">Crédito de la imagen: <a href="https://commons.wikimedia.org/wiki/File:Eigenfaces.png" target="_blank" title="">Wikipedia</a></span>
 </figure>
 
@@ -81,7 +81,7 @@ De los tres enfoques propuestos, los dos primeros fallan al satisfacer algunos d
 En la Figura [fig:frame] se muestra un diagrama de un enfoque híbrido típico que combina los dos enfoques. La idea básica es que el método basado en transformación proporciona la cancelabilidad y el criptosistema la seguridad.
 
 <figure>
-    <a href="/img/two-steps-framework.png"><amp-img sizes="(min-width: 989px) 989px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/two-steps-framework.png" title="Enfoque híbrido de un sistema biométrico" alt="Enfoque híbrido de un sistema biométrico" width="989px" height="392px" /></a>
+    <a href="/img/two-steps-framework.png"><img sizes="(min-width: 989px) 989px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/two-steps-framework.png" title="Enfoque híbrido de un sistema biométrico" alt="Enfoque híbrido de un sistema biométrico" width="989px" height="392px" /></a>
 </figure>
 [fig:frame]
 

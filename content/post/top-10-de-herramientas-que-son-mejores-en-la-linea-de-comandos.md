@@ -14,7 +14,7 @@ title: "10 de las Mejores Herramientas en la Línea de Comandos"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class=" wp-image-938 alignleft" title="Top 10 de las Mejores Herramientas en la Línea de Comandos" src="/img/2012/08/original1.jpg" alt="Comandos" width="640px" height="360px" />
+    <img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" class=" wp-image-938 alignleft" title="Top 10 de las Mejores Herramientas en la Línea de Comandos" src="/img/2012/08/original1.jpg" alt="Comandos" width="640px" height="360px" />
 </figure>
 
 Escribir commandos en una terminal puede parecer tedioso, pero con las herramientas correctas, la línea de comandos puede ser increíblemente poderosa. Aquí están nuestras herramientas de línea de comandos favoritas que hacen impresionantes cosas que simplemente no puedes encontrar en una GUI (Interfaz Gráfica de Usuario).
