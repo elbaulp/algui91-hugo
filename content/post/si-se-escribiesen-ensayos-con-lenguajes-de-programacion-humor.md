@@ -11,7 +11,7 @@ title: "Si se escribiesen ensayos con lenguajes de programación [HUMOR]"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 650px) 650px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/06/AvpFizXCAAA3RXp1.jpg" alt="" title="AvpFizXCAAA3RXp" width="650px" height="1673px" />
+    <img sizes="(min-width: 650px) 650px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/06/AvpFizXCAAA3RXp1.jpg" alt="" title="AvpFizXCAAA3RXp" width="650px" height="1673px" />
 </figure>
 
 > **<a href="http://www.genbetadev.com/lenguajes-y-plataformas/si-escribiesemos-ensayos-con-lenguajes-de-programacion" target="_blank">Fuente: GenbetaDev</a>**

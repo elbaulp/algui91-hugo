@@ -65,7 +65,7 @@ $ sudo aptitude install htop
 Al ejecutarlo veremos algo parecido a lo siguiente:
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="linux htop" width="800" height="640" src="https://4.bp.blogspot.com/-ZCdSHEPwhvc/TswerYkwIZI/AAAAAAAAB1U/j909jru88cU/s800/Screenshot-Terminal.png"></amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="linux htop" width="800" height="640" src="https://4.bp.blogspot.com/-ZCdSHEPwhvc/TswerYkwIZI/AAAAAAAAB1U/j909jru88cU/s800/Screenshot-Terminal.png"></img>
 </figure>
 
 Vía <a target="_blank" href="http://www.muylinux.com/2011/11/22/ocho-anos-despues-llega-htop-1-0/">MuyLinux</a>

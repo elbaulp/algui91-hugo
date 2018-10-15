@@ -20,7 +20,7 @@ title: "Cómo se almacenan tus contraseñas en internet (y cuándo la longitud  
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/07/original2.jpg" alt="" title="original" width="640px" height="360px" />
+    <img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/07/original2.jpg" alt="" title="original" width="640px" height="360px" />
 </figure>
 
 # Changelog

@@ -106,6 +106,11 @@ App-Banners are very popular and help you to win your regular website's visitor 
 
 Further information about AMP App-Banners you will find in the [official documentation of the amp-project](https://www.ampproject.org/docs/reference/components/amp-app-banner).
 
+## Demo and Example
+
+A demonstration of the theme can be found at [gohugo-amp.gohugohq.com](https://gohugo-amp.gohugohq.com) and an example integration you will find here:
+[wildhaber/gohugo-amp.gohugohq.com](https://github.com/wildhaber/gohugo-amp.gohugohq.com)
+
 ## Contributing
 
 Have you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](https://github.com/wildhaber/gohugo-amp/issues) to let me know. Alternatively, make a [pull request](https://github.com/wildhaber/gohugo-amp/pulls) directly.

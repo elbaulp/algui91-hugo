@@ -91,14 +91,14 @@ Al crear la imagen convertida ganamos en velocidad de ejecución, ya que convert
 Así que ahora tenemos dos imágenes, la imagen cargada antigua (loadedImage), y la nueva imagen optimizada (optimizedImage).
 
 <figure>
-    <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6GiUQZr0I/AAAAAAAAAQ4/bJGLBtK7gnE/displayformat.jpg" width="320"></amp-img>
+    <img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6GiUQZr0I/AAAAAAAAAQ4/bJGLBtK7gnE/displayformat.jpg" width="320"></img>
 </figure>
 
 
 SDL_DisplayFormat() crea una imagen nueva optimizada pero no se deshace de la otra. Por eso hay que llamar a SDL_FreeSurface().
 
 <figure>
-    <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6G2JAjz0I/AAAAAAAAAQ8/NtLIOitNd24/freesurface.jpg" width="320"></amp-img>
+    <img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6G2JAjz0I/AAAAAAAAAQ8/NtLIOitNd24/freesurface.jpg" width="320"></img>
 </figure>
 
 
@@ -209,13 +209,13 @@ Cargamos las imágenes usando la función que creamos anteriormente.
 Aplicamos el fondo a la ventana con la función que hicimos. Antes de unir el fondo a la ventana, teníamos algo asi:
 
 <figure>
-    <amp-img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6HlvSgW8I/AAAAAAAAARE/TIY1ZDZZymM/blank.jpg"></amp-img>
+    <img sizes="(min-width: 320px) 320px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6HlvSgW8I/AAAAAAAAARE/TIY1ZDZZymM/blank.jpg"></img>
 </figure>
 
 Pero al unirlas, tendremos algo así:
 
 <figure>
-    <amp-img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6Hlu7YxVI/AAAAAAAAARA/CzNfc3D0kso/background.jpg"></amp-img>
+    <img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh5.ggpht.com/_IlK2pNFFgGM/TT6Hlu7YxVI/AAAAAAAAARA/CzNfc3D0kso/background.jpg"></img>
 </figure>
 
 Cuando las unimos, se copian los píxels de una imagen a otra. Por eso el la imagen que estamos usando de fondo aparece en la esquina superior izquierda, queremos que el fondo ocupe toda la ventana, pero, ¿significa eso que tendremos que cargar la imagen de fondo 3 veces mas?
@@ -238,21 +238,21 @@ Ahora vamos a aplicar la imagen mensaje a la ventana, en las coordenadas X=180 y
 El sistema de coordenadas de SDL no trabaja así:
 
 <figure>
-    <amp-img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6HmFPv1EI/AAAAAAAAARI/ta-NTaunvQU/cartesian.jpg"></amp-img>
+    <img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6HmFPv1EI/AAAAAAAAARI/ta-NTaunvQU/cartesian.jpg"></img>
 </figure>
 
 
 Trabaja así:
 
 <figure>
-    <amp-img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6HmnGdBpI/AAAAAAAAARQ/QWA0K9-uB_A/sdlcoord.jpg"></amp-img>
+    <img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh6.ggpht.com/_IlK2pNFFgGM/TT6HmnGdBpI/AAAAAAAAARQ/QWA0K9-uB_A/sdlcoord.jpg"></img>
 </figure>
 
 
 El origen de coordenadas (0,0) está en la esquina superior izquierda. Por eso hay que aplicar la imagen de esta forma:
 
 <figure>
-    <amp-img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh4.ggpht.com/_IlK2pNFFgGM/TT6HmRzk0tI/AAAAAAAAARM/UoHjJY_0jxE/coorddemo.jpg"></amp-img>
+    <img sizes="(min-width: 320px) 320px, 100vw"  on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="240" width="320" src="https://lh4.ggpht.com/_IlK2pNFFgGM/TT6HmRzk0tI/AAAAAAAAARM/UoHjJY_0jxE/coorddemo.jpg"></img>
 </figure>
 
 ```bash

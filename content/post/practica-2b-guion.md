@@ -275,12 +275,12 @@ Donde `<n>` es el nivel de optimización.
 
 Introdujimos los resultados de los tiempos de ejecución en una hoja de cálculo para crear una tabla comparativa con gráficos:
 
-[<amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot-from-2012-12-17-2207421-1024x677.png" alt="Screenshot from 2012-12-17 22:07:42" width="1024px" height="677px" />][1]
+[<img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot-from-2012-12-17-2207421-1024x677.png" alt="Screenshot from 2012-12-17 22:07:42" width="1024px" height="677px" />][1]
 
 
 Y creamos las gráficas:
 
-[<amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot-from-2012-12-17-2308081-300x296.png" alt="Gráfica tiempo ejecución popcount" width="300px" height="296px" />][2]
+[<img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/Screenshot-from-2012-12-17-2308081-300x296.png" alt="Gráfica tiempo ejecución popcount" width="300px" height="296px" />][2]
 
 La diferencia de resultados es notoria, se aprecia que la mejor optimización se consigue con **O1** u **O2**, siendo la versión **popcount7** la más eficiente.
 

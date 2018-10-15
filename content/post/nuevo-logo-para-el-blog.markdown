@@ -19,5 +19,5 @@ title: Nuevo Logo Para El Blog
 Sin más rodeos, aquí está!, espero que os guste a todos!:
 
 <figure>
-    <amp-img sizes="(min-width: 550px) 550px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/logo.png" title="{{ page.title }}" alt="{{ page.title }}" width="550px" height="414px" />
+    <img sizes="(min-width: 550px) 550px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/logo.png" title="{{ page.title }}" alt="{{ page.title }}" width="550px" height="414px" />
 </figure>

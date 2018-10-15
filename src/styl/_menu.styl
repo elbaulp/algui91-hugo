@@ -9,7 +9,7 @@ body
   right 0
   margin auto
 
-a, amp-sidebar, .overlay, body
+a, #mySidebar, body
     transition all .25s ease
 a.slideButton, .dosearch
     position fixed
@@ -35,21 +35,15 @@ a.slideButton, .dosearch
     width rem(32px)
     height rem(32px)
 
-.overlay
-    cursor pointer
-
-#close
+#mySidebar
     display none
-    fill sec
-
-amp-sidebar
     position fixed
     height 100%
     width rem(240px)
     top 0
-    right rem(-240px)
+    right rem(0px)
     background-color main
-    //z-index 20
+    z-index 2
     box-shadow inset -10px -1px 15px -9px rgba(0,0,0,0.5)
     h2
         text-align center
@@ -79,22 +73,75 @@ amp-sidebar
     &.slide
         right 0
 
+.w3-animate-right
+    position relative
+    animation animateright 0.4s
+    @keyframes animateright
+        from
+            right -300px
+            opacity 0
+        to
+            right 0
+            opacity 1
 
-.slide #close
-    right rem(250px)
-    position fixed
-    pointer-events none
-
-.overlay
-    position fixed
-    width 100%
+.w3-sidebar
+    padding-top rem(100px)
     height 100%
-    top 0
-    right 0
-    pointer-events none
-    background transparent
-    z-index 17
-    &.slide
-        pointer-events auto
-        right 240px
-        background rgba(0,0,0,.6)
+    width rem(200px)
+    position fixed
+    z-index 1
+    overflow auto
+    background-color main
+    +above(rem(1500px))
+        &.w3-collapse
+            display block!important
+
+.w3-card
+    box-shadow 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12)
+
+.w3-bar-block .w3-bar-item
+    width 100%
+    display block
+    padding 8px 16px
+    text-align left
+    border none
+    white-space normal
+    float none
+    outline 0
+    +above(rem(1500px))
+        &.w3-hide-large
+            display none!important
+    +below(rem(1499px))
+        &.w3-hide-large
+            display block
+
+.w3-large
+    font-size rem(18px)
+
+.w3-bar-block .w3-bar-item
+    width 100%
+    display block
+    padding 8px 16px
+    text-align left
+    border none
+    white-space normal
+    float none
+    outline 0
+
+#mySidebar .w3-button
+    border none
+    display inline
+    padding 8px 16px
+    vertical-align middle
+    overflow hidden
+    text-decoration none
+    color inherit
+    background-color inherit
+    cursor pointer
+    white-space nowrap
+    color white
+    width auto
+    font-size rem(24px)
+    &:hover
+        color main
+        background sec

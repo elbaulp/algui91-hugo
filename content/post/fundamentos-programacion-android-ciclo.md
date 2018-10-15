@@ -43,7 +43,7 @@ Tiene tres estados:
 La clase Activity dispone de métodos que se llaman cada vez que ésta cambia de estado, para permitirnos realiar tareas como guardar los datos antes de cambiar de estado, y cargar la actividad más rápido la proxima vez que se muestre. A continuación un diagrama con los distintos estados por los que pasa una actividad:
 
 <figure>
-    <amp-img sizes="(min-width: 545px) 545px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="ciclo de vida actividades" alt="ciclo de vida actividades"  height="711" width="545" src="https://4.bp.blogspot.com/-rzvsPpVkc5s/TfsiicRNDwI/AAAAAAAAAng/UkVWUYQySbM/s1600/activity_lifecycle.png"></amp-img>
+    <img sizes="(min-width: 545px) 545px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="ciclo de vida actividades" alt="ciclo de vida actividades"  height="711" width="545" src="https://4.bp.blogspot.com/-rzvsPpVkc5s/TfsiicRNDwI/AAAAAAAAAng/UkVWUYQySbM/s1600/activity_lifecycle.png"></img>
 </figure>
 
   * ***onCreate(Bundle savedInstanceState):*** Este método se llama al crear la actividad. Siempre se sobreescribe para configurar la vista, crear adaptadores, rellenar los objetos con sus valores etc. Puede recibir como parámetro el estado anterior de la actividad para que podamos restaurarla.
@@ -65,7 +65,7 @@ Los servicios se pueden usar de dos formas, dependiendo de como lo lancemos, su 
 A continuación el diagrama con el ciclo de vida de los servicios:
 
 <figure>
-    <amp-img sizes="(min-width: 432px) 432px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Ciclo de vida servicios" title="Ciclo de vida servicios"  height="521" width="432" src="https://2.bp.blogspot.com/-7eOY6RsbVQ0/TfsqCsNCg0I/AAAAAAAAAno/y-bkegRUNiw/s1600/service_lifecycle.png"></amp-img>
+    <img sizes="(min-width: 432px) 432px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="Ciclo de vida servicios" title="Ciclo de vida servicios"  height="521" width="432" src="https://2.bp.blogspot.com/-7eOY6RsbVQ0/TfsqCsNCg0I/AAAAAAAAAno/y-bkegRUNiw/s1600/service_lifecycle.png"></img>
 </figure>
 
 # Siguiente Tema: [Fundamentos programación Android: Limpieza de Procesos][1]

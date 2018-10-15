@@ -14,7 +14,7 @@ title: "Qué Esta Causando Un NullPointerException en Facebook E Internet y cóm
 
 <figure>
     <a href="/img/nullpointerexception-facebook-line-numbers.jpg">
-    <amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/nullpointerexception-facebook-line-numbers.jpg" title="Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo" alt="Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo" width="1024px" height="415px" /></a>
+    <img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/nullpointerexception-facebook-line-numbers.jpg" title="Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo" alt="Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo" width="1024px" height="415px" /></a>
     <span class="image-credit">Crédito de la imagen: ScienceAlert</span>
 </figure>
 
@@ -27,7 +27,7 @@ Resumiendo a grosso modo, resulta que un desarrollador ha tenido un serio confli
 Esta decisión de _npm_ cabreó tanto a _Koçulu_ que decidió no formar parte de la comunidad _npm_ y borró todos sus paquetes del repositorio (Nada más que 273 paquetes). Lo que internet no se esperaba, es que una gran parte de aplicaciones web, como Facebook, airbnb y netflix requerían de un sencillo paquete desarrollado por _Koçulu_, de tan solo 11 líneas de código llamado _Line-Numbers_. Al borrar este paquete, todas las aplicaciones que dependían de ella comenzaron a tener errores, de ahí que se esté produciendo este _NullPointerException_.
 
 <figure>
-    <a href="/img/nullpointerexception-facebook.png"><amp-img sizes="(min-width: 600px) 600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/nullpointerexception-facebook.png" title="Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo" alt="Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo" width="600px" height="226px" /></a>
+    <a href="/img/nullpointerexception-facebook.png"><img sizes="(min-width: 600px) 600px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/nullpointerexception-facebook.png" title="Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo" alt="Qué Esta Causando Un NullPointerException en Facebook E Internet y cómo solucionarlo" width="600px" height="226px" /></a>
     <span class="image-credit">Crédito de la imagen: arstechnica</span>
 </figure>
 

@@ -14,7 +14,7 @@ title: Todo lo que necesitas saber sobre Copyright y licencias en 2 minutos
 ---
 
 <figure>
-    <a href="/img/2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minutos.png"><amp-img sizes="(min-width: 672px) 672px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minutos.png" title="Todo lo que necesitas saber sobre Copyright y licencias en 2 minutos" alt="Todo lo que necesitas saber sobre Copyright y licencias en 2 minutos" width="672px" height="656px" /></a>
+    <a href="/img/2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minutos.png"><img sizes="(min-width: 672px) 672px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Todo-lo-que-necesitas-saber-sobre-Copyright-y-licencias-en-2-minutos.png" title="Todo lo que necesitas saber sobre Copyright y licencias en 2 minutos" alt="Todo lo que necesitas saber sobre Copyright y licencias en 2 minutos" width="672px" height="656px" /></a>
 </figure>
 
 A la hora de crear proyectos, suele ser una tarea difícil elegir bajo qué licencia liberar el código, al menos para mi. Con este artículo que traduzco de *<a title="Outercurve" href="http://www.outercurve.org" target="_blank">outercurve.org</a>* espero facilitar la tarea de selección de una licencia.

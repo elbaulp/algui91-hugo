@@ -14,7 +14,7 @@ title: "Qué es un NullPointerException y cómo solucionarlo"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 250px) 250px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/Qué-es-un-NullPointerException-y-cómo-solucionarlo.png" title="Qué es un NullPointerException y cómo solucionarlo" alt="Qué es un NullPointerException y cómo solucionarlo" width="250px" height="292px" />
+    <img sizes="(min-width: 250px) 250px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/05/Qué-es-un-NullPointerException-y-cómo-solucionarlo.png" title="Qué es un NullPointerException y cómo solucionarlo" alt="Qué es un NullPointerException y cómo solucionarlo" width="250px" height="292px" />
 </figure>
 
 Si has llegado aquí porque tienes problemas con **facebook**, tu respuesta está en este artículo: [Qué Esta Causando Un NullPointerException en Facebook E Internet](/nullpointerexception-facebook "Qué Esta Causando Un NullPointerException en Facebook E Internet")

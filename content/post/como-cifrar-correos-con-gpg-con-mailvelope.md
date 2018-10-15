@@ -17,7 +17,7 @@ title: "Cómo cifrar correos electrónicos con GPG usando Mailvelope"
 ---
 
 <figure>
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -28,7 +28,7 @@ title: "Cómo cifrar correos electrónicos con GPG usando Mailvelope"
             sizes="(min-width: 400px) 400px, 100vw"
             width="400"
             height="175">
-          </amp-img>
+          </img>
 </figure>
 
 En estos tiempos en los que está claro que estamos sometidos a vigilancia de los gobiernos, es posible que queramos un poco de privacidad cuando nos comunicamos por la red. Hoy voy a explicar cómo configurar un plugin para Firefox y Chrome que nos permitirá enviar correos de forma segura mediante [GPG](/tags/gpg), **Mailvelope**.
@@ -72,7 +72,7 @@ Tras esto, en **dist/mailvelope.xpi** se encuentra el plugin para instalarlo.
 Una vez instalado mailvelope en el navegador correspondiente, hacemos **click en el icono del plugin » opciones**. Aparecerá un formulario que rellenaremos con un nombre, el correo a usar y un **passphrase**, en las opciones avanzadas podemos elegir el algoritmo de cifrado, la longitud y la fecha de expiración:
 
 <figure>
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -83,7 +83,7 @@ Una vez instalado mailvelope en el navegador correspondiente, hacemos **click en
             sizes="(min-width: 610px) 610px, 100vw"
             width="610"
             height="619">
-          </amp-img>
+          </img>
 </figure>
 
 # Enviar la clave pública a un servidor de llaves
@@ -98,7 +98,7 @@ Como es la primera vez que ambas cuentas de correo van a ponerse en contacto, pa
 
 <figure>
         <a href="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope1.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -109,7 +109,7 @@ Como es la primera vez que ambas cuentas de correo van a ponerse en contacto, pa
             sizes="(min-width: 597px) 597px, 100vw"
             width="597"
             height="592">
-          </amp-img>
+          </img>
         </a>
 </figure>
 
@@ -117,7 +117,7 @@ Como vemos en la imagen, aparece un simbolo a la derecha, tenemos que pulsarlo y
 
 <figure>
         <a href="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope2.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -128,7 +128,7 @@ Como vemos en la imagen, aparece un simbolo a la derecha, tenemos que pulsarlo y
             sizes="(min-width: 800px) 800px, 100vw"
             width="1255"
             height="978">
-          </amp-img>
+          </img>
         </a>
 </figure>
 
@@ -136,7 +136,7 @@ Como aparece en la imagen, si es la primera vez que ambos correos se ponen en co
 
 <figure>
         <a href="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope3.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -147,7 +147,7 @@ Como aparece en la imagen, si es la primera vez que ambos correos se ponen en co
             sizes="(min-width: 590px) 590px, 100vw"
             width="590"
             height="587">
-          </amp-img>
+          </img>
         </a>
 </figure>
 
@@ -157,7 +157,7 @@ El proceso contrario, es decir, cuando nos envíen un email cifrado es bastante 
 
 <figure>
         <a href="/img/2013/08/Cómo-cifrar-correos-con-GPG-usando-Mailvelope4.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -168,7 +168,7 @@ El proceso contrario, es decir, cuando nos envíen un email cifrado es bastante 
             sizes="(min-width: 795px) 795px, 100vw"
             width="795"
             height="380">
-          </amp-img>
+          </img>
         </a>
 </figure>
 

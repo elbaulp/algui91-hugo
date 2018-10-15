@@ -17,7 +17,7 @@ title: "Cómo instalar y configurar Nginx con php5-fpm"
 
 <figure>
         <a href="/img/2013/02/nginx-logo.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -28,7 +28,7 @@ title: "Cómo instalar y configurar Nginx con php5-fpm"
             sizes="(min-width: 350px) 350px, 100vw"
             width="350"
             height="90">
-          </amp-img>
+          </img>
         </a>
 </figure>
 
@@ -112,13 +112,13 @@ Ahora estamos en condiciones de ejecutar nginx:
 Listo, nos dirigimos a nuestro navegador y escribimos en la barra de direcciones **localhost**. Si todo ha ido bien deberíamos ver esta pantalla:
 
 <figure>
-    <amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/instalar-nginx-en-debian-1024x818.png" alt="instalar nginx en debian" width="1024px" height="818px"></amp-img>
+    <img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/instalar-nginx-en-debian-1024x818.png" alt="instalar nginx en debian" width="1024px" height="818px"></img>
 </figure>
 
 Usando firebug se puede comprobar que efectivamente se está corriendo un servidor nginx:
 
 <figure>
-    <amp-img sizes="(min-width: 641px) 641px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/instalar-nginx-en-debian2.png" alt="instalar nginx en debian2" width="641px" height="150px"></amp-img>
+    <img sizes="(min-width: 641px) 641px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/02/instalar-nginx-en-debian2.png" alt="instalar nginx en debian2" width="641px" height="150px"></img>
 </figure>
 
 # Modificando la configuración por defecto

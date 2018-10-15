@@ -13,7 +13,7 @@ title: Hackeando Tu Monitor De Pantalla
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Hackeando-Tu-Monitor-De-Pantalla.jpg" alt="Hackeando Tu Monitor De Pantalla" title="Hackeando Tu Monitor De Pantalla" width="800px" height="400px"></amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Hackeando-Tu-Monitor-De-Pantalla.jpg" alt="Hackeando Tu Monitor De Pantalla" title="Hackeando Tu Monitor De Pantalla" width="800px" height="400px"></img>
   <figcaption>Imagen: Lorenzo Franceschi-Bicchierai/Motherboard</figcaption>
 </figure>
 

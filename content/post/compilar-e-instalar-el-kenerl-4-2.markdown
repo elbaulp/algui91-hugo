@@ -13,7 +13,7 @@ title: Compilar e Instalar El Kernel 4.2
 ---
 
 <figure>
-    <a href="/img/Compilar-e-Instalar-El-Kernel-4.2.png"><amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Compilar-e-Instalar-El-Kernel-4.2.png" title="{{ page.title }}" alt="{{ page.title }}" width="640px" height="320px" /></a>
+    <a href="/img/Compilar-e-Instalar-El-Kernel-4.2.png"><img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Compilar-e-Instalar-El-Kernel-4.2.png" title="{{ page.title }}" alt="{{ page.title }}" width="640px" height="320px" /></a>
     <span class="image-credit">Crédito de la imagen: <a href="https://pixabay.com/en/linux-logo-penguin-tux-text-151619/" target="_blank" title="">pixabay</a></span><br />
 </figure>
 

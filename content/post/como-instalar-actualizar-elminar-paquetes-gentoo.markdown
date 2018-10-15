@@ -19,7 +19,7 @@ title: "Cómo Instalar/actualizar/eliminar Paquetes en Gentoo"
 
 <figure>
         <a href="/img/como-instalar-actualizar-elminar-paquetes-gentoo.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -30,7 +30,7 @@ title: "Cómo Instalar/actualizar/eliminar Paquetes en Gentoo"
             sizes="(min-width: 526px) 526px, 100vw"
             width="526"
             height="256">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Imagen tomada con <em>ScreenFetch</em></figcaption>
 </figure>

@@ -14,7 +14,7 @@ title: "Nueva Guía: The Essentials of Information Security Kit"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 199px) 199px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/The-Essentials-of-Information-Security-Kit2.jpg" title="Nueva Guía: The Essentials of Information Security Kit" alt="Nueva Guía: The Essentials of Information Security Kit" width="199px" height="258px" />
+    <img sizes="(min-width: 199px) 199px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/hotlink-ok/The-Essentials-of-Information-Security-Kit2.jpg" title="Nueva Guía: The Essentials of Information Security Kit" alt="Nueva Guía: The Essentials of Information Security Kit" width="199px" height="258px" />
 </figure>
 
 Download this kit to learn everything you need to know about Information Security.

@@ -75,7 +75,7 @@ I've tried to draw two graphics representations to help you visualize the proces
 
 <figure>
         <a href="/img/criptografia-101-fundamentos-matematicos-ii-powermodint.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -86,14 +86,14 @@ I've tried to draw two graphics representations to help you visualize the proces
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="330">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Computing modular exponentiation</figcaption>
 </figure>
 
 <figure>
         <a href="/img/criptografia-101-fundamentos-matematicos-ii-powermodint2.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -104,7 +104,7 @@ I've tried to draw two graphics representations to help you visualize the proces
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="206">
-          </amp-img>
+          </img>
         </a>
 </figure>
 

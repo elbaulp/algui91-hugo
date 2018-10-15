@@ -15,7 +15,7 @@ title: "Lo último en criptografía: Fully Homomorphic Encryption"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 256px) 256px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Homomorphic Encryption" src="/img/2012/11/Apps-preferences-desktop-cryptography-icon1.png" alt="" width="256px" height="256px" />
+    <img sizes="(min-width: 256px) 256px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="Homomorphic Encryption" src="/img/2012/11/Apps-preferences-desktop-cryptography-icon1.png" alt="" width="256px" height="256px" />
 </figure>
 
 Me he aficionado a escuchar un programa de radio llamado **Security Now!**, cuya web puedes consultar en las referencias. Como el nombre del programa indica, hablan sobre seguridad en sistemas informáticos principalmente. El episodio de esta semana iba enfocado a qué se está desarrollando a día de hoy en el mundo de la criptografía.

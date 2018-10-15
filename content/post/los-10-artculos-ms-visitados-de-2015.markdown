@@ -11,7 +11,7 @@ title: "Los 10 Artículos Más Visitados De 2015"
 ---
 
 <figure>
-    <a href="/img/los10articulosmasvisitados2015.png"><amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/los10articulosmasvisitados2015.png" title="Los 10 Artículos Más Visitados De 2015" alt="Los 10 Artículos Más Visitados De 2015" width="1024px" height="512px" /></a>
+    <a href="/img/los10articulosmasvisitados2015.png"><img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/los10articulosmasvisitados2015.png" title="Los 10 Artículos Más Visitados De 2015" alt="Los 10 Artículos Más Visitados De 2015" width="1024px" height="512px" /></a>
     <span class="image-credit">Crédito de la imagen: Buffer</span>
 </figure>
 

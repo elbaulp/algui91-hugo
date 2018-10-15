@@ -12,7 +12,7 @@ title: "Mostrar todos los post de una categoría en WordPress"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 231px) 231px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/wordpress.png" alt="mostrar todos los post de una categoría wordpress" width="231px" height="228px" />
+    <img sizes="(min-width: 231px) 231px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/wordpress.png" alt="mostrar todos los post de una categoría wordpress" width="231px" height="228px" />
 </figure>
 
 En otros artículos mostré cómo [crear shortcodes][1] en WordPress, hoy veremos cómo mostrar todos los post de una categoría wordpress dada como parámetro al shortcode.

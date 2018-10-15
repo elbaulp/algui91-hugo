@@ -26,7 +26,7 @@ Por ejemplo, para cada nueva cuenta que crees en cualquier servicio, genera una 
 
 <figure>
         <a href="/img/lastpassgenerator.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -37,7 +37,7 @@ Por ejemplo, para cada nueva cuenta que crees en cualquier servicio, genera una 
             sizes="(min-width: 420px) 420px, 100vw"
             width="420"
             height="521">
-          </amp-img>
+          </img>
         </a>
         <figcaption>LastPass password generator</figcaption>
 </figure>
@@ -46,7 +46,7 @@ Si no quieres usar **LastPass** puedes usar el **generador de Steve**
 
 <figure>
         <a href="/img/steveperfectpasswords.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -58,7 +58,7 @@ Si no quieres usar **LastPass** puedes usar el **generador de Steve**
             sizes="(min-width: 1152px) 1152px, 100vw"
             width="1152"
             height="277">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Steve's Perfect Passwords</figcaption>
 </figure>
@@ -69,7 +69,7 @@ Veamos cuanto **tiempo se tardaría en descifrar una contraseña** de estas cara
 
 <figure>
         <a href="/img/howsecure.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -80,7 +80,7 @@ Veamos cuanto **tiempo se tardaría en descifrar una contraseña** de estas cara
             sizes="(min-width: 803px) 803px, 100vw"
             width="803"
             height="227">
-          </amp-img>
+          </img>
         </a>
         <figcaption>How long would it take to crack the password? | source: <a href="https://howsecureismypassword.net/" target="_blank" title="howsecure">howsecureismypassword.net</a></figcaption>
 </figure>
@@ -89,7 +89,7 @@ en la web de **Steve Gibson** vemos:
 
 <figure>
         <a href="/img/haystackpassword.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -100,7 +100,7 @@ en la web de **Steve Gibson** vemos:
             sizes="(min-width: 842px) 842px, 100vw"
             width="842"
             height="753">
-          </amp-img>
+          </img>
         </a>
         <figcaption>GRC's Interactive Brute Force Password “Search Space” Calculator | source: <a href="https://www.grc.com/haystack.htm" target="_blank" title="haystack">grc.com/haystack.htm</a></figcaption>
 </figure>

@@ -13,7 +13,7 @@ Este artículo es una referencia rápida de los comandos más útiles de *org-mo
 
 <figure>
         <a href="/img/orgmodequickreference.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -24,7 +24,7 @@ Este artículo es una referencia rápida de los comandos más útiles de *org-mo
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="480">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Org mode quick reference</figcaption>
 </figure>
@@ -145,7 +145,7 @@ Se pueden crear listas de tareas compuestas de *varios elementos*, y con =C-c C-
 
 <figure>
         <a href="/img/org-mode-todo-checkboxs.gif">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -156,7 +156,7 @@ Se pueden crear listas de tareas compuestas de *varios elementos*, y con =C-c C-
             sizes="(min-width: 244px) 244px, 100vw"
             width="244"
             height="100">
-          </amp-img>
+          </img>
         </a>
         <figcaption>TODO Items checkboxes</figcaption>
 </figure>
@@ -178,7 +178,7 @@ Sintáxis de las tablas:
 
 <figure>
         <a href="/img/org-mode-table.gif">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -189,7 +189,7 @@ Sintáxis de las tablas:
             sizes="(min-width: 304px) 304px, 100vw"
             width="304"
             height="214">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Creating tables in org-mode</figcaption>
 </figure>

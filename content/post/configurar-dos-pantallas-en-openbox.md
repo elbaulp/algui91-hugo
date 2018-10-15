@@ -14,7 +14,7 @@ title: Configurar dos pantallas en OpenBox bajo CruchBang y wallpaper aleatorio
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 128px) 128px, 100vw" sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="128" width="128" src="https://1.bp.blogspot.com/-iiunZ-gX5Y8/T0TbVE86pHI/AAAAAAAACGw/wmYeZWkIe-s/s400/1329912632_stock_connect.png" />
+    <img sizes="(min-width: 128px) 128px, 100vw" sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="128" width="128" src="https://1.bp.blogspot.com/-iiunZ-gX5Y8/T0TbVE86pHI/AAAAAAAACGw/wmYeZWkIe-s/s400/1329912632_stock_connect.png" />
 </figure>
 
 
@@ -99,7 +99,7 @@ Os dejo una captura, el código está disponible en <a href="https://github.com/
 
 <figure>
         <a href="https://1.bp.blogspot.com/-Babpz4m6FG4/T0T5AMLSbsI/AAAAAAAACHA/P7YObMPNGM4/s1600/Screenshot%2B-%2B02222012%2B-%2B02%253A43%253A23%2BPM.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -110,6 +110,6 @@ Os dejo una captura, el código está disponible en <a href="https://github.com/
             sizes="(min-width: 900px) 900px, 100vw"
             width="900"
             height="360">
-          </amp-img>
+          </img>
         </a>
 </figure>

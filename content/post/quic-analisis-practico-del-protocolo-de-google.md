@@ -15,7 +15,7 @@ title: "QUIC: Análisis práctico del protocolo de Google"
 ---
 
 <figure>
-<a href="/img/2013/07/Que-es-QUIC-el-nuevo-protocolo-desarrollado-por-Google.png"><amp-img sizes="(min-width: 468px) 468px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/Que-es-QUIC-el-nuevo-protocolo-desarrollado-por-Google.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="468px" height="239px" /></a>
+<a href="/img/2013/07/Que-es-QUIC-el-nuevo-protocolo-desarrollado-por-Google.png"><img sizes="(min-width: 468px) 468px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/07/Que-es-QUIC-el-nuevo-protocolo-desarrollado-por-Google.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="468px" height="239px" /></a>
 </figure>
 
 **QUIC** es un protocolo que está desarrollando Google y que pretende ser más seguro y rápido. Investigando un poco para conocer más acerca de este nuevo protocolo, encontré una pequeña *FAQ* (Frequently Asked Questions) en *Google Drive*, al parecer dicha *FAQ* es autoría del propio grupo de desarrollo de *QUIC*, el nombre original del documento es QUIC Geek FAQ (for folks that know about UDP, TCP, SPDY, and stuff like that). Puedes consultar el artículo en [Qué es QUIC, el nuevo protocolo desarrollado por Google][1].
@@ -150,7 +150,7 @@ Hay 5 grupos de bits, consistentes en dos bits individuales, dos pares de bits u
 ### ejemplo de un primer paquete iniciando la conexión, en el que está activado el bit de versión
 
 <figure>
-<a href="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-primerPaquete.png"><amp-img sizes="(min-width: 370px) 370px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-primerPaquete.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="370px" height="118px" /></a>
+<a href="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-primerPaquete.png"><img sizes="(min-width: 370px) 370px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-primerPaquete.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="370px" height="118px" /></a>
 </figure>
 
 **Header: CID**. Ocupa 64bits para que los clientes puedan seleccionar un CID aleatoriamente, y contactar con un servidor a un puerto fijo. Para cuando un servidor mantenga \\(2^{32}\\) conexiones concurrentes, habrá un 50\% de probabilidad de que un intento de conexión colisione con otra conexión existente. En ese punto, habrá una conexión de \\(2^{32}\\) en conflicto, y obtendrá un mal rendimiento en la conexión (probablemente obtenga un Time-out). El usuario que obtenga temporalmente éste problema, en una buena implentación, realizaría automáticamente una conexión vía TCP.
@@ -285,7 +285,7 @@ Todos los frames comienzan con un byte que especifica su tipo, pero se espera po
 La captura realizada fue la siguiente:
 
 <figure>
-<a href="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-CapturaQUIC.png"><amp-img sizes="(min-width: 1920px) 1920px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-CapturaQUIC.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="1920px" height="1080px" /></a>
+<a href="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-CapturaQUIC.png"><img sizes="(min-width: 1920px) 1920px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-CapturaQUIC.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="1920px" height="1080px" /></a>
 </figure>
 
 Se procederá a mostrar algunas capturas más detalladas de la cabecera únicamente, ya que el resto del paquete está cifrado, sin embargo, a lo largo de éste documento se ha detallado cómo sería la estructura del payload una vez descifrado.
@@ -295,7 +295,7 @@ Como se mostró más arriba, la cabecera del primer paquete indica que el paquet
 ### ejemplo de un primer paquete iniciando la conexión, en el que está activado el bit de versión
 
 <figure>
-<a href="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-primerPaquete.png"><amp-img sizes="(min-width: 370px) 370px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-primerPaquete.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="370px" height="118px" /></a>
+<a href="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-primerPaquete.png"><img sizes="(min-width: 370px) 370px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-primerPaquete.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="370px" height="118px" /></a>
 </figure>
 
 Dicha información se encuentra aquí:
@@ -303,7 +303,7 @@ Dicha información se encuentra aquí:
 ### Información sobre la versión a usar
 
 <figure>
-<a href="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-quicVersion.png"><amp-img sizes="(min-width: 594px) 594px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-quicVersion.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="594px" height="244px" /></a>
+<a href="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-quicVersion.png"><img sizes="(min-width: 594px) 594px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-quicVersion.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="594px" height="244px" /></a>
 </figure>
 
 También se puede apreciar en la captura el número de secuencia y el identificador de conexión. Si escogemos cualquier otro paquete que no sea el primero, se comprobará que el bit que especifica si existe la versión está desactivado:
@@ -311,7 +311,7 @@ También se puede apreciar en la captura el número de secuencia y el identifica
 ### Paquetes distintos al primero
 
 <figure>
-<a href="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-quicOtrosPaquetes.png"><amp-img sizes="(min-width: 596px) 596px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-quicOtrosPaquetes.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="596px" height="246px" /></a>
+<a href="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-quicOtrosPaquetes.png"><img sizes="(min-width: 596px) 596px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/10/Análisis-práctico-del-protocolo-de-Google-QUIC-quicOtrosPaquetes.png" title="QUIC: Análisis práctico del protocolo de Google" alt="QUIC: Análisis práctico del protocolo de Google" width="596px" height="246px" /></a>
 </figure>
 
 Y por tanto no aparece información relevante respecto a qué versión se usa.

@@ -18,7 +18,7 @@ La distribución **presenta un escritorio minimalista con un Dock con tres icono
 No obstante, hay que advertir que la distribución está en fase alpha, así que si queréis descargarla tendréis que tener en cuenta que **podréis encontraros con fallos** como los que relatan en [Ostatic][3], donde no les funcionaba el sonido y el comportamiento de Synaptic era algo errático.
 
 <figure>
-    <amp-img sizes="(min-width: 266px) 266px, 100vw" width="226" height="426" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="bodhi_0.1.0" src="https://1.bp.blogspot.com/_IlK2pNFFgGM/TOkI5Wj6W7I/AAAAAAAAAFM/z5rezyX4os4/s1600/bodhi_0.1.0.png"></amp-img>
+    <img sizes="(min-width: 266px) 266px, 100vw" width="226" height="426" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" title="bodhi_0.1.0" src="https://1.bp.blogspot.com/_IlK2pNFFgGM/TOkI5Wj6W7I/AAAAAAAAAFM/z5rezyX4os4/s1600/bodhi_0.1.0.png"></img>
 </figure>
 
 Hay cosas interesantes en Bodhi, como el hecho de que por defecto dos de los repositorios más valorados en Ubuntu -**Medibuntu y GetDeb**- están disponibles, lo que os permitirá instalar **códecs multimedia** y drivers hardware que no están incluidos de serie en la distribución original.

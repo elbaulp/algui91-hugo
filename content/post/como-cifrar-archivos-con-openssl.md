@@ -15,7 +15,7 @@ title: "Cómo cifrar archivos con openssl"
 ---
 
 <figure>
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -26,7 +26,7 @@ title: "Cómo cifrar archivos con openssl"
             sizes="(min-width: 256px) 256px, 100vw"
             width="256"
             height="256">
-          </amp-img>
+          </img>
 </figure>
 
 Las copias de seguridad son algo que debemos tener a buen resguardo por si algún dia le ocurre algo a nuestros datos. Si bien lo anterior es cierto, de igual modo hemos de tener bien protegidas éstas copias de seguridad para que no puedan ser usadas por terceros de caer en manos maliciosas. Hoy veremos cómo **cifrar archivos con openssl**.

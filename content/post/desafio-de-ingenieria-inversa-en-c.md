@@ -14,7 +14,7 @@ title: "Desafío de ingeniería inversa en C"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 432px) 432px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/logicbomb1.png" alt="" title="Bomba" width="532px" height="449px" />
+    <img sizes="(min-width: 432px) 432px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/12/logicbomb1.png" alt="" title="Bomba" width="532px" height="449px" />
 </figure>
 
 > Puedes encontrar la solución a esta práctica en [Desafío de ingeniería inversa en C - Soluciones][1]

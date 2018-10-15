@@ -29,7 +29,7 @@ _Enunciado: Una appMovimientoSonido que reconozca un patrón de movimientos de v
 En esta aplicación se usa el acelerómetro y el giroscopio, para mostrar sus valores por pantalla. El giroscopio es capaz de detectar una rotación del dispositivo, al hacerlo, reproduce un sonido. Por contra, el acelerómetro detecta una sacudida del dispositivo y reproduce un sonido distinto. Debido a que no en todos los dispositivos se obtienen valores precisos para los sensores, solo se mostrarán aquellos que tengan sentido.
 
 <figure>
-    <a href="/img/npi/movementSound.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/movementSound.png" title="Aplicación Movement Sound" alt="Aplicación Movement Sound" width="338px" height="600px" /></a>
+    <a href="/img/npi/movementSound.png"><img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/movementSound.png" title="Aplicación Movement Sound" alt="Aplicación Movement Sound" width="338px" height="600px" /></a>
     <figcaption>Aplicación Movement Sound</figcaption>
 </figure>
 

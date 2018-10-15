@@ -16,7 +16,7 @@ title: Combatir los comentarios de spam en WordPress
 
 <figure>
         <a href="/img/2013/11/Bloquear-ataques-de-fuerza-bruta-en-Nginx-y-Wordpress-con-Fail2Ban2.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -27,7 +27,7 @@ title: Combatir los comentarios de spam en WordPress
             sizes="(min-width: 600px) 600px, 100vw"
             width="600"
             height="600">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Combatir los comentarios de spam en Wordpress</figcaption>
 </figure>

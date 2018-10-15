@@ -25,14 +25,14 @@ Os dejo las imágenes del resultado:
 # Tiempo de carga de la página principal:
 
 <figure>
-    <amp-img sizes="(min-width: 628px) 628px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/optimizando-el-tiempo-de-carga-del-blog.png" alt="Optimizando el tiempo de carga del blog" title="Optimizando el tiempo de carga del blog" width="628" height="262"></amp-img>
+    <img sizes="(min-width: 628px) 628px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/optimizando-el-tiempo-de-carga-del-blog.png" alt="Optimizando el tiempo de carga del blog" title="Optimizando el tiempo de carga del blog" width="628" height="262"></img>
     <figcaption><a href="https://tools.pingdom.com/#!/cl3wzb/https://elbauldelprogramador.com/">Enlace al informe de pingdom</a></figcaption>
 </figure>
 
 # Tiempo de carga de un post:
 
 <figure>
-    <amp-img sizes="(min-width: 631px) 631px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/optimizando-el-tiempo-de-carga-del-blog2.png" alt="Optimizando el tiempo de carga del blog" title="Optimizando el tiempo de carga del blog" width="631" height="262"></amp-img>
+    <img sizes="(min-width: 631px) 631px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/optimizando-el-tiempo-de-carga-del-blog2.png" alt="Optimizando el tiempo de carga del blog" title="Optimizando el tiempo de carga del blog" width="631" height="262"></img>
     <figcaption><a href="https://tools.pingdom.com/#!/c6QWJL/https://elbauldelprogramador.com/chuleta-atajos-teclado-emacs/">Enlace al informe de pingdom</a></figcaption>
 </figure>
 

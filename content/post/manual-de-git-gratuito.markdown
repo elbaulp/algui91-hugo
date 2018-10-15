@@ -15,8 +15,8 @@ title: Manual De Git Gratuito
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/git-tutorial-centered.jpg" alt="Manual De Git Gratuito" title="Manual De Git Gratuito" width="800" height="420">
-   </amp-img>
+    <img sizes="(min-width: 800px) 800px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/git-tutorial-centered.jpg" alt="Manual De Git Gratuito" title="Manual De Git Gratuito" width="800" height="420">
+   </img>
 </figure>
 
 > **NOTA** También puedes consultar nuestra [Chuleta de comandos GIT](/mini-tutorial-y-chuleta-de-comandos-git/ "Git: Mini Tutorial y chuleta de comandos")

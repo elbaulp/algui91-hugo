@@ -27,9 +27,9 @@ Intentando implementar la etiqueta `amp-mustache` para el blog encontré muchos 
       <a class="card related"
          id="{% raw %}{{id}}{% endraw %}"
          href={% raw %}{{url}}{% endraw %}>
-        <amp-img width="101"
+        <img width="101"
                  height="75"
-                 src="{% raw %}}{% endraw %}"></amp-img>
+                 src="{% raw %}}{% endraw %}"></img>
         <span>{% raw %}{{title}}{% endraw %}</span>
       </a>
     </template>
@@ -94,9 +94,9 @@ Me di cuenta de que el error residía en _jekyll_, ya que este usa etiquetas de 
             <a class="card related"
                id="{% raw %}{% raw %}{{ id }}{% endraw %}{{ "{% endraw " }}%}"
                href="{% raw %}{% raw %}{{ url }}{% endraw %}{{ "{% endraw " }}%}">
-               <amp-img width="101"
+               <img width="101"
                         height="75"
-                        src="{% raw %}{% raw %}{{ thumbnail }}{% endraw %}{{ "{% endraw " }}%}"></amp-img>
+                        src="{% raw %}{% raw %}{{ thumbnail }}{% endraw %}{{ "{% endraw " }}%}"></img>
                     <span>{% raw %}{% raw %}{{ title }}{% endraw %}{{ "{% endraw " }}%}</span>
             </a>
         </template>

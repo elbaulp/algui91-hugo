@@ -129,7 +129,7 @@ Por último, la aplicación es tan simple como esto:
 
 <figure>
         <a href="/img/2013/06/helloJni-NDK-de-android.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -140,7 +140,7 @@ Por último, la aplicación es tan simple como esto:
             sizes="(min-width: 480px) 480px, 100vw"
             width="480"
             height="800">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Ejemplo Hola Mundo NKD</figcaption>
 </figure>

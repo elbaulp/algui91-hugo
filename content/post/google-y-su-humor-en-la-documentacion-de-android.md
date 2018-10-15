@@ -10,7 +10,7 @@ title: "Google y su humor en la documentación de Android"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/monkey-phone-300x269.jpg" alt="isUserAMonkey Android" width="300px" height="269px" />
+    <img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/monkey-phone-300x269.jpg" alt="isUserAMonkey Android" width="300px" height="269px" />
 </figure>
 
 Todos sabemos el humor que gastan chicos de Google, y a raiz de una pregunta en *<a href="http://stackoverflow.com/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat" target="_blank">stackoverflow</a>* descubrí que la documentación de Android tiene unos cuantos toques de humor de los de Mountain View. Así que decidí buscarlos y crear la siguiente recopilación:
@@ -20,7 +20,7 @@ Todos sabemos el humor que gastan chicos de Google, y a raiz de una pregunta en 
 Abriremos la recopilación con la pregunta en stackoverflow, la cual tuvo bastante éxito como se puede apreciar en los votos:
 
 <figure>
-    <amp-img sizes="(min-width: 741px) 741px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/UserManager.isuseragoat.png" alt="UserManager.isuseragoat" width="741px" height="253px" />
+    <img sizes="(min-width: 741px) 741px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/06/UserManager.isuseragoat.png" alt="UserManager.isuseragoat" width="741px" height="253px" />
 </figure>
 
 

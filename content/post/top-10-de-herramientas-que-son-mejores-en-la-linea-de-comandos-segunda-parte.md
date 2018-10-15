@@ -15,7 +15,7 @@ title: "10 de las Mejores Herramientas en la Línea de Comandos II"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" sizes="(min-width: 640px) 640px, 100vw" role="button" tabindex="0" layout="responsive" title="Top 10 de las Mejores Herramientas en la Línea de Comandos" src="/img/2012/08/original1.jpg" alt="Comandos" width="640px" height="360px" />
+    <img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" sizes="(min-width: 640px) 640px, 100vw" role="button" tabindex="0" layout="responsive" title="Top 10 de las Mejores Herramientas en la Línea de Comandos" src="/img/2012/08/original1.jpg" alt="Comandos" width="640px" height="360px" />
 </figure>
 
 En esta segunda entrega revisaremos otras [diez herramientas](/top-10-de-herramientas-que-son-mejores-en-la-linea-de-comandos/) que podemos usar en nuestra **terminal de Linux** y que nos ahorrarán tiempo y esfuerzo en muchas tareas cotidianas ampliando así nuestra lista de imprescindibles.
@@ -70,7 +70,7 @@ No solo ofrece una visión de la memoria de nuestros sistema en tiempo real sino
 
 <figure>
         <a href="/img/htop.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -81,7 +81,7 @@ No solo ofrece una visión de la memoria de nuestros sistema en tiempo real sino
             sizes="(min-width: 645px) 645px, 100vw"
             width="645"
             height="194">
-          </amp-img>
+          </img>
         </a>
 </figure>
 

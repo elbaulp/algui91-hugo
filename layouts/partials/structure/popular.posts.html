@@ -9,9 +9,9 @@
     <a class="card related"
        id={{"{{id}}"}}
        {{ printf "href=%q" "{{url}}" | safeHTMLAttr }}>
-      <amp-img width="101"
+      <img width="101"
                height="75"
-               {{ printf "src=%q" "{{thumbnail}}" | safeHTMLAttr }}></amp-img>
+               {{ printf "src=%q" "{{thumbnail}}" | safeHTMLAttr }}></img>
       <span>{{"{{title}}"}}</span>
     </a>
   </template>

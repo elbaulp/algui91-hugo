@@ -20,35 +20,35 @@ A continuación voy a explicar mediante capturas de pantalla algunas funcionalid
 <!--more--><!--ad-->
 
 <figure>
-    <amp-img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="305" src="https://1.bp.blogspot.com/-7UI6P-RRixQ/TdAVCyzDQ6I/AAAAAAAAAeY/SZHOWPXVFcg/s500/icono.png"></amp-img>
+    <img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="305" src="https://1.bp.blogspot.com/-7UI6P-RRixQ/TdAVCyzDQ6I/AAAAAAAAAeY/SZHOWPXVFcg/s500/icono.png"></img>
 </figure>
 
 Lo primero que hace la aplicación al iniciarse, es comprobar que la red WiFi del dispositivo esté activada, en caso de no estarla, se notifica al usuario y se sale de la aplicación, ya que sin conexión no es funcional.
 
 <figure>
-	<amp-img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="306" src="https://3.bp.blogspot.com/-iZj8DYLsOEk/TdAO0_aJG_I/AAAAAAAAAdw/yfXZ9wAuX5E/s500/noWifi.png"></amp-img>
+    <img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="306" src="https://3.bp.blogspot.com/-iZj8DYLsOEk/TdAO0_aJG_I/AAAAAAAAAdw/yfXZ9wAuX5E/s500/noWifi.png"></img>
 </figure>
 
 En segundo lugar se comprueba que la conexión con el servidor (donde se encuentra la base de datos) esté establecida, en caso negativo, se muestra otro mensaje de error y se finaliza
 
 <figure>
-	<amp-img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="305" src="https://2.bp.blogspot.com/-fTXix1DkoxI/TdAQO7DotiI/AAAAAAAAAd4/zak_5vQrvzc/s500/noServer.png"></amp-img>
+    <img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="305" src="https://2.bp.blogspot.com/-fTXix1DkoxI/TdAQO7DotiI/AAAAAAAAAd4/zak_5vQrvzc/s500/noServer.png"></img>
 </figure>
 
 Si ninguno de los mensajes de arriba se muestra, entramos en la primera Activity (en la cual se consultará a la base de datos la información necesaria para esta actividad), en la que debemos seleccionar un camarero y pulsar el botón.
 
 <figure>
-	<amp-img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="306" src="https://4.bp.blogspot.com/-5yIexsA06XI/TdATUJ39qDI/AAAAAAAAAeA/Wn81Cw1o6Dw/s500/camarero.png"></amp-img>
+    <img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="306" src="https://4.bp.blogspot.com/-5yIexsA06XI/TdATUJ39qDI/AAAAAAAAAeA/Wn81Cw1o6Dw/s500/camarero.png"></img>
 </figure>
 
 Una vez pulsado el botón, pasamos a la siguiente actividad, en la que se debe seleccionar una mesa para abrirla, cerrarla o realizar pedidos sobre ella. Al igual que en la actividad de camareros, se solicita la información de las mesas a la base de datos.
 
 <figure>
-	<amp-img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="306" src="https://4.bp.blogspot.com/-BZjhH4BNz0k/TdAT8kH3-PI/AAAAAAAAAeQ/zCUx8mF0G3c/s500/selecci%25C3%25B3nMesa.png"></amp-img>
+    <img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="306" src="https://4.bp.blogspot.com/-BZjhH4BNz0k/TdAT8kH3-PI/AAAAAAAAAeQ/zCUx8mF0G3c/s500/selecci%25C3%25B3nMesa.png"></img>
 </figure>
 
 <figure>
-	<amp-img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="306" src="https://4.bp.blogspot.com/-j67USPZqytc/TdAT8mhHWMI/AAAAAAAAAeI/HMMy-r8hBhU/s500/mesa.png"></amp-img>
+    <img sizes="(min-width: 305px) 305px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="500" width="306" src="https://4.bp.blogspot.com/-j67USPZqytc/TdAT8mhHWMI/AAAAAAAAAeI/HMMy-r8hBhU/s500/mesa.png"></img>
 </figure>
 
 Al pulsar en _Hacer comanda_ vamos a un intent en el que se deben elegir los pedidos del cliente (pero aún está a medio hacer)

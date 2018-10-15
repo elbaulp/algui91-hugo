@@ -16,7 +16,7 @@ title: "Cómo ordenar imágenes por resolución"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/07/sh.png" title="Cómo ordenar imágenes por resolución" alt="Cómo ordenar imágenes por resolución" width="128px" height="128px" />
+    <img sizes="(min-width: 128px) 128px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2012/07/sh.png" title="Cómo ordenar imágenes por resolución" alt="Cómo ordenar imágenes por resolución" width="128px" height="128px" />
 </figure>
 
 Hace poco me encontré queriendo ordenar una carpeta de fondos de pantalla por resolución, en lugar de otros métodos de ordenación más típicos como por nombre o tamaño. Así que buscando un poco encontré la respuesta en *superuser*. El usuario *[flammable][1]* preguntaba cómo ordenar imágenes por resolución. La respuesta es la siguiente:

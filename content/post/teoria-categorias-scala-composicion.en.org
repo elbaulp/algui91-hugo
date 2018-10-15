@@ -37,7 +37,7 @@ In short, a /category/ is form by *objects and arrows*, and they can compose. Th
 
 <figure>
         <a href="/img/category-theory-composition.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -48,7 +48,7 @@ In short, a /category/ is form by *objects and arrows*, and they can compose. Th
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="360">
-          </amp-img>
+          </img>
         </a>
 </figure>
 
@@ -67,7 +67,7 @@ Composition reads from /right to left:/ =g∘f= would be =g(f(x))=.
 
 <figure>
         <a href="/img/category-theory-identity.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -78,7 +78,7 @@ Composition reads from /right to left:/ =g∘f= would be =g(f(x))=.
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="360">
-          </amp-img>
+          </img>
         </a>
 </figure>
 
@@ -139,7 +139,7 @@ If you execute this property tests, all pass:
 
 <figure>
         <a href="/img/category-theory-composition-test.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -150,7 +150,7 @@ If you execute this property tests, all pass:
             sizes="(min-width: 397px) 397px, 100vw"
             width="397"
             height="105">
-          </amp-img>
+          </img>
         </a>
 </figure>
 

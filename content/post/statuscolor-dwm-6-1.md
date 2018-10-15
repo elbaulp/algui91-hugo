@@ -75,7 +75,7 @@ status = smprintf("L:%s\x01 A:%s\x02 U:%s %s\x03", avgs, tmar, tmutc, tmbln);
 Coloreará `L:%s` con el color 1, `L:%s` con el color 2 y ` U:%s %s` con el color 3. He aquí un ejemplo de la mía:
 
 <figure>
-    <a href="/img/2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png"><amp-img sizes="(min-width: 702px) 702px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png" title="Colorear la barra de estado con Simple StatusColor en DWM 6.1" alt="Colorear la barra de estado con Simple StatusColor en DWM 6.1" width="702px" height="13px" /></a>
+    <a href="/img/2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png"><img sizes="(min-width: 702px) 702px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/07/simplestatuscolor-in-dwmstatus-dwm6.1.png" title="Colorear la barra de estado con Simple StatusColor en DWM 6.1" alt="Colorear la barra de estado con Simple StatusColor en DWM 6.1" width="702px" height="13px" /></a>
 </figure>
 
 # Dentro del código

@@ -25,7 +25,7 @@ Ciertas técnicas de aprendizaje son más robustas frente a datos anómalos que 
 
 <figure>
         <a id="fig:anoReg" href="/img/anoReg.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -36,7 +36,7 @@ Ciertas técnicas de aprendizaje son más robustas frente a datos anómalos que 
             sizes="(min-width: 870px) 870px, 100vw"
             width="870"
             height="471">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Cómo afecta un dato anómalo a una regresión</figcaption>
 </figure>
@@ -45,7 +45,7 @@ También ocurre en *clustering*, ya que los datos anómalos desplazan los centro
 
 <figure>
         <a id="fig:anoClust" href="/img/anoClust.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -56,7 +56,7 @@ También ocurre en *clustering*, ya que los datos anómalos desplazan los centro
             sizes="(min-width: 562px) 562px, 100vw"
             width="562"
             height="179">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Cómo afecta un dato anómalo al *clustering*</figcaption>
 </figure>
@@ -101,7 +101,7 @@ Los **modelos de clasificación** en el caso de conjuntos de datos correctamente
 
 <figure>
         <a id="fig:anoSemi" href="/img/anoSemi.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -112,7 +112,7 @@ Los **modelos de clasificación** en el caso de conjuntos de datos correctamente
             sizes="(min-width: 428px) 428px, 100vw"
             width="428"
             height="390">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Máquina de estados finitos para modelar tráfico FTP</figcaption>
 </figure>
@@ -123,7 +123,7 @@ Los métodos basados en **kernel** como Máquinas de Soporte Vectoriales asumen 
 
 <figure>
         <a id="fig:anoSVM" href="/img/anoSVM.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -134,7 +134,7 @@ Los métodos basados en **kernel** como Máquinas de Soporte Vectoriales asumen 
             sizes="(min-width: 404px) 404px, 100vw"
             width="404"
             height="342">
-          </amp-img>
+          </img>
         </a>
         <figcaption>SVMs para detección de Anomalías</figcaption>
 </figure>
@@ -151,7 +151,7 @@ Como su nombre indica consiste en inspeccionar visualmente los datos para determ
 
 <figure>
         <a id="fig:anoBiplot" href="/img/anoBiplot.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -162,7 +162,7 @@ Como su nombre indica consiste en inspeccionar visualmente los datos para determ
             sizes="(min-width: 1476px) 1476px, 100vw"
             width="1476"
             height="1024">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Biplot. **Var1** y **Var6** están muy poco correlacionadas, mientras que **Var1** y **Var10** sí lo están    *Créd. <a href="https://sukhbinder.wordpress.com/2016/03/02/biplot-in-python-revisited/">sukhbinder</a></figcaption>
 </figure>

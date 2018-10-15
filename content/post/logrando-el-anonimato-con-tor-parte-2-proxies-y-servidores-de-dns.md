@@ -25,7 +25,7 @@ title: 'Logrando el anonimato con Tor (Parte 2) : Proxies y servidores de DNS'
 Ya hemos visto en profundidad cómo configurar nuestro navegador web para usar Privoxy, el cual en turnos usa Tor para mantener el anonimato en internet. ¿Pero qué pasa si queremos interceptar peticiones con Burp? Para comprender mejor qué sucede, la imagen siguiente representa la cadena de nodos que cada petición (y respuesta) debe atravesar parapoder usar el proxy (en nuestro caso, Burp) sobre la red de Tor:
 
 <figure>
-    <amp-img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="diagrama de nodos" src="/img/2012/12/081012_1604_AchievingAn11.png" width="300px" height="128px"></amp-img>
+    <img sizes="(min-width: 300px) 300px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="diagrama de nodos" src="/img/2012/12/081012_1604_AchievingAn11.png" width="300px" height="128px"></img>
 </figure>
 
 Se puede observar que cada petición del navegador primero pasa por algún proxy (en nuestro caso Burp), el cual nos permite hacer algo con ella - en la mayoría de los casos es inspeccionar los parámetros del GET/POST y modificarlos un poco. Las peticiones luego son pasadas a la red anónima de Tor (la cual ya es parte de internet, pero en la imagen se representa Internet en un propio nodo por claridad).
@@ -41,7 +41,7 @@ $ netstat -lntup tcp6 0 0 127.0.0.1:8080 :::* LISTEN 4315/java
 Dado que el navegador web debería enviar todas las peticiones a Burp, es necesario configurar el navegador web para que use Burp en lugar de Privoxy. La configuración para Firefox se presenta a continuación:
 
 <figure>
-    <amp-img sizes="(min-width: 501px) 501px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081012_1604_AchievingAn2" src="/img/2012/12/081012_1604_AchievingAn21.png" width="501px" height="498px"></amp-img>
+    <img sizes="(min-width: 501px) 501px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081012_1604_AchievingAn2" src="/img/2012/12/081012_1604_AchievingAn21.png" width="501px" height="498px"></img>
 </figure>
 
 De esta forma Firefox envía todos los paquetes a través del proxy Burp, que corre en el host 127.0.0.1 en el puerto 8080.
@@ -49,7 +49,7 @@ De esta forma Firefox envía todos los paquetes a través del proxy Burp, que co
 A continuación es necesario configurar Burp para usar proxy SOCKS, el cual se inicializa y configura a través de Tor. El proxy SOCKS trabaja en un nivel más bajo que el proxy HTTP, por lo tanto tiene la posibilidad de redirigir no sólo peticiones HTTP. SOCKS es básicamente un proxy TCP, el cual puede interceptar y filtrar todas las conexiones TCP que pasan a través de él, lo que le permite no ser específico por aplicación; la aplicación sólo necesita tener la capacidad de enviar sus paquetes de datos a través del proxy SOCKS. Es posible configurar Burp para usar SOCKS en las opciones de Burp indicando &#8220;use SOCKS proxy&#8221;, como se puede observar en la siguiente imagen:
 
 <figure>
-    <amp-img sizes="(min-width: 642px) 642px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081012_1604_AchievingAn3" src="/img/2013/01/081012_1604_AchievingAn32.png" width="642px" height="234px"></amp-img>
+    <img sizes="(min-width: 642px) 642px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081012_1604_AchievingAn3" src="/img/2013/01/081012_1604_AchievingAn32.png" width="642px" height="234px"></img>
 </figure>
 
 De esta forma se configura Burp para que use el proxy SOCKS corriendo en el host 127.0.0.1 (localhost) en el puerto 9050. Si se consultan nuevamente los puertos que estan en estado de escucha nuevamente, se puede observar que el puerto 9050 está asociado al servicio Tor:
@@ -76,7 +76,7 @@ No todas las aplicaciones soportan SOCKS4a, por lo tanto esta solución no es de
 Es posible intentar *torificar* la aplicación de resolución de DNS que utilizamos. Pero es necesario tener cuidado, debido a que algunas aplicaciones no fueron construidas pensando en el modo anónimo. Algunos protocolos, como FTP (modo activo/pasivo), envían la propia dirección IP en la sección de datos del FTP, lo que lo hace muy difícil de anonimizar. Esto ocurre en el modo activo del data transfer en FTP. La siguiente imagen resume la inicialización de la trasferencia FTP:
 
 <figure>
-    <amp-img sizes="(min-width: 591px) 591px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081012_1604_AchievingAn4" src="/img/2013/01/081012_1604_AchievingAn42.png" width="591px" height="245px"></amp-img>
+    <img sizes="(min-width: 591px) 591px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="081012_1604_AchievingAn4" src="/img/2013/01/081012_1604_AchievingAn42.png" width="591px" height="245px"></img>
 </figure>
 
 Se pueden observar todos los pasos necesarios para empezar a enviar la información del servidor al cliente. Parece no ser mucho si no se presta atención. En el paso C, se envía el comando PORT, el cual es la raiz de los problemas para anonimizar. El comando PORT usa un formato como el siguiente:

@@ -13,7 +13,7 @@ title: "Nueva guía: History of cryptography"
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 178px) 178px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/04/History-of-Cryptograpy.jpg" alt="History of Cryptography" width="178px" height="229px" />
+    <img sizes="(min-width: 178px) 178px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2014/04/History-of-Cryptograpy.jpg" alt="History of Cryptography" width="178px" height="229px" />
 </figure>
 
 An easy to understand history of cryptography.

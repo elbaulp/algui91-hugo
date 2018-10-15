@@ -10,7 +10,7 @@ title: Java Open Source se mueve a Linux, AIX en PowerPC
 ---
 
 <figure>
-    <amp-img sizes="(min-width: 256px) 256px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="" src="/img/2012/07/Java.png" class="alignleft" width="256px" height="256px" />
+    <img sizes="(min-width: 256px) 256px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" alt="" src="/img/2012/07/Java.png" class="alignleft" width="256px" height="256px" />
 </figure>
 
 **La propuesta de *SAP-steered* aporta OpenJDK a nuevas plataformas**

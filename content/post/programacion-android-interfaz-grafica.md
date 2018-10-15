@@ -19,7 +19,7 @@ Todos los componenetes de la interfaz de usuario de Android descienden de la cla
 <!--more--><!--ad-->
 
 <figure>
-    <amp-img sizes="(min-width: 515px) 515px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="300" width="514" src="https://3.bp.blogspot.com/-qMw4Dx_mS0U/TgDfg6rdMCI/AAAAAAAAApU/Pl9tUQckM5g/s1600/layoutparams.png"></amp-img>
+    <img sizes="(min-width: 515px) 515px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive"  height="300" width="514" src="https://3.bp.blogspot.com/-qMw4Dx_mS0U/TgDfg6rdMCI/AAAAAAAAApU/Pl9tUQckM5g/s1600/layoutparams.png"></img>
 </figure>
 
 Los objetos ***View*** se pueden definir de dos maneras:

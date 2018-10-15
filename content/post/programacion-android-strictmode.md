@@ -123,13 +123,13 @@ try{
 ## Mediante el penaltyLog():
 
 <figure>
-    <a href="https://3.bp.blogspot.com/-IdweIPhRyVQ/TsOuiL-BQQI/AAAAAAAABx8/X2hvK1eoP00/s1600/Screenshot-1.png"><amp-img sizes="(min-width: 1189px) 1189px, 100vw" layout="responsive" alt="android development"  height="774" width="1189" src="https://3.bp.blogspot.com/-IdweIPhRyVQ/TsOuiL-BQQI/AAAAAAAABx8/X2hvK1eoP00/s1600/Screenshot-1.png"></amp-img></a>
+    <a href="https://3.bp.blogspot.com/-IdweIPhRyVQ/TsOuiL-BQQI/AAAAAAAABx8/X2hvK1eoP00/s1600/Screenshot-1.png"><img sizes="(min-width: 1189px) 1189px, 100vw" layout="responsive" alt="android development"  height="774" width="1189" src="https://3.bp.blogspot.com/-IdweIPhRyVQ/TsOuiL-BQQI/AAAAAAAABx8/X2hvK1eoP00/s1600/Screenshot-1.png"></img></a>
 </figure>
 
 ## Mediante penaltyDialog():
 
 <figure>
-    <a href="https://1.bp.blogspot.com/-osWDkvmrHug/TsOu3XOySgI/AAAAAAAAByI/2TbyygetI14/s1600/Screenshot.png"  ><amp-img sizes="(min-width: 447px) 447px, 100vw" layout="responsive"  alt="android" height="337" width="447" src="https://1.bp.blogspot.com/-osWDkvmrHug/TsOu3XOySgI/AAAAAAAAByI/2TbyygetI14/s1600/Screenshot.png"></amp-img></a>
+    <a href="https://1.bp.blogspot.com/-osWDkvmrHug/TsOu3XOySgI/AAAAAAAAByI/2TbyygetI14/s1600/Screenshot.png"  ><img sizes="(min-width: 447px) 447px, 100vw" layout="responsive"  alt="android" height="337" width="447" src="https://1.bp.blogspot.com/-osWDkvmrHug/TsOu3XOySgI/AAAAAAAAByI/2TbyygetI14/s1600/Screenshot.png"></img></a>
 </figure>
 
 

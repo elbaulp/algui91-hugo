@@ -16,27 +16,28 @@
 
 {{ partialCached "svgicons" . }}
 
-<div id="fade" class="overlay"></div>
-  <amp-sidebar id="sidebar" layout="nodisplay" side="right">
-    <a on="tap:sidebar.close" class="amp-close-image" role="button" tabindex="0">
-      <svg id="open" class="icon-menu"><use xlink:href="#icon-close"></use></svg>
-    </a>
-    <nav id="navigation">
-      <h2>{{ T "header_menu" }}</h2>
-      <ul>
-        {{ $currPage := . }}
-        {{ range .Site.Menus.main }}
-        <li>
-          <a href="{{ .URL | absLangURL }}">
-            {{ .Name }}
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    </nav>
-  </amp-sidebar>
-  <a id="search" class="dosearch" href="{{ "/buscar" | absLangURL }}"><svg class="icon-search"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use></svg> </a>
-  <a on="tap:sidebar.toggle" id="slide" class="slideButton fade">
-    <svg id="close" class="icon-menu"><use xlink:href="#icon-close"></use></svg>
-    <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
-  </a>
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card
+            w3-animate-right" id="mySidebar">
+
+  <button class="w3-button w3-bar-item  w3-hide-large"
+          onclick="w3_close()">&times;</button>
+
+  <nav id="navigation">
+    <h2>{{ T "header_menu" }}</h2>
+    <ul>
+      {{ $currPage := . }}
+      {{ range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL | absLangURL }}">
+          {{ .Name }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</div>
+
+<a id="search" class="dosearch" href="{{ "/buscar" | absLangURL }}"><svg class="icon-search"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use></svg> </a>
+<a id="slide" class="slideButton fade">
+  <svg onclick="w3_open()" id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+</a>

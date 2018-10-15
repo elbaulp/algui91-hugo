@@ -15,7 +15,7 @@ title: "Cómo maximizar la Vida de la Batería en tu Laptop Linux"
 
 <figure>
         <a href="/img/2012/07/sshot4cb822438c27c1.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -26,7 +26,7 @@ title: "Cómo maximizar la Vida de la Batería en tu Laptop Linux"
             sizes="(min-width: 650px) 650px, 100vw"
             width="650"
             height="306">
-          </amp-img>
+          </img>
         </a>
         <figcaption><a href="http://www.flickr.com/photos/wolfhound/3167885873/sizes/m/in/photostream/" target="_blank">Foto por Sighthound</a></figcaption>
 </figure>
@@ -50,7 +50,7 @@ Te mostraremos algunos consejos básicos de ahorro de energía de la batería y 
 
 <figure>
         <a href="/img/2012/07/linux_wallpaper1.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -61,7 +61,7 @@ Te mostraremos algunos consejos básicos de ahorro de energía de la batería y 
             sizes="(min-width: 500px) 500px, 100vw"
             width="500"
             height="37">
-          </amp-img>
+          </img>
         </a>
         <figcaption><a href="http://www.flickr.com/photos/acercanto/314496099/sizes/m/" target="_blank">Foto por acercanto</a></figcaption>
 </figure>
@@ -70,7 +70,7 @@ Ubuntu viene con un módulo de manejo de energía que nos da un control básico 
 
 <figure>
         <a href="/img/2012/07/battery_power1.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -81,7 +81,7 @@ Ubuntu viene con un módulo de manejo de energía que nos da un control básico 
             sizes="(min-width: 620px) 620px, 100vw"
             width="620"
             height="457">
-          </amp-img>
+          </img>
         </a>
 </figure>
 
@@ -98,7 +98,7 @@ Podemos extender la vida de la batería seleccionando estas opciones de la panta
 
 <figure>
         <a href="/img/2012/07/wifi1.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -109,7 +109,7 @@ Podemos extender la vida de la batería seleccionando estas opciones de la panta
             sizes="(min-width: 500px) 500px, 100vw"
             width="500"
             height="375">
-          </amp-img>
+          </img>
         </a>
         <figcaption><a href="http://www.flickr.com/photos/juicelog/363018869/sizes/m/" target="_blank">Foto por Juicelog</a></figcaption>
 </figure>
@@ -132,7 +132,7 @@ sudo iwconfig wlan0 txpower on
 
 <figure>
         <a href="/img/2012/07/4503427549_5ee84b6ea51.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -143,7 +143,7 @@ sudo iwconfig wlan0 txpower on
             sizes="(min-width: 500px) 500px, 100vw"
             width="500"
             height="337">
-          </amp-img>
+          </img>
         </a>
         <figcaption><a href="http://www.flickr.com/photos/65819195@N00/4503427549/sizes/m/in/photostream/" target="_blank">Foto por chigmaroff</a></figcaption>
 </figure>
@@ -158,7 +158,7 @@ echo 1 &gt; /sys/devices/system/cpu/sched_mc_power_savings
 
 <figure>
         <a href="/img/2012/07/harddisk1.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -169,7 +169,7 @@ echo 1 &gt; /sys/devices/system/cpu/sched_mc_power_savings
             sizes="(min-width: 500px) 500px, 100vw"
             width="500"
             height="334">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Foto por fr3d.org</figcaption>
 </figure>
@@ -250,7 +250,7 @@ A continuación vemos un ejemplo de análisis de PowerTOP en el consumo de energ
 
 <figure>
         <a href="/img/2012/07/powertop1.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -261,7 +261,7 @@ A continuación vemos un ejemplo de análisis de PowerTOP en el consumo de energ
             sizes="(min-width: 534px) 534px, 100vw"
             width="534"
             height="514">
-          </amp-img>
+          </img>
         </a>
 </figure>
 

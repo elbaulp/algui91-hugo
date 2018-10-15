@@ -21,7 +21,7 @@ El aprendizaje automático se distingue en dos tipos. **Supervisado**, donde se 
 
 <figure>
         <a href="/img/classTree.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -32,7 +32,7 @@ El aprendizaje automático se distingue en dos tipos. **Supervisado**, donde se 
             sizes="(min-width: 910px) 910px, 100vw"
             width="910"
             height="715">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Árbol de tipos de clasificaciones</figcaption>
 </figure>
@@ -45,7 +45,7 @@ Uno de los problemas del *clustering* es su subjetividad. En la Figura de abajo 
 
 <figure>
         <a href="/img/clustering-agrupamientos.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -56,7 +56,7 @@ Uno de los problemas del *clustering* es su subjetividad. En la Figura de abajo 
             sizes="(min-width: 1034px) 1034px, 100vw"
             width="1034"
             height="628">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Agrupar es subjetivo. Créd. Prof. Juan Carlos Cubero</figcaption>
 </figure>
@@ -78,7 +78,7 @@ La desigualdad triangular puede comprenderse mejor visualmente en la figura. Es 
 
 <figure>
         <a href="/img/triangle.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -89,7 +89,7 @@ La desigualdad triangular puede comprenderse mejor visualmente en la figura. Es 
             sizes="(min-width: 497px) 497px, 100vw"
             width="497"
             height="480">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Desigualdad triangular explicada visualmente. Créd. Wikipedia</figcaption>
 </figure>
@@ -107,7 +107,7 @@ La distancia Euclídea es la línea recta entre dos puntos. En la distancia Manh
 
 <figure>
         <a href="/img/maneu.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -118,7 +118,7 @@ La distancia Euclídea es la línea recta entre dos puntos. En la distancia Manh
             sizes="(min-width: 480px) 480px, 100vw"
             width="480"
             height="480">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Distancias Manhattan y Euclidea. Las líneas roja, azul y amarilla tienen distancia Manhattan 12, la menor posible. La verde tiene distancia Euclídea 8.49. *Créd. [Wikipedia]</figcaption>
 </figure>
@@ -129,7 +129,7 @@ En la distancia de Chebyshev la distancia entre dos puntos es la mayor de sus di
 
 <figure>
         <a href="/img/chess.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -140,7 +140,7 @@ En la distancia de Chebyshev la distancia entre dos puntos es la mayor de sus di
             sizes="(min-width: 647px) 647px, 100vw"
             width="647"
             height="651">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Distancia de Chebyshev. *Créd. Wikipedia*</figcaption>
 </figure>
@@ -149,7 +149,7 @@ Por último la distancia de Minkowski es una generalización de las anteriores. 
 
 <figure>
         <a href="/img/minkos.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -160,7 +160,7 @@ Por último la distancia de Minkowski es una generalización de las anteriores. 
             sizes="(min-width: 1387px) 1387px, 100vw"
             width="1387"
             height="300">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Distintos valores de \\(p\\) para la distancia de Minkowski. *Créd. Wikipedia*</figcaption>
 </figure>
@@ -181,7 +181,7 @@ Dentro de la clasificación no supervisada se distinguen principalmente los sigu
 
 <figure>
         <a href="/img/clustHieAgg.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -192,14 +192,14 @@ Dentro de la clasificación no supervisada se distinguen principalmente los sigu
             sizes="(min-width: 1181px) 1181px, 100vw"
             width="1181"
             height="238">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Tipos de medidas de proximidad para clustering aglomerativo</figcaption>
 </figure>
 
 <figure>
         <a href="/img/clustPart.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -210,14 +210,14 @@ Dentro de la clasificación no supervisada se distinguen principalmente los sigu
             sizes="(min-width: 1022px) 1022px, 100vw"
             width="1022"
             height="142">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Agrupamiento por particiones. Cred. Transparencias de clase.</figcaption>
 </figure>
 
 <figure>
         <a href="/img/clustHie.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -228,7 +228,7 @@ Dentro de la clasificación no supervisada se distinguen principalmente los sigu
             sizes="(min-width: 843px) 843px, 100vw"
             width="843"
             height="419">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Distintos tipos de clustering para los mismos datos</figcaption>
 </figure>
@@ -242,7 +242,7 @@ K-Means es un un algoritmo de *clustering* por particiones. Tiene un parámetro 
 
 <figure>
         <a href="/img/kmeansEx.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -253,7 +253,7 @@ K-Means es un un algoritmo de *clustering* por particiones. Tiene un parámetro 
             sizes="(min-width: 1120px) 1120px, 100vw"
             width="1120"
             height="411">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Ejemplo ejecución de k-means</figcaption>
 </figure>
@@ -286,7 +286,7 @@ No hay ninguna forma de obtener el `k` óptimo salvo prueba y error. Sin embargo
 
 <figure>
         <a href="/img/kmeansElbow.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -297,7 +297,7 @@ No hay ninguna forma de obtener el `k` óptimo salvo prueba y error. Sin embargo
             sizes="(min-width: 1039px) 1039px, 100vw"
             width="1039"
             height="510">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Método del codo para elección de k</figcaption>
 </figure>
@@ -326,7 +326,7 @@ DBSCAN está basado en una aproximación basada en el centro. Consiste en medir 
 
 <figure>
         <a href="/img/dbscanPoints.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -337,7 +337,7 @@ DBSCAN está basado en una aproximación basada en el centro. Consiste en medir 
             sizes="(min-width: 990px) 990px, 100vw"
             width="990"
             height="770">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Tipos de puntos en DBSCAN</figcaption>
 </figure>
@@ -352,7 +352,7 @@ DBSCAN necesita de dos parámetros antes de ser ejecutado, *MinPts* y *Eps*, def
 
 <figure>
         <a href="/img/dbscanEps.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -363,7 +363,7 @@ DBSCAN necesita de dos parámetros antes de ser ejecutado, *MinPts* y *Eps*, def
             sizes="(min-width: 453px) 453px, 100vw"
             width="453"
             height="364">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Elección de Eps y MinPts</figcaption>
 </figure>
@@ -387,7 +387,7 @@ Las **técnicas no supervisadas** tratan me medir si la estructura del *clusteri
 
 <figure>
         <a href="/img/clustEvalUns.png">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -398,7 +398,7 @@ Las **técnicas no supervisadas** tratan me medir si la estructura del *clusteri
             sizes="(min-width: 993px) 993px, 100vw"
             width="993"
             height="603">
-          </amp-img>
+          </img>
         </a>
         <figcaption>Formas de medir la cohesión y separación. *Créd. J.C Cubero*</figcaption>
 </figure>

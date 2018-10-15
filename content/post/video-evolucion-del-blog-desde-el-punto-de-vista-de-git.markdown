@@ -15,7 +15,7 @@ title: "Vídeo - Evolución Del Blog Desde El Punto De Vista De Git"
 ---
 
 <figure>
-    <a href="/img/Gource-Evolucion-del-blog-desde-el-punto-de-vista-de-Git.png"><amp-img sizes="(min-width: 1366px) 1366px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Gource-Evolucion-del-blog-desde-el-punto-de-vista-de-Git.png" title="Vídeo - Evolución Del Blog Desde El Punto De Vista De Git" alt="Vídeo - Evolución Del Blog Desde El Punto De Vista De Git" width="1366px" height="768px" /></a>
+    <a href="/img/Gource-Evolucion-del-blog-desde-el-punto-de-vista-de-Git.png"><img sizes="(min-width: 1366px) 1366px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/Gource-Evolucion-del-blog-desde-el-punto-de-vista-de-Git.png" title="Vídeo - Evolución Del Blog Desde El Punto De Vista De Git" alt="Vídeo - Evolución Del Blog Desde El Punto De Vista De Git" width="1366px" height="768px" /></a>
 </figure>
 
 Hace algún tiempo que hablé del programa _Gource_, una herramienta que permite visualizar la evolución y contribuciones de un proyecto git. En su día expliqué en un breve [tutorial cómo usar gource](/gource-visualizar-la-evolucion-de-un-repositorio-git/ "Ejemplo de Gource"). Hoy se me ocurrió ejecutar este programa sobre el repositorio que almacena este blog. El resultado me pareció curioso y quise grabarlo en vídeo para enseñároslo.

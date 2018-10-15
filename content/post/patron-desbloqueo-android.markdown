@@ -41,14 +41,14 @@ Para realizar esta aplicación se ha usado una librería llamada [PatterLock](ht
 En esta aplicación se le pide al usuario que establezca un patrón de bloqueo, puede ser tan complejo como el patrón de bloqueo usado en [Android](/curso-programacion-android/ "Curso de Android"). Una vez establecido, cuando se introduzca correctamente la aplicación tomará una foto a los 3 segundos. A continuación mostramos la pantalla principal de la aplicación.
 
 <figure>
-    <a href="/img/npi/photoGesture.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/photoGesture.png" title="Pantalla principal de photoGesture" alt="Pantalla principal de photoGesture" width="338px" height="600px" /></a>
+    <a href="/img/npi/photoGesture.png"><img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/photoGesture.png" title="Pantalla principal de photoGesture" alt="Pantalla principal de photoGesture" width="338px" height="600px" /></a>
 <span class="image-credit">Pantalla principal de photoGesture</span>
 </figure>
 
 Al pulsar _“Establecer patrón”_ veremos lo siguiente:
 
 <figure>
-    <a href="/img/npi/setPattern.png"><amp-img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/setPattern.png" title="Establecer patrón" alt="Establecer patrón" width="338px" height="600px" /></a>
+    <a href="/img/npi/setPattern.png"><img sizes="(min-width: 338px) 338px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/setPattern.png" title="Establecer patrón" alt="Establecer patrón" width="338px" height="600px" /></a>
     <span class="image-credit">Establecer patrón</span>
 </figure>
 
@@ -57,14 +57,14 @@ Es posible hacer que el patrón no sea visible cuando lo introducimos, para aña
 Cuando pulsemos _Establecer patrón_ se nos pedirá que lo dibujemos dos veces, para confirmarlo:
 
 <figure>
-    <a href="/img/npi/drawingPatter.png"><amp-img sizes="(min-width: 338px) 338px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/drawingPatter.png" title="Dibujando el patrón" alt="Dibujando el patrón" width="338px" height="600px" /></a>
+    <a href="/img/npi/drawingPatter.png"><img sizes="(min-width: 338px) 338px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/drawingPatter.png" title="Dibujando el patrón" alt="Dibujando el patrón" width="338px" height="600px" /></a>
     <span class="image-credit">Dibujando el patrón</span>
 </figure>
 
 Hecho esto, cuando volvamos a la pantalla principal, en lugar de “Establecer patrón” aparecerá “Echar foto”. Si pulsamos sobre ese botón, se nos pide el patrón establecido. Si se introduce bien, aparecerá la cámara con una cuenta atrás, al llegar a 0 se echará una foto:
 
 <figure>
-    <a href="/img/npi/countdown.png"><amp-img sizes="(min-width: 338px) 338px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/countdown.png" title="Cuenta atrás para echar la foto" alt="Cuenta atrás para echar la foto" width="338px" height="600px" /></a>
+    <a href="/img/npi/countdown.png"><img sizes="(min-width: 338px) 338px, 100vw"on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/npi/countdown.png" title="Cuenta atrás para echar la foto" alt="Cuenta atrás para echar la foto" width="338px" height="600px" /></a>
     <span class="image-credit">Cuenta atrás para echar la foto</span>
 </figure>
 

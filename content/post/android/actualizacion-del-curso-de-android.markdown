@@ -12,7 +12,7 @@ title: "Actualización Del Curso De Android"
 ---
 
 <figure>
-  <a href="/img/2014/01/iconoAndroid.png"><amp-img layout="responsive" src="/img/2014/01/iconoAndroid.png" title="{{ page.title }}" alt="{{ page.title }}" /></a>
+  <a href="/img/2014/01/iconoAndroid.png"><img layout="responsive" src="/img/2014/01/iconoAndroid.png" title="{{ page.title }}" alt="{{ page.title }}" /></a>
 </figure>
 
 Hacía mucho tiempo que tenía pendiente escribir este artículo. Años atrás tuve que crear un curso de Android básico para impartirlo en una academia. Mi idea era integrarlo con el [curso de Android](/curso-programacion-android/ "Curso de Android") disponible en el blog desde hace unos años, pero como suele pasar, se va dejando y dejando... Aunque no esté publicando en el blog estos meses, sí que estoy escribiendo bastante (El curso de criptografía por ejemplo).

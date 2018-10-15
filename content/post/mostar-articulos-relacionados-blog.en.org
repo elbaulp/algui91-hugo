@@ -14,7 +14,7 @@ A long time ago I wanted to show *similar/related posts* at the end of each post
 
 <figure>
         <a href="/img/clustering-similar-posts-sklearn-python.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -25,7 +25,7 @@ A long time ago I wanted to show *similar/related posts* at the end of each post
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="437">
-          </amp-img>
+          </img>
         </a>
 </figure>
 
@@ -101,7 +101,7 @@ I've used /KMeans/ to do the clustering. The most time consuming task of all thi
 
 <figure>
         <a href="/img/Elbow method for clustering.jpg">
-          <amp-img
+          <img
             on="tap:lightbox1"
             role="button"
             tabindex="0"
@@ -112,7 +112,7 @@ I've used /KMeans/ to do the clustering. The most time consuming task of all thi
             sizes="(min-width: 640px) 640px, 100vw"
             width="640"
             height="546">
-          </amp-img>
+          </img>
         </a>
         <figcaption>In this example, you can slightly appreciate an elbow on k=12</figcaption>
 </figure>

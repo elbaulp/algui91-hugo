@@ -36,7 +36,7 @@ gource /ruta/a/.git
 El resultado es algo como esto:
 
 <figure>
-    <a href="/img/2013/05/gourceGit-1024x804.png"><amp-img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/gourceGit-1024x804.png" title="Gource: Visualizar la evolución de un repositorio Git" alt="Gource: Visualizar la evolución de un repositorio Git" width="1024px" height="804px" /></a>
+    <a href="/img/2013/05/gourceGit-1024x804.png"><img sizes="(min-width: 1024px) 1024px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/05/gourceGit-1024x804.png" title="Gource: Visualizar la evolución de un repositorio Git" alt="Gource: Visualizar la evolución de un repositorio Git" width="1024px" height="804px" /></a>
 </figure>
 
 Al pasar el ratón por la parte inferior, aparece un recuadro en el que podremos seleccionar la fecha a visualizar.

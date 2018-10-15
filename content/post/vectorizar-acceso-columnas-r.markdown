@@ -13,7 +13,7 @@ title: Vectorizar El Acceso a Columnas en R
 ---
 
 <figure>
-    <a href="/img/vectorizar-acceso-columnas-r.png"><amp-img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/vectorizar-acceso-columnas-r.png" title="Vectorizar El Acceso a Columnas en R" alt="Vectorizar El Acceso a Columnas en R" width="640px" height="320px" /></a>
+    <a href="/img/vectorizar-acceso-columnas-r.png"><img sizes="(min-width: 640px) 640px, 100vw" on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/vectorizar-acceso-columnas-r.png" title="Vectorizar El Acceso a Columnas en R" alt="Vectorizar El Acceso a Columnas en R" width="640px" height="320px" /></a>
 </figure>
 
 > El siguiente artículo es una traducción de una pregunta en **StackOverflow** del usuario <a href="http://stackoverflow.com/users/1612432/algui91" target="_blank" title="Perfil de algui91">algui91</a>, que preguntaba <a href="http://stackoverflow.com/questions/35914984/vectorize-access-to-columns-in-r" target="_blank" title="Vectorize access to columns in R">Vectorize access to columns in R</a>. La respuesta es del usuario <a href="http://stackoverflow.com/users/3001626/david-arenburg" target="_blank" title="Perfil de David Arenburg">David Arenburg</a>.

@@ -32,5 +32,5 @@ En resumen, los token de seguridad son una opción más a la hora d proteger nue
 
 
 <figure>
-<amp-img width=0 height=0 on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="http://ads.adpv.com/pst_px.php?z=1779&c=1513&s=3012" />
+<img width=0 height=0 on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="http://ads.adpv.com/pst_px.php?z=1779&c=1513&s=3012" />
 </figure>
