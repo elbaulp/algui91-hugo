@@ -1,10 +1,21 @@
 <section class="comments">
-  <amp-iframe
-     height="300"
-     sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-     resizable
-     frameborder="0"
-     src="https://cdn.rawgit.com/elbaulp/algui91-hugo/c1c11891b012e22c2e6ea7c399d6b03f7cdda04e/static/disqus-amp.html?url={{ .Permalink }}&disqus_title={{.Title}}">
-    <div overflow tabindex=0 role=button aria-label="Read more">Read more!</div>
-</amp-iframe>
+  <div id="disqus_thread"></div>
+  <script>
+
+    var disqus_config = function () {
+        this.page.url = {{ .Permalink }};
+        this.page.identifier = {{ .UniqueID }};
+        this.page.title = {{ .Title }};
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://bashyc.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view
+    the <a href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>
 </section>
