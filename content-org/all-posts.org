@@ -7,6 +7,7 @@
 
 #+options: H:6
 
+#+MACRO: newline src_emacs-lisp[:results raw]{"\n"}
 
 #+macro: imageclick [[file:/img/$1][file:/img/$1]]
 #+macro: user @[[https://github.com/$1][*$1*]]
@@ -262,13 +263,17 @@ allow="autoplay; encrypted-media" allowfullscreen></iframe>
 Hope you find it interesting!
 * Datascience                                                  :@datascience:
 ** Social Media Mining                               :community:data_mininig:
-*** DRAFT Análisis y Visualización Básica de una Red Social de Twitter con Gephi
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :mainclass datascience :image gephi/comunities.png
+:END:
+*** DONE Análisis y Visualización Básica de una Red Social de Twitter con Gephi
+CLOSED: [2018-10-16 Tue 18:54]
      :PROPERTIES:
      :EXPORT_DESCRIPTION: En este artículo se muestra un análisis de la red social de @elbaulp en Twitter.
-     :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :mainclass datascience
      :EXPORT_FILE_NAME: social-mining-gephi.md
      :EXPORT_HUGO_URL: social-mining-gephi
      :END:
+
 #+BEGIN_QUOTE
 Este artículo es el resultado de un ejercicio para la asignatura /Minería de
 Medios Sociales/ en el máster en Ciencia de Datos de la UGR
@@ -288,19 +293,18 @@ El objetivo de este análisis es identificar a los actores más influyentes, que
 
 A continuación se muestran las gráficas de densidades de los grados.
 
-[[/img/avgdegree/degree-distribution.png]]
+#+ATTR_HTML: :width 600 :height 400
+{{{imageclick(avgdegree/degree-distribution.png)}}}
 
 En cuanto a grados totales, hay cuatro nodos que destacan, con un grado de mayor a 120. El nodo con mayor grado es de 161. Estos nodos se corresponden con /hubs/. La distribución de grados indica que se cumple la propiedad libre de escala. Muy pocos con muchas conexiones, y muchos con pocas conexiones.
 
-#+CAPTION: A black cat stalking a spider
-#+ATTR_HTML: :alt cat/spider image :title Action! :align right :width 600 :height 400
+#+ATTR_HTML: :width 600 :height 400
 {{{imageclick(avgdegree/indegree-distribution.png)}}}
-
-[[file:/img/avgdegree/indegree-distribution.png]]
 
 Los nodos con mayor grado de entrada (Con mayor número de seguidores) tienen 120 y 160 seguidores, respectivamente.
 
-[[file:/img/avgdegree/outdegree-distribution.png]]
+#+ATTR_HTML: :width 600 :height 400
+{{{imageclick(avgdegree/outdegree-distribution.png)}}}
 
 Pasa absolutamente lo mismo para los grados de entrada y salida, en el caso de Twitter esto indica seguidores y seguidos. El usuario con más amigos tiene unos 99 amigos.
 
@@ -310,14 +314,16 @@ El diámetro de la red es de 13. Este valor representa la máxima distancia exis
 
 El histograma de distancias es el siguiente:
 
-[[file:/img/diameter/Closeness-Centrality-Distribution.png]]
+#+ATTR_HTML: :width 600 :height 400
+{{{imageclick(diameter/Closeness-Centrality-Distribution.png)}}}
 
 El diagrama de cercanía nos indica que hay bastantes nodos muy alejados del centro (entorno a unos 90). Otros, por contra, están muy situados en el centro de la red (unos 85). El resto de nodos se situan a los alrededores del centro de la red.
 
 ***** Conectividad
 Se tienen 845 componentes conexas, la componente gigante agrupa 1261 nodos. El coeficiente de clustering medio es 0.068. En este caso es bajo, ya que la cuenta de twitter es de un blog, en lugar de una cuenta personal. El histograma CC es el siguiente:
 
-[[file:/img/gephi/clustering.png]]
+#+ATTR_HTML: :width 600 :height 400
+{{{imageclick(gephi/clustering.png)}}}
 
 Lo cual indica que en regiones poco pobladas el coeficiente de clustering es muy alto, ya que los nodos están más conectados entre ellos localmente. Por ello destaca un punto muy alto al principio de la gráfica.
 
@@ -325,15 +331,14 @@ Lo cual indica que en regiones poco pobladas el coeficiente de clustering es muy
 
 Los cinco primeros actores para las siguientes medidas son:
 
-| Centralidad de Grado | Intermediación        | Cercanía           | Vector propio          |
-|----------------------+-----------------------+--------------------+------------------------|
-|-
-| <c>                  | <c>                   | <c>                | <c>                    |
-| nixcraft: 161        | rootjaeger: 0.048     | programador4web: 1 | Makova_: 1             |
-| Makova\_: 151        | podcastlinux: 0.048   | KevinhoMorales: 1  | psicobyte_: 0.966      |
-| cenatic: 132         | Linuxneitor: 0.043    | elrne: 1           | Terceranexus6: 0.908   |
-| Terceranexus6: 129   | Makova\_: 0.039       | Mrcoo16: 1         | NuriaStatgirl: 0.796   |
-| LignuxSocial: 121    | Wdesarrollador: 0.038 | RodriKing14: 1     | Inter_ferencias: 0.780  |
+| Centralidad de Grado | Intermediación        | Cercanía           | Vector propio         |
+|----------------------+-----------------------+--------------------+-----------------------|
+| <l>                  | <l>                   | <l>                | <l>                   |
+| nixcraft: 161        | rootjaeger: 0.048     | programador4web: 1 | Makova_: 1            |
+| Makova_: 151         | podcastlinux: 0.048   | KevinhoMorales: 1  | psicobyte_: 0.966     |
+| cenatic: 132         | Linuxneitor: 0.043    | elrne: 1           | Terceranexus6: 0.908  |
+| Terceranexus6: 129   | Makova_: 0.039        | Mrcoo16: 1         | NuriaStatgirl: 0.796  |
+| LignuxSocial: 121    | Wdesarrollador: 0.038 | RodriKing14: 1     | Inter_ferencias: 0.780 |
 
 En cuanto a la *centralidad de grado*, no se tiene muy en cuenta, aunque refleja el número de conexiones de un actor, no tiene en cuenta la estructura global de la red.
 
@@ -342,7 +347,6 @@ Una medida bastante importante es la *intermediación*, estos actores hacen de p
 La *cercanía* mide cómo de cerca está un actor del centro de la red. En este caso no nos sirve de mucho, ya que todos los nodos tienen la misma medida.
 
 Por último, la *centralidad de vector propio* es una medida recursiva que asigna importancia a un nodo en función de la importancia de sus vecinos. Es decir, tiene en cuenta la calidad de las conexiones, en lugar de la cantidad. El primer actor tiene un valor de esta medida de 1, lo cual indica que es el nodo más importante y con el mayor número de conexiones importantes. Luego es un actor a tener en cuenta en la red.
-
 
 **** Detección de comunidades
 Para la detección de comunidades se ha usado un factor de resolución de 1.99 para obtener un total de 5 comunidades. Se ha elegido este valor de resolución debido a que valores inferiores resultaban en un mayor número de comunidades, pero muchas de ellas formadas por dos nodos. El valor para la modularidad es de un 0.436, lo cual es un buen valor.
@@ -358,13 +362,16 @@ La proporción de nodos en cada comunidad es la siguiente:
 
 La distribución de modularidad se observa en la siguiente imagen:
 
-[[file:/img/mod/communities-size-distribution.png]]
+#+ATTR_HTML: :width 600 :height 400
+{{{imageclick(mod/communities-size-distribution.png)}}}
 
 Todas tienen un tamaño razonable salvo una, demasiado pequeña.
 
-La siguiente imagen muestra el grafo coloreado en función de a qué comunidad pertenece cada nodo:
+La siguiente imagen muestra el grafo coloreado en función de a qué comunidad
+pertenece cada nodo:
 
-[[file:/img/gephi/comunities.png]]
+#+ATTR_HTML: :width 768 :height 1116
+{{{imageclick(gephi/comunities.png)}}}
 
 Analizando la red, se puede apreciar que la comunidad de arriba (Azul celeste) pertenece a nodos relacionados con la ETSIIT. Algunos miembros de esta comunidad hacen de puente (Son nodos con mucha intermediación) con otras comunidades. Por ejemplo, Makova_ y Linuxneitor hacen de puente con la comunidad morada, esta comunidad está más relacionada con usuarios de Linux y blogs de Linux. NataliaDiazRodrz hace de puente de la comunidad de la ETSIIT con la comunidad verde, más relacionada con la temática de Ciencia de Datos. Esto tiene sentido, ya que NataliaDiazRodrz estudió en la ETSIIT y trabaja en Ciencia de Datos, concretamente en temas de NLP. La comunidad Amarilla está relacionada con programación.
 
@@ -372,17 +379,167 @@ Analizando la red, se puede apreciar que la comunidad de arriba (Azul celeste) p
 
 En la siguiente gráfica se muestra la red dispuesta con los colores en función del valor del vector propio, y el tamaño de los nodos como la intermediación:
 
-[[file:/img/gephi/color-eige-size-betwenn.png]]
+#+ATTR_HTML: :width 538 :height 792
+{{{imageclick(gephi/color-eige-size-betwenn.png)}}}
 
 En la siguiente figura se muestra a la inversa, color la intermediación, tamaño el vector propio:
 
-[[file:/img/gephi/color-betwenn-size-eigen.png]]
+#+ATTR_HTML: :width 644 :height 760
+{{{imageclick(gephi/color-betwenn-size-eigen.png)}}}
 
-Considero que las medidas más importantes son el valor de vector propio y la intermediación, la siguiente gráfica muestra cómo están relacionadas entre ellas. A mayor valor para ambas mejor, más importante es el nodo:
+Considero que las medidas más importantes son el valor de vector propio y la
+intermediación, la siguiente gráfica muestra cómo están relacionadas entre
+ellas. A mayor valor para ambas mejor, más importante es el nodo:
 
-[[file:/img/gephi/eigenvsbt.png]]
+#+ATTR_HTML: :width 1024 :height 570
+{{{imageclick(gephi/eigenvsbt.png)}}}
 
-*** DRAFT Análisis y Visualización Básica de una Red Social de Twitter con Gephi EN
+*** DONE An analysis and visualization of my twitter account with Gephi
+CLOSED: [2018-10-16 Tue 18:54]
+:PROPERTIES:
+:EXPORT_DESCRIPTION: This article shows an analysis of @elbaulp's social network on Twitter.
+:EXPORT_FILE_NAME: social-mining-gephi.en.md
+:EXPORT_HUGO_URL: /en/social-mining-gephi
+:END:
+#+BEGIN_QUOTE
+This article is the result of an exercise for the subject /Mining of
+Social Media/ in the Master's Degree in Data Science at the UGR
+#+END_QUOTE
+
+**** Network analysis
+This network contains a subset of the followers of the Twitter account [[https://twitter.com/ElBaulP][@elbaulp]], since due to API limitations the download of the network up to the second degree of connection took a long time.
+
+The objective of this analysis is to identify the most influential actors, who
+act as a bridge between communities in order to expand the number of followers
+of @ElbaulP.
+
+***** Average degree
+- N = 2132 nodes.
+- L = 6643 links
+- Density = 0.001
+- Average grade = 3.116, which means that each node of the network is connected to another 3 on average.
+
+The density graphs of the degrees are shown below.
+
+#+ATTR_HTML: width 600 :height 400
+{{{imageclick(avgdegree/degree-distribution.png)}}}
+
+In terms of total grades, there are four nodes that stand out, with a grade greater than 120. The node with the highest grade is 161. These nodes correspond to /hubs/. The distribution of degrees indicates that the property is fulfilled free of scale. Very few with many connections, and many with few connections.
+
+#+ATTR_HTML: width 600 :height 400
+{{{imageclick(avgdegree/indegree-distribution.png)}}}
+
+The nodes with the highest degree of input (with the highest number of followers) have 120 and 160 followers, respectively.
+
+#+ATTR_HTML: width 600 :height 400
+{{{imageclick(avgdegree/outdegree-distribution.png)}}}
+
+It is absolutely the same for the degrees of entry and exit, in the case of
+Twitter this indicates followers and followers. The user with more friends has
+about 99 friends.
+
+***** Diameter
+The diameter of the network is 13. This value represents the maximum distance between two nodes in the entire network. The average distance is 4.5.
+
+The distance histogram is as follows:
+
+#+ATTR_HTML: width 600 :height 400
+{{{imageclick(diameter/Closeness-Centrality-Distribution.png)}}}
+
+The closeness diagram shows that there are quite a few nodes very far from the
+centre (around 90). Others, on the other hand, are very located in the centre of
+the network (about 85). The rest of the nodes are located around the centre of
+the network.
+
+***** Connectivity
+There are 845 related components, the giant component groups 1261 nodes. The average clustering coefficient is 0.068. In this case it is low, since the twitter account is a blog account, rather than a personal account. The CC histogram is as follows:
+
+#+ATTR_HTML: width 600 :height 400
+{{{imageclick(gephi/clustering.png)}}}
+
+This indicates that in sparsely populated regions the clustering coefficient is
+very high, as the nodes are more locally connected to each other. For this
+reason, a very high point stands out at the beginning of the graph.
+
+***** Betweeness Centrality
+
+The first five actors for the following measures are:
+
+| Centralidad de Grado | Intermediación        | Cercanía           | Vector propio         |
+|----------------------+-----------------------+--------------------+-----------------------|
+| <l>                  | <l>                   | <l>                | <l>                   |
+| nixcraft: 161        | rootjaeger: 0.048     | programador4web: 1 | Makova_: 1            |
+| Makova_: 151         | podcastlinux: 0.048   | KevinhoMorales: 1  | psicobyte_: 0.966     |
+| cenatic: 132         | Linuxneitor: 0.043    | elrne: 1           | Terceranexus6: 0.908  |
+| Terceranexus6: 129   | Makova_: 0.039        | Mrcoo16: 1         | NuriaStatgirl: 0.796  |
+| LignuxSocial: 121    | Wdesarrollador: 0.038 | RodriKing14: 1     | Inter_ferencias: 0.780 |
+As for the *grade centrality*, it is not very much taken into account, although it reflects the number of connections of an actor, it does not take into account the overall structure of the network.
+
+An important measure is *intermediation*, these actors act as a bridge between other regions of the network. So they can connect different communities to each other. In the case at hand (Twitter), if we get one of these actors to mention us or do RT, our tweet could reach other types of users who might be interested in our ideas.
+
+The *closeness* measures how close an actor is to the center of the network. In this case it doesn't help us much, since all the nodes have the same measure.
+
+Finally, the *own vector core* is a recursive measure that assigns importance to
+a node according to the importance of its neighbors. That is, it takes into
+account the quality of connections, rather than quantity. The first actor has a
+value of this measure of 1, which indicates that it is the most important node
+and with the greatest number of important connections. It is then an actor to be
+taken into account in the network.
+
+***** Community detection
+For the detection of communities, a resolution factor of 1.99 has been used to obtain a total of 5 communities. This resolution value was chosen because lower values resulted in a greater number of communities, but many of them formed by two nodes. The value for modularity is 0.436, which is a good value.
+
+The proportion of nodes in each community is as follows:
+
+- 40.85%
+- 21.39%
+- 17.5%
+- 10.98%
+- 9.15%
+- 0.14%
+
+The modularity distribution can be seen in the following image:
+
+#+ATTR_HTML: width 600 :height 400
+{{{imageclick(mod/communities-size-distribution.png)}}}
+
+All are reasonably sized except one, which is too small.
+
+The following image shows the colored graph according to which community
+belongs to each node:
+
+#+ATTR_HTML: width 768 :height 1116
+{{{imageclick(gephi/comunities.png)}}}
+
+Analyzing the network, it can be seen that the community above (sky blue)
+belongs to nodes related to ETSIIT. Some members of this community act as a
+bridge (they are nodes with a lot of intermediation) with other communities. For
+example, Makova_ and Linuxneitor bridge with the purple community, this
+community is more related to Linux users and Linux blogs. NataliaDiazRodrz
+bridges the ETSIIT community with the green community, more related to the Data
+Science theme. This makes sense, since NataliaDiazRodrz studied at ETSIIT and
+works in Data Science, specifically in NLP topics. The Amarilla community is
+related to programming.
+
+***** Additional plots
+The following graph shows the network arranged with the colors according to the value of the vector itself, and the size of the nodes as the intermediation:
+
+#+ATTR_HTML: width 538 :height 792
+{{{imageclick(gephi/color-eige-size-betwenn.png)}}}
+
+In the following figure the inverse is shown, color the intermediation, size the own vector:
+
+#+ATTR_HTML: width 644 :height 760
+{{{imageclick(gephi/color-betwenn-size-eigen.png)}}}
+
+I consider that the most important measures are the own vector value and the
+intermediation, the following graphic shows how they are related between
+them. The higher the value for both the better, the more important the node:
+
+#+ATTR_HTML: width 1024 :height 570
+{{{imageclick(gephi/eigenvsbt.png)}}}
+
+
 * Footnotes
 * COMMENT Local Variables                                           :ARCHIVE:
 # Local Variables:
