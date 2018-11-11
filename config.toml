@@ -88,6 +88,7 @@ page = "/:filename/"
 tag = "tags"
 category = "categories"
 author = "author"
+portfolio = "portfolio"
 
 [params]
     description = "Blog en el que publico todo lo que aprendo. Principalmente interesado en seguridad, Machine Learning, criptografía, ciencia de datos y desarrollo software."
@@ -110,8 +111,7 @@ author = "author"
     organizationName = "El Baúl del Programador" # set organisation name
     organisationAddress = "Some Street 123, 12345 City" # set organisation address
 
-    socialProfiles = ["http://www.facebook.com/elbaulp",
-                      "http://plus.google.com/+elbauldelprogramador",
+    socialProfiles = ["http://plus.google.com/+elbauldelprogramador",
                       "https://twitter.com/elbaulp",
                       "https://telegram.me/elbaulp"]  # for sameAs in organisation's structured data
 
