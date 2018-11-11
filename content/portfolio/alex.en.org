@@ -1,7 +1,7 @@
 +++
 author = "alex"
 title = "Alejandro Alcalde's Portfolio"
-date = "2018-11-11T12:34:44+01:00"
+date = "2018-11-11T12:53:16+01:00"
 +++
 
 I am a *Data Scientist* and *Computer Scientist* interested in applying *machine learning* to real world examples, I also like to contribute to *Open Source*. Below is a list of projects I have done that I think are interesting.
