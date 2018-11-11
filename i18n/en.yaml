@@ -75,7 +75,7 @@
 - id: translate_pr
   translation: "Create a Pull Request"
 - id: more_posts
-  translation: "More {{ .name }}'s posts"
+  translation: "{{ .name }}'s posts"
 - id: lastMod
   translation: "Updated on"
 - id: related
