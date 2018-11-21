@@ -261,6 +261,7 @@ src="https://www.youtube-nocookie.com/embed/dixjPmbJ1Ts" frameborder="0"
 allow="autoplay; encrypted-media" allowfullscreen></iframe>
 #+END_EXPORT
 Hope you find it interesting!
+** TODO Coloración Grafo
 * Datascience                                                  :@datascience:
 ** Social Media Mining                               :community:data_mininig:
 :PROPERTIES:
