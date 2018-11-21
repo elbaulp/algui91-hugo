@@ -41,7 +41,7 @@ $i.*(\.mp4|\.mp3)
 - `.*` match zero or more characters after the song name.
 - `(\.mp4|\.mp3)` match only files with [_mp3_ or _mp4_ extensions][4].
 
-When building regular expressions, I find useful to use some king of tool like __regex texter__, that allows to visualize the regular expression:
+When building regular expressions, I find useful to use some king of tool like __regex tester__, that allows to visualize the regular expression:
 
 <figure>
     <img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="/img/2013/11/Buscar-archivos-con-locate-mediante-expresiones-regulares-complejas.png" title="{{ page.title }}" alt="{{ page.title }}" width="627px" height="285px"></img>
