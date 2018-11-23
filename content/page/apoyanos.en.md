@@ -10,5 +10,4 @@ Write and maintain a blog is time consuming. If you want to support our work you
 <ul>
     <li><em>Become a  <a href="http://patreon.com/elbauldelprogramador">patreon!</a>.</em></li>
     <li>Thought <a href="https://www.paypal.me/elbaul"><strong><em>paypal</em></strong></a></li>
-    <li><em>Download one of our <a href="/en/manuales-gratuitos/">free Ebooks</a></em></li>
 </ul>
