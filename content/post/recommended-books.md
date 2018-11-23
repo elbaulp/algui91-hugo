@@ -42,7 +42,7 @@ Si estás buscando más libros que leer, puede que te interesen las siguientes d
     </figure>
     <p>Este libro, de <a href="https://sebastianraschka.com/" target="_blank" title="Sebastian Raschka">Sebastian Raschka</a> lo descubrí escuchando uno de los <a href="/blogs-canales-podcast-aprender-informatica/">podcasts de Ciencia de Datos</a>. Muy fácil de seguir y con bastante código de ejemplo.</p>
     <div class="tags">
-      <a href="http://amzn.to/2fJVjwk" target="_blank">Ver en Amazon</a>
+      <a href="https://amzn.to/2FA1OxW" target="_blank">Ver en Amazon</a>
     </div>
   </article>
 
@@ -66,7 +66,7 @@ Si estás buscando más libros que leer, puede que te interesen las siguientes d
     </figure>
     <p>Este es el primer libro que leí cuando decidí aprender <strong>scala</strong>. Es un libro bastante bueno, cubre desde los aspéctos más básicos hasta conceptos avanzados. Si nunca has programado en <em>scala</em>, este es tu libro.</p>
     <div class="tags">
-      <a href="http://amzn.to/2njQomO" target="_blank">Ver en Amazon</a>
+      <a href="https://amzn.to/2S6GJMJ" target="_blank">Ver en Amazon</a>
     </div>
   </article>
 
@@ -90,7 +90,7 @@ Si estás buscando más libros que leer, puede que te interesen las siguientes d
     </figure>
     <p>Este libro trata el <strong>testeo de software</strong> desde otra perspectiva, además de enseñarte qué es el <strong>TDD</strong> (<em>Test-Driven Development</em>), te enseña a aplicarlo enfocándolo a problemas de <em>Machine Learning</em>. Enfocar los problemas de <em>Machine Learning</em> desde este punto de vista te ayudará a crear modelos más robustos y comparar distinas técnicas de una forma sencilla y modular.</p>
     <div class="tags">
-      <a href="http://amzn.to/2mIW0rR" target="_blank">Ver en Amazon</a>
+      <a href="https://amzn.to/2PQbFV0" target="_blank">Ver en Amazon</a>
     </div>
   </article>
 
@@ -114,7 +114,7 @@ Si estás buscando más libros que leer, puede que te interesen las siguientes d
     </figure>
     <p>Yegor es un <strong>blogger ruso</strong> e ingeniero de Software con un blog muy popular. En su libro da consejos de cómo cualquier blogger principiante puede empezar a hacer las cosas bien para atraer a potenciales lectores y crear una comunidad sólida. Si ya tienes un blog con bastantes visitas, no te lo recomiendo, ya que posiblemente hayas aplicado la gran mayoría de consejos mencionados en el libro.</p>
     <div class="tags">
-      <a href="http://amzn.to/2nF1YcP" target="_blank">Ver en Amazon</a>
+      <a href="https://amzn.to/2FA4vPX" target="_blank">Ver en Amazon</a>
     </div>
   </article>
 
@@ -138,7 +138,7 @@ Si estás buscando más libros que leer, puede que te interesen las siguientes d
     </figure>
     <p>Este es uno de mis primeros libros sobre <a href="https://elbauldelprogramador.com/categories/seguridad/">seguridad</a>, y de todos los libros que he leido de informática, uno de mis favoritos. En él se explica de forma detallada cómo funcionan los programas a nivel interno, qué hace el compilador para generar el código ensamblador, qué hace en realidad el código ensamblador... y cómo es posible explotar los programas con vulnerabilidades. Si estás interesado en cómo conseguir esto, hace tiempo escribí un artículo basándome en este libro: <a href="https://elbauldelprogramador.com/explotacion-buffers-overflows-y-exploits-parte-i/">Explotación - Buffers OverFlows y exploits (Parte I)</a>.</p>
     <div class="tags">
-      <a href="http://amzn.to/2oqfPk6" target="_blank">Ver en Amazon</a>
+      <a href="https://amzn.to/2znTtYx" target="_blank">Ver en Amazon</a>
     </div>
   </article>
 
@@ -162,7 +162,7 @@ Si estás buscando más libros que leer, puede que te interesen las siguientes d
     </figure>
     <p>Este es uno de los libros principales que hemos usado en mi facultad en la asignatura “Aprendizaje Automático”, está bastante bien, muy teórico pero bien explicado y con ejemplos sencillos de entender.</p>
     <div class="tags">
-      <a href="http://amzn.to/2mIVWZ8" target="_blank">Ver en Amazon</a>
+      <a href="https://amzn.to/2r3nnwK" target="_blank">Ver en Amazon</a>
     </div>
   </article>
 
@@ -186,7 +186,7 @@ Si estás buscando más libros que leer, puede que te interesen las siguientes d
     </figure>
     <p>Si eres desarrollador, es casi una obligación que sepas usar <a href="https://elbauldelprogramador.com/categories/git/">git</a>, este libro cubre todos los aspectos desde nivel principiante hasta niveles avanzados, cuando leí este libro, creé una <a href="https://elbauldelprogramador.com/mini-tutorial-y-chuleta-de-comandos-git/">chuleta de comandos Git</a>.</p>
     <div class="tags">
-      <a href="http://amzn.to/2nEXEKe" target="_blank">Ver en Amazon</a> | <a href="https://git-scm.com/book/en/v2" target="_blank" title="Ver en gitscm.com">Ver en gitscm.com</a>
+      <a href="https://amzn.to/2zmPdZc" target="_blank">Ver en Amazon</a> | <a href="https://git-scm.com/book/en/v2" target="_blank" title="Ver en gitscm.com">Ver en gitscm.com</a>
     </div>
   </article>
 </div>
