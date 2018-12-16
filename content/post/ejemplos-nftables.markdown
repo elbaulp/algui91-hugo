@@ -311,7 +311,7 @@ Tenemos una empresa, en la cual tenemos 3 subredes: 192.168.1.0/24, 192.168.2.0/
 
 Para la red 192.168.1.0/24 tenemos los requisitos siguientes:
 
-- Esta compuesta por 2 servidores, uno web (192.168.1.2)y otro ftp (192.168.12), en los cuales se debe implementar  nat.
+- Esta compuesta por 2 servidores, uno web (192.168.1.2)y otro ftp (192.168.1.3), en los cuales se debe implementar  nat.
 - Los servidores SOLO deben de escuchar/responder peticiones, jamás hacerlas hacia el exterior.
 
 Para  red 192.168.2.0/24 tenemos los siguientes requisitos:
