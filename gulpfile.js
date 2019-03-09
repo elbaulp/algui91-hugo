@@ -30,7 +30,7 @@ gulp.task('stylus', function(){
 /**
  * HTML minify
  */
-gulp.task('minify-html', () => {
+gulp.task('minify-html', function() {
     return gulp.src('public/**/*.html')
         .pipe(htmlmin({
             collapseWhitespace: true,
@@ -43,6 +43,7 @@ gulp.task('minify-html', () => {
         }))
         .pipe(gulp.dest('./public'))
 })
+
 
 /**
  * Imagemin Task
@@ -68,4 +69,4 @@ gulp.task('unused-css', function() {
  * Default task, running just `gulp` will compile the stylus,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['stylus']);
+//gulp.task('default', ['stylus']);
