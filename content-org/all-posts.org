@@ -26,8 +26,8 @@
 
 #+author: alex
 
-* Dev                                                                  :@dev:
-** Arduino line follower                                           :arduino:
+* Dev                                                                                         :@dev:
+** Arduino line follower                                                                  :arduino:
 *** DONE Arduino Zumo Siguelineas Evita obstaculos :robótica:@how_to:@articulos:
 CLOSED: [2018-09-16 Sun 18:42]
 :PROPERTIES:
@@ -262,7 +262,119 @@ allow="autoplay; encrypted-media" allowfullscreen></iframe>
 #+END_EXPORT
 Hope you find it interesting!
 ** TODO Coloración Grafo
-* Datascience                                                  :@datascience:
+** DONE Create a Telegram Bot, from Development to Deployment
+CLOSED: [2019-07-17 Wed 21:56]
+:PROPERTIES:
+:EXPORT_DESCRIPTION: Create a telegram bot, from development to deployment.
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :mainclass dev
+:EXPORT_FILE_NAME: create-deploy-telegram-bot.en.md
+:EXPORT_HUGO_URL: /en/create-deploy-telegram-bot
+:END:
+
+I have been wanting for a while  to build a *telegram bot* who did something useful. For example, I created some time ago a *telegram channel* called [[https://t.me/CompTrainIndividuals][CompTrain Individuals]] to post the crossfit WORKOUT from [[http://comptrain.co][comptrain.co]]. but it was somewhat painful since I had to check its website every day, copy the workout and paste it on the telegram channel. So I though, that is a great use case for a telegram bot! In this post I will explain very quickly how I did it, from development to deployment.
+
+*** Botfather, your bot and your token
+
+Firsts thing first, you need to create your bot and obtain your token via the *@botfather* bot on telegram. Once you have it, keep it secret.
+
+*** Intro to the python api
+
+There is a python library that makes it extremely easy and painless to write a
+telegram bot, it is called [[https://python-telegram-bot.org][python-telegram-bot]]. Although its very complete, I
+have only used a tiny part of the library to achieve my requeriments, *send a
+message to a telegram channel at a given time, every day.* This is the key function to do it:
+
+#+BEGIN_SRC python
+  def main():
+      token = os.environ["TOKEN"]
+      me = os.environ["ME"]
+
+      # Download page
+      headers = {
+          "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
+      }
+
+      getPage = requests.get("https://comptrain.co/free-programming/", headers=headers)
+      getPage.raise_for_status()  # if error it will stop the program
+
+      # Parse text for foods
+      soup = bs4.BeautifulSoup(getPage.text, "html.parser")
+      mydivs = soup.findAll("div", {"class": "vc_gitem-zone-mini"}, limit=2)[1]
+      date = mydivs.h4.get_text()  # .find('h4').getText()
+      date = "<strong>{}</strong>".format(date.upper())
+
+      a = mydivs.find_all(["p", "h2"])[2:]
+      buff = "{}".format(date)
+      for item in a:
+          if not item.has_attr("style") or item.name == "h2":
+              buff = "%s%s" % (buff, clean_html(item))
+
+      bot = telegram.Bot(token=token)
+
+      logging.info("Sending {}\n\n".format(buff))
+
+      bot.send_message(chat_id=me, text=buff, parse_mode="html")
+
+      logging.info("%s" % buff)
+
+if __name__ == '__main__':
+    logging.info('Starting at %s' % datetime.datetime.now())
+    schedule.every().day.at('03:00:00').do(main)
+    while True:
+        # logging.info('Time %s' % datetime.datetime.now())
+        schedule.run_pending()
+        sleep(30)
+#+END_SRC
+
+*** Explain a little bit the code
+
+Basically the bot does the following:
+
+- Wait until 3 am PST time
+- Go to the website where the workout is.
+- Parse the webpage with beautiful soup to get and format the workout.
+- Send it to the telegram channel.
+
+Easy!
+
+*** Deployment
+
+Now the bot is working, we need to deploy it somewhere in order to execute it
+continuously. After a few hours of searching and testing environments, I found
+two free hostings, *OpenShift* and *Google Cloud Platform*, both of them work
+like a charm. Right now I am using Google Cloud.
+
+**** Create a Kubernetes Engine
+- Go to [[https://console.cloud.google.com/kubernetes/][Google Cloud Platform Kubernetes page]] and create a kubernetes cluster.
+- Go to [[https://console.cloud.google.com/kubernetes/workload][Workloads]] and create a new container, pointing to the repo that contains the bot.
+- That's it!.
+
+*** Final thoughs
+That's all!, hope you enjoy it, if you have any question do not hesitate to
+comment below.
+
+All the code its on Github, in the repository {{{ghlink(elbaulp/comptrain-bot)}}}
+
+
+** TODO Port to LineageOS                                                               :linea
+*** DRAFT How to port a device to LINEAGEOS
+:PROPERTIES:
+:EXPORT_DESCRIPTION: Documentation for doing anything in LineageOS is very scarce, the aim of this post is to serve as a recolection of multiple resoirces I have found while searching how to port my Xperia Z5 (Sumire) to Lineage-16.0
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :mainclass dev
+:EXPORT_FILE_NAME: how-to-port-device-lineageos.en.md
+:EXPORT_HUGO_URL: /en/how-to-port-device-lineageos
+:END:
+**** Introduction
+**** Using Repo
+**** Adding your repo to the local manifest
+**** Compile
+**** Upload
+**** References
+- [[https://stackoverflow.com/questions/56206290/porting-lineageos-device-from-cm-14-1-to-lineage-16-0][Porting LineageOs device from Cm-14.1 to Lineage-16.0]]
+- [[https://fat-tire.github.io/porting-intro.html][How To Port CyanogenMod/LineageOS Android To Your Own Device]]
+
+
+* Datascience                                                                         :@datascience:
 ** Social Media Mining                               :community:data_mininig:
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :mainclass datascience :image gephi/comunities.png
