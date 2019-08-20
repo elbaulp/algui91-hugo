@@ -8,6 +8,7 @@ url = "/en/binomial-distribution/"
 mainclass = "datascience"
 image = "binomial-pascal-triangle.jpg"
 math = true
+draft = false
 +++
 
 <figure>
