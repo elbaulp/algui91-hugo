@@ -1,6 +1,6 @@
 +++
 title = "Binomial distribution (easily explained)"
-author = ["cristina"]
+author = "cristina"
 description = "An easy explanation to the binomial distribution with sample code in Scala"
 date = 2019-08-20T20:30:00+02:00
 categories = ["statistics", "data-science"]
